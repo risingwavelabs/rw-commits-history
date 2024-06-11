@@ -220,6 +220,50 @@
 - `20231003` `03630056a643c904bc6397330ef9b0c41a70f4c1`
 - `20231002` `6fb7ae5f47addc3953e3be76778c70dd611a5bf4`
 - `20230929` `ae3a59da33a65fb2909361eaa186440ff9fa0883`
+- `20230928` `78b83dfec37014b56a8aaaaf6dfab27c4bcd6005`
+- `20230927` `454e72d056a4e9e2db4a13cbef37d591b18ce2f6`
+- `20230926` `09a1dcb22355677b3a7dcc589def5727b475bd88`
+- `20230925` `79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94`
+- `20230924` `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33`
+- `20230922` `063f58e123c6eead17f0a0da01099e2d92d3ed35`
+- `20230921` `a12611d81b98ef437b632792057705e4bdfd5f74`
+- `20230920` `6500c1edd93b8cd1bcc949a59d38bfce7f38d669`
+- `20230919` `c8ea5ee309c820cef5c73704d1211e9c3aa58dc2`
+- `20230918` `cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08`
+- `20230914` `41ebb2ad72c8432bae643daed980c818344b1df8`
+- `20230913` `173ad4e249760b86636941676077b5ed63f48551`
+- `20230912` `1650a3ba40d8f212f8f6be5f9b354e947733221f`
+- `20230911` `c9185f567fa7a4195650d5469b63639f18f13bc9`
+- `20230910` `9b5db14dbd02fe37f8e5daa32cc46f181533c9d2`
+- `20230909` `6806eca5f415d2bf15a66a21c302af7f96372b55`
+- `20230908` `df0af3ddf6a04bd05d19f6df206ac8347b9745ec`
+- `20230907` `cc3faf678c518e52d99dcaafa207abb63867b8ff`
+- `20230906` `52192e639489047b4dc9106feb0475888d1618bc`
+- `20230905` `fdaf30e0cbe4865b77401c5c025054a0cf5df564`
+- `20230904` `999b9d2670df3dbe24493cefe690ccc765cd4c7a`
+- `20230903` `257f9874e1eb15fbbec2633857261511f8326e4d`
+- `20230901` `a9aacfc2e0f52081489fb2744fb5b7e66ef0d3b8`
+- `20230831` `96a49f7ce3aee6fe11d4467081fadd396af6efff`
+- `20230830` `15f4fdd48de1c573a4c221c8fe5797a92dbe481c`
+- `20230829` `88f502c9cbe183772c10eb8a3adec698a526a4cd`
+- `20230828` `5818f62f6a1c8001f371db4c4e74534a505a10cd`
+- `20230827` `29274576d3fe79621ad3eafaf119f78031d0633b`
+- `20230826` `144688c25b47f0aff199b43629a348c0dd669d2c`
+- `20230825` `03e92dc21391b4aed251a07489faa44a75f7e8af`
+- `20230824` `eedc3040d9598dd0413ce81d6f74f2a495babf3e`
+- `20230823` `12d2f28b7d84f72af62f4c2785f6bb5e23e43510`
+- `20230822` `b04d1df5e878f19dd580e169192bd90996b9a8ff`
+- `20230821` `e0d5a7f67be5e9c7a9ce7b91af782c20220a7759`
+- `20230820` `9e4831f5df62361e04a364db230b3fd3034dcbed`
+- `20230818` `88a4daca851bf23bea68065426779aeea105bd8d`
+- `20230817` `0874a484f7bd456d1f8f93f06e06c9f40428df88`
+- `20230816` `66b2f3664bd6fd474310b5f76b15497a575cb266`
+- `20230815` `4a5bf065b8d3c119393856e2390763e62499e765`
+- `20230814` `c76d2fbf476bb7593ba1c5817418a9b290a25634`
+- `20230813` `bddf6096a6f02c63141430813dc07bd24c550ed6`
+- `20230812` `708df8e1233ae624a952117273a917b1007230fa`
+- `20230811` `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b`
+- `20230810` `53a2cf16b017a644cfe9924330fc4edf3f8ae096`
 </details>
 
 # Commit history
@@ -240,7 +284,7 @@
 - `7c31cf93c1286a53195e8a38ac48aaa9e3b98096` [feat(expr): add `jsonb_set` function (#17124)](https://github.com/risingwavelabs/risingwave/pull/17124)
 
 ## nightly-20240610
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6de082d590e8cbb92e6ceee6a941a8d05aa4bf76?expand=1&base=3d4bd821542da958db3e07e4b7fc856cc6374c1e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3d4bd821542da958db3e07e4b7fc856cc6374c1e...6de082d590e8cbb92e6ceee6a941a8d05aa4bf76)
 - `6de082d590e8cbb92e6ceee6a941a8d05aa4bf76` [perf(source): reserve capacity when building struct fields (#17170)](https://github.com/risingwavelabs/risingwave/pull/17170)
 - `45d3b76f0ceaa812ba689d733c4ca07d4c96a0b8` [feat(cdc): map upstream table schema automatically for cdc table (#16986)](https://github.com/risingwavelabs/risingwave/pull/16986)
 - `9e137fcf5784ccaf3f703196419746eb8b917308` [refactor(connector): migrate to zero-copy access implementation (#17165)](https://github.com/risingwavelabs/risingwave/pull/17165)
@@ -248,24 +292,24 @@
 - `b569d78b719b9cd77cb2711e26068788cd7d31be` [style: fix nightly clippy (#17178)](https://github.com/risingwavelabs/risingwave/pull/17178)
 
 ## nightly-20240609
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3d4bd821542da958db3e07e4b7fc856cc6374c1e?expand=1&base=4004e7ddd47cb0228128364bc248fc6f9124ca29&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4004e7ddd47cb0228128364bc248fc6f9124ca29...3d4bd821542da958db3e07e4b7fc856cc6374c1e)
 - `3d4bd821542da958db3e07e4b7fc856cc6374c1e` [ci: bump slt to hide NOTICE logs (#17145)](https://github.com/risingwavelabs/risingwave/pull/17145)
 
 ## nightly-20240608
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4004e7ddd47cb0228128364bc248fc6f9124ca29?expand=1&base=8d16088c244801df1bd2e6b1cc06516d817756b6&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8d16088c244801df1bd2e6b1cc06516d817756b6...4004e7ddd47cb0228128364bc248fc6f9124ca29)
 - `4004e7ddd47cb0228128364bc248fc6f9124ca29` [feat(pg_compatible): add field `numeric_precision_radix` in information_schema.columns (#17176)](https://github.com/risingwavelabs/risingwave/pull/17176)
 - `bf9da25b2c8f97869c94fd6cb6bc9e6d3489f266` [feat(meta): add default configure max level (#17140)](https://github.com/risingwavelabs/risingwave/pull/17140)
 - `9d5df04737fdb71529584974d11e04e56a607975` [fix(expr): don't panic on table function errors (#17156)](https://github.com/risingwavelabs/risingwave/pull/17156)
 
 ## nightly-20240607
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8d16088c244801df1bd2e6b1cc06516d817756b6?expand=1&base=0055935abd42ad5ca1566390316ce562f29b2d29&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0055935abd42ad5ca1566390316ce562f29b2d29...8d16088c244801df1bd2e6b1cc06516d817756b6)
 - `8d16088c244801df1bd2e6b1cc06516d817756b6` [chore(storage): rename field with _v2 (#17166)](https://github.com/risingwavelabs/risingwave/pull/17166)
 - `f52d17777a05ca9a8e904759f02f50d80dac0a5d` [chore: revert "perf(over window): optimize range cache with state table reverse iterator" (#17158)](https://github.com/risingwavelabs/risingwave/pull/17158)
 - `845748c561a2ab05ab6a3d7f7e3b5978f506fddf` [test: remove duplicated avro pk test (#17062)](https://github.com/risingwavelabs/risingwave/pull/17062)
 - `88bb14aa6eb481f1dc0e92ee190bafad089d2afd` [fix(test): fix meta backup test (#17147)](https://github.com/risingwavelabs/risingwave/pull/17147)
 
 ## nightly-20240606
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0055935abd42ad5ca1566390316ce562f29b2d29?expand=1&base=690b84a9e35988a9fd2d9174adec34017f8db696&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/690b84a9e35988a9fd2d9174adec34017f8db696...0055935abd42ad5ca1566390316ce562f29b2d29)
 - `0055935abd42ad5ca1566390316ce562f29b2d29` [feat(batch): clean spill directory at the start (#17155)](https://github.com/risingwavelabs/risingwave/pull/17155)
 - `c47ff9aa127207ee6cc9e4a9e8dac9e3ab5c0ffb` [fix: start new cluster with target commit version in backwards compat test (#17144)](https://github.com/risingwavelabs/risingwave/pull/17144)
 - `c43fa4939f9187c96ba8081ad875fd0f060540dc` [fix: reject concurrent altering table column (#17097)](https://github.com/risingwavelabs/risingwave/pull/17097)
@@ -280,7 +324,7 @@
 - `c2a70bd5ba3485c81c4fb058dc94aaad5f94d1ab` [chore(deps): upgrade madsim (#17134)](https://github.com/risingwavelabs/risingwave/pull/17134)
 
 ## nightly-20240605
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/690b84a9e35988a9fd2d9174adec34017f8db696?expand=1&base=b1c25c0e675f0a0830d1ec3fb63b04404bf4986e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b1c25c0e675f0a0830d1ec3fb63b04404bf4986e...690b84a9e35988a9fd2d9174adec34017f8db696)
 - `690b84a9e35988a9fd2d9174adec34017f8db696` [feat(storage): support different snapshot for streaming jobs (#15896)](https://github.com/risingwavelabs/risingwave/pull/15896)
 - `e01eb2ea972108abbbb7a191c1ec2c7620dde73f` [feat(sink): decouple starrocks commit from risingwave commit (#16816)](https://github.com/risingwavelabs/risingwave/pull/16816)
 - `030f2faa16846ededec37b1b01cdaf74c6c639e0` [feat(batch): support spill hash join (#17122)](https://github.com/risingwavelabs/risingwave/pull/17122)
@@ -296,7 +340,7 @@
 - `dc3713acc122cee9c23cd3261e1690d08c107535` [refactor(source): split parser into separate crate (part 1) (#17081)](https://github.com/risingwavelabs/risingwave/pull/17081)
 
 ## nightly-20240604
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b1c25c0e675f0a0830d1ec3fb63b04404bf4986e?expand=1&base=da28570ab58385ca5850f659ed0f96e3d9843151&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/da28570ab58385ca5850f659ed0f96e3d9843151...b1c25c0e675f0a0830d1ec3fb63b04404bf4986e)
 - `b1c25c0e675f0a0830d1ec3fb63b04404bf4986e` [fix: support co-exist for sql backend with cdc and support mysql sql backend in risedev (#17092)](https://github.com/risingwavelabs/risingwave/pull/17092)
 - `3de4bda57fc5f43ddbd7290a65aae233f3673776` [chore(batch): remove crate level expect(dead_code) (#17082)](https://github.com/risingwavelabs/risingwave/pull/17082)
 - `ab04031ddf1fc1172c8139425ce63f26308c7877` [refactor(parser): use v2 parser for cast/extract/substring/position/overlay (#17053)](https://github.com/risingwavelabs/risingwave/pull/17053)
@@ -315,7 +359,7 @@
 - `6593cfe09c808253d2416767e2286110aad01be9` [refactor: add ref secret in WithOption and use hashmap for WithOption inner (#17057)](https://github.com/risingwavelabs/risingwave/pull/17057)
 
 ## nightly-20240603
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/da28570ab58385ca5850f659ed0f96e3d9843151?expand=1&base=5b2319a187f3e8c150b28d852243d4a307980c30&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5b2319a187f3e8c150b28d852243d4a307980c30...da28570ab58385ca5850f659ed0f96e3d9843151)
 - `da28570ab58385ca5850f659ed0f96e3d9843151` [feat(udf): add metric of UDF memory usage (#16922)](https://github.com/risingwavelabs/risingwave/pull/16922)
 - `144c7cc760b384397eb878fabc063a080a1ef1fe` [feat(storage): support setting minimum spill batch flush size (#16962)](https://github.com/risingwavelabs/risingwave/pull/16962)
 - `3732975b66641b439dd993bc4711449b2e3d30e7` [feat(source): support avro uuid type (#17069)](https://github.com/risingwavelabs/risingwave/pull/17069)
@@ -332,11 +376,11 @@
 - `e47296c0b7a1a0ee68504273038423fcb6f19bec` [test(source): refactor upsert avro tests (#17044)](https://github.com/risingwavelabs/risingwave/pull/17044)
 
 ## nightly-20240602
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5b2319a187f3e8c150b28d852243d4a307980c30?expand=1&base=5fa10ff0c853bc684a13fe5dd8e6d85cad12aa36&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5fa10ff0c853bc684a13fe5dd8e6d85cad12aa36...5b2319a187f3e8c150b28d852243d4a307980c30)
 - `5b2319a187f3e8c150b28d852243d4a307980c30` [chore(metrics): add pmax in batch latency histogram (#17034)](https://github.com/risingwavelabs/risingwave/pull/17034)
 
 ## nightly-20240531
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5fa10ff0c853bc684a13fe5dd8e6d85cad12aa36?expand=1&base=0c8b0360463293bb8de6bdad682ec48996feb3dc&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0c8b0360463293bb8de6bdad682ec48996feb3dc...5fa10ff0c853bc684a13fe5dd8e6d85cad12aa36)
 - `5fa10ff0c853bc684a13fe5dd8e6d85cad12aa36` [refactor(over window): move window state impls to `expr_impl` crate (#17047)](https://github.com/risingwavelabs/risingwave/pull/17047)
 - `0a70146c7e57c5014e6a42c300cb12035c6916d3` [feat(sink): support view dependency in the sink into table (#17043)](https://github.com/risingwavelabs/risingwave/pull/17043)
 - `2d21c08c9e99cecbb04e0015f06c128f837ae6c6` [feat: support enabling pretty log via env var (#17041)](https://github.com/risingwavelabs/risingwave/pull/17041)
@@ -351,7 +395,7 @@
 - `9edfd72a86a5e165eb8309a9c83b964c4eb3de80` [refactor(connector): remove `JsonParser` from production code (#17016)](https://github.com/risingwavelabs/risingwave/pull/17016)
 
 ## nightly-20240530
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0c8b0360463293bb8de6bdad682ec48996feb3dc?expand=1&base=c7ad769d6bac8596579687ba99bc2cc85e64c9fb&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c7ad769d6bac8596579687ba99bc2cc85e64c9fb...0c8b0360463293bb8de6bdad682ec48996feb3dc)
 - `0c8b0360463293bb8de6bdad682ec48996feb3dc` [refactor: minor refactor on avro (#17024)](https://github.com/risingwavelabs/risingwave/pull/17024)
 - `4bef0868a4272877e5f8c188a5036e66a1e38c05` [feat(frontend): support fetch n from subscription cursor (#16764)](https://github.com/risingwavelabs/risingwave/pull/16764)
 - `e154a374fe2a67d914eb039749f1446f9ef5fb18` [refactor(connector): do not expose internal implementation for parser benchmarks (#16996)](https://github.com/risingwavelabs/risingwave/pull/16996)
@@ -366,7 +410,7 @@
 - `2016c3236a9f87a3b7cfde78d42da0fce55fd563` [feat(parser): fix token location and print sql with cursor on parse error (#16959)](https://github.com/risingwavelabs/risingwave/pull/16959)
 
 ## nightly-20240529
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c7ad769d6bac8596579687ba99bc2cc85e64c9fb?expand=1&base=e2bdd4feb1ce336013c97fc06629a807f33b1b3a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e2bdd4feb1ce336013c97fc06629a807f33b1b3a...c7ad769d6bac8596579687ba99bc2cc85e64c9fb)
 - `c7ad769d6bac8596579687ba99bc2cc85e64c9fb` [feat(batch): support spill hash agg for the batch query (#16771)](https://github.com/risingwavelabs/risingwave/pull/16771)
 - `617221184e3ca5a20329ad1aa33eda6c6dcf9db4` [chore: fix typo and remove deadcode (#16994)](https://github.com/risingwavelabs/risingwave/pull/16994)
 - `a2cdd01e046219bcb3e9ad88d680b8d7dc243bd6` [fix(dependency): upgrade libsasl-sys to resolve build on Debian (#16991)](https://github.com/risingwavelabs/risingwave/pull/16991)
@@ -386,7 +430,7 @@
 - `84b0ac2f750c99fa167a482ecd531963cd8e6407` [feat(ci): introduce slow e2e test step (#16953)](https://github.com/risingwavelabs/risingwave/pull/16953)
 
 ## nightly-20240528
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e2bdd4feb1ce336013c97fc06629a807f33b1b3a?expand=1&base=a0d73230edfe0c831c250cb3ba6a271c4c9815ab&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0d73230edfe0c831c250cb3ba6a271c4c9815ab...e2bdd4feb1ce336013c97fc06629a807f33b1b3a)
 - `e2bdd4feb1ce336013c97fc06629a807f33b1b3a` [feat(streaming): lower high join amplification logging to > 2048 records, and rate limit at 1 per minute (#16957)](https://github.com/risingwavelabs/risingwave/pull/16957)
 - `44306fd337f550f14ed8e9d7d0c98a5bb16476f0` [chore(deps): Bump the aws group across 1 directory with 4 updates (#16913)](https://github.com/risingwavelabs/risingwave/pull/16913)
 - `2b525362d3fd39e19eabae52c381842df8c7f6e0` [feat(source): parse avro map into jsonb (#16948)](https://github.com/risingwavelabs/risingwave/pull/16948)
@@ -401,7 +445,7 @@
 - `1401d56c3cd88583b9bb2af1a73b274cf7fc5513` [feat(cdc): support INCLUDE TIMESTAMP for MySQL, PG and MongoDB cdc table (#16833)](https://github.com/risingwavelabs/risingwave/pull/16833)
 
 ## nightly-20240527
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0d73230edfe0c831c250cb3ba6a271c4c9815ab?expand=1&base=e16812bf3cbab2cdb59e47e62852197655996129&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e16812bf3cbab2cdb59e47e62852197655996129...a0d73230edfe0c831c250cb3ba6a271c4c9815ab)
 - `a0d73230edfe0c831c250cb3ba6a271c4c9815ab` [fix(object store): ban streaming upload for azure blob storage (#16715)](https://github.com/risingwavelabs/risingwave/pull/16715)
 - `240f0b94177a516a1eb1c474c9ea6e477a4a6c13` [perf(memory): use thread-local sequence-based memory eviction policy (#16087)](https://github.com/risingwavelabs/risingwave/pull/16087)
 - `3893df65ea09143c639fd89e6aab08db035be60e` [ci: add pubsub integration test (#16926)](https://github.com/risingwavelabs/risingwave/pull/16926)
@@ -412,19 +456,19 @@
 - `cdc9aef0df93a24fa2fdb757c220ea1ef2a88736` [fix(storage): fix get_created_table_ids (#16936)](https://github.com/risingwavelabs/risingwave/pull/16936)
 
 ## nightly-20240526
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e16812bf3cbab2cdb59e47e62852197655996129?expand=1&base=9144a3dc84f1c5052d7ec296e4872a1388251dac&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9144a3dc84f1c5052d7ec296e4872a1388251dac...e16812bf3cbab2cdb59e47e62852197655996129)
 - `e16812bf3cbab2cdb59e47e62852197655996129` [fix: use the search path when show tables (#16891)](https://github.com/risingwavelabs/risingwave/pull/16891)
 - `7a3fd212d9541210d3b3d32568a837bf78759431` [fix: fix s3 streaming upload metrics (#16929)](https://github.com/risingwavelabs/risingwave/pull/16929)
 
 ## nightly-20240525
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9144a3dc84f1c5052d7ec296e4872a1388251dac?expand=1&base=1aa85795d7895cf84c6b409b09867df6e26f16db&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1aa85795d7895cf84c6b409b09867df6e26f16db...9144a3dc84f1c5052d7ec296e4872a1388251dac)
 - `9144a3dc84f1c5052d7ec296e4872a1388251dac` [chore(scripts): Patch regex for install scripts, to allow installing release candidates (#16937)](https://github.com/risingwavelabs/risingwave/pull/16937)
 - `6b362ad2cc2c5c526ebbea91bb6ad76618d23397` [fix(parser): REGCLASS and REGPROC shouldn't be keyword (#16933)](https://github.com/risingwavelabs/risingwave/pull/16933)
 - `c40e4f869db6ce2dd8efcc74b8a0b2d419356e85` [feat(consistency): tolerate bad join degree (#16859)](https://github.com/risingwavelabs/risingwave/pull/16859)
 - `e5ad5d91dd7693b8b92be1fc06014a7190ba9caf` [feat(risedev): use docker for kafka service (#16536)](https://github.com/risingwavelabs/risingwave/pull/16536)
 
 ## nightly-20240524
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1aa85795d7895cf84c6b409b09867df6e26f16db?expand=1&base=50ae9d0511b566fc978ebedc8f2d7d7f6d3cfa51&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/50ae9d0511b566fc978ebedc8f2d7d7f6d3cfa51...1aa85795d7895cf84c6b409b09867df6e26f16db)
 - `1aa85795d7895cf84c6b409b09867df6e26f16db` [feat(parser): the 1st version of a new combinator style parser (#16876)](https://github.com/risingwavelabs/risingwave/pull/16876)
 - `7a16a2c51b019b73163e53d855639ebd11a0b2f6` [fix(consistency): enable state table sanity check only in strict consitency mode (#16147)](https://github.com/risingwavelabs/risingwave/pull/16147)
 - `eb3f53fd70771a1c07199435416214d900785a2d` [fix: Mixing arrangement backfill and no shuffle backfill can lead to scale failure. (#16923)](https://github.com/risingwavelabs/risingwave/pull/16923)
@@ -436,7 +480,7 @@
 - `d9890ef1f244b233e20b1c558edbda3e1b95377a` [refactor(connector): improve common split reader to chunk stream logic (#16892)](https://github.com/risingwavelabs/risingwave/pull/16892)
 
 ## nightly-20240523
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/50ae9d0511b566fc978ebedc8f2d7d7f6d3cfa51?expand=1&base=da162ced935cbc11004949b3ab9cdb8408e31076&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/da162ced935cbc11004949b3ab9cdb8408e31076...50ae9d0511b566fc978ebedc8f2d7d7f6d3cfa51)
 - `50ae9d0511b566fc978ebedc8f2d7d7f6d3cfa51` [fix(build): add openssl and pkg-config to dockerfile (#16907)](https://github.com/risingwavelabs/risingwave/pull/16907)
 - `4cfa0bf78c13dfed8623bf1cc17b462b366e5500` [fix(risedev): make it more robust for mysql service (#16900)](https://github.com/risingwavelabs/risingwave/pull/16900)
 - `68f2f1c809854ffccce440c2fca94f319b10f502` [refactor(meta): unify to modify hummock version via transaction (#16862)](https://github.com/risingwavelabs/risingwave/pull/16862)
@@ -447,13 +491,13 @@
 - `657a1d5348f12883a50fd24d6b30f2870d1ea6d1` [feat(func): impl quote_literal & quote_nullable (#16807)](https://github.com/risingwavelabs/risingwave/pull/16807)
 
 ## nightly-20240522
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/da162ced935cbc11004949b3ab9cdb8408e31076?expand=1&base=e6bd0472f9742b71e2feba8bf6e71233b737716c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6bd0472f9742b71e2feba8bf6e71233b737716c...da162ced935cbc11004949b3ab9cdb8408e31076)
 - `da162ced935cbc11004949b3ab9cdb8408e31076` [fix(compactor): fix the calculation of pending_pull_task_count (#16885)](https://github.com/risingwavelabs/risingwave/pull/16885)
 - `c40e477b83cdcf459406c4418dfbd008a0dd2cc3` [fix(build): disable python udf and deno udf on release (#16887)](https://github.com/risingwavelabs/risingwave/pull/16887)
 - `18a05240bf6fb6741cf0b14fda4acf6fd801a829` [fix: remove unused `r#type` field in GooglePubSubConfig (#16785)](https://github.com/risingwavelabs/risingwave/pull/16785)
 
 ## nightly-20240521
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6bd0472f9742b71e2feba8bf6e71233b737716c?expand=1&base=de86f94127f410bf9dba8343de4f18a61e5b9298&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/de86f94127f410bf9dba8343de4f18a61e5b9298...e6bd0472f9742b71e2feba8bf6e71233b737716c)
 - `e6bd0472f9742b71e2feba8bf6e71233b737716c` [refactor(hummock-manager): reorganize hummock manager methods  (#16873)](https://github.com/risingwavelabs/risingwave/pull/16873)
 - `dac892e9777d4c249da3ae81fdf7b2d3d1218ae7` [feat(storage): support reverse scan (#12570)](https://github.com/risingwavelabs/risingwave/pull/12570)
 - `ca8d8edc5e4f7785cbb84cdc44aebfd1c17b708f` [chore: remove join dead code (#16867)](https://github.com/risingwavelabs/risingwave/pull/16867)
@@ -474,7 +518,7 @@
 - `7bb54804afd1f27d29e3f4361c2d1cab79c6db21` [feat(stream): always log hash join large amplification records (#16840)](https://github.com/risingwavelabs/risingwave/pull/16840)
 
 ## nightly-20240520
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/de86f94127f410bf9dba8343de4f18a61e5b9298?expand=1&base=d3ff8f79d8ebe4339e8a6477e044aef52887228c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d3ff8f79d8ebe4339e8a6477e044aef52887228c...de86f94127f410bf9dba8343de4f18a61e5b9298)
 - `de86f94127f410bf9dba8343de4f18a61e5b9298` [feat(storage): add metrics for iter_log (#16658)](https://github.com/risingwavelabs/risingwave/pull/16658)
 - `5ba1874c3cb9c6785f2ac772ddfb6f1b3cd2ba87` [refactor(frontend): derive `create_type` when generating the table catalog (#16827)](https://github.com/risingwavelabs/risingwave/pull/16827)
 - `8b5a7bccd17ba245bf1d26b342550d059a4d9dd9` [refactor(object-store): remove async_trait macro on StreamingUploader and refine object store macro (#16800)](https://github.com/risingwavelabs/risingwave/pull/16800)
@@ -487,13 +531,13 @@
 - `837df640c79df34859e599b1fe990621f4dab652` [fix(stream): arrangement backfill should use dist key instead of pk to derive vnode (#16815)](https://github.com/risingwavelabs/risingwave/pull/16815)
 
 ## nightly-20240519
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d3ff8f79d8ebe4339e8a6477e044aef52887228c?expand=1&base=347e186d1bef729709fddfd7c8e84af92ce3cc5d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/347e186d1bef729709fddfd7c8e84af92ce3cc5d...d3ff8f79d8ebe4339e8a6477e044aef52887228c)
 - `d3ff8f79d8ebe4339e8a6477e044aef52887228c` [chore(deps): Bump protobuf-native from 0.2.1+3.19.1 to 0.2.2+3.19.1 (#16734)](https://github.com/risingwavelabs/risingwave/pull/16734)
 - `572b69e103b7685beb53f4c181b0c10733a30d53` [chore(deps): Bump either from 1.11.0 to 1.12.0 (#16810)](https://github.com/risingwavelabs/risingwave/pull/16810)
 - `b6276ab2df4f77d1274feaa129fb644da146ceeb` [chore: update docker image version to v1.9.0 (#16781)](https://github.com/risingwavelabs/risingwave/pull/16781)
 
 ## nightly-20240517
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/347e186d1bef729709fddfd7c8e84af92ce3cc5d?expand=1&base=8a98b856f4e9440d8ee6be0fffdda770001ffbc6&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8a98b856f4e9440d8ee6be0fffdda770001ffbc6...347e186d1bef729709fddfd7c8e84af92ce3cc5d)
 - `347e186d1bef729709fddfd7c8e84af92ce3cc5d` [fix: missing specified meta backend for backwards compat test config (#16797)](https://github.com/risingwavelabs/risingwave/pull/16797)
 - `31cc7c04c9e644a88b6f183429dbea9c2db0a27d` [feat(stream): add debug logs for join key with high amplification (#16799)](https://github.com/risingwavelabs/risingwave/pull/16799)
 - `30f1ebe4ee4d54f26b41d7e9fb351e3ea6826312` [fix(postgres-cdc): fix validation of PK with uppercase (#16793)](https://github.com/risingwavelabs/risingwave/pull/16793)
@@ -502,7 +546,7 @@
 - `a65ab9d70a8f9de0529eb38a7183f92163fe7ebe` [chore(storage): bump `object_store_read_attempt_timeout_ms` from `8s` to `16s` (#16719)](https://github.com/risingwavelabs/risingwave/pull/16719)
 
 ## nightly-20240516
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8a98b856f4e9440d8ee6be0fffdda770001ffbc6?expand=1&base=60f1d00851046d4270dd654cc6f8b79092342a50&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/60f1d00851046d4270dd654cc6f8b79092342a50...8a98b856f4e9440d8ee6be0fffdda770001ffbc6)
 - `8a98b856f4e9440d8ee6be0fffdda770001ffbc6` [feat(storage): only update related read version on flush finish (#16725)](https://github.com/risingwavelabs/risingwave/pull/16725)
 - `8c37e4ebaeac039c90f18c0bbe93fa9f8d7f30c8` [fix(compactor): fix unneccessary compactor meta grpc stream re-creation (#16783)](https://github.com/risingwavelabs/risingwave/pull/16783)
 - `93c221dd0352ccaf5702ed8c46660319b7dfdd76` [refactor(meta): break hummock manager Versioning into smaller structs (#16710)](https://github.com/risingwavelabs/risingwave/pull/16710)
@@ -514,7 +558,7 @@
 - `23b59d3a8a200fcb82a9cb081e328c9558260aa9` [fix(jdbc-sink): fix primary key bindings for the DELETE statement (#16770)](https://github.com/risingwavelabs/risingwave/pull/16770)
 
 ## nightly-20240515
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/60f1d00851046d4270dd654cc6f8b79092342a50?expand=1&base=a0b23507e4d9ff67d765cff5a368da0af63d03ea&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0b23507e4d9ff67d765cff5a368da0af63d03ea...60f1d00851046d4270dd654cc6f8b79092342a50)
 - `60f1d00851046d4270dd654cc6f8b79092342a50` [chore(build): update python3.12 installation in dockerfile (#16768)](https://github.com/risingwavelabs/risingwave/pull/16768)
 - `34c732a1007d3f89bb01ce5b5599178154786156` [feat(backfill): do not require at least 1 record to be read per epoch, if rate limit enabled (#16744)](https://github.com/risingwavelabs/risingwave/pull/16744)
 - `a63fa8c0dfd984cc7df208f650654c1d8a9122a3` [feat(planner): logical plan for rcte (#16680)](https://github.com/risingwavelabs/risingwave/pull/16680)
@@ -528,7 +572,7 @@
 - `7d2c7948a2b6796206e1eec4b807f787769a5f85` [chore: upgrade Ubuntu from 22.04 to 24.04 (#16752)](https://github.com/risingwavelabs/risingwave/pull/16752)
 
 ## nightly-20240514
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0b23507e4d9ff67d765cff5a368da0af63d03ea?expand=1&base=02d5caa55f11f102401d18b1dd0c572fa343d628&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/02d5caa55f11f102401d18b1dd0c572fa343d628...a0b23507e4d9ff67d765cff5a368da0af63d03ea)
 - `a0b23507e4d9ff67d765cff5a368da0af63d03ea` [feat(dashboard): add suscription in catalog (#16747)](https://github.com/risingwavelabs/risingwave/pull/16747)
 - `0971e55de2e7e81c464b27652382a48a23b627c6` [fix: avoid panic when auto scaling hit the maximum number of bind parameters in sql backend (#16750)](https://github.com/risingwavelabs/risingwave/pull/16750)
 - `44f990bdefe522e6ec32496dbf843ff75bf47c15` [feat: support pg service & pg meta backend in risedev using docker (#16662)](https://github.com/risingwavelabs/risingwave/pull/16662)
@@ -546,24 +590,24 @@
 - `c159e1d07651eeca27b0f37d8030c853d03a31a6` [fix: change token and refactor auto-update pipeline (#16721)](https://github.com/risingwavelabs/risingwave/pull/16721)
 
 ## nightly-20240513
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/02d5caa55f11f102401d18b1dd0c572fa343d628?expand=1&base=5ea0b67dfc2639800c8fb76abfaa5fc8138e0f0e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5ea0b67dfc2639800c8fb76abfaa5fc8138e0f0e...02d5caa55f11f102401d18b1dd0c572fa343d628)
 - `02d5caa55f11f102401d18b1dd0c572fa343d628` [refactor: move pubsub test to inline style (#16683)](https://github.com/risingwavelabs/risingwave/pull/16683)
 
 ## nightly-20240512
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5ea0b67dfc2639800c8fb76abfaa5fc8138e0f0e?expand=1&base=8a2e45d023275dd14f6dacb53f57a8afe1c9e610&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8a2e45d023275dd14f6dacb53f57a8afe1c9e610...5ea0b67dfc2639800c8fb76abfaa5fc8138e0f0e)
 - `5ea0b67dfc2639800c8fb76abfaa5fc8138e0f0e` [chore(deps): Bump next from 14.1.0 to 14.1.1 in /dashboard & update dashboard action (#16681)](https://github.com/risingwavelabs/risingwave/pull/16681)
 - `7da5ea8ce657619d3f294d21db82e2576c51cb0c` [refactor(optimizer, agg): reuse agg call rewriting logic between agg and over window (#16690)](https://github.com/risingwavelabs/risingwave/pull/16690)
 - `21b2502c36cdaf1eb15b78cf034a41f443a6b6ef` [fix(cdc): align special values of numeric type in postgres-cdc (#16416)](https://github.com/risingwavelabs/risingwave/pull/16416)
 
 ## nightly-20240511
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8a2e45d023275dd14f6dacb53f57a8afe1c9e610?expand=1&base=ffb8a0a2452daea2ada4ea8970f5e7bebc6361da&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffb8a0a2452daea2ada4ea8970f5e7bebc6361da...8a2e45d023275dd14f6dacb53f57a8afe1c9e610)
 - `8a2e45d023275dd14f6dacb53f57a8afe1c9e610` [feat(storage): avoid split sst by vnode partition for high level (#16495)](https://github.com/risingwavelabs/risingwave/pull/16495)
 - `88ef2352cbd1fcfc04ce5f5077952502128733d9` [chore(docs): Update banner img in README.md (#16703)](https://github.com/risingwavelabs/risingwave/pull/16703)
 - `156a2473651ef776225f6202928aafa34a95bdf1` [chore: remove stream lru dead code (#16669)](https://github.com/risingwavelabs/risingwave/pull/16669)
 - `228b9e8549de31ada6bd12b5a7ee4d166513f271` [refactor(udf): switch to the latest arrow-udf versions (#16619)](https://github.com/risingwavelabs/risingwave/pull/16619)
 
 ## nightly-20240510
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffb8a0a2452daea2ada4ea8970f5e7bebc6361da?expand=1&base=f78eb21db59b69881194630140292f01e69582ac&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f78eb21db59b69881194630140292f01e69582ac...ffb8a0a2452daea2ada4ea8970f5e7bebc6361da)
 - `ffb8a0a2452daea2ada4ea8970f5e7bebc6361da` [chore: replace the rfc link in nested-loop errors with the user doc link (#16682)](https://github.com/risingwavelabs/risingwave/pull/16682)
 - `763b393d5adeeeab4aa5f4051595bab23b086be4` [fix(streaming): assign lower score to `BarrierSend` error in root cause discovery (#16684)](https://github.com/risingwavelabs/risingwave/pull/16684)
 - `f343eba50b9ce63f581a139af715c22c90fd7730` [refactor(cdc): refactor parsing of non-builtin Postgres data types (#16589)](https://github.com/risingwavelabs/risingwave/pull/16589)
@@ -574,7 +618,7 @@
 - `164e4a3c968f878fa6fe408be6cce3d60b6fe98a` [feat(connector): MSK connection by AWS IAM (#16625)](https://github.com/risingwavelabs/risingwave/pull/16625)
 
 ## nightly-20240509
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f78eb21db59b69881194630140292f01e69582ac?expand=1&base=94d9e1b84c9e13b9c9b154df4aa611556cec839d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/94d9e1b84c9e13b9c9b154df4aa611556cec839d...f78eb21db59b69881194630140292f01e69582ac)
 - `f78eb21db59b69881194630140292f01e69582ac` [chore: a typo (#16663)](https://github.com/risingwavelabs/risingwave/pull/16663)
 - `dcec31a1d7cf85b6951d6c4425018f57c32621d4` [refactor(parser): simplify ARRAY expression parsing (#16639)](https://github.com/risingwavelabs/risingwave/pull/16639)
 - `c9a2083d6de9c987edcb43a0bf81908a352c4089` [fix: fix dependent table id column type in the model (#16660)](https://github.com/risingwavelabs/risingwave/pull/16660)
@@ -588,7 +632,7 @@
 - `2929fb8050cbd2cc873c50672d1ceec522c69e06` [refactor(object_store): refactor timeout and retry of object store interface (#16231)](https://github.com/risingwavelabs/risingwave/pull/16231)
 
 ## nightly-20240508
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/94d9e1b84c9e13b9c9b154df4aa611556cec839d?expand=1&base=c4293091c250a949739efd1deaa9083301ba7671&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c4293091c250a949739efd1deaa9083301ba7671...94d9e1b84c9e13b9c9b154df4aa611556cec839d)
 - `94d9e1b84c9e13b9c9b154df4aa611556cec839d` [refactor(batch): remove unused mem code (#16641)](https://github.com/risingwavelabs/risingwave/pull/16641)
 - `9d1b5943e5b0822f66527161979745f8bfe59e4f` [feat: support memory limit for batch queries (#16616)](https://github.com/risingwavelabs/risingwave/pull/16616)
 - `1bda190fbda7c8a2f612f5550740bbabd2f5ceef` [fix: fix user manager refcount on startup (#16632)](https://github.com/risingwavelabs/risingwave/pull/16632)
@@ -601,7 +645,7 @@
 - `ea1ecc40b2c4db95784ba6a378b8d5fb4d57749b` [chore: unify show cluster result with system catalog (#16609)](https://github.com/risingwavelabs/risingwave/pull/16609)
 
 ## nightly-20240507
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c4293091c250a949739efd1deaa9083301ba7671?expand=1&base=656ad33bd9f7df90da130c917f1a4f1f6be20e90&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/656ad33bd9f7df90da130c917f1a4f1f6be20e90...c4293091c250a949739efd1deaa9083301ba7671)
 - `c4293091c250a949739efd1deaa9083301ba7671` [fix:  fix the issue where the sql election follower hangs (#16614)](https://github.com/risingwavelabs/risingwave/pull/16614)
 - `cfedc2a201d081419eaad7f174ac9cff522d65e0` [fix(storage): fix unexpected dropping change log on compaction version delta (#16613)](https://github.com/risingwavelabs/risingwave/pull/16613)
 - `b9fd56e10a5ab62d080807c1599e066339d506e4` [feat(metrics): add metrics for prefetch memory usage (#16582)](https://github.com/risingwavelabs/risingwave/pull/16582)
@@ -618,7 +662,7 @@
 - `4fea7a533b95789d5247d474c456f1bc459968ce` [fix(metric): filter out NaN due to divide by zero in Grafana (#16590)](https://github.com/risingwavelabs/risingwave/pull/16590)
 
 ## nightly-20240506
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/656ad33bd9f7df90da130c917f1a4f1f6be20e90?expand=1&base=19f14526d14b764c1a0860769fc661ed54d7bb94&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/19f14526d14b764c1a0860769fc661ed54d7bb94...656ad33bd9f7df90da130c917f1a4f1f6be20e90)
 - `656ad33bd9f7df90da130c917f1a4f1f6be20e90` [chore(risedev): provide option to disable backtrace (#16586)](https://github.com/risingwavelabs/risingwave/pull/16586)
 - `16dbae33e2120d069cf293e3e0f4f0c0d774c3d1` [refactor(sink): DRY `SinkFormatterImpl::new` (#16575)](https://github.com/risingwavelabs/risingwave/pull/16575)
 - `b86ffb224a9705ce450fd7a8c3a2c5ef0759d21a` [fix: change full version delta column type for mysql meta backend (#16583)](https://github.com/risingwavelabs/risingwave/pull/16583)
@@ -629,23 +673,23 @@
 - `7b6cc24705a94f121b7aefe4511beea6300b9b25` [feat(mysql-cdc): support `ssl.mode` to allow configure the ssl behavior (#16579)](https://github.com/risingwavelabs/risingwave/pull/16579)
 
 ## nightly-20240505
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/19f14526d14b764c1a0860769fc661ed54d7bb94?expand=1&base=2895f48eaaa9e183e85fd86ec376d840c2d680b6&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2895f48eaaa9e183e85fd86ec376d840c2d680b6...19f14526d14b764c1a0860769fc661ed54d7bb94)
 - `19f14526d14b764c1a0860769fc661ed54d7bb94` [fix: name mis-align for `kinesis-s3-source` in main cron (#16569)](https://github.com/risingwavelabs/risingwave/pull/16569)
 
 ## nightly-20240502
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2895f48eaaa9e183e85fd86ec376d840c2d680b6?expand=1&base=3579aaedc03b0b6dfe2c88fdb219bab8eea356b1&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3579aaedc03b0b6dfe2c88fdb219bab8eea356b1...2895f48eaaa9e183e85fd86ec376d840c2d680b6)
 - `2895f48eaaa9e183e85fd86ec376d840c2d680b6` [chore(deps): Bump base64-url from 2.0.0 to 3.0.0 (#16570)](https://github.com/risingwavelabs/risingwave/pull/16570)
 - `d7eec0910928781063bca657cce19ba8cdb97088` [chore(deps): Bump enum-iterator from 2.0.0 to 2.1.0 (#16571)](https://github.com/risingwavelabs/risingwave/pull/16571)
 
 ## nightly-20240501
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3579aaedc03b0b6dfe2c88fdb219bab8eea356b1?expand=1&base=1c65460c62f4bbb3e582f2a06edd2ea9951234d4&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c65460c62f4bbb3e582f2a06edd2ea9951234d4...3579aaedc03b0b6dfe2c88fdb219bab8eea356b1)
 - `3579aaedc03b0b6dfe2c88fdb219bab8eea356b1` [fix(error): do not directly format `BoxedError` (#16558)](https://github.com/risingwavelabs/risingwave/pull/16558)
 - `943da741274154c5da960f4c4632996302c9aff3` [fix(test): make kafka/shared_source.slt less flaky (#16565)](https://github.com/risingwavelabs/risingwave/pull/16565)
 - `57895290a8025ea410c2fdb72e27b05fdd411285` [fix(risedev): don't kill tmux session unnecessarily (#16518)](https://github.com/risingwavelabs/risingwave/pull/16518)
 - `5b40139796f340ee8674c04c97f76b47fe4c877b` [feat(storage): add metrics to monitor old value size (#16559)](https://github.com/risingwavelabs/risingwave/pull/16559)
 
 ## nightly-20240430
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c65460c62f4bbb3e582f2a06edd2ea9951234d4?expand=1&base=4cfcbcd65420b5f8016a3f943af9c5e8bf527f9a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4cfcbcd65420b5f8016a3f943af9c5e8bf527f9a...1c65460c62f4bbb3e582f2a06edd2ea9951234d4)
 - `1c65460c62f4bbb3e582f2a06edd2ea9951234d4` [fix(error): fix compiling of lints (#16560)](https://github.com/risingwavelabs/risingwave/pull/16560)
 - `b9e96a51906e142aa24bebbbc8d77c720edae3bc` [feat(log-store): add monitoring sink buffer with metrics and await tree (#16554)](https://github.com/risingwavelabs/risingwave/pull/16554)
 - `bc8595818cd29ccdce0107a252b276a88ffbb836` [fix(ci): fix madsim unit test and backfill test failure in main-cron (#16534)](https://github.com/risingwavelabs/risingwave/pull/16534)
@@ -654,7 +698,7 @@
 - `6726ba75a7abbe9e85fb017494c8adaae942b4a0` [chore(ci): fix integration test docker logs (#16548)](https://github.com/risingwavelabs/risingwave/pull/16548)
 
 ## nightly-20240429
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4cfcbcd65420b5f8016a3f943af9c5e8bf527f9a?expand=1&base=9996e758cb7a05c931053e8ff7ca3a2094dfaf9a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9996e758cb7a05c931053e8ff7ca3a2094dfaf9a...4cfcbcd65420b5f8016a3f943af9c5e8bf527f9a)
 - `4cfcbcd65420b5f8016a3f943af9c5e8bf527f9a` [fix(storage): fix unexpected task picked by sublevel picker  (#16454)](https://github.com/risingwavelabs/risingwave/pull/16454)
 - `fbc3a6cdbbc9575fcab2032d3025a17c2eb7d268` [chore(bench): add plain_parser and json_parser comparison bench (#16526)](https://github.com/risingwavelabs/risingwave/pull/16526)
 - `45e9f7795666a7c0b5ef67a22f09b9c64b6357f2` [fix(storage): correctly update table stats in SkipWatermarkIterator (#16535)](https://github.com/risingwavelabs/risingwave/pull/16535)
@@ -674,7 +718,7 @@
 - `b2132438d23f3a5f4a4e8e56acdba746eca77799` [feat(cdc): introduce with option to configure cdc snapshot (#16426)](https://github.com/risingwavelabs/risingwave/pull/16426)
 
 ## nightly-20240427
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9996e758cb7a05c931053e8ff7ca3a2094dfaf9a?expand=1&base=dfd5449f4b185593fb7547defb7c28ff471314b2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfd5449f4b185593fb7547defb7c28ff471314b2...9996e758cb7a05c931053e8ff7ca3a2094dfaf9a)
 - `9996e758cb7a05c931053e8ff7ca3a2094dfaf9a` [doc: add comments for source executor's state table (#16499)](https://github.com/risingwavelabs/risingwave/pull/16499)
 - `4ba2e667b0f70896ea32e19d86ebe6b3dd763aec` [feat(connector): add request.required.acks for kafka connector producer (#16482)](https://github.com/risingwavelabs/risingwave/pull/16482)
 - `a4a911035f29a6fafcf135fa0b3c966d0086e333` [feat: reject some param for creating cdc table (#16513)](https://github.com/risingwavelabs/risingwave/pull/16513)
@@ -691,7 +735,7 @@
 - `d5be17d50812b0115f96c6eb88789c71f9323c52` [test: integrate mysql (user-managed) into risedev and inline source tests (#16449)](https://github.com/risingwavelabs/risingwave/pull/16449)
 
 ## nightly-20240425
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfd5449f4b185593fb7547defb7c28ff471314b2?expand=1&base=97e1bd01e0088c946499b603098921fd9f17883e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/97e1bd01e0088c946499b603098921fd9f17883e...dfd5449f4b185593fb7547defb7c28ff471314b2)
 - `dfd5449f4b185593fb7547defb7c28ff471314b2` [fix(jdbc-sink): fix deliver DELETE event for row with uuid as primary key (#16447)](https://github.com/risingwavelabs/risingwave/pull/16447)
 - `c97c972c4caa859c4c4edf214badb20b96c77c95` [fix(storage): update config and remove redundent code (#15286)](https://github.com/risingwavelabs/risingwave/pull/15286)
 - `126bcea416d530eb47b78705a12e1722210d47d0` [fix(planner): from-scalar-function shall also flatten struct fields similar to from-table-function (#16470)](https://github.com/risingwavelabs/risingwave/pull/16470)
@@ -700,7 +744,7 @@
 - `3181be40a7239337b53510f602b631c537eeaf75` [fix(source): rate limit fail when size of chunk ends with `Update` is limit + 1 (#16465)](https://github.com/risingwavelabs/risingwave/pull/16465)
 
 ## nightly-20240424
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/97e1bd01e0088c946499b603098921fd9f17883e?expand=1&base=ea45c3575f5da917d921c37b6381038589891b0d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ea45c3575f5da917d921c37b6381038589891b0d...97e1bd01e0088c946499b603098921fd9f17883e)
 - `97e1bd01e0088c946499b603098921fd9f17883e` [refactor(state-table): make consistent op an enum in state table (#16471)](https://github.com/risingwavelabs/risingwave/pull/16471)
 - `63a3a63bde361b9b0619228f505aaf5a1da1a19c` [fix: fix missing FK and wrong column type for subscription table (#16468)](https://github.com/risingwavelabs/risingwave/pull/16468)
 - `4a8b1e555b9626e1ffe6a830fef576af0e66c466` [feat: try to remove parallel unit mapping in frontend (#16205)](https://github.com/risingwavelabs/risingwave/pull/16205)
@@ -726,7 +770,7 @@
 - `75113bbeee4fd0389f3802c31e410d1d1269267c` [feat(catalog): add pg_range (#16425)](https://github.com/risingwavelabs/risingwave/pull/16425)
 
 ## nightly-20240422
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ea45c3575f5da917d921c37b6381038589891b0d?expand=1&base=ce45021bbd2aa3ad2c358a4e3cda884d7a8f7a5e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce45021bbd2aa3ad2c358a4e3cda884d7a8f7a5e...ea45c3575f5da917d921c37b6381038589891b0d)
 - `ea45c3575f5da917d921c37b6381038589891b0d` [chore: populate pg_attribute.attgenerated and pg_type.typdelim (#16436)](https://github.com/risingwavelabs/risingwave/pull/16436)
 - `2a11205296238cdee2fe7fa1463a2b79ca37053c` [test: refine root cause identification test of recovery (#16431)](https://github.com/risingwavelabs/risingwave/pull/16431)
 - `29fb42acf3367f0043035fe6a113ddea7900f22a` [feat(types): support char type in `#[derive(Fields)]` (#16437)](https://github.com/risingwavelabs/risingwave/pull/16437)
@@ -742,17 +786,17 @@
 - `a7e72c314ef77edb350ae8cfa97b2434345d1236` [feat(optimizer): add logical and batch iceberg scan operator (#16402)](https://github.com/risingwavelabs/risingwave/pull/16402)
 
 ## nightly-20240421
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce45021bbd2aa3ad2c358a4e3cda884d7a8f7a5e?expand=1&base=faaed4ec432b771289fb7614808b8c105b7d6284&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/faaed4ec432b771289fb7614808b8c105b7d6284...ce45021bbd2aa3ad2c358a4e3cda884d7a8f7a5e)
 - `ce45021bbd2aa3ad2c358a4e3cda884d7a8f7a5e` [chore(deps): Bump rustls from 0.23.4 to 0.23.5 (#16417)](https://github.com/risingwavelabs/risingwave/pull/16417)
 
 ## nightly-20240420
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/faaed4ec432b771289fb7614808b8c105b7d6284?expand=1&base=efa1fdadafa71f8750c562e911550f356fac7d1c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/efa1fdadafa71f8750c562e911550f356fac7d1c...faaed4ec432b771289fb7614808b8c105b7d6284)
 - `faaed4ec432b771289fb7614808b8c105b7d6284` [chore(snowflake-sink): update spec and related demo sql(s) (#16415)](https://github.com/risingwavelabs/risingwave/pull/16415)
 - `8b089f1d62820cf058019b4a19c1b2196e4c644e` [feat(meta): collect non-checkpoint epoch for checkpoint barrier commit (#16400)](https://github.com/risingwavelabs/risingwave/pull/16400)
 - `edc65a063aed8ffabdc71161982cb2732b34056d` [refactor(stream): add prelude for streaming executor modules (#16404)](https://github.com/risingwavelabs/risingwave/pull/16404)
 
 ## nightly-20240419
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/efa1fdadafa71f8750c562e911550f356fac7d1c?expand=1&base=0c464ab2a1d513955c1cb2aaa3a38388529b53f8&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0c464ab2a1d513955c1cb2aaa3a38388529b53f8...efa1fdadafa71f8750c562e911550f356fac7d1c)
 - `efa1fdadafa71f8750c562e911550f356fac7d1c` [feat(source): use fragment id only as Kafka consumer group id (#16111)](https://github.com/risingwavelabs/risingwave/pull/16111)
 - `46287069c7509499a3831a0b962599f97846b509` [test: add test for root cause identification of recovery (#16397)](https://github.com/risingwavelabs/risingwave/pull/16397)
 - `048017fcf8b0a63f237ee5d1268b85928e37d3d5` [feat(chore): dev-compactor (#16381)](https://github.com/risingwavelabs/risingwave/pull/16381)
@@ -774,7 +818,7 @@
 - `3daa16077321a486d762b055da96d43ae0327ac4` [feat(udf): Add deno as UDF language (#16263)](https://github.com/risingwavelabs/risingwave/pull/16263)
 
 ## nightly-20240418
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0c464ab2a1d513955c1cb2aaa3a38388529b53f8?expand=1&base=adcdd8cc81f8343cdea5b3a13bfbb4eeecf04c19&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/adcdd8cc81f8343cdea5b3a13bfbb4eeecf04c19...0c464ab2a1d513955c1cb2aaa3a38388529b53f8)
 - `0c464ab2a1d513955c1cb2aaa3a38388529b53f8` [fix(streaming): really find the root cause of recovery (#16376)](https://github.com/risingwavelabs/risingwave/pull/16376)
 - `b73643ac71767913eb5c5ab73989db437192ca50` [feat: deprecate legacy s3 connector (#16337)](https://github.com/risingwavelabs/risingwave/pull/16337)
 - `3445741da6136c4c0e99876794fe9f4e33889487` [refactor(source): remove `Default` impl from `SourceContext` and `SourceEnumeratorContext` (#16379)](https://github.com/risingwavelabs/risingwave/pull/16379)
@@ -794,7 +838,7 @@
 - `02a3985548bfa41cf8d7aa93235c2be76efe0233` [feat: support `INET_ATON` and `INET_NTOA` (#16358)](https://github.com/risingwavelabs/risingwave/pull/16358)
 
 ## nightly-20240417
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/adcdd8cc81f8343cdea5b3a13bfbb4eeecf04c19?expand=1&base=6a966e3b235f791d6f399e58dbe86d289cd06bc9&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a966e3b235f791d6f399e58dbe86d289cd06bc9...adcdd8cc81f8343cdea5b3a13bfbb4eeecf04c19)
 - `adcdd8cc81f8343cdea5b3a13bfbb4eeecf04c19` [feat(meta): collect errors from all control streams (#16322)](https://github.com/risingwavelabs/risingwave/pull/16322)
 - `142fdf68f07c9b5212c63500b33755d6f30852ad` [chore(scripts): update install script (#16355)](https://github.com/risingwavelabs/risingwave/pull/16355)
 - `d2c2885783cc9ad1c35099ad83a6a458db90843b` [feat(storage): allow minio to use  aws sdk or opendal (#15208)](https://github.com/risingwavelabs/risingwave/pull/15208)
@@ -808,7 +852,7 @@
 - `2bcf892f5b03de291b92f75b2554996f03b298eb` [ci: fix s3 source test (#16315)](https://github.com/risingwavelabs/risingwave/pull/16315)
 
 ## nightly-20240416
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a966e3b235f791d6f399e58dbe86d289cd06bc9?expand=1&base=f776f107a2786ca471a1abab239c5ba1da9e9c34&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f776f107a2786ca471a1abab239c5ba1da9e9c34...6a966e3b235f791d6f399e58dbe86d289cd06bc9)
 - `6a966e3b235f791d6f399e58dbe86d289cd06bc9` [fix(sql-backend): reset worker auto increment id offset for worker table (#16342)](https://github.com/risingwavelabs/risingwave/pull/16342)
 - `86ac793d95023614c9b5e441b66a4753f924082c` [fix: use interval parse instead of from_iso_8601 (#16252)](https://github.com/risingwavelabs/risingwave/pull/16252)
 - `dba4fab66d1403509c711e34cad530c7db63209d` [fix: stale metrics of meta leader election (#16334)](https://github.com/risingwavelabs/risingwave/pull/16334)
@@ -828,19 +872,19 @@
 - `00d89589baaa8de70499bcd5b8fcaa450a2349be` [fix(sqlsmith): ban failing functions and aggregations (#16295)](https://github.com/risingwavelabs/risingwave/pull/16295)
 
 ## nightly-20240415
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f776f107a2786ca471a1abab239c5ba1da9e9c34?expand=1&base=1d254979d6381d8d35a9b2697e351b3a318ae3ce&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d254979d6381d8d35a9b2697e351b3a318ae3ce...f776f107a2786ca471a1abab239c5ba1da9e9c34)
 - `f776f107a2786ca471a1abab239c5ba1da9e9c34` [fix(sql-backend): fix setval function call for postgreSQL backend in migration (#16306)](https://github.com/risingwavelabs/risingwave/pull/16306)
 - `72c8becb2e7687cec8a2d763d1dfe0308e029ace` [fix(storage): refactor emergency picker (#15954)](https://github.com/risingwavelabs/risingwave/pull/15954)
 - `b5c02b77c5d9fa9d92b7e230b74eaf8a7cb980d0` [fix(postgres-cdc): set default ssl.mode to disable (#16299)](https://github.com/risingwavelabs/risingwave/pull/16299)
 
 ## nightly-20240414
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d254979d6381d8d35a9b2697e351b3a318ae3ce?expand=1&base=2268ef463fdd61a08813690dc3bb8c2ac2b39141&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2268ef463fdd61a08813690dc3bb8c2ac2b39141...1d254979d6381d8d35a9b2697e351b3a318ae3ce)
 - `1d254979d6381d8d35a9b2697e351b3a318ae3ce` [feat(session_config): system wide session config by alter system set  (#16062)](https://github.com/risingwavelabs/risingwave/pull/16062)
 - `f31698df52575e0e43d11147cf515bac262d325f` [chore(deps): Bump h2 from 0.4.3 to 0.4.4 (#16276)](https://github.com/risingwavelabs/risingwave/pull/16276)
 - `cc795daf8dd039b37f7dcb3fd8013fc1578e8f36` [fix(cdc): commit offset to upstream after checkpoint has commit (#16058)](https://github.com/risingwavelabs/risingwave/pull/16058)
 
 ## nightly-20240412
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2268ef463fdd61a08813690dc3bb8c2ac2b39141?expand=1&base=a6aa6208d24d13f4e30cc2fb22ca9c180b9272a5&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a6aa6208d24d13f4e30cc2fb22ca9c180b9272a5...2268ef463fdd61a08813690dc3bb8c2ac2b39141)
 - `2268ef463fdd61a08813690dc3bb8c2ac2b39141` [fix(binder): RCTE context shall not leak to main query (#16282)](https://github.com/risingwavelabs/risingwave/pull/16282)
 - `4f53f8927a2979dc46f7f5e6679a8761216ef8dd` [style: apply shellcheck autofix to sh scripts (#16274)](https://github.com/risingwavelabs/risingwave/pull/16274)
 - `5fb6f698d7bcee376e420bd0f35d46a437be80d6` [fix(direct cdc): use `time.precision.mode=connect` (#16119)](https://github.com/risingwavelabs/risingwave/pull/16119)
@@ -852,7 +896,7 @@
 - `5f36b8a78afe0c0558118b7b661564cb9d1ac1cb` [chore(dependabot): don't update arrow in dependabot (#16270)](https://github.com/risingwavelabs/risingwave/pull/16270)
 
 ## nightly-20240411
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a6aa6208d24d13f4e30cc2fb22ca9c180b9272a5?expand=1&base=f82821d4a640cb6898897553188e4ec206cc0d10&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f82821d4a640cb6898897553188e4ec206cc0d10...a6aa6208d24d13f4e30cc2fb22ca9c180b9272a5)
 - `a6aa6208d24d13f4e30cc2fb22ca9c180b9272a5` [fix(sql-backend): specify the initialized self-increment id to avoid the effect of having set the self-increment step (#16261)](https://github.com/risingwavelabs/risingwave/pull/16261)
 - `0e8d9c0f5cc0e48e2198ae5b56b51aec6e6e9729` [refactor(source): rename `update_with_offset(start_offset)` to `update_offset(last_read_offset)` (#16256)](https://github.com/risingwavelabs/risingwave/pull/16256)
 - `86713399ccd08f14d986391f40d32273268e4fb0` [feat(rise-ctl): add fix dirty upstream fragment ids for streaming job (#16258)](https://github.com/risingwavelabs/risingwave/pull/16258)
@@ -871,7 +915,7 @@
 - `f126d385838b04557493ffecec509e25fa85f032` [fix: decimal convert in deltalake (#16216)](https://github.com/risingwavelabs/risingwave/pull/16216)
 
 ## nightly-20240410
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f82821d4a640cb6898897553188e4ec206cc0d10?expand=1&base=e3ad87d32ff7a03a14309b1b66e824c040971a0f&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e3ad87d32ff7a03a14309b1b66e824c040971a0f...f82821d4a640cb6898897553188e4ec206cc0d10)
 - `f82821d4a640cb6898897553188e4ec206cc0d10` [feat(on conflict): add with version column clause and behavior (#16091)](https://github.com/risingwavelabs/risingwave/pull/16091)
 - `71a98654db38aa0bc43d4e1d7827bc68ca4a3f69` [fix(sink): fix decimal jdbc sink (#16230)](https://github.com/risingwavelabs/risingwave/pull/16230)
 - `6a401d7fe4daded3478439523a68877c4316f982` [fix(dashboard): fix building streaming dependency graph in sql backend (#16218)](https://github.com/risingwavelabs/risingwave/pull/16218)
@@ -885,7 +929,7 @@
 - `6f360ce15be0ff8cadb67168c6d7e459b86db33c` [fix(sink): fix array<bool> error (#16221)](https://github.com/risingwavelabs/risingwave/pull/16221)
 
 ## nightly-20240409
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e3ad87d32ff7a03a14309b1b66e824c040971a0f?expand=1&base=faef9dda6fc6720029190a17a28ad74e15d78c8b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/faef9dda6fc6720029190a17a28ad74e15d78c8b...e3ad87d32ff7a03a14309b1b66e824c040971a0f)
 - `e3ad87d32ff7a03a14309b1b66e824c040971a0f` [chore(deps): extract some common deps to workspace (#16213)](https://github.com/risingwavelabs/risingwave/pull/16213)
 - `e068dd1321589e7269f6c38d13fcb4f07913b27a` [fix(binder): fix binder panic on function arg wildcard (#16220)](https://github.com/risingwavelabs/risingwave/pull/16220)
 - `bdcc9391a344d1b0c353deefe653267f7feceee7` [feat(sink): support redis cluster url (#16034)](https://github.com/risingwavelabs/risingwave/pull/16034)
@@ -908,7 +952,7 @@
 - `a14ff374c624f1a44b38092bc04ef273e03dfd8d` [fix(object_store): apply config in meta node (#16199)](https://github.com/risingwavelabs/risingwave/pull/16199)
 
 ## nightly-20240408
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/faef9dda6fc6720029190a17a28ad74e15d78c8b?expand=1&base=f03300eda2cdc5430ab2dd9337934bf307deacd2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f03300eda2cdc5430ab2dd9337934bf307deacd2...faef9dda6fc6720029190a17a28ad74e15d78c8b)
 - `faef9dda6fc6720029190a17a28ad74e15d78c8b` [feat(sink): support delta sink with gcs (#16182)](https://github.com/risingwavelabs/risingwave/pull/16182)
 - `9b74f684507cd57e9ec5b286a6ccf1c853c6bc02` [fix(object_store): Continue operation in delete_objects function when… (#15704)](https://github.com/risingwavelabs/risingwave/pull/15704)
 - `3ddec23a22ad2e44e532eea8de317328a61c1931` [fix(storage): add seal epoch when no data (#16192)](https://github.com/risingwavelabs/risingwave/pull/16192)
@@ -923,7 +967,7 @@
 - `06451cd9acfd0756364413e68b7867260521d084` [fix(sql-backend): fix missing update for internal table fragment id when alter cdc table column (#16163)](https://github.com/risingwavelabs/risingwave/pull/16163)
 
 ## nightly-20240407
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f03300eda2cdc5430ab2dd9337934bf307deacd2?expand=1&base=d0f8e58739a15ae5529a16551b84bd9cc3ccf78c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0f8e58739a15ae5529a16551b84bd9cc3ccf78c...f03300eda2cdc5430ab2dd9337934bf307deacd2)
 - `f03300eda2cdc5430ab2dd9337934bf307deacd2` [chore(deps): Bump h2 from 0.3.24 to 0.3.26 (#16162)](https://github.com/risingwavelabs/risingwave/pull/16162)
 - `df0aa3a3851168c45124d3a09aaefde0952d38a2` [feat(mqtt): Allow using field as topic name (#15673)](https://github.com/risingwavelabs/risingwave/pull/15673)
 - `e811ad75d8ca36fbe5c3649c3ebea9809be72959` [fix(meta): fix column binding for fragment ids (#16133)](https://github.com/risingwavelabs/risingwave/pull/16133)
@@ -932,7 +976,7 @@
 - `436884afdab83d6ba62e6e662ad05ff9a4d72f03` [chore(sqlsmith): skip timeout queries (#16160)](https://github.com/risingwavelabs/risingwave/pull/16160)
 
 ## nightly-20240405
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0f8e58739a15ae5529a16551b84bd9cc3ccf78c?expand=1&base=dfe5f310417909ca4612d468577e541724d4804f&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfe5f310417909ca4612d468577e541724d4804f...d0f8e58739a15ae5529a16551b84bd9cc3ccf78c)
 - `d0f8e58739a15ae5529a16551b84bd9cc3ccf78c` [fix: Use a warning when the parallelism does not meet the fixed requirements (#16157)](https://github.com/risingwavelabs/risingwave/pull/16157)
 - `685737e679d4beb57b96dbbddb4d788e39610f0b` [chore: bump tools version (#16155)](https://github.com/risingwavelabs/risingwave/pull/16155)
 - `8daa0ffb75b261868032d3db589654a8c2f3ec32` [chore(ci): bump deterministic recovery test timeout (#16151)](https://github.com/risingwavelabs/risingwave/pull/16151)
@@ -941,7 +985,7 @@
 - `9a0da5768c3c8c6cd6036c6061dfa6bc922e8e0b` [build: disable hakari (#16142)](https://github.com/risingwavelabs/risingwave/pull/16142)
 
 ## nightly-20240404
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfe5f310417909ca4612d468577e541724d4804f?expand=1&base=28e320ad7b3786a13e4fc689f4164196da6330b3&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/28e320ad7b3786a13e4fc689f4164196da6330b3...dfe5f310417909ca4612d468577e541724d4804f)
 - `dfe5f310417909ca4612d468577e541724d4804f` [refactor: bump `await-tree` to 0.2 (#16035)](https://github.com/risingwavelabs/risingwave/pull/16035)
 - `713c7b5d0f540df3d8253d5d6b5229ec5e16622a` [chore: bump reqwest and hyper as much as possible (#16143)](https://github.com/risingwavelabs/risingwave/pull/16143)
 - `46325dfc97c899587cd5becf5e13bc9d1577ecd5` [chore(deps): Bump sqllogictest from 0.18.0 to 0.19.1 (#16098)](https://github.com/risingwavelabs/risingwave/pull/16098)
@@ -950,7 +994,7 @@
 - `5d3027c807f26502c87b8c4ad5abe6e801a8321f` [chore(readme): Update README.md (#16138)](https://github.com/risingwavelabs/risingwave/pull/16138)
 
 ## nightly-20240403
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/28e320ad7b3786a13e4fc689f4164196da6330b3?expand=1&base=137bab2b7d9677e30c0351904570bcaea59bad0e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/137bab2b7d9677e30c0351904570bcaea59bad0e...28e320ad7b3786a13e4fc689f4164196da6330b3)
 - `28e320ad7b3786a13e4fc689f4164196da6330b3` [feat(on conflict): introduce do update if not null conflict behavior (#16049)](https://github.com/risingwavelabs/risingwave/pull/16049)
 - `0a8e8f9a6ed0bbe9df84f95187bafff6560dfdd7` [chore: bump http, hyper, tower-http, reqwest, and axum for meta dashboard (#16129)](https://github.com/risingwavelabs/risingwave/pull/16129)
 - `d5bd3b052b28dff69abe5eb94e8f2b780e75aaba` [chore(dependabot): try to ignore some directories (#16116)](https://github.com/risingwavelabs/risingwave/pull/16116)
@@ -969,7 +1013,7 @@
 - `73109104276a23a83b9e050d161ce5c7ca64f703` [feat(storage):  batch get_compact_task/apply_compact_task in once transaction (#15523)](https://github.com/risingwavelabs/risingwave/pull/15523)
 
 ## nightly-20240402
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/137bab2b7d9677e30c0351904570bcaea59bad0e?expand=1&base=9d74e10916714dfc0975843843d172da84472944&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9d74e10916714dfc0975843843d172da84472944...137bab2b7d9677e30c0351904570bcaea59bad0e)
 - `137bab2b7d9677e30c0351904570bcaea59bad0e` [fix: image tag when using api trigger the pipeline (#16089)](https://github.com/risingwavelabs/risingwave/pull/16089)
 - `f975030a3ecc8788a890e988f8a5a69c64bd7d9a` [feat(batch): initial cursor implementation (#15968)](https://github.com/risingwavelabs/risingwave/pull/15968)
 - `5897c22705c98dc5703f5037b05769426cbf79e6` [fix(meta): do not panic on specified parallelism greater than vnode count (#15941)](https://github.com/risingwavelabs/risingwave/pull/15941)
@@ -989,7 +1033,7 @@
 - `2e9ef2df6944574225c315a53186191a725ff303` [fix(on conflict):  ignore conflict should not check old value and delete value are consistent (#16053)](https://github.com/risingwavelabs/risingwave/pull/16053)
 
 ## nightly-20240401
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9d74e10916714dfc0975843843d172da84472944?expand=1&base=66cec31eb42cf95b17aa832622a18d17b44bf937&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66cec31eb42cf95b17aa832622a18d17b44bf937...9d74e10916714dfc0975843843d172da84472944)
 - `9d74e10916714dfc0975843843d172da84472944` [feat: add sql migration script and related ci tests (#16000)](https://github.com/risingwavelabs/risingwave/pull/16000)
 - `3ab8b114465167bc00f0b11228807de1948064d0` [fix(test): refine iceberg e2e test (#16047)](https://github.com/risingwavelabs/risingwave/pull/16047)
 - `dfb5cd45ff7f2339a3161f427d75021efdd24c66` [chore(deps): Bump rustls-pki-types from 1.3.1 to 1.4.1 (#16037)](https://github.com/risingwavelabs/risingwave/pull/16037)
@@ -1004,7 +1048,7 @@
 - `a94a1c075bfc23d22965bd8e934d6ae8c34e923d` [fix(connector): unblock `fetch_watermarks` in rdkafka (#15461)](https://github.com/risingwavelabs/risingwave/pull/15461)
 
 ## nightly-20240331
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66cec31eb42cf95b17aa832622a18d17b44bf937?expand=1&base=af116973621c0691b424c9a087b87a066f68710d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/af116973621c0691b424c9a087b87a066f68710d...66cec31eb42cf95b17aa832622a18d17b44bf937)
 - `66cec31eb42cf95b17aa832622a18d17b44bf937` [feat(test): add unit test for `self_eq_eliminate` (#16010)](https://github.com/risingwavelabs/risingwave/pull/16010)
 - `756d82b415f4c239204b7595a99cb4945bdee26a` [fix: fix DockerFile (#16021)](https://github.com/risingwavelabs/risingwave/pull/16021)
 - `2c869b4127268d98d589378ff6d2fe95efb56881` [fix: donot use opendal for s3 by default (#16017)](https://github.com/risingwavelabs/risingwave/pull/16017)
@@ -1018,7 +1062,7 @@
 - `2de20e2a87a759870a262113c67060761874b571` [fix: Disable batch query metrics by default (#15993)](https://github.com/risingwavelabs/risingwave/pull/15993)
 
 ## nightly-20240328
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/af116973621c0691b424c9a087b87a066f68710d?expand=1&base=9b1afefa8477113971a50d858f24070ba928eaba&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9b1afefa8477113971a50d858f24070ba928eaba...af116973621c0691b424c9a087b87a066f68710d)
 - `af116973621c0691b424c9a087b87a066f68710d` [chore(allocator): remove things related to `task_local_alloc` (#15976)](https://github.com/risingwavelabs/risingwave/pull/15976)
 - `6635712ad893dae9a767cc85ef5584d339e6a25c` [refactor: move connector common to a dedicated dir (#15987)](https://github.com/risingwavelabs/risingwave/pull/15987)
 - `d3715f9cfb3e1a233f644ecf1034233c917134f7` [fix(optimizer): fix ColIndexMapping target size for TranslateApplyRule  (#15818)](https://github.com/risingwavelabs/risingwave/pull/15818)
@@ -1048,7 +1092,7 @@
 - `f9f8f04425e78d17217d2a1abdc8aef31fa698cf` [feat(risedev): support starting cluster with sqlite meta backend (#15693)](https://github.com/risingwavelabs/risingwave/pull/15693)
 
 ## nightly-20240327
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9b1afefa8477113971a50d858f24070ba928eaba?expand=1&base=d4ec7f7d45057666554357b109495421bbc33f2a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d4ec7f7d45057666554357b109495421bbc33f2a...9b1afefa8477113971a50d858f24070ba928eaba)
 - `9b1afefa8477113971a50d858f24070ba928eaba` [chore(deps): Bump rustls-pemfile from 1.0.3 to 2.1.1 (#15619)](https://github.com/risingwavelabs/risingwave/pull/15619)
 - `a35ee2c17e8eb4b2bfa79db9f4b71cca76223498` [chore(deps-dev): Bump express from 4.18.1 to 4.19.2 in /dashboard (#15918)](https://github.com/risingwavelabs/risingwave/pull/15918)
 - `aa1a6e47234ae81152a78376223e9fa312719500` [chore(deps): Bump github.com/jackc/pgx/v5 from 5.4.3 to 5.5.4 in /integration_tests/client-library/go (#15700)](https://github.com/risingwavelabs/risingwave/pull/15700)
@@ -1073,7 +1117,7 @@
 - `b991eb2a94b9d9fc7a4e6e1e5dd03019bf9dd9b3` [fix: fix decimal type in iceberg sink (#15817)](https://github.com/risingwavelabs/risingwave/pull/15817)
 
 ## nightly-20240326
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d4ec7f7d45057666554357b109495421bbc33f2a?expand=1&base=7f81f9db13503bd57a4ba41e03a69f4076810d71&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7f81f9db13503bd57a4ba41e03a69f4076810d71...d4ec7f7d45057666554357b109495421bbc33f2a)
 - `d4ec7f7d45057666554357b109495421bbc33f2a` [fix(batch): fix hash join process some remaining chunk builder (#15912)](https://github.com/risingwavelabs/risingwave/pull/15912)
 - `f3ebeaaf6581c2997b2980da56ae8d20c11cbea8` [refactor(optimizer): reuse the vnode column generation logic and give the column a name to make plans clearer (#15913)](https://github.com/risingwavelabs/risingwave/pull/15913)
 - `3607db5e1f5998905fe93497cfe6b0d32da43606` [feat(batch): support time travel for iceberg source (#15866)](https://github.com/risingwavelabs/risingwave/pull/15866)
@@ -1087,7 +1131,7 @@
 - `1628b874753d6f94216596591681e3b67ad4cb57` [fix(cmd_all): abort dashboard task on exit (#15890)](https://github.com/risingwavelabs/risingwave/pull/15890)
 
 ## nightly-20240325
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7f81f9db13503bd57a4ba41e03a69f4076810d71?expand=1&base=1dceb57973d60e6a338114e8305fd8a566f547d8&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1dceb57973d60e6a338114e8305fd8a566f547d8...7f81f9db13503bd57a4ba41e03a69f4076810d71)
 - `7f81f9db13503bd57a4ba41e03a69f4076810d71` [chore(metrics): disable Grafana auto refresh by default (#15886)](https://github.com/risingwavelabs/risingwave/pull/15886)
 - `78cf47593d73241a830e59b0863932827b228adb` [feat(frontend): add `always_retry_on_network_error` to function catalog (#15873)](https://github.com/risingwavelabs/risingwave/pull/15873)
 - `7d4d3ff749cdd95540bd2bfefafda251c03e84b6` [chore(ci): always use latest version of kafka for flamegraph step (#15874)](https://github.com/risingwavelabs/risingwave/pull/15874)
@@ -1097,12 +1141,12 @@
 - `7ce1b6aadef6061b2f53939106d937c50963a8af` [fix(expr): handle another `Tonic` error path for `always_retry_on_network_error` (#15876)](https://github.com/risingwavelabs/risingwave/pull/15876)
 
 ## nightly-20240324
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1dceb57973d60e6a338114e8305fd8a566f547d8?expand=1&base=bf9b252468b70a2f501ed056f3bacb8fe117ee26&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bf9b252468b70a2f501ed056f3bacb8fe117ee26...1dceb57973d60e6a338114e8305fd8a566f547d8)
 - `1dceb57973d60e6a338114e8305fd8a566f547d8` [fix(test): fix expected error message (#15868)](https://github.com/risingwavelabs/risingwave/pull/15868)
 - `7e049653734bd835f0113131e73ced46065de703` [feat(metrics): add metrics for streaming actor lru cache eviction (#15858)](https://github.com/risingwavelabs/risingwave/pull/15858)
 
 ## nightly-20240322
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bf9b252468b70a2f501ed056f3bacb8fe117ee26?expand=1&base=1021f6ef6d51c08c16421377dd591d58c1a162b4&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1021f6ef6d51c08c16421377dd591d58c1a162b4...bf9b252468b70a2f501ed056f3bacb8fe117ee26)
 - `bf9b252468b70a2f501ed056f3bacb8fe117ee26` [feat(stream): introduce "insane" mode to generate inconsistent data on the stream (#15802)](https://github.com/risingwavelabs/risingwave/pull/15802)
 - `ded33142f1775bd0f927c0b9045d453741de0506` [refactor(common): generalize `LookupEntryState` to `EstimatedHashSet` (#15843)](https://github.com/risingwavelabs/risingwave/pull/15843)
 - `a34b4f8bd9cba21acd38c3fb698256ea9a5482a6` [fix(pgwire): correctly handle and reject gssapi request (#15785)](https://github.com/risingwavelabs/risingwave/pull/15785)
@@ -1118,7 +1162,7 @@
 - `9965c930c93be760c26824cfba3e76d5798f0a46` [chore(rpc client): use workspace version of `lru` in `rpc_client` (#15840)](https://github.com/risingwavelabs/risingwave/pull/15840)
 
 ## nightly-20240321
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1021f6ef6d51c08c16421377dd591d58c1a162b4?expand=1&base=af4758019efa690774d82b8e5b0af837a9328a76&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/af4758019efa690774d82b8e5b0af837a9328a76...1021f6ef6d51c08c16421377dd591d58c1a162b4)
 - `1021f6ef6d51c08c16421377dd591d58c1a162b4` [refactor(frontend): remove table name from the backfill column as prefix (#15844)](https://github.com/risingwavelabs/risingwave/pull/15844)
 - `f4caf3dc24e8d209160a9edc202cd5871a30546d` [refactor(frontend): rename `generic::Scan` to `generic::TableScan` (#15837)](https://github.com/risingwavelabs/risingwave/pull/15837)
 - `d462a274b9ed9a87504011f38ddb5ac065eee896` [fix(storage):  benches panic because of unorder keys (#14963)](https://github.com/risingwavelabs/risingwave/pull/14963)
@@ -1130,7 +1174,7 @@
 - `7e4cf713a0fc7cb717b7c3f7f89199ca28905156` [feat: throw an error if unable to find downstream actor index during the scaling process. (#15720)](https://github.com/risingwavelabs/risingwave/pull/15720)
 
 ## nightly-20240320
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/af4758019efa690774d82b8e5b0af837a9328a76?expand=1&base=554527677995547d2097a66313f17c15ab3834d9&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/554527677995547d2097a66313f17c15ab3834d9...af4758019efa690774d82b8e5b0af837a9328a76)
 - `af4758019efa690774d82b8e5b0af837a9328a76` [perf: avoid sstable info copy in event handler (#15811)](https://github.com/risingwavelabs/risingwave/pull/15811)
 - `aaae63b35b2748ff8cb068fa95da220fc3b13cc5` [refactor: unify subscription name to `rw-consumer-{fragment id}-{actor id}` with kafka reader (#15813)](https://github.com/risingwavelabs/risingwave/pull/15813)
 - `ab5b7bcf975571d3c68215712375c015f190c476` [feat: allow format plain encode bytes for Nats connector (#15806)](https://github.com/risingwavelabs/risingwave/pull/15806)
@@ -1146,7 +1190,7 @@
 - `91a86e8fdde06db32bdecbae6f60ced86d4cc287` [fix(backfill): use `bail` instead of panic in arrangement backfill's assertion (#15787)](https://github.com/risingwavelabs/risingwave/pull/15787)
 
 ## nightly-20240319
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/554527677995547d2097a66313f17c15ab3834d9?expand=1&base=b787fc67b24b99aef75dc194fece4d7b5ea6f7c1&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b787fc67b24b99aef75dc194fece4d7b5ea6f7c1...554527677995547d2097a66313f17c15ab3834d9)
 - `554527677995547d2097a66313f17c15ab3834d9` [fix(sink): fix iceberg sink missing deletes (#15779)](https://github.com/risingwavelabs/risingwave/pull/15779)
 - `4f2f65e2b665b9eaa48720b2238222dfb73cc3da` [fix(sql-backend): fix several issues when using mysql as sql backend in meta (#15717)](https://github.com/risingwavelabs/risingwave/pull/15717)
 - `c22fcda026def5a2d2f97a44aadc132aa545c9e4` [chore: increase the default scrape_interval for docker-compose (#15773)](https://github.com/risingwavelabs/risingwave/pull/15773)
@@ -1162,7 +1206,7 @@
 - `704aef9a204cfc352117feaacfed0e8e96233629` [fix(batch): notify frontend on execution panic (#15740)](https://github.com/risingwavelabs/risingwave/pull/15740)
 
 ## nightly-20240318
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b787fc67b24b99aef75dc194fece4d7b5ea6f7c1?expand=1&base=1542b882b2bb86c7d81d01fa576ae0a5d29794dd&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1542b882b2bb86c7d81d01fa576ae0a5d29794dd...b787fc67b24b99aef75dc194fece4d7b5ea6f7c1)
 - `b787fc67b24b99aef75dc194fece4d7b5ea6f7c1` [chore: bump opendal to v0.45.1 (#15744)](https://github.com/risingwavelabs/risingwave/pull/15744)
 - `ec0fb3a03014253f97ee2fbbc2e6015e1e1f4869` [chore(ci): migrate ci to new aws account (#15753)](https://github.com/risingwavelabs/risingwave/pull/15753)
 - `23f253145f1b8d4c2b499d025f5784ee258e0e60` [fix(backfill): fix arrangement backfill's target size for i2o_mapping of replicated rows (#15697)](https://github.com/risingwavelabs/risingwave/pull/15697)
@@ -1185,16 +1229,16 @@
 - `7cc9b57ecbfb694a6ff32e1d5702a9bbe4855282` [fix(cdc-backfill): limit the number of rows for each table snapshot  (#15684)](https://github.com/risingwavelabs/risingwave/pull/15684)
 
 ## nightly-20240317
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1542b882b2bb86c7d81d01fa576ae0a5d29794dd?expand=1&base=9b84ae063dbdbe3f7e714fffdd150df05d1b8a5f&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9b84ae063dbdbe3f7e714fffdd150df05d1b8a5f...1542b882b2bb86c7d81d01fa576ae0a5d29794dd)
 - `1542b882b2bb86c7d81d01fa576ae0a5d29794dd` [feat(telemetry): report connector name and table_id along with meta (#15663)](https://github.com/risingwavelabs/risingwave/pull/15663)
 
 ## nightly-20240316
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9b84ae063dbdbe3f7e714fffdd150df05d1b8a5f?expand=1&base=1ad41fc49b9f3cca5eedeba3b85aaa04f0c83f49&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1ad41fc49b9f3cca5eedeba3b85aaa04f0c83f49...9b84ae063dbdbe3f7e714fffdd150df05d1b8a5f)
 - `9b84ae063dbdbe3f7e714fffdd150df05d1b8a5f` [refactor(storage): remove reading range tombstone in read path and compaction (#15613)](https://github.com/risingwavelabs/risingwave/pull/15613)
 - `3bca9deee676afb7e68ab504d1d3f21947c24c3f` [feat: instrument inflight barrier in local barrier worker loop (#15608)](https://github.com/risingwavelabs/risingwave/pull/15608)
 
 ## nightly-20240315
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1ad41fc49b9f3cca5eedeba3b85aaa04f0c83f49?expand=1&base=2993ab6eb4604f00b0dd308823c06a641a61e996&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2993ab6eb4604f00b0dd308823c06a641a61e996...1ad41fc49b9f3cca5eedeba3b85aaa04f0c83f49)
 - `1ad41fc49b9f3cca5eedeba3b85aaa04f0c83f49` [feat(storage): instrument shared buffer compaction (#15694)](https://github.com/risingwavelabs/risingwave/pull/15694)
 - `f3dbe3a5b81b748f43cd7af11c870b83b3393fc4` [feat(config): support configure storage LRU-cache shard by default (#15419)](https://github.com/risingwavelabs/risingwave/pull/15419)
 - `e2a17d2d7d7dea49a5f58bc35fd7405560f0cc92` [refactor: move metrics, resource_util out of common (#15647)](https://github.com/risingwavelabs/risingwave/pull/15647)
@@ -1210,7 +1254,7 @@
 - `2a0323344fda3985917afdcb78b1d5ca4d69b710` [feat(udf): introduce `#[derive(StructType)]` for struct types in Rust UDF (#15372)](https://github.com/risingwavelabs/risingwave/pull/15372)
 
 ## nightly-20240314
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2993ab6eb4604f00b0dd308823c06a641a61e996?expand=1&base=e3770520caa0f44eb35fd5d86575a69e93bf7513&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e3770520caa0f44eb35fd5d86575a69e93bf7513...2993ab6eb4604f00b0dd308823c06a641a61e996)
 - `2993ab6eb4604f00b0dd308823c06a641a61e996` [chore(ci): fix backwards compat test linking (#15675)](https://github.com/risingwavelabs/risingwave/pull/15675)
 - `97164845e557fd7e929796023692d2c3fdd88a74` [fix(batch): avoid setting max_parallelism for batch scan that is no singleton (#15683)](https://github.com/risingwavelabs/risingwave/pull/15683)
 - `ef2b4fee8e873e4e1fd37f063743618e19f6bbc5` [refactor(object store): only the object store used by meta needs to set `atomic_write_dir` (#15592)](https://github.com/risingwavelabs/risingwave/pull/15592)
@@ -1225,7 +1269,7 @@
 - `e46a3072ce99b98cc9b0ee369be03b7766640548` [feat: re-merge #14887 (inject and collect barrier in bidi stream) (#15653)](https://github.com/risingwavelabs/risingwave/pull/15653)
 
 ## nightly-20240313
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e3770520caa0f44eb35fd5d86575a69e93bf7513?expand=1&base=4747e5fcc30da52245f0c6eef979e1883d679d99&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4747e5fcc30da52245f0c6eef979e1883d679d99...e3770520caa0f44eb35fd5d86575a69e93bf7513)
 - `e3770520caa0f44eb35fd5d86575a69e93bf7513` [feat(telemetry): mark a test message (#15548)](https://github.com/risingwavelabs/risingwave/pull/15548)
 - `d3f88723188573b1d14ae7b0048852803f986916` [refactor(risedev): deprecate steps for building dashboard (#15655)](https://github.com/risingwavelabs/risingwave/pull/15655)
 - `8d043b7897388bfe74b0f09ab5e1eed0354d3b18` [feat(sink): support `encode protobuf` with confluent schema registry (#15546)](https://github.com/risingwavelabs/risingwave/pull/15546)
@@ -1238,7 +1282,7 @@
 - `df496cb7db37a78a6cbe6e073019b2159f5685f5` [feat(storage): iter with key and value ref (#15565)](https://github.com/risingwavelabs/risingwave/pull/15565)
 
 ## nightly-20240312
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4747e5fcc30da52245f0c6eef979e1883d679d99?expand=1&base=b0325c56ffd053dc053b2345044adc8d53f1bad6&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b0325c56ffd053dc053b2345044adc8d53f1bad6...4747e5fcc30da52245f0c6eef979e1883d679d99)
 - `4747e5fcc30da52245f0c6eef979e1883d679d99` [chore(ci): split meta backup tests from e2e tests (#15600)](https://github.com/risingwavelabs/risingwave/pull/15600)
 - `d527ba89b2f761555d0e9eee9469bf454e818d37` [refactor: introduce Get and WithPropertiesExt (#15632)](https://github.com/risingwavelabs/risingwave/pull/15632)
 - `eada37a12a5617c37e2d0e4a489af10218e52782` [chore(ci): always run `single-node` tests per PR (#15630)](https://github.com/risingwavelabs/risingwave/pull/15630)
@@ -1251,7 +1295,7 @@
 - `ca671e6e4fe9096f1883f24ff786b13129d08c80` [fix(optimizer): decorrelate SimpleAgg with `array_agg`/`jsonb_agg`/`jsonb_object_agg` (#15590)](https://github.com/risingwavelabs/risingwave/pull/15590)
 
 ## nightly-20240311
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b0325c56ffd053dc053b2345044adc8d53f1bad6?expand=1&base=f796432d2914b8ae63cd78bb85c2c043a5734b14&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f796432d2914b8ae63cd78bb85c2c043a5734b14...b0325c56ffd053dc053b2345044adc8d53f1bad6)
 - `b0325c56ffd053dc053b2345044adc8d53f1bad6` [fix(binder): insert binding (#15597)](https://github.com/risingwavelabs/risingwave/pull/15597)
 - `525164b60de7631541d8c1492340c0a0c2bf6e05` [feat(risedev): add some configs for monitoring (#15354)](https://github.com/risingwavelabs/risingwave/pull/15354)
 - `0239405ef170ca2b2069b1fd6603677ab36340dc` [fix: ci e2e test (#15595)](https://github.com/risingwavelabs/risingwave/pull/15595)
@@ -1267,13 +1311,13 @@
 - `e27d13c5e8568deb51c52ecc2c533cd76b2eef3f` [feat(metrics): simplify user error metrics (#15544)](https://github.com/risingwavelabs/risingwave/pull/15544)
 
 ## nightly-20240310
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f796432d2914b8ae63cd78bb85c2c043a5734b14?expand=1&base=3276e588dea62ddf9007b649157367b88f82f11e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3276e588dea62ddf9007b649157367b88f82f11e...f796432d2914b8ae63cd78bb85c2c043a5734b14)
 - `f796432d2914b8ae63cd78bb85c2c043a5734b14` [feat(frontend): add `max_batch_queries_per_frontend_node` config (#15574)](https://github.com/risingwavelabs/risingwave/pull/15574)
 - `7181e581017a2774349f4384c8876d224376c755` [feat: refine skipping for creating actors in recovery scale (#15573)](https://github.com/risingwavelabs/risingwave/pull/15573)
 - `b4d8d1621bb9d60d8d173d8f0550c11cd5cf75e2` [feat(batch): support jdbc catalog for iceberg source (#15551)](https://github.com/risingwavelabs/risingwave/pull/15551)
 
 ## nightly-20240308
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3276e588dea62ddf9007b649157367b88f82f11e?expand=1&base=dbace2df7ab334caecbd499518a5cbbc119ef662&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dbace2df7ab334caecbd499518a5cbbc119ef662...3276e588dea62ddf9007b649157367b88f82f11e)
 - `3276e588dea62ddf9007b649157367b88f82f11e` [test(batch): support hive catalog for iceberg source (#15550)](https://github.com/risingwavelabs/risingwave/pull/15550)
 - `32163b32f1bf4b74706c2d1882b12dc69ee0d744` [feat: corrent handle parallelism for replace table (#15556)](https://github.com/risingwavelabs/risingwave/pull/15556)
 - `e0f305e4fb7df5c8bfa6dd1b23275695a161c443` [fix: Correctly handle the Parallelism inference under the DefaultParallelism configuration. (#15543)](https://github.com/risingwavelabs/risingwave/pull/15543)
@@ -1294,7 +1338,7 @@
 - `f36430e25886e6d742b527bf564b69eed2f55416` [test(batch): add iceberg source integration test (#15491)](https://github.com/risingwavelabs/risingwave/pull/15491)
 
 ## nightly-20240307
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dbace2df7ab334caecbd499518a5cbbc119ef662?expand=1&base=961ad85389fa2e019c9f26e2ce6413a2d72ea207&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/961ad85389fa2e019c9f26e2ce6413a2d72ea207...dbace2df7ab334caecbd499518a5cbbc119ef662)
 - `dbace2df7ab334caecbd499518a5cbbc119ef662` [feat: batch-written to etcd in scaling from recovery (#15510)](https://github.com/risingwavelabs/risingwave/pull/15510)
 - `176eacf6d72124f78a7a732cbc453f8a45608ad1` [feat(expr): support VARIADIC function arguments (#14753)](https://github.com/risingwavelabs/risingwave/pull/14753)
 - `cad99cecf4f99186df536a857f5b137ba666f8cf` [fix(risedev): always download latest Kafka (#15514)](https://github.com/risingwavelabs/risingwave/pull/15514)
@@ -1310,7 +1354,7 @@
 - `4fed4df4e5836bde157a6660cea4af09461cefa4` [fix(udf): ensure `always_retry_on_network_error` does so for all tonic errors (#15458)](https://github.com/risingwavelabs/risingwave/pull/15458)
 
 ## nightly-20240306
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/961ad85389fa2e019c9f26e2ce6413a2d72ea207?expand=1&base=d0ae7786150b3a817a4148a34e21ed883f3ab398&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0ae7786150b3a817a4148a34e21ed883f3ab398...961ad85389fa2e019c9f26e2ce6413a2d72ea207)
 - `961ad85389fa2e019c9f26e2ce6413a2d72ea207` [feat(batch): support batch read for file source (#15358)](https://github.com/risingwavelabs/risingwave/pull/15358)
 - `0dad818d6e918dbdff4e17314f40e220981ca753` [fix(metrics): remove Source Throughput(rows) per barrier (#15484)](https://github.com/risingwavelabs/risingwave/pull/15484)
 - `4cba1272639d342b24e80dcb43fd8decc7aa900a` [refactor(storage): store direct value entry index in imm iter (#15417)](https://github.com/risingwavelabs/risingwave/pull/15417)
@@ -1325,7 +1369,7 @@
 - `d34c7d93e47615bd919c45cd0df75212d3995db2` [fix(sink): fix starrocks sink array check (#15471)](https://github.com/risingwavelabs/risingwave/pull/15471)
 
 ## nightly-20240305
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0ae7786150b3a817a4148a34e21ed883f3ab398?expand=1&base=bba2374755d2d1cbe308a978788658d84dd01e84&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bba2374755d2d1cbe308a978788658d84dd01e84...d0ae7786150b3a817a4148a34e21ed883f3ab398)
 - `d0ae7786150b3a817a4148a34e21ed883f3ab398` [feat: execute auto-scaling in batches (#15420)](https://github.com/risingwavelabs/risingwave/pull/15420)
 - `bdd6f12e4c7630368e61bddac7423675f1cba37f` [fix(optmizer): add some missing node for CardinalityVistor (#15449)](https://github.com/risingwavelabs/risingwave/pull/15449)
 - `ee0ef0bd4fe76245036c3ed81ba0196c3109f46f` [chore(ci): fix backwards compat tests (#15448)](https://github.com/risingwavelabs/risingwave/pull/15448)
@@ -1346,7 +1390,7 @@
 - `56af4dd015f28fa60b9c5408ff9946a4a6fedb01` [fix(metric): fix backfill snapshot read metric (#15414)](https://github.com/risingwavelabs/risingwave/pull/15414)
 
 ## nightly-20240304
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bba2374755d2d1cbe308a978788658d84dd01e84?expand=1&base=786b10b98a7b6859b84c784313f919a5f0bb16f0&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/786b10b98a7b6859b84c784313f919a5f0bb16f0...bba2374755d2d1cbe308a978788658d84dd01e84)
 - `bba2374755d2d1cbe308a978788658d84dd01e84` [fix: fix compile err in release build of risectl (#15412)](https://github.com/risingwavelabs/risingwave/pull/15412)
 - `9f527accbdba19ad330a9098e0392a2602c25286` [fix(cdc-connector): allow empty passwords (#15411)](https://github.com/risingwavelabs/risingwave/pull/15411)
 - `f263d2dc336fe89a104a500f3c9d784a8d04d833` [feat(frontend): derive columns from iceberg source automatically (#15415)](https://github.com/risingwavelabs/risingwave/pull/15415)
@@ -1359,16 +1403,16 @@
 - `e2149b67394c5d2b986d17f6f616ccb3af2721e7` [feat: Refactor the cycle check for sink into table. (#15390)](https://github.com/risingwavelabs/risingwave/pull/15390)
 
 ## nightly-20240303
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/786b10b98a7b6859b84c784313f919a5f0bb16f0?expand=1&base=a94d1767277577d38c5eafd7f4e9771a8a804688&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a94d1767277577d38c5eafd7f4e9771a8a804688...786b10b98a7b6859b84c784313f919a5f0bb16f0)
 - `786b10b98a7b6859b84c784313f919a5f0bb16f0` [chore(deps): Bump walkdir from 2.4.0 to 2.5.0 (#15387)](https://github.com/risingwavelabs/risingwave/pull/15387)
 - `5cf9a19933675cf94763430fe335bfffb3615709` [fix(dashboard): only show real-time back-pressure rate from Prometheus data source (#15380)](https://github.com/risingwavelabs/risingwave/pull/15380)
 
 ## nightly-20240302
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a94d1767277577d38c5eafd7f4e9771a8a804688?expand=1&base=672ab0e04dbfe7d30cd005018427b7ad7e996c16&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/672ab0e04dbfe7d30cd005018427b7ad7e996c16...a94d1767277577d38c5eafd7f4e9771a8a804688)
 - `a94d1767277577d38c5eafd7f4e9771a8a804688` [feat: add new option `ignore_option` for debeizum format (#15304)](https://github.com/risingwavelabs/risingwave/pull/15304)
 
 ## nightly-20240301
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/672ab0e04dbfe7d30cd005018427b7ad7e996c16?expand=1&base=e1b2112c58b95897707c260652f1c67c447aeb29&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e1b2112c58b95897707c260652f1c67c447aeb29...672ab0e04dbfe7d30cd005018427b7ad7e996c16)
 - `672ab0e04dbfe7d30cd005018427b7ad7e996c16` [test: support protobuf for nats source (#15378)](https://github.com/risingwavelabs/risingwave/pull/15378)
 - `736012e0e8195a6a800a567ad02c1682f86c6dab` [chore(scripts): update risingwave install script `version` (#15178)](https://github.com/risingwavelabs/risingwave/pull/15178)
 - `3b0c1774fedc8035d3022182e728caec1ae1552e` [feat(optimizer): support strong util (#15373)](https://github.com/risingwavelabs/risingwave/pull/15373)
@@ -1380,7 +1424,7 @@
 - `d00d28623b9844219139a6595321a6f00235c3fc` [feat: report stream error for create streaming jobs (#13108)](https://github.com/risingwavelabs/risingwave/pull/13108)
 
 ## nightly-20240229
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e1b2112c58b95897707c260652f1c67c447aeb29?expand=1&base=5051a8f4779a8f84d4b85231ceb5c7ed8097bd47&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5051a8f4779a8f84d4b85231ceb5c7ed8097bd47...e1b2112c58b95897707c260652f1c67c447aeb29)
 - `e1b2112c58b95897707c260652f1c67c447aeb29` [chore(storage): disable test epoch in release mode (#15365)](https://github.com/risingwavelabs/risingwave/pull/15365)
 - `ef3435eb161f0958653ac8637d6335377a2eda74` [refactor(frontend): disallow creating new avro sources without schema registry (#15256)](https://github.com/risingwavelabs/risingwave/pull/15256)
 - `fbafd7561a925fb6d8b62a314768fdaa79c537f8` [feat(frontend): support system table to query storage table watermark (#15344)](https://github.com/risingwavelabs/risingwave/pull/15344)
@@ -1404,7 +1448,7 @@
 - `09f5e9a90028f26a2c4497f3f328ab3bce2bbdb4` [fix(frontend): add subquery rewrite for parameter rewriter (#15095)](https://github.com/risingwavelabs/risingwave/pull/15095)
 
 ## nightly-20240228
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5051a8f4779a8f84d4b85231ceb5c7ed8097bd47?expand=1&base=82dba308595870876eb9fab6465d9782f78ba255&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/82dba308595870876eb9fab6465d9782f78ba255...5051a8f4779a8f84d4b85231ceb5c7ed8097bd47)
 - `5051a8f4779a8f84d4b85231ceb5c7ed8097bd47` [chore(deps): bump deps in libpq_test (#15339)](https://github.com/risingwavelabs/risingwave/pull/15339)
 - `32ea157ef3ca0d5e8b53d1ec0662bf24e06d9a04` [fix(frontend): wrong stmt type while `DROP VIEW IF EXISTS` (#15335)](https://github.com/risingwavelabs/risingwave/pull/15335)
 - `ff02b76c838c168f48f41b4c956a9a55a160ba25` [fix(udf): add `embedded-python-udf` feature and fix dockerfile (#15328)](https://github.com/risingwavelabs/risingwave/pull/15328)
@@ -1419,7 +1463,7 @@
 - `467551c08c03dde48fcc5c827e78aa5ec619ed08` [refactor(test): improve planner test suite for case when & add const evaluation test  (#15077)](https://github.com/risingwavelabs/risingwave/pull/15077)
 
 ## nightly-20240227
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/82dba308595870876eb9fab6465d9782f78ba255?expand=1&base=1eec69e75a87c73565f1250bdd42910cb0aaa4c0&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1eec69e75a87c73565f1250bdd42910cb0aaa4c0...82dba308595870876eb9fab6465d9782f78ba255)
 - `82dba308595870876eb9fab6465d9782f78ba255` [fix(sql-backend): fix some function column types and change json column to jsonb (#15299)](https://github.com/risingwavelabs/risingwave/pull/15299)
 - `e0f9c68d080fa1d4452249b89d662ae32b95ffe9` [feat(udf): store WASM UDF in meta store (#15269)](https://github.com/risingwavelabs/risingwave/pull/15269)
 - `c8a61fcabffee4c96bf0259fd2a797dc2a3895ab` [chore(ci): bump buildkite docker-compose plugin version to v5.1.0 (#15292)](https://github.com/risingwavelabs/risingwave/pull/15292)
@@ -1447,7 +1491,7 @@
 - `dc5dc4f8353647d1bedd3d58238cd0c15e5067d0` [chore: add name column back in pg_user for backward compatibility (#15266)](https://github.com/risingwavelabs/risingwave/pull/15266)
 
 ## nightly-20240226
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1eec69e75a87c73565f1250bdd42910cb0aaa4c0?expand=1&base=e19aaecb1843dc9c3b309ecd8b6e863435a4fa98&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e19aaecb1843dc9c3b309ecd8b6e863435a4fa98...1eec69e75a87c73565f1250bdd42910cb0aaa4c0)
 - `1eec69e75a87c73565f1250bdd42910cb0aaa4c0` [fix(storage): fix  failed micro-bench (#15210)](https://github.com/risingwavelabs/risingwave/pull/15210)
 - `461f454dbfa8532818a3970dd42f19c7af0fc7bd` [fix(jdbc-sink): fill exception error message if it is null (#15261)](https://github.com/risingwavelabs/risingwave/pull/15261)
 - `f4da2e82286ff0865c6f5923816bfeaf5509ad02` [fix(ci): fix ci create release (#15020)](https://github.com/risingwavelabs/risingwave/pull/15020)
@@ -1461,12 +1505,12 @@
 - `fcdeb3f75a1ef443b3dac1b1dfcde47379ec506a` [fix: handle upsert json in prev versions (#15226)](https://github.com/risingwavelabs/risingwave/pull/15226)
 
 ## nightly-20240225
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e19aaecb1843dc9c3b309ecd8b6e863435a4fa98?expand=1&base=6ab2342222df52b037ab6bcd56c0be83719f15fc&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6ab2342222df52b037ab6bcd56c0be83719f15fc...e19aaecb1843dc9c3b309ecd8b6e863435a4fa98)
 - `e19aaecb1843dc9c3b309ecd8b6e863435a4fa98` [fix(storage): fix leaving put key after delete keys are dropped cause inconsistent (#15232)](https://github.com/risingwavelabs/risingwave/pull/15232)
 - `b0a90004f16c490dba8734f145e5a66996419935` [feat(binder): add const case-when evaluation optimization during binding (#14965)](https://github.com/risingwavelabs/risingwave/pull/14965)
 
 ## nightly-20240223
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6ab2342222df52b037ab6bcd56c0be83719f15fc?expand=1&base=e6d8d88bcef5a388a0a7a0669d9418d25194f138&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6d8d88bcef5a388a0a7a0669d9418d25194f138...6ab2342222df52b037ab6bcd56c0be83719f15fc)
 - `6ab2342222df52b037ab6bcd56c0be83719f15fc` [test: fix starrocks_sink integration test (#15229)](https://github.com/risingwavelabs/risingwave/pull/15229)
 - `5cda6dd693ddc0a7645c78aa65078fc7c90bc748` [feat(lints): lint `format_error` on `anyhow::Error` (#15158)](https://github.com/risingwavelabs/risingwave/pull/15158)
 - `b0b9fb43298a7e319af3aafd728de272cd199412` [refactor(connector): migrate `anyhow::Error` to `ConnectorError` newtype (#15042)](https://github.com/risingwavelabs/risingwave/pull/15042)
@@ -1498,18 +1542,18 @@
 - `d6a1089d8f8cdef395aeace1bb33040f20d421f5` [fix: broken link in README (#15145)](https://github.com/risingwavelabs/risingwave/pull/15145)
 
 ## nightly-20240222
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6d8d88bcef5a388a0a7a0669d9418d25194f138?expand=1&base=4197ad50c766c8d086d29948ef34e13582e72251&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4197ad50c766c8d086d29948ef34e13582e72251...e6d8d88bcef5a388a0a7a0669d9418d25194f138)
 - `e6d8d88bcef5a388a0a7a0669d9418d25194f138` [feat(expr): allow explicit cast serial to bigint (#15184)](https://github.com/risingwavelabs/risingwave/pull/15184)
 
 ## nightly-20240221
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4197ad50c766c8d086d29948ef34e13582e72251?expand=1&base=25928809ab658ac4d57066a48450ac089943c090&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/25928809ab658ac4d57066a48450ac089943c090...4197ad50c766c8d086d29948ef34e13582e72251)
 - `4197ad50c766c8d086d29948ef34e13582e72251` [feat(object store): introduce new s3 object store via OpenDAL (#14409)](https://github.com/risingwavelabs/risingwave/pull/14409)
 - `06572cfe221cb127e94aef5b908931aee4be1ba9` [fix(cdc): enable cdc transaction for shared source only (#14946)](https://github.com/risingwavelabs/risingwave/pull/14946)
 - `b1ffbafcd2d8a27297aebccb603e1c393f3b5c8f` [refactor: rename `TO_TIMESTAMP{,1}` in expr.proto for clarity (#15143)](https://github.com/risingwavelabs/risingwave/pull/15143)
 - `6739733daa3de7c24261a94eec134f346e96b7e3` [fix(storage): remove unnecessary metadata io during list (#15133)](https://github.com/risingwavelabs/risingwave/pull/15133)
 
 ## nightly-20240219
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/25928809ab658ac4d57066a48450ac089943c090?expand=1&base=a256378b6d164976ade6c1263634581077cb2ebc&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a256378b6d164976ade6c1263634581077cb2ebc...25928809ab658ac4d57066a48450ac089943c090)
 - `25928809ab658ac4d57066a48450ac089943c090` [refactor: refactor source executor (part 2) (#15104)](https://github.com/risingwavelabs/risingwave/pull/15104)
 - `461c7785dc17c6d7d42c4b8939a54e20eba5ca2a` [chore: fix incorrect metric relabel (#15128)](https://github.com/risingwavelabs/risingwave/pull/15128)
 - `7d4d66b4a0d67897aeb947d45335afa8d130adfa` [fix(pg-cdc): support inject UUID column to VARCHAR for shared pg source (#15114)](https://github.com/risingwavelabs/risingwave/pull/15114)
@@ -1522,7 +1566,7 @@
 - `5f8ce3420399f87419b00c9e5e5b0dd032befecf` [chore(deps): Bump the opentelemetry group (#13639)](https://github.com/risingwavelabs/risingwave/pull/13639)
 
 ## nightly-20240218
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a256378b6d164976ade6c1263634581077cb2ebc?expand=1&base=dfb7989e30111e8eae26bdb5687130274d96bd4d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfb7989e30111e8eae26bdb5687130274d96bd4d...a256378b6d164976ade6c1263634581077cb2ebc)
 - `a256378b6d164976ade6c1263634581077cb2ebc` [refactor(meta): merge periodic and scheduled barrier and non-async handle barrier (#14977)](https://github.com/risingwavelabs/risingwave/pull/14977)
 - `c82698a4452f6a7cb472f3acfaba35d612adeec0` [feat(catalog): implement `pg_settings` (#15108)](https://github.com/risingwavelabs/risingwave/pull/15108)
 - `0975be2bb8d1fca8ed5ad553e209aa7394b8dee1` [fix(sql-backend): clean up dirty source catalogs for failed table with connectors and recovery (#15110)](https://github.com/risingwavelabs/risingwave/pull/15110)
@@ -1531,22 +1575,22 @@
 - `1b1d2f1d0d9bbb22506a8ada5c0e12a91ba9ed2d` [refactor(frontend): rewrite 3 system functions using context (#14960)](https://github.com/risingwavelabs/risingwave/pull/14960)
 
 ## nightly-20240217
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfb7989e30111e8eae26bdb5687130274d96bd4d?expand=1&base=85dab134f9c0d815eb74b5db7fb736112c2ec730&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/85dab134f9c0d815eb74b5db7fb736112c2ec730...dfb7989e30111e8eae26bdb5687130274d96bd4d)
 - `dfb7989e30111e8eae26bdb5687130274d96bd4d` [chore: temporarily bypass FullKeyTracker for #15099 (#15100)](https://github.com/risingwavelabs/risingwave/pull/15100)
 - `e2c14106839fea74d4becb99e838ee43468ca41a` [chore(deps): Bump clap from 4.4.4 to 4.5.1 (#15097)](https://github.com/risingwavelabs/risingwave/pull/15097)
 - `f16c58dc9b76abad7d04bc5bbc6c055af38fca69` [chore(deps): Bump the tonic group with 2 updates (#15070)](https://github.com/risingwavelabs/risingwave/pull/15070)
 
 ## nightly-20240216
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/85dab134f9c0d815eb74b5db7fb736112c2ec730?expand=1&base=3294624a7e427c981cbe278aee1ba6ada77e3a6d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3294624a7e427c981cbe278aee1ba6ada77e3a6d...85dab134f9c0d815eb74b5db7fb736112c2ec730)
 - `85dab134f9c0d815eb74b5db7fb736112c2ec730` [refactor(connector): make `ConnectorError` a wrapper of `anyhow::Error` (#15086)](https://github.com/risingwavelabs/risingwave/pull/15086)
 
 ## nightly-20240214
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3294624a7e427c981cbe278aee1ba6ada77e3a6d?expand=1&base=8a26cffbd63687db25ce186ab783938bb1cef85d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8a26cffbd63687db25ce186ab783938bb1cef85d...3294624a7e427c981cbe278aee1ba6ada77e3a6d)
 - `3294624a7e427c981cbe278aee1ba6ada77e3a6d` [feat: add kafka props enable.ssl.certificate.verification (#15073)](https://github.com/risingwavelabs/risingwave/pull/15073)
 - `2306bd939669a7c566e0a2f2525178174aabdaef` [chore: longer timeout for e2e test (#15090)](https://github.com/risingwavelabs/risingwave/pull/15090)
 
 ## nightly-20240213
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8a26cffbd63687db25ce186ab783938bb1cef85d?expand=1&base=d2c547a3d99d856b4e81cba2827e6cee5ad2e53b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d2c547a3d99d856b4e81cba2827e6cee5ad2e53b...8a26cffbd63687db25ce186ab783938bb1cef85d)
 - `8a26cffbd63687db25ce186ab783938bb1cef85d` [refactor: reduce indent level for source_executor (#15089)](https://github.com/risingwavelabs/risingwave/pull/15089)
 - `aeff5964d9a3ad1f93157bd2902d743c0f43c36c` [chore: fix nightly clippy (#15088)](https://github.com/risingwavelabs/risingwave/pull/15088)
 - `befeba3b851b924040dd046bf5211fd6bc520e9d` [refactor(connector): simplify and clean-up unused variants of `ConnectorError` (#15031)](https://github.com/risingwavelabs/risingwave/pull/15031)
@@ -1557,7 +1601,7 @@
 - `7bedc449c8bce003a0e1d104a6ea6e41832abd7c` [chore(deps): Bump libgit2-sys from 0.16.1+1.7.1 to 0.16.2+1.7.2 in /lints (#15080)](https://github.com/risingwavelabs/risingwave/pull/15080)
 
 ## nightly-20240212
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d2c547a3d99d856b4e81cba2827e6cee5ad2e53b?expand=1&base=85f002347c65b3a955ff110146629f1d06890b48&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/85f002347c65b3a955ff110146629f1d06890b48...d2c547a3d99d856b4e81cba2827e6cee5ad2e53b)
 - `d2c547a3d99d856b4e81cba2827e6cee5ad2e53b` [feat: configure WARN default log level for sqlx (#15066)](https://github.com/risingwavelabs/risingwave/pull/15066)
 - `acb3fb6f647c358a420bf51e9779bc040b282386` [feat(test): enable udf in nexmark q14 (#14975)](https://github.com/risingwavelabs/risingwave/pull/14975)
 - `7cbf16a769f26baa53ca517c1c06ab2e84b6ffac` [fix: fix pg_database e2e to make it compatible with sql-backend (#15059)](https://github.com/risingwavelabs/risingwave/pull/15059)
@@ -1567,7 +1611,7 @@
 - `8d0f414a8082efc3a91af53c8fd346bfda7ef01a` [feat(meta): maintain snapshot of active streaming compute node in worker loop (#15033)](https://github.com/risingwavelabs/risingwave/pull/15033)
 
 ## nightly-20240207
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/85f002347c65b3a955ff110146629f1d06890b48?expand=1&base=3da8d1431981cd29b475114a193b700f8775ef28&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3da8d1431981cd29b475114a193b700f8775ef28...85f002347c65b3a955ff110146629f1d06890b48)
 - `85f002347c65b3a955ff110146629f1d06890b48` [fix(scale): move reschedule_lock to ScaleController & use universal scale_controller (#15037)](https://github.com/risingwavelabs/risingwave/pull/15037)
 - `05b84b449c8c129f3ed0662de15ae1f80abb37e1` [fix(sql-backend): change stream node type from json to binary to fix stack overflow (#15040)](https://github.com/risingwavelabs/risingwave/pull/15040)
 - `d50cc770253f74d14ce39f25f0f946ec2726ff9e` [feat(Sink): Enhanced integration with StarRocks (#14363)](https://github.com/risingwavelabs/risingwave/pull/14363)
@@ -1580,7 +1624,7 @@
 - `7a4389f6d6853ceef6d7d810e077a779a871d8f0` [chore(deps): Bump parse-display from 0.8.2 to 0.9.0 (#15012)](https://github.com/risingwavelabs/risingwave/pull/15012)
 
 ## nightly-20240206
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3da8d1431981cd29b475114a193b700f8775ef28?expand=1&base=36edf716f1eb9bf6d017c7e2c46c2ea3585ef27b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/36edf716f1eb9bf6d017c7e2c46c2ea3585ef27b...3da8d1431981cd29b475114a193b700f8775ef28)
 - `3da8d1431981cd29b475114a193b700f8775ef28` [fix(storage): fix compactor oom 0206 (#15023)](https://github.com/risingwavelabs/risingwave/pull/15023)
 - `4e5a936d5fb0d51bb9bdc3c03b0e27a1e81e16a0` [fix(test): fix case_when_optimization test (#15032)](https://github.com/risingwavelabs/risingwave/pull/15032)
 - `c72a6f6298a2bc4bfd1c0b6049eeb13592a1cf39` [chore(test): add more planner tests for case-when optimization expression (#15014)](https://github.com/risingwavelabs/risingwave/pull/15014)
@@ -1589,7 +1633,7 @@
 - `c1a1286200fc9adb1097487708757c8a0bdd3b32` [fix: only processing streaming jobs that are in the 'created' state in auto-scaling (#15000)](https://github.com/risingwavelabs/risingwave/pull/15000)
 
 ## nightly-20240205
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/36edf716f1eb9bf6d017c7e2c46c2ea3585ef27b?expand=1&base=fd2a89929d60a10b7aae948b128e8a6d0d1e391b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fd2a89929d60a10b7aae948b128e8a6d0d1e391b...36edf716f1eb9bf6d017c7e2c46c2ea3585ef27b)
 - `36edf716f1eb9bf6d017c7e2c46c2ea3585ef27b` [feat(type): improve the `Fields` derive macro (#14934)](https://github.com/risingwavelabs/risingwave/pull/14934)
 - `b7a2452fb5b837be92b56ba6379369baeb3145a4` [feat(scripts): add script to install risingwave (#14901)](https://github.com/risingwavelabs/risingwave/pull/14901)
 - `afc302888f03531d079db0253085d1680ac9f04b` [feat(cmd_all): support `single_node` mode (#14951)](https://github.com/risingwavelabs/risingwave/pull/14951)
@@ -1606,7 +1650,7 @@
 - `ed643b86f7cc0030bcd5cb00c9fc6fdf7e1573d0` [feat(over window): window function `RANGE` frame support - backend part (#14416)](https://github.com/risingwavelabs/risingwave/pull/14416)
 
 ## nightly-20240204
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fd2a89929d60a10b7aae948b128e8a6d0d1e391b?expand=1&base=8fdd0babd8f883bae830fd7e7fa4809adeb0712f&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8fdd0babd8f883bae830fd7e7fa4809adeb0712f...fd2a89929d60a10b7aae948b128e8a6d0d1e391b)
 - `fd2a89929d60a10b7aae948b128e8a6d0d1e391b` [fix(sql-backend): fix some corner cases in alter rename and schema in sql backend (#14982)](https://github.com/risingwavelabs/risingwave/pull/14982)
 - `42cc7c8472eabffdcaa10dbd7072749418a1d0ab` [chore: define the telemetry protocol in protobuf (#14952)](https://github.com/risingwavelabs/risingwave/pull/14952)
 - `266fe256e94c0fb495ee832753b981449eedbbed` [fix: try fix the issue where dirty actors cause debug checks to fail during the auto-scaling process. (#14978)](https://github.com/risingwavelabs/risingwave/pull/14978)
@@ -1629,7 +1673,7 @@
 - `829ee39f1d07ac044d45a3d9801f6f8a4e4988aa` [refactor(stream): SourceExecutor minor refactor (#14706)](https://github.com/risingwavelabs/risingwave/pull/14706)
 
 ## nightly-20240203
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8fdd0babd8f883bae830fd7e7fa4809adeb0712f?expand=1&base=752b5e0205cea397c51645cd39f12f3f24a5f06a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/752b5e0205cea397c51645cd39f12f3f24a5f06a...8fdd0babd8f883bae830fd7e7fa4809adeb0712f)
 - `8fdd0babd8f883bae830fd7e7fa4809adeb0712f` [refactor: rename `prometheus_host` to `prometheus_listener_addr` (#14919)](https://github.com/risingwavelabs/risingwave/pull/14919)
 - `fb4bb9b7e23dd580576df9e34ed5ee6da163b7b7` [chore(deps): Bump serde_with from 3.5.0 to 3.6.0 (#14937)](https://github.com/risingwavelabs/risingwave/pull/14937)
 - `606972edc009b0851129a966c9c1807f0aa47244` [feat(catalog): add source columns to rw_columns (#14939)](https://github.com/risingwavelabs/risingwave/pull/14939)
@@ -1639,7 +1683,7 @@
 - `8481ea78a617362e8570f00c62abb9d606a13336` [refactor(over window): generalize `WindowBuffer` and window function `AggregateState` (#14647)](https://github.com/risingwavelabs/risingwave/pull/14647)
 
 ## nightly-20240201
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/752b5e0205cea397c51645cd39f12f3f24a5f06a?expand=1&base=1f57fdd9e60e4645298a2d3358367bfb77e39c94&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1f57fdd9e60e4645298a2d3358367bfb77e39c94...752b5e0205cea397c51645cd39f12f3f24a5f06a)
 - `752b5e0205cea397c51645cd39f12f3f24a5f06a` [refactor(meta): handle all stream client request in stream rpc manager (#14844)](https://github.com/risingwavelabs/risingwave/pull/14844)
 - `725c6b05c62ac99001ab549c63fa8c4603752046` [test(connector): add debezium-mysql compatible test (#14891)](https://github.com/risingwavelabs/risingwave/pull/14891)
 - `4c70f3dfd1f69174476bd3d08d48a708dd954f13` [test(connector): add debezium-pg compatible test (#14862)](https://github.com/risingwavelabs/risingwave/pull/14862)
@@ -1673,7 +1717,7 @@
 - `7d0d43f6586c036642b3e5589ce6b24a878af077` [feat: support precompute partition for iceberg (#14710)](https://github.com/risingwavelabs/risingwave/pull/14710)
 
 ## nightly-20240131
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1f57fdd9e60e4645298a2d3358367bfb77e39c94?expand=1&base=a0574b7466f5f4a28f8bcbcb660b2060a922094a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0574b7466f5f4a28f8bcbcb660b2060a922094a...1f57fdd9e60e4645298a2d3358367bfb77e39c94)
 - `1f57fdd9e60e4645298a2d3358367bfb77e39c94` [feat(sql-backend): support notification generator in sql backend (#14875)](https://github.com/risingwavelabs/risingwave/pull/14875)
 - `c022b24d0b870b4f67d667950f5f668051ebd32c` [test(stream): add wide table tests for arrangement backfill (#14854)](https://github.com/risingwavelabs/risingwave/pull/14854)
 - `66adcdd15d199f1a4cd69afcd0e0d3de8f785b88` [feat(sql-udf): support named sql udf (#14806)](https://github.com/risingwavelabs/risingwave/pull/14806)
@@ -1684,7 +1728,7 @@
 - `5db21ecaa399365f0a90a20ecd80edfc3338d97f` [feat: handle streaming control rpc in worker loop (#14737)](https://github.com/risingwavelabs/risingwave/pull/14737)
 
 ## nightly-20240130
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0574b7466f5f4a28f8bcbcb660b2060a922094a?expand=1&base=1a22e82cfcd414f9db0f9a3ce59cc4430f3ab015&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1a22e82cfcd414f9db0f9a3ce59cc4430f3ab015...a0574b7466f5f4a28f8bcbcb660b2060a922094a)
 - `a0574b7466f5f4a28f8bcbcb660b2060a922094a` [feat(test): add ObjectStore trait simulator support (#14545)](https://github.com/risingwavelabs/risingwave/pull/14545)
 - `1083266bd9c9924651e0cb6787f0f9094d3f0fcb` [fix: fix assertion of creation tracker for sink into table (#14845)](https://github.com/risingwavelabs/risingwave/pull/14845)
 - `11b02eb0adfb2f1a07143f549e80d96d2f1a4237` [feat: convert custom parallelism to auto/fixed in recovery loop in meta (#14871)](https://github.com/risingwavelabs/risingwave/pull/14871)
@@ -1702,7 +1746,7 @@
 - `b471a9bd2d3da552055b7f449e8f13f6dd701e55` [feat(sql-backend): support drop source/view/streaming jobs ddls in sql-backend (#14690)](https://github.com/risingwavelabs/risingwave/pull/14690)
 
 ## nightly-20240129
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1a22e82cfcd414f9db0f9a3ce59cc4430f3ab015?expand=1&base=8c51cec8cd71e403b7aec5854388b00ef56a03d5&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8c51cec8cd71e403b7aec5854388b00ef56a03d5...1a22e82cfcd414f9db0f9a3ce59cc4430f3ab015)
 - `1a22e82cfcd414f9db0f9a3ce59cc4430f3ab015` [fix: enable compaction output check regardless of the ReportTask rpc status (#14840)](https://github.com/risingwavelabs/risingwave/pull/14840)
 - `e3e109a6a48ea054b0e5e39dd27d4f09f949d15f` [feat: support scaling down in recovery loop (#14825)](https://github.com/risingwavelabs/risingwave/pull/14825)
 - `5f7e5578920bb53238dbdfa65c29df4ff2b00c82` [fix(avro): correct parse `timestamp` data before Epoch (#14832)](https://github.com/risingwavelabs/risingwave/pull/14832)
@@ -1716,17 +1760,17 @@
 - `f7ca31ea0f9dd1ee95c3ae589bb96cbe003f79ba` [feat(ctl): add 2 risectl commands based on hummock version archive (#14804)](https://github.com/risingwavelabs/risingwave/pull/14804)
 
 ## nightly-20240128
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8c51cec8cd71e403b7aec5854388b00ef56a03d5?expand=1&base=fa8406aa9922526a4e9b9e602b05619e3b03660c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fa8406aa9922526a4e9b9e602b05619e3b03660c...8c51cec8cd71e403b7aec5854388b00ef56a03d5)
 - `8c51cec8cd71e403b7aec5854388b00ef56a03d5` [chore(standalone): use 1 metrics port and rename store id to `standalone` (#14816)](https://github.com/risingwavelabs/risingwave/pull/14816)
 - `7a46f84f4abae23904f4e78a450d45ecc0a0e28a` [chore: fix FullKey log (#14800)](https://github.com/risingwavelabs/risingwave/pull/14800)
 
 ## nightly-20240127
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fa8406aa9922526a4e9b9e602b05619e3b03660c?expand=1&base=bb3be1091bc00311428dde002f9898355f6f9926&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bb3be1091bc00311428dde002f9898355f6f9926...fa8406aa9922526a4e9b9e602b05619e3b03660c)
 - `fa8406aa9922526a4e9b9e602b05619e3b03660c` [fix(risectl): cpu profiling: PREFIX_PROFILING not set (#14819)](https://github.com/risingwavelabs/risingwave/pull/14819)
 - `f16a62386e2edd7b3accd85d9b31dcc6eda307ac` [fix: add missing config docs for StarRocks (#14823)](https://github.com/risingwavelabs/risingwave/pull/14823)
 
 ## nightly-20240126
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bb3be1091bc00311428dde002f9898355f6f9926?expand=1&base=8201fbc5559088b77578c63e529e4ec11e18a05a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8201fbc5559088b77578c63e529e4ec11e18a05a...bb3be1091bc00311428dde002f9898355f6f9926)
 - `bb3be1091bc00311428dde002f9898355f6f9926` [chore: Update README.md (#14808)](https://github.com/risingwavelabs/risingwave/pull/14808)
 - `dad438783aafa2f942d8882056c437b9e98c233f` [fix: patch rquickjs-sys and remove clang dependency (#14817)](https://github.com/risingwavelabs/risingwave/pull/14817)
 - `5576c2ccea03abf5438da7ec5f8d1bb0f4299e85` [feat: support sequential exchange (#14795)](https://github.com/risingwavelabs/risingwave/pull/14795)
@@ -1737,7 +1781,7 @@
 - `e5c6558f8d54d64566d71a4fd138b4ff85d3094e` [fix(avro): fix parsing of avro ref type (#14781)](https://github.com/risingwavelabs/risingwave/pull/14781)
 
 ## nightly-20240125
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8201fbc5559088b77578c63e529e4ec11e18a05a?expand=1&base=040ea58ec544f8a2ce468d6f0dfd5f831b038f02&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/040ea58ec544f8a2ce468d6f0dfd5f831b038f02...8201fbc5559088b77578c63e529e4ec11e18a05a)
 - `8201fbc5559088b77578c63e529e4ec11e18a05a` [refactor(storage): remove writing delete ranges in flush (#14776)](https://github.com/risingwavelabs/risingwave/pull/14776)
 - `996a4ba83698eb539c3f3b9fcb53392083931fae` [fix(obserivation): fix missed hitmap updates, fix drop order (#14788)](https://github.com/risingwavelabs/risingwave/pull/14788)
 - `372c2d70a303f994fb52d3e603ce05c9a910b03c` [refactor: deprecate StreamChunkWithState (#14524)](https://github.com/risingwavelabs/risingwave/pull/14524)
@@ -1752,7 +1796,7 @@
 - `6c149615bae30bbdb28c7b5279a67c7ffaf63186` [feat: do constant folding and timezone transformation before create funtional indexes (#14770)](https://github.com/risingwavelabs/risingwave/pull/14770)
 
 ## nightly-20240124
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/040ea58ec544f8a2ce468d6f0dfd5f831b038f02?expand=1&base=3b8c9423e92332731488351015e2031d78246198&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b8c9423e92332731488351015e2031d78246198...040ea58ec544f8a2ce468d6f0dfd5f831b038f02)
 - `040ea58ec544f8a2ce468d6f0dfd5f831b038f02` [fix: add clang to dockerfile (#14777)](https://github.com/risingwavelabs/risingwave/pull/14777)
 - `b27d25283d8f7e8cee7110e0ee97500cd45fa7ad` [fix(stream): arrangement backfill background ddl (#14563)](https://github.com/risingwavelabs/risingwave/pull/14563)
 - `76656e0b7780dd84090f35410e28f33465d058e8` [chore(deps): Bump serde_with from 3.4.0 to 3.5.0 (#14730)](https://github.com/risingwavelabs/risingwave/pull/14730)
@@ -1787,7 +1831,7 @@
 - `705be197c920639b06aa8baf1f74872d5062dd40` [feat(udf): add initial support for JavaScript UDF (#14513)](https://github.com/risingwavelabs/risingwave/pull/14513)
 
 ## nightly-20240122
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b8c9423e92332731488351015e2031d78246198?expand=1&base=5382afccf754cf6b04f16f8204bfb627dbaf355b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5382afccf754cf6b04f16f8204bfb627dbaf355b...3b8c9423e92332731488351015e2031d78246198)
 - `3b8c9423e92332731488351015e2031d78246198` [fix(object_store): pass user-supplied configurations to `with_minio` (#14723)](https://github.com/risingwavelabs/risingwave/pull/14723)
 - `b4f9b48aa6edc1d4433016cf1e4bb0a3aabff235` [refactor(frontend): improve readability of LogicalSource (#14687)](https://github.com/risingwavelabs/risingwave/pull/14687)
 - `f5c63896bc1bd2935d4a6c39b2a571166d5d2fd3` [chore: update RisingWave version for docker compose with HDFS  (#14719)](https://github.com/risingwavelabs/risingwave/pull/14719)
@@ -1801,20 +1845,20 @@
 - `732e5826e68711f31048d7c250bf7739e4030c1f` [fix: Add check for iceberg test. (#14683)](https://github.com/risingwavelabs/risingwave/pull/14683)
 
 ## nightly-20240121
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5382afccf754cf6b04f16f8204bfb627dbaf355b?expand=1&base=c062e8c165c1d499123e4beed6eacac8bbb8e238&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c062e8c165c1d499123e4beed6eacac8bbb8e238...5382afccf754cf6b04f16f8204bfb627dbaf355b)
 - `5382afccf754cf6b04f16f8204bfb627dbaf355b` [chore(deps): Bump github.com/dvsekhvalnov/jose2go from 0.0.0-20200901110807-248326c1351b to 1.6.0 in /integration_tests/datagen (#14699)](https://github.com/risingwavelabs/risingwave/pull/14699)
 - `c72305ffb2c0eef745bb330efe14368152736132` [chore(deps): Bump h2 from 0.3.21 to 0.3.24 (#14696)](https://github.com/risingwavelabs/risingwave/pull/14696)
 - `a3d7b42f5b95e052eb4c4e80f226af83cf2139cb` [chore(deps): Bump h2 from 0.3.21 to 0.3.24 in /integration_tests/feature-store/simulator (#14695)](https://github.com/risingwavelabs/risingwave/pull/14695)
 - `159c080ea661dec2f7756fd4d160b364c209d592` [chore(deps): Bump h2 from 0.3.21 to 0.3.24 in /integration_tests/feature-store/server (#14694)](https://github.com/risingwavelabs/risingwave/pull/14694)
 
 ## nightly-20240120
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c062e8c165c1d499123e4beed6eacac8bbb8e238?expand=1&base=92e8ee3d036026d190ad2c98cc479e9e1d4df3af&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/92e8ee3d036026d190ad2c98cc479e9e1d4df3af...c062e8c165c1d499123e4beed6eacac8bbb8e238)
 - `c062e8c165c1d499123e4beed6eacac8bbb8e238` [chore(deps): Bump uuid from 1.6.1 to 1.7.0 (#14697)](https://github.com/risingwavelabs/risingwave/pull/14697)
 - `dbb6e9ea1b7998754b5296bb7f385f3d143fbec4` [chore(deps): Bump smallvec from 1.12.0 to 1.13.1 (#14698)](https://github.com/risingwavelabs/risingwave/pull/14698)
 - `c7212599acb98f5f2bf73c24cb9861f3977972a0` [feat(storage): support enabling consistent op on the flight (#14681)](https://github.com/risingwavelabs/risingwave/pull/14681)
 
 ## nightly-20240119
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/92e8ee3d036026d190ad2c98cc479e9e1d4df3af?expand=1&base=186703dbc4595325d7e98734809f70d0c859e899&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/186703dbc4595325d7e98734809f70d0c859e899...92e8ee3d036026d190ad2c98cc479e9e1d4df3af)
 - `92e8ee3d036026d190ad2c98cc479e9e1d4df3af` [refactor: decouple build actor and spawn actors (#14641)](https://github.com/risingwavelabs/risingwave/pull/14641)
 - `be7f0b6d91fd50d0669c1e19e81dbfd23ae0d3d8` [feat(frontend): define generated column on table/source with external schema (#14644)](https://github.com/risingwavelabs/risingwave/pull/14644)
 - `9f1421290d055b55778d2e372d80166d520c71e3` [test(connector): add mysql-sink compatible test (#14688)](https://github.com/risingwavelabs/risingwave/pull/14688)
@@ -1832,7 +1876,7 @@
 - `2b7f295b6c917deb5b9516f6f2651844a24857ab` [feat(streaming): create a new span for every yielded message (#14645)](https://github.com/risingwavelabs/risingwave/pull/14645)
 
 ## nightly-20240118
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/186703dbc4595325d7e98734809f70d0c859e899?expand=1&base=2c2085f0b91d9a7252d5aa8d3c54ea7eed85f255&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2c2085f0b91d9a7252d5aa8d3c54ea7eed85f255...186703dbc4595325d7e98734809f70d0c859e899)
 - `186703dbc4595325d7e98734809f70d0c859e899` [feat: Introduce jni catalog to support all catalogs (#14264)](https://github.com/risingwavelabs/risingwave/pull/14264)
 - `c902aada5c89d38411df85585f37381c2f058dee` [fix(compactor): drop delete range by compaction filter (#14480)](https://github.com/risingwavelabs/risingwave/pull/14480)
 - `db7b8eb19ecac87fd8c4b7b4a6af42f895bd17c2` [test: add php client test into ci pipeline (#14649)](https://github.com/risingwavelabs/risingwave/pull/14649)
@@ -1846,7 +1890,7 @@
 - `fbfc9127e2cf1007239c2025e6c40349783a4ff2` [fix: incorrect batch sort agg on ordered input when group key is not prefix of input order columns (#14621)](https://github.com/risingwavelabs/risingwave/pull/14621)
 
 ## nightly-20240117
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2c2085f0b91d9a7252d5aa8d3c54ea7eed85f255?expand=1&base=50fd512da34d652b2e7903ea755b729e0959ab94&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/50fd512da34d652b2e7903ea755b729e0959ab94...2c2085f0b91d9a7252d5aa8d3c54ea7eed85f255)
 - `2c2085f0b91d9a7252d5aa8d3c54ea7eed85f255` [fix: fix incorrect compact task memory estimation (#14624)](https://github.com/risingwavelabs/risingwave/pull/14624)
 - `95cdfe9c10be95dd5ed2cb950c03b6cbd599c505` [feat(frontend): support idle in transaction session timeout (#14566)](https://github.com/risingwavelabs/risingwave/pull/14566)
 - `8babc53918e13c24577416dcb33544dde74a3852` [chore(storage): upgrade config (#14601)](https://github.com/risingwavelabs/risingwave/pull/14601)
@@ -1872,7 +1916,7 @@
 - `b1cdb980c8502e5d663fdd0557e5f080540a1036` [refactor(meta): maintain snapshot of running actors instead of resolving it every time for barrier (#14517)](https://github.com/risingwavelabs/risingwave/pull/14517)
 
 ## nightly-20240116
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/50fd512da34d652b2e7903ea755b729e0959ab94?expand=1&base=abfee42bd49281c4e0dedfeafc6cbf3f8641feca&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/abfee42bd49281c4e0dedfeafc6cbf3f8641feca...50fd512da34d652b2e7903ea755b729e0959ab94)
 - `50fd512da34d652b2e7903ea755b729e0959ab94` [feat: handle state store sync in local barrier manager (#14377)](https://github.com/risingwavelabs/risingwave/pull/14377)
 - `08da611448d6d234fb7912bd897031015db2c6f3` [feat(common): add `cmp_by` to `Sentinelled` (#14578)](https://github.com/risingwavelabs/risingwave/pull/14578)
 - `da5e90d297d259d65a5de727392f356c15b4d8f0` [refactor: fix incorrect skip multi-version key metric and save unneccessary key comparison (#14494)](https://github.com/risingwavelabs/risingwave/pull/14494)
@@ -1890,7 +1934,7 @@
 - `9162478ffa642825f4c6981ea11bf84403b22c75` [feat: support expression to compute iceberg sink partition value (#14470)](https://github.com/risingwavelabs/risingwave/pull/14470)
 
 ## nightly-20240115
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/abfee42bd49281c4e0dedfeafc6cbf3f8641feca?expand=1&base=7c3edb1ff2d64f9c0e50eacfca09ea5ce112ca2d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7c3edb1ff2d64f9c0e50eacfca09ea5ce112ca2d...abfee42bd49281c4e0dedfeafc6cbf3f8641feca)
 - `abfee42bd49281c4e0dedfeafc6cbf3f8641feca` [fix(frontend): avoid panic when querying log store internal table (#14454)](https://github.com/risingwavelabs/risingwave/pull/14454)
 - `f2af4e68734eac71b01e3536d160e4a023fa53bd` [chore: Use force mode with risectl unregister-workers. (#14575)](https://github.com/risingwavelabs/risingwave/pull/14575)
 - `75c1076648c5d6cb5d58d0dc16e8bcb6b11faf30` [chore: fix expr macro doc (#14351)](https://github.com/risingwavelabs/risingwave/pull/14351)
@@ -1908,16 +1952,16 @@
 - `240416f43bae35c11d1d8a6d9e081fdd42fcc6bb` [feat: enable or disable tracing with system params (#14528)](https://github.com/risingwavelabs/risingwave/pull/14528)
 
 ## nightly-20240114
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7c3edb1ff2d64f9c0e50eacfca09ea5ce112ca2d?expand=1&base=2bec2eda37df0a92d0a46a737168657b2523d020&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2bec2eda37df0a92d0a46a737168657b2523d020...7c3edb1ff2d64f9c0e50eacfca09ea5ce112ca2d)
 - `7c3edb1ff2d64f9c0e50eacfca09ea5ce112ca2d` [test: include sqlalchemy 1.4 test in python client testing (#14491)](https://github.com/risingwavelabs/risingwave/pull/14491)
 
 ## nightly-20240113
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2bec2eda37df0a92d0a46a737168657b2523d020?expand=1&base=7aabd3b82760a2ca7f08f0de546bf3051e1ad047&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7aabd3b82760a2ca7f08f0de546bf3051e1ad047...2bec2eda37df0a92d0a46a737168657b2523d020)
 - `2bec2eda37df0a92d0a46a737168657b2523d020` [fix(connector): add additional check in nats list_splits (#14546)](https://github.com/risingwavelabs/risingwave/pull/14546)
 - `1afb0eccaff05b8a03dcb15693e464d12a0b9359` [feat(sql-udf): deep calling stack (recursion) prevention for sql udf (#14392)](https://github.com/risingwavelabs/risingwave/pull/14392)
 
 ## nightly-20240112
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7aabd3b82760a2ca7f08f0de546bf3051e1ad047?expand=1&base=a03e91fb95ff0da0f6aa9ee93e7947faf0abd5e5&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a03e91fb95ff0da0f6aa9ee93e7947faf0abd5e5...7aabd3b82760a2ca7f08f0de546bf3051e1ad047)
 - `7aabd3b82760a2ca7f08f0de546bf3051e1ad047` [fix: only check the parallelism of the target table in e2e alter parallelism test (#14542)](https://github.com/risingwavelabs/risingwave/pull/14542)
 - `47af81e4c75e9e35fce8dad545e005936ec25abb` [chore: upgrade docker image version (#14535)](https://github.com/risingwavelabs/risingwave/pull/14535)
 - `11c1c6b038df50df5b7b90f8e4cd2caede8e8205` [chore: increase log size limit in ci (#14532)](https://github.com/risingwavelabs/risingwave/pull/14532)
@@ -1936,7 +1980,7 @@
 - `44019bcaf5aa35a213c834165791c8eced1cc9c5` [chore(storage): make max_prefetch_block_number configurable (#14514)](https://github.com/risingwavelabs/risingwave/pull/14514)
 
 ## nightly-20240111
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a03e91fb95ff0da0f6aa9ee93e7947faf0abd5e5?expand=1&base=cf9a2dbccc6c53167a15436ab947f99f4f5734cc&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cf9a2dbccc6c53167a15436ab947f99f4f5734cc...a03e91fb95ff0da0f6aa9ee93e7947faf0abd5e5)
 - `a03e91fb95ff0da0f6aa9ee93e7947faf0abd5e5` [fix: fix fill table id for cdc backfill source (#14516)](https://github.com/risingwavelabs/risingwave/pull/14516)
 - `dec3b7c487deef62ece87dac6f2f1a8acace5f9d` [feat(sql-backend): support throttle rate limit for sql-backend (#14305)](https://github.com/risingwavelabs/risingwave/pull/14305)
 - `06d4728cd84cfc243909ed444b36755a6022f60c` [feat(sql-backend): [PART 4] support create streaming job in sql backend (#14212)](https://github.com/risingwavelabs/risingwave/pull/14212)
@@ -1949,7 +1993,7 @@
 - `b03a64191f37c4dafbd2b91ecf62e53f379abdf3` [feat: allow configure other additional columns for connectors (#14215)](https://github.com/risingwavelabs/risingwave/pull/14215)
 
 ## nightly-20240110
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cf9a2dbccc6c53167a15436ab947f99f4f5734cc?expand=1&base=d21d42f9a8ab63a78f67241480c2009ec6f1f61b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d21d42f9a8ab63a78f67241480c2009ec6f1f61b...cf9a2dbccc6c53167a15436ab947f99f4f5734cc)
 - `cf9a2dbccc6c53167a15436ab947f99f4f5734cc` [feat: support scaling table fragments connected by hash shuffle (#14485)](https://github.com/risingwavelabs/risingwave/pull/14485)
 - `50d111490b921430aef3f6a3e220e66466606e9e` [fix: update downstream table's upstream_actor_id for sinking into table (#14487)](https://github.com/risingwavelabs/risingwave/pull/14487)
 - `3b3d0dec6ba3f724644b95ebbba34ddfd6702afe` [feat(frontend): ban jsonb in aggregation stream key (#14442)](https://github.com/risingwavelabs/risingwave/pull/14442)
@@ -1971,7 +2015,7 @@
 - `fb16e98e14dafe32c052268bf92eef63105f28f6` [fix: increase data generator qps to produce more data in MV (#14441)](https://github.com/risingwavelabs/risingwave/pull/14441)
 
 ## nightly-20240109
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d21d42f9a8ab63a78f67241480c2009ec6f1f61b?expand=1&base=414c6ec1c05e3d13aa4842d30624c13b83b9692c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/414c6ec1c05e3d13aa4842d30624c13b83b9692c...d21d42f9a8ab63a78f67241480c2009ec6f1f61b)
 - `d21d42f9a8ab63a78f67241480c2009ec6f1f61b` [feat(sink): Support without backfill sink with 'create sink from mv'. (#13947)](https://github.com/risingwavelabs/risingwave/pull/13947)
 - `37a666a709ef15f0e3747cda7ef9824daeec5e65` [fix(mysql-cdc): only read table schema of captured tables instead of all tables for shared source (#14406)](https://github.com/risingwavelabs/risingwave/pull/14406)
 - `c6f572db1bbbc2c7ac975d2b0b87ca688d09dbef` [chore(meta): change default parallelism for already existed streaming job to Custom (#14443)](https://github.com/risingwavelabs/risingwave/pull/14443)
@@ -1988,7 +2032,7 @@
 - `31a85682430e9bafec9b2deadee3412b107d2a22` [fix: missing update of upstream fragment and actor ids for table replacement (#14381)](https://github.com/risingwavelabs/risingwave/pull/14381)
 
 ## nightly-20240108
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/414c6ec1c05e3d13aa4842d30624c13b83b9692c?expand=1&base=a01a30dece65f0391210c1a60e6ef17d4270581a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a01a30dece65f0391210c1a60e6ef17d4270581a...414c6ec1c05e3d13aa4842d30624c13b83b9692c)
 - `414c6ec1c05e3d13aa4842d30624c13b83b9692c` [refactor: own global barrier manager in worker loop (#14410)](https://github.com/risingwavelabs/risingwave/pull/14410)
 - `f52c04619f8bac0b29cb3c12541fd1b5fdc2b6db` [chore: update rw version with hdfs (#14412)](https://github.com/risingwavelabs/risingwave/pull/14412)
 - `886371aa40dd09a1f6954ee250ae7ed8d045f987` [chore(ci): enable differential tests (#14411)](https://github.com/risingwavelabs/risingwave/pull/14411)
@@ -2006,11 +2050,11 @@
 - `33b81af40e21d833966125a11bf804e9f477995c` [chore: Update README.md (#14399)](https://github.com/risingwavelabs/risingwave/pull/14399)
 
 ## nightly-20240107
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a01a30dece65f0391210c1a60e6ef17d4270581a?expand=1&base=7954da3e7ea628d4d27d840287c31bd5148d2c9a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7954da3e7ea628d4d27d840287c31bd5148d2c9a...a01a30dece65f0391210c1a60e6ef17d4270581a)
 - `a01a30dece65f0391210c1a60e6ef17d4270581a` [chore: Update README.md (#14371)](https://github.com/risingwavelabs/risingwave/pull/14371)
 
 ## nightly-20240106
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7954da3e7ea628d4d27d840287c31bd5148d2c9a?expand=1&base=788d6cd803373aec621fa053cfd4a8742c332c9a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/788d6cd803373aec621fa053cfd4a8742c332c9a...7954da3e7ea628d4d27d840287c31bd5148d2c9a)
 - `7954da3e7ea628d4d27d840287c31bd5148d2c9a` [feat: support multiple temporal filter with or (#14382)](https://github.com/risingwavelabs/risingwave/pull/14382)
 - `ed4101f86b33b18ad6d40cdbf4a3f8367c0a273c` [feat(storage): reduce size of compaction task (#14160)](https://github.com/risingwavelabs/risingwave/pull/14160)
 - `dc0402aefdd9b4a182617d3650326bb7c513d9a9` [chore(dashboard): cleanup dead code for old dashboard (#14386)](https://github.com/risingwavelabs/risingwave/pull/14386)
@@ -2025,7 +2069,7 @@
 - `2513cbab0fff771eb61bf130be5ef1a0f0bcf694` [test: fix flaky sink_into_table test (#14372)](https://github.com/risingwavelabs/risingwave/pull/14372)
 
 ## nightly-20240104
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/788d6cd803373aec621fa053cfd4a8742c332c9a?expand=1&base=58e1326601d9f9a16b7fb8eeaac3a23a57cd008a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/58e1326601d9f9a16b7fb8eeaac3a23a57cd008a...788d6cd803373aec621fa053cfd4a8742c332c9a)
 - `788d6cd803373aec621fa053cfd4a8742c332c9a` [test: reorganize the sink to table e2e test (#14158)](https://github.com/risingwavelabs/risingwave/pull/14158)
 - `6d02b187495674db172c9bcbaed014ad3e646be9` [fix(stream/materialize): enforce update_cache when modify fixed_changes (#14364)](https://github.com/risingwavelabs/risingwave/pull/14364)
 - `eada1d1f8598b895c6ab8953580043aa6e67d578` [feat(catalog): add pg_get_viewdef (#14336)](https://github.com/risingwavelabs/risingwave/pull/14336)
@@ -2045,7 +2089,7 @@
 - `c8cdb9f59ff12554085d4261d4d2e6a617854196` [fix: revert to random source split assignment when there are too many actors (#14346)](https://github.com/risingwavelabs/risingwave/pull/14346)
 
 ## nightly-20240103
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/58e1326601d9f9a16b7fb8eeaac3a23a57cd008a?expand=1&base=56ce4e2bdf063c7a1cc5f565880c273c74fada7a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/56ce4e2bdf063c7a1cc5f565880c273c74fada7a...58e1326601d9f9a16b7fb8eeaac3a23a57cd008a)
 - `58e1326601d9f9a16b7fb8eeaac3a23a57cd008a` [test(streaming): add fuzz test for materialize handle conflict (#14166)](https://github.com/risingwavelabs/risingwave/pull/14166)
 - `59bb2ef3461abf83c1a4fb7d039519deac81112d` [fix: fix panic in `ctl meta source-split-info` (#14334)](https://github.com/risingwavelabs/risingwave/pull/14334)
 - `c28838ef2139543b0126dfbf83516f61c307a6ef` [chore: update help message for scale command (#14332)](https://github.com/risingwavelabs/risingwave/pull/14332)
@@ -2058,7 +2102,7 @@
 - `4eacb3449430dc776a6e1c66a695c00b02a56b04` [chore: fix typos linted by cSpell (#14306)](https://github.com/risingwavelabs/risingwave/pull/14306)
 
 ## nightly-20240102
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/56ce4e2bdf063c7a1cc5f565880c273c74fada7a?expand=1&base=be30f20e2c14b5d12efd5b33a4ac9e537602fc37&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/be30f20e2c14b5d12efd5b33a4ac9e537602fc37...56ce4e2bdf063c7a1cc5f565880c273c74fada7a)
 - `56ce4e2bdf063c7a1cc5f565880c273c74fada7a` [fix(optimizer): internal tables return no stream key (#14303)](https://github.com/risingwavelabs/risingwave/pull/14303)
 - `72ccc845dac6afaaa6fa1a29c6c94463b8c549ac` [fix(connector-node): only log events if enabled (#14295)](https://github.com/risingwavelabs/risingwave/pull/14295)
 - `f54cb93d9a16b382ab1a4809318fc9c64cd1c29e` [refactor(sink): unify log write path and distinguish table sink from external sink (#14260)](https://github.com/risingwavelabs/risingwave/pull/14260)
@@ -2076,16 +2120,16 @@
 - `9161189d54006c25d4d11b5480baf10a7a5976cf` [chore(deps): Bump golang.org/x/crypto from 0.9.0 to 0.17.0 in /integration_tests/client-library/go (#14278)](https://github.com/risingwavelabs/risingwave/pull/14278)
 
 ## nightly-20240101
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/be30f20e2c14b5d12efd5b33a4ac9e537602fc37?expand=1&base=8bfe319e793879639aac81c4614a8028a1b517fa&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8bfe319e793879639aac81c4614a8028a1b517fa...be30f20e2c14b5d12efd5b33a4ac9e537602fc37)
 - `be30f20e2c14b5d12efd5b33a4ac9e537602fc37` [chore(copyright): change to 2024 (#14285)](https://github.com/risingwavelabs/risingwave/pull/14285)
 
 ## nightly-20231231
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8bfe319e793879639aac81c4614a8028a1b517fa?expand=1&base=9ec58123d59d0c48e4b10bfdfa019358107e2230&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9ec58123d59d0c48e4b10bfdfa019358107e2230...8bfe319e793879639aac81c4614a8028a1b517fa)
 - `8bfe319e793879639aac81c4614a8028a1b517fa` [test: add pinot-sink integration test into ci workflow (#14257)](https://github.com/risingwavelabs/risingwave/pull/14257)
 - `64aed9108e9ec442bfaa1f04b3f6620eec66d2f6` [fix(sink): Set default es.type is '_doc', And fix pk bug  (#14273)](https://github.com/risingwavelabs/risingwave/pull/14273)
 
 ## nightly-20231229
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9ec58123d59d0c48e4b10bfdfa019358107e2230?expand=1&base=aa9dcac98985f9650595ef4b67e43d2601e41a44&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aa9dcac98985f9650595ef4b67e43d2601e41a44...9ec58123d59d0c48e4b10bfdfa019358107e2230)
 - `9ec58123d59d0c48e4b10bfdfa019358107e2230` [feat: show cluster versions for database objects (#14167)](https://github.com/risingwavelabs/risingwave/pull/14167)
 - `fd580714b20be554965db929d44ccba888b07773` [test: move client-library tests from risingwave-test repo to integration test (#14272)](https://github.com/risingwavelabs/risingwave/pull/14272)
 - `fa407d1bff2a24b2df8ffc0428f8f8d9e37d55fe` [fix(connector): print Java exception stacktrace in log (#14276)](https://github.com/risingwavelabs/risingwave/pull/14276)
@@ -2094,7 +2138,7 @@
 - `08362b79c27df9363b6fe519be72c03de4401b89` [feat(sqlparser): support literal integers in hex / oct / bin (#14262)](https://github.com/risingwavelabs/risingwave/pull/14262)
 
 ## nightly-20231228
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aa9dcac98985f9650595ef4b67e43d2601e41a44?expand=1&base=4695ad1239b1c160228dd7bf6f473634f57c9834&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4695ad1239b1c160228dd7bf6f473634f57c9834...aa9dcac98985f9650595ef4b67e43d2601e41a44)
 - `aa9dcac98985f9650595ef4b67e43d2601e41a44` [feat(cdc): support postgres cdc backfill (#13958)](https://github.com/risingwavelabs/risingwave/pull/13958)
 - `fffff6dd54f114b72d858b453aafe5367d389bbe` [feat: Revert "feat(sink): support format encode syntax for sink into table (#14134) (#14258)](https://github.com/risingwavelabs/risingwave/pull/14258)
 - `2a26d0efe852e5469377c9a6396290a5ddfd7a68` [fix(compactor): fix put key miss tombstone (#14233)](https://github.com/risingwavelabs/risingwave/pull/14233)
@@ -2110,7 +2154,7 @@
 - `476daec9dae26a20899d6266838e2097caa55f39` [refactor(source): refactor s3 source `WITH` options handling (#14190)](https://github.com/risingwavelabs/risingwave/pull/14190)
 
 ## nightly-20231227
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4695ad1239b1c160228dd7bf6f473634f57c9834?expand=1&base=5a312a206def916902ec901e106da0293db3dc30&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5a312a206def916902ec901e106da0293db3dc30...4695ad1239b1c160228dd7bf6f473634f57c9834)
 - `4695ad1239b1c160228dd7bf6f473634f57c9834` [fix(expr): fix `SOME/ALL/ANY` expression (#14221)](https://github.com/risingwavelabs/risingwave/pull/14221)
 - `d27d6c1eca115c60a6b31958e4a8ef6de5a5affe` [refactor(common): move some over window utils to `common` (#14204)](https://github.com/risingwavelabs/risingwave/pull/14204)
 - `ec7bf4b55c01b76c33012824e2e16893e8deccf6` [chore: fix building warning without test (#14230)](https://github.com/risingwavelabs/risingwave/pull/14230)
@@ -2123,7 +2167,7 @@
 - `a8d0541b08b29822c342f3e096b376376e71a305` [fix(connector): use log4j's string interpolation (#14206)](https://github.com/risingwavelabs/risingwave/pull/14206)
 
 ## nightly-20231226
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5a312a206def916902ec901e106da0293db3dc30?expand=1&base=4ad19403b10dcd9b8595694f06e73c2f843d374f&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4ad19403b10dcd9b8595694f06e73c2f843d374f...5a312a206def916902ec901e106da0293db3dc30)
 - `5a312a206def916902ec901e106da0293db3dc30` [doc(delta-lake): add demo for delta lake sink (#11087)](https://github.com/risingwavelabs/risingwave/pull/11087)
 - `070bd0cdc1314e4b3f36b626fca010b392db7614` [fix(meta): add index_columns_len to index catalog (#14210)](https://github.com/risingwavelabs/risingwave/pull/14210)
 - `f1f3f7b725cad0b18692a7f3ac50fa894d19750b` [refactor(expr): move cast signatures to frontend (#14203)](https://github.com/risingwavelabs/risingwave/pull/14203)
@@ -2136,18 +2180,18 @@
 - `38b6ba7e5d496e3e8e2517dfc9bb95839abbbe75` [chore(deps): Bump xorf from 0.10.2 to 0.11.0 (#14194)](https://github.com/risingwavelabs/risingwave/pull/14194)
 
 ## nightly-20231225
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4ad19403b10dcd9b8595694f06e73c2f843d374f?expand=1&base=4f354b22afa8bac91c57a4144a63cd19c2e62ece&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4f354b22afa8bac91c57a4144a63cd19c2e62ece...4ad19403b10dcd9b8595694f06e73c2f843d374f)
 - `4ad19403b10dcd9b8595694f06e73c2f843d374f` [feat(storage): pass per-vnode watermark to hummock (#13429)](https://github.com/risingwavelabs/risingwave/pull/13429)
 - `ee6378b5f81716217d2881046cb02bd64394ae64` [feat: [Part 1] add more functions for sql-based controllers and some bug fix (#14155)](https://github.com/risingwavelabs/risingwave/pull/14155)
 
 ## nightly-20231224
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4f354b22afa8bac91c57a4144a63cd19c2e62ece?expand=1&base=73fddec7f7a6bc703470d1895ba78752af74ad1a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/73fddec7f7a6bc703470d1895ba78752af74ad1a...4f354b22afa8bac91c57a4144a63cd19c2e62ece)
 - `4f354b22afa8bac91c57a4144a63cd19c2e62ece` [chore(deps): Bump fancy-regex from 0.12.0 to 0.13.0 (#14162)](https://github.com/risingwavelabs/risingwave/pull/14162)
 - `a21cff638363bb0ea79152553efdff5cf177ed5d` [fix: fix codecov.yml (#14164)](https://github.com/risingwavelabs/risingwave/pull/14164)
 - `695651ba7fac227eafecfa7305ec3072e2eb2510` [feat(expr): support pg_get_indexdef (#14073)](https://github.com/risingwavelabs/risingwave/pull/14073)
 
 ## nightly-20231222
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/73fddec7f7a6bc703470d1895ba78752af74ad1a?expand=1&base=cd372beb34f89b4461c55e4c91a17ebc0130b195&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cd372beb34f89b4461c55e4c91a17ebc0130b195...73fddec7f7a6bc703470d1895ba78752af74ad1a)
 - `73fddec7f7a6bc703470d1895ba78752af74ad1a` [test(sink): add integration test for sink failure isolation (#14150)](https://github.com/risingwavelabs/risingwave/pull/14150)
 - `4bab13ae84b070f7b6109b34f971f28985654e5b` [feat: (with Semi-join)support equal condition in temporal filter with complex expression (#14098)](https://github.com/risingwavelabs/risingwave/pull/14098)
 - `f01eeb5cb7b5626d3e932546b2c7962d22f9f2f2` [test: add starrocks-sink integration test into ci workflow (#14154)](https://github.com/risingwavelabs/risingwave/pull/14154)
@@ -2164,7 +2208,7 @@
 - `45603bd3339cc22f68475d4be86f3601433353b3` [fix(parser): display of sink into table (#14136)](https://github.com/risingwavelabs/risingwave/pull/14136)
 
 ## nightly-20231221
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cd372beb34f89b4461c55e4c91a17ebc0130b195?expand=1&base=e0a9b80f4c2a9ab19b10662fe19dc48007eb2b9a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e0a9b80f4c2a9ab19b10662fe19dc48007eb2b9a...cd372beb34f89b4461c55e4c91a17ebc0130b195)
 - `cd372beb34f89b4461c55e4c91a17ebc0130b195` [feat(sink): rewind log reader to isolate sink err (#14029)](https://github.com/risingwavelabs/risingwave/pull/14029)
 - `eb5389d8499653abac854c9ddd1a82deae66006b` [fix: cancel background stream job if table fragment not persist (#14119)](https://github.com/risingwavelabs/risingwave/pull/14119)
 - `fcc573290469e9ccc7dbacc46b2b499a3d523158` [feat(parser): accept `cancel job` (#14121)](https://github.com/risingwavelabs/risingwave/pull/14121)
@@ -2177,7 +2221,7 @@
 - `640befd6133dd8cfa89b1322089e2452478371f0` [refactor: supress log "failed to evaluate expression" (#14100)](https://github.com/risingwavelabs/risingwave/pull/14100)
 
 ## nightly-20231220
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e0a9b80f4c2a9ab19b10662fe19dc48007eb2b9a?expand=1&base=9a4b1b03a7fdc1376918028ee8aa600e311abde3&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9a4b1b03a7fdc1376918028ee8aa600e311abde3...e0a9b80f4c2a9ab19b10662fe19dc48007eb2b9a)
 - `e0a9b80f4c2a9ab19b10662fe19dc48007eb2b9a` [feat(storage): fill missing columns with null for replicated state_table (#13621)](https://github.com/risingwavelabs/risingwave/pull/13621)
 - `4fa341cd36f572ae6eda5e7cc79072fda79e227a` [feat(ordered-set agg): allow constant expression and NULL as direct argument (#14080)](https://github.com/risingwavelabs/risingwave/pull/14080)
 - `faf3ff5cb39b8bdc4c47917b032ea48cf5bcc86a` [fix(batch): fix pu2worker cache (#14087)](https://github.com/risingwavelabs/risingwave/pull/14087)
@@ -2188,7 +2232,7 @@
 - `4c8d94e01f34a44f6a58310ba8870029cfe506b4` [feat(pgwire): expose SSL functionality via RW_SSL_CERT and RW_SSL_KEY (#14062)](https://github.com/risingwavelabs/risingwave/pull/14062)
 
 ## nightly-20231219
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9a4b1b03a7fdc1376918028ee8aa600e311abde3?expand=1&base=ef6d48316887ed771f0d9c43dba58b520b23aeba&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef6d48316887ed771f0d9c43dba58b520b23aeba...9a4b1b03a7fdc1376918028ee8aa600e311abde3)
 - `9a4b1b03a7fdc1376918028ee8aa600e311abde3` [perf(meta): make GlobalStreamManager::build_actors concurrent (#14048)](https://github.com/risingwavelabs/risingwave/pull/14048)
 - `a5fcbd07a06df3ef4e4095548102d4babc4d90fb` [chore(deps): bump ahash and cleanup stale audit ignores (#14061)](https://github.com/risingwavelabs/risingwave/pull/14061)
 - `723e70bde79b2d49374184cf68ace94dd1458edf` [refactor(over window): reduce repeated calculation of projection from state key to table sub-pk (#14049)](https://github.com/risingwavelabs/risingwave/pull/14049)
@@ -2207,7 +2251,7 @@
 - `6024b496d86959729181c48d440fa44db430306f` [ci: disable codecov comment (#14021)](https://github.com/risingwavelabs/risingwave/pull/14021)
 
 ## nightly-20231218
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef6d48316887ed771f0d9c43dba58b520b23aeba?expand=1&base=8aae44fbebcbca5979e3092138f24499893f6b86&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8aae44fbebcbca5979e3092138f24499893f6b86...ef6d48316887ed771f0d9c43dba58b520b23aeba)
 - `ef6d48316887ed771f0d9c43dba58b520b23aeba` [fix(over window): fix range cache when some of `order by` and input stream key columns are in `partition by` columns (#14045)](https://github.com/risingwavelabs/risingwave/pull/14045)
 - `a0cc54c06c6c95708198e9c2711f6a64904ce67b` [fix(metrics): use raw metrics vec in connection metrics (#14017)](https://github.com/risingwavelabs/risingwave/pull/14017)
 - `3a0592da2785d9d5b9b4dcac8e991a2ef7e86206` [fix(meta): reduce time complexity of MinOverlappingPicker (#14036)](https://github.com/risingwavelabs/risingwave/pull/14036)
@@ -2222,11 +2266,11 @@
 - `69f24de53d436d6afdb83fe17c86092cf690c4bc` [chore(deps): Bump educe from 0.4.23 to 0.5.7 (#14019)](https://github.com/risingwavelabs/risingwave/pull/14019)
 
 ## nightly-20231217
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8aae44fbebcbca5979e3092138f24499893f6b86?expand=1&base=2243a02e954fc092500739215ca87309826baef3&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2243a02e954fc092500739215ca87309826baef3...8aae44fbebcbca5979e3092138f24499893f6b86)
 - `8aae44fbebcbca5979e3092138f24499893f6b86` [feat(log-store): support log store rewind (#13959)](https://github.com/risingwavelabs/risingwave/pull/13959)
 
 ## nightly-20231216
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2243a02e954fc092500739215ca87309826baef3?expand=1&base=59e56c1a29fc4e4dc7389a20313a38fce583d71a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/59e56c1a29fc4e4dc7389a20313a38fce583d71a...2243a02e954fc092500739215ca87309826baef3)
 - `2243a02e954fc092500739215ca87309826baef3` [fix: clean the downstream table of the dirty table sink during recovery. (#13957)](https://github.com/risingwavelabs/risingwave/pull/13957)
 - `0561cd7c42d5088a1c6d5d49dfa39218a7aae3ca` [fix(ci): fix `main-cron.yml` format (#14008)](https://github.com/risingwavelabs/risingwave/pull/14008)
 - `2647fc8fc36147f3bbf85504ac84072655b8defd` [fix(session_config): correctly handle `set/show transaction isolation level` (#13999)](https://github.com/risingwavelabs/risingwave/pull/13999)
@@ -2243,7 +2287,7 @@
 - `64a2d929aa941475a7f9eeee5b15eb0f9cee5fcd` [fix(stream): reuse label guarded metrics for actor input output metrics (#13994)](https://github.com/risingwavelabs/risingwave/pull/13994)
 
 ## nightly-20231214
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/59e56c1a29fc4e4dc7389a20313a38fce583d71a?expand=1&base=1e56cdb2758f96a8e3aca5a058c15bd639c8bcd2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1e56cdb2758f96a8e3aca5a058c15bd639c8bcd2...59e56c1a29fc4e4dc7389a20313a38fce583d71a)
 - `59e56c1a29fc4e4dc7389a20313a38fce583d71a` [chore(storage): remove unused code memtable.rs (#13993)](https://github.com/risingwavelabs/risingwave/pull/13993)
 - `2b2bcc9253e4ad34e4421a921dc1b725033fe470` [feat(batch): batch group chunks for dml (#13872)](https://github.com/risingwavelabs/risingwave/pull/13872)
 - `49cf2d9527c49bacb67363dc38895f4127292c54` [fix(ci): fix ci upload docker compose log (#13991)](https://github.com/risingwavelabs/risingwave/pull/13991)
@@ -2252,7 +2296,7 @@
 - `cd04aaa94a23a252f92d8e2033f316a96f80103e` [feat(sink): support deltalake sink with rust sdk (#13600)](https://github.com/risingwavelabs/risingwave/pull/13600)
 
 ## nightly-20231213
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1e56cdb2758f96a8e3aca5a058c15bd639c8bcd2?expand=1&base=c74817f797b5fba0eff25c9f4cfa95a817a0a392&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c74817f797b5fba0eff25c9f4cfa95a817a0a392...1e56cdb2758f96a8e3aca5a058c15bd639c8bcd2)
 - `1e56cdb2758f96a8e3aca5a058c15bd639c8bcd2` [chore(ci): Update cherry-pick-to-release-branch.yml for v1.5.1 (#13978)](https://github.com/risingwavelabs/risingwave/pull/13978)
 - `b930b343e2c81ba489c89573da589682de9aca2a` [feat: Add statement_timeout for query. (#13933)](https://github.com/risingwavelabs/risingwave/pull/13933)
 - `1342d6f04f17b8df096a8850f5fc627d7b89e587` [fix(meta): drop `TableCatalog` in `cancel_stream_jobs` (#13938)](https://github.com/risingwavelabs/risingwave/pull/13938)
@@ -2265,7 +2309,7 @@
 - `3da7770f465997c197c74f863ef1e874c7d25c24` [test: refactor integration tests scripts (#13934)](https://github.com/risingwavelabs/risingwave/pull/13934)
 
 ## nightly-20231212
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c74817f797b5fba0eff25c9f4cfa95a817a0a392?expand=1&base=ad2073fb2e88b6e1dbd91e6c1f79f184ca732ab2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ad2073fb2e88b6e1dbd91e6c1f79f184ca732ab2...c74817f797b5fba0eff25c9f4cfa95a817a0a392)
 - `c74817f797b5fba0eff25c9f4cfa95a817a0a392` [refactor(common): deduplicate chunk operation implementations (#13911)](https://github.com/risingwavelabs/risingwave/pull/13911)
 - `96bca4ce66071640dfa5c4807b8e582cb35dacca` [refactor(streaming): clean up unnecessary `metrics` field in agg executor (#13946)](https://github.com/risingwavelabs/risingwave/pull/13946)
 - `43f8cedf6b51076f805267dd509742c168be1da5` [fix(sqlparser): better error when fail to match expected keyword (#13944)](https://github.com/risingwavelabs/risingwave/pull/13944)
@@ -2282,7 +2326,7 @@
 - `52632ae065921fd9219d9a15f8a11e03f69e42c0` [fix(types): fix Serial in Fields derive and add tests (#13926)](https://github.com/risingwavelabs/risingwave/pull/13926)
 
 ## nightly-20231211
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ad2073fb2e88b6e1dbd91e6c1f79f184ca732ab2?expand=1&base=7b6bbf3831aba05d8ce7f68080534a13b032317a&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7b6bbf3831aba05d8ce7f68080534a13b032317a...ad2073fb2e88b6e1dbd91e6c1f79f184ca732ab2)
 - `ad2073fb2e88b6e1dbd91e6c1f79f184ca732ab2` [fix: add apt-get update to fix dockerfile (#13925)](https://github.com/risingwavelabs/risingwave/pull/13925)
 - `1d4cac8fd1b82be801887cefd733226a10cf2c57` [fix: fix docker compose standalone prome (#13921)](https://github.com/risingwavelabs/risingwave/pull/13921)
 - `2fffc1315bb08d7bab5b03095e8beb68e8c54982` [feat(storage): enable preload for log store and dynamic filter (#13558)](https://github.com/risingwavelabs/risingwave/pull/13558)
@@ -2302,17 +2346,17 @@
 - `e513e6b894add9c71b4f41050678bd400dcadf9f` [fix: use EpochWithGap::new_max_epoch if the provided epoch is max epoch (#13881)](https://github.com/risingwavelabs/risingwave/pull/13881)
 
 ## nightly-20231210
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7b6bbf3831aba05d8ce7f68080534a13b032317a?expand=1&base=5596207f4d28e2f4b1ebbff5128f8b7ce6d23cca&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5596207f4d28e2f4b1ebbff5128f8b7ce6d23cca...7b6bbf3831aba05d8ce7f68080534a13b032317a)
 - `7b6bbf3831aba05d8ce7f68080534a13b032317a` [chore(stream): rename StreamEnvironment to StreamContext (#13863)](https://github.com/risingwavelabs/risingwave/pull/13863)
 - `19f4254921c66bf83b9ceb2ba6f5a9d5f31c939a` [feat: Experimentally introducing sink into table (#13185)](https://github.com/risingwavelabs/risingwave/pull/13185)
 
 ## nightly-20231209
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5596207f4d28e2f4b1ebbff5128f8b7ce6d23cca?expand=1&base=a2efd8c987e68ebffd2a57311b2cb2b1bada36c9&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a2efd8c987e68ebffd2a57311b2cb2b1bada36c9...5596207f4d28e2f4b1ebbff5128f8b7ce6d23cca)
 - `5596207f4d28e2f4b1ebbff5128f8b7ce6d23cca` [fix(expr): fix a critical bug in case expression (#13890)](https://github.com/risingwavelabs/risingwave/pull/13890)
 - `8e6818ef265bbf3c896af3422c35a8b3d7dcb77e` [fix(compatibility): always fill expr_context in `StreamActor` (#13888)](https://github.com/risingwavelabs/risingwave/pull/13888)
 
 ## nightly-20231208
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a2efd8c987e68ebffd2a57311b2cb2b1bada36c9?expand=1&base=2f16540a7f26390e609e44d5165987559dd4c252&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2f16540a7f26390e609e44d5165987559dd4c252...a2efd8c987e68ebffd2a57311b2cb2b1bada36c9)
 - `a2efd8c987e68ebffd2a57311b2cb2b1bada36c9` [chore: log range tombstone count (#13878)](https://github.com/risingwavelabs/risingwave/pull/13878)
 - `b87bcc3e1cda8dde27cf26fadc622723036d5327` [fix(docker): fix apt install failed (#13873)](https://github.com/risingwavelabs/risingwave/pull/13873)
 - `4efcc3b81e4dcbcdc07e6d849b1b1934199bad00` [feat(streaming): all stateful executors can try spill when chunk comes (#13751)](https://github.com/risingwavelabs/risingwave/pull/13751)
@@ -2324,7 +2368,7 @@
 - `7fd2a0eb7f527553a869d460345bd17b038bf112` [fix(EsSink): Fix es sink error thrown (#13715)](https://github.com/risingwavelabs/risingwave/pull/13715)
 
 ## nightly-20231207
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2f16540a7f26390e609e44d5165987559dd4c252?expand=1&base=3733e7cf5b9b08fb4fafea1b589cf2433cb5ed14&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3733e7cf5b9b08fb4fafea1b589cf2433cb5ed14...2f16540a7f26390e609e44d5165987559dd4c252)
 - `2f16540a7f26390e609e44d5165987559dd4c252` [refactor(metrics): use guarded gauge for lru metrics (#13858)](https://github.com/risingwavelabs/risingwave/pull/13858)
 - `7ebda1c0b37b07a3d3886d799b608e754b3d6d9a` [chore: upgrade docker compose etcd version (#13857)](https://github.com/risingwavelabs/risingwave/pull/13857)
 - `9a3cfb55be2960c6102126e08102a8c6bed4e50e` [feat(storage): define and collect table watermark metadata (#13710)](https://github.com/risingwavelabs/risingwave/pull/13710)
@@ -2340,7 +2384,7 @@
 - `5af41d30b68f44ae20639b1652401f958904fa83` [feat(sink): support flink dynamic table sink and http sink (#13280)](https://github.com/risingwavelabs/risingwave/pull/13280)
 
 ## nightly-20231206
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3733e7cf5b9b08fb4fafea1b589cf2433cb5ed14?expand=1&base=6bf5d47341333a55fcc8ef1d77bbf997133bad37&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6bf5d47341333a55fcc8ef1d77bbf997133bad37...3733e7cf5b9b08fb4fafea1b589cf2433cb5ed14)
 - `3733e7cf5b9b08fb4fafea1b589cf2433cb5ed14` [test(stream): add `kill` cancel test for foreground ddl (#13831)](https://github.com/risingwavelabs/risingwave/pull/13831)
 - `ce582537679ee8411464c005035bf73820dd1807` [feat(storage): implement iterator skipping table watermark (#13709)](https://github.com/risingwavelabs/risingwave/pull/13709)
 - `d425053fdc8a8c7493a037214295208123b0f3f2` [test(backwards-compat): test invalid WITH options (#13824)](https://github.com/risingwavelabs/risingwave/pull/13824)
@@ -2354,7 +2398,7 @@
 - `59d56c39a1b46680d11a60eee54171d88cfed9c6` [fix(udf): prevent continuous retries on connection error (#13804)](https://github.com/risingwavelabs/risingwave/pull/13804)
 
 ## nightly-20231205
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6bf5d47341333a55fcc8ef1d77bbf997133bad37?expand=1&base=2461651c9419c7093778343e60127508df75bee2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2461651c9419c7093778343e60127508df75bee2...6bf5d47341333a55fcc8ef1d77bbf997133bad37)
 - `6bf5d47341333a55fcc8ef1d77bbf997133bad37` [test(connector): add redis-sink compatible test (#13772)](https://github.com/risingwavelabs/risingwave/pull/13772)
 - `4f90e37369fd49703d19954c5e533e05fbc7d331` [refactor(error): clean-up direct error formatting (part 1) (#13763)](https://github.com/risingwavelabs/risingwave/pull/13763)
 - `7d1e9d20d5a1dae2c75968da934563b0712db6c2` [fix: apply `RW_WORKER_THREADS` for all runtimes (#13810)](https://github.com/risingwavelabs/risingwave/pull/13810)
@@ -2367,7 +2411,7 @@
 - `4a51bd7e379298bc10b53b60adeeaffa7fdc5bec` [fix(storage): fix compactor sst switch condition (#13790)](https://github.com/risingwavelabs/risingwave/pull/13790)
 
 ## nightly-20231204
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2461651c9419c7093778343e60127508df75bee2?expand=1&base=0b6184d8fce4275e9a81a2d66c171c20d2b7a529&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0b6184d8fce4275e9a81a2d66c171c20d2b7a529...2461651c9419c7093778343e60127508df75bee2)
 - `2461651c9419c7093778343e60127508df75bee2` [fix(udf): fix index-out-of-bound error when string or string list is large. (#13781)](https://github.com/risingwavelabs/risingwave/pull/13781)
 - `e41b62f9aaa82fd60407c20546932f5296b0d41d` [fix: revert #13278 & #13390 for include syntax (#13785)](https://github.com/risingwavelabs/risingwave/pull/13785)
 - `f33a5d0c02fb758192632d29abf5603fdd7d3a92` [feat: risectl debug dump support catalog (#13764)](https://github.com/risingwavelabs/risingwave/pull/13764)
@@ -2381,17 +2425,17 @@
 - `ba4b196bf6a49a4288f1cbd91f37c8736a57ce9f` [chore: Update README.md (#13770)](https://github.com/risingwavelabs/risingwave/pull/13770)
 
 ## nightly-20231203
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0b6184d8fce4275e9a81a2d66c171c20d2b7a529?expand=1&base=ab011eb0e58b8637e9d53f70fd7221a49fcd9e75&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ab011eb0e58b8637e9d53f70fd7221a49fcd9e75...0b6184d8fce4275e9a81a2d66c171c20d2b7a529)
 - `0b6184d8fce4275e9a81a2d66c171c20d2b7a529` [doc(docker): add comments for minio disk full issue (#13768)](https://github.com/risingwavelabs/risingwave/pull/13768)
 
 ## nightly-20231202
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ab011eb0e58b8637e9d53f70fd7221a49fcd9e75?expand=1&base=fce66c0b06fe27c30a89d9809ebab102b2d68e0e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fce66c0b06fe27c30a89d9809ebab102b2d68e0e...ab011eb0e58b8637e9d53f70fd7221a49fcd9e75)
 - `ab011eb0e58b8637e9d53f70fd7221a49fcd9e75` [feat(jni): pass stream chunk directly without serde (#13430)](https://github.com/risingwavelabs/risingwave/pull/13430)
 - `b149c67b46a7b42f253f7f09c1c69d9184fa7797` [refactor(error): simplify all boxed error wrapper definition (#13725)](https://github.com/risingwavelabs/risingwave/pull/13725)
 - `7677abcb6fa87ea3f667ae2e111650296fdd8e97` [fix(cdc-backfill): ensure snapshot read starts after source (#13663)](https://github.com/risingwavelabs/risingwave/pull/13663)
 
 ## nightly-20231201
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fce66c0b06fe27c30a89d9809ebab102b2d68e0e?expand=1&base=ce0121fc7cf30251b5bc58065d1ed5f09f4512ab&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce0121fc7cf30251b5bc58065d1ed5f09f4512ab...fce66c0b06fe27c30a89d9809ebab102b2d68e0e)
 - `fce66c0b06fe27c30a89d9809ebab102b2d68e0e` [test: add vector demo to integration tests (#13753)](https://github.com/risingwavelabs/risingwave/pull/13753)
 - `61d364cbea2d9e3687ce358c9f630c72bedd4494` [feat: check-in `cargo dylint` with `format_error` lint (#13750)](https://github.com/risingwavelabs/risingwave/pull/13750)
 - `26bd9ef630fd360717be23535b39d07949be9570` [feat(storage): optimize data alignment for default compaction group (#13075)](https://github.com/risingwavelabs/risingwave/pull/13075)
@@ -2400,7 +2444,7 @@
 - `67c2d70523fd4645c158428a11825e5e4926de7d` [feat(expr): distributed make timestamptz (#13647)](https://github.com/risingwavelabs/risingwave/pull/13647)
 
 ## nightly-20231130
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce0121fc7cf30251b5bc58065d1ed5f09f4512ab?expand=1&base=db6003ded2965461e1d6f9d2af2797803a6596da&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/db6003ded2965461e1d6f9d2af2797803a6596da...ce0121fc7cf30251b5bc58065d1ed5f09f4512ab)
 - `ce0121fc7cf30251b5bc58065d1ed5f09f4512ab` [feat(storage): prefix key range with vnode (#13734)](https://github.com/risingwavelabs/risingwave/pull/13734)
 - `2db9c8e389a1e6ec892f3ae3fd4e580c01f3441e` [feat(storage): file cache insert rate limit based on real write rate (#13722)](https://github.com/risingwavelabs/risingwave/pull/13722)
 - `84f8f33eb8cac095d9569805f5ebb0d27486bf3b` [fix(Sink): Fix delta sink DATE and Decimal write error (#13677)](https://github.com/risingwavelabs/risingwave/pull/13677)
@@ -2426,7 +2470,7 @@
 - `9de63530db1b4704996233eedc33831b6d151b47` [chore(meta): remove obsolete doc comment for `StreamJob` (#13735)](https://github.com/risingwavelabs/risingwave/pull/13735)
 
 ## nightly-20231129
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/db6003ded2965461e1d6f9d2af2797803a6596da?expand=1&base=ff90f8cf21d7ef728cc064e229b0d38540fb054d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ff90f8cf21d7ef728cc064e229b0d38540fb054d...db6003ded2965461e1d6f9d2af2797803a6596da)
 - `db6003ded2965461e1d6f9d2af2797803a6596da` [ci(nightly-rust): reserve more swap space (#13723)](https://github.com/risingwavelabs/risingwave/pull/13723)
 - `69604f2873b37714495b954fead0f8a9cc78a952` [ci: increase timeout for sim build temporarily (#13731)](https://github.com/risingwavelabs/risingwave/pull/13731)
 - `40c020f75428648b2bb9130a035c5abba02fa4ab` [fix(udf): support struct[] type in struct (#13689)](https://github.com/risingwavelabs/risingwave/pull/13689)
@@ -2447,7 +2491,7 @@
 - `edfb9b903181ee1707bc82acc48cefd5d6c6e774` [feat: Add `exclusive` mode to vertical scaling (#13697)](https://github.com/risingwavelabs/risingwave/pull/13697)
 
 ## nightly-20231128
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ff90f8cf21d7ef728cc064e229b0d38540fb054d?expand=1&base=98639aece6f96a60cb7eb9bb41fa34b157f34f5e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98639aece6f96a60cb7eb9bb41fa34b157f34f5e...ff90f8cf21d7ef728cc064e229b0d38540fb054d)
 - `ff90f8cf21d7ef728cc064e229b0d38540fb054d` [fix(udf): add retry on UDF connection error (#13375)](https://github.com/risingwavelabs/risingwave/pull/13375)
 - `92a624a4da71aea06a8c66836d92387b7ba66301` [refactor: trigger auto dump by system memory usage  (#13685)](https://github.com/risingwavelabs/risingwave/pull/13685)
 - `4e28163b4f03909f4755db7dfed829ac1bfaa2c8` [fix(sink): ClickHouse DateTime64 should be timestamptz (#13672)](https://github.com/risingwavelabs/risingwave/pull/13672)
@@ -2461,7 +2505,7 @@
 - `6fe26b46b399e5831a6927fdf859a84b02432da4` [chore(integration_tests): cleanup unused datagen.go build (#13671)](https://github.com/risingwavelabs/risingwave/pull/13671)
 
 ## nightly-20231127
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98639aece6f96a60cb7eb9bb41fa34b157f34f5e?expand=1&base=a3ea7c0bc48dc26c200739f5a852638a68186487&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a3ea7c0bc48dc26c200739f5a852638a68186487...98639aece6f96a60cb7eb9bb41fa34b157f34f5e)
 - `98639aece6f96a60cb7eb9bb41fa34b157f34f5e` [feat(batch): improve connection pool value (#13669)](https://github.com/risingwavelabs/risingwave/pull/13669)
 - `5cac7a825efffe4d82e894ae6f7327561d700bee` [test: add `redis-sink` test into the integration test workflow (#13661)](https://github.com/risingwavelabs/risingwave/pull/13661)
 - `b02ac4c898fc3a089857d137fcf5a90336624360` [chore(test): add unit test for mem table spill (#13314)](https://github.com/risingwavelabs/risingwave/pull/13314)
@@ -2477,11 +2521,11 @@
 - `f92b5018621706cdbdfaa9b8e16a80b6d3a2e0c8` [doc: update to new github note syntax (#13646)](https://github.com/risingwavelabs/risingwave/pull/13646)
 
 ## nightly-20231126
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a3ea7c0bc48dc26c200739f5a852638a68186487?expand=1&base=2348a2bdcadfd682f13503a057f251b989e4ef5d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2348a2bdcadfd682f13503a057f251b989e4ef5d...a3ea7c0bc48dc26c200739f5a852638a68186487)
 - `a3ea7c0bc48dc26c200739f5a852638a68186487` [refactor: memory management (#13636)](https://github.com/risingwavelabs/risingwave/pull/13636)
 
 ## nightly-20231124
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2348a2bdcadfd682f13503a057f251b989e4ef5d?expand=1&base=9ae870545193e9738dcb1f3376849be124f9dd64&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9ae870545193e9738dcb1f3376849be124f9dd64...2348a2bdcadfd682f13503a057f251b989e4ef5d)
 - `2348a2bdcadfd682f13503a057f251b989e4ef5d` [fix(streaming): use correct label for `stream_fragment_exchange_bytes` metrics (#13644)](https://github.com/risingwavelabs/risingwave/pull/13644)
 - `3ccb249eea311eecb9df1b17e92ebf6e903c57a4` [fix: estimate jsonb's value encoding size (#13643)](https://github.com/risingwavelabs/risingwave/pull/13643)
 - `7b21e04b2d2df1b0e30bf2a0a928ce2ca7bff6e4` [feat(optimizer): improve inline session timezone in exprs (#13640)](https://github.com/risingwavelabs/risingwave/pull/13640)
@@ -2503,7 +2547,7 @@
 - `5a94f2b3679509c42dd09295e0eb9be5950f916d` [feat: add perf-flamegraph tools in docker image (#13615)](https://github.com/risingwavelabs/risingwave/pull/13615)
 
 ## nightly-20231123
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9ae870545193e9738dcb1f3376849be124f9dd64?expand=1&base=b3eecb3d97471e14b578d2441e6cf8227ac372aa&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b3eecb3d97471e14b578d2441e6cf8227ac372aa...9ae870545193e9738dcb1f3376849be124f9dd64)
 - `9ae870545193e9738dcb1f3376849be124f9dd64` [fix(integration_tests): use `timestamptz` for BigQuery, Cassandra and Redis (#13616)](https://github.com/risingwavelabs/risingwave/pull/13616)
 - `0ecc8387d473fa4e8a3c77d3f9e1609469f945d2` [fix(sink): Fix redis commit bug (#13538)](https://github.com/risingwavelabs/risingwave/pull/13538)
 - `edd0805dc45f1dc7ff92597c0e84ee0885c2cebf` [feat: support `convert_from`/`convert_to` function that only support UTF8 encoding (#13597)](https://github.com/risingwavelabs/risingwave/pull/13597)
@@ -2522,7 +2566,7 @@
 - `b3866b7992e66845032b6f5e805757d337bf4c7a` [feat(optimizer): support expr visitable for plan node (#13587)](https://github.com/risingwavelabs/risingwave/pull/13587)
 
 ## nightly-20231122
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b3eecb3d97471e14b578d2441e6cf8227ac372aa?expand=1&base=4313a5a8fe3a11a0edaa3ff8f4fdb639123be618&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4313a5a8fe3a11a0edaa3ff8f4fdb639123be618...b3eecb3d97471e14b578d2441e6cf8227ac372aa)
 - `b3eecb3d97471e14b578d2441e6cf8227ac372aa` [chore: Make batch mpp task num metrics more accurate. (#13589)](https://github.com/risingwavelabs/risingwave/pull/13589)
 - `32717b452c8a7cc718b1f04c8e803b64725fc4dd` [chore(connector): remove unnecessary Serialize for connector config (#13514)](https://github.com/risingwavelabs/risingwave/pull/13514)
 - `11011b144e60acc6727c9274a3c7f25588040162` [refactor(optimizer): make ExprVisitor  an object safe trait. (#13512)](https://github.com/risingwavelabs/risingwave/pull/13512)
@@ -2544,7 +2588,7 @@
 - `8172cb7075848ecbbde3794f9aab898f7ae5dd75` [fix(batch): fix batch range scan for nulls with consideration for `NULLS FIRST|LAST` (#13567)](https://github.com/risingwavelabs/risingwave/pull/13567)
 
 ## nightly-20231121
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4313a5a8fe3a11a0edaa3ff8f4fdb639123be618?expand=1&base=5bb97763f566a0b08ec53b8b44a0fcbb05b5947c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5bb97763f566a0b08ec53b8b44a0fcbb05b5947c...4313a5a8fe3a11a0edaa3ff8f4fdb639123be618)
 - `4313a5a8fe3a11a0edaa3ff8f4fdb639123be618` [feat: support `ALTER [TABLE | [MATERIALIZED] VIEW | SOURCE | SINK | CONNECTION | FUNCTION] <name> SET SCHEMA <schema_name>` syntax (#13341)](https://github.com/risingwavelabs/risingwave/pull/13341)
 - `7717887552f881b86faea2c33089476d0ba14048` [test(connector): add mysql cdc compatible test (#13546)](https://github.com/risingwavelabs/risingwave/pull/13546)
 - `de2a8b0f20e83924d16c89e68273a758d3217811` [chore(risedev): vaildate java 21 for connector node (#13556)](https://github.com/risingwavelabs/risingwave/pull/13556)
@@ -2567,7 +2611,7 @@
 - `a22e20c5f0a8ec5d9b824bf489206b0945a2b05e` [refactor(proto): use separate proto for cdc scan (#13502)](https://github.com/risingwavelabs/risingwave/pull/13502)
 
 ## nightly-20231120
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5bb97763f566a0b08ec53b8b44a0fcbb05b5947c?expand=1&base=b289d384c74afa9fac3c415960b5e013b619b666&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b289d384c74afa9fac3c415960b5e013b619b666...5bb97763f566a0b08ec53b8b44a0fcbb05b5947c)
 - `5bb97763f566a0b08ec53b8b44a0fcbb05b5947c` [chore(frontend): system_catalog support compaction status (#13051)](https://github.com/risingwavelabs/risingwave/pull/13051)
 - `7c514c58fe2ea2966ee40f0238550b3b3b096318` [feat(dashboard): support specifying additional selector in PromQL (#13518)](https://github.com/risingwavelabs/risingwave/pull/13518)
 - `48747e8d8f467c5608950ecfc37b2ac8bd53a318` [test: add `kafka-cdc-sink` integration test to the integration test workflow (#13520)](https://github.com/risingwavelabs/risingwave/pull/13520)
@@ -2587,11 +2631,11 @@
 - `47c53a15ffc753c0feb3ae55a29776e3d1d3974f` [feat(expr): add local make_timestamptz() (#13456)](https://github.com/risingwavelabs/risingwave/pull/13456)
 
 ## nightly-20231119
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b289d384c74afa9fac3c415960b5e013b619b666?expand=1&base=a34f46a0ac3d79363e93f11f710dbdf32233e0c6&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a34f46a0ac3d79363e93f11f710dbdf32233e0c6...b289d384c74afa9fac3c415960b5e013b619b666)
 - `b289d384c74afa9fac3c415960b5e013b619b666` [fix: reject duplicate entries in with clause (#13488)](https://github.com/risingwavelabs/risingwave/pull/13488)
 
 ## nightly-20231117
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a34f46a0ac3d79363e93f11f710dbdf32233e0c6?expand=1&base=acb33762b65767539deb0e7b2a9b3c56259ceb5f&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/acb33762b65767539deb0e7b2a9b3c56259ceb5f...a34f46a0ac3d79363e93f11f710dbdf32233e0c6)
 - `a34f46a0ac3d79363e93f11f710dbdf32233e0c6` [refactor: separate `CdcScan` from `Scan` in `logical` and `core` (#13494)](https://github.com/risingwavelabs/risingwave/pull/13494)
 - `483347725eacbe39a9a60b0817ac145aaf205f80` [chore(deps): Bump itertools from 0.11.0 to 0.12.0 (#13444)](https://github.com/risingwavelabs/risingwave/pull/13444)
 - `7ebab64057673e92b22b149a1d7de536f655cbe1` [feat(optimizer): avoid predicate pushdown for batch queries if unnecessary (#13470)](https://github.com/risingwavelabs/risingwave/pull/13470)
@@ -2599,7 +2643,7 @@
 - `059a84037b157ff4465f862e58a4968003dc2790` [fix(test): fix non deterministic group topn test (#13473)](https://github.com/risingwavelabs/risingwave/pull/13473)
 
 ## nightly-20231116
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/acb33762b65767539deb0e7b2a9b3c56259ceb5f?expand=1&base=a62493618c19abe7c6d43ba765aa8c613a25e5e1&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a62493618c19abe7c6d43ba765aa8c613a25e5e1...acb33762b65767539deb0e7b2a9b3c56259ceb5f)
 - `acb33762b65767539deb0e7b2a9b3c56259ceb5f` [chore: Update README.md (#13468)](https://github.com/risingwavelabs/risingwave/pull/13468)
 - `c6dffdf391dc64fa832061b938cb2eebc3591699` [feat(datagen): support `timestamptz` (#13451)](https://github.com/risingwavelabs/risingwave/pull/13451)
 - `53d19565c650d3deb6679039c46ad6c0f089ec4a` [chore(ci): notify for more tests (#13463)](https://github.com/risingwavelabs/risingwave/pull/13463)
@@ -2614,7 +2658,7 @@
 - `4e16834d7ea5df3b8c6d16cc03f0431a34e29fbf` [chore(dependabot): add opentelemetry group (#13303)](https://github.com/risingwavelabs/risingwave/pull/13303)
 
 ## nightly-20231115
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a62493618c19abe7c6d43ba765aa8c613a25e5e1?expand=1&base=2df34ee858dae99227f4957585671cc09c736eb5&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2df34ee858dae99227f4957585671cc09c736eb5...a62493618c19abe7c6d43ba765aa8c613a25e5e1)
 - `a62493618c19abe7c6d43ba765aa8c613a25e5e1` [refactor(datagen): generalize `TimestampField` to `ChronoField` (#13439)](https://github.com/risingwavelabs/risingwave/pull/13439)
 - `1b1950eaa51a0c89965a25bec829b07e197a291e` [chore: add some unit test for alter relation rename in catalog controller (#13438)](https://github.com/risingwavelabs/risingwave/pull/13438)
 - `2628460bc5d28d0b5add8d5c7dd2ce8eb7705e1c` [fix(type): fix parsing array literal and printing struct value (#13229)](https://github.com/risingwavelabs/risingwave/pull/13229)
@@ -2636,7 +2680,7 @@
 - `56b37c53e855a433d1aea9dce6c20a749b5d25c4` [chore(deps): bump getrandom to v0.2.11 and its madsim patch (#13426)](https://github.com/risingwavelabs/risingwave/pull/13426)
 
 ## nightly-20231114
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2df34ee858dae99227f4957585671cc09c736eb5?expand=1&base=950ed58b5fcab88ca00a08c7683120a2d042b54d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/950ed58b5fcab88ca00a08c7683120a2d042b54d...2df34ee858dae99227f4957585671cc09c736eb5)
 - `2df34ee858dae99227f4957585671cc09c736eb5` [fix(meta): fix ctrl c cancels streaming job (#13415)](https://github.com/risingwavelabs/risingwave/pull/13415)
 - `ec3208b012a1e9cdb698b21f24b0e206efa56f31` [fix: panic if spawn when task drop with madsim (#13417)](https://github.com/risingwavelabs/risingwave/pull/13417)
 - `cde91a0e4fd345e38938ce7a114341b21abc10b9` [feat: support foyer zstd compression (#13240)](https://github.com/risingwavelabs/risingwave/pull/13240)
@@ -2660,7 +2704,7 @@
 - `d932c58853d3fc0f7d371d2152eb12146446ba47` [chore: update image version in docker (#13357)](https://github.com/risingwavelabs/risingwave/pull/13357)
 
 ## nightly-20231113
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/950ed58b5fcab88ca00a08c7683120a2d042b54d?expand=1&base=8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0...950ed58b5fcab88ca00a08c7683120a2d042b54d)
 - `950ed58b5fcab88ca00a08c7683120a2d042b54d` [fix(conn): fix throw error msg of connector when encode Json or Csv (#13390)](https://github.com/risingwavelabs/risingwave/pull/13390)
 - `df1a260ea8f6140646d4bc659d8f7e26516d5911` [chore(deps-dev): Bump pyarrow from 12.0.1 to 14.0.1 in /integration_tests/iceberg-sink2/python (#13352)](https://github.com/risingwavelabs/risingwave/pull/13352)
 - `c64a0a9a9bfc6590c4f47486a058616477236dc4` [refactor(stream): use `ExecutorParams::info` in over window related executors (#13383)](https://github.com/risingwavelabs/risingwave/pull/13383)
@@ -2671,13 +2715,13 @@
 - `6229d81d5171a5642ddc918b8c9870fc472839a0` [chore(deps): bump self_cell for RUSTSEC-2023-0070 (#13372)](https://github.com/risingwavelabs/risingwave/pull/13372)
 
 ## nightly-20231112
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0?expand=1&base=287604ffe7c4b38d1399d5baa478d081871e78f1&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/287604ffe7c4b38d1399d5baa478d081871e78f1...8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0)
 - `8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0` [fix: temp disable option check on source options (#13362)](https://github.com/risingwavelabs/risingwave/pull/13362)
 - `eabfebaa20f083fcb3f0e3ec76be2149169df35a` [feat(meta): report background_ddl progress immediately (#13356)](https://github.com/risingwavelabs/risingwave/pull/13356)
 - `0c13ba22d5f5000d915c4694b96a8159b1d99faf` [fix(source): informative error on protobuf `build_file_descriptor_set` failure (#13364)](https://github.com/risingwavelabs/risingwave/pull/13364)
 
 ## nightly-20231110
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/287604ffe7c4b38d1399d5baa478d081871e78f1?expand=1&base=492076f2861db6ebcc79c4e3934b82eb5a553c6c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/492076f2861db6ebcc79c4e3934b82eb5a553c6c...287604ffe7c4b38d1399d5baa478d081871e78f1)
 - `287604ffe7c4b38d1399d5baa478d081871e78f1` [refactor(frontend): separate cdc table scan from stream table scan (#13332)](https://github.com/risingwavelabs/risingwave/pull/13332)
 - `205fbf9a88b0077725acadd96d1c7faf7b168823` [fix: compaction test open enable_test_epoch flag (#13359)](https://github.com/risingwavelabs/risingwave/pull/13359)
 - `0b9cb1f711a9936297e3ccec454630b189065624` [fix(stream): materialize should not compact input when handling conflict (#13351)](https://github.com/risingwavelabs/risingwave/pull/13351)
@@ -2691,7 +2735,7 @@
 - `b8b812ddfaea4d8bb1bc8fe784890f8952c02a50` [chore: add memory limit & restarts in docker-compose.yml (#13343)](https://github.com/risingwavelabs/risingwave/pull/13343)
 
 ## nightly-20231109
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/492076f2861db6ebcc79c4e3934b82eb5a553c6c?expand=1&base=4e4e8b5b6bf2502b275e15ae94cd479d74625d4c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4e4e8b5b6bf2502b275e15ae94cd479d74625d4c...492076f2861db6ebcc79c4e3934b82eb5a553c6c)
 - `492076f2861db6ebcc79c4e3934b82eb5a553c6c` [fix(meta): collect meta node count as worker node (#13338)](https://github.com/risingwavelabs/risingwave/pull/13338)
 - `117f14c20b2f742688d2691e5c4ab7f56d136425` [refactor(stream): use `ExecutorInfo` constructed by stream manager in `Project` and `ProjectSet` (#13342)](https://github.com/risingwavelabs/risingwave/pull/13342)
 - `7b9896cceb43a06687c5c6dfb6b2a8ba7a7f7a61` [feat(error): report the error's source chain through psql (#13264)](https://github.com/risingwavelabs/risingwave/pull/13264)
@@ -2708,7 +2752,7 @@
 - `54390d3fe8db422f796ab8878b6dd50ed168562e` [feat: add `properties.fetch.queue.backoff.ms` for kafka source (#13321)](https://github.com/risingwavelabs/risingwave/pull/13321)
 
 ## nightly-20231108
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4e4e8b5b6bf2502b275e15ae94cd479d74625d4c?expand=1&base=4fdbade0bb32a455619a41f1859c8f5784a7520c&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fdbade0bb32a455619a41f1859c8f5784a7520c...4e4e8b5b6bf2502b275e15ae94cd479d74625d4c)
 - `4e4e8b5b6bf2502b275e15ae94cd479d74625d4c` [fix: ignore unknow field in config (#13320)](https://github.com/risingwavelabs/risingwave/pull/13320)
 - `901d9b0f54a10f9a5e26b895a6b765b98d27d007` [refactor(optimizer): add lookup table to batch lookup join explain (#13311)](https://github.com/risingwavelabs/risingwave/pull/13311)
 - `285296d80361ba0d87c8680bef3d24d41c50d6ba` [refactor: rename "chain" node (#13242)](https://github.com/risingwavelabs/risingwave/pull/13242)
@@ -2725,7 +2769,7 @@
 - `290601724967fc8e9e673309251a6ba963f95f1f` [feat: support iceberg metrics (#13259)](https://github.com/risingwavelabs/risingwave/pull/13259)
 
 ## nightly-20231107
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fdbade0bb32a455619a41f1859c8f5784a7520c?expand=1&base=a0b545cc68c310bdd5ed2bcd745b1773097e3ae2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0b545cc68c310bdd5ed2bcd745b1773097e3ae2...4fdbade0bb32a455619a41f1859c8f5784a7520c)
 - `4fdbade0bb32a455619a41f1859c8f5784a7520c` [chore: rename `streaming/group_top_n/main1.slt` to `main.slt` (#13187)](https://github.com/risingwavelabs/risingwave/pull/13187)
 - `1aff7578b391512931b7c76990c7aa055db57bbd` [chore: report stream chunk size as `partition_input_bytes` for workload generator (#13284)](https://github.com/risingwavelabs/risingwave/pull/13284)
 - `875875dae50c58a7935caa2724f1dccce7bf6247` [feat(optimizer): merge chaining `OverWindow`s with same partition by and order by (#13281)](https://github.com/risingwavelabs/risingwave/pull/13281)
@@ -2740,7 +2784,7 @@
 - `8092a6850e30ca0ee983cfa75cd49e02231bf0d1` [feat: add rw_internal_tables (#13272)](https://github.com/risingwavelabs/risingwave/pull/13272)
 
 ## nightly-20231106
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0b545cc68c310bdd5ed2bcd745b1773097e3ae2?expand=1&base=68f1a678c0f06439c5f7fcd92b36d85a2c764594&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/68f1a678c0f06439c5f7fcd92b36d85a2c764594...a0b545cc68c310bdd5ed2bcd745b1773097e3ae2)
 - `a0b545cc68c310bdd5ed2bcd745b1773097e3ae2` [fix(expr): fix `overlay` function with large range input (#13268)](https://github.com/risingwavelabs/risingwave/pull/13268)
 - `526a68ab310566aa3f29514dfedfdb4b3376cb01` [feat(expr): add `jsonb_build_array/object` function (#13198)](https://github.com/risingwavelabs/risingwave/pull/13198)
 - `3e72d0dfc8d22d13f2eee1abb7d84ac7353be278` [doc: Update README.md (#13252)](https://github.com/risingwavelabs/risingwave/pull/13252)
@@ -2752,13 +2796,13 @@
 - `ad92d462d1448b2e274995d8d467aed1f9baa980` [refactor: migrate backfill tests to deterministic integration tests (#13219)](https://github.com/risingwavelabs/risingwave/pull/13219)
 
 ## nightly-20231105
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/68f1a678c0f06439c5f7fcd92b36d85a2c764594?expand=1&base=453eed8fbb822c0489e2c3521c3b0c401a03b011&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/453eed8fbb822c0489e2c3521c3b0c401a03b011...68f1a678c0f06439c5f7fcd92b36d85a2c764594)
 - `68f1a678c0f06439c5f7fcd92b36d85a2c764594` [fix(cdc): ensure connector is inited after the CREATE TABLE is finished (#13130)](https://github.com/risingwavelabs/risingwave/pull/13130)
 - `4c4734c667dffffd3d0d4c86b8fa657ff9a72d53` [chore(ci): use release branch rather than release candidate branch for backwards compat tests (#13247)](https://github.com/risingwavelabs/risingwave/pull/13247)
 - `5a02631e4c252eba7a00512bc5a03e698c2918b8` [build(tools): bump cargo-udeps (#13249)](https://github.com/risingwavelabs/risingwave/pull/13249)
 
 ## nightly-20231103
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/453eed8fbb822c0489e2c3521c3b0c401a03b011?expand=1&base=2ce7c9f091b9ae787a484d8703217e6b6ed1b687&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2ce7c9f091b9ae787a484d8703217e6b6ed1b687...453eed8fbb822c0489e2c3521c3b0c401a03b011)
 - `453eed8fbb822c0489e2c3521c3b0c401a03b011` [refactor(sink): reimplement remote sink without writer (#13137)](https://github.com/risingwavelabs/risingwave/pull/13137)
 - `244017c4f2f01ffa564818835c26b3883b80ee45` [feat(test): add `nexmark-q15-two-phase` for flamegraph generation (#13234)](https://github.com/risingwavelabs/risingwave/pull/13234)
 - `69793d6a8868021dae8525715cba477262309b23` [feat: ignore `collate` in `select` and `create table` (#13226)](https://github.com/risingwavelabs/risingwave/pull/13226)
@@ -2779,7 +2823,7 @@
 - `537bbe2fa3b38466f555716b00a974462477a448` [feat(metrics): fragment level streaming metrics (part 2) (#13196)](https://github.com/risingwavelabs/risingwave/pull/13196)
 
 ## nightly-20231102
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2ce7c9f091b9ae787a484d8703217e6b6ed1b687?expand=1&base=8ab2f266bc3e8b596b536a441aad48ee9aea6c88&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ab2f266bc3e8b596b536a441aad48ee9aea6c88...2ce7c9f091b9ae787a484d8703217e6b6ed1b687)
 - `2ce7c9f091b9ae787a484d8703217e6b6ed1b687` [fix(expr): `date_trunc` and `+/-` on `timestamptz` during DST jump-back (#13201)](https://github.com/risingwavelabs/risingwave/pull/13201)
 - `4daf6424ac53b19bb461600a2d479aa43d3937d4` [fix(cdc): avoid serde the `schema` field in the Debzium connector (#13212)](https://github.com/risingwavelabs/risingwave/pull/13212)
 - `1211f9d8d29ace628ca0baa9d92b9a6b30bd1d3a` [refactor(metrics): clean & restructure some metrics (#13195)](https://github.com/risingwavelabs/risingwave/pull/13195)
@@ -2791,7 +2835,7 @@
 - `6bd797ea5c46071258aeaabcf8e0608b16520806` [feat(optimizer): support value extract project rule (#13182)](https://github.com/risingwavelabs/risingwave/pull/13182)
 
 ## nightly-20231101
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ab2f266bc3e8b596b536a441aad48ee9aea6c88?expand=1&base=c97e08c01a0754c021f515db42196e23c8501aae&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c97e08c01a0754c021f515db42196e23c8501aae...8ab2f266bc3e8b596b536a441aad48ee9aea6c88)
 - `8ab2f266bc3e8b596b536a441aad48ee9aea6c88` [feat(over window): support general `rank` and `dense_rank` window functions (#13183)](https://github.com/risingwavelabs/risingwave/pull/13183)
 - `2a6c4aaeda77a3e9cc6a4231bfaac1443f99c737` [chore: bump rustix 0.38.11->0.38.21 (#13199)](https://github.com/risingwavelabs/risingwave/pull/13199)
 - `5ab109bbebcdca08e4143d85a9a526b1e375316f` [chore(deps): Bump org.elasticsearch:elasticsearch from 7.17.10 to 7.17.13 in /java (#13156)](https://github.com/risingwavelabs/risingwave/pull/13156)
@@ -2812,7 +2856,7 @@
 - `8a90ce55c25b1168df78e2806e211ff6454acb46` [feat(expr): support `jsonb_extract_path(_text)` function (#13143)](https://github.com/risingwavelabs/risingwave/pull/13143)
 
 ## nightly-20231031
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c97e08c01a0754c021f515db42196e23c8501aae?expand=1&base=4fde65f08098e7c6d7272131ea56259d636a6b38&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fde65f08098e7c6d7272131ea56259d636a6b38...c97e08c01a0754c021f515db42196e23c8501aae)
 - `c97e08c01a0754c021f515db42196e23c8501aae` [feat(cdc): share a changelog stream for multiple cdc tables (#12535)](https://github.com/risingwavelabs/risingwave/pull/12535)
 - `c86b821689ba7cb0916e8e57d211dab9bcd97695` [test(stream): test cancel in deterministic testing mode (#13070)](https://github.com/risingwavelabs/risingwave/pull/13070)
 - `25e8939675b2b8026010407742547071cdeb57b2` [fix(log_store): make epoch in log store compatible with meta epoch (#13173)](https://github.com/risingwavelabs/risingwave/pull/13173)
@@ -2834,7 +2878,7 @@
 - `9e06e8828fdee621423a44dabfffa4e2453b4e09` [chore: Update README architecture image (#13158)](https://github.com/risingwavelabs/risingwave/pull/13158)
 
 ## nightly-20231030
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fde65f08098e7c6d7272131ea56259d636a6b38?expand=1&base=92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9...4fde65f08098e7c6d7272131ea56259d636a6b38)
 - `4fde65f08098e7c6d7272131ea56259d636a6b38` [chore(deps): Bump simd-json from 0.12.0 to 0.13.3 (#13119)](https://github.com/risingwavelabs/risingwave/pull/13119)
 - `c0ab3ca01c05a95c4d1b07be22684f6b1fbffea3` [feat(expr): support jsonb `-` and `#-` operator (#13118)](https://github.com/risingwavelabs/risingwave/pull/13118)
 - `a9d9bc980248d0bc4a81d5ab29d4d029494d6eef` [fix(expr): `null` input of `~` / `!~` (#13145)](https://github.com/risingwavelabs/risingwave/pull/13145)
@@ -2851,11 +2895,11 @@
 - `8cbe568167504f827cf5d926d98198f681bf0f60` [fix(expr): include data type in parse error message (#13121)](https://github.com/risingwavelabs/risingwave/pull/13121)
 
 ## nightly-20231029
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9?expand=1&base=bc392aa71467c28ae7a8ddf512966efc508e4a2f&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc392aa71467c28ae7a8ddf512966efc508e4a2f...92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9)
 - `92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9` [test(sink): add recovery test for sink (#12701)](https://github.com/risingwavelabs/risingwave/pull/12701)
 
 ## nightly-20231027
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc392aa71467c28ae7a8ddf512966efc508e4a2f?expand=1&base=46d2ff9d9ba9a501b37bd15dd144333c4bf0913f&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/46d2ff9d9ba9a501b37bd15dd144333c4bf0913f...bc392aa71467c28ae7a8ddf512966efc508e4a2f)
 - `bc392aa71467c28ae7a8ddf512966efc508e4a2f` [feat: fix missing column description in row desc for show columns command (#13116)](https://github.com/risingwavelabs/risingwave/pull/13116)
 - `ae8f1b642cca618316b77a0e4b6b8915e2334162` [chore(ci): remove connector start service from ci (#13112)](https://github.com/risingwavelabs/risingwave/pull/13112)
 - `c6945429a2f538262b0cc024d7780dd5e4dfaacb` [chore(playground): remove connector service from playground (#13114)](https://github.com/risingwavelabs/risingwave/pull/13114)
@@ -2879,7 +2923,7 @@
 - `bb100a743b593e1c95527a4fe9728c8f43df0be7` [feat: implement comment function in catalog controller (#13084)](https://github.com/risingwavelabs/risingwave/pull/13084)
 
 ## nightly-20231026
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/46d2ff9d9ba9a501b37bd15dd144333c4bf0913f?expand=1&base=7f82929b38131f43b1290e51b0722c972fa3b6c2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7f82929b38131f43b1290e51b0722c972fa3b6c2...46d2ff9d9ba9a501b37bd15dd144333c4bf0913f)
 - `46d2ff9d9ba9a501b37bd15dd144333c4bf0913f` [feat: use bit flags for user privilege check (#13033)](https://github.com/risingwavelabs/risingwave/pull/13033)
 - `de8d2172feb03a338f334ce257e7c014c5384a93` [fix(standalone): hide etcd pwd in logs (#13034)](https://github.com/risingwavelabs/risingwave/pull/13034)
 - `b0f266b0a90c2a7a1c7dcd566d5fbc94f38751a2` [feat(mysql-cdc): deprecate `server.id` WITH option and generate it internally (#13031)](https://github.com/risingwavelabs/risingwave/pull/13031)
@@ -2897,7 +2941,7 @@
 - `7f791d65f10ff304e10ba3a6d58bb6bb3a33bad9` [feat: move model_v2 and model_migration into a separate crates (#13058)](https://github.com/risingwavelabs/risingwave/pull/13058)
 
 ## nightly-20231025
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7f82929b38131f43b1290e51b0722c972fa3b6c2?expand=1&base=447e1422a2a0989d873ddd21f660460d0f0e26d2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/447e1422a2a0989d873ddd21f660460d0f0e26d2...7f82929b38131f43b1290e51b0722c972fa3b6c2)
 - `7f82929b38131f43b1290e51b0722c972fa3b6c2` [fix(meta): persist internal tables of `CREATE TABLE` (#13039)](https://github.com/risingwavelabs/risingwave/pull/13039)
 - `09a67abbefb5c7a0c53596e0a5cf557a2fae3664` [fix: `WAIT` should return error if timeout (#13045)](https://github.com/risingwavelabs/risingwave/pull/13045)
 - `e48547dac8c7083a13d9537f9f16e4cc855bc4e7` [refactor(type): switch jsonb to flat representation (#12952)](https://github.com/risingwavelabs/risingwave/pull/12952)
@@ -2915,7 +2959,7 @@
 - `e81850870a8026fd41184344c01f71bc67a7cb5d` [feat(optimizer): change stream join mv distribution key (#13022)](https://github.com/risingwavelabs/risingwave/pull/13022)
 
 ## nightly-20231024
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/447e1422a2a0989d873ddd21f660460d0f0e26d2?expand=1&base=2563300e7b5b1f7a5761052c953f6ffb7ea448f8&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2563300e7b5b1f7a5761052c953f6ffb7ea448f8...447e1422a2a0989d873ddd21f660460d0f0e26d2)
 - `447e1422a2a0989d873ddd21f660460d0f0e26d2` [chore: bump foyer (#13029)](https://github.com/risingwavelabs/risingwave/pull/13029)
 - `e64543f9e5a8b080ddf8d8717846ccd4c68dac80` [feat(agg): introduce an internal agg kind to avoid minput state table after #12349 (#12384)](https://github.com/risingwavelabs/risingwave/pull/12384)
 - `02282b9c3fdd52933fc8baf7032777c184577e57` [chore: upgrade the docker image version (#13020)](https://github.com/risingwavelabs/risingwave/pull/13020)
@@ -2930,7 +2974,7 @@
 - `afb705b991cfdca0b2ed5671d8afd8e56854a57b` [fix(batch): do not send stacktrace to frontend on error (#13010)](https://github.com/risingwavelabs/risingwave/pull/13010)
 
 ## nightly-20231023
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2563300e7b5b1f7a5761052c953f6ffb7ea448f8?expand=1&base=495ab39ddff44ac70edfd785e0f2ed267e16923b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/495ab39ddff44ac70edfd785e0f2ed267e16923b...2563300e7b5b1f7a5761052c953f6ffb7ea448f8)
 - `2563300e7b5b1f7a5761052c953f6ffb7ea448f8` [chore: Refactor FsFetchExecutorBuilder to handle rate limiting (#13006)](https://github.com/risingwavelabs/risingwave/pull/13006)
 - `903daed19c544a1f910b0a7789cc80b260419d34` [feat: support alter relation name in catalog controller (#12977)](https://github.com/risingwavelabs/risingwave/pull/12977)
 - `a3d2c4b5a8c86005bc85660cec4d68d69432c13f` [fix: openssl is compiled twice, once not vendored in linux (#13001)](https://github.com/risingwavelabs/risingwave/pull/13001)
@@ -2958,7 +3002,7 @@
 - `bf3dbbbdf426f43031f3186cf3447b75d8d7ae66` [refactor(frontend/expr): use associated type for ExprVisitor design (#12960)](https://github.com/risingwavelabs/risingwave/pull/12960)
 
 ## nightly-20231019
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/495ab39ddff44ac70edfd785e0f2ed267e16923b?expand=1&base=272ce88175d6294d57d1f6f2b740afeba76e9c8d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/272ce88175d6294d57d1f6f2b740afeba76e9c8d...495ab39ddff44ac70edfd785e0f2ed267e16923b)
 - `495ab39ddff44ac70edfd785e0f2ed267e16923b` [feat(sink): kafka upsert sink with schema (#12113)](https://github.com/risingwavelabs/risingwave/pull/12113)
 - `1b0d5eeef86cc2dca8a4ced86b7f92fe706194f9` [fix(stream): add assertion to ensure pk indices consistency (#12763)](https://github.com/risingwavelabs/risingwave/pull/12763)
 - `8d5d518e5a2994a0da4b6b045542816d67153e01` [chore(deps): Bump rustix from 0.38.4 to 0.38.19 in /src/tests/libpq_test (#12954)](https://github.com/risingwavelabs/risingwave/pull/12954)
@@ -2966,7 +3010,7 @@
 - `38f8ec1d7150d4495763ad9880d04aebc0314966` [chore(deps): Bump uuid from 1.4.1 to 1.5.0 (#12955)](https://github.com/risingwavelabs/risingwave/pull/12955)
 
 ## nightly-20231018
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/272ce88175d6294d57d1f6f2b740afeba76e9c8d?expand=1&base=34ec26075cf45cd2679f0e30aaa4d4e52eb5187d&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/34ec26075cf45cd2679f0e30aaa4d4e52eb5187d...272ce88175d6294d57d1f6f2b740afeba76e9c8d)
 - `272ce88175d6294d57d1f6f2b740afeba76e9c8d` [fix(release): install javadoc in release script (#12949)](https://github.com/risingwavelabs/risingwave/pull/12949)
 - `399cbc07c422a32022abab43d8aa7ba961afc942` [feat(dashboard): dump await-tree for all compute nodes (#12947)](https://github.com/risingwavelabs/risingwave/pull/12947)
 - `878ebac88d6af6df286440e50df2b453960dc2ca` [feat(ctl): support rebuild table stats with approximate value (#12946)](https://github.com/risingwavelabs/risingwave/pull/12946)
@@ -2985,7 +3029,7 @@
 - `c25609832c7d6ce6f3f59c94fca2cc406360c5b2` [refactor(expr): allow defining context visibility using restricted relative path (#12919)](https://github.com/risingwavelabs/risingwave/pull/12919)
 
 ## nightly-20231017
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/34ec26075cf45cd2679f0e30aaa4d4e52eb5187d?expand=1&base=d0572f40229293faf285e85aef01ad3990302513&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0572f40229293faf285e85aef01ad3990302513...34ec26075cf45cd2679f0e30aaa4d4e52eb5187d)
 - `34ec26075cf45cd2679f0e30aaa4d4e52eb5187d` [fix(java_binding): fix java binding TLS allocation failure (#12862)](https://github.com/risingwavelabs/risingwave/pull/12862)
 - `1c2e5aaba56ccd3cf99c7228573cad22b5fe9809` [feat(expr): implement greatest and least function (#12838)](https://github.com/risingwavelabs/risingwave/pull/12838)
 - `ddeea32ffe4ca0362c9781fa0fe99cdfc8e94e10` [fix: fix tab completion for relation (#12908)](https://github.com/risingwavelabs/risingwave/pull/12908)
@@ -3018,7 +3062,7 @@
 - `a1f114c0f043e3cc05c12420bed9f411d77cd9cb` [fix(stream topn): fix pk indices of `TopN` and `GroupTopN` (#12840)](https://github.com/risingwavelabs/risingwave/pull/12840)
 
 ## nightly-20231016
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0572f40229293faf285e85aef01ad3990302513?expand=1&base=b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b...d0572f40229293faf285e85aef01ad3990302513)
 - `d0572f40229293faf285e85aef01ad3990302513` [feat(ci): support opt-in workflow for pull-requests (#12870)](https://github.com/risingwavelabs/risingwave/pull/12870)
 - `ea27579a2e6bfed1a968b567d145fb75685a6f99` [feat(sink): ProtoEncoder and AvroEncoder (#12425)](https://github.com/risingwavelabs/risingwave/pull/12425)
 - `e1bdf78949c20f4ea9a2484476aa5fc012c90ee3` [fix(metrics): avoid port in connection metrics label (#12860)](https://github.com/risingwavelabs/risingwave/pull/12860)
@@ -3030,13 +3074,13 @@
 - `ec60ee2f711f13a4b41b067163fe25ac32a324d6` [fix(connector): add connector sink metric back (#12812)](https://github.com/risingwavelabs/risingwave/pull/12812)
 
 ## nightly-20231015
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b?expand=1&base=c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7...b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b)
 - `b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b` [chore(deps): bump rdkafka to v0.34.0 and librdkafka to v2.2.0 (#11232)](https://github.com/risingwavelabs/risingwave/pull/11232)
 - `387d251b722a65dd7147b04aff611a2381c44bf4` [feat(optimizer): optimize join stream key (#12831)](https://github.com/risingwavelabs/risingwave/pull/12831)
 - `103826b8dcbe9528d826a77504bf4cf5851d44d7` [chore(deps): Bump zstd from 0.12.4 to 0.13.0 (#12794)](https://github.com/risingwavelabs/risingwave/pull/12794)
 
 ## nightly-20231013
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7?expand=1&base=5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b...c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7)
 - `c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7` [fix(compaction): fix can not pick task when there are many files overlap (#12790)](https://github.com/risingwavelabs/risingwave/pull/12790)
 - `369c1f30a39a57eac5ec43b1fa628b188e99e846` [doc(cmd_all): add docs on standalone mode (#12828)](https://github.com/risingwavelabs/risingwave/pull/12828)
 - `ac4ae56441ac6448edfd19d548606a7b6b5fb678` [refactor(memory): use 0.7 * system memory as default `total_memory_bytes` (#12832)](https://github.com/risingwavelabs/risingwave/pull/12832)
@@ -3045,7 +3089,7 @@
 - `f27182f35cad6831b5751f677f32645aa1321613` [fix(state table): add the accidentally deleted prefix_hint back (#12817)](https://github.com/risingwavelabs/risingwave/pull/12817)
 
 ## nightly-20231012
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b?expand=1&base=60b342965d960ea2d6769d6c412f79318b42739e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/60b342965d960ea2d6769d6c412f79318b42739e...5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b)
 - `5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b` [chore(streaming): deprecate `BACKFILL_SNAPSHOT_BARRIER_INTERVAL` (#12782)](https://github.com/risingwavelabs/risingwave/pull/12782)
 - `155fb51a006cdb3e430cf5f87e12d8f27ce8101a` [chore(risedev): remove connector-rpc-endpoint from risedev (#12816)](https://github.com/risingwavelabs/risingwave/pull/12816)
 - `c0f9b80c1b438d3e17cbbc5d91e1eaa5f9886339` [fix: fix empty ops case in iceberg sink (#12811)](https://github.com/risingwavelabs/risingwave/pull/12811)
@@ -3063,7 +3107,7 @@
 - `d77687632ac4b25127bddce353877614ec478318` [feat(jdbc-sink): support sink varchar to uuid for postgres and improve java building time (#12704)](https://github.com/risingwavelabs/risingwave/pull/12704)
 
 ## nightly-20231011
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/60b342965d960ea2d6769d6c412f79318b42739e?expand=1&base=d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e...60b342965d960ea2d6769d6c412f79318b42739e)
 - `60b342965d960ea2d6769d6c412f79318b42739e` [refactor(state_table): unify iterator interfaces of state table (#12364)](https://github.com/risingwavelabs/risingwave/pull/12364)
 - `12a5b2e2ca06afaa297ba8f0888f20eaaea5cb69` [fix(streaming): stall barrier until at least 1 snapshot read passed (#12780)](https://github.com/risingwavelabs/risingwave/pull/12780)
 - `80f1d58b866b022fd2d5aac92dd2e5bae2c6ceb7` [feat(expr): support streaming `bit_and` and `bit_or` aggregate (#12758)](https://github.com/risingwavelabs/risingwave/pull/12758)
@@ -3087,7 +3131,7 @@
 - `aec6038602cefd2329a5ea72a9791ae726846d37` [refactor(optimizer): change stream key to option (#12524)](https://github.com/risingwavelabs/risingwave/pull/12524)
 
 ## nightly-20231010
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e?expand=1&base=5ae9a360daeeefba400e44d066c76e2bc2526ff0&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5ae9a360daeeefba400e44d066c76e2bc2526ff0...d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e)
 - `d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e` [fix(streaming): handle pause on bootstrap for `Now` and `Values` (#12716)](https://github.com/risingwavelabs/risingwave/pull/12716)
 - `ac514f96ead2ba14e5abf733d7cf6ac71560a7ac` [fix(storage): auto_pick_type should cover Tombstone type - Revert (#12730)](https://github.com/risingwavelabs/risingwave/pull/12730)
 - `211d7bcee572e7bc1cd50b48248e745bb93820bd` [feat(meta): define model V2 for hummock metadata (#12674)](https://github.com/risingwavelabs/risingwave/pull/12674)
@@ -3100,7 +3144,7 @@
 - `7160ba04fe3d206705e1571c59457552e1450f5e` [fix: unify `varchar` format_type display with PostgreSQL (#12648)](https://github.com/risingwavelabs/risingwave/pull/12648)
 
 ## nightly-20231009
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5ae9a360daeeefba400e44d066c76e2bc2526ff0?expand=1&base=8b18a7e7746613ff5fe056d7b4fd15e6747bc02e&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8b18a7e7746613ff5fe056d7b4fd15e6747bc02e...5ae9a360daeeefba400e44d066c76e2bc2526ff0)
 - `5ae9a360daeeefba400e44d066c76e2bc2526ff0` [chore: Update Slack link to a permanent one in README (#12700)](https://github.com/risingwavelabs/risingwave/pull/12700)
 - `2fef0544a7ec4c4fe9921e35f421793c6e68b29a` [fix: add "ts_ms" in source (#12703)](https://github.com/risingwavelabs/risingwave/pull/12703)
 - `0c4013cc3a95caa465c51028c5d80c1f33ca413b` [chore(deps): bump etcd-client to v0.12.1 (#12705)](https://github.com/risingwavelabs/risingwave/pull/12705)
@@ -3120,7 +3164,7 @@
 - `8b082dea901084c5f9a6462789e18f77dbe3efc0` [chore(deps): Bump similar from 2.2.1 to 2.3.0 (#12668)](https://github.com/risingwavelabs/risingwave/pull/12668)
 
 ## nightly-20231008
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8b18a7e7746613ff5fe056d7b4fd15e6747bc02e?expand=1&base=4fe8294a60b841bae2d0f75afb97eb6fd1064d13&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fe8294a60b841bae2d0f75afb97eb6fd1064d13...8b18a7e7746613ff5fe056d7b4fd15e6747bc02e)
 - `8b18a7e7746613ff5fe056d7b4fd15e6747bc02e` [refactor(common): implement `Datum::[from|to]_protobuf` (#12679)](https://github.com/risingwavelabs/risingwave/pull/12679)
 - `d3ebe9f5d563efeb72c6762379219d6134647fbe` [chore: speedup doctest (#12669)](https://github.com/risingwavelabs/risingwave/pull/12669)
 - `1d04366e3eb1d19c700c129a61d01b235d3ea515` [fix(storage): auto_pick_type should cover Tombstone type (#12670)](https://github.com/risingwavelabs/risingwave/pull/12670)
@@ -3134,7 +3178,7 @@
 - `b0fc8ca7cf22b1d255229e0c58ceec6048ab383b` [chore(deps): Bump simd-json from 0.10.6 to 0.11.1 & fix error message (#12550)](https://github.com/risingwavelabs/risingwave/pull/12550)
 
 ## nightly-20231007
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fe8294a60b841bae2d0f75afb97eb6fd1064d13?expand=1&base=3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be...4fe8294a60b841bae2d0f75afb97eb6fd1064d13)
 - `4fe8294a60b841bae2d0f75afb97eb6fd1064d13` [fix(stream): yield upstream updates for backfill after last barrier in the interval (#12654)](https://github.com/risingwavelabs/risingwave/pull/12654)
 - `2dcd8796937b43ec305af5139d7864c3bbde7978` [chore(deps): Bump csv from 1.2.2 to 1.3.0 (#12647)](https://github.com/risingwavelabs/risingwave/pull/12647)
 - `848b0a117c945c515923d3dd4e19ddea9325fbd1` [feat(sink): kafka async truncate log (#12587)](https://github.com/risingwavelabs/risingwave/pull/12587)
@@ -3144,7 +3188,7 @@
 - `461c4eb131eb83fb7b916b00215288abab29c354` [feat(stream): support snapshot read over N barriers (#12644)](https://github.com/risingwavelabs/risingwave/pull/12644)
 
 ## nightly-20231006
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be?expand=1&base=e53c9f74d12d44bb39a61e983208d6468221f8f2&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e53c9f74d12d44bb39a61e983208d6468221f8f2...3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be)
 - `3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be` [feat: improve sink mview throughput metrics (#12622)](https://github.com/risingwavelabs/risingwave/pull/12622)
 - `c8470955fcef2b8573e68d2f352d7f1983fc47d2` [fix(optimizer): handle eval error in `LogicalSource::predicate_pushdown` (#12640)](https://github.com/risingwavelabs/risingwave/pull/12640)
 - `f26ac7a07101034498bad12286ab3191f2833b3e` [chore(deps): Bump zod and next in /dashboard (#12627)](https://github.com/risingwavelabs/risingwave/pull/12627)
@@ -3152,13 +3196,13 @@
 - `c1bbbc3f8c5851dbb5772d0744054a7dc92c2e2c` [fix: report partition metrics (#12635)](https://github.com/risingwavelabs/risingwave/pull/12635)
 
 ## nightly-20231005
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e53c9f74d12d44bb39a61e983208d6468221f8f2?expand=1&base=ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971...e53c9f74d12d44bb39a61e983208d6468221f8f2)
 - `e53c9f74d12d44bb39a61e983208d6468221f8f2` [fix: enable jemalloc-based memory control on macOS as well (#12625)](https://github.com/risingwavelabs/risingwave/pull/12625)
 - `8195963bfdabcdaaa08c27c74f0855c299b05a64` [fix(meta): handle case where progress is done (#12631)](https://github.com/risingwavelabs/risingwave/pull/12631)
 - `e365f2f8769b1ed98ede2c8fb866932a4464463b` [feat(standalone): support optionally including components (#12626)](https://github.com/risingwavelabs/risingwave/pull/12626)
 
 ## nightly-20231004
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971?expand=1&base=03630056a643c904bc6397330ef9b0c41a70f4c1&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03630056a643c904bc6397330ef9b0c41a70f4c1...ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971)
 - `ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971` [chore(deps): Bump pprof from 0.12.1 to 0.13.0 (#12617)](https://github.com/risingwavelabs/risingwave/pull/12617)
 - `194b6066c1c399c8148b86f3b1af0e6b3b82de9f` [feat(standalone): add compactor (#12623)](https://github.com/risingwavelabs/risingwave/pull/12623)
 - `1546a33e493b66f1f94dd53cb3b3f09569845912` [chore(ci): enable basic background_ddl test in standalone mode (#12621)](https://github.com/risingwavelabs/risingwave/pull/12621)
@@ -3167,7 +3211,7 @@
 - `5bfc18dcd9ca374ab922a98638a5313de0dd2b5e` [chore(deps): Bump webpki from 0.22.1 to 0.22.2 (#12606)](https://github.com/risingwavelabs/risingwave/pull/12606)
 
 ## nightly-20231003
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03630056a643c904bc6397330ef9b0c41a70f4c1?expand=1&base=6fb7ae5f47addc3953e3be76778c70dd611a5bf4&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6fb7ae5f47addc3953e3be76778c70dd611a5bf4...03630056a643c904bc6397330ef9b0c41a70f4c1)
 - `03630056a643c904bc6397330ef9b0c41a70f4c1` [fix: memory dump must end with `.heap` (#12616)](https://github.com/risingwavelabs/risingwave/pull/12616)
 - `deb041c2cf7ab39726f4f5f5860837754e9e91b4` [chore(deps): Bump async-nats from 0.31.0 to 0.32.1 (#12614)](https://github.com/risingwavelabs/risingwave/pull/12614)
 - `f31e7af87c3d4c0c26c57b835438d1f89e9a9d6e` [chore(deps): Bump dialoguer from 0.10.4 to 0.11.0 (#12604)](https://github.com/risingwavelabs/risingwave/pull/12604)
@@ -3176,8 +3220,661 @@
 - `cd5ebe0f92cf06617468620eef43a4d96ff9e822` [chore(deps): Bump base64 from 0.21.3 to 0.21.4 (#12216)](https://github.com/risingwavelabs/risingwave/pull/12216)
 
 ## nightly-20231002
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6fb7ae5f47addc3953e3be76778c70dd611a5bf4?expand=1&base=ae3a59da33a65fb2909361eaa186440ff9fa0883&compare_format=diff)
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ae3a59da33a65fb2909361eaa186440ff9fa0883...6fb7ae5f47addc3953e3be76778c70dd611a5bf4)
 - `6fb7ae5f47addc3953e3be76778c70dd611a5bf4` [fix: remove unsafe code in auto/manual heap dump (#12596)](https://github.com/risingwavelabs/risingwave/pull/12596)
 
 ## nightly-20230929
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/78b83dfec37014b56a8aaaaf6dfab27c4bcd6005...ae3a59da33a65fb2909361eaa186440ff9fa0883)
 - `ae3a59da33a65fb2909361eaa186440ff9fa0883` [fix(ci): fix pulsar tests (#12594)](https://github.com/risingwavelabs/risingwave/pull/12594)
+- `ed576b2085521bb09562b43ed26d0bbd68f72f3e` [chore(deps): Bump duration-str from 0.5.1 to 0.7.0 (#12590)](https://github.com/risingwavelabs/risingwave/pull/12590)
+- `8cb1da441a768d653f089246c89817f56fdc3e76` [chore(ci): remove duplicated workflows in `main-cron` (#12593)](https://github.com/risingwavelabs/risingwave/pull/12593)
+- `31aac5a9496ceed949e34966867e59dffd5a8621` [refactor(ci): simplify sqlsmith workflow (#12592)](https://github.com/risingwavelabs/risingwave/pull/12592)
+
+## nightly-20230928
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/454e72d056a4e9e2db4a13cbef37d591b18ce2f6...78b83dfec37014b56a8aaaaf6dfab27c4bcd6005)
+- `78b83dfec37014b56a8aaaaf6dfab27c4bcd6005` [fix: allow configure message.timeout.ms and max.in.flight for kafka sink (#12574)](https://github.com/risingwavelabs/risingwave/pull/12574)
+- `a8f21ed087930f7806a0bf9c2362c31569a84e1b` [fix(test): fix meta recovery test (#12586)](https://github.com/risingwavelabs/risingwave/pull/12586)
+- `81c83a0ab9a2c60e8b81f32c00a9a99b5558d053` [chore(connector): no-build-rust (#12585)](https://github.com/risingwavelabs/risingwave/pull/12585)
+- `5ef656133b02ecac5820a87b79123f124d3295fe` [refactor(metric): migrate connector sink metrics to cn (#12584)](https://github.com/risingwavelabs/risingwave/pull/12584)
+- `dc6865cb358832dd24d13edeb4e4c2e5a60ad023` [fix(storage): fix delete range test timeout (#12568)](https://github.com/risingwavelabs/risingwave/pull/12568)
+- `8f220de0935e6cd792ec4f21b4ef3ad13bf41f7f` [feat(sink): await on kafka delivery future on QueueFull (#12546)](https://github.com/risingwavelabs/risingwave/pull/12546)
+- `1faa565a04dde6f01eaeb31bddb04b4b945f3908` [fix(test): prepare connector libs path for iceberg sink test (#12579)](https://github.com/risingwavelabs/risingwave/pull/12579)
+- `f8a024f3111c6369f613aad3adaadaec7c3816d3` [fix(test): temporal join watermark test select eowc skipif in-memory and inc sleep time (#12581)](https://github.com/risingwavelabs/risingwave/pull/12581)
+- `f869d8b7822383760d58ac48e66d5bafd69cf83e` [feat: support iceberg sink upsert mode (#12576)](https://github.com/risingwavelabs/risingwave/pull/12576)
+- `6f099ae97269c630864c5d71917d45cef7e95c9c` [fix(citus-cdc): fix publication alter of citus connector (#12488)](https://github.com/risingwavelabs/risingwave/pull/12488)
+- `48b85010e0c773f59d35642e3374b6eadf4b5feb` [chore: update error message of object storage (#12561)](https://github.com/risingwavelabs/risingwave/pull/12561)
+- `9386536d539d8226648e20211d79b127469b697d` [fix: check kafka reachability without involving spec topic (#12569)](https://github.com/risingwavelabs/risingwave/pull/12569)
+
+## nightly-20230927
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/09a1dcb22355677b3a7dcc589def5727b475bd88...454e72d056a4e9e2db4a13cbef37d591b18ce2f6)
+- `454e72d056a4e9e2db4a13cbef37d591b18ce2f6` [feat: use seperated runtime for source manager (#12571)](https://github.com/risingwavelabs/risingwave/pull/12571)
+- `1376e0e054271d2ca9f775fa668015cc9e430cab` [fix(expr): return error when get_window_start_with_offset overflows (#12566)](https://github.com/risingwavelabs/risingwave/pull/12566)
+- `491273ddb2007f5338974268d80889776264887b` [chore: refine start log (#12567)](https://github.com/risingwavelabs/risingwave/pull/12567)
+- `6f9c5c2f145530f1254244fa18caa6879f45879d` [feat(meta): initialization and modeling for sql-backend based meta store (#12454)](https://github.com/risingwavelabs/risingwave/pull/12454)
+- `0126304d03810ef02a7de049984a2336235e9107` [feat(expr): expression node level non-strict evaluation (#12461)](https://github.com/risingwavelabs/risingwave/pull/12461)
+- `d479042a4df408b5b436e2e64b718a201b90ce88` [test: add duckdb cte tests & fix some minor bugs (#12527)](https://github.com/risingwavelabs/risingwave/pull/12527)
+- `e7024f5df288c88a3ff267a45e23149dc66dfc2f` [chore(over window): make some logs trace level (#12559)](https://github.com/risingwavelabs/risingwave/pull/12559)
+- `ea803defda04bd547a7705b6457e57f066f5d7e5` [chore(deps): Bump syn from 2.0.33 to 2.0.37 (#12497)](https://github.com/risingwavelabs/risingwave/pull/12497)
+- `2c332fcf671caafadd3de655ecf415099e8976c2` [chore: fix typo: MongoProjection (#12554)](https://github.com/risingwavelabs/risingwave/pull/12554)
+- `aad4119c278d0a814761ef98d08cedd399465779` [feat(optimizer): support apply hop window transpose rule (#12338)](https://github.com/risingwavelabs/risingwave/pull/12338)
+- `4ca3a9ace68f9e6ad132fa9adfbe5fee434c99dd` [feat(sink): handle stream key sink pk mismatch (#12458)](https://github.com/risingwavelabs/risingwave/pull/12458)
+- `590faea40533edfa149d1b142f3546c20e4b5100` [refactor(connector): remove `WriteGuard` and `fulfill_meta_column` from parser (#12542)](https://github.com/risingwavelabs/risingwave/pull/12542)
+- `85248b7e80fbbb2a6fccd2f2c6948d8392613ed0` [refactor(connector): replace sink writer rpc with jni (#12480)](https://github.com/risingwavelabs/risingwave/pull/12480)
+- `0726b590765e3325fbeb07dde4065579f852b87a` [fix(config): make metrics_level opt backward compatible (#12541)](https://github.com/risingwavelabs/risingwave/pull/12541)
+- `d583594284a8a364b430114b0d8cf63d1fae585a` [refactor(expr): separate function implementations into a new crate (#12485)](https://github.com/risingwavelabs/risingwave/pull/12485)
+
+## nightly-20230926
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94...09a1dcb22355677b3a7dcc589def5727b475bd88)
+- `09a1dcb22355677b3a7dcc589def5727b475bd88` [fix(over window): don't expect stream keys in UpdateDelete and UpdateInsert the same (#12536)](https://github.com/risingwavelabs/risingwave/pull/12536)
+- `471bfa2c91fb4c32e94171afb49771de294cf741` [feat(sink): turn sink writer into higher level log sinker (#12152)](https://github.com/risingwavelabs/risingwave/pull/12152)
+- `1ff58bc53f445d3f01a1ddaab5f4a92f5b337ea9` [refactor(backup): refine error message (#12388)](https://github.com/risingwavelabs/risingwave/pull/12388)
+- `f38554ef84ad3aa795671e4f9f8ca0a5d49712bb` [refactor(sink): refine sink trait and macro (#12478)](https://github.com/risingwavelabs/risingwave/pull/12478)
+- `b7c8c9d3d21cfebc3d66844fd190ad4f33bf9c82` [feat(meta): add create_type to `Table` (#12529)](https://github.com/risingwavelabs/risingwave/pull/12529)
+- `5eeef12e02e5d245a7ff37a7492bdfee2e90e1e7` [chore(java-binding): refine stream chunk benchmark (#12504)](https://github.com/risingwavelabs/risingwave/pull/12504)
+- `7e700e700f19891fd588082e612e8c58d55c41ea` [refactor(sink): decouple sink formatter and payload writer (#12515)](https://github.com/risingwavelabs/risingwave/pull/12515)
+- `fd7e485a9af902c3b18f49e76e87445bdd79f447` [chore: bump risingwave version in docker compose to 1.2.0 (#12530)](https://github.com/risingwavelabs/risingwave/pull/12530)
+- `77af093c60f28e8859af0d4365ba37789c71db5f` [feat(frontend): add rw_catalog.rw_hummock_sstables (#12532)](https://github.com/risingwavelabs/risingwave/pull/12532)
+- `d979e88b9575a8878c59779b094b6d51deba4b43` [refactor(storage): reorg selector (#12392)](https://github.com/risingwavelabs/risingwave/pull/12392)
+- `417561d3989374bf795c83687d38203fd717f113` [feat(test): support customized source logic in deterministic test (#12456)](https://github.com/risingwavelabs/risingwave/pull/12456)
+- `a6fb3412b0b6fe8c0209676be0b3e91559c1c309` [feat(streaming): recover `no_shuffle_backfill` (#12493)](https://github.com/risingwavelabs/risingwave/pull/12493)
+- `b75ff7976d751df683446569e4b9f87f81cfaf71` [feat(java-binding): generate jni method signature with macro (#12487)](https://github.com/risingwavelabs/risingwave/pull/12487)
+- `42290e4944e73be96a411abf0b84fe0a3299d79e` [feat(sink): Support clickhouse sink if rw columns is subset of ck (#12123)](https://github.com/risingwavelabs/risingwave/pull/12123)
+- `f3793716c4be25d5392643fe02637f362389ea7d` [fix(metric): fix metric for branched sst info (#12477)](https://github.com/risingwavelabs/risingwave/pull/12477)
+- `ea9b94c29adb94145746b79341749375132fdcd9` [feat(serverless compaction): add retry strategy for grpc proxy client (#12506)](https://github.com/risingwavelabs/risingwave/pull/12506)
+- `31aa925988feba274d4335b1aa0b714320569774` [fix(sink): try poll response stream error while sending request (#12525)](https://github.com/risingwavelabs/risingwave/pull/12525)
+- `d0484ebfe932380eafc97d6d32c91d9d95e77dbb` [refactor(frontend): don't expose key range in rw_hummock_*_version (#12522)](https://github.com/risingwavelabs/risingwave/pull/12522)
+- `9599be0ac5fa2c7ed57e877d6f30de7ba4fa3d12` [refactor(optimizer): rename logical pk to stream key (#12516)](https://github.com/risingwavelabs/risingwave/pull/12516)
+- `a0f0b6a6ee60c7664f2a2a081fe7a7585ec6d2c7` [ci: increase timeout for unit test/buid-other (#12498)](https://github.com/risingwavelabs/risingwave/pull/12498)
+
+## nightly-20230925
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33...79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94)
+- `79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94` [fix(storage): fix condition of compaction task validator (#12473)](https://github.com/risingwavelabs/risingwave/pull/12473)
+- `bc43c393446ef402a5ca102e9d2107a54465912c` [feat(sink): support compression codec in kafka sink (#12439)](https://github.com/risingwavelabs/risingwave/pull/12439)
+- `d842cfa35cc588163141ad82fdd9099f2ef43aaf` [refactor(storage): refactor ReportTask event to reduce the network packet size (#12455)](https://github.com/risingwavelabs/risingwave/pull/12455)
+- `d02112a5bb6fc4a207f284c3189b6987e5722584` [refactor(dashboard): show backpressure in fragment level (#12397)](https://github.com/risingwavelabs/risingwave/pull/12397)
+- `3016948c9422c6303248bbdcc0aca9a765bee115` [chore: enable query log by default when using risedev (#12406)](https://github.com/risingwavelabs/risingwave/pull/12406)
+- `5fb8f3e40b9789b7b65d66fa99c4e7b33db8bf2b` [test(sink): add e2e test for pulsar-sink (#12505)](https://github.com/risingwavelabs/risingwave/pull/12505)
+
+## nightly-20230924
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/063f58e123c6eead17f0a0da01099e2d92d3ed35...5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33)
+- `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33` [fix(generated_column): correct the output message when use impure expr in generated columns. (#12494)](https://github.com/risingwavelabs/risingwave/pull/12494)
+
+## nightly-20230922
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a12611d81b98ef437b632792057705e4bdfd5f74...063f58e123c6eead17f0a0da01099e2d92d3ed35)
+- `063f58e123c6eead17f0a0da01099e2d92d3ed35` [refactor(watermark): avoid sending min watermark (#12462)](https://github.com/risingwavelabs/risingwave/pull/12462)
+- `4fb087c9e37b70fb9329b171ac010c0bd2a73889` [feat(compaction): support serverless compaction (#11904)](https://github.com/risingwavelabs/risingwave/pull/11904)
+- `52388608d0fa7eeec29bd685266dba525a9076b0` [fix: ignore when fail to remove label in batch monitor (#12490)](https://github.com/risingwavelabs/risingwave/pull/12490)
+- `cdbb47f92430189db9002d33408489c94a4d8f9a` [chore(deps): Bump aho-corasick from 1.1.0 to 1.1.1 (#12483)](https://github.com/risingwavelabs/risingwave/pull/12483)
+- `c335f3d3c6b0f90e1bc62a0233fa8a586b4c4ba9` [chore(deps): Bump smallvec from 1.11.0 to 1.11.1 (#12484)](https://github.com/risingwavelabs/risingwave/pull/12484)
+- `d7cb2ae2c25be3bff470f22b17b3f8d231f1b0fc` [feat(streaming): persist row_count in backfill state_table (#12415)](https://github.com/risingwavelabs/risingwave/pull/12415)
+- `e3657478b40356f459fa6a2058069f60fd2f39f7` [feat: support `privatelink.endpoint` option in the WITH clause for Kafka connector (#12266)](https://github.com/risingwavelabs/risingwave/pull/12266)
+- `6d0b56d4c89a2118294c4e567bf3d039ffa323c6` [fix: remove cargo audit --ignore RUSTSEC-2022-0093 (#12465)](https://github.com/risingwavelabs/risingwave/pull/12465)
+- `d8ec952fffa840e55a9c4a10c2f49e413f97e4eb` [feat(sink): support doris sink (#12336)](https://github.com/risingwavelabs/risingwave/pull/12336)
+
+## nightly-20230921
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6500c1edd93b8cd1bcc949a59d38bfce7f38d669...a12611d81b98ef437b632792057705e4bdfd5f74)
+- `a12611d81b98ef437b632792057705e4bdfd5f74` [refactor(connector): replace validate sink rpc with jni (#12312)](https://github.com/risingwavelabs/risingwave/pull/12312)
+- `f075a6b98cd6e27e4fa26cdf2dc1bacc5e93a395` [fix(dashboard): calculate lru_evicted_watermark_time_diff_ms in promsql  (#12431)](https://github.com/risingwavelabs/risingwave/pull/12431)
+- `a7b7688361c977039156493a7611ccd4a95e7bc4` [test(connector): introduce inline e2e test for CDC table schema change (#12344)](https://github.com/risingwavelabs/risingwave/pull/12344)
+- `8136111a7dac6034759952a40a3b457833152d57` [feat(compaction):  optimize compaction read to reduce compression and decode (#10673)](https://github.com/risingwavelabs/risingwave/pull/10673)
+- `6b60ea9d52502c71295f99fc92e9aae0c38fc033` [refactor(ctl): add meta restore tool to risectl (#12472)](https://github.com/risingwavelabs/risingwave/pull/12472)
+- `77d78f01f89bbab1ac014372dc8b6a5a7cebcca2` [feat(expr): add `_pg_expandarray` function (#12448)](https://github.com/risingwavelabs/risingwave/pull/12448)
+- `9efa876899163ccd694f6ce454716a7f0967a455` [chore(deps): Bump tokio-util from 0.7.8 to 0.7.9 (#12466)](https://github.com/risingwavelabs/risingwave/pull/12466)
+- `1b70059714d6e52cd50f6bed7be92fb1a09ec367` [feat: use Map to represent json field when building doc in es sink (#12464)](https://github.com/risingwavelabs/risingwave/pull/12464)
+- `1985bc8b90dd38855da43fadf81cef7f758cd6f9` [refactor(expr): use a wrapper for `eval_checked` (#12426)](https://github.com/risingwavelabs/risingwave/pull/12426)
+
+## nightly-20230920
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c8ea5ee309c820cef5c73704d1211e9c3aa58dc2...6500c1edd93b8cd1bcc949a59d38bfce7f38d669)
+- `6500c1edd93b8cd1bcc949a59d38bfce7f38d669` [fix(sink): handle visibility in remote sink (#12463)](https://github.com/risingwavelabs/risingwave/pull/12463)
+- `0515f01d0c2de238f05e554fc14fb7761fea6bd2` [fix(ci): fix standalone e2e test breakage (#12444)](https://github.com/risingwavelabs/risingwave/pull/12444)
+- `14f267410b996d58ee495e76f1115e312e9642fe` [refactor(executor): remove chunk compact before HashKey build (#12420)](https://github.com/risingwavelabs/risingwave/pull/12420)
+- `c9f3cd0c2a22ad28f8a6387baa0806f3c05ecd02` [fix(ci): iceberg sink test failure (#12446)](https://github.com/risingwavelabs/risingwave/pull/12446)
+- `9358708e3aab0a86f0974aeaa50b3871158a0b05` [fix: reserve variable buffer for parameter status messages (#12205)](https://github.com/risingwavelabs/risingwave/pull/12205)
+- `09c6b75434cc6655bf27e1a758b78dbc88ec1e21` [build(docker): reorganize Dockerfile to be more cacheable & add registry build cache (#12193)](https://github.com/risingwavelabs/risingwave/pull/12193)
+- `14292d783896ed01a569f3f3963aec944a1f42ce` [chore(deps): update tokio-postgres to v0.7.10 (#12452)](https://github.com/risingwavelabs/risingwave/pull/12452)
+- `6db46600dc472bd559d1c9225a2665b1b35af24f` [refactor(sqlparser): cleanup dead code on `FORMAT ENCODE` (v2) -> `ROW FORMAT` (v1) (#12450)](https://github.com/risingwavelabs/risingwave/pull/12450)
+- `c9b356a36c5c60ebf38c2bb9cba6195029d73ba1` [chore: use `--fragments` with ids separated by commas (#12438)](https://github.com/risingwavelabs/risingwave/pull/12438)
+- `08a2ca111a0d26195155146be656cad36fac317a` [feat: SQL-based election client (#12391)](https://github.com/risingwavelabs/risingwave/pull/12391)
+- `8c05180ef4add2fca78613587b9f4efbebb7418e` [feat(log-store): log store support truncates at given offset (#12263)](https://github.com/risingwavelabs/risingwave/pull/12263)
+- `869ef90eec6ef3d49d417b2121fcfd65bfd11fd7` [refactor(test): simplify backfill tests (#12437)](https://github.com/risingwavelabs/risingwave/pull/12437)
+- `7192a90cf6146ef3fbb7643abc93795cef9bf3e4` [chore(license): add license header to python files (#12423)](https://github.com/risingwavelabs/risingwave/pull/12423)
+- `8431a4442ae4e35fc1b0f12ddee1989229eddf03` [chore: support docker build skip target (#12414)](https://github.com/risingwavelabs/risingwave/pull/12414)
+- `5a2ee63885c8e00d1a8e78005d1db7bdacb17bff` [chore(deps): Bump clap from 4.4.3 to 4.4.4 (#12440)](https://github.com/risingwavelabs/risingwave/pull/12440)
+- `ba2cdc9e5c366d1a92571774b46a40944e7dccbd` [chore(deps): Bump dyn-clone from 1.0.13 to 1.0.14 (#12442)](https://github.com/risingwavelabs/risingwave/pull/12442)
+- `dda8c4b9a806c2cfb4f747646cf32a00f72c1eb5` [fix(test): fix local backwards compat test to run against current branch (#12436)](https://github.com/risingwavelabs/risingwave/pull/12436)
+- `f6dff66a1d4fd328889adf148173632e19474263` [chore: build dashboard in Dockerfile (#12421)](https://github.com/risingwavelabs/risingwave/pull/12421)
+- `7324a950125226298f50b6f6462bc70072b0712c` [fix(meta): fix backwards compat issues for `Table::stream_job_status` field (#12434)](https://github.com/risingwavelabs/risingwave/pull/12434)
+- `5cd4082fb261644a84e01d38f8e8d91a4af39f8e` [refactor: Use icelake catalog api to simplify things. (#12303)](https://github.com/risingwavelabs/risingwave/pull/12303)
+- `104373868b5b43f93af6e35ca265639241841a2d` [chore(test): disable flaky test temporarily (#12427)](https://github.com/risingwavelabs/risingwave/pull/12427)
+- `fa6c3914f4b171924ae9c107de16c50b2546c0bb` [refactor: Use icelake catalog api to simplify things. (#12303)](https://github.com/risingwavelabs/risingwave/pull/12303)
+- `441583a276c0f7c2984f7fea37362d1f2737c1f3` [refactor(state-store): use dyn_clone for boxed state store and remove HummockTrait (#12409)](https://github.com/risingwavelabs/risingwave/pull/12409)
+- `afd5791dc77a095d4f884bc01a0e3988aee317fd` [fix(storage): revert write limit config for ci-delete-range-test (#12430)](https://github.com/risingwavelabs/risingwave/pull/12430)
+- `a6ab35f36d4d3b63ac30db74110dba23a1d5d6b5` [feat(sink): do not compact chunk's vis in sink (#12428)](https://github.com/risingwavelabs/risingwave/pull/12428)
+
+## nightly-20230919
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08...c8ea5ee309c820cef5c73704d1211e9c3aa58dc2)
+- `c8ea5ee309c820cef5c73704d1211e9c3aa58dc2` [refactor(source): refine source macro (#12260)](https://github.com/risingwavelabs/risingwave/pull/12260)
+- `ed96064ebfcd0dfa489ece72f8c1eaab1ad63811` [chore: fix duplicated jeprof (again) (#12424)](https://github.com/risingwavelabs/risingwave/pull/12424)
+- `948d17dd4e049245a7ef6c07453421905d7b5ee6` [fix: give more reasonable initial watermark epoch (#12417)](https://github.com/risingwavelabs/risingwave/pull/12417)
+- `7177a3ece6e35403f0d4821b87196b3a6f31b58c` [refactor(udf): use `cfg_or_panic` for UDF implementations (#12416)](https://github.com/risingwavelabs/risingwave/pull/12416)
+- `74637caf0dbf88f02ecaf834bc8a70ddc960cdc4` [fix: hummock manager list version deltas by memory (#12412)](https://github.com/risingwavelabs/risingwave/pull/12412)
+- `44b8ae8fe992316df45bb92ab314520b3bd4f779` [refactor(common): remove `Vis` (#12379)](https://github.com/risingwavelabs/risingwave/pull/12379)
+- `ff50ccbc9f4de4c8eadba0a5a96fe48e439cf025` [refactor(storage): Use TableKey struct in the state store interfaces (#11943)](https://github.com/risingwavelabs/risingwave/pull/11943)
+- `b715bde58b43f2c8555e7aeaae405d369acd14f7` [refactor(udf): connect lazily to get rid of `block_in_place` (#12413)](https://github.com/risingwavelabs/risingwave/pull/12413)
+- `aa5e7988fe85acb5b4bf06c0340ec30e24627cee` [feat(sink): implement pulsar sink (#12286)](https://github.com/risingwavelabs/risingwave/pull/12286)
+- `a789c615be99eb126c24df6de452f1d92a5444a2` [chore: update hakari config to reduce [build-dependencies] (#12411)](https://github.com/risingwavelabs/risingwave/pull/12411)
+- `7f647a36b80c7a3117b23a0332c8c830800a260b` [feat(sqlparser): support specifying DEBEZIUM JSON for CDC tables to enable schema change (#12306)](https://github.com/risingwavelabs/risingwave/pull/12306)
+- `86dfcc4885f22e034660cdbd1579f54f608a7532` [feat(ci): support trigger standalone tests in `pull-request` workflow (#12394)](https://github.com/risingwavelabs/risingwave/pull/12394)
+- `e19a53690491f43e16de5d89d6735346a356663f` [chore(deps): Bump moka from 0.11.3 to 0.12.0 (#12403)](https://github.com/risingwavelabs/risingwave/pull/12403)
+- `eb92f6f79cabee17f34bdf3d1f8976b34f392211` [chore(deps): Bump pbjson from 0.5.1 to 0.6.0 (#12401)](https://github.com/risingwavelabs/risingwave/pull/12401)
+- `0ae5c0e0126400d3e49da934fbea977a1b9a7ad4` [chore(test): tune datagen range (#12408)](https://github.com/risingwavelabs/risingwave/pull/12408)
+- `a5b596fb41706e5cd0785584a54590b77ece5782` [feat(dashboard): add metrics for agg dirty groups count & heap size (#12378)](https://github.com/risingwavelabs/risingwave/pull/12378)
+- `161b9b0ef684aa065b3c78f1103925f13aafdf30` [feat(frontend): support background ddl for materialized views (#12355)](https://github.com/risingwavelabs/risingwave/pull/12355)
+- `588bb80eec402eeb63dc1c8bc66661e996ba85fc` [chore(deps): Bump aho-corasick from 1.0.5 to 1.1.0 (#12402)](https://github.com/risingwavelabs/risingwave/pull/12402)
+- `b17569d774f25351f4458b3c42723bf51e6bccd0` [feat(stream): add nkey and jwt auth methods for nats connector (#12227)](https://github.com/risingwavelabs/risingwave/pull/12227)
+- `4dadb7c107ef6b256209eba8e201280c310ce1e8` [feat(storage): emergency picker for write_limit (#12183)](https://github.com/risingwavelabs/risingwave/pull/12183)
+
+## nightly-20230918
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/41ebb2ad72c8432bae643daed980c818344b1df8...cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08)
+- `cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08` [refactor(sink): impl SinkFormatter for DebeziumJsonFormatter (#12372)](https://github.com/risingwavelabs/risingwave/pull/12372)
+- `8003961b073e59c9073e501205009123829db5c9` [chore: add compatible notice for old row format syntax (#12373)](https://github.com/risingwavelabs/risingwave/pull/12373)
+- `ff7667a76330bbbc852e720d1b26cd0f9926bb50` [fix: fix source schema display (#12375)](https://github.com/risingwavelabs/risingwave/pull/12375)
+- `3d2fb5f107930ee0ce0b9efc16ba15f7e43f3d5f` [chore(deps): Bump proc-macro2 from 1.0.66 to 1.0.67 (#12289)](https://github.com/risingwavelabs/risingwave/pull/12289)
+- `83d970f9430027e317945016e10d830f3b9fe3cd` [feat(metrics): improve backpressure metrics (#12353)](https://github.com/risingwavelabs/risingwave/pull/12353)
+- `c82fc9cf7ff1cad6a514f6ab723d47d6836c1bae` [chore(deps): Bump chrono from 0.4.30 to 0.4.31 (#12359)](https://github.com/risingwavelabs/risingwave/pull/12359)
+- `cbdc1acb67e7b366e51f58bb7d05568664191d28` [chore(ci): move release jobs to main-cron pipeline (#12339)](https://github.com/risingwavelabs/risingwave/pull/12339)
+- `b37a19ccd4a78238683e2ff712c2ad2d796f9a01` [feat(dashboard): add memory profiling (#12052)](https://github.com/risingwavelabs/risingwave/pull/12052)
+- `71d81704ec1c3ff7fb9375fd111a0aab3b3c5f6b` [refactor(expr): allow defining functions in frontend (#12287)](https://github.com/risingwavelabs/risingwave/pull/12287)
+- `cedaec96ce04d12f160a1e04ad4f24af199ab103` [feat(optimizer): support agg group by simplify rule (#12349)](https://github.com/risingwavelabs/risingwave/pull/12349)
+- `71d9b0bcb2fd804789f659ccc6dd15d9a556d664` [feat(meta): update StreamJob status on finish (#12342)](https://github.com/risingwavelabs/risingwave/pull/12342)
+- `784fe568d44e40fa29915292ac2df61faf5e5c91` [fix(backup): ensure correct delta log order (#12371)](https://github.com/risingwavelabs/risingwave/pull/12371)
+- `711ecd5c06ded04a13d8e8753a961c73453804c8` [feat(state_table): add iterator sub range under a certain pk prefix (#12251)](https://github.com/risingwavelabs/risingwave/pull/12251)
+- `1877aed241f9db69468fb7122bf8540ffc7b4dd9` [refactor(sink): impl SinkFormatter for AppendOnly and Upsert (#12321)](https://github.com/risingwavelabs/risingwave/pull/12321)
+- `f304ed214295b26fd068ef4e408524ef095a9c7f` [revert: Revert "chore: add platforms to hakari (#12333)" (#12363)](https://github.com/risingwavelabs/risingwave/pull/12363)
+- `a975d9346333c53f34c6f73793fb718076177d7b` [fix: handle kafka sink message timeout error (#12350)](https://github.com/risingwavelabs/risingwave/pull/12350)
+- `8ef74ad37194848ab7c75c7d39d503ad1d64025f` [fix(udf): handle visibility of input chunks in UDTF (#12357)](https://github.com/risingwavelabs/risingwave/pull/12357)
+- `31fdc265c0ab7ed22fc081e71c5af3c3d88f82a1` [feat(expr): switch to `fancy-regex` crate & update the original version (#12329)](https://github.com/risingwavelabs/risingwave/pull/12329)
+- `00321457dafc2c07590d7213ee076f6bf07ff073` [refactor(expr): support variadic function in `#[function]` macro (#12178)](https://github.com/risingwavelabs/risingwave/pull/12178)
+- `467ba4b00c2b30d2228c9ee1638fbe80fb53fa12` [fix: stream backfill executor use correct schema (#12314)](https://github.com/risingwavelabs/risingwave/pull/12314)
+- `c443197f2b0c32363a494bc9320073ccc9969c4c` [feat(optimizer): support correlated column in order by (#12341)](https://github.com/risingwavelabs/risingwave/pull/12341)
+- `8a36ca33c116752be189f2da8f1dfbaf9934247f` [feat(meta): Add `creating_status` field for stream jobs (#12330)](https://github.com/risingwavelabs/risingwave/pull/12330)
+- `bf5b14ecb6904fa09bb449f5e8358cddfd7aab21` [chore: lift decoding message size limit for ddl client (#12340)](https://github.com/risingwavelabs/risingwave/pull/12340)
+- `c0060b2ecbcbe16ce518f49237b2f380d1e41e40` [feat(meta): add hummock config relevant tables to rw_catalog (#12337)](https://github.com/risingwavelabs/risingwave/pull/12337)
+- `59bb645b27d6345abddfebef5e3095c56b74ffe7` [chore: add platforms to hakari (#12333)](https://github.com/risingwavelabs/risingwave/pull/12333)
+- `7baa27ff9bbce41e40079f97b3d22488a6965fa4` [chore: split full debug info for release build (#12255)](https://github.com/risingwavelabs/risingwave/pull/12255)
+- `a99e6f3eb346176f34d27f309c2108b767b4ed8a` [fix(stream): fix pk indices of GroupTopN executors (#12304)](https://github.com/risingwavelabs/risingwave/pull/12304)
+- `43c010ee16c1cc6a05c1b085b0abd1c77f1685ce` [chore: fix comment and metrics (#12331)](https://github.com/risingwavelabs/risingwave/pull/12331)
+- `214118baea97103207dfcd6e134a1e8fe63c31ad` [chore(deps): Bump serde_json from 1.0.106 to 1.0.107 (#12322)](https://github.com/risingwavelabs/risingwave/pull/12322)
+
+## nightly-20230914
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/173ad4e249760b86636941676077b5ed63f48551...41ebb2ad72c8432bae643daed980c818344b1df8)
+- `41ebb2ad72c8432bae643daed980c818344b1df8` [fix(regexp): substraction overflow when incorrectly speicifying `start` (#12325)](https://github.com/risingwavelabs/risingwave/pull/12325)
+- `a566cfe698af6a6b869a63eb53da2ea8b5c32d87` [feat(expr): add `array_sum` (#12162)](https://github.com/risingwavelabs/risingwave/pull/12162)
+- `28bbf1042cc606357c9a06fe4be6e600ecc91501` [fix(ci): exclude tikv-jemalloc-sys in hakari check (#12320)](https://github.com/risingwavelabs/risingwave/pull/12320)
+- `5aa5a47000e3907f242bd676048417a74cc5ee17` [feat(meta): add hummock version relevant tables to rw_catalog (#12309)](https://github.com/risingwavelabs/risingwave/pull/12309)
+- `a740364d9eff5a3a20fdd6698562ed85f08b1339` [chore(ci): install locales in prebuilt image (#12311)](https://github.com/risingwavelabs/risingwave/pull/12311)
+- `0e72056bfb36271b89c48b58c8f6bd1c6b2ea369` [refactor(jdbc-sink): execute statements in batch and set isolation level to RC (#12250)](https://github.com/risingwavelabs/risingwave/pull/12250)
+- `827ed5ef587a7b11daed2d9e351e45681ff3de49` [refactor(connector): migrate cdc source metric from connector to compute (#12283)](https://github.com/risingwavelabs/risingwave/pull/12283)
+- `a93418501fc269a2400ccff18c6290c6c032d2c4` [fix(optimizer): relax scan predicate pull up mapping inverse restriction (#12308)](https://github.com/risingwavelabs/risingwave/pull/12308)
+- `db0c09929b01bad38c67fadbe1c6d65779e3fb4f` [feat(stream): handling watermark in temporal join (#12302)](https://github.com/risingwavelabs/risingwave/pull/12302)
+- `1ecea639b746ee61f741456b2a3d6a98b637f897` [refactor(risedev): split the steps for building and running playground (#12279)](https://github.com/risingwavelabs/risingwave/pull/12279)
+- `ae4b1f8a9e1c0a2aef700adb8554142ae4fe4a8e` [chore(deps): Bump clap from 4.4.2 to 4.4.3 (#12245)](https://github.com/risingwavelabs/risingwave/pull/12245)
+- `7ca370a5482347ba66eec16e1c4d464665ed32c3` [feat(refill): fetch whole sst file when refilling (#12265)](https://github.com/risingwavelabs/risingwave/pull/12265)
+- `ec129b65f8a3645532d070f3cc4c4ee8f4f67406` [chore: use cfg! to instead of #cfg[] for jemalloc control policy (#12307)](https://github.com/risingwavelabs/risingwave/pull/12307)
+- `9814af8e4f86ada5ef051583a24acd5e56e30357` [feat(expr): add `pg_sleep` function (#12294)](https://github.com/risingwavelabs/risingwave/pull/12294)
+- `4525e67bf73a98304350c46c4bea72786074a893` [feat(stream): support source throttling (#12295)](https://github.com/risingwavelabs/risingwave/pull/12295)
+- `5ffd58db7d018989b28ec492e7c85c3625dd1d23` [refactor(connector): replace validate source rpc with jni (#12270)](https://github.com/risingwavelabs/risingwave/pull/12270)
+- `888f2dda736a99f294487c5935b81fbbfdd59d7b` [fix: panic when dumping memory profile (#12276)](https://github.com/risingwavelabs/risingwave/pull/12276)
+- `c7fb909188e441086cb167d0655f2ae2f5c3f648` [fix(storage): remove directly convert of tier compaction picker (#12280)](https://github.com/risingwavelabs/risingwave/pull/12280)
+- `f25c625bdc7cdee4d43a5f4551f513f804f1c29e` [feat(sink): support elasticsearch 8 sink (#12269)](https://github.com/risingwavelabs/risingwave/pull/12269)
+- `7b23eb28cbcbd777c11c6b89ff0069d1460d39e9` [feat(frontend): implement `WITH ORDINALITY` clause (#12273)](https://github.com/risingwavelabs/risingwave/pull/12273)
+- `1aadfd0d6ebd533037da4ad6c47b7e437e0db494` [refactor(sink): impl RowEncoder for JsonEncoder (#12264)](https://github.com/risingwavelabs/risingwave/pull/12264)
+- `c07633a0c0c28ee41b91f8210d35a4a2c99c8685` [fix(ci): fix regress test download of `locales` (#12296)](https://github.com/risingwavelabs/risingwave/pull/12296)
+- `7a02d12ef2eb771d605013b1af522998db4209b1` [feat(agg): support streaming `bool_and` and `bool_or` agg (#11956)](https://github.com/risingwavelabs/risingwave/pull/11956)
+- `8e58cb96cb97bdb69849daef1198aeff6cc52f78` [fix(integration_tests): datagen timestamp and timestamptz accordingly (#12239)](https://github.com/risingwavelabs/risingwave/pull/12239)
+- `96bca904e265c6c753c779c43ee3b77b1aaf7f95` [chore(deps): Bump libc from 0.2.147 to 0.2.148 (#12288)](https://github.com/risingwavelabs/risingwave/pull/12288)
+- `d7a65c150ee99475617d03c2728a1102f8d77c4d` [chore(deps): Bump syn from 2.0.32 to 2.0.33 (#12290)](https://github.com/risingwavelabs/risingwave/pull/12290)
+- `857a20e7d72b83f020a5f945e83e1ee484190c1e` [feat(meta): expose hummock pinned versions and snapshots via rw_catalog (#12285)](https://github.com/risingwavelabs/risingwave/pull/12285)
+- `a61b5aa1f69e8abc11ed6e362243396f0fe3f666` [refactor(expr): merge expression templates into `#[function]` macros (#11134)](https://github.com/risingwavelabs/risingwave/pull/11134)
+
+## nightly-20230913
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1650a3ba40d8f212f8f6be5f9b354e947733221f...173ad4e249760b86636941676077b5ed63f48551)
+- `173ad4e249760b86636941676077b5ed63f48551` [feat(catalog): add pg_type.typinput and support dummy casting to regproc (#12272)](https://github.com/risingwavelabs/risingwave/pull/12272)
+- `9d4f83c44c08bb09a0d7de0bd437576c921df5bf` [chore: bump `jsonschema-transpiler` version (#12267)](https://github.com/risingwavelabs/risingwave/pull/12267)
+- `6f136bf5a3ade729e9f4eb3a9c266082d857058a` [refactor: replace more GAT-based async trait with RPITIT (#12271)](https://github.com/risingwavelabs/risingwave/pull/12271)
+- `1e2a4e59a281007645ae3787e98916ecf35f3d4b` [feat: allow kinesis source start with timestamp (#12241)](https://github.com/risingwavelabs/risingwave/pull/12241)
+- `cbbee64db3bf937341e696d65bdeba73db477d2b` [test: add an slt test for select with eowc (#12236)](https://github.com/risingwavelabs/risingwave/pull/12236)
+- `690a3b4b7f225e7f56597a0726049297a3eb18d3` [feat(stream): compact stream chunk by dropping useless rows (#11070)](https://github.com/risingwavelabs/risingwave/pull/11070)
+- `3c1f52f9ae700fb207d6e7aed9281526d31aa558` [chore(deps): Bump vergen from 8.2.4 to 8.2.5 (#12244)](https://github.com/risingwavelabs/risingwave/pull/12244)
+- `de1f7769e1f7d67b80291cab460c704bbef0e2ec` [refactor(kafka-sink): change sequential await to group await when committing (#12013)](https://github.com/risingwavelabs/risingwave/pull/12013)
+- `48726abc51aa56ccd947f31deb1ef40b50ff5f73` [refactor(source): bind prop, split, reader, enumerator via trait (#12184)](https://github.com/risingwavelabs/risingwave/pull/12184)
+- `359ee3ddc0aedb93b34d714a1fec13b0ed0da866` [chore(deps): Bump bytes from 1.4.0 to 1.5.0 (#12158)](https://github.com/risingwavelabs/risingwave/pull/12158)
+- `e47ec07c62792c97d293c62e3b3e1c342377efa8` [feat(risedev): core dump on panics for development (#12235)](https://github.com/risingwavelabs/risingwave/pull/12235)
+- `c51ee399b1f81da93dbe07e92552e71ab90482a9` [chore(ci): bump timeouts for bulid-release and unit test and e2e-sink-test (#12248)](https://github.com/risingwavelabs/risingwave/pull/12248)
+- `f8e0ce705c1451a197841cd2b19bdc21505f5a49` [chore(ci): prune tests which should run occasionally (#12233)](https://github.com/risingwavelabs/risingwave/pull/12233)
+- `a048dc410da883cdd93dd090217165fa57225639` [refactor: ignore unrecogized/deprecated system params (#12229)](https://github.com/risingwavelabs/risingwave/pull/12229)
+- `228593d6a3d414790d6a072fac3875484b834343` [feat(binder): support implicit table function lateral subquery (#12153)](https://github.com/risingwavelabs/risingwave/pull/12153)
+
+## nightly-20230912
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c9185f567fa7a4195650d5469b63639f18f13bc9...1650a3ba40d8f212f8f6be5f9b354e947733221f)
+- `1650a3ba40d8f212f8f6be5f9b354e947733221f` [refactor: use usize range instead of BlockLocation to read obj (#12225)](https://github.com/risingwavelabs/risingwave/pull/12225)
+- `62901e1094dd2ed7b1298072af09f2f9da5a3f91` [feat(connector): init embedded connector node (#12122)](https://github.com/risingwavelabs/risingwave/pull/12122)
+- `7078959cd0de5c6f52a7867d0efd85c7eb2dda15` [chore: remove ci main workflow (#12232)](https://github.com/risingwavelabs/risingwave/pull/12232)
+- `0ef3cee6f3c3efbf5f188aa8de6f1f6ad0828acd` [fix(test): set correct row per second (#12213)](https://github.com/risingwavelabs/risingwave/pull/12213)
+- `959566712598d5b0ed139a99b4b039b0ddad4d3f` [feat: disable some two phase agg (#12185)](https://github.com/risingwavelabs/risingwave/pull/12185)
+- `43852dca4859f1f7235486d4bb4b8cd166fa1bc6` [chore(udf): prepare for publishing java udf to maven (#11981)](https://github.com/risingwavelabs/risingwave/pull/11981)
+- `faa1bcc571eb6d1b84fd70620af93195ebb2c8da` [fix(udf): check the data type returned from UDF server (#12202)](https://github.com/risingwavelabs/risingwave/pull/12202)
+- `8b61c9228608b64df718c3d22862619174ae3fdb` [refactor(docker/doc): apply docker file with new release version (#12200)](https://github.com/risingwavelabs/risingwave/pull/12200)
+- `7a284f7ee166ecd32bdfaacefb483e034c08d799` [feat: alter column for table with connector (#12164)](https://github.com/risingwavelabs/risingwave/pull/12164)
+- `53611bfbbc2bf0b73ac62606bda579c34899e849` [fix: ban update modify columns referenced by generated pk (#12212)](https://github.com/risingwavelabs/risingwave/pull/12212)
+- `2488c772d5893e58965f4feee090c81c36811c4e` [feat: make `enable.auto.commit` configurable (#12223)](https://github.com/risingwavelabs/risingwave/pull/12223)
+- `4d869963b963b92e24166a21cdc45f45977eb209` [chore: bump foyer (#12133)](https://github.com/risingwavelabs/risingwave/pull/12133)
+- `f8d6b245b0d2d7609ef547df6c08b1fab83ddc44` [feat(expr): add `array_sort` (#12189)](https://github.com/risingwavelabs/risingwave/pull/12189)
+- `862ed5eaa914e3669a8ce2f0b54cdfe5db0bcccd` [build: downgrade to openssl@1 temporarily (#12219)](https://github.com/risingwavelabs/risingwave/pull/12219)
+- `edb9aec1ec8cdafe7280d0539b1c0e568453553b` [chore(deps): Bump serde_json from 1.0.105 to 1.0.106 (#12214)](https://github.com/risingwavelabs/risingwave/pull/12214)
+- `3c0284ee4c3575f2b00f7d0ae0d9fa648e844858` [chore(deps): Bump syn from 2.0.31 to 2.0.32 (#12217)](https://github.com/risingwavelabs/risingwave/pull/12217)
+
+## nightly-20230911
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9b5db14dbd02fe37f8e5daa32cc46f181533c9d2...c9185f567fa7a4195650d5469b63639f18f13bc9)
+- `c9185f567fa7a4195650d5469b63639f18f13bc9` [feat(common): impl `Row` for `Either` (#12211)](https://github.com/risingwavelabs/risingwave/pull/12211)
+- `f42ae9833aae41b4aa76fcab86320ea475b0057f` [fix(udf): check udf schema fields num and total records (#12206)](https://github.com/risingwavelabs/risingwave/pull/12206)
+- `69dadac558c49fe64ee32116fbbcfd259632eb46` [chore(test): disable prometheus in some tests (#12208)](https://github.com/risingwavelabs/risingwave/pull/12208)
+- `b80e13f74fb7ac4fc768dafc44debc51a0b882f8` [fix: ban pk comprising generated column (#12181)](https://github.com/risingwavelabs/risingwave/pull/12181)
+- `d0a498432e0fca8e073883381430bb0dbe4ddb48` [chore(deps): regular cargo update after v1.2.0 (#12190)](https://github.com/risingwavelabs/risingwave/pull/12190)
+- `17e81b1d07debb139a9f970b6aece10340094a0d` [feat: auto heap dump by default if `MALLOC_CONF=prof:true` (#12186)](https://github.com/risingwavelabs/risingwave/pull/12186)
+- `e8f62d6da2c7011f63d9e6154f835a40c6aff538` [ci: fix disk out of space for GHA (#12192)](https://github.com/risingwavelabs/risingwave/pull/12192)
+
+## nightly-20230910
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6806eca5f415d2bf15a66a21c302af7f96372b55...9b5db14dbd02fe37f8e5daa32cc46f181533c9d2)
+- `9b5db14dbd02fe37f8e5daa32cc46f181533c9d2` [fix(risedev): Reset risedev.yml (#12179)](https://github.com/risingwavelabs/risingwave/pull/12179)
+- `f649aa6e4b38a0094e700e3a733836942011ddcf` [build: bump toolchain to 2023-09-09 (#11809)](https://github.com/risingwavelabs/risingwave/pull/11809)
+
+## nightly-20230909
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/df0af3ddf6a04bd05d19f6df206ac8347b9745ec...6806eca5f415d2bf15a66a21c302af7f96372b55)
+- `6806eca5f415d2bf15a66a21c302af7f96372b55` [refactor(config): remove system.telemetry_enabled (#12156)](https://github.com/risingwavelabs/risingwave/pull/12156)
+- `e493ec67753c99ec2d0b77669beebd3ddde04743` [ci: hide nextest progress bar (#11974)](https://github.com/risingwavelabs/risingwave/pull/11974)
+
+## nightly-20230908
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cc3faf678c518e52d99dcaafa207abb63867b8ff...df0af3ddf6a04bd05d19f6df206ac8347b9745ec)
+- `df0af3ddf6a04bd05d19f6df206ac8347b9745ec` [feat(demo): Add Feature Store demo (#11695)](https://github.com/risingwavelabs/risingwave/pull/11695)
+- `3e976cc3cf602952c06f72831b264b4f2b25d906` [chore(metric): fix table id filter and some panel reorgs (#12148)](https://github.com/risingwavelabs/risingwave/pull/12148)
+- `83637cdfbe46c20325d24f6fedc56e3338eea99b` [feat: risectl hummock validate-version (#11737)](https://github.com/risingwavelabs/risingwave/pull/11737)
+- `f27be02f974fe4ccca1ef088433761c8d8dc803c` [fix(batch): fallback for node mask (#12177)](https://github.com/risingwavelabs/risingwave/pull/12177)
+- `212478dc58f5b83e577e52ffad1adbe78c668102` [chore(deps): Bump rust_decimal from 1.31.0 to 1.32.0 (#12160)](https://github.com/risingwavelabs/risingwave/pull/12160)
+- `ff4c948249b4582697bd973a315dba1f18d253aa` [chore: trigger cherry-pick when the label is added (#12171)](https://github.com/risingwavelabs/risingwave/pull/12171)
+- `5abb517482fc5383d33242c3717cac6124f5e1e8` [fix: protobuf fixed64 was incorrectly parsed as int64 (#12126)](https://github.com/risingwavelabs/risingwave/pull/12126)
+- `eb59d84b00a17cc7b696aa6c72f88ccbf41bb7b3` [fix(risedev): typo fixing (#12163)](https://github.com/risingwavelabs/risingwave/pull/12163)
+- `e097adc398257991be6f628103570ff4317ab837` [fix: mysql-sink integration test (#12161)](https://github.com/risingwavelabs/risingwave/pull/12161)
+- `d9722256f03a3e6a1c9eb6a38e89c848f04535b6` [chore(object store): change streaming write buffer size to 16MB for gcs (#12150)](https://github.com/risingwavelabs/risingwave/pull/12150)
+- `8bd524bbe14a15e70d5996e22d5ad79ccc331d14` [chore(deps): Bump xxhash-rust from 0.8.6 to 0.8.7 (#12159)](https://github.com/risingwavelabs/risingwave/pull/12159)
+- `c924c3733fd004f35f1ea749b6d16d9bde33bc22` [feat(stream): add multiple server url feature into nats, delete useless field (#12138)](https://github.com/risingwavelabs/risingwave/pull/12138)
+- `471aa2b623877ce9ec5cfabc43d737baf0b0aee8` [refactor(source): specify cdc generic type parameter for different cdc source (#12109)](https://github.com/risingwavelabs/risingwave/pull/12109)
+- `7d940cfa669db5df3450a4109f270745cc35e7cc` [feat(sink): Support cassandra sink (#11878)](https://github.com/risingwavelabs/risingwave/pull/11878)
+
+## nightly-20230907
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52192e639489047b4dc9106feb0475888d1618bc...cc3faf678c518e52d99dcaafa207abb63867b8ff)
+- `cc3faf678c518e52d99dcaafa207abb63867b8ff` [feat(watermark): handle watermark in project_set (#12128)](https://github.com/risingwavelabs/risingwave/pull/12128)
+- `4bb7c6672170a2a0e6be8dd856b7fbd5602027fb` [feat(storage): reduce group deltas for l0 task (#12085)](https://github.com/risingwavelabs/risingwave/pull/12085)
+- `b2dc4eb90745f3721b610cd3f7c187e35fc3f730` [refactor(metrics): unify storage_metric_level & streaming_metric_level to 'metrics_level' (#12099)](https://github.com/risingwavelabs/risingwave/pull/12099)
+- `5f75f9bdcc8809cfdda0a9eca7d1bfc99abe5fc8` [feat(storage): sepearte intra picker (#12147)](https://github.com/risingwavelabs/risingwave/pull/12147)
+- `f1672f7e4cd53e508de6361203ad95da3504c971` [fix(eowc): fix SortBuffer when there are multiple records having same timestamp (#12146)](https://github.com/risingwavelabs/risingwave/pull/12146)
+- `183a98b5daa0473f2485e20f7b7aeb56471a67fb` [feat(expr): add `array_max` (#12100)](https://github.com/risingwavelabs/risingwave/pull/12100)
+- `893f6365d99b68d902abfd304b7a5af1a0a29c5a` [chore(deps): Bump chrono from 0.4.26 to 0.4.29 (#12136)](https://github.com/risingwavelabs/risingwave/pull/12136)
+- `3383291a29b1c225cb99370339de797bd967de91` [chore(deps): Bump regex-automata from 0.3.7 to 0.3.8 (#12134)](https://github.com/risingwavelabs/risingwave/pull/12134)
+- `5a8866d8a9534ccc1142f4f3d51bd9cd31660384` [refactor(storage): seperate validator logic from picker (#11984)](https://github.com/risingwavelabs/risingwave/pull/11984)
+- `b578db6fe0658c16c4a54e18721017b71dfe06b3` [fix(parser): more error reporting with locations (#12129)](https://github.com/risingwavelabs/risingwave/pull/12129)
+- `3ee8a8799bf7af40d199990a42a7a251ecdc4e00` [refactor(meta): refine `pause`/`resume` response (#12079)](https://github.com/risingwavelabs/risingwave/pull/12079)
+- `f16809d114f2ed96fc64b08c4bed94840c0b43ad` [fix(expr): parse `timestamptz` without seconds but with offset (#12084)](https://github.com/risingwavelabs/risingwave/pull/12084)
+- `01ce1bb6c22218ac31265df180b84cf1dd89ca21` [chore(deps): Bump num-bigint from 0.4.3 to 0.4.4 (#12137)](https://github.com/risingwavelabs/risingwave/pull/12137)
+- `d79113ed8e04d4dd1bf8fe7ff494b0f74e3f19dd` [chore(deps): Bump sysinfo from 0.29.9 to 0.29.10 (#12135)](https://github.com/risingwavelabs/risingwave/pull/12135)
+- `ff4ef3a2914d0e9e5c5115b76aa3aec870073334` [fix(ci): fix backwards compat with `ci-release` profile (#12139)](https://github.com/risingwavelabs/risingwave/pull/12139)
+- `9c98d269e04313fe98e5a7a3843243ede5dd31a0` [feat(expr): add `array_min` (#12071)](https://github.com/risingwavelabs/risingwave/pull/12071)
+- `084daa8ce6bf905c513f4c6375e429feddeaab27` [test: Add nexmark test, kafka test for backwards compatibility testing (#10413)](https://github.com/risingwavelabs/risingwave/pull/10413)
+- `3c19064a9d040223d29b62f1f0a2d5b21a0e66e6` [feat(stream): Add recovery feature for nats source (#12073)](https://github.com/risingwavelabs/risingwave/pull/12073)
+
+## nightly-20230906
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fdaf30e0cbe4865b77401c5c025054a0cf5df564...52192e639489047b4dc9106feb0475888d1618bc)
+- `52192e639489047b4dc9106feb0475888d1618bc` [refactor: refactor file cache metrics build, bump foyer (#12121)](https://github.com/risingwavelabs/risingwave/pull/12121)
+- `da89875fe63e48c6e150059be56d8f5fdc2a1450` [feat(log-store): refine log store trait and add update vnode bitmap in reader (#11959)](https://github.com/risingwavelabs/risingwave/pull/11959)
+- `e64a0753e91368e2c8e2454895209d0d4635d652` [refactor(meta): introduce meta store ref and avoid pass generic parameter (#12114)](https://github.com/risingwavelabs/risingwave/pull/12114)
+- `b3a419537835ea7ada51354abbfe7f496445676e` [fix(stream): remove useless stream in nats sink (#12107)](https://github.com/risingwavelabs/risingwave/pull/12107)
+- `68087f3d0fbfab7c96c1fb3878d0a059dcd978f2` [chore(deps): bump flate2 from 1.0.26 to 1.0.27 (#12103)](https://github.com/risingwavelabs/risingwave/pull/12103)
+- `e3f3d47596e4afb90f50c1f129495b0c29e240a7` [fix: temporarily remove the assert checking for split migration (#12117)](https://github.com/risingwavelabs/risingwave/pull/12117)
+- `61ef35b401a9630d333549602d568ace081634d0` [chore(storage): remove compactor workload (#12005)](https://github.com/risingwavelabs/risingwave/pull/12005)
+- `a76e519f49ca4ca1d5e0f8f8cbecea9fd1622059` [refactor(java_binding): extract java_binding to jni_core (#12108)](https://github.com/risingwavelabs/risingwave/pull/12108)
+- `99ecd5d9eb109de6a1120fbd9f791e9e106bf62f` [fix(streaming): handle missing `cache_policy` field in `OverWindow` (#12110)](https://github.com/risingwavelabs/risingwave/pull/12110)
+- `50792cc6f946407806ff530720f12d77b4ef20e7` [refactor(compaction): remove meta client from compactor context (#12020)](https://github.com/risingwavelabs/risingwave/pull/12020)
+- `b5dd4286dcecbe6ce63a81ffc2d1c448de0c496a` [chore(deps): bump openssl-sys from 0.9.92 to 0.9.93 (#12106)](https://github.com/risingwavelabs/risingwave/pull/12106)
+- `1c8742149662987aef4f1ef8b55159d506c473d9` [chore(deps): bump walkdir from 2.3.3 to 2.4.0 (#12101)](https://github.com/risingwavelabs/risingwave/pull/12101)
+- `8c0da22b3d47c474d6d851b62df1ad1585077d24` [chore(deps): bump deranged from 0.3.7 to 0.3.8 (#12102)](https://github.com/risingwavelabs/risingwave/pull/12102)
+- `9ccdbe368ace5a3ada11a8c82952b24a0104f6d5` [chore(rpc): set message size to max for stream client (#12082)](https://github.com/risingwavelabs/risingwave/pull/12082)
+- `4f50903a085153ce4b394a0cac31d467cc1ebe2b` [refactor(metrics): support streaming metrics level (#11994)](https://github.com/risingwavelabs/risingwave/pull/11994)
+- `74c96fc8c546b54d2d38550864257f5b260e1d28` [perf(over window): fix over window performance degradation after #11576 (#12093)](https://github.com/risingwavelabs/risingwave/pull/12093)
+
+## nightly-20230905
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/999b9d2670df3dbe24493cefe690ccc765cd4c7a...fdaf30e0cbe4865b77401c5c025054a0cf5df564)
+- `fdaf30e0cbe4865b77401c5c025054a0cf5df564` [chore: add over window executor cache metrics (#12092)](https://github.com/risingwavelabs/risingwave/pull/12092)
+- `ec0027ec5f5374f92980c3a7ea1c5b69569e5908` [refactor(source): implement the common split reader as a generic function (#12059)](https://github.com/risingwavelabs/risingwave/pull/12059)
+- `5cf0351485a487f6f760826796c409b06f000f1e` [feat: modify the scale command to support both horizontal and vertical scaling. (#12087)](https://github.com/risingwavelabs/risingwave/pull/12087)
+- `69bde53e9207f6cc9ce3682fc830ca703d6c6049` [feat: HA for schema registry (#11982)](https://github.com/risingwavelabs/risingwave/pull/11982)
+- `477bfd4b5583d6abd88196852d801440e222f2da` [fix(jdbc-sink):  quote identifier to handle case-sensitive case (#12078)](https://github.com/risingwavelabs/risingwave/pull/12078)
+- `aea50f58a1089aeff53e7e3038e685605e909f20` [chore(deps): bump async-recursion from 1.0.4 to 1.0.5 (#12069)](https://github.com/risingwavelabs/risingwave/pull/12069)
+- `579405e5e89f29e022a86e5a3936b61b21018187` [feat(grafana): report local barrier manager progress (#12001)](https://github.com/risingwavelabs/risingwave/pull/12001)
+- `e4b9a0888f08055d16d42326ec31565f53b88093` [refactor(streaming): better traces for development (#12024)](https://github.com/risingwavelabs/risingwave/pull/12024)
+- `65fc9592dd459669283340905630820be9be0be2` [chore(deps): bump tracing-opentelemetry from 0.20.0 to 0.21.0 (#12010)](https://github.com/risingwavelabs/risingwave/pull/12010)
+- `aadc605a871b4fb84330ef0d3c0ac7fe27d16a61` [chore(deps): bump google-cloud-pubsub from 0.19.0 to 0.20.0 (#12066)](https://github.com/risingwavelabs/risingwave/pull/12066)
+- `a5ef0082e204acefa4d8cd02766a33365c5e47e4` [feat(storage): refactor `LocalStateStore::init` and `StateTable::init` (#12050)](https://github.com/risingwavelabs/risingwave/pull/12050)
+- `ff623ee4e9a11b9965bc7b51b483da06516836a4` [chore(deps): bump syn from 2.0.29 to 2.0.31 (#12067)](https://github.com/risingwavelabs/risingwave/pull/12067)
+- `f95d972ba22e3006a66f18a2fc954e88bd223096` [chore(deps): bump memchr from 2.6.2 to 2.6.3 (#12068)](https://github.com/risingwavelabs/risingwave/pull/12068)
+- `3f5a6c823a32f4672ec7e223219477a10bbd7088` [feat: support information_schema.views (#12045)](https://github.com/risingwavelabs/risingwave/pull/12045)
+
+## nightly-20230904
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/257f9874e1eb15fbbec2633857261511f8326e4d...999b9d2670df3dbe24493cefe690ccc765cd4c7a)
+- `999b9d2670df3dbe24493cefe690ccc765cd4c7a` [feat: auto rebuild source reader in executor (#11993)](https://github.com/risingwavelabs/risingwave/pull/11993)
+- `fa8b5e33039cb99bb4b8fc7f725878d65b996ac4` [feat: add `target_parallelism_per_worker` field for scaling (#11945)](https://github.com/risingwavelabs/risingwave/pull/11945)
+- `deac61e4bf89b11e04438d1f6a4263b59db01081` [feat(hummock): refill cache before apply version delta (#11950)](https://github.com/risingwavelabs/risingwave/pull/11950)
+- `2ea66b8dce1af72e22540f450d20b277753414d2` [chore: refine error message on unhandled error in kinesis (#12055)](https://github.com/risingwavelabs/risingwave/pull/12055)
+- `dcfbfb5f1733af58f96821d7a66e7e0b3a436184` [feat: support for migration by new parallel units (#11892)](https://github.com/risingwavelabs/risingwave/pull/11892)
+- `0d4da3be4e58fac86e6da314ea91b91cb0380159` [fix: reject kinesis source if the start up mode is not sequence number but sequence number is provided (#12048)](https://github.com/risingwavelabs/risingwave/pull/12048)
+- `9f880586b806b9d3681080e8ab36a83a2ba1d2ae` [feat(stream): first version of nats source (#12015)](https://github.com/risingwavelabs/risingwave/pull/12015)
+- `eb4bfeb472548b163f139ba7f6d77654ef46ffb8` [fix: clickhouse https url (#12041)](https://github.com/risingwavelabs/risingwave/pull/12041)
+- `c3e988b57fca98e42a6f30b627dfd99d8de644dc` [perf(over window): locality-based range cache for general over window executor (#11576)](https://github.com/risingwavelabs/risingwave/pull/11576)
+- `448d281fd429311356c73f66aea26e0901a2d62d` [chore(deps): bump aho-corasick from 1.0.4 to 1.0.5 (#12035)](https://github.com/risingwavelabs/risingwave/pull/12035)
+- `522007341818cb4d210cfc00a3ba0487a384e84e` [chore(deps): bump tower-http from 0.4.3 to 0.4.4 (#12036)](https://github.com/risingwavelabs/risingwave/pull/12036)
+- `033924dfc970db2d82469c2bb983158cfcafedb8` [refactor(common): Use safe interfaces for `DataChunkBuilder` (#12014)](https://github.com/risingwavelabs/risingwave/pull/12014)
+- `952129fb0ab7f7bf647a4befa54bf2a5e4f2d793` [fix: fill `source` and `name` fields correctly for Debezium (#12018)](https://github.com/risingwavelabs/risingwave/pull/12018)
+
+## nightly-20230903
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a9aacfc2e0f52081489fb2744fb5b7e66ef0d3b8...257f9874e1eb15fbbec2633857261511f8326e4d)
+- `257f9874e1eb15fbbec2633857261511f8326e4d` [chore(deps): bump memchr from 2.6.1 to 2.6.2 (#12039)](https://github.com/risingwavelabs/risingwave/pull/12039)
+- `a1fce3c0f2bdb39c7d3f72640ef44d3fed6601e8` [chore(deps): bump sysinfo from 0.29.8 to 0.29.9 (#12034)](https://github.com/risingwavelabs/risingwave/pull/12034)
+- `dbe1534bf193bd808f3538fd8db0c2257126354e` [chore(deps): bump redis from 0.23.2 to 0.23.3 (#12038)](https://github.com/risingwavelabs/risingwave/pull/12038)
+- `74e2b84a092228ead5cbde9ff69df652eb393367` [chore(ci): optimize trailing space check (#12019)](https://github.com/risingwavelabs/risingwave/pull/12019)
+- `e26bf3224c9fef00c0663fc43e1a21bf6f4e381c` [fix(storage): fix opendal object store error handle (#12031)](https://github.com/risingwavelabs/risingwave/pull/12031)
+
+## nightly-20230901
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/96a49f7ce3aee6fe11d4467081fadd396af6efff...a9aacfc2e0f52081489fb2744fb5b7e66ef0d3b8)
+- `a9aacfc2e0f52081489fb2744fb5b7e66ef0d3b8` [fix(cdc-backfill): fix bug when handle upstream chunk  (#12027)](https://github.com/risingwavelabs/risingwave/pull/12027)
+- `87af7a23dfbf2c86c247939ef8b2f69ff87615af` [feat(meta): add system parameter `pause_on_next_bootstrap` (#11936)](https://github.com/risingwavelabs/risingwave/pull/11936)
+- `1217290dc0cd716b472ccf792a05c6019295db5f` [chore(deps): bump reqwest from 0.11.18 to 0.11.20 (#12008)](https://github.com/risingwavelabs/risingwave/pull/12008)
+- `0132954db2fe3fbdcb93f63f216e6abdc40db353` [chore(deps): bump prost-reflect from 0.11.4 to 0.11.5 (#12012)](https://github.com/risingwavelabs/risingwave/pull/12012)
+- `12ce8a48fa2b08134c7346210136373ce2acbe25` [test: Remove busy loop tests (#12017)](https://github.com/risingwavelabs/risingwave/pull/12017)
+- `06dd9ba1649be2f573ddf4075a5bda18d9b95595` [feat(expr): add `regexp_count` (#11975)](https://github.com/risingwavelabs/risingwave/pull/11975)
+- `3cad6b7d96798fd2d171d98d30e1a7a275edd464` [feat(compaction):  dynamically determine the type filter_key_extractor_manager (#11875)](https://github.com/risingwavelabs/risingwave/pull/11875)
+- `2601ccdbf4e64fe4959d2ebb6313d72923739f53` [chore(deps): bump openssl from 0.10.56 to 0.10.57 (#12006)](https://github.com/risingwavelabs/risingwave/pull/12006)
+- `8393fa2969973fe315540761c8f099c041fa034c` [chore(deps): bump clap from 4.4.1 to 4.4.2 (#12007)](https://github.com/risingwavelabs/risingwave/pull/12007)
+- `1bd6da0d577e525bb2a46c7df76fb581e8da0267` [chore(deps): bump base64 from 0.21.2 to 0.21.3 (#12009)](https://github.com/risingwavelabs/risingwave/pull/12009)
+- `2d52787939f83a91bd3baf2d6d25f7f2ad8fb6ab` [chore(deps): bump url from 2.4.0 to 2.4.1 (#12011)](https://github.com/risingwavelabs/risingwave/pull/12011)
+- `cafcd1bce22742911d6975f0946cf71a41e2fc85` [chore(doc): update doc site and cloud site links in README (#11926)](https://github.com/risingwavelabs/risingwave/pull/11926)
+- `02ef33199981a08ccc72a5cde8872f1ea0c623f9` [chore: cherry pick action for v1.2 (#12004)](https://github.com/risingwavelabs/risingwave/pull/12004)
+- `7a097e6202cd9f86a0d5942778bd541da142367c` [refactor(simulation): make it compile without `cfg(madsim)` (#11960)](https://github.com/risingwavelabs/risingwave/pull/11960)
+- `fdbba6e18c237373a3d515a32a59f0165e21d78f` [feat(compaction): dynamically determine the type of sstable_object_id_manager for shared compaction (#11867)](https://github.com/risingwavelabs/risingwave/pull/11867)
+- `e0480ea11bfb4a0ded3768b6511f9d45b094233b` [fix: use match to handle non queue full error instead of assert (#11998)](https://github.com/risingwavelabs/risingwave/pull/11998)
+- `8ea014fece04db92aeea8a1a72c203f8965ce7af` [fix(cdc-backfill): also persist the finish flag even though snapshot is empty (#12002)](https://github.com/risingwavelabs/risingwave/pull/12002)
+
+## nightly-20230831
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/15f4fdd48de1c573a4c221c8fe5797a92dbe481c...96a49f7ce3aee6fe11d4467081fadd396af6efff)
+- `96a49f7ce3aee6fe11d4467081fadd396af6efff` [fix: ban scale operations when meta is in recovery state. (#11997)](https://github.com/risingwavelabs/risingwave/pull/11997)
+- `994d55b9027e604570270bc370d47d6897e66603` [chore: set default value of cdc_backfill to false (#11987)](https://github.com/risingwavelabs/risingwave/pull/11987)
+- `b4bb864c287053df3f797021227e141e0cce6d9b` [fix(test): fix test failure caused by shared metric instance (#11992)](https://github.com/risingwavelabs/risingwave/pull/11992)
+- `baa8c1044a56e791063cba8e1ea1672dbbffa177` [feat(sink): Support Nats sink (append_only) (#11924)](https://github.com/risingwavelabs/risingwave/pull/11924)
+- `5369735f962066a6da58a848dea19f09c89106dc` [refactor(stream common): split `StreamChunkBuilder` and `JoinStreamChunkBuilder` (#11968)](https://github.com/risingwavelabs/risingwave/pull/11968)
+- `b6016a21a0c561b58bbd7552a17f174db6281b25` [feat(doc): add guidance for docker compose xxx (#11749)](https://github.com/risingwavelabs/risingwave/pull/11749)
+- `58372ab913e5b8127dfc7ecfc0ab583e5b7ac090` [feat(optimizer): support expand to project rule (#11933)](https://github.com/risingwavelabs/risingwave/pull/11933)
+- `b70aa1770cc876b91eadc413e8d61f3ca35ab59b` [fix(ci): fix unit test deterministic test (#11985)](https://github.com/risingwavelabs/risingwave/pull/11985)
+- `ee1491a06e4adf09694abdf7c48f3fe686a48853` [refactor(log_store): make delete range end excluded (#11978)](https://github.com/risingwavelabs/risingwave/pull/11978)
+- `5913af4f411df775cd88a763ee930e407cb7d0db` [refactor(compaction): extract reporting full scan task logic (#11958)](https://github.com/risingwavelabs/risingwave/pull/11958)
+- `ebef8717abf2711bccecda2d7ff146c0589ccf27` [chore(deps): bump ethnum from 1.3.2 to 1.4.0 (#11972)](https://github.com/risingwavelabs/risingwave/pull/11972)
+- `9664aa2913ab80878ce80bb963e612d1ce8c916a` [fix(ci): fix rustdoc site (#11976)](https://github.com/risingwavelabs/risingwave/pull/11976)
+- `a9ee0b96fc731ab343ed3764177baef702b0cae2` [chore(deps): bump clap from 4.3.22 to 4.4.1 (#11973)](https://github.com/risingwavelabs/risingwave/pull/11973)
+- `804d9c009d4c801f0ab869265004eac5027363fd` [chore(deps): bump dashmap from 5.5.1 to 5.5.3 (#11971)](https://github.com/risingwavelabs/risingwave/pull/11971)
+- `0d36ea3f80552ec86da08b0ff8ed96e6fa0dcea7` [chore(deps): bump regex from 1.9.3 to 1.9.4 (#11969)](https://github.com/risingwavelabs/risingwave/pull/11969)
+- `dee902d10883ea266b5ee4ff4f4ebe057b7f566d` [doc: add dash doc feed & fix rustdoc warnings (#11963)](https://github.com/risingwavelabs/risingwave/pull/11963)
+
+## nightly-20230830
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/88f502c9cbe183772c10eb8a3adec698a526a4cd...15f4fdd48de1c573a4c221c8fe5797a92dbe481c)
+- `15f4fdd48de1c573a4c221c8fe5797a92dbe481c` [feat(cdc): in-memory backfill for single mysql cdc table  (#11707)](https://github.com/risingwavelabs/risingwave/pull/11707)
+- `773ec5b463d7f8c6c62554d6703539ef1e7cc410` [chore: add code owners for Cargo.lock (#11965)](https://github.com/risingwavelabs/risingwave/pull/11965)
+- `c69837f7489a1e8bc26a0d3890cea4be4e587bdc` [chore: Upgrade icelake version (#11962)](https://github.com/risingwavelabs/risingwave/pull/11962)
+- `38687a1fd71c03b18d64a77ab3eeca907f0d8c56` [doc: Understanding RisingWave Macros (#11942)](https://github.com/risingwavelabs/risingwave/pull/11942)
+- `c9a9be5dcc41dd0ea0df30c226c2516d787414ec` [chore(config): disable storage prefetch (#11953)](https://github.com/risingwavelabs/risingwave/pull/11953)
+- `578b8e6e6a2e8c9034c36c3fef1e68d62bb39378` [chore: fix typo in avro source (#11938)](https://github.com/risingwavelabs/risingwave/pull/11938)
+- `b0670f2dc9db28d53af06eb2c4550c604ba6b48c` [feat(expr): Implement lambda function and array_transform (#11937)](https://github.com/risingwavelabs/risingwave/pull/11937)
+- `677ebf73753455c331af01ad4842d3d437b1e3cd` [feat(metrics): support monitor network connection of S3 and grpc (#11848)](https://github.com/risingwavelabs/risingwave/pull/11848)
+- `76a7e698c4abc37cc95db875acb64c917f5e34aa` [chore(udf): update README and migrate `setup.py` to `pyproject.toml` (#11949)](https://github.com/risingwavelabs/risingwave/pull/11949)
+- `65773b0db23ea0c99c95d79e6f8d3a245596b07a` [chore(deps): bump openssl-sys from 0.9.91 to 0.9.92 (#11923)](https://github.com/risingwavelabs/risingwave/pull/11923)
+- `316ad38d85797fd6eb550f19c737365790191beb` [feat(expr): add `regexp_replace` (#11819)](https://github.com/risingwavelabs/risingwave/pull/11819)
+- `9ecd20b29ae7ba9751138711411600bbae405e7b` [chore(deps): bump time from 0.3.27 to 0.3.28 (#11922)](https://github.com/risingwavelabs/risingwave/pull/11922)
+- `2f6d7aaa04161bdb1abbf17e89f142cf61105875` [feat: add `initialized_at` to ddl_progress (#11940)](https://github.com/risingwavelabs/risingwave/pull/11940)
+- `c799b3382cd7c66f0ea2d2694fcf904638be1777` [fix(binder): disallow set-returning function in JoinOn/Having/Filter/Case/Coalesce as in PostgreSQL (#11939)](https://github.com/risingwavelabs/risingwave/pull/11939)
+- `d1fe176adc3e32f813891584c5076b574df99dfe` [test(streaming): test hdr approach for `approx_percentile` (#11931)](https://github.com/risingwavelabs/risingwave/pull/11931)
+- `1d0bf76cd36ef1fa7b11384353e451a0ec0f12b9` [chore(deps): bump serde from 1.0.185 to 1.0.188 (#11946)](https://github.com/risingwavelabs/risingwave/pull/11946)
+- `2e4a448c5db1bde49666ed95c91e88e8e46fd728` [chore(deps): bump memchr from 2.5.0 to 2.6.1 (#11947)](https://github.com/risingwavelabs/risingwave/pull/11947)
+- `1809a4970c48cc214217a013d9e3ff7408c9b8a5` [feat(streaming): flow control executor (#11919)](https://github.com/risingwavelabs/risingwave/pull/11919)
+
+## nightly-20230829
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5818f62f6a1c8001f371db4c4e74534a505a10cd...88f502c9cbe183772c10eb8a3adec698a526a4cd)
+- `88f502c9cbe183772c10eb8a3adec698a526a4cd` [refactor(state-table): Avoid exposing vnode-prefixed key in state table iter API (#11880)](https://github.com/risingwavelabs/risingwave/pull/11880)
+- `955254c731b80350075fe0c95de575702da8d589` [chore(config): set default visibility_mode to checkpoint for frontend (#11925)](https://github.com/risingwavelabs/risingwave/pull/11925)
+- `957e3662793cdf778a95d0f5831b8f9ecee5feaa` [refactor(object storage): do not pass root to object storage (#11757)](https://github.com/risingwavelabs/risingwave/pull/11757)
+- `fff2cf872d9c2db137837ab8a0b2eb2438231f99` [chore: bump foyer (#11930)](https://github.com/risingwavelabs/risingwave/pull/11930)
+- `2d656b29737fe227221fa6e83a3823a279fac1e0` [refactor(metric): support storage metric level (#11895)](https://github.com/risingwavelabs/risingwave/pull/11895)
+- `61ab2cd61a50c96891af1077590b977e837e6d5a` [feat(source): support json schema (#11797)](https://github.com/risingwavelabs/risingwave/pull/11797)
+- `5484b07f7ec35a1e3f9bc4516128a8959892e341` [chore(deps): bump pin-project-lite from 0.2.12 to 0.2.13 (#11920)](https://github.com/risingwavelabs/risingwave/pull/11920)
+- `40a2c90e4b3c8efaf15ca9ae2741d5cf0b56e34d` [fix(optimizer): common sub-expression extraction on special exprs (#11917)](https://github.com/risingwavelabs/risingwave/pull/11917)
+- `f19e4d3f8c30e2c576b4acedd96f053cd2fc2811` [fix(ci): wait for standalone cluster to restart (#11907)](https://github.com/risingwavelabs/risingwave/pull/11907)
+- `dfb6e2c192ea0fc3d688532726c0abb17cf6a017` [fix(test): fix unclean metrics state in deterministic unit test (#11918)](https://github.com/risingwavelabs/risingwave/pull/11918)
+
+## nightly-20230828
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29274576d3fe79621ad3eafaf119f78031d0633b...5818f62f6a1c8001f371db4c4e74534a505a10cd)
+- `5818f62f6a1c8001f371db4c4e74534a505a10cd` [feat: ReplaceTable supports replacing downstream (#11913)](https://github.com/risingwavelabs/risingwave/pull/11913)
+- `7bbc7c971398f9125f81100b50c4aa518276e3e9` [fix(cdc): fix mysql privilege check and add test (#11916)](https://github.com/risingwavelabs/risingwave/pull/11916)
+- `7264c8ff284cf23c9af2b8361e83123dba6ed075` [feat(integration_tests): Add Clickhouse sink integration_tests (#11786)](https://github.com/risingwavelabs/risingwave/pull/11786)
+- `9acfac97f7e93b755c615f2550cdf87d809645b5` [feat: add new props `client.id` for kafka (#11911)](https://github.com/risingwavelabs/risingwave/pull/11911)
+- `4746016469e4200d20bf83438d330b5d70636f12` [refactor(metrics): store all metrics and metrics registry as global variables (#11812)](https://github.com/risingwavelabs/risingwave/pull/11812)
+- `8f973b2b129658aad8fc28b9bd80ac47538ef36f` [refactor(metric): slim down storage metric size (#11843)](https://github.com/risingwavelabs/risingwave/pull/11843)
+- `588f2901bdbce3037099ace5c8a9120c88086e85` [refactor(storage): checked u32 conversion during block building (#11734)](https://github.com/risingwavelabs/risingwave/pull/11734)
+
+## nightly-20230827
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/144688c25b47f0aff199b43629a348c0dd669d2c...29274576d3fe79621ad3eafaf119f78031d0633b)
+- `29274576d3fe79621ad3eafaf119f78031d0633b` [chore(deps): bump nix from 0.25.1 to 0.26.2 (#11031)](https://github.com/risingwavelabs/risingwave/pull/11031)
+- `c880315d6279d979b05997aaa76ca752645418a9` [fix: change Chinese quotation marks into English (#11902)](https://github.com/risingwavelabs/risingwave/pull/11902)
+
+## nightly-20230826
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03e92dc21391b4aed251a07489faa44a75f7e8af...144688c25b47f0aff199b43629a348c0dd669d2c)
+- `144688c25b47f0aff199b43629a348c0dd669d2c` [feat: port kafka native metrics to Prometheus  (#11346)](https://github.com/risingwavelabs/risingwave/pull/11346)
+- `1bc03dafb170ed4e73722548e3767a8c950428f2` [chore(deps): bump google-cloud apis and pubsub (#11889)](https://github.com/risingwavelabs/risingwave/pull/11889)
+- `7e691986289e4a5321f285e1a928da8ce94b3612` [chore(deps): bump time from 0.3.25 to 0.3.27 (#11900)](https://github.com/risingwavelabs/risingwave/pull/11900)
+- `81cf5346603db467a146170d48b459721821cf21` [chore(deps): bump bytesize from 1.2.0 to 1.3.0 (#11901)](https://github.com/risingwavelabs/risingwave/pull/11901)
+- `94513936366582621c28c4df8be543063334039f` [refactor(agg): decouple aggregate function and state (#11690)](https://github.com/risingwavelabs/risingwave/pull/11690)
+- `2cf06033a2645e58f7fd042d4767c0335c82d390` [feat(frontend): support lateral subqueries (#11780)](https://github.com/risingwavelabs/risingwave/pull/11780)
+
+## nightly-20230825
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eedc3040d9598dd0413ce81d6f74f2a495babf3e...03e92dc21391b4aed251a07489faa44a75f7e8af)
+- `03e92dc21391b4aed251a07489faa44a75f7e8af` [feat(compaction): compact sstable with many tombstones periodic (#11740)](https://github.com/risingwavelabs/risingwave/pull/11740)
+- `4344676fb2c0205a514997125cf407973a7cfa24` [feat(ci): test standalone cluster in main-cron, with e2e test (#11871)](https://github.com/risingwavelabs/risingwave/pull/11871)
+- `08c2a3681923c40e7e5d2d2cbf1c1cf796b11dbb` [feat(parser): parse lambda function (take 2) (#11888)](https://github.com/risingwavelabs/risingwave/pull/11888)
+- `1bed6a6a6ae335e6c9bd3825ef90d68a9ea07847` [fix(cdc): fix postgres privilege check for AWS RDS (#11893)](https://github.com/risingwavelabs/risingwave/pull/11893)
+- `cd15fb82649c9e9a6c7968bfc56e92a44ae119d9` [feat: add streamChunkMut (#11808)](https://github.com/risingwavelabs/risingwave/pull/11808)
+- `acc1486ef1239f461574974fdcb216a9743bd697` [fix(watermark): correct data type in transform_with_expr (#11887)](https://github.com/risingwavelabs/risingwave/pull/11887)
+- `78fe0fda08b429c7e6fc7514c82c935c58eb49c6` [chore(deps): bump petgraph from 0.6.3 to 0.6.4 (#11816)](https://github.com/risingwavelabs/risingwave/pull/11816)
+- `9e35e8a267c969178496281e578a874f26e361a8` [fix(watermark): return error when watermark return data type does not match the watermark column type (#11874)](https://github.com/risingwavelabs/risingwave/pull/11874)
+- `9c89aa0fefa9409f362a3ebf4a436fb7203f06a4` [chore(ci): bump flamegraph gen timeout (#11886)](https://github.com/risingwavelabs/risingwave/pull/11886)
+
+## nightly-20230824
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/12d2f28b7d84f72af62f4c2785f6bb5e23e43510...eedc3040d9598dd0413ce81d6f74f2a495babf3e)
+- `eedc3040d9598dd0413ce81d6f74f2a495babf3e` [chore(deps): bump simd-json from 0.10.5 to 0.10.6 (#11857)](https://github.com/risingwavelabs/risingwave/pull/11857)
+- `c49e49d62534c2d8bd66e91b7edb1cee438114a7` [chore(check): `egrep` -> `grep -E` (#11870)](https://github.com/risingwavelabs/risingwave/pull/11870)
+- `3b7d67b90ea891fa596cb85055c253215cec9cec` [feat: support show and cancel jobs syntax (#11854)](https://github.com/risingwavelabs/risingwave/pull/11854)
+- `4d1a8e945f2dae29b68f509c90ccb4f03cdefd12` [feat: support alter source add column (#11350)](https://github.com/risingwavelabs/risingwave/pull/11350)
+- `451c3873ff2fc713fca3214e88aba94e3154ce61` [feat(frontend): change index default distributed by columns (#11865)](https://github.com/risingwavelabs/risingwave/pull/11865)
+- `181953d149dc7da17f63678c97c0e960f37d6b7e` [chore(deps): bump dashmap from 5.5.0 to 5.5.1 (#11841)](https://github.com/risingwavelabs/risingwave/pull/11841)
+
+## nightly-20230823
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b04d1df5e878f19dd580e169192bd90996b9a8ff...12d2f28b7d84f72af62f4c2785f6bb5e23e43510)
+- `12d2f28b7d84f72af62f4c2785f6bb5e23e43510` [fix(json parser): fill None when parse error (#11845)](https://github.com/risingwavelabs/risingwave/pull/11845)
+- `1b1cff0f3e057db9e702b7b0fb7281b5482d6461` [fix(compaction): do not split creating table (#11826)](https://github.com/risingwavelabs/risingwave/pull/11826)
+- `5a5094a45fa9b339a7737e7eaf42a7ba0f5a13fc` [chore: refine kinesis error & sleep when shard iter is None (#11847)](https://github.com/risingwavelabs/risingwave/pull/11847)
+- `261cb80436501b598cb2b4f223be4c69af682bb9` [feat(sqlparser): support qualified operator invocation syntax `OPERATOR(schema.op)` (#11700)](https://github.com/risingwavelabs/risingwave/pull/11700)
+- `c7f65ae9b406b2ddce00e6f41bfc67ea23cc0ca7` [fix(compaction): report a log when vacuum task fails (#11844)](https://github.com/risingwavelabs/risingwave/pull/11844)
+- `70bd7eabb21c02bd3b6a18568afba4f3aa1540f6` [feat(expr): `IS JSON` predicate (#11831)](https://github.com/risingwavelabs/risingwave/pull/11831)
+- `b4fee376aca85018bf7fe17d392b9c92fe18c9e9` [chore: bump `rustls-webpki` & temporarily ignore security vulnerability (#11850)](https://github.com/risingwavelabs/risingwave/pull/11850)
+- `151ffd2ac21f8d0b260b4dc38ba3772cf8324b24` [chore: Rename iceberg_v2 as iceberg (#11824)](https://github.com/risingwavelabs/risingwave/pull/11824)
+
+## nightly-20230822
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e0d5a7f67be5e9c7a9ce7b91af782c20220a7759...b04d1df5e878f19dd580e169192bd90996b9a8ff)
+- `b04d1df5e878f19dd580e169192bd90996b9a8ff` [refactor(compaction): extract reporting progress of vacuum task (#11835)](https://github.com/risingwavelabs/risingwave/pull/11835)
+- `681d67e224b45d415e23973059d78da4dfb12285` [fix: wait for bootstrap recovery to finish to fix flaky drop mview test (#11811)](https://github.com/risingwavelabs/risingwave/pull/11811)
+- `586bb0d90a1b9f6d750fd73625514fda8ea306a4` [chore(deps): bump tempfile from 3.7.1 to 3.8.0 (#11818)](https://github.com/risingwavelabs/risingwave/pull/11818)
+- `09294c0ae3d5304f217aaa36ead2a0f194408c25` [refactor(compaction): decouple compact running functions with compactor struct (#11777)](https://github.com/risingwavelabs/risingwave/pull/11777)
+- `eba0646fd3a6db87e09859899f62a18c16bf744f` [chore: refine log & timeout in SourceManager (#11829)](https://github.com/risingwavelabs/risingwave/pull/11829)
+- `474b44aaa26865ab4a17834782fa55fd00a5f4db` [fix(frontend/handler): forbid unknown language in function creation (#11830)](https://github.com/risingwavelabs/risingwave/pull/11830)
+- `fc8c52924fa12510a3d47783094a4346d5308121` [fix(value_encoding): incorrect default value handling in column-aware encoding (#11827)](https://github.com/risingwavelabs/risingwave/pull/11827)
+- `7b0ec5a545965a665885ea005fa896d6556747f6` [fix(test): update expected value in assertion (#11820)](https://github.com/risingwavelabs/risingwave/pull/11820)
+- `b3b8efe804d4c38d0781789d16f2c78f88721eb2` [fix(ci): sqllogictest error cause is not shown (#11814)](https://github.com/risingwavelabs/risingwave/pull/11814)
+- `f8aa1a37057e5e38edfce1b56c9ab20b9f6b44dc` [chore(ci): improve error message for failing fuzz test (#11784)](https://github.com/risingwavelabs/risingwave/pull/11784)
+- `6bbacf2e333a0bccd896a262722155e293b7a329` [feat(storage): seperate trivial-move picker (#11806)](https://github.com/risingwavelabs/risingwave/pull/11806)
+- `97bb31989e75f0a729bb19852552af2146d72da3` [chore(deps): bump postgres-types from 0.2.5 to 0.2.6 (#11803)](https://github.com/risingwavelabs/risingwave/pull/11803)
+- `df1dc9be03a8a4a1c33c26aff06e752a4a4a4da7` [feat(expr): `to_char` supports `timestamptz` input (#11778)](https://github.com/risingwavelabs/risingwave/pull/11778)
+- `1ac88758caedbdd9944bff26ae21cfc7cce080db` [chore(deps): bump serde from 1.0.183 to 1.0.185 (#11802)](https://github.com/risingwavelabs/risingwave/pull/11802)
+
+## nightly-20230821
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9e4831f5df62361e04a364db230b3fd3034dcbed...e0d5a7f67be5e9c7a9ce7b91af782c20220a7759)
+- `e0d5a7f67be5e9c7a9ce7b91af782c20220a7759` [chore: fmt let-else (#11810)](https://github.com/risingwavelabs/risingwave/pull/11810)
+- `339c722a75fd160435beafc08a431f0e65458e53` [feat(cmd_all): add demo with full cluster, including connector (#11795)](https://github.com/risingwavelabs/risingwave/pull/11795)
+- `e09f5de73ce45aae8e6cde0b7c27db580b6a4af8` [chore(deps): bump dyn-clone from 1.0.12 to 1.0.13 (#11796)](https://github.com/risingwavelabs/risingwave/pull/11796)
+- `451416720fa415d0c6992bbf8e49e0c15a3266fa` [test(e2e): add flush for watermark test and skip the test for in memory cluster (#11799)](https://github.com/risingwavelabs/risingwave/pull/11799)
+- `eb4392398cd417ddac39bc9a1053aa825d33db01` [chore(deps): bump serde_with from 3.2.0 to 3.3.0 (#11804)](https://github.com/risingwavelabs/risingwave/pull/11804)
+- `33e0c6fccca6b5e3b6d81395c2e58f0a35b0efea` [refactor(kafka-sink): remove transaction conductor & use FutureProducer instead of ThreadProducer (#11706)](https://github.com/risingwavelabs/risingwave/pull/11706)
+- `41b8d6fb25cc56e6f6155741333b6d3c7bffcdca` [feat(handler): support [I]LIKE in show commands (#11791)](https://github.com/risingwavelabs/risingwave/pull/11791)
+- `a57c34c005841f99de593bcd7420947a982f1083` [test: fix timeout of deterministic integration test (#11793)](https://github.com/risingwavelabs/risingwave/pull/11793)
+
+## nightly-20230820
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/88a4daca851bf23bea68065426779aeea105bd8d...9e4831f5df62361e04a364db230b3fd3034dcbed)
+- `9e4831f5df62361e04a364db230b3fd3034dcbed` [feat: Add integration test demo for rust native iceberg sink. (#11788)](https://github.com/risingwavelabs/risingwave/pull/11788)
+
+## nightly-20230818
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0874a484f7bd456d1f8f93f06e06c9f40428df88...88a4daca851bf23bea68065426779aeea105bd8d)
+- `88a4daca851bf23bea68065426779aeea105bd8d` [fix(watermark): yield watermark when input is idle (#11783)](https://github.com/risingwavelabs/risingwave/pull/11783)
+- `0da26a88738cd38dbd6e4b8dc30b452b5ae53674` [feat(sink): support sink simulation test (#11709)](https://github.com/risingwavelabs/risingwave/pull/11709)
+- `dd4c23f306a3fe371f118ef13c1a397a0547ee7d` [feat(binder): allow dml on table with generated column (#11698)](https://github.com/risingwavelabs/risingwave/pull/11698)
+- `c95f5cf6e1cec7c12b07be6245cdf943d06dfff8` [test: merge deterministic integration tests into one step (#11767)](https://github.com/risingwavelabs/risingwave/pull/11767)
+- `fdaa97f8211c72c3b7c618be6f1c33d4574ba5ce` [chore(cmd_all): fix naming + remove hardcoded path (#11774)](https://github.com/risingwavelabs/risingwave/pull/11774)
+- `c928110a9f68871888dc8452102e71c91d3ada80` [feat(iceberg): support java iceberg coordinator (#10757)](https://github.com/risingwavelabs/risingwave/pull/10757)
+- `06018117c2bc4ca0057ea95b3fe82c12fd0a98fb` [refactor(storage): refactor read options instantiation to use `..Default::default()` (#11773)](https://github.com/risingwavelabs/risingwave/pull/11773)
+- `be896d2add50722bfe345a13b74db45eeab0aacb` [chore(storage): remove log (#11759)](https://github.com/risingwavelabs/risingwave/pull/11759)
+- `4c04b9ebfb39a6a0d1c6fdb4416fed3e1e77da50` [revert: remove enable_stream_row_count config #10261 (#11328)](https://github.com/risingwavelabs/risingwave/pull/11328)
+- `d5f3d41580d65d935dc1ca1f2fb11c469c69007b` [chore: fix typos for `monolithic-mode` (#11760)](https://github.com/risingwavelabs/risingwave/pull/11760)
+- `ccaa0df8759817b1cf606f436614b39cf8171b22` [refactor(common): unified macro for pg-compatible data type info (#11747)](https://github.com/risingwavelabs/risingwave/pull/11747)
+- `03edd42202862a112a194bce303ea51cb70ed017` [chore(deps): bump syn from 2.0.28 to 2.0.29 (#11761)](https://github.com/risingwavelabs/risingwave/pull/11761)
+- `2202affe14ea5ee845663419940187bcab1723f6` [chore(deps): bump clap from 4.3.21 to 4.3.22 (#11762)](https://github.com/risingwavelabs/risingwave/pull/11762)
+- `8e648b254e690ccd05fd573c611a30fab573bd95` [chore(deps): bump speedate from 0.11.0 to 0.12.0 (#11764)](https://github.com/risingwavelabs/risingwave/pull/11764)
+- `c7158f928ec3dcc929f75e4183d476696a1f4d46` [chore(deps): bump quote from 1.0.32 to 1.0.33 (#11765)](https://github.com/risingwavelabs/risingwave/pull/11765)
+- `8865a7c0394efb1b031b4faf969b7d78b4010e0c` [feat: add all-in-one for `frontend-meta-compute` (#11755)](https://github.com/risingwavelabs/risingwave/pull/11755)
+- `7e4201a7b5c94de62a37a7307db26e4fff45e1c0` [feat(optimizer): support apply expand transpose rule (#11719)](https://github.com/risingwavelabs/risingwave/pull/11719)
+- `41211f65b67ed1b377e93038f52bd7f67215c3d7` [fix(optimizer): fix cardinality visitor -- filter (#11718)](https://github.com/risingwavelabs/risingwave/pull/11718)
+
+## nightly-20230817
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66b2f3664bd6fd474310b5f76b15497a575cb266...0874a484f7bd456d1f8f93f06e06c9f40428df88)
+- `0874a484f7bd456d1f8f93f06e06c9f40428df88` [fix: remove decoding message size limit in telemetry and connector grpc client (#11758)](https://github.com/risingwavelabs/risingwave/pull/11758)
+- `cf56e72c9e8e2a3a906ea39f8a43a164881fb906` [feat(parser): parse `[!]~~[*]` operators to `[NOT] [I]LIKE` (#11748)](https://github.com/risingwavelabs/risingwave/pull/11748)
+- `058deae03712715ed81c237f3cf0241b2dd2ece5` [chore(deps): bump aho-corasick from 1.0.3 to 1.0.4 (#11730)](https://github.com/risingwavelabs/risingwave/pull/11730)
+- `098e25cc655eeec293bc847370879ab7ce8bc3e4` [test(sink/iceberg): Add time related date types (#11744)](https://github.com/risingwavelabs/risingwave/pull/11744)
+- `3b67f90adf1a0ad0e0e135c7d3bd35c5afc34a8c` [feat: Allow user to config iceberg table client. (#11750)](https://github.com/risingwavelabs/risingwave/pull/11750)
+- `3875066b1bf1ec63aeed7b9054205587d5cf3259` [feat(deterministic-test): add tests of random writes and consistency (#11712)](https://github.com/risingwavelabs/risingwave/pull/11712)
+- `63416a2a062ea9db7213474e35f753598534378f` [feat: support grant/revoke privileges for tables (#11725)](https://github.com/risingwavelabs/risingwave/pull/11725)
+- `2ebb278ce8aba67d010b70a4e174d5649b8392f5` [feat(dashboard): add back-pressure metrics for actors in fragment graph (#11696)](https://github.com/risingwavelabs/risingwave/pull/11696)
+- `5296f90bb086cf4036499ce2e83e8a3233f93817` [feat(expr): support `[NOT] ILIKE` expression (#11743)](https://github.com/risingwavelabs/risingwave/pull/11743)
+- `2275f74ad469042bf13f2522701466782512b892` [refactor: minimize docker-compose-xxx.yml with `extends` (#11559)](https://github.com/risingwavelabs/risingwave/pull/11559)
+- `60624f9d826c609135b3f0f42f094a15ea86259a` [chore(test): enable grouping sets fro sql smith (#11011)](https://github.com/risingwavelabs/risingwave/pull/11011)
+- `a2684461e379ce73f8d730982147439e2379de16` [chore(deps): bump strum_macros from 0.24.3 to 0.25.2 (#11729)](https://github.com/risingwavelabs/risingwave/pull/11729)
+- `1e0a9f864b58a0b5b535d714da74dba078f9c3cb` [fix(test): fix integration test debezium cases (#11739)](https://github.com/risingwavelabs/risingwave/pull/11739)
+- `c2a00023c4637df0ebd4d95ce5f4c6391e384553` [chore(deps): bump tokio-metrics from 0.2.2 to 0.3.0 (#11727)](https://github.com/risingwavelabs/risingwave/pull/11727)
+- `dd5d6b25360423b18d455266d05549b826f7cd70` [fix(sqlsmith): only permit base tables for hop and tumble (#11721)](https://github.com/risingwavelabs/risingwave/pull/11721)
+- `13d3a3a5950c3877bbb793b1c487e7937a63201e` [fix: auto doc create-pr actions (#11733)](https://github.com/risingwavelabs/risingwave/pull/11733)
+- `24c25b4e52d4bc04af14c09b1d3e928604853998` [chore(deps): bump serde_json from 1.0.104 to 1.0.105 (#11726)](https://github.com/risingwavelabs/risingwave/pull/11726)
+- `a62bcdee5d82002f0ebf33215ba44bdcb07c524e` [ci(dependabot): remove semver grouping (#11724)](https://github.com/risingwavelabs/risingwave/pull/11724)
+- `913a1d43235070c187c16b63641c6bc29d836349` [feat(sqlparser): support array constructing subquery syntax `array(select 2)` (#11716)](https://github.com/risingwavelabs/risingwave/pull/11716)
+
+## nightly-20230816
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4a5bf065b8d3c119393856e2390763e62499e765...66b2f3664bd6fd474310b5f76b15497a575cb266)
+- `66b2f3664bd6fd474310b5f76b15497a575cb266` [fix(meta): fix split  group (#11683)](https://github.com/risingwavelabs/risingwave/pull/11683)
+- `6f94e3393d99c9af8cbf957d2ee1657bd20abc82` [feat(sqlparser): add sqlparser bin (#11717)](https://github.com/risingwavelabs/risingwave/pull/11717)
+- `dba4b2cf55cc8b9830ec08f930e75c99664a0100` [feat: show compaction group id in Materialized View Info panel in (#11714)](https://github.com/risingwavelabs/risingwave/pull/11714)
+- `7a1632503a4f0dd4024549681a7b445f1171ba6e` [feat(connector): support parsing "string containing JSON" as a struct type (#11693)](https://github.com/risingwavelabs/risingwave/pull/11693)
+- `d520671fd97bea8d8270daca754f45ab45504bbc` [test: More iceberg tests. (#11686)](https://github.com/risingwavelabs/risingwave/pull/11686)
+- `1f3601d1f8e9380b28dfc57d7ce18e7ead88300f` [feat(source): set default pk for upsert json (#11386)](https://github.com/risingwavelabs/risingwave/pull/11386)
+- `c1a4e01691d6f568591b0f34a1d47dc8bafa7386` [feat(optimizer): support streaming query with limit clause (#11566)](https://github.com/risingwavelabs/risingwave/pull/11566)
+- `8c24e9ed1b40e8c01f14c6e6570f19ed2c813368` [feat: fix internal table id in replace_table (#11595)](https://github.com/risingwavelabs/risingwave/pull/11595)
+- `b942603f04075efd52876e88e142b22e076e31cd` [feat(metrics): add metrics: active sessions (#11688)](https://github.com/risingwavelabs/risingwave/pull/11688)
+- `2572d867bebb8dbe768eaabd99069df74d2bbf19` [feat: support pg_relation_size (#11687)](https://github.com/risingwavelabs/risingwave/pull/11687)
+
+## nightly-20230815
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c76d2fbf476bb7593ba1c5817418a9b290a25634...4a5bf065b8d3c119393856e2390763e62499e765)
+- `4a5bf065b8d3c119393856e2390763e62499e765` [feat(docker): support docker compose with hdfs (#11632)](https://github.com/risingwavelabs/risingwave/pull/11632)
+- `2ad815bbde977ce5efa424164f05fbe0b3842475` [ci: Upgrade ci image to install poetry (#11697)](https://github.com/risingwavelabs/risingwave/pull/11697)
+- `b15014fa58799467b2f5ed6b66d24651f364e005` [fix: only enable await-tree for stream service RPC (#11122)](https://github.com/risingwavelabs/risingwave/pull/11122)
+- `26edff41e1caf0122a35f96799fa1c433efde1d0` [chore: unify docker compose from integration test to unified settings (#11628)](https://github.com/risingwavelabs/risingwave/pull/11628)
+- `7364b87cfa01a994c41fa32bb4794798d5292ce2` [feat(common): add VisMut (#11685)](https://github.com/risingwavelabs/risingwave/pull/11685)
+- `2ab9b70b4d3c649b5bf51c216074b487db9e3016` [feat(risedev): generate `env` file also for playground (#11660)](https://github.com/risingwavelabs/risingwave/pull/11660)
+- `7423d30a346c9ba1b9516d7c833d8db71f5b7550` [fix(log-store): flush stream chunk on checkpoint barrier (#11017)](https://github.com/risingwavelabs/risingwave/pull/11017)
+- `57056cd19708e2be927ef4b3b2b8f236b59a4dfe` [refactor(agg): remove table state aggregation (#11526)](https://github.com/risingwavelabs/risingwave/pull/11526)
+- `02eb5a99886f0550fa499ac821627b94ddcf4b1d` [feat(optimizer): support apply overwindow transpose rule (#11597)](https://github.com/risingwavelabs/risingwave/pull/11597)
+- `b0fe70dfb8dca13cfedfc7463e8e708134fa8e10` [chore(deps): bump syn from 1.0.109 to 2.0.28 (#11641)](https://github.com/risingwavelabs/risingwave/pull/11641)
+- `c7fc0c51c03f5551d563dbeff32386f3eb8ee911` [fix(frontend): fix varchar data type for information schema columns (#11684)](https://github.com/risingwavelabs/risingwave/pull/11684)
+- `4db3456eec321eca50ef917523a035e75013b943` [feat: Introduce iceberg coordinated committer (#11656)](https://github.com/risingwavelabs/risingwave/pull/11656)
+- `7562acf5dc44d4f8c0143532bef17dcb5db77fb8` [ci: add github action that automatically creates a doc pr for user-facing change (#11668)](https://github.com/risingwavelabs/risingwave/pull/11668)
+- `79f4af8132aaddda91c475669e87f3086ca5f1a4` [ci(dependabot): add grouped updates (#11648)](https://github.com/risingwavelabs/risingwave/pull/11648)
+- `f3c226e96bd0c9f87c5216517ab7ed8436c7f694` [chore(meta): tune monitor service client message decoding size limit (#11677)](https://github.com/risingwavelabs/risingwave/pull/11677)
+- `3645b7fc061823a316a347c247929fa9cef6d94e` [chore(meta): tune hummock service message decoding size limit (#11672)](https://github.com/risingwavelabs/risingwave/pull/11672)
+- `989c6070008cb3e46f6046435a4a84ceeccd6007` [feat(metrics):  monitor materialized view remote IO bytes (#11054)](https://github.com/risingwavelabs/risingwave/pull/11054)
+- `fa9e0119c7fbf5c4099807bfe57c8041784bb6c8` [feat(storage): support to base trivial_move (#11619)](https://github.com/risingwavelabs/risingwave/pull/11619)
+
+## nightly-20230814
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bddf6096a6f02c63141430813dc07bd24c550ed6...c76d2fbf476bb7593ba1c5817418a9b290a25634)
+- `c76d2fbf476bb7593ba1c5817418a9b290a25634` [ci: add "Hakari Fix" action (#11558)](https://github.com/risingwavelabs/risingwave/pull/11558)
+- `2deeb3f60a0e14f2cb1a0068e63ab984c2eafcbf` [feat(expr): `scale`, `min_scale` and `trim_scale` for decimal (#11663)](https://github.com/risingwavelabs/risingwave/pull/11663)
+- `d6937c1972d19084e0881eba3b4506f5f90950ee` [chore(ci): bump unit test timeouts (#11659)](https://github.com/risingwavelabs/risingwave/pull/11659)
+- `e3bd7ab25ed6bae927fa7370e1095eecdb05d7ce` [fix: fix flaky drop mview unit test (#11658)](https://github.com/risingwavelabs/risingwave/pull/11658)
+- `f13e7a397f084e576def2188460917ffcb4f4430` [feat: add reloptions, indoption and conindid, all dummy (#11627)](https://github.com/risingwavelabs/risingwave/pull/11627)
+- `89649834e5235c9a9e16adac0a0c6c010caca249` [ci: add a GHA to build with latest nightly rust (#11637)](https://github.com/risingwavelabs/risingwave/pull/11637)
+- `4ba4d51258363a97aee4d27b2fba9d8537c2c5ce` [feat: add dummy pg_get_constraintdef that returns NULL (#11623)](https://github.com/risingwavelabs/risingwave/pull/11623)
+- `393f40c73e2b80cc20da5f364e3d378f32fd8aac` [feat: support generate_subscripts function (#11584)](https://github.com/risingwavelabs/risingwave/pull/11584)
+- `c946bedbc78b54b25e3785830cdae1924ea79e9c` [chore(doc): Improve the documentation section in the PR template (#11591)](https://github.com/risingwavelabs/risingwave/pull/11591)
+- `bd947868957782280bea9c0ade8c62b2ec629587` [chore(deps): bump comfy-table from 6.2.0 to 7.0.1 (#11645)](https://github.com/risingwavelabs/risingwave/pull/11645)
+- `3a6f5b436146f4efadd9dba4cb4f3970d9d1e8ea` [chore(deps): bump pprof from 0.11.1 to 0.12.1 (#11643)](https://github.com/risingwavelabs/risingwave/pull/11643)
+- `d7ed0e69f6bd3a80f9993ad09ed76331b7b86992` [chore(sort buffer): fix critical misleading comment (#11577)](https://github.com/risingwavelabs/risingwave/pull/11577)
+- `9d99c02a9c2053b5f452a02a5925ce92338befbc` [fix(compaction): select wrong task which cause sstable files fail to concat (#11653)](https://github.com/risingwavelabs/risingwave/pull/11653)
+- `1beb63cfe28e165719cb0c874b7196832d5957e5` [feat(sstable): use block based xor filter to save memory during compaction (#11488)](https://github.com/risingwavelabs/risingwave/pull/11488)
+- `ca45a6e56dd7cf881ec08ae28a260adcedc90b22` [doc(test): how to reproduce simulation integration tests results from ci (#11635)](https://github.com/risingwavelabs/risingwave/pull/11635)
+- `cb865071e4475f5adb93c5aac9834658b8ddf881` [feat: add max_concurrent_creating_streaming_jobs config (#11601)](https://github.com/risingwavelabs/risingwave/pull/11601)
+- `15178149b8a74c2063ba0bb69345a3d19ad6847d` [fix: fix exchange service and client decoding message size limit (#11655)](https://github.com/risingwavelabs/risingwave/pull/11655)
+- `5a06923706709fac7e3b58491326749f916db743` [feat(optimizer): support common sub-expression extraction (#11356)](https://github.com/risingwavelabs/risingwave/pull/11356)
+- `8efefe5a4a6000c51d1bd2c91c60a0eb8e41b296` [chore(stream): add assertion for backfill invariant (#11636)](https://github.com/risingwavelabs/risingwave/pull/11636)
+- `89ba3abe39575d5ac6e70390b976d71fc1f4c4f2` [chore(deps): bump opendal from 0.38.1 to 0.39.0 (#11642)](https://github.com/risingwavelabs/risingwave/pull/11642)
+
+## nightly-20230813
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/708df8e1233ae624a952117273a917b1007230fa...bddf6096a6f02c63141430813dc07bd24c550ed6)
+- `bddf6096a6f02c63141430813dc07bd24c550ed6` [build: add resolver=2 to workspace (#11647)](https://github.com/risingwavelabs/risingwave/pull/11647)
+
+## nightly-20230812
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b...708df8e1233ae624a952117273a917b1007230fa)
+- `708df8e1233ae624a952117273a917b1007230fa` [chore(deps): bump parse-display from 0.6.0 to 0.8.2 (#11640)](https://github.com/risingwavelabs/risingwave/pull/11640)
+
+## nightly-20230811
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/53a2cf16b017a644cfe9924330fc4edf3f8ae096...cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b)
+- `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b` [feat(sink): clickhouse sink  (#11240)](https://github.com/risingwavelabs/risingwave/pull/11240)
+- `0bdde0e9308780efff4dde1a4b0f17b327fa4c08` [chore(deps): regular `cargo update` after v1.1.0 (#11603)](https://github.com/risingwavelabs/risingwave/pull/11603)
+- `2c22e1433ff46c0c5134a541c7b343c4c4a4aad2` [refactor: improve error logging for resource_util (#11036)](https://github.com/risingwavelabs/risingwave/pull/11036)
+- `ad77bf5ee8649dbb2751e8eb04257e61c12d27c7` [fix(stream): clear upstream buffer if no snapshot progress (#11625)](https://github.com/risingwavelabs/risingwave/pull/11625)
+- `a7c94699081cac301c9a766b60350d0725521dde` [feat: add dummy indisprimary to pg_index (#11620)](https://github.com/risingwavelabs/risingwave/pull/11620)
+- `19aded3042f8f7d405d38a4b12178cae9fbcf9b3` [feat(risedev): add psql command (#11590)](https://github.com/risingwavelabs/risingwave/pull/11590)
+- `3059d780c391fd92638546cae710e7de16ba077c` [chore(deps): bump futures-async-stream from 0.2.6 to 0.2.7 (#11615)](https://github.com/risingwavelabs/risingwave/pull/11615)
+- `d8105ecadcf03df46eae86883b9bb1cfd8854d8a` [chore(deps): bump phf from 0.11.1 to 0.11.2 (#11616)](https://github.com/risingwavelabs/risingwave/pull/11616)
+- `898065a8cc22d910080e8867c0ff7cbc7c73bd07` [chore: remove decoding message size limit from hummock rpc client (#11617)](https://github.com/risingwavelabs/risingwave/pull/11617)
+- `f4388cc8da2387eb7ab6d7a591734ab2c369a383` [chore(deps): bump arrow-* from 44.0.0 to 45.0.0 (#11466)](https://github.com/risingwavelabs/risingwave/pull/11466)
+- `40a95d55b2e253c55f33acc03114d7e831aa09b5` [fix(storage): add metrics to track latency of compaction event loop (#11598)](https://github.com/risingwavelabs/risingwave/pull/11598)
+- `03e57446c24268b0d011d2380fe5134e27de3d19` [feat: add dummy system function pg_type_is_visible (#11583)](https://github.com/risingwavelabs/risingwave/pull/11583)
+
+## nightly-20230810
+- `53a2cf16b017a644cfe9924330fc4edf3f8ae096` [feat: add atthasdef to pg_attribute (#11582)](https://github.com/risingwavelabs/risingwave/pull/11582)
