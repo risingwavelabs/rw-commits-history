@@ -99,7 +99,7 @@ for commit in risingwave.get_commits():
         print(f"## nightly-{nightly_builds[i][0]}")
         if i != len(nightly_builds) - 1:
             print(
-                f"[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/{nightly_builds[i][1]}?expand=1&base={nightly_builds[i+1][1]}&compare_format=diff)"
+                f"[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/{nightly_builds[i+1][1]}...{nightly_builds[i][1]})"
             )
         i += 1
     pr_url = f"https://github.com/risingwavelabs/risingwave/pull/{pr_number}"
