@@ -268,6 +268,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `531aa8bffeb8e515bd89290a6ee70e1792419e24` [doc: update README.md to notice the user about RisingWave's usage of Scarf (#17012)](https://github.com/risingwavelabs/risingwave/pull/17012)
 - `bdf42d86996597e07ecca6acbfa451b8df9bcc02` [test(backfill): adjust the measured progress bounds for backfill test (#17181)](https://github.com/risingwavelabs/risingwave/pull/17181)
 - `e9201ac42365de352a62c7554a70c739056e2030` [fix(ci): increase sleep duration before restarting cluster in backfill sink test (#17183)](https://github.com/risingwavelabs/risingwave/pull/17183)
 
