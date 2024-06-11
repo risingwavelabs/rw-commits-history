@@ -268,6 +268,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bdf42d86996597e07ecca6acbfa451b8df9bcc02` [test(backfill): adjust the measured progress bounds for backfill test (#17181)](https://github.com/risingwavelabs/risingwave/pull/17181)
+- `e9201ac42365de352a62c7554a70c739056e2030` [fix(ci): increase sleep duration before restarting cluster in backfill sink test (#17183)](https://github.com/risingwavelabs/risingwave/pull/17183)
 
 ## nightly-20240611
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6de082d590e8cbb92e6ceee6a941a8d05aa4bf76...daa1c42c9966978de570968a7f5b56523050a7b1)
