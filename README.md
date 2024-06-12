@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240612` `d488f652ed9d0dbea75a14245b664e0a392d9547`
 - `20240611` `daa1c42c9966978de570968a7f5b56523050a7b1`
 - `20240610` `6de082d590e8cbb92e6ceee6a941a8d05aa4bf76`
 - `20240609` `3d4bd821542da958db3e07e4b7fc856cc6374c1e`
@@ -266,6 +267,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240612
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/daa1c42c9966978de570968a7f5b56523050a7b1...d488f652ed9d0dbea75a14245b664e0a392d9547)
 - `d488f652ed9d0dbea75a14245b664e0a392d9547` [feat(storage): avoid uploader depending on seal_epoch (#16985)](https://github.com/risingwavelabs/risingwave/pull/16985)
 - `c9c706415b52083205a91b228ae53a4bc662e97d` [fix(metrics): reduce overhead of `merge_barrier_alignment_duration` (#17222)](https://github.com/risingwavelabs/risingwave/pull/17222)
 - `c491b46e74455de22ed5c742d5e14d4c12e2a83b` [chore: close inactive PRs and allow manual trigger (#17220)](https://github.com/risingwavelabs/risingwave/pull/17220)
