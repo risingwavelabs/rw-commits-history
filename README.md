@@ -268,6 +268,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1a92e5132cee859f3d25019ac45840c5c104960b` [refactor(jni): remove jni_core's dependency on storage (#17193)](https://github.com/risingwavelabs/risingwave/pull/17193)
+- `cf28b769b5587d5e1367c4f569c91e24712b04fe` [chore(ci): rework ci labels used to trigger workflows (#17197)](https://github.com/risingwavelabs/risingwave/pull/17197)
 - `617ed5a8777e108bdcde4fab85cb53668b35303b` [refactor(cdc): refine error report when fail to derive table schema (#17210)](https://github.com/risingwavelabs/risingwave/pull/17210)
 - `bb48904320b656c6670d29ef404892396d7b7ac8` [chore(sink): improve force append only warning (#17213)](https://github.com/risingwavelabs/risingwave/pull/17213)
 - `6d96f4b5a818e64bc0549471e629b5dcb8d6d82f` [chore(deps-dev): Bump braces from 3.0.2 to 3.0.3 in /dashboard (#17194)](https://github.com/risingwavelabs/risingwave/pull/17194)
