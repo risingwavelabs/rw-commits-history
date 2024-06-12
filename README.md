@@ -259,7 +259,6 @@
 - `20230818` `88a4daca851bf23bea68065426779aeea105bd8d`
 - `20230817` `0874a484f7bd456d1f8f93f06e06c9f40428df88`
 - `20230816` `66b2f3664bd6fd474310b5f76b15497a575cb266`
-- `20230815` `4a5bf065b8d3c119393856e2390763e62499e765`
 </details>
 
 # Commit history
@@ -268,6 +267,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c491b46e74455de22ed5c742d5e14d4c12e2a83b` [chore: close inactive PRs and allow manual trigger (#17220)](https://github.com/risingwavelabs/risingwave/pull/17220)
+- `6ab7752a9639049fc75de9e9f3a95b342c3d69af` [chore(ci): disable e2e visibility mode tests in single node mode (#17215)](https://github.com/risingwavelabs/risingwave/pull/17215)
+- `3da3d16c742b90f1c08e6180b9e19b46cf6d31e5` [refactor(storage): limit use of hummock version safe epoch (#17161)](https://github.com/risingwavelabs/risingwave/pull/17161)
+- `6bd2360e0ee9750f40bf93fa9cc02c3ece75af7a` [fix(batch): fix memory limit for batch sort executor (#17211)](https://github.com/risingwavelabs/risingwave/pull/17211)
 - `1a92e5132cee859f3d25019ac45840c5c104960b` [refactor(jni): remove jni_core's dependency on storage (#17193)](https://github.com/risingwavelabs/risingwave/pull/17193)
 - `cf28b769b5587d5e1367c4f569c91e24712b04fe` [chore(ci): rework ci labels used to trigger workflows (#17197)](https://github.com/risingwavelabs/risingwave/pull/17197)
 - `617ed5a8777e108bdcde4fab85cb53668b35303b` [refactor(cdc): refine error report when fail to derive table schema (#17210)](https://github.com/risingwavelabs/risingwave/pull/17210)
@@ -3806,17 +3809,4 @@
 - `913a1d43235070c187c16b63641c6bc29d836349` [feat(sqlparser): support array constructing subquery syntax `array(select 2)` (#11716)](https://github.com/risingwavelabs/risingwave/pull/11716)
 
 ## nightly-20230816
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4a5bf065b8d3c119393856e2390763e62499e765...66b2f3664bd6fd474310b5f76b15497a575cb266)
 - `66b2f3664bd6fd474310b5f76b15497a575cb266` [fix(meta): fix split  group (#11683)](https://github.com/risingwavelabs/risingwave/pull/11683)
-- `6f94e3393d99c9af8cbf957d2ee1657bd20abc82` [feat(sqlparser): add sqlparser bin (#11717)](https://github.com/risingwavelabs/risingwave/pull/11717)
-- `dba4b2cf55cc8b9830ec08f930e75c99664a0100` [feat: show compaction group id in Materialized View Info panel in (#11714)](https://github.com/risingwavelabs/risingwave/pull/11714)
-- `7a1632503a4f0dd4024549681a7b445f1171ba6e` [feat(connector): support parsing "string containing JSON" as a struct type (#11693)](https://github.com/risingwavelabs/risingwave/pull/11693)
-- `d520671fd97bea8d8270daca754f45ab45504bbc` [test: More iceberg tests. (#11686)](https://github.com/risingwavelabs/risingwave/pull/11686)
-- `1f3601d1f8e9380b28dfc57d7ce18e7ead88300f` [feat(source): set default pk for upsert json (#11386)](https://github.com/risingwavelabs/risingwave/pull/11386)
-- `c1a4e01691d6f568591b0f34a1d47dc8bafa7386` [feat(optimizer): support streaming query with limit clause (#11566)](https://github.com/risingwavelabs/risingwave/pull/11566)
-- `8c24e9ed1b40e8c01f14c6e6570f19ed2c813368` [feat: fix internal table id in replace_table (#11595)](https://github.com/risingwavelabs/risingwave/pull/11595)
-- `b942603f04075efd52876e88e142b22e076e31cd` [feat(metrics): add metrics: active sessions (#11688)](https://github.com/risingwavelabs/risingwave/pull/11688)
-- `2572d867bebb8dbe768eaabd99069df74d2bbf19` [feat: support pg_relation_size (#11687)](https://github.com/risingwavelabs/risingwave/pull/11687)
-
-## nightly-20230815
-- `4a5bf065b8d3c119393856e2390763e62499e765` [feat(docker): support docker compose with hdfs (#11632)](https://github.com/risingwavelabs/risingwave/pull/11632)
