@@ -266,6 +266,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d488f652ed9d0dbea75a14245b664e0a392d9547` [feat(storage): avoid uploader depending on seal_epoch (#16985)](https://github.com/risingwavelabs/risingwave/pull/16985)
+- `c9c706415b52083205a91b228ae53a4bc662e97d` [fix(metrics): reduce overhead of `merge_barrier_alignment_duration` (#17222)](https://github.com/risingwavelabs/risingwave/pull/17222)
 - `c491b46e74455de22ed5c742d5e14d4c12e2a83b` [chore: close inactive PRs and allow manual trigger (#17220)](https://github.com/risingwavelabs/risingwave/pull/17220)
 - `6ab7752a9639049fc75de9e9f3a95b342c3d69af` [chore(ci): disable e2e visibility mode tests in single node mode (#17215)](https://github.com/risingwavelabs/risingwave/pull/17215)
 - `3da3d16c742b90f1c08e6180b9e19b46cf6d31e5` [refactor(storage): limit use of hummock version safe epoch (#17161)](https://github.com/risingwavelabs/risingwave/pull/17161)
