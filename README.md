@@ -267,6 +267,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9abdbc9329f7108213264fc247906bfc07b39541` [chore(ci): remove obsolete version property from docker compose configs (#16566)](https://github.com/risingwavelabs/risingwave/pull/16566)
+- `3e1ee0d78d4a97d6c23830c198d242233a53264b` [fix(meta): include secrets in metadata backup (#17225)](https://github.com/risingwavelabs/risingwave/pull/17225)
+- `51fccb75d26751a9f385f4df07185cd22261c678` [feat(connector): add SQL Server sink (#17154)](https://github.com/risingwavelabs/risingwave/pull/17154)
 
 ## nightly-20240612
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/daa1c42c9966978de570968a7f5b56523050a7b1...d488f652ed9d0dbea75a14245b664e0a392d9547)
