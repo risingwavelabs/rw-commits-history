@@ -258,7 +258,6 @@
 - `20230821` `e0d5a7f67be5e9c7a9ce7b91af782c20220a7759`
 - `20230820` `9e4831f5df62361e04a364db230b3fd3034dcbed`
 - `20230818` `88a4daca851bf23bea68065426779aeea105bd8d`
-- `20230817` `0874a484f7bd456d1f8f93f06e06c9f40428df88`
 </details>
 
 # Commit history
@@ -267,6 +266,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c2b0ead320066e78af8aadfff94c3ccf40c42be2` [chore: bump mysql java library (#17234)](https://github.com/risingwavelabs/risingwave/pull/17234)
+- `759b2228fa4f556d281814afc4842cdd8ba9c23c` [refactor(storage): refactor compaction group manager txn (#17070)](https://github.com/risingwavelabs/risingwave/pull/17070)
+- `a59356f6f8ea3c75bad79b05cf7c39240cb79753` [feat(catalog): add `rw_catalog.actor_id_to_ddl`, `rw_catalog.fragment_id_to_ddl` (#17229)](https://github.com/risingwavelabs/risingwave/pull/17229)
+- `ef6d6c6f48429bb410265acfffdbb42676ae9c69` [feat(source): support JSON schema addtionalProperties (map) (#17110)](https://github.com/risingwavelabs/risingwave/pull/17110)
 - `32a1129da3a9d84d201ffb9a01b89976889e3a76` [fix(compactor):  Compactor potential oom risk of builder (#16802)](https://github.com/risingwavelabs/risingwave/pull/16802)
 - `13cdd9525791968624f93459e681b0ae2fd995ab` [feat(storage): remove magic number MAX_COMPACT_LEVEL_COUNT (#17219)](https://github.com/risingwavelabs/risingwave/pull/17219)
 - `9abdbc9329f7108213264fc247906bfc07b39541` [chore(ci): remove obsolete version property from docker compose configs (#16566)](https://github.com/risingwavelabs/risingwave/pull/16566)
@@ -3776,25 +3779,4 @@
 - `9e4831f5df62361e04a364db230b3fd3034dcbed` [feat: Add integration test demo for rust native iceberg sink. (#11788)](https://github.com/risingwavelabs/risingwave/pull/11788)
 
 ## nightly-20230818
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0874a484f7bd456d1f8f93f06e06c9f40428df88...88a4daca851bf23bea68065426779aeea105bd8d)
 - `88a4daca851bf23bea68065426779aeea105bd8d` [fix(watermark): yield watermark when input is idle (#11783)](https://github.com/risingwavelabs/risingwave/pull/11783)
-- `0da26a88738cd38dbd6e4b8dc30b452b5ae53674` [feat(sink): support sink simulation test (#11709)](https://github.com/risingwavelabs/risingwave/pull/11709)
-- `dd4c23f306a3fe371f118ef13c1a397a0547ee7d` [feat(binder): allow dml on table with generated column (#11698)](https://github.com/risingwavelabs/risingwave/pull/11698)
-- `c95f5cf6e1cec7c12b07be6245cdf943d06dfff8` [test: merge deterministic integration tests into one step (#11767)](https://github.com/risingwavelabs/risingwave/pull/11767)
-- `fdaa97f8211c72c3b7c618be6f1c33d4574ba5ce` [chore(cmd_all): fix naming + remove hardcoded path (#11774)](https://github.com/risingwavelabs/risingwave/pull/11774)
-- `c928110a9f68871888dc8452102e71c91d3ada80` [feat(iceberg): support java iceberg coordinator (#10757)](https://github.com/risingwavelabs/risingwave/pull/10757)
-- `06018117c2bc4ca0057ea95b3fe82c12fd0a98fb` [refactor(storage): refactor read options instantiation to use `..Default::default()` (#11773)](https://github.com/risingwavelabs/risingwave/pull/11773)
-- `be896d2add50722bfe345a13b74db45eeab0aacb` [chore(storage): remove log (#11759)](https://github.com/risingwavelabs/risingwave/pull/11759)
-- `4c04b9ebfb39a6a0d1c6fdb4416fed3e1e77da50` [revert: remove enable_stream_row_count config #10261 (#11328)](https://github.com/risingwavelabs/risingwave/pull/11328)
-- `d5f3d41580d65d935dc1ca1f2fb11c469c69007b` [chore: fix typos for `monolithic-mode` (#11760)](https://github.com/risingwavelabs/risingwave/pull/11760)
-- `ccaa0df8759817b1cf606f436614b39cf8171b22` [refactor(common): unified macro for pg-compatible data type info (#11747)](https://github.com/risingwavelabs/risingwave/pull/11747)
-- `03edd42202862a112a194bce303ea51cb70ed017` [chore(deps): bump syn from 2.0.28 to 2.0.29 (#11761)](https://github.com/risingwavelabs/risingwave/pull/11761)
-- `2202affe14ea5ee845663419940187bcab1723f6` [chore(deps): bump clap from 4.3.21 to 4.3.22 (#11762)](https://github.com/risingwavelabs/risingwave/pull/11762)
-- `8e648b254e690ccd05fd573c611a30fab573bd95` [chore(deps): bump speedate from 0.11.0 to 0.12.0 (#11764)](https://github.com/risingwavelabs/risingwave/pull/11764)
-- `c7158f928ec3dcc929f75e4183d476696a1f4d46` [chore(deps): bump quote from 1.0.32 to 1.0.33 (#11765)](https://github.com/risingwavelabs/risingwave/pull/11765)
-- `8865a7c0394efb1b031b4faf969b7d78b4010e0c` [feat: add all-in-one for `frontend-meta-compute` (#11755)](https://github.com/risingwavelabs/risingwave/pull/11755)
-- `7e4201a7b5c94de62a37a7307db26e4fff45e1c0` [feat(optimizer): support apply expand transpose rule (#11719)](https://github.com/risingwavelabs/risingwave/pull/11719)
-- `41211f65b67ed1b377e93038f52bd7f67215c3d7` [fix(optimizer): fix cardinality visitor -- filter (#11718)](https://github.com/risingwavelabs/risingwave/pull/11718)
-
-## nightly-20230817
-- `0874a484f7bd456d1f8f93f06e06c9f40428df88` [fix: remove decoding message size limit in telemetry and connector grpc client (#11758)](https://github.com/risingwavelabs/risingwave/pull/11758)
