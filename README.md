@@ -266,6 +266,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a3da000942cc1616d12c5463106baee7beacbf38` [feat(over window): WindowBuffer support for session window (#17067)](https://github.com/risingwavelabs/risingwave/pull/17067)
 - `2c6f7c3d420f5d7a4938d4bb78b33dd845e72989` [fix(stream): fix temporal join append only property (#17239)](https://github.com/risingwavelabs/risingwave/pull/17239)
 - `3b823d0175080be867751b486dc7c572dd51188a` [fix(meta): use per table mce and safe epoch in metadata backup (#17227)](https://github.com/risingwavelabs/risingwave/pull/17227)
 - `4d32c189e785b00c058d5ff89b7e728445a2af26` [chore: update tokio 0.2.24 to 0.2 (#17233)](https://github.com/risingwavelabs/risingwave/pull/17233)
