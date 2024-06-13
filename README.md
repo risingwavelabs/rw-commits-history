@@ -267,6 +267,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `32a1129da3a9d84d201ffb9a01b89976889e3a76` [fix(compactor):  Compactor potential oom risk of builder (#16802)](https://github.com/risingwavelabs/risingwave/pull/16802)
 - `13cdd9525791968624f93459e681b0ae2fd995ab` [feat(storage): remove magic number MAX_COMPACT_LEVEL_COUNT (#17219)](https://github.com/risingwavelabs/risingwave/pull/17219)
 - `9abdbc9329f7108213264fc247906bfc07b39541` [chore(ci): remove obsolete version property from docker compose configs (#16566)](https://github.com/risingwavelabs/risingwave/pull/16566)
 - `3e1ee0d78d4a97d6c23830c198d242233a53264b` [fix(meta): include secrets in metadata backup (#17225)](https://github.com/risingwavelabs/risingwave/pull/17225)
