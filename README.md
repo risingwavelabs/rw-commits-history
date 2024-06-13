@@ -266,6 +266,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `41fe5010ba764506b1913e63c4eadc900543e8b8` [fix(jdbc-sink): set network timeout (#17244)](https://github.com/risingwavelabs/risingwave/pull/17244)
+- `679d90ec09dc3e731245c209908bf626b268343f` [feat(over window): frontend support for session frame (#17098)](https://github.com/risingwavelabs/risingwave/pull/17098)
+- `5f41f27f7992b9cb90bbb5c5a867980c59598974` [ci: make stale bot more kind (#17230)](https://github.com/risingwavelabs/risingwave/pull/17230)
+- `cccf946239ec8d2ea656a83ba85d3210b675b6b1` [feat(storage): store compaction group id in per table info (#17125)](https://github.com/risingwavelabs/risingwave/pull/17125)
+- `b2e1d15e2eb8bfe6e648f5d7ae5752260940ecb4` [refactor(streaming): refine sink await-tree (#17242)](https://github.com/risingwavelabs/risingwave/pull/17242)
 - `a3da000942cc1616d12c5463106baee7beacbf38` [feat(over window): WindowBuffer support for session window (#17067)](https://github.com/risingwavelabs/risingwave/pull/17067)
 - `2c6f7c3d420f5d7a4938d4bb78b33dd845e72989` [fix(stream): fix temporal join append only property (#17239)](https://github.com/risingwavelabs/risingwave/pull/17239)
 - `3b823d0175080be867751b486dc7c572dd51188a` [fix(meta): use per table mce and safe epoch in metadata backup (#17227)](https://github.com/risingwavelabs/risingwave/pull/17227)
