@@ -266,6 +266,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2c6f7c3d420f5d7a4938d4bb78b33dd845e72989` [fix(stream): fix temporal join append only property (#17239)](https://github.com/risingwavelabs/risingwave/pull/17239)
+- `3b823d0175080be867751b486dc7c572dd51188a` [fix(meta): use per table mce and safe epoch in metadata backup (#17227)](https://github.com/risingwavelabs/risingwave/pull/17227)
+- `4d32c189e785b00c058d5ff89b7e728445a2af26` [chore: update tokio 0.2.24 to 0.2 (#17233)](https://github.com/risingwavelabs/risingwave/pull/17233)
 - `c2b0ead320066e78af8aadfff94c3ccf40c42be2` [chore: bump mysql java library (#17234)](https://github.com/risingwavelabs/risingwave/pull/17234)
 - `759b2228fa4f556d281814afc4842cdd8ba9c23c` [refactor(storage): refactor compaction group manager txn (#17070)](https://github.com/risingwavelabs/risingwave/pull/17070)
 - `a59356f6f8ea3c75bad79b05cf7c39240cb79753` [feat(catalog): add `rw_catalog.actor_id_to_ddl`, `rw_catalog.fragment_id_to_ddl` (#17229)](https://github.com/risingwavelabs/risingwave/pull/17229)
