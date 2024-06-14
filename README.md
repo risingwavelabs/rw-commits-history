@@ -267,6 +267,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9` [feat(sink): support `format plain encode avro` for kafka (#17216)](https://github.com/risingwavelabs/risingwave/pull/17216)
 
 ## nightly-20240614
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/41fe5010ba764506b1913e63c4eadc900543e8b8...74ca765c213362c1ef889252ff0f750bd0d5e1f9)
