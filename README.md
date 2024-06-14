@@ -267,6 +267,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1670f945b99aeec81bef5d0e4f41a06bd2e4c316` [fix(test): fix regex (#17249)](https://github.com/risingwavelabs/risingwave/pull/17249)
 - `fa50276e577144d4a9de5b1489ee1d047c3072ba` [ci: add a github action to ensure no package version regression (#17253)](https://github.com/risingwavelabs/risingwave/pull/17253)
 - `c02359b5a9d2e0b4049010c062f6e6ec4c798796` [fix(metrocs): fix hybrid cache hit ratio by upgrading foyer (#17251)](https://github.com/risingwavelabs/risingwave/pull/17251)
 - `8ebe2b773b55515f243d49b40bd8d8a42ccb703c` [chore: update Cargo workspace package version to 1.10.0-alpha (#17248)](https://github.com/risingwavelabs/risingwave/pull/17248)
