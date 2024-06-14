@@ -267,6 +267,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `74ca765c213362c1ef889252ff0f750bd0d5e1f9` [fix(compactor): fix unschedule groups (#17258)](https://github.com/risingwavelabs/risingwave/pull/17258)
+- `39e79db0629e845b8f96ac715c04aaf159363f24` [feat(diagnosis): Dump JVM stack trace in await-tree-dump (#17254)](https://github.com/risingwavelabs/risingwave/pull/17254)
+- `43d9f436c7662e3e859d30766658b34e7a51429b` [chore: update docker image version to v1.9.1 (#17257)](https://github.com/risingwavelabs/risingwave/pull/17257)
 - `1670f945b99aeec81bef5d0e4f41a06bd2e4c316` [fix(test): fix regex (#17249)](https://github.com/risingwavelabs/risingwave/pull/17249)
 - `fa50276e577144d4a9de5b1489ee1d047c3072ba` [ci: add a github action to ensure no package version regression (#17253)](https://github.com/risingwavelabs/risingwave/pull/17253)
 - `c02359b5a9d2e0b4049010c062f6e6ec4c798796` [fix(metrocs): fix hybrid cache hit ratio by upgrading foyer (#17251)](https://github.com/risingwavelabs/risingwave/pull/17251)
