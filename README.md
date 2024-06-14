@@ -267,6 +267,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fa50276e577144d4a9de5b1489ee1d047c3072ba` [ci: add a github action to ensure no package version regression (#17253)](https://github.com/risingwavelabs/risingwave/pull/17253)
+- `c02359b5a9d2e0b4049010c062f6e6ec4c798796` [fix(metrocs): fix hybrid cache hit ratio by upgrading foyer (#17251)](https://github.com/risingwavelabs/risingwave/pull/17251)
 - `8ebe2b773b55515f243d49b40bd8d8a42ccb703c` [chore: update Cargo workspace package version to 1.10.0-alpha (#17248)](https://github.com/risingwavelabs/risingwave/pull/17248)
 - `5c24685b79735432f184d62854b6498a3575cc4b` [feat(sink): enable sink_decouple by default for kafka, pulsar, kinesis, google pubsub, nats, mqtt clickhouse (#17221)](https://github.com/risingwavelabs/risingwave/pull/17221)
 
