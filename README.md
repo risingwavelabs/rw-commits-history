@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240614` `74ca765c213362c1ef889252ff0f750bd0d5e1f9`
 - `20240613` `41fe5010ba764506b1913e63c4eadc900543e8b8`
 - `20240612` `d488f652ed9d0dbea75a14245b664e0a392d9547`
 - `20240611` `daa1c42c9966978de570968a7f5b56523050a7b1`
@@ -266,6 +267,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240614
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/41fe5010ba764506b1913e63c4eadc900543e8b8...74ca765c213362c1ef889252ff0f750bd0d5e1f9)
 - `74ca765c213362c1ef889252ff0f750bd0d5e1f9` [fix(compactor): fix unschedule groups (#17258)](https://github.com/risingwavelabs/risingwave/pull/17258)
 - `39e79db0629e845b8f96ac715c04aaf159363f24` [feat(diagnosis): Dump JVM stack trace in await-tree-dump (#17254)](https://github.com/risingwavelabs/risingwave/pull/17254)
 - `43d9f436c7662e3e859d30766658b34e7a51429b` [chore: update docker image version to v1.9.1 (#17257)](https://github.com/risingwavelabs/risingwave/pull/17257)
