@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240615` `ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9`
 - `20240614` `74ca765c213362c1ef889252ff0f750bd0d5e1f9`
 - `20240613` `41fe5010ba764506b1913e63c4eadc900543e8b8`
 - `20240612` `d488f652ed9d0dbea75a14245b664e0a392d9547`
@@ -266,6 +267,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240615
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/74ca765c213362c1ef889252ff0f750bd0d5e1f9...ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9)
 - `ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9` [feat(sink): support `format plain encode avro` for kafka (#17216)](https://github.com/risingwavelabs/risingwave/pull/17216)
 
 ## nightly-20240614
