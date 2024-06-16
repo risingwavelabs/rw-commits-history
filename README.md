@@ -258,7 +258,6 @@
 - `20230824` `eedc3040d9598dd0413ce81d6f74f2a495babf3e`
 - `20230823` `12d2f28b7d84f72af62f4c2785f6bb5e23e43510`
 - `20230822` `b04d1df5e878f19dd580e169192bd90996b9a8ff`
-- `20230821` `e0d5a7f67be5e9c7a9ce7b91af782c20220a7759`
 </details>
 
 # Commit history
@@ -3775,21 +3774,4 @@
 - `151ffd2ac21f8d0b260b4dc38ba3772cf8324b24` [chore: Rename iceberg_v2 as iceberg (#11824)](https://github.com/risingwavelabs/risingwave/pull/11824)
 
 ## nightly-20230822
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e0d5a7f67be5e9c7a9ce7b91af782c20220a7759...b04d1df5e878f19dd580e169192bd90996b9a8ff)
 - `b04d1df5e878f19dd580e169192bd90996b9a8ff` [refactor(compaction): extract reporting progress of vacuum task (#11835)](https://github.com/risingwavelabs/risingwave/pull/11835)
-- `681d67e224b45d415e23973059d78da4dfb12285` [fix: wait for bootstrap recovery to finish to fix flaky drop mview test (#11811)](https://github.com/risingwavelabs/risingwave/pull/11811)
-- `586bb0d90a1b9f6d750fd73625514fda8ea306a4` [chore(deps): bump tempfile from 3.7.1 to 3.8.0 (#11818)](https://github.com/risingwavelabs/risingwave/pull/11818)
-- `09294c0ae3d5304f217aaa36ead2a0f194408c25` [refactor(compaction): decouple compact running functions with compactor struct (#11777)](https://github.com/risingwavelabs/risingwave/pull/11777)
-- `eba0646fd3a6db87e09859899f62a18c16bf744f` [chore: refine log & timeout in SourceManager (#11829)](https://github.com/risingwavelabs/risingwave/pull/11829)
-- `474b44aaa26865ab4a17834782fa55fd00a5f4db` [fix(frontend/handler): forbid unknown language in function creation (#11830)](https://github.com/risingwavelabs/risingwave/pull/11830)
-- `fc8c52924fa12510a3d47783094a4346d5308121` [fix(value_encoding): incorrect default value handling in column-aware encoding (#11827)](https://github.com/risingwavelabs/risingwave/pull/11827)
-- `7b0ec5a545965a665885ea005fa896d6556747f6` [fix(test): update expected value in assertion (#11820)](https://github.com/risingwavelabs/risingwave/pull/11820)
-- `b3b8efe804d4c38d0781789d16f2c78f88721eb2` [fix(ci): sqllogictest error cause is not shown (#11814)](https://github.com/risingwavelabs/risingwave/pull/11814)
-- `f8aa1a37057e5e38edfce1b56c9ab20b9f6b44dc` [chore(ci): improve error message for failing fuzz test (#11784)](https://github.com/risingwavelabs/risingwave/pull/11784)
-- `6bbacf2e333a0bccd896a262722155e293b7a329` [feat(storage): seperate trivial-move picker (#11806)](https://github.com/risingwavelabs/risingwave/pull/11806)
-- `97bb31989e75f0a729bb19852552af2146d72da3` [chore(deps): bump postgres-types from 0.2.5 to 0.2.6 (#11803)](https://github.com/risingwavelabs/risingwave/pull/11803)
-- `df1dc9be03a8a4a1c33c26aff06e752a4a4a4da7` [feat(expr): `to_char` supports `timestamptz` input (#11778)](https://github.com/risingwavelabs/risingwave/pull/11778)
-- `1ac88758caedbdd9944bff26ae21cfc7cce080db` [chore(deps): bump serde from 1.0.183 to 1.0.185 (#11802)](https://github.com/risingwavelabs/risingwave/pull/11802)
-
-## nightly-20230821
-- `e0d5a7f67be5e9c7a9ce7b91af782c20220a7759` [chore: fmt let-else (#11810)](https://github.com/risingwavelabs/risingwave/pull/11810)
