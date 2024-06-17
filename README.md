@@ -266,6 +266,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b2bd5a9dbe21d44063ddc28fe45fd6e3b3a793f5` [feat(metrics): add metrics for batch spilling (#17259)](https://github.com/risingwavelabs/risingwave/pull/17259)
 - `955047cb31c7168d4faa86a53676fd4a582839ea` [chore: update package version to 1.11.0-alpha (#17268)](https://github.com/risingwavelabs/risingwave/pull/17268)
 
 ## nightly-20240616
