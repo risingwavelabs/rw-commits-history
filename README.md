@@ -265,6 +265,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1b8a56373495b9602f2d892ef85e3d2825929f34` [feat(object store): introduce object prefix for opendal object store (#16542)](https://github.com/risingwavelabs/risingwave/pull/16542)
+- `e34c83b4c63ebefd7a4b292fb02e952c2db9909f` [feat(expr): add function `pg_index_column_has_property` (#17275)](https://github.com/risingwavelabs/risingwave/pull/17275)
 - `9274ebc630d00d7c5909a58a12221d19647dd2b2` [chore: update migration doc, add DATABASE_URL env example (#17276)](https://github.com/risingwavelabs/risingwave/pull/17276)
 - `adf465ab5e62201be5ca50fa17d8b22db3fb139a` [fix(meta): purge hummock state table after pre apply drop command (#17274)](https://github.com/risingwavelabs/risingwave/pull/17274)
 - `dfbce1bb04301b82e64c39c49cd9457b1e17b6a1` [feat: expose PK info in index system catalog (#17262)](https://github.com/risingwavelabs/risingwave/pull/17262)
