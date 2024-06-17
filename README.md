@@ -256,7 +256,6 @@
 - `20230826` `144688c25b47f0aff199b43629a348c0dd669d2c`
 - `20230825` `03e92dc21391b4aed251a07489faa44a75f7e8af`
 - `20230824` `eedc3040d9598dd0413ce81d6f74f2a495babf3e`
-- `20230823` `12d2f28b7d84f72af62f4c2785f6bb5e23e43510`
 </details>
 
 # Commit history
@@ -3763,13 +3762,4 @@
 - `9c89aa0fefa9409f362a3ebf4a436fb7203f06a4` [chore(ci): bump flamegraph gen timeout (#11886)](https://github.com/risingwavelabs/risingwave/pull/11886)
 
 ## nightly-20230824
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/12d2f28b7d84f72af62f4c2785f6bb5e23e43510...eedc3040d9598dd0413ce81d6f74f2a495babf3e)
 - `eedc3040d9598dd0413ce81d6f74f2a495babf3e` [chore(deps): bump simd-json from 0.10.5 to 0.10.6 (#11857)](https://github.com/risingwavelabs/risingwave/pull/11857)
-- `c49e49d62534c2d8bd66e91b7edb1cee438114a7` [chore(check): `egrep` -> `grep -E` (#11870)](https://github.com/risingwavelabs/risingwave/pull/11870)
-- `3b7d67b90ea891fa596cb85055c253215cec9cec` [feat: support show and cancel jobs syntax (#11854)](https://github.com/risingwavelabs/risingwave/pull/11854)
-- `4d1a8e945f2dae29b68f509c90ccb4f03cdefd12` [feat: support alter source add column (#11350)](https://github.com/risingwavelabs/risingwave/pull/11350)
-- `451c3873ff2fc713fca3214e88aba94e3154ce61` [feat(frontend): change index default distributed by columns (#11865)](https://github.com/risingwavelabs/risingwave/pull/11865)
-- `181953d149dc7da17f63678c97c0e960f37d6b7e` [chore(deps): bump dashmap from 5.5.0 to 5.5.1 (#11841)](https://github.com/risingwavelabs/risingwave/pull/11841)
-
-## nightly-20230823
-- `12d2f28b7d84f72af62f4c2785f6bb5e23e43510` [fix(json parser): fill None when parse error (#11845)](https://github.com/risingwavelabs/risingwave/pull/11845)
