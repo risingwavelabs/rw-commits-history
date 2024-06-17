@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `32ecc0cd044a1837bded29e9600f3cd8ae21d241` [test(connector): add integration test for sql server sink (#17280)](https://github.com/risingwavelabs/risingwave/pull/17280)
 
 ## nightly-20240617
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9...e4dea80cb82fa7c4277f9209cfb462f226acabd5)
