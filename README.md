@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240617` `e4dea80cb82fa7c4277f9209cfb462f226acabd5`
 - `20240616` `ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9`
 - `20240614` `74ca765c213362c1ef889252ff0f750bd0d5e1f9`
 - `20240613` `41fe5010ba764506b1913e63c4eadc900543e8b8`
@@ -264,6 +265,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240617
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9...e4dea80cb82fa7c4277f9209cfb462f226acabd5)
 - `e4dea80cb82fa7c4277f9209cfb462f226acabd5` [fix(test): fix cassandra sink error (#17148)](https://github.com/risingwavelabs/risingwave/pull/17148)
 - `1b8a56373495b9602f2d892ef85e3d2825929f34` [feat(object store): introduce object prefix for opendal object store (#16542)](https://github.com/risingwavelabs/risingwave/pull/16542)
 - `e34c83b4c63ebefd7a4b292fb02e952c2db9909f` [feat(expr): add function `pg_index_column_has_property` (#17275)](https://github.com/risingwavelabs/risingwave/pull/17275)
