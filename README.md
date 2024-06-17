@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d555b5c11b6c540abe356454f3409b30a8fb43a6` [fix(migration): use correct type I32Array instead of Vec<i32> (#17282)](https://github.com/risingwavelabs/risingwave/pull/17282)
 - `b6f8f46b8f1901fb2b00da53a88a62d766057b0e` [chore: upgrade chrono to 0.4.38 (#17279)](https://github.com/risingwavelabs/risingwave/pull/17279)
 - `8bea264b3f63d22a8134e7a8355c8b9db3d9b976` [refactor(meta): maintain fragment actor and table info in barrier manager (#17192)](https://github.com/risingwavelabs/risingwave/pull/17192)
 - `32ecc0cd044a1837bded29e9600f3cd8ae21d241` [test(connector): add integration test for sql server sink (#17280)](https://github.com/risingwavelabs/risingwave/pull/17280)
