@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5255c16d3dc4ef21b056f1be12c8fba6291c4cad` [feat(storage): support data chunk iter in storage table (#17205)](https://github.com/risingwavelabs/risingwave/pull/17205)
 - `b2bd5a9dbe21d44063ddc28fe45fd6e3b3a793f5` [feat(metrics): add metrics for batch spilling (#17259)](https://github.com/risingwavelabs/risingwave/pull/17259)
 - `955047cb31c7168d4faa86a53676fd4a582839ea` [chore: update package version to 1.11.0-alpha (#17268)](https://github.com/risingwavelabs/risingwave/pull/17268)
 
