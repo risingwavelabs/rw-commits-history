@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e4dea80cb82fa7c4277f9209cfb462f226acabd5` [fix(test): fix cassandra sink error (#17148)](https://github.com/risingwavelabs/risingwave/pull/17148)
 - `1b8a56373495b9602f2d892ef85e3d2825929f34` [feat(object store): introduce object prefix for opendal object store (#16542)](https://github.com/risingwavelabs/risingwave/pull/16542)
 - `e34c83b4c63ebefd7a4b292fb02e952c2db9909f` [feat(expr): add function `pg_index_column_has_property` (#17275)](https://github.com/risingwavelabs/risingwave/pull/17275)
 - `9274ebc630d00d7c5909a58a12221d19647dd2b2` [chore: update migration doc, add DATABASE_URL env example (#17276)](https://github.com/risingwavelabs/risingwave/pull/17276)
