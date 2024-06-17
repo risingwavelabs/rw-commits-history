@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8bea264b3f63d22a8134e7a8355c8b9db3d9b976` [refactor(meta): maintain fragment actor and table info in barrier manager (#17192)](https://github.com/risingwavelabs/risingwave/pull/17192)
 - `32ecc0cd044a1837bded29e9600f3cd8ae21d241` [test(connector): add integration test for sql server sink (#17280)](https://github.com/risingwavelabs/risingwave/pull/17280)
 
 ## nightly-20240617
