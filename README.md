@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `955cbb9d2d6e386f499ad494c8156a3a3d68820e` [perf(sink): don't compact chunk for blackhole sink (#17167)](https://github.com/risingwavelabs/risingwave/pull/17167)
 - `d5e10d830e0dd03cb51d8e46f4277b20ffb75c9e` [fix(secret): add a secret ref column to source (#17269)](https://github.com/risingwavelabs/risingwave/pull/17269)
 - `d555b5c11b6c540abe356454f3409b30a8fb43a6` [fix(migration): use correct type I32Array instead of Vec<i32> (#17282)](https://github.com/risingwavelabs/risingwave/pull/17282)
 - `b6f8f46b8f1901fb2b00da53a88a62d766057b0e` [chore: upgrade chrono to 0.4.38 (#17279)](https://github.com/risingwavelabs/risingwave/pull/17279)
