@@ -264,6 +264,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `35d3f492483c821ac43353a6e89ee696e280b9d7` [feat(sink): refator es sink to support opensearch  (#16330)](https://github.com/risingwavelabs/risingwave/pull/16330)
+- `4c44f084c016c2dc74ed4ddd4f480a4eb8af9b06` [refactor(batch): support merge sort executor (#17306)](https://github.com/risingwavelabs/risingwave/pull/17306)
+- `e51105196444b919fc8f4ced0012cd3ccf9f626f` [feat(connector): support avro default nan/inf/-inf (#17309)](https://github.com/risingwavelabs/risingwave/pull/17309)
 - `ab1c71b51ee93b779b120978ff461e361aeafa34` [feat(sink): support columns subset for cassandra and doris sink (#16821)](https://github.com/risingwavelabs/risingwave/pull/16821)
 - `fbb597f22cf3e0a2f2e0b55d38a736dbc738fa3d` [fix(sink): add bigquery append_rows retry times (#17237)](https://github.com/risingwavelabs/risingwave/pull/17237)
 - `dec1c4f0d8e9400b98888e923f941e9b54d40c3e` [fix(ctl): fix sst_dump (#17302)](https://github.com/risingwavelabs/risingwave/pull/17302)
