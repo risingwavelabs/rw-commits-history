@@ -264,6 +264,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ee0674314d3d131a9f681be40b008e65f4859f3a` [fix(jdbc-sink): relax the check for UPDATE_DELETE op (#17289)](https://github.com/risingwavelabs/risingwave/pull/17289)
+- `ade66c7faede483a85b7213df58cdd84368bf50d` [refactor(storage): deserialize output columns only (#17260)](https://github.com/risingwavelabs/risingwave/pull/17260)
+- `c1b3f5a46645a1ad0de33279e622c78efa1946c5` [chore: remove the object_store prefix in the object store config naming (#17290)](https://github.com/risingwavelabs/risingwave/pull/17290)
+- `ba80ab6b2767472928b35caeee64dccbbdd56bc2` [feat(optimizer): grow stack for complicated plan in more places (#17224)](https://github.com/risingwavelabs/risingwave/pull/17224)
 - `4e5a73125ecb568acac05743806f7234b812f0fe` [chore: add e2e test for iceberg source scan (#17281)](https://github.com/risingwavelabs/risingwave/pull/17281)
 - `955cbb9d2d6e386f499ad494c8156a3a3d68820e` [perf(sink): don't compact chunk for blackhole sink (#17167)](https://github.com/risingwavelabs/risingwave/pull/17167)
 - `d5e10d830e0dd03cb51d8e46f4277b20ffb75c9e` [fix(secret): add a secret ref column to source (#17269)](https://github.com/risingwavelabs/risingwave/pull/17269)
