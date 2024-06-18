@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b786edc187acd7b226ac4b7b6f09639d24672092` [feat: upgrade to opendal 0.47 in object store (#17198)](https://github.com/risingwavelabs/risingwave/pull/17198)
 - `3c4daa8dabb6e7df62eb656bdd68aff6bb1b06b1` [fix(mysql-cdc): validate column names in case-insensitive way (#17310)](https://github.com/risingwavelabs/risingwave/pull/17310)
 
 ## nightly-20240618
