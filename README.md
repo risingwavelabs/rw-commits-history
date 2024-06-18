@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240618` `35d3f492483c821ac43353a6e89ee696e280b9d7`
 - `20240617` `e4dea80cb82fa7c4277f9209cfb462f226acabd5`
 - `20240616` `ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9`
 - `20240614` `74ca765c213362c1ef889252ff0f750bd0d5e1f9`
@@ -264,6 +265,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3c4daa8dabb6e7df62eb656bdd68aff6bb1b06b1` [fix(mysql-cdc): validate column names in case-insensitive way (#17310)](https://github.com/risingwavelabs/risingwave/pull/17310)
+
+## nightly-20240618
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e4dea80cb82fa7c4277f9209cfb462f226acabd5...35d3f492483c821ac43353a6e89ee696e280b9d7)
 - `35d3f492483c821ac43353a6e89ee696e280b9d7` [feat(sink): refator es sink to support opensearch  (#16330)](https://github.com/risingwavelabs/risingwave/pull/16330)
 - `4c44f084c016c2dc74ed4ddd4f480a4eb8af9b06` [refactor(batch): support merge sort executor (#17306)](https://github.com/risingwavelabs/risingwave/pull/17306)
 - `e51105196444b919fc8f4ced0012cd3ccf9f626f` [feat(connector): support avro default nan/inf/-inf (#17309)](https://github.com/risingwavelabs/risingwave/pull/17309)
