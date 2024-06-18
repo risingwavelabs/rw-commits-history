@@ -264,6 +264,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ab1c71b51ee93b779b120978ff461e361aeafa34` [feat(sink): support columns subset for cassandra and doris sink (#16821)](https://github.com/risingwavelabs/risingwave/pull/16821)
+- `fbb597f22cf3e0a2f2e0b55d38a736dbc738fa3d` [fix(sink): add bigquery append_rows retry times (#17237)](https://github.com/risingwavelabs/risingwave/pull/17237)
 - `dec1c4f0d8e9400b98888e923f941e9b54d40c3e` [fix(ctl): fix sst_dump (#17302)](https://github.com/risingwavelabs/risingwave/pull/17302)
 - `4ef16c57253e0a8edc701b12c084547967f5dc73` [chore: install cherry pick action for v1.10 (#17301)](https://github.com/risingwavelabs/risingwave/pull/17301)
 - `ee0674314d3d131a9f681be40b008e65f4859f3a` [fix(jdbc-sink): relax the check for UPDATE_DELETE op (#17289)](https://github.com/risingwavelabs/risingwave/pull/17289)
