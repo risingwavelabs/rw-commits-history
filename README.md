@@ -264,6 +264,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dec1c4f0d8e9400b98888e923f941e9b54d40c3e` [fix(ctl): fix sst_dump (#17302)](https://github.com/risingwavelabs/risingwave/pull/17302)
+- `4ef16c57253e0a8edc701b12c084547967f5dc73` [chore: install cherry pick action for v1.10 (#17301)](https://github.com/risingwavelabs/risingwave/pull/17301)
 - `ee0674314d3d131a9f681be40b008e65f4859f3a` [fix(jdbc-sink): relax the check for UPDATE_DELETE op (#17289)](https://github.com/risingwavelabs/risingwave/pull/17289)
 - `ade66c7faede483a85b7213df58cdd84368bf50d` [refactor(storage): deserialize output columns only (#17260)](https://github.com/risingwavelabs/risingwave/pull/17260)
 - `c1b3f5a46645a1ad0de33279e622c78efa1946c5` [chore: remove the object_store prefix in the object store config naming (#17290)](https://github.com/risingwavelabs/risingwave/pull/17290)
