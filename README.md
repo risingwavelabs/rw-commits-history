@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240619` `084e4c6e850d4afd45cc02c8e08d58b77863fcf8`
 - `20240618` `35d3f492483c821ac43353a6e89ee696e280b9d7`
 - `20240617` `e4dea80cb82fa7c4277f9209cfb462f226acabd5`
 - `20240616` `ac7abd96d74de4fac9cd9f7a4aedc42d1856d9f9`
@@ -261,6 +262,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2a413ff68af5bbaabcfee3b60f7c70a33f6e529e` [fix(source): fix panic for `ALTER SOURCE` with schema registry (#17293)](https://github.com/risingwavelabs/risingwave/pull/17293)
+
+## nightly-20240619
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/35d3f492483c821ac43353a6e89ee696e280b9d7...084e4c6e850d4afd45cc02c8e08d58b77863fcf8)
 - `084e4c6e850d4afd45cc02c8e08d58b77863fcf8` [fix(storage): remove cancel tasks verbose log (#17345)](https://github.com/risingwavelabs/risingwave/pull/17345)
 - `3fdb12e7f4a469f95bfdbf3a71a721e56f984987` [feat(meta): compress the encoded model if it's too large in kv meta store (#17315)](https://github.com/risingwavelabs/risingwave/pull/17315)
 - `2da197c4ec9f9155e322622307865a7e56a3e91d` [doc(common): fix `enable_arrangement_backfill` docs (#17344)](https://github.com/risingwavelabs/risingwave/pull/17344)
