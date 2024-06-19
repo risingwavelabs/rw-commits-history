@@ -253,7 +253,6 @@
 - `20230831` `96a49f7ce3aee6fe11d4467081fadd396af6efff`
 - `20230830` `15f4fdd48de1c573a4c221c8fe5797a92dbe481c`
 - `20230829` `88f502c9cbe183772c10eb8a3adec698a526a4cd`
-- `20230828` `5818f62f6a1c8001f371db4c4e74534a505a10cd`
 </details>
 
 # Commit history
@@ -262,6 +261,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4155c62c7cfffa73840748d05e183be057d947df` [chore(ci): fix sqlserver labels (#17300)](https://github.com/risingwavelabs/risingwave/pull/17300)
 - `8735194f600febf58aa09b6b89d5fc474b39c448` [chore(deps): Bump ws from 8.8.1 to 8.17.1 in /dashboard (#17304)](https://github.com/risingwavelabs/risingwave/pull/17304)
 - `cb0776887a6ea98aedf432da232b8026ee5213cd` [fix: fix type mismatch of compressed_binary column in function table (#17312)](https://github.com/risingwavelabs/risingwave/pull/17312)
 - `b9d7511c83c0bb0ed2a2c379b327ea7cb0e0bb5b` [feat(sink): Support Mongodb sink (#17102)](https://github.com/risingwavelabs/risingwave/pull/17102)
@@ -3744,17 +3744,4 @@
 - `1809a4970c48cc214217a013d9e3ff7408c9b8a5` [feat(streaming): flow control executor (#11919)](https://github.com/risingwavelabs/risingwave/pull/11919)
 
 ## nightly-20230829
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5818f62f6a1c8001f371db4c4e74534a505a10cd...88f502c9cbe183772c10eb8a3adec698a526a4cd)
 - `88f502c9cbe183772c10eb8a3adec698a526a4cd` [refactor(state-table): Avoid exposing vnode-prefixed key in state table iter API (#11880)](https://github.com/risingwavelabs/risingwave/pull/11880)
-- `955254c731b80350075fe0c95de575702da8d589` [chore(config): set default visibility_mode to checkpoint for frontend (#11925)](https://github.com/risingwavelabs/risingwave/pull/11925)
-- `957e3662793cdf778a95d0f5831b8f9ecee5feaa` [refactor(object storage): do not pass root to object storage (#11757)](https://github.com/risingwavelabs/risingwave/pull/11757)
-- `fff2cf872d9c2db137837ab8a0b2eb2438231f99` [chore: bump foyer (#11930)](https://github.com/risingwavelabs/risingwave/pull/11930)
-- `2d656b29737fe227221fa6e83a3823a279fac1e0` [refactor(metric): support storage metric level (#11895)](https://github.com/risingwavelabs/risingwave/pull/11895)
-- `61ab2cd61a50c96891af1077590b977e837e6d5a` [feat(source): support json schema (#11797)](https://github.com/risingwavelabs/risingwave/pull/11797)
-- `5484b07f7ec35a1e3f9bc4516128a8959892e341` [chore(deps): bump pin-project-lite from 0.2.12 to 0.2.13 (#11920)](https://github.com/risingwavelabs/risingwave/pull/11920)
-- `40a2c90e4b3c8efaf15ca9ae2741d5cf0b56e34d` [fix(optimizer): common sub-expression extraction on special exprs (#11917)](https://github.com/risingwavelabs/risingwave/pull/11917)
-- `f19e4d3f8c30e2c576b4acedd96f053cd2fc2811` [fix(ci): wait for standalone cluster to restart (#11907)](https://github.com/risingwavelabs/risingwave/pull/11907)
-- `dfb6e2c192ea0fc3d688532726c0abb17cf6a017` [fix(test): fix unclean metrics state in deterministic unit test (#11918)](https://github.com/risingwavelabs/risingwave/pull/11918)
-
-## nightly-20230828
-- `5818f62f6a1c8001f371db4c4e74534a505a10cd` [feat: ReplaceTable supports replacing downstream (#11913)](https://github.com/risingwavelabs/risingwave/pull/11913)
