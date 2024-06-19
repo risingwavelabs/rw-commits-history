@@ -254,7 +254,6 @@
 - `20230830` `15f4fdd48de1c573a4c221c8fe5797a92dbe481c`
 - `20230829` `88f502c9cbe183772c10eb8a3adec698a526a4cd`
 - `20230828` `5818f62f6a1c8001f371db4c4e74534a505a10cd`
-- `20230827` `29274576d3fe79621ad3eafaf119f78031d0633b`
 </details>
 
 # Commit history
@@ -3758,14 +3757,4 @@
 - `dfb6e2c192ea0fc3d688532726c0abb17cf6a017` [fix(test): fix unclean metrics state in deterministic unit test (#11918)](https://github.com/risingwavelabs/risingwave/pull/11918)
 
 ## nightly-20230828
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29274576d3fe79621ad3eafaf119f78031d0633b...5818f62f6a1c8001f371db4c4e74534a505a10cd)
 - `5818f62f6a1c8001f371db4c4e74534a505a10cd` [feat: ReplaceTable supports replacing downstream (#11913)](https://github.com/risingwavelabs/risingwave/pull/11913)
-- `7bbc7c971398f9125f81100b50c4aa518276e3e9` [fix(cdc): fix mysql privilege check and add test (#11916)](https://github.com/risingwavelabs/risingwave/pull/11916)
-- `7264c8ff284cf23c9af2b8361e83123dba6ed075` [feat(integration_tests): Add Clickhouse sink integration_tests (#11786)](https://github.com/risingwavelabs/risingwave/pull/11786)
-- `9acfac97f7e93b755c615f2550cdf87d809645b5` [feat: add new props `client.id` for kafka (#11911)](https://github.com/risingwavelabs/risingwave/pull/11911)
-- `4746016469e4200d20bf83438d330b5d70636f12` [refactor(metrics): store all metrics and metrics registry as global variables (#11812)](https://github.com/risingwavelabs/risingwave/pull/11812)
-- `8f973b2b129658aad8fc28b9bd80ac47538ef36f` [refactor(metric): slim down storage metric size (#11843)](https://github.com/risingwavelabs/risingwave/pull/11843)
-- `588f2901bdbce3037099ace5c8a9120c88086e85` [refactor(storage): checked u32 conversion during block building (#11734)](https://github.com/risingwavelabs/risingwave/pull/11734)
-
-## nightly-20230827
-- `29274576d3fe79621ad3eafaf119f78031d0633b` [chore(deps): bump nix from 0.25.1 to 0.26.2 (#11031)](https://github.com/risingwavelabs/risingwave/pull/11031)
