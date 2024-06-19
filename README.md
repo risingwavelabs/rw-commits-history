@@ -263,6 +263,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8735194f600febf58aa09b6b89d5fc474b39c448` [chore(deps): Bump ws from 8.8.1 to 8.17.1 in /dashboard (#17304)](https://github.com/risingwavelabs/risingwave/pull/17304)
+- `cb0776887a6ea98aedf432da232b8026ee5213cd` [fix: fix type mismatch of compressed_binary column in function table (#17312)](https://github.com/risingwavelabs/risingwave/pull/17312)
+- `b9d7511c83c0bb0ed2a2c379b327ea7cb0e0bb5b` [feat(sink): Support Mongodb sink (#17102)](https://github.com/risingwavelabs/risingwave/pull/17102)
 - `73099567ae7b0e03606e4994208f1b1eed6944ef` [refactor: move SecretRef to secret.proto (#17330)](https://github.com/risingwavelabs/risingwave/pull/17330)
 - `9bea5f370d4b6afc1d5d6b7401cf7b36b1e36f2b` [fix: make cherry-pick pr title checker more tolerant (#17328)](https://github.com/risingwavelabs/risingwave/pull/17328)
 - `7ad8edc4c08625f85e6f7a62e16c2f40f720a0e9` [chore(deps): Bump curve25519-dalek from 4.1.2 to 4.1.3 (#17324)](https://github.com/risingwavelabs/risingwave/pull/17324)
