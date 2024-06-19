@@ -261,6 +261,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `084e4c6e850d4afd45cc02c8e08d58b77863fcf8` [fix(storage): remove cancel tasks verbose log (#17345)](https://github.com/risingwavelabs/risingwave/pull/17345)
+- `3fdb12e7f4a469f95bfdbf3a71a721e56f984987` [feat(meta): compress the encoded model if it's too large in kv meta store (#17315)](https://github.com/risingwavelabs/risingwave/pull/17315)
+- `2da197c4ec9f9155e322622307865a7e56a3e91d` [doc(common): fix `enable_arrangement_backfill` docs (#17344)](https://github.com/risingwavelabs/risingwave/pull/17344)
 - `4155c62c7cfffa73840748d05e183be057d947df` [chore(ci): fix sqlserver labels (#17300)](https://github.com/risingwavelabs/risingwave/pull/17300)
 - `8735194f600febf58aa09b6b89d5fc474b39c448` [chore(deps): Bump ws from 8.8.1 to 8.17.1 in /dashboard (#17304)](https://github.com/risingwavelabs/risingwave/pull/17304)
 - `cb0776887a6ea98aedf432da232b8026ee5213cd` [fix: fix type mismatch of compressed_binary column in function table (#17312)](https://github.com/risingwavelabs/risingwave/pull/17312)
