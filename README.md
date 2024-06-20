@@ -263,6 +263,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4a25f0141d5acfe01f971b33207aa211b1d264ee` [chore(deps): Bump console-subscriber from 0.2.0 to 0.3.0 (#17191)](https://github.com/risingwavelabs/risingwave/pull/17191)
 - `af8f9a5815388c6d3147bebda77a1830a05f8c7e` [refactor: move some sink param determined in new (#17373)](https://github.com/risingwavelabs/risingwave/pull/17373)
 - `7585609719fabe707160d95dfc24b2880509da63` [feat(batch): support spilling for the batch sort executor (#17362)](https://github.com/risingwavelabs/risingwave/pull/17362)
 
