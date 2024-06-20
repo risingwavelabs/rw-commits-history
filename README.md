@@ -262,6 +262,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7df77a465af1dcd6ff1f7a477677ea9a9923e982` [fix: Fix the panic during parallel unit mapping conversion. (#17318)](https://github.com/risingwavelabs/risingwave/pull/17318)
+- `05268bc8dd35732bcde700d06ad719db8ca8a39c` [chore(risedev): fix docker based mysql log ready check pattern (#17349)](https://github.com/risingwavelabs/risingwave/pull/17349)
 - `081590566e10aca7674c76395cb640d416112740` [chore(deps): upgrade some maven dependencies version in java/pom.xml file (#17273)](https://github.com/risingwavelabs/risingwave/pull/17273)
 - `b313ef0c64efe508630110ce5c428fd971c6fb8d` [refactor: unify additional column id logic using `max_column_id` (#17336)](https://github.com/risingwavelabs/risingwave/pull/17336)
 - `a7aedb62a9ef21919278b2d787cdae55164c4c44` [fix(postgres-cdc): ssl.mode value backward compatibility (#16811)](https://github.com/risingwavelabs/risingwave/pull/16811)
