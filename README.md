@@ -262,6 +262,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a7aedb62a9ef21919278b2d787cdae55164c4c44` [fix(postgres-cdc): ssl.mode value backward compatibility (#16811)](https://github.com/risingwavelabs/risingwave/pull/16811)
+- `c71030909cc8c894a08589993bab1929c5709638` [feat(sink): Support Deletes for ClickHouse ReplacingMergeTree (#17283)](https://github.com/risingwavelabs/risingwave/pull/17283)
+- `56018bf94d7a62616fed94966cc0d0485a13330f` [chore(deps): Bump indexmap from 1.9.3 to 2.2.6 (#17355)](https://github.com/risingwavelabs/risingwave/pull/17355)
 - `2a413ff68af5bbaabcfee3b60f7c70a33f6e529e` [fix(source): fix panic for `ALTER SOURCE` with schema registry (#17293)](https://github.com/risingwavelabs/risingwave/pull/17293)
 
 ## nightly-20240619
@@ -2514,6 +2517,7 @@
 - `2461651c9419c7093778343e60127508df75bee2` [fix(udf): fix index-out-of-bound error when string or string list is large. (#13781)](https://github.com/risingwavelabs/risingwave/pull/13781)
 - `e41b62f9aaa82fd60407c20546932f5296b0d41d` [fix: revert #13278 & #13390 for include syntax (#13785)](https://github.com/risingwavelabs/risingwave/pull/13785)
 - `f33a5d0c02fb758192632d29abf5603fdd7d3a92` [feat: risectl debug dump support catalog (#13764)](https://github.com/risingwavelabs/risingwave/pull/13764)
+- `c9069c9b4fc21813e4cc4d1b71d70c32051ebf35` [fix: don't clean in-memory tracker when clean persist table catalog (#13783)](https://github.com/risingwavelabs/risingwave/pull/13783)
 - `c9069c9b4fc21813e4cc4d1b71d70c32051ebf35` [fix: don't clean in-memory tracker when clean persist table catalog (#13783)](https://github.com/risingwavelabs/risingwave/pull/13783)
 - `d7d56bd3a7947918b2be638d7b7b4aca715480cb` [fix(sink): construct java.sql.time/date object with a long type (#13651)](https://github.com/risingwavelabs/risingwave/pull/13651)
 - `666e154e03d666757540fe3dec124f17cefc587c` [chore(deps-dev): Bump @adobe/css-tools from 4.3.1 to 4.3.2 in /dashboard (#13759)](https://github.com/risingwavelabs/risingwave/pull/13759)
