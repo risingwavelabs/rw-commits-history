@@ -254,7 +254,6 @@
 - `20230901` `a9aacfc2e0f52081489fb2744fb5b7e66ef0d3b8`
 - `20230831` `96a49f7ce3aee6fe11d4467081fadd396af6efff`
 - `20230830` `15f4fdd48de1c573a4c221c8fe5797a92dbe481c`
-- `20230829` `88f502c9cbe183772c10eb8a3adec698a526a4cd`
 </details>
 
 # Commit history
@@ -3753,25 +3752,4 @@
 - `dee902d10883ea266b5ee4ff4f4ebe057b7f566d` [doc: add dash doc feed & fix rustdoc warnings (#11963)](https://github.com/risingwavelabs/risingwave/pull/11963)
 
 ## nightly-20230830
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/88f502c9cbe183772c10eb8a3adec698a526a4cd...15f4fdd48de1c573a4c221c8fe5797a92dbe481c)
 - `15f4fdd48de1c573a4c221c8fe5797a92dbe481c` [feat(cdc): in-memory backfill for single mysql cdc table  (#11707)](https://github.com/risingwavelabs/risingwave/pull/11707)
-- `773ec5b463d7f8c6c62554d6703539ef1e7cc410` [chore: add code owners for Cargo.lock (#11965)](https://github.com/risingwavelabs/risingwave/pull/11965)
-- `c69837f7489a1e8bc26a0d3890cea4be4e587bdc` [chore: Upgrade icelake version (#11962)](https://github.com/risingwavelabs/risingwave/pull/11962)
-- `38687a1fd71c03b18d64a77ab3eeca907f0d8c56` [doc: Understanding RisingWave Macros (#11942)](https://github.com/risingwavelabs/risingwave/pull/11942)
-- `c9a9be5dcc41dd0ea0df30c226c2516d787414ec` [chore(config): disable storage prefetch (#11953)](https://github.com/risingwavelabs/risingwave/pull/11953)
-- `578b8e6e6a2e8c9034c36c3fef1e68d62bb39378` [chore: fix typo in avro source (#11938)](https://github.com/risingwavelabs/risingwave/pull/11938)
-- `b0670f2dc9db28d53af06eb2c4550c604ba6b48c` [feat(expr): Implement lambda function and array_transform (#11937)](https://github.com/risingwavelabs/risingwave/pull/11937)
-- `677ebf73753455c331af01ad4842d3d437b1e3cd` [feat(metrics): support monitor network connection of S3 and grpc (#11848)](https://github.com/risingwavelabs/risingwave/pull/11848)
-- `76a7e698c4abc37cc95db875acb64c917f5e34aa` [chore(udf): update README and migrate `setup.py` to `pyproject.toml` (#11949)](https://github.com/risingwavelabs/risingwave/pull/11949)
-- `65773b0db23ea0c99c95d79e6f8d3a245596b07a` [chore(deps): bump openssl-sys from 0.9.91 to 0.9.92 (#11923)](https://github.com/risingwavelabs/risingwave/pull/11923)
-- `316ad38d85797fd6eb550f19c737365790191beb` [feat(expr): add `regexp_replace` (#11819)](https://github.com/risingwavelabs/risingwave/pull/11819)
-- `9ecd20b29ae7ba9751138711411600bbae405e7b` [chore(deps): bump time from 0.3.27 to 0.3.28 (#11922)](https://github.com/risingwavelabs/risingwave/pull/11922)
-- `2f6d7aaa04161bdb1abbf17e89f142cf61105875` [feat: add `initialized_at` to ddl_progress (#11940)](https://github.com/risingwavelabs/risingwave/pull/11940)
-- `c799b3382cd7c66f0ea2d2694fcf904638be1777` [fix(binder): disallow set-returning function in JoinOn/Having/Filter/Case/Coalesce as in PostgreSQL (#11939)](https://github.com/risingwavelabs/risingwave/pull/11939)
-- `d1fe176adc3e32f813891584c5076b574df99dfe` [test(streaming): test hdr approach for `approx_percentile` (#11931)](https://github.com/risingwavelabs/risingwave/pull/11931)
-- `1d0bf76cd36ef1fa7b11384353e451a0ec0f12b9` [chore(deps): bump serde from 1.0.185 to 1.0.188 (#11946)](https://github.com/risingwavelabs/risingwave/pull/11946)
-- `2e4a448c5db1bde49666ed95c91e88e8e46fd728` [chore(deps): bump memchr from 2.5.0 to 2.6.1 (#11947)](https://github.com/risingwavelabs/risingwave/pull/11947)
-- `1809a4970c48cc214217a013d9e3ff7408c9b8a5` [feat(streaming): flow control executor (#11919)](https://github.com/risingwavelabs/risingwave/pull/11919)
-
-## nightly-20230829
-- `88f502c9cbe183772c10eb8a3adec698a526a4cd` [refactor(state-table): Avoid exposing vnode-prefixed key in state table iter API (#11880)](https://github.com/risingwavelabs/risingwave/pull/11880)
