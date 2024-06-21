@@ -263,6 +263,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `70eb3d08c454ae1483d7c369ca106478b9892791` [feat(sqlparser): allow rhs of `AT TIME ZONE` to be non-literal (#17395)](https://github.com/risingwavelabs/risingwave/pull/17395)
 - `9d6594e6a42f64f8f1003a0783ecb0c586c3427c` [refactor: update icelake (#17354)](https://github.com/risingwavelabs/risingwave/pull/17354)
 - `3736982d6fe648ad32b50e1d3ce97119edcab1a6` [fix: rewrite now() to proctime() when plan sink into table's default expr (#17370)](https://github.com/risingwavelabs/risingwave/pull/17370)
 - `23fb6bd90c8a3d1544d68cb5cf45073b0e38e403` [chore(deps): Bump duration-str from 0.10.0 to 0.11.2 (#17162)](https://github.com/risingwavelabs/risingwave/pull/17162)
