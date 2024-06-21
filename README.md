@@ -263,6 +263,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3736982d6fe648ad32b50e1d3ce97119edcab1a6` [fix: rewrite now() to proctime() when plan sink into table's default expr (#17370)](https://github.com/risingwavelabs/risingwave/pull/17370)
+- `23fb6bd90c8a3d1544d68cb5cf45073b0e38e403` [chore(deps): Bump duration-str from 0.10.0 to 0.11.2 (#17162)](https://github.com/risingwavelabs/risingwave/pull/17162)
+- `dbffaf2fea7b752c82d52a35913bd19642022582` [chore(deps): Bump lz4 from 1.24.0 to 1.25.0 (#17207)](https://github.com/risingwavelabs/risingwave/pull/17207)
+- `fcfa573023e1285e1bba13a3f9b658235ceb6aa8` [feat(diagnosis): improve barrier manager display (#17317)](https://github.com/risingwavelabs/risingwave/pull/17317)
 - `8a4bd3fa07b297d866e1a2c75a36be86b5a32527` [fix(optimizer): reduce expr tree depth when merge logical operations (#17342)](https://github.com/risingwavelabs/risingwave/pull/17342)
 - `4a25f0141d5acfe01f971b33207aa211b1d264ee` [chore(deps): Bump console-subscriber from 0.2.0 to 0.3.0 (#17191)](https://github.com/risingwavelabs/risingwave/pull/17191)
 - `af8f9a5815388c6d3147bebda77a1830a05f8c7e` [refactor: move some sink param determined in new (#17373)](https://github.com/risingwavelabs/risingwave/pull/17373)
