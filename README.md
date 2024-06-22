@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20240621` `70eb3d08c454ae1483d7c369ca106478b9892791`
+- `20240622` `70eb3d08c454ae1483d7c369ca106478b9892791`
 - `20240620` `5c0ecf37992c4faba9719187197e7076a8279dd2`
 - `20240619` `084e4c6e850d4afd45cc02c8e08d58b77863fcf8`
 - `20240618` `35d3f492483c821ac43353a6e89ee696e280b9d7`
@@ -264,7 +264,7 @@
 
 ## Unreleased
 
-## nightly-20240621
+## nightly-20240622
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5c0ecf37992c4faba9719187197e7076a8279dd2...70eb3d08c454ae1483d7c369ca106478b9892791)
 - `70eb3d08c454ae1483d7c369ca106478b9892791` [feat(sqlparser): allow rhs of `AT TIME ZONE` to be non-literal (#17395)](https://github.com/risingwavelabs/risingwave/pull/17395)
 - `9d6594e6a42f64f8f1003a0783ecb0c586c3427c` [refactor: update icelake (#17354)](https://github.com/risingwavelabs/risingwave/pull/17354)
