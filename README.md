@@ -263,6 +263,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `785cf7fa0e80ee81b2cf3f582dced07caf8cb2d5` [feat(source): Add semicolon delimiter for CSV (#17356)](https://github.com/risingwavelabs/risingwave/pull/17356)
 
 ## nightly-20240622
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5c0ecf37992c4faba9719187197e7076a8279dd2...70eb3d08c454ae1483d7c369ca106478b9892791)
