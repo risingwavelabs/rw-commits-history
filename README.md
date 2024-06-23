@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240623` `785cf7fa0e80ee81b2cf3f582dced07caf8cb2d5`
 - `20240622` `70eb3d08c454ae1483d7c369ca106478b9892791`
 - `20240620` `5c0ecf37992c4faba9719187197e7076a8279dd2`
 - `20240619` `084e4c6e850d4afd45cc02c8e08d58b77863fcf8`
@@ -263,6 +264,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `57798fad70f7ed36b6302b7952dd79146d7939cc` [fix(mysql-cdc): fix auto schema mapping  (#17402)](https://github.com/risingwavelabs/risingwave/pull/17402)
+- `a3999daf7bfee68e91ed51fe322ae59304d0b2b3` [fix(grafana): fix stream_join_matched_join_keys panel (#17403)](https://github.com/risingwavelabs/risingwave/pull/17403)
+
+## nightly-20240623
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/70eb3d08c454ae1483d7c369ca106478b9892791...785cf7fa0e80ee81b2cf3f582dced07caf8cb2d5)
 - `785cf7fa0e80ee81b2cf3f582dced07caf8cb2d5` [feat(source): Add semicolon delimiter for CSV (#17356)](https://github.com/risingwavelabs/risingwave/pull/17356)
 
 ## nightly-20240622
