@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240624` `cdbd982d55613636672fe2f5524d819a9e992571`
 - `20240623` `785cf7fa0e80ee81b2cf3f582dced07caf8cb2d5`
 - `20240622` `70eb3d08c454ae1483d7c369ca106478b9892791`
 - `20240620` `5c0ecf37992c4faba9719187197e7076a8279dd2`
@@ -264,6 +265,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240624
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/785cf7fa0e80ee81b2cf3f582dced07caf8cb2d5...cdbd982d55613636672fe2f5524d819a9e992571)
 - `cdbd982d55613636672fe2f5524d819a9e992571` [refactor(meta): move `finish_streaming_job` into catalog manager (#17414)](https://github.com/risingwavelabs/risingwave/pull/17414)
 - `613fb51132a4772d5f7ce1a321ad60d0092bb081` [fix(optimizer): fix apply topn transpose rule (#17386)](https://github.com/risingwavelabs/risingwave/pull/17386)
 - `8fe655f91fb26b083394a559689ae11a6f47dc1b` [refactor: minor refactor on source column desc (#17417)](https://github.com/risingwavelabs/risingwave/pull/17417)
