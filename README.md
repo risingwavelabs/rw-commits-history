@@ -264,6 +264,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9cbb8c27accf16043ab4df8df5e51f2b60d26c7a` [feat(connector): upgrade opendal to 0.47 for connector crate (#17406)](https://github.com/risingwavelabs/risingwave/pull/17406)
+- `7ed08b002282ca98e5b40392824ee10b26428f8e` [chore(deps): Bump the aws group across 1 directory with 2 updates (#17247)](https://github.com/risingwavelabs/risingwave/pull/17247)
+- `165ef33e220b85c1d10fab55fe09f09195740bdc` [fix(storage): fix reverse scan (#17217)](https://github.com/risingwavelabs/risingwave/pull/17217)
 - `4f8bfc4481dcba8e6c3a38e69d1d6ea3e930fb73` [refactor: refine error message and test for FORMAT UPSERT (#17397)](https://github.com/risingwavelabs/risingwave/pull/17397)
 - `9c73c3067ec34950f2630e0a9a24dadbb6cfc3cb` [refactor(source): minor refactors on source parser (#17184)](https://github.com/risingwavelabs/risingwave/pull/17184)
 - `4d03c48a78cb99e2272c79e46d5072b7d978eddf` [test(batch): add unit test for spill sort (#17394)](https://github.com/risingwavelabs/risingwave/pull/17394)
