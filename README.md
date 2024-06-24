@@ -264,6 +264,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cdbd982d55613636672fe2f5524d819a9e992571` [refactor(meta): move `finish_streaming_job` into catalog manager (#17414)](https://github.com/risingwavelabs/risingwave/pull/17414)
 - `613fb51132a4772d5f7ce1a321ad60d0092bb081` [fix(optimizer): fix apply topn transpose rule (#17386)](https://github.com/risingwavelabs/risingwave/pull/17386)
 - `8fe655f91fb26b083394a559689ae11a6f47dc1b` [refactor: minor refactor on source column desc (#17417)](https://github.com/risingwavelabs/risingwave/pull/17417)
 - `77433bd02df326dda374e5cf460fb4bd296a8a42` [fix: append only table with connector having retention seconds (#17387)](https://github.com/risingwavelabs/risingwave/pull/17387)
