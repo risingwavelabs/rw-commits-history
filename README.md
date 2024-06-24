@@ -264,6 +264,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4d03c48a78cb99e2272c79e46d5072b7d978eddf` [test(batch): add unit test for spill sort (#17394)](https://github.com/risingwavelabs/risingwave/pull/17394)
 - `57798fad70f7ed36b6302b7952dd79146d7939cc` [fix(mysql-cdc): fix auto schema mapping  (#17402)](https://github.com/risingwavelabs/risingwave/pull/17402)
 - `a3999daf7bfee68e91ed51fe322ae59304d0b2b3` [fix(grafana): fix stream_join_matched_join_keys panel (#17403)](https://github.com/risingwavelabs/risingwave/pull/17403)
 
