@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `da9bd03524e0e5635ad06dfb4b0aa6110ba3dee8` [feat(expr): streaming `generate_series` ends with `now()` (#17371)](https://github.com/risingwavelabs/risingwave/pull/17371)
 
 ## nightly-20240624
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/785cf7fa0e80ee81b2cf3f582dced07caf8cb2d5...cdbd982d55613636672fe2f5524d819a9e992571)
