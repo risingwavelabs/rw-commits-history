@@ -264,6 +264,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `22b911df29fea32fb64c1ff7cc033388e855ca03` [feat(docs): improve docs of multi-cluster deployment (#17437)](https://github.com/risingwavelabs/risingwave/pull/17437)
 - `4537c4ca86e29e13cd7b099536947d1139888020` [test: fix include header flaky test (#17441)](https://github.com/risingwavelabs/risingwave/pull/17441)
 - `388d182703aa69b752da96a3553bc6bcab601410` [fix: only run e2e of streaming `generate_series` in regular e2e tests (#17435)](https://github.com/risingwavelabs/risingwave/pull/17435)
 - `da9bd03524e0e5635ad06dfb4b0aa6110ba3dee8` [feat(expr): streaming `generate_series` ends with `now()` (#17371)](https://github.com/risingwavelabs/risingwave/pull/17371)
