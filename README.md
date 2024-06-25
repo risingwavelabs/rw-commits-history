@@ -264,6 +264,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2adcca3301cb7e6f3af9aaf9e214c30f8456550e` [fix(simulation): do not run background ddl on skipped tests (#17440)](https://github.com/risingwavelabs/risingwave/pull/17440)
+- `e5c0a42990d6aa24d4ff853e8a9606483444590b` [chore(risedev): vaildate java 22 (#17447)](https://github.com/risingwavelabs/risingwave/pull/17447)
 - `22b911df29fea32fb64c1ff7cc033388e855ca03` [feat(docs): improve docs of multi-cluster deployment (#17437)](https://github.com/risingwavelabs/risingwave/pull/17437)
 - `4537c4ca86e29e13cd7b099536947d1139888020` [test: fix include header flaky test (#17441)](https://github.com/risingwavelabs/risingwave/pull/17441)
 - `388d182703aa69b752da96a3553bc6bcab601410` [fix: only run e2e of streaming `generate_series` in regular e2e tests (#17435)](https://github.com/risingwavelabs/risingwave/pull/17435)
