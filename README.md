@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240625` `2adcca3301cb7e6f3af9aaf9e214c30f8456550e`
 - `20240624` `cdbd982d55613636672fe2f5524d819a9e992571`
 - `20240623` `785cf7fa0e80ee81b2cf3f582dced07caf8cb2d5`
 - `20240622` `70eb3d08c454ae1483d7c369ca106478b9892791`
@@ -264,6 +265,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240625
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cdbd982d55613636672fe2f5524d819a9e992571...2adcca3301cb7e6f3af9aaf9e214c30f8456550e)
 - `2adcca3301cb7e6f3af9aaf9e214c30f8456550e` [fix(simulation): do not run background ddl on skipped tests (#17440)](https://github.com/risingwavelabs/risingwave/pull/17440)
 - `e5c0a42990d6aa24d4ff853e8a9606483444590b` [chore(risedev): vaildate java 22 (#17447)](https://github.com/risingwavelabs/risingwave/pull/17447)
 - `22b911df29fea32fb64c1ff7cc033388e855ca03` [feat(docs): improve docs of multi-cluster deployment (#17437)](https://github.com/risingwavelabs/risingwave/pull/17437)
