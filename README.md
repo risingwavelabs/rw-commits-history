@@ -282,7 +282,6 @@
 - `20230806` `6d4dd736ff3f7371d34af19f9bb8e1844013e679`
 - `20230805` `87efa8bf0e0040e496290bc548420bbc7b1543f8`
 - `20230804` `a82454d9d85cb7a466fa0548c36009380a390ce2`
-- `20230803` `bac048757258c9ab7f9a75aca4eb9c26be4ff8d1`
 </details>
 
 # Commit history
@@ -291,6 +290,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4e2282098e452af8625889299b2c8e96684f4eb6` [feat: introduce iceberg-rust catalog (#17308)](https://github.com/risingwavelabs/risingwave/pull/17308)
+- `8d7a2ac9922847db12faf7e90128b74bb9e26668` [refactor(storage): pass table ids to state store sync (#17332)](https://github.com/risingwavelabs/risingwave/pull/17332)
 - `994e48ffe41bd8aa99f3ece37afe68f104165ff3` [feat(sink): support async for pubsub and nats (#17358)](https://github.com/risingwavelabs/risingwave/pull/17358)
 - `7cbb3a974f416f96c9d5f502b7f112d6352c8340` [fix(storage): fix meta cache refill (#17459)](https://github.com/risingwavelabs/risingwave/pull/17459)
 - `6d8c9ab7b41a7f2ef81a8f4181234a9d5ed69a23` [refactor(storage): emit sst on single upload task succeeds and remove sync finish event (#17333)](https://github.com/risingwavelabs/risingwave/pull/17333)
@@ -4146,20 +4147,4 @@
 - `72191093a2c66a70fc3f74d9e0354b0c7a469814` [feat(binder): support align types for set operation (#11452)](https://github.com/risingwavelabs/risingwave/pull/11452)
 
 ## nightly-20230804
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bac048757258c9ab7f9a75aca4eb9c26be4ff8d1...a82454d9d85cb7a466fa0548c36009380a390ce2)
 - `a82454d9d85cb7a466fa0548c36009380a390ce2` [test(stream): add more state table bench for chunks (#11415)](https://github.com/risingwavelabs/risingwave/pull/11415)
-- `fb3404f8eb71ec6195c53253d7ff5293bac6b53c` [fix(storage): recreate stream when meet IO error (#11051)](https://github.com/risingwavelabs/risingwave/pull/11051)
-- `30892f4b8742f71450510aefd90292676885a926` [chore: enable trailing space check on CI (#11423)](https://github.com/risingwavelabs/risingwave/pull/11423)
-- `1e4f82bf2b262e539f53fdb66ae2a837772817a0` [fix: warnings on naming from rust analyzer in generated code (#11446)](https://github.com/risingwavelabs/risingwave/pull/11446)
-- `da2ddf6c4636c6dc0ce8bf38c0e1dfa91228e033` [refactor(iceberg): iceberg sink writer commit with coordinator (#11121)](https://github.com/risingwavelabs/risingwave/pull/11121)
-- `e756c901db28e42c8dc94b2c61bab6139c43d728` [feat: support dummy implementation for pg_depend (#11399)](https://github.com/risingwavelabs/risingwave/pull/11399)
-- `2777819b0a1c058e552ee5514b6e2054aa36db6d` [chore(deps): bump redis from 0.22.3 to 0.23.1 (#11429)](https://github.com/risingwavelabs/risingwave/pull/11429)
-- `d48c91b335f8252136d770a3a8acf98510a0ef11` [chore(deps): bump ctor from 0.1.26 to 0.2.4 (#11427)](https://github.com/risingwavelabs/risingwave/pull/11427)
-- `13b4d569da0c37e336d1e2d365ed8c682ad534a2` [chore(deps): bump serde_json from 1.0.103 to 1.0.104 (#11430)](https://github.com/risingwavelabs/risingwave/pull/11430)
-- `20114262130f1fa91e74808d6979007005169115` [fix: add missing oid for supported types in pgwire transmission (#11357)](https://github.com/risingwavelabs/risingwave/pull/11357)
-- `549f7d6acc5e71ce58770cd5cfd1d57b5ea8a5a0` [ci: add auto-retry for integration test pipeline (#11436)](https://github.com/risingwavelabs/risingwave/pull/11436)
-- `d3feada94930a4556e927bbb320fabcd35f65166` [fix(pgwire): respond `Describe portal` with correct format codes (#11435)](https://github.com/risingwavelabs/risingwave/pull/11435)
-- `dfec3093802608dff0aca07bb7105db7dceb4e11` [chore(ci): sqlsmith-tests add retry (#11424)](https://github.com/risingwavelabs/risingwave/pull/11424)
-
-## nightly-20230803
-- `bac048757258c9ab7f9a75aca4eb9c26be4ff8d1` [feat(storage): replace old file cache engine with foyer store (#10766)](https://github.com/risingwavelabs/risingwave/pull/10766)
