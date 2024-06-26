@@ -290,6 +290,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `61e9e526b675ce8dc9e878324e1b7d374f72ab03` [feat(steam): support stream changed log  (#17132)](https://github.com/risingwavelabs/risingwave/pull/17132)
 - `e5447c9b5a6a998b8fec6cefe414ea5af9cfc224` [fix(optimizer): fix LogicalNow column pruning (#17466)](https://github.com/risingwavelabs/risingwave/pull/17466)
 - `4e2282098e452af8625889299b2c8e96684f4eb6` [feat: introduce iceberg-rust catalog (#17308)](https://github.com/risingwavelabs/risingwave/pull/17308)
 - `8d7a2ac9922847db12faf7e90128b74bb9e26668` [refactor(storage): pass table ids to state store sync (#17332)](https://github.com/risingwavelabs/risingwave/pull/17332)
