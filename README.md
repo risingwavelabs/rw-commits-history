@@ -290,6 +290,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e5447c9b5a6a998b8fec6cefe414ea5af9cfc224` [fix(optimizer): fix LogicalNow column pruning (#17466)](https://github.com/risingwavelabs/risingwave/pull/17466)
 - `4e2282098e452af8625889299b2c8e96684f4eb6` [feat: introduce iceberg-rust catalog (#17308)](https://github.com/risingwavelabs/risingwave/pull/17308)
 - `8d7a2ac9922847db12faf7e90128b74bb9e26668` [refactor(storage): pass table ids to state store sync (#17332)](https://github.com/risingwavelabs/risingwave/pull/17332)
 - `994e48ffe41bd8aa99f3ece37afe68f104165ff3` [feat(sink): support async for pubsub and nats (#17358)](https://github.com/risingwavelabs/risingwave/pull/17358)
