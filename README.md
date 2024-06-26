@@ -265,6 +265,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6d8c9ab7b41a7f2ef81a8f4181234a9d5ed69a23` [refactor(storage): emit sst on single upload task succeeds and remove sync finish event (#17333)](https://github.com/risingwavelabs/risingwave/pull/17333)
 - `0830f4f73a14ca3e052f4f9405ffab118864c168` [test: workaround include_key_as flaky test (#17457)](https://github.com/risingwavelabs/risingwave/pull/17457)
 - `9b5bcdc337865ac28d87bda9a113980b2e4e3c40` [refactor(source): cleanup unused `ParserProperties::key_encoding_config` (#17416)](https://github.com/risingwavelabs/risingwave/pull/17416)
 
