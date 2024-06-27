@@ -291,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `855251cdd854f1bf258e5471d061d575b03b6f27` [feat: introduce license manager and feature tiers (#17396)](https://github.com/risingwavelabs/risingwave/pull/17396)
 
 ## nightly-20240626
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2adcca3301cb7e6f3af9aaf9e214c30f8456550e...61e9e526b675ce8dc9e878324e1b7d374f72ab03)
