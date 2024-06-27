@@ -291,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8f8d2f2e9800510892137155486342e27511fe67` [test(batch): add tests for batch spill hash join (#17480)](https://github.com/risingwavelabs/risingwave/pull/17480)
 - `86a30840fee895991ee4d2acd629365327e0c1ed` [feat(parser): support `t`, `true`, etc. in csv parser (#17470)](https://github.com/risingwavelabs/risingwave/pull/17470)
 - `f75a8aa2182b1c1b7e31de19ab2a786a88407a59` [chore(grafana): relative CPU usage  (#17401)](https://github.com/risingwavelabs/risingwave/pull/17401)
 - `855251cdd854f1bf258e5471d061d575b03b6f27` [feat: introduce license manager and feature tiers (#17396)](https://github.com/risingwavelabs/risingwave/pull/17396)
