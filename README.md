@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240627` `18f99803f2719c047594a6a55e2abb5cfe82d3ec`
 - `20240626` `61e9e526b675ce8dc9e878324e1b7d374f72ab03`
 - `20240625` `2adcca3301cb7e6f3af9aaf9e214c30f8456550e`
 - `20240624` `cdbd982d55613636672fe2f5524d819a9e992571`
@@ -291,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240627
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/61e9e526b675ce8dc9e878324e1b7d374f72ab03...18f99803f2719c047594a6a55e2abb5cfe82d3ec)
 - `18f99803f2719c047594a6a55e2abb5cfe82d3ec` [feat(sink): add config `auto_create` for BigQuery (#17393)](https://github.com/risingwavelabs/risingwave/pull/17393)
 - `168d436cc2ef5115a26228694ac53cc82df6a194` [feat(iceberg): support glue catalog (#17477)](https://github.com/risingwavelabs/risingwave/pull/17477)
 - `8f8d2f2e9800510892137155486342e27511fe67` [test(batch): add tests for batch spill hash join (#17480)](https://github.com/risingwavelabs/risingwave/pull/17480)
