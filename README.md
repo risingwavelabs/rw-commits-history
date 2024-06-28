@@ -292,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f56ba9b7f20bafdeeedaa37e5357b09660f60ba8` [chore(grafana): relative Memory usage (#17467)](https://github.com/risingwavelabs/risingwave/pull/17467)
 
 ## nightly-20240628
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/18f99803f2719c047594a6a55e2abb5cfe82d3ec...7d3c7550f5960c6955ca572216d753b19fce3c16)
