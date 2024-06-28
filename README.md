@@ -291,6 +291,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7d3c7550f5960c6955ca572216d753b19fce3c16` [fix(connector): replace blocking sleep with async sleep in MQTT sink (#17497)](https://github.com/risingwavelabs/risingwave/pull/17497)
+- `959af38e92262deb47d5bc8f476b6b5069a13b97` [feat(telemetry): collect deploy mode in telemetry (#17392)](https://github.com/risingwavelabs/risingwave/pull/17392)
 - `37ea8421fb25b06a7774bc4fcd4f11e4baa1fca1` [doc: improve developer guide (round 1) (#17492)](https://github.com/risingwavelabs/risingwave/pull/17492)
 - `f9443da40b7d0cc9df73697c078295329425b7c9` [fix: remove column id check (#17494)](https://github.com/risingwavelabs/risingwave/pull/17494)
 - `de8903f5eb539e5ece37e0612f0062b6750c27db` [fix(sqlparser): typed string must be single quoted (#17482)](https://github.com/risingwavelabs/risingwave/pull/17482)
