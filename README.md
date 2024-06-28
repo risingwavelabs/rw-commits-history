@@ -291,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ed0937213e87f4f90c2a4c0b5716f10a4e9ef7c3` [feat(sink): support clickhouse sink checkpoint decouple (#17491)](https://github.com/risingwavelabs/risingwave/pull/17491)
 
 ## nightly-20240627
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/61e9e526b675ce8dc9e878324e1b7d374f72ab03...18f99803f2719c047594a6a55e2abb5cfe82d3ec)
