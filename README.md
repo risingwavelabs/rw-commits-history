@@ -291,6 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `37ea8421fb25b06a7774bc4fcd4f11e4baa1fca1` [doc: improve developer guide (round 1) (#17492)](https://github.com/risingwavelabs/risingwave/pull/17492)
+- `f9443da40b7d0cc9df73697c078295329425b7c9` [fix: remove column id check (#17494)](https://github.com/risingwavelabs/risingwave/pull/17494)
+- `de8903f5eb539e5ece37e0612f0062b6750c27db` [fix(sqlparser): typed string must be single quoted (#17482)](https://github.com/risingwavelabs/risingwave/pull/17482)
 - `ed0937213e87f4f90c2a4c0b5716f10a4e9ef7c3` [feat(sink): support clickhouse sink checkpoint decouple (#17491)](https://github.com/risingwavelabs/risingwave/pull/17491)
 
 ## nightly-20240627
