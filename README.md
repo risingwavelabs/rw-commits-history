@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240628` `7d3c7550f5960c6955ca572216d753b19fce3c16`
 - `20240627` `18f99803f2719c047594a6a55e2abb5cfe82d3ec`
 - `20240626` `61e9e526b675ce8dc9e878324e1b7d374f72ab03`
 - `20240625` `2adcca3301cb7e6f3af9aaf9e214c30f8456550e`
@@ -291,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240628
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/18f99803f2719c047594a6a55e2abb5cfe82d3ec...7d3c7550f5960c6955ca572216d753b19fce3c16)
 - `7d3c7550f5960c6955ca572216d753b19fce3c16` [fix(connector): replace blocking sleep with async sleep in MQTT sink (#17497)](https://github.com/risingwavelabs/risingwave/pull/17497)
 - `959af38e92262deb47d5bc8f476b6b5069a13b97` [feat(telemetry): collect deploy mode in telemetry (#17392)](https://github.com/risingwavelabs/risingwave/pull/17392)
 - `37ea8421fb25b06a7774bc4fcd4f11e4baa1fca1` [doc: improve developer guide (round 1) (#17492)](https://github.com/risingwavelabs/risingwave/pull/17492)
