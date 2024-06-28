@@ -283,7 +283,6 @@
 - `20230808` `f76cbc56acb33f89a6e6e5204b3d66ac9821fa23`
 - `20230806` `6d4dd736ff3f7371d34af19f9bb8e1844013e679`
 - `20230805` `87efa8bf0e0040e496290bc548420bbc7b1543f8`
-- `20230804` `a82454d9d85cb7a466fa0548c36009380a390ce2`
 </details>
 
 # Commit history
@@ -4156,11 +4155,4 @@
 - `8cf01e11e8221965ed8826ff6010dfb76148dfdd` [feat(binder): add dummy pg_is_in_recovery (#11469)](https://github.com/risingwavelabs/risingwave/pull/11469)
 
 ## nightly-20230805
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a82454d9d85cb7a466fa0548c36009380a390ce2...87efa8bf0e0040e496290bc548420bbc7b1543f8)
 - `87efa8bf0e0040e496290bc548420bbc7b1543f8` [fix(metrics): better metrics of mem-table size (#11442)](https://github.com/risingwavelabs/risingwave/pull/11442)
-- `a7b15d8351e50a8b139b5b424fb51e1d990a2138` [fix(catalog): information_schema.columns.ordinal_position should be int32 (#11408)](https://github.com/risingwavelabs/risingwave/pull/11408)
-- `3e98601fc5b007643e72733c03210ed4ba0fe4ac` [feat(storage): add watermark cache to state_table (#11161)](https://github.com/risingwavelabs/risingwave/pull/11161)
-- `72191093a2c66a70fc3f74d9e0354b0c7a469814` [feat(binder): support align types for set operation (#11452)](https://github.com/risingwavelabs/risingwave/pull/11452)
-
-## nightly-20230804
-- `a82454d9d85cb7a466fa0548c36009380a390ce2` [test(stream): add more state table bench for chunks (#11415)](https://github.com/risingwavelabs/risingwave/pull/11415)
