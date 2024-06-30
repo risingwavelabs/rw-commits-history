@@ -284,7 +284,6 @@
 - `20230809` `76a0fe1fb64a81f634d3e9021c16ea2e01365a04`
 - `20230808` `f76cbc56acb33f89a6e6e5204b3d66ac9821fa23`
 - `20230806` `6d4dd736ff3f7371d34af19f9bb8e1844013e679`
-- `20230805` `87efa8bf0e0040e496290bc548420bbc7b1543f8`
 </details>
 
 # Commit history
@@ -4161,13 +4160,4 @@
 - `d1213e338b79d976ede4a5edb0af659ae49fa268` [perf(backfill): Optimize backfill (#11117)](https://github.com/risingwavelabs/risingwave/pull/11117)
 
 ## nightly-20230806
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/87efa8bf0e0040e496290bc548420bbc7b1543f8...6d4dd736ff3f7371d34af19f9bb8e1844013e679)
 - `6d4dd736ff3f7371d34af19f9bb8e1844013e679` [feat(catalog): add pg_extension (#11475)](https://github.com/risingwavelabs/risingwave/pull/11475)
-- `143d60762662d6936f03b648cf5851d2c85ec05c` [chore(deps): bump hyper from 0.14.26 to 0.14.27 (#11462)](https://github.com/risingwavelabs/risingwave/pull/11462)
-- `fe1730ce8a087a6c147c04758f55d25f4532f54f` [feat(config): support dummy synchronize_seqscans,statement_timeout,lock_timeout,row_security (#11473)](https://github.com/risingwavelabs/risingwave/pull/11473)
-- `590308cb39309bcb8970102e86b098482ffd89b3` [feat(config): accept yes/no,on/off,1/0 as bool config value (#11472)](https://github.com/risingwavelabs/risingwave/pull/11472)
-- `68ce2a1b3450d2ce974560869cbaae7d57502331` [fix(binder): don't error when search_path is empty (#11471)](https://github.com/risingwavelabs/risingwave/pull/11471)
-- `8cf01e11e8221965ed8826ff6010dfb76148dfdd` [feat(binder): add dummy pg_is_in_recovery (#11469)](https://github.com/risingwavelabs/risingwave/pull/11469)
-
-## nightly-20230805
-- `87efa8bf0e0040e496290bc548420bbc7b1543f8` [fix(metrics): better metrics of mem-table size (#11442)](https://github.com/risingwavelabs/risingwave/pull/11442)
