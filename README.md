@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20240629` `f56ba9b7f20bafdeeedaa37e5357b09660f60ba8`
+- `20240630` `f56ba9b7f20bafdeeedaa37e5357b09660f60ba8`
 - `20240628` `7d3c7550f5960c6955ca572216d753b19fce3c16`
 - `20240627` `18f99803f2719c047594a6a55e2abb5cfe82d3ec`
 - `20240626` `61e9e526b675ce8dc9e878324e1b7d374f72ab03`
@@ -293,7 +293,7 @@
 
 ## Unreleased
 
-## nightly-20240629
+## nightly-20240630
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7d3c7550f5960c6955ca572216d753b19fce3c16...f56ba9b7f20bafdeeedaa37e5357b09660f60ba8)
 - `f56ba9b7f20bafdeeedaa37e5357b09660f60ba8` [chore(grafana): relative Memory usage (#17467)](https://github.com/risingwavelabs/risingwave/pull/17467)
 
