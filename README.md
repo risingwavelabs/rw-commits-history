@@ -291,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3795168b11f216cb035dbd3130992d417ca6f9ea` [fix: fix the query in get_table_by_name (#17518)](https://github.com/risingwavelabs/risingwave/pull/17518)
 - `fb60113c2e8a7f0676af545c99f073a335c255f3` [chore: support nix shell dev environment (#17462)](https://github.com/risingwavelabs/risingwave/pull/17462)
 - `e3c3c0db1246c61611e546c61a82e6e1481a25c6` [fix(sink): avoid sinking empty stream chunk (#17511)](https://github.com/risingwavelabs/risingwave/pull/17511)
 - `9541d63192aa280d99f233b8df41c4f8a86889be` [test: bump sqllogictest to 0.21 (#17498)](https://github.com/risingwavelabs/risingwave/pull/17498)
