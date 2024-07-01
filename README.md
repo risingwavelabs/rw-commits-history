@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240701` `3795168b11f216cb035dbd3130992d417ca6f9ea`
 - `20240630` `f56ba9b7f20bafdeeedaa37e5357b09660f60ba8`
 - `20240628` `7d3c7550f5960c6955ca572216d753b19fce3c16`
 - `20240627` `18f99803f2719c047594a6a55e2abb5cfe82d3ec`
@@ -291,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240701
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f56ba9b7f20bafdeeedaa37e5357b09660f60ba8...3795168b11f216cb035dbd3130992d417ca6f9ea)
 - `3795168b11f216cb035dbd3130992d417ca6f9ea` [fix: fix the query in get_table_by_name (#17518)](https://github.com/risingwavelabs/risingwave/pull/17518)
 - `fb60113c2e8a7f0676af545c99f073a335c255f3` [chore: support nix shell dev environment (#17462)](https://github.com/risingwavelabs/risingwave/pull/17462)
 - `e3c3c0db1246c61611e546c61a82e6e1481a25c6` [fix(sink): avoid sinking empty stream chunk (#17511)](https://github.com/risingwavelabs/risingwave/pull/17511)
