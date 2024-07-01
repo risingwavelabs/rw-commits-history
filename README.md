@@ -291,6 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e3c3c0db1246c61611e546c61a82e6e1481a25c6` [fix(sink): avoid sinking empty stream chunk (#17511)](https://github.com/risingwavelabs/risingwave/pull/17511)
+- `9541d63192aa280d99f233b8df41c4f8a86889be` [test: bump sqllogictest to 0.21 (#17498)](https://github.com/risingwavelabs/risingwave/pull/17498)
+- `b173e38cdeda0cd3ffdb6f77669bc11091f4a53b` [fix(cdc): quote postgres primary key and make mysql column name case-insensitive (#17506)](https://github.com/risingwavelabs/risingwave/pull/17506)
 - `417e8ff64bd77e10c2e8edeb6e3719a6dd60c6a5` [test(batch): add unit test for spill hash agg (#17512)](https://github.com/risingwavelabs/risingwave/pull/17512)
 - `4f1c89c1770443243991ca34994cbc6c9e7e9960` [refactor(config): add config to force enable actor tokio metrics (#17509)](https://github.com/risingwavelabs/risingwave/pull/17509)
 
