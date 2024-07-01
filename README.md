@@ -292,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4f1c89c1770443243991ca34994cbc6c9e7e9960` [refactor(config): add config to force enable actor tokio metrics (#17509)](https://github.com/risingwavelabs/risingwave/pull/17509)
 
 ## nightly-20240630
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7d3c7550f5960c6955ca572216d753b19fce3c16...f56ba9b7f20bafdeeedaa37e5357b09660f60ba8)
