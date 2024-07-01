@@ -283,7 +283,6 @@
 - `20230810` `53a2cf16b017a644cfe9924330fc4edf3f8ae096`
 - `20230809` `76a0fe1fb64a81f634d3e9021c16ea2e01365a04`
 - `20230808` `f76cbc56acb33f89a6e6e5204b3d66ac9821fa23`
-- `20230806` `6d4dd736ff3f7371d34af19f9bb8e1844013e679`
 </details>
 
 # Commit history
@@ -292,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `417e8ff64bd77e10c2e8edeb6e3719a6dd60c6a5` [test(batch): add unit test for spill hash agg (#17512)](https://github.com/risingwavelabs/risingwave/pull/17512)
 - `4f1c89c1770443243991ca34994cbc6c9e7e9960` [refactor(config): add config to force enable actor tokio metrics (#17509)](https://github.com/risingwavelabs/risingwave/pull/17509)
 
 ## nightly-20240630
@@ -4133,32 +4133,4 @@
 - `4dd9dcaeb48ad162b11887fd4432a35910e15a63` [fix: introduce blocked status for scheduled queue when recovering (#11543)](https://github.com/risingwavelabs/risingwave/pull/11543)
 
 ## nightly-20230808
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6d4dd736ff3f7371d34af19f9bb8e1844013e679...f76cbc56acb33f89a6e6e5204b3d66ac9821fa23)
 - `f76cbc56acb33f89a6e6e5204b3d66ac9821fa23` [fix(ci): update integration test script in linux 2023 (#11546)](https://github.com/risingwavelabs/risingwave/pull/11546)
-- `6cf97e4fdbae5dae28243726d61e4b6c39553f88` [chore(test): add log to help debug a flaky test (#11536)](https://github.com/risingwavelabs/risingwave/pull/11536)
-- `00f4cd0305a2a48c1b1da517bfd5934b7f74c2f4` [fix(ci): kill and wait for tmux sessions to shut down (#11538)](https://github.com/risingwavelabs/risingwave/pull/11538)
-- `95d7c54d082201dbba5172ebf5ae3844443e0f2b` [fix: use enumerator to validate kafka connection (#11317)](https://github.com/risingwavelabs/risingwave/pull/11317)
-- `941474fb5840206caa8c0716c891813cc1599403` [chore(deps): bump opentelemetry from 0.19.0 to 0.20.0 (#11463)](https://github.com/risingwavelabs/risingwave/pull/11463)
-- `96144ad4811ae762805ec5e515f1e141dbc88816` [feat(metrics): monitor materialized view memory usage (#10958)](https://github.com/risingwavelabs/risingwave/pull/10958)
-- `fd767fe1fba0e046323f64fe885b726306aa2efb` [fix(storage): fix metrics compact task size (#11244)](https://github.com/risingwavelabs/risingwave/pull/11244)
-- `421265f2ff46415d006d8e25fa53059edee5b80c` [feat: add typarray into pg_type (#11534)](https://github.com/risingwavelabs/risingwave/pull/11534)
-- `1660c287439c7f219618a2411495da438c53bf53` [chore(deps): bump sysinfo from 0.26.9 to 0.29.7 (#11313)](https://github.com/risingwavelabs/risingwave/pull/11313)
-- `e3b93174cacb3caee590b8afef5a62a17aa38d76` [fix(pgwire): ignore msg when encouter errror in extended protocol util sync (#11523)](https://github.com/risingwavelabs/risingwave/pull/11523)
-- `00d7144c73492e6056ead980f6566cd511ca6115` [fix(connector-node): fix prometheus host (#11528)](https://github.com/risingwavelabs/risingwave/pull/11528)
-- `50ba1fa418907b3c47f0fc3daa089493575a00eb` [refactor(storage): minor refactor when start compactor (#11529)](https://github.com/risingwavelabs/risingwave/pull/11529)
-- `21f110899d238cba55ba050b104afb9db9417aa8` [feat(optimizer): support apply topn transpose rule (#11491)](https://github.com/risingwavelabs/risingwave/pull/11491)
-- `40464dcd948a2d68ea4ea9c35572969656e04659` [fix(ci): change risedev kill to synchronous wait && add back retry for exit code 255 (#11520)](https://github.com/risingwavelabs/risingwave/pull/11520)
-- `baae38386817b1d7f4316365d12b009e9661b6ed` [feat(watermark): implicitly derive watermark for nondecreasing columns (`proctime`) (#11454)](https://github.com/risingwavelabs/risingwave/pull/11454)
-- `da6c350c4aa7c36e4ee44167beba0747ebdb9624` [feat(binder): check source format for append only table (#11484)](https://github.com/risingwavelabs/risingwave/pull/11484)
-- `949eccdff0aea62186e427f7e079da2933d0f67f` [fix(dashboard): failed due to a change in next 13 (#11498)](https://github.com/risingwavelabs/risingwave/pull/11498)
-- `31f09af1ad8ee76818f14f8be58d7957e98a2436` [feat(ci): extract failing queries for fuzz-test (#11492)](https://github.com/risingwavelabs/risingwave/pull/11492)
-- `2c5e471dec7b3beedc2b3852e263371024ed4fe3` [chore(release): update version to v1.1.0 (#11495)](https://github.com/risingwavelabs/risingwave/pull/11495)
-- `2719c648f20579eed4a54d5d94c4eb446364209b` [fix(catalog): fix read rw sources info (#11481)](https://github.com/risingwavelabs/risingwave/pull/11481)
-- `1ee9c377bf7f9378775a9a89490b875bf90f8da1` [fix: ignore pu reduction when re-registering existent compute nodes (#11490)](https://github.com/risingwavelabs/risingwave/pull/11490)
-- `65109ea0c5f7af5701a52c2468b2c984f9088096` [fix(storage): fix switch builder by vnode change (#11482)](https://github.com/risingwavelabs/risingwave/pull/11482)
-- `16dad51c9e2a255e849e0d9fbcf24309569e5d68` [feat(binder): schema check when binding view (#11450)](https://github.com/risingwavelabs/risingwave/pull/11450)
-- `b80d78d8a07b64ace6b4da82735a4fadbe11fe58` [fix: `risedev p` and `d` do not share build (#11468)](https://github.com/risingwavelabs/risingwave/pull/11468)
-- `d1213e338b79d976ede4a5edb0af659ae49fa268` [perf(backfill): Optimize backfill (#11117)](https://github.com/risingwavelabs/risingwave/pull/11117)
-
-## nightly-20230806
-- `6d4dd736ff3f7371d34af19f9bb8e1844013e679` [feat(catalog): add pg_extension (#11475)](https://github.com/risingwavelabs/risingwave/pull/11475)
