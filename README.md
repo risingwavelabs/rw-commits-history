@@ -292,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `65331e65ebe5971d93006d94e427ae1454a18543` [chore: rename `XxxPb` to `PbXxx` (#17534)](https://github.com/risingwavelabs/risingwave/pull/17534)
+- `7b26b20bec16d835e618c56a210ad7df09ed43d8` [fix: fix a corner case about sink in creating process (#17519)](https://github.com/risingwavelabs/risingwave/pull/17519)
+- `a525596b790b0bac1a7bb38882013e1534414242` [doc: make developer guide great again (by making it a book) (#17521)](https://github.com/risingwavelabs/risingwave/pull/17521)
 - `761f142774962037d9642a7fcd17685261b2d312` [refactor(e2e): use `__NOW__` substitution in e2e test for `generate_series` ends with `now()` (#17527)](https://github.com/risingwavelabs/risingwave/pull/17527)
 - `d9a90d655d2f2622596626efbaa278d92b076a99` [fix(frontend): fix changelog out_col_change error and add snowflake upsert sink demo (#17515)](https://github.com/risingwavelabs/risingwave/pull/17515)
 - `74e0842ed00cae967f4808e39ab7589c32ae54d8` [chore: upgrade hdfs builder (#17421)](https://github.com/risingwavelabs/risingwave/pull/17421)
