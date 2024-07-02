@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240702` `65331e65ebe5971d93006d94e427ae1454a18543`
 - `20240701` `3795168b11f216cb035dbd3130992d417ca6f9ea`
 - `20240630` `f56ba9b7f20bafdeeedaa37e5357b09660f60ba8`
 - `20240628` `7d3c7550f5960c6955ca572216d753b19fce3c16`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240702
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3795168b11f216cb035dbd3130992d417ca6f9ea...65331e65ebe5971d93006d94e427ae1454a18543)
 - `65331e65ebe5971d93006d94e427ae1454a18543` [chore: rename `XxxPb` to `PbXxx` (#17534)](https://github.com/risingwavelabs/risingwave/pull/17534)
 - `7b26b20bec16d835e618c56a210ad7df09ed43d8` [fix: fix a corner case about sink in creating process (#17519)](https://github.com/risingwavelabs/risingwave/pull/17519)
 - `a525596b790b0bac1a7bb38882013e1534414242` [doc: make developer guide great again (by making it a book) (#17521)](https://github.com/risingwavelabs/risingwave/pull/17521)
