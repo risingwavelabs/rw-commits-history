@@ -292,6 +292,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `761f142774962037d9642a7fcd17685261b2d312` [refactor(e2e): use `__NOW__` substitution in e2e test for `generate_series` ends with `now()` (#17527)](https://github.com/risingwavelabs/risingwave/pull/17527)
+- `d9a90d655d2f2622596626efbaa278d92b076a99` [fix(frontend): fix changelog out_col_change error and add snowflake upsert sink demo (#17515)](https://github.com/risingwavelabs/risingwave/pull/17515)
+- `74e0842ed00cae967f4808e39ab7589c32ae54d8` [chore: upgrade hdfs builder (#17421)](https://github.com/risingwavelabs/risingwave/pull/17421)
+- `015aa5d1696ac9e528a62591fb0d971328545d4c` [build: use shallow clone for git dependencies (#17526)](https://github.com/risingwavelabs/risingwave/pull/17526)
 - `2dfad375e9c11bc3d9d2f4a56888529a63f90a9f` [feat(secret): secret management (part 1) add secret ref protos and referent count in meta catalog (#17474)](https://github.com/risingwavelabs/risingwave/pull/17474)
 - `5bfa20245b1ad4c1d92d03d9faf98f50436a3ce3` [chore: update image version from `v1.9.1` to `v1.10.0-rc.1` (#17516)](https://github.com/risingwavelabs/risingwave/pull/17516)
 
