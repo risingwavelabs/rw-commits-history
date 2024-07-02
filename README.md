@@ -293,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cd4660ea0bf1a4f7125f3e18271d393d14b79164` [fix(storage): fix abnormal file cache miss on fetch (#17513)](https://github.com/risingwavelabs/risingwave/pull/17513)
 
 ## nightly-20240702
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3795168b11f216cb035dbd3130992d417ca6f9ea...65331e65ebe5971d93006d94e427ae1454a18543)
