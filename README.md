@@ -292,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2dfad375e9c11bc3d9d2f4a56888529a63f90a9f` [feat(secret): secret management (part 1) add secret ref protos and referent count in meta catalog (#17474)](https://github.com/risingwavelabs/risingwave/pull/17474)
 - `5bfa20245b1ad4c1d92d03d9faf98f50436a3ce3` [chore: update image version from `v1.9.1` to `v1.10.0-rc.1` (#17516)](https://github.com/risingwavelabs/risingwave/pull/17516)
 
 ## nightly-20240701
