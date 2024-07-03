@@ -293,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `91e69b034e3de2139ea07b76f6011ecf611b4d48` [feat: support config sql metastore using username and password by env (#17530)](https://github.com/risingwavelabs/risingwave/pull/17530)
 - `35abd8152edde0cd660333e388e6ff8a2b4a5538` [fix(storage): refill all version delta (#17540)](https://github.com/risingwavelabs/risingwave/pull/17540)
 - `cd4660ea0bf1a4f7125f3e18271d393d14b79164` [fix(storage): fix abnormal file cache miss on fetch (#17513)](https://github.com/risingwavelabs/risingwave/pull/17513)
 
