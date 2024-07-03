@@ -293,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5ce8102e796a16ee0dd3298f86b3f3c56c43f004` [feat(batch): use iceberg rust in iceberg scan (#17545)](https://github.com/risingwavelabs/risingwave/pull/17545)
 - `d54faf357b6b461ffa6f0e266cdab06f2050455c` [fix(sql-backend): fix system_parameter value column type and remove unnecessary FKs in mysql metastore (#17535)](https://github.com/risingwavelabs/risingwave/pull/17535)
 - `91e69b034e3de2139ea07b76f6011ecf611b4d48` [feat: support config sql metastore using username and password by env (#17530)](https://github.com/risingwavelabs/risingwave/pull/17530)
 - `35abd8152edde0cd660333e388e6ff8a2b4a5538` [fix(storage): refill all version delta (#17540)](https://github.com/risingwavelabs/risingwave/pull/17540)
