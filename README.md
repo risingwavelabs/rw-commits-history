@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240703` `1c3bdc3b72f473d1979d29a54d3a7a488715f407`
 - `20240702` `65331e65ebe5971d93006d94e427ae1454a18543`
 - `20240701` `3795168b11f216cb035dbd3130992d417ca6f9ea`
 - `20240630` `f56ba9b7f20bafdeeedaa37e5357b09660f60ba8`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240703
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/65331e65ebe5971d93006d94e427ae1454a18543...1c3bdc3b72f473d1979d29a54d3a7a488715f407)
 - `1c3bdc3b72f473d1979d29a54d3a7a488715f407` [feat(batch): bump opendal for batch spill out (#17550)](https://github.com/risingwavelabs/risingwave/pull/17550)
 - `1ac9583a5695525bd708df39e2881bb51ea0995d` [ci: fix stale bot scheduled run (#17549)](https://github.com/risingwavelabs/risingwave/pull/17549)
 - `5ce8102e796a16ee0dd3298f86b3f3c56c43f004` [feat(batch): use iceberg rust in iceberg scan (#17545)](https://github.com/risingwavelabs/risingwave/pull/17545)
