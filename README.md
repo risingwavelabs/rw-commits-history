@@ -284,7 +284,6 @@
 - `20230811` `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b`
 - `20230810` `53a2cf16b017a644cfe9924330fc4edf3f8ae096`
 - `20230809` `76a0fe1fb64a81f634d3e9021c16ea2e01365a04`
-- `20230808` `f76cbc56acb33f89a6e6e5204b3d66ac9821fa23`
 </details>
 
 # Commit history
@@ -4137,29 +4136,4 @@
 - `7ad461b2fbb2c937511e7a591540c7f1afb15fc3` [fix: parsing pg Time correctly (#11157)](https://github.com/risingwavelabs/risingwave/pull/11157)
 
 ## nightly-20230809
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f76cbc56acb33f89a6e6e5204b3d66ac9821fa23...76a0fe1fb64a81f634d3e9021c16ea2e01365a04)
 - `76a0fe1fb64a81f634d3e9021c16ea2e01365a04` [fix(metrics): fix mv throughput and show materialized view output throughput without actor_id (#10978)](https://github.com/risingwavelabs/risingwave/pull/10978)
-- `0d06cf5f6205dc79b17aeb833fa07de821702e4f` [fix: avoid unnessary recompilation of prost under different kinds of builds (#11456)](https://github.com/risingwavelabs/risingwave/pull/11456)
-- `0055824711b564afd6ea644de632b8aa19859e3a` [refactor(metric): add metrics for total object store file count and size (#11569)](https://github.com/risingwavelabs/risingwave/pull/11569)
-- `953add748f604b04c5edfafce91b12f22cf70530` [chore(deps): Bump num-traits from 0.2.15 to 0.2.16 (#11564)](https://github.com/risingwavelabs/risingwave/pull/11564)
-- `bcd79a8cd9bcf6181f33f458962e8b3145ae12f0` [feat(sink): implement sink coordinate service (#11359)](https://github.com/risingwavelabs/risingwave/pull/11359)
-- `55e3ddeddd8f3b8f9f6c1db9d7ca381a656f86c3` [fix(watermark): align watermark for idle input (#11554)](https://github.com/risingwavelabs/risingwave/pull/11554)
-- `ce2a0c872793c1baadc813728fc93813f48f4b9f` [feat: add target_parallelism support for resize command. (#11557)](https://github.com/risingwavelabs/risingwave/pull/11557)
-- `77c0b1c73ca1ba31edd367504fcc940f2052089d` [feat(risectl): risectl heap dump (#11444)](https://github.com/risingwavelabs/risingwave/pull/11444)
-- `6d4d5ac151b0e737745413f29af4bde3862cc2a7` [feat(frontend): use `WatermarkCacheStateTable` in `TemporalFilter` (#11512)](https://github.com/risingwavelabs/risingwave/pull/11512)
-- `87d5d98c022d1e02b305e860d1503803932495d2` [feat: support grafana tempo tracing in risedev-compose (#11548)](https://github.com/risingwavelabs/risingwave/pull/11548)
-- `e8b779db5fc3fa70ec91857b01292f8d08b43628` [refactor(object_store): use iter to list objects (#11437)](https://github.com/risingwavelabs/risingwave/pull/11437)
-- `da65b191e2d8f9297bcb9b1a5db9cd440035478b` [fix(integration-test): fixed localstack image tag (#11477)](https://github.com/risingwavelabs/risingwave/pull/11477)
-- `26212b69823e31f0fb654a2066f28f6451eb4057` [feat(optimizer): support apply limit transpose rule (#11537)](https://github.com/risingwavelabs/risingwave/pull/11537)
-- `71a1fc6578ffcd24274c5c5ac9ed764fa28a5942` [chore(deps): bump cc from 1.0.79 to 1.0.82 (#11516)](https://github.com/risingwavelabs/risingwave/pull/11516)
-- `00b8cabdfa2e8f5af7f3b667052148eebdfe8a74` [fix(pgwire): fix corner case processing in parse and bind msg (#11540)](https://github.com/risingwavelabs/risingwave/pull/11540)
-- `f168a472d93d0fcd149ea35fabd7f5f54809d3b9` [feat: support iceberg_v2 sink writer (#11326)](https://github.com/risingwavelabs/risingwave/pull/11326)
-- `e3f023701315416ddff3cbb2e7a79d7645e68e08` [feat(optimizer): support table function to project set rule (#11422)](https://github.com/risingwavelabs/risingwave/pull/11422)
-- `3cf44c60d5e49d97f0f111a1f91f6e0c3cedbef4` [feat: support other name strategies in schema registry (#11384)](https://github.com/risingwavelabs/risingwave/pull/11384)
-- `daa59fadc9d02b8abdbb11f56657d51c0c6e43bc` [fix(integration-tests): remove docker-compose-nightly.yml (#11533)](https://github.com/risingwavelabs/risingwave/pull/11533)
-- `389a515a53f678db72bc0e855b11c52ec7a2514d` [chore: Upgrade tower-http to 0.4 (#11553)](https://github.com/risingwavelabs/risingwave/pull/11553)
-- `32ec005ac07ee3fef427addc44a7c3cffc58824e` [test(stream): bench `StateTable` with `WatermarkCache`, more datatypes and columns (#11499)](https://github.com/risingwavelabs/risingwave/pull/11499)
-- `4dd9dcaeb48ad162b11887fd4432a35910e15a63` [fix: introduce blocked status for scheduled queue when recovering (#11543)](https://github.com/risingwavelabs/risingwave/pull/11543)
-
-## nightly-20230808
-- `f76cbc56acb33f89a6e6e5204b3d66ac9821fa23` [fix(ci): update integration test script in linux 2023 (#11546)](https://github.com/risingwavelabs/risingwave/pull/11546)
