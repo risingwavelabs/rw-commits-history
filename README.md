@@ -291,6 +291,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7159f9ae76d1cfcc953f9ec3bbf2484381a7359f` [perf(storage): allow dynamic enable/disable minitrace for tiered cache (#17570)](https://github.com/risingwavelabs/risingwave/pull/17570)
+- `936362e72e4dde670401b5b87f714f5debb63666` [feat(meta): support drop creating materialized views for v1 backend (#17484)](https://github.com/risingwavelabs/risingwave/pull/17484)
 - `914c774523cbc26425eeb0df8e9286befc5b0e09` [doc: add connector dev guide (#17555)](https://github.com/risingwavelabs/risingwave/pull/17555)
 - `44abe69cc5e772f2f392747bd6705111ba78e196` [fix: fix inappropriate assertion in migration (#17569)](https://github.com/risingwavelabs/risingwave/pull/17569)
 - `2477900ee84a7194c90dae06108ad1fd7ab03b26` [fix(compactor): make sure compaction worker num is strictly larger than 0 (#17562)](https://github.com/risingwavelabs/risingwave/pull/17562)
