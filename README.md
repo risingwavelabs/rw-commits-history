@@ -291,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bc3c6b748cf0b0fb008c864327c65cad168221d1` [fix(sink_bench): fix sink bench calculation error (#17463)](https://github.com/risingwavelabs/risingwave/pull/17463)
 - `81ff4a7b6c0ee8ae78ad742ae5b82d9a6701d52b` [feat(connector): support gzip compression for file source (#16538)](https://github.com/risingwavelabs/risingwave/pull/16538)
 - `8fb5606a4959807a070d034e9ad9e02f59a8f173` [fix(iceberg): fix jni context class loader (#17478)](https://github.com/risingwavelabs/risingwave/pull/17478)
 
