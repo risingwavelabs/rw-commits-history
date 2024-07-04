@@ -291,6 +291,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `47ece851d86e441371ac0cddb69824d951506c67` [refactor: demonstrate graceful shutdown on compute node (#17533)](https://github.com/risingwavelabs/risingwave/pull/17533)
+- `3e7418c3adcffe7aa83a82f9159cf8786c1d6803` [chore: Add `serde` and `serde_json` v1 with derive to `Cargo.toml` in SQL migration (#17564)](https://github.com/risingwavelabs/risingwave/pull/17564)
 - `a0fba1a20e6d57d97c03cde62657a4170959d897` [fix(object store): try get_or_init jvm before creating hdfs builder (#17552)](https://github.com/risingwavelabs/risingwave/pull/17552)
 - `6d69524ee469b7c7062511a797fe2863df30279a` [fix: update opendal to 0.47.2 for gcs fix (#17563)](https://github.com/risingwavelabs/risingwave/pull/17563)
 - `1faa045dd7275a34505865b7c4294a51103d185b` [feat(metrics): add recent filter metrics (#17559)](https://github.com/risingwavelabs/risingwave/pull/17559)
