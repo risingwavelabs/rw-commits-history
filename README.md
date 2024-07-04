@@ -282,7 +282,6 @@
 - `20230815` `4a5bf065b8d3c119393856e2390763e62499e765`
 - `20230814` `c76d2fbf476bb7593ba1c5817418a9b290a25634`
 - `20230813` `bddf6096a6f02c63141430813dc07bd24c550ed6`
-- `20230812` `708df8e1233ae624a952117273a917b1007230fa`
 </details>
 
 # Commit history
@@ -4117,8 +4116,4 @@
 - `89ba3abe39575d5ac6e70390b976d71fc1f4c4f2` [chore(deps): bump opendal from 0.38.1 to 0.39.0 (#11642)](https://github.com/risingwavelabs/risingwave/pull/11642)
 
 ## nightly-20230813
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/708df8e1233ae624a952117273a917b1007230fa...bddf6096a6f02c63141430813dc07bd24c550ed6)
 - `bddf6096a6f02c63141430813dc07bd24c550ed6` [build: add resolver=2 to workspace (#11647)](https://github.com/risingwavelabs/risingwave/pull/11647)
-
-## nightly-20230812
-- `708df8e1233ae624a952117273a917b1007230fa` [chore(deps): bump parse-display from 0.6.0 to 0.8.2 (#11640)](https://github.com/risingwavelabs/risingwave/pull/11640)
