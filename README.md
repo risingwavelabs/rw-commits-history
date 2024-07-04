@@ -291,6 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a0fba1a20e6d57d97c03cde62657a4170959d897` [fix(object store): try get_or_init jvm before creating hdfs builder (#17552)](https://github.com/risingwavelabs/risingwave/pull/17552)
+- `6d69524ee469b7c7062511a797fe2863df30279a` [fix: update opendal to 0.47.2 for gcs fix (#17563)](https://github.com/risingwavelabs/risingwave/pull/17563)
+- `1faa045dd7275a34505865b7c4294a51103d185b` [feat(metrics): add recent filter metrics (#17559)](https://github.com/risingwavelabs/risingwave/pull/17559)
 - `c22c4265052c2a4f2876132a10a0b522ec7c03c9` [feat(telemetry): add object store media type in mete telemetry report (#17553)](https://github.com/risingwavelabs/risingwave/pull/17553)
 
 ## nightly-20240703
