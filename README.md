@@ -291,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2477900ee84a7194c90dae06108ad1fd7ab03b26` [fix(compactor): make sure compaction worker num is strictly larger than 0 (#17562)](https://github.com/risingwavelabs/risingwave/pull/17562)
 - `47ece851d86e441371ac0cddb69824d951506c67` [refactor: demonstrate graceful shutdown on compute node (#17533)](https://github.com/risingwavelabs/risingwave/pull/17533)
 - `3e7418c3adcffe7aa83a82f9159cf8786c1d6803` [chore: Add `serde` and `serde_json` v1 with derive to `Cargo.toml` in SQL migration (#17564)](https://github.com/risingwavelabs/risingwave/pull/17564)
 - `a0fba1a20e6d57d97c03cde62657a4170959d897` [fix(object store): try get_or_init jvm before creating hdfs builder (#17552)](https://github.com/risingwavelabs/risingwave/pull/17552)
