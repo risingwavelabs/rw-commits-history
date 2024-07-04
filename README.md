@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240704` `7159f9ae76d1cfcc953f9ec3bbf2484381a7359f`
 - `20240703` `1c3bdc3b72f473d1979d29a54d3a7a488715f407`
 - `20240702` `65331e65ebe5971d93006d94e427ae1454a18543`
 - `20240701` `3795168b11f216cb035dbd3130992d417ca6f9ea`
@@ -282,7 +283,6 @@
 - `20230814` `c76d2fbf476bb7593ba1c5817418a9b290a25634`
 - `20230813` `bddf6096a6f02c63141430813dc07bd24c550ed6`
 - `20230812` `708df8e1233ae624a952117273a917b1007230fa`
-- `20230811` `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b`
 </details>
 
 # Commit history
@@ -291,6 +291,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `81ff4a7b6c0ee8ae78ad742ae5b82d9a6701d52b` [feat(connector): support gzip compression for file source (#16538)](https://github.com/risingwavelabs/risingwave/pull/16538)
+- `8fb5606a4959807a070d034e9ad9e02f59a8f173` [fix(iceberg): fix jni context class loader (#17478)](https://github.com/risingwavelabs/risingwave/pull/17478)
+
+## nightly-20240704
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c3bdc3b72f473d1979d29a54d3a7a488715f407...7159f9ae76d1cfcc953f9ec3bbf2484381a7359f)
 - `7159f9ae76d1cfcc953f9ec3bbf2484381a7359f` [perf(storage): allow dynamic enable/disable minitrace for tiered cache (#17570)](https://github.com/risingwavelabs/risingwave/pull/17570)
 - `936362e72e4dde670401b5b87f714f5debb63666` [feat(meta): support drop creating materialized views for v1 backend (#17484)](https://github.com/risingwavelabs/risingwave/pull/17484)
 - `914c774523cbc26425eeb0df8e9286befc5b0e09` [doc: add connector dev guide (#17555)](https://github.com/risingwavelabs/risingwave/pull/17555)
@@ -4115,8 +4120,4 @@
 - `bddf6096a6f02c63141430813dc07bd24c550ed6` [build: add resolver=2 to workspace (#11647)](https://github.com/risingwavelabs/risingwave/pull/11647)
 
 ## nightly-20230812
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b...708df8e1233ae624a952117273a917b1007230fa)
 - `708df8e1233ae624a952117273a917b1007230fa` [chore(deps): bump parse-display from 0.6.0 to 0.8.2 (#11640)](https://github.com/risingwavelabs/risingwave/pull/11640)
-
-## nightly-20230811
-- `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b` [feat(sink): clickhouse sink  (#11240)](https://github.com/risingwavelabs/risingwave/pull/11240)
