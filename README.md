@@ -292,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c22c4265052c2a4f2876132a10a0b522ec7c03c9` [feat(telemetry): add object store media type in mete telemetry report (#17553)](https://github.com/risingwavelabs/risingwave/pull/17553)
 
 ## nightly-20240703
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/65331e65ebe5971d93006d94e427ae1454a18543...1c3bdc3b72f473d1979d29a54d3a7a488715f407)
