@@ -287,6 +287,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3c18089c1519d8d2442b1476c61f204af9cf445f` [chore: deprecate `get_reschedule_plan` and clean up code (#17584)](https://github.com/risingwavelabs/risingwave/pull/17584)
 - `dc1fe458e003154b82a579a346c2f70e02535170` [fix(frontend): fix changelog append_only (#17583)](https://github.com/risingwavelabs/risingwave/pull/17583)
 - `1b286cee7758c498a1e80a3a600b1c40f61e9b4a` [refactor: graceful shutdown on frontend node (#17567)](https://github.com/risingwavelabs/risingwave/pull/17567)
 - `bc3c6b748cf0b0fb008c864327c65cad168221d1` [fix(sink_bench): fix sink bench calculation error (#17463)](https://github.com/risingwavelabs/risingwave/pull/17463)
