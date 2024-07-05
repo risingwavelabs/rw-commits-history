@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240705` `0e64bc036bcea26175645ef920d0a3077addf6f3`
 - `20240704` `7159f9ae76d1cfcc953f9ec3bbf2484381a7359f`
 - `20240703` `1c3bdc3b72f473d1979d29a54d3a7a488715f407`
 - `20240702` `65331e65ebe5971d93006d94e427ae1454a18543`
@@ -286,6 +287,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f0fa34cdeed95a08b2c7d8428a17d6de27b6588d` [test: add data-driven Avro decode integration tests (#17434)](https://github.com/risingwavelabs/risingwave/pull/17434)
+
+## nightly-20240705
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7159f9ae76d1cfcc953f9ec3bbf2484381a7359f...0e64bc036bcea26175645ef920d0a3077addf6f3)
 - `0e64bc036bcea26175645ef920d0a3077addf6f3` [refactor(frontend): use iceberg-rust instead of icelake to enumerate iceberg files and snapshots. (#17558)](https://github.com/risingwavelabs/risingwave/pull/17558)
 - `3c886119c9e37543f5c2eee9546e2c9789e9bde2` [fix(meta): make drop streaming job catalog and notify frontend transactional (#17578)](https://github.com/risingwavelabs/risingwave/pull/17578)
 - `096889fc2d6f8f3956797038d16d504287245b5a` [fix(subscription): fix drop subscription not clear cursor (#17232)](https://github.com/risingwavelabs/risingwave/pull/17232)
