@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240706` `69effdd33b4e8157757a33a0377cbb26505295d7`
 - `20240705` `0e64bc036bcea26175645ef920d0a3077addf6f3`
 - `20240704` `7159f9ae76d1cfcc953f9ec3bbf2484381a7359f`
 - `20240703` `1c3bdc3b72f473d1979d29a54d3a7a488715f407`
@@ -286,6 +287,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240706
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0e64bc036bcea26175645ef920d0a3077addf6f3...69effdd33b4e8157757a33a0377cbb26505295d7)
 - `69effdd33b4e8157757a33a0377cbb26505295d7` [refactor(common): rename buffer to bitmap (#17588)](https://github.com/risingwavelabs/risingwave/pull/17588)
 - `f0fa34cdeed95a08b2c7d8428a17d6de27b6588d` [test: add data-driven Avro decode integration tests (#17434)](https://github.com/risingwavelabs/risingwave/pull/17434)
 
