@@ -287,6 +287,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `69effdd33b4e8157757a33a0377cbb26505295d7` [refactor(common): rename buffer to bitmap (#17588)](https://github.com/risingwavelabs/risingwave/pull/17588)
 - `f0fa34cdeed95a08b2c7d8428a17d6de27b6588d` [test: add data-driven Avro decode integration tests (#17434)](https://github.com/risingwavelabs/risingwave/pull/17434)
 
 ## nightly-20240705
