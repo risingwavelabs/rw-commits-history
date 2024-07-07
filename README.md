@@ -279,7 +279,6 @@
 - `20230822` `b04d1df5e878f19dd580e169192bd90996b9a8ff`
 - `20230821` `e0d5a7f67be5e9c7a9ce7b91af782c20220a7759`
 - `20230820` `9e4831f5df62361e04a364db230b3fd3034dcbed`
-- `20230818` `88a4daca851bf23bea68065426779aeea105bd8d`
 </details>
 
 # Commit history
@@ -4028,8 +4027,4 @@
 - `a57c34c005841f99de593bcd7420947a982f1083` [test: fix timeout of deterministic integration test (#11793)](https://github.com/risingwavelabs/risingwave/pull/11793)
 
 ## nightly-20230820
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/88a4daca851bf23bea68065426779aeea105bd8d...9e4831f5df62361e04a364db230b3fd3034dcbed)
 - `9e4831f5df62361e04a364db230b3fd3034dcbed` [feat: Add integration test demo for rust native iceberg sink. (#11788)](https://github.com/risingwavelabs/risingwave/pull/11788)
-
-## nightly-20230818
-- `88a4daca851bf23bea68065426779aeea105bd8d` [fix(watermark): yield watermark when input is idle (#11783)](https://github.com/risingwavelabs/risingwave/pull/11783)
