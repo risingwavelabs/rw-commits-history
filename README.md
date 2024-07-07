@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240707` `739d0059f3b7a76975d503821549fd808fef8af9`
 - `20240706` `69effdd33b4e8157757a33a0377cbb26505295d7`
 - `20240705` `0e64bc036bcea26175645ef920d0a3077addf6f3`
 - `20240704` `7159f9ae76d1cfcc953f9ec3bbf2484381a7359f`
@@ -287,6 +288,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240707
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/69effdd33b4e8157757a33a0377cbb26505295d7...739d0059f3b7a76975d503821549fd808fef8af9)
 - `739d0059f3b7a76975d503821549fd808fef8af9` [feat(cdc): support alter cdc table schema (#17334)](https://github.com/risingwavelabs/risingwave/pull/17334)
 
 ## nightly-20240706
