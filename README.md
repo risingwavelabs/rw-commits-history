@@ -286,6 +286,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5cebcad58867573d7bf1fcffc719ef277dec3c20` [refactor(storage): remove may_exist interface and metrics (#17609)](https://github.com/risingwavelabs/risingwave/pull/17609)
 
 ## nightly-20240708
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/739d0059f3b7a76975d503821549fd808fef8af9...10c5aa1fc4ebcc946d3c985401b72be298e756f9)
