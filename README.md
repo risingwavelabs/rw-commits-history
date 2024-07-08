@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240708` `10c5aa1fc4ebcc946d3c985401b72be298e756f9`
 - `20240707` `739d0059f3b7a76975d503821549fd808fef8af9`
 - `20240706` `69effdd33b4e8157757a33a0377cbb26505295d7`
 - `20240705` `0e64bc036bcea26175645ef920d0a3077addf6f3`
@@ -285,6 +286,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240708
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/739d0059f3b7a76975d503821549fd808fef8af9...10c5aa1fc4ebcc946d3c985401b72be298e756f9)
 - `10c5aa1fc4ebcc946d3c985401b72be298e756f9` [chore: update to openjdk17 for packaging with hdfs (#17597)](https://github.com/risingwavelabs/risingwave/pull/17597)
 - `dd98abf48bb1821fb1b8d570878f080595e41229` [chore: Remove redundant import, refactor get_fragment_mappings in catalog (#17607)](https://github.com/risingwavelabs/risingwave/pull/17607)
 - `0e873a0dfa5020476b7d1b1d3d441c46a7891f61` [refactor(metrics): use counter instead of histogram for barrier align duration (#17594)](https://github.com/risingwavelabs/risingwave/pull/17594)
