@@ -287,6 +287,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0e873a0dfa5020476b7d1b1d3d441c46a7891f61` [refactor(metrics): use counter instead of histogram for barrier align duration (#17594)](https://github.com/risingwavelabs/risingwave/pull/17594)
 - `99fcd9a0cc30ac6650412546a9bec0671852b147` [chore: Refactor worker_node_manager for simpler worker-node mapping. (#17603)](https://github.com/risingwavelabs/risingwave/pull/17603)
 - `febef35303a5686b55ac44af16b45e6250d65584` [chore: using memory sql backend by default in risedev (#17413)](https://github.com/risingwavelabs/risingwave/pull/17413)
 - `f3770201f4a79691875d901017d26c14c0ce389d` [refactor(connector): make source connector's metrics guarded (#17593)](https://github.com/risingwavelabs/risingwave/pull/17593)
