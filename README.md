@@ -287,6 +287,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `496d3a3e087307ad8a133b99f358c69b7d338dae` [refactor: graceful shutdown on risectl (#17574)](https://github.com/risingwavelabs/risingwave/pull/17574)
 
 ## nightly-20240707
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/69effdd33b4e8157757a33a0377cbb26505295d7...739d0059f3b7a76975d503821549fd808fef8af9)
