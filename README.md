@@ -278,7 +278,6 @@
 - `20230823` `12d2f28b7d84f72af62f4c2785f6bb5e23e43510`
 - `20230822` `b04d1df5e878f19dd580e169192bd90996b9a8ff`
 - `20230821` `e0d5a7f67be5e9c7a9ce7b91af782c20220a7759`
-- `20230820` `9e4831f5df62361e04a364db230b3fd3034dcbed`
 </details>
 
 # Commit history
@@ -287,6 +286,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dd98abf48bb1821fb1b8d570878f080595e41229` [chore: Remove redundant import, refactor get_fragment_mappings in catalog (#17607)](https://github.com/risingwavelabs/risingwave/pull/17607)
 - `0e873a0dfa5020476b7d1b1d3d441c46a7891f61` [refactor(metrics): use counter instead of histogram for barrier align duration (#17594)](https://github.com/risingwavelabs/risingwave/pull/17594)
 - `99fcd9a0cc30ac6650412546a9bec0671852b147` [chore: Refactor worker_node_manager for simpler worker-node mapping. (#17603)](https://github.com/risingwavelabs/risingwave/pull/17603)
 - `febef35303a5686b55ac44af16b45e6250d65584` [chore: using memory sql backend by default in risedev (#17413)](https://github.com/risingwavelabs/risingwave/pull/17413)
@@ -4023,15 +4023,4 @@
 - `1ac88758caedbdd9944bff26ae21cfc7cce080db` [chore(deps): bump serde from 1.0.183 to 1.0.185 (#11802)](https://github.com/risingwavelabs/risingwave/pull/11802)
 
 ## nightly-20230821
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9e4831f5df62361e04a364db230b3fd3034dcbed...e0d5a7f67be5e9c7a9ce7b91af782c20220a7759)
 - `e0d5a7f67be5e9c7a9ce7b91af782c20220a7759` [chore: fmt let-else (#11810)](https://github.com/risingwavelabs/risingwave/pull/11810)
-- `339c722a75fd160435beafc08a431f0e65458e53` [feat(cmd_all): add demo with full cluster, including connector (#11795)](https://github.com/risingwavelabs/risingwave/pull/11795)
-- `e09f5de73ce45aae8e6cde0b7c27db580b6a4af8` [chore(deps): bump dyn-clone from 1.0.12 to 1.0.13 (#11796)](https://github.com/risingwavelabs/risingwave/pull/11796)
-- `451416720fa415d0c6992bbf8e49e0c15a3266fa` [test(e2e): add flush for watermark test and skip the test for in memory cluster (#11799)](https://github.com/risingwavelabs/risingwave/pull/11799)
-- `eb4392398cd417ddac39bc9a1053aa825d33db01` [chore(deps): bump serde_with from 3.2.0 to 3.3.0 (#11804)](https://github.com/risingwavelabs/risingwave/pull/11804)
-- `33e0c6fccca6b5e3b6d81395c2e58f0a35b0efea` [refactor(kafka-sink): remove transaction conductor & use FutureProducer instead of ThreadProducer (#11706)](https://github.com/risingwavelabs/risingwave/pull/11706)
-- `41b8d6fb25cc56e6f6155741333b6d3c7bffcdca` [feat(handler): support [I]LIKE in show commands (#11791)](https://github.com/risingwavelabs/risingwave/pull/11791)
-- `a57c34c005841f99de593bcd7420947a982f1083` [test: fix timeout of deterministic integration test (#11793)](https://github.com/risingwavelabs/risingwave/pull/11793)
-
-## nightly-20230820
-- `9e4831f5df62361e04a364db230b3fd3034dcbed` [feat: Add integration test demo for rust native iceberg sink. (#11788)](https://github.com/risingwavelabs/risingwave/pull/11788)
