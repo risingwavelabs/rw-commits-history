@@ -287,6 +287,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `99fcd9a0cc30ac6650412546a9bec0671852b147` [chore: Refactor worker_node_manager for simpler worker-node mapping. (#17603)](https://github.com/risingwavelabs/risingwave/pull/17603)
+- `febef35303a5686b55ac44af16b45e6250d65584` [chore: using memory sql backend by default in risedev (#17413)](https://github.com/risingwavelabs/risingwave/pull/17413)
 - `f3770201f4a79691875d901017d26c14c0ce389d` [refactor(connector): make source connector's metrics guarded (#17593)](https://github.com/risingwavelabs/risingwave/pull/17593)
 - `fb4ec6bbcc30700b055d706dd06e7c115a1a6b8f` [chore: Removed `ScaleHorizon/Common/VerticalCmds` from `src/ctl/lib.rs` (#17599)](https://github.com/risingwavelabs/risingwave/pull/17599)
 - `9648c9f79137ce2b6f301477923041518d8db0f7` [chore: expose append only info in rw_tables and rw_materialized_views (#17598)](https://github.com/risingwavelabs/risingwave/pull/17598)
