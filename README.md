@@ -286,6 +286,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5cd5ccd3b00f4a7bec6f245c01a5fc36058989e0` [feat(metrics): enable http compression for prometheus metrics service (#17610)](https://github.com/risingwavelabs/risingwave/pull/17610)
 - `90f45c0017c0138255f029637e65367deb24ffa5` [fix(storage): add disk cache buffer threshold to mitigate OOM (#17595)](https://github.com/risingwavelabs/risingwave/pull/17595)
 - `5cebcad58867573d7bf1fcffc719ef277dec3c20` [refactor(storage): remove may_exist interface and metrics (#17609)](https://github.com/risingwavelabs/risingwave/pull/17609)
 
