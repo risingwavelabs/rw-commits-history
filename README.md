@@ -277,7 +277,6 @@
 - `20230825` `03e92dc21391b4aed251a07489faa44a75f7e8af`
 - `20230824` `eedc3040d9598dd0413ce81d6f74f2a495babf3e`
 - `20230823` `12d2f28b7d84f72af62f4c2785f6bb5e23e43510`
-- `20230822` `b04d1df5e878f19dd580e169192bd90996b9a8ff`
 </details>
 
 # Commit history
@@ -4002,15 +4001,4 @@
 - `181953d149dc7da17f63678c97c0e960f37d6b7e` [chore(deps): bump dashmap from 5.5.0 to 5.5.1 (#11841)](https://github.com/risingwavelabs/risingwave/pull/11841)
 
 ## nightly-20230823
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b04d1df5e878f19dd580e169192bd90996b9a8ff...12d2f28b7d84f72af62f4c2785f6bb5e23e43510)
 - `12d2f28b7d84f72af62f4c2785f6bb5e23e43510` [fix(json parser): fill None when parse error (#11845)](https://github.com/risingwavelabs/risingwave/pull/11845)
-- `1b1cff0f3e057db9e702b7b0fb7281b5482d6461` [fix(compaction): do not split creating table (#11826)](https://github.com/risingwavelabs/risingwave/pull/11826)
-- `5a5094a45fa9b339a7737e7eaf42a7ba0f5a13fc` [chore: refine kinesis error & sleep when shard iter is None (#11847)](https://github.com/risingwavelabs/risingwave/pull/11847)
-- `261cb80436501b598cb2b4f223be4c69af682bb9` [feat(sqlparser): support qualified operator invocation syntax `OPERATOR(schema.op)` (#11700)](https://github.com/risingwavelabs/risingwave/pull/11700)
-- `c7f65ae9b406b2ddce00e6f41bfc67ea23cc0ca7` [fix(compaction): report a log when vacuum task fails (#11844)](https://github.com/risingwavelabs/risingwave/pull/11844)
-- `70bd7eabb21c02bd3b6a18568afba4f3aa1540f6` [feat(expr): `IS JSON` predicate (#11831)](https://github.com/risingwavelabs/risingwave/pull/11831)
-- `b4fee376aca85018bf7fe17d392b9c92fe18c9e9` [chore: bump `rustls-webpki` & temporarily ignore security vulnerability (#11850)](https://github.com/risingwavelabs/risingwave/pull/11850)
-- `151ffd2ac21f8d0b260b4dc38ba3772cf8324b24` [chore: Rename iceberg_v2 as iceberg (#11824)](https://github.com/risingwavelabs/risingwave/pull/11824)
-
-## nightly-20230822
-- `b04d1df5e878f19dd580e169192bd90996b9a8ff` [refactor(compaction): extract reporting progress of vacuum task (#11835)](https://github.com/risingwavelabs/risingwave/pull/11835)
