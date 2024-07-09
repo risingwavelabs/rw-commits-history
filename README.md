@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240709` `b9ceb8d208c2d906d45af2a5926456d41629e67f`
 - `20240708` `10c5aa1fc4ebcc946d3c985401b72be298e756f9`
 - `20240707` `739d0059f3b7a76975d503821549fd808fef8af9`
 - `20240706` `69effdd33b4e8157757a33a0377cbb26505295d7`
@@ -284,6 +285,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c9a6a1fdde4b78ccea71d27a8432753ed697df55` [refactor(common): remove dead code and simplify (#17585)](https://github.com/risingwavelabs/risingwave/pull/17585)
+- `b3e1faddf07c1c653f611883c62ae5b6d9d5ca93` [feat(source): support Avro Union type (#17485)](https://github.com/risingwavelabs/risingwave/pull/17485)
+
+## nightly-20240709
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10c5aa1fc4ebcc946d3c985401b72be298e756f9...b9ceb8d208c2d906d45af2a5926456d41629e67f)
 - `b9ceb8d208c2d906d45af2a5926456d41629e67f` [feat(storage): decouple upload task finish order from epoch (#17460)](https://github.com/risingwavelabs/risingwave/pull/17460)
 - `9dabb6e5c158ab87603dfa31ec513f5e56811283` [refactor(storage): remove global epoch in uploader (#17500)](https://github.com/risingwavelabs/risingwave/pull/17500)
 - `8805830552ec8b09a4308f1635b8b478295afe2e` [refactor: graceful shutdown on compactor node (#17575)](https://github.com/risingwavelabs/risingwave/pull/17575)
