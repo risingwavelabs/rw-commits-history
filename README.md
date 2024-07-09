@@ -276,7 +276,6 @@
 - `20230827` `29274576d3fe79621ad3eafaf119f78031d0633b`
 - `20230826` `144688c25b47f0aff199b43629a348c0dd669d2c`
 - `20230825` `03e92dc21391b4aed251a07489faa44a75f7e8af`
-- `20230824` `eedc3040d9598dd0413ce81d6f74f2a495babf3e`
 </details>
 
 # Commit history
@@ -3991,16 +3990,4 @@
 - `2cf06033a2645e58f7fd042d4767c0335c82d390` [feat(frontend): support lateral subqueries (#11780)](https://github.com/risingwavelabs/risingwave/pull/11780)
 
 ## nightly-20230825
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eedc3040d9598dd0413ce81d6f74f2a495babf3e...03e92dc21391b4aed251a07489faa44a75f7e8af)
 - `03e92dc21391b4aed251a07489faa44a75f7e8af` [feat(compaction): compact sstable with many tombstones periodic (#11740)](https://github.com/risingwavelabs/risingwave/pull/11740)
-- `4344676fb2c0205a514997125cf407973a7cfa24` [feat(ci): test standalone cluster in main-cron, with e2e test (#11871)](https://github.com/risingwavelabs/risingwave/pull/11871)
-- `08c2a3681923c40e7e5d2d2cbf1c1cf796b11dbb` [feat(parser): parse lambda function (take 2) (#11888)](https://github.com/risingwavelabs/risingwave/pull/11888)
-- `1bed6a6a6ae335e6c9bd3825ef90d68a9ea07847` [fix(cdc): fix postgres privilege check for AWS RDS (#11893)](https://github.com/risingwavelabs/risingwave/pull/11893)
-- `cd15fb82649c9e9a6c7968bfc56e92a44ae119d9` [feat: add streamChunkMut (#11808)](https://github.com/risingwavelabs/risingwave/pull/11808)
-- `acc1486ef1239f461574974fdcb216a9743bd697` [fix(watermark): correct data type in transform_with_expr (#11887)](https://github.com/risingwavelabs/risingwave/pull/11887)
-- `78fe0fda08b429c7e6fc7514c82c935c58eb49c6` [chore(deps): bump petgraph from 0.6.3 to 0.6.4 (#11816)](https://github.com/risingwavelabs/risingwave/pull/11816)
-- `9e35e8a267c969178496281e578a874f26e361a8` [fix(watermark): return error when watermark return data type does not match the watermark column type (#11874)](https://github.com/risingwavelabs/risingwave/pull/11874)
-- `9c89aa0fefa9409f362a3ebf4a436fb7203f06a4` [chore(ci): bump flamegraph gen timeout (#11886)](https://github.com/risingwavelabs/risingwave/pull/11886)
-
-## nightly-20230824
-- `eedc3040d9598dd0413ce81d6f74f2a495babf3e` [chore(deps): bump simd-json from 0.10.5 to 0.10.6 (#11857)](https://github.com/risingwavelabs/risingwave/pull/11857)
