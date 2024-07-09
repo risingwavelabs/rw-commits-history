@@ -285,6 +285,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b9ceb8d208c2d906d45af2a5926456d41629e67f` [feat(storage): decouple upload task finish order from epoch (#17460)](https://github.com/risingwavelabs/risingwave/pull/17460)
 - `9dabb6e5c158ab87603dfa31ec513f5e56811283` [refactor(storage): remove global epoch in uploader (#17500)](https://github.com/risingwavelabs/risingwave/pull/17500)
 - `8805830552ec8b09a4308f1635b8b478295afe2e` [refactor: graceful shutdown on compactor node (#17575)](https://github.com/risingwavelabs/risingwave/pull/17575)
 - `9da062781b394e2a4f0e1679d1ae8a06e39a3709` [feat: compact_noop_update_after_outer_join (#17568)](https://github.com/risingwavelabs/risingwave/pull/17568)
