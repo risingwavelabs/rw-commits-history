@@ -285,6 +285,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9da062781b394e2a4f0e1679d1ae8a06e39a3709` [feat: compact_noop_update_after_outer_join (#17568)](https://github.com/risingwavelabs/risingwave/pull/17568)
 - `607a2afdc15a188d0ad974b1b963f27d247c594d` [feat(batch): support batch s3 parquet file executor (#17606)](https://github.com/risingwavelabs/risingwave/pull/17606)
 - `5cd5ccd3b00f4a7bec6f245c01a5fc36058989e0` [feat(metrics): enable http compression for prometheus metrics service (#17610)](https://github.com/risingwavelabs/risingwave/pull/17610)
 - `90f45c0017c0138255f029637e65367deb24ffa5` [fix(storage): add disk cache buffer threshold to mitigate OOM (#17595)](https://github.com/risingwavelabs/risingwave/pull/17595)
