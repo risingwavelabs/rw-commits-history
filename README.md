@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240710` `0987e27d057f45195cece40aa2420058bef1e5a0`
 - `20240709` `b9ceb8d208c2d906d45af2a5926456d41629e67f`
 - `20240708` `10c5aa1fc4ebcc946d3c985401b72be298e756f9`
 - `20240707` `739d0059f3b7a76975d503821549fd808fef8af9`
@@ -284,6 +285,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `16b358a25c79db20fa1999e4deb9d9ebe468149c` [doc(dev-guide): reorg design docs (#17649)](https://github.com/risingwavelabs/risingwave/pull/17649)
+
+## nightly-20240710
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b9ceb8d208c2d906d45af2a5926456d41629e67f...0987e27d057f45195cece40aa2420058bef1e5a0)
 - `0987e27d057f45195cece40aa2420058bef1e5a0` [refactor: graceful shutdown on meta node & unify election path (#17608)](https://github.com/risingwavelabs/risingwave/pull/17608)
 - `4d34bd321073b88dce91ea0b05b4abfaa4aca980` [feat: remote input subscribe on barrier mutation (#17612)](https://github.com/risingwavelabs/risingwave/pull/17612)
 - `b8bb2f7ab564a6a6a75d0c939a14b09f4869fb76` [doc(dev-guide): merge design docs into dev guide (#17640)](https://github.com/risingwavelabs/risingwave/pull/17640)
