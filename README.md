@@ -284,6 +284,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0987e27d057f45195cece40aa2420058bef1e5a0` [refactor: graceful shutdown on meta node & unify election path (#17608)](https://github.com/risingwavelabs/risingwave/pull/17608)
 - `4d34bd321073b88dce91ea0b05b4abfaa4aca980` [feat: remote input subscribe on barrier mutation (#17612)](https://github.com/risingwavelabs/risingwave/pull/17612)
 - `b8bb2f7ab564a6a6a75d0c939a14b09f4869fb76` [doc(dev-guide): merge design docs into dev guide (#17640)](https://github.com/risingwavelabs/risingwave/pull/17640)
 - `96498a4ba00f14dab5f3ec7bf08e02d6ab969042` [refactor(optimizer): unify watermark derivation and monotonicity derivation (#17554)](https://github.com/risingwavelabs/risingwave/pull/17554)
