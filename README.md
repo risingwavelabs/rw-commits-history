@@ -284,6 +284,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5aa2d80a98e2a5259b5df2d1cd7bafbc51ba91cc` [doc(dev-guide): update link in README to the site (#17638)](https://github.com/risingwavelabs/risingwave/pull/17638)
 - `568a2712b190f192ce7076e76c7f972bbbbb5d9c` [refactor(sink): remove snowflake sink http client (#17627)](https://github.com/risingwavelabs/risingwave/pull/17627)
 - `c9a6a1fdde4b78ccea71d27a8432753ed697df55` [refactor(common): remove dead code and simplify (#17585)](https://github.com/risingwavelabs/risingwave/pull/17585)
 - `b3e1faddf07c1c653f611883c62ae5b6d9d5ca93` [feat(source): support Avro Union type (#17485)](https://github.com/risingwavelabs/risingwave/pull/17485)
