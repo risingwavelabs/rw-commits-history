@@ -284,6 +284,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b8bb2f7ab564a6a6a75d0c939a14b09f4869fb76` [doc(dev-guide): merge design docs into dev guide (#17640)](https://github.com/risingwavelabs/risingwave/pull/17640)
+- `96498a4ba00f14dab5f3ec7bf08e02d6ab969042` [refactor(optimizer): unify watermark derivation and monotonicity derivation (#17554)](https://github.com/risingwavelabs/risingwave/pull/17554)
 - `b9ad21b3f0edd8a478d5c199967f01d088704e7f` [chore(storage): unify opendal version (#17639)](https://github.com/risingwavelabs/risingwave/pull/17639)
 - `5aa2d80a98e2a5259b5df2d1cd7bafbc51ba91cc` [doc(dev-guide): update link in README to the site (#17638)](https://github.com/risingwavelabs/risingwave/pull/17638)
 - `568a2712b190f192ce7076e76c7f972bbbbb5d9c` [refactor(sink): remove snowflake sink http client (#17627)](https://github.com/risingwavelabs/risingwave/pull/17627)
