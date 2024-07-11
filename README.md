@@ -285,6 +285,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ab93f9effea4f0b3ec76a82bc56cddbf4410334c` [feat(storage): skip refill of trival_move version delta (#17623)](https://github.com/risingwavelabs/risingwave/pull/17623)
 - `16b358a25c79db20fa1999e4deb9d9ebe468149c` [doc(dev-guide): reorg design docs (#17649)](https://github.com/risingwavelabs/risingwave/pull/17649)
 
 ## nightly-20240710
