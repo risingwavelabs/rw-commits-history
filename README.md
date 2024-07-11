@@ -285,6 +285,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5bbb5c83be73a4826cf4c64866576ac9ff2ee81f` [fix(iceberg): add hive-exec jar (#17642)](https://github.com/risingwavelabs/risingwave/pull/17642)
+- `df5cc5fc5b42dea050ddd5cdf55695a28f6d7586` [feat(storage): refactor commit_epoch code (#17235)](https://github.com/risingwavelabs/risingwave/pull/17235)
 - `8c5f3e2cc36a9f47fdd8781b628cc4bd1243a469` [feat(frontend): support async function for captured context and impl pg_is_in_recovery(), rw_recovery_status() (#17641)](https://github.com/risingwavelabs/risingwave/pull/17641)
 - `87a29098e15797df1d6b4e6dbca44804269c88b1` [fix(risedev): correct docker schema registry configurations (#17653)](https://github.com/risingwavelabs/risingwave/pull/17653)
 - `d5fc35c61a7384a62499c309a114e2efa63662b5` [fix(storage): always clean table watermark below table safe epoch (#17656)](https://github.com/risingwavelabs/risingwave/pull/17656)
