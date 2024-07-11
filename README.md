@@ -285,6 +285,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8c5f3e2cc36a9f47fdd8781b628cc4bd1243a469` [feat(frontend): support async function for captured context and impl pg_is_in_recovery(), rw_recovery_status() (#17641)](https://github.com/risingwavelabs/risingwave/pull/17641)
 - `87a29098e15797df1d6b4e6dbca44804269c88b1` [fix(risedev): correct docker schema registry configurations (#17653)](https://github.com/risingwavelabs/risingwave/pull/17653)
 - `d5fc35c61a7384a62499c309a114e2efa63662b5` [fix(storage): always clean table watermark below table safe epoch (#17656)](https://github.com/risingwavelabs/risingwave/pull/17656)
 - `ab93f9effea4f0b3ec76a82bc56cddbf4410334c` [feat(storage): skip refill of trival_move version delta (#17623)](https://github.com/risingwavelabs/risingwave/pull/17623)
