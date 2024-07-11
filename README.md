@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240711` `f81ca609587094a2d0ecde2366e9af87e2322429`
 - `20240710` `0987e27d057f45195cece40aa2420058bef1e5a0`
 - `20240709` `b9ceb8d208c2d906d45af2a5926456d41629e67f`
 - `20240708` `10c5aa1fc4ebcc946d3c985401b72be298e756f9`
@@ -285,6 +286,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240711
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0987e27d057f45195cece40aa2420058bef1e5a0...f81ca609587094a2d0ecde2366e9af87e2322429)
 - `f81ca609587094a2d0ecde2366e9af87e2322429` [fix(risedev): fixes and improvements for `risedev-dev` running risingwave commands (#17586)](https://github.com/risingwavelabs/risingwave/pull/17586)
 - `2ad3d872007bf58c012a5ea182264fc9abc8cd71` [refactor(meta): use upstream version of `etcd-client` (#17648)](https://github.com/risingwavelabs/risingwave/pull/17648)
 - `5bbb5c83be73a4826cf4c64866576ac9ff2ee81f` [fix(iceberg): add hive-exec jar (#17642)](https://github.com/risingwavelabs/risingwave/pull/17642)
