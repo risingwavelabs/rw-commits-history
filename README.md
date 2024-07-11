@@ -285,6 +285,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f81ca609587094a2d0ecde2366e9af87e2322429` [fix(risedev): fixes and improvements for `risedev-dev` running risingwave commands (#17586)](https://github.com/risingwavelabs/risingwave/pull/17586)
 - `2ad3d872007bf58c012a5ea182264fc9abc8cd71` [refactor(meta): use upstream version of `etcd-client` (#17648)](https://github.com/risingwavelabs/risingwave/pull/17648)
 - `5bbb5c83be73a4826cf4c64866576ac9ff2ee81f` [fix(iceberg): add hive-exec jar (#17642)](https://github.com/risingwavelabs/risingwave/pull/17642)
 - `df5cc5fc5b42dea050ddd5cdf55695a28f6d7586` [feat(storage): refactor commit_epoch code (#17235)](https://github.com/risingwavelabs/risingwave/pull/17235)
