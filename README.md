@@ -282,6 +282,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d06bb47f96c4b15401a8f6893217f0c55ad7dda1` [feat(batch): support as of now() - interval for time travel (#17665)](https://github.com/risingwavelabs/risingwave/pull/17665)
 - `45c9e2b06de3d1921cb9cc33dc03de6f34b0e7bc` [feat(batch): support batch s3 parquet frontend part (#17625)](https://github.com/risingwavelabs/risingwave/pull/17625)
 - `92f70db9bc3742edf5f412820648a1fe65d9ce0c` [feat(storage): support block_size metrics (#17660)](https://github.com/risingwavelabs/risingwave/pull/17660)
 - `12dbdb30be3f37487294100ff53e892180cc73e2` [feat(ctl): support prefix in hummock full gc (#17667)](https://github.com/risingwavelabs/risingwave/pull/17667)
