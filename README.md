@@ -282,6 +282,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `102a60d9407c17f2e606dd3e9737ed4905a65bc2` [feat(connector): introduce parquet file source (#17201)](https://github.com/risingwavelabs/risingwave/pull/17201)
 - `d06bb47f96c4b15401a8f6893217f0c55ad7dda1` [feat(batch): support as of now() - interval for time travel (#17665)](https://github.com/risingwavelabs/risingwave/pull/17665)
 - `45c9e2b06de3d1921cb9cc33dc03de6f34b0e7bc` [feat(batch): support batch s3 parquet frontend part (#17625)](https://github.com/risingwavelabs/risingwave/pull/17625)
 - `92f70db9bc3742edf5f412820648a1fe65d9ce0c` [feat(storage): support block_size metrics (#17660)](https://github.com/risingwavelabs/risingwave/pull/17660)
