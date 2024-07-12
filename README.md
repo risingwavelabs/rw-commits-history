@@ -283,6 +283,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `12dbdb30be3f37487294100ff53e892180cc73e2` [feat(ctl): support prefix in hummock full gc (#17667)](https://github.com/risingwavelabs/risingwave/pull/17667)
 - `9d9f3f863a4205ed98f3dda93157f6fecfeefb9e` [fix(meta): Fix sink_into_table causes mv's depended_subscription_ids to be empty. (#17664)](https://github.com/risingwavelabs/risingwave/pull/17664)
 - `c5ab539f4b444ebe0947649c91e490ae00624db2` [fix(connector): revert  adding hive-exec jar (#17642) (#17666)](https://github.com/risingwavelabs/risingwave/pull/17666)
 - `5230e972ca0ba045afb065f285101097361e7a4a` [feat(storage): support hummock time travel (#17621)](https://github.com/risingwavelabs/risingwave/pull/17621)
