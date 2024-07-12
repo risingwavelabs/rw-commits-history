@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240712` `102a60d9407c17f2e606dd3e9737ed4905a65bc2`
 - `20240711` `f81ca609587094a2d0ecde2366e9af87e2322429`
 - `20240710` `0987e27d057f45195cece40aa2420058bef1e5a0`
 - `20240709` `b9ceb8d208c2d906d45af2a5926456d41629e67f`
@@ -282,6 +283,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5c52c7d752804e5e0d66b370b7da70a5cd2e8d88` [feat(source): Avro with AWS Glue Schema Registry (#17605)](https://github.com/risingwavelabs/risingwave/pull/17605)
+
+## nightly-20240712
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f81ca609587094a2d0ecde2366e9af87e2322429...102a60d9407c17f2e606dd3e9737ed4905a65bc2)
 - `102a60d9407c17f2e606dd3e9737ed4905a65bc2` [feat(connector): introduce parquet file source (#17201)](https://github.com/risingwavelabs/risingwave/pull/17201)
 - `d06bb47f96c4b15401a8f6893217f0c55ad7dda1` [feat(batch): support as of now() - interval for time travel (#17665)](https://github.com/risingwavelabs/risingwave/pull/17665)
 - `45c9e2b06de3d1921cb9cc33dc03de6f34b0e7bc` [feat(batch): support batch s3 parquet frontend part (#17625)](https://github.com/risingwavelabs/risingwave/pull/17625)
