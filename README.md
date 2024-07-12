@@ -284,6 +284,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c5ab539f4b444ebe0947649c91e490ae00624db2` [fix(connector): revert  adding hive-exec jar (#17642) (#17666)](https://github.com/risingwavelabs/risingwave/pull/17666)
 - `5230e972ca0ba045afb065f285101097361e7a4a` [feat(storage): support hummock time travel (#17621)](https://github.com/risingwavelabs/risingwave/pull/17621)
 
 ## nightly-20240711
