@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240713` `4c4ada19ce57645546ef97b75f4aa9837951c8c8`
 - `20240712` `102a60d9407c17f2e606dd3e9737ed4905a65bc2`
 - `20240711` `f81ca609587094a2d0ecde2366e9af87e2322429`
 - `20240710` `0987e27d057f45195cece40aa2420058bef1e5a0`
@@ -283,6 +284,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240713
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/102a60d9407c17f2e606dd3e9737ed4905a65bc2...4c4ada19ce57645546ef97b75f4aa9837951c8c8)
 - `4c4ada19ce57645546ef97b75f4aa9837951c8c8` [feat(storage): pass epoch and table id before barrier (#17635)](https://github.com/risingwavelabs/risingwave/pull/17635)
 - `5c52c7d752804e5e0d66b370b7da70a5cd2e8d88` [feat(source): Avro with AWS Glue Schema Registry (#17605)](https://github.com/risingwavelabs/risingwave/pull/17605)
 
