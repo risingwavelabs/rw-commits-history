@@ -283,6 +283,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4c4ada19ce57645546ef97b75f4aa9837951c8c8` [feat(storage): pass epoch and table id before barrier (#17635)](https://github.com/risingwavelabs/risingwave/pull/17635)
 - `5c52c7d752804e5e0d66b370b7da70a5cd2e8d88` [feat(source): Avro with AWS Glue Schema Registry (#17605)](https://github.com/risingwavelabs/risingwave/pull/17605)
 
 ## nightly-20240712
