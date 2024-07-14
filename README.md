@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240714` `442a08771606397c7c75c557f9369c6e36f21394`
 - `20240713` `4c4ada19ce57645546ef97b75f4aa9837951c8c8`
 - `20240712` `102a60d9407c17f2e606dd3e9737ed4905a65bc2`
 - `20240711` `f81ca609587094a2d0ecde2366e9af87e2322429`
@@ -284,6 +285,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240714
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4c4ada19ce57645546ef97b75f4aa9837951c8c8...442a08771606397c7c75c557f9369c6e36f21394)
 - `442a08771606397c7c75c557f9369c6e36f21394` [feat(storage): decouple spill task from epoch (#17539)](https://github.com/risingwavelabs/risingwave/pull/17539)
 
 ## nightly-20240713
