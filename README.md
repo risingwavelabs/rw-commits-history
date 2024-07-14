@@ -284,6 +284,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `442a08771606397c7c75c557f9369c6e36f21394` [feat(storage): decouple spill task from epoch (#17539)](https://github.com/risingwavelabs/risingwave/pull/17539)
 
 ## nightly-20240713
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/102a60d9407c17f2e606dd3e9737ed4905a65bc2...4c4ada19ce57645546ef97b75f4aa9837951c8c8)
