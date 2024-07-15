@@ -284,6 +284,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c31be2d65221bb7dc26e1eb75a56fbe78d09d164` [fix(batch): fix time travel issue (#17686)](https://github.com/risingwavelabs/risingwave/pull/17686)
 - `a011ac6775f9bfdb0b5fc4e44c34ff263ef93dee` [fix(iceberg): fix iceerg source with rest catalog (#17684)](https://github.com/risingwavelabs/risingwave/pull/17684)
 - `d149d99316dbb38b9f8128a07aa9b6ccf734ebbd` [fix(test): adapt to ctl change (#17682)](https://github.com/risingwavelabs/risingwave/pull/17682)
 
