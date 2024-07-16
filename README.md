@@ -284,6 +284,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5a56574cd9a602d3ade78b53a5f61c96684b1334` [feat(meta): support drop creating materialized views for v2 backend (#17503)](https://github.com/risingwavelabs/risingwave/pull/17503)
 - `cd35372b0844a42060b0ddb098fc028768a5e083` [chore(ci): bump backfill test timeout (#17701)](https://github.com/risingwavelabs/risingwave/pull/17701)
 - `10220edcf6fcf4411b4b77215207374b7838cb82` [refactor(meta): commit finish catalog in barrier manager (#17428)](https://github.com/risingwavelabs/risingwave/pull/17428)
 - `dc3a3fc153fa2ad38a63ae0f289895ad051148c8` [refactor(optimizer): some clean up for stream nodes' constructors (#17696)](https://github.com/risingwavelabs/risingwave/pull/17696)
