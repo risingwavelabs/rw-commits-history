@@ -309,6 +309,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0ce6228df6a4da183ae91146f2cdfff1ca9cc6a7` [refactor(types): doc & refine ToBinary/Text (#17697)](https://github.com/risingwavelabs/risingwave/pull/17697)
 - `46ee5674401b27ad4a725981f860ff360137faa8` [feat(streaming): introduce nested loop temporal join executor (#16445)](https://github.com/risingwavelabs/risingwave/pull/16445)
 - `45f27dc8ed098b2882a838c0bc1f7922479a383f` [fix: s3_v2 connector cannot read incremental files  (#17702)](https://github.com/risingwavelabs/risingwave/pull/17702)
 - `5a56574cd9a602d3ade78b53a5f61c96684b1334` [feat(meta): support drop creating materialized views for v2 backend (#17503)](https://github.com/risingwavelabs/risingwave/pull/17503)
