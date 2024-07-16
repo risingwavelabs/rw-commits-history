@@ -284,6 +284,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cd35372b0844a42060b0ddb098fc028768a5e083` [chore(ci): bump backfill test timeout (#17701)](https://github.com/risingwavelabs/risingwave/pull/17701)
 - `10220edcf6fcf4411b4b77215207374b7838cb82` [refactor(meta): commit finish catalog in barrier manager (#17428)](https://github.com/risingwavelabs/risingwave/pull/17428)
 - `dc3a3fc153fa2ad38a63ae0f289895ad051148c8` [refactor(optimizer): some clean up for stream nodes' constructors (#17696)](https://github.com/risingwavelabs/risingwave/pull/17696)
 - `0ea5f056d160771c7573d177e436f225b442225e` [build(deps): bump curve25519-dalek from 4.1.2 to 4.1.3 (#17688)](https://github.com/risingwavelabs/risingwave/pull/17688)
