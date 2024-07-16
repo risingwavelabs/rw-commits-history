@@ -285,6 +285,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e0be76dbb7fb38615d11eba9297d543ca5829262` [refactor(types): remove dead code and minor (#17691)](https://github.com/risingwavelabs/risingwave/pull/17691)
 - `fe209424c208cb7343913a028773b6274d38e0a3` [fix(storage): license time travel feature (#17683)](https://github.com/risingwavelabs/risingwave/pull/17683)
 - `5aabf542875465e591d65f4b1ad8a4cd925a5800` [fix(streaming): find and return root actor failure when injection failed (#17672)](https://github.com/risingwavelabs/risingwave/pull/17672)
 - `46b4ccd73238a9ab5ee7187569ee3337b18212aa` [refactor: graceful shutdown in standalone mode (#17633)](https://github.com/risingwavelabs/risingwave/pull/17633)
