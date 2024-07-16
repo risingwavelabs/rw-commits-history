@@ -284,6 +284,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0ea5f056d160771c7573d177e436f225b442225e` [build(deps): bump curve25519-dalek from 4.1.2 to 4.1.3 (#17688)](https://github.com/risingwavelabs/risingwave/pull/17688)
 - `e0be76dbb7fb38615d11eba9297d543ca5829262` [refactor(types): remove dead code and minor (#17691)](https://github.com/risingwavelabs/risingwave/pull/17691)
 - `fe209424c208cb7343913a028773b6274d38e0a3` [fix(storage): license time travel feature (#17683)](https://github.com/risingwavelabs/risingwave/pull/17683)
 - `5aabf542875465e591d65f4b1ad8a4cd925a5800` [fix(streaming): find and return root actor failure when injection failed (#17672)](https://github.com/risingwavelabs/risingwave/pull/17672)
