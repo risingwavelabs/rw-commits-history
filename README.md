@@ -276,7 +276,6 @@
 - `20230903` `257f9874e1eb15fbbec2633857261511f8326e4d`
 - `20230901` `a9aacfc2e0f52081489fb2744fb5b7e66ef0d3b8`
 - `20230831` `96a49f7ce3aee6fe11d4467081fadd396af6efff`
-- `20230830` `15f4fdd48de1c573a4c221c8fe5797a92dbe481c`
 </details>
 
 # Commit history
@@ -3968,23 +3967,4 @@
 - `8ea014fece04db92aeea8a1a72c203f8965ce7af` [fix(cdc-backfill): also persist the finish flag even though snapshot is empty (#12002)](https://github.com/risingwavelabs/risingwave/pull/12002)
 
 ## nightly-20230831
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/15f4fdd48de1c573a4c221c8fe5797a92dbe481c...96a49f7ce3aee6fe11d4467081fadd396af6efff)
 - `96a49f7ce3aee6fe11d4467081fadd396af6efff` [fix: ban scale operations when meta is in recovery state. (#11997)](https://github.com/risingwavelabs/risingwave/pull/11997)
-- `994d55b9027e604570270bc370d47d6897e66603` [chore: set default value of cdc_backfill to false (#11987)](https://github.com/risingwavelabs/risingwave/pull/11987)
-- `b4bb864c287053df3f797021227e141e0cce6d9b` [fix(test): fix test failure caused by shared metric instance (#11992)](https://github.com/risingwavelabs/risingwave/pull/11992)
-- `baa8c1044a56e791063cba8e1ea1672dbbffa177` [feat(sink): Support Nats sink (append_only) (#11924)](https://github.com/risingwavelabs/risingwave/pull/11924)
-- `5369735f962066a6da58a848dea19f09c89106dc` [refactor(stream common): split `StreamChunkBuilder` and `JoinStreamChunkBuilder` (#11968)](https://github.com/risingwavelabs/risingwave/pull/11968)
-- `b6016a21a0c561b58bbd7552a17f174db6281b25` [feat(doc): add guidance for docker compose xxx (#11749)](https://github.com/risingwavelabs/risingwave/pull/11749)
-- `58372ab913e5b8127dfc7ecfc0ab583e5b7ac090` [feat(optimizer): support expand to project rule (#11933)](https://github.com/risingwavelabs/risingwave/pull/11933)
-- `b70aa1770cc876b91eadc413e8d61f3ca35ab59b` [fix(ci): fix unit test deterministic test (#11985)](https://github.com/risingwavelabs/risingwave/pull/11985)
-- `ee1491a06e4adf09694abdf7c48f3fe686a48853` [refactor(log_store): make delete range end excluded (#11978)](https://github.com/risingwavelabs/risingwave/pull/11978)
-- `5913af4f411df775cd88a763ee930e407cb7d0db` [refactor(compaction): extract reporting full scan task logic (#11958)](https://github.com/risingwavelabs/risingwave/pull/11958)
-- `ebef8717abf2711bccecda2d7ff146c0589ccf27` [chore(deps): bump ethnum from 1.3.2 to 1.4.0 (#11972)](https://github.com/risingwavelabs/risingwave/pull/11972)
-- `9664aa2913ab80878ce80bb963e612d1ce8c916a` [fix(ci): fix rustdoc site (#11976)](https://github.com/risingwavelabs/risingwave/pull/11976)
-- `a9ee0b96fc731ab343ed3764177baef702b0cae2` [chore(deps): bump clap from 4.3.22 to 4.4.1 (#11973)](https://github.com/risingwavelabs/risingwave/pull/11973)
-- `804d9c009d4c801f0ab869265004eac5027363fd` [chore(deps): bump dashmap from 5.5.1 to 5.5.3 (#11971)](https://github.com/risingwavelabs/risingwave/pull/11971)
-- `0d36ea3f80552ec86da08b0ff8ed96e6fa0dcea7` [chore(deps): bump regex from 1.9.3 to 1.9.4 (#11969)](https://github.com/risingwavelabs/risingwave/pull/11969)
-- `dee902d10883ea266b5ee4ff4f4ebe057b7f566d` [doc: add dash doc feed & fix rustdoc warnings (#11963)](https://github.com/risingwavelabs/risingwave/pull/11963)
-
-## nightly-20230830
-- `15f4fdd48de1c573a4c221c8fe5797a92dbe481c` [feat(cdc): in-memory backfill for single mysql cdc table  (#11707)](https://github.com/risingwavelabs/risingwave/pull/11707)
