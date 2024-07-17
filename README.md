@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `46057734a9bf49631f56c466fc8ade5c239530f1` [fix(storage): fix the trivial-move loop caused by config and pick_whole_level (#17721)](https://github.com/risingwavelabs/risingwave/pull/17721)
 - `30fd4d8ab8995142eed9b185d769791e20e2bdb1` [feat(sink): support encode jsonb data as dynamic json type in sink (#17693)](https://github.com/risingwavelabs/risingwave/pull/17693)
 - `42d51538453d3eb751619ec98874022d3239bdf5` [feat(ci): introduce main-cron bisect (#17596)](https://github.com/risingwavelabs/risingwave/pull/17596)
 - `05330f62873a2127ea98ca153b885c66d226c368` [fix: Kinesis: NextToken and StreamName cannot be provided together (#17687)](https://github.com/risingwavelabs/risingwave/pull/17687)
