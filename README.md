@@ -309,6 +309,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `89148356dab7941207c56375b34d3a011518306b` [refactor(sink): use `JsonEncoderConfig` for json encoder (#17706)](https://github.com/risingwavelabs/risingwave/pull/17706)
 - `86a502ee1213cb5ac384506bc6123fc013b7d03b` [fix(secret): avoid trying to get the secret_store_private_key when there is no secret (#17712)](https://github.com/risingwavelabs/risingwave/pull/17712)
 - `5037601c6fba922c5bf9e34e1b094cdf7d1bb624` [chore: bump typos (#17710)](https://github.com/risingwavelabs/risingwave/pull/17710)
 - `e929c29078e9117158d21f4c67de83d6190fe728` [refactor(dyn-filter): refactor dynamic filter for better readability (#17699)](https://github.com/risingwavelabs/risingwave/pull/17699)
