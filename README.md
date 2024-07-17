@@ -308,6 +308,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6e2c82f9d85c4650121638bd6f40cca21a2eb925` [feat(optimizer): add `columns_monotonicity` field for PlanNode (#17600)](https://github.com/risingwavelabs/risingwave/pull/17600)
+- `e8273cac1178edfcc928ae1ddb3efcc63fe9f99c` [doc: fix `main-cron-bisect` docs (#17720)](https://github.com/risingwavelabs/risingwave/pull/17720)
 - `46057734a9bf49631f56c466fc8ade5c239530f1` [fix(storage): fix the trivial-move loop caused by config and pick_whole_level (#17721)](https://github.com/risingwavelabs/risingwave/pull/17721)
 - `30fd4d8ab8995142eed9b185d769791e20e2bdb1` [feat(sink): support encode jsonb data as dynamic json type in sink (#17693)](https://github.com/risingwavelabs/risingwave/pull/17693)
 - `42d51538453d3eb751619ec98874022d3239bdf5` [feat(ci): introduce main-cron bisect (#17596)](https://github.com/risingwavelabs/risingwave/pull/17596)
