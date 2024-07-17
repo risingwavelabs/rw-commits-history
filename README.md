@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240717` `6e2c82f9d85c4650121638bd6f40cca21a2eb925`
 - `20240715` `c186a8fc26decb8fc8f37cf4ad9e63bb2afd81ed`
 - `20240714` `442a08771606397c7c75c557f9369c6e36f21394`
 - `20240713` `4c4ada19ce57645546ef97b75f4aa9837951c8c8`
@@ -308,6 +309,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240717
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c186a8fc26decb8fc8f37cf4ad9e63bb2afd81ed...6e2c82f9d85c4650121638bd6f40cca21a2eb925)
 - `6e2c82f9d85c4650121638bd6f40cca21a2eb925` [feat(optimizer): add `columns_monotonicity` field for PlanNode (#17600)](https://github.com/risingwavelabs/risingwave/pull/17600)
 - `e8273cac1178edfcc928ae1ddb3efcc63fe9f99c` [doc: fix `main-cron-bisect` docs (#17720)](https://github.com/risingwavelabs/risingwave/pull/17720)
 - `46057734a9bf49631f56c466fc8ade5c239530f1` [fix(storage): fix the trivial-move loop caused by config and pick_whole_level (#17721)](https://github.com/risingwavelabs/risingwave/pull/17721)
