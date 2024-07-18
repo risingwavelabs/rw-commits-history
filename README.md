@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2e1d910bc18b5a9351d961de92cb8b832b52ddad` [feat(batch): support batch read s3 parquet file (#17673)](https://github.com/risingwavelabs/risingwave/pull/17673)
 
 ## nightly-20240718
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6e2c82f9d85c4650121638bd6f40cca21a2eb925...0883df550e7dc7358a509fd4d7f205f8b4c62241)
