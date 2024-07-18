@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240718` `0883df550e7dc7358a509fd4d7f205f8b4c62241`
 - `20240717` `6e2c82f9d85c4650121638bd6f40cca21a2eb925`
 - `20240715` `c186a8fc26decb8fc8f37cf4ad9e63bb2afd81ed`
 - `20240714` `442a08771606397c7c75c557f9369c6e36f21394`
@@ -307,6 +308,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240718
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6e2c82f9d85c4650121638bd6f40cca21a2eb925...0883df550e7dc7358a509fd4d7f205f8b4c62241)
 - `0883df550e7dc7358a509fd4d7f205f8b4c62241` [fix(mysql-cdc): validate mysql version less then 8.4 (#17728)](https://github.com/risingwavelabs/risingwave/pull/17728)
 - `332802596d2eefa46e65912f5def5f25f0d4d5a6` [fix(storage): fix spill table id too strict assertion (#17736)](https://github.com/risingwavelabs/risingwave/pull/17736)
 - `428563381674e1e25a21d2f61523938fc4655bb5` [fix(storage): fix multi builder data loss (#17730)](https://github.com/risingwavelabs/risingwave/pull/17730)
