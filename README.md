@@ -307,6 +307,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0883df550e7dc7358a509fd4d7f205f8b4c62241` [fix(mysql-cdc): validate mysql version less then 8.4 (#17728)](https://github.com/risingwavelabs/risingwave/pull/17728)
+- `332802596d2eefa46e65912f5def5f25f0d4d5a6` [fix(storage): fix spill table id too strict assertion (#17736)](https://github.com/risingwavelabs/risingwave/pull/17736)
 - `428563381674e1e25a21d2f61523938fc4655bb5` [fix(storage): fix multi builder data loss (#17730)](https://github.com/risingwavelabs/risingwave/pull/17730)
 - `4321a81042a8069c1c0fbaed3da9e26b0a8a518e` [feat(dyn-filter): derive `condition_always_relax` from column monotonicity (#17704)](https://github.com/risingwavelabs/risingwave/pull/17704)
 
