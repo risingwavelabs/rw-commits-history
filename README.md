@@ -309,6 +309,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `428563381674e1e25a21d2f61523938fc4655bb5` [fix(storage): fix multi builder data loss (#17730)](https://github.com/risingwavelabs/risingwave/pull/17730)
 - `4321a81042a8069c1c0fbaed3da9e26b0a8a518e` [feat(dyn-filter): derive `condition_always_relax` from column monotonicity (#17704)](https://github.com/risingwavelabs/risingwave/pull/17704)
 
 ## nightly-20240717
