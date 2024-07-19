@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9335967a8558aaf4c822cfc5c37b2305dee22839` [refactor(meta): only store CreateStreamingJob command in tracker (#17742)](https://github.com/risingwavelabs/risingwave/pull/17742)
 - `bd3b9a194efa1b78ab025f440147cba73ce20026` [refactor: actor wait barrier manager inject barrier (#17613)](https://github.com/risingwavelabs/risingwave/pull/17613)
 - `dba2c53daa648e50006b3ef0162ee41b2d206f62` [feat(temporal-filter): support more now expressions in temporal filter pattern (#17745)](https://github.com/risingwavelabs/risingwave/pull/17745)
 - `50ca1003e022967057b78e3d49bc9858b4bbde84` [fix(risedev): always use dev profile for `risedev-dev` in `ci-start` (#17756)](https://github.com/risingwavelabs/risingwave/pull/17756)
