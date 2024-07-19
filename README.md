@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240719` `625c5aaec41f954abb14f13df20a60464678e14b`
 - `20240718` `0883df550e7dc7358a509fd4d7f205f8b4c62241`
 - `20240717` `6e2c82f9d85c4650121638bd6f40cca21a2eb925`
 - `20240715` `c186a8fc26decb8fc8f37cf4ad9e63bb2afd81ed`
@@ -308,6 +309,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240719
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0883df550e7dc7358a509fd4d7f205f8b4c62241...625c5aaec41f954abb14f13df20a60464678e14b)
 - `625c5aaec41f954abb14f13df20a60464678e14b` [fix: watermark filter use commited epoch to read global watermark (#17724)](https://github.com/risingwavelabs/risingwave/pull/17724)
 - `d0ba17b4d27d69757954182cf2b6f0e977264561` [feat(meta): pass streaming error score to meta to locate cluster-level root error (#17685)](https://github.com/risingwavelabs/risingwave/pull/17685)
 - `9335967a8558aaf4c822cfc5c37b2305dee22839` [refactor(meta): only store CreateStreamingJob command in tracker (#17742)](https://github.com/risingwavelabs/risingwave/pull/17742)
