@@ -308,6 +308,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bd3b9a194efa1b78ab025f440147cba73ce20026` [refactor: actor wait barrier manager inject barrier (#17613)](https://github.com/risingwavelabs/risingwave/pull/17613)
+- `dba2c53daa648e50006b3ef0162ee41b2d206f62` [feat(temporal-filter): support more now expressions in temporal filter pattern (#17745)](https://github.com/risingwavelabs/risingwave/pull/17745)
 - `50ca1003e022967057b78e3d49bc9858b4bbde84` [fix(risedev): always use dev profile for `risedev-dev` in `ci-start` (#17756)](https://github.com/risingwavelabs/risingwave/pull/17756)
 - `2a52dd3a23c5ff29102fa21c1bf65a8ede81b68a` [fix: Refactor `auto_parallelism.rs` to initialize `session` after killing compute node (#17751)](https://github.com/risingwavelabs/risingwave/pull/17751)
 - `af97625b736b1578de28d39fe7ad3656f643f449` [chore: update docker image from `v1.10.0-rc.1` to `v1.10.0-rc.3` (#17750)](https://github.com/risingwavelabs/risingwave/pull/17750)
