@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `af97625b736b1578de28d39fe7ad3656f643f449` [chore: update docker image from `v1.10.0-rc.1` to `v1.10.0-rc.3` (#17750)](https://github.com/risingwavelabs/risingwave/pull/17750)
 - `2e1d910bc18b5a9351d961de92cb8b832b52ddad` [feat(batch): support batch read s3 parquet file (#17673)](https://github.com/risingwavelabs/risingwave/pull/17673)
 
 ## nightly-20240718
