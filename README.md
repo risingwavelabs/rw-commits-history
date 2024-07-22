@@ -309,6 +309,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ecad0cf2a11ffc7058d1a272e78629f2a2569f32` [fix(ci): fix trigger condition for `s3-v2-source-check` step (#17738)](https://github.com/risingwavelabs/risingwave/pull/17738)
 
 ## nightly-20240721
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0883df550e7dc7358a509fd4d7f205f8b4c62241...625c5aaec41f954abb14f13df20a60464678e14b)
