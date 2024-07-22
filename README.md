@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240722` `243c25e2327844906bb5ade062612fdfe42746ba`
 - `20240721` `625c5aaec41f954abb14f13df20a60464678e14b`
 - `20240718` `0883df550e7dc7358a509fd4d7f205f8b4c62241`
 - `20240717` `6e2c82f9d85c4650121638bd6f40cca21a2eb925`
@@ -309,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240722
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/625c5aaec41f954abb14f13df20a60464678e14b...243c25e2327844906bb5ade062612fdfe42746ba)
 - `243c25e2327844906bb5ade062612fdfe42746ba` [test: add more java client tests (#17717)](https://github.com/risingwavelabs/risingwave/pull/17717)
 - `61b1286ccba4a43d77902b2b3070c5408503e6b7` [fix(source): cleanup unused key schema logic & requirements for `format upsert encode avro` (#17759)](https://github.com/risingwavelabs/risingwave/pull/17759)
 - `ccf49454e2e7042d28e76d4dd1124005dcbe567d` [fix(batch): support dedicated runtime for file scan (#17764)](https://github.com/risingwavelabs/risingwave/pull/17764)
