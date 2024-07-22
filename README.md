@@ -309,6 +309,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `61b1286ccba4a43d77902b2b3070c5408503e6b7` [fix(source): cleanup unused key schema logic & requirements for `format upsert encode avro` (#17759)](https://github.com/risingwavelabs/risingwave/pull/17759)
 - `ccf49454e2e7042d28e76d4dd1124005dcbe567d` [fix(batch): support dedicated runtime for file scan (#17764)](https://github.com/risingwavelabs/risingwave/pull/17764)
 - `cd30ac0a8693b9af239c621628d2dee917df7cf2` [chore: add `production` profile for version release & add developer docs (#17760)](https://github.com/risingwavelabs/risingwave/pull/17760)
 - `4f3f7f7240d12569fdd49a24c74c332b2caadd8a` [refactor(types): simplify ArrayImpl::from_protobuf (#17763)](https://github.com/risingwavelabs/risingwave/pull/17763)
