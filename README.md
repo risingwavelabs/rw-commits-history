@@ -310,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `69caf47942b4ed4d2b3cd059d0d88c762d73902b` [fix(test): skip creating secret file dir in simulation test (#17772)](https://github.com/risingwavelabs/risingwave/pull/17772)
+- `2b15b8e8b94b039c5a0701114e6abcd2216bd036` [feat(streaming): follow `server.connection_pool_size` config for exchange service (#17755)](https://github.com/risingwavelabs/risingwave/pull/17755)
+- `dd11f9be45b8a71db109a6a5935653c68631900a` [build(deps): bump openssl from 0.10.64 to 0.10.66 (#17774)](https://github.com/risingwavelabs/risingwave/pull/17774)
 - `43de35b2b17c53d9ee9ec22164f5325c065055a6` [build(deps): bump openssl from 0.10.60 to 0.10.66 in /integration_tests/feature-store/server (#17773)](https://github.com/risingwavelabs/risingwave/pull/17773)
 - `5bd3e3e0f9646f72b6cfdae45b4f77dd91598214` [fix(pgcdc): fix uppercase-identifier of pgcdc (#17754)](https://github.com/risingwavelabs/risingwave/pull/17754)
 
