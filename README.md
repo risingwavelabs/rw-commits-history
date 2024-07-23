@@ -310,6 +310,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5bd3e3e0f9646f72b6cfdae45b4f77dd91598214` [fix(pgcdc): fix uppercase-identifier of pgcdc (#17754)](https://github.com/risingwavelabs/risingwave/pull/17754)
 
 ## nightly-20240722
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/625c5aaec41f954abb14f13df20a60464678e14b...243c25e2327844906bb5ade062612fdfe42746ba)
