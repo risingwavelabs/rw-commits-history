@@ -310,6 +310,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2` [feat(compaction): add vnode watermark picker (#17372)](https://github.com/risingwavelabs/risingwave/pull/17372)
 - `c5607a314d3fe03ddd513a33441fca0f90358d6c` [feat: remove parallel unit keyword (#17589)](https://github.com/risingwavelabs/risingwave/pull/17589)
 - `2e53024bf84f85901333e8778dd1120e199b52a2` [refactor: use separate configuration for exchange connection pool for batch and streaming (#17768)](https://github.com/risingwavelabs/risingwave/pull/17768)
 - `16b6d849092ce7d8a04dfbc9bb4462783326edb8` [chore(deps): Bump similar from 2.5.0 to 2.6.0 (#17782)](https://github.com/risingwavelabs/risingwave/pull/17782)
