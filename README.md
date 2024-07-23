@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `07bd25ba44632355e71f1ca28768f8f1c0610991` [feat(ddl): allow drop generated column in table with schema registry  (#17689)](https://github.com/risingwavelabs/risingwave/pull/17689)
 - `063db161302be952de43f49db4b58fb784104b52` [feat(expr): support using scalar functions as aggregates in batch query (#17622)](https://github.com/risingwavelabs/risingwave/pull/17622)
 
 ## nightly-20240723
