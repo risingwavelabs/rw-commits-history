@@ -310,6 +310,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2e53024bf84f85901333e8778dd1120e199b52a2` [refactor: use separate configuration for exchange connection pool for batch and streaming (#17768)](https://github.com/risingwavelabs/risingwave/pull/17768)
+- `16b6d849092ce7d8a04dfbc9bb4462783326edb8` [chore(deps): Bump similar from 2.5.0 to 2.6.0 (#17782)](https://github.com/risingwavelabs/risingwave/pull/17782)
 - `007e8023a71bdecb469676a5a75d1a16944fdede` [feat(meta): deprecate parallel unit (#17523)](https://github.com/risingwavelabs/risingwave/pull/17523)
 - `40e5629ac8cfb021deb55aa69db0ea0754cf6795` [feat: support prepared statements for `create MV` (#17769)](https://github.com/risingwavelabs/risingwave/pull/17769)
 - `d3a6e3dfa4985bbf940d02c0767eb2dd64f65a71` [refactor(storage-table): ensure UpdataInsert emit next to UpdateDelete when reading change log (#17770)](https://github.com/risingwavelabs/risingwave/pull/17770)
