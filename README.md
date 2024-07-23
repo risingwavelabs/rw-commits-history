@@ -310,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `007e8023a71bdecb469676a5a75d1a16944fdede` [feat(meta): deprecate parallel unit (#17523)](https://github.com/risingwavelabs/risingwave/pull/17523)
+- `40e5629ac8cfb021deb55aa69db0ea0754cf6795` [feat: support prepared statements for `create MV` (#17769)](https://github.com/risingwavelabs/risingwave/pull/17769)
+- `d3a6e3dfa4985bbf940d02c0767eb2dd64f65a71` [refactor(storage-table): ensure UpdataInsert emit next to UpdateDelete when reading change log (#17770)](https://github.com/risingwavelabs/risingwave/pull/17770)
 - `a26a4c198b36c51fa129b77f57205129b53cf42b` [fix(storage): use per-table committed epoch in read version update (#17744)](https://github.com/risingwavelabs/risingwave/pull/17744)
 - `a3a4e4dfbf10a3f5844e6bb498d780d711f95aab` [chore(deps): Bump bitflags from 2.5.0 to 2.6.0 (#17453)](https://github.com/risingwavelabs/risingwave/pull/17453)
 - `8185d39df226e10d279710632fb327653a6b790a` [chore(deps): Bump either from 1.12.0 to 1.13.0 (#17590)](https://github.com/risingwavelabs/risingwave/pull/17590)
