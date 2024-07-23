@@ -310,6 +310,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a26a4c198b36c51fa129b77f57205129b53cf42b` [fix(storage): use per-table committed epoch in read version update (#17744)](https://github.com/risingwavelabs/risingwave/pull/17744)
+- `a3a4e4dfbf10a3f5844e6bb498d780d711f95aab` [chore(deps): Bump bitflags from 2.5.0 to 2.6.0 (#17453)](https://github.com/risingwavelabs/risingwave/pull/17453)
+- `8185d39df226e10d279710632fb327653a6b790a` [chore(deps): Bump either from 1.12.0 to 1.13.0 (#17590)](https://github.com/risingwavelabs/risingwave/pull/17590)
+- `12e1f1fd8be55caf0dde07671d8cd98d201cfa3d` [chore(deps): Bump uuid from 1.8.0 to 1.10.0 (#17636)](https://github.com/risingwavelabs/risingwave/pull/17636)
+- `489aaea17ceaa4c5fa6f293323cbc64eaf961d66` [feat(storage): support get_table_watermark for LocalStateStore (#17767)](https://github.com/risingwavelabs/risingwave/pull/17767)
 - `69caf47942b4ed4d2b3cd059d0d88c762d73902b` [fix(test): skip creating secret file dir in simulation test (#17772)](https://github.com/risingwavelabs/risingwave/pull/17772)
 - `2b15b8e8b94b039c5a0701114e6abcd2216bd036` [feat(streaming): follow `server.connection_pool_size` config for exchange service (#17755)](https://github.com/risingwavelabs/risingwave/pull/17755)
 - `dd11f9be45b8a71db109a6a5935653c68631900a` [build(deps): bump openssl from 0.10.64 to 0.10.66 (#17774)](https://github.com/risingwavelabs/risingwave/pull/17774)
