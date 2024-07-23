@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240723` `285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2`
 - `20240722` `243c25e2327844906bb5ade062612fdfe42746ba`
 - `20240721` `625c5aaec41f954abb14f13df20a60464678e14b`
 - `20240718` `0883df550e7dc7358a509fd4d7f205f8b4c62241`
@@ -310,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240723
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/243c25e2327844906bb5ade062612fdfe42746ba...285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2)
 - `285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2` [feat(compaction): add vnode watermark picker (#17372)](https://github.com/risingwavelabs/risingwave/pull/17372)
 - `c5607a314d3fe03ddd513a33441fca0f90358d6c` [feat: remove parallel unit keyword (#17589)](https://github.com/risingwavelabs/risingwave/pull/17589)
 - `2e53024bf84f85901333e8778dd1120e199b52a2` [refactor: use separate configuration for exchange connection pool for batch and streaming (#17768)](https://github.com/risingwavelabs/risingwave/pull/17768)
