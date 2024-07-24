@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5d3a01fad835899c96993d5b513bf8b74764805f` [feat(storage): Supports configurable upload part size (#17793)](https://github.com/risingwavelabs/risingwave/pull/17793)
 - `c19561ace33d50b6f786428013c8d25d412a3d07` [chore: optimize retry interval for meta client to speed up cluster init (#17792)](https://github.com/risingwavelabs/risingwave/pull/17792)
 - `f8974bd604a160e778e42cb24cac995f390c938f` [doc: fix space in README.md (#17791)](https://github.com/risingwavelabs/risingwave/pull/17791)
 - `07bd25ba44632355e71f1ca28768f8f1c0610991` [feat(ddl): allow drop generated column in table with schema registry  (#17689)](https://github.com/risingwavelabs/risingwave/pull/17689)
