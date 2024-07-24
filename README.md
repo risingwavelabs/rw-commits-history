@@ -311,6 +311,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ffc6d4a0644e7a344ae8610febe1109d64c21756` [feat(serverless backfill): proto changes (#17010)](https://github.com/risingwavelabs/risingwave/pull/17010)
+- `f2fe044787941ab77879d82730fbc3db48965911` [fix(batch): fix batch left outer join with equal condition (#17797)](https://github.com/risingwavelabs/risingwave/pull/17797)
 - `3087eecaad1e62391d722e21d9efa4e4738e6ae2` [feat(source): license check for AWS Glue Schema Registry (#17795)](https://github.com/risingwavelabs/risingwave/pull/17795)
 - `5d3a01fad835899c96993d5b513bf8b74764805f` [feat(storage): Supports configurable upload part size (#17793)](https://github.com/risingwavelabs/risingwave/pull/17793)
 - `c19561ace33d50b6f786428013c8d25d412a3d07` [chore: optimize retry interval for meta client to speed up cluster init (#17792)](https://github.com/risingwavelabs/risingwave/pull/17792)
