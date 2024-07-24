@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240724` `ffc6d4a0644e7a344ae8610febe1109d64c21756`
 - `20240723` `285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2`
 - `20240722` `243c25e2327844906bb5ade062612fdfe42746ba`
 - `20240721` `625c5aaec41f954abb14f13df20a60464678e14b`
@@ -311,6 +312,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240724
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2...ffc6d4a0644e7a344ae8610febe1109d64c21756)
 - `ffc6d4a0644e7a344ae8610febe1109d64c21756` [feat(serverless backfill): proto changes (#17010)](https://github.com/risingwavelabs/risingwave/pull/17010)
 - `f2fe044787941ab77879d82730fbc3db48965911` [fix(batch): fix batch left outer join with equal condition (#17797)](https://github.com/risingwavelabs/risingwave/pull/17797)
 - `3087eecaad1e62391d722e21d9efa4e4738e6ae2` [feat(source): license check for AWS Glue Schema Registry (#17795)](https://github.com/risingwavelabs/risingwave/pull/17795)
