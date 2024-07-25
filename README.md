@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240725` `9be6c763ad54ea1f7e1bd263b7638ea36e534b16`
 - `20240724` `ffc6d4a0644e7a344ae8610febe1109d64c21756`
 - `20240723` `285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2`
 - `20240722` `243c25e2327844906bb5ade062612fdfe42746ba`
@@ -311,6 +312,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240725
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffc6d4a0644e7a344ae8610febe1109d64c21756...9be6c763ad54ea1f7e1bd263b7638ea36e534b16)
 - `9be6c763ad54ea1f7e1bd263b7638ea36e534b16` [feat(batch): support file scan a directory of parquet files (#17811)](https://github.com/risingwavelabs/risingwave/pull/17811)
 - `1c2c40061eb9d225bf7b55ad82a4fd453b5fdf17` [feat(storage): replace hummock protobuf strcut with rust struct (#15386)](https://github.com/risingwavelabs/risingwave/pull/15386)
 - `1b770666b92cb0a197714904b955cc5c6c3c6d2f` [fix(metrics): deprecate executor identity in sink metrics (#17810)](https://github.com/risingwavelabs/risingwave/pull/17810)
