@@ -312,6 +312,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6834de8baa58639c55f87105b73a6b7f15236349` [feat(frontend): add stateless two-phase `ApproxPercentile` (#17469)](https://github.com/risingwavelabs/risingwave/pull/17469)
 
 ## nightly-20240724
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2...ffc6d4a0644e7a344ae8610febe1109d64c21756)
