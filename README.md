@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1c2c40061eb9d225bf7b55ad82a4fd453b5fdf17` [feat(storage): replace hummock protobuf strcut with rust struct (#15386)](https://github.com/risingwavelabs/risingwave/pull/15386)
 - `1b770666b92cb0a197714904b955cc5c6c3c6d2f` [fix(metrics): deprecate executor identity in sink metrics (#17810)](https://github.com/risingwavelabs/risingwave/pull/17810)
 - `3a75734d5ce967682b0c305d2523956c6da98ff6` [fix: corner case for worker based scaling (#17806)](https://github.com/risingwavelabs/risingwave/pull/17806)
 - `6834de8baa58639c55f87105b73a6b7f15236349` [feat(frontend): add stateless two-phase `ApproxPercentile` (#17469)](https://github.com/risingwavelabs/risingwave/pull/17469)
