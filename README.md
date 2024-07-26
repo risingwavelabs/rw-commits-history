@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `16b22a9effac470a1d7e5925ad9307cb03eca0d4` [fix(postgres-cdc): only prepare statement in the backfill process (#17813)](https://github.com/risingwavelabs/risingwave/pull/17813)
+- `517cde200e317291cc9d8b90739b0812ad492fb5` [feat(telemetry): support report event to telemetry (#17486)](https://github.com/risingwavelabs/risingwave/pull/17486)
+- `b3093b04a10e43a64e8af82e6def3bd65bf16eff` [refactor(common): rename `Date::with_days` to `with_days_since_ce` for clarity (#17803)](https://github.com/risingwavelabs/risingwave/pull/17803)
 - `4b406584450720355fa6eb26a8c994721b90f0c1` [fix(storage): fix sstable info stripped (#17822)](https://github.com/risingwavelabs/risingwave/pull/17822)
 - `321e8c0780e436653b3383402da50144eedde2d0` [refactor(sink): Use error instead of unwrap  (#17777)](https://github.com/risingwavelabs/risingwave/pull/17777)
 - `9fd5669e7a99dc04135d9130997f74e6836ca12f` [chore(deps): Bump aws-smithy-runtime-api from 1.6.2 to 1.7.1 in the aws group across 1 directory (#17577)](https://github.com/risingwavelabs/risingwave/pull/17577)
