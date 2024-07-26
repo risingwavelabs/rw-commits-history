@@ -312,6 +312,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1496e6a03bf52b3646bc3802a09972dc19dd1353` [feat(storage): provide end index for compactor iter to reduce io (#17426)](https://github.com/risingwavelabs/risingwave/pull/17426)
 
 ## nightly-20240725
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffc6d4a0644e7a344ae8610febe1109d64c21756...9be6c763ad54ea1f7e1bd263b7638ea36e534b16)
