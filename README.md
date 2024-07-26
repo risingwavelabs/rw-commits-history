@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240726` `849bed057ce735efd151e8f64b4d2752a7e7304f`
 - `20240725` `9be6c763ad54ea1f7e1bd263b7638ea36e534b16`
 - `20240724` `ffc6d4a0644e7a344ae8610febe1109d64c21756`
 - `20240723` `285afdb6cd1be9a00dde9d486ce2fab3cdfcb4b2`
@@ -310,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240726
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9be6c763ad54ea1f7e1bd263b7638ea36e534b16...849bed057ce735efd151e8f64b4d2752a7e7304f)
 - `849bed057ce735efd151e8f64b4d2752a7e7304f` [feat(frontend): Acosd function (#9876)](https://github.com/risingwavelabs/risingwave/pull/9876)
 - `f389a7716224f8b2a93536544d0a0c16bfa8de4d` [feat: compute node unregisters from meta for graceful shutdown (#17662)](https://github.com/risingwavelabs/risingwave/pull/17662)
 - `16b22a9effac470a1d7e5925ad9307cb03eca0d4` [fix(postgres-cdc): only prepare statement in the backfill process (#17813)](https://github.com/risingwavelabs/risingwave/pull/17813)
