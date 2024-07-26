@@ -303,7 +303,6 @@
 - `20230812` `708df8e1233ae624a952117273a917b1007230fa`
 - `20230811` `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b`
 - `20230810` `53a2cf16b017a644cfe9924330fc4edf3f8ae096`
-- `20230809` `76a0fe1fb64a81f634d3e9021c16ea2e01365a04`
 </details>
 
 # Commit history
@@ -4351,19 +4350,4 @@
 - `03e57446c24268b0d011d2380fe5134e27de3d19` [feat: add dummy system function pg_type_is_visible (#11583)](https://github.com/risingwavelabs/risingwave/pull/11583)
 
 ## nightly-20230810
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/76a0fe1fb64a81f634d3e9021c16ea2e01365a04...53a2cf16b017a644cfe9924330fc4edf3f8ae096)
 - `53a2cf16b017a644cfe9924330fc4edf3f8ae096` [feat: add atthasdef to pg_attribute (#11582)](https://github.com/risingwavelabs/risingwave/pull/11582)
-- `33b10adedc633fe5b5603d78850a45f9ed8b88d1` [fix(stream): add group key into stream group topN's stream key (#11587)](https://github.com/risingwavelabs/risingwave/pull/11587)
-- `75763461db00824735106315c976a720fb5c820b` [fix: config subscribe client decoding limit and add more logs (#11596)](https://github.com/risingwavelabs/risingwave/pull/11596)
-- `689c35dc7e012bb969f8bbf1b73ad8d2c6ce76e9` [feat: support standard_conforming_strings parameter (#11568)](https://github.com/risingwavelabs/risingwave/pull/11568)
-- `2342e8b8fc036c004e6935628e790ef007a6d6c7` [fix: fix incorrect usage of ok_or with anyhow (#11589)](https://github.com/risingwavelabs/risingwave/pull/11589)
-- `9c9c4a2815e68bfbd08c2fa6fb0f71a89442e058` [fix(jdbc): fix jdbc sink drop (#11594)](https://github.com/risingwavelabs/risingwave/pull/11594)
-- `3f1ba0eb56904e3b68ccfda2702600be8e191163` [chore(frontend): refine union align types error (#11530)](https://github.com/risingwavelabs/risingwave/pull/11530)
-- `7bcbd62d1ec95b664ab75b91662426578da4737d` [chore(deps): Bump sqllogictest from 0.15.1 to 0.15.2 (#11578)](https://github.com/risingwavelabs/risingwave/pull/11578)
-- `31e68e984e7a8497d009643ae0f045b9b05c5872` [feat(connector): support transaction for single-table CDC (#11453)](https://github.com/risingwavelabs/risingwave/pull/11453)
-- `0f4fdb5921c81bc832ebe41509c7cf44285ffa70` [fix(frontend): derive `cleaned_by_watermark` using watermark col instead of rhs expression (#11571)](https://github.com/risingwavelabs/risingwave/pull/11571)
-- `a1668f2540fa48ec5db06886b2725238aff5d87b` [chore(deps): Bump zstd from 0.12.3+zstd.1.5.2 to 0.12.4 (#11579)](https://github.com/risingwavelabs/risingwave/pull/11579)
-- `7ad461b2fbb2c937511e7a591540c7f1afb15fc3` [fix: parsing pg Time correctly (#11157)](https://github.com/risingwavelabs/risingwave/pull/11157)
-
-## nightly-20230809
-- `76a0fe1fb64a81f634d3e9021c16ea2e01365a04` [fix(metrics): fix mv throughput and show materialized view output throughput without actor_id (#10978)](https://github.com/risingwavelabs/risingwave/pull/10978)
