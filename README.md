@@ -312,6 +312,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9fd5669e7a99dc04135d9130997f74e6836ca12f` [chore(deps): Bump aws-smithy-runtime-api from 1.6.2 to 1.7.1 in the aws group across 1 directory (#17577)](https://github.com/risingwavelabs/risingwave/pull/17577)
 - `1496e6a03bf52b3646bc3802a09972dc19dd1353` [feat(storage): provide end index for compactor iter to reduce io (#17426)](https://github.com/risingwavelabs/risingwave/pull/17426)
 
 ## nightly-20240725
