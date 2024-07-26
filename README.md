@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a8ef5a7da3bb7a02055504722743cad7dd055e8b` [feat(debeizum): upgrade version of debeizum from 2.4.2 to 2.6.2 (#17504)](https://github.com/risingwavelabs/risingwave/pull/17504)
 
 ## nightly-20240726
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9be6c763ad54ea1f7e1bd263b7638ea36e534b16...849bed057ce735efd151e8f64b4d2752a7e7304f)
