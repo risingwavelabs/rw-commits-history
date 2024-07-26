@@ -302,7 +302,6 @@
 - `20230813` `bddf6096a6f02c63141430813dc07bd24c550ed6`
 - `20230812` `708df8e1233ae624a952117273a917b1007230fa`
 - `20230811` `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b`
-- `20230810` `53a2cf16b017a644cfe9924330fc4edf3f8ae096`
 </details>
 
 # Commit history
@@ -311,6 +310,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `849bed057ce735efd151e8f64b4d2752a7e7304f` [feat(frontend): Acosd function (#9876)](https://github.com/risingwavelabs/risingwave/pull/9876)
 - `f389a7716224f8b2a93536544d0a0c16bfa8de4d` [feat: compute node unregisters from meta for graceful shutdown (#17662)](https://github.com/risingwavelabs/risingwave/pull/17662)
 - `16b22a9effac470a1d7e5925ad9307cb03eca0d4` [fix(postgres-cdc): only prepare statement in the backfill process (#17813)](https://github.com/risingwavelabs/risingwave/pull/17813)
 - `517cde200e317291cc9d8b90739b0812ad492fb5` [feat(telemetry): support report event to telemetry (#17486)](https://github.com/risingwavelabs/risingwave/pull/17486)
@@ -4339,19 +4339,4 @@
 - `708df8e1233ae624a952117273a917b1007230fa` [chore(deps): bump parse-display from 0.6.0 to 0.8.2 (#11640)](https://github.com/risingwavelabs/risingwave/pull/11640)
 
 ## nightly-20230811
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/53a2cf16b017a644cfe9924330fc4edf3f8ae096...cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b)
 - `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b` [feat(sink): clickhouse sink  (#11240)](https://github.com/risingwavelabs/risingwave/pull/11240)
-- `0bdde0e9308780efff4dde1a4b0f17b327fa4c08` [chore(deps): regular `cargo update` after v1.1.0 (#11603)](https://github.com/risingwavelabs/risingwave/pull/11603)
-- `2c22e1433ff46c0c5134a541c7b343c4c4a4aad2` [refactor: improve error logging for resource_util (#11036)](https://github.com/risingwavelabs/risingwave/pull/11036)
-- `ad77bf5ee8649dbb2751e8eb04257e61c12d27c7` [fix(stream): clear upstream buffer if no snapshot progress (#11625)](https://github.com/risingwavelabs/risingwave/pull/11625)
-- `a7c94699081cac301c9a766b60350d0725521dde` [feat: add dummy indisprimary to pg_index (#11620)](https://github.com/risingwavelabs/risingwave/pull/11620)
-- `19aded3042f8f7d405d38a4b12178cae9fbcf9b3` [feat(risedev): add psql command (#11590)](https://github.com/risingwavelabs/risingwave/pull/11590)
-- `3059d780c391fd92638546cae710e7de16ba077c` [chore(deps): bump futures-async-stream from 0.2.6 to 0.2.7 (#11615)](https://github.com/risingwavelabs/risingwave/pull/11615)
-- `d8105ecadcf03df46eae86883b9bb1cfd8854d8a` [chore(deps): bump phf from 0.11.1 to 0.11.2 (#11616)](https://github.com/risingwavelabs/risingwave/pull/11616)
-- `898065a8cc22d910080e8867c0ff7cbc7c73bd07` [chore: remove decoding message size limit from hummock rpc client (#11617)](https://github.com/risingwavelabs/risingwave/pull/11617)
-- `f4388cc8da2387eb7ab6d7a591734ab2c369a383` [chore(deps): bump arrow-* from 44.0.0 to 45.0.0 (#11466)](https://github.com/risingwavelabs/risingwave/pull/11466)
-- `40a95d55b2e253c55f33acc03114d7e831aa09b5` [fix(storage): add metrics to track latency of compaction event loop (#11598)](https://github.com/risingwavelabs/risingwave/pull/11598)
-- `03e57446c24268b0d011d2380fe5134e27de3d19` [feat: add dummy system function pg_type_is_visible (#11583)](https://github.com/risingwavelabs/risingwave/pull/11583)
-
-## nightly-20230810
-- `53a2cf16b017a644cfe9924330fc4edf3f8ae096` [feat: add atthasdef to pg_attribute (#11582)](https://github.com/risingwavelabs/risingwave/pull/11582)
