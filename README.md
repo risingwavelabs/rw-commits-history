@@ -312,6 +312,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0e69ede148be751ad9e7c82a7ae63185529f57f7` [feat(risedev): allow dbname of pg in risedev (#17829)](https://github.com/risingwavelabs/risingwave/pull/17829)
 
 ## nightly-20240727
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/849bed057ce735efd151e8f64b4d2752a7e7304f...a8ef5a7da3bb7a02055504722743cad7dd055e8b)
