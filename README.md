@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240728` `0e69ede148be751ad9e7c82a7ae63185529f57f7`
 - `20240727` `a8ef5a7da3bb7a02055504722743cad7dd055e8b`
 - `20240726` `849bed057ce735efd151e8f64b4d2752a7e7304f`
 - `20240725` `9be6c763ad54ea1f7e1bd263b7638ea36e534b16`
@@ -312,6 +313,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240728
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a8ef5a7da3bb7a02055504722743cad7dd055e8b...0e69ede148be751ad9e7c82a7ae63185529f57f7)
 - `0e69ede148be751ad9e7c82a7ae63185529f57f7` [feat(risedev): allow dbname of pg in risedev (#17829)](https://github.com/risingwavelabs/risingwave/pull/17829)
 
 ## nightly-20240727
