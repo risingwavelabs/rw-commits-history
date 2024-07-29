@@ -313,6 +313,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3facd96c05c1614d6bc0528733da6039da713093` [chore(sqlsmith): ban `approx_percentile` from being generated (#17832)](https://github.com/risingwavelabs/risingwave/pull/17832)
 
 ## nightly-20240728
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a8ef5a7da3bb7a02055504722743cad7dd055e8b...0e69ede148be751ad9e7c82a7ae63185529f57f7)
