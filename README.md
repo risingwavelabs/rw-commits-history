@@ -312,6 +312,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0b71744d0893cc77e8c912f2fc5ffb86bda6c58d` [feat(ci/risedev): install --locked (#17841)](https://github.com/risingwavelabs/risingwave/pull/17841)
 - `3facd96c05c1614d6bc0528733da6039da713093` [chore(sqlsmith): ban `approx_percentile` from being generated (#17832)](https://github.com/risingwavelabs/risingwave/pull/17832)
 
 ## nightly-20240728
