@@ -304,7 +304,6 @@
 - `20230814` `c76d2fbf476bb7593ba1c5817418a9b290a25634`
 - `20230813` `bddf6096a6f02c63141430813dc07bd24c550ed6`
 - `20230812` `708df8e1233ae624a952117273a917b1007230fa`
-- `20230811` `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b`
 </details>
 
 # Commit history
@@ -4350,8 +4349,4 @@
 - `bddf6096a6f02c63141430813dc07bd24c550ed6` [build: add resolver=2 to workspace (#11647)](https://github.com/risingwavelabs/risingwave/pull/11647)
 
 ## nightly-20230812
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b...708df8e1233ae624a952117273a917b1007230fa)
 - `708df8e1233ae624a952117273a917b1007230fa` [chore(deps): bump parse-display from 0.6.0 to 0.8.2 (#11640)](https://github.com/risingwavelabs/risingwave/pull/11640)
-
-## nightly-20230811
-- `cfa7a523d2d8b9e54d9d83c0cb98ec1f7298897b` [feat(sink): clickhouse sink  (#11240)](https://github.com/risingwavelabs/risingwave/pull/11240)
