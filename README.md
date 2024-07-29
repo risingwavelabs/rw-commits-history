@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240729` `d24c46573accd089bab28a9bbb60ced856fdefdb`
 - `20240728` `0e69ede148be751ad9e7c82a7ae63185529f57f7`
 - `20240727` `a8ef5a7da3bb7a02055504722743cad7dd055e8b`
 - `20240726` `849bed057ce735efd151e8f64b4d2752a7e7304f`
@@ -311,6 +312,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d292e14a4814f1b6c3afa0df93625b3dd167b055` [feat(secret): license the secret management feature (#17823)](https://github.com/risingwavelabs/risingwave/pull/17823)
+
+## nightly-20240729
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0e69ede148be751ad9e7c82a7ae63185529f57f7...d24c46573accd089bab28a9bbb60ced856fdefdb)
 - `d24c46573accd089bab28a9bbb60ced856fdefdb` [feat(risedev): check both or neither kafka & sr are user-managed (#17837)](https://github.com/risingwavelabs/risingwave/pull/17837)
 - `f0f4415c3e33d71f2c14279ebb889df6c1bff96d` [test: use create secret in integration tests (#17840)](https://github.com/risingwavelabs/risingwave/pull/17840)
 - `a8141dd122edc05f92963d303ab3c510773dce47` [feat(dashboard): include table definition in diagnose report (#17842)](https://github.com/risingwavelabs/risingwave/pull/17842)
