@@ -312,6 +312,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d24c46573accd089bab28a9bbb60ced856fdefdb` [feat(risedev): check both or neither kafka & sr are user-managed (#17837)](https://github.com/risingwavelabs/risingwave/pull/17837)
 - `f0f4415c3e33d71f2c14279ebb889df6c1bff96d` [test: use create secret in integration tests (#17840)](https://github.com/risingwavelabs/risingwave/pull/17840)
 - `a8141dd122edc05f92963d303ab3c510773dce47` [feat(dashboard): include table definition in diagnose report (#17842)](https://github.com/risingwavelabs/risingwave/pull/17842)
 - `0b71744d0893cc77e8c912f2fc5ffb86bda6c58d` [feat(ci/risedev): install --locked (#17841)](https://github.com/risingwavelabs/risingwave/pull/17841)
