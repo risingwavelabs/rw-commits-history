@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2fb78f0371243592b85d21ff6b63b38bd1890160` [feat: support inject and collect barrier from partial graph (#17758)](https://github.com/risingwavelabs/risingwave/pull/17758)
 - `b8e08c7245af2effadcfc4ab98b80156ef39bed9` [feat: also gracefully shutdown on SIGTERM (#17802)](https://github.com/risingwavelabs/risingwave/pull/17802)
 - `594f6dd336a390826f8afab7433cb6c680faaa43` [refactor(meta): let global barrier manager own create mview tracker (#17839)](https://github.com/risingwavelabs/risingwave/pull/17839)
 - `4b1b4b285acaee2d3c33633b5f28783484628e0a` [chore: update docker image from `v1.10.0-rc.3` to `v1.10.0` (#17853)](https://github.com/risingwavelabs/risingwave/pull/17853)
