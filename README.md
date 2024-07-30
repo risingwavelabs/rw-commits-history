@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b8e08c7245af2effadcfc4ab98b80156ef39bed9` [feat: also gracefully shutdown on SIGTERM (#17802)](https://github.com/risingwavelabs/risingwave/pull/17802)
 - `594f6dd336a390826f8afab7433cb6c680faaa43` [refactor(meta): let global barrier manager own create mview tracker (#17839)](https://github.com/risingwavelabs/risingwave/pull/17839)
 - `4b1b4b285acaee2d3c33633b5f28783484628e0a` [chore: update docker image from `v1.10.0-rc.3` to `v1.10.0` (#17853)](https://github.com/risingwavelabs/risingwave/pull/17853)
 - `8417d842c0c1c7b44c496464ce5c038d0c96f6ee` [feat(secret): add rw_catalog.rw_secrets table (#17726)](https://github.com/risingwavelabs/risingwave/pull/17726)
