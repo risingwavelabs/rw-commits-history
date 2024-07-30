@@ -311,6 +311,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `594f6dd336a390826f8afab7433cb6c680faaa43` [refactor(meta): let global barrier manager own create mview tracker (#17839)](https://github.com/risingwavelabs/risingwave/pull/17839)
+- `4b1b4b285acaee2d3c33633b5f28783484628e0a` [chore: update docker image from `v1.10.0-rc.3` to `v1.10.0` (#17853)](https://github.com/risingwavelabs/risingwave/pull/17853)
 - `8417d842c0c1c7b44c496464ce5c038d0c96f6ee` [feat(secret): add rw_catalog.rw_secrets table (#17726)](https://github.com/risingwavelabs/risingwave/pull/17726)
 - `cf30276cc26739bd9deda86b78f0d3fc51027d9d` [refactor(frontend): rename `streaming_rate_limit` to `backfill_rate_limit` for mv backfilling and `source_rate_limit` for source updates (#17796)](https://github.com/risingwavelabs/risingwave/pull/17796)
 - `3fa13c7e3b1e0a8a0b5d4821d03c78a00dbe0a82` [chore(ci): disable cassandra sink test (#17856)](https://github.com/risingwavelabs/risingwave/pull/17856)
