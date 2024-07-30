@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240730` `2fb78f0371243592b85d21ff6b63b38bd1890160`
 - `20240729` `d24c46573accd089bab28a9bbb60ced856fdefdb`
 - `20240728` `0e69ede148be751ad9e7c82a7ae63185529f57f7`
 - `20240727` `a8ef5a7da3bb7a02055504722743cad7dd055e8b`
@@ -310,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240730
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d24c46573accd089bab28a9bbb60ced856fdefdb...2fb78f0371243592b85d21ff6b63b38bd1890160)
 - `2fb78f0371243592b85d21ff6b63b38bd1890160` [feat: support inject and collect barrier from partial graph (#17758)](https://github.com/risingwavelabs/risingwave/pull/17758)
 - `b8e08c7245af2effadcfc4ab98b80156ef39bed9` [feat: also gracefully shutdown on SIGTERM (#17802)](https://github.com/risingwavelabs/risingwave/pull/17802)
 - `594f6dd336a390826f8afab7433cb6c680faaa43` [refactor(meta): let global barrier manager own create mview tracker (#17839)](https://github.com/risingwavelabs/risingwave/pull/17839)
