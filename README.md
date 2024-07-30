@@ -303,7 +303,6 @@
 - `20230816` `66b2f3664bd6fd474310b5f76b15497a575cb266`
 - `20230815` `4a5bf065b8d3c119393856e2390763e62499e765`
 - `20230814` `c76d2fbf476bb7593ba1c5817418a9b290a25634`
-- `20230813` `bddf6096a6f02c63141430813dc07bd24c550ed6`
 </details>
 
 # Commit history
@@ -312,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f555be516ca6463ae8927526247867d544433258` [feat(expr): support shuffle approx_percentile (#17814)](https://github.com/risingwavelabs/risingwave/pull/17814)
 - `657f85e187b3582e53adeabfa7f8fff4974055ae` [feat(sink): merge small chunks for sink executor (#17825)](https://github.com/risingwavelabs/risingwave/pull/17825)
 - `d292e14a4814f1b6c3afa0df93625b3dd167b055` [feat(secret): license the secret management feature (#17823)](https://github.com/risingwavelabs/risingwave/pull/17823)
 
@@ -4331,27 +4331,4 @@
 - `fa9e0119c7fbf5c4099807bfe57c8041784bb6c8` [feat(storage): support to base trivial_move (#11619)](https://github.com/risingwavelabs/risingwave/pull/11619)
 
 ## nightly-20230814
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bddf6096a6f02c63141430813dc07bd24c550ed6...c76d2fbf476bb7593ba1c5817418a9b290a25634)
 - `c76d2fbf476bb7593ba1c5817418a9b290a25634` [ci: add "Hakari Fix" action (#11558)](https://github.com/risingwavelabs/risingwave/pull/11558)
-- `2deeb3f60a0e14f2cb1a0068e63ab984c2eafcbf` [feat(expr): `scale`, `min_scale` and `trim_scale` for decimal (#11663)](https://github.com/risingwavelabs/risingwave/pull/11663)
-- `d6937c1972d19084e0881eba3b4506f5f90950ee` [chore(ci): bump unit test timeouts (#11659)](https://github.com/risingwavelabs/risingwave/pull/11659)
-- `e3bd7ab25ed6bae927fa7370e1095eecdb05d7ce` [fix: fix flaky drop mview unit test (#11658)](https://github.com/risingwavelabs/risingwave/pull/11658)
-- `f13e7a397f084e576def2188460917ffcb4f4430` [feat: add reloptions, indoption and conindid, all dummy (#11627)](https://github.com/risingwavelabs/risingwave/pull/11627)
-- `89649834e5235c9a9e16adac0a0c6c010caca249` [ci: add a GHA to build with latest nightly rust (#11637)](https://github.com/risingwavelabs/risingwave/pull/11637)
-- `4ba4d51258363a97aee4d27b2fba9d8537c2c5ce` [feat: add dummy pg_get_constraintdef that returns NULL (#11623)](https://github.com/risingwavelabs/risingwave/pull/11623)
-- `393f40c73e2b80cc20da5f364e3d378f32fd8aac` [feat: support generate_subscripts function (#11584)](https://github.com/risingwavelabs/risingwave/pull/11584)
-- `c946bedbc78b54b25e3785830cdae1924ea79e9c` [chore(doc): Improve the documentation section in the PR template (#11591)](https://github.com/risingwavelabs/risingwave/pull/11591)
-- `bd947868957782280bea9c0ade8c62b2ec629587` [chore(deps): bump comfy-table from 6.2.0 to 7.0.1 (#11645)](https://github.com/risingwavelabs/risingwave/pull/11645)
-- `3a6f5b436146f4efadd9dba4cb4f3970d9d1e8ea` [chore(deps): bump pprof from 0.11.1 to 0.12.1 (#11643)](https://github.com/risingwavelabs/risingwave/pull/11643)
-- `d7ed0e69f6bd3a80f9993ad09ed76331b7b86992` [chore(sort buffer): fix critical misleading comment (#11577)](https://github.com/risingwavelabs/risingwave/pull/11577)
-- `9d99c02a9c2053b5f452a02a5925ce92338befbc` [fix(compaction): select wrong task which cause sstable files fail to concat (#11653)](https://github.com/risingwavelabs/risingwave/pull/11653)
-- `1beb63cfe28e165719cb0c874b7196832d5957e5` [feat(sstable): use block based xor filter to save memory during compaction (#11488)](https://github.com/risingwavelabs/risingwave/pull/11488)
-- `ca45a6e56dd7cf881ec08ae28a260adcedc90b22` [doc(test): how to reproduce simulation integration tests results from ci (#11635)](https://github.com/risingwavelabs/risingwave/pull/11635)
-- `cb865071e4475f5adb93c5aac9834658b8ddf881` [feat: add max_concurrent_creating_streaming_jobs config (#11601)](https://github.com/risingwavelabs/risingwave/pull/11601)
-- `15178149b8a74c2063ba0bb69345a3d19ad6847d` [fix: fix exchange service and client decoding message size limit (#11655)](https://github.com/risingwavelabs/risingwave/pull/11655)
-- `5a06923706709fac7e3b58491326749f916db743` [feat(optimizer): support common sub-expression extraction (#11356)](https://github.com/risingwavelabs/risingwave/pull/11356)
-- `8efefe5a4a6000c51d1bd2c91c60a0eb8e41b296` [chore(stream): add assertion for backfill invariant (#11636)](https://github.com/risingwavelabs/risingwave/pull/11636)
-- `89ba3abe39575d5ac6e70390b976d71fc1f4c4f2` [chore(deps): bump opendal from 0.38.1 to 0.39.0 (#11642)](https://github.com/risingwavelabs/risingwave/pull/11642)
-
-## nightly-20230813
-- `bddf6096a6f02c63141430813dc07bd24c550ed6` [build: add resolver=2 to workspace (#11647)](https://github.com/risingwavelabs/risingwave/pull/11647)
