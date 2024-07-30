@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8984ae23ff59ef841a385c968cd20176c84ed9ef` [fix: column aware row encoding: improve the implementation and add bench (#17818)](https://github.com/risingwavelabs/risingwave/pull/17818)
 
 ## nightly-20240730
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d24c46573accd089bab28a9bbb60ced856fdefdb...2fb78f0371243592b85d21ff6b63b38bd1890160)
