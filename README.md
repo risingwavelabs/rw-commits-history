@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8417d842c0c1c7b44c496464ce5c038d0c96f6ee` [feat(secret): add rw_catalog.rw_secrets table (#17726)](https://github.com/risingwavelabs/risingwave/pull/17726)
 - `cf30276cc26739bd9deda86b78f0d3fc51027d9d` [refactor(frontend): rename `streaming_rate_limit` to `backfill_rate_limit` for mv backfilling and `source_rate_limit` for source updates (#17796)](https://github.com/risingwavelabs/risingwave/pull/17796)
 - `3fa13c7e3b1e0a8a0b5d4821d03c78a00dbe0a82` [chore(ci): disable cassandra sink test (#17856)](https://github.com/risingwavelabs/risingwave/pull/17856)
 - `59331abc17a775f0167188545ea678336c9300fd` [fix(iceberg): fix decimal type for iceberg source (#17854)](https://github.com/risingwavelabs/risingwave/pull/17854)
