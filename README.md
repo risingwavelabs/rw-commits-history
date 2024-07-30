@@ -302,7 +302,6 @@
 - `20230817` `0874a484f7bd456d1f8f93f06e06c9f40428df88`
 - `20230816` `66b2f3664bd6fd474310b5f76b15497a575cb266`
 - `20230815` `4a5bf065b8d3c119393856e2390763e62499e765`
-- `20230814` `c76d2fbf476bb7593ba1c5817418a9b290a25634`
 </details>
 
 # Commit history
@@ -4318,25 +4317,4 @@
 - `2572d867bebb8dbe768eaabd99069df74d2bbf19` [feat: support pg_relation_size (#11687)](https://github.com/risingwavelabs/risingwave/pull/11687)
 
 ## nightly-20230815
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c76d2fbf476bb7593ba1c5817418a9b290a25634...4a5bf065b8d3c119393856e2390763e62499e765)
 - `4a5bf065b8d3c119393856e2390763e62499e765` [feat(docker): support docker compose with hdfs (#11632)](https://github.com/risingwavelabs/risingwave/pull/11632)
-- `2ad815bbde977ce5efa424164f05fbe0b3842475` [ci: Upgrade ci image to install poetry (#11697)](https://github.com/risingwavelabs/risingwave/pull/11697)
-- `b15014fa58799467b2f5ed6b66d24651f364e005` [fix: only enable await-tree for stream service RPC (#11122)](https://github.com/risingwavelabs/risingwave/pull/11122)
-- `26edff41e1caf0122a35f96799fa1c433efde1d0` [chore: unify docker compose from integration test to unified settings (#11628)](https://github.com/risingwavelabs/risingwave/pull/11628)
-- `7364b87cfa01a994c41fa32bb4794798d5292ce2` [feat(common): add VisMut (#11685)](https://github.com/risingwavelabs/risingwave/pull/11685)
-- `2ab9b70b4d3c649b5bf51c216074b487db9e3016` [feat(risedev): generate `env` file also for playground (#11660)](https://github.com/risingwavelabs/risingwave/pull/11660)
-- `7423d30a346c9ba1b9516d7c833d8db71f5b7550` [fix(log-store): flush stream chunk on checkpoint barrier (#11017)](https://github.com/risingwavelabs/risingwave/pull/11017)
-- `57056cd19708e2be927ef4b3b2b8f236b59a4dfe` [refactor(agg): remove table state aggregation (#11526)](https://github.com/risingwavelabs/risingwave/pull/11526)
-- `02eb5a99886f0550fa499ac821627b94ddcf4b1d` [feat(optimizer): support apply overwindow transpose rule (#11597)](https://github.com/risingwavelabs/risingwave/pull/11597)
-- `b0fe70dfb8dca13cfedfc7463e8e708134fa8e10` [chore(deps): bump syn from 1.0.109 to 2.0.28 (#11641)](https://github.com/risingwavelabs/risingwave/pull/11641)
-- `c7fc0c51c03f5551d563dbeff32386f3eb8ee911` [fix(frontend): fix varchar data type for information schema columns (#11684)](https://github.com/risingwavelabs/risingwave/pull/11684)
-- `4db3456eec321eca50ef917523a035e75013b943` [feat: Introduce iceberg coordinated committer (#11656)](https://github.com/risingwavelabs/risingwave/pull/11656)
-- `7562acf5dc44d4f8c0143532bef17dcb5db77fb8` [ci: add github action that automatically creates a doc pr for user-facing change (#11668)](https://github.com/risingwavelabs/risingwave/pull/11668)
-- `79f4af8132aaddda91c475669e87f3086ca5f1a4` [ci(dependabot): add grouped updates (#11648)](https://github.com/risingwavelabs/risingwave/pull/11648)
-- `f3c226e96bd0c9f87c5216517ab7ed8436c7f694` [chore(meta): tune monitor service client message decoding size limit (#11677)](https://github.com/risingwavelabs/risingwave/pull/11677)
-- `3645b7fc061823a316a347c247929fa9cef6d94e` [chore(meta): tune hummock service message decoding size limit (#11672)](https://github.com/risingwavelabs/risingwave/pull/11672)
-- `989c6070008cb3e46f6046435a4a84ceeccd6007` [feat(metrics):  monitor materialized view remote IO bytes (#11054)](https://github.com/risingwavelabs/risingwave/pull/11054)
-- `fa9e0119c7fbf5c4099807bfe57c8041784bb6c8` [feat(storage): support to base trivial_move (#11619)](https://github.com/risingwavelabs/risingwave/pull/11619)
-
-## nightly-20230814
-- `c76d2fbf476bb7593ba1c5817418a9b290a25634` [ci: add "Hakari Fix" action (#11558)](https://github.com/risingwavelabs/risingwave/pull/11558)
