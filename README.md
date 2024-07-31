@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `892d86fa1bc164e9431abea7b23e3fd99b1929a0` [refactor(meta): add system parameter for time travel (#17866)](https://github.com/risingwavelabs/risingwave/pull/17866)
 - `8984ae23ff59ef841a385c968cd20176c84ed9ef` [fix: column aware row encoding: improve the implementation and add bench (#17818)](https://github.com/risingwavelabs/risingwave/pull/17818)
 
 ## nightly-20240730
