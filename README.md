@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `49d76cf38798589feed17e9808791495ba9d1520` [fix(batch): disable spill directory cleaning when enable_batch = false (#17883)](https://github.com/risingwavelabs/risingwave/pull/17883)
 - `ce397f93463614d9d79fcac06aa85f8d65c0383c` [feat: support altering the target table’s columns of the sink. (#17203)](https://github.com/risingwavelabs/risingwave/pull/17203)
 - `36290b00687f0a5cd1e003ecd22a8b7072bc8ff6` [refactor(storage): remove unnecessary wrap L0 with Option in Levels (#17881)](https://github.com/risingwavelabs/risingwave/pull/17881)
 - `fe2dff7a7755da440532d813dc2a5aab10511e89` [refactor(dashboard): redact options when listing definition (#17882)](https://github.com/risingwavelabs/risingwave/pull/17882)
