@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d70701a6db4511639304ccbb8c15138af2452d71` [refactor: add some comments for scaling (#17879)](https://github.com/risingwavelabs/risingwave/pull/17879)
+- `db294422e77db837592bcb33a21cdef04c3f2a7c` [fix(standalone): write `risedev-env` file in standalone mode (#17870)](https://github.com/risingwavelabs/risingwave/pull/17870)
+- `02c2bd1043ab49fa2fe35e379488d09d771b28e9` [fix: pr title checker allows `cherrypick` (#17874)](https://github.com/risingwavelabs/risingwave/pull/17874)
+- `a46df5fe5aa0971414a74542ad84f313c3e0ed2c` [refactor(binder): split `binder/expr/function` into multiple sub modules (#17872)](https://github.com/risingwavelabs/risingwave/pull/17872)
 - `8df1aececc3e19b54df297f980b6694964e7e6e2` [feat(storage): collect and report iter log local metrics (#17862)](https://github.com/risingwavelabs/risingwave/pull/17862)
 - `a9859ed770b44d46aa877684f7b1543d002b2678` [fix(storage): generate correct user key range in iter_log (#17805)](https://github.com/risingwavelabs/risingwave/pull/17805)
 - `fb551c81ec1eb5f608f10ab375c116c03f739df5` [feat:support underline as escape char (#17377)](https://github.com/risingwavelabs/risingwave/pull/17377)
