@@ -311,6 +311,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `36290b00687f0a5cd1e003ecd22a8b7072bc8ff6` [refactor(storage): remove unnecessary wrap L0 with Option in Levels (#17881)](https://github.com/risingwavelabs/risingwave/pull/17881)
+- `fe2dff7a7755da440532d813dc2a5aab10511e89` [refactor(dashboard): redact options when listing definition (#17882)](https://github.com/risingwavelabs/risingwave/pull/17882)
 - `d70701a6db4511639304ccbb8c15138af2452d71` [refactor: add some comments for scaling (#17879)](https://github.com/risingwavelabs/risingwave/pull/17879)
 - `db294422e77db837592bcb33a21cdef04c3f2a7c` [fix(standalone): write `risedev-env` file in standalone mode (#17870)](https://github.com/risingwavelabs/risingwave/pull/17870)
 - `02c2bd1043ab49fa2fe35e379488d09d771b28e9` [fix: pr title checker allows `cherrypick` (#17874)](https://github.com/risingwavelabs/risingwave/pull/17874)
