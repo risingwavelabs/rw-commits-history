@@ -311,6 +311,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8cb86948311ac6b5420c3903fb98f185addd3db4` [refactor(parser): rename `Function::aggregate` to `scalar_as_agg` (#17871)](https://github.com/risingwavelabs/risingwave/pull/17871)
+- `74702d5731e6d8c68a848999eb60ae578f0b6a4e` [feat: remove deno UDF (#17875)](https://github.com/risingwavelabs/risingwave/pull/17875)
 - `892d86fa1bc164e9431abea7b23e3fd99b1929a0` [refactor(meta): add system parameter for time travel (#17866)](https://github.com/risingwavelabs/risingwave/pull/17866)
 - `8984ae23ff59ef841a385c968cd20176c84ed9ef` [fix: column aware row encoding: improve the implementation and add bench (#17818)](https://github.com/risingwavelabs/risingwave/pull/17818)
 
