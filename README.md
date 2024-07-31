@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8df1aececc3e19b54df297f980b6694964e7e6e2` [feat(storage): collect and report iter log local metrics (#17862)](https://github.com/risingwavelabs/risingwave/pull/17862)
+- `a9859ed770b44d46aa877684f7b1543d002b2678` [fix(storage): generate correct user key range in iter_log (#17805)](https://github.com/risingwavelabs/risingwave/pull/17805)
+- `fb551c81ec1eb5f608f10ab375c116c03f739df5` [feat:support underline as escape char (#17377)](https://github.com/risingwavelabs/risingwave/pull/17377)
 - `2c23809e17badd1f448d551755f826d7fe39fa9e` [fix: remove the log suppression for join amplification (#17861)](https://github.com/risingwavelabs/risingwave/pull/17861)
 - `8cb86948311ac6b5420c3903fb98f185addd3db4` [refactor(parser): rename `Function::aggregate` to `scalar_as_agg` (#17871)](https://github.com/risingwavelabs/risingwave/pull/17871)
 - `74702d5731e6d8c68a848999eb60ae578f0b6a4e` [feat: remove deno UDF (#17875)](https://github.com/risingwavelabs/risingwave/pull/17875)
