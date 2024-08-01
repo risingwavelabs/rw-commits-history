@@ -302,7 +302,6 @@
 - `20230820` `9e4831f5df62361e04a364db230b3fd3034dcbed`
 - `20230818` `88a4daca851bf23bea68065426779aeea105bd8d`
 - `20230817` `0874a484f7bd456d1f8f93f06e06c9f40428df88`
-- `20230816` `66b2f3664bd6fd474310b5f76b15497a575cb266`
 </details>
 
 # Commit history
@@ -311,6 +310,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c22212656602e320a09eddf3ff415d6bbe69a8c9` [refactor(estimate_size, topn): merge `TopNCacheState` with `EstimatedBTreeMap` (#17892)](https://github.com/risingwavelabs/risingwave/pull/17892)
 - `f71fca81f93859604a11a7283bae8bffaab2af84` [fix(ci): fix single node test (#17888)](https://github.com/risingwavelabs/risingwave/pull/17888)
 
 ## nightly-20240731
@@ -4306,26 +4306,4 @@
 - `41211f65b67ed1b377e93038f52bd7f67215c3d7` [fix(optimizer): fix cardinality visitor -- filter (#11718)](https://github.com/risingwavelabs/risingwave/pull/11718)
 
 ## nightly-20230817
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66b2f3664bd6fd474310b5f76b15497a575cb266...0874a484f7bd456d1f8f93f06e06c9f40428df88)
 - `0874a484f7bd456d1f8f93f06e06c9f40428df88` [fix: remove decoding message size limit in telemetry and connector grpc client (#11758)](https://github.com/risingwavelabs/risingwave/pull/11758)
-- `cf56e72c9e8e2a3a906ea39f8a43a164881fb906` [feat(parser): parse `[!]~~[*]` operators to `[NOT] [I]LIKE` (#11748)](https://github.com/risingwavelabs/risingwave/pull/11748)
-- `058deae03712715ed81c237f3cf0241b2dd2ece5` [chore(deps): bump aho-corasick from 1.0.3 to 1.0.4 (#11730)](https://github.com/risingwavelabs/risingwave/pull/11730)
-- `098e25cc655eeec293bc847370879ab7ce8bc3e4` [test(sink/iceberg): Add time related date types (#11744)](https://github.com/risingwavelabs/risingwave/pull/11744)
-- `3b67f90adf1a0ad0e0e135c7d3bd35c5afc34a8c` [feat: Allow user to config iceberg table client. (#11750)](https://github.com/risingwavelabs/risingwave/pull/11750)
-- `3875066b1bf1ec63aeed7b9054205587d5cf3259` [feat(deterministic-test): add tests of random writes and consistency (#11712)](https://github.com/risingwavelabs/risingwave/pull/11712)
-- `63416a2a062ea9db7213474e35f753598534378f` [feat: support grant/revoke privileges for tables (#11725)](https://github.com/risingwavelabs/risingwave/pull/11725)
-- `2ebb278ce8aba67d010b70a4e174d5649b8392f5` [feat(dashboard): add back-pressure metrics for actors in fragment graph (#11696)](https://github.com/risingwavelabs/risingwave/pull/11696)
-- `5296f90bb086cf4036499ce2e83e8a3233f93817` [feat(expr): support `[NOT] ILIKE` expression (#11743)](https://github.com/risingwavelabs/risingwave/pull/11743)
-- `2275f74ad469042bf13f2522701466782512b892` [refactor: minimize docker-compose-xxx.yml with `extends` (#11559)](https://github.com/risingwavelabs/risingwave/pull/11559)
-- `60624f9d826c609135b3f0f42f094a15ea86259a` [chore(test): enable grouping sets fro sql smith (#11011)](https://github.com/risingwavelabs/risingwave/pull/11011)
-- `a2684461e379ce73f8d730982147439e2379de16` [chore(deps): bump strum_macros from 0.24.3 to 0.25.2 (#11729)](https://github.com/risingwavelabs/risingwave/pull/11729)
-- `1e0a9f864b58a0b5b535d714da74dba078f9c3cb` [fix(test): fix integration test debezium cases (#11739)](https://github.com/risingwavelabs/risingwave/pull/11739)
-- `c2a00023c4637df0ebd4d95ce5f4c6391e384553` [chore(deps): bump tokio-metrics from 0.2.2 to 0.3.0 (#11727)](https://github.com/risingwavelabs/risingwave/pull/11727)
-- `dd5d6b25360423b18d455266d05549b826f7cd70` [fix(sqlsmith): only permit base tables for hop and tumble (#11721)](https://github.com/risingwavelabs/risingwave/pull/11721)
-- `13d3a3a5950c3877bbb793b1c487e7937a63201e` [fix: auto doc create-pr actions (#11733)](https://github.com/risingwavelabs/risingwave/pull/11733)
-- `24c25b4e52d4bc04af14c09b1d3e928604853998` [chore(deps): bump serde_json from 1.0.104 to 1.0.105 (#11726)](https://github.com/risingwavelabs/risingwave/pull/11726)
-- `a62bcdee5d82002f0ebf33215ba44bdcb07c524e` [ci(dependabot): remove semver grouping (#11724)](https://github.com/risingwavelabs/risingwave/pull/11724)
-- `913a1d43235070c187c16b63641c6bc29d836349` [feat(sqlparser): support array constructing subquery syntax `array(select 2)` (#11716)](https://github.com/risingwavelabs/risingwave/pull/11716)
-
-## nightly-20230816
-- `66b2f3664bd6fd474310b5f76b15497a575cb266` [fix(meta): fix split  group (#11683)](https://github.com/risingwavelabs/risingwave/pull/11683)
