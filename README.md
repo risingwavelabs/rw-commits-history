@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `88f1c27e1566c4a5b0464cd5dd60c5deab46f361` [fix(dyn-filter): filter left changes according to watermark before writing state table (#17816)](https://github.com/risingwavelabs/risingwave/pull/17816)
 
 ## nightly-20240801
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/49d76cf38798589feed17e9808791495ba9d1520...9815c016bf8b4e130287b62e1b79efed34b61f7f)
