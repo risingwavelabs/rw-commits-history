@@ -310,6 +310,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9815c016bf8b4e130287b62e1b79efed34b61f7f` [refactor(state_cache): simplify `StateCache`s by reusing `EstimatedBTreeMap` (#17895)](https://github.com/risingwavelabs/risingwave/pull/17895)
+- `42cdbf358604be5ac2defd1fcb8142a8133ea530` [fix(sink_bench): Fix cargo build warn  (#17894)](https://github.com/risingwavelabs/risingwave/pull/17894)
 - `c22212656602e320a09eddf3ff415d6bbe69a8c9` [refactor(estimate_size, topn): merge `TopNCacheState` with `EstimatedBTreeMap` (#17892)](https://github.com/risingwavelabs/risingwave/pull/17892)
 - `f71fca81f93859604a11a7283bae8bffaab2af84` [fix(ci): fix single node test (#17888)](https://github.com/risingwavelabs/risingwave/pull/17888)
 
