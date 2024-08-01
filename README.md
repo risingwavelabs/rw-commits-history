@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240801` `9815c016bf8b4e130287b62e1b79efed34b61f7f`
 - `20240731` `49d76cf38798589feed17e9808791495ba9d1520`
 - `20240730` `2fb78f0371243592b85d21ff6b63b38bd1890160`
 - `20240729` `d24c46573accd089bab28a9bbb60ced856fdefdb`
@@ -310,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240801
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/49d76cf38798589feed17e9808791495ba9d1520...9815c016bf8b4e130287b62e1b79efed34b61f7f)
 - `9815c016bf8b4e130287b62e1b79efed34b61f7f` [refactor(state_cache): simplify `StateCache`s by reusing `EstimatedBTreeMap` (#17895)](https://github.com/risingwavelabs/risingwave/pull/17895)
 - `42cdbf358604be5ac2defd1fcb8142a8133ea530` [fix(sink_bench): Fix cargo build warn  (#17894)](https://github.com/risingwavelabs/risingwave/pull/17894)
 - `c22212656602e320a09eddf3ff415d6bbe69a8c9` [refactor(estimate_size, topn): merge `TopNCacheState` with `EstimatedBTreeMap` (#17892)](https://github.com/risingwavelabs/risingwave/pull/17892)
