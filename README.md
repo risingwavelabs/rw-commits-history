@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `03e4bc3c01af512716ce30e98415209ebb1c0e92` [fix(ctl): support the configuration of read timeout for restoring meta backup (#17901)](https://github.com/risingwavelabs/risingwave/pull/17901)
 - `88f1c27e1566c4a5b0464cd5dd60c5deab46f361` [fix(dyn-filter): filter left changes according to watermark before writing state table (#17816)](https://github.com/risingwavelabs/risingwave/pull/17816)
 
 ## nightly-20240801
