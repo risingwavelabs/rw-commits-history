@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240802` `c09d2647ef245d214da3e5b1826ae593a0b16d41`
 - `20240801` `9815c016bf8b4e130287b62e1b79efed34b61f7f`
 - `20240731` `49d76cf38798589feed17e9808791495ba9d1520`
 - `20240730` `2fb78f0371243592b85d21ff6b63b38bd1890160`
@@ -310,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240802
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9815c016bf8b4e130287b62e1b79efed34b61f7f...c09d2647ef245d214da3e5b1826ae593a0b16d41)
 - `c09d2647ef245d214da3e5b1826ae593a0b16d41` [feat(cdc): parse debezium schema event for mysql (#17707)](https://github.com/risingwavelabs/risingwave/pull/17707)
 - `911578c0a8700ee7a284480dacb8f8e07aa510d0` [chore: Improve wording of error message (#17766)](https://github.com/risingwavelabs/risingwave/pull/17766)
 - `20e0a98c552dff07279a8b9dee3c2699fba420c1` [fix(frontend): add exchange for two-phase `approx_percentile` agg (#17900)](https://github.com/risingwavelabs/risingwave/pull/17900)
