@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `911578c0a8700ee7a284480dacb8f8e07aa510d0` [chore: Improve wording of error message (#17766)](https://github.com/risingwavelabs/risingwave/pull/17766)
 - `20e0a98c552dff07279a8b9dee3c2699fba420c1` [fix(frontend): add exchange for two-phase `approx_percentile` agg (#17900)](https://github.com/risingwavelabs/risingwave/pull/17900)
 - `09fddac5aa5d3f6cac7d19851274e684ba9183c1` [feat(storage): support commit multi epoch for new compaction group (#17749)](https://github.com/risingwavelabs/risingwave/pull/17749)
 - `c395db7c3dff6053a068d09c0cb3e2ab7b7c1e42` [fix: fix panic when creating sink into table under pause (#17896)](https://github.com/risingwavelabs/risingwave/pull/17896)
