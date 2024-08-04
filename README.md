@@ -310,6 +310,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3c745dfb008cdaad8b720c8787b1ff54f19195c8` [build: bump toolchain to 2024-06-12 (#17179)](https://github.com/risingwavelabs/risingwave/pull/17179)
 
 ## nightly-20240803
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9815c016bf8b4e130287b62e1b79efed34b61f7f...c09d2647ef245d214da3e5b1826ae593a0b16d41)
