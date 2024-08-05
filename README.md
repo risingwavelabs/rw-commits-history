@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240805` `fc50ac8b30d4bbeefd97019ce4b55eadc7f3c4a5`
 - `20240804` `3c745dfb008cdaad8b720c8787b1ff54f19195c8`
 - `20240803` `c09d2647ef245d214da3e5b1826ae593a0b16d41`
 - `20240801` `9815c016bf8b4e130287b62e1b79efed34b61f7f`
@@ -308,6 +309,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240805
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3c745dfb008cdaad8b720c8787b1ff54f19195c8...fc50ac8b30d4bbeefd97019ce4b55eadc7f3c4a5)
 - `fc50ac8b30d4bbeefd97019ce4b55eadc7f3c4a5` [feat(sink): add Clickhouse Null engine (#17899)](https://github.com/risingwavelabs/risingwave/pull/17899)
 - `c4adffc647ad7085597d19c37e97d6ada16ca084` [refactor: add subscription via add mutation (#17897)](https://github.com/risingwavelabs/risingwave/pull/17897)
 - `4987ccb839f523b7542059879f06d4ce7355f823` [feat(cdc): add license check to auto schema map (#17903)](https://github.com/risingwavelabs/risingwave/pull/17903)
