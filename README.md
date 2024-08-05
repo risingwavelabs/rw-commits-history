@@ -309,6 +309,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c4adffc647ad7085597d19c37e97d6ada16ca084` [refactor: add subscription via add mutation (#17897)](https://github.com/risingwavelabs/risingwave/pull/17897)
+- `4987ccb839f523b7542059879f06d4ce7355f823` [feat(cdc): add license check to auto schema map (#17903)](https://github.com/risingwavelabs/risingwave/pull/17903)
 - `faf4ecd792a3df6da8ff94324d9ba743ccde8b62` [fix(sink): license SQL Server sink (#17910)](https://github.com/risingwavelabs/risingwave/pull/17910)
 - `bf1c1dba764989cc17b8c6972290de496702832a` [fix(meta): include secret in meta backup for etcd meta store (#17908)](https://github.com/risingwavelabs/risingwave/pull/17908)
 
@@ -3401,7 +3403,6 @@
 - `43027650cbf470e81a162823a7a5ee535bcc2667` [chore(deps): Bump pulsar from 6.0.1 to 6.1.0 (#13188)](https://github.com/risingwavelabs/risingwave/pull/13188)
 - `84d27baf1a674392d7b48cb53fecf49218cb632a` [fix(metrics): guard label of local metrics (#13175)](https://github.com/risingwavelabs/risingwave/pull/13175)
 - `e51d9e37da9ec75d583ed3b65b38b49acfd0dc83` [fix(ci): fix deterministic integration sink test regression (#13178)](https://github.com/risingwavelabs/risingwave/pull/13178)
-- `23d2f81693bca530613dfa45cdef8c15eba92ab9` [chore(storage): issue a warning when key value is too large (#13129)](https://github.com/risingwavelabs/risingwave/pull/13129)
 - `23d2f81693bca530613dfa45cdef8c15eba92ab9` [chore(storage): issue a warning when key value is too large (#13129)](https://github.com/risingwavelabs/risingwave/pull/13129)
 - `99fe0ebb668374167b0ac6cadead65c6d7175c1b` [feat(protobuf): support any for protobuf message source (#12291)](https://github.com/risingwavelabs/risingwave/pull/12291)
 - `b11c8312522ba7a8ac0b7c2d8f3bffecf1a6e41a` [feat(metrics): expose sink error in grafana and factor error metrics (#13083)](https://github.com/risingwavelabs/risingwave/pull/13083)
