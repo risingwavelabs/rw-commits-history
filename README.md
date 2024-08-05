@@ -311,6 +311,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `faf4ecd792a3df6da8ff94324d9ba743ccde8b62` [fix(sink): license SQL Server sink (#17910)](https://github.com/risingwavelabs/risingwave/pull/17910)
+- `bf1c1dba764989cc17b8c6972290de496702832a` [fix(meta): include secret in meta backup for etcd meta store (#17908)](https://github.com/risingwavelabs/risingwave/pull/17908)
 
 ## nightly-20240804
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c09d2647ef245d214da3e5b1826ae593a0b16d41...3c745dfb008cdaad8b720c8787b1ff54f19195c8)
