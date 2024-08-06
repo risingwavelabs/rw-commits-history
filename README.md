@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240806` `5933b93093f0a73d8d783ab220a3ef49e4f97217`
 - `20240805` `fc50ac8b30d4bbeefd97019ce4b55eadc7f3c4a5`
 - `20240804` `3c745dfb008cdaad8b720c8787b1ff54f19195c8`
 - `20240803` `c09d2647ef245d214da3e5b1826ae593a0b16d41`
@@ -307,6 +308,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240806
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fc50ac8b30d4bbeefd97019ce4b55eadc7f3c4a5...5933b93093f0a73d8d783ab220a3ef49e4f97217)
 - `5933b93093f0a73d8d783ab220a3ef49e4f97217` [fix(migration): include missing `sea-orm` dependency (#17941)](https://github.com/risingwavelabs/risingwave/pull/17941)
 - `ecc84478e5ff76c0450ea6e66b82f0a61deff77a` [feat(sink): support shared tree for clickhouse (#17919)](https://github.com/risingwavelabs/risingwave/pull/17919)
 - `0ef68b10429b4c144b90dce795b39b8cf6862118` [feat(streaming): support alter mv backfill rate limit (#17911)](https://github.com/risingwavelabs/risingwave/pull/17911)
