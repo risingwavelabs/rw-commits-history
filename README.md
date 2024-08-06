@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b671bc7d65c38abc3595479f08490b018a086984` [chore: add col name when type mismatch in sink (#17948)](https://github.com/risingwavelabs/risingwave/pull/17948)
 
 ## nightly-20240806
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fc50ac8b30d4bbeefd97019ce4b55eadc7f3c4a5...5933b93093f0a73d8d783ab220a3ef49e4f97217)
