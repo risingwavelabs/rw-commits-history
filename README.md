@@ -308,6 +308,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `accfb49593c34bfad4a84ef22598432eb0b2eaf4` [feat(cdc): support sql server cdc (#17429)](https://github.com/risingwavelabs/risingwave/pull/17429)
+- `50294deb1a96f1f33d164bdc3ef74bcc5fa7fd87` [fix(pg-cdc): add validation for slot name of pg cdc source (#17949)](https://github.com/risingwavelabs/risingwave/pull/17949)
 - `e7c370603428eba85a56a95641ccb2fce5965f41` [refactor(common): use macro to impl tosql and fromsql for date, time, da… (#17950)](https://github.com/risingwavelabs/risingwave/pull/17950)
 - `ea4e8f0ddd1850ae8509afcdcc33c72cf25eb398` [feat(iceberg): reduce iceberg catalog fetch rpc number for iceberg scan (#17939)](https://github.com/risingwavelabs/risingwave/pull/17939)
 - `05efd48b3c77adc4dcd37ee242abec53964dec69` [feat(iceberg): reuse http client for iceberg (#17940)](https://github.com/risingwavelabs/risingwave/pull/17940)
