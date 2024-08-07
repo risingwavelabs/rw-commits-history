@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e68a7bbe877e3de31c7abeeb28d081ad84b61f62` [fix: clear in progress creation tracker when recovery to avoid recovering failed foreground ddl in some corner cases (#17955)](https://github.com/risingwavelabs/risingwave/pull/17955)
 - `accfb49593c34bfad4a84ef22598432eb0b2eaf4` [feat(cdc): support sql server cdc (#17429)](https://github.com/risingwavelabs/risingwave/pull/17429)
 - `50294deb1a96f1f33d164bdc3ef74bcc5fa7fd87` [fix(pg-cdc): add validation for slot name of pg cdc source (#17949)](https://github.com/risingwavelabs/risingwave/pull/17949)
 - `e7c370603428eba85a56a95641ccb2fce5965f41` [refactor(common): use macro to impl tosql and fromsql for date, time, da… (#17950)](https://github.com/risingwavelabs/risingwave/pull/17950)
