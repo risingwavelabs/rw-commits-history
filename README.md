@@ -309,6 +309,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e2d18c1c03d30b34bf354c116acebeafb32a5569` [fix: fix incorrect notification info when sink into table fails (#17961)](https://github.com/risingwavelabs/risingwave/pull/17961)
 - `fb62114768e5f3306cf6bfc3d0157c39553f5fa3` [feat: support `CORRESPONDING` specification in set operations (#17891)](https://github.com/risingwavelabs/risingwave/pull/17891)
 - `ac99459311667373f28f84bf629bf507cf5cbe05` [fix(sink): Fix sink into table in the recovery of the new version of table graph. (#17960)](https://github.com/risingwavelabs/risingwave/pull/17960)
 
