@@ -308,6 +308,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e7c370603428eba85a56a95641ccb2fce5965f41` [refactor(common): use macro to impl tosql and fromsql for date, time, da… (#17950)](https://github.com/risingwavelabs/risingwave/pull/17950)
+- `ea4e8f0ddd1850ae8509afcdcc33c72cf25eb398` [feat(iceberg): reduce iceberg catalog fetch rpc number for iceberg scan (#17939)](https://github.com/risingwavelabs/risingwave/pull/17939)
+- `05efd48b3c77adc4dcd37ee242abec53964dec69` [feat(iceberg): reuse http client for iceberg (#17940)](https://github.com/risingwavelabs/risingwave/pull/17940)
 - `b671bc7d65c38abc3595479f08490b018a086984` [chore: add col name when type mismatch in sink (#17948)](https://github.com/risingwavelabs/risingwave/pull/17948)
 
 ## nightly-20240806
