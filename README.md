@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240807` `e68a7bbe877e3de31c7abeeb28d081ad84b61f62`
 - `20240806` `5933b93093f0a73d8d783ab220a3ef49e4f97217`
 - `20240805` `fc50ac8b30d4bbeefd97019ce4b55eadc7f3c4a5`
 - `20240804` `3c745dfb008cdaad8b720c8787b1ff54f19195c8`
@@ -308,6 +309,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fb62114768e5f3306cf6bfc3d0157c39553f5fa3` [feat: support `CORRESPONDING` specification in set operations (#17891)](https://github.com/risingwavelabs/risingwave/pull/17891)
+- `ac99459311667373f28f84bf629bf507cf5cbe05` [fix(sink): Fix sink into table in the recovery of the new version of table graph. (#17960)](https://github.com/risingwavelabs/risingwave/pull/17960)
+
+## nightly-20240807
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5933b93093f0a73d8d783ab220a3ef49e4f97217...e68a7bbe877e3de31c7abeeb28d081ad84b61f62)
 - `e68a7bbe877e3de31c7abeeb28d081ad84b61f62` [fix: clear in progress creation tracker when recovery to avoid recovering failed foreground ddl in some corner cases (#17955)](https://github.com/risingwavelabs/risingwave/pull/17955)
 - `accfb49593c34bfad4a84ef22598432eb0b2eaf4` [feat(cdc): support sql server cdc (#17429)](https://github.com/risingwavelabs/risingwave/pull/17429)
 - `50294deb1a96f1f33d164bdc3ef74bcc5fa7fd87` [fix(pg-cdc): add validation for slot name of pg cdc source (#17949)](https://github.com/risingwavelabs/risingwave/pull/17949)
