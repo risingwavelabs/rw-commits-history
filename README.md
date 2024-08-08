@@ -300,7 +300,6 @@
 - `20230828` `5818f62f6a1c8001f371db4c4e74534a505a10cd`
 - `20230827` `29274576d3fe79621ad3eafaf119f78031d0633b`
 - `20230826` `144688c25b47f0aff199b43629a348c0dd669d2c`
-- `20230825` `03e92dc21391b4aed251a07489faa44a75f7e8af`
 </details>
 
 # Commit history
@@ -309,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `006a8dbafcadfc693f8e52e6654573d823e27c55` [refactor(topn): audit and refactor `TopNCache` and fix a potential bug (#17947)](https://github.com/risingwavelabs/risingwave/pull/17947)
 - `c315942d9a841d869b59ed3b07be6369a54c5b69` [feat(stream): add two-phase stateless simple approx percentile (#17873)](https://github.com/risingwavelabs/risingwave/pull/17873)
 - `e2d18c1c03d30b34bf354c116acebeafb32a5569` [fix: fix incorrect notification info when sink into table fails (#17961)](https://github.com/risingwavelabs/risingwave/pull/17961)
 - `fb62114768e5f3306cf6bfc3d0157c39553f5fa3` [feat: support `CORRESPONDING` specification in set operations (#17891)](https://github.com/risingwavelabs/risingwave/pull/17891)
@@ -4260,13 +4260,4 @@
 - `c880315d6279d979b05997aaa76ca752645418a9` [fix: change Chinese quotation marks into English (#11902)](https://github.com/risingwavelabs/risingwave/pull/11902)
 
 ## nightly-20230826
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03e92dc21391b4aed251a07489faa44a75f7e8af...144688c25b47f0aff199b43629a348c0dd669d2c)
 - `144688c25b47f0aff199b43629a348c0dd669d2c` [feat: port kafka native metrics to Prometheus  (#11346)](https://github.com/risingwavelabs/risingwave/pull/11346)
-- `1bc03dafb170ed4e73722548e3767a8c950428f2` [chore(deps): bump google-cloud apis and pubsub (#11889)](https://github.com/risingwavelabs/risingwave/pull/11889)
-- `7e691986289e4a5321f285e1a928da8ce94b3612` [chore(deps): bump time from 0.3.25 to 0.3.27 (#11900)](https://github.com/risingwavelabs/risingwave/pull/11900)
-- `81cf5346603db467a146170d48b459721821cf21` [chore(deps): bump bytesize from 1.2.0 to 1.3.0 (#11901)](https://github.com/risingwavelabs/risingwave/pull/11901)
-- `94513936366582621c28c4df8be543063334039f` [refactor(agg): decouple aggregate function and state (#11690)](https://github.com/risingwavelabs/risingwave/pull/11690)
-- `2cf06033a2645e58f7fd042d4767c0335c82d390` [feat(frontend): support lateral subqueries (#11780)](https://github.com/risingwavelabs/risingwave/pull/11780)
-
-## nightly-20230825
-- `03e92dc21391b4aed251a07489faa44a75f7e8af` [feat(compaction): compact sstable with many tombstones periodic (#11740)](https://github.com/risingwavelabs/risingwave/pull/11740)
