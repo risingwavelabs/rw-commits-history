@@ -307,6 +307,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fbaed06d4935564e9f34e4ffe472f55f0a26ec2d` [feat(stream): output chunks on every barrier for simple agg (#17945)](https://github.com/risingwavelabs/risingwave/pull/17945)
 - `0aed6823504129ff3ef91f4c68b5eaffc64ebc82` [fix(error): add sink_id in sinkerror (#17969)](https://github.com/risingwavelabs/risingwave/pull/17969)
 - `de32dab1e56e23e27d3b8d82a251065ac2260dcd` [fix(source): persist `rate_limit` to source catalog (#16472)](https://github.com/risingwavelabs/risingwave/pull/16472)
 - `a4d890ed6d446d289fbed00a3f49b8fc57f6b05b` [fix: early terminate when reach the end of inactive shard (#17957)](https://github.com/risingwavelabs/risingwave/pull/17957)
