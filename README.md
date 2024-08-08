@@ -299,7 +299,6 @@
 - `20230829` `88f502c9cbe183772c10eb8a3adec698a526a4cd`
 - `20230828` `5818f62f6a1c8001f371db4c4e74534a505a10cd`
 - `20230827` `29274576d3fe79621ad3eafaf119f78031d0633b`
-- `20230826` `144688c25b47f0aff199b43629a348c0dd669d2c`
 </details>
 
 # Commit history
@@ -308,6 +307,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a4d890ed6d446d289fbed00a3f49b8fc57f6b05b` [fix: early terminate when reach the end of inactive shard (#17957)](https://github.com/risingwavelabs/risingwave/pull/17957)
 - `006a8dbafcadfc693f8e52e6654573d823e27c55` [refactor(topn): audit and refactor `TopNCache` and fix a potential bug (#17947)](https://github.com/risingwavelabs/risingwave/pull/17947)
 - `c315942d9a841d869b59ed3b07be6369a54c5b69` [feat(stream): add two-phase stateless simple approx percentile (#17873)](https://github.com/risingwavelabs/risingwave/pull/17873)
 - `e2d18c1c03d30b34bf354c116acebeafb32a5569` [fix: fix incorrect notification info when sink into table fails (#17961)](https://github.com/risingwavelabs/risingwave/pull/17961)
@@ -4255,9 +4255,4 @@
 - `588f2901bdbce3037099ace5c8a9120c88086e85` [refactor(storage): checked u32 conversion during block building (#11734)](https://github.com/risingwavelabs/risingwave/pull/11734)
 
 ## nightly-20230827
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/144688c25b47f0aff199b43629a348c0dd669d2c...29274576d3fe79621ad3eafaf119f78031d0633b)
 - `29274576d3fe79621ad3eafaf119f78031d0633b` [chore(deps): bump nix from 0.25.1 to 0.26.2 (#11031)](https://github.com/risingwavelabs/risingwave/pull/11031)
-- `c880315d6279d979b05997aaa76ca752645418a9` [fix: change Chinese quotation marks into English (#11902)](https://github.com/risingwavelabs/risingwave/pull/11902)
-
-## nightly-20230826
-- `144688c25b47f0aff199b43629a348c0dd669d2c` [feat: port kafka native metrics to Prometheus  (#11346)](https://github.com/risingwavelabs/risingwave/pull/11346)
