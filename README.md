@@ -306,6 +306,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `efdbf3cfb234ed30171bd6444966528399a167d5` [feat(frontend): support extendend query for cursor (#17821)](https://github.com/risingwavelabs/risingwave/pull/17821)
 - `cc21a6abccc47cd9a7da2f13571ba3079195ab16` [refactor(meta): simplify InflightActorInfo and extract InflightGraphInfo (#17956)](https://github.com/risingwavelabs/risingwave/pull/17956)
 - `d00e2ebbeb0e814aaab1de687ea1c0dc7e4a2b0e` [feat(risedev): introduce sql server to risedev (#17951)](https://github.com/risingwavelabs/risingwave/pull/17951)
 - `fbe1a04808addd47aad33c61e3ea3e5fc9acdc6a` [test(mssql-cdc): enrich test cases (#17966)](https://github.com/risingwavelabs/risingwave/pull/17966)
