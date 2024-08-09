@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240809` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 - `20240808` `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49`
 - `20240807` `e68a7bbe877e3de31c7abeeb28d081ad84b61f62`
 - `20240806` `5933b93093f0a73d8d783ab220a3ef49e4f97217`
@@ -305,6 +306,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240809
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f5701ab5f7cfe084190eac4fabfe1d381d0e49...21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd)
 - `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd` [refactor(storage): use strong type for HummockVersionId (#17971)](https://github.com/risingwavelabs/risingwave/pull/17971)
 - `13af20c8c8e92db775fb9fef62d4e798707f4bc0` [fix(storage): suppress some hummock false panic and warn log (#17914)](https://github.com/risingwavelabs/risingwave/pull/17914)
 - `efdbf3cfb234ed30171bd6444966528399a167d5` [feat(frontend): support extendend query for cursor (#17821)](https://github.com/risingwavelabs/risingwave/pull/17821)
