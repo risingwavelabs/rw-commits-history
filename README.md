@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 - `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 - `20240808` `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49`
 - `20240807` `e68a7bbe877e3de31c7abeeb28d081ad84b61f62`
@@ -306,6 +307,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240811
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd...a8b281147873b8ddc6ff633966a9381b1af26e85)
 - `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
 
 ## nightly-20240810
