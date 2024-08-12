@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `58b3f414763a4550f8408c3761b2f34a26c5e476` [chore: test data shall not use non-existent option `kafka.servers` (#17996)](https://github.com/risingwavelabs/risingwave/pull/17996)
 
 ## nightly-20240812
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a8b281147873b8ddc6ff633966a9381b1af26e85...15432093b71066fd1097ebebf6b716033ac340dd)
