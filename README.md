@@ -307,6 +307,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `15432093b71066fd1097ebebf6b716033ac340dd` [fix(stream): let approx percentile output its results every epoch (#18002)](https://github.com/risingwavelabs/risingwave/pull/18002)
 - `b2b5a335a421667fd072add96617058aba52f361` [feat: add map type to scalar/array/expr (#17690)](https://github.com/risingwavelabs/risingwave/pull/17690)
 - `3707a1eef00106da08f878c66d3a3295aaf47a02` [feat(source): use the default_provider for AWS-related connectors (#17933)](https://github.com/risingwavelabs/risingwave/pull/17933)
 - `ef0272baaac5ae80bba63e008ab4fc92206f1556` [fix(docs): display of math equations in dev docs (#17998)](https://github.com/risingwavelabs/risingwave/pull/17998)
