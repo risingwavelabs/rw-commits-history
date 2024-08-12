@@ -307,6 +307,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5137f4801c695df5401b2699f269c48fa3fa3b01` [feat: redact license key when displaying to users (#17936)](https://github.com/risingwavelabs/risingwave/pull/17936)
+- `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
 
 ## nightly-20240811
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd...a8b281147873b8ddc6ff633966a9381b1af26e85)
