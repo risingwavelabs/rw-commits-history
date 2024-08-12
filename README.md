@@ -307,6 +307,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `de7e55bd23a40613b23b2a9a365f0cd92076ed00` [chore(ci): sync nexmark queries for flamegraph generation (#17993)](https://github.com/risingwavelabs/risingwave/pull/17993)
 - `fbb30ad2be06ca7d8d619b44d25a03ffdccd3568` [feat: support initializing license key from env var (#17906)](https://github.com/risingwavelabs/risingwave/pull/17906)
 - `5137f4801c695df5401b2699f269c48fa3fa3b01` [feat: redact license key when displaying to users (#17936)](https://github.com/risingwavelabs/risingwave/pull/17936)
 - `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
