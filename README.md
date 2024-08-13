@@ -307,6 +307,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847` [feat(sink): allow upsert protobuf with text key (#18024)](https://github.com/risingwavelabs/risingwave/pull/18024)
+- `1df6b80c8f68fdba41d5f84bcc8198e9a3927408` [fix(iceberg): fix iceberg manifest data corruption (#18020)](https://github.com/risingwavelabs/risingwave/pull/18020)
 - `c2e2376855f2bb55b7637945519cc22c1b84a251` [feat: call clear shared buffer with latest version id (#17972)](https://github.com/risingwavelabs/risingwave/pull/17972)
 - `a5cd1418ad6bdfb01d9c147700bc30f01e3f2a6e` [fix: add license key env for integration test (#18014)](https://github.com/risingwavelabs/risingwave/pull/18014)
 - `f2bcff737a8b7b0ba20f15313ca06e33d28d8873` [feat: support parsing map type: `map(k,v)` (#17860)](https://github.com/risingwavelabs/risingwave/pull/17860)
