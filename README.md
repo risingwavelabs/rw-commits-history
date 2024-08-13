@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
 - `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 - `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
@@ -307,6 +308,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240813
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/15432093b71066fd1097ebebf6b716033ac340dd...c6ed9bb6deb333452e311c3e8ba028ae1ab0f847)
 - `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847` [feat(sink): allow upsert protobuf with text key (#18024)](https://github.com/risingwavelabs/risingwave/pull/18024)
 - `1df6b80c8f68fdba41d5f84bcc8198e9a3927408` [fix(iceberg): fix iceberg manifest data corruption (#18020)](https://github.com/risingwavelabs/risingwave/pull/18020)
 - `c2e2376855f2bb55b7637945519cc22c1b84a251` [feat: call clear shared buffer with latest version id (#17972)](https://github.com/risingwavelabs/risingwave/pull/17972)
