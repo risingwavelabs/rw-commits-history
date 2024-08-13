@@ -307,6 +307,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c2e2376855f2bb55b7637945519cc22c1b84a251` [feat: call clear shared buffer with latest version id (#17972)](https://github.com/risingwavelabs/risingwave/pull/17972)
 - `a5cd1418ad6bdfb01d9c147700bc30f01e3f2a6e` [fix: add license key env for integration test (#18014)](https://github.com/risingwavelabs/risingwave/pull/18014)
 - `f2bcff737a8b7b0ba20f15313ca06e33d28d8873` [feat: support parsing map type: `map(k,v)` (#17860)](https://github.com/risingwavelabs/risingwave/pull/17860)
 - `cd9c31efc7da656655e955090ff66fcc1642cf70` [fix(sink): handle Kinesis PutRecords partial success and throttle (#17983)](https://github.com/risingwavelabs/risingwave/pull/17983)
