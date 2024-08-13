@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cad31daea39634e5349ba3a8f6a555edf2ad20c0` [fix(mssql-cdc): remove vendored-openssl of tiberus (#18013)](https://github.com/risingwavelabs/risingwave/pull/18013)
 - `2844ad25801f9255f93a6d6683ebc8a57903c59f` [fix(ci): wait for the standalone/single-node process to be killed before starting again (#18010)](https://github.com/risingwavelabs/risingwave/pull/18010)
 - `58b3f414763a4550f8408c3761b2f34a26c5e476` [chore: test data shall not use non-existent option `kafka.servers` (#17996)](https://github.com/risingwavelabs/risingwave/pull/17996)
 
