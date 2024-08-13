@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e0e04df9480d974e793447ccc8c3335e5e1da813` [feat: upgrade tokio version to 1.38.0 (#17536)](https://github.com/risingwavelabs/risingwave/pull/17536)
 - `44d25a5c407e84ccdf48499000d14c369f760fa3` [fix(connector): fix batch file source when there are no files (#18018)](https://github.com/risingwavelabs/risingwave/pull/18018)
 
 ## nightly-20240813
