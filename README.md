@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `be6b3a7caa61ebc16e9fdd234c1e716c18d57f60` [fix: not `bail!` on kinesis's state if `scan.startup.mode` set to `timestamp`  (#18038)](https://github.com/risingwavelabs/risingwave/pull/18038)
 - `e96c39d2760bdc84c17059f58faec90be1fed1a7` [chore: bump `tonic` to v0.12 (#17889)](https://github.com/risingwavelabs/risingwave/pull/17889)
 - `3043efd9d1020930da2682cc73bb13eaaf49353c` [feat: support current_catalog sys function (#18037)](https://github.com/risingwavelabs/risingwave/pull/18037)
 - `bd664bbb065977038057d120dd453a0136d32495` [refactor(parser): introduce `ast::FunctionArgList` to contain all info in `()` of function call (#18029)](https://github.com/risingwavelabs/risingwave/pull/18029)
