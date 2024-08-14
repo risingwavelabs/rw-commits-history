@@ -308,6 +308,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ca4c98ca88135c6b21ebffe15b408f9a1c37b79d` [feat(source): support ingesting Avro map type to RisingWave map type (#17980)](https://github.com/risingwavelabs/risingwave/pull/17980)
+- `69422aa108b3687c544af7f116441fa34d89880b` [fix(mssql-cdc): support case sensitve db, schema, table name (#18032)](https://github.com/risingwavelabs/risingwave/pull/18032)
+- `3a856bbd84740d8a15d27b2bad5815d1dfbab785` [feat(cdc): rate limit for cdc backfill (#17989)](https://github.com/risingwavelabs/risingwave/pull/17989)
 - `4b63d9f61c4f8e1ab3a9a09d4679acf02ec60eff` [fix(catalog): add mv indexes to pg_indexes (#17981)](https://github.com/risingwavelabs/risingwave/pull/17981)
 - `dec5023b9a69a9a6d964d12d289bb82aabc4c646` [refactor(storage): hide usage on global max committed epoch (#17973)](https://github.com/risingwavelabs/risingwave/pull/17973)
 - `e0e04df9480d974e793447ccc8c3335e5e1da813` [feat: upgrade tokio version to 1.38.0 (#17536)](https://github.com/risingwavelabs/risingwave/pull/17536)
