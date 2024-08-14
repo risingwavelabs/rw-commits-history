@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8a1ffc62f391ad9706183e86630fa4f4df49fdc8` [fix(meta): fix query rename visitor for complex func calls (#18023)](https://github.com/risingwavelabs/risingwave/pull/18023)
 - `ca4c98ca88135c6b21ebffe15b408f9a1c37b79d` [feat(source): support ingesting Avro map type to RisingWave map type (#17980)](https://github.com/risingwavelabs/risingwave/pull/17980)
 - `69422aa108b3687c544af7f116441fa34d89880b` [fix(mssql-cdc): support case sensitve db, schema, table name (#18032)](https://github.com/risingwavelabs/risingwave/pull/18032)
 - `3a856bbd84740d8a15d27b2bad5815d1dfbab785` [feat(cdc): rate limit for cdc backfill (#17989)](https://github.com/risingwavelabs/risingwave/pull/17989)
@@ -1533,6 +1534,7 @@
 - `86713399ccd08f14d986391f40d32273268e4fb0` [feat(rise-ctl): add fix dirty upstream fragment ids for streaming job (#16258)](https://github.com/risingwavelabs/risingwave/pull/16258)
 - `bdde2a788035e2b8a5a5f45756eea4a13b18c7b2` [refactor(connector): replace hyper client implementation with reqwest (#16146)](https://github.com/risingwavelabs/risingwave/pull/16146)
 - `9dfbe220bff88032aa215952358d68bdf850432f` [fix(sink): fix starrocks doris and clickhouse decimal (#15664)](https://github.com/risingwavelabs/risingwave/pull/15664)
+- `331f079fb2e3ffa1d1f762b9fc2e77df63b5bd67` [feat: suppress sink pk compaction warn && not warn for force append only sink (#16251)](https://github.com/risingwavelabs/risingwave/pull/16251)
 - `331f079fb2e3ffa1d1f762b9fc2e77df63b5bd67` [feat: suppress sink pk compaction warn && not warn for force append only sink (#16251)](https://github.com/risingwavelabs/risingwave/pull/16251)
 - `1cc84f73cec920d52a35707620a3fd73db98b4e4` [fix: remove `matviewgraph` column from `pg_matviews` (#16246)](https://github.com/risingwavelabs/risingwave/pull/16246)
 - `fac21190bbb5ec08919b93429d5cd0984207869a` [fix: Revert "refactor(storage): extract logic of key bounded iterator" (#16247)](https://github.com/risingwavelabs/risingwave/pull/16247)
