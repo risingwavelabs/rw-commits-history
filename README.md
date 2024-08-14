@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f09f195499381ee54904bfdcdc879d4903a7366c` [feat(frontend): support two phase vnode based simple agg with approx_percentile (#18007)](https://github.com/risingwavelabs/risingwave/pull/18007)
+- `3cae1c3cec333fad4d4ebd439375d7e08b384442` [perf(memory): raise memory eviction threshold (#17265)](https://github.com/risingwavelabs/risingwave/pull/17265)
+- `b9f734aa6c1c23245a6ad5aefa7d17725e6b2b70` [doc(readme): updat architecture image (#18042)](https://github.com/risingwavelabs/risingwave/pull/18042)
 - `be6b3a7caa61ebc16e9fdd234c1e716c18d57f60` [fix: not `bail!` on kinesis's state if `scan.startup.mode` set to `timestamp`  (#18038)](https://github.com/risingwavelabs/risingwave/pull/18038)
 - `e96c39d2760bdc84c17059f58faec90be1fed1a7` [chore: bump `tonic` to v0.12 (#17889)](https://github.com/risingwavelabs/risingwave/pull/17889)
 - `3043efd9d1020930da2682cc73bb13eaaf49353c` [feat: support current_catalog sys function (#18037)](https://github.com/risingwavelabs/risingwave/pull/18037)
