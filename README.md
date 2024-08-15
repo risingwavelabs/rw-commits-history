@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
+- `f511bcfe10cb21f6a1365445710ecdc3c8a34c7a` [feat(storage): support file cache recover mode (#18036)](https://github.com/risingwavelabs/risingwave/pull/18036)
 - `8fbb8a5128c5e5c2df3bb515a5c35b5ab6fa6384` [feat(parser): parse `IGNORE NULLS` in (window) function calls (#18028)](https://github.com/risingwavelabs/risingwave/pull/18028)
 - `a1872f3b78a40b628cba2a81010e6d40628196e0` [fix: show progress for background ddls that are in initial status (#18043)](https://github.com/risingwavelabs/risingwave/pull/18043)
 - `ebc0e47102eeab6533991a06277b3fe4b9a46a3f` [feat(sink): add check license for snowflake, dynamodb opensearch sink (#17912)](https://github.com/risingwavelabs/risingwave/pull/17912)
