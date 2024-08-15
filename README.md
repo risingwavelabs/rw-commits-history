@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240815
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f09f195499381ee54904bfdcdc879d4903a7366c...cbeda4d0d61707f6637ea15f5e929b8169bbe9d9)
 - `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
 - `f511bcfe10cb21f6a1365445710ecdc3c8a34c7a` [feat(storage): support file cache recover mode (#18036)](https://github.com/risingwavelabs/risingwave/pull/18036)
 - `8fbb8a5128c5e5c2df3bb515a5c35b5ab6fa6384` [feat(parser): parse `IGNORE NULLS` in (window) function calls (#18028)](https://github.com/risingwavelabs/risingwave/pull/18028)
