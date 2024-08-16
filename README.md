@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240816
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cbeda4d0d61707f6637ea15f5e929b8169bbe9d9...f5f09a6c15b1291623a1fccc9638035cf19002c0)
 - `f5f09a6c15b1291623a1fccc9638035cf19002c0` [feat: enable shuffle for snapshot backfill (#18063)](https://github.com/risingwavelabs/risingwave/pull/18063)
 - `4e6850754cc552aab9bee8fa487e295e0513ff0d` [fix(common): fix hyper-014 compile (#18068)](https://github.com/risingwavelabs/risingwave/pull/18068)
 - `7b807cf7bf8f44bf02741fd33a57f30a1fbafd68` [feat(stream): add approx percentile cache for global approx percentile (#18026)](https://github.com/risingwavelabs/risingwave/pull/18026)
