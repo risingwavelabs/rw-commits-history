@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d11d3ea1762d300cbb569caa79e40e4dcfb3f2f2` [chore: update Cargo package version to 2.1.0-alpha (#18075)](https://github.com/risingwavelabs/risingwave/pull/18075)
 - `83b3647ece55ad04d3b4a565c524f8f415d9a71d` [fix(stream): fix functional dependencies for row merge (#18072)](https://github.com/risingwavelabs/risingwave/pull/18072)
 - `31e52d4f66745280097e981eb154042cab46296b` [ci: add cherry-pick 2.0 (#18074)](https://github.com/risingwavelabs/risingwave/pull/18074)
 
