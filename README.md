@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `31e52d4f66745280097e981eb154042cab46296b` [ci: add cherry-pick 2.0 (#18074)](https://github.com/risingwavelabs/risingwave/pull/18074)
 
 ## nightly-20240816
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cbeda4d0d61707f6637ea15f5e929b8169bbe9d9...f5f09a6c15b1291623a1fccc9638035cf19002c0)
