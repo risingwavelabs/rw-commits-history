@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
@@ -322,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240818
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f09a6c15b1291623a1fccc9638035cf19002c0...7cb75e565470570fd191fac062e91864d4582c98)
 - `7cb75e565470570fd191fac062e91864d4582c98` [feat: support constructor `MAP {..}` and index operator `m[k]` for map (#18066)](https://github.com/risingwavelabs/risingwave/pull/18066)
 - `d11d3ea1762d300cbb569caa79e40e4dcfb3f2f2` [chore: update Cargo package version to 2.1.0-alpha (#18075)](https://github.com/risingwavelabs/risingwave/pull/18075)
 - `83b3647ece55ad04d3b4a565c524f8f415d9a71d` [fix(stream): fix functional dependencies for row merge (#18072)](https://github.com/risingwavelabs/risingwave/pull/18072)
