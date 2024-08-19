@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
@@ -323,6 +324,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d5e832cbe0339f5deedab3baa18b8f0df8f91772` [feat(test): switch meta to sql backend in simluate test (#15612)](https://github.com/risingwavelabs/risingwave/pull/15612)
+
+## nightly-20240819
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7cb75e565470570fd191fac062e91864d4582c98...11f0acfe548ff0f317c979e51570041058955b9e)
 - `11f0acfe548ff0f317c979e51570041058955b9e` [feat(iceberg): bump iceberg-rust to v0.3.0 (#18088)](https://github.com/risingwavelabs/risingwave/pull/18088)
 - `f98904d6f06117827883f2c9823adb0aa3eb819c` [feat: support more map functions (#18073)](https://github.com/risingwavelabs/risingwave/pull/18073)
 - `a9bfcd27e4e748d476ead2d606037049cd3cff44` [fix(meta): adapt time travel for partial checkpoint (#18093)](https://github.com/risingwavelabs/risingwave/pull/18093)
