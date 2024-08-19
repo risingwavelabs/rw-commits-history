@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `11f0acfe548ff0f317c979e51570041058955b9e` [feat(iceberg): bump iceberg-rust to v0.3.0 (#18088)](https://github.com/risingwavelabs/risingwave/pull/18088)
+- `f98904d6f06117827883f2c9823adb0aa3eb819c` [feat: support more map functions (#18073)](https://github.com/risingwavelabs/risingwave/pull/18073)
+- `a9bfcd27e4e748d476ead2d606037049cd3cff44` [fix(meta): adapt time travel for partial checkpoint (#18093)](https://github.com/risingwavelabs/risingwave/pull/18093)
 - `da74340e3ed5a1d7cbf1657343612cf74956e610` [fix(parser): fix unparse of include columns (#18098)](https://github.com/risingwavelabs/risingwave/pull/18098)
 - `7f80900147bc3da2db31cf386bb25a1b86cbefc0` [feat(license): add limit for total cpu cores in the cluster (#18022)](https://github.com/risingwavelabs/risingwave/pull/18022)
 - `f1fd63ed1470fb076971df43deb1f85af5027a7a` [feat(frontend): support single phase approx percentile in batch (#18083)](https://github.com/risingwavelabs/risingwave/pull/18083)
