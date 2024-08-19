@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `33dc6fd65c9332e6c2751021652e5766802cf87e` [chore: remind labeling new features or improvements as experiemental if needed (#18084)](https://github.com/risingwavelabs/risingwave/pull/18084)
+- `e36a630dfe0ee60ac9b4293c76f87fc2f035a59b` [chore: fix RustRover macro expansion (#18077)](https://github.com/risingwavelabs/risingwave/pull/18077)
 
 ## nightly-20240818
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f09a6c15b1291623a1fccc9638035cf19002c0...7cb75e565470570fd191fac062e91864d4582c98)
