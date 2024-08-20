@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ed73a52ccf6ee2caa2bd475efb5414eca40cd8a9` [perf(stream): set `noop_update_hint` when jsonb access exists (#18065)](https://github.com/risingwavelabs/risingwave/pull/18065)
+- `4b32136fe06ec284fb1466fdcadce40ffedef414` [refactor(expr): show candicates when function not found (#18078)](https://github.com/risingwavelabs/risingwave/pull/18078)
+- `6b5e364873401b42d75dbe3cba59f4787ebeaae0` [ci: fix log size limit failure by increasing limit (#18117)](https://github.com/risingwavelabs/risingwave/pull/18117)
 - `6d8abb7bc1a115d6c386e9edba924ebf916ceb61` [fix: flaky udf e2e error ui test (#18132)](https://github.com/risingwavelabs/risingwave/pull/18132)
 - `281a6960bc99b7ab2b9000954e1eec2a2673a62a` [feat(ci): add `fast-docker-build-arm` workflow (#18124)](https://github.com/risingwavelabs/risingwave/pull/18124)
 
