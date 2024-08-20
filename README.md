@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `eb1cae5601e5283e6bf4c2db4aca3a8dd2812fe7` [fix: overwrite splite assignment for config change (#18128)](https://github.com/risingwavelabs/risingwave/pull/18128)
+- `d469cc353f1a257c7e8db630157f7efa0b56f893` [fix(meta): fix cpu core limit check query (#18122)](https://github.com/risingwavelabs/risingwave/pull/18122)
+- `26a57216db4c41a2da7acef02c1d9ceb7a87b5af` [feat(cdc): auto schema change for mysql cdc (#17876)](https://github.com/risingwavelabs/risingwave/pull/17876)
 - `190875c83c51ceeacee688512e2d59474cd4989a` [fix: remove overly strict assertion during stream pause/resume (#18131)](https://github.com/risingwavelabs/risingwave/pull/18131)
 - `aba3232cae52426211c261d43b456e778185a793` [fix(sink): fix sink in to Cassandra failed when using column name containing upper case letter  (#17493)](https://github.com/risingwavelabs/risingwave/pull/17493)
 - `e383ad60cb3a07c0008b53921816271fd64979a1` [fix(connector): file source do not panic when credential is wrong (#17935)](https://github.com/risingwavelabs/risingwave/pull/17935)
