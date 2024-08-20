@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `747245f12815715f6df6a3b97eafc1267578292d` [fix: udf error ui (#18118)](https://github.com/risingwavelabs/risingwave/pull/18118)
 - `0595aa1d901b2f99811ba1e7e40161b395ddd6a4` [feat(connector): add support for path-style access in Iceberg sink connector (#17747)](https://github.com/risingwavelabs/risingwave/pull/17747)
 - `d5e832cbe0339f5deedab3baa18b8f0df8f91772` [feat(test): switch meta to sql backend in simluate test (#15612)](https://github.com/risingwavelabs/risingwave/pull/15612)
 
