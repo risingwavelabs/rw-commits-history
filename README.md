@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a4a4583019fa42942bdefaa5f9badc21e50983b1` [test(mssql-cdc): enrich tests and small refactor (#18081)](https://github.com/risingwavelabs/risingwave/pull/18081)
 - `da46c4dd2be4c69d77f8347fbe18b72d6653cfaf` [refactor: register actor barrier sender asynchronously (#18104)](https://github.com/risingwavelabs/risingwave/pull/18104)
 
 ## nightly-20240821
