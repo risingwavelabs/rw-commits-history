@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `723833ac3d7e5be1bd07aa35f7dfe2525902da57` [fix: check split assignment before pushing mutation (#18134)](https://github.com/risingwavelabs/risingwave/pull/18134)
+- `5d35cf3686b46298b76d9c9dd29ff62cb5960cf9` [refactor(meta): only bail out on server-side error when registering worker node (#18127)](https://github.com/risingwavelabs/risingwave/pull/18127)
 - `ac655ea49796f495ee7fc129280b23428a0c38c7` [feat: support custom kafka group id prefix (#18115)](https://github.com/risingwavelabs/risingwave/pull/18115)
 - `f94ec7ef10dad1c23ba3989ea2ba1059e467e6b2` [fix(ci): fix bad indent of `cassandra sink test` (#18150)](https://github.com/risingwavelabs/risingwave/pull/18150)
 - `4f095a05276b2928ecf1d49c813c27708d25bdb9` [chore: patch cargo `patch-production` profile (#18139)](https://github.com/risingwavelabs/risingwave/pull/18139)
