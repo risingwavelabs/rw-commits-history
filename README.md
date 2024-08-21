@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ff55fcf2bd2e70c0abb67f9d18806c38aaf7982f` [feat(compactor): compaction iterator support filter key with key_range (#18031)](https://github.com/risingwavelabs/risingwave/pull/18031)
 - `fc3f4e10ac11745ba1879c28360394b04a6b39df` [fix(meta): correctly persist license key system param in SQL backend (#18163)](https://github.com/risingwavelabs/risingwave/pull/18163)
 - `d3ba75c45dc174375e4a9394258ad7d9832c5194` [fix(meta): fix time travel metadata for partial checkpoint (#18160)](https://github.com/risingwavelabs/risingwave/pull/18160)
 - `723833ac3d7e5be1bd07aa35f7dfe2525902da57` [fix: check split assignment before pushing mutation (#18134)](https://github.com/risingwavelabs/risingwave/pull/18134)
