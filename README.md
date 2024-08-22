@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fe56ce2d78e4faa700a7bf546dea82d73295006c` [fix(pgwire): allow configuring tcp keepalive idle time (#18136)](https://github.com/risingwavelabs/risingwave/pull/18136)
 - `7ebe0a2a5e7cd6e5b18de39bd165e94f3956190e` [feat(sink): introduce file sink in PARQUET format  (#17311)](https://github.com/risingwavelabs/risingwave/pull/17311)
 - `a4a4583019fa42942bdefaa5f9badc21e50983b1` [test(mssql-cdc): enrich tests and small refactor (#18081)](https://github.com/risingwavelabs/risingwave/pull/18081)
 - `da46c4dd2be4c69d77f8347fbe18b72d6653cfaf` [refactor: register actor barrier sender asynchronously (#18104)](https://github.com/risingwavelabs/risingwave/pull/18104)
