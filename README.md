@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c37ca316b01526a75d145bc63f76e00c11cfff04` [feat(storage): adjust base compaction limitation (#17979)](https://github.com/risingwavelabs/risingwave/pull/17979)
 - `dcdf421f8489853adf6e3ede18d53804bbf1ef97` [chore: remove whitespace from `ci-profiling.md` (#18178)](https://github.com/risingwavelabs/risingwave/pull/18178)
 - `477115c6bdb4ae709e5066181b3b15f01b14c5a4` [doc: add docs on profiling on osx (#18175)](https://github.com/risingwavelabs/risingwave/pull/18175)
 - `fe56ce2d78e4faa700a7bf546dea82d73295006c` [fix(pgwire): allow configuring tcp keepalive idle time (#18136)](https://github.com/risingwavelabs/risingwave/pull/18136)
