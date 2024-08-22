@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2fa80346d429a1c5121f0056e07ecbcc1232477b` [fix(binder): fix function call binding (#18177)](https://github.com/risingwavelabs/risingwave/pull/18177)
+- `4cef811b975cde923d524553a08f1b42d2028534` [ci: install addr2line-rs binary along with flamegraph (#18171)](https://github.com/risingwavelabs/risingwave/pull/18171)
 - `d27169721cce2fed6858913017642cf7922f0148` [feat: use opendal as the s3 sdk by default (#18011)](https://github.com/risingwavelabs/risingwave/pull/18011)
 - `d8c718bfa1e118c1eade3e2fa108371d4eff1c79` [refactor(test):  kafka sink with protobuf/avro as inline style (#18193)](https://github.com/risingwavelabs/risingwave/pull/18193)
 - `71732b1c4446d216f500267a9e1f2bf426a88519` [fix: fix kinesis early exit (#18183)](https://github.com/risingwavelabs/risingwave/pull/18183)
