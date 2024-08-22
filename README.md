@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `955c6bba246f116d77f334864836a40fb17b5c84` [feat(iceberg): add license for iceberg sink with glue (#18187)](https://github.com/risingwavelabs/risingwave/pull/18187)
+- `c101a3066a3d3f33b7c216ffdac9dc5d18cf4aba` [fix(sqlparser): fix subclause order when parsing function calls (#18130)](https://github.com/risingwavelabs/risingwave/pull/18130)
+- `4a5bc4cbf20c16600ba645fa0b849955d09019c2` [feat(cdc): add event log and fill table catalog for auto schema change (#18060)](https://github.com/risingwavelabs/risingwave/pull/18060)
 - `c37ca316b01526a75d145bc63f76e00c11cfff04` [feat(storage): adjust base compaction limitation (#17979)](https://github.com/risingwavelabs/risingwave/pull/17979)
 - `dcdf421f8489853adf6e3ede18d53804bbf1ef97` [chore: remove whitespace from `ci-profiling.md` (#18178)](https://github.com/risingwavelabs/risingwave/pull/18178)
 - `477115c6bdb4ae709e5066181b3b15f01b14c5a4` [doc: add docs on profiling on osx (#18175)](https://github.com/risingwavelabs/risingwave/pull/18175)
