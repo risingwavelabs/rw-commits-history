@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
 - `20240821` `dd6515625d980443ae1a71cf6332438cdbd49e86`
 - `20240820` `e6e1f485cc0f778d4f67e33a362d67359e4fa736`
 - `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
@@ -323,6 +324,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d8c718bfa1e118c1eade3e2fa108371d4eff1c79` [refactor(test):  kafka sink with protobuf/avro as inline style (#18193)](https://github.com/risingwavelabs/risingwave/pull/18193)
+- `71732b1c4446d216f500267a9e1f2bf426a88519` [fix: fix kinesis early exit (#18183)](https://github.com/risingwavelabs/risingwave/pull/18183)
+
+## nightly-20240822
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dd6515625d980443ae1a71cf6332438cdbd49e86...9c4984d4ec2d17351a741cab8ac512b39dd2261a)
 - `9c4984d4ec2d17351a741cab8ac512b39dd2261a` [refactor(iceberg): use load table v2 to extract iceberg columns (#18196)](https://github.com/risingwavelabs/risingwave/pull/18196)
 - `84b7b9444c794886b40970212c9181545249e948` [refactor: make telemetry event a separate crate (#18192)](https://github.com/risingwavelabs/risingwave/pull/18192)
 - `955c6bba246f116d77f334864836a40fb17b5c84` [feat(iceberg): add license for iceberg sink with glue (#18187)](https://github.com/risingwavelabs/risingwave/pull/18187)
