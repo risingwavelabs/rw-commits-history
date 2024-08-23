@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `958794583771632b208068838191a3516cd6d9cc` [feat(source): support temporary source (#18174)](https://github.com/risingwavelabs/risingwave/pull/18174)
 - `ec6074454e39b3b82ee0684f9e714bca95e5bb0c` [chore(doc): Update README.md (#18206)](https://github.com/risingwavelabs/risingwave/pull/18206)
 - `c83ce8632a2f6b1bba83686ec5053c6bfb1c6117` [fix(udf): allow udaf as window function (#18181)](https://github.com/risingwavelabs/risingwave/pull/18181)
 - `2fa80346d429a1c5121f0056e07ecbcc1232477b` [fix(binder): fix function call binding (#18177)](https://github.com/risingwavelabs/risingwave/pull/18177)
@@ -947,7 +948,6 @@
 - `ba80ab6b2767472928b35caeee64dccbbdd56bc2` [feat(optimizer): grow stack for complicated plan in more places (#17224)](https://github.com/risingwavelabs/risingwave/pull/17224)
 - `4e5a73125ecb568acac05743806f7234b812f0fe` [chore: add e2e test for iceberg source scan (#17281)](https://github.com/risingwavelabs/risingwave/pull/17281)
 - `955cbb9d2d6e386f499ad494c8156a3a3d68820e` [perf(sink): don't compact chunk for blackhole sink (#17167)](https://github.com/risingwavelabs/risingwave/pull/17167)
-- `d5e10d830e0dd03cb51d8e46f4277b20ffb75c9e` [fix(secret): add a secret ref column to source (#17269)](https://github.com/risingwavelabs/risingwave/pull/17269)
 - `d5e10d830e0dd03cb51d8e46f4277b20ffb75c9e` [fix(secret): add a secret ref column to source (#17269)](https://github.com/risingwavelabs/risingwave/pull/17269)
 - `d555b5c11b6c540abe356454f3409b30a8fb43a6` [fix(migration): use correct type I32Array instead of Vec<i32> (#17282)](https://github.com/risingwavelabs/risingwave/pull/17282)
 - `b6f8f46b8f1901fb2b00da53a88a62d766057b0e` [chore: upgrade chrono to 0.4.38 (#17279)](https://github.com/risingwavelabs/risingwave/pull/17279)
