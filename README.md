@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 - `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
 - `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
 - `20240821` `dd6515625d980443ae1a71cf6332438cdbd49e86`
@@ -325,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240824
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5cae57827c8ca56868b9cc0de0686d6f14e68510...d33623accf6e932592f4a945af436c18ced812fd)
 - `d33623accf6e932592f4a945af436c18ced812fd` [chore(build): add curl & less into docker image (#18223)](https://github.com/risingwavelabs/risingwave/pull/18223)
 - `7009743799259775b80611043cb7d089c25f7743` [feat(dashboard): visualize average backpressure rather than spot backpressure (#18219)](https://github.com/risingwavelabs/risingwave/pull/18219)
 
