@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7009743799259775b80611043cb7d089c25f7743` [feat(dashboard): visualize average backpressure rather than spot backpressure (#18219)](https://github.com/risingwavelabs/risingwave/pull/18219)
 
 ## nightly-20240823
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9c4984d4ec2d17351a741cab8ac512b39dd2261a...5cae57827c8ca56868b9cc0de0686d6f14e68510)
