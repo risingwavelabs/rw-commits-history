@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
 - `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 - `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
 - `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240825
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d33623accf6e932592f4a945af436c18ced812fd...5c1af4c21215f8887133233a5978402019c3d3fa)
 - `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
 
 ## nightly-20240824
