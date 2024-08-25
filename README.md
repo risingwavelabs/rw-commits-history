@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
 
 ## nightly-20240824
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5cae57827c8ca56868b9cc0de0686d6f14e68510...d33623accf6e932592f4a945af436c18ced812fd)
@@ -1708,7 +1709,6 @@
 - `7cb2b3c990e72b6105beb09ac7c1b29f15aad748` [test(source): add tidb-cdc compatible test (#16206)](https://github.com/risingwavelabs/risingwave/pull/16206)
 - `5c0466c4747d2d5f8446a71c4685e8160bc556d5` [chore: fix typo in dashboard (#16209)](https://github.com/risingwavelabs/risingwave/pull/16209)
 - `21bea68765165a6417aca358f7cf334f6b4d255b` [feat(storage): support s3fifo for block cache (#16208)](https://github.com/risingwavelabs/risingwave/pull/16208)
-- `2ae7e47c095a66634b695f16da279b525bff8d2a` [chore(deps): Bump the aws group with 4 updates (#16150)](https://github.com/risingwavelabs/risingwave/pull/16150)
 - `2ae7e47c095a66634b695f16da279b525bff8d2a` [chore(deps): Bump the aws group with 4 updates (#16150)](https://github.com/risingwavelabs/risingwave/pull/16150)
 - `03aaf5b7c718b54bbcc6bd63224b7a5805178c09` [feat(meta,batch): support iceberg files system table (#16180)](https://github.com/risingwavelabs/risingwave/pull/16180)
 - `9c62e94210a10e459527a633f6234b08709aacdf` [feat(udf): show panic message in Rust UDF (#16183)](https://github.com/risingwavelabs/risingwave/pull/16183)
