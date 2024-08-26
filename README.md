@@ -327,6 +327,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4e3b9ff081d59c28668bdca9817930eb3fd013c3` [feat(storage): introduce new field `sst_size` for SstableInfo  (#18005)](https://github.com/risingwavelabs/risingwave/pull/18005)
 - `b0e50b4e4428e38ba35670a775b25aea2c4f1890` [fix(log-store): fix incorrect lag caused by invalid initial read epoch (#18231)](https://github.com/risingwavelabs/risingwave/pull/18231)
 - `b36ac57677906e2a1e006c6cb132e6fee8abd224` [fix(sink): allow starrocks.host to be an fe follower (#17679)](https://github.com/risingwavelabs/risingwave/pull/17679)
 - `86a15baada5b17bfc8934662f6d0a7c7d85f6ffd` [fix: make fs list exec singleton (#18199)](https://github.com/risingwavelabs/risingwave/pull/18199)
