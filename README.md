@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
 - `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 - `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
@@ -327,6 +328,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `860a936beb8ee4fae1576429b5a02a9c765dea6d` [fix: allow nullable for target table columns for normal sink (#18251)](https://github.com/risingwavelabs/risingwave/pull/18251)
+
+## nightly-20240826
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5c1af4c21215f8887133233a5978402019c3d3fa...ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983)
 - `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983` [feat: inject pause/resume for creating sink into table (#17651)](https://github.com/risingwavelabs/risingwave/pull/17651)
 - `f00c82f3baceec71185b6af752335ccd193dc7c0` [feat(cdc): add metrics for auto schema change (#18216)](https://github.com/risingwavelabs/risingwave/pull/18216)
 - `62b7586a5ff788fa793934666e20810e52268354` [fix: fix fe internal rpc host addr issues (#18241)](https://github.com/risingwavelabs/risingwave/pull/18241)
