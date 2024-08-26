@@ -327,6 +327,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7d20fa851b93ccc43c3dfabf4d808ddc145b1888` [feat(sink): set default_sink_decouple = true for all sink (#18182)](https://github.com/risingwavelabs/risingwave/pull/18182)
+- `220fded7139658d727fa811c6ae9d051d0696574` [feat(source): add NATS source consumer parameters (#17615)](https://github.com/risingwavelabs/risingwave/pull/17615)
 - `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
 
 ## nightly-20240825
