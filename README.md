@@ -328,6 +328,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9932d12bf91c822164a06551fe2b56363d77e99c` [feat(connector): introduce azblob sink (#18244)](https://github.com/risingwavelabs/risingwave/pull/18244)
 - `860a936beb8ee4fae1576429b5a02a9c765dea6d` [fix: allow nullable for target table columns for normal sink (#18251)](https://github.com/risingwavelabs/risingwave/pull/18251)
 
 ## nightly-20240826
