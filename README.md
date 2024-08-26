@@ -327,6 +327,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
 
 ## nightly-20240825
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d33623accf6e932592f4a945af436c18ced812fd...5c1af4c21215f8887133233a5978402019c3d3fa)
