@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
 - `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
@@ -328,6 +329,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240827
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983...63b4d47ea9f54f567983e097e15d8dc9b0384849)
 - `63b4d47ea9f54f567983e097e15d8dc9b0384849` [fix: should use table_metric for MV throughput (#18265)](https://github.com/risingwavelabs/risingwave/pull/18265)
 - `6bd0e89cf056969fe0f9028815d83786c53dfec6` [chore: create an issue in the doc repo if it is a breaking change (#18263)](https://github.com/risingwavelabs/risingwave/pull/18263)
 - `22926d67fff102cd7114b150b8437e3afd4a4231` [refactor(iceberg): Separate iceberg source pb from source pb (#18209)](https://github.com/risingwavelabs/risingwave/pull/18209)
