@@ -328,6 +328,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6bd0e89cf056969fe0f9028815d83786c53dfec6` [chore: create an issue in the doc repo if it is a breaking change (#18263)](https://github.com/risingwavelabs/risingwave/pull/18263)
+- `22926d67fff102cd7114b150b8437e3afd4a4231` [refactor(iceberg): Separate iceberg source pb from source pb (#18209)](https://github.com/risingwavelabs/risingwave/pull/18209)
 - `edaace2f93877f1bc25c523da4d434b869aaf73a` [fix(batch): fix CTAS pins snapshot too long (#18248)](https://github.com/risingwavelabs/risingwave/pull/18248)
 - `79d98109deee8518740be6a00c3e4f41c29d5f1b` [feat(storage): Support for repairing the size of a split sst based on table stats (#18053)](https://github.com/risingwavelabs/risingwave/pull/18053)
 - `e3a9d37ddad6ed519c0fa48ec457a0ea994c441a` [feat(agg): support `aggregate:` prefixed scalar function in streaming agg (#18205)](https://github.com/risingwavelabs/risingwave/pull/18205)
