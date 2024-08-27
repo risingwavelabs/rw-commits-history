@@ -328,6 +328,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e3a9d37ddad6ed519c0fa48ec457a0ea994c441a` [feat(agg): support `aggregate:` prefixed scalar function in streaming agg (#18205)](https://github.com/risingwavelabs/risingwave/pull/18205)
 - `3c31ef9755c0bc9799dd4b65151b095beb148120` [fix(storage): Fix the bug that switch table_id breaks block data constraints. (#18235)](https://github.com/risingwavelabs/risingwave/pull/18235)
 - `9932d12bf91c822164a06551fe2b56363d77e99c` [feat(connector): introduce azblob sink (#18244)](https://github.com/risingwavelabs/risingwave/pull/18244)
 - `860a936beb8ee4fae1576429b5a02a9c765dea6d` [fix: allow nullable for target table columns for normal sink (#18251)](https://github.com/risingwavelabs/risingwave/pull/18251)
