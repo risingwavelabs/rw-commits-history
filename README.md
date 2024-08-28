@@ -329,6 +329,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `205acb42896abfcbae15094aa4b3ed244e4567f8` [chore: remove sqlite file (#18282)](https://github.com/risingwavelabs/risingwave/pull/18282)
 - `7a97076cedfc1018facc892ed1c350327fe6b8db` [fix(meta): fix list changed log epoch retrun null epoch (#18273)](https://github.com/risingwavelabs/risingwave/pull/18273)
 
 ## nightly-20240827
