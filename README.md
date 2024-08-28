@@ -329,6 +329,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0e5a46f48f5f99ee32c649493ad9d2d7d023677d` [feat(connector): add webhdfs sink (#18293)](https://github.com/risingwavelabs/risingwave/pull/18293)
+- `86f403a5af372fb3c3259ea0be7ed1914799eb41` [refactor: simplify SourceBackfill's memory state (#18296)](https://github.com/risingwavelabs/risingwave/pull/18296)
 - `53c2b0a99473f7306d0b352572f7058e82e41006` [perf(dashboard): only fetch ids and specified fragments for a relation (#18272)](https://github.com/risingwavelabs/risingwave/pull/18272)
 - `ee77691f03772ede158a9d5a3e87861b6abf7205` [feat(storage): remove shared buffer compaction grouped payload (#18277)](https://github.com/risingwavelabs/risingwave/pull/18277)
 - `9f52981fb7af366074601c9ba12feef5bc76bca5` [refactor(storage): reorg writer code (#18291)](https://github.com/risingwavelabs/risingwave/pull/18291)
