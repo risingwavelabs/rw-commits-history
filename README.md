@@ -329,6 +329,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9f52981fb7af366074601c9ba12feef5bc76bca5` [refactor(storage): reorg writer code (#18291)](https://github.com/risingwavelabs/risingwave/pull/18291)
 - `04b9cb4e61e1a5119ef636a6335d02a178372dcb` [fix(iceberg): fix path style access (#18259)](https://github.com/risingwavelabs/risingwave/pull/18259)
 - `7998622f78e0ed97fddbf1ebf2634e06a45a52d1` [fix(source/nats): add missing `default` attribute for vectors (#18261)](https://github.com/risingwavelabs/risingwave/pull/18261)
 - `205acb42896abfcbae15094aa4b3ed244e4567f8` [chore: remove sqlite file (#18282)](https://github.com/risingwavelabs/risingwave/pull/18282)
