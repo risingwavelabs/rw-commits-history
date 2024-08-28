@@ -329,6 +329,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `14a46ff1440604d9c6013605b81b4bd305e4b2ba` [fix(connector): upsert+protobuf source (#18301)](https://github.com/risingwavelabs/risingwave/pull/18301)
+- `40074f69cd9472888a01d1735d9d963227504963` [feat(connector): support azblob file source (#18295)](https://github.com/risingwavelabs/risingwave/pull/18295)
+- `0239e22a4187fa424451f09ea9e293f62243ae5b` [fix(cdc): only allow `ADD` and `DROP` in auto schema change (#18245)](https://github.com/risingwavelabs/risingwave/pull/18245)
+- `54134df47b30554313bb91177ed2ad8e4621d441` [fix(frontend): add project after simple agg to avoid noop updates (#18292)](https://github.com/risingwavelabs/risingwave/pull/18292)
 - `0e5a46f48f5f99ee32c649493ad9d2d7d023677d` [feat(connector): add webhdfs sink (#18293)](https://github.com/risingwavelabs/risingwave/pull/18293)
 - `86f403a5af372fb3c3259ea0be7ed1914799eb41` [refactor: simplify SourceBackfill's memory state (#18296)](https://github.com/risingwavelabs/risingwave/pull/18296)
 - `53c2b0a99473f7306d0b352572f7058e82e41006` [perf(dashboard): only fetch ids and specified fragments for a relation (#18272)](https://github.com/risingwavelabs/risingwave/pull/18272)
