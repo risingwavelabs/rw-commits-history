@@ -329,6 +329,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `befb04f1e433ecbb564a059f34b4299ba4952bed` [fix: disable sink decouple for trivial sink (#18302)](https://github.com/risingwavelabs/risingwave/pull/18302)
 - `14a46ff1440604d9c6013605b81b4bd305e4b2ba` [fix(connector): upsert+protobuf source (#18301)](https://github.com/risingwavelabs/risingwave/pull/18301)
 - `40074f69cd9472888a01d1735d9d963227504963` [feat(connector): support azblob file source (#18295)](https://github.com/risingwavelabs/risingwave/pull/18295)
 - `0239e22a4187fa424451f09ea9e293f62243ae5b` [fix(cdc): only allow `ADD` and `DROP` in auto schema change (#18245)](https://github.com/risingwavelabs/risingwave/pull/18245)
