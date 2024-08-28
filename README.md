@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
@@ -329,6 +330,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240828
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/63b4d47ea9f54f567983e097e15d8dc9b0384849...befb04f1e433ecbb564a059f34b4299ba4952bed)
 - `befb04f1e433ecbb564a059f34b4299ba4952bed` [fix: disable sink decouple for trivial sink (#18302)](https://github.com/risingwavelabs/risingwave/pull/18302)
 - `14a46ff1440604d9c6013605b81b4bd305e4b2ba` [fix(connector): upsert+protobuf source (#18301)](https://github.com/risingwavelabs/risingwave/pull/18301)
 - `40074f69cd9472888a01d1735d9d963227504963` [feat(connector): support azblob file source (#18295)](https://github.com/risingwavelabs/risingwave/pull/18295)
