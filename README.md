@@ -330,6 +330,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2529c56382ea94ae2ea6a2da21036546f389b29a` [feat(sink): add es retry_on_conflict and max_task_num (#17867)](https://github.com/risingwavelabs/risingwave/pull/17867)
 
 ## nightly-20240828
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/63b4d47ea9f54f567983e097e15d8dc9b0384849...befb04f1e433ecbb564a059f34b4299ba4952bed)
