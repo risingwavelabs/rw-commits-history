@@ -330,6 +330,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fac2904d4bac6a3c2ad8bd126ace04ec02ebda1b` [refactor(meta): build actors in inject barrier (#18270)](https://github.com/risingwavelabs/risingwave/pull/18270)
+- `a137e302a955eb89def9efd2fedbff28bd3798b3` [feat: deprecate current epoch in pinned snapshot (#18230)](https://github.com/risingwavelabs/risingwave/pull/18230)
+- `242dbff19fa9322178db0830e4a125507ecc98e2` [feat(sink): use official default message_timeout_ms (#18304)](https://github.com/risingwavelabs/risingwave/pull/18304)
 - `2529c56382ea94ae2ea6a2da21036546f389b29a` [feat(sink): add es retry_on_conflict and max_task_num (#17867)](https://github.com/risingwavelabs/risingwave/pull/17867)
 
 ## nightly-20240828
