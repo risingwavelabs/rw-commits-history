@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
@@ -329,6 +330,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240829
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/befb04f1e433ecbb564a059f34b4299ba4952bed...655ce2a8cdd83f2338b2de23bef1133cf4e1916a)
 - `655ce2a8cdd83f2338b2de23bef1133cf4e1916a` [fix: Sort by actor_id in CustomFragmentInfo and rebalance_actor_vnode for consistent ordering (#18317)](https://github.com/risingwavelabs/risingwave/pull/18317)
 - `edb149317bad534730c09d04e639a622ba19e5fa` [refactor(metrics): remove `actor_id` label from back-pressure metrics based on metrics level (#18213)](https://github.com/risingwavelabs/risingwave/pull/18213)
 - `a5cbeb716ed8dc58287346e02b31252d784ded37` [fix(source): parquet file source use number of rows to determine the end of the file reading (#18149)](https://github.com/risingwavelabs/risingwave/pull/18149)
