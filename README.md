@@ -329,6 +329,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `29db1d95c416ea14c8ebb39ba74857d01c631d34` [fix: fix column nullable definition for index column properties (#18334)](https://github.com/risingwavelabs/risingwave/pull/18334)
 - `59b400a92d623798541c0a49dab0647795afaa38` [chore: Update README.md (#18226)](https://github.com/risingwavelabs/risingwave/pull/18226)
 - `04ef98d6e76ced350adce9a75862336118ce09d0` [fix: allow ENCODE BYTES use generated columns (#18294)](https://github.com/risingwavelabs/risingwave/pull/18294)
 - `70c1146a0ede4c8a5b6a5adcde07b3f0449c2b5e` [fix: s3 source cannot read incremental files (#18017)](https://github.com/risingwavelabs/risingwave/pull/18017)
