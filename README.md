@@ -329,6 +329,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e41b348f2d7d800b45e4102192200fb1698037ca` [fix(risedev): fix risedev (#18339)](https://github.com/risingwavelabs/risingwave/pull/18339)
 - `5055cc920aed3f555bcb3ba5a42962555789bd26` [refactor(metrics): refine relabelled metrics interfaces (#18331)](https://github.com/risingwavelabs/risingwave/pull/18331)
 - `29db1d95c416ea14c8ebb39ba74857d01c631d34` [fix: fix column nullable definition for index column properties (#18334)](https://github.com/risingwavelabs/risingwave/pull/18334)
 - `59b400a92d623798541c0a49dab0647795afaa38` [chore: Update README.md (#18226)](https://github.com/risingwavelabs/risingwave/pull/18226)
