@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20240830` `e41b348f2d7d800b45e4102192200fb1698037ca`
+- `20240831` `e41b348f2d7d800b45e4102192200fb1698037ca`
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
@@ -327,7 +327,7 @@
 
 ## Unreleased
 
-## nightly-20240830
+## nightly-20240831
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/655ce2a8cdd83f2338b2de23bef1133cf4e1916a...e41b348f2d7d800b45e4102192200fb1698037ca)
 - `e41b348f2d7d800b45e4102192200fb1698037ca` [fix(risedev): fix risedev (#18339)](https://github.com/risingwavelabs/risingwave/pull/18339)
 - `5055cc920aed3f555bcb3ba5a42962555789bd26` [refactor(metrics): refine relabelled metrics interfaces (#18331)](https://github.com/risingwavelabs/risingwave/pull/18331)
