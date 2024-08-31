@@ -319,9 +319,6 @@
 - `20230830` `15f4fdd48de1c573a4c221c8fe5797a92dbe481c`
 - `20230829` `88f502c9cbe183772c10eb8a3adec698a526a4cd`
 - `20230828` `5818f62f6a1c8001f371db4c4e74534a505a10cd`
-- `20230827` `29274576d3fe79621ad3eafaf119f78031d0633b`
-- `20230826` `144688c25b47f0aff199b43629a348c0dd669d2c`
-- `20230825` `03e92dc21391b4aed251a07489faa44a75f7e8af`
 </details>
 
 # Commit history
@@ -4503,28 +4500,4 @@
 - `dfb6e2c192ea0fc3d688532726c0abb17cf6a017` [fix(test): fix unclean metrics state in deterministic unit test (#11918)](https://github.com/risingwavelabs/risingwave/pull/11918)
 
 ## nightly-20230828
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29274576d3fe79621ad3eafaf119f78031d0633b...5818f62f6a1c8001f371db4c4e74534a505a10cd)
 - `5818f62f6a1c8001f371db4c4e74534a505a10cd` [feat: ReplaceTable supports replacing downstream (#11913)](https://github.com/risingwavelabs/risingwave/pull/11913)
-- `7bbc7c971398f9125f81100b50c4aa518276e3e9` [fix(cdc): fix mysql privilege check and add test (#11916)](https://github.com/risingwavelabs/risingwave/pull/11916)
-- `7264c8ff284cf23c9af2b8361e83123dba6ed075` [feat(integration_tests): Add Clickhouse sink integration_tests (#11786)](https://github.com/risingwavelabs/risingwave/pull/11786)
-- `9acfac97f7e93b755c615f2550cdf87d809645b5` [feat: add new props `client.id` for kafka (#11911)](https://github.com/risingwavelabs/risingwave/pull/11911)
-- `4746016469e4200d20bf83438d330b5d70636f12` [refactor(metrics): store all metrics and metrics registry as global variables (#11812)](https://github.com/risingwavelabs/risingwave/pull/11812)
-- `8f973b2b129658aad8fc28b9bd80ac47538ef36f` [refactor(metric): slim down storage metric size (#11843)](https://github.com/risingwavelabs/risingwave/pull/11843)
-- `588f2901bdbce3037099ace5c8a9120c88086e85` [refactor(storage): checked u32 conversion during block building (#11734)](https://github.com/risingwavelabs/risingwave/pull/11734)
-
-## nightly-20230827
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/144688c25b47f0aff199b43629a348c0dd669d2c...29274576d3fe79621ad3eafaf119f78031d0633b)
-- `29274576d3fe79621ad3eafaf119f78031d0633b` [chore(deps): bump nix from 0.25.1 to 0.26.2 (#11031)](https://github.com/risingwavelabs/risingwave/pull/11031)
-- `c880315d6279d979b05997aaa76ca752645418a9` [fix: change Chinese quotation marks into English (#11902)](https://github.com/risingwavelabs/risingwave/pull/11902)
-
-## nightly-20230826
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03e92dc21391b4aed251a07489faa44a75f7e8af...144688c25b47f0aff199b43629a348c0dd669d2c)
-- `144688c25b47f0aff199b43629a348c0dd669d2c` [feat: port kafka native metrics to Prometheus  (#11346)](https://github.com/risingwavelabs/risingwave/pull/11346)
-- `1bc03dafb170ed4e73722548e3767a8c950428f2` [chore(deps): bump google-cloud apis and pubsub (#11889)](https://github.com/risingwavelabs/risingwave/pull/11889)
-- `7e691986289e4a5321f285e1a928da8ce94b3612` [chore(deps): bump time from 0.3.25 to 0.3.27 (#11900)](https://github.com/risingwavelabs/risingwave/pull/11900)
-- `81cf5346603db467a146170d48b459721821cf21` [chore(deps): bump bytesize from 1.2.0 to 1.3.0 (#11901)](https://github.com/risingwavelabs/risingwave/pull/11901)
-- `94513936366582621c28c4df8be543063334039f` [refactor(agg): decouple aggregate function and state (#11690)](https://github.com/risingwavelabs/risingwave/pull/11690)
-- `2cf06033a2645e58f7fd042d4767c0335c82d390` [feat(frontend): support lateral subqueries (#11780)](https://github.com/risingwavelabs/risingwave/pull/11780)
-
-## nightly-20230825
-- `03e92dc21391b4aed251a07489faa44a75f7e8af` [feat(compaction): compact sstable with many tombstones periodic (#11740)](https://github.com/risingwavelabs/risingwave/pull/11740)
