@@ -314,7 +314,6 @@
 - `20230906` `52192e639489047b4dc9106feb0475888d1618bc`
 - `20230905` `fdaf30e0cbe4865b77401c5c025054a0cf5df564`
 - `20230904` `999b9d2670df3dbe24493cefe690ccc765cd4c7a`
-- `20230903` `257f9874e1eb15fbbec2633857261511f8326e4d`
 </details>
 
 # Commit history
@@ -4408,20 +4407,4 @@
 - `3f5a6c823a32f4672ec7e223219477a10bbd7088` [feat: support information_schema.views (#12045)](https://github.com/risingwavelabs/risingwave/pull/12045)
 
 ## nightly-20230904
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/257f9874e1eb15fbbec2633857261511f8326e4d...999b9d2670df3dbe24493cefe690ccc765cd4c7a)
 - `999b9d2670df3dbe24493cefe690ccc765cd4c7a` [feat: auto rebuild source reader in executor (#11993)](https://github.com/risingwavelabs/risingwave/pull/11993)
-- `fa8b5e33039cb99bb4b8fc7f725878d65b996ac4` [feat: add `target_parallelism_per_worker` field for scaling (#11945)](https://github.com/risingwavelabs/risingwave/pull/11945)
-- `deac61e4bf89b11e04438d1f6a4263b59db01081` [feat(hummock): refill cache before apply version delta (#11950)](https://github.com/risingwavelabs/risingwave/pull/11950)
-- `2ea66b8dce1af72e22540f450d20b277753414d2` [chore: refine error message on unhandled error in kinesis (#12055)](https://github.com/risingwavelabs/risingwave/pull/12055)
-- `dcfbfb5f1733af58f96821d7a66e7e0b3a436184` [feat: support for migration by new parallel units (#11892)](https://github.com/risingwavelabs/risingwave/pull/11892)
-- `0d4da3be4e58fac86e6da314ea91b91cb0380159` [fix: reject kinesis source if the start up mode is not sequence number but sequence number is provided (#12048)](https://github.com/risingwavelabs/risingwave/pull/12048)
-- `9f880586b806b9d3681080e8ab36a83a2ba1d2ae` [feat(stream): first version of nats source (#12015)](https://github.com/risingwavelabs/risingwave/pull/12015)
-- `eb4bfeb472548b163f139ba7f6d77654ef46ffb8` [fix: clickhouse https url (#12041)](https://github.com/risingwavelabs/risingwave/pull/12041)
-- `c3e988b57fca98e42a6f30b627dfd99d8de644dc` [perf(over window): locality-based range cache for general over window executor (#11576)](https://github.com/risingwavelabs/risingwave/pull/11576)
-- `448d281fd429311356c73f66aea26e0901a2d62d` [chore(deps): bump aho-corasick from 1.0.4 to 1.0.5 (#12035)](https://github.com/risingwavelabs/risingwave/pull/12035)
-- `522007341818cb4d210cfc00a3ba0487a384e84e` [chore(deps): bump tower-http from 0.4.3 to 0.4.4 (#12036)](https://github.com/risingwavelabs/risingwave/pull/12036)
-- `033924dfc970db2d82469c2bb983158cfcafedb8` [refactor(common): Use safe interfaces for `DataChunkBuilder` (#12014)](https://github.com/risingwavelabs/risingwave/pull/12014)
-- `952129fb0ab7f7bf647a4befa54bf2a5e4f2d793` [fix: fill `source` and `name` fields correctly for Debezium (#12018)](https://github.com/risingwavelabs/risingwave/pull/12018)
-
-## nightly-20230903
-- `257f9874e1eb15fbbec2633857261511f8326e4d` [chore(deps): bump memchr from 2.6.1 to 2.6.2 (#12039)](https://github.com/risingwavelabs/risingwave/pull/12039)
