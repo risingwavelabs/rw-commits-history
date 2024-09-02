@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e78832351945c171f5e10f895932463b6f3c4664` [fix(ci): fix flaky barrier read e2e transaction test (#18346)](https://github.com/risingwavelabs/risingwave/pull/18346)
 - `ef71eefea35c1fbb1ad3669ce3dc7b17f71c4019` [chore(docs): Update README.md (#18340)](https://github.com/risingwavelabs/risingwave/pull/18340)
 
 ## nightly-20240901
