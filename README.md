@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b2eea6b799d31aae8240e41cf3f0e0d29e542255` [refactor(prost): optimize some Debug representation (#18211)](https://github.com/risingwavelabs/risingwave/pull/18211)
 - `cd0eefd2e5cd83f7d79894693f64340e74fbd7fc` [fix(compaction): disable fast compact for split sst (#18347)](https://github.com/risingwavelabs/risingwave/pull/18347)
 - `f60be139715b8b54e1e2c8d5d9ac8431de29395b` [fix(meta): correctly update serving vnode mapping after scaling (#18349)](https://github.com/risingwavelabs/risingwave/pull/18349)
 - `602c6adccaf6de63b430bfdfce045653172a015d` [refactor(metrics): suppress more actor-level metrics (#18318)](https://github.com/risingwavelabs/risingwave/pull/18318)
