@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ef71eefea35c1fbb1ad3669ce3dc7b17f71c4019` [chore(docs): Update README.md (#18340)](https://github.com/risingwavelabs/risingwave/pull/18340)
 
 ## nightly-20240901
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/655ce2a8cdd83f2338b2de23bef1133cf4e1916a...e41b348f2d7d800b45e4102192200fb1698037ca)
