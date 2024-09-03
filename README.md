@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ea6674ea31f2f6fd1b526c11405168f39a5131e0` [feat(risedev): prompt user with `argv[0]` instead of hard-coded `./risedev` (#18358)](https://github.com/risingwavelabs/risingwave/pull/18358)
 
 ## nightly-20240902
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e41b348f2d7d800b45e4102192200fb1698037ca...b2eea6b799d31aae8240e41cf3f0e0d29e542255)
