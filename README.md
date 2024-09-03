@@ -322,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9d6515b6a8af4e8935bea76e46aa14aecc174cf7` [feat(compaction): support recreate block stream for fast compact iter (#18350)](https://github.com/risingwavelabs/risingwave/pull/18350)
+- `5a314486da5c3f70e71fb13e2398df96ca00ee87` [feat(compute): give more batch memory for serving node (#18365)](https://github.com/risingwavelabs/risingwave/pull/18365)
+- `46bce7e4091c09db08714aad1bbee32b6c3f8da4` [refactor: add target_offsets to determinine if source backfill finished (#18297)](https://github.com/risingwavelabs/risingwave/pull/18297)
 - `ea6674ea31f2f6fd1b526c11405168f39a5131e0` [feat(risedev): prompt user with `argv[0]` instead of hard-coded `./risedev` (#18358)](https://github.com/risingwavelabs/risingwave/pull/18358)
 
 ## nightly-20240902
