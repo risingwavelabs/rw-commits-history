@@ -322,6 +322,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5ab2a59ed708f2d704455bbaa5e51e56e58db757` [feat(iceberg): support iceberg sink create table (#18362)](https://github.com/risingwavelabs/risingwave/pull/18362)
+- `5d8b1650ecd0d9e34a3eed519a9723752c5ea633` [feat(iceberg): support create table for jdbc catalog (#18364)](https://github.com/risingwavelabs/risingwave/pull/18364)
 - `f05d549efb5c1c2287047c07750ed210645c8b81` [fix(streaming): correctly retrieve initial split assignments from combined mutation for sink-into-table (#18356)](https://github.com/risingwavelabs/risingwave/pull/18356)
 - `124011d94ab7ac44c8a7868688e4b326a10ac0b0` [feat(cdc): support constant default value for alter table ADD COLUMN (#18322)](https://github.com/risingwavelabs/risingwave/pull/18322)
 - `9d6515b6a8af4e8935bea76e46aa14aecc174cf7` [feat(compaction): support recreate block stream for fast compact iter (#18350)](https://github.com/risingwavelabs/risingwave/pull/18350)
