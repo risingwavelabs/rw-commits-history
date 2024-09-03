@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609` [feat(sink): support async for bigquery sink  (#17488)](https://github.com/risingwavelabs/risingwave/pull/17488)
 - `c519f0dbb13cd66d1b5cb5bfb1325150f0e5d70b` [feat(telemetry): add telemetry data point when checking license (#18371)](https://github.com/risingwavelabs/risingwave/pull/18371)
 - `51d3c63f702ddf8860f6223a1e9a425e034d3375` [fix: `DROP DATABASE` doesn't clean up the source stream job (in v1) (#18033)](https://github.com/risingwavelabs/risingwave/pull/18033)
 - `5ab2a59ed708f2d704455bbaa5e51e56e58db757` [feat(iceberg): support iceberg sink create table (#18362)](https://github.com/risingwavelabs/risingwave/pull/18362)
