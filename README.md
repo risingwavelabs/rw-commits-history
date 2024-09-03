@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e9d77a4d5166f78cb65d6b3a8d6d5d67f56b5b05` [feat(streaming): add `must_output_per_barrier` flag for stream simple agg (#18374)](https://github.com/risingwavelabs/risingwave/pull/18374)
 - `c843edcd298be55a0bdc938dfa3c240676fba9c1` [feat: support arrow map -> rw map (#18375)](https://github.com/risingwavelabs/risingwave/pull/18375)
 
 ## nightly-20240903
