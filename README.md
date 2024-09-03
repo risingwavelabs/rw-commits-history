@@ -322,6 +322,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f05d549efb5c1c2287047c07750ed210645c8b81` [fix(streaming): correctly retrieve initial split assignments from combined mutation for sink-into-table (#18356)](https://github.com/risingwavelabs/risingwave/pull/18356)
+- `124011d94ab7ac44c8a7868688e4b326a10ac0b0` [feat(cdc): support constant default value for alter table ADD COLUMN (#18322)](https://github.com/risingwavelabs/risingwave/pull/18322)
 - `9d6515b6a8af4e8935bea76e46aa14aecc174cf7` [feat(compaction): support recreate block stream for fast compact iter (#18350)](https://github.com/risingwavelabs/risingwave/pull/18350)
 - `5a314486da5c3f70e71fb13e2398df96ca00ee87` [feat(compute): give more batch memory for serving node (#18365)](https://github.com/risingwavelabs/risingwave/pull/18365)
 - `46bce7e4091c09db08714aad1bbee32b6c3f8da4` [refactor: add target_offsets to determinine if source backfill finished (#18297)](https://github.com/risingwavelabs/risingwave/pull/18297)
