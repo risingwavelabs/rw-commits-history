@@ -314,7 +314,6 @@
 - `20230907` `cc3faf678c518e52d99dcaafa207abb63867b8ff`
 - `20230906` `52192e639489047b4dc9106feb0475888d1618bc`
 - `20230905` `fdaf30e0cbe4865b77401c5c025054a0cf5df564`
-- `20230904` `999b9d2670df3dbe24493cefe690ccc765cd4c7a`
 </details>
 
 # Commit history
@@ -4406,21 +4405,4 @@
 - `74c96fc8c546b54d2d38550864257f5b260e1d28` [perf(over window): fix over window performance degradation after #11576 (#12093)](https://github.com/risingwavelabs/risingwave/pull/12093)
 
 ## nightly-20230905
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/999b9d2670df3dbe24493cefe690ccc765cd4c7a...fdaf30e0cbe4865b77401c5c025054a0cf5df564)
 - `fdaf30e0cbe4865b77401c5c025054a0cf5df564` [chore: add over window executor cache metrics (#12092)](https://github.com/risingwavelabs/risingwave/pull/12092)
-- `ec0027ec5f5374f92980c3a7ea1c5b69569e5908` [refactor(source): implement the common split reader as a generic function (#12059)](https://github.com/risingwavelabs/risingwave/pull/12059)
-- `5cf0351485a487f6f760826796c409b06f000f1e` [feat: modify the scale command to support both horizontal and vertical scaling. (#12087)](https://github.com/risingwavelabs/risingwave/pull/12087)
-- `69bde53e9207f6cc9ce3682fc830ca703d6c6049` [feat: HA for schema registry (#11982)](https://github.com/risingwavelabs/risingwave/pull/11982)
-- `477bfd4b5583d6abd88196852d801440e222f2da` [fix(jdbc-sink):  quote identifier to handle case-sensitive case (#12078)](https://github.com/risingwavelabs/risingwave/pull/12078)
-- `aea50f58a1089aeff53e7e3038e685605e909f20` [chore(deps): bump async-recursion from 1.0.4 to 1.0.5 (#12069)](https://github.com/risingwavelabs/risingwave/pull/12069)
-- `579405e5e89f29e022a86e5a3936b61b21018187` [feat(grafana): report local barrier manager progress (#12001)](https://github.com/risingwavelabs/risingwave/pull/12001)
-- `e4b9a0888f08055d16d42326ec31565f53b88093` [refactor(streaming): better traces for development (#12024)](https://github.com/risingwavelabs/risingwave/pull/12024)
-- `65fc9592dd459669283340905630820be9be0be2` [chore(deps): bump tracing-opentelemetry from 0.20.0 to 0.21.0 (#12010)](https://github.com/risingwavelabs/risingwave/pull/12010)
-- `aadc605a871b4fb84330ef0d3c0ac7fe27d16a61` [chore(deps): bump google-cloud-pubsub from 0.19.0 to 0.20.0 (#12066)](https://github.com/risingwavelabs/risingwave/pull/12066)
-- `a5ef0082e204acefa4d8cd02766a33365c5e47e4` [feat(storage): refactor `LocalStateStore::init` and `StateTable::init` (#12050)](https://github.com/risingwavelabs/risingwave/pull/12050)
-- `ff623ee4e9a11b9965bc7b51b483da06516836a4` [chore(deps): bump syn from 2.0.29 to 2.0.31 (#12067)](https://github.com/risingwavelabs/risingwave/pull/12067)
-- `f95d972ba22e3006a66f18a2fc954e88bd223096` [chore(deps): bump memchr from 2.6.2 to 2.6.3 (#12068)](https://github.com/risingwavelabs/risingwave/pull/12068)
-- `3f5a6c823a32f4672ec7e223219477a10bbd7088` [feat: support information_schema.views (#12045)](https://github.com/risingwavelabs/risingwave/pull/12045)
-
-## nightly-20230904
-- `999b9d2670df3dbe24493cefe690ccc765cd4c7a` [feat: auto rebuild source reader in executor (#11993)](https://github.com/risingwavelabs/risingwave/pull/11993)
