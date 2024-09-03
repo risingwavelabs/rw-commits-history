@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240903` `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609`
 - `20240902` `b2eea6b799d31aae8240e41cf3f0e0d29e542255`
 - `20240901` `e41b348f2d7d800b45e4102192200fb1698037ca`
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
@@ -322,6 +323,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c843edcd298be55a0bdc938dfa3c240676fba9c1` [feat: support arrow map -> rw map (#18375)](https://github.com/risingwavelabs/risingwave/pull/18375)
+
+## nightly-20240903
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b2eea6b799d31aae8240e41cf3f0e0d29e542255...c0ce8a8a6b4d51e463a605fb307fa4b014e0f609)
 - `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609` [feat(sink): support async for bigquery sink  (#17488)](https://github.com/risingwavelabs/risingwave/pull/17488)
 - `c519f0dbb13cd66d1b5cb5bfb1325150f0e5d70b` [feat(telemetry): add telemetry data point when checking license (#18371)](https://github.com/risingwavelabs/risingwave/pull/18371)
 - `51d3c63f702ddf8860f6223a1e9a425e034d3375` [fix: `DROP DATABASE` doesn't clean up the source stream job (in v1) (#18033)](https://github.com/risingwavelabs/risingwave/pull/18033)
