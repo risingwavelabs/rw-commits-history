@@ -322,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6402328e7ff51b16691c6b72858b7075250246fe` [refactor: add some comments for source splits  (#18034)](https://github.com/risingwavelabs/risingwave/pull/18034)
+- `c4b1dd4555c329a58fc92955b4a7aa9a3d957d89` [feat(expr): support `jsonb_populate_map` (#18378)](https://github.com/risingwavelabs/risingwave/pull/18378)
+- `0a4ccde5c4b8762d825b150a0a73a80afdec6253` [fix(sqlparser): display create items with comma properly (#18393)](https://github.com/risingwavelabs/risingwave/pull/18393)
 - `a7480e1c6225e6bd32314fec9f5e0a686a9850b9` [feat(risedev): attempt to kill existing session when launching `risedev-dev` (#18370)](https://github.com/risingwavelabs/risingwave/pull/18370)
 - `847610a0e1007207d44dcadd6c61f5373ed4bdb9` [refactor: use high watermark to finish backfill faster (#18342)](https://github.com/risingwavelabs/risingwave/pull/18342)
 - `e9d77a4d5166f78cb65d6b3a8d6d5d67f56b5b05` [feat(streaming): add `must_output_per_barrier` flag for stream simple agg (#18374)](https://github.com/risingwavelabs/risingwave/pull/18374)
