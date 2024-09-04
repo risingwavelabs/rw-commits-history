@@ -314,7 +314,6 @@
 - `20230908` `df0af3ddf6a04bd05d19f6df206ac8347b9745ec`
 - `20230907` `cc3faf678c518e52d99dcaafa207abb63867b8ff`
 - `20230906` `52192e639489047b4dc9106feb0475888d1618bc`
-- `20230905` `fdaf30e0cbe4865b77401c5c025054a0cf5df564`
 </details>
 
 # Commit history
@@ -4399,23 +4398,4 @@
 - `3c19064a9d040223d29b62f1f0a2d5b21a0e66e6` [feat(stream): Add recovery feature for nats source (#12073)](https://github.com/risingwavelabs/risingwave/pull/12073)
 
 ## nightly-20230906
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fdaf30e0cbe4865b77401c5c025054a0cf5df564...52192e639489047b4dc9106feb0475888d1618bc)
 - `52192e639489047b4dc9106feb0475888d1618bc` [refactor: refactor file cache metrics build, bump foyer (#12121)](https://github.com/risingwavelabs/risingwave/pull/12121)
-- `da89875fe63e48c6e150059be56d8f5fdc2a1450` [feat(log-store): refine log store trait and add update vnode bitmap in reader (#11959)](https://github.com/risingwavelabs/risingwave/pull/11959)
-- `e64a0753e91368e2c8e2454895209d0d4635d652` [refactor(meta): introduce meta store ref and avoid pass generic parameter (#12114)](https://github.com/risingwavelabs/risingwave/pull/12114)
-- `b3a419537835ea7ada51354abbfe7f496445676e` [fix(stream): remove useless stream in nats sink (#12107)](https://github.com/risingwavelabs/risingwave/pull/12107)
-- `68087f3d0fbfab7c96c1fb3878d0a059dcd978f2` [chore(deps): bump flate2 from 1.0.26 to 1.0.27 (#12103)](https://github.com/risingwavelabs/risingwave/pull/12103)
-- `e3f3d47596e4afb90f50c1f129495b0c29e240a7` [fix: temporarily remove the assert checking for split migration (#12117)](https://github.com/risingwavelabs/risingwave/pull/12117)
-- `61ef35b401a9630d333549602d568ace081634d0` [chore(storage): remove compactor workload (#12005)](https://github.com/risingwavelabs/risingwave/pull/12005)
-- `a76e519f49ca4ca1d5e0f8f8cbecea9fd1622059` [refactor(java_binding): extract java_binding to jni_core (#12108)](https://github.com/risingwavelabs/risingwave/pull/12108)
-- `99ecd5d9eb109de6a1120fbd9f791e9e106bf62f` [fix(streaming): handle missing `cache_policy` field in `OverWindow` (#12110)](https://github.com/risingwavelabs/risingwave/pull/12110)
-- `50792cc6f946407806ff530720f12d77b4ef20e7` [refactor(compaction): remove meta client from compactor context (#12020)](https://github.com/risingwavelabs/risingwave/pull/12020)
-- `b5dd4286dcecbe6ce63a81ffc2d1c448de0c496a` [chore(deps): bump openssl-sys from 0.9.92 to 0.9.93 (#12106)](https://github.com/risingwavelabs/risingwave/pull/12106)
-- `1c8742149662987aef4f1ef8b55159d506c473d9` [chore(deps): bump walkdir from 2.3.3 to 2.4.0 (#12101)](https://github.com/risingwavelabs/risingwave/pull/12101)
-- `8c0da22b3d47c474d6d851b62df1ad1585077d24` [chore(deps): bump deranged from 0.3.7 to 0.3.8 (#12102)](https://github.com/risingwavelabs/risingwave/pull/12102)
-- `9ccdbe368ace5a3ada11a8c82952b24a0104f6d5` [chore(rpc): set message size to max for stream client (#12082)](https://github.com/risingwavelabs/risingwave/pull/12082)
-- `4f50903a085153ce4b394a0cac31d467cc1ebe2b` [refactor(metrics): support streaming metrics level (#11994)](https://github.com/risingwavelabs/risingwave/pull/11994)
-- `74c96fc8c546b54d2d38550864257f5b260e1d28` [perf(over window): fix over window performance degradation after #11576 (#12093)](https://github.com/risingwavelabs/risingwave/pull/12093)
-
-## nightly-20230905
-- `fdaf30e0cbe4865b77401c5c025054a0cf5df564` [chore: add over window executor cache metrics (#12092)](https://github.com/risingwavelabs/risingwave/pull/12092)
