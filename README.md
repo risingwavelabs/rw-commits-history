@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240904` `0dd06ffa9a34b0cb584393990f8de8a41267718d`
 - `20240903` `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609`
 - `20240902` `b2eea6b799d31aae8240e41cf3f0e0d29e542255`
 - `20240901` `e41b348f2d7d800b45e4102192200fb1698037ca`
@@ -322,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240904
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0ce8a8a6b4d51e463a605fb307fa4b014e0f609...0dd06ffa9a34b0cb584393990f8de8a41267718d)
 - `0dd06ffa9a34b0cb584393990f8de8a41267718d` [feat(snapshot-backfill): only receive mutation from barrier worker for snapshot backfill (#18210)](https://github.com/risingwavelabs/risingwave/pull/18210)
 - `9923c3abb8f87a6f643d5f753585e2b31f4de7e0` [feat(risedev): support providing env var in yaml config (#18396)](https://github.com/risingwavelabs/risingwave/pull/18396)
 - `ee33271dd98cfa84e390656e5b5836f7453b07cc` [fix: parquet test missing comma (#18397)](https://github.com/risingwavelabs/risingwave/pull/18397)
