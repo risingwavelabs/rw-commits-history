@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0dd06ffa9a34b0cb584393990f8de8a41267718d` [feat(snapshot-backfill): only receive mutation from barrier worker for snapshot backfill (#18210)](https://github.com/risingwavelabs/risingwave/pull/18210)
 - `9923c3abb8f87a6f643d5f753585e2b31f4de7e0` [feat(risedev): support providing env var in yaml config (#18396)](https://github.com/risingwavelabs/risingwave/pull/18396)
 - `ee33271dd98cfa84e390656e5b5836f7453b07cc` [fix: parquet test missing comma (#18397)](https://github.com/risingwavelabs/risingwave/pull/18397)
 - `6402328e7ff51b16691c6b72858b7075250246fe` [refactor: add some comments for source splits  (#18034)](https://github.com/risingwavelabs/risingwave/pull/18034)
