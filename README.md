@@ -322,6 +322,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a7480e1c6225e6bd32314fec9f5e0a686a9850b9` [feat(risedev): attempt to kill existing session when launching `risedev-dev` (#18370)](https://github.com/risingwavelabs/risingwave/pull/18370)
+- `847610a0e1007207d44dcadd6c61f5373ed4bdb9` [refactor: use high watermark to finish backfill faster (#18342)](https://github.com/risingwavelabs/risingwave/pull/18342)
 - `e9d77a4d5166f78cb65d6b3a8d6d5d67f56b5b05` [feat(streaming): add `must_output_per_barrier` flag for stream simple agg (#18374)](https://github.com/risingwavelabs/risingwave/pull/18374)
 - `c843edcd298be55a0bdc938dfa3c240676fba9c1` [feat: support arrow map -> rw map (#18375)](https://github.com/risingwavelabs/risingwave/pull/18375)
 
