@@ -322,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `79ba86964acf0616693a8534c9eac1a67eb2889d` [fix(backup): fix restore order (#18423)](https://github.com/risingwavelabs/risingwave/pull/18423)
+- `0134191ca8055543ece575e9f074f4ef3b23ac45` [fix(storage): fix correct_commit_ssts with sst table_ids (#18414)](https://github.com/risingwavelabs/risingwave/pull/18414)
+- `1d220eeba6f813673f8efc72b1fcf9e449171cf0` [fix(error): fix sinkError and connector error  (#18425)](https://github.com/risingwavelabs/risingwave/pull/18425)
 - `8a32a9b21b45c4d91f3235411d35a0a2b3f5102a` [feat: variable vnode count support in vnode structure (#18381)](https://github.com/risingwavelabs/risingwave/pull/18381)
 - `cb29fe0a3221638b5dc62c3ea543b08dd567135d` [feat: support more SSL related configurations in Kafka connector (#18361)](https://github.com/risingwavelabs/risingwave/pull/18361)
 - `f2f58272cc51a118a83c1fce02bd42afeb98c80b` [fix(storage): fix assertion (#18413)](https://github.com/risingwavelabs/risingwave/pull/18413)
