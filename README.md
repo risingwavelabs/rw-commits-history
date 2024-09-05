@@ -314,7 +314,6 @@
 - `20230909` `6806eca5f415d2bf15a66a21c302af7f96372b55`
 - `20230908` `df0af3ddf6a04bd05d19f6df206ac8347b9745ec`
 - `20230907` `cc3faf678c518e52d99dcaafa207abb63867b8ff`
-- `20230906` `52192e639489047b4dc9106feb0475888d1618bc`
 </details>
 
 # Commit history
@@ -4389,25 +4388,4 @@
 - `7d940cfa669db5df3450a4109f270745cc35e7cc` [feat(sink): Support cassandra sink (#11878)](https://github.com/risingwavelabs/risingwave/pull/11878)
 
 ## nightly-20230907
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52192e639489047b4dc9106feb0475888d1618bc...cc3faf678c518e52d99dcaafa207abb63867b8ff)
 - `cc3faf678c518e52d99dcaafa207abb63867b8ff` [feat(watermark): handle watermark in project_set (#12128)](https://github.com/risingwavelabs/risingwave/pull/12128)
-- `4bb7c6672170a2a0e6be8dd856b7fbd5602027fb` [feat(storage): reduce group deltas for l0 task (#12085)](https://github.com/risingwavelabs/risingwave/pull/12085)
-- `b2dc4eb90745f3721b610cd3f7c187e35fc3f730` [refactor(metrics): unify storage_metric_level & streaming_metric_level to 'metrics_level' (#12099)](https://github.com/risingwavelabs/risingwave/pull/12099)
-- `5f75f9bdcc8809cfdda0a9eca7d1bfc99abe5fc8` [feat(storage): sepearte intra picker (#12147)](https://github.com/risingwavelabs/risingwave/pull/12147)
-- `f1672f7e4cd53e508de6361203ad95da3504c971` [fix(eowc): fix SortBuffer when there are multiple records having same timestamp (#12146)](https://github.com/risingwavelabs/risingwave/pull/12146)
-- `183a98b5daa0473f2485e20f7b7aeb56471a67fb` [feat(expr): add `array_max` (#12100)](https://github.com/risingwavelabs/risingwave/pull/12100)
-- `893f6365d99b68d902abfd304b7a5af1a0a29c5a` [chore(deps): Bump chrono from 0.4.26 to 0.4.29 (#12136)](https://github.com/risingwavelabs/risingwave/pull/12136)
-- `3383291a29b1c225cb99370339de797bd967de91` [chore(deps): Bump regex-automata from 0.3.7 to 0.3.8 (#12134)](https://github.com/risingwavelabs/risingwave/pull/12134)
-- `5a8866d8a9534ccc1142f4f3d51bd9cd31660384` [refactor(storage): seperate validator logic from picker (#11984)](https://github.com/risingwavelabs/risingwave/pull/11984)
-- `b578db6fe0658c16c4a54e18721017b71dfe06b3` [fix(parser): more error reporting with locations (#12129)](https://github.com/risingwavelabs/risingwave/pull/12129)
-- `3ee8a8799bf7af40d199990a42a7a251ecdc4e00` [refactor(meta): refine `pause`/`resume` response (#12079)](https://github.com/risingwavelabs/risingwave/pull/12079)
-- `f16809d114f2ed96fc64b08c4bed94840c0b43ad` [fix(expr): parse `timestamptz` without seconds but with offset (#12084)](https://github.com/risingwavelabs/risingwave/pull/12084)
-- `01ce1bb6c22218ac31265df180b84cf1dd89ca21` [chore(deps): Bump num-bigint from 0.4.3 to 0.4.4 (#12137)](https://github.com/risingwavelabs/risingwave/pull/12137)
-- `d79113ed8e04d4dd1bf8fe7ff494b0f74e3f19dd` [chore(deps): Bump sysinfo from 0.29.9 to 0.29.10 (#12135)](https://github.com/risingwavelabs/risingwave/pull/12135)
-- `ff4ef3a2914d0e9e5c5115b76aa3aec870073334` [fix(ci): fix backwards compat with `ci-release` profile (#12139)](https://github.com/risingwavelabs/risingwave/pull/12139)
-- `9c98d269e04313fe98e5a7a3843243ede5dd31a0` [feat(expr): add `array_min` (#12071)](https://github.com/risingwavelabs/risingwave/pull/12071)
-- `084daa8ce6bf905c513f4c6375e429feddeaab27` [test: Add nexmark test, kafka test for backwards compatibility testing (#10413)](https://github.com/risingwavelabs/risingwave/pull/10413)
-- `3c19064a9d040223d29b62f1f0a2d5b21a0e66e6` [feat(stream): Add recovery feature for nats source (#12073)](https://github.com/risingwavelabs/risingwave/pull/12073)
-
-## nightly-20230906
-- `52192e639489047b4dc9106feb0475888d1618bc` [refactor: refactor file cache metrics build, bump foyer (#12121)](https://github.com/risingwavelabs/risingwave/pull/12121)
