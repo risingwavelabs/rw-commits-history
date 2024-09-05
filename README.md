@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240905` `79ba86964acf0616693a8534c9eac1a67eb2889d`
 - `20240904` `0dd06ffa9a34b0cb584393990f8de8a41267718d`
 - `20240903` `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609`
 - `20240902` `b2eea6b799d31aae8240e41cf3f0e0d29e542255`
@@ -322,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240905
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0dd06ffa9a34b0cb584393990f8de8a41267718d...79ba86964acf0616693a8534c9eac1a67eb2889d)
 - `79ba86964acf0616693a8534c9eac1a67eb2889d` [fix(backup): fix restore order (#18423)](https://github.com/risingwavelabs/risingwave/pull/18423)
 - `0134191ca8055543ece575e9f074f4ef3b23ac45` [fix(storage): fix correct_commit_ssts with sst table_ids (#18414)](https://github.com/risingwavelabs/risingwave/pull/18414)
 - `1d220eeba6f813673f8efc72b1fcf9e449171cf0` [fix(error): fix sinkError and connector error  (#18425)](https://github.com/risingwavelabs/risingwave/pull/18425)
