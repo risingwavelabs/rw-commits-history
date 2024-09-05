@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3b98b71f27525ad936820c264198c0f02334d252` [fix(source): Protobuf `Any` as canonical JSON (#18380)](https://github.com/risingwavelabs/risingwave/pull/18380)
 - `670a94f118d61462b720d51d62f164986d23cb23` [feat: variable vnode count support in table distribution (#18373)](https://github.com/risingwavelabs/risingwave/pull/18373)
 
 ## nightly-20240904
