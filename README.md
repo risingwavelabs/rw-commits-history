@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `670a94f118d61462b720d51d62f164986d23cb23` [feat: variable vnode count support in table distribution (#18373)](https://github.com/risingwavelabs/risingwave/pull/18373)
 
 ## nightly-20240904
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0ce8a8a6b4d51e463a605fb307fa4b014e0f609...0dd06ffa9a34b0cb584393990f8de8a41267718d)
