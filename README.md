@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8a32a9b21b45c4d91f3235411d35a0a2b3f5102a` [feat: variable vnode count support in vnode structure (#18381)](https://github.com/risingwavelabs/risingwave/pull/18381)
 - `cb29fe0a3221638b5dc62c3ea543b08dd567135d` [feat: support more SSL related configurations in Kafka connector (#18361)](https://github.com/risingwavelabs/risingwave/pull/18361)
 - `f2f58272cc51a118a83c1fce02bd42afeb98c80b` [fix(storage): fix assertion (#18413)](https://github.com/risingwavelabs/risingwave/pull/18413)
 - `3b98b71f27525ad936820c264198c0f02334d252` [fix(source): Protobuf `Any` as canonical JSON (#18380)](https://github.com/risingwavelabs/risingwave/pull/18380)
