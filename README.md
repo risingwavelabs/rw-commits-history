@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `df7f54f0b35cfe39937ae49bf9b5dab4343d51de` [fix(meta): fix catalog ref count (#18427)](https://github.com/risingwavelabs/risingwave/pull/18427)
 
 ## nightly-20240905
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0dd06ffa9a34b0cb584393990f8de8a41267718d...79ba86964acf0616693a8534c9eac1a67eb2889d)
