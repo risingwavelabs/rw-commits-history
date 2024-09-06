@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `71753f11223cd0b4d67ba6baf7ac636fa246e7fc` [fix(meta): correctly update serving parallelism mapping (#18439)](https://github.com/risingwavelabs/risingwave/pull/18439)
 - `e2c89f418e8dbe5fd5b078ea8d57288f438d49d0` [feat: support scale SourceBackfill executor (#16825)](https://github.com/risingwavelabs/risingwave/pull/16825)
 - `3762877b55bb5187533023b582c0f7f8901f0323` [fix(storage): fix commit_epoch new_sst_id_number (#18438)](https://github.com/risingwavelabs/risingwave/pull/18438)
 - `7d3f2856f2466681346c2edb6dfe890e0c41c5e2` [refactor: remove drop_actors rpc and simplify barrier worker state (#18354)](https://github.com/risingwavelabs/risingwave/pull/18354)
