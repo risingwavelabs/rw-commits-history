@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6489e9ac8cb656810196a71426ee7dcf3467a2bd` [feat: track progress for SourceBackfill (blocking DDL) (#18112)](https://github.com/risingwavelabs/risingwave/pull/18112)
 - `df7f54f0b35cfe39937ae49bf9b5dab4343d51de` [fix(meta): fix catalog ref count (#18427)](https://github.com/risingwavelabs/risingwave/pull/18427)
 
 ## nightly-20240905
