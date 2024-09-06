@@ -314,7 +314,6 @@
 - `20230910` `9b5db14dbd02fe37f8e5daa32cc46f181533c9d2`
 - `20230909` `6806eca5f415d2bf15a66a21c302af7f96372b55`
 - `20230908` `df0af3ddf6a04bd05d19f6df206ac8347b9745ec`
-- `20230907` `cc3faf678c518e52d99dcaafa207abb63867b8ff`
 </details>
 
 # Commit history
@@ -4384,21 +4383,4 @@
 - `e493ec67753c99ec2d0b77669beebd3ddde04743` [ci: hide nextest progress bar (#11974)](https://github.com/risingwavelabs/risingwave/pull/11974)
 
 ## nightly-20230908
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cc3faf678c518e52d99dcaafa207abb63867b8ff...df0af3ddf6a04bd05d19f6df206ac8347b9745ec)
 - `df0af3ddf6a04bd05d19f6df206ac8347b9745ec` [feat(demo): Add Feature Store demo (#11695)](https://github.com/risingwavelabs/risingwave/pull/11695)
-- `3e976cc3cf602952c06f72831b264b4f2b25d906` [chore(metric): fix table id filter and some panel reorgs (#12148)](https://github.com/risingwavelabs/risingwave/pull/12148)
-- `83637cdfbe46c20325d24f6fedc56e3338eea99b` [feat: risectl hummock validate-version (#11737)](https://github.com/risingwavelabs/risingwave/pull/11737)
-- `f27be02f974fe4ccca1ef088433761c8d8dc803c` [fix(batch): fallback for node mask (#12177)](https://github.com/risingwavelabs/risingwave/pull/12177)
-- `212478dc58f5b83e577e52ffad1adbe78c668102` [chore(deps): Bump rust_decimal from 1.31.0 to 1.32.0 (#12160)](https://github.com/risingwavelabs/risingwave/pull/12160)
-- `ff4c948249b4582697bd973a315dba1f18d253aa` [chore: trigger cherry-pick when the label is added (#12171)](https://github.com/risingwavelabs/risingwave/pull/12171)
-- `5abb517482fc5383d33242c3717cac6124f5e1e8` [fix: protobuf fixed64 was incorrectly parsed as int64 (#12126)](https://github.com/risingwavelabs/risingwave/pull/12126)
-- `eb59d84b00a17cc7b696aa6c72f88ccbf41bb7b3` [fix(risedev): typo fixing (#12163)](https://github.com/risingwavelabs/risingwave/pull/12163)
-- `e097adc398257991be6f628103570ff4317ab837` [fix: mysql-sink integration test (#12161)](https://github.com/risingwavelabs/risingwave/pull/12161)
-- `d9722256f03a3e6a1c9eb6a38e89c848f04535b6` [chore(object store): change streaming write buffer size to 16MB for gcs (#12150)](https://github.com/risingwavelabs/risingwave/pull/12150)
-- `8bd524bbe14a15e70d5996e22d5ad79ccc331d14` [chore(deps): Bump xxhash-rust from 0.8.6 to 0.8.7 (#12159)](https://github.com/risingwavelabs/risingwave/pull/12159)
-- `c924c3733fd004f35f1ea749b6d16d9bde33bc22` [feat(stream): add multiple server url feature into nats, delete useless field (#12138)](https://github.com/risingwavelabs/risingwave/pull/12138)
-- `471aa2b623877ce9ec5cfabc43d737baf0b0aee8` [refactor(source): specify cdc generic type parameter for different cdc source (#12109)](https://github.com/risingwavelabs/risingwave/pull/12109)
-- `7d940cfa669db5df3450a4109f270745cc35e7cc` [feat(sink): Support cassandra sink (#11878)](https://github.com/risingwavelabs/risingwave/pull/11878)
-
-## nightly-20230907
-- `cc3faf678c518e52d99dcaafa207abb63867b8ff` [feat(watermark): handle watermark in project_set (#12128)](https://github.com/risingwavelabs/risingwave/pull/12128)
