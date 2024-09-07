@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `becb896acd442d32eab4c14dccf558a4b346c643` [fix(iceberg): fix select empty iceberg table (#18449)](https://github.com/risingwavelabs/risingwave/pull/18449)
 
 ## nightly-20240907
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79ba86964acf0616693a8534c9eac1a67eb2889d...71753f11223cd0b4d67ba6baf7ac636fa246e7fc)
