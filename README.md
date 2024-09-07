@@ -313,7 +313,6 @@
 - `20230911` `c9185f567fa7a4195650d5469b63639f18f13bc9`
 - `20230910` `9b5db14dbd02fe37f8e5daa32cc46f181533c9d2`
 - `20230909` `6806eca5f415d2bf15a66a21c302af7f96372b55`
-- `20230908` `df0af3ddf6a04bd05d19f6df206ac8347b9745ec`
 </details>
 
 # Commit history
@@ -4378,9 +4377,4 @@
 - `f649aa6e4b38a0094e700e3a733836942011ddcf` [build: bump toolchain to 2023-09-09 (#11809)](https://github.com/risingwavelabs/risingwave/pull/11809)
 
 ## nightly-20230909
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/df0af3ddf6a04bd05d19f6df206ac8347b9745ec...6806eca5f415d2bf15a66a21c302af7f96372b55)
 - `6806eca5f415d2bf15a66a21c302af7f96372b55` [refactor(config): remove system.telemetry_enabled (#12156)](https://github.com/risingwavelabs/risingwave/pull/12156)
-- `e493ec67753c99ec2d0b77669beebd3ddde04743` [ci: hide nextest progress bar (#11974)](https://github.com/risingwavelabs/risingwave/pull/11974)
-
-## nightly-20230908
-- `df0af3ddf6a04bd05d19f6df206ac8347b9745ec` [feat(demo): Add Feature Store demo (#11695)](https://github.com/risingwavelabs/risingwave/pull/11695)
