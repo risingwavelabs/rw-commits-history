@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20240906` `71753f11223cd0b4d67ba6baf7ac636fa246e7fc`
+- `20240907` `71753f11223cd0b4d67ba6baf7ac636fa246e7fc`
 - `20240905` `79ba86964acf0616693a8534c9eac1a67eb2889d`
 - `20240904` `0dd06ffa9a34b0cb584393990f8de8a41267718d`
 - `20240903` `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609`
@@ -323,7 +323,7 @@
 
 ## Unreleased
 
-## nightly-20240906
+## nightly-20240907
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79ba86964acf0616693a8534c9eac1a67eb2889d...71753f11223cd0b4d67ba6baf7ac636fa246e7fc)
 - `71753f11223cd0b4d67ba6baf7ac636fa246e7fc` [fix(meta): correctly update serving parallelism mapping (#18439)](https://github.com/risingwavelabs/risingwave/pull/18439)
 - `e2c89f418e8dbe5fd5b078ea8d57288f438d49d0` [feat: support scale SourceBackfill executor (#16825)](https://github.com/risingwavelabs/risingwave/pull/16825)
