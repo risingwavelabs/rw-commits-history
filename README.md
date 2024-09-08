@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240908` `becb896acd442d32eab4c14dccf558a4b346c643`
 - `20240907` `71753f11223cd0b4d67ba6baf7ac636fa246e7fc`
 - `20240905` `79ba86964acf0616693a8534c9eac1a67eb2889d`
 - `20240904` `0dd06ffa9a34b0cb584393990f8de8a41267718d`
@@ -321,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240908
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/71753f11223cd0b4d67ba6baf7ac636fa246e7fc...becb896acd442d32eab4c14dccf558a4b346c643)
 - `becb896acd442d32eab4c14dccf558a4b346c643` [fix(iceberg): fix select empty iceberg table (#18449)](https://github.com/risingwavelabs/risingwave/pull/18449)
 
 ## nightly-20240907
