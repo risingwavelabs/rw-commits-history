@@ -313,7 +313,6 @@
 - `20230912` `1650a3ba40d8f212f8f6be5f9b354e947733221f`
 - `20230911` `c9185f567fa7a4195650d5469b63639f18f13bc9`
 - `20230910` `9b5db14dbd02fe37f8e5daa32cc46f181533c9d2`
-- `20230909` `6806eca5f415d2bf15a66a21c302af7f96372b55`
 </details>
 
 # Commit history
@@ -4377,9 +4376,4 @@
 - `e8f62d6da2c7011f63d9e6154f835a40c6aff538` [ci: fix disk out of space for GHA (#12192)](https://github.com/risingwavelabs/risingwave/pull/12192)
 
 ## nightly-20230910
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6806eca5f415d2bf15a66a21c302af7f96372b55...9b5db14dbd02fe37f8e5daa32cc46f181533c9d2)
 - `9b5db14dbd02fe37f8e5daa32cc46f181533c9d2` [fix(risedev): Reset risedev.yml (#12179)](https://github.com/risingwavelabs/risingwave/pull/12179)
-- `f649aa6e4b38a0094e700e3a733836942011ddcf` [build: bump toolchain to 2023-09-09 (#11809)](https://github.com/risingwavelabs/risingwave/pull/11809)
-
-## nightly-20230909
-- `6806eca5f415d2bf15a66a21c302af7f96372b55` [refactor(config): remove system.telemetry_enabled (#12156)](https://github.com/risingwavelabs/risingwave/pull/12156)
