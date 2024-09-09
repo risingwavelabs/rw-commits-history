@@ -313,7 +313,6 @@
 - `20230913` `173ad4e249760b86636941676077b5ed63f48551`
 - `20230912` `1650a3ba40d8f212f8f6be5f9b354e947733221f`
 - `20230911` `c9185f567fa7a4195650d5469b63639f18f13bc9`
-- `20230910` `9b5db14dbd02fe37f8e5daa32cc46f181533c9d2`
 </details>
 
 # Commit history
@@ -4374,14 +4373,4 @@
 - `3c0284ee4c3575f2b00f7d0ae0d9fa648e844858` [chore(deps): Bump syn from 2.0.31 to 2.0.32 (#12217)](https://github.com/risingwavelabs/risingwave/pull/12217)
 
 ## nightly-20230911
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9b5db14dbd02fe37f8e5daa32cc46f181533c9d2...c9185f567fa7a4195650d5469b63639f18f13bc9)
 - `c9185f567fa7a4195650d5469b63639f18f13bc9` [feat(common): impl `Row` for `Either` (#12211)](https://github.com/risingwavelabs/risingwave/pull/12211)
-- `f42ae9833aae41b4aa76fcab86320ea475b0057f` [fix(udf): check udf schema fields num and total records (#12206)](https://github.com/risingwavelabs/risingwave/pull/12206)
-- `69dadac558c49fe64ee32116fbbcfd259632eb46` [chore(test): disable prometheus in some tests (#12208)](https://github.com/risingwavelabs/risingwave/pull/12208)
-- `b80e13f74fb7ac4fc768dafc44debc51a0b882f8` [fix: ban pk comprising generated column (#12181)](https://github.com/risingwavelabs/risingwave/pull/12181)
-- `d0a498432e0fca8e073883381430bb0dbe4ddb48` [chore(deps): regular cargo update after v1.2.0 (#12190)](https://github.com/risingwavelabs/risingwave/pull/12190)
-- `17e81b1d07debb139a9f970b6aece10340094a0d` [feat: auto heap dump by default if `MALLOC_CONF=prof:true` (#12186)](https://github.com/risingwavelabs/risingwave/pull/12186)
-- `e8f62d6da2c7011f63d9e6154f835a40c6aff538` [ci: fix disk out of space for GHA (#12192)](https://github.com/risingwavelabs/risingwave/pull/12192)
-
-## nightly-20230910
-- `9b5db14dbd02fe37f8e5daa32cc46f181533c9d2` [fix(risedev): Reset risedev.yml (#12179)](https://github.com/risingwavelabs/risingwave/pull/12179)
