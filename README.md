@@ -321,6 +321,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `29d2e1ef33fad45e8348af9d0de251bbd7ddd194` [refactor: track progress minor refactor (#18446)](https://github.com/risingwavelabs/risingwave/pull/18446)
+- `462253e12b6957bf6e20aaaff44335215d8eacfc` [chore: update image version to 2.0.0-rc.1 (#18460)](https://github.com/risingwavelabs/risingwave/pull/18460)
 - `8d5b62b17b2a98b6bb28d492c9cfe72f9dcd787c` [feat: variable vnode count support in batch/streaming scheduler (#18407)](https://github.com/risingwavelabs/risingwave/pull/18407)
 - `9a03718accb10e75cc92b0d27c7ec58cdf0b0c64` [doc(readme): update architecture image (#18418)](https://github.com/risingwavelabs/risingwave/pull/18418)
 
