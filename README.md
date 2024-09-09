@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240909` `29d2e1ef33fad45e8348af9d0de251bbd7ddd194`
 - `20240908` `becb896acd442d32eab4c14dccf558a4b346c643`
 - `20240907` `71753f11223cd0b4d67ba6baf7ac636fa246e7fc`
 - `20240905` `79ba86964acf0616693a8534c9eac1a67eb2889d`
@@ -321,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240909
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/becb896acd442d32eab4c14dccf558a4b346c643...29d2e1ef33fad45e8348af9d0de251bbd7ddd194)
 - `29d2e1ef33fad45e8348af9d0de251bbd7ddd194` [refactor: track progress minor refactor (#18446)](https://github.com/risingwavelabs/risingwave/pull/18446)
 - `462253e12b6957bf6e20aaaff44335215d8eacfc` [chore: update image version to 2.0.0-rc.1 (#18460)](https://github.com/risingwavelabs/risingwave/pull/18460)
 - `8d5b62b17b2a98b6bb28d492c9cfe72f9dcd787c` [feat: variable vnode count support in batch/streaming scheduler (#18407)](https://github.com/risingwavelabs/risingwave/pull/18407)
