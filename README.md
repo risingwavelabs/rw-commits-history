@@ -321,6 +321,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `596138e0364cc98e02224ea387d6644d9bf9e8cb` [feat(source): configure whether to recursively scan file source (#18324)](https://github.com/risingwavelabs/risingwave/pull/18324)
+- `dc07da010735ac30751df2edbed14591272f6385` [feat(meta): support time travel query on a per-table basis (part1) (#18459)](https://github.com/risingwavelabs/risingwave/pull/18459)
 - `f970372021e3b65587b5ad61a2f6b8e0f8be6abe` [fix(metric): include table_change_log when calculating object size (#18452)](https://github.com/risingwavelabs/risingwave/pull/18452)
 - `99d6121aca3104d08b1dff44941584bbfad58b42` [feat(compaction): support merge compaction group (#18188)](https://github.com/risingwavelabs/risingwave/pull/18188)
 - `952962c03192cf4540485d38037c26a5afb52e21` [refactor: replace `RdKafkaStats` with Guarded metrics (#18462)](https://github.com/risingwavelabs/risingwave/pull/18462)
