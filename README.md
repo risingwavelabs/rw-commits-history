@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `99d6121aca3104d08b1dff44941584bbfad58b42` [feat(compaction): support merge compaction group (#18188)](https://github.com/risingwavelabs/risingwave/pull/18188)
 - `952962c03192cf4540485d38037c26a5afb52e21` [refactor: replace `RdKafkaStats` with Guarded metrics (#18462)](https://github.com/risingwavelabs/risingwave/pull/18462)
 - `267939635bcb74b0be8f08d039786e65f359c4a3` [fix: empty string as license key stuck docker compose (#18421)](https://github.com/risingwavelabs/risingwave/pull/18421)
 - `8c7a3641d38df253fa71029c134f09b9ab369d1f` [refactor(frontend): extract filling fields in fragment graph (#18466)](https://github.com/risingwavelabs/risingwave/pull/18466)
