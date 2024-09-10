@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240910` `596138e0364cc98e02224ea387d6644d9bf9e8cb`
 - `20240909` `29d2e1ef33fad45e8348af9d0de251bbd7ddd194`
 - `20240908` `becb896acd442d32eab4c14dccf558a4b346c643`
 - `20240907` `71753f11223cd0b4d67ba6baf7ac636fa246e7fc`
@@ -321,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240910
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29d2e1ef33fad45e8348af9d0de251bbd7ddd194...596138e0364cc98e02224ea387d6644d9bf9e8cb)
 - `596138e0364cc98e02224ea387d6644d9bf9e8cb` [feat(source): configure whether to recursively scan file source (#18324)](https://github.com/risingwavelabs/risingwave/pull/18324)
 - `dc07da010735ac30751df2edbed14591272f6385` [feat(meta): support time travel query on a per-table basis (part1) (#18459)](https://github.com/risingwavelabs/risingwave/pull/18459)
 - `f970372021e3b65587b5ad61a2f6b8e0f8be6abe` [fix(metric): include table_change_log when calculating object size (#18452)](https://github.com/risingwavelabs/risingwave/pull/18452)
