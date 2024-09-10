@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8c7a3641d38df253fa71029c134f09b9ab369d1f` [refactor(frontend): extract filling fields in fragment graph (#18466)](https://github.com/risingwavelabs/risingwave/pull/18466)
 
 ## nightly-20240909
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/becb896acd442d32eab4c14dccf558a4b346c643...29d2e1ef33fad45e8348af9d0de251bbd7ddd194)
