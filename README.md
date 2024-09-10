@@ -313,7 +313,6 @@
 - `20230914` `41ebb2ad72c8432bae643daed980c818344b1df8`
 - `20230913` `173ad4e249760b86636941676077b5ed63f48551`
 - `20230912` `1650a3ba40d8f212f8f6be5f9b354e947733221f`
-- `20230911` `c9185f567fa7a4195650d5469b63639f18f13bc9`
 </details>
 
 # Commit history
@@ -4365,23 +4364,4 @@
 - `228593d6a3d414790d6a072fac3875484b834343` [feat(binder): support implicit table function lateral subquery (#12153)](https://github.com/risingwavelabs/risingwave/pull/12153)
 
 ## nightly-20230912
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c9185f567fa7a4195650d5469b63639f18f13bc9...1650a3ba40d8f212f8f6be5f9b354e947733221f)
 - `1650a3ba40d8f212f8f6be5f9b354e947733221f` [refactor: use usize range instead of BlockLocation to read obj (#12225)](https://github.com/risingwavelabs/risingwave/pull/12225)
-- `62901e1094dd2ed7b1298072af09f2f9da5a3f91` [feat(connector): init embedded connector node (#12122)](https://github.com/risingwavelabs/risingwave/pull/12122)
-- `7078959cd0de5c6f52a7867d0efd85c7eb2dda15` [chore: remove ci main workflow (#12232)](https://github.com/risingwavelabs/risingwave/pull/12232)
-- `0ef3cee6f3c3efbf5f188aa8de6f1f6ad0828acd` [fix(test): set correct row per second (#12213)](https://github.com/risingwavelabs/risingwave/pull/12213)
-- `959566712598d5b0ed139a99b4b039b0ddad4d3f` [feat: disable some two phase agg (#12185)](https://github.com/risingwavelabs/risingwave/pull/12185)
-- `43852dca4859f1f7235486d4bb4b8cd166fa1bc6` [chore(udf): prepare for publishing java udf to maven (#11981)](https://github.com/risingwavelabs/risingwave/pull/11981)
-- `faa1bcc571eb6d1b84fd70620af93195ebb2c8da` [fix(udf): check the data type returned from UDF server (#12202)](https://github.com/risingwavelabs/risingwave/pull/12202)
-- `8b61c9228608b64df718c3d22862619174ae3fdb` [refactor(docker/doc): apply docker file with new release version (#12200)](https://github.com/risingwavelabs/risingwave/pull/12200)
-- `7a284f7ee166ecd32bdfaacefb483e034c08d799` [feat: alter column for table with connector (#12164)](https://github.com/risingwavelabs/risingwave/pull/12164)
-- `53611bfbbc2bf0b73ac62606bda579c34899e849` [fix: ban update modify columns referenced by generated pk (#12212)](https://github.com/risingwavelabs/risingwave/pull/12212)
-- `2488c772d5893e58965f4feee090c81c36811c4e` [feat: make `enable.auto.commit` configurable (#12223)](https://github.com/risingwavelabs/risingwave/pull/12223)
-- `4d869963b963b92e24166a21cdc45f45977eb209` [chore: bump foyer (#12133)](https://github.com/risingwavelabs/risingwave/pull/12133)
-- `f8d6b245b0d2d7609ef547df6c08b1fab83ddc44` [feat(expr): add `array_sort` (#12189)](https://github.com/risingwavelabs/risingwave/pull/12189)
-- `862ed5eaa914e3669a8ce2f0b54cdfe5db0bcccd` [build: downgrade to openssl@1 temporarily (#12219)](https://github.com/risingwavelabs/risingwave/pull/12219)
-- `edb9aec1ec8cdafe7280d0539b1c0e568453553b` [chore(deps): Bump serde_json from 1.0.105 to 1.0.106 (#12214)](https://github.com/risingwavelabs/risingwave/pull/12214)
-- `3c0284ee4c3575f2b00f7d0ae0d9fa648e844858` [chore(deps): Bump syn from 2.0.31 to 2.0.32 (#12217)](https://github.com/risingwavelabs/risingwave/pull/12217)
-
-## nightly-20230911
-- `c9185f567fa7a4195650d5469b63639f18f13bc9` [feat(common): impl `Row` for `Either` (#12211)](https://github.com/risingwavelabs/risingwave/pull/12211)
