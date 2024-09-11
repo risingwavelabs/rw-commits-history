@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8e7b09918f08e5fc12d4929a9e9c1f25918e1026` [fix(source): parse protobuf into expected struct/array (#18419)](https://github.com/risingwavelabs/risingwave/pull/18419)
 - `6038298c9fd2eedb3885e4187b39807ff3ee4c87` [refactor: bump toolchain to 2024-07-19 (#18470)](https://github.com/risingwavelabs/risingwave/pull/18470)
 - `084bc6dc4db0d4f6392bd3c156e52cff4fab1880` [perf: optimize memory allocation on building object path (#18465)](https://github.com/risingwavelabs/risingwave/pull/18465)
 - `00150a3022ee6a8d9c50ed150580e61e5d372253` [fix(iceberg): fix map - arrow convert & fix sink nested types to iceberg (#18463)](https://github.com/risingwavelabs/risingwave/pull/18463)
