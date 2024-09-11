@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `829bef3330581be251d6057f090b29037de0c853` [feat(expr): support map keys/values/entries (#18480)](https://github.com/risingwavelabs/risingwave/pull/18480)
 
 ## nightly-20240910
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29d2e1ef33fad45e8348af9d0de251bbd7ddd194...596138e0364cc98e02224ea387d6644d9bf9e8cb)
