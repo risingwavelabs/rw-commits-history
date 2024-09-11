@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240911` `23410f09511f3f75cbd2dbe4813fe766081e6656`
 - `20240910` `596138e0364cc98e02224ea387d6644d9bf9e8cb`
 - `20240909` `29d2e1ef33fad45e8348af9d0de251bbd7ddd194`
 - `20240908` `becb896acd442d32eab4c14dccf558a4b346c643`
@@ -321,6 +322,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5065bb4d1e4ed81aa38f784ae4acb4b644c3e6a8` [fix(sink): fix sink_decouple = false and commit_checkpoint_interval defalut = 1; (#18348)](https://github.com/risingwavelabs/risingwave/pull/18348)
+
+## nightly-20240911
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/596138e0364cc98e02224ea387d6644d9bf9e8cb...23410f09511f3f75cbd2dbe4813fe766081e6656)
 - `23410f09511f3f75cbd2dbe4813fe766081e6656` [feat: allow customize pulsar subscription name (#18379)](https://github.com/risingwavelabs/risingwave/pull/18379)
 - `8e7b09918f08e5fc12d4929a9e9c1f25918e1026` [fix(source): parse protobuf into expected struct/array (#18419)](https://github.com/risingwavelabs/risingwave/pull/18419)
 - `6038298c9fd2eedb3885e4187b39807ff3ee4c87` [refactor: bump toolchain to 2024-07-19 (#18470)](https://github.com/risingwavelabs/risingwave/pull/18470)
