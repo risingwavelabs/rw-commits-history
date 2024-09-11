@@ -313,7 +313,6 @@
 - `20230918` `cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08`
 - `20230914` `41ebb2ad72c8432bae643daed980c818344b1df8`
 - `20230913` `173ad4e249760b86636941676077b5ed63f48551`
-- `20230912` `1650a3ba40d8f212f8f6be5f9b354e947733221f`
 </details>
 
 # Commit history
@@ -322,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c882bdaa8acd73a6d3a20ff4809dda89aead6fb8` [refactor(storage): cache recent versions and unify batch query and time travel (#18477)](https://github.com/risingwavelabs/risingwave/pull/18477)
 - `5065bb4d1e4ed81aa38f784ae4acb4b644c3e6a8` [fix(sink): fix sink_decouple = false and commit_checkpoint_interval defalut = 1; (#18348)](https://github.com/risingwavelabs/risingwave/pull/18348)
 
 ## nightly-20240911
@@ -4358,22 +4358,4 @@
 - `a61b5aa1f69e8abc11ed6e362243396f0fe3f666` [refactor(expr): merge expression templates into `#[function]` macros (#11134)](https://github.com/risingwavelabs/risingwave/pull/11134)
 
 ## nightly-20230913
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1650a3ba40d8f212f8f6be5f9b354e947733221f...173ad4e249760b86636941676077b5ed63f48551)
 - `173ad4e249760b86636941676077b5ed63f48551` [feat(catalog): add pg_type.typinput and support dummy casting to regproc (#12272)](https://github.com/risingwavelabs/risingwave/pull/12272)
-- `9d4f83c44c08bb09a0d7de0bd437576c921df5bf` [chore: bump `jsonschema-transpiler` version (#12267)](https://github.com/risingwavelabs/risingwave/pull/12267)
-- `6f136bf5a3ade729e9f4eb3a9c266082d857058a` [refactor: replace more GAT-based async trait with RPITIT (#12271)](https://github.com/risingwavelabs/risingwave/pull/12271)
-- `1e2a4e59a281007645ae3787e98916ecf35f3d4b` [feat: allow kinesis source start with timestamp (#12241)](https://github.com/risingwavelabs/risingwave/pull/12241)
-- `cbbee64db3bf937341e696d65bdeba73db477d2b` [test: add an slt test for select with eowc (#12236)](https://github.com/risingwavelabs/risingwave/pull/12236)
-- `690a3b4b7f225e7f56597a0726049297a3eb18d3` [feat(stream): compact stream chunk by dropping useless rows (#11070)](https://github.com/risingwavelabs/risingwave/pull/11070)
-- `3c1f52f9ae700fb207d6e7aed9281526d31aa558` [chore(deps): Bump vergen from 8.2.4 to 8.2.5 (#12244)](https://github.com/risingwavelabs/risingwave/pull/12244)
-- `de1f7769e1f7d67b80291cab460c704bbef0e2ec` [refactor(kafka-sink): change sequential await to group await when committing (#12013)](https://github.com/risingwavelabs/risingwave/pull/12013)
-- `48726abc51aa56ccd947f31deb1ef40b50ff5f73` [refactor(source): bind prop, split, reader, enumerator via trait (#12184)](https://github.com/risingwavelabs/risingwave/pull/12184)
-- `359ee3ddc0aedb93b34d714a1fec13b0ed0da866` [chore(deps): Bump bytes from 1.4.0 to 1.5.0 (#12158)](https://github.com/risingwavelabs/risingwave/pull/12158)
-- `e47ec07c62792c97d293c62e3b3e1c342377efa8` [feat(risedev): core dump on panics for development (#12235)](https://github.com/risingwavelabs/risingwave/pull/12235)
-- `c51ee399b1f81da93dbe07e92552e71ab90482a9` [chore(ci): bump timeouts for bulid-release and unit test and e2e-sink-test (#12248)](https://github.com/risingwavelabs/risingwave/pull/12248)
-- `f8e0ce705c1451a197841cd2b19bdc21505f5a49` [chore(ci): prune tests which should run occasionally (#12233)](https://github.com/risingwavelabs/risingwave/pull/12233)
-- `a048dc410da883cdd93dd090217165fa57225639` [refactor: ignore unrecogized/deprecated system params (#12229)](https://github.com/risingwavelabs/risingwave/pull/12229)
-- `228593d6a3d414790d6a072fac3875484b834343` [feat(binder): support implicit table function lateral subquery (#12153)](https://github.com/risingwavelabs/risingwave/pull/12153)
-
-## nightly-20230912
-- `1650a3ba40d8f212f8f6be5f9b354e947733221f` [refactor: use usize range instead of BlockLocation to read obj (#12225)](https://github.com/risingwavelabs/risingwave/pull/12225)
