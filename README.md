@@ -321,6 +321,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `00150a3022ee6a8d9c50ed150580e61e5d372253` [fix(iceberg): fix map - arrow convert & fix sink nested types to iceberg (#18463)](https://github.com/risingwavelabs/risingwave/pull/18463)
+- `783350997dd7f01f5f0e3e2dff2441a2dfce158b` [feat(sink): reimplement sink coordinator worker and support scale (#18467)](https://github.com/risingwavelabs/risingwave/pull/18467)
 - `829bef3330581be251d6057f090b29037de0c853` [feat(expr): support map keys/values/entries (#18480)](https://github.com/risingwavelabs/risingwave/pull/18480)
 
 ## nightly-20240910
