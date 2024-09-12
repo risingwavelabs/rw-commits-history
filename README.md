@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240912` `b9ac1ac1f606a3ed1c894db2a69de134660a2924`
 - `20240911` `23410f09511f3f75cbd2dbe4813fe766081e6656`
 - `20240910` `596138e0364cc98e02224ea387d6644d9bf9e8cb`
 - `20240909` `29d2e1ef33fad45e8348af9d0de251bbd7ddd194`
@@ -321,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240912
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/23410f09511f3f75cbd2dbe4813fe766081e6656...b9ac1ac1f606a3ed1c894db2a69de134660a2924)
 - `b9ac1ac1f606a3ed1c894db2a69de134660a2924` [fix(iceberg): fix decimal overflow for iceberg arrow (#18511)](https://github.com/risingwavelabs/risingwave/pull/18511)
 - `6c3b68f3d488c665ac95b5874d18cc55b2c3bd1e` [chore: make file sink publicly accessible (#18508)](https://github.com/risingwavelabs/risingwave/pull/18508)
 - `36271315bbf262dbf7a375f93713d2c15157ee1f` [chore(deps): bump send and express in /dashboard (#18489)](https://github.com/risingwavelabs/risingwave/pull/18489)
