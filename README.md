@@ -313,7 +313,6 @@
 - `20230919` `c8ea5ee309c820cef5c73704d1211e9c3aa58dc2`
 - `20230918` `cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08`
 - `20230914` `41ebb2ad72c8432bae643daed980c818344b1df8`
-- `20230913` `173ad4e249760b86636941676077b5ed63f48551`
 </details>
 
 # Commit history
@@ -4338,35 +4337,4 @@
 - `214118baea97103207dfcd6e134a1e8fe63c31ad` [chore(deps): Bump serde_json from 1.0.106 to 1.0.107 (#12322)](https://github.com/risingwavelabs/risingwave/pull/12322)
 
 ## nightly-20230914
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/173ad4e249760b86636941676077b5ed63f48551...41ebb2ad72c8432bae643daed980c818344b1df8)
 - `41ebb2ad72c8432bae643daed980c818344b1df8` [fix(regexp): substraction overflow when incorrectly speicifying `start` (#12325)](https://github.com/risingwavelabs/risingwave/pull/12325)
-- `a566cfe698af6a6b869a63eb53da2ea8b5c32d87` [feat(expr): add `array_sum` (#12162)](https://github.com/risingwavelabs/risingwave/pull/12162)
-- `28bbf1042cc606357c9a06fe4be6e600ecc91501` [fix(ci): exclude tikv-jemalloc-sys in hakari check (#12320)](https://github.com/risingwavelabs/risingwave/pull/12320)
-- `5aa5a47000e3907f242bd676048417a74cc5ee17` [feat(meta): add hummock version relevant tables to rw_catalog (#12309)](https://github.com/risingwavelabs/risingwave/pull/12309)
-- `a740364d9eff5a3a20fdd6698562ed85f08b1339` [chore(ci): install locales in prebuilt image (#12311)](https://github.com/risingwavelabs/risingwave/pull/12311)
-- `0e72056bfb36271b89c48b58c8f6bd1c6b2ea369` [refactor(jdbc-sink): execute statements in batch and set isolation level to RC (#12250)](https://github.com/risingwavelabs/risingwave/pull/12250)
-- `827ed5ef587a7b11daed2d9e351e45681ff3de49` [refactor(connector): migrate cdc source metric from connector to compute (#12283)](https://github.com/risingwavelabs/risingwave/pull/12283)
-- `a93418501fc269a2400ccff18c6290c6c032d2c4` [fix(optimizer): relax scan predicate pull up mapping inverse restriction (#12308)](https://github.com/risingwavelabs/risingwave/pull/12308)
-- `db0c09929b01bad38c67fadbe1c6d65779e3fb4f` [feat(stream): handling watermark in temporal join (#12302)](https://github.com/risingwavelabs/risingwave/pull/12302)
-- `1ecea639b746ee61f741456b2a3d6a98b637f897` [refactor(risedev): split the steps for building and running playground (#12279)](https://github.com/risingwavelabs/risingwave/pull/12279)
-- `ae4b1f8a9e1c0a2aef700adb8554142ae4fe4a8e` [chore(deps): Bump clap from 4.4.2 to 4.4.3 (#12245)](https://github.com/risingwavelabs/risingwave/pull/12245)
-- `7ca370a5482347ba66eec16e1c4d464665ed32c3` [feat(refill): fetch whole sst file when refilling (#12265)](https://github.com/risingwavelabs/risingwave/pull/12265)
-- `ec129b65f8a3645532d070f3cc4c4ee8f4f67406` [chore: use cfg! to instead of #cfg[] for jemalloc control policy (#12307)](https://github.com/risingwavelabs/risingwave/pull/12307)
-- `9814af8e4f86ada5ef051583a24acd5e56e30357` [feat(expr): add `pg_sleep` function (#12294)](https://github.com/risingwavelabs/risingwave/pull/12294)
-- `4525e67bf73a98304350c46c4bea72786074a893` [feat(stream): support source throttling (#12295)](https://github.com/risingwavelabs/risingwave/pull/12295)
-- `5ffd58db7d018989b28ec492e7c85c3625dd1d23` [refactor(connector): replace validate source rpc with jni (#12270)](https://github.com/risingwavelabs/risingwave/pull/12270)
-- `888f2dda736a99f294487c5935b81fbbfdd59d7b` [fix: panic when dumping memory profile (#12276)](https://github.com/risingwavelabs/risingwave/pull/12276)
-- `c7fb909188e441086cb167d0655f2ae2f5c3f648` [fix(storage): remove directly convert of tier compaction picker (#12280)](https://github.com/risingwavelabs/risingwave/pull/12280)
-- `f25c625bdc7cdee4d43a5f4551f513f804f1c29e` [feat(sink): support elasticsearch 8 sink (#12269)](https://github.com/risingwavelabs/risingwave/pull/12269)
-- `7b23eb28cbcbd777c11c6b89ff0069d1460d39e9` [feat(frontend): implement `WITH ORDINALITY` clause (#12273)](https://github.com/risingwavelabs/risingwave/pull/12273)
-- `1aadfd0d6ebd533037da4ad6c47b7e437e0db494` [refactor(sink): impl RowEncoder for JsonEncoder (#12264)](https://github.com/risingwavelabs/risingwave/pull/12264)
-- `c07633a0c0c28ee41b91f8210d35a4a2c99c8685` [fix(ci): fix regress test download of `locales` (#12296)](https://github.com/risingwavelabs/risingwave/pull/12296)
-- `7a02d12ef2eb771d605013b1af522998db4209b1` [feat(agg): support streaming `bool_and` and `bool_or` agg (#11956)](https://github.com/risingwavelabs/risingwave/pull/11956)
-- `8e58cb96cb97bdb69849daef1198aeff6cc52f78` [fix(integration_tests): datagen timestamp and timestamptz accordingly (#12239)](https://github.com/risingwavelabs/risingwave/pull/12239)
-- `96bca904e265c6c753c779c43ee3b77b1aaf7f95` [chore(deps): Bump libc from 0.2.147 to 0.2.148 (#12288)](https://github.com/risingwavelabs/risingwave/pull/12288)
-- `d7a65c150ee99475617d03c2728a1102f8d77c4d` [chore(deps): Bump syn from 2.0.32 to 2.0.33 (#12290)](https://github.com/risingwavelabs/risingwave/pull/12290)
-- `857a20e7d72b83f020a5f945e83e1ee484190c1e` [feat(meta): expose hummock pinned versions and snapshots via rw_catalog (#12285)](https://github.com/risingwavelabs/risingwave/pull/12285)
-- `a61b5aa1f69e8abc11ed6e362243396f0fe3f666` [refactor(expr): merge expression templates into `#[function]` macros (#11134)](https://github.com/risingwavelabs/risingwave/pull/11134)
-
-## nightly-20230913
-- `173ad4e249760b86636941676077b5ed63f48551` [feat(catalog): add pg_type.typinput and support dummy casting to regproc (#12272)](https://github.com/risingwavelabs/risingwave/pull/12272)
