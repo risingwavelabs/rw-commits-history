@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9533cd9e11059c3a3cdc0d2f0094d368c67ad2ac` [feat(cdc): support for verify-ca and verify-full of Postgres SSL (#18015)](https://github.com/risingwavelabs/risingwave/pull/18015)
 
 ## nightly-20240912
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/23410f09511f3f75cbd2dbe4813fe766081e6656...b9ac1ac1f606a3ed1c894db2a69de134660a2924)
