@@ -321,6 +321,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `317641f46b2b7af762ba470aa12a43a9f64d1e28` [refactor(batch): schedule with streaming mapping if serving is temporarily unavailable (#18505)](https://github.com/risingwavelabs/risingwave/pull/18505)
+- `4afcd4d92b613fdc01a27ad71091683bbdf31a97` [refactor(storage): make HummockVersion a generic struct (#18478)](https://github.com/risingwavelabs/risingwave/pull/18478)
+- `a9b1de383e0163865c7e93b84e031f34017e8d62` [feat: schemaless ingestion for `encode json` (`INCLUDE payload`) (#18437)](https://github.com/risingwavelabs/risingwave/pull/18437)
 - `c882bdaa8acd73a6d3a20ff4809dda89aead6fb8` [refactor(storage): cache recent versions and unify batch query and time travel (#18477)](https://github.com/risingwavelabs/risingwave/pull/18477)
 - `5065bb4d1e4ed81aa38f784ae4acb4b644c3e6a8` [fix(sink): fix sink_decouple = false and commit_checkpoint_interval defalut = 1; (#18348)](https://github.com/risingwavelabs/risingwave/pull/18348)
 
