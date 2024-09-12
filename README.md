@@ -321,6 +321,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6c3b68f3d488c665ac95b5874d18cc55b2c3bd1e` [chore: make file sink publicly accessible (#18508)](https://github.com/risingwavelabs/risingwave/pull/18508)
+- `36271315bbf262dbf7a375f93713d2c15157ee1f` [chore(deps): bump send and express in /dashboard (#18489)](https://github.com/risingwavelabs/risingwave/pull/18489)
+- `34a2ad42da6a6dcb45b1260b6cecfce89d1c360c` [feat(iceberg): support create iceberg table w/ one layer nested type & scan table w/ nested type (#18498)](https://github.com/risingwavelabs/risingwave/pull/18498)
 - `317641f46b2b7af762ba470aa12a43a9f64d1e28` [refactor(batch): schedule with streaming mapping if serving is temporarily unavailable (#18505)](https://github.com/risingwavelabs/risingwave/pull/18505)
 - `4afcd4d92b613fdc01a27ad71091683bbdf31a97` [refactor(storage): make HummockVersion a generic struct (#18478)](https://github.com/risingwavelabs/risingwave/pull/18478)
 - `a9b1de383e0163865c7e93b84e031f34017e8d62` [feat: schemaless ingestion for `encode json` (`INCLUDE payload`) (#18437)](https://github.com/risingwavelabs/risingwave/pull/18437)
