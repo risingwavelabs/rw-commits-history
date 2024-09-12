@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b9ac1ac1f606a3ed1c894db2a69de134660a2924` [fix(iceberg): fix decimal overflow for iceberg arrow (#18511)](https://github.com/risingwavelabs/risingwave/pull/18511)
 - `6c3b68f3d488c665ac95b5874d18cc55b2c3bd1e` [chore: make file sink publicly accessible (#18508)](https://github.com/risingwavelabs/risingwave/pull/18508)
 - `36271315bbf262dbf7a375f93713d2c15157ee1f` [chore(deps): bump send and express in /dashboard (#18489)](https://github.com/risingwavelabs/risingwave/pull/18489)
 - `34a2ad42da6a6dcb45b1260b6cecfce89d1c360c` [feat(iceberg): support create iceberg table w/ one layer nested type & scan table w/ nested type (#18498)](https://github.com/risingwavelabs/risingwave/pull/18498)
