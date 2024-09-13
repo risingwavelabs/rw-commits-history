@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240913` `72396b2c3bfe00e13bef0653fe68547b93160f8a`
 - `20240912` `b9ac1ac1f606a3ed1c894db2a69de134660a2924`
 - `20240911` `23410f09511f3f75cbd2dbe4813fe766081e6656`
 - `20240910` `596138e0364cc98e02224ea387d6644d9bf9e8cb`
@@ -321,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240913
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b9ac1ac1f606a3ed1c894db2a69de134660a2924...72396b2c3bfe00e13bef0653fe68547b93160f8a)
 - `72396b2c3bfe00e13bef0653fe68547b93160f8a` [fix: only notify creating materialized views to FE when using sql backend (#18476)](https://github.com/risingwavelabs/risingwave/pull/18476)
 - `8eed7692b9ee86403d2e62790d7a197947f41f1e` [feat(source): support ingesting protobuf map (#18512)](https://github.com/risingwavelabs/risingwave/pull/18512)
 - `546c49c9f10b82b8a9d77f7a1b0d4e93f1ec319a` [fix: make guarded label metrics correctly drop (#18454)](https://github.com/risingwavelabs/risingwave/pull/18454)
