@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `546c49c9f10b82b8a9d77f7a1b0d4e93f1ec319a` [fix: make guarded label metrics correctly drop (#18454)](https://github.com/risingwavelabs/risingwave/pull/18454)
 - `c2192182dd06cba7935d5f6a3028f0fd461c7bfc` [refactor(source): move protobuf to codec crate, and refactor tests (#18507)](https://github.com/risingwavelabs/risingwave/pull/18507)
 - `870bcdee2e0e8d35d69134498e045de136d34a1f` [feat(iceberg): support eq delete merge on read for iceberg (#18448)](https://github.com/risingwavelabs/risingwave/pull/18448)
 - `f226e21baf27feef8676b9cdf93044f0c2b9be81` [fix(udf): use a dedicated runtime to create udf flight client (#18461)](https://github.com/risingwavelabs/risingwave/pull/18461)
