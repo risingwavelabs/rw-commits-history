@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `870bcdee2e0e8d35d69134498e045de136d34a1f` [feat(iceberg): support eq delete merge on read for iceberg (#18448)](https://github.com/risingwavelabs/risingwave/pull/18448)
 - `f226e21baf27feef8676b9cdf93044f0c2b9be81` [fix(udf): use a dedicated runtime to create udf flight client (#18461)](https://github.com/risingwavelabs/risingwave/pull/18461)
 - `bc9c2ad38ca04640714e9105fe40cfe3acdd9918` [feat(streaming): introduce streaming AsOf JOIN executor (#18242)](https://github.com/risingwavelabs/risingwave/pull/18242)
 - `9533cd9e11059c3a3cdc0d2f0094d368c67ad2ac` [feat(cdc): support for verify-ca and verify-full of Postgres SSL (#18015)](https://github.com/risingwavelabs/risingwave/pull/18015)
