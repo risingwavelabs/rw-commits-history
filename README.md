@@ -321,6 +321,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `72396b2c3bfe00e13bef0653fe68547b93160f8a` [fix: only notify creating materialized views to FE when using sql backend (#18476)](https://github.com/risingwavelabs/risingwave/pull/18476)
+- `8eed7692b9ee86403d2e62790d7a197947f41f1e` [feat(source): support ingesting protobuf map (#18512)](https://github.com/risingwavelabs/risingwave/pull/18512)
 - `546c49c9f10b82b8a9d77f7a1b0d4e93f1ec319a` [fix: make guarded label metrics correctly drop (#18454)](https://github.com/risingwavelabs/risingwave/pull/18454)
 - `c2192182dd06cba7935d5f6a3028f0fd461c7bfc` [refactor(source): move protobuf to codec crate, and refactor tests (#18507)](https://github.com/risingwavelabs/risingwave/pull/18507)
 - `870bcdee2e0e8d35d69134498e045de136d34a1f` [feat(iceberg): support eq delete merge on read for iceberg (#18448)](https://github.com/risingwavelabs/risingwave/pull/18448)
