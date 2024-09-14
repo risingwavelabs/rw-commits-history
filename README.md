@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240914` `ac966f1c897544afb00a1e71c14bf01d32866388`
 - `20240913` `72396b2c3bfe00e13bef0653fe68547b93160f8a`
 - `20240912` `b9ac1ac1f606a3ed1c894db2a69de134660a2924`
 - `20240911` `23410f09511f3f75cbd2dbe4813fe766081e6656`
@@ -321,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240914
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72396b2c3bfe00e13bef0653fe68547b93160f8a...ac966f1c897544afb00a1e71c14bf01d32866388)
 - `ac966f1c897544afb00a1e71c14bf01d32866388` [refactor(test): refactor some ut for hummock (#18534)](https://github.com/risingwavelabs/risingwave/pull/18534)
 - `c80351bf0ed4704d2576d9573fddf3048fdd0e6a` [refactor: revert "#18324 configure whether to recursively scan file source" (#18517)](https://github.com/risingwavelabs/risingwave/pull/18517)
 - `21345cb4ccf6db18f0b5901cb8da4ad5926d106a` [fix(ci): fix cassandra ci (#18536)](https://github.com/risingwavelabs/risingwave/pull/18536)
