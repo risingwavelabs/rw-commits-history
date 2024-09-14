@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ac966f1c897544afb00a1e71c14bf01d32866388` [refactor(test): refactor some ut for hummock (#18534)](https://github.com/risingwavelabs/risingwave/pull/18534)
 - `c80351bf0ed4704d2576d9573fddf3048fdd0e6a` [refactor: revert "#18324 configure whether to recursively scan file source" (#18517)](https://github.com/risingwavelabs/risingwave/pull/18517)
 - `21345cb4ccf6db18f0b5901cb8da4ad5926d106a` [fix(ci): fix cassandra ci (#18536)](https://github.com/risingwavelabs/risingwave/pull/18536)
 
