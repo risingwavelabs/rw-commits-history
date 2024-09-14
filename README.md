@@ -321,6 +321,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `21345cb4ccf6db18f0b5901cb8da4ad5926d106a` [fix(ci): fix cassandra ci (#18536)](https://github.com/risingwavelabs/risingwave/pull/18536)
 
 ## nightly-20240913
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b9ac1ac1f606a3ed1c894db2a69de134660a2924...72396b2c3bfe00e13bef0653fe68547b93160f8a)
