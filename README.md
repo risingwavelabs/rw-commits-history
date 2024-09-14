@@ -313,7 +313,6 @@
 - `20230920` `6500c1edd93b8cd1bcc949a59d38bfce7f38d669`
 - `20230919` `c8ea5ee309c820cef5c73704d1211e9c3aa58dc2`
 - `20230918` `cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08`
-- `20230914` `41ebb2ad72c8432bae643daed980c818344b1df8`
 </details>
 
 # Commit history
@@ -4317,36 +4316,4 @@
 - `4dadb7c107ef6b256209eba8e201280c310ce1e8` [feat(storage): emergency picker for write_limit (#12183)](https://github.com/risingwavelabs/risingwave/pull/12183)
 
 ## nightly-20230918
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/41ebb2ad72c8432bae643daed980c818344b1df8...cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08)
 - `cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08` [refactor(sink): impl SinkFormatter for DebeziumJsonFormatter (#12372)](https://github.com/risingwavelabs/risingwave/pull/12372)
-- `8003961b073e59c9073e501205009123829db5c9` [chore: add compatible notice for old row format syntax (#12373)](https://github.com/risingwavelabs/risingwave/pull/12373)
-- `ff7667a76330bbbc852e720d1b26cd0f9926bb50` [fix: fix source schema display (#12375)](https://github.com/risingwavelabs/risingwave/pull/12375)
-- `3d2fb5f107930ee0ce0b9efc16ba15f7e43f3d5f` [chore(deps): Bump proc-macro2 from 1.0.66 to 1.0.67 (#12289)](https://github.com/risingwavelabs/risingwave/pull/12289)
-- `83d970f9430027e317945016e10d830f3b9fe3cd` [feat(metrics): improve backpressure metrics (#12353)](https://github.com/risingwavelabs/risingwave/pull/12353)
-- `c82fc9cf7ff1cad6a514f6ab723d47d6836c1bae` [chore(deps): Bump chrono from 0.4.30 to 0.4.31 (#12359)](https://github.com/risingwavelabs/risingwave/pull/12359)
-- `cbdc1acb67e7b366e51f58bb7d05568664191d28` [chore(ci): move release jobs to main-cron pipeline (#12339)](https://github.com/risingwavelabs/risingwave/pull/12339)
-- `b37a19ccd4a78238683e2ff712c2ad2d796f9a01` [feat(dashboard): add memory profiling (#12052)](https://github.com/risingwavelabs/risingwave/pull/12052)
-- `71d81704ec1c3ff7fb9375fd111a0aab3b3c5f6b` [refactor(expr): allow defining functions in frontend (#12287)](https://github.com/risingwavelabs/risingwave/pull/12287)
-- `cedaec96ce04d12f160a1e04ad4f24af199ab103` [feat(optimizer): support agg group by simplify rule (#12349)](https://github.com/risingwavelabs/risingwave/pull/12349)
-- `71d9b0bcb2fd804789f659ccc6dd15d9a556d664` [feat(meta): update StreamJob status on finish (#12342)](https://github.com/risingwavelabs/risingwave/pull/12342)
-- `784fe568d44e40fa29915292ac2df61faf5e5c91` [fix(backup): ensure correct delta log order (#12371)](https://github.com/risingwavelabs/risingwave/pull/12371)
-- `711ecd5c06ded04a13d8e8753a961c73453804c8` [feat(state_table): add iterator sub range under a certain pk prefix (#12251)](https://github.com/risingwavelabs/risingwave/pull/12251)
-- `1877aed241f9db69468fb7122bf8540ffc7b4dd9` [refactor(sink): impl SinkFormatter for AppendOnly and Upsert (#12321)](https://github.com/risingwavelabs/risingwave/pull/12321)
-- `f304ed214295b26fd068ef4e408524ef095a9c7f` [revert: Revert "chore: add platforms to hakari (#12333)" (#12363)](https://github.com/risingwavelabs/risingwave/pull/12363)
-- `a975d9346333c53f34c6f73793fb718076177d7b` [fix: handle kafka sink message timeout error (#12350)](https://github.com/risingwavelabs/risingwave/pull/12350)
-- `8ef74ad37194848ab7c75c7d39d503ad1d64025f` [fix(udf): handle visibility of input chunks in UDTF (#12357)](https://github.com/risingwavelabs/risingwave/pull/12357)
-- `31fdc265c0ab7ed22fc081e71c5af3c3d88f82a1` [feat(expr): switch to `fancy-regex` crate & update the original version (#12329)](https://github.com/risingwavelabs/risingwave/pull/12329)
-- `00321457dafc2c07590d7213ee076f6bf07ff073` [refactor(expr): support variadic function in `#[function]` macro (#12178)](https://github.com/risingwavelabs/risingwave/pull/12178)
-- `467ba4b00c2b30d2228c9ee1638fbe80fb53fa12` [fix: stream backfill executor use correct schema (#12314)](https://github.com/risingwavelabs/risingwave/pull/12314)
-- `c443197f2b0c32363a494bc9320073ccc9969c4c` [feat(optimizer): support correlated column in order by (#12341)](https://github.com/risingwavelabs/risingwave/pull/12341)
-- `8a36ca33c116752be189f2da8f1dfbaf9934247f` [feat(meta): Add `creating_status` field for stream jobs (#12330)](https://github.com/risingwavelabs/risingwave/pull/12330)
-- `bf5b14ecb6904fa09bb449f5e8358cddfd7aab21` [chore: lift decoding message size limit for ddl client (#12340)](https://github.com/risingwavelabs/risingwave/pull/12340)
-- `c0060b2ecbcbe16ce518f49237b2f380d1e41e40` [feat(meta): add hummock config relevant tables to rw_catalog (#12337)](https://github.com/risingwavelabs/risingwave/pull/12337)
-- `59bb645b27d6345abddfebef5e3095c56b74ffe7` [chore: add platforms to hakari (#12333)](https://github.com/risingwavelabs/risingwave/pull/12333)
-- `7baa27ff9bbce41e40079f97b3d22488a6965fa4` [chore: split full debug info for release build (#12255)](https://github.com/risingwavelabs/risingwave/pull/12255)
-- `a99e6f3eb346176f34d27f309c2108b767b4ed8a` [fix(stream): fix pk indices of GroupTopN executors (#12304)](https://github.com/risingwavelabs/risingwave/pull/12304)
-- `43c010ee16c1cc6a05c1b085b0abd1c77f1685ce` [chore: fix comment and metrics (#12331)](https://github.com/risingwavelabs/risingwave/pull/12331)
-- `214118baea97103207dfcd6e134a1e8fe63c31ad` [chore(deps): Bump serde_json from 1.0.106 to 1.0.107 (#12322)](https://github.com/risingwavelabs/risingwave/pull/12322)
-
-## nightly-20230914
-- `41ebb2ad72c8432bae643daed980c818344b1df8` [fix(regexp): substraction overflow when incorrectly speicifying `start` (#12325)](https://github.com/risingwavelabs/risingwave/pull/12325)
