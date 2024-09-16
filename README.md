@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `789d34503b9782d1ee23b4e0f2822d494954a16d` [fix: dup split assignment in source (#18541)](https://github.com/risingwavelabs/risingwave/pull/18541)
 
 ## nightly-20240915
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72396b2c3bfe00e13bef0653fe68547b93160f8a...ac966f1c897544afb00a1e71c14bf01d32866388)
