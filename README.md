@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240916` `9413b28b5a836bc577a9c50fa8cd223cd137618b`
 - `20240915` `ac966f1c897544afb00a1e71c14bf01d32866388`
 - `20240913` `72396b2c3bfe00e13bef0653fe68547b93160f8a`
 - `20240912` `b9ac1ac1f606a3ed1c894db2a69de134660a2924`
@@ -322,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240916
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ac966f1c897544afb00a1e71c14bf01d32866388...9413b28b5a836bc577a9c50fa8cd223cd137618b)
 - `9413b28b5a836bc577a9c50fa8cd223cd137618b` [test: s3 source with additional column payload  (#18496)](https://github.com/risingwavelabs/risingwave/pull/18496)
 - `789d34503b9782d1ee23b4e0f2822d494954a16d` [fix: dup split assignment in source (#18541)](https://github.com/risingwavelabs/risingwave/pull/18541)
 
