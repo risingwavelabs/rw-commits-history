@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `91677683efdbefdb04bb2fb18f16d3183d183347` [fix(stream): handle `0.0` case of approx percentile, and fix computation of `quantile_count` (#18546)](https://github.com/risingwavelabs/risingwave/pull/18546)
 
 ## nightly-20240916
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ac966f1c897544afb00a1e71c14bf01d32866388...9413b28b5a836bc577a9c50fa8cd223cd137618b)
