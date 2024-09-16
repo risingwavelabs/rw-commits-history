@@ -322,6 +322,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9413b28b5a836bc577a9c50fa8cd223cd137618b` [test: s3 source with additional column payload  (#18496)](https://github.com/risingwavelabs/risingwave/pull/18496)
 - `789d34503b9782d1ee23b4e0f2822d494954a16d` [fix: dup split assignment in source (#18541)](https://github.com/risingwavelabs/risingwave/pull/18541)
 
 ## nightly-20240915
