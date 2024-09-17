@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240917` `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8`
 - `20240916` `9413b28b5a836bc577a9c50fa8cd223cd137618b`
 - `20240915` `ac966f1c897544afb00a1e71c14bf01d32866388`
 - `20240913` `72396b2c3bfe00e13bef0653fe68547b93160f8a`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240917
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9413b28b5a836bc577a9c50fa8cd223cd137618b...1c04a5ce3ab2cc605abd6cf4367017433b63c7d8)
 - `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8` [feat(mqtt): Add max_packet_size option to MQTT Source (#18520)](https://github.com/risingwavelabs/risingwave/pull/18520)
 - `ee62b43cf779ca0a27c64fd3e4b7deacd90d9478` [chore: use Postgres meta backend for `risedev d full` (#18560)](https://github.com/risingwavelabs/risingwave/pull/18560)
 - `604fdc8d7a679eda3d21c656215cb4b4bf4728aa` [fix(sink): remove some todo!() with error (#18550)](https://github.com/risingwavelabs/risingwave/pull/18550)
