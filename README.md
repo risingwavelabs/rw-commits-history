@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ee62b43cf779ca0a27c64fd3e4b7deacd90d9478` [chore: use Postgres meta backend for `risedev d full` (#18560)](https://github.com/risingwavelabs/risingwave/pull/18560)
 - `604fdc8d7a679eda3d21c656215cb4b4bf4728aa` [fix(sink): remove some todo!() with error (#18550)](https://github.com/risingwavelabs/risingwave/pull/18550)
 - `9c6cec19592a16367ab76f5a26c57b730645bd69` [fix: revert split assignment check (#18554)](https://github.com/risingwavelabs/risingwave/pull/18554)
 - `11ad34b24ff2ef5a26c9d91ba386b825030807cc` [fix(metadata v2): existing actor splits were not updated (#18553)](https://github.com/risingwavelabs/risingwave/pull/18553)
@@ -4009,7 +4010,6 @@
 - `657a8ece0cc4f4a656182adc622f8f2a1e8b37cf` [chore(deps): Bump xorf from 0.8.1 to 0.10.2 (#12619)](https://github.com/risingwavelabs/risingwave/pull/12619)
 - `0f0a6fbe1efea7fe2bb9880880102fe0cb71e1f5` [chore(deps): Bump toml from 0.7.8 to 0.8.2 (#12890)](https://github.com/risingwavelabs/risingwave/pull/12890)
 - `d7cd2c7241268a813dfa9b7a357293d84cf3ffeb` [chore(deps): Bump @babel/traverse from 7.19.0 to 7.23.2 in /dashboard (#12887)](https://github.com/risingwavelabs/risingwave/pull/12887)
-- `fcc2469364b376c1aa30b605f27790d2584b4e61` [chore(storage): reduce state store metrics report bucket (#12879)](https://github.com/risingwavelabs/risingwave/pull/12879)
 - `fcc2469364b376c1aa30b605f27790d2584b4e61` [chore(storage): reduce state store metrics report bucket (#12879)](https://github.com/risingwavelabs/risingwave/pull/12879)
 - `e995ea0df1b00d5b14e741f78536e48ee4489fde` [chore(streaming): remove unused metrics (#12878)](https://github.com/risingwavelabs/risingwave/pull/12878)
 - `bff674b2792ad88a25da39898d29674f96e0c03a` [fix(meta): do not select several file (#12869)](https://github.com/risingwavelabs/risingwave/pull/12869)
