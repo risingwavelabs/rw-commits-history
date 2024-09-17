@@ -315,7 +315,6 @@
 - `20230921` `a12611d81b98ef437b632792057705e4bdfd5f74`
 - `20230920` `6500c1edd93b8cd1bcc949a59d38bfce7f38d669`
 - `20230919` `c8ea5ee309c820cef5c73704d1211e9c3aa58dc2`
-- `20230918` `cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08`
 </details>
 
 # Commit history
@@ -324,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3b3dda7dc8f6c8c8b248c89eb0eee36336efd9a8` [fix(test): fix `current_branch` for backwards compat test (#18565)](https://github.com/risingwavelabs/risingwave/pull/18565)
 - `2b9280f2333ac857864bf510158f34ee79fa6b51` [fix(test): fix version sort and handle case where release branch is current branch (#18562)](https://github.com/risingwavelabs/risingwave/pull/18562)
 
 ## nightly-20240917
@@ -4317,27 +4317,4 @@
 - `a6ab35f36d4d3b63ac30db74110dba23a1d5d6b5` [feat(sink): do not compact chunk's vis in sink (#12428)](https://github.com/risingwavelabs/risingwave/pull/12428)
 
 ## nightly-20230919
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08...c8ea5ee309c820cef5c73704d1211e9c3aa58dc2)
 - `c8ea5ee309c820cef5c73704d1211e9c3aa58dc2` [refactor(source): refine source macro (#12260)](https://github.com/risingwavelabs/risingwave/pull/12260)
-- `ed96064ebfcd0dfa489ece72f8c1eaab1ad63811` [chore: fix duplicated jeprof (again) (#12424)](https://github.com/risingwavelabs/risingwave/pull/12424)
-- `948d17dd4e049245a7ef6c07453421905d7b5ee6` [fix: give more reasonable initial watermark epoch (#12417)](https://github.com/risingwavelabs/risingwave/pull/12417)
-- `7177a3ece6e35403f0d4821b87196b3a6f31b58c` [refactor(udf): use `cfg_or_panic` for UDF implementations (#12416)](https://github.com/risingwavelabs/risingwave/pull/12416)
-- `74637caf0dbf88f02ecaf834bc8a70ddc960cdc4` [fix: hummock manager list version deltas by memory (#12412)](https://github.com/risingwavelabs/risingwave/pull/12412)
-- `44b8ae8fe992316df45bb92ab314520b3bd4f779` [refactor(common): remove `Vis` (#12379)](https://github.com/risingwavelabs/risingwave/pull/12379)
-- `ff50ccbc9f4de4c8eadba0a5a96fe48e439cf025` [refactor(storage): Use TableKey struct in the state store interfaces (#11943)](https://github.com/risingwavelabs/risingwave/pull/11943)
-- `b715bde58b43f2c8555e7aeaae405d369acd14f7` [refactor(udf): connect lazily to get rid of `block_in_place` (#12413)](https://github.com/risingwavelabs/risingwave/pull/12413)
-- `aa5e7988fe85acb5b4bf06c0340ec30e24627cee` [feat(sink): implement pulsar sink (#12286)](https://github.com/risingwavelabs/risingwave/pull/12286)
-- `a789c615be99eb126c24df6de452f1d92a5444a2` [chore: update hakari config to reduce [build-dependencies] (#12411)](https://github.com/risingwavelabs/risingwave/pull/12411)
-- `7f647a36b80c7a3117b23a0332c8c830800a260b` [feat(sqlparser): support specifying DEBEZIUM JSON for CDC tables to enable schema change (#12306)](https://github.com/risingwavelabs/risingwave/pull/12306)
-- `86dfcc4885f22e034660cdbd1579f54f608a7532` [feat(ci): support trigger standalone tests in `pull-request` workflow (#12394)](https://github.com/risingwavelabs/risingwave/pull/12394)
-- `e19a53690491f43e16de5d89d6735346a356663f` [chore(deps): Bump moka from 0.11.3 to 0.12.0 (#12403)](https://github.com/risingwavelabs/risingwave/pull/12403)
-- `eb92f6f79cabee17f34bdf3d1f8976b34f392211` [chore(deps): Bump pbjson from 0.5.1 to 0.6.0 (#12401)](https://github.com/risingwavelabs/risingwave/pull/12401)
-- `0ae5c0e0126400d3e49da934fbea977a1b9a7ad4` [chore(test): tune datagen range (#12408)](https://github.com/risingwavelabs/risingwave/pull/12408)
-- `a5b596fb41706e5cd0785584a54590b77ece5782` [feat(dashboard): add metrics for agg dirty groups count & heap size (#12378)](https://github.com/risingwavelabs/risingwave/pull/12378)
-- `161b9b0ef684aa065b3c78f1103925f13aafdf30` [feat(frontend): support background ddl for materialized views (#12355)](https://github.com/risingwavelabs/risingwave/pull/12355)
-- `588bb80eec402eeb63dc1c8bc66661e996ba85fc` [chore(deps): Bump aho-corasick from 1.0.5 to 1.1.0 (#12402)](https://github.com/risingwavelabs/risingwave/pull/12402)
-- `b17569d774f25351f4458b3c42723bf51e6bccd0` [feat(stream): add nkey and jwt auth methods for nats connector (#12227)](https://github.com/risingwavelabs/risingwave/pull/12227)
-- `4dadb7c107ef6b256209eba8e201280c310ce1e8` [feat(storage): emergency picker for write_limit (#12183)](https://github.com/risingwavelabs/risingwave/pull/12183)
-
-## nightly-20230918
-- `cc7e506b3cef2a29d9c30cc16ccbedd6d9380e08` [refactor(sink): impl SinkFormatter for DebeziumJsonFormatter (#12372)](https://github.com/risingwavelabs/risingwave/pull/12372)
