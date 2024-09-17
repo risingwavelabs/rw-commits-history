@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `11ad34b24ff2ef5a26c9d91ba386b825030807cc` [fix(metadata v2): existing actor splits were not updated (#18553)](https://github.com/risingwavelabs/risingwave/pull/18553)
 - `91677683efdbefdb04bb2fb18f16d3183d183347` [fix(stream): handle `0.0` case of approx percentile, and fix computation of `quantile_count` (#18546)](https://github.com/risingwavelabs/risingwave/pull/18546)
 
 ## nightly-20240916
