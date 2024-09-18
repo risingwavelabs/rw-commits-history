@@ -315,7 +315,6 @@
 - `20230922` `063f58e123c6eead17f0a0da01099e2d92d3ed35`
 - `20230921` `a12611d81b98ef437b632792057705e4bdfd5f74`
 - `20230920` `6500c1edd93b8cd1bcc949a59d38bfce7f38d669`
-- `20230919` `c8ea5ee309c820cef5c73704d1211e9c3aa58dc2`
 </details>
 
 # Commit history
@@ -324,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ff479f60996f9ac61b0d8b5ddf40370c8b0217f8` [refactor(storage): remove legacy delta type `GroupMetaChange` and `GroupTableChange` (#18585)](https://github.com/risingwavelabs/risingwave/pull/18585)
 
 ## nightly-20240918
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c04a5ce3ab2cc605abd6cf4367017433b63c7d8...5b625f81b06217c4350a57b8457006e6b9bfdd8d)
@@ -4305,32 +4305,4 @@
 - `1985bc8b90dd38855da43fadf81cef7f758cd6f9` [refactor(expr): use a wrapper for `eval_checked` (#12426)](https://github.com/risingwavelabs/risingwave/pull/12426)
 
 ## nightly-20230920
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c8ea5ee309c820cef5c73704d1211e9c3aa58dc2...6500c1edd93b8cd1bcc949a59d38bfce7f38d669)
 - `6500c1edd93b8cd1bcc949a59d38bfce7f38d669` [fix(sink): handle visibility in remote sink (#12463)](https://github.com/risingwavelabs/risingwave/pull/12463)
-- `0515f01d0c2de238f05e554fc14fb7761fea6bd2` [fix(ci): fix standalone e2e test breakage (#12444)](https://github.com/risingwavelabs/risingwave/pull/12444)
-- `14f267410b996d58ee495e76f1115e312e9642fe` [refactor(executor): remove chunk compact before HashKey build (#12420)](https://github.com/risingwavelabs/risingwave/pull/12420)
-- `c9f3cd0c2a22ad28f8a6387baa0806f3c05ecd02` [fix(ci): iceberg sink test failure (#12446)](https://github.com/risingwavelabs/risingwave/pull/12446)
-- `9358708e3aab0a86f0974aeaa50b3871158a0b05` [fix: reserve variable buffer for parameter status messages (#12205)](https://github.com/risingwavelabs/risingwave/pull/12205)
-- `09c6b75434cc6655bf27e1a758b78dbc88ec1e21` [build(docker): reorganize Dockerfile to be more cacheable & add registry build cache (#12193)](https://github.com/risingwavelabs/risingwave/pull/12193)
-- `14292d783896ed01a569f3f3963aec944a1f42ce` [chore(deps): update tokio-postgres to v0.7.10 (#12452)](https://github.com/risingwavelabs/risingwave/pull/12452)
-- `6db46600dc472bd559d1c9225a2665b1b35af24f` [refactor(sqlparser): cleanup dead code on `FORMAT ENCODE` (v2) -> `ROW FORMAT` (v1) (#12450)](https://github.com/risingwavelabs/risingwave/pull/12450)
-- `c9b356a36c5c60ebf38c2bb9cba6195029d73ba1` [chore: use `--fragments` with ids separated by commas (#12438)](https://github.com/risingwavelabs/risingwave/pull/12438)
-- `08a2ca111a0d26195155146be656cad36fac317a` [feat: SQL-based election client (#12391)](https://github.com/risingwavelabs/risingwave/pull/12391)
-- `8c05180ef4add2fca78613587b9f4efbebb7418e` [feat(log-store): log store support truncates at given offset (#12263)](https://github.com/risingwavelabs/risingwave/pull/12263)
-- `869ef90eec6ef3d49d417b2121fcfd65bfd11fd7` [refactor(test): simplify backfill tests (#12437)](https://github.com/risingwavelabs/risingwave/pull/12437)
-- `7192a90cf6146ef3fbb7643abc93795cef9bf3e4` [chore(license): add license header to python files (#12423)](https://github.com/risingwavelabs/risingwave/pull/12423)
-- `8431a4442ae4e35fc1b0f12ddee1989229eddf03` [chore: support docker build skip target (#12414)](https://github.com/risingwavelabs/risingwave/pull/12414)
-- `5a2ee63885c8e00d1a8e78005d1db7bdacb17bff` [chore(deps): Bump clap from 4.4.3 to 4.4.4 (#12440)](https://github.com/risingwavelabs/risingwave/pull/12440)
-- `ba2cdc9e5c366d1a92571774b46a40944e7dccbd` [chore(deps): Bump dyn-clone from 1.0.13 to 1.0.14 (#12442)](https://github.com/risingwavelabs/risingwave/pull/12442)
-- `dda8c4b9a806c2cfb4f747646cf32a00f72c1eb5` [fix(test): fix local backwards compat test to run against current branch (#12436)](https://github.com/risingwavelabs/risingwave/pull/12436)
-- `f6dff66a1d4fd328889adf148173632e19474263` [chore: build dashboard in Dockerfile (#12421)](https://github.com/risingwavelabs/risingwave/pull/12421)
-- `7324a950125226298f50b6f6462bc70072b0712c` [fix(meta): fix backwards compat issues for `Table::stream_job_status` field (#12434)](https://github.com/risingwavelabs/risingwave/pull/12434)
-- `5cd4082fb261644a84e01d38f8e8d91a4af39f8e` [refactor: Use icelake catalog api to simplify things. (#12303)](https://github.com/risingwavelabs/risingwave/pull/12303)
-- `104373868b5b43f93af6e35ca265639241841a2d` [chore(test): disable flaky test temporarily (#12427)](https://github.com/risingwavelabs/risingwave/pull/12427)
-- `fa6c3914f4b171924ae9c107de16c50b2546c0bb` [refactor: Use icelake catalog api to simplify things. (#12303)](https://github.com/risingwavelabs/risingwave/pull/12303)
-- `441583a276c0f7c2984f7fea37362d1f2737c1f3` [refactor(state-store): use dyn_clone for boxed state store and remove HummockTrait (#12409)](https://github.com/risingwavelabs/risingwave/pull/12409)
-- `afd5791dc77a095d4f884bc01a0e3988aee317fd` [fix(storage): revert write limit config for ci-delete-range-test (#12430)](https://github.com/risingwavelabs/risingwave/pull/12430)
-- `a6ab35f36d4d3b63ac30db74110dba23a1d5d6b5` [feat(sink): do not compact chunk's vis in sink (#12428)](https://github.com/risingwavelabs/risingwave/pull/12428)
-
-## nightly-20230919
-- `c8ea5ee309c820cef5c73704d1211e9c3aa58dc2` [refactor(source): refine source macro (#12260)](https://github.com/risingwavelabs/risingwave/pull/12260)
