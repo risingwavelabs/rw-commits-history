@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a3c6e48c67cf666d382c8e3fcb2afc451c8bcdc5` [refactor: unify to subscribe mutation via barrier sender (#18255)](https://github.com/risingwavelabs/risingwave/pull/18255)
 - `06d5cdef259ecd67aa0a09d4e362f9ec80436aa8` [refactor: maintain subscriptions in local barrier worker (#18516)](https://github.com/risingwavelabs/risingwave/pull/18516)
 - `3ee3b2cb084586a9a39ba0b922473bce7421a02c` [refactor(storage): deprecate code of range delete (#18525)](https://github.com/risingwavelabs/risingwave/pull/18525)
 - `6ca719f546b44ca04fd2c5a36c4090736e11155b` [feat(metrics): support filtering metrics by name in Prometheus scrape handler (#18556)](https://github.com/risingwavelabs/risingwave/pull/18556)
