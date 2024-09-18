@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4ec727d5e07370d1d358e4026322893aef73e962` [chore(deps): bump next from 14.1.1 to 14.2.12 in /dashboard (#18568)](https://github.com/risingwavelabs/risingwave/pull/18568)
+- `b1a38b36e51e5c0b9411666314d756c9e38a5d83` [feat(compaction): introduce new task status for serverless compaction (#18575)](https://github.com/risingwavelabs/risingwave/pull/18575)
 - `745fb16fec638178c7a862dfaa2ffd23b076ddaa` [fix: Fix the panic caused by scaling with a single fragment downstream of no shuffle (#18581)](https://github.com/risingwavelabs/risingwave/pull/18581)
 - `da08cd5a377bae3b0394e65a952f9b9f82aa9e18` [fix(ci): fix static link for `openssl` (#18569)](https://github.com/risingwavelabs/risingwave/pull/18569)
 - `25b0cc9362ea931367e245c45d6ebea85804c286` [refactor(connector): replace `protobuf-native` with `protox` for schema compiling (#18543)](https://github.com/risingwavelabs/risingwave/pull/18543)
