@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `745fb16fec638178c7a862dfaa2ffd23b076ddaa` [fix: Fix the panic caused by scaling with a single fragment downstream of no shuffle (#18581)](https://github.com/risingwavelabs/risingwave/pull/18581)
+- `da08cd5a377bae3b0394e65a952f9b9f82aa9e18` [fix(ci): fix static link for `openssl` (#18569)](https://github.com/risingwavelabs/risingwave/pull/18569)
+- `25b0cc9362ea931367e245c45d6ebea85804c286` [refactor(connector): replace `protobuf-native` with `protox` for schema compiling (#18543)](https://github.com/risingwavelabs/risingwave/pull/18543)
 - `a3c6e48c67cf666d382c8e3fcb2afc451c8bcdc5` [refactor: unify to subscribe mutation via barrier sender (#18255)](https://github.com/risingwavelabs/risingwave/pull/18255)
 - `06d5cdef259ecd67aa0a09d4e362f9ec80436aa8` [refactor: maintain subscriptions in local barrier worker (#18516)](https://github.com/risingwavelabs/risingwave/pull/18516)
 - `3ee3b2cb084586a9a39ba0b922473bce7421a02c` [refactor(storage): deprecate code of range delete (#18525)](https://github.com/risingwavelabs/risingwave/pull/18525)
