@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240918` `5b625f81b06217c4350a57b8457006e6b9bfdd8d`
 - `20240917` `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8`
 - `20240916` `9413b28b5a836bc577a9c50fa8cd223cd137618b`
 - `20240915` `ac966f1c897544afb00a1e71c14bf01d32866388`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240918
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c04a5ce3ab2cc605abd6cf4367017433b63c7d8...5b625f81b06217c4350a57b8457006e6b9bfdd8d)
 - `5b625f81b06217c4350a57b8457006e6b9bfdd8d` [refactor(stream): make `degree_state` field in `JoinHashMap` an Option (#18539)](https://github.com/risingwavelabs/risingwave/pull/18539)
 - `4ec727d5e07370d1d358e4026322893aef73e962` [chore(deps): bump next from 14.1.1 to 14.2.12 in /dashboard (#18568)](https://github.com/risingwavelabs/risingwave/pull/18568)
 - `b1a38b36e51e5c0b9411666314d756c9e38a5d83` [feat(compaction): introduce new task status for serverless compaction (#18575)](https://github.com/risingwavelabs/risingwave/pull/18575)
