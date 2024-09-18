@@ -323,6 +323,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `06d5cdef259ecd67aa0a09d4e362f9ec80436aa8` [refactor: maintain subscriptions in local barrier worker (#18516)](https://github.com/risingwavelabs/risingwave/pull/18516)
+- `3ee3b2cb084586a9a39ba0b922473bce7421a02c` [refactor(storage): deprecate code of range delete (#18525)](https://github.com/risingwavelabs/risingwave/pull/18525)
+- `6ca719f546b44ca04fd2c5a36c4090736e11155b` [feat(metrics): support filtering metrics by name in Prometheus scrape handler (#18556)](https://github.com/risingwavelabs/risingwave/pull/18556)
+- `f19dec52daba2f27d80e7fa5aba8974b7c252bd3` [fix(optimizer): correctly derive cardinality for group top-n (#18561)](https://github.com/risingwavelabs/risingwave/pull/18561)
 - `24336eb97df1c8ee9348d627d317daa501a3b178` [refactor(state table): replace `new_` series with `gen_` series (#18566)](https://github.com/risingwavelabs/risingwave/pull/18566)
 - `3b3dda7dc8f6c8c8b248c89eb0eee36336efd9a8` [fix(test): fix `current_branch` for backwards compat test (#18565)](https://github.com/risingwavelabs/risingwave/pull/18565)
 - `2b9280f2333ac857864bf510158f34ee79fa6b51` [fix(test): fix version sort and handle case where release branch is current branch (#18562)](https://github.com/risingwavelabs/risingwave/pull/18562)
