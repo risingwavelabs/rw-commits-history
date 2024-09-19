@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240919` `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6`
 - `20240918` `5b625f81b06217c4350a57b8457006e6b9bfdd8d`
 - `20240917` `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8`
 - `20240916` `9413b28b5a836bc577a9c50fa8cd223cd137618b`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240919
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5b625f81b06217c4350a57b8457006e6b9bfdd8d...97a329350a14d747e0eae31e4e1c86ff3d4d4ea6)
 - `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6` [feat(storage): introduce merge group metrics and corrects some config (#18576)](https://github.com/risingwavelabs/risingwave/pull/18576)
 - `c7b6fff8a9328eedbae145697ab2eac0d1d84b89` [fix(catalog): add views' dependencies in `rw_depend` (#18596)](https://github.com/risingwavelabs/risingwave/pull/18596)
 - `57f828500e6343efc7a7e7bafd080b8cc8a7295f` [fix: fix message_queue image tag in docker compose (#18602)](https://github.com/risingwavelabs/risingwave/pull/18602)
