@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d353d1332795c3c46d80f9b2950169029e6859d8` [feat: improve error of building key encoder (#18563)](https://github.com/risingwavelabs/risingwave/pull/18563)
 - `0f1984a58cdb318158c707723057eeded71bcc09` [chore(scale): Report an error instead of asserting for unsatisfied conditions in the plan.  (#18589)](https://github.com/risingwavelabs/risingwave/pull/18589)
 - `ff479f60996f9ac61b0d8b5ddf40370c8b0217f8` [refactor(storage): remove legacy delta type `GroupMetaChange` and `GroupTableChange` (#18585)](https://github.com/risingwavelabs/risingwave/pull/18585)
 
