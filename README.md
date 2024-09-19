@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `89f93df1812e7470faa50df522e47c184fb7c6d4` [feat(sink): support sink map to avro (#18551)](https://github.com/risingwavelabs/risingwave/pull/18551)
 
 ## nightly-20240919
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5b625f81b06217c4350a57b8457006e6b9bfdd8d...97a329350a14d747e0eae31e4e1c86ff3d4d4ea6)
