@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c7b6fff8a9328eedbae145697ab2eac0d1d84b89` [fix(catalog): add views' dependencies in `rw_depend` (#18596)](https://github.com/risingwavelabs/risingwave/pull/18596)
+- `57f828500e6343efc7a7e7bafd080b8cc8a7295f` [fix: fix message_queue image tag in docker compose (#18602)](https://github.com/risingwavelabs/risingwave/pull/18602)
 - `d353d1332795c3c46d80f9b2950169029e6859d8` [feat: improve error of building key encoder (#18563)](https://github.com/risingwavelabs/risingwave/pull/18563)
 - `0f1984a58cdb318158c707723057eeded71bcc09` [chore(scale): Report an error instead of asserting for unsatisfied conditions in the plan.  (#18589)](https://github.com/risingwavelabs/risingwave/pull/18589)
 - `ff479f60996f9ac61b0d8b5ddf40370c8b0217f8` [refactor(storage): remove legacy delta type `GroupMetaChange` and `GroupTableChange` (#18585)](https://github.com/risingwavelabs/risingwave/pull/18585)
