@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `759efe3fda4937881e9ad5d5387cb4bc685813e8` [feat(iceberg): support position delete for iceberg source  (#18579)](https://github.com/risingwavelabs/risingwave/pull/18579)
 - `57f01de196ff6e8e5f3e6adc6abfe438ba63b5d1` [chore: update image version to v2.0.0 (#18574)](https://github.com/risingwavelabs/risingwave/pull/18574)
 - `8b0c5a3e11a40d20a91c42a85b637717f4fea2d3` [feat(dashboard): add backpressure to the relation dependency graph (#18280)](https://github.com/risingwavelabs/risingwave/pull/18280)
 - `89f93df1812e7470faa50df522e47c184fb7c6d4` [feat(sink): support sink map to avro (#18551)](https://github.com/risingwavelabs/risingwave/pull/18551)
