@@ -324,6 +324,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `767dbc156022e964ef66ba7f164c5febc6a17d5f` [fix: forbid the usage of single quotation in title to avoid failure of cherry-pick (#18614)](https://github.com/risingwavelabs/risingwave/pull/18614)
+- `c6db8013319c4f540f9b2c93fc1671472e3757b2` [refactor: refactor arrow conversion (#18608)](https://github.com/risingwavelabs/risingwave/pull/18608)
+- `82ac534a92c3b269f5da3d7a4142297beb7e031c` [feat: upgrade foyer to 0.11.3 (#18313)](https://github.com/risingwavelabs/risingwave/pull/18313)
+- `4bc3b28d7eac7e9c9700b76b41ce0fc5350069c1` [refactor(iceberg): extract IcebergCommon config (#18600)](https://github.com/risingwavelabs/risingwave/pull/18600)
+- `5aca9144e5bd937b3427bb9bfdce9f9cea013860` [feat(sink): support sink map to protobuf (#18552)](https://github.com/risingwavelabs/risingwave/pull/18552)
+- `ff2d937735133e7135d83c0d532fb9daa10141a7` [refactor(state table): cleanup `StateTable::seal_current_epoch` (#18578)](https://github.com/risingwavelabs/risingwave/pull/18578)
 - `4ba84deb9f328c8eaaab56b388a4e409ef77d1fb` [feat(storage): notify frontend with more hummock version info (#18570)](https://github.com/risingwavelabs/risingwave/pull/18570)
 - `759efe3fda4937881e9ad5d5387cb4bc685813e8` [feat(iceberg): support position delete for iceberg source  (#18579)](https://github.com/risingwavelabs/risingwave/pull/18579)
 - `57f01de196ff6e8e5f3e6adc6abfe438ba63b5d1` [chore: update image version to v2.0.0 (#18574)](https://github.com/risingwavelabs/risingwave/pull/18574)
