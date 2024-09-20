@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240920` `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a`
 - `20240919` `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6`
 - `20240918` `5b625f81b06217c4350a57b8457006e6b9bfdd8d`
 - `20240917` `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8`
@@ -315,7 +316,6 @@
 - `20230924` `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33`
 - `20230922` `063f58e123c6eead17f0a0da01099e2d92d3ed35`
 - `20230921` `a12611d81b98ef437b632792057705e4bdfd5f74`
-- `20230920` `6500c1edd93b8cd1bcc949a59d38bfce7f38d669`
 </details>
 
 # Commit history
@@ -324,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240920
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/97a329350a14d747e0eae31e4e1c86ff3d4d4ea6...2b8f6a6be6a283b8cfc0f4b348092d897573cc5a)
 - `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a` [fix: fix flaky simulation integration test cancel ddl (#18626)](https://github.com/risingwavelabs/risingwave/pull/18626)
 - `409bc8d1b088f122ebe2285e5ef2dfff2fd12775` [refactor(meta): deprecate pin/unpin snapshot (#18493)](https://github.com/risingwavelabs/risingwave/pull/18493)
 - `6b29ec919341cccd6ce41dcf1280b900a68485bf` [feat(storage): variable vnode count support (#18415)](https://github.com/risingwavelabs/risingwave/pull/18415)
@@ -4321,16 +4324,4 @@
 - `d8ec952fffa840e55a9c4a10c2f49e413f97e4eb` [feat(sink): support doris sink (#12336)](https://github.com/risingwavelabs/risingwave/pull/12336)
 
 ## nightly-20230921
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6500c1edd93b8cd1bcc949a59d38bfce7f38d669...a12611d81b98ef437b632792057705e4bdfd5f74)
 - `a12611d81b98ef437b632792057705e4bdfd5f74` [refactor(connector): replace validate sink rpc with jni (#12312)](https://github.com/risingwavelabs/risingwave/pull/12312)
-- `f075a6b98cd6e27e4fa26cdf2dc1bacc5e93a395` [fix(dashboard): calculate lru_evicted_watermark_time_diff_ms in promsql  (#12431)](https://github.com/risingwavelabs/risingwave/pull/12431)
-- `a7b7688361c977039156493a7611ccd4a95e7bc4` [test(connector): introduce inline e2e test for CDC table schema change (#12344)](https://github.com/risingwavelabs/risingwave/pull/12344)
-- `8136111a7dac6034759952a40a3b457833152d57` [feat(compaction):  optimize compaction read to reduce compression and decode (#10673)](https://github.com/risingwavelabs/risingwave/pull/10673)
-- `6b60ea9d52502c71295f99fc92e9aae0c38fc033` [refactor(ctl): add meta restore tool to risectl (#12472)](https://github.com/risingwavelabs/risingwave/pull/12472)
-- `77d78f01f89bbab1ac014372dc8b6a5a7cebcca2` [feat(expr): add `_pg_expandarray` function (#12448)](https://github.com/risingwavelabs/risingwave/pull/12448)
-- `9efa876899163ccd694f6ce454716a7f0967a455` [chore(deps): Bump tokio-util from 0.7.8 to 0.7.9 (#12466)](https://github.com/risingwavelabs/risingwave/pull/12466)
-- `1b70059714d6e52cd50f6bed7be92fb1a09ec367` [feat: use Map to represent json field when building doc in es sink (#12464)](https://github.com/risingwavelabs/risingwave/pull/12464)
-- `1985bc8b90dd38855da43fadf81cef7f758cd6f9` [refactor(expr): use a wrapper for `eval_checked` (#12426)](https://github.com/risingwavelabs/risingwave/pull/12426)
-
-## nightly-20230920
-- `6500c1edd93b8cd1bcc949a59d38bfce7f38d669` [fix(sink): handle visibility in remote sink (#12463)](https://github.com/risingwavelabs/risingwave/pull/12463)
