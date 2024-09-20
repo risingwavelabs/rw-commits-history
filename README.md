@@ -324,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `eb2d9f4f773265e0d6ffa0ea1d3f6f27ddcd1d93` [chore(deps): bump sqlx from 0.7.2 to 0.8.1 in /integration_tests/feature-store/server (#18617)](https://github.com/risingwavelabs/risingwave/pull/18617)
+- `5652a1f66e651773072a34859f3c1d4b0a3b3527` [build(deps): bump arrow-udf to use arrow 52 (#18609)](https://github.com/risingwavelabs/risingwave/pull/18609)
+- `3c94345bd553ec83a911d4945c498b3484194d65` [refactor: minor refactor on create/alter source (#18619)](https://github.com/risingwavelabs/risingwave/pull/18619)
 - `3c743902d4922fe47aee472b1dc6ef51d4e67dc8` [feat(subscription): add metrics for cursor (#18052)](https://github.com/risingwavelabs/risingwave/pull/18052)
 - `af98091c3e9e29535584690896f4cc7e0e67898a` [refactor(compaction): deprecate safe_epoch (#18491)](https://github.com/risingwavelabs/risingwave/pull/18491)
 - `767dbc156022e964ef66ba7f164c5febc6a17d5f` [fix: forbid the usage of single quotation in title to avoid failure of cherry-pick (#18614)](https://github.com/risingwavelabs/risingwave/pull/18614)
