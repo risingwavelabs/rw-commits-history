@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3c743902d4922fe47aee472b1dc6ef51d4e67dc8` [feat(subscription): add metrics for cursor (#18052)](https://github.com/risingwavelabs/risingwave/pull/18052)
+- `af98091c3e9e29535584690896f4cc7e0e67898a` [refactor(compaction): deprecate safe_epoch (#18491)](https://github.com/risingwavelabs/risingwave/pull/18491)
 - `767dbc156022e964ef66ba7f164c5febc6a17d5f` [fix: forbid the usage of single quotation in title to avoid failure of cherry-pick (#18614)](https://github.com/risingwavelabs/risingwave/pull/18614)
 - `c6db8013319c4f540f9b2c93fc1671472e3757b2` [refactor: refactor arrow conversion (#18608)](https://github.com/risingwavelabs/risingwave/pull/18608)
 - `82ac534a92c3b269f5da3d7a4142297beb7e031c` [feat: upgrade foyer to 0.11.3 (#18313)](https://github.com/risingwavelabs/risingwave/pull/18313)
