@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a` [fix: fix flaky simulation integration test cancel ddl (#18626)](https://github.com/risingwavelabs/risingwave/pull/18626)
+- `409bc8d1b088f122ebe2285e5ef2dfff2fd12775` [refactor(meta): deprecate pin/unpin snapshot (#18493)](https://github.com/risingwavelabs/risingwave/pull/18493)
 - `6b29ec919341cccd6ce41dcf1280b900a68485bf` [feat(storage): variable vnode count support (#18415)](https://github.com/risingwavelabs/risingwave/pull/18415)
 - `eb2d9f4f773265e0d6ffa0ea1d3f6f27ddcd1d93` [chore(deps): bump sqlx from 0.7.2 to 0.8.1 in /integration_tests/feature-store/server (#18617)](https://github.com/risingwavelabs/risingwave/pull/18617)
 - `5652a1f66e651773072a34859f3c1d4b0a3b3527` [build(deps): bump arrow-udf to use arrow 52 (#18609)](https://github.com/risingwavelabs/risingwave/pull/18609)
