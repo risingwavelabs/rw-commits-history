@@ -315,7 +315,6 @@
 - `20230925` `79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94`
 - `20230924` `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33`
 - `20230922` `063f58e123c6eead17f0a0da01099e2d92d3ed35`
-- `20230921` `a12611d81b98ef437b632792057705e4bdfd5f74`
 </details>
 
 # Commit history
@@ -4312,16 +4311,4 @@
 - `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33` [fix(generated_column): correct the output message when use impure expr in generated columns. (#12494)](https://github.com/risingwavelabs/risingwave/pull/12494)
 
 ## nightly-20230922
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a12611d81b98ef437b632792057705e4bdfd5f74...063f58e123c6eead17f0a0da01099e2d92d3ed35)
 - `063f58e123c6eead17f0a0da01099e2d92d3ed35` [refactor(watermark): avoid sending min watermark (#12462)](https://github.com/risingwavelabs/risingwave/pull/12462)
-- `4fb087c9e37b70fb9329b171ac010c0bd2a73889` [feat(compaction): support serverless compaction (#11904)](https://github.com/risingwavelabs/risingwave/pull/11904)
-- `52388608d0fa7eeec29bd685266dba525a9076b0` [fix: ignore when fail to remove label in batch monitor (#12490)](https://github.com/risingwavelabs/risingwave/pull/12490)
-- `cdbb47f92430189db9002d33408489c94a4d8f9a` [chore(deps): Bump aho-corasick from 1.1.0 to 1.1.1 (#12483)](https://github.com/risingwavelabs/risingwave/pull/12483)
-- `c335f3d3c6b0f90e1bc62a0233fa8a586b4c4ba9` [chore(deps): Bump smallvec from 1.11.0 to 1.11.1 (#12484)](https://github.com/risingwavelabs/risingwave/pull/12484)
-- `d7cb2ae2c25be3bff470f22b17b3f8d231f1b0fc` [feat(streaming): persist row_count in backfill state_table (#12415)](https://github.com/risingwavelabs/risingwave/pull/12415)
-- `e3657478b40356f459fa6a2058069f60fd2f39f7` [feat: support `privatelink.endpoint` option in the WITH clause for Kafka connector (#12266)](https://github.com/risingwavelabs/risingwave/pull/12266)
-- `6d0b56d4c89a2118294c4e567bf3d039ffa323c6` [fix: remove cargo audit --ignore RUSTSEC-2022-0093 (#12465)](https://github.com/risingwavelabs/risingwave/pull/12465)
-- `d8ec952fffa840e55a9c4a10c2f49e413f97e4eb` [feat(sink): support doris sink (#12336)](https://github.com/risingwavelabs/risingwave/pull/12336)
-
-## nightly-20230921
-- `a12611d81b98ef437b632792057705e4bdfd5f74` [refactor(connector): replace validate sink rpc with jni (#12312)](https://github.com/risingwavelabs/risingwave/pull/12312)
