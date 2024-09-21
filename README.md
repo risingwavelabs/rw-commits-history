@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240921` `98a2d410ab40f58d2bc24b296aee6f644e380229`
 - `20240920` `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a`
 - `20240919` `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6`
 - `20240918` `5b625f81b06217c4350a57b8457006e6b9bfdd8d`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240921
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2b8f6a6be6a283b8cfc0f4b348092d897573cc5a...98a2d410ab40f58d2bc24b296aee6f644e380229)
 - `98a2d410ab40f58d2bc24b296aee6f644e380229` [chore(cdc): update sea-schema version to 0.15 (#18521)](https://github.com/risingwavelabs/risingwave/pull/18521)
 
 ## nightly-20240920
