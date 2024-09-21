@@ -315,7 +315,6 @@
 - `20230926` `09a1dcb22355677b3a7dcc589def5727b475bd88`
 - `20230925` `79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94`
 - `20230924` `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33`
-- `20230922` `063f58e123c6eead17f0a0da01099e2d92d3ed35`
 </details>
 
 # Commit history
@@ -4312,8 +4311,4 @@
 - `5fb8f3e40b9789b7b65d66fa99c4e7b33db8bf2b` [test(sink): add e2e test for pulsar-sink (#12505)](https://github.com/risingwavelabs/risingwave/pull/12505)
 
 ## nightly-20230924
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/063f58e123c6eead17f0a0da01099e2d92d3ed35...5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33)
 - `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33` [fix(generated_column): correct the output message when use impure expr in generated columns. (#12494)](https://github.com/risingwavelabs/risingwave/pull/12494)
-
-## nightly-20230922
-- `063f58e123c6eead17f0a0da01099e2d92d3ed35` [refactor(watermark): avoid sending min watermark (#12462)](https://github.com/risingwavelabs/risingwave/pull/12462)
