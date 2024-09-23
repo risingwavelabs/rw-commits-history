@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240923` `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a`
 - `20240922` `bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d`
 - `20240921` `98a2d410ab40f58d2bc24b296aee6f644e380229`
 - `20240920` `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a`
@@ -324,6 +325,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d5dbc6ac1cd266140bb0740b3fedc53dbb53b07c` [fix(rpc): workaround for tonic hanging on large error message (#18639)](https://github.com/risingwavelabs/risingwave/pull/18639)
+- `a5ec3eaacf649a42cc3bb496eef73e3be6e0c7cc` [refactor(rpc): prefer `monitored_connect` over `connect` (#18635)](https://github.com/risingwavelabs/risingwave/pull/18635)
+
+## nightly-20240923
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d...a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a)
 - `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a` [feat(frontend): generate query epoch by committed epoch of involved tables (#18592)](https://github.com/risingwavelabs/risingwave/pull/18592)
 - `5e427d6c318f4489253495d668bfd7dfa27449ca` [feat(batch): enable batch query metric by default and only collect node level data (#18627)](https://github.com/risingwavelabs/risingwave/pull/18627)
 - `f3bd45624227f9eb1b3182f1e8bb7919a71a09b8` [refactor(agg): separate semantics of `AggKind` and `AggType` (#18640)](https://github.com/risingwavelabs/risingwave/pull/18640)
