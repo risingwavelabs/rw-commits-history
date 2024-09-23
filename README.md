@@ -316,7 +316,6 @@
 - `20230927` `454e72d056a4e9e2db4a13cbef37d591b18ce2f6`
 - `20230926` `09a1dcb22355677b3a7dcc589def5727b475bd88`
 - `20230925` `79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94`
-- `20230924` `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33`
 </details>
 
 # Commit history
@@ -4321,13 +4320,4 @@
 - `a0f0b6a6ee60c7664f2a2a081fe7a7585ec6d2c7` [ci: increase timeout for unit test/buid-other (#12498)](https://github.com/risingwavelabs/risingwave/pull/12498)
 
 ## nightly-20230925
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33...79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94)
 - `79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94` [fix(storage): fix condition of compaction task validator (#12473)](https://github.com/risingwavelabs/risingwave/pull/12473)
-- `bc43c393446ef402a5ca102e9d2107a54465912c` [feat(sink): support compression codec in kafka sink (#12439)](https://github.com/risingwavelabs/risingwave/pull/12439)
-- `d842cfa35cc588163141ad82fdd9099f2ef43aaf` [refactor(storage): refactor ReportTask event to reduce the network packet size (#12455)](https://github.com/risingwavelabs/risingwave/pull/12455)
-- `d02112a5bb6fc4a207f284c3189b6987e5722584` [refactor(dashboard): show backpressure in fragment level (#12397)](https://github.com/risingwavelabs/risingwave/pull/12397)
-- `3016948c9422c6303248bbdcc0aca9a765bee115` [chore: enable query log by default when using risedev (#12406)](https://github.com/risingwavelabs/risingwave/pull/12406)
-- `5fb8f3e40b9789b7b65d66fa99c4e7b33db8bf2b` [test(sink): add e2e test for pulsar-sink (#12505)](https://github.com/risingwavelabs/risingwave/pull/12505)
-
-## nightly-20230924
-- `5ab1f7a2fb8bf1e0b984598d95b69b50c6410c33` [fix(generated_column): correct the output message when use impure expr in generated columns. (#12494)](https://github.com/risingwavelabs/risingwave/pull/12494)
