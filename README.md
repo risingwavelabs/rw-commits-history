@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `039af9dd98477abd1e24cf52caeeff56bcd90e9b` [refactor(meta): remove BarrierInfo and reduce pause and resume log output (#18630)](https://github.com/risingwavelabs/risingwave/pull/18630)
 - `2651278ac2a301fa23229b39eb66432515f33c51` [feat(frontend): frontend wait hummock version id for ddl (#18613)](https://github.com/risingwavelabs/risingwave/pull/18613)
 - `bfa43091930004d008bcd0b3bd7407549e06c6d7` [refactor(object store): OpenDAL write concurrent = 256 (#18590)](https://github.com/risingwavelabs/risingwave/pull/18590)
 
