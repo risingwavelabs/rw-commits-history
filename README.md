@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `27458d8b038992c0e3f570bac4cfa2887a5a5454` [feat(storage): bump opendal to v0.49.0 (#18266)](https://github.com/risingwavelabs/risingwave/pull/18266)
 - `d5dbc6ac1cd266140bb0740b3fedc53dbb53b07c` [fix(rpc): workaround for tonic hanging on large error message (#18639)](https://github.com/risingwavelabs/risingwave/pull/18639)
 - `a5ec3eaacf649a42cc3bb496eef73e3be6e0c7cc` [refactor(rpc): prefer `monitored_connect` over `connect` (#18635)](https://github.com/risingwavelabs/risingwave/pull/18635)
 
