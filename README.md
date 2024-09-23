@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f3bd45624227f9eb1b3182f1e8bb7919a71a09b8` [refactor(agg): separate semantics of `AggKind` and `AggType` (#18640)](https://github.com/risingwavelabs/risingwave/pull/18640)
 - `92317823a2aa4f4342a74528c721f983d2e39aaa` [fix(meta): fix type conversion (#18638)](https://github.com/risingwavelabs/risingwave/pull/18638)
 - `8fa0468689002dc919c2560e1a264f754d5dc4d9` [chore(dashboard): rename relation dependency graph to relation graph (#18612)](https://github.com/risingwavelabs/risingwave/pull/18612)
 - `039af9dd98477abd1e24cf52caeeff56bcd90e9b` [refactor(meta): remove BarrierInfo and reduce pause and resume log output (#18630)](https://github.com/risingwavelabs/risingwave/pull/18630)
