@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bfa43091930004d008bcd0b3bd7407549e06c6d7` [refactor(object store): OpenDAL write concurrent = 256 (#18590)](https://github.com/risingwavelabs/risingwave/pull/18590)
 
 ## nightly-20240922
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98a2d410ab40f58d2bc24b296aee6f644e380229...bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d)
