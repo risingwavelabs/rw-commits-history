@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6eaecbb21e4e3acd11cf5ec158efcf3451457cae` [fix(ci): build 2.0.0 from source in backwards compat test (#18649)](https://github.com/risingwavelabs/risingwave/pull/18649)
 - `148a5fceca496c06e5e244cf86e55878c697ea1b` [fix: s3 source main-cron (#18655)](https://github.com/risingwavelabs/risingwave/pull/18655)
 - `477706f999cdac4725fb8be0c4e1c9ec59cc510a` [fix(test): fix backward compatibility test (#18656)](https://github.com/risingwavelabs/risingwave/pull/18656)
 - `e7458205ac18407c89a6f88d497ea36e2ceab7be` [fix(pg-cdc): fix postgres.publication_exist, found in issues#18628 (#18629)](https://github.com/risingwavelabs/risingwave/pull/18629)
