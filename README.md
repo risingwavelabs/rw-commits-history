@@ -324,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5f800b9a167c8850f048145adc9d6af7ea7ad22c` [feat(streaming): support up to 16-bit vnode count in row id gen (#18529)](https://github.com/risingwavelabs/risingwave/pull/18529)
+- `a24d557083748db6d62f7481bbd6cfbbe3f57eef` [chore(risedev): add `env` fields in schema of risedev profile (#18665)](https://github.com/risingwavelabs/risingwave/pull/18665)
+- `7b977a2e7d222f4666a698941c0ca845e62f5552` [feat: support per-fragment vnode count (#18444)](https://github.com/risingwavelabs/risingwave/pull/18444)
 - `fe01e22d41923c150a8e0b7d784d12695a452972` [refactor(test): migrate s3 parquet test from s3 to minio (#18662)](https://github.com/risingwavelabs/risingwave/pull/18662)
 - `6eaecbb21e4e3acd11cf5ec158efcf3451457cae` [fix(ci): build 2.0.0 from source in backwards compat test (#18649)](https://github.com/risingwavelabs/risingwave/pull/18649)
 - `148a5fceca496c06e5e244cf86e55878c697ea1b` [fix: s3 source main-cron (#18655)](https://github.com/risingwavelabs/risingwave/pull/18655)
