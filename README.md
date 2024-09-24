@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c7975e0be2c31d9c156a9a2ea5810ddd2357ded2` [fix(pg-cdc): check ancestors and descendants for pg partitions (#18648)](https://github.com/risingwavelabs/risingwave/pull/18648)
 - `c467dcdc46ab8462a4794165ef64bfe671d98ef1` [fix(scale): Fixed propagation issue with low level no shuffle scale in the sql backend  (#18676)](https://github.com/risingwavelabs/risingwave/pull/18676)
 
 ## nightly-20240924
