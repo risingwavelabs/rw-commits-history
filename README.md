@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `75cc17b7178f5a5ffadf5b75fec18c05c99de2f7` [fix(ci): correct release check (#18666)](https://github.com/risingwavelabs/risingwave/pull/18666)
 - `5f800b9a167c8850f048145adc9d6af7ea7ad22c` [feat(streaming): support up to 16-bit vnode count in row id gen (#18529)](https://github.com/risingwavelabs/risingwave/pull/18529)
 - `a24d557083748db6d62f7481bbd6cfbbe3f57eef` [chore(risedev): add `env` fields in schema of risedev profile (#18665)](https://github.com/risingwavelabs/risingwave/pull/18665)
 - `7b977a2e7d222f4666a698941c0ca845e62f5552` [feat: support per-fragment vnode count (#18444)](https://github.com/risingwavelabs/risingwave/pull/18444)
