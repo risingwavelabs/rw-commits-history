@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c467dcdc46ab8462a4794165ef64bfe671d98ef1` [fix(scale): Fixed propagation issue with low level no shuffle scale in the sql backend  (#18676)](https://github.com/risingwavelabs/risingwave/pull/18676)
 
 ## nightly-20240924
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a...29adeb97370b6a77a4dcc857ac55249016dc3be9)
