@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240924` `29adeb97370b6a77a4dcc857ac55249016dc3be9`
 - `20240923` `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a`
 - `20240922` `bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d`
 - `20240921` `98a2d410ab40f58d2bc24b296aee6f644e380229`
@@ -324,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240924
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a...29adeb97370b6a77a4dcc857ac55249016dc3be9)
 - `29adeb97370b6a77a4dcc857ac55249016dc3be9` [refactor(storage): adapt time travel cache to partial checkpoint (#18646)](https://github.com/risingwavelabs/risingwave/pull/18646)
 - `4401694e4e96eec9e26be7384d26c0460b88e9e1` [chore(ci): build v1.10.2 from source for backwards compat tests (#18667)](https://github.com/risingwavelabs/risingwave/pull/18667)
 - `de73970705424e11a9bf16950402efc860bd3944` [feat(cdc): support default column in auto schema mapping (#18571)](https://github.com/risingwavelabs/risingwave/pull/18571)
