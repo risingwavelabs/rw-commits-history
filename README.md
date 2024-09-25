@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e535aa7c743ee603265a18e0d145132bb5b3e11a` [refactor(kinesis): rename fields of `KinesisOffset` and `KinesisSplit` to make everything explicit (#18704)](https://github.com/risingwavelabs/risingwave/pull/18704)
+- `1db23dec67b89ac7f0b4b67ea978d202783d119b` [feat: support pg_catalog.pg_sequence (#18714)](https://github.com/risingwavelabs/risingwave/pull/18714)
 - `fdc57908b8622672f9f4f9ae68f3cf8feb56eb51` [fix(pg-cdc): fix compatibility issue of publish_via_partition_root (#18691)](https://github.com/risingwavelabs/risingwave/pull/18691)
 - `45ef6c45bac250e351a1dda1ad366e02ffe98343` [feat(sink): add es dynamic route (#18698)](https://github.com/risingwavelabs/risingwave/pull/18698)
 - `d1baacf347ae1e7dec11191e6f138a4438445d9a` [chore(ci): fix the warning due to Node 16 EOL for GitHub Actions. (#18710)](https://github.com/risingwavelabs/risingwave/pull/18710)
