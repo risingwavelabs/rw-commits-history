@@ -325,6 +325,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dac92a43ecf00220ec456eff6cc55e5c664cdebc` [fix(scale): Remove the wrong assert for broadcast dispatcher in the scaling post apply stage (#18681)](https://github.com/risingwavelabs/risingwave/pull/18681)
+- `97f3d9c3c5da252c7b1bf66ef0aa0c64c43e2460` [chore(deps): bump dashmap from 5.5.3 to 6.1.0 (#18429)](https://github.com/risingwavelabs/risingwave/pull/18429)
 - `c7975e0be2c31d9c156a9a2ea5810ddd2357ded2` [fix(pg-cdc): check ancestors and descendants for pg partitions (#18648)](https://github.com/risingwavelabs/risingwave/pull/18648)
 - `c467dcdc46ab8462a4794165ef64bfe671d98ef1` [fix(scale): Fixed propagation issue with low level no shuffle scale in the sql backend  (#18676)](https://github.com/risingwavelabs/risingwave/pull/18676)
 
@@ -1323,7 +1325,6 @@
 
 ## nightly-20240611
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6de082d590e8cbb92e6ceee6a941a8d05aa4bf76...daa1c42c9966978de570968a7f5b56523050a7b1)
-- `daa1c42c9966978de570968a7f5b56523050a7b1` [feat: calculate reserved memory based on a gradient proportion (#16992)](https://github.com/risingwavelabs/risingwave/pull/16992)
 - `daa1c42c9966978de570968a7f5b56523050a7b1` [feat: calculate reserved memory based on a gradient proportion (#16992)](https://github.com/risingwavelabs/risingwave/pull/16992)
 - `e6b8e1283de6fd5ead7672ccb2980ff01ec7adf4` [doc(stream): add docs on initializing the replicated state table (#17027)](https://github.com/risingwavelabs/risingwave/pull/17027)
 - `21babd5e513e3d12bac67a494005d8e8d9b46c68` [chore: expose associated source in rw_sources (#17150)](https://github.com/risingwavelabs/risingwave/pull/17150)
