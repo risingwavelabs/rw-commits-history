@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0bcebd888f5281e9c356809d0daea77677d9ea18` [feat: allow append only table with pk (#18634)](https://github.com/risingwavelabs/risingwave/pull/18634)
 - `ce70a51f4fb05ef9b0efc01c645e490ff68b624d` [fix(agg): fix embedded UDAF as window function (#18632)](https://github.com/risingwavelabs/risingwave/pull/18632)
 - `93601398c5b9526775c28398fa43f377a4530afa` [fix(ci): add contents write permission cherry pick workflow (#18695)](https://github.com/risingwavelabs/risingwave/pull/18695)
 - `dac92a43ecf00220ec456eff6cc55e5c664cdebc` [fix(scale): Remove the wrong assert for broadcast dispatcher in the scaling post apply stage (#18681)](https://github.com/risingwavelabs/risingwave/pull/18681)
