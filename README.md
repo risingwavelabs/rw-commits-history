@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa` [fix(mysql-cdc): add missing data types when parse schema change event (#18706)](https://github.com/risingwavelabs/risingwave/pull/18706)
 - `2c89c244f0ca12dd3b151444cfed4ca838087eff` [feat(telemetry): record cloud hosted UUID (#18019)](https://github.com/risingwavelabs/risingwave/pull/18019)
 - `1993bae530d756d64d33b631eebfadd4c1adc473` [feat: support information_schema.schemata (#18709)](https://github.com/risingwavelabs/risingwave/pull/18709)
 - `7f39b6a0f3a1b50547259f9bddeca0b12c374d5b` [fix(kinesis): bump `aws-sdk-kinesis` to 1.18.0 to fix creation failure (#18702)](https://github.com/risingwavelabs/risingwave/pull/18702)
