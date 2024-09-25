@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9aa26bd099ff2e55bd1cb844d65930631b845ed3` [feat: support SET TIME ZONE INTERVAL '+00:00' HOUR TO MINUTE; (#18705)](https://github.com/risingwavelabs/risingwave/pull/18705)
 - `9629fddebdaabd49a94e3ac9fb0935995fd3049a` [fix(ci): fix release static build (#18689)](https://github.com/risingwavelabs/risingwave/pull/18689)
 - `a7e60cb7d1998af459bbe30ba52ba2a6ad62cb48` [fix(foyer): upgrade foyer to involve some bug fixes (#18693)](https://github.com/risingwavelabs/risingwave/pull/18693)
 - `e5498fb3f462a9350b196cbce99485be01488a21` [build(deps): bump iceberg-rust to latest main (#18686)](https://github.com/risingwavelabs/risingwave/pull/18686)
