@@ -1324,6 +1324,7 @@
 ## nightly-20240611
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6de082d590e8cbb92e6ceee6a941a8d05aa4bf76...daa1c42c9966978de570968a7f5b56523050a7b1)
 - `daa1c42c9966978de570968a7f5b56523050a7b1` [feat: calculate reserved memory based on a gradient proportion (#16992)](https://github.com/risingwavelabs/risingwave/pull/16992)
+- `daa1c42c9966978de570968a7f5b56523050a7b1` [feat: calculate reserved memory based on a gradient proportion (#16992)](https://github.com/risingwavelabs/risingwave/pull/16992)
 - `e6b8e1283de6fd5ead7672ccb2980ff01ec7adf4` [doc(stream): add docs on initializing the replicated state table (#17027)](https://github.com/risingwavelabs/risingwave/pull/17027)
 - `21babd5e513e3d12bac67a494005d8e8d9b46c68` [chore: expose associated source in rw_sources (#17150)](https://github.com/risingwavelabs/risingwave/pull/17150)
 - `61bae13dff4aa0f987145a8c1cfcc4e0cdc178aa` [fix(sink): do compaction in chunk for upsert sink (#17174)](https://github.com/risingwavelabs/risingwave/pull/17174)
