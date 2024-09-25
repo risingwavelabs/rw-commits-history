@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `45ef6c45bac250e351a1dda1ad366e02ffe98343` [feat(sink): add es dynamic route (#18698)](https://github.com/risingwavelabs/risingwave/pull/18698)
+- `d1baacf347ae1e7dec11191e6f138a4438445d9a` [chore(ci): fix the warning due to Node 16 EOL for GitHub Actions. (#18710)](https://github.com/risingwavelabs/risingwave/pull/18710)
 
 ## nightly-20240925
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29adeb97370b6a77a4dcc857ac55249016dc3be9...0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa)
