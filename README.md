@@ -325,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2c89c244f0ca12dd3b151444cfed4ca838087eff` [feat(telemetry): record cloud hosted UUID (#18019)](https://github.com/risingwavelabs/risingwave/pull/18019)
+- `1993bae530d756d64d33b631eebfadd4c1adc473` [feat: support information_schema.schemata (#18709)](https://github.com/risingwavelabs/risingwave/pull/18709)
+- `7f39b6a0f3a1b50547259f9bddeca0b12c374d5b` [fix(kinesis): bump `aws-sdk-kinesis` to 1.18.0 to fix creation failure (#18702)](https://github.com/risingwavelabs/risingwave/pull/18702)
 - `9aa26bd099ff2e55bd1cb844d65930631b845ed3` [feat: support SET TIME ZONE INTERVAL '+00:00' HOUR TO MINUTE; (#18705)](https://github.com/risingwavelabs/risingwave/pull/18705)
 - `9629fddebdaabd49a94e3ac9fb0935995fd3049a` [fix(ci): fix release static build (#18689)](https://github.com/risingwavelabs/risingwave/pull/18689)
 - `a7e60cb7d1998af459bbe30ba52ba2a6ad62cb48` [fix(foyer): upgrade foyer to involve some bug fixes (#18693)](https://github.com/risingwavelabs/risingwave/pull/18693)
