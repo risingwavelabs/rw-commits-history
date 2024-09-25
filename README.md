@@ -325,6 +325,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9629fddebdaabd49a94e3ac9fb0935995fd3049a` [fix(ci): fix release static build (#18689)](https://github.com/risingwavelabs/risingwave/pull/18689)
+- `a7e60cb7d1998af459bbe30ba52ba2a6ad62cb48` [fix(foyer): upgrade foyer to involve some bug fixes (#18693)](https://github.com/risingwavelabs/risingwave/pull/18693)
 - `e5498fb3f462a9350b196cbce99485be01488a21` [build(deps): bump iceberg-rust to latest main (#18686)](https://github.com/risingwavelabs/risingwave/pull/18686)
 - `0bcebd888f5281e9c356809d0daea77677d9ea18` [feat: allow append only table with pk (#18634)](https://github.com/risingwavelabs/risingwave/pull/18634)
 - `ce70a51f4fb05ef9b0efc01c645e490ff68b624d` [fix(agg): fix embedded UDAF as window function (#18632)](https://github.com/risingwavelabs/risingwave/pull/18632)
