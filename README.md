@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `93601398c5b9526775c28398fa43f377a4530afa` [fix(ci): add contents write permission cherry pick workflow (#18695)](https://github.com/risingwavelabs/risingwave/pull/18695)
 - `dac92a43ecf00220ec456eff6cc55e5c664cdebc` [fix(scale): Remove the wrong assert for broadcast dispatcher in the scaling post apply stage (#18681)](https://github.com/risingwavelabs/risingwave/pull/18681)
 - `97f3d9c3c5da252c7b1bf66ef0aa0c64c43e2460` [chore(deps): bump dashmap from 5.5.3 to 6.1.0 (#18429)](https://github.com/risingwavelabs/risingwave/pull/18429)
 - `c7975e0be2c31d9c156a9a2ea5810ddd2357ded2` [fix(pg-cdc): check ancestors and descendants for pg partitions (#18648)](https://github.com/risingwavelabs/risingwave/pull/18648)
