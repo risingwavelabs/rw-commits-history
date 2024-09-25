@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240925` `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa`
 - `20240924` `29adeb97370b6a77a4dcc857ac55249016dc3be9`
 - `20240923` `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a`
 - `20240922` `bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d`
@@ -325,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240925
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29adeb97370b6a77a4dcc857ac55249016dc3be9...0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa)
 - `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa` [fix(mysql-cdc): add missing data types when parse schema change event (#18706)](https://github.com/risingwavelabs/risingwave/pull/18706)
 - `2c89c244f0ca12dd3b151444cfed4ca838087eff` [feat(telemetry): record cloud hosted UUID (#18019)](https://github.com/risingwavelabs/risingwave/pull/18019)
 - `1993bae530d756d64d33b631eebfadd4c1adc473` [feat: support information_schema.schemata (#18709)](https://github.com/risingwavelabs/risingwave/pull/18709)
