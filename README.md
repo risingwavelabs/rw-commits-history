@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fdc57908b8622672f9f4f9ae68f3cf8feb56eb51` [fix(pg-cdc): fix compatibility issue of publish_via_partition_root (#18691)](https://github.com/risingwavelabs/risingwave/pull/18691)
 - `45ef6c45bac250e351a1dda1ad366e02ffe98343` [feat(sink): add es dynamic route (#18698)](https://github.com/risingwavelabs/risingwave/pull/18698)
 - `d1baacf347ae1e7dec11191e6f138a4438445d9a` [chore(ci): fix the warning due to Node 16 EOL for GitHub Actions. (#18710)](https://github.com/risingwavelabs/risingwave/pull/18710)
 
