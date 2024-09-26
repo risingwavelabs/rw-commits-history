@@ -316,8 +316,6 @@
 - `20230929` `ae3a59da33a65fb2909361eaa186440ff9fa0883`
 - `20230928` `78b83dfec37014b56a8aaaaf6dfab27c4bcd6005`
 - `20230927` `454e72d056a4e9e2db4a13cbef37d591b18ce2f6`
-- `20230926` `09a1dcb22355677b3a7dcc589def5727b475bd88`
-- `20230925` `79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94`
 </details>
 
 # Commit history
@@ -4323,45 +4321,4 @@
 - `9386536d539d8226648e20211d79b127469b697d` [fix: check kafka reachability without involving spec topic (#12569)](https://github.com/risingwavelabs/risingwave/pull/12569)
 
 ## nightly-20230927
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/09a1dcb22355677b3a7dcc589def5727b475bd88...454e72d056a4e9e2db4a13cbef37d591b18ce2f6)
 - `454e72d056a4e9e2db4a13cbef37d591b18ce2f6` [feat: use seperated runtime for source manager (#12571)](https://github.com/risingwavelabs/risingwave/pull/12571)
-- `1376e0e054271d2ca9f775fa668015cc9e430cab` [fix(expr): return error when get_window_start_with_offset overflows (#12566)](https://github.com/risingwavelabs/risingwave/pull/12566)
-- `491273ddb2007f5338974268d80889776264887b` [chore: refine start log (#12567)](https://github.com/risingwavelabs/risingwave/pull/12567)
-- `6f9c5c2f145530f1254244fa18caa6879f45879d` [feat(meta): initialization and modeling for sql-backend based meta store (#12454)](https://github.com/risingwavelabs/risingwave/pull/12454)
-- `0126304d03810ef02a7de049984a2336235e9107` [feat(expr): expression node level non-strict evaluation (#12461)](https://github.com/risingwavelabs/risingwave/pull/12461)
-- `d479042a4df408b5b436e2e64b718a201b90ce88` [test: add duckdb cte tests & fix some minor bugs (#12527)](https://github.com/risingwavelabs/risingwave/pull/12527)
-- `e7024f5df288c88a3ff267a45e23149dc66dfc2f` [chore(over window): make some logs trace level (#12559)](https://github.com/risingwavelabs/risingwave/pull/12559)
-- `ea803defda04bd547a7705b6457e57f066f5d7e5` [chore(deps): Bump syn from 2.0.33 to 2.0.37 (#12497)](https://github.com/risingwavelabs/risingwave/pull/12497)
-- `2c332fcf671caafadd3de655ecf415099e8976c2` [chore: fix typo: MongoProjection (#12554)](https://github.com/risingwavelabs/risingwave/pull/12554)
-- `aad4119c278d0a814761ef98d08cedd399465779` [feat(optimizer): support apply hop window transpose rule (#12338)](https://github.com/risingwavelabs/risingwave/pull/12338)
-- `4ca3a9ace68f9e6ad132fa9adfbe5fee434c99dd` [feat(sink): handle stream key sink pk mismatch (#12458)](https://github.com/risingwavelabs/risingwave/pull/12458)
-- `590faea40533edfa149d1b142f3546c20e4b5100` [refactor(connector): remove `WriteGuard` and `fulfill_meta_column` from parser (#12542)](https://github.com/risingwavelabs/risingwave/pull/12542)
-- `85248b7e80fbbb2a6fccd2f2c6948d8392613ed0` [refactor(connector): replace sink writer rpc with jni (#12480)](https://github.com/risingwavelabs/risingwave/pull/12480)
-- `0726b590765e3325fbeb07dde4065579f852b87a` [fix(config): make metrics_level opt backward compatible (#12541)](https://github.com/risingwavelabs/risingwave/pull/12541)
-- `d583594284a8a364b430114b0d8cf63d1fae585a` [refactor(expr): separate function implementations into a new crate (#12485)](https://github.com/risingwavelabs/risingwave/pull/12485)
-
-## nightly-20230926
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94...09a1dcb22355677b3a7dcc589def5727b475bd88)
-- `09a1dcb22355677b3a7dcc589def5727b475bd88` [fix(over window): don't expect stream keys in UpdateDelete and UpdateInsert the same (#12536)](https://github.com/risingwavelabs/risingwave/pull/12536)
-- `471bfa2c91fb4c32e94171afb49771de294cf741` [feat(sink): turn sink writer into higher level log sinker (#12152)](https://github.com/risingwavelabs/risingwave/pull/12152)
-- `1ff58bc53f445d3f01a1ddaab5f4a92f5b337ea9` [refactor(backup): refine error message (#12388)](https://github.com/risingwavelabs/risingwave/pull/12388)
-- `f38554ef84ad3aa795671e4f9f8ca0a5d49712bb` [refactor(sink): refine sink trait and macro (#12478)](https://github.com/risingwavelabs/risingwave/pull/12478)
-- `b7c8c9d3d21cfebc3d66844fd190ad4f33bf9c82` [feat(meta): add create_type to `Table` (#12529)](https://github.com/risingwavelabs/risingwave/pull/12529)
-- `5eeef12e02e5d245a7ff37a7492bdfee2e90e1e7` [chore(java-binding): refine stream chunk benchmark (#12504)](https://github.com/risingwavelabs/risingwave/pull/12504)
-- `7e700e700f19891fd588082e612e8c58d55c41ea` [refactor(sink): decouple sink formatter and payload writer (#12515)](https://github.com/risingwavelabs/risingwave/pull/12515)
-- `fd7e485a9af902c3b18f49e76e87445bdd79f447` [chore: bump risingwave version in docker compose to 1.2.0 (#12530)](https://github.com/risingwavelabs/risingwave/pull/12530)
-- `77af093c60f28e8859af0d4365ba37789c71db5f` [feat(frontend): add rw_catalog.rw_hummock_sstables (#12532)](https://github.com/risingwavelabs/risingwave/pull/12532)
-- `d979e88b9575a8878c59779b094b6d51deba4b43` [refactor(storage): reorg selector (#12392)](https://github.com/risingwavelabs/risingwave/pull/12392)
-- `417561d3989374bf795c83687d38203fd717f113` [feat(test): support customized source logic in deterministic test (#12456)](https://github.com/risingwavelabs/risingwave/pull/12456)
-- `a6fb3412b0b6fe8c0209676be0b3e91559c1c309` [feat(streaming): recover `no_shuffle_backfill` (#12493)](https://github.com/risingwavelabs/risingwave/pull/12493)
-- `b75ff7976d751df683446569e4b9f87f81cfaf71` [feat(java-binding): generate jni method signature with macro (#12487)](https://github.com/risingwavelabs/risingwave/pull/12487)
-- `42290e4944e73be96a411abf0b84fe0a3299d79e` [feat(sink): Support clickhouse sink if rw columns is subset of ck (#12123)](https://github.com/risingwavelabs/risingwave/pull/12123)
-- `f3793716c4be25d5392643fe02637f362389ea7d` [fix(metric): fix metric for branched sst info (#12477)](https://github.com/risingwavelabs/risingwave/pull/12477)
-- `ea9b94c29adb94145746b79341749375132fdcd9` [feat(serverless compaction): add retry strategy for grpc proxy client (#12506)](https://github.com/risingwavelabs/risingwave/pull/12506)
-- `31aa925988feba274d4335b1aa0b714320569774` [fix(sink): try poll response stream error while sending request (#12525)](https://github.com/risingwavelabs/risingwave/pull/12525)
-- `d0484ebfe932380eafc97d6d32c91d9d95e77dbb` [refactor(frontend): don't expose key range in rw_hummock_*_version (#12522)](https://github.com/risingwavelabs/risingwave/pull/12522)
-- `9599be0ac5fa2c7ed57e877d6f30de7ba4fa3d12` [refactor(optimizer): rename logical pk to stream key (#12516)](https://github.com/risingwavelabs/risingwave/pull/12516)
-- `a0f0b6a6ee60c7664f2a2a081fe7a7585ec6d2c7` [ci: increase timeout for unit test/buid-other (#12498)](https://github.com/risingwavelabs/risingwave/pull/12498)
-
-## nightly-20230925
-- `79b5c4ccdebf74df9d0e6e0b66943bcedd06ca94` [fix(storage): fix condition of compaction task validator (#12473)](https://github.com/risingwavelabs/risingwave/pull/12473)
