@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5e2cfac4f0fa8c29c21ac6691c7bf8c0abd45a90` [chore(deps): bump pbjson from 0.6.0 to 0.7.0 (#18718)](https://github.com/risingwavelabs/risingwave/pull/18718)
+- `375e9338534daacafe628342c85da882c9d37a72` [feat: support information_schema.table_constraints (#18716)](https://github.com/risingwavelabs/risingwave/pull/18716)
 - `b3765cea8fb25987d8fbce3377781ae89bbd9697` [fix(ci): change GITHUB_TOKEN permission to write-all (#18724)](https://github.com/risingwavelabs/risingwave/pull/18724)
 - `e535aa7c743ee603265a18e0d145132bb5b3e11a` [refactor(kinesis): rename fields of `KinesisOffset` and `KinesisSplit` to make everything explicit (#18704)](https://github.com/risingwavelabs/risingwave/pull/18704)
 - `1db23dec67b89ac7f0b4b67ea978d202783d119b` [feat: support pg_catalog.pg_sequence (#18714)](https://github.com/risingwavelabs/risingwave/pull/18714)
