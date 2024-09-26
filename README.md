@@ -316,7 +316,6 @@
 - `20231002` `6fb7ae5f47addc3953e3be76778c70dd611a5bf4`
 - `20230929` `ae3a59da33a65fb2909361eaa186440ff9fa0883`
 - `20230928` `78b83dfec37014b56a8aaaaf6dfab27c4bcd6005`
-- `20230927` `454e72d056a4e9e2db4a13cbef37d591b18ce2f6`
 </details>
 
 # Commit history
@@ -4316,19 +4315,4 @@
 - `31aac5a9496ceed949e34966867e59dffd5a8621` [refactor(ci): simplify sqlsmith workflow (#12592)](https://github.com/risingwavelabs/risingwave/pull/12592)
 
 ## nightly-20230928
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/454e72d056a4e9e2db4a13cbef37d591b18ce2f6...78b83dfec37014b56a8aaaaf6dfab27c4bcd6005)
 - `78b83dfec37014b56a8aaaaf6dfab27c4bcd6005` [fix: allow configure message.timeout.ms and max.in.flight for kafka sink (#12574)](https://github.com/risingwavelabs/risingwave/pull/12574)
-- `a8f21ed087930f7806a0bf9c2362c31569a84e1b` [fix(test): fix meta recovery test (#12586)](https://github.com/risingwavelabs/risingwave/pull/12586)
-- `81c83a0ab9a2c60e8b81f32c00a9a99b5558d053` [chore(connector): no-build-rust (#12585)](https://github.com/risingwavelabs/risingwave/pull/12585)
-- `5ef656133b02ecac5820a87b79123f124d3295fe` [refactor(metric): migrate connector sink metrics to cn (#12584)](https://github.com/risingwavelabs/risingwave/pull/12584)
-- `dc6865cb358832dd24d13edeb4e4c2e5a60ad023` [fix(storage): fix delete range test timeout (#12568)](https://github.com/risingwavelabs/risingwave/pull/12568)
-- `8f220de0935e6cd792ec4f21b4ef3ad13bf41f7f` [feat(sink): await on kafka delivery future on QueueFull (#12546)](https://github.com/risingwavelabs/risingwave/pull/12546)
-- `1faa565a04dde6f01eaeb31bddb04b4b945f3908` [fix(test): prepare connector libs path for iceberg sink test (#12579)](https://github.com/risingwavelabs/risingwave/pull/12579)
-- `f8a024f3111c6369f613aad3adaadaec7c3816d3` [fix(test): temporal join watermark test select eowc skipif in-memory and inc sleep time (#12581)](https://github.com/risingwavelabs/risingwave/pull/12581)
-- `f869d8b7822383760d58ac48e66d5bafd69cf83e` [feat: support iceberg sink upsert mode (#12576)](https://github.com/risingwavelabs/risingwave/pull/12576)
-- `6f099ae97269c630864c5d71917d45cef7e95c9c` [fix(citus-cdc): fix publication alter of citus connector (#12488)](https://github.com/risingwavelabs/risingwave/pull/12488)
-- `48b85010e0c773f59d35642e3374b6eadf4b5feb` [chore: update error message of object storage (#12561)](https://github.com/risingwavelabs/risingwave/pull/12561)
-- `9386536d539d8226648e20211d79b127469b697d` [fix: check kafka reachability without involving spec topic (#12569)](https://github.com/risingwavelabs/risingwave/pull/12569)
-
-## nightly-20230927
-- `454e72d056a4e9e2db4a13cbef37d591b18ce2f6` [feat: use seperated runtime for source manager (#12571)](https://github.com/risingwavelabs/risingwave/pull/12571)
