@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240926` `75080b765e5914c07e906de4eff7f16146aa207d`
 - `20240925` `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa`
 - `20240924` `29adeb97370b6a77a4dcc857ac55249016dc3be9`
 - `20240923` `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a`
@@ -324,6 +325,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `39141cc47b0acf5ef81c1d8a5ecf792ffcf36c06` [refactor: sink metrics (#18730)](https://github.com/risingwavelabs/risingwave/pull/18730)
+
+## nightly-20240926
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa...75080b765e5914c07e906de4eff7f16146aa207d)
 - `75080b765e5914c07e906de4eff7f16146aa207d` [fix(binder): disallow CTE in right table of temporal join (#18738)](https://github.com/risingwavelabs/risingwave/pull/18738)
 - `dba5975b25ff11cea2fa4403473ea949c4433f92` [feat: user-facing part of variable vnode count (#18515)](https://github.com/risingwavelabs/risingwave/pull/18515)
 - `f394288ae4eff029353ef5b3c1ffac105f46313d` [chore(sink): validate file sink when creating (#18707)](https://github.com/risingwavelabs/risingwave/pull/18707)
