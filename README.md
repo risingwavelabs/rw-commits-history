@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `647b37ec184491ad0a80cbba1c94cd21c18ffeed` [chore: change streaming upload timeout to 20s only for backfill test (#18652)](https://github.com/risingwavelabs/risingwave/pull/18652)
+- `cb926aff4e36861bb81e1d790c4795c265b6eff6` [chore(deps): bump the aws group across 1 directory with 4 updates (#18719)](https://github.com/risingwavelabs/risingwave/pull/18719)
 - `5e2cfac4f0fa8c29c21ac6691c7bf8c0abd45a90` [chore(deps): bump pbjson from 0.6.0 to 0.7.0 (#18718)](https://github.com/risingwavelabs/risingwave/pull/18718)
 - `375e9338534daacafe628342c85da882c9d37a72` [feat: support information_schema.table_constraints (#18716)](https://github.com/risingwavelabs/risingwave/pull/18716)
 - `b3765cea8fb25987d8fbce3377781ae89bbd9697` [fix(ci): change GITHUB_TOKEN permission to write-all (#18724)](https://github.com/risingwavelabs/risingwave/pull/18724)
