@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dba5975b25ff11cea2fa4403473ea949c4433f92` [feat: user-facing part of variable vnode count (#18515)](https://github.com/risingwavelabs/risingwave/pull/18515)
+- `f394288ae4eff029353ef5b3c1ffac105f46313d` [chore(sink): validate file sink when creating (#18707)](https://github.com/risingwavelabs/risingwave/pull/18707)
 - `647b37ec184491ad0a80cbba1c94cd21c18ffeed` [chore: change streaming upload timeout to 20s only for backfill test (#18652)](https://github.com/risingwavelabs/risingwave/pull/18652)
 - `cb926aff4e36861bb81e1d790c4795c265b6eff6` [chore(deps): bump the aws group across 1 directory with 4 updates (#18719)](https://github.com/risingwavelabs/risingwave/pull/18719)
 - `5e2cfac4f0fa8c29c21ac6691c7bf8c0abd45a90` [chore(deps): bump pbjson from 0.6.0 to 0.7.0 (#18718)](https://github.com/risingwavelabs/risingwave/pull/18718)
