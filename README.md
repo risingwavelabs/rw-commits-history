@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `75080b765e5914c07e906de4eff7f16146aa207d` [fix(binder): disallow CTE in right table of temporal join (#18738)](https://github.com/risingwavelabs/risingwave/pull/18738)
 - `dba5975b25ff11cea2fa4403473ea949c4433f92` [feat: user-facing part of variable vnode count (#18515)](https://github.com/risingwavelabs/risingwave/pull/18515)
 - `f394288ae4eff029353ef5b3c1ffac105f46313d` [chore(sink): validate file sink when creating (#18707)](https://github.com/risingwavelabs/risingwave/pull/18707)
 - `647b37ec184491ad0a80cbba1c94cd21c18ffeed` [chore: change streaming upload timeout to 20s only for backfill test (#18652)](https://github.com/risingwavelabs/risingwave/pull/18652)
