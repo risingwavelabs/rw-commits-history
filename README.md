@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e9c216185bb5226d14f484126f5dc2f851b2312c` [feat(storage): per table try wait epoch (#18622)](https://github.com/risingwavelabs/risingwave/pull/18622)
 - `d6f8ca22d9884d2a8367f4eaecda3171b4933c3a` [fix(nats): align offset and property fields between NATS and others for better ux and dx (#18732)](https://github.com/risingwavelabs/risingwave/pull/18732)
 - `4548a995596b160a168aa9e11386cfd2d2322c89` [chore: update image version to 2.0.1 (#18741)](https://github.com/risingwavelabs/risingwave/pull/18741)
 - `39141cc47b0acf5ef81c1d8a5ecf792ffcf36c06` [refactor: sink metrics (#18730)](https://github.com/risingwavelabs/risingwave/pull/18730)
