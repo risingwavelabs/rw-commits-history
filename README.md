@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `adc30c0f7c3e76c8e1d2a15673b359bb80e8f7f1` [feat: add `rw_actor_splits` (#18746)](https://github.com/risingwavelabs/risingwave/pull/18746)
 - `8e6ebb0c613f41946f0fcde348caf982e4a815b5` [refactor: add metrics for time travel and recent versions (#18690)](https://github.com/risingwavelabs/risingwave/pull/18690)
 
 ## nightly-20240927
