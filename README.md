@@ -316,7 +316,6 @@
 - `20231003` `03630056a643c904bc6397330ef9b0c41a70f4c1`
 - `20231002` `6fb7ae5f47addc3953e3be76778c70dd611a5bf4`
 - `20230929` `ae3a59da33a65fb2909361eaa186440ff9fa0883`
-- `20230928` `78b83dfec37014b56a8aaaaf6dfab27c4bcd6005`
 </details>
 
 # Commit history
@@ -4323,11 +4322,4 @@
 - `6fb7ae5f47addc3953e3be76778c70dd611a5bf4` [fix: remove unsafe code in auto/manual heap dump (#12596)](https://github.com/risingwavelabs/risingwave/pull/12596)
 
 ## nightly-20230929
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/78b83dfec37014b56a8aaaaf6dfab27c4bcd6005...ae3a59da33a65fb2909361eaa186440ff9fa0883)
 - `ae3a59da33a65fb2909361eaa186440ff9fa0883` [fix(ci): fix pulsar tests (#12594)](https://github.com/risingwavelabs/risingwave/pull/12594)
-- `ed576b2085521bb09562b43ed26d0bbd68f72f3e` [chore(deps): Bump duration-str from 0.5.1 to 0.7.0 (#12590)](https://github.com/risingwavelabs/risingwave/pull/12590)
-- `8cb1da441a768d653f089246c89817f56fdc3e76` [chore(ci): remove duplicated workflows in `main-cron` (#12593)](https://github.com/risingwavelabs/risingwave/pull/12593)
-- `31aac5a9496ceed949e34966867e59dffd5a8621` [refactor(ci): simplify sqlsmith workflow (#12592)](https://github.com/risingwavelabs/risingwave/pull/12592)
-
-## nightly-20230928
-- `78b83dfec37014b56a8aaaaf6dfab27c4bcd6005` [fix: allow configure message.timeout.ms and max.in.flight for kafka sink (#12574)](https://github.com/risingwavelabs/risingwave/pull/12574)
