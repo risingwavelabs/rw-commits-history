@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2b4e57aa2e84d36bac7489dfb57173331f88e04a` [refactor(meta): reduce time travel hummock version size (#18699)](https://github.com/risingwavelabs/risingwave/pull/18699)
+- `811fa54cf5e9fd127923e568761914f1a1e9f245` [fix(meta): fix query for `running_fragment_parallelisms` in postgres backend (#18743)](https://github.com/risingwavelabs/risingwave/pull/18743)
 - `056ccfbb6789a27d00bc9914e7c957aa64add32c` [fix(nats): align the semantics of `scan.startup.mode=latest` of NATS with others (#18733)](https://github.com/risingwavelabs/risingwave/pull/18733)
 - `83fe9f38ff032cb86c9b31caed4f9fd5a54ab58e` [fix on conflict syntax (#18735)](https://github.com/risingwavelabs/risingwave/pull/18735)
 - `8f0d5decac74f806046b06f197e879664793cd20` [refactor(storage): support pagination for LIST during full GC (#18737)](https://github.com/risingwavelabs/risingwave/pull/18737)
