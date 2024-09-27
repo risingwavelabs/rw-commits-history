@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `056ccfbb6789a27d00bc9914e7c957aa64add32c` [fix(nats): align the semantics of `scan.startup.mode=latest` of NATS with others (#18733)](https://github.com/risingwavelabs/risingwave/pull/18733)
 - `83fe9f38ff032cb86c9b31caed4f9fd5a54ab58e` [fix on conflict syntax (#18735)](https://github.com/risingwavelabs/risingwave/pull/18735)
 - `8f0d5decac74f806046b06f197e879664793cd20` [refactor(storage): support pagination for LIST during full GC (#18737)](https://github.com/risingwavelabs/risingwave/pull/18737)
 - `e9c216185bb5226d14f484126f5dc2f851b2312c` [feat(storage): per table try wait epoch (#18622)](https://github.com/risingwavelabs/risingwave/pull/18622)
