@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240927` `d8774819c47930d0da158792983188fbeff4eb59`
 - `20240926` `75080b765e5914c07e906de4eff7f16146aa207d`
 - `20240925` `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa`
 - `20240924` `29adeb97370b6a77a4dcc857ac55249016dc3be9`
@@ -325,6 +326,9 @@
 
 ## Unreleased
 - `8e6ebb0c613f41946f0fcde348caf982e4a815b5` [refactor: add metrics for time travel and recent versions (#18690)](https://github.com/risingwavelabs/risingwave/pull/18690)
+
+## nightly-20240927
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75080b765e5914c07e906de4eff7f16146aa207d...d8774819c47930d0da158792983188fbeff4eb59)
 - `d8774819c47930d0da158792983188fbeff4eb59` [feat(sink): support async for mongodb  dynamodb (#17645)](https://github.com/risingwavelabs/risingwave/pull/17645)
 - `1ddf30e8a22ecfdfe793bf8d054a2bd73b32bc32` [fix(risedev): fix log check and startup failure for postgres (#18745)](https://github.com/risingwavelabs/risingwave/pull/18745)
 - `2b4e57aa2e84d36bac7489dfb57173331f88e04a` [refactor(meta): reduce time travel hummock version size (#18699)](https://github.com/risingwavelabs/risingwave/pull/18699)
