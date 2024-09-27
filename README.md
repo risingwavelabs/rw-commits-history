@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4548a995596b160a168aa9e11386cfd2d2322c89` [chore: update image version to 2.0.1 (#18741)](https://github.com/risingwavelabs/risingwave/pull/18741)
 - `39141cc47b0acf5ef81c1d8a5ecf792ffcf36c06` [refactor: sink metrics (#18730)](https://github.com/risingwavelabs/risingwave/pull/18730)
 
 ## nightly-20240926
