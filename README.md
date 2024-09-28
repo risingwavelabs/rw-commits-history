@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240928` `b4ac5aba12d40df880931821ee68fde45f1d4683`
 - `20240927` `d8774819c47930d0da158792983188fbeff4eb59`
 - `20240926` `75080b765e5914c07e906de4eff7f16146aa207d`
 - `20240925` `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa`
@@ -324,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240928
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d8774819c47930d0da158792983188fbeff4eb59...b4ac5aba12d40df880931821ee68fde45f1d4683)
 - `b4ac5aba12d40df880931821ee68fde45f1d4683` [chore(deps): Bump vergen from 8.3.0 to 8.3.2 (#17781)](https://github.com/risingwavelabs/risingwave/pull/17781)
 - `dcbd574af0ecccceba520f90facf09820c2df22c` [chore(deps): Bump org.elasticsearch:elasticsearch from 7.17.19 to 7.17.23 in /java (#17886)](https://github.com/risingwavelabs/risingwave/pull/17886)
 - `939493e4156c60742513ef3a707bbfcf9c9c3da6` [chore(deps): Bump serde_default from 0.1.0 to 0.2.0 (#17790)](https://github.com/risingwavelabs/risingwave/pull/17790)
