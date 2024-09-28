@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `edc3c8fb68e0f3ff148c41b83ed113be1df1f069` [chore(deps): Bump redis from 0.25.1 to 0.25.4 (#17828)](https://github.com/risingwavelabs/risingwave/pull/17828)
+- `f8b2b847048a0b6bf66de814cd97dd0f050f03e6` [chore(deps): bump lz4 from 1.25.0 to 1.28.0 (#18742)](https://github.com/risingwavelabs/risingwave/pull/18742)
 - `adc30c0f7c3e76c8e1d2a15673b359bb80e8f7f1` [feat: add `rw_actor_splits` (#18746)](https://github.com/risingwavelabs/risingwave/pull/18746)
 - `8e6ebb0c613f41946f0fcde348caf982e4a815b5` [refactor: add metrics for time travel and recent versions (#18690)](https://github.com/risingwavelabs/risingwave/pull/18690)
 
