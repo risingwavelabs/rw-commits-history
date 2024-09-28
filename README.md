@@ -316,7 +316,6 @@
 - `20231004` `ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971`
 - `20231003` `03630056a643c904bc6397330ef9b0c41a70f4c1`
 - `20231002` `6fb7ae5f47addc3953e3be76778c70dd611a5bf4`
-- `20230929` `ae3a59da33a65fb2909361eaa186440ff9fa0883`
 </details>
 
 # Commit history
@@ -4328,8 +4327,4 @@
 - `cd5ebe0f92cf06617468620eef43a4d96ff9e822` [chore(deps): Bump base64 from 0.21.3 to 0.21.4 (#12216)](https://github.com/risingwavelabs/risingwave/pull/12216)
 
 ## nightly-20231002
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ae3a59da33a65fb2909361eaa186440ff9fa0883...6fb7ae5f47addc3953e3be76778c70dd611a5bf4)
 - `6fb7ae5f47addc3953e3be76778c70dd611a5bf4` [fix: remove unsafe code in auto/manual heap dump (#12596)](https://github.com/risingwavelabs/risingwave/pull/12596)
-
-## nightly-20230929
-- `ae3a59da33a65fb2909361eaa186440ff9fa0883` [fix(ci): fix pulsar tests (#12594)](https://github.com/risingwavelabs/risingwave/pull/12594)
