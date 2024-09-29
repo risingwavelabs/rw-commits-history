@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20240929` `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267`
 - `20240928` `b4ac5aba12d40df880931821ee68fde45f1d4683`
 - `20240927` `d8774819c47930d0da158792983188fbeff4eb59`
 - `20240926` `75080b765e5914c07e906de4eff7f16146aa207d`
@@ -324,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20240929
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b4ac5aba12d40df880931821ee68fde45f1d4683...83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267)
 - `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267` [feat(storage): Introduces a split implementation based on split_key to replace the previous move implementation. (#18594)](https://github.com/risingwavelabs/risingwave/pull/18594)
 - `5e20f2dd3032530a846986aefeaec2ae3a116a97` [refactor(meta): persist job-level max parallelism & check when `ALTER .. SET PARALLELISM` (#18740)](https://github.com/risingwavelabs/risingwave/pull/18740)
 - `1da18155b7fd88f64063c3f7b4b719d7405d4aab` [chore: unready source worker should not affect other sources. (#18761)](https://github.com/risingwavelabs/risingwave/pull/18761)
