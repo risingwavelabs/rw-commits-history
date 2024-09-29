@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6731c26be9f6be7f49c9ebc84378a5ba46f6fee1` [chore(ci): remove gcs source test (#18763)](https://github.com/risingwavelabs/risingwave/pull/18763)
 
 ## nightly-20240929
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b4ac5aba12d40df880931821ee68fde45f1d4683...83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267)
