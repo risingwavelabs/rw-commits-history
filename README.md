@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4dfc4c961a8c7b6f69c900fafe18d074c01676ae` [feat: improve sink metrics (#18758)](https://github.com/risingwavelabs/risingwave/pull/18758)
+- `e6435e60e558eab607a2ed3902a04903eccf78ae` [fix: better error message for `./risedev d` timeout (#18756)](https://github.com/risingwavelabs/risingwave/pull/18756)
 - `d492843560530901dffe6e39b41cda8b8b5c2d37` [refactor(storage): remove most usage of max_committed_epoch (#18641)](https://github.com/risingwavelabs/risingwave/pull/18641)
 - `04af708f5bb84e639e5ac074bd6ba290eecf67b7` [refactor: unify duplicated alter_*_name methods (#18751)](https://github.com/risingwavelabs/risingwave/pull/18751)
 
