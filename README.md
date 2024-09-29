@@ -324,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267` [feat(storage): Introduces a split implementation based on split_key to replace the previous move implementation. (#18594)](https://github.com/risingwavelabs/risingwave/pull/18594)
+- `5e20f2dd3032530a846986aefeaec2ae3a116a97` [refactor(meta): persist job-level max parallelism & check when `ALTER .. SET PARALLELISM` (#18740)](https://github.com/risingwavelabs/risingwave/pull/18740)
+- `1da18155b7fd88f64063c3f7b4b719d7405d4aab` [chore: unready source worker should not affect other sources. (#18761)](https://github.com/risingwavelabs/risingwave/pull/18761)
 - `4dfc4c961a8c7b6f69c900fafe18d074c01676ae` [feat: improve sink metrics (#18758)](https://github.com/risingwavelabs/risingwave/pull/18758)
 - `e6435e60e558eab607a2ed3902a04903eccf78ae` [fix: better error message for `./risedev d` timeout (#18756)](https://github.com/risingwavelabs/risingwave/pull/18756)
 - `d492843560530901dffe6e39b41cda8b8b5c2d37` [refactor(storage): remove most usage of max_committed_epoch (#18641)](https://github.com/risingwavelabs/risingwave/pull/18641)
