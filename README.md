@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f0ad2d7e607e2b60b6ee078e1001dcf336952a63` [chore(deps): bump the google-cloud group with 2 updates (#18717)](https://github.com/risingwavelabs/risingwave/pull/18717)
 
 ## nightly-20240930
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267...17ea32610a22d697ccf4499ddd1cc6f90c5b1492)
