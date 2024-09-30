@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e82932f47bf57dbe393b4ec28ba7431b40e8232e` [feat(streaming): plan asof join (#18683)](https://github.com/risingwavelabs/risingwave/pull/18683)
 - `fae0201524761c33c293ddc689c866bf78395020` [refactor: deprecate max_committed_epoch of hummock version (#18644)](https://github.com/risingwavelabs/risingwave/pull/18644)
 - `7ff4d98830bacdfdc28beb1f81a25eecaacdc732` [refactor(storage): add SST sanity check during commit epoch (#18757)](https://github.com/risingwavelabs/risingwave/pull/18757)
 - `254dce9e05ba129dd2830007f639c2068e8e5ad8` [chore: add comment for KafkaSplit's start_offset (#18766)](https://github.com/risingwavelabs/risingwave/pull/18766)
