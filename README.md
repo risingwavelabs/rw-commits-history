@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `72ba6d53e47c92c0bf97a49f8e84a4c6b4391cce` [chore(deps): Bump sysinfo from 0.30.0 to 0.31.4 (#18776)](https://github.com/risingwavelabs/risingwave/pull/18776)
+- `a9104146b3965ed837ed12d1c0d98861b21c7f73` [chore(deps): Bump async-std from 1.12.0 to 1.13.0 (#18778)](https://github.com/risingwavelabs/risingwave/pull/18778)
 - `f0ad2d7e607e2b60b6ee078e1001dcf336952a63` [chore(deps): bump the google-cloud group with 2 updates (#18717)](https://github.com/risingwavelabs/risingwave/pull/18717)
 
 ## nightly-20240930
