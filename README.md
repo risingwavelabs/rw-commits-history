@@ -325,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7ff4d98830bacdfdc28beb1f81a25eecaacdc732` [refactor(storage): add SST sanity check during commit epoch (#18757)](https://github.com/risingwavelabs/risingwave/pull/18757)
+- `254dce9e05ba129dd2830007f639c2068e8e5ad8` [chore: add comment for KafkaSplit's start_offset (#18766)](https://github.com/risingwavelabs/risingwave/pull/18766)
+- `61b745935c7c97988d5f1c38baaccbdedc74a7ec` [feat: ensure number of tokio worker threads to be at least 4 (#18762)](https://github.com/risingwavelabs/risingwave/pull/18762)
 - `f7e506844fa0435b8736bef2e6b426f316b43366` [feat(frontend): show job's max parallelism in system tables (#18672)](https://github.com/risingwavelabs/risingwave/pull/18672)
 - `6731c26be9f6be7f49c9ebc84378a5ba46f6fee1` [chore(ci): remove gcs source test (#18763)](https://github.com/risingwavelabs/risingwave/pull/18763)
 
