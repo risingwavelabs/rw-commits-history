@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241001` `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f`
 - `20240930` `17ea32610a22d697ccf4499ddd1cc6f90c5b1492`
 - `20240929` `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267`
 - `20240928` `b4ac5aba12d40df880931821ee68fde45f1d4683`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241001
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/17ea32610a22d697ccf4499ddd1cc6f90c5b1492...ef8c50f5f56c04374cda3c8b8204afc10ee6a88f)
 - `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f` [fix: telemetry event at paywall not reporting (#18770)](https://github.com/risingwavelabs/risingwave/pull/18770)
 - `72ba6d53e47c92c0bf97a49f8e84a4c6b4391cce` [chore(deps): Bump sysinfo from 0.30.0 to 0.31.4 (#18776)](https://github.com/risingwavelabs/risingwave/pull/18776)
 - `a9104146b3965ed837ed12d1c0d98861b21c7f73` [chore(deps): Bump async-std from 1.12.0 to 1.13.0 (#18778)](https://github.com/risingwavelabs/risingwave/pull/18778)
