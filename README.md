@@ -318,7 +318,6 @@
 - `20231005` `e53c9f74d12d44bb39a61e983208d6468221f8f2`
 - `20231004` `ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971`
 - `20231003` `03630056a643c904bc6397330ef9b0c41a70f4c1`
-- `20231002` `6fb7ae5f47addc3953e3be76778c70dd611a5bf4`
 </details>
 
 # Commit history
@@ -4349,13 +4348,4 @@
 - `5bfc18dcd9ca374ab922a98638a5313de0dd2b5e` [chore(deps): Bump webpki from 0.22.1 to 0.22.2 (#12606)](https://github.com/risingwavelabs/risingwave/pull/12606)
 
 ## nightly-20231003
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6fb7ae5f47addc3953e3be76778c70dd611a5bf4...03630056a643c904bc6397330ef9b0c41a70f4c1)
 - `03630056a643c904bc6397330ef9b0c41a70f4c1` [fix: memory dump must end with `.heap` (#12616)](https://github.com/risingwavelabs/risingwave/pull/12616)
-- `deb041c2cf7ab39726f4f5f5860837754e9e91b4` [chore(deps): Bump async-nats from 0.31.0 to 0.32.1 (#12614)](https://github.com/risingwavelabs/risingwave/pull/12614)
-- `f31e7af87c3d4c0c26c57b835438d1f89e9a9d6e` [chore(deps): Bump dialoguer from 0.10.4 to 0.11.0 (#12604)](https://github.com/risingwavelabs/risingwave/pull/12604)
-- `7da91df6944cabf49314787b3361801cab35c6e6` [chore: ignore semver-patch in dependabot (#12612)](https://github.com/risingwavelabs/risingwave/pull/12612)
-- `25dac5b1c5f0bfe75e420b0347320bafff939989` [chore: display AWS kensis error details (#12603)](https://github.com/risingwavelabs/risingwave/pull/12603)
-- `cd5ebe0f92cf06617468620eef43a4d96ff9e822` [chore(deps): Bump base64 from 0.21.3 to 0.21.4 (#12216)](https://github.com/risingwavelabs/risingwave/pull/12216)
-
-## nightly-20231002
-- `6fb7ae5f47addc3953e3be76778c70dd611a5bf4` [fix: remove unsafe code in auto/manual heap dump (#12596)](https://github.com/risingwavelabs/risingwave/pull/12596)
