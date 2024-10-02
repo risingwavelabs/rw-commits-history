@@ -318,7 +318,6 @@
 - `20231006` `3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be`
 - `20231005` `e53c9f74d12d44bb39a61e983208d6468221f8f2`
 - `20231004` `ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971`
-- `20231003` `03630056a643c904bc6397330ef9b0c41a70f4c1`
 </details>
 
 # Commit history
@@ -4344,13 +4343,4 @@
 - `e365f2f8769b1ed98ede2c8fb866932a4464463b` [feat(standalone): support optionally including components (#12626)](https://github.com/risingwavelabs/risingwave/pull/12626)
 
 ## nightly-20231004
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03630056a643c904bc6397330ef9b0c41a70f4c1...ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971)
 - `ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971` [chore(deps): Bump pprof from 0.12.1 to 0.13.0 (#12617)](https://github.com/risingwavelabs/risingwave/pull/12617)
-- `194b6066c1c399c8148b86f3b1af0e6b3b82de9f` [feat(standalone): add compactor (#12623)](https://github.com/risingwavelabs/risingwave/pull/12623)
-- `1546a33e493b66f1f94dd53cb3b3f09569845912` [chore(ci): enable basic background_ddl test in standalone mode (#12621)](https://github.com/risingwavelabs/risingwave/pull/12621)
-- `a296a06427b192cbed412742a959ab9c1ad5d6d7` [feat(sink): support new syntax `FORMAT ... ENCODE ...` similar to source (#12556)](https://github.com/risingwavelabs/risingwave/pull/12556)
-- `8db10dbc9b70751df8c2b6a4d86d1409b0c58121` [feat: jsonb || operator (#12502)](https://github.com/risingwavelabs/risingwave/pull/12502)
-- `5bfc18dcd9ca374ab922a98638a5313de0dd2b5e` [chore(deps): Bump webpki from 0.22.1 to 0.22.2 (#12606)](https://github.com/risingwavelabs/risingwave/pull/12606)
-
-## nightly-20231003
-- `03630056a643c904bc6397330ef9b0c41a70f4c1` [fix: memory dump must end with `.heap` (#12616)](https://github.com/risingwavelabs/risingwave/pull/12616)
