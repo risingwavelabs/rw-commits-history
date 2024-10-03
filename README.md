@@ -326,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `51c5e3e0bef991767f48a0c3bf6814426711b5f2` [chore(deps): Bump chrono-tz from 0.9.0 to 0.10.0 (#18774)](https://github.com/risingwavelabs/risingwave/pull/18774)
+- `6d126d52d2ab8c5cf1485e4c9a30cc81ad4b81fb` [chore(deps): Bump sea-orm from 0.12.14 to 0.12.15 (#18775)](https://github.com/risingwavelabs/risingwave/pull/18775)
+- `1d8b5361db3eb99b269bf2a321cab0ad156e307d` [chore(deps): Bump indexmap from 2.2.6 to 2.6.0 (#18788)](https://github.com/risingwavelabs/risingwave/pull/18788)
 
 ## nightly-20241002
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef8c50f5f56c04374cda3c8b8204afc10ee6a88f...66890dbf054bd2c9980e4817dac7affe974286d0)
