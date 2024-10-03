@@ -318,7 +318,6 @@
 - `20231007` `4fe8294a60b841bae2d0f75afb97eb6fd1064d13`
 - `20231006` `3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be`
 - `20231005` `e53c9f74d12d44bb39a61e983208d6468221f8f2`
-- `20231004` `ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971`
 </details>
 
 # Commit history
@@ -4344,10 +4343,4 @@
 - `c1bbbc3f8c5851dbb5772d0744054a7dc92c2e2c` [fix: report partition metrics (#12635)](https://github.com/risingwavelabs/risingwave/pull/12635)
 
 ## nightly-20231005
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971...e53c9f74d12d44bb39a61e983208d6468221f8f2)
 - `e53c9f74d12d44bb39a61e983208d6468221f8f2` [fix: enable jemalloc-based memory control on macOS as well (#12625)](https://github.com/risingwavelabs/risingwave/pull/12625)
-- `8195963bfdabcdaaa08c27c74f0855c299b05a64` [fix(meta): handle case where progress is done (#12631)](https://github.com/risingwavelabs/risingwave/pull/12631)
-- `e365f2f8769b1ed98ede2c8fb866932a4464463b` [feat(standalone): support optionally including components (#12626)](https://github.com/risingwavelabs/risingwave/pull/12626)
-
-## nightly-20231004
-- `ffa0758ebbc03a7ed25c5d044fbc69b55bc2f971` [chore(deps): Bump pprof from 0.12.1 to 0.13.0 (#12617)](https://github.com/risingwavelabs/risingwave/pull/12617)
