@@ -317,7 +317,6 @@
 - `20231008` `8b18a7e7746613ff5fe056d7b4fd15e6747bc02e`
 - `20231007` `4fe8294a60b841bae2d0f75afb97eb6fd1064d13`
 - `20231006` `3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be`
-- `20231005` `e53c9f74d12d44bb39a61e983208d6468221f8f2`
 </details>
 
 # Commit history
@@ -4335,12 +4334,4 @@
 - `461c4eb131eb83fb7b916b00215288abab29c354` [feat(stream): support snapshot read over N barriers (#12644)](https://github.com/risingwavelabs/risingwave/pull/12644)
 
 ## nightly-20231006
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e53c9f74d12d44bb39a61e983208d6468221f8f2...3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be)
 - `3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be` [feat: improve sink mview throughput metrics (#12622)](https://github.com/risingwavelabs/risingwave/pull/12622)
-- `c8470955fcef2b8573e68d2f352d7f1983fc47d2` [fix(optimizer): handle eval error in `LogicalSource::predicate_pushdown` (#12640)](https://github.com/risingwavelabs/risingwave/pull/12640)
-- `f26ac7a07101034498bad12286ab3191f2833b3e` [chore(deps): Bump zod and next in /dashboard (#12627)](https://github.com/risingwavelabs/risingwave/pull/12627)
-- `7b8c69660ca5775837651289e9e8bff73944e5fa` [chore: risedev clean java targets (#12600)](https://github.com/risingwavelabs/risingwave/pull/12600)
-- `c1bbbc3f8c5851dbb5772d0744054a7dc92c2e2c` [fix: report partition metrics (#12635)](https://github.com/risingwavelabs/risingwave/pull/12635)
-
-## nightly-20231005
-- `e53c9f74d12d44bb39a61e983208d6468221f8f2` [fix: enable jemalloc-based memory control on macOS as well (#12625)](https://github.com/risingwavelabs/risingwave/pull/12625)
