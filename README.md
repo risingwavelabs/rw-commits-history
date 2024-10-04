@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20241003` `51c5e3e0bef991767f48a0c3bf6814426711b5f2`
+- `20241004` `51c5e3e0bef991767f48a0c3bf6814426711b5f2`
 - `20241002` `66890dbf054bd2c9980e4817dac7affe974286d0`
 - `20241001` `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f`
 - `20240930` `17ea32610a22d697ccf4499ddd1cc6f90c5b1492`
@@ -327,7 +327,7 @@
 
 ## Unreleased
 
-## nightly-20241003
+## nightly-20241004
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66890dbf054bd2c9980e4817dac7affe974286d0...51c5e3e0bef991767f48a0c3bf6814426711b5f2)
 - `51c5e3e0bef991767f48a0c3bf6814426711b5f2` [chore(deps): Bump chrono-tz from 0.9.0 to 0.10.0 (#18774)](https://github.com/risingwavelabs/risingwave/pull/18774)
 - `6d126d52d2ab8c5cf1485e4c9a30cc81ad4b81fb` [chore(deps): Bump sea-orm from 0.12.14 to 0.12.15 (#18775)](https://github.com/risingwavelabs/risingwave/pull/18775)
