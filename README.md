@@ -316,7 +316,6 @@
 - `20231009` `5ae9a360daeeefba400e44d066c76e2bc2526ff0`
 - `20231008` `8b18a7e7746613ff5fe056d7b4fd15e6747bc02e`
 - `20231007` `4fe8294a60b841bae2d0f75afb97eb6fd1064d13`
-- `20231006` `3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be`
 </details>
 
 # Commit history
@@ -4324,14 +4323,4 @@
 - `b0fc8ca7cf22b1d255229e0c58ceec6048ab383b` [chore(deps): Bump simd-json from 0.10.6 to 0.11.1 & fix error message (#12550)](https://github.com/risingwavelabs/risingwave/pull/12550)
 
 ## nightly-20231007
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be...4fe8294a60b841bae2d0f75afb97eb6fd1064d13)
 - `4fe8294a60b841bae2d0f75afb97eb6fd1064d13` [fix(stream): yield upstream updates for backfill after last barrier in the interval (#12654)](https://github.com/risingwavelabs/risingwave/pull/12654)
-- `2dcd8796937b43ec305af5139d7864c3bbde7978` [chore(deps): Bump csv from 1.2.2 to 1.3.0 (#12647)](https://github.com/risingwavelabs/risingwave/pull/12647)
-- `848b0a117c945c515923d3dd4e19ddea9325fbd1` [feat(sink): kafka async truncate log (#12587)](https://github.com/risingwavelabs/risingwave/pull/12587)
-- `01c7c2bed08c447cca9a927e626d95498ce271b8` [feat(object storage): add is_https_endpoint for minio (#12517)](https://github.com/risingwavelabs/risingwave/pull/12517)
-- `04f33a1e4bd21baed664c25584dce11485001cee` [feat(metrics): fragment level streaming metrics (part 1) (#12634)](https://github.com/risingwavelabs/risingwave/pull/12634)
-- `a46292eedc9a6d1ad10b5fb3e7d89495edfccad2` [chore(deps): bump multimap from 0.8.3 to 0.9.0 (#11464)](https://github.com/risingwavelabs/risingwave/pull/11464)
-- `461c4eb131eb83fb7b916b00215288abab29c354` [feat(stream): support snapshot read over N barriers (#12644)](https://github.com/risingwavelabs/risingwave/pull/12644)
-
-## nightly-20231006
-- `3fbe1ab23e23c09b21abdb1fa08c0fc7247f29be` [feat: improve sink mview throughput metrics (#12622)](https://github.com/risingwavelabs/risingwave/pull/12622)
