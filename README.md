@@ -315,7 +315,6 @@
 - `20231010` `d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e`
 - `20231009` `5ae9a360daeeefba400e44d066c76e2bc2526ff0`
 - `20231008` `8b18a7e7746613ff5fe056d7b4fd15e6747bc02e`
-- `20231007` `4fe8294a60b841bae2d0f75afb97eb6fd1064d13`
 </details>
 
 # Commit history
@@ -4309,18 +4308,4 @@
 - `8b082dea901084c5f9a6462789e18f77dbe3efc0` [chore(deps): Bump similar from 2.2.1 to 2.3.0 (#12668)](https://github.com/risingwavelabs/risingwave/pull/12668)
 
 ## nightly-20231008
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fe8294a60b841bae2d0f75afb97eb6fd1064d13...8b18a7e7746613ff5fe056d7b4fd15e6747bc02e)
 - `8b18a7e7746613ff5fe056d7b4fd15e6747bc02e` [refactor(common): implement `Datum::[from|to]_protobuf` (#12679)](https://github.com/risingwavelabs/risingwave/pull/12679)
-- `d3ebe9f5d563efeb72c6762379219d6134647fbe` [chore: speedup doctest (#12669)](https://github.com/risingwavelabs/risingwave/pull/12669)
-- `1d04366e3eb1d19c700c129a61d01b235d3ea515` [fix(storage): auto_pick_type should cover Tombstone type (#12670)](https://github.com/risingwavelabs/risingwave/pull/12670)
-- `129ab2885e2078f4136d6c4312fb64419223a542` [feat: enable verbose instrument for iter rewind and block I/O (#12672)](https://github.com/risingwavelabs/risingwave/pull/12672)
-- `e69f5132d7fc8208324e08100a68d0140bfea054` [feat: support iceberg sink partition write (#12664)](https://github.com/risingwavelabs/risingwave/pull/12664)
-- `437d36e0ac6826a0d3e1e14bf514098d01c60d8c` [fix(heap_profiling): free dumped file name str (#12649)](https://github.com/risingwavelabs/risingwave/pull/12649)
-- `48096a8415c74869f0d9826b42632f3ff1a0352f` [chore: fix "No space left" for GHA (#12662)](https://github.com/risingwavelabs/risingwave/pull/12662)
-- `00012321bb3b5810bae08b36419f1250092a640c` [chore(deps): Bump arrow-*, tonic, prost (#12591)](https://github.com/risingwavelabs/risingwave/pull/12591)
-- `eb87ce2d91c09fd7f608360f7f724e80cab42afd` [test(regress): enable regex testcases (#12661)](https://github.com/risingwavelabs/risingwave/pull/12661)
-- `d57f1c02a9716c4b1f20bcb1c6918c1d0b46fd5d` [fix(sqlsmith): recover functions for sqlsmith (#12660)](https://github.com/risingwavelabs/risingwave/pull/12660)
-- `b0fc8ca7cf22b1d255229e0c58ceec6048ab383b` [chore(deps): Bump simd-json from 0.10.6 to 0.11.1 & fix error message (#12550)](https://github.com/risingwavelabs/risingwave/pull/12550)
-
-## nightly-20231007
-- `4fe8294a60b841bae2d0f75afb97eb6fd1064d13` [fix(stream): yield upstream updates for backfill after last barrier in the interval (#12654)](https://github.com/risingwavelabs/risingwave/pull/12654)
