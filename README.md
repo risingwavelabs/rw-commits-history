@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241007` `ba761f2362886ab3b73602a3423b73c97a9f5b26`
 - `20241006` `51c5e3e0bef991767f48a0c3bf6814426711b5f2`
 - `20241002` `66890dbf054bd2c9980e4817dac7affe974286d0`
 - `20241001` `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241007
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/51c5e3e0bef991767f48a0c3bf6814426711b5f2...ba761f2362886ab3b73602a3423b73c97a9f5b26)
 - `ba761f2362886ab3b73602a3423b73c97a9f5b26` [feat: switch madsim integration and recovery tests to sql backend (#18678)](https://github.com/risingwavelabs/risingwave/pull/18678)
 
 ## nightly-20241006
