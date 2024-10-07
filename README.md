@@ -315,7 +315,6 @@
 - `20231011` `60b342965d960ea2d6769d6c412f79318b42739e`
 - `20231010` `d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e`
 - `20231009` `5ae9a360daeeefba400e44d066c76e2bc2526ff0`
-- `20231008` `8b18a7e7746613ff5fe056d7b4fd15e6747bc02e`
 </details>
 
 # Commit history
@@ -4293,24 +4292,4 @@
 - `7160ba04fe3d206705e1571c59457552e1450f5e` [fix: unify `varchar` format_type display with PostgreSQL (#12648)](https://github.com/risingwavelabs/risingwave/pull/12648)
 
 ## nightly-20231009
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8b18a7e7746613ff5fe056d7b4fd15e6747bc02e...5ae9a360daeeefba400e44d066c76e2bc2526ff0)
 - `5ae9a360daeeefba400e44d066c76e2bc2526ff0` [chore: Update Slack link to a permanent one in README (#12700)](https://github.com/risingwavelabs/risingwave/pull/12700)
-- `2fef0544a7ec4c4fe9921e35f421793c6e68b29a` [fix: add "ts_ms" in source (#12703)](https://github.com/risingwavelabs/risingwave/pull/12703)
-- `0c4013cc3a95caa465c51028c5d80c1f33ca413b` [chore(deps): bump etcd-client to v0.12.1 (#12705)](https://github.com/risingwavelabs/risingwave/pull/12705)
-- `9db52aab732b4a851ec397e91c2182b7f5e58056` [ci: fix disk out of space for GHA (attempt 2) (#12671)](https://github.com/risingwavelabs/risingwave/pull/12671)
-- `bfdafe1b65741b11c8d998b052c1ae1bbff697dd` [refactor(common): refine `Row` changes in #11070 (#12652)](https://github.com/risingwavelabs/risingwave/pull/12652)
-- `da5099bbcc1a26670d7e040dd1b65070f03e1652` [perf(stream agg): flush dirty agg groups according to heap size (#12453)](https://github.com/risingwavelabs/risingwave/pull/12453)
-- `2a7ef0d808f17a0e82ee72e6376e7f77c2ba07aa` [fix(log-store): handle unaligned epoch after recovery (#12407)](https://github.com/risingwavelabs/risingwave/pull/12407)
-- `456f3e98d7a00e3c383f8b03ee40b5da09af58d9` [chore(storage): upgrade write limit (#12658)](https://github.com/risingwavelabs/risingwave/pull/12658)
-- `54e8c759a295ff9ac6888b34520bdb1c48a6c363` [chore: Update Slack link in README.md (#12697)](https://github.com/risingwavelabs/risingwave/pull/12697)
-- `b4f357c22d825a6caad31011e718ab88c41f1bc2` [feat(connector): structural logging for parsing error (#12659)](https://github.com/risingwavelabs/risingwave/pull/12659)
-- `fbd54d89b05a27f9f8da803e0e29d3b0c4b2e366` [fix(storage): fix block format comment (#11664)](https://github.com/risingwavelabs/risingwave/pull/11664)
-- `da1e7bed1a6eaf2180ec4f5c57d189227ff08a99` [chore: update cherry pick action version (#12692)](https://github.com/risingwavelabs/risingwave/pull/12692)
-- `31cf3f8f1b827fad5572a6a188507a01f5b396ba` [fix(storage): fix compact_fast_runner_bytes unused (#12655)](https://github.com/risingwavelabs/risingwave/pull/12655)
-- `fcdc3a112bb64ac151d44cc48f0bb143d92d456d` [perf(expr): avoid parsing unit every time on `extract` and `date_part` (#12398)](https://github.com/risingwavelabs/risingwave/pull/12398)
-- `ca2509546d056c863752bd4b7568cf0aa5559fe6` [chore(deps): Bump byteorder from 1.4.3 to 1.5.0 (#12666)](https://github.com/risingwavelabs/risingwave/pull/12666)
-- `a8b25ac3133c1f65bffa467bcfc884b949cca23d` [fix(doc): fix debian-like installation guide (#12684)](https://github.com/risingwavelabs/risingwave/pull/12684)
-- `8b082dea901084c5f9a6462789e18f77dbe3efc0` [chore(deps): Bump similar from 2.2.1 to 2.3.0 (#12668)](https://github.com/risingwavelabs/risingwave/pull/12668)
-
-## nightly-20231008
-- `8b18a7e7746613ff5fe056d7b4fd15e6747bc02e` [refactor(common): implement `Datum::[from|to]_protobuf` (#12679)](https://github.com/risingwavelabs/risingwave/pull/12679)
