@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ba761f2362886ab3b73602a3423b73c97a9f5b26` [feat: switch madsim integration and recovery tests to sql backend (#18678)](https://github.com/risingwavelabs/risingwave/pull/18678)
 
 ## nightly-20241006
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66890dbf054bd2c9980e4817dac7affe974286d0...51c5e3e0bef991767f48a0c3bf6814426711b5f2)
