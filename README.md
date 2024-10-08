@@ -315,7 +315,6 @@
 - `20231012` `5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b`
 - `20231011` `60b342965d960ea2d6769d6c412f79318b42739e`
 - `20231010` `d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e`
-- `20231009` `5ae9a360daeeefba400e44d066c76e2bc2526ff0`
 </details>
 
 # Commit history
@@ -4292,17 +4291,4 @@
 - `aec6038602cefd2329a5ea72a9791ae726846d37` [refactor(optimizer): change stream key to option (#12524)](https://github.com/risingwavelabs/risingwave/pull/12524)
 
 ## nightly-20231010
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5ae9a360daeeefba400e44d066c76e2bc2526ff0...d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e)
 - `d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e` [fix(streaming): handle pause on bootstrap for `Now` and `Values` (#12716)](https://github.com/risingwavelabs/risingwave/pull/12716)
-- `ac514f96ead2ba14e5abf733d7cf6ac71560a7ac` [fix(storage): auto_pick_type should cover Tombstone type - Revert (#12730)](https://github.com/risingwavelabs/risingwave/pull/12730)
-- `211d7bcee572e7bc1cd50b48248e745bb93820bd` [feat(meta): define model V2 for hummock metadata (#12674)](https://github.com/risingwavelabs/risingwave/pull/12674)
-- `826db77988e0921c6961a752cc5883bee1a348b9` [perf(agg): merge common agg calls (#12683)](https://github.com/risingwavelabs/risingwave/pull/12683)
-- `615f873f85f2e2241be76b92d6676055b371f2c2` [feat(log-store): add metrics for log store (#12653)](https://github.com/risingwavelabs/risingwave/pull/12653)
-- `6ec0b95392ec27d096e35783650bafb7c992b403` [fix(over window): fix error in using aggregate function result as win… (#12551)](https://github.com/risingwavelabs/risingwave/pull/12551)
-- `7113abd5037f81e13645209b7239978593b3a86a` [refactor(common): eliminate `unsafe` for iteration with estimated sizes by atomics (#12565)](https://github.com/risingwavelabs/risingwave/pull/12565)
-- `95e01360fbacf9e88693fa2f5514ecd8788bee3a` [feat(java-binding): store java binding row in iter (#12533)](https://github.com/risingwavelabs/risingwave/pull/12533)
-- `59dada5841d2de43f613133cb3f645a3e01e65b5` [refactor(heap_profiling): use background heap profiling and enable auto dump for compute and compactor (#12694)](https://github.com/risingwavelabs/risingwave/pull/12694)
-- `7160ba04fe3d206705e1571c59457552e1450f5e` [fix: unify `varchar` format_type display with PostgreSQL (#12648)](https://github.com/risingwavelabs/risingwave/pull/12648)
-
-## nightly-20231009
-- `5ae9a360daeeefba400e44d066c76e2bc2526ff0` [chore: Update Slack link to a permanent one in README (#12700)](https://github.com/risingwavelabs/risingwave/pull/12700)
