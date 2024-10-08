@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8ee00aa5e47f7e139ab79a3e170e2043ceb322fc` [chore(deps): Bump sqllogictest from 0.21.0 to 0.22.0 (#18793)](https://github.com/risingwavelabs/risingwave/pull/18793)
 - `24a68514ba039535e1afbfa21d2becbff0731462` [fix(meta): avoid removing control stream node when failed to send request (#18767)](https://github.com/risingwavelabs/risingwave/pull/18767)
 
 ## nightly-20241007
