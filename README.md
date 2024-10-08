@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241008` `c359bd9662d45fb90f0957101be20d658cd1fde3`
 - `20241007` `ba761f2362886ab3b73602a3423b73c97a9f5b26`
 - `20241006` `51c5e3e0bef991767f48a0c3bf6814426711b5f2`
 - `20241002` `66890dbf054bd2c9980e4817dac7affe974286d0`
@@ -323,6 +324,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `00965ba60c469407ed57cd165b86ea1171651b02` [chore(deps): Bump syn from 1.0.109 to 2.0.66 (#18792)](https://github.com/risingwavelabs/risingwave/pull/18792)
+
+## nightly-20241008
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ba761f2362886ab3b73602a3423b73c97a9f5b26...c359bd9662d45fb90f0957101be20d658cd1fde3)
 - `c359bd9662d45fb90f0957101be20d658cd1fde3` [refactor: remove prefix "rw_" in session variables (#18769)](https://github.com/risingwavelabs/risingwave/pull/18769)
 - `419c85397c4b65dcd522e62a94f14ab6df96abae` [feat(expr): support any children in `rw_vnode` (#18405)](https://github.com/risingwavelabs/risingwave/pull/18405)
 - `c174d919974edc68424304bd733a98856f1d3af7` [fix(meta): persist correct vnode count for table catalogs in sql backend (#18759)](https://github.com/risingwavelabs/risingwave/pull/18759)
