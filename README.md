@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `24a68514ba039535e1afbfa21d2becbff0731462` [fix(meta): avoid removing control stream node when failed to send request (#18767)](https://github.com/risingwavelabs/risingwave/pull/18767)
 
 ## nightly-20241007
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/51c5e3e0bef991767f48a0c3bf6814426711b5f2...ba761f2362886ab3b73602a3423b73c97a9f5b26)
