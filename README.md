@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `419c85397c4b65dcd522e62a94f14ab6df96abae` [feat(expr): support any children in `rw_vnode` (#18405)](https://github.com/risingwavelabs/risingwave/pull/18405)
 - `c174d919974edc68424304bd733a98856f1d3af7` [fix(meta): persist correct vnode count for table catalogs in sql backend (#18759)](https://github.com/risingwavelabs/risingwave/pull/18759)
 - `8d6453d3c2d84d4ca569d6847a99b983ea51b9d7` [feat(sink): add json encode for file sink (#18744)](https://github.com/risingwavelabs/risingwave/pull/18744)
 - `e2c76182d0da075e8623479bc2dbe220ef23cf67` [refactor(storage): add SST retention time sanity check for compaction (#18779)](https://github.com/risingwavelabs/risingwave/pull/18779)
