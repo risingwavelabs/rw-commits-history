@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `18604b2fc3abf7ad055402bafd6db8b463499700` [build(mac): brew install llvm -> lld (#18804)](https://github.com/risingwavelabs/risingwave/pull/18804)
+- `c96c91330e2bd757e4eb7d98b3f60e3b3fe2f9a9` [fix(batch): fix distributed batch query not properly throwing errors to PG client (#18812)](https://github.com/risingwavelabs/risingwave/pull/18812)
 - `20699d4103e2328e25fb937f432fd3bdfdcc7209` [feat(subscription): support blocking cursor (#18675)](https://github.com/risingwavelabs/risingwave/pull/18675)
 - `00965ba60c469407ed57cd165b86ea1171651b02` [chore(deps): Bump syn from 1.0.109 to 2.0.66 (#18792)](https://github.com/risingwavelabs/risingwave/pull/18792)
 
