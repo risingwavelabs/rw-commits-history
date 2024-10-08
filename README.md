@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e2c76182d0da075e8623479bc2dbe220ef23cf67` [refactor(storage): add SST retention time sanity check for compaction (#18779)](https://github.com/risingwavelabs/risingwave/pull/18779)
+- `b129ec1576665936e39f461f5f0ebbdfd429af3b` [chore(deps): upgrade sqlx 0.7.3 to 0.7.4 (#18799)](https://github.com/risingwavelabs/risingwave/pull/18799)
 - `8ee00aa5e47f7e139ab79a3e170e2043ceb322fc` [chore(deps): Bump sqllogictest from 0.21.0 to 0.22.0 (#18793)](https://github.com/risingwavelabs/risingwave/pull/18793)
 - `24a68514ba039535e1afbfa21d2becbff0731462` [fix(meta): avoid removing control stream node when failed to send request (#18767)](https://github.com/risingwavelabs/risingwave/pull/18767)
 
