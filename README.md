@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `20699d4103e2328e25fb937f432fd3bdfdcc7209` [feat(subscription): support blocking cursor (#18675)](https://github.com/risingwavelabs/risingwave/pull/18675)
 - `00965ba60c469407ed57cd165b86ea1171651b02` [chore(deps): Bump syn from 1.0.109 to 2.0.66 (#18792)](https://github.com/risingwavelabs/risingwave/pull/18792)
 
 ## nightly-20241008
