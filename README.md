@@ -315,7 +315,6 @@
 - `20231013` `c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7`
 - `20231012` `5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b`
 - `20231011` `60b342965d960ea2d6769d6c412f79318b42739e`
-- `20231010` `d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e`
 </details>
 
 # Commit history
@@ -4278,28 +4277,4 @@
 - `d77687632ac4b25127bddce353877614ec478318` [feat(jdbc-sink): support sink varchar to uuid for postgres and improve java building time (#12704)](https://github.com/risingwavelabs/risingwave/pull/12704)
 
 ## nightly-20231011
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e...60b342965d960ea2d6769d6c412f79318b42739e)
 - `60b342965d960ea2d6769d6c412f79318b42739e` [refactor(state_table): unify iterator interfaces of state table (#12364)](https://github.com/risingwavelabs/risingwave/pull/12364)
-- `12a5b2e2ca06afaa297ba8f0888f20eaaea5cb69` [fix(streaming): stall barrier until at least 1 snapshot read passed (#12780)](https://github.com/risingwavelabs/risingwave/pull/12780)
-- `80f1d58b866b022fd2d5aac92dd2e5bae2c6ceb7` [feat(expr): support streaming `bit_and` and `bit_or` aggregate (#12758)](https://github.com/risingwavelabs/risingwave/pull/12758)
-- `88ffd82cd126065ab7c6d5f114bbd786be165747` [fix(streaming): assert all states finished, or all not finished for backfill (#12767)](https://github.com/risingwavelabs/risingwave/pull/12767)
-- `2db6f9416873187b9771abdc3e14607d1a607f71` [feat: allow kafka auto creating topics by `properties.allow.auto.create.topics` (#12766)](https://github.com/risingwavelabs/risingwave/pull/12766)
-- `93a70544ba93291a3de226260b5be60127e15755` [fix(stream): fix mview pk indices and prefix len hint (#12760)](https://github.com/risingwavelabs/risingwave/pull/12760)
-- `13614393ee4e0f60cbe774a5347053fc6b464220` [fix: allow scale in for kinesis (#12765)](https://github.com/risingwavelabs/risingwave/pull/12765)
-- `394c544bd0de9ecf936588f85c4f27a6056d5358` [chore: tweak log level in production (#12739)](https://github.com/risingwavelabs/risingwave/pull/12739)
-- `4ce28cdc0d0f8439e03a97c6e4e2fae411ff1013` [chore(metrics): fix executor cache miss ratio metrics (#12756)](https://github.com/risingwavelabs/risingwave/pull/12756)
-- `9aac181c0c2a03b4c7d6b15beeb9d9ba37a1aaa7` [feat: init cluster controller based on sql meta store (#12572)](https://github.com/risingwavelabs/risingwave/pull/12572)
-- `85e158c48ee1ef794c6141e35295a0b2bf804d31` [feat: support impure `DEFAULT` expressions for columns (#12678)](https://github.com/risingwavelabs/risingwave/pull/12678)
-- `5bb5cceda6401e44d6b1a23854c30242d131c28b` [chore(metrics): minor fix on metrics of stream actors (#12687)](https://github.com/risingwavelabs/risingwave/pull/12687)
-- `d6c3280cc2bc3a5f697e232af48810f13ae34de0` [fix(mysql-cdc): set mysql connection timezone to UTC (#12729)](https://github.com/risingwavelabs/risingwave/pull/12729)
-- `c952f32a0e687c791b41935d7ad94cc11403cd77` [refactor(expr): support `any` type in function signatures (#12262)](https://github.com/risingwavelabs/risingwave/pull/12262)
-- `f5b750fcbc19c6fff6b83285be8afbc9cfb1602f` [feat(sink): support different default sink decouple for different sink (#12544)](https://github.com/risingwavelabs/risingwave/pull/12544)
-- `9d439b7df499ceb2747abd528e7f3f316bc50e69` [fix(log-store): ensure cancellation safety for log reader next_item call (#12725)](https://github.com/risingwavelabs/risingwave/pull/12725)
-- `e5e17fa8ae4db46932b6a1f953ea060ee87c8ade` [fix(backfill): no need initial snapshot read (#12740)](https://github.com/risingwavelabs/risingwave/pull/12740)
-- `fb6691a333150c2d72ccbafb9548d1aad84a3814` [fix(log-store): avoid truncate storage data written in the same epoch (#12698)](https://github.com/risingwavelabs/risingwave/pull/12698)
-- `88a8a3723493927836e7599b68ff9440044783f7` [feat: support cast function `date` (#12738)](https://github.com/risingwavelabs/risingwave/pull/12738)
-- `fb12bbaee99a91cb10f568874431d1825c3158e7` [fix(meta): fix drop source cascade (#12731)](https://github.com/risingwavelabs/risingwave/pull/12731)
-- `aec6038602cefd2329a5ea72a9791ae726846d37` [refactor(optimizer): change stream key to option (#12524)](https://github.com/risingwavelabs/risingwave/pull/12524)
-
-## nightly-20231010
-- `d2e37ea5ffc6d85f8a62c8abf492e7456f6e6f4e` [fix(streaming): handle pause on bootstrap for `Now` and `Values` (#12716)](https://github.com/risingwavelabs/risingwave/pull/12716)
