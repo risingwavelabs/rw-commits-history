@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b8c3fcb52964ff87d743cb9349e7097f77047c21` [fix(ci): bump protoc version (#18824)](https://github.com/risingwavelabs/risingwave/pull/18824)
 - `81780bec1a5ac2b7e20d47c09baeb0e9db99a585` [fix(expr): cast untyped `start` and `step` when inferring type for `generate_series` (#18786)](https://github.com/risingwavelabs/risingwave/pull/18786)
 - `2478845fa72964725a38824f5d132cf421863d22` [feat(meta): watch and reload license key from file (#18768)](https://github.com/risingwavelabs/risingwave/pull/18768)
 - `ee4d9e798bb0d6ff9cc5e8f20e92faa4c54b8ba2` [chore(deps): Bump procfs from 0.16.0 to 0.17.0 (#18818)](https://github.com/risingwavelabs/risingwave/pull/18818)
