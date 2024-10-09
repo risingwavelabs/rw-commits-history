@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241009` `b8c3fcb52964ff87d743cb9349e7097f77047c21`
 - `20241008` `c359bd9662d45fb90f0957101be20d658cd1fde3`
 - `20241007` `ba761f2362886ab3b73602a3423b73c97a9f5b26`
 - `20241006` `51c5e3e0bef991767f48a0c3bf6814426711b5f2`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241009
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c359bd9662d45fb90f0957101be20d658cd1fde3...b8c3fcb52964ff87d743cb9349e7097f77047c21)
 - `b8c3fcb52964ff87d743cb9349e7097f77047c21` [fix(ci): bump protoc version (#18824)](https://github.com/risingwavelabs/risingwave/pull/18824)
 - `81780bec1a5ac2b7e20d47c09baeb0e9db99a585` [fix(expr): cast untyped `start` and `step` when inferring type for `generate_series` (#18786)](https://github.com/risingwavelabs/risingwave/pull/18786)
 - `2478845fa72964725a38824f5d132cf421863d22` [feat(meta): watch and reload license key from file (#18768)](https://github.com/risingwavelabs/risingwave/pull/18768)
