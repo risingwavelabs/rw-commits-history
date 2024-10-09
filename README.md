@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `786cd632d362afc1befcfc24beda8b5bc4920f7b` [fix: Remove `DISTINCT` in recursive CTEs for MySQL (#18825)](https://github.com/risingwavelabs/risingwave/pull/18825)
 
 ## nightly-20241009
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c359bd9662d45fb90f0957101be20d658cd1fde3...b8c3fcb52964ff87d743cb9349e7097f77047c21)
