@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `840c37bd089f03f06aabca8e0cf76998c47c7a9d` [refactor(sink): refactor es and opensearch to support async (#17746)](https://github.com/risingwavelabs/risingwave/pull/17746)
+- `f8be7735d21db85d3513dc1604bdae742f5285f6` [chore(deps): bump the tonic group with 2 updates (#18682)](https://github.com/risingwavelabs/risingwave/pull/18682)
 - `80dd8afb397fb30f6d7083e8c81d6e0d7c46b97e` [fix: don't initialize executor_row_count metrics when disabled (#18836)](https://github.com/risingwavelabs/risingwave/pull/18836)
 - `286e25b1716d6a622800fe11665ef87a1a511fa5` [feat(storage): support disable auto group scheduling (#18833)](https://github.com/risingwavelabs/risingwave/pull/18833)
 - `df6aa8a6e05ae9834b89e2e285ab901c966dc0c4` [fix(metric): correctly update storage object metric (#18835)](https://github.com/risingwavelabs/risingwave/pull/18835)
