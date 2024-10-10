@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f32d01389249afbfcabbf32efe6435c6a26c5766` [chore(deps): Bump bytes from 1.6.0 to 1.7.2 (#18827)](https://github.com/risingwavelabs/risingwave/pull/18827)
+- `c68aa5e36ed32af92ee3bb6642c68be9f96c6f2b` [refactor(expr): separate user-facing `rw_vnode` from the internal one (#18815)](https://github.com/risingwavelabs/risingwave/pull/18815)
 - `b4976e0d0bf3c77544a3555c1f42d60f517145fb` [chore(deps): Bump wasmtime from 22.0.0 to 22.0.1 (#18828)](https://github.com/risingwavelabs/risingwave/pull/18828)
 - `e0fc16cd2c12ae0fba0296730c57a4fd47f81ba6` [fix(sqlparser): `Display` multiple source `INCLUDE` columns correctly (#18813)](https://github.com/risingwavelabs/risingwave/pull/18813)
 - `71001d8444b7176fd2f406eecc65c8e516f0d4e6` [refactor(meta): limit max inflight time travel query (#18810)](https://github.com/risingwavelabs/risingwave/pull/18810)
