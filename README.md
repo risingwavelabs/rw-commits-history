@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `80dd8afb397fb30f6d7083e8c81d6e0d7c46b97e` [fix: don't initialize executor_row_count metrics when disabled (#18836)](https://github.com/risingwavelabs/risingwave/pull/18836)
+- `286e25b1716d6a622800fe11665ef87a1a511fa5` [feat(storage): support disable auto group scheduling (#18833)](https://github.com/risingwavelabs/risingwave/pull/18833)
+- `df6aa8a6e05ae9834b89e2e285ab901c966dc0c4` [fix(metric): correctly update storage object metric (#18835)](https://github.com/risingwavelabs/risingwave/pull/18835)
 - `f32d01389249afbfcabbf32efe6435c6a26c5766` [chore(deps): Bump bytes from 1.6.0 to 1.7.2 (#18827)](https://github.com/risingwavelabs/risingwave/pull/18827)
 - `c68aa5e36ed32af92ee3bb6642c68be9f96c6f2b` [refactor(expr): separate user-facing `rw_vnode` from the internal one (#18815)](https://github.com/risingwavelabs/risingwave/pull/18815)
 - `b4976e0d0bf3c77544a3555c1f42d60f517145fb` [chore(deps): Bump wasmtime from 22.0.0 to 22.0.1 (#18828)](https://github.com/risingwavelabs/risingwave/pull/18828)
