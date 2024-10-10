@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9a71862c8fdb6e64cf23f4ac4c81aac40c5f5c3e` [chore(cdc): enhance cdc primary key error message (#18829)](https://github.com/risingwavelabs/risingwave/pull/18829)
 - `dce14c94fe9bcd6315cd8b8e7db8353ba7bc0feb` [feat(over window): add compute count metric for general over window executor (#18847)](https://github.com/risingwavelabs/risingwave/pull/18847)
 - `7720bee5f49c021c1064e6d33dd4b62077caceb7` [refactor(over window): move `build_changes` to `OverPartition` for better modularity (#18846)](https://github.com/risingwavelabs/risingwave/pull/18846)
 
