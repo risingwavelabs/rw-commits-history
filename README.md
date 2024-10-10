@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241010` `b12460d08b5fadef15d43495cf63b6fe21dd4ee8`
 - `20241009` `b8c3fcb52964ff87d743cb9349e7097f77047c21`
 - `20241008` `c359bd9662d45fb90f0957101be20d658cd1fde3`
 - `20241007` `ba761f2362886ab3b73602a3423b73c97a9f5b26`
@@ -314,7 +315,6 @@
 - `20231015` `b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b`
 - `20231013` `c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7`
 - `20231012` `5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b`
-- `20231011` `60b342965d960ea2d6769d6c412f79318b42739e`
 </details>
 
 # Commit history
@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241010
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b8c3fcb52964ff87d743cb9349e7097f77047c21...b12460d08b5fadef15d43495cf63b6fe21dd4ee8)
 - `b12460d08b5fadef15d43495cf63b6fe21dd4ee8` [fix: fix base64 decode on + (#18837)](https://github.com/risingwavelabs/risingwave/pull/18837)
 - `840c37bd089f03f06aabca8e0cf76998c47c7a9d` [refactor(sink): refactor es and opensearch to support async (#17746)](https://github.com/risingwavelabs/risingwave/pull/17746)
 - `f8be7735d21db85d3513dc1604bdae742f5285f6` [chore(deps): bump the tonic group with 2 updates (#18682)](https://github.com/risingwavelabs/risingwave/pull/18682)
@@ -4272,22 +4275,4 @@
 - `f27182f35cad6831b5751f677f32645aa1321613` [fix(state table): add the accidentally deleted prefix_hint back (#12817)](https://github.com/risingwavelabs/risingwave/pull/12817)
 
 ## nightly-20231012
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/60b342965d960ea2d6769d6c412f79318b42739e...5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b)
 - `5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b` [chore(streaming): deprecate `BACKFILL_SNAPSHOT_BARRIER_INTERVAL` (#12782)](https://github.com/risingwavelabs/risingwave/pull/12782)
-- `155fb51a006cdb3e430cf5f87e12d8f27ce8101a` [chore(risedev): remove connector-rpc-endpoint from risedev (#12816)](https://github.com/risingwavelabs/risingwave/pull/12816)
-- `c0f9b80c1b438d3e17cbbc5d91e1eaa5f9886339` [fix: fix empty ops case in iceberg sink (#12811)](https://github.com/risingwavelabs/risingwave/pull/12811)
-- `a36d3c0aba52d469ef1005fca077b45a990c69cb` [remove connector node from risedev (#12807)](https://github.com/risingwavelabs/risingwave/pull/12807)
-- `59f6f7ed4e2d7caaa25990992d1f27b4e473aab3` [fix(sink-coordinator): fix coordinator stuck on single writer (#12803)](https://github.com/risingwavelabs/risingwave/pull/12803)
-- `d472f5b6f149b81fd3df33d700250f5c434a7d0a` [chore(docker): connector node no-build-rust for docker (#12804)](https://github.com/risingwavelabs/risingwave/pull/12804)
-- `13e493be85e55c499e1cd4ee2f43089e460dcd69` [chore(deps): Bump regex from 1.9.5 to 1.10.0 (#12749)](https://github.com/risingwavelabs/risingwave/pull/12749)
-- `7d54cdd1c8966036e5f04f29c8b6ce9ba9f1519b` [fix(storage): fix tombstone picker (#12776)](https://github.com/risingwavelabs/risingwave/pull/12776)
-- `9ad785712578c95979e820ba61fcafb80116677c` [fix(connector): add nats stream field, and change subject into several input (#12799)](https://github.com/risingwavelabs/risingwave/pull/12799)
-- `f9e3d9947ce6682c2521450a27757a66d51f3f83` [fix(expr): reject inf/-inf/nan decimal in generate_series and range (#12798)](https://github.com/risingwavelabs/risingwave/pull/12798)
-- `2607ae77999760fd2d66b101a866aaabc189be4b` [fix(docker): fix Dockerfile.hdfs (#12682)](https://github.com/risingwavelabs/risingwave/pull/12682)
-- `bf0d05f7ca0730934f2a157308e9f0a413a0c89d` [feat(heap_profiling): enable heap profiling for meta node. (#12737)](https://github.com/risingwavelabs/risingwave/pull/12737)
-- `ac2a58c4fd0e1b68e976adfc1db6df79e3aa51f9` [refactor(connector): replace sink coordinator rpc with jni (#12724)](https://github.com/risingwavelabs/risingwave/pull/12724)
-- `e0059dfeda30442bdb023f8f9279fe0feba1116a` [fix(cdc-backfill): fix recovery of cdc table that subscribed to an empty table (#12773)](https://github.com/risingwavelabs/risingwave/pull/12773)
-- `d77687632ac4b25127bddce353877614ec478318` [feat(jdbc-sink): support sink varchar to uuid for postgres and improve java building time (#12704)](https://github.com/risingwavelabs/risingwave/pull/12704)
-
-## nightly-20231011
-- `60b342965d960ea2d6769d6c412f79318b42739e` [refactor(state_table): unify iterator interfaces of state table (#12364)](https://github.com/risingwavelabs/risingwave/pull/12364)
