@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e0fc16cd2c12ae0fba0296730c57a4fd47f81ba6` [fix(sqlparser): `Display` multiple source `INCLUDE` columns correctly (#18813)](https://github.com/risingwavelabs/risingwave/pull/18813)
+- `71001d8444b7176fd2f406eecc65c8e516f0d4e6` [refactor(meta): limit max inflight time travel query (#18810)](https://github.com/risingwavelabs/risingwave/pull/18810)
 - `0311d835f7980ab37cb8775b6a4d407ab121eb7a` [feat: ban ALTER SOURCE for shared source, and refine all ALTER clauses (#18750)](https://github.com/risingwavelabs/risingwave/pull/18750)
 - `786cd632d362afc1befcfc24beda8b5bc4920f7b` [fix: Remove `DISTINCT` in recursive CTEs for MySQL (#18825)](https://github.com/risingwavelabs/risingwave/pull/18825)
 
