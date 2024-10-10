@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dce14c94fe9bcd6315cd8b8e7db8353ba7bc0feb` [feat(over window): add compute count metric for general over window executor (#18847)](https://github.com/risingwavelabs/risingwave/pull/18847)
+- `7720bee5f49c021c1064e6d33dd4b62077caceb7` [refactor(over window): move `build_changes` to `OverPartition` for better modularity (#18846)](https://github.com/risingwavelabs/risingwave/pull/18846)
 
 ## nightly-20241010
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b8c3fcb52964ff87d743cb9349e7097f77047c21...b12460d08b5fadef15d43495cf63b6fe21dd4ee8)
