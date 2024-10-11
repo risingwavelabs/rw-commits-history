@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `442086b3c1d27331972780648ab4ce17546c47ec` [chore(deps): Bump rust_decimal from 1.35.0 to 1.36.0 (#18773)](https://github.com/risingwavelabs/risingwave/pull/18773)
+- `b11e15c1425b2bc9d9db1df492237eb4728d3667` [fix(jdbc-sink): fix incorrect data type mapping of Timestamptz (#18843)](https://github.com/risingwavelabs/risingwave/pull/18843)
 - `a9bf2e9863b52ec833ca56e6120ad816a3947439` [chore(deps): bump async-nats from 0.35.0 to 0.37.0 (#18851)](https://github.com/risingwavelabs/risingwave/pull/18851)
 - `9a71862c8fdb6e64cf23f4ac4c81aac40c5f5c3e` [chore(cdc): enhance cdc primary key error message (#18829)](https://github.com/risingwavelabs/risingwave/pull/18829)
 - `dce14c94fe9bcd6315cd8b8e7db8353ba7bc0feb` [feat(over window): add compute count metric for general over window executor (#18847)](https://github.com/risingwavelabs/risingwave/pull/18847)
