@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `360d55267c390e62ba27063867474a4d05e5a656` [fix(udf): upgrade arrow-udf to 0.5 which fixes rust udf compilation (#18862)](https://github.com/risingwavelabs/risingwave/pull/18862)
+- `b1ea9e486f4665a64f660ebfa9d079502222ff12` [refactor: enable time travel by default (#18854)](https://github.com/risingwavelabs/risingwave/pull/18854)
 - `755edb4c67476d1f12fcfec5bf7216b277c8d01e` [fix: fix subscription clean during recovery (#18866)](https://github.com/risingwavelabs/risingwave/pull/18866)
 - `e9d2e29cc79557c9eb4fb17d42bf41a22cd654fa` [fix(udf): unlimit external udf message size (#18591)](https://github.com/risingwavelabs/risingwave/pull/18591)
 - `da977e921f397391d9025c068e0b0f025405e44c` [feat(batch): support basic postgres tvf (#18811)](https://github.com/risingwavelabs/risingwave/pull/18811)
