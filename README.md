@@ -315,7 +315,6 @@
 - `20231016` `d0572f40229293faf285e85aef01ad3990302513`
 - `20231015` `b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b`
 - `20231013` `c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7`
-- `20231012` `5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b`
 </details>
 
 # Commit history
@@ -324,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7bdc37e21a27e64cc945d4c7b1b53133fd254ad6` [fix: filter out creating associated source catalog in notification snapshot (#18874)](https://github.com/risingwavelabs/risingwave/pull/18874)
 
 ## nightly-20241011
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b12460d08b5fadef15d43495cf63b6fe21dd4ee8...9ef40ba54a3cfce9f4946440ef78c8020b1b72f5)
@@ -4287,13 +4287,4 @@
 - `103826b8dcbe9528d826a77504bf4cf5851d44d7` [chore(deps): Bump zstd from 0.12.4 to 0.13.0 (#12794)](https://github.com/risingwavelabs/risingwave/pull/12794)
 
 ## nightly-20231013
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b...c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7)
 - `c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7` [fix(compaction): fix can not pick task when there are many files overlap (#12790)](https://github.com/risingwavelabs/risingwave/pull/12790)
-- `369c1f30a39a57eac5ec43b1fa628b188e99e846` [doc(cmd_all): add docs on standalone mode (#12828)](https://github.com/risingwavelabs/risingwave/pull/12828)
-- `ac4ae56441ac6448edfd19d548606a7b6b5fb678` [refactor(memory): use 0.7 * system memory as default `total_memory_bytes` (#12832)](https://github.com/risingwavelabs/risingwave/pull/12832)
-- `7761c4ff18b19718d8dbde5e862505e8bbdef74e` [feat(storage): filecache lazy load, unit-level refill, reduce insert latency (#12714)](https://github.com/risingwavelabs/risingwave/pull/12714)
-- `0364affce14b26a6cf43b15f2a5915bb9b698142` [fix: Revert "feat: use seperated runtime for source manager (#12571)" (#12801)](https://github.com/risingwavelabs/risingwave/pull/12801)
-- `f27182f35cad6831b5751f677f32645aa1321613` [fix(state table): add the accidentally deleted prefix_hint back (#12817)](https://github.com/risingwavelabs/risingwave/pull/12817)
-
-## nightly-20231012
-- `5919269dc9c47eb7d2f91b14a20669ed3f0b9b4b` [chore(streaming): deprecate `BACKFILL_SNAPSHOT_BARRIER_INTERVAL` (#12782)](https://github.com/risingwavelabs/risingwave/pull/12782)
