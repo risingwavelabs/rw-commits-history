@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5` [test: move kafka alter source test to source_inline (#18867)](https://github.com/risingwavelabs/risingwave/pull/18867)
 - `360d55267c390e62ba27063867474a4d05e5a656` [fix(udf): upgrade arrow-udf to 0.5 which fixes rust udf compilation (#18862)](https://github.com/risingwavelabs/risingwave/pull/18862)
 - `b1ea9e486f4665a64f660ebfa9d079502222ff12` [refactor: enable time travel by default (#18854)](https://github.com/risingwavelabs/risingwave/pull/18854)
 - `755edb4c67476d1f12fcfec5bf7216b277c8d01e` [fix: fix subscription clean during recovery (#18866)](https://github.com/risingwavelabs/risingwave/pull/18866)
