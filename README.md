@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d6dc650a3e1103d6243d95b57100b20fe04874d7` [fix(meta): rename `--license-key-file` to `--license-key-path` (#18838)](https://github.com/risingwavelabs/risingwave/pull/18838)
+- `7cd2ab071df0d0e394598857d80c8f716a53bd30` [fix(ci): fix there is no reactor running in meta recovery tests, when kill-meta enabled (#18852)](https://github.com/risingwavelabs/risingwave/pull/18852)
 - `b01906ec6fe3fe0d962cd02196c2c9c25583c13b` [refactor(meta): reject directly setting license key when it's managed by watching a file (#18823)](https://github.com/risingwavelabs/risingwave/pull/18823)
 - `7fa1dfffd33747036a24253accda11887f9db705` [refactor(cache): upgrade foyer to 0.12 and related deps (#18822)](https://github.com/risingwavelabs/risingwave/pull/18822)
 - `442086b3c1d27331972780648ab4ce17546c47ec` [chore(deps): Bump rust_decimal from 1.35.0 to 1.36.0 (#18773)](https://github.com/risingwavelabs/risingwave/pull/18773)
