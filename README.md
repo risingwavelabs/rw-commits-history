@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241011` `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5`
 - `20241010` `b12460d08b5fadef15d43495cf63b6fe21dd4ee8`
 - `20241009` `b8c3fcb52964ff87d743cb9349e7097f77047c21`
 - `20241008` `c359bd9662d45fb90f0957101be20d658cd1fde3`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241011
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b12460d08b5fadef15d43495cf63b6fe21dd4ee8...9ef40ba54a3cfce9f4946440ef78c8020b1b72f5)
 - `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5` [test: move kafka alter source test to source_inline (#18867)](https://github.com/risingwavelabs/risingwave/pull/18867)
 - `360d55267c390e62ba27063867474a4d05e5a656` [fix(udf): upgrade arrow-udf to 0.5 which fixes rust udf compilation (#18862)](https://github.com/risingwavelabs/risingwave/pull/18862)
 - `b1ea9e486f4665a64f660ebfa9d079502222ff12` [refactor: enable time travel by default (#18854)](https://github.com/risingwavelabs/risingwave/pull/18854)
