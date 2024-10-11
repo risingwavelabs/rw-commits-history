@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `755edb4c67476d1f12fcfec5bf7216b277c8d01e` [fix: fix subscription clean during recovery (#18866)](https://github.com/risingwavelabs/risingwave/pull/18866)
+- `e9d2e29cc79557c9eb4fb17d42bf41a22cd654fa` [fix(udf): unlimit external udf message size (#18591)](https://github.com/risingwavelabs/risingwave/pull/18591)
 - `da977e921f397391d9025c068e0b0f025405e44c` [feat(batch): support basic postgres tvf (#18811)](https://github.com/risingwavelabs/risingwave/pull/18811)
 - `aaad651dfda2308f96bf96b485b844486dc92665` [fix(storage): Fix panic caused by group overlapping ssts optimization (#18861)](https://github.com/risingwavelabs/risingwave/pull/18861)
 - `d6dc650a3e1103d6243d95b57100b20fe04874d7` [fix(meta): rename `--license-key-file` to `--license-key-path` (#18838)](https://github.com/risingwavelabs/risingwave/pull/18838)
