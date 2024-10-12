@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241012` `f50535978d243e8158e2647430ba408c7b895008`
 - `20241011` `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5`
 - `20241010` `b12460d08b5fadef15d43495cf63b6fe21dd4ee8`
 - `20241009` `b8c3fcb52964ff87d743cb9349e7097f77047c21`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241012
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9ef40ba54a3cfce9f4946440ef78c8020b1b72f5...f50535978d243e8158e2647430ba408c7b895008)
 - `f50535978d243e8158e2647430ba408c7b895008` [feat: create connector source worker before the txn write of catalog (#18885)](https://github.com/risingwavelabs/risingwave/pull/18885)
 - `798896fc4eec986193b49a0443fa0452caf41b4f` [fix(storage): fix sub level id for time travel (#18886)](https://github.com/risingwavelabs/risingwave/pull/18886)
 - `52f233186b73d60f6d150b5da57946c729537711` [feat(iceberg): introduce read/write bytes metrics for iceberg and all files sys_catalog (#18841)](https://github.com/risingwavelabs/risingwave/pull/18841)
