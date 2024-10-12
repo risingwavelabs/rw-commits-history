@@ -315,7 +315,6 @@
 - `20231017` `34ec26075cf45cd2679f0e30aaa4d4e52eb5187d`
 - `20231016` `d0572f40229293faf285e85aef01ad3990302513`
 - `20231015` `b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b`
-- `20231013` `c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7`
 </details>
 
 # Commit history
@@ -4292,10 +4291,4 @@
 - `ec60ee2f711f13a4b41b067163fe25ac32a324d6` [fix(connector): add connector sink metric back (#12812)](https://github.com/risingwavelabs/risingwave/pull/12812)
 
 ## nightly-20231015
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7...b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b)
 - `b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b` [chore(deps): bump rdkafka to v0.34.0 and librdkafka to v2.2.0 (#11232)](https://github.com/risingwavelabs/risingwave/pull/11232)
-- `387d251b722a65dd7147b04aff611a2381c44bf4` [feat(optimizer): optimize join stream key (#12831)](https://github.com/risingwavelabs/risingwave/pull/12831)
-- `103826b8dcbe9528d826a77504bf4cf5851d44d7` [chore(deps): Bump zstd from 0.12.4 to 0.13.0 (#12794)](https://github.com/risingwavelabs/risingwave/pull/12794)
-
-## nightly-20231013
-- `c9840edd3ef3da07ce97d69ec558dd8fb7bf7bb7` [fix(compaction): fix can not pick task when there are many files overlap (#12790)](https://github.com/risingwavelabs/risingwave/pull/12790)
