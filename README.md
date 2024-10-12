@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `da368b2dab3bfa7d61c89699f6adf9d7c7f6507f` [chore(deps): Bump sysinfo from 0.31.4 to 0.32.0 (#18879)](https://github.com/risingwavelabs/risingwave/pull/18879)
 - `00fbff45f978e57ced1eb7d70a16666ebeeeac3c` [fix(mssql-cdc): fix sqlserver-cdc backfill command (#18848)](https://github.com/risingwavelabs/risingwave/pull/18848)
 - `7bdc37e21a27e64cc945d4c7b1b53133fd254ad6` [fix: filter out creating associated source catalog in notification snapshot (#18874)](https://github.com/risingwavelabs/risingwave/pull/18874)
 
