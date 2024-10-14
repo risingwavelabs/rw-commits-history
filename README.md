@@ -323,6 +323,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cfc3f84593da8d8805583bc4d003661ff02ba85c` [chore(deps): Bump tempfile from 3.10.0 to 3.13.0 (#18772)](https://github.com/risingwavelabs/risingwave/pull/18772)
+- `adc48b579905be0fefafb0064cdf3a50ffe10631` [chore(deps): Bump commons-io:commons-io from 2.11.0 to 2.14.0 in /java (#18791)](https://github.com/risingwavelabs/risingwave/pull/18791)
+- `a6f2b88b1bd81e7216fdb85035cc2ad9d0288c95` [fix: misused source row count metric (#18902)](https://github.com/risingwavelabs/risingwave/pull/18902)
+- `67514c1cb2944b298a39608bcf3daeca4318bea9` [chore(deps): Bump pbjson-build from 0.5.1 to 0.7.0 (#18781)](https://github.com/risingwavelabs/risingwave/pull/18781)
+- `0045fd6f2d3de1338daaf223960e38d8da924ea6` [chore(deps): bump typed-builder from 0.18.2 to 0.20.0 (#18850)](https://github.com/risingwavelabs/risingwave/pull/18850)
 - `883bcb1e781e8909c3c9227584c3611a2232ad39` [refactor(test): mv `scripts/source` `e2e_test/source_legacy/basic/scripts` (#18891)](https://github.com/risingwavelabs/risingwave/pull/18891)
 - `f217edde107fbf6369d1bd1088b7e35e6c6ba912` [feat: improve observability for subscription/cursor SHOW commands (#18896)](https://github.com/risingwavelabs/risingwave/pull/18896)
 
