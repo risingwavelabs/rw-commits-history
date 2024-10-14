@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a348b8a76ed4146df117188fa8954784fff0e1df` [fix: use larger max_cached_recent_versions_number for CI (#18883)](https://github.com/risingwavelabs/risingwave/pull/18883)
 
 ## nightly-20241013
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9ef40ba54a3cfce9f4946440ef78c8020b1b72f5...f50535978d243e8158e2647430ba408c7b895008)
