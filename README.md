@@ -315,7 +315,6 @@
 - `20231018` `272ce88175d6294d57d1f6f2b740afeba76e9c8d`
 - `20231017` `34ec26075cf45cd2679f0e30aaa4d4e52eb5187d`
 - `20231016` `d0572f40229293faf285e85aef01ad3990302513`
-- `20231015` `b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b`
 </details>
 
 # Commit history
@@ -324,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `883bcb1e781e8909c3c9227584c3611a2232ad39` [refactor(test): mv `scripts/source` `e2e_test/source_legacy/basic/scripts` (#18891)](https://github.com/risingwavelabs/risingwave/pull/18891)
+- `f217edde107fbf6369d1bd1088b7e35e6c6ba912` [feat: improve observability for subscription/cursor SHOW commands (#18896)](https://github.com/risingwavelabs/risingwave/pull/18896)
 
 ## nightly-20241014
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f50535978d243e8158e2647430ba408c7b895008...909b7157978ae5c6fe33d08de955cc4987bc455d)
@@ -4287,16 +4288,4 @@
 - `a1f114c0f043e3cc05c12420bed9f411d77cd9cb` [fix(stream topn): fix pk indices of `TopN` and `GroupTopN` (#12840)](https://github.com/risingwavelabs/risingwave/pull/12840)
 
 ## nightly-20231016
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b...d0572f40229293faf285e85aef01ad3990302513)
 - `d0572f40229293faf285e85aef01ad3990302513` [feat(ci): support opt-in workflow for pull-requests (#12870)](https://github.com/risingwavelabs/risingwave/pull/12870)
-- `ea27579a2e6bfed1a968b567d145fb75685a6f99` [feat(sink): ProtoEncoder and AvroEncoder (#12425)](https://github.com/risingwavelabs/risingwave/pull/12425)
-- `e1bdf78949c20f4ea9a2484476aa5fc012c90ee3` [fix(metrics): avoid port in connection metrics label (#12860)](https://github.com/risingwavelabs/risingwave/pull/12860)
-- `d64d2fab70b944088d4dc295ac8eed83a902cee1` [feat(optimizer): improve union stream key (#12837)](https://github.com/risingwavelabs/risingwave/pull/12837)
-- `0aa9f7ed7fe8af6ea19015b9d8bf271a128d4bee` [fix(sqlsmith): fix generation of decode (#12855)](https://github.com/risingwavelabs/risingwave/pull/12855)
-- `f8de4a96364bbf81dfb10ad38e5e283c3e6d85ca` [feat(agg): support `jsonb_agg` and `jsonb_object_agg` in streaming mode (#12836)](https://github.com/risingwavelabs/risingwave/pull/12836)
-- `58e6f9d608694c9ad01ede024194d5d1a3acf5d1` [fix(sink): append-only without `primary_key` should not partition by dummy `{}` key (#12810)](https://github.com/risingwavelabs/risingwave/pull/12810)
-- `3579e74ea9194170fcec8f1f74c4f4aac6b4b2fd` [feat: new fs source (list and fetch) (#12595)](https://github.com/risingwavelabs/risingwave/pull/12595)
-- `ec60ee2f711f13a4b41b067163fe25ac32a324d6` [fix(connector): add connector sink metric back (#12812)](https://github.com/risingwavelabs/risingwave/pull/12812)
-
-## nightly-20231015
-- `b441341d3ced9cb155de2a1b9a5dabe67a9f7c2b` [chore(deps): bump rdkafka to v0.34.0 and librdkafka to v2.2.0 (#11232)](https://github.com/risingwavelabs/risingwave/pull/11232)
