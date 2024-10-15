@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6463815b8175621c43db257179d1ef6774e43acf` [feat: deprecate etcd meta store (#18621)](https://github.com/risingwavelabs/risingwave/pull/18621)
 - `4cf3a4842cf64f3206af9584c0c34928abeeaec8` [chore(deps): Bump serde_with from 3.8.0 to 3.8.1 (#18910)](https://github.com/risingwavelabs/risingwave/pull/18910)
 - `08fe4115ac5c1429de9b9723ee1a144e095aeceb` [doc: Create SECURITY.md (#18917)](https://github.com/risingwavelabs/risingwave/pull/18917)
 - `88c66475e17f6227a3776e06a8a7be9127a8c667` [feat(log): change opendal and reqsign log level to INFO (#18913)](https://github.com/risingwavelabs/risingwave/pull/18913)
