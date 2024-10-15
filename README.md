@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `df8840b8cc7ffbbe77210bc4a50ae5f6fa273e50` [chore(deps): Bump libtest-mimic from 0.7.0 to 0.8.1 (#18909)](https://github.com/risingwavelabs/risingwave/pull/18909)
 - `cfc3f84593da8d8805583bc4d003661ff02ba85c` [chore(deps): Bump tempfile from 3.10.0 to 3.13.0 (#18772)](https://github.com/risingwavelabs/risingwave/pull/18772)
 - `adc48b579905be0fefafb0064cdf3a50ffe10631` [chore(deps): Bump commons-io:commons-io from 2.11.0 to 2.14.0 in /java (#18791)](https://github.com/risingwavelabs/risingwave/pull/18791)
 - `a6f2b88b1bd81e7216fdb85035cc2ad9d0288c95` [fix: misused source row count metric (#18902)](https://github.com/risingwavelabs/risingwave/pull/18902)
