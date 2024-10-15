@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241015` `2af00e81d826ed4f5198e429b5803bfa3dc29652`
 - `20241014` `909b7157978ae5c6fe33d08de955cc4987bc455d`
 - `20241013` `f50535978d243e8158e2647430ba408c7b895008`
 - `20241011` `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241015
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/909b7157978ae5c6fe33d08de955cc4987bc455d...2af00e81d826ed4f5198e429b5803bfa3dc29652)
 - `2af00e81d826ed4f5198e429b5803bfa3dc29652` [fix(storage): purge dropped columns for sql backend (#18914)](https://github.com/risingwavelabs/risingwave/pull/18914)
 - `6463815b8175621c43db257179d1ef6774e43acf` [feat: deprecate etcd meta store (#18621)](https://github.com/risingwavelabs/risingwave/pull/18621)
 - `4cf3a4842cf64f3206af9584c0c34928abeeaec8` [chore(deps): Bump serde_with from 3.8.0 to 3.8.1 (#18910)](https://github.com/risingwavelabs/risingwave/pull/18910)
