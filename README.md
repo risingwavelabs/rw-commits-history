@@ -323,6 +323,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4cf3a4842cf64f3206af9584c0c34928abeeaec8` [chore(deps): Bump serde_with from 3.8.0 to 3.8.1 (#18910)](https://github.com/risingwavelabs/risingwave/pull/18910)
+- `08fe4115ac5c1429de9b9723ee1a144e095aeceb` [doc: Create SECURITY.md (#18917)](https://github.com/risingwavelabs/risingwave/pull/18917)
+- `88c66475e17f6227a3776e06a8a7be9127a8c667` [feat(log): change opendal and reqsign log level to INFO (#18913)](https://github.com/risingwavelabs/risingwave/pull/18913)
+- `e2712901d4991ed8e851f90021290e80516e40dc` [feat: allow nats additional column offset and payload  (#18897)](https://github.com/risingwavelabs/risingwave/pull/18897)
 - `df8840b8cc7ffbbe77210bc4a50ae5f6fa273e50` [chore(deps): Bump libtest-mimic from 0.7.0 to 0.8.1 (#18909)](https://github.com/risingwavelabs/risingwave/pull/18909)
 - `cfc3f84593da8d8805583bc4d003661ff02ba85c` [chore(deps): Bump tempfile from 3.10.0 to 3.13.0 (#18772)](https://github.com/risingwavelabs/risingwave/pull/18772)
 - `adc48b579905be0fefafb0064cdf3a50ffe10631` [chore(deps): Bump commons-io:commons-io from 2.11.0 to 2.14.0 in /java (#18791)](https://github.com/risingwavelabs/risingwave/pull/18791)
