@@ -315,7 +315,6 @@
 - `20231019` `495ab39ddff44ac70edfd785e0f2ed267e16923b`
 - `20231018` `272ce88175d6294d57d1f6f2b740afeba76e9c8d`
 - `20231017` `34ec26075cf45cd2679f0e30aaa4d4e52eb5187d`
-- `20231016` `d0572f40229293faf285e85aef01ad3990302513`
 </details>
 
 # Commit history
@@ -324,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `890ec7a429b7809fd72199ecd1ed2f9152f290d9` [feat: try add integrity check before offline scale (#18901)](https://github.com/risingwavelabs/risingwave/pull/18901)
+- `efbbc7dd7c0a72f0c7341a594eb4960db84f13c5` [refactor(test): move some tests from source_legacy to source_inline (#18894)](https://github.com/risingwavelabs/risingwave/pull/18894)
 
 ## nightly-20241015
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/909b7157978ae5c6fe33d08de955cc4987bc455d...2af00e81d826ed4f5198e429b5803bfa3dc29652)
@@ -4271,37 +4272,4 @@
 - `c25609832c7d6ce6f3f59c94fca2cc406360c5b2` [refactor(expr): allow defining context visibility using restricted relative path (#12919)](https://github.com/risingwavelabs/risingwave/pull/12919)
 
 ## nightly-20231017
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0572f40229293faf285e85aef01ad3990302513...34ec26075cf45cd2679f0e30aaa4d4e52eb5187d)
 - `34ec26075cf45cd2679f0e30aaa4d4e52eb5187d` [fix(java_binding): fix java binding TLS allocation failure (#12862)](https://github.com/risingwavelabs/risingwave/pull/12862)
-- `1c2e5aaba56ccd3cf99c7228573cad22b5fe9809` [feat(expr): implement greatest and least function (#12838)](https://github.com/risingwavelabs/risingwave/pull/12838)
-- `ddeea32ffe4ca0362c9781fa0fe99cdfc8e94e10` [fix: fix tab completion for relation (#12908)](https://github.com/risingwavelabs/risingwave/pull/12908)
-- `7a1f371c5e734fb760518dea640e2d721548f2d1` [feat(metrics): support reference counting in metrics label (#12882)](https://github.com/risingwavelabs/risingwave/pull/12882)
-- `7aa1a3deac20d855142ad8dfaa6757e2de4ba560` [chore(deps): Bump golang.org/x/net from 0.7.0 to 0.17.0 in /integration_tests/datagen (#12796)](https://github.com/risingwavelabs/risingwave/pull/12796)
-- `575deec3184412552b1832d8e908e1ffa0bb06a7` [chore: run all data check even some fail (#12905)](https://github.com/risingwavelabs/risingwave/pull/12905)
-- `35f77c63e87f6712cb67028847ff601b468ce271` [feat(frontend): stub session server_encoding (#12896)](https://github.com/risingwavelabs/risingwave/pull/12896)
-- `7c37573137e7db7c6e40a704de96e425314cbb13` [feat(expr): support capturing context in expression (#12747)](https://github.com/risingwavelabs/risingwave/pull/12747)
-- `61a5bd59a31992f0c514150913e7d41c32bee246` [fix(integration-test): disable iceberg-sink case (#12904)](https://github.com/risingwavelabs/risingwave/pull/12904)
-- `41967d4ff9e24c6d1e5640fdf8e8dcd5f1ab8417` [fix(storage): fix level score of base level (#12875)](https://github.com/risingwavelabs/risingwave/pull/12875)
-- `1f151cd4a8ae51c3c405662f491e06d0251996a0` [feat: add parallelism column in rw_fragments (#12901)](https://github.com/risingwavelabs/risingwave/pull/12901)
-- `e713fb9baa79c9577778f4ef37cfe6dd3da22037` [fix: unify row desc for show objects in normal and extended mode (#12877)](https://github.com/risingwavelabs/risingwave/pull/12877)
-- `527a276aaade1e16b565d57bc7cd50bc40fc07ec` [feat(metrics): bring back some mem table memory metrics (#12833)](https://github.com/risingwavelabs/risingwave/pull/12833)
-- `d2ec83c88b76e2a0d9b2c9ec59b05dd43edca780` [feat(cmd_all): provide common options `config-path` and `prometheus-listen-addr` (#12867)](https://github.com/risingwavelabs/risingwave/pull/12867)
-- `b39aef33c44a2223e8efee8b6322929ea8f5fda8` [feat: expose hidden and distribution keys of columns in sql command and rw_columns (#12839)](https://github.com/risingwavelabs/risingwave/pull/12839)
-- `3fd760e21a2ba34a65a01ed9a00f80225e808ce3` [chore(deps): Bump simd-json from 0.11.1 to 0.12.0 (#12891)](https://github.com/risingwavelabs/risingwave/pull/12891)
-- `e6bc12f17d3d724a202d4eaff965ec32cd4cb45e` [chore(deps): Bump prometheus-http-query from 0.6.6 to 0.7.0 (#12843)](https://github.com/risingwavelabs/risingwave/pull/12843)
-- `0f61b00beb8b9ab04b0bc433d48fb9b1acb2fcae` [feat(expr): add `regexp_split_to_array` (#12844)](https://github.com/risingwavelabs/risingwave/pull/12844)
-- `657a8ece0cc4f4a656182adc622f8f2a1e8b37cf` [chore(deps): Bump xorf from 0.8.1 to 0.10.2 (#12619)](https://github.com/risingwavelabs/risingwave/pull/12619)
-- `0f0a6fbe1efea7fe2bb9880880102fe0cb71e1f5` [chore(deps): Bump toml from 0.7.8 to 0.8.2 (#12890)](https://github.com/risingwavelabs/risingwave/pull/12890)
-- `d7cd2c7241268a813dfa9b7a357293d84cf3ffeb` [chore(deps): Bump @babel/traverse from 7.19.0 to 7.23.2 in /dashboard (#12887)](https://github.com/risingwavelabs/risingwave/pull/12887)
-- `fcc2469364b376c1aa30b605f27790d2584b4e61` [chore(storage): reduce state store metrics report bucket (#12879)](https://github.com/risingwavelabs/risingwave/pull/12879)
-- `e995ea0df1b00d5b14e741f78536e48ee4489fde` [chore(streaming): remove unused metrics (#12878)](https://github.com/risingwavelabs/risingwave/pull/12878)
-- `bff674b2792ad88a25da39898d29674f96e0c03a` [fix(meta): do not select several file (#12869)](https://github.com/risingwavelabs/risingwave/pull/12869)
-- `90191c70624cbfe97ff2ff128cf08d243faf8497` [feat(binder): support distinct on column aliases (#12699)](https://github.com/risingwavelabs/risingwave/pull/12699)
-- `b560febb98bd2c35d62b13f8c8ff0f7418f195dc` [chore(deps): Bump console-subscriber from 0.1.10 to 0.2.0 (#12613)](https://github.com/risingwavelabs/risingwave/pull/12613)
-- `7c301f345a252470c4d220294232dafc5aa53712` [fix(mysql-cdc): enable heartbeat message to keep the offset up to date with upstream (#12868)](https://github.com/risingwavelabs/risingwave/pull/12868)
-- `30f2baf8c0bef9a7943f93d29ab91d16be63a46f` [chore(streaming): stabilize background_ddl basic test (#12880)](https://github.com/risingwavelabs/risingwave/pull/12880)
-- `db6c9d5966b4a3114870fb2f5620c844bbe7e8eb` [fix(frontend): fix dml output fields (#12881)](https://github.com/risingwavelabs/risingwave/pull/12881)
-- `a1f114c0f043e3cc05c12420bed9f411d77cd9cb` [fix(stream topn): fix pk indices of `TopN` and `GroupTopN` (#12840)](https://github.com/risingwavelabs/risingwave/pull/12840)
-
-## nightly-20231016
-- `d0572f40229293faf285e85aef01ad3990302513` [feat(ci): support opt-in workflow for pull-requests (#12870)](https://github.com/risingwavelabs/risingwave/pull/12870)
