@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `82c124d57a7dd8fbffeb1fd7535c472e98573a32` [chore(deps): Bump the aws group with 3 updates (#18905)](https://github.com/risingwavelabs/risingwave/pull/18905)
+- `66021134eaa9ac60266ec38137fcfb55cccedc87` [feat(meta): support commit epoch on multiple graphs at once (#18819)](https://github.com/risingwavelabs/risingwave/pull/18819)
+- `959321025e972bff406349787c0702e224ae0128` [feat(risedev): support launching system rw in risedev-dev (#18889)](https://github.com/risingwavelabs/risingwave/pull/18889)
 - `04755fdc27aa9c0c44746b73a03dea3714a0526e` [fix(cdc): fix the filter expression of CdcFilter executor (#18868)](https://github.com/risingwavelabs/risingwave/pull/18868)
 - `dd4b1d4fb37ed2ba2ff40309c7234640666f3c56` [chore(deps): Bump rustls-pki-types from 1.7.0 to 1.10.0 (#18923)](https://github.com/risingwavelabs/risingwave/pull/18923)
 - `d997ebe842a4c9079b5a438a6398f9b9d357fc64` [refactor: impl ack and migrate to durable consumer for Nats (#18873)](https://github.com/risingwavelabs/risingwave/pull/18873)
