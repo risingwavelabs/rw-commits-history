@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b089d1ee3c98c15190e73513795e287cef7db2f9` [fix(sqlparser): keyword after `char` shall not be consumed on error (#18921)](https://github.com/risingwavelabs/risingwave/pull/18921)
+- `a2b6f4feb4a739b91f8a61e3351b7bd18392bae1` [chore: fix overwrite to append new migration when using generate cli (#18939)](https://github.com/risingwavelabs/risingwave/pull/18939)
+- `e2a04af13c56a49ac8057a758006b6c0f73d6afd` [fix(java-binding): use table committed epoch in demo query (#18937)](https://github.com/risingwavelabs/risingwave/pull/18937)
 - `b7f9da48d657962f38992c5961cd852ecd7972d5` [refactor(source): handle `INCLUDE header` data type properly (#18821)](https://github.com/risingwavelabs/risingwave/pull/18821)
 - `6e775bd1d0ea175d9ca9ad00a5bb177dadc5267e` [feat(ci): add cherry-pick job to release-2.1 (#18933)](https://github.com/risingwavelabs/risingwave/pull/18933)
 - `82c124d57a7dd8fbffeb1fd7535c472e98573a32` [chore(deps): Bump the aws group with 3 updates (#18905)](https://github.com/risingwavelabs/risingwave/pull/18905)
