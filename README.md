@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5d914bab1a74eb3361575a57d3142627ae64a8cb` [chore(deps): Bump opensearch from 2.2.0 to 2.3.0 (#18922)](https://github.com/risingwavelabs/risingwave/pull/18922)
 - `890ec7a429b7809fd72199ecd1ed2f9152f290d9` [feat: try add integrity check before offline scale (#18901)](https://github.com/risingwavelabs/risingwave/pull/18901)
 - `efbbc7dd7c0a72f0c7341a594eb4960db84f13c5` [refactor(test): move some tests from source_legacy to source_inline (#18894)](https://github.com/risingwavelabs/risingwave/pull/18894)
 
