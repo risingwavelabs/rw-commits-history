@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `04755fdc27aa9c0c44746b73a03dea3714a0526e` [fix(cdc): fix the filter expression of CdcFilter executor (#18868)](https://github.com/risingwavelabs/risingwave/pull/18868)
+- `dd4b1d4fb37ed2ba2ff40309c7234640666f3c56` [chore(deps): Bump rustls-pki-types from 1.7.0 to 1.10.0 (#18923)](https://github.com/risingwavelabs/risingwave/pull/18923)
 - `d997ebe842a4c9079b5a438a6398f9b9d357fc64` [refactor: impl ack and migrate to durable consumer for Nats (#18873)](https://github.com/risingwavelabs/risingwave/pull/18873)
 - `6863a24b86085e9ef6cc87fc4ac8d396602c735d` [test: add recovery in nexmark q4 sim test (#18577)](https://github.com/risingwavelabs/risingwave/pull/18577)
 - `a8b83e38128ed426e5faf2432a4caf36cc8889c5` [feat(stream agg): add agg state cache miss ratio metric (#18900)](https://github.com/risingwavelabs/risingwave/pull/18900)
