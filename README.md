@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7920e3df88f453516885d9a7ce076f4afbba7800` [feat(mssql-cdc): add ssl support for sqlserver-cdc (#18912)](https://github.com/risingwavelabs/risingwave/pull/18912)
 
 ## nightly-20241016
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2af00e81d826ed4f5198e429b5803bfa3dc29652...360fe8adc5b65fda09ff2a87388b7102326ea190)
