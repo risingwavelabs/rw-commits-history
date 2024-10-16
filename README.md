@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b7f9da48d657962f38992c5961cd852ecd7972d5` [refactor(source): handle `INCLUDE header` data type properly (#18821)](https://github.com/risingwavelabs/risingwave/pull/18821)
+- `6e775bd1d0ea175d9ca9ad00a5bb177dadc5267e` [feat(ci): add cherry-pick job to release-2.1 (#18933)](https://github.com/risingwavelabs/risingwave/pull/18933)
 - `82c124d57a7dd8fbffeb1fd7535c472e98573a32` [chore(deps): Bump the aws group with 3 updates (#18905)](https://github.com/risingwavelabs/risingwave/pull/18905)
 - `66021134eaa9ac60266ec38137fcfb55cccedc87` [feat(meta): support commit epoch on multiple graphs at once (#18819)](https://github.com/risingwavelabs/risingwave/pull/18819)
 - `959321025e972bff406349787c0702e224ae0128` [feat(risedev): support launching system rw in risedev-dev (#18889)](https://github.com/risingwavelabs/risingwave/pull/18889)
