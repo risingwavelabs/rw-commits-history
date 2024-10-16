@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241016` `360fe8adc5b65fda09ff2a87388b7102326ea190`
 - `20241015` `2af00e81d826ed4f5198e429b5803bfa3dc29652`
 - `20241014` `909b7157978ae5c6fe33d08de955cc4987bc455d`
 - `20241013` `f50535978d243e8158e2647430ba408c7b895008`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241016
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2af00e81d826ed4f5198e429b5803bfa3dc29652...360fe8adc5b65fda09ff2a87388b7102326ea190)
 - `360fe8adc5b65fda09ff2a87388b7102326ea190` [fix(meta): fix contention (#18945)](https://github.com/risingwavelabs/risingwave/pull/18945)
 - `0154e89cb33cd2e32a8113ce73c90c36ab2cf00a` [chore: update package version to 2.2.0-alpha (#18934)](https://github.com/risingwavelabs/risingwave/pull/18934)
 - `6d35ac1eadd40ae81e89ef67806fbb11b87979fe` [refactor(storage): proactively prevent uncommitted SSTs from GC (#18882)](https://github.com/risingwavelabs/risingwave/pull/18882)
