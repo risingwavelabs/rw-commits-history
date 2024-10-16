@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `360fe8adc5b65fda09ff2a87388b7102326ea190` [fix(meta): fix contention (#18945)](https://github.com/risingwavelabs/risingwave/pull/18945)
 - `0154e89cb33cd2e32a8113ce73c90c36ab2cf00a` [chore: update package version to 2.2.0-alpha (#18934)](https://github.com/risingwavelabs/risingwave/pull/18934)
 - `6d35ac1eadd40ae81e89ef67806fbb11b87979fe` [refactor(storage): proactively prevent uncommitted SSTs from GC (#18882)](https://github.com/risingwavelabs/risingwave/pull/18882)
 - `b089d1ee3c98c15190e73513795e287cef7db2f9` [fix(sqlparser): keyword after `char` shall not be consumed on error (#18921)](https://github.com/risingwavelabs/risingwave/pull/18921)
