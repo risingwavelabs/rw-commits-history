@@ -315,7 +315,6 @@
 - `20231023` `2563300e7b5b1f7a5761052c953f6ffb7ea448f8`
 - `20231019` `495ab39ddff44ac70edfd785e0f2ed267e16923b`
 - `20231018` `272ce88175d6294d57d1f6f2b740afeba76e9c8d`
-- `20231017` `34ec26075cf45cd2679f0e30aaa4d4e52eb5187d`
 </details>
 
 # Commit history
@@ -4274,23 +4273,4 @@
 - `38f8ec1d7150d4495763ad9880d04aebc0314966` [chore(deps): Bump uuid from 1.4.1 to 1.5.0 (#12955)](https://github.com/risingwavelabs/risingwave/pull/12955)
 
 ## nightly-20231018
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/34ec26075cf45cd2679f0e30aaa4d4e52eb5187d...272ce88175d6294d57d1f6f2b740afeba76e9c8d)
 - `272ce88175d6294d57d1f6f2b740afeba76e9c8d` [fix(release): install javadoc in release script (#12949)](https://github.com/risingwavelabs/risingwave/pull/12949)
-- `399cbc07c422a32022abab43d8aa7ba961afc942` [feat(dashboard): dump await-tree for all compute nodes (#12947)](https://github.com/risingwavelabs/risingwave/pull/12947)
-- `878ebac88d6af6df286440e50df2b453960dc2ca` [feat(ctl): support rebuild table stats with approximate value (#12946)](https://github.com/risingwavelabs/risingwave/pull/12946)
-- `d7e5772dc1cb7d040ea53ce10782a7e738568e17` [chore: update deps for feature store demo (#12897)](https://github.com/risingwavelabs/risingwave/pull/12897)
-- `de2b8565e41ab7dd13514eb582107721c9b248f7` [fix: fix alter index rename (#12944)](https://github.com/risingwavelabs/risingwave/pull/12944)
-- `09087404564d23d1e23f29d0f5524261aceea1d2` [fix(risedev): fill-in CONNECTOR_LIBS_PATH if set (#12928)](https://github.com/risingwavelabs/risingwave/pull/12928)
-- `52f4c630ba60a4a2e2c7915e776744d3cbcfb901` [fix: don't count file cache buffer pool size if disabled (#12941)](https://github.com/risingwavelabs/risingwave/pull/12941)
-- `f1021932f27711dd07487b95089c6b968e1faf79` [refactor(meta): split meta into smaller crates (step 1) (#12924)](https://github.com/risingwavelabs/risingwave/pull/12924)
-- `b782185a30b2ff6d7ac7a45045d85a4c60cf5dad` [refactor(meta): adapt ValTransaction to metadata model v2 (#12918)](https://github.com/risingwavelabs/risingwave/pull/12918)
-- `01ed55b0a9219d7c3543b7aec29d1484ebfcf0c1` [feat(s3): ban new cluster startup if s3 bucket has retention configured (#12806)](https://github.com/risingwavelabs/risingwave/pull/12806)
-- `4b4afc879c607b188e23596bbe31684ea664d6a0` [fix(connector): offset miscounting in nd_streaming (#12866)](https://github.com/risingwavelabs/risingwave/pull/12866)
-- `9c7a50b5fc0f57620ecec7eb0919944018d9a3f9` [chore(deps): Bump serde_with from 3.3.0 to 3.4.0 (#12925)](https://github.com/risingwavelabs/risingwave/pull/12925)
-- `e66e3adc368801a291f3d09c778b01ce8e253187` [fix(ci): stabilize microbenchmark (#12900)](https://github.com/risingwavelabs/risingwave/pull/12900)
-- `57b46414e673219aecf87175e5f04bf74b83bb7b` [refactor(over window): use new `table.iter_with_prefix` in streaming OverWindow (#12872)](https://github.com/risingwavelabs/risingwave/pull/12872)
-- `203cac8b6724e4acb281dae879790b9952533e22` [feat(udf): don't send invisible rows to UDF server (#12486)](https://github.com/risingwavelabs/risingwave/pull/12486)
-- `c25609832c7d6ce6f3f59c94fca2cc406360c5b2` [refactor(expr): allow defining context visibility using restricted relative path (#12919)](https://github.com/risingwavelabs/risingwave/pull/12919)
-
-## nightly-20231017
-- `34ec26075cf45cd2679f0e30aaa4d4e52eb5187d` [fix(java_binding): fix java binding TLS allocation failure (#12862)](https://github.com/risingwavelabs/risingwave/pull/12862)
