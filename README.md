@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `79ee46fdfab686486875713e1705d58cf0bd2da0` [feat(ci): simplify the cherry-pick workflow (#18978)](https://github.com/risingwavelabs/risingwave/pull/18978)
+- `fb1edb60c7a1aaed794aad8fd1d93ad4255e04f8` [chore(test): longer streaming_upload_attempt_timeout_ms for backfill test only (#18960)](https://github.com/risingwavelabs/risingwave/pull/18960)
+- `9a6a7f9052d5679165ff57cc01417c742c95351c` [chore: cleanup v2 naming for sql metastore (#18941)](https://github.com/risingwavelabs/risingwave/pull/18941)
 - `c56294f16d30d9bdb0b8d4ea9901dc95319edf1d` [chore(ci): eliminate the progress output of wget (#18965)](https://github.com/risingwavelabs/risingwave/pull/18965)
 - `5204ea4495ce77e5bbff00997c8155488867b5cc` [feat(sink): introduce batching strategy for  file sink (#18472)](https://github.com/risingwavelabs/risingwave/pull/18472)
 - `bf36aad0a839ad1babaff778b376059d18362f86` [refactor(compaction): Simplify task checking in group scheduling (#18884)](https://github.com/risingwavelabs/risingwave/pull/18884)
