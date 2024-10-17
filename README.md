@@ -315,7 +315,6 @@
 - `20231024` `447e1422a2a0989d873ddd21f660460d0f0e26d2`
 - `20231023` `2563300e7b5b1f7a5761052c953f6ffb7ea448f8`
 - `20231019` `495ab39ddff44ac70edfd785e0f2ed267e16923b`
-- `20231018` `272ce88175d6294d57d1f6f2b740afeba76e9c8d`
 </details>
 
 # Commit history
@@ -4283,12 +4282,4 @@
 - `bf3dbbbdf426f43031f3186cf3447b75d8d7ae66` [refactor(frontend/expr): use associated type for ExprVisitor design (#12960)](https://github.com/risingwavelabs/risingwave/pull/12960)
 
 ## nightly-20231019
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/272ce88175d6294d57d1f6f2b740afeba76e9c8d...495ab39ddff44ac70edfd785e0f2ed267e16923b)
 - `495ab39ddff44ac70edfd785e0f2ed267e16923b` [feat(sink): kafka upsert sink with schema (#12113)](https://github.com/risingwavelabs/risingwave/pull/12113)
-- `1b0d5eeef86cc2dca8a4ced86b7f92fe706194f9` [fix(stream): add assertion to ensure pk indices consistency (#12763)](https://github.com/risingwavelabs/risingwave/pull/12763)
-- `8d5d518e5a2994a0da4b6b045542816d67153e01` [chore(deps): Bump rustix from 0.38.4 to 0.38.19 in /src/tests/libpq_test (#12954)](https://github.com/risingwavelabs/risingwave/pull/12954)
-- `fdc4139f1db60544cf0c24b33984c9babbcdb41b` [chore(deps): Bump rustix from 0.36.15 to 0.36.16 (#12953)](https://github.com/risingwavelabs/risingwave/pull/12953)
-- `38f8ec1d7150d4495763ad9880d04aebc0314966` [chore(deps): Bump uuid from 1.4.1 to 1.5.0 (#12955)](https://github.com/risingwavelabs/risingwave/pull/12955)
-
-## nightly-20231018
-- `272ce88175d6294d57d1f6f2b740afeba76e9c8d` [fix(release): install javadoc in release script (#12949)](https://github.com/risingwavelabs/risingwave/pull/12949)
