@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c56294f16d30d9bdb0b8d4ea9901dc95319edf1d` [chore(ci): eliminate the progress output of wget (#18965)](https://github.com/risingwavelabs/risingwave/pull/18965)
+- `5204ea4495ce77e5bbff00997c8155488867b5cc` [feat(sink): introduce batching strategy for  file sink (#18472)](https://github.com/risingwavelabs/risingwave/pull/18472)
 - `bf36aad0a839ad1babaff778b376059d18362f86` [refactor(compaction): Simplify task checking in group scheduling (#18884)](https://github.com/risingwavelabs/risingwave/pull/18884)
 - `340dba6bea00e9acc475ea2a96a9b8742b7aa565` [feat(postgres-cdc): support replicating Postgres schema change (#18760)](https://github.com/risingwavelabs/risingwave/pull/18760)
 - `73fa688369b7b04062e546a2916fc2b646fbfc62` [feat: support background DDL for MV on shared source (#18919)](https://github.com/risingwavelabs/risingwave/pull/18919)
