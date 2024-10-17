@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `73fa688369b7b04062e546a2916fc2b646fbfc62` [feat: support background DDL for MV on shared source (#18919)](https://github.com/risingwavelabs/risingwave/pull/18919)
+- `b55732f77060315da6e3e68fda0f99ed22106981` [fix: prevent mqtt enumerator in dead loop if disconnected (#18961)](https://github.com/risingwavelabs/risingwave/pull/18961)
 - `4ec4db1baeec1fcc1982a375d18b04ad3556dd3f` [chore(deps): Bump rustls-pemfile from 2.1.1 to 2.2.0 (#18956)](https://github.com/risingwavelabs/risingwave/pull/18956)
 - `7920e3df88f453516885d9a7ce076f4afbba7800` [feat(mssql-cdc): add ssl support for sqlserver-cdc (#18912)](https://github.com/risingwavelabs/risingwave/pull/18912)
 
