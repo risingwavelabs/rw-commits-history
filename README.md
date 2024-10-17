@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241017` `79ee46fdfab686486875713e1705d58cf0bd2da0`
 - `20241016` `360fe8adc5b65fda09ff2a87388b7102326ea190`
 - `20241015` `2af00e81d826ed4f5198e429b5803bfa3dc29652`
 - `20241014` `909b7157978ae5c6fe33d08de955cc4987bc455d`
@@ -323,6 +324,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ee97c1d52a0a27cf6684fd082ebc4065407d71e0` [fix(ci): add contents write permission (#18981)](https://github.com/risingwavelabs/risingwave/pull/18981)
+- `9e4a6fdacafbf821835ecf76e8b9fa2c1b093b35` [revert: we allow single quotation in title again (#18973)](https://github.com/risingwavelabs/risingwave/pull/18973)
+- `e1177e59c374111d2c82835be87f4961819d9610` [fix(ci): use explicit permissions (#18980)](https://github.com/risingwavelabs/risingwave/pull/18980)
+
+## nightly-20241017
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/360fe8adc5b65fda09ff2a87388b7102326ea190...79ee46fdfab686486875713e1705d58cf0bd2da0)
 - `79ee46fdfab686486875713e1705d58cf0bd2da0` [feat(ci): simplify the cherry-pick workflow (#18978)](https://github.com/risingwavelabs/risingwave/pull/18978)
 - `fb1edb60c7a1aaed794aad8fd1d93ad4255e04f8` [chore(test): longer streaming_upload_attempt_timeout_ms for backfill test only (#18960)](https://github.com/risingwavelabs/risingwave/pull/18960)
 - `9a6a7f9052d5679165ff57cc01417c742c95351c` [chore: cleanup v2 naming for sql metastore (#18941)](https://github.com/risingwavelabs/risingwave/pull/18941)
