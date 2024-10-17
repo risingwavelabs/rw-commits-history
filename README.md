@@ -323,6 +323,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bf36aad0a839ad1babaff778b376059d18362f86` [refactor(compaction): Simplify task checking in group scheduling (#18884)](https://github.com/risingwavelabs/risingwave/pull/18884)
+- `340dba6bea00e9acc475ea2a96a9b8742b7aa565` [feat(postgres-cdc): support replicating Postgres schema change (#18760)](https://github.com/risingwavelabs/risingwave/pull/18760)
 - `73fa688369b7b04062e546a2916fc2b646fbfc62` [feat: support background DDL for MV on shared source (#18919)](https://github.com/risingwavelabs/risingwave/pull/18919)
 - `b55732f77060315da6e3e68fda0f99ed22106981` [fix: prevent mqtt enumerator in dead loop if disconnected (#18961)](https://github.com/risingwavelabs/risingwave/pull/18961)
 - `4ec4db1baeec1fcc1982a375d18b04ad3556dd3f` [chore(deps): Bump rustls-pemfile from 2.1.1 to 2.2.0 (#18956)](https://github.com/risingwavelabs/risingwave/pull/18956)
