@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `75190a791bef7f50d45de7cbc5aa5f8fb0599010` [chore(deps): Bump uuid from 1.10.0 to 1.11.0 (#18985)](https://github.com/risingwavelabs/risingwave/pull/18985)
 - `ee97c1d52a0a27cf6684fd082ebc4065407d71e0` [fix(ci): add contents write permission (#18981)](https://github.com/risingwavelabs/risingwave/pull/18981)
 - `9e4a6fdacafbf821835ecf76e8b9fa2c1b093b35` [revert: we allow single quotation in title again (#18973)](https://github.com/risingwavelabs/risingwave/pull/18973)
 - `e1177e59c374111d2c82835be87f4961819d9610` [fix(ci): use explicit permissions (#18980)](https://github.com/risingwavelabs/risingwave/pull/18980)
