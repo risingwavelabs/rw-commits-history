@@ -323,6 +323,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b801234b7219858e9aa59c0463607e3744dcc70f` [fix(ci): change backfill test config (#18994)](https://github.com/risingwavelabs/risingwave/pull/18994)
 - `20bd924b9a1091392ac5d04af798ca5a6e86fe75` [fix(meta): read correct id field (#18988)](https://github.com/risingwavelabs/risingwave/pull/18988)
 - `d241a3228a40a508a640511c4f2332280817dfbc` [doc(dev-guide): minor improve testing guide (#18986)](https://github.com/risingwavelabs/risingwave/pull/18986)
 - `75190a791bef7f50d45de7cbc5aa5f8fb0599010` [chore(deps): Bump uuid from 1.10.0 to 1.11.0 (#18985)](https://github.com/risingwavelabs/risingwave/pull/18985)
