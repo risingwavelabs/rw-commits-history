@@ -315,7 +315,6 @@
 - `20231025` `7f82929b38131f43b1290e51b0722c972fa3b6c2`
 - `20231024` `447e1422a2a0989d873ddd21f660460d0f0e26d2`
 - `20231023` `2563300e7b5b1f7a5761052c953f6ffb7ea448f8`
-- `20231019` `495ab39ddff44ac70edfd785e0f2ed267e16923b`
 </details>
 
 # Commit history
@@ -324,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `96aeb52372543bf1cc5ab814e50210cb3fb1d898` [test: use tempfile for rw metadata storage in deterministic tests (#18970)](https://github.com/risingwavelabs/risingwave/pull/18970)
+- `5b93390125f5a78d72ba531df3cfce04b23688a1` [chore(deps): unpatch madsim (#19013)](https://github.com/risingwavelabs/risingwave/pull/19013)
+- `aed4e6e979fbd15befa30a90c9f267c6d370c94f` [fix(common): fix conversion between Decimal to arrow Decimal128 (#19007)](https://github.com/risingwavelabs/risingwave/pull/19007)
 - `60e124dba68ad8770e2909553cd5e4de29fa2f69` [ci: parallelize e2e_test/source_inline (#18971)](https://github.com/risingwavelabs/risingwave/pull/18971)
 
 ## nightly-20241018
@@ -4273,32 +4275,4 @@
 - `afb705b991cfdca0b2ed5671d8afd8e56854a57b` [fix(batch): do not send stacktrace to frontend on error (#13010)](https://github.com/risingwavelabs/risingwave/pull/13010)
 
 ## nightly-20231023
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/495ab39ddff44ac70edfd785e0f2ed267e16923b...2563300e7b5b1f7a5761052c953f6ffb7ea448f8)
 - `2563300e7b5b1f7a5761052c953f6ffb7ea448f8` [chore: Refactor FsFetchExecutorBuilder to handle rate limiting (#13006)](https://github.com/risingwavelabs/risingwave/pull/13006)
-- `903daed19c544a1f910b0a7789cc80b260419d34` [feat: support alter relation name in catalog controller (#12977)](https://github.com/risingwavelabs/risingwave/pull/12977)
-- `a3d2c4b5a8c86005bc85660cec4d68d69432c13f` [fix: openssl is compiled twice, once not vendored in linux (#13001)](https://github.com/risingwavelabs/risingwave/pull/13001)
-- `df0e017e1780c312a5c82b1f7767d44549e051a0` [chore: remove sqlx dependency (#13002)](https://github.com/risingwavelabs/risingwave/pull/13002)
-- `8f981f3cdc9004b62ca2eb2442dbe07d1d034985` [revert(ci): e2e timeout 15 -> 17 (#12985)](https://github.com/risingwavelabs/risingwave/pull/12985)
-- `8b8c14c8b5304fbef1802fa3b57f059f5418ba96` [feat: Integrate SQL election backend into the existing ORM. (#12976)](https://github.com/risingwavelabs/risingwave/pull/12976)
-- `abafae03a9474647304207f998a105f9ad982cdf` [chore(optimizer): rename logical to core (#12975)](https://github.com/risingwavelabs/risingwave/pull/12975)
-- `ebfafe571f72cc22a3eceb5674ca2d3cc9caa42c` [feat(planner): support dml subquery (#12995)](https://github.com/risingwavelabs/risingwave/pull/12995)
-- `3881de293e4c478d490357000f6b1994c403f9d7` [ci: use fixed branch for nightly rust action (#12989)](https://github.com/risingwavelabs/risingwave/pull/12989)
-- `67b5feb718687b6313e6c9a5fb14e4619e6aabe9` [refactor(source): move schema registry to parent mod (#12986)](https://github.com/risingwavelabs/risingwave/pull/12986)
-- `7574a1b39f01e3b09039f957f6c461d74ecf32f5` [refactor(optimizer): refactor plan visitor with associated type (#12994)](https://github.com/risingwavelabs/risingwave/pull/12994)
-- `848bddab955b483d452f40c349c60f782f64f3a0` [feat(Sink): support redis sink (#11999)](https://github.com/risingwavelabs/risingwave/pull/11999)
-- `a5104215f3b9be1ee2b0d5a877f4b4104a9a1c7f` [chore: remove the `-ea` from jvm options (#12993)](https://github.com/risingwavelabs/risingwave/pull/12993)
-- `156c52e6e782c10fbb98a2907bac7295f1e0bbee` [feat(ctl): support for compaction score query (#12966)](https://github.com/risingwavelabs/risingwave/pull/12966)
-- `19643adfc5e7ccb5706b99cafe5bd756072d5966` [refactor(source): prefer `SpecificParserConfig` over `SourceStruct` (#12602)](https://github.com/risingwavelabs/risingwave/pull/12602)
-- `6833305cce8c9a1d23573f1972bf8dfa0ffaee7a` [feat(meta): recover stream job progress (#12167)](https://github.com/risingwavelabs/risingwave/pull/12167)
-- `ccef1c58d650141f8b7e7821df32070cb4ab4a7b` [feat(sink): enable kafka sink with `format plain encode protobuf` (#12858)](https://github.com/risingwavelabs/risingwave/pull/12858)
-- `fa66cbda67c9996821bb4f1d7d03026fada0a712` [refactor(optimizer): clean up dead code for optimizer v2 (#12973)](https://github.com/risingwavelabs/risingwave/pull/12973)
-- `37d0a79d046e48d7175153d800e53ae465462402` [feat: concurrent batch scan (#12825)](https://github.com/risingwavelabs/risingwave/pull/12825)
-- `852b4275f0d6ca7e34bc75c0a5244206a3569a2c` [fix: fix table object foreign key in init migration (#12978)](https://github.com/risingwavelabs/risingwave/pull/12978)
-- `38a066c562cf6defb4d6d0bff0e3d488d9263132` [feat(memory): add jvm memory to compute node memory control (#12965)](https://github.com/risingwavelabs/risingwave/pull/12965)
-- `bbd28521a296c007c1b761f8011ffc50c134cdcc` [refactor(source): cleanup schema registry name strategy handling (#12968)](https://github.com/risingwavelabs/risingwave/pull/12968)
-- `d7e8c7e468dd1bea239ec55023bdf2ef306acc1a` [feat: support for all non-streaming related interfaces in catalog controller (#12685)](https://github.com/risingwavelabs/risingwave/pull/12685)
-- `ff63e805cdfb9a89a9ab814b586c31af83e1ce23` [build: remove `workspace-hack` from proc-macro crates' dependencies (#12961)](https://github.com/risingwavelabs/risingwave/pull/12961)
-- `bf3dbbbdf426f43031f3186cf3447b75d8d7ae66` [refactor(frontend/expr): use associated type for ExprVisitor design (#12960)](https://github.com/risingwavelabs/risingwave/pull/12960)
-
-## nightly-20231019
-- `495ab39ddff44ac70edfd785e0f2ed267e16923b` [feat(sink): kafka upsert sink with schema (#12113)](https://github.com/risingwavelabs/risingwave/pull/12113)
