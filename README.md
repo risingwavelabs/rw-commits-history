@@ -323,6 +323,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3b161303f37fdc080756faab759455176eaa0d48` [feat(batch): ensure user-facing context is always present for external system errors (#18982)](https://github.com/risingwavelabs/risingwave/pull/18982)
+- `339ebf8119a8ebceae63dfe76f005c9b7793e71e` [fix(test): fix some flaky e2e source tests (#18989)](https://github.com/risingwavelabs/risingwave/pull/18989)
+- `ab526062690ea35b26de6eb0f70b0a9f9fd91e05` [feat(meta): record Hummock GC history (#18946)](https://github.com/risingwavelabs/risingwave/pull/18946)
+- `0226bd5933b753b95c79b084be6b92f6bd4992b6` [fix(frontend): allow `INCLUDE payload` without other columns (#19003)](https://github.com/risingwavelabs/risingwave/pull/19003)
 - `c0d6af170770ca34635c467ac03f5ac8327c9b21` [feat(meta): commit epoch in separate group delta (#18893)](https://github.com/risingwavelabs/risingwave/pull/18893)
 - `d6277fb78f287e433ccf8a473b3a30393b57cc9e` [feat: report sink failure event to event log (#18958)](https://github.com/risingwavelabs/risingwave/pull/18958)
 - `87e2ebfd04b8bf9adfa6da6bf9e9c45fbcf85e33` [feat(snapshot-backfill): control log store back pressure in backfill executor (#18798)](https://github.com/risingwavelabs/risingwave/pull/18798)
