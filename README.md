@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65` [fix(ci): ensure timeout steps also notify (#18962)](https://github.com/risingwavelabs/risingwave/pull/18962)
+- `7f37a8e8621c48aac3c28063a297fee87e3d4e21` [feat(frontend): support create database with owner (#19005)](https://github.com/risingwavelabs/risingwave/pull/19005)
+- `73a4bb979f2b11624c46fd64d8d5534eddafc659` [fix: changelog does not support fully qualified path (#18785)](https://github.com/risingwavelabs/risingwave/pull/18785)
 - `3b161303f37fdc080756faab759455176eaa0d48` [feat(batch): ensure user-facing context is always present for external system errors (#18982)](https://github.com/risingwavelabs/risingwave/pull/18982)
 - `339ebf8119a8ebceae63dfe76f005c9b7793e71e` [fix(test): fix some flaky e2e source tests (#18989)](https://github.com/risingwavelabs/risingwave/pull/18989)
 - `ab526062690ea35b26de6eb0f70b0a9f9fd91e05` [feat(meta): record Hummock GC history (#18946)](https://github.com/risingwavelabs/risingwave/pull/18946)
