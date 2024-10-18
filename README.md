@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241018` `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65`
 - `20241017` `79ee46fdfab686486875713e1705d58cf0bd2da0`
 - `20241016` `360fe8adc5b65fda09ff2a87388b7102326ea190`
 - `20241015` `2af00e81d826ed4f5198e429b5803bfa3dc29652`
@@ -323,6 +324,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `60e124dba68ad8770e2909553cd5e4de29fa2f69` [ci: parallelize e2e_test/source_inline (#18971)](https://github.com/risingwavelabs/risingwave/pull/18971)
+
+## nightly-20241018
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79ee46fdfab686486875713e1705d58cf0bd2da0...14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65)
 - `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65` [fix(ci): ensure timeout steps also notify (#18962)](https://github.com/risingwavelabs/risingwave/pull/18962)
 - `7f37a8e8621c48aac3c28063a297fee87e3d4e21` [feat(frontend): support create database with owner (#19005)](https://github.com/risingwavelabs/risingwave/pull/19005)
 - `73a4bb979f2b11624c46fd64d8d5534eddafc659` [fix: changelog does not support fully qualified path (#18785)](https://github.com/risingwavelabs/risingwave/pull/18785)
