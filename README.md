@@ -323,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c0d6af170770ca34635c467ac03f5ac8327c9b21` [feat(meta): commit epoch in separate group delta (#18893)](https://github.com/risingwavelabs/risingwave/pull/18893)
+- `d6277fb78f287e433ccf8a473b3a30393b57cc9e` [feat: report sink failure event to event log (#18958)](https://github.com/risingwavelabs/risingwave/pull/18958)
+- `87e2ebfd04b8bf9adfa6da6bf9e9c45fbcf85e33` [feat(snapshot-backfill): control log store back pressure in backfill executor (#18798)](https://github.com/risingwavelabs/risingwave/pull/18798)
 - `b801234b7219858e9aa59c0463607e3744dcc70f` [fix(ci): change backfill test config (#18994)](https://github.com/risingwavelabs/risingwave/pull/18994)
 - `20bd924b9a1091392ac5d04af798ca5a6e86fe75` [fix(meta): read correct id field (#18988)](https://github.com/risingwavelabs/risingwave/pull/18988)
 - `d241a3228a40a508a640511c4f2332280817dfbc` [doc(dev-guide): minor improve testing guide (#18986)](https://github.com/risingwavelabs/risingwave/pull/18986)
