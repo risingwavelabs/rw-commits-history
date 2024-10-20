@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20241019` `96aeb52372543bf1cc5ab814e50210cb3fb1d898`
+- `20241020` `96aeb52372543bf1cc5ab814e50210cb3fb1d898`
 - `20241018` `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65`
 - `20241017` `79ee46fdfab686486875713e1705d58cf0bd2da0`
 - `20241016` `360fe8adc5b65fda09ff2a87388b7102326ea190`
@@ -325,7 +325,7 @@
 
 ## Unreleased
 
-## nightly-20241019
+## nightly-20241020
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65...96aeb52372543bf1cc5ab814e50210cb3fb1d898)
 - `96aeb52372543bf1cc5ab814e50210cb3fb1d898` [test: use tempfile for rw metadata storage in deterministic tests (#18970)](https://github.com/risingwavelabs/risingwave/pull/18970)
 - `5b93390125f5a78d72ba531df3cfce04b23688a1` [chore(deps): unpatch madsim (#19013)](https://github.com/risingwavelabs/risingwave/pull/19013)
