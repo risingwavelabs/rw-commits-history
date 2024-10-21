@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ff61c885fd873de3686111d2db3aaa61b99c0e75` [refactor: distinguish between placeholder and compat for vnode count (#18976)](https://github.com/risingwavelabs/risingwave/pull/18976)
 - `3e7fffd9850bd09d68dd87d0e1ca0033bf324430` [feat: persist processed rows for SourceBackfill for SHOW JOBS (#18983)](https://github.com/risingwavelabs/risingwave/pull/18983)
 - `d17ce39433c8f0726ed9125dad0d3fca49203e07` [fix(meta): rename changelog shall check `self.from` (#19030)](https://github.com/risingwavelabs/risingwave/pull/19030)
 - `9bbf418a8136b26dd3f7e240abf683a192ce7010` [refactor(meta): clarify the completeness of internal table catalogs (#18944)](https://github.com/risingwavelabs/risingwave/pull/18944)
