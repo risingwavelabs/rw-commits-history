@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241021` `ff61c885fd873de3686111d2db3aaa61b99c0e75`
 - `20241020` `96aeb52372543bf1cc5ab814e50210cb3fb1d898`
 - `20241018` `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65`
 - `20241017` `79ee46fdfab686486875713e1705d58cf0bd2da0`
@@ -324,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241021
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/96aeb52372543bf1cc5ab814e50210cb3fb1d898...ff61c885fd873de3686111d2db3aaa61b99c0e75)
 - `ff61c885fd873de3686111d2db3aaa61b99c0e75` [refactor: distinguish between placeholder and compat for vnode count (#18976)](https://github.com/risingwavelabs/risingwave/pull/18976)
 - `3e7fffd9850bd09d68dd87d0e1ca0033bf324430` [feat: persist processed rows for SourceBackfill for SHOW JOBS (#18983)](https://github.com/risingwavelabs/risingwave/pull/18983)
 - `d17ce39433c8f0726ed9125dad0d3fca49203e07` [fix(meta): rename changelog shall check `self.from` (#19030)](https://github.com/risingwavelabs/risingwave/pull/19030)
