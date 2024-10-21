@@ -324,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a04365a6c9cb3c27c44934a71232541a52d2dade` [refactor(meta): validate time_travel_retention_ms (#18979)](https://github.com/risingwavelabs/risingwave/pull/18979)
+- `43544ac655d9ff0c1e284d456179faa675003fe3` [fix(sqlparser): `Display` changelog with quoted identifiers (#19029)](https://github.com/risingwavelabs/risingwave/pull/19029)
+- `23bdf31b996a790250be77268b7314cf6c994598` [feat: add `is_shared` column to `rw_sources` (#19027)](https://github.com/risingwavelabs/risingwave/pull/19027)
 - `1ca2ea7597bd3190bdf6495cbf20bf32d1b42b05` [feat(over window): add `over_window_accessed_entry_count` to metric for better observability (#18943)](https://github.com/risingwavelabs/risingwave/pull/18943)
 - `4dec2eaf45d56d1021b9b3371de770952042fe26` [chore: add missing system columns in pg_class and pg_attribute (#19011)](https://github.com/risingwavelabs/risingwave/pull/19011)
 - `120747f951fad0edc6bf75582d9a99e9ff2aa6a1` [fix(metric): better agg state cache miss ratio metric (#19012)](https://github.com/risingwavelabs/risingwave/pull/19012)
