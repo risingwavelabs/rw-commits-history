@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3e7fffd9850bd09d68dd87d0e1ca0033bf324430` [feat: persist processed rows for SourceBackfill for SHOW JOBS (#18983)](https://github.com/risingwavelabs/risingwave/pull/18983)
+- `d17ce39433c8f0726ed9125dad0d3fca49203e07` [fix(meta): rename changelog shall check `self.from` (#19030)](https://github.com/risingwavelabs/risingwave/pull/19030)
 - `9bbf418a8136b26dd3f7e240abf683a192ce7010` [refactor(meta): clarify the completeness of internal table catalogs (#18944)](https://github.com/risingwavelabs/risingwave/pull/18944)
 - `a04365a6c9cb3c27c44934a71232541a52d2dade` [refactor(meta): validate time_travel_retention_ms (#18979)](https://github.com/risingwavelabs/risingwave/pull/18979)
 - `43544ac655d9ff0c1e284d456179faa675003fe3` [fix(sqlparser): `Display` changelog with quoted identifiers (#19029)](https://github.com/risingwavelabs/risingwave/pull/19029)
