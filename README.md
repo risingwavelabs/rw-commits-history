@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3c57ef8dd5d26f6eaedf42c169309a0751bcf5e6` [feat: enable shared source in session variable by default, and add cluster-level config to disable (#18749)](https://github.com/risingwavelabs/risingwave/pull/18749)
 
 ## nightly-20241020
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65...96aeb52372543bf1cc5ab814e50210cb3fb1d898)
