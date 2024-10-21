@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `120747f951fad0edc6bf75582d9a99e9ff2aa6a1` [fix(metric): better agg state cache miss ratio metric (#19012)](https://github.com/risingwavelabs/risingwave/pull/19012)
 - `2a71574417e468199550c2bc40829d45543f587e` [fix(iceberg): fix iceberg source position and all delete (#18932)](https://github.com/risingwavelabs/risingwave/pull/18932)
 - `3c57ef8dd5d26f6eaedf42c169309a0751bcf5e6` [feat: enable shared source in session variable by default, and add cluster-level config to disable (#18749)](https://github.com/risingwavelabs/risingwave/pull/18749)
 
