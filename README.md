@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1ca2ea7597bd3190bdf6495cbf20bf32d1b42b05` [feat(over window): add `over_window_accessed_entry_count` to metric for better observability (#18943)](https://github.com/risingwavelabs/risingwave/pull/18943)
+- `4dec2eaf45d56d1021b9b3371de770952042fe26` [chore: add missing system columns in pg_class and pg_attribute (#19011)](https://github.com/risingwavelabs/risingwave/pull/19011)
 - `120747f951fad0edc6bf75582d9a99e9ff2aa6a1` [fix(metric): better agg state cache miss ratio metric (#19012)](https://github.com/risingwavelabs/risingwave/pull/19012)
 - `2a71574417e468199550c2bc40829d45543f587e` [fix(iceberg): fix iceberg source position and all delete (#18932)](https://github.com/risingwavelabs/risingwave/pull/18932)
 - `3c57ef8dd5d26f6eaedf42c169309a0751bcf5e6` [feat: enable shared source in session variable by default, and add cluster-level config to disable (#18749)](https://github.com/risingwavelabs/risingwave/pull/18749)
