@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241022` `87b7164b8029e779c7ccd5f6a475376c491ad0dc`
 - `20241021` `ff61c885fd873de3686111d2db3aaa61b99c0e75`
 - `20241020` `96aeb52372543bf1cc5ab814e50210cb3fb1d898`
 - `20241018` `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65`
@@ -325,6 +326,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5ca0a739671e38e2f582937d53ab4941b2de0586` [feat(frontend): support `explain format json` (#19041)](https://github.com/risingwavelabs/risingwave/pull/19041)
+
+## nightly-20241022
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ff61c885fd873de3686111d2db3aaa61b99c0e75...87b7164b8029e779c7ccd5f6a475376c491ad0dc)
 - `87b7164b8029e779c7ccd5f6a475376c491ad0dc` [feat: Add dashboard Backfill Snapshot Read Throughput(rows) by MV (#19018)](https://github.com/risingwavelabs/risingwave/pull/19018)
 - `b299fe9ff8ea2ad56d5e45ba12fa2d74891ee3f2` [chore(ci): update notify for mqtt, iceberg tests + increase standalone test timeout (#19042)](https://github.com/risingwavelabs/risingwave/pull/19042)
 - `8865c58b9ad6d543a41f66ecc212e87aea7b017f` [test: snapshot with option for sink into table (#19051)](https://github.com/risingwavelabs/risingwave/pull/19051)
