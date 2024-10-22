@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `db245612ba9c319e97c7105daf12587e1fc9809c` [doc(dev-guide): `cargo binstall` -> `cargo install`  (#19054)](https://github.com/risingwavelabs/risingwave/pull/19054)
 - `5ca0a739671e38e2f582937d53ab4941b2de0586` [feat(frontend): support `explain format json` (#19041)](https://github.com/risingwavelabs/risingwave/pull/19041)
 
 ## nightly-20241022
