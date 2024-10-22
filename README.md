@@ -325,6 +325,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8865c58b9ad6d543a41f66ecc212e87aea7b017f` [test: snapshot with option for sink into table (#19051)](https://github.com/risingwavelabs/risingwave/pull/19051)
+- `4745119eb1640efa5cee364290ea44924bb513ad` [test: add planner test case for distinct on (#19048)](https://github.com/risingwavelabs/risingwave/pull/19048)
 - `9b42fb05de7b04e0cbb5dfe87048b11f2e9179ee` [test: refactor pg tvf tests into inline tests (#19004)](https://github.com/risingwavelabs/risingwave/pull/19004)
 - `f637d0fbe14b1b02bae619774c5dfc745ee3e059` [feat: improve progress msg in SHOW JOBS for source backfill (#18925)](https://github.com/risingwavelabs/risingwave/pull/18925)
 - `0790a7312434d8491caede9df925bb666cd891c2` [chore(deps): Bump tower from 0.4.13 to 0.5.0 (#18957)](https://github.com/risingwavelabs/risingwave/pull/18957)
