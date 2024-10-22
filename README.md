@@ -317,7 +317,6 @@
 - `20231026` `46d2ff9d9ba9a501b37bd15dd144333c4bf0913f`
 - `20231025` `7f82929b38131f43b1290e51b0722c972fa3b6c2`
 - `20231024` `447e1422a2a0989d873ddd21f660460d0f0e26d2`
-- `20231023` `2563300e7b5b1f7a5761052c953f6ffb7ea448f8`
 </details>
 
 # Commit history
@@ -4292,19 +4291,4 @@
 - `e81850870a8026fd41184344c01f71bc67a7cb5d` [feat(optimizer): change stream join mv distribution key (#13022)](https://github.com/risingwavelabs/risingwave/pull/13022)
 
 ## nightly-20231024
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2563300e7b5b1f7a5761052c953f6ffb7ea448f8...447e1422a2a0989d873ddd21f660460d0f0e26d2)
 - `447e1422a2a0989d873ddd21f660460d0f0e26d2` [chore: bump foyer (#13029)](https://github.com/risingwavelabs/risingwave/pull/13029)
-- `e64543f9e5a8b080ddf8d8717846ccd4c68dac80` [feat(agg): introduce an internal agg kind to avoid minput state table after #12349 (#12384)](https://github.com/risingwavelabs/risingwave/pull/12384)
-- `02282b9c3fdd52933fc8baf7032777c184577e57` [chore: upgrade the docker image version (#13020)](https://github.com/risingwavelabs/risingwave/pull/13020)
-- `88a8331028674fa98b4584751bc7937c18e26ab3` [refactor(expr): type-safe infallible evaluation (#12921)](https://github.com/risingwavelabs/risingwave/pull/12921)
-- `fcad5e1f127c13229acb7e1ef3c4fcbf8b3e69e6` [fix(stream): clean dirty tables for barrier recovery (#12990)](https://github.com/risingwavelabs/risingwave/pull/12990)
-- `23b33460e2df0d4efa22c1574bede5dcf82cf16a` [chore(deps): Bump comfy-table from 7.0.1 to 7.1.0 (#13013)](https://github.com/risingwavelabs/risingwave/pull/13013)
-- `6939da61d9669f19d6b1193cc5eb53780b41a4b9` [fix(ci): upload microbench only when it runs (#12988)](https://github.com/risingwavelabs/risingwave/pull/12988)
-- `04151c24fc7b22fc04e9898c28b6473219bed9bb` [chore: beautify readme. (#13019)](https://github.com/risingwavelabs/risingwave/pull/13019)
-- `c171d4cb85964440097895bfdb19617be3fca1df` [refactor(optimizer): use getters to access plan base, with runtime convention checking (#12980)](https://github.com/risingwavelabs/risingwave/pull/12980)
-- `1f9030f63628c9b3de82b6c98673ae473ceaaccb` [chore: Update README.md (#13018)](https://github.com/risingwavelabs/risingwave/pull/13018)
-- `a677350670094153a81df0d454bf8ee6cd4c6012` [refactor(readme): make the readme doc more user friendly (#13017)](https://github.com/risingwavelabs/risingwave/pull/13017)
-- `afb705b991cfdca0b2ed5671d8afd8e56854a57b` [fix(batch): do not send stacktrace to frontend on error (#13010)](https://github.com/risingwavelabs/risingwave/pull/13010)
-
-## nightly-20231023
-- `2563300e7b5b1f7a5761052c953f6ffb7ea448f8` [chore: Refactor FsFetchExecutorBuilder to handle rate limiting (#13006)](https://github.com/risingwavelabs/risingwave/pull/13006)
