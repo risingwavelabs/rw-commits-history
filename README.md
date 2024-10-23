@@ -317,7 +317,6 @@
 - `20231027` `bc392aa71467c28ae7a8ddf512966efc508e4a2f`
 - `20231026` `46d2ff9d9ba9a501b37bd15dd144333c4bf0913f`
 - `20231025` `7f82929b38131f43b1290e51b0722c972fa3b6c2`
-- `20231024` `447e1422a2a0989d873ddd21f660460d0f0e26d2`
 </details>
 
 # Commit history
@@ -4281,22 +4280,4 @@
 - `7f791d65f10ff304e10ba3a6d58bb6bb3a33bad9` [feat: move model_v2 and model_migration into a separate crates (#13058)](https://github.com/risingwavelabs/risingwave/pull/13058)
 
 ## nightly-20231025
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/447e1422a2a0989d873ddd21f660460d0f0e26d2...7f82929b38131f43b1290e51b0722c972fa3b6c2)
 - `7f82929b38131f43b1290e51b0722c972fa3b6c2` [fix(meta): persist internal tables of `CREATE TABLE` (#13039)](https://github.com/risingwavelabs/risingwave/pull/13039)
-- `09a67abbefb5c7a0c53596e0a5cf557a2fae3664` [fix: `WAIT` should return error if timeout (#13045)](https://github.com/risingwavelabs/risingwave/pull/13045)
-- `e48547dac8c7083a13d9537f9f16e4cc855bc4e7` [refactor(type): switch jsonb to flat representation (#12952)](https://github.com/risingwavelabs/risingwave/pull/12952)
-- `726964aa564de584547af297c780812af2a5afa0` [fix(batch): avoid empty chunk in source executor (#13046)](https://github.com/risingwavelabs/risingwave/pull/13046)
-- `39f71a171b8a4cece71902dde973ff58d4215fcf` [chore(deps): Bump the arrow group with 6 updates (#13012)](https://github.com/risingwavelabs/risingwave/pull/13012)
-- `2d428b153e85973faf8f849cd95e8aaa0690a624` [feat(sink): Optimizing ClickHouse Upsert (#12259)](https://github.com/risingwavelabs/risingwave/pull/12259)
-- `3e89c83a5cd2aec90002591531a8e44a7cd5c826` [feat: add iceberg cdc test (#12956)](https://github.com/risingwavelabs/risingwave/pull/12956)
-- `6495d90ac0e7077a7b57490cc618cce3399b3f38` [feat(sink): async truncate for kinesis, pulsar, nats, redis and clickhouse sink (#12930)](https://github.com/risingwavelabs/risingwave/pull/12930)
-- `8221d3a16cec7122504e49423ae74a400d902ff1` [feat: add `WAIT` command (#13027)](https://github.com/risingwavelabs/risingwave/pull/13027)
-- `8fdcfb8ded255b5e59d8ab59c86dea8535416a30` [feat(sink): monitor error in remote sink response stream (#13028)](https://github.com/risingwavelabs/risingwave/pull/13028)
-- `272eff41b64bb4f2743084ee367c33d88edc5ed5` [ci: create a doc issue when a user-facing issue is done (#12991)](https://github.com/risingwavelabs/risingwave/pull/12991)
-- `a4b37a3f7cd990f21706596351115b678dab0aa7` [ci(sink): as source, start kafka with docker-compose rather than risedev (#13011)](https://github.com/risingwavelabs/risingwave/pull/13011)
-- `543bf2d25d10e57be3671bea548bd0f450a59471` [build(toolchain): bump to nightly-2023-10-21 (#12992)](https://github.com/risingwavelabs/risingwave/pull/12992)
-- `210ae713af70b83fa5b051cfda59ead43e90db73` [feat(sink): use 'create sink ... format ... encode' to create redis sink (#13003)](https://github.com/risingwavelabs/risingwave/pull/13003)
-- `e81850870a8026fd41184344c01f71bc67a7cb5d` [feat(optimizer): change stream join mv distribution key (#13022)](https://github.com/risingwavelabs/risingwave/pull/13022)
-
-## nightly-20231024
-- `447e1422a2a0989d873ddd21f660460d0f0e26d2` [chore: bump foyer (#13029)](https://github.com/risingwavelabs/risingwave/pull/13029)
