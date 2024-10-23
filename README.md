@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3a4c4de29d3d1da55df186bc1124b0f221a89f82` [fix(batch): use streaming api for `postgres_query` when fetching rows from upstream (#19064)](https://github.com/risingwavelabs/risingwave/pull/19064)
 - `db245612ba9c319e97c7105daf12587e1fc9809c` [doc(dev-guide): `cargo binstall` -> `cargo install`  (#19054)](https://github.com/risingwavelabs/risingwave/pull/19054)
 - `5ca0a739671e38e2f582937d53ab4941b2de0586` [feat(frontend): support `explain format json` (#19041)](https://github.com/risingwavelabs/risingwave/pull/19041)
 
