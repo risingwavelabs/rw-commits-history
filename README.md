@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241024` `65ed113a3c52c0fe079c9fa2751fda48d92ead49`
 - `20241023` `e6f830b68f42022b8ee1d9e4f68836cddcb3086a`
 - `20241022` `87b7164b8029e779c7ccd5f6a475376c491ad0dc`
 - `20241021` `ff61c885fd873de3686111d2db3aaa61b99c0e75`
@@ -325,6 +326,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `deb7eb54121166119baa2ab923ac47af32f11dc3` [feat(stream): enable background ddl for `StreamNow`, `StreamSource` (#19099)](https://github.com/risingwavelabs/risingwave/pull/19099)
+
+## nightly-20241024
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6f830b68f42022b8ee1d9e4f68836cddcb3086a...65ed113a3c52c0fe079c9fa2751fda48d92ead49)
 - `65ed113a3c52c0fe079c9fa2751fda48d92ead49` [feat: expose connection options for sql meta store (#19040)](https://github.com/risingwavelabs/risingwave/pull/19040)
 - `8cf092f55bcaa11c63e06370030a9efe09fc4fed` [fix(batch): warn when fragment mapping not found (#19105)](https://github.com/risingwavelabs/risingwave/pull/19105)
 - `707a0d2c51afc87c47e0750c5f7a8086dbdeccf3` [test(secret): use correct RW_SECRET_STORE_PRIVATE_KEY_HEX length in test (#19092)](https://github.com/risingwavelabs/risingwave/pull/19092)
