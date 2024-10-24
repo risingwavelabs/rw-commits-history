@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `73a3d9749154177a6b7c49cd5c99f19ef3e13fe9` [fix(over window): fix table iter pk prefix to use deduped partition key (#19081)](https://github.com/risingwavelabs/risingwave/pull/19081)
 - `bdfd89214171104a8c31e9bf40cb64a2919d9d77` [fix: remove redundant `consumer_durable_name` (#19090)](https://github.com/risingwavelabs/risingwave/pull/19090)
 
 ## nightly-20241023
