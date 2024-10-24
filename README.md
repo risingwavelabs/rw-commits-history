@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bdfd89214171104a8c31e9bf40cb64a2919d9d77` [fix: remove redundant `consumer_durable_name` (#19090)](https://github.com/risingwavelabs/risingwave/pull/19090)
 
 ## nightly-20241023
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/87b7164b8029e779c7ccd5f6a475376c491ad0dc...e6f830b68f42022b8ee1d9e4f68836cddcb3086a)
