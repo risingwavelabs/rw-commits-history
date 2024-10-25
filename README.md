@@ -317,8 +317,6 @@
 - `20231030` `4fde65f08098e7c6d7272131ea56259d636a6b38`
 - `20231029` `92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9`
 - `20231027` `bc392aa71467c28ae7a8ddf512966efc508e4a2f`
-- `20231026` `46d2ff9d9ba9a501b37bd15dd144333c4bf0913f`
-- `20231025` `7f82929b38131f43b1290e51b0722c972fa3b6c2`
 </details>
 
 # Commit history
@@ -4265,46 +4263,4 @@
 - `92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9` [test(sink): add recovery test for sink (#12701)](https://github.com/risingwavelabs/risingwave/pull/12701)
 
 ## nightly-20231027
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/46d2ff9d9ba9a501b37bd15dd144333c4bf0913f...bc392aa71467c28ae7a8ddf512966efc508e4a2f)
 - `bc392aa71467c28ae7a8ddf512966efc508e4a2f` [feat: fix missing column description in row desc for show columns command (#13116)](https://github.com/risingwavelabs/risingwave/pull/13116)
-- `ae8f1b642cca618316b77a0e4b6b8915e2334162` [chore(ci): remove connector start service from ci (#13112)](https://github.com/risingwavelabs/risingwave/pull/13112)
-- `c6945429a2f538262b0cc024d7780dd5e4dfaacb` [chore(playground): remove connector service from playground (#13114)](https://github.com/risingwavelabs/risingwave/pull/13114)
-- `72d9765bd638e62b5c5d4bdc85013ea54843deeb` [feat(expr): add `jsonb_object` function (#13036)](https://github.com/risingwavelabs/risingwave/pull/13036)
-- `a6f1714ddab79340f8b9120d04bc510848fba26e` [perf(connector): do not create span for parsing each row  (#13105)](https://github.com/risingwavelabs/risingwave/pull/13105)
-- `f60f5b6bc64ebadd3e7b7616d2899f2ae9887c4c` [fix(ci): fix iceberg-cdc integration_tests (#13082)](https://github.com/risingwavelabs/risingwave/pull/13082)
-- `31d6dc01b543631ed13888760d1fc8ee365d649a` [fix: Remove possible panic in metrics clean up. (#13004)](https://github.com/risingwavelabs/risingwave/pull/13004)
-- `03f285b72044682ffcf23cb0a2d1deb36d3876f2` [feat(expr): add `jsonb_pretty` function (#13050)](https://github.com/risingwavelabs/risingwave/pull/13050)
-- `12b35356ead0c634b5816880fcc9be7b0acbf9f7` [feat(metrics): remove metrics labels after being collected (#13080)](https://github.com/risingwavelabs/risingwave/pull/13080)
-- `dd3d59a563c05299c4ee0f0c97adecbacb12ffed` [fix: column index mapping bug of `LogicalExpand::rewrite_with_input` (#13090)](https://github.com/risingwavelabs/risingwave/pull/13090)
-- `a1c47613434e94ba461e172c56c46436db5c78a2` [perf(connector): add integration benchmark for nexmark parsing (#13073)](https://github.com/risingwavelabs/risingwave/pull/13073)
-- `abf3a787a74a5576ddcee0c5e5169134f5f6e18f` [chore(deps): bump madsim-tokio to 0.2.24 (#13091)](https://github.com/risingwavelabs/risingwave/pull/13091)
-- `6b7f863e51601f1098caf7abcada94eef1fc70de` [fix(binder): only table-in-out functions can have subquery parameters (#13098)](https://github.com/risingwavelabs/risingwave/pull/13098)
-- `00df63562dea12faddd4a2ccd87fe7ae08cf9ba7` [chore: disable tests by default for some heavy lib/bins without UTs (#12950)](https://github.com/risingwavelabs/risingwave/pull/12950)
-- `b2eeca1176de9ba4c87f2040b44c02f125241c0e` [chore(deps): Bump ethnum from 1.4.0 to 1.5.0 (#13096)](https://github.com/risingwavelabs/risingwave/pull/13096)
-- `23b69c47290a29267694a1ea362b848faaa792d6` [feat(expr): support `int8send` and `int8recv` (#13077)](https://github.com/risingwavelabs/risingwave/pull/13077)
-- `da6626da5245c363614069ca60f8e7af4d5c6f65` [chore(deps): bump rustix 0.37.23 to 0.37.26 reported by dependabot alerts (#13092)](https://github.com/risingwavelabs/risingwave/pull/13092)
-- `4a8b0cb8d0da71963c7b449898c342a6c0353e89` [feat(expr): `substring`/`substr` for `bytea` (#13088)](https://github.com/risingwavelabs/risingwave/pull/13088)
-- `a27e876cdb20692fcac2862130ac6a1c0454368c` [fix(stream): fix the minput's indicies when it's for distinct call (#13015)](https://github.com/risingwavelabs/risingwave/pull/13015)
-- `8eedf8d0862a005d68a06ca22ef2cc13f4561d91` [fix(object_store): fix a corner case with retry (#13078)](https://github.com/risingwavelabs/risingwave/pull/13078)
-- `bb100a743b593e1c95527a4fe9728c8f43df0be7` [feat: implement comment function in catalog controller (#13084)](https://github.com/risingwavelabs/risingwave/pull/13084)
-
-## nightly-20231026
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7f82929b38131f43b1290e51b0722c972fa3b6c2...46d2ff9d9ba9a501b37bd15dd144333c4bf0913f)
-- `46d2ff9d9ba9a501b37bd15dd144333c4bf0913f` [feat: use bit flags for user privilege check (#13033)](https://github.com/risingwavelabs/risingwave/pull/13033)
-- `de8d2172feb03a338f334ce257e7c014c5384a93` [fix(standalone): hide etcd pwd in logs (#13034)](https://github.com/risingwavelabs/risingwave/pull/13034)
-- `b0f266b0a90c2a7a1c7dcd566d5fbc94f38751a2` [feat(mysql-cdc): deprecate `server.id` WITH option and generate it internally (#13031)](https://github.com/risingwavelabs/risingwave/pull/13031)
-- `d6e5bec7192e851700bd1ff753c699f9ffa9d99a` [feat(sink): upsert avro with schema registry (#13007)](https://github.com/risingwavelabs/risingwave/pull/13007)
-- `41d2bbd3988b33350240a41742f82392e538d9ff` [refactor(sqlparser): rename `SourceSchemaV2`/`SinkSchema` to `ConnectorSchema` (#13065)](https://github.com/risingwavelabs/risingwave/pull/13065)
-- `e74b32dab8229bd61af22a6250c32588510dea44` [feat: Add pulsar iceberg table reader (#12735)](https://github.com/risingwavelabs/risingwave/pull/12735)
-- `efdf3c9688a04232ebf5c7876220b965444e48db` [refactor(optimizer): type-safe plan base with compile-time convention check (#13000)](https://github.com/risingwavelabs/risingwave/pull/13000)
-- `9d08bb28adbcaa95cf1f5df94c7f96acb95c2072` [fix(sink): fix integer array type for remote sink (#12334)](https://github.com/risingwavelabs/risingwave/pull/12334)
-- `0f9e783d2ab5c02811e3c8254e6979cf63b46b7f` [refactor: always apply flow control on source/chain (#13057)](https://github.com/risingwavelabs/risingwave/pull/13057)
-- `71851d628602c4a7bab357781782198fefa511da` [fix(compactor): collect metrics for fast compact runer (#13064)](https://github.com/risingwavelabs/risingwave/pull/13064)
-- `e2a36373fa1379667a70b60e83502627d9224c58` [fix(DBeaver): Add the ‘_xxx’ in RW‘s pg_catalog.pg_type to avoid some DBeaver errors." (#13052)](https://github.com/risingwavelabs/risingwave/pull/13052)
-- `942e99dc74228659ff106589634ddc6196009191` [fix(nats-connector): change stream into optional string, add replace stream name logic (#13024)](https://github.com/risingwavelabs/risingwave/pull/13024)
-- `90fb4a3478ec90c1497732af3e75afea6d22ae17` [chore(deps): Bump comfy-table from 7.0.1 to 7.1.0 (#13049)](https://github.com/risingwavelabs/risingwave/pull/13049)
-- `b724be78a46b15d397ac509d79aabf6365d687cf` [feat: add `comment on` clause support (#12849)](https://github.com/risingwavelabs/risingwave/pull/12849)
-- `7f791d65f10ff304e10ba3a6d58bb6bb3a33bad9` [feat: move model_v2 and model_migration into a separate crates (#13058)](https://github.com/risingwavelabs/risingwave/pull/13058)
-
-## nightly-20231025
-- `7f82929b38131f43b1290e51b0722c972fa3b6c2` [fix(meta): persist internal tables of `CREATE TABLE` (#13039)](https://github.com/risingwavelabs/risingwave/pull/13039)
