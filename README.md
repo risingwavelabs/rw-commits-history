@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `70d1d4264cd4e72700a9a1334fcc6bee5df10c52` [chore: enable integrity check before offline scaling (#19104)](https://github.com/risingwavelabs/risingwave/pull/19104)
 - `ef22d0e032d8d102ae314ea209917bfc1ad5f69b` [fix(pg-cdc): handle citext data type and other string compatible data types (#19103)](https://github.com/risingwavelabs/risingwave/pull/19103)
 - `58ecec217dab253284beac1419da878928e296e9` [refactor: use 1 for vnode count of singletons (#18753)](https://github.com/risingwavelabs/risingwave/pull/18753)
 - `fcb6c358d0b96c7fa41b9fdafec9e52f01cc19a1` [feat(subscription): support cusor order (#18801)](https://github.com/risingwavelabs/risingwave/pull/18801)
