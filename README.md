@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `58ecec217dab253284beac1419da878928e296e9` [refactor: use 1 for vnode count of singletons (#18753)](https://github.com/risingwavelabs/risingwave/pull/18753)
+- `fcb6c358d0b96c7fa41b9fdafec9e52f01cc19a1` [feat(subscription): support cusor order (#18801)](https://github.com/risingwavelabs/risingwave/pull/18801)
 - `a89abcf014f0438e0cea0880534c9521eb7e4a6f` [feat(mysql-cdc): support mysql source capture multiple databases (#19038)](https://github.com/risingwavelabs/risingwave/pull/19038)
 - `083d66d704182453ee3bc71c66868a6f1f9e246e` [feat(source): column pruning for parquet file source (#18967)](https://github.com/risingwavelabs/risingwave/pull/18967)
 - `ca75c21701f7098e82ad2124d356acb0935fb74f` [feat(iceberg): support s3 path style for iceberg source (#19111)](https://github.com/risingwavelabs/risingwave/pull/19111)
