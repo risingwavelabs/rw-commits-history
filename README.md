@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `abdeca68bd451a2cc230f9d198c38f51617c629d` [chore(deps): Bump tinyvec from 1.6.0 to 1.8.0 (#18906)](https://github.com/risingwavelabs/risingwave/pull/18906)
 - `deb7eb54121166119baa2ab923ac47af32f11dc3` [feat(stream): enable background ddl for `StreamNow`, `StreamSource` (#19099)](https://github.com/risingwavelabs/risingwave/pull/19099)
 
 ## nightly-20241024
