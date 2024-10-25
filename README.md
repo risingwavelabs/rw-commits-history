@@ -326,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a89abcf014f0438e0cea0880534c9521eb7e4a6f` [feat(mysql-cdc): support mysql source capture multiple databases (#19038)](https://github.com/risingwavelabs/risingwave/pull/19038)
+- `083d66d704182453ee3bc71c66868a6f1f9e246e` [feat(source): column pruning for parquet file source (#18967)](https://github.com/risingwavelabs/risingwave/pull/18967)
+- `ca75c21701f7098e82ad2124d356acb0935fb74f` [feat(iceberg): support s3 path style for iceberg source (#19111)](https://github.com/risingwavelabs/risingwave/pull/19111)
 - `ad0bf17d33860d642190f7f6a8c4319c614e5d2f` [fix(meta): align job's max parallelism while replacing table (#19052)](https://github.com/risingwavelabs/risingwave/pull/19052)
 - `e22462d848d6b04ecab99e6af67016a8bbc38d0f` [feat(frontend): allow users to confirm if background_ddl is enabled for a materialized view (#19085)](https://github.com/risingwavelabs/risingwave/pull/19085)
 - `7e8bf1c72e19bc8c3d3c25f153597a6507d76fdb` [chore(deps): Bump tonic from 0.12.2 to 0.12.3 (#19077)](https://github.com/risingwavelabs/risingwave/pull/19077)
