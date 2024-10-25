@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241025` `d5d0283650fafef0eb2592c273a1d0a95a04f35c`
 - `20241024` `65ed113a3c52c0fe079c9fa2751fda48d92ead49`
 - `20241023` `e6f830b68f42022b8ee1d9e4f68836cddcb3086a`
 - `20241022` `87b7164b8029e779c7ccd5f6a475376c491ad0dc`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241025
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/65ed113a3c52c0fe079c9fa2751fda48d92ead49...d5d0283650fafef0eb2592c273a1d0a95a04f35c)
 - `d5d0283650fafef0eb2592c273a1d0a95a04f35c` [feat(ci): add docker scout to check vulnerabilities in docker pipeline (#19128)](https://github.com/risingwavelabs/risingwave/pull/19128)
 - `70d1d4264cd4e72700a9a1334fcc6bee5df10c52` [chore: enable integrity check before offline scaling (#19104)](https://github.com/risingwavelabs/risingwave/pull/19104)
 - `ef22d0e032d8d102ae314ea209917bfc1ad5f69b` [fix(pg-cdc): handle citext data type and other string compatible data types (#19103)](https://github.com/risingwavelabs/risingwave/pull/19103)
