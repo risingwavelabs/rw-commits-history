@@ -325,6 +325,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `32666f2183f49585c69d8690afec796e14e5ab78` [refactor(test): unify `sr_register` usage for avro and protobuf (#19107)](https://github.com/risingwavelabs/risingwave/pull/19107)
 
 ## nightly-20241025
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/65ed113a3c52c0fe079c9fa2751fda48d92ead49...d5d0283650fafef0eb2592c273a1d0a95a04f35c)
