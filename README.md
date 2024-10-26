@@ -317,7 +317,6 @@
 - `20231031` `c97e08c01a0754c021f515db42196e23c8501aae`
 - `20231030` `4fde65f08098e7c6d7272131ea56259d636a6b38`
 - `20231029` `92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9`
-- `20231027` `bc392aa71467c28ae7a8ddf512966efc508e4a2f`
 </details>
 
 # Commit history
@@ -4264,8 +4263,4 @@
 - `8cbe568167504f827cf5d926d98198f681bf0f60` [fix(expr): include data type in parse error message (#13121)](https://github.com/risingwavelabs/risingwave/pull/13121)
 
 ## nightly-20231029
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc392aa71467c28ae7a8ddf512966efc508e4a2f...92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9)
 - `92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9` [test(sink): add recovery test for sink (#12701)](https://github.com/risingwavelabs/risingwave/pull/12701)
-
-## nightly-20231027
-- `bc392aa71467c28ae7a8ddf512966efc508e4a2f` [feat: fix missing column description in row desc for show columns command (#13116)](https://github.com/risingwavelabs/risingwave/pull/13116)
