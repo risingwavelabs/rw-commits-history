@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241026` `32666f2183f49585c69d8690afec796e14e5ab78`
 - `20241025` `d5d0283650fafef0eb2592c273a1d0a95a04f35c`
 - `20241024` `65ed113a3c52c0fe079c9fa2751fda48d92ead49`
 - `20241023` `e6f830b68f42022b8ee1d9e4f68836cddcb3086a`
@@ -325,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241026
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d5d0283650fafef0eb2592c273a1d0a95a04f35c...32666f2183f49585c69d8690afec796e14e5ab78)
 - `32666f2183f49585c69d8690afec796e14e5ab78` [refactor(test): unify `sr_register` usage for avro and protobuf (#19107)](https://github.com/risingwavelabs/risingwave/pull/19107)
 
 ## nightly-20241025
