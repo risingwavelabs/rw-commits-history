@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241027` `a176aced3c047d780adc8f3981a4921faa526255`
 - `20241026` `32666f2183f49585c69d8690afec796e14e5ab78`
 - `20241025` `d5d0283650fafef0eb2592c273a1d0a95a04f35c`
 - `20241024` `65ed113a3c52c0fe079c9fa2751fda48d92ead49`
@@ -325,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241027
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32666f2183f49585c69d8690afec796e14e5ab78...a176aced3c047d780adc8f3981a4921faa526255)
 - `a176aced3c047d780adc8f3981a4921faa526255` [fix(ci): fix standalone tests startup (#19067)](https://github.com/risingwavelabs/risingwave/pull/19067)
 
 ## nightly-20241026
