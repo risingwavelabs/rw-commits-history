@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b0dad757e8a3de951ef03ce83feffbb3a1b43c48` [perf(over window): skip remaining affected rows when rank is not changed (#18950)](https://github.com/risingwavelabs/risingwave/pull/18950)
 - `0935cf2dff746165b03dc5aa15a942f2934ce7a2` [refactor(meta): decouple global barrier worker from context with trait (#19034)](https://github.com/risingwavelabs/risingwave/pull/19034)
 
 ## nightly-20241028
