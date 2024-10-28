@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241028` `0d013eab1bba8cd86c575057e165586262362636`
 - `20241027` `a176aced3c047d780adc8f3981a4921faa526255`
 - `20241026` `32666f2183f49585c69d8690afec796e14e5ab78`
 - `20241025` `d5d0283650fafef0eb2592c273a1d0a95a04f35c`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241028
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a176aced3c047d780adc8f3981a4921faa526255...0d013eab1bba8cd86c575057e165586262362636)
 - `0d013eab1bba8cd86c575057e165586262362636` [perf(over window): pass through `Update`s not affecting window function outputs (#19056)](https://github.com/risingwavelabs/risingwave/pull/19056)
 - `9f12b10b34fd73a7b3b984c7d1fbeb0b721e583f` [fix(meta): fix vnode count data type when querying system table `rw_fragments` (#19155)](https://github.com/risingwavelabs/risingwave/pull/19155)
 - `c582c48d88565e1c692d47225c63b54a9dd0a6b8` [feat(compaction): introduce auto split and merge policy and config (#18806)](https://github.com/risingwavelabs/risingwave/pull/18806)
