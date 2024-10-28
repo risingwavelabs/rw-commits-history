@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `81703a9d1eea53b0e22ee42af2c20fcf8c25516e` [fix(ci): fix docker scount notification (#19143)](https://github.com/risingwavelabs/risingwave/pull/19143)
 - `e99ad679863f4c5c6fbcb605739b8a9fe1e3a02c` [feat(stream): merge stream chunks at MergeExecutor (#17968)](https://github.com/risingwavelabs/risingwave/pull/17968)
 - `6263ea63592bcfa159082658969a1a86585ed473` [refactor(meta): reorganize global barrier manager field (#18920)](https://github.com/risingwavelabs/risingwave/pull/18920)
 - `f0988c41382e100da4cb906efeb0a48a2493a9ec` [fix(runtime): set default crypto provider (#19136)](https://github.com/risingwavelabs/risingwave/pull/19136)
