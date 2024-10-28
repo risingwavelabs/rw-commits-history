@@ -326,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0d013eab1bba8cd86c575057e165586262362636` [perf(over window): pass through `Update`s not affecting window function outputs (#19056)](https://github.com/risingwavelabs/risingwave/pull/19056)
+- `9f12b10b34fd73a7b3b984c7d1fbeb0b721e583f` [fix(meta): fix vnode count data type when querying system table `rw_fragments` (#19155)](https://github.com/risingwavelabs/risingwave/pull/19155)
+- `c582c48d88565e1c692d47225c63b54a9dd0a6b8` [feat(compaction): introduce auto split and merge policy and config (#18806)](https://github.com/risingwavelabs/risingwave/pull/18806)
 - `16107fde0f6ee184546d2510bffc460625f34a14` [perf(over window): avoid recompute information about window frames (#19036)](https://github.com/risingwavelabs/risingwave/pull/19036)
 - `0d5ffe77800072da0a674f8c6f2176de7625c573` [fix(meta): fix migration query under postgres meta store for #18753 (#19151)](https://github.com/risingwavelabs/risingwave/pull/19151)
 - `aea38863c7acf7f00a921319f5f95751ed09ffb1` [chore(madsim,deps): use patched `sqlx` managed by the `madsim-rs` organization instead of a personal repository (#19130)](https://github.com/risingwavelabs/risingwave/pull/19130)
