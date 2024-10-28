@@ -318,7 +318,6 @@
 - `20231101` `8ab2f266bc3e8b596b536a441aad48ee9aea6c88`
 - `20231031` `c97e08c01a0754c021f515db42196e23c8501aae`
 - `20231030` `4fde65f08098e7c6d7272131ea56259d636a6b38`
-- `20231029` `92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9`
 </details>
 
 # Commit history
@@ -327,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0935cf2dff746165b03dc5aa15a942f2934ce7a2` [refactor(meta): decouple global barrier worker from context with trait (#19034)](https://github.com/risingwavelabs/risingwave/pull/19034)
 
 ## nightly-20241028
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a176aced3c047d780adc8f3981a4921faa526255...0d013eab1bba8cd86c575057e165586262362636)
@@ -4265,21 +4265,4 @@
 - `9e06e8828fdee621423a44dabfffa4e2453b4e09` [chore: Update README architecture image (#13158)](https://github.com/risingwavelabs/risingwave/pull/13158)
 
 ## nightly-20231030
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9...4fde65f08098e7c6d7272131ea56259d636a6b38)
 - `4fde65f08098e7c6d7272131ea56259d636a6b38` [chore(deps): Bump simd-json from 0.12.0 to 0.13.3 (#13119)](https://github.com/risingwavelabs/risingwave/pull/13119)
-- `c0ab3ca01c05a95c4d1b07be22684f6b1fbffea3` [feat(expr): support jsonb `-` and `#-` operator (#13118)](https://github.com/risingwavelabs/risingwave/pull/13118)
-- `a9d9bc980248d0bc4a81d5ab29d4d029494d6eef` [fix(expr): `null` input of `~` / `!~` (#13145)](https://github.com/risingwavelabs/risingwave/pull/13145)
-- `85274f1dc323d1980c18d869f27a17a4d49bb116` [refactor(source): remove `upsert_avro_primary_key ` and separate extracting columns and bind pk (#13023)](https://github.com/risingwavelabs/risingwave/pull/13023)
-- `67056a542e0f85aa318e9a34e091183540c8fe4e` [refactor(optimizer): remove some ColIndexMapping::without_tar_size usage (#13134)](https://github.com/risingwavelabs/risingwave/pull/13134)
-- `e392db0c6f468caf89597294a94d4e4134c61eaf` [feat(expr): support `#>` and `#>>` operator for extracting jsonb at a path (#13110)](https://github.com/risingwavelabs/risingwave/pull/13110)
-- `98edea69b37499c697935c3e9aab3327458b9b63` [fix(psql_conn): Add row desc with 'SHOW PARAMETERS' (#13099)](https://github.com/risingwavelabs/risingwave/pull/13099)
-- `7db34d516356d11ed2562e798cbb28f66108f715` [feat(expr): support jsonb `@>`, `<@`, `?`, `?|` and `?&` operator (#13056)](https://github.com/risingwavelabs/risingwave/pull/13056)
-- `9a5e2b886e823e038edd6f42a632112236d5b8d1` [feat(parser): support "jsonb" as typed string (#13087)](https://github.com/risingwavelabs/risingwave/pull/13087)
-- `af6b4c6a4f7a6354a607088c2bcdf5d51473b18a` [chore(stream): change `FlowControlExecutor` to print WARN logs in `madsim` (#13125)](https://github.com/risingwavelabs/risingwave/pull/13125)
-- `8b47f9f2b59c00c8e9bf305ee5a60042236528ba` [refactor(object store): bump OpenDAL to v0.41 (#13101)](https://github.com/risingwavelabs/risingwave/pull/13101)
-- `4b7d19453152de7d474c5b5cbc336f5a282f0034` [fix: iceberg.enabled in pulsar connector should be optional (#13124)](https://github.com/risingwavelabs/risingwave/pull/13124)
-- `b0166944d335f16d7ffd5294fea706a3db6ce2b0` [chore: Update README.md (#13120)](https://github.com/risingwavelabs/risingwave/pull/13120)
-- `8cbe568167504f827cf5d926d98198f681bf0f60` [fix(expr): include data type in parse error message (#13121)](https://github.com/risingwavelabs/risingwave/pull/13121)
-
-## nightly-20231029
-- `92470cbe7417b6ef8acfa16a1b7bb89bbea05ff9` [test(sink): add recovery test for sink (#12701)](https://github.com/risingwavelabs/risingwave/pull/12701)
