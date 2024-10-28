@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f0988c41382e100da4cb906efeb0a48a2493a9ec` [fix(runtime): set default crypto provider (#19136)](https://github.com/risingwavelabs/risingwave/pull/19136)
 
 ## nightly-20241027
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32666f2183f49585c69d8690afec796e14e5ab78...a176aced3c047d780adc8f3981a4921faa526255)
