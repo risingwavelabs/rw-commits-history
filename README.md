@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0d5ffe77800072da0a674f8c6f2176de7625c573` [fix(meta): fix migration query under postgres meta store for #18753 (#19151)](https://github.com/risingwavelabs/risingwave/pull/19151)
 - `aea38863c7acf7f00a921319f5f95751ed09ffb1` [chore(madsim,deps): use patched `sqlx` managed by the `madsim-rs` organization instead of a personal repository (#19130)](https://github.com/risingwavelabs/risingwave/pull/19130)
 - `81703a9d1eea53b0e22ee42af2c20fcf8c25516e` [fix(ci): fix docker scount notification (#19143)](https://github.com/risingwavelabs/risingwave/pull/19143)
 - `e99ad679863f4c5c6fbcb605739b8a9fe1e3a02c` [feat(stream): merge stream chunks at MergeExecutor (#17968)](https://github.com/risingwavelabs/risingwave/pull/17968)
