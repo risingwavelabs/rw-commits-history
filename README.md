@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e24e19b9ba7c9f133eec21e3889242e31b48b937` [chore(deps): Bump elasticsearch from 8.5.0-alpha.1 to 8.15.0-alpha.1 (#18908)](https://github.com/risingwavelabs/risingwave/pull/18908)
+- `d44814ddba49a768c72578c785a8681e70b5e3a6` [chore(deps): Bump notify from 6.1.1 to 7.0.0 (#19137)](https://github.com/risingwavelabs/risingwave/pull/19137)
 - `b0dad757e8a3de951ef03ce83feffbb3a1b43c48` [perf(over window): skip remaining affected rows when rank is not changed (#18950)](https://github.com/risingwavelabs/risingwave/pull/18950)
 - `0935cf2dff746165b03dc5aa15a942f2934ce7a2` [refactor(meta): decouple global barrier worker from context with trait (#19034)](https://github.com/risingwavelabs/risingwave/pull/19034)
 
