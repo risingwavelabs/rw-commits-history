@@ -318,7 +318,6 @@
 - `20231102` `2ce7c9f091b9ae787a484d8703217e6b6ed1b687`
 - `20231101` `8ab2f266bc3e8b596b536a441aad48ee9aea6c88`
 - `20231031` `c97e08c01a0754c021f515db42196e23c8501aae`
-- `20231030` `4fde65f08098e7c6d7272131ea56259d636a6b38`
 </details>
 
 # Commit history
@@ -4258,26 +4257,4 @@
 - `8a90ce55c25b1168df78e2806e211ff6454acb46` [feat(expr): support `jsonb_extract_path(_text)` function (#13143)](https://github.com/risingwavelabs/risingwave/pull/13143)
 
 ## nightly-20231031
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fde65f08098e7c6d7272131ea56259d636a6b38...c97e08c01a0754c021f515db42196e23c8501aae)
 - `c97e08c01a0754c021f515db42196e23c8501aae` [feat(cdc): share a changelog stream for multiple cdc tables (#12535)](https://github.com/risingwavelabs/risingwave/pull/12535)
-- `c86b821689ba7cb0916e8e57d211dab9bcd97695` [test(stream): test cancel in deterministic testing mode (#13070)](https://github.com/risingwavelabs/risingwave/pull/13070)
-- `25e8939675b2b8026010407742547071cdeb57b2` [fix(log_store): make epoch in log store compatible with meta epoch (#13173)](https://github.com/risingwavelabs/risingwave/pull/13173)
-- `f2e79d3a9ddaa63cbd242998db7241dac5cb1ca9` [fix(EstimateSize): impl missing `estimated_heap_size` method for empty struct (#13172)](https://github.com/risingwavelabs/risingwave/pull/13172)
-- `33620da39f2806820a395f6da136148479ed6f62` [feat(stream): support rate limit in madsim (#13144)](https://github.com/risingwavelabs/risingwave/pull/13144)
-- `58a349aa26f7aabcd83d5c6324899d6f83d26e45` [feat(expr): add `jsonb_strip_nulls` function (#13169)](https://github.com/risingwavelabs/risingwave/pull/13169)
-- `59349f1df52a8a93ffd5a287ccd630bd772af31c` [refactor(connector-node): jni reuse bidi stream handle (#13131)](https://github.com/risingwavelabs/risingwave/pull/13131)
-- `dc31d8b43959bda8ebaa3c6859772a291d0f4492` [feat: Mutual conversion between `PbFragment` and `fragment::Model` (#13154)](https://github.com/risingwavelabs/risingwave/pull/13154)
-- `27ea58e55f2de3646b4c475be81c0abdf00d3817` [doc: Update README.md (#13167)](https://github.com/risingwavelabs/risingwave/pull/13167)
-- `3626154b9c77c1cbbe4ac478ec8e399d6c31c184` [chore: ignore let-chains fmt in git blame (#13165)](https://github.com/risingwavelabs/risingwave/pull/13165)
-- `f18e73e369ca2c863eebb10cb3f0b37833a5cd93` [perf(over window): incremental aggregation (new) (#13038)](https://github.com/risingwavelabs/risingwave/pull/13038)
-- `9616cbf88e7f488849004b7e3f14eb7880e87287` [build(release): release risingwave all-in-one (#13133)](https://github.com/risingwavelabs/risingwave/pull/13133)
-- `c583e2c6c054764249acf484438c7bf7197765f4` [chore: cargo +nightly fmt (#13162)](https://github.com/risingwavelabs/risingwave/pull/13162)
-- `b1e189c7e44c30787e922e252d7f26bb8d437790` [chore(ci): add skip-ci for `main-cron` (#13126)](https://github.com/risingwavelabs/risingwave/pull/13126)
-- `dffb2084c8290c602f325f09126e2bbabe5b5091` [chore(test): ban `AggKind::InternalLastSeenValue` for sqlsmith (#13164)](https://github.com/risingwavelabs/risingwave/pull/13164)
-- `9e334d73ab8a1170074e44c0f14c7a0b403506ef` [chore: use dockerhub's image by default (#13067)](https://github.com/risingwavelabs/risingwave/pull/13067)
-- `1a44f3d9381b0a79f24e9960541bc83c22af3552` [chore(deps): bump reqsign to 0.14.3 and remove patches (#13157)](https://github.com/risingwavelabs/risingwave/pull/13157)
-- `16aabb212bd467c2d4bc14c9eb5208ee89a238d3` [Add docker info in README.md (#13160)](https://github.com/risingwavelabs/risingwave/pull/13160)
-- `9e06e8828fdee621423a44dabfffa4e2453b4e09` [chore: Update README architecture image (#13158)](https://github.com/risingwavelabs/risingwave/pull/13158)
-
-## nightly-20231030
-- `4fde65f08098e7c6d7272131ea56259d636a6b38` [chore(deps): Bump simd-json from 0.12.0 to 0.13.3 (#13119)](https://github.com/risingwavelabs/risingwave/pull/13119)
