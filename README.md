@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `98baacd19f521cd75ec7dc9cbdde903e7ef01d12` [feat(meta): maintain per database job fragment info in barrier manager (#19062)](https://github.com/risingwavelabs/risingwave/pull/19062)
+- `4c05b7ab0140ca707fed2cfcc4d0c1656b13fe7d` [fix: reject invalid storage cache capacities configs (#19016)](https://github.com/risingwavelabs/risingwave/pull/19016)
 - `51a70d8696e46a905893272dc7dcc4a5f503f0c3` [feat(ci): run e2e tests against postgres/mysql backends on demand (#19152)](https://github.com/risingwavelabs/risingwave/pull/19152)
 - `55d42c865715c808500d7b74797812ad7061c43c` [feat(dashboard): show vnode count for mv/table/internal-table (#19133)](https://github.com/risingwavelabs/risingwave/pull/19133)
 - `661939a3491fe40807dbb84593e6ef3157b74b91` [feat(connector): Add topic to mqtt additional columns (#19017)](https://github.com/risingwavelabs/risingwave/pull/19017)
