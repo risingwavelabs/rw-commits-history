@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241029` `98baacd19f521cd75ec7dc9cbdde903e7ef01d12`
 - `20241028` `0d013eab1bba8cd86c575057e165586262362636`
 - `20241027` `a176aced3c047d780adc8f3981a4921faa526255`
 - `20241026` `32666f2183f49585c69d8690afec796e14e5ab78`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241029
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0d013eab1bba8cd86c575057e165586262362636...98baacd19f521cd75ec7dc9cbdde903e7ef01d12)
 - `98baacd19f521cd75ec7dc9cbdde903e7ef01d12` [feat(meta): maintain per database job fragment info in barrier manager (#19062)](https://github.com/risingwavelabs/risingwave/pull/19062)
 - `4c05b7ab0140ca707fed2cfcc4d0c1656b13fe7d` [fix: reject invalid storage cache capacities configs (#19016)](https://github.com/risingwavelabs/risingwave/pull/19016)
 - `51a70d8696e46a905893272dc7dcc4a5f503f0c3` [feat(ci): run e2e tests against postgres/mysql backends on demand (#19152)](https://github.com/risingwavelabs/risingwave/pull/19152)
