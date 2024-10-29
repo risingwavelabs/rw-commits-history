@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `51a70d8696e46a905893272dc7dcc4a5f503f0c3` [feat(ci): run e2e tests against postgres/mysql backends on demand (#19152)](https://github.com/risingwavelabs/risingwave/pull/19152)
+- `55d42c865715c808500d7b74797812ad7061c43c` [feat(dashboard): show vnode count for mv/table/internal-table (#19133)](https://github.com/risingwavelabs/risingwave/pull/19133)
 - `661939a3491fe40807dbb84593e6ef3157b74b91` [feat(connector): Add topic to mqtt additional columns (#19017)](https://github.com/risingwavelabs/risingwave/pull/19017)
 - `193e93fd8d9f9dbae717fe6a5b411e7f33382f27` [ci: fix scout in docker pipeline (#19164)](https://github.com/risingwavelabs/risingwave/pull/19164)
 - `31a650521dae6bbb83c87c37db7795c60e2a0a0a` [chore(dashboard): remove unused function (#19158)](https://github.com/risingwavelabs/risingwave/pull/19158)
