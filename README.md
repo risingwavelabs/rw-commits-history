@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241030` `a36c3172230d2aaf5632f60a4a31f0958d11f98f`
 - `20241029` `98baacd19f521cd75ec7dc9cbdde903e7ef01d12`
 - `20241028` `0d013eab1bba8cd86c575057e165586262362636`
 - `20241027` `a176aced3c047d780adc8f3981a4921faa526255`
@@ -326,6 +327,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `07c7bc357017b383fe6033818151ffc0860c8d2c` [refactor: remove private link related connection (#18975)](https://github.com/risingwavelabs/risingwave/pull/18975)
+
+## nightly-20241030
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98baacd19f521cd75ec7dc9cbdde903e7ef01d12...a36c3172230d2aaf5632f60a4a31f0958d11f98f)
 - `a36c3172230d2aaf5632f60a4a31f0958d11f98f` [chore(deps): Bump fancy-regex from 0.13.0 to 0.14.0 (#19184)](https://github.com/risingwavelabs/risingwave/pull/19184)
 - `a3793c8f82bc8880cd4595bf0c54ad67283280aa` [chore: update image version to v2.1.0-rc.1 (#19190)](https://github.com/risingwavelabs/risingwave/pull/19190)
 - `be73a02e29a37fa720071123eeefa15f735c7d1f` [fix(optimizer): fix lateral subquery with cte (#19162)](https://github.com/risingwavelabs/risingwave/pull/19162)
