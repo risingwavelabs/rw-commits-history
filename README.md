@@ -318,7 +318,6 @@
 - `20231103` `453eed8fbb822c0489e2c3521c3b0c401a03b011`
 - `20231102` `2ce7c9f091b9ae787a484d8703217e6b6ed1b687`
 - `20231101` `8ab2f266bc3e8b596b536a441aad48ee9aea6c88`
-- `20231031` `c97e08c01a0754c021f515db42196e23c8501aae`
 </details>
 
 # Commit history
@@ -4249,25 +4248,4 @@
 - `6bd797ea5c46071258aeaabcf8e0608b16520806` [feat(optimizer): support value extract project rule (#13182)](https://github.com/risingwavelabs/risingwave/pull/13182)
 
 ## nightly-20231101
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c97e08c01a0754c021f515db42196e23c8501aae...8ab2f266bc3e8b596b536a441aad48ee9aea6c88)
 - `8ab2f266bc3e8b596b536a441aad48ee9aea6c88` [feat(over window): support general `rank` and `dense_rank` window functions (#13183)](https://github.com/risingwavelabs/risingwave/pull/13183)
-- `2a6c4aaeda77a3e9cc6a4231bfaac1443f99c737` [chore: bump rustix 0.38.11->0.38.21 (#13199)](https://github.com/risingwavelabs/risingwave/pull/13199)
-- `5ab109bbebcdca08e4143d85a9a526b1e375316f` [chore(deps): Bump org.elasticsearch:elasticsearch from 7.17.10 to 7.17.13 in /java (#13156)](https://github.com/risingwavelabs/risingwave/pull/13156)
-- `75b676db73f452051b39696f7c6d1371109da365` [fix(sink): spawn blocking in remote validation (#13194)](https://github.com/risingwavelabs/risingwave/pull/13194)
-- `675bdca9ac91d9ac2c29f3d12984b46830e317c6` [refactor(meta): adapt metadata backup to metadata model V2 (#13040)](https://github.com/risingwavelabs/risingwave/pull/13040)
-- `1b65be299e388927f1d884baeef4f555fa74572d` [fix: `hash_agg` bench (#13193)](https://github.com/risingwavelabs/risingwave/pull/13193)
-- `82c99264a0fd8d2b3667443511a5113523af557f` [fix(sqlsmith): use `encoded` string as input to `decode` (#13191)](https://github.com/risingwavelabs/risingwave/pull/13191)
-- `edf314ee7e8a6e1cc253301c757849835d5b1adf` [fix(sink): json `timestamptz` should contain UTC suffix `Z` (#13109)](https://github.com/risingwavelabs/risingwave/pull/13109)
-- `b7195f85aee70c318f908268c2e53d899a8045af` [refactor(test): reorganize over window e2e tests (#13186)](https://github.com/risingwavelabs/risingwave/pull/13186)
-- `7122d6cf9768642fea3cd15f96ed3982d05502f9` [fix(test): use rate limit instead in background ddl test (#13179)](https://github.com/risingwavelabs/risingwave/pull/13179)
-- `7f5d3f6ee480fd6ca15f962c66b3a2e1d0658360` [feat(sink): Support big query sink (#12873)](https://github.com/risingwavelabs/risingwave/pull/12873)
-- `43027650cbf470e81a162823a7a5ee535bcc2667` [chore(deps): Bump pulsar from 6.0.1 to 6.1.0 (#13188)](https://github.com/risingwavelabs/risingwave/pull/13188)
-- `84d27baf1a674392d7b48cb53fecf49218cb632a` [fix(metrics): guard label of local metrics (#13175)](https://github.com/risingwavelabs/risingwave/pull/13175)
-- `e51d9e37da9ec75d583ed3b65b38b49acfd0dc83` [fix(ci): fix deterministic integration sink test regression (#13178)](https://github.com/risingwavelabs/risingwave/pull/13178)
-- `23d2f81693bca530613dfa45cdef8c15eba92ab9` [chore(storage): issue a warning when key value is too large (#13129)](https://github.com/risingwavelabs/risingwave/pull/13129)
-- `99fe0ebb668374167b0ac6cadead65c6d7175c1b` [feat(protobuf): support any for protobuf message source (#12291)](https://github.com/risingwavelabs/risingwave/pull/12291)
-- `b11c8312522ba7a8ac0b7c2d8f3bffecf1a6e41a` [feat(metrics): expose sink error in grafana and factor error metrics (#13083)](https://github.com/risingwavelabs/risingwave/pull/13083)
-- `8a90ce55c25b1168df78e2806e211ff6454acb46` [feat(expr): support `jsonb_extract_path(_text)` function (#13143)](https://github.com/risingwavelabs/risingwave/pull/13143)
-
-## nightly-20231031
-- `c97e08c01a0754c021f515db42196e23c8501aae` [feat(cdc): share a changelog stream for multiple cdc tables (#12535)](https://github.com/risingwavelabs/risingwave/pull/12535)
