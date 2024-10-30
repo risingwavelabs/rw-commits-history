@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `68b470e4d3c8a70cb8e7653fc7a1dae217417889` [refactor: improve assertion message (#19191)](https://github.com/risingwavelabs/risingwave/pull/19191)
 - `0e844fe43bc1602fe05b77b1962a259f8bdba7d5` [fix(source): pause source correctly (#19148)](https://github.com/risingwavelabs/risingwave/pull/19148)
 - `b6051d84c7e7d5dc4bf3994d1ea95ca93166723f` [refactor: rename ConnectorSchema/SourceSchema to FormatEncode (#19174)](https://github.com/risingwavelabs/risingwave/pull/19174)
 
