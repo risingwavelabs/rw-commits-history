@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `18bf666906760907b028389fd3dd9c1b63e5df0b` [feat(dashboard): list streaming job from `streaming_job` table & show info (#19134)](https://github.com/risingwavelabs/risingwave/pull/19134)
 - `c706e8dab3815bd6c8f2297d49141e5da2065227` [fix: include schema for view name in rw_relations show create view (#19180)](https://github.com/risingwavelabs/risingwave/pull/19180)
 - `68b470e4d3c8a70cb8e7653fc7a1dae217417889` [refactor: improve assertion message (#19191)](https://github.com/risingwavelabs/risingwave/pull/19191)
 - `0e844fe43bc1602fe05b77b1962a259f8bdba7d5` [fix(source): pause source correctly (#19148)](https://github.com/risingwavelabs/risingwave/pull/19148)
