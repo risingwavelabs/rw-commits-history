@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a3793c8f82bc8880cd4595bf0c54ad67283280aa` [chore: update image version to v2.1.0-rc.1 (#19190)](https://github.com/risingwavelabs/risingwave/pull/19190)
+- `be73a02e29a37fa720071123eeefa15f735c7d1f` [fix(optimizer): fix lateral subquery with cte (#19162)](https://github.com/risingwavelabs/risingwave/pull/19162)
 - `18bf666906760907b028389fd3dd9c1b63e5df0b` [feat(dashboard): list streaming job from `streaming_job` table & show info (#19134)](https://github.com/risingwavelabs/risingwave/pull/19134)
 - `c706e8dab3815bd6c8f2297d49141e5da2065227` [fix: include schema for view name in rw_relations show create view (#19180)](https://github.com/risingwavelabs/risingwave/pull/19180)
 - `68b470e4d3c8a70cb8e7653fc7a1dae217417889` [refactor: improve assertion message (#19191)](https://github.com/risingwavelabs/risingwave/pull/19191)
