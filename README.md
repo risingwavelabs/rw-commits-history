@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8a8b36879872d8462c0f17bcbcff516c818c9f8f` [chore: bump toolchain to nightly-2024-10-11 (#19170)](https://github.com/risingwavelabs/risingwave/pull/19170)
 - `07c7bc357017b383fe6033818151ffc0860c8d2c` [refactor: remove private link related connection (#18975)](https://github.com/risingwavelabs/risingwave/pull/18975)
 
 ## nightly-20241030
