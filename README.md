@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0e844fe43bc1602fe05b77b1962a259f8bdba7d5` [fix(source): pause source correctly (#19148)](https://github.com/risingwavelabs/risingwave/pull/19148)
+- `b6051d84c7e7d5dc4bf3994d1ea95ca93166723f` [refactor: rename ConnectorSchema/SourceSchema to FormatEncode (#19174)](https://github.com/risingwavelabs/risingwave/pull/19174)
 
 ## nightly-20241029
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0d013eab1bba8cd86c575057e165586262362636...98baacd19f521cd75ec7dc9cbdde903e7ef01d12)
