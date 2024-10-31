@@ -318,7 +318,6 @@
 - `20231105` `68f1a678c0f06439c5f7fcd92b36d85a2c764594`
 - `20231103` `453eed8fbb822c0489e2c3521c3b0c401a03b011`
 - `20231102` `2ce7c9f091b9ae787a484d8703217e6b6ed1b687`
-- `20231101` `8ab2f266bc3e8b596b536a441aad48ee9aea6c88`
 </details>
 
 # Commit history
@@ -4244,16 +4243,4 @@
 - `537bbe2fa3b38466f555716b00a974462477a448` [feat(metrics): fragment level streaming metrics (part 2) (#13196)](https://github.com/risingwavelabs/risingwave/pull/13196)
 
 ## nightly-20231102
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ab2f266bc3e8b596b536a441aad48ee9aea6c88...2ce7c9f091b9ae787a484d8703217e6b6ed1b687)
 - `2ce7c9f091b9ae787a484d8703217e6b6ed1b687` [fix(expr): `date_trunc` and `+/-` on `timestamptz` during DST jump-back (#13201)](https://github.com/risingwavelabs/risingwave/pull/13201)
-- `4daf6424ac53b19bb461600a2d479aa43d3937d4` [fix(cdc): avoid serde the `schema` field in the Debzium connector (#13212)](https://github.com/risingwavelabs/risingwave/pull/13212)
-- `1211f9d8d29ace628ca0baa9d92b9a6b30bd1d3a` [refactor(metrics): clean & restructure some metrics (#13195)](https://github.com/risingwavelabs/risingwave/pull/13195)
-- `801582bf8b3b7ef6d245b18ceb0f6377a77f9afa` [refactor(meta): adapt metadata restore to metadata model V2 (#13197)](https://github.com/risingwavelabs/risingwave/pull/13197)
-- `73dcbc2701a22530f698ed03ac1613bc70cab797` [feat: introduce user and privilege functions based on sql meta store (#13189)](https://github.com/risingwavelabs/risingwave/pull/13189)
-- `d92ace1d6b528a47278807054830095cb9ed49bd` [chore(deps): Bump gcp-bigquery-client from 0.17.1 to 0.18.0 (#13202)](https://github.com/risingwavelabs/risingwave/pull/13202)
-- `41d82d2176d31a7192d44570e16c9b13931a1aec` [chore(deps): Bump procfs from 0.15.1 to 0.16.0 (#13203)](https://github.com/risingwavelabs/risingwave/pull/13203)
-- `fdfbf5306a29694e7d6556cd8498c6f782a6063f` [test(connector): add PG CDC data compatibility test (#13176)](https://github.com/risingwavelabs/risingwave/pull/13176)
-- `6bd797ea5c46071258aeaabcf8e0608b16520806` [feat(optimizer): support value extract project rule (#13182)](https://github.com/risingwavelabs/risingwave/pull/13182)
-
-## nightly-20231101
-- `8ab2f266bc3e8b596b536a441aad48ee9aea6c88` [feat(over window): support general `rank` and `dense_rank` window functions (#13183)](https://github.com/risingwavelabs/risingwave/pull/13183)
