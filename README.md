@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8` [chore: upgrade clippy utils to a version on the main branch (#19219)](https://github.com/risingwavelabs/risingwave/pull/19219)
 - `6defe4c92f93cac731d09883b7deedcc24cc985e` [feat(compaction): per table vnode on compactor side (#19059)](https://github.com/risingwavelabs/risingwave/pull/19059)
 - `8457de2cff4d731cf6fcd94ec9ad7605f442c3cf` [chore: bump spark version (#19200)](https://github.com/risingwavelabs/risingwave/pull/19200)
 - `8a8b36879872d8462c0f17bcbcff516c818c9f8f` [chore: bump toolchain to nightly-2024-10-11 (#19170)](https://github.com/risingwavelabs/risingwave/pull/19170)
