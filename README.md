@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241031` `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8`
 - `20241030` `a36c3172230d2aaf5632f60a4a31f0958d11f98f`
 - `20241029` `98baacd19f521cd75ec7dc9cbdde903e7ef01d12`
 - `20241028` `0d013eab1bba8cd86c575057e165586262362636`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241031
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a36c3172230d2aaf5632f60a4a31f0958d11f98f...de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8)
 - `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8` [chore: upgrade clippy utils to a version on the main branch (#19219)](https://github.com/risingwavelabs/risingwave/pull/19219)
 - `6defe4c92f93cac731d09883b7deedcc24cc985e` [feat(compaction): per table vnode on compactor side (#19059)](https://github.com/risingwavelabs/risingwave/pull/19059)
 - `8457de2cff4d731cf6fcd94ec9ad7605f442c3cf` [chore: bump spark version (#19200)](https://github.com/risingwavelabs/risingwave/pull/19200)
