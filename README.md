@@ -326,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b39c9af88fd1bbe05df7e1ece506741eb489471b` [perf(over window): shortcut implementation for `first_value` and `last_value` in over window (#19233)](https://github.com/risingwavelabs/risingwave/pull/19233)
+- `56ab1fac042c1f42430c6febdc32168104bd13f9` [feat(iceberg): bump iceberg-rust (#19206)](https://github.com/risingwavelabs/risingwave/pull/19206)
+- `ca845040c98ef949d0fd91574b5e262306fc923d` [feat(meta): ensure each command is applied to exactly one database (#19076)](https://github.com/risingwavelabs/risingwave/pull/19076)
 - `9dd7fba8671193ec9fa9ae8ffee6dfeff1ce87ba` [chore: fix nextest warning (#19231)](https://github.com/risingwavelabs/risingwave/pull/19231)
 - `051fbad84228006fd6e76d9737ad1e06a3367d9e` [refactor: move server.id for MySQL CDC from meta to fe (#19169)](https://github.com/risingwavelabs/risingwave/pull/19169)
 - `c053c2a2cf6b7b53c5de13f9989adaebd50c15c2` [fix(watermark): stop generating watermark messages when stream is paused (#19199)](https://github.com/risingwavelabs/risingwave/pull/19199)
