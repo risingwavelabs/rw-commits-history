@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241101` `b39c9af88fd1bbe05df7e1ece506741eb489471b`
 - `20241031` `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8`
 - `20241030` `a36c3172230d2aaf5632f60a4a31f0958d11f98f`
 - `20241029` `98baacd19f521cd75ec7dc9cbdde903e7ef01d12`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241101
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8...b39c9af88fd1bbe05df7e1ece506741eb489471b)
 - `b39c9af88fd1bbe05df7e1ece506741eb489471b` [perf(over window): shortcut implementation for `first_value` and `last_value` in over window (#19233)](https://github.com/risingwavelabs/risingwave/pull/19233)
 - `56ab1fac042c1f42430c6febdc32168104bd13f9` [feat(iceberg): bump iceberg-rust (#19206)](https://github.com/risingwavelabs/risingwave/pull/19206)
 - `ca845040c98ef949d0fd91574b5e262306fc923d` [feat(meta): ensure each command is applied to exactly one database (#19076)](https://github.com/risingwavelabs/risingwave/pull/19076)
