@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9671fa36279e6f2663ea60287b47e7654f66b042` [perf(over window): O(1) impl for `delta_btree_map::CursorWithDelta::move_next ` (#19214)](https://github.com/risingwavelabs/risingwave/pull/19214)
 - `03e9c954b0c7e6de061516842370422b3cff35d9` [fix: unexpected warning on undefined-field-padding-null error (#19002)](https://github.com/risingwavelabs/risingwave/pull/19002)
 - `127a44b4bd581683e67533bd2ade1d5da3c10179` [chore(ci): move fmt and sort checks from `build` step to `check` step (#19209)](https://github.com/risingwavelabs/risingwave/pull/19209)
 - `3a5a51d38cdfa8294b904f194ffe865bb30a9589` [chore(deps): Bump tower-http from 0.5.2 to 0.6.1 (#19216)](https://github.com/risingwavelabs/risingwave/pull/19216)
