@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3a5a51d38cdfa8294b904f194ffe865bb30a9589` [chore(deps): Bump tower-http from 0.5.2 to 0.6.1 (#19216)](https://github.com/risingwavelabs/risingwave/pull/19216)
 
 ## nightly-20241031
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a36c3172230d2aaf5632f60a4a31f0958d11f98f...de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8)
