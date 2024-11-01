@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d9ee9b450de59dba6c0310e9eb3cd4d73b701f40` [feat(frontend): plan nested loop temporal join (#19201)](https://github.com/risingwavelabs/risingwave/pull/19201)
 
 ## nightly-20241101
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8...b39c9af88fd1bbe05df7e1ece506741eb489471b)
