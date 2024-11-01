@@ -318,7 +318,6 @@
 - `20231106` `a0b545cc68c310bdd5ed2bcd745b1773097e3ae2`
 - `20231105` `68f1a678c0f06439c5f7fcd92b36d85a2c764594`
 - `20231103` `453eed8fbb822c0489e2c3521c3b0c401a03b011`
-- `20231102` `2ce7c9f091b9ae787a484d8703217e6b6ed1b687`
 </details>
 
 # Commit history
@@ -4237,25 +4236,4 @@
 - `5a02631e4c252eba7a00512bc5a03e698c2918b8` [build(tools): bump cargo-udeps (#13249)](https://github.com/risingwavelabs/risingwave/pull/13249)
 
 ## nightly-20231103
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2ce7c9f091b9ae787a484d8703217e6b6ed1b687...453eed8fbb822c0489e2c3521c3b0c401a03b011)
 - `453eed8fbb822c0489e2c3521c3b0c401a03b011` [refactor(sink): reimplement remote sink without writer (#13137)](https://github.com/risingwavelabs/risingwave/pull/13137)
-- `244017c4f2f01ffa564818835c26b3883b80ee45` [feat(test): add `nexmark-q15-two-phase` for flamegraph generation (#13234)](https://github.com/risingwavelabs/risingwave/pull/13234)
-- `69793d6a8868021dae8525715cba477262309b23` [feat: ignore `collate` in `select` and `create table` (#13226)](https://github.com/risingwavelabs/risingwave/pull/13226)
-- `e71037da00ec6551392e8d8e118ce870ea24d630` [feat(storage): adapt to foyer new write model (#13059)](https://github.com/risingwavelabs/risingwave/pull/13059)
-- `fe70f9ee979be40cd48b179ac10fcaf32f3dd9de` [chore(standalone): pass `prometheus_listener_addr` to meta (#13236)](https://github.com/risingwavelabs/risingwave/pull/13236)
-- `7fb6baa4f93e450418bfe1226cfa82979b9a14ac` [fix(grafana): fix the executor cache memory by MV panel (#13237)](https://github.com/risingwavelabs/risingwave/pull/13237)
-- `a07fb73c4b756436ec05342a6963794a344824b8` [feat: notify user privilege change for drop ddl and add `create_source` function (#13230)](https://github.com/risingwavelabs/risingwave/pull/13230)
-- `31bf68ee2e45e58de4e0426919d3467e1e0ceeab` [chore: add a docker compose file for standalone mode (#13233)](https://github.com/risingwavelabs/risingwave/pull/13233)
-- `fff5de4cfae170680d20aa9a0abf8c78ad65e926` [fix: update icelake upsert query (#13232)](https://github.com/risingwavelabs/risingwave/pull/13232)
-- `624094cc28d16932425f7c41733285bffd51a15a` [feat(expr): add to_jsonb (#13161)](https://github.com/risingwavelabs/risingwave/pull/13161)
-- `db5481ab719d718ff51b35b18b2c89d2367f864d` [feat(streaming): reduce join cache entry size (#13214)](https://github.com/risingwavelabs/risingwave/pull/13214)
-- `e17420bdb810353279a05dfe3625c5062d7351d4` [refactor(jni): refactor and add doc and expect_test for jni macro (#13211)](https://github.com/risingwavelabs/risingwave/pull/13211)
-- `57f75daab44bc5ad0db2e569d1141be81ef7337d` [chore: update cherry pick action (#13218)](https://github.com/risingwavelabs/risingwave/pull/13218)
-- `f39d0adac9f6850d2477c6b40130dfd1128515f7` [chore: suppress storage log on back-pressure (#13221)](https://github.com/risingwavelabs/risingwave/pull/13221)
-- `8b58861c8afc9005a6adc20e23f1bd7bf2a6a445` [feat: support k8s labels for dashboards (#13209)](https://github.com/risingwavelabs/risingwave/pull/13209)
-- `0007064bc893142d74c2ecdb42f7a61cd8e90e86` [fix(optimizer): impl ExprRewritable for StreamValues (#13217)](https://github.com/risingwavelabs/risingwave/pull/13217)
-- `c02cdc4a684efc1aa2ab8e9ef0b0ee52361df70a` [refactor: introduce `thiserror-ext` for boxed error wrapper definition (#13200)](https://github.com/risingwavelabs/risingwave/pull/13200)
-- `537bbe2fa3b38466f555716b00a974462477a448` [feat(metrics): fragment level streaming metrics (part 2) (#13196)](https://github.com/risingwavelabs/risingwave/pull/13196)
-
-## nightly-20231102
-- `2ce7c9f091b9ae787a484d8703217e6b6ed1b687` [fix(expr): `date_trunc` and `+/-` on `timestamptz` during DST jump-back (#13201)](https://github.com/risingwavelabs/risingwave/pull/13201)
