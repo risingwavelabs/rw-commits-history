@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9dd7fba8671193ec9fa9ae8ffee6dfeff1ce87ba` [chore: fix nextest warning (#19231)](https://github.com/risingwavelabs/risingwave/pull/19231)
+- `051fbad84228006fd6e76d9737ad1e06a3367d9e` [refactor: move server.id for MySQL CDC from meta to fe (#19169)](https://github.com/risingwavelabs/risingwave/pull/19169)
 - `c053c2a2cf6b7b53c5de13f9989adaebd50c15c2` [fix(watermark): stop generating watermark messages when stream is paused (#19199)](https://github.com/risingwavelabs/risingwave/pull/19199)
 - `3b8b913f2e6baa922ce8a20200ae65ec3a9cebe9` [feat(batch): support `mysql_query` for mysql batch ingestion (#19071)](https://github.com/risingwavelabs/risingwave/pull/19071)
 - `9671fa36279e6f2663ea60287b47e7654f66b042` [perf(over window): O(1) impl for `delta_btree_map::CursorWithDelta::move_next ` (#19214)](https://github.com/risingwavelabs/risingwave/pull/19214)
