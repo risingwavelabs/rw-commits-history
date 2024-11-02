@@ -317,7 +317,6 @@
 - `20231107` `4fdbade0bb32a455619a41f1859c8f5784a7520c`
 - `20231106` `a0b545cc68c310bdd5ed2bcd745b1773097e3ae2`
 - `20231105` `68f1a678c0f06439c5f7fcd92b36d85a2c764594`
-- `20231103` `453eed8fbb822c0489e2c3521c3b0c401a03b011`
 </details>
 
 # Commit history
@@ -4233,10 +4232,4 @@
 - `ad92d462d1448b2e274995d8d467aed1f9baa980` [refactor: migrate backfill tests to deterministic integration tests (#13219)](https://github.com/risingwavelabs/risingwave/pull/13219)
 
 ## nightly-20231105
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/453eed8fbb822c0489e2c3521c3b0c401a03b011...68f1a678c0f06439c5f7fcd92b36d85a2c764594)
 - `68f1a678c0f06439c5f7fcd92b36d85a2c764594` [fix(cdc): ensure connector is inited after the CREATE TABLE is finished (#13130)](https://github.com/risingwavelabs/risingwave/pull/13130)
-- `4c4734c667dffffd3d0d4c86b8fa657ff9a72d53` [chore(ci): use release branch rather than release candidate branch for backwards compat tests (#13247)](https://github.com/risingwavelabs/risingwave/pull/13247)
-- `5a02631e4c252eba7a00512bc5a03e698c2918b8` [build(tools): bump cargo-udeps (#13249)](https://github.com/risingwavelabs/risingwave/pull/13249)
-
-## nightly-20231103
-- `453eed8fbb822c0489e2c3521c3b0c401a03b011` [refactor(sink): reimplement remote sink without writer (#13137)](https://github.com/risingwavelabs/risingwave/pull/13137)
