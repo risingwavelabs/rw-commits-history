@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6` [feat: share kafka client on meta (#19058)](https://github.com/risingwavelabs/risingwave/pull/19058)
 - `3a8d5a8427b1d0a3a746c302527fb51e8815a1ee` [fix(mysql-cdc): fix mysql enum type default value (#19192)](https://github.com/risingwavelabs/risingwave/pull/19192)
 - `d9ee9b450de59dba6c0310e9eb3cd4d73b701f40` [feat(frontend): plan nested loop temporal join (#19201)](https://github.com/risingwavelabs/risingwave/pull/19201)
 
