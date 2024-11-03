@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241103` `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6`
 - `20241101` `b39c9af88fd1bbe05df7e1ece506741eb489471b`
 - `20241031` `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8`
 - `20241030` `a36c3172230d2aaf5632f60a4a31f0958d11f98f`
@@ -325,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241103
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b39c9af88fd1bbe05df7e1ece506741eb489471b...e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6)
 - `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6` [feat: share kafka client on meta (#19058)](https://github.com/risingwavelabs/risingwave/pull/19058)
 - `3a8d5a8427b1d0a3a746c302527fb51e8815a1ee` [fix(mysql-cdc): fix mysql enum type default value (#19192)](https://github.com/risingwavelabs/risingwave/pull/19192)
 - `d9ee9b450de59dba6c0310e9eb3cd4d73b701f40` [feat(frontend): plan nested loop temporal join (#19201)](https://github.com/risingwavelabs/risingwave/pull/19201)
