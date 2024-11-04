@@ -318,7 +318,6 @@
 - `20231108` `4e4e8b5b6bf2502b275e15ae94cd479d74625d4c`
 - `20231107` `4fdbade0bb32a455619a41f1859c8f5784a7520c`
 - `20231106` `a0b545cc68c310bdd5ed2bcd745b1773097e3ae2`
-- `20231105` `68f1a678c0f06439c5f7fcd92b36d85a2c764594`
 </details>
 
 # Commit history
@@ -4238,16 +4237,4 @@
 - `8092a6850e30ca0ee983cfa75cd49e02231bf0d1` [feat: add rw_internal_tables (#13272)](https://github.com/risingwavelabs/risingwave/pull/13272)
 
 ## nightly-20231106
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/68f1a678c0f06439c5f7fcd92b36d85a2c764594...a0b545cc68c310bdd5ed2bcd745b1773097e3ae2)
 - `a0b545cc68c310bdd5ed2bcd745b1773097e3ae2` [fix(expr): fix `overlay` function with large range input (#13268)](https://github.com/risingwavelabs/risingwave/pull/13268)
-- `526a68ab310566aa3f29514dfedfdb4b3376cb01` [feat(expr): add `jsonb_build_array/object` function (#13198)](https://github.com/risingwavelabs/risingwave/pull/13198)
-- `3e72d0dfc8d22d13f2eee1abb7d84ac7353be278` [doc: Update README.md (#13252)](https://github.com/risingwavelabs/risingwave/pull/13252)
-- `09a0fbcba60209d38e2bebd31c86a4ef0950b3be` [chore: add session variable to enable / disable arrangement backfill (#13262)](https://github.com/risingwavelabs/risingwave/pull/13262)
-- `60f1758ba3c82e4bc4af654c7a2d59acedfebcc7` [chore(ci): specify rw image tag for integration test (#13261)](https://github.com/risingwavelabs/risingwave/pull/13261)
-- `13d29575b0107361049a5bb7c02175aad42bacd9` [chore: miss a double quote in the command of docker-compose-standalone.yml (#13257)](https://github.com/risingwavelabs/risingwave/pull/13257)
-- `c5ca602341b3a7ef103288370e480d3a656cd7d3` [fix(standalone): should not specify dashboard ui path (#13256)](https://github.com/risingwavelabs/risingwave/pull/13256)
-- `9dad48760b4c1ee9d8b60f02db9ddc35d1574d1d` [fix: fix type infer of i32 in meta sql backend model (#13243)](https://github.com/risingwavelabs/risingwave/pull/13243)
-- `ad92d462d1448b2e274995d8d467aed1f9baa980` [refactor: migrate backfill tests to deterministic integration tests (#13219)](https://github.com/risingwavelabs/risingwave/pull/13219)
-
-## nightly-20231105
-- `68f1a678c0f06439c5f7fcd92b36d85a2c764594` [fix(cdc): ensure connector is inited after the CREATE TABLE is finished (#13130)](https://github.com/risingwavelabs/risingwave/pull/13130)
