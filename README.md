@@ -326,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f3e9a3be1952c5f0e7fcb9dc595a99a25a6528be` [refactor(test): reorganize file connector CI tests (#19230)](https://github.com/risingwavelabs/risingwave/pull/19230)
+- `d3d2969036c1f423c04dc76488040d8d01364dc3` [feat: support swap rename syntax for table/mview/view/source/sink and subscription (#19172)](https://github.com/risingwavelabs/risingwave/pull/19172)
+- `bb8f94dbdf354b2e866d92025ee62e93dd479167` [fix(pg-cdc): fix ssl.mode value to debezium (#19239)](https://github.com/risingwavelabs/risingwave/pull/19239)
 - `f559d3468a16f0a15e429dfb55276b1a07c814e3` [chore(meta): bump sea-orm to 1.0 (#19207)](https://github.com/risingwavelabs/risingwave/pull/19207)
 - `271faac7e8eb71c756746897b1d1db6e86d22ad3` [fix(sink): Fix excessive number of starrocks txn (#19217)](https://github.com/risingwavelabs/risingwave/pull/19217)
 
