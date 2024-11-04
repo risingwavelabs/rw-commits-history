@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `271faac7e8eb71c756746897b1d1db6e86d22ad3` [fix(sink): Fix excessive number of starrocks txn (#19217)](https://github.com/risingwavelabs/risingwave/pull/19217)
 
 ## nightly-20241103
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b39c9af88fd1bbe05df7e1ece506741eb489471b...e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6)
