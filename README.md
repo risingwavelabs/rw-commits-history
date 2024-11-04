@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b796d0ddb02112ddedf2a4ae755924865fbf0ba5` [refactor(common): simplify chunk iteration with `filter_by_bitmap` (#19254)](https://github.com/risingwavelabs/risingwave/pull/19254)
 
 ## nightly-20241104
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6...bb0d786b39c9eef9dbf1e16814e8d12e46b8a676)
