@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241104` `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676`
 - `20241103` `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6`
 - `20241101` `b39c9af88fd1bbe05df7e1ece506741eb489471b`
 - `20241031` `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241104
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6...bb0d786b39c9eef9dbf1e16814e8d12e46b8a676)
 - `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676` [fix(connector): handle backwards compat parsing for `boolean` datatype (#19251)](https://github.com/risingwavelabs/risingwave/pull/19251)
 - `946b50089673b026720905e5cccece0485192553` [fix: fix index create privilege check and ensure consistency between the owner and its associated table (#19252)](https://github.com/risingwavelabs/risingwave/pull/19252)
 - `a9f8945658dc2044f8e2f4eef5037ec6b7f42330` [refactor(meta): simplify stream job table/source id assignment (#19171)](https://github.com/risingwavelabs/risingwave/pull/19171)
