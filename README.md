@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6b10d92ecbacec65f361823799ef6470630ee316` [fix(meta): address bugs for mysql backend & enable e2e tests (#19156)](https://github.com/risingwavelabs/risingwave/pull/19156)
 - `f3e9a3be1952c5f0e7fcb9dc595a99a25a6528be` [refactor(test): reorganize file connector CI tests (#19230)](https://github.com/risingwavelabs/risingwave/pull/19230)
 - `d3d2969036c1f423c04dc76488040d8d01364dc3` [feat: support swap rename syntax for table/mview/view/source/sink and subscription (#19172)](https://github.com/risingwavelabs/risingwave/pull/19172)
 - `bb8f94dbdf354b2e866d92025ee62e93dd479167` [fix(pg-cdc): fix ssl.mode value to debezium (#19239)](https://github.com/risingwavelabs/risingwave/pull/19239)
