@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f559d3468a16f0a15e429dfb55276b1a07c814e3` [chore(meta): bump sea-orm to 1.0 (#19207)](https://github.com/risingwavelabs/risingwave/pull/19207)
 - `271faac7e8eb71c756746897b1d1db6e86d22ad3` [fix(sink): Fix excessive number of starrocks txn (#19217)](https://github.com/risingwavelabs/risingwave/pull/19217)
 
 ## nightly-20241103
