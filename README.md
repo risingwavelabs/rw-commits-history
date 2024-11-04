@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676` [fix(connector): handle backwards compat parsing for `boolean` datatype (#19251)](https://github.com/risingwavelabs/risingwave/pull/19251)
+- `946b50089673b026720905e5cccece0485192553` [fix: fix index create privilege check and ensure consistency between the owner and its associated table (#19252)](https://github.com/risingwavelabs/risingwave/pull/19252)
 - `a9f8945658dc2044f8e2f4eef5037ec6b7f42330` [refactor(meta): simplify stream job table/source id assignment (#19171)](https://github.com/risingwavelabs/risingwave/pull/19171)
 - `7690f674c48a7cb824dcd44fe3940a03d42e54ed` [chore(deps): update sqlx to 0.8.2, sea-orm to 1.1, sea-orm-migration to 1.1 (#19145)](https://github.com/risingwavelabs/risingwave/pull/19145)
 - `6b10d92ecbacec65f361823799ef6470630ee316` [fix(meta): address bugs for mysql backend & enable e2e tests (#19156)](https://github.com/risingwavelabs/risingwave/pull/19156)
