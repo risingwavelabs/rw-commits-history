@@ -318,7 +318,6 @@
 - `20231109` `492076f2861db6ebcc79c4e3934b82eb5a553c6c`
 - `20231108` `4e4e8b5b6bf2502b275e15ae94cd479d74625d4c`
 - `20231107` `4fdbade0bb32a455619a41f1859c8f5784a7520c`
-- `20231106` `a0b545cc68c310bdd5ed2bcd745b1773097e3ae2`
 </details>
 
 # Commit history
@@ -4231,19 +4230,4 @@
 - `290601724967fc8e9e673309251a6ba963f95f1f` [feat: support iceberg metrics (#13259)](https://github.com/risingwavelabs/risingwave/pull/13259)
 
 ## nightly-20231107
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a0b545cc68c310bdd5ed2bcd745b1773097e3ae2...4fdbade0bb32a455619a41f1859c8f5784a7520c)
 - `4fdbade0bb32a455619a41f1859c8f5784a7520c` [chore: rename `streaming/group_top_n/main1.slt` to `main.slt` (#13187)](https://github.com/risingwavelabs/risingwave/pull/13187)
-- `1aff7578b391512931b7c76990c7aa055db57bbd` [chore: report stream chunk size as `partition_input_bytes` for workload generator (#13284)](https://github.com/risingwavelabs/risingwave/pull/13284)
-- `875875dae50c58a7935caa2724f1dccce7bf6247` [feat(optimizer): merge chaining `OverWindow`s with same partition by and order by (#13281)](https://github.com/risingwavelabs/risingwave/pull/13281)
-- `04999f06024d5b40624df1ab059b8613d22f410d` [test(regress): enable delete (#13277)](https://github.com/risingwavelabs/risingwave/pull/13277)
-- `e3c8649ec4b3c5adb3e37d1dd82e8e421be1f8ee` [refactor: correctly maintain the source chain of error types (#13248)](https://github.com/risingwavelabs/risingwave/pull/13248)
-- `947c4d8855fe78cd671942d8a259bddbb6010ff9` [feat(jni): implement macro to type safe call java method (#13269)](https://github.com/risingwavelabs/risingwave/pull/13269)
-- `7d0dd5001c0c47948eaf2eab7948ce94588c01ed` [feat(sink): change row iterator to row iterable (#13258)](https://github.com/risingwavelabs/risingwave/pull/13258)
-- `deaca7f67fc16101ed2b132e74887cfe9b0720da` [chore: add a build tool that will produce docs for WITH options (#13227)](https://github.com/risingwavelabs/risingwave/pull/13227)
-- `6fbb2715151e807e3aade54715cc99df3f3fef05` [feat: support array containment @>, <@ (#13180) (#13253)](https://github.com/risingwavelabs/risingwave/pull/13253)
-- `c70feda0561563b45e60bd3a5b9c3c38599b882c` [chore(deps): Bump speedate from 0.12.0 to 0.13.0 (#13275)](https://github.com/risingwavelabs/risingwave/pull/13275)
-- `09dea549f7ceb3bf311548589cd834a63f2fa257` [refactor(stream): remove `async_trait` macro for traits (#13273)](https://github.com/risingwavelabs/risingwave/pull/13273)
-- `8092a6850e30ca0ee983cfa75cd49e02231bf0d1` [feat: add rw_internal_tables (#13272)](https://github.com/risingwavelabs/risingwave/pull/13272)
-
-## nightly-20231106
-- `a0b545cc68c310bdd5ed2bcd745b1773097e3ae2` [fix(expr): fix `overlay` function with large range input (#13268)](https://github.com/risingwavelabs/risingwave/pull/13268)
