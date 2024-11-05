@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241105` `a945f52de4633a6f87f62309aa3cdbbebaff8d11`
 - `20241104` `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676`
 - `20241103` `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6`
 - `20241101` `b39c9af88fd1bbe05df7e1ece506741eb489471b`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241105
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bb0d786b39c9eef9dbf1e16814e8d12e46b8a676...a945f52de4633a6f87f62309aa3cdbbebaff8d11)
 - `a945f52de4633a6f87f62309aa3cdbbebaff8d11` [fix: none-shared source to secret dependence (#19263)](https://github.com/risingwavelabs/risingwave/pull/19263)
 - `0f78e6a3c3ae5eba074209a7b2a8b3d6fb4fd63f` [fix: support Kinesis with include timestamp (#19211)](https://github.com/risingwavelabs/risingwave/pull/19211)
 - `9d83354629bde178ba31e5fbea4ebc51c814fecf` [chore(deps): Bump speedate from 0.14.0 to 0.15.0 (#19257)](https://github.com/risingwavelabs/risingwave/pull/19257)
