@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a945f52de4633a6f87f62309aa3cdbbebaff8d11` [fix: none-shared source to secret dependence (#19263)](https://github.com/risingwavelabs/risingwave/pull/19263)
 - `0f78e6a3c3ae5eba074209a7b2a8b3d6fb4fd63f` [fix: support Kinesis with include timestamp (#19211)](https://github.com/risingwavelabs/risingwave/pull/19211)
 - `9d83354629bde178ba31e5fbea4ebc51c814fecf` [chore(deps): Bump speedate from 0.14.0 to 0.15.0 (#19257)](https://github.com/risingwavelabs/risingwave/pull/19257)
 - `46ad59877c7d5115d5285e3e24ac6590b1478b28` [fix(meta): record delta for new compaction group (#19253)](https://github.com/risingwavelabs/risingwave/pull/19253)
