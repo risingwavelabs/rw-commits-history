@@ -318,7 +318,6 @@
 - `20231110` `287604ffe7c4b38d1399d5baa478d081871e78f1`
 - `20231109` `492076f2861db6ebcc79c4e3934b82eb5a553c6c`
 - `20231108` `4e4e8b5b6bf2502b275e15ae94cd479d74625d4c`
-- `20231107` `4fdbade0bb32a455619a41f1859c8f5784a7520c`
 </details>
 
 # Commit history
@@ -4218,21 +4217,4 @@
 - `54390d3fe8db422f796ab8878b6dd50ed168562e` [feat: add `properties.fetch.queue.backoff.ms` for kafka source (#13321)](https://github.com/risingwavelabs/risingwave/pull/13321)
 
 ## nightly-20231108
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fdbade0bb32a455619a41f1859c8f5784a7520c...4e4e8b5b6bf2502b275e15ae94cd479d74625d4c)
 - `4e4e8b5b6bf2502b275e15ae94cd479d74625d4c` [fix: ignore unknow field in config (#13320)](https://github.com/risingwavelabs/risingwave/pull/13320)
-- `901d9b0f54a10f9a5e26b895a6b765b98d27d007` [refactor(optimizer): add lookup table to batch lookup join explain (#13311)](https://github.com/risingwavelabs/risingwave/pull/13311)
-- `285296d80361ba0d87c8680bef3d24d41c50d6ba` [refactor: rename "chain" node (#13242)](https://github.com/risingwavelabs/risingwave/pull/13242)
-- `89f77f53586a7b73ca94a9c12ff9d44b1b9e4b14` [fix(jdbc-sink): Handle JDBC connection error by recreating the connection (#13279)](https://github.com/risingwavelabs/risingwave/pull/13279)
-- `8e231af93a8c4bd37f0ce933c5044a83ad51af67` [feat(pgwire): listen on unix socket (#13291)](https://github.com/risingwavelabs/risingwave/pull/13291)
-- `566bacf77bc43720b63911fcf47b3e87d873626a` [feat(sink): support jdbc sink async truncate (#13190)](https://github.com/risingwavelabs/risingwave/pull/13190)
-- `f42a6121cfca88c7378688120b5c811ecfaa02e1` [feat(sink): support starrocks sink (#12681)](https://github.com/risingwavelabs/risingwave/pull/12681)
-- `fe8061811c184c6ddc48dc8eb0eb432933d6faa7` [chore(test): skip test with vendor because of invalid auth (#13305)](https://github.com/risingwavelabs/risingwave/pull/13305)
-- `c8f33ae615d75274cac604619f09c82428fc3fd0` [feat(expr): support list and struct in `jsonb_agg`/`jsonb_object_agg` (#13299)](https://github.com/risingwavelabs/risingwave/pull/13299)
-- `7559073b7ce60b8b4046d5d026f97f5ea1960e3a` [feat: support `ALTER DATABASE/SCHEMA/TABLE/... xxx OWNER TO xxx` syntax (#13216)](https://github.com/risingwavelabs/risingwave/pull/13216)
-- `336dbe2e097843204684a6f2ed0882ecbfa5cf4d` [fix(ci): fix specify risingwave image tag env (#13300)](https://github.com/risingwavelabs/risingwave/pull/13300)
-- `4726cdd3dd9eabb8f923ce537b42a3d4ec6c16b8` [fix(stream agg): use executor schema derived by optimizer instead of generating again in agg executors (#13289)](https://github.com/risingwavelabs/risingwave/pull/13289)
-- `887655fdb859c46f6cd002ac00a926c8776e42c6` [feat(storage): hash join and dynamic filter support spill anytime via gap epoch (#12028)](https://github.com/risingwavelabs/risingwave/pull/12028)
-- `290601724967fc8e9e673309251a6ba963f95f1f` [feat: support iceberg metrics (#13259)](https://github.com/risingwavelabs/risingwave/pull/13259)
-
-## nightly-20231107
-- `4fdbade0bb32a455619a41f1859c8f5784a7520c` [chore: rename `streaming/group_top_n/main1.slt` to `main.slt` (#13187)](https://github.com/risingwavelabs/risingwave/pull/13187)
