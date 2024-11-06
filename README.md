@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241106` `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b`
 - `20241105` `a945f52de4633a6f87f62309aa3cdbbebaff8d11`
 - `20241104` `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676`
 - `20241103` `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241106
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a945f52de4633a6f87f62309aa3cdbbebaff8d11...9a32e75f227f837a6f16fb3afe159c1f8af2ad5b)
 - `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b` [feat(compaction): default new compaction group for new table (#19080)](https://github.com/risingwavelabs/risingwave/pull/19080)
 
 ## nightly-20241105
