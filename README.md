@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `218e63e30821fbb500cdaa4edf8ff50078f7f763` [fix: fix grant and revoke privileges for internal table (#19249)](https://github.com/risingwavelabs/risingwave/pull/19249)
 
 ## nightly-20241106
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a945f52de4633a6f87f62309aa3cdbbebaff8d11...9a32e75f227f837a6f16fb3afe159c1f8af2ad5b)
