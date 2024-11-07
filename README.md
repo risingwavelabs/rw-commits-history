@@ -318,7 +318,6 @@
 - `20231112` `8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0`
 - `20231110` `287604ffe7c4b38d1399d5baa478d081871e78f1`
 - `20231109` `492076f2861db6ebcc79c4e3934b82eb5a553c6c`
-- `20231108` `4e4e8b5b6bf2502b275e15ae94cd479d74625d4c`
 </details>
 
 # Commit history
@@ -4206,21 +4205,4 @@
 - `b8b812ddfaea4d8bb1bc8fe784890f8952c02a50` [chore: add memory limit & restarts in docker-compose.yml (#13343)](https://github.com/risingwavelabs/risingwave/pull/13343)
 
 ## nightly-20231109
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4e4e8b5b6bf2502b275e15ae94cd479d74625d4c...492076f2861db6ebcc79c4e3934b82eb5a553c6c)
 - `492076f2861db6ebcc79c4e3934b82eb5a553c6c` [fix(meta): collect meta node count as worker node (#13338)](https://github.com/risingwavelabs/risingwave/pull/13338)
-- `117f14c20b2f742688d2691e5c4ab7f56d136425` [refactor(stream): use `ExecutorInfo` constructed by stream manager in `Project` and `ProjectSet` (#13342)](https://github.com/risingwavelabs/risingwave/pull/13342)
-- `7b9896cceb43a06687c5c6dfb6b2a8ba7a7f7a61` [feat(error): report the error's source chain through psql (#13264)](https://github.com/risingwavelabs/risingwave/pull/13264)
-- `aada1206083b1442759a6df9e6785b79dace2d0c` [fix: return notice when create source/sink if not exist (#13310)](https://github.com/risingwavelabs/risingwave/pull/13310)
-- `ff960a50c955bc1255359e70a68c440bcde90abd` [chore(proto): standardize name of enums (#13336)](https://github.com/risingwavelabs/risingwave/pull/13336)
-- `b7b6c6c65aa14cfb925c50e23b345d440dd6beec` [refactor: use `expect-test` to generate default config file (#13333)](https://github.com/risingwavelabs/risingwave/pull/13333)
-- `33bc6b7ef8872f8ddca5ab280ef82ca0a03711d8` [docs: add quick reference for ci labels (#13335)](https://github.com/risingwavelabs/risingwave/pull/13335)
-- `eb4218cc9c0d9d5a14e358d61dd88d26063597c2` [fix(storage): Handle heartbeat cancel in fast compactor runner (#13315)](https://github.com/risingwavelabs/risingwave/pull/13315)
-- `e0ff37f3b2b50ee585715a3719dcb78924f01bd2` [chore(deps): Bump mysql_async from 0.32.2 to 0.33.0 (#13323)](https://github.com/risingwavelabs/risingwave/pull/13323)
-- `306801bbb4bd8b0b1bf85a044d1229da68215bf1` [feat: Introduce scale-in in recovery. (#13270)](https://github.com/risingwavelabs/risingwave/pull/13270)
-- `61c3e2ca1954ced2e6278c0f1de3b8634f039023` [fix(udf): add graceful shutdown for python UDF server (#13285)](https://github.com/risingwavelabs/risingwave/pull/13285)
-- `8fae5b5309d7e8e7cee6c0362b755d3e54fc507a` [fix: array contains does not support nested types (#13290)](https://github.com/risingwavelabs/risingwave/pull/13290)
-- `7b3f8fca82109465996c57a5d242d6bc9e187b63` [feat(frontend): support show processlist (#13287)](https://github.com/risingwavelabs/risingwave/pull/13287)
-- `54390d3fe8db422f796ab8878b6dd50ed168562e` [feat: add `properties.fetch.queue.backoff.ms` for kafka source (#13321)](https://github.com/risingwavelabs/risingwave/pull/13321)
-
-## nightly-20231108
-- `4e4e8b5b6bf2502b275e15ae94cd479d74625d4c` [fix: ignore unknow field in config (#13320)](https://github.com/risingwavelabs/risingwave/pull/13320)
