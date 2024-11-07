@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397` [refactor(sink): Use s3 sink to replace the original snowflake backend implementation (#18996)](https://github.com/risingwavelabs/risingwave/pull/18996)
 - `218e63e30821fbb500cdaa4edf8ff50078f7f763` [fix: fix grant and revoke privileges for internal table (#19249)](https://github.com/risingwavelabs/risingwave/pull/19249)
 
 ## nightly-20241106
