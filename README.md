@@ -326,6 +326,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c65834074c8334d835a03333362c0f2eb67a0802` [refactor: some CDC table's code (#19255)](https://github.com/risingwavelabs/risingwave/pull/19255)
+- `99703d17a207cb7cf925fa24edf47a149e0d74e2` [test: fix flaky test `two_phase_approx_percentile_merge_stateless_agg.slt` due to rounding  (#19292)](https://github.com/risingwavelabs/risingwave/pull/19292)
+- `82a80631aa94b45284ff68c07e61c474a5c6132d` [fix(pg-cdc): fix real/float data type mapping (#19300)](https://github.com/risingwavelabs/risingwave/pull/19300)
+- `cc085ebd98a4c224c28277c722914af9e8650ffd` [fix: Single fragment scaling is too conservative (#19259)](https://github.com/risingwavelabs/risingwave/pull/19259)
+- `31d4406f1c18fb9794b6aa3218d4078511226248` [fix(meta): set auto_increment when restoring metadata (#19303)](https://github.com/risingwavelabs/risingwave/pull/19303)
+- `ea01a37b3e64c38ffb2d6114f4621159d176d4de` [feat: support `key encode bytes` for sink  (#19243)](https://github.com/risingwavelabs/risingwave/pull/19243)
 
 ## nightly-20241107
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9a32e75f227f837a6f16fb3afe159c1f8af2ad5b...e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397)
