@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241108` `c65834074c8334d835a03333362c0f2eb67a0802`
 - `20241107` `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397`
 - `20241106` `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b`
 - `20241105` `a945f52de4633a6f87f62309aa3cdbbebaff8d11`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241108
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397...c65834074c8334d835a03333362c0f2eb67a0802)
 - `c65834074c8334d835a03333362c0f2eb67a0802` [refactor: some CDC table's code (#19255)](https://github.com/risingwavelabs/risingwave/pull/19255)
 - `99703d17a207cb7cf925fa24edf47a149e0d74e2` [test: fix flaky test `two_phase_approx_percentile_merge_stateless_agg.slt` due to rounding  (#19292)](https://github.com/risingwavelabs/risingwave/pull/19292)
 - `82a80631aa94b45284ff68c07e61c474a5c6132d` [fix(pg-cdc): fix real/float data type mapping (#19300)](https://github.com/risingwavelabs/risingwave/pull/19300)
