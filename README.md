@@ -318,7 +318,6 @@
 - `20231113` `950ed58b5fcab88ca00a08c7683120a2d042b54d`
 - `20231112` `8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0`
 - `20231110` `287604ffe7c4b38d1399d5baa478d081871e78f1`
-- `20231109` `492076f2861db6ebcc79c4e3934b82eb5a553c6c`
 </details>
 
 # Commit history
@@ -4201,18 +4200,4 @@
 - `0c13ba22d5f5000d915c4694b96a8159b1d99faf` [fix(source): informative error on protobuf `build_file_descriptor_set` failure (#13364)](https://github.com/risingwavelabs/risingwave/pull/13364)
 
 ## nightly-20231110
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/492076f2861db6ebcc79c4e3934b82eb5a553c6c...287604ffe7c4b38d1399d5baa478d081871e78f1)
 - `287604ffe7c4b38d1399d5baa478d081871e78f1` [refactor(frontend): separate cdc table scan from stream table scan (#13332)](https://github.com/risingwavelabs/risingwave/pull/13332)
-- `205fbf9a88b0077725acadd96d1c7faf7b168823` [fix: compaction test open enable_test_epoch flag (#13359)](https://github.com/risingwavelabs/risingwave/pull/13359)
-- `0b9cb1f711a9936297e3ccec454630b189065624` [fix(stream): materialize should not compact input when handling conflict (#13351)](https://github.com/risingwavelabs/risingwave/pull/13351)
-- `26c7865708513170c43844ff4b43315602481ef3` [fix(meta): singleton requirement should be propagated through no-shuffle edges in scheduler (#13361)](https://github.com/risingwavelabs/risingwave/pull/13361)
-- `22dc384cfb92272e59641f700ad2207fed1855cd` [refactor: use `ExecutorParams::info` in stream scan executors (#13347)](https://github.com/risingwavelabs/risingwave/pull/13347)
-- `0130e21c77991a3af0082fe56b6688cbacd45661` [fix(ci): rebuild dashboard artifacts on proto changes (#13360)](https://github.com/risingwavelabs/risingwave/pull/13360)
-- `e71d94fd292b428da3b831237b4f0611314a5426` [refactor(error): show pretty error in planner test (#13348)](https://github.com/risingwavelabs/risingwave/pull/13348)
-- `4c78170f4473974ee41cdc8841cc2a4b5896ef2b` [feat: set default message queue key to format plain (#13278)](https://github.com/risingwavelabs/risingwave/pull/13278)
-- `80045051a7de3e0a7249b26a33ace96618f5c95b` [feat(error): preserve error's source chain across gRPC boundary (#13282)](https://github.com/risingwavelabs/risingwave/pull/13282)
-- `1abe9e82eb17d61aa9279a5cb8275af90083f504` [fix: remove connector-node from docker (#13344)](https://github.com/risingwavelabs/risingwave/pull/13344)
-- `b8b812ddfaea4d8bb1bc8fe784890f8952c02a50` [chore: add memory limit & restarts in docker-compose.yml (#13343)](https://github.com/risingwavelabs/risingwave/pull/13343)
-
-## nightly-20231109
-- `492076f2861db6ebcc79c4e3934b82eb5a553c6c` [fix(meta): collect meta node count as worker node (#13338)](https://github.com/risingwavelabs/risingwave/pull/13338)
