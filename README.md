@@ -318,7 +318,6 @@
 - `20231114` `2df34ee858dae99227f4957585671cc09c736eb5`
 - `20231113` `950ed58b5fcab88ca00a08c7683120a2d042b54d`
 - `20231112` `8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0`
-- `20231110` `287604ffe7c4b38d1399d5baa478d081871e78f1`
 </details>
 
 # Commit history
@@ -4201,10 +4200,4 @@
 - `6229d81d5171a5642ddc918b8c9870fc472839a0` [chore(deps): bump self_cell for RUSTSEC-2023-0070 (#13372)](https://github.com/risingwavelabs/risingwave/pull/13372)
 
 ## nightly-20231112
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/287604ffe7c4b38d1399d5baa478d081871e78f1...8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0)
 - `8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0` [fix: temp disable option check on source options (#13362)](https://github.com/risingwavelabs/risingwave/pull/13362)
-- `eabfebaa20f083fcb3f0e3ec76be2149169df35a` [feat(meta): report background_ddl progress immediately (#13356)](https://github.com/risingwavelabs/risingwave/pull/13356)
-- `0c13ba22d5f5000d915c4694b96a8159b1d99faf` [fix(source): informative error on protobuf `build_file_descriptor_set` failure (#13364)](https://github.com/risingwavelabs/risingwave/pull/13364)
-
-## nightly-20231110
-- `287604ffe7c4b38d1399d5baa478d081871e78f1` [refactor(frontend): separate cdc table scan from stream table scan (#13332)](https://github.com/risingwavelabs/risingwave/pull/13332)
