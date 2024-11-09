@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `82b782547c0cefe48263d0fc69047b2fcb71cac3` [chore(deps): Bump rustls-native-certs from 0.7.0 to 0.8.0 (#18782)](https://github.com/risingwavelabs/risingwave/pull/18782)
 - `55c4644b70c4a74145b7379bf68ecba21ca596b5` [chore(deps): Bump fs-err from 2.11.0 to 3.0.0 (#19235)](https://github.com/risingwavelabs/risingwave/pull/19235)
 - `c673db66486e5415d2ea2b124c6195217c08caa7` [chore(deps): Bump bytes from 1.7.2 to 1.8.0 (#19185)](https://github.com/risingwavelabs/risingwave/pull/19185)
 
