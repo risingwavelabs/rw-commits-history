@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241109` `82b782547c0cefe48263d0fc69047b2fcb71cac3`
 - `20241108` `c65834074c8334d835a03333362c0f2eb67a0802`
 - `20241107` `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397`
 - `20241106` `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241109
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c65834074c8334d835a03333362c0f2eb67a0802...82b782547c0cefe48263d0fc69047b2fcb71cac3)
 - `82b782547c0cefe48263d0fc69047b2fcb71cac3` [chore(deps): Bump rustls-native-certs from 0.7.0 to 0.8.0 (#18782)](https://github.com/risingwavelabs/risingwave/pull/18782)
 - `55c4644b70c4a74145b7379bf68ecba21ca596b5` [chore(deps): Bump fs-err from 2.11.0 to 3.0.0 (#19235)](https://github.com/risingwavelabs/risingwave/pull/19235)
 - `c673db66486e5415d2ea2b124c6195217c08caa7` [chore(deps): Bump bytes from 1.7.2 to 1.8.0 (#19185)](https://github.com/risingwavelabs/risingwave/pull/19185)
