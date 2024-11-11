@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3c2e81b53a8411451a5f999ca3313654d98c9586` [refactor(meta): reorganize code of global barrier manager (part 1) (#19334)](https://github.com/risingwavelabs/risingwave/pull/19334)
 - `b689615512b773485244a130f22e771142461d9b` [refactor(meta): list and delete SST objects in meta node (#19329)](https://github.com/risingwavelabs/risingwave/pull/19329)
 - `71146a6bf5931e68d5f51917ac72b7070ad0df3f` [feat(meta): support database checkpoint isolation (#19173)](https://github.com/risingwavelabs/risingwave/pull/19173)
 - `2c4a0002f7b812cc6b3ec057654401e88db5284f` [chore(ci): serial-run `source_inline/kafka/avro/glue.slt` (#19318)](https://github.com/risingwavelabs/risingwave/pull/19318)
