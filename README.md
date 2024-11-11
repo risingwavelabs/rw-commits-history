@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241111` `3c2e81b53a8411451a5f999ca3313654d98c9586`
 - `20241110` `82b782547c0cefe48263d0fc69047b2fcb71cac3`
 - `20241108` `c65834074c8334d835a03333362c0f2eb67a0802`
 - `20241107` `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241111
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/82b782547c0cefe48263d0fc69047b2fcb71cac3...3c2e81b53a8411451a5f999ca3313654d98c9586)
 - `3c2e81b53a8411451a5f999ca3313654d98c9586` [refactor(meta): reorganize code of global barrier manager (part 1) (#19334)](https://github.com/risingwavelabs/risingwave/pull/19334)
 - `b689615512b773485244a130f22e771142461d9b` [refactor(meta): list and delete SST objects in meta node (#19329)](https://github.com/risingwavelabs/risingwave/pull/19329)
 - `71146a6bf5931e68d5f51917ac72b7070ad0df3f` [feat(meta): support database checkpoint isolation (#19173)](https://github.com/risingwavelabs/risingwave/pull/19173)
