@@ -318,7 +318,6 @@
 - `20231115` `a62493618c19abe7c6d43ba765aa8c613a25e5e1`
 - `20231114` `2df34ee858dae99227f4957585671cc09c736eb5`
 - `20231113` `950ed58b5fcab88ca00a08c7683120a2d042b54d`
-- `20231112` `8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0`
 </details>
 
 # Commit history
@@ -4197,15 +4196,4 @@
 - `d932c58853d3fc0f7d371d2152eb12146446ba47` [chore: update image version in docker (#13357)](https://github.com/risingwavelabs/risingwave/pull/13357)
 
 ## nightly-20231113
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0...950ed58b5fcab88ca00a08c7683120a2d042b54d)
 - `950ed58b5fcab88ca00a08c7683120a2d042b54d` [fix(conn): fix throw error msg of connector when encode Json or Csv (#13390)](https://github.com/risingwavelabs/risingwave/pull/13390)
-- `df1a260ea8f6140646d4bc659d8f7e26516d5911` [chore(deps-dev): Bump pyarrow from 12.0.1 to 14.0.1 in /integration_tests/iceberg-sink2/python (#13352)](https://github.com/risingwavelabs/risingwave/pull/13352)
-- `c64a0a9a9bfc6590c4f47486a058616477236dc4` [refactor(stream): use `ExecutorParams::info` in over window related executors (#13383)](https://github.com/risingwavelabs/risingwave/pull/13383)
-- `0ec7c6e8847f1762c71860d3d87c3d7862a86595` [fix(storage): avoid preload all range-tombstone before compaction job start (#12792)](https://github.com/risingwavelabs/risingwave/pull/12792)
-- `b10238c4a4c07f3651d4a5e06aa23705801f8fb9` [fix(s3): more accurate expiration judgment when starting the cluster (#13371)](https://github.com/risingwavelabs/risingwave/pull/13371)
-- `255d651d6215ecd0b7aa9caa96215a8f7cee600a` [feat(source): embed protobuf well known types when using schema registry (#13370)](https://github.com/risingwavelabs/risingwave/pull/13370)
-- `77417eb820bc865e91374b2e3459b39bf4acd765` [feat(storage): add metrics for mem table spill (#13316)](https://github.com/risingwavelabs/risingwave/pull/13316)
-- `6229d81d5171a5642ddc918b8c9870fc472839a0` [chore(deps): bump self_cell for RUSTSEC-2023-0070 (#13372)](https://github.com/risingwavelabs/risingwave/pull/13372)
-
-## nightly-20231112
-- `8f15ace5dd1ddcb652bf6d535cea4fc81fe937a0` [fix: temp disable option check on source options (#13362)](https://github.com/risingwavelabs/risingwave/pull/13362)
