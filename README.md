@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241112` `98aa20b886a63a58e602cda41c1c161a66a9fc06`
 - `20241111` `3c2e81b53a8411451a5f999ca3313654d98c9586`
 - `20241110` `82b782547c0cefe48263d0fc69047b2fcb71cac3`
 - `20241108` `c65834074c8334d835a03333362c0f2eb67a0802`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241112
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3c2e81b53a8411451a5f999ca3313654d98c9586...98aa20b886a63a58e602cda41c1c161a66a9fc06)
 - `98aa20b886a63a58e602cda41c1c161a66a9fc06` [fix: background mview without backfilling should not tracked in barrier runtime info (#19355)](https://github.com/risingwavelabs/risingwave/pull/19355)
 - `337235d98785f5c512b39889e87e2e7b1535536e` [refactor(stream): add more assertion on update op handling in hash dispatcher (#19347)](https://github.com/risingwavelabs/risingwave/pull/19347)
 - `022c0a40c7063a40f42755f61d73b4ef5405ab42` [refactor(meta): reorganize code of global barrier manager (part 2) (#19351)](https://github.com/risingwavelabs/risingwave/pull/19351)
