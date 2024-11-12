@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `98aa20b886a63a58e602cda41c1c161a66a9fc06` [fix: background mview without backfilling should not tracked in barrier runtime info (#19355)](https://github.com/risingwavelabs/risingwave/pull/19355)
 - `337235d98785f5c512b39889e87e2e7b1535536e` [refactor(stream): add more assertion on update op handling in hash dispatcher (#19347)](https://github.com/risingwavelabs/risingwave/pull/19347)
 - `022c0a40c7063a40f42755f61d73b4ef5405ab42` [refactor(meta): reorganize code of global barrier manager (part 2) (#19351)](https://github.com/risingwavelabs/risingwave/pull/19351)
 - `fe6550975e1b471eb37bb37b70427876a1d1aa1c` [feat(stream): wait committed epoch in state table init_epoch (#19223)](https://github.com/risingwavelabs/risingwave/pull/19223)
