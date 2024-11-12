@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `056ab8b5fecf918253fbf413d29e153a9e8ba8a2` [chore(deps): Bump serial_test from 3.1.0 to 3.2.0 (#19341)](https://github.com/risingwavelabs/risingwave/pull/19341)
+- `73108d527fd0c0a834a83009d865709183fd4398` [feat(meta): extend streaming scheduler to be aware of vnode count (#19267)](https://github.com/risingwavelabs/risingwave/pull/19267)
 
 ## nightly-20241111
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/82b782547c0cefe48263d0fc69047b2fcb71cac3...3c2e81b53a8411451a5f999ca3313654d98c9586)
