@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `12fbf121003e2d69feb36a0da3d02edd1944771b` [chore: enable parallel frontend for rustc (#19331)](https://github.com/risingwavelabs/risingwave/pull/19331)
+- `b14188179bef6b2b9fee26f987111264a0f6ddc1` [refactor(source): enhance parquet file source (#19221)](https://github.com/risingwavelabs/risingwave/pull/19221)
 - `056ab8b5fecf918253fbf413d29e153a9e8ba8a2` [chore(deps): Bump serial_test from 3.1.0 to 3.2.0 (#19341)](https://github.com/risingwavelabs/risingwave/pull/19341)
 - `73108d527fd0c0a834a83009d865709183fd4398` [feat(meta): extend streaming scheduler to be aware of vnode count (#19267)](https://github.com/risingwavelabs/risingwave/pull/19267)
 
