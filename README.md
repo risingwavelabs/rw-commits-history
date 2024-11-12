@@ -318,7 +318,6 @@
 - `20231116` `acb33762b65767539deb0e7b2a9b3c56259ceb5f`
 - `20231115` `a62493618c19abe7c6d43ba765aa8c613a25e5e1`
 - `20231114` `2df34ee858dae99227f4957585671cc09c736eb5`
-- `20231113` `950ed58b5fcab88ca00a08c7683120a2d042b54d`
 </details>
 
 # Commit history
@@ -4185,28 +4184,4 @@
 - `56b37c53e855a433d1aea9dce6c20a749b5d25c4` [chore(deps): bump getrandom to v0.2.11 and its madsim patch (#13426)](https://github.com/risingwavelabs/risingwave/pull/13426)
 
 ## nightly-20231114
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/950ed58b5fcab88ca00a08c7683120a2d042b54d...2df34ee858dae99227f4957585671cc09c736eb5)
 - `2df34ee858dae99227f4957585671cc09c736eb5` [fix(meta): fix ctrl c cancels streaming job (#13415)](https://github.com/risingwavelabs/risingwave/pull/13415)
-- `ec3208b012a1e9cdb698b21f24b0e206efa56f31` [fix: panic if spawn when task drop with madsim (#13417)](https://github.com/risingwavelabs/risingwave/pull/13417)
-- `cde91a0e4fd345e38938ce7a114341b21abc10b9` [feat: support foyer zstd compression (#13240)](https://github.com/risingwavelabs/risingwave/pull/13240)
-- `3b7036ca19638206d94b986163170462a65a9fb0` [feat(cdc): persist the backfill state for table-on-source (#13276)](https://github.com/risingwavelabs/risingwave/pull/13276)
-- `09d312c108394fa48b6747e62a03c3f77d3d4ed2` [refactor: bump aws sdk, use rustls in s3 client (#13286)](https://github.com/risingwavelabs/risingwave/pull/13286)
-- `234b99b61734c9193234aebfbf58659775d52873` [fix: wrong ts_ms field in debezium json (#13391)](https://github.com/risingwavelabs/risingwave/pull/13391)
-- `3997e2683e858ac65daca52c5a8ab6c24301206b` [refactor: use `ExecutorParams::info` in join related executors (#13389)](https://github.com/risingwavelabs/risingwave/pull/13389)
-- `0020507edbc4010b20aeeb560c7bea9159315602` [refactor(streaming): pass order_col_indices and order_types in minput (#13376)](https://github.com/risingwavelabs/risingwave/pull/13376)
-- `0c348c5bb1b4fb08607b852812778de77deee649` [fix(cdc): fix some cdc backfill issues (#13397)](https://github.com/risingwavelabs/risingwave/pull/13397)
-- `932d694b6b2e41a6ceb70cc93e0af50e2ebffa8b` [fix(streaming): avoid shadowing identity when flow controlled (#13405)](https://github.com/risingwavelabs/risingwave/pull/13405)
-- `e1b003d9604cffd43bebcc6c3f48b296f479ddc4` [test: add a demo for cockroach sink (#13308)](https://github.com/risingwavelabs/risingwave/pull/13308)
-- `4a5a3311a6565cb3015b459ff149c35c5608f451` [feat(storage): support max version pinning duration (#13340)](https://github.com/risingwavelabs/risingwave/pull/13340)
-- `69ed22719e0a15572b407636aa0ad83864e2786d` [fix(scale): fix serving fragment bitmap for scale (#13395)](https://github.com/risingwavelabs/risingwave/pull/13395)
-- `26be82aace38a3b117de001f8f78914f450945fe` [refactor(stream): use `ExecutorParams::info` in source-related executors (#13380)](https://github.com/risingwavelabs/risingwave/pull/13380)
-- `3fd8140905ff92d2aeb768f84957bd3089e468a2` [fix(connector): warn on undefined nested field in struct when parsing JSON (#13384)](https://github.com/risingwavelabs/risingwave/pull/13384)
-- `b569b926e01a5dd7d6d429bbe09040db904b6cb9` [chore(deps): Bump fancy-regex from 0.11.0 to 0.12.0 (#13398)](https://github.com/risingwavelabs/risingwave/pull/13398)
-- `dad71c1f41c23956ac864f9eff9066b0afc8bab3` [chore(deps): Bump fs-err from 2.9.0 to 2.10.0 (#13399)](https://github.com/risingwavelabs/risingwave/pull/13399)
-- `e46151bdcb5427ddc7306015d2729a7edda312ce` [chore: add a configuraiton toml for serving-only CN (#13239)](https://github.com/risingwavelabs/risingwave/pull/13239)
-- `a962e0afb85c89c3ee2e3a3909e29bc9794b0342` [fix(docker): fix memory limit suffix in docker compose (#13382)](https://github.com/risingwavelabs/risingwave/pull/13382)
-- `aaccc89203fcf711750f2aacf9b08a5bf7124e50` [refactor(storage): avoid decode and compression when refill (#13309)](https://github.com/risingwavelabs/risingwave/pull/13309)
-- `d932c58853d3fc0f7d371d2152eb12146446ba47` [chore: update image version in docker (#13357)](https://github.com/risingwavelabs/risingwave/pull/13357)
-
-## nightly-20231113
-- `950ed58b5fcab88ca00a08c7683120a2d042b54d` [fix(conn): fix throw error msg of connector when encode Json or Csv (#13390)](https://github.com/risingwavelabs/risingwave/pull/13390)
