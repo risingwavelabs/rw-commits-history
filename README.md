@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fe6550975e1b471eb37bb37b70427876a1d1aa1c` [feat(stream): wait committed epoch in state table init_epoch (#19223)](https://github.com/risingwavelabs/risingwave/pull/19223)
 - `4dea583711844885cdc8abfd3e19c401119d29d4` [fix: table with fs connector cannot work with rate limit (#19338)](https://github.com/risingwavelabs/risingwave/pull/19338)
 - `12fbf121003e2d69feb36a0da3d02edd1944771b` [chore: enable parallel frontend for rustc (#19331)](https://github.com/risingwavelabs/risingwave/pull/19331)
 - `b14188179bef6b2b9fee26f987111264a0f6ddc1` [refactor(source): enhance parquet file source (#19221)](https://github.com/risingwavelabs/risingwave/pull/19221)
