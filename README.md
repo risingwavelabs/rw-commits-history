@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f0ece4520ff33d07a7ae55af9621d8af69415a4d` [fix(iceberg): change iceberg rest catalog default implementation to java (#19357)](https://github.com/risingwavelabs/risingwave/pull/19357)
 
 ## nightly-20241112
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3c2e81b53a8411451a5f999ca3313654d98c9586...98aa20b886a63a58e602cda41c1c161a66a9fc06)
