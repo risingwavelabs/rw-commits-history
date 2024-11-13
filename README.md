@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241113` `1aed314c2d8944da22b6d9c3c4d07c7683c2a98b`
 - `20241112` `98aa20b886a63a58e602cda41c1c161a66a9fc06`
 - `20241111` `3c2e81b53a8411451a5f999ca3313654d98c9586`
 - `20241110` `82b782547c0cefe48263d0fc69047b2fcb71cac3`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241113
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98aa20b886a63a58e602cda41c1c161a66a9fc06...1aed314c2d8944da22b6d9c3c4d07c7683c2a98b)
 - `1aed314c2d8944da22b6d9c3c4d07c7683c2a98b` [feat(storage): support clear the shared buffer of a subset of tables (#19293)](https://github.com/risingwavelabs/risingwave/pull/19293)
 - `c626c59da464b98f3d498030060741dcde2497c9` [chore(iceberg): suppress java S3FileIO warning (#19371)](https://github.com/risingwavelabs/risingwave/pull/19371)
 - `0ddb6eb17b514aef65f1625ec46087ca212711c1` [refactor(barrier): not cache actor failure in local barrier worker (#19367)](https://github.com/risingwavelabs/risingwave/pull/19367)
