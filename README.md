@@ -318,7 +318,6 @@
 - `20231117` `a34f46a0ac3d79363e93f11f710dbdf32233e0c6`
 - `20231116` `acb33762b65767539deb0e7b2a9b3c56259ceb5f`
 - `20231115` `a62493618c19abe7c6d43ba765aa8c613a25e5e1`
-- `20231114` `2df34ee858dae99227f4957585671cc09c736eb5`
 </details>
 
 # Commit history
@@ -4173,26 +4172,4 @@
 - `4e16834d7ea5df3b8c6d16cc03f0431a34e29fbf` [chore(dependabot): add opentelemetry group (#13303)](https://github.com/risingwavelabs/risingwave/pull/13303)
 
 ## nightly-20231115
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2df34ee858dae99227f4957585671cc09c736eb5...a62493618c19abe7c6d43ba765aa8c613a25e5e1)
 - `a62493618c19abe7c6d43ba765aa8c613a25e5e1` [refactor(datagen): generalize `TimestampField` to `ChronoField` (#13439)](https://github.com/risingwavelabs/risingwave/pull/13439)
-- `1b1950eaa51a0c89965a25bec829b07e197a291e` [chore: add some unit test for alter relation rename in catalog controller (#13438)](https://github.com/risingwavelabs/risingwave/pull/13438)
-- `2628460bc5d28d0b5add8d5c7dd2ce8eb7705e1c` [fix(type): fix parsing array literal and printing struct value (#13229)](https://github.com/risingwavelabs/risingwave/pull/13229)
-- `48bf62e6b59056b1efc5aefa9717e6c18724f546` [feat: new table stream graph (#12240)](https://github.com/risingwavelabs/risingwave/pull/12240)
-- `b20059fec3013d39bc34c460a1b95611a61ca92c` [refactor(stream): use `ExecutorParams::info` in remaining executors (#13435)](https://github.com/risingwavelabs/risingwave/pull/13435)
-- `36f0bd4f2831b90b1d4e1a98afab32d85d39ec32` [feat(frontend): support kill command (#13434)](https://github.com/risingwavelabs/risingwave/pull/13434)
-- `1327bb237b079967da35603b684aae9b857a8629` [chore(main-cron): add test owners, notify on test failure (#13410)](https://github.com/risingwavelabs/risingwave/pull/13410)
-- `03870476d7481e7b198522f21faa9c9d0abcd1a0` [fix(object store): make lifecycle expiration rule more reasonable (#13436)](https://github.com/risingwavelabs/risingwave/pull/13436)
-- `9ca614a8031e5a63624ce1109b71fb22b51a8004` [fix(sink): change debezium json `bytea` type encoder (#13404)](https://github.com/risingwavelabs/risingwave/pull/13404)
-- `e156663ae9547c89c68d80a3e49ec712cc48fd37` [refactor(frontend): refactor explain for `CREATE TABLE` (#13406)](https://github.com/risingwavelabs/risingwave/pull/13406)
-- `e313f2241bdad18435dd14aaf01349a402c13fb8` [fix(cdc): fix drop source for cdc source job (#13425)](https://github.com/risingwavelabs/risingwave/pull/13425)
-- `88977cb7053624fe9d02e489a77a58ea1277ab3b` [fix(test): pulsar test timeout in main-cron (#13407)](https://github.com/risingwavelabs/risingwave/pull/13407)
-- `28fc3a870adc9c1695e6450660acf8ab0c8bbc12` [doc: clarify skip-ci use (#13431)](https://github.com/risingwavelabs/risingwave/pull/13431)
-- `094a0710ea6602ed4e0bfc4469c6e068dc5835f6` [fix: alter owner automatically for internal table, index and associated source (#13419)](https://github.com/risingwavelabs/risingwave/pull/13419)
-- `5c54fe6d3be339f455cb42f50308ea363a95c8e6` [feat(storage): prefetch large data for backfill (#13132)](https://github.com/risingwavelabs/risingwave/pull/13132)
-- `190b46e294d627de4b175655516e829221f992a1` [fix(frontend): refine error message on missing `force_append_only` (#13413)](https://github.com/risingwavelabs/risingwave/pull/13413)
-- `1a80ac031a8f0f8739bcdc014e29238b3348b090` [feat: introduce fragment level functions in sql catalog controller (#13381)](https://github.com/risingwavelabs/risingwave/pull/13381)
-- `08606e8c80ae19286615273ea8ab02a6fd802e18` [chore(deps): Bump rust_decimal from 1.32.0 to 1.33.0 (#13428)](https://github.com/risingwavelabs/risingwave/pull/13428)
-- `56b37c53e855a433d1aea9dce6c20a749b5d25c4` [chore(deps): bump getrandom to v0.2.11 and its madsim patch (#13426)](https://github.com/risingwavelabs/risingwave/pull/13426)
-
-## nightly-20231114
-- `2df34ee858dae99227f4957585671cc09c736eb5` [fix(meta): fix ctrl c cancels streaming job (#13415)](https://github.com/risingwavelabs/risingwave/pull/13415)
