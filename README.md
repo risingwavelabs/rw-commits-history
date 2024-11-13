@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0ddb6eb17b514aef65f1625ec46087ca212711c1` [refactor(barrier): not cache actor failure in local barrier worker (#19367)](https://github.com/risingwavelabs/risingwave/pull/19367)
 - `c21a7710fe014607a728c0a94d489291874e3162` [fix(agg): fix `first_value` and `last_value` to not ignore NULLs (#19332)](https://github.com/risingwavelabs/risingwave/pull/19332)
 - `c93b92bab4c3c5d6ae2491de384dda685e9df88f` [feat(compaction): Introducing configuration for compactor preload SstableMeta (#19218)](https://github.com/risingwavelabs/risingwave/pull/19218)
 - `c0b5e641f0a569a8551fa2f13e1e51c7daee1fd2` [fix(binder): report error on update query with subquery on the set clause (#19305)](https://github.com/risingwavelabs/risingwave/pull/19305)
