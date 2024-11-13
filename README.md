@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1aed314c2d8944da22b6d9c3c4d07c7683c2a98b` [feat(storage): support clear the shared buffer of a subset of tables (#19293)](https://github.com/risingwavelabs/risingwave/pull/19293)
 - `c626c59da464b98f3d498030060741dcde2497c9` [chore(iceberg): suppress java S3FileIO warning (#19371)](https://github.com/risingwavelabs/risingwave/pull/19371)
 - `0ddb6eb17b514aef65f1625ec46087ca212711c1` [refactor(barrier): not cache actor failure in local barrier worker (#19367)](https://github.com/risingwavelabs/risingwave/pull/19367)
 - `c21a7710fe014607a728c0a94d489291874e3162` [fix(agg): fix `first_value` and `last_value` to not ignore NULLs (#19332)](https://github.com/risingwavelabs/risingwave/pull/19332)
