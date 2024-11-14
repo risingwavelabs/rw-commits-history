@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4d3f6339a53f6977c12be27d529ab0408a24dee5` [chore: split java connector tests (#19382)](https://github.com/risingwavelabs/risingwave/pull/19382)
 - `df07ffbce4a77f7f0a6335acfae99c0b7e7cccf0` [feat(dashboard): show cluster version (#19388)](https://github.com/risingwavelabs/risingwave/pull/19388)
 
 ## nightly-20241114
