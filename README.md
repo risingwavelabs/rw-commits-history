@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241114` `c92069481d2aba5a77ffb673b48c7e27b5a698a6`
 - `20241113` `1aed314c2d8944da22b6d9c3c4d07c7683c2a98b`
 - `20241112` `98aa20b886a63a58e602cda41c1c161a66a9fc06`
 - `20241111` `3c2e81b53a8411451a5f999ca3313654d98c9586`
@@ -326,6 +327,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `df07ffbce4a77f7f0a6335acfae99c0b7e7cccf0` [feat(dashboard): show cluster version (#19388)](https://github.com/risingwavelabs/risingwave/pull/19388)
+
+## nightly-20241114
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1aed314c2d8944da22b6d9c3c4d07c7683c2a98b...c92069481d2aba5a77ffb673b48c7e27b5a698a6)
 - `c92069481d2aba5a77ffb673b48c7e27b5a698a6` [refactor(barrier): add control request to explicitly create partial graph (#19383)](https://github.com/risingwavelabs/risingwave/pull/19383)
 - `daed1f243da61ad8132f6f14a702dce6936b825d` [feat(iceberg): make wrehouse.path optional for iceberg rest catalog (#19380)](https://github.com/risingwavelabs/risingwave/pull/19380)
 - `c1435dd7bc1f5281bee14a2845e925c9f5e76347` [fix: fix system acl column type to support `\l` command (#19379)](https://github.com/risingwavelabs/risingwave/pull/19379)
