@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c92069481d2aba5a77ffb673b48c7e27b5a698a6` [refactor(barrier): add control request to explicitly create partial graph (#19383)](https://github.com/risingwavelabs/risingwave/pull/19383)
 - `daed1f243da61ad8132f6f14a702dce6936b825d` [feat(iceberg): make wrehouse.path optional for iceberg rest catalog (#19380)](https://github.com/risingwavelabs/risingwave/pull/19380)
 - `c1435dd7bc1f5281bee14a2845e925c9f5e76347` [fix: fix system acl column type to support `\l` command (#19379)](https://github.com/risingwavelabs/risingwave/pull/19379)
 - `fa99969ebbfbd46476455d7dc33a553aa18ab68a` [fix(pg-cdc): write transactional WAL message as heartbeat action (#19385)](https://github.com/risingwavelabs/risingwave/pull/19385)
