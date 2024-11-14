@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9aded7178aefb5436009b4cebd5e8f46b59429b2` [refactor(meta): merge drop and cancel streaming job command (#19369)](https://github.com/risingwavelabs/risingwave/pull/19369)
 - `c5c2119901fa0ff17fd56a878293359f770b1f14` [fix(ci): delete unused python install before embedded UDF tests (#19386)](https://github.com/risingwavelabs/risingwave/pull/19386)
 - `a0ff192290dd767d9f8677709c3b218a4fad2773` [chore(deps): Bump cookie and express in /dashboard (#19324)](https://github.com/risingwavelabs/risingwave/pull/19324)
 
