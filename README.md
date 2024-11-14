@@ -318,7 +318,6 @@
 - `20231119` `b289d384c74afa9fac3c415960b5e013b619b666`
 - `20231117` `a34f46a0ac3d79363e93f11f710dbdf32233e0c6`
 - `20231116` `acb33762b65767539deb0e7b2a9b3c56259ceb5f`
-- `20231115` `a62493618c19abe7c6d43ba765aa8c613a25e5e1`
 </details>
 
 # Commit history
@@ -4170,19 +4169,4 @@
 - `059a84037b157ff4465f862e58a4968003dc2790` [fix(test): fix non deterministic group topn test (#13473)](https://github.com/risingwavelabs/risingwave/pull/13473)
 
 ## nightly-20231116
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a62493618c19abe7c6d43ba765aa8c613a25e5e1...acb33762b65767539deb0e7b2a9b3c56259ceb5f)
 - `acb33762b65767539deb0e7b2a9b3c56259ceb5f` [chore: Update README.md (#13468)](https://github.com/risingwavelabs/risingwave/pull/13468)
-- `c6dffdf391dc64fa832061b938cb2eebc3591699` [feat(datagen): support `timestamptz` (#13451)](https://github.com/risingwavelabs/risingwave/pull/13451)
-- `53d19565c650d3deb6679039c46ad6c0f089ec4a` [chore(ci): notify for more tests (#13463)](https://github.com/risingwavelabs/risingwave/pull/13463)
-- `98f8e1a4464eee346b09f0d8ed0201a05c9e2e0e` [perf(optimizer): omit unnecessary clone (#13466)](https://github.com/risingwavelabs/risingwave/pull/13466)
-- `7dd89f26146c206d106583be392472018af6c5c2` [fix(ci): remove sink json payload and jdbc sink from connector integration test (#13449)](https://github.com/risingwavelabs/risingwave/pull/13449)
-- `be3d41807165286a4cb236f491f724612e9699a8` [refactor(frontend): separate sys_scan and stream_scan (#13452)](https://github.com/risingwavelabs/risingwave/pull/13452)
-- `ef53d65e640f96e86c8c7ef208d9e5051408986f` [fix(optimizer): skip subquery optimization if no apply (#13460)](https://github.com/risingwavelabs/risingwave/pull/13460)
-- `8bcae118e4c09cd345cfa093f5ca0664c626dfa9` [refactor(risedev): refine error reporting (#13455)](https://github.com/risingwavelabs/risingwave/pull/13455)
-- `fb7fa70f0a351b098b5f341746657acc65ba27cb` [chore: turn off more test targets (#13427)](https://github.com/risingwavelabs/risingwave/pull/13427)
-- `f901182c17018b16039ca315efc8850ea5607692` [fix(test): missing rowsort in udf.slt (#13453)](https://github.com/risingwavelabs/risingwave/pull/13453)
-- `04aca78fcb5b843e82a0e0b0e6928dd5fac3a0c8` [fix: add assertion to check stream executor schema consistency (#13288)](https://github.com/risingwavelabs/risingwave/pull/13288)
-- `4e16834d7ea5df3b8c6d16cc03f0431a34e29fbf` [chore(dependabot): add opentelemetry group (#13303)](https://github.com/risingwavelabs/risingwave/pull/13303)
-
-## nightly-20231115
-- `a62493618c19abe7c6d43ba765aa8c613a25e5e1` [refactor(datagen): generalize `TimestampField` to `ChronoField` (#13439)](https://github.com/risingwavelabs/risingwave/pull/13439)
