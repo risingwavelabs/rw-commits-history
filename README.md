@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a0ff192290dd767d9f8677709c3b218a4fad2773` [chore(deps): Bump cookie and express in /dashboard (#19324)](https://github.com/risingwavelabs/risingwave/pull/19324)
 
 ## nightly-20241113
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98aa20b886a63a58e602cda41c1c161a66a9fc06...1aed314c2d8944da22b6d9c3c4d07c7683c2a98b)
