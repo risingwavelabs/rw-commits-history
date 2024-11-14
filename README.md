@@ -326,6 +326,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `daed1f243da61ad8132f6f14a702dce6936b825d` [feat(iceberg): make wrehouse.path optional for iceberg rest catalog (#19380)](https://github.com/risingwavelabs/risingwave/pull/19380)
+- `c1435dd7bc1f5281bee14a2845e925c9f5e76347` [fix: fix system acl column type to support `\l` command (#19379)](https://github.com/risingwavelabs/risingwave/pull/19379)
+- `fa99969ebbfbd46476455d7dc33a553aa18ab68a` [fix(pg-cdc): write transactional WAL message as heartbeat action (#19385)](https://github.com/risingwavelabs/risingwave/pull/19385)
+- `1a97b4cccf266594477e487c063de76f2a085944` [feat(frontend): support iceberg predicate pushdown (#19228)](https://github.com/risingwavelabs/risingwave/pull/19228)
 - `9aded7178aefb5436009b4cebd5e8f46b59429b2` [refactor(meta): merge drop and cancel streaming job command (#19369)](https://github.com/risingwavelabs/risingwave/pull/19369)
 - `c5c2119901fa0ff17fd56a878293359f770b1f14` [fix(ci): delete unused python install before embedded UDF tests (#19386)](https://github.com/risingwavelabs/risingwave/pull/19386)
 - `a0ff192290dd767d9f8677709c3b218a4fad2773` [chore(deps): Bump cookie and express in /dashboard (#19324)](https://github.com/risingwavelabs/risingwave/pull/19324)
