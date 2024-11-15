@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ac6cb38ec55212d65fa37c59b5687d32ce88b6f4` [fix(streaming): correctly skip problematic table-function input (#19353)](https://github.com/risingwavelabs/risingwave/pull/19353)
+- `c7a4a3943691b2f9b48eddd63741f561a6dcb145` [feat(batch): support system column _rw_timestamp for tables (#19232)](https://github.com/risingwavelabs/risingwave/pull/19232)
 - `310b1c3bc7c0edc1c0ff30f81f4fe282c64c5baf` [chore(deps): Bump governor from 0.6.0 to 0.6.3 (#19186)](https://github.com/risingwavelabs/risingwave/pull/19186)
 - `4d3f6339a53f6977c12be27d529ab0408a24dee5` [chore: split java connector tests (#19382)](https://github.com/risingwavelabs/risingwave/pull/19382)
 - `df07ffbce4a77f7f0a6335acfae99c0b7e7cccf0` [feat(dashboard): show cluster version (#19388)](https://github.com/risingwavelabs/risingwave/pull/19388)
