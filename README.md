@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241115` `f29c971146bc25cc567cedaf6bd4ae7e0228a2bf`
 - `20241114` `c92069481d2aba5a77ffb673b48c7e27b5a698a6`
 - `20241113` `1aed314c2d8944da22b6d9c3c4d07c7683c2a98b`
 - `20241112` `98aa20b886a63a58e602cda41c1c161a66a9fc06`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241115
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c92069481d2aba5a77ffb673b48c7e27b5a698a6...f29c971146bc25cc567cedaf6bd4ae7e0228a2bf)
 - `f29c971146bc25cc567cedaf6bd4ae7e0228a2bf` [feat: return full key in state store get_keyed_row interface (#19345)](https://github.com/risingwavelabs/risingwave/pull/19345)
 - `4085f560d672cbbaa125a0f715a17aa381224a8c` [feat(memory): Separate total memory configurations for FE and Compactor (#19372)](https://github.com/risingwavelabs/risingwave/pull/19372)
 - `ac6cb38ec55212d65fa37c59b5687d32ce88b6f4` [fix(streaming): correctly skip problematic table-function input (#19353)](https://github.com/risingwavelabs/risingwave/pull/19353)
