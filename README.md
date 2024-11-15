@@ -318,7 +318,6 @@
 - `20231120` `5bb97763f566a0b08ec53b8b44a0fcbb05b5947c`
 - `20231119` `b289d384c74afa9fac3c415960b5e013b619b666`
 - `20231117` `a34f46a0ac3d79363e93f11f710dbdf32233e0c6`
-- `20231116` `acb33762b65767539deb0e7b2a9b3c56259ceb5f`
 </details>
 
 # Commit history
@@ -4171,12 +4170,4 @@
 - `b289d384c74afa9fac3c415960b5e013b619b666` [fix: reject duplicate entries in with clause (#13488)](https://github.com/risingwavelabs/risingwave/pull/13488)
 
 ## nightly-20231117
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/acb33762b65767539deb0e7b2a9b3c56259ceb5f...a34f46a0ac3d79363e93f11f710dbdf32233e0c6)
 - `a34f46a0ac3d79363e93f11f710dbdf32233e0c6` [refactor: separate `CdcScan` from `Scan` in `logical` and `core` (#13494)](https://github.com/risingwavelabs/risingwave/pull/13494)
-- `483347725eacbe39a9a60b0817ac145aaf205f80` [chore(deps): Bump itertools from 0.11.0 to 0.12.0 (#13444)](https://github.com/risingwavelabs/risingwave/pull/13444)
-- `7ebab64057673e92b22b149a1d7de536f655cbe1` [feat(optimizer): avoid predicate pushdown for batch queries if unnecessary (#13470)](https://github.com/risingwavelabs/risingwave/pull/13470)
-- `942a526c3a79368072849fa6937b4188871b7882` [feat: allow overwrite stream_rate_control in with clause (#13009)](https://github.com/risingwavelabs/risingwave/pull/13009)
-- `059a84037b157ff4465f862e58a4968003dc2790` [fix(test): fix non deterministic group topn test (#13473)](https://github.com/risingwavelabs/risingwave/pull/13473)
-
-## nightly-20231116
-- `acb33762b65767539deb0e7b2a9b3c56259ceb5f` [chore: Update README.md (#13468)](https://github.com/risingwavelabs/risingwave/pull/13468)
