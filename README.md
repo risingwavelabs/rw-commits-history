@@ -317,7 +317,6 @@
 - `20231121` `4313a5a8fe3a11a0edaa3ff8f4fdb639123be618`
 - `20231120` `5bb97763f566a0b08ec53b8b44a0fcbb05b5947c`
 - `20231119` `b289d384c74afa9fac3c415960b5e013b619b666`
-- `20231117` `a34f46a0ac3d79363e93f11f710dbdf32233e0c6`
 </details>
 
 # Commit history
@@ -4166,8 +4165,4 @@
 - `47c53a15ffc753c0feb3ae55a29776e3d1d3974f` [feat(expr): add local make_timestamptz() (#13456)](https://github.com/risingwavelabs/risingwave/pull/13456)
 
 ## nightly-20231119
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a34f46a0ac3d79363e93f11f710dbdf32233e0c6...b289d384c74afa9fac3c415960b5e013b619b666)
 - `b289d384c74afa9fac3c415960b5e013b619b666` [fix: reject duplicate entries in with clause (#13488)](https://github.com/risingwavelabs/risingwave/pull/13488)
-
-## nightly-20231117
-- `a34f46a0ac3d79363e93f11f710dbdf32233e0c6` [refactor: separate `CdcScan` from `Scan` in `logical` and `core` (#13494)](https://github.com/risingwavelabs/risingwave/pull/13494)
