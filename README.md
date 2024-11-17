@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `94154c03ff7d80076b9e4e10da416ce85a620ab4` [refactor(udf): remove `function_type` field previously used by Deno UDF (#19404)](https://github.com/risingwavelabs/risingwave/pull/19404)
 
 ## nightly-20241117
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f29c971146bc25cc567cedaf6bd4ae7e0228a2bf...0519b3fdd5ab0b94d39ee6989050272e6f3e5c78)
