@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241117` `0519b3fdd5ab0b94d39ee6989050272e6f3e5c78`
 - `20241116` `f29c971146bc25cc567cedaf6bd4ae7e0228a2bf`
 - `20241114` `c92069481d2aba5a77ffb673b48c7e27b5a698a6`
 - `20241113` `1aed314c2d8944da22b6d9c3c4d07c7683c2a98b`
@@ -325,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241117
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f29c971146bc25cc567cedaf6bd4ae7e0228a2bf...0519b3fdd5ab0b94d39ee6989050272e6f3e5c78)
 - `0519b3fdd5ab0b94d39ee6989050272e6f3e5c78` [chore: bump java dependencies (#19208)](https://github.com/risingwavelabs/risingwave/pull/19208)
 - `7a9679bb310b06d6c9b9be8b779ed4c01ef53898` [feat(frontend): support xml, yaml format in explain output (#19400)](https://github.com/risingwavelabs/risingwave/pull/19400)
 
