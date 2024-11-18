@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7ba6650c926b80c8f50f52837e33fa8f76373329` [feat(batch): support extended declare query cursor (#19043)](https://github.com/risingwavelabs/risingwave/pull/19043)
 - `f5537d955f102e382da5456a44911519c978ade6` [refactor: remove unexpected memory watermark update (#19366)](https://github.com/risingwavelabs/risingwave/pull/19366)
 - `7a50fec7bc0b1a743da1c829d958c046edcfbd59` [test: add more planner tests for explain xml, json, yaml (#19430)](https://github.com/risingwavelabs/risingwave/pull/19430)
 
