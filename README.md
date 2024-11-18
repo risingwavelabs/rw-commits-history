@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `084fff883b2c2470754c2745b14afaa6500e6c46` [feat(batch): use get_keyed_row to implement point get for _rw_timestamp (#19415)](https://github.com/risingwavelabs/risingwave/pull/19415)
+- `a4d96ec2edf7d05fa25fb567ff463b6045fc389f` [chore: enable dependabot for java (#19212)](https://github.com/risingwavelabs/risingwave/pull/19212)
 - `ca54fff9b8a18f953a3b570d6688166c24c12cad` [test: vnode count chaos test in e2e madsim (#19250)](https://github.com/risingwavelabs/risingwave/pull/19250)
 - `9ab21987eb25c9afee660180d08137481d458b9e` [fix: approximately update table stats for vnode watermark reclaim (#19370)](https://github.com/risingwavelabs/risingwave/pull/19370)
 - `43730aa0734f54aef96888af03c60fe72c9ca2dd` [fix(direct-cdc): improve type match for pg-cdc (#19409)](https://github.com/risingwavelabs/risingwave/pull/19409)
