@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241118` `0b223b4c2f569e749413620287d1655410041d06`
 - `20241117` `0519b3fdd5ab0b94d39ee6989050272e6f3e5c78`
 - `20241116` `f29c971146bc25cc567cedaf6bd4ae7e0228a2bf`
 - `20241114` `c92069481d2aba5a77ffb673b48c7e27b5a698a6`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241118
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0519b3fdd5ab0b94d39ee6989050272e6f3e5c78...0b223b4c2f569e749413620287d1655410041d06)
 - `0b223b4c2f569e749413620287d1655410041d06` [fix(test): incorrect flaky madsim initial sink parallelism (#19419)](https://github.com/risingwavelabs/risingwave/pull/19419)
 - `d2c64465386e19d777952f53677d64816a7de6bb` [chore(deps): Bump sqllogictest from 0.22.0 to 0.23.0 (#19417)](https://github.com/risingwavelabs/risingwave/pull/19417)
 - `88f9efa58c1366dbce901749c53febf583f0c0b1` [fix(starrocks): fix starrocks coordinator incorrect try_join_all on join handle (#19412)](https://github.com/risingwavelabs/risingwave/pull/19412)
