@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `88f9efa58c1366dbce901749c53febf583f0c0b1` [fix(starrocks): fix starrocks coordinator incorrect try_join_all on join handle (#19412)](https://github.com/risingwavelabs/risingwave/pull/19412)
 - `084fff883b2c2470754c2745b14afaa6500e6c46` [feat(batch): use get_keyed_row to implement point get for _rw_timestamp (#19415)](https://github.com/risingwavelabs/risingwave/pull/19415)
 - `a4d96ec2edf7d05fa25fb567ff463b6045fc389f` [chore: enable dependabot for java (#19212)](https://github.com/risingwavelabs/risingwave/pull/19212)
 - `ca54fff9b8a18f953a3b570d6688166c24c12cad` [test: vnode count chaos test in e2e madsim (#19250)](https://github.com/risingwavelabs/risingwave/pull/19250)
