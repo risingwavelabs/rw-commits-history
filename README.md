@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0b223b4c2f569e749413620287d1655410041d06` [fix(test): incorrect flaky madsim initial sink parallelism (#19419)](https://github.com/risingwavelabs/risingwave/pull/19419)
 - `d2c64465386e19d777952f53677d64816a7de6bb` [chore(deps): Bump sqllogictest from 0.22.0 to 0.23.0 (#19417)](https://github.com/risingwavelabs/risingwave/pull/19417)
 - `88f9efa58c1366dbce901749c53febf583f0c0b1` [fix(starrocks): fix starrocks coordinator incorrect try_join_all on join handle (#19412)](https://github.com/risingwavelabs/risingwave/pull/19412)
 - `084fff883b2c2470754c2745b14afaa6500e6c46` [feat(batch): use get_keyed_row to implement point get for _rw_timestamp (#19415)](https://github.com/risingwavelabs/risingwave/pull/19415)
