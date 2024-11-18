@@ -318,7 +318,6 @@
 - `20231122` `b3eecb3d97471e14b578d2441e6cf8227ac372aa`
 - `20231121` `4313a5a8fe3a11a0edaa3ff8f4fdb639123be618`
 - `20231120` `5bb97763f566a0b08ec53b8b44a0fcbb05b5947c`
-- `20231119` `b289d384c74afa9fac3c415960b5e013b619b666`
 </details>
 
 # Commit history
@@ -327,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f5537d955f102e382da5456a44911519c978ade6` [refactor: remove unexpected memory watermark update (#19366)](https://github.com/risingwavelabs/risingwave/pull/19366)
+- `7a50fec7bc0b1a743da1c829d958c046edcfbd59` [test: add more planner tests for explain xml, json, yaml (#19430)](https://github.com/risingwavelabs/risingwave/pull/19430)
 
 ## nightly-20241118
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0519b3fdd5ab0b94d39ee6989050272e6f3e5c78...0b223b4c2f569e749413620287d1655410041d06)
@@ -4164,24 +4165,4 @@
 - `a22e20c5f0a8ec5d9b824bf489206b0945a2b05e` [refactor(proto): use separate proto for cdc scan (#13502)](https://github.com/risingwavelabs/risingwave/pull/13502)
 
 ## nightly-20231120
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b289d384c74afa9fac3c415960b5e013b619b666...5bb97763f566a0b08ec53b8b44a0fcbb05b5947c)
 - `5bb97763f566a0b08ec53b8b44a0fcbb05b5947c` [chore(frontend): system_catalog support compaction status (#13051)](https://github.com/risingwavelabs/risingwave/pull/13051)
-- `7c514c58fe2ea2966ee40f0238550b3b3b096318` [feat(dashboard): support specifying additional selector in PromQL (#13518)](https://github.com/risingwavelabs/risingwave/pull/13518)
-- `48747e8d8f467c5608950ecfc37b2ac8bd53a318` [test: add `kafka-cdc-sink` integration test to the integration test workflow (#13520)](https://github.com/risingwavelabs/risingwave/pull/13520)
-- `bcf75793fa7ee14a9f8dad8b1c088ff7ff03974a` [refactor(frontend): send notice to users everywhere (#13472)](https://github.com/risingwavelabs/risingwave/pull/13472)
-- `da920878f02f9ba63f08c8a81b0365212cb7460b` [fix(storage): avoid select unexpected sub level count (#13054)](https://github.com/risingwavelabs/risingwave/pull/13054)
-- `16e4d2ab1a98f79fb8825cdf7231731ad789918d` [chore: split with_options.yaml to source and sink (#13500)](https://github.com/risingwavelabs/risingwave/pull/13500)
-- `5a9d1193b57ba9bc5ba8fa2da94c78a17efa73ff` [chore(deps): switch `apache_avro` fork from merge to rebase (#13508)](https://github.com/risingwavelabs/risingwave/pull/13508)
-- `0c35dc7b229b12f55740687d7950e503845720c9` [refactor(rw_catalog): make rw_worker_nodes list all nodes and resource (#13487)](https://github.com/risingwavelabs/risingwave/pull/13487)
-- `6d88344c286f250ea8a7e7ef6b9d74dea838269e` [ci: opt-in steps with build.env rather than pr labels (#13464)](https://github.com/risingwavelabs/risingwave/pull/13464)
-- `2e13b1e681340ec3148c84c0290dd1c3ba50cbbe` [refactor(storage): use easy_ext for HummockVersionExt (#13507)](https://github.com/risingwavelabs/risingwave/pull/13507)
-- `aed05eba38bda72ec6463f7e69f8607e3a09a6d4` [feat(storage): implement hummock iterator for btreemap (#13304)](https://github.com/risingwavelabs/risingwave/pull/13304)
-- `4972ccd19ca890de3e8c31d25264d416870de895` [fix(telemetry): fix memory stats (#13482)](https://github.com/risingwavelabs/risingwave/pull/13482)
-- `88ddc29a08b33b79808dc1f597aeb6fa4afe269a` [chore: version update and typo fixes in readme (#13485)](https://github.com/risingwavelabs/risingwave/pull/13485)
-- `ece7f2d7c74a750b7d60ed0ddc21582c3e2acf58` [chore(deps): Bump arrow-array from 48.0.0 to 49.0.0 (#13445)](https://github.com/risingwavelabs/risingwave/pull/13445)
-- `4fa7645c2a502cde49fc24c9f5305bb0089bbbae` [fix: incorrect auto dump threshold (#13495)](https://github.com/risingwavelabs/risingwave/pull/13495)
-- `d552b5a2278e0a1bc3cbf2675500113af07fcfb8` [fix(meta): use only `StreamTableScan` actors on recovery to track progress (#13498)](https://github.com/risingwavelabs/risingwave/pull/13498)
-- `47c53a15ffc753c0feb3ae55a29776e3d1d3974f` [feat(expr): add local make_timestamptz() (#13456)](https://github.com/risingwavelabs/risingwave/pull/13456)
-
-## nightly-20231119
-- `b289d384c74afa9fac3c415960b5e013b619b666` [fix: reject duplicate entries in with clause (#13488)](https://github.com/risingwavelabs/risingwave/pull/13488)
