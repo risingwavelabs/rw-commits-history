@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a54a04507b4d6f300f15d8dd36519257b6e4ce1c` [feat: Remove cycle check for `sink into table`  in frontend (#19442)](https://github.com/risingwavelabs/risingwave/pull/19442)
 
 ## nightly-20241119
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0b223b4c2f569e749413620287d1655410041d06...72e5ad3e0672687439c8a33688c7acc6ded540fa)
