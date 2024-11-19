@@ -326,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `72e5ad3e0672687439c8a33688c7acc6ded540fa` [refactor(connector): extract the common logic of file_scan tvf and parquet source (#19398)](https://github.com/risingwavelabs/risingwave/pull/19398)
+- `a05cf34aea19fb407b6c3ad0b5faeb450c7cf233` [fix: alter FS source rate_limit is not handled correctly (#19438)](https://github.com/risingwavelabs/risingwave/pull/19438)
+- `f89ae893522c3211dbda0eaefcff3dec21b6dec8` [feat(optimizer): allow returning error if a rule fails unrecoverably (#19381)](https://github.com/risingwavelabs/risingwave/pull/19381)
 - `9e27e6270c36bda30d61257f84ddc9a939ee51a1` [fix: request for topic spec metadata to narrow privilege required (#19421)](https://github.com/risingwavelabs/risingwave/pull/19421)
 - `8f552d859af9f6993354fd1b04b74c15baa32c4a` [refactor: allow modification of the query mode (#19424)](https://github.com/risingwavelabs/risingwave/pull/19424)
 - `e26292b558584b4a66614625e5c60ef294cdee34` [feat(pgwire): support 1-dimension array in extended mode (#19432)](https://github.com/risingwavelabs/risingwave/pull/19432)
@@ -3265,7 +3268,6 @@
 - `20fc87999a65c831e24006fff893604589e49547` [feat(grafana): improve actor info & source throughput panels (#14870)](https://github.com/risingwavelabs/risingwave/pull/14870)
 - `32762399011b9ce332285e355899d0ede3b2c55f` [feat: support scaling in sql backend (#14757)](https://github.com/risingwavelabs/risingwave/pull/14757)
 - `6acb999a32f22881bc22c74f6162256f43232eb6` [chore: update cherry pick version to release-1.7 (#14912)](https://github.com/risingwavelabs/risingwave/pull/14912)
-- `73907050ca15dd1c98f6a342f793f6d96ada29cc` [refactor: replace ctor by linkme (#14814)](https://github.com/risingwavelabs/risingwave/pull/14814)
 - `73907050ca15dd1c98f6a342f793f6d96ada29cc` [refactor: replace ctor by linkme (#14814)](https://github.com/risingwavelabs/risingwave/pull/14814)
 - `82d12773b924153bfc4c747e91791af939edbf02` [feat(expr): add support for make_date/time/timestamp (#14827)](https://github.com/risingwavelabs/risingwave/pull/14827)
 - `9c874fe91c6f1b6c8301a94667e8c185337a2dc5` [chore: enable transactional cdc for mysql and postgres by default (#14899)](https://github.com/risingwavelabs/risingwave/pull/14899)
