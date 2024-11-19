@@ -318,7 +318,6 @@
 - `20231123` `9ae870545193e9738dcb1f3376849be124f9dd64`
 - `20231122` `b3eecb3d97471e14b578d2441e6cf8227ac372aa`
 - `20231121` `4313a5a8fe3a11a0edaa3ff8f4fdb639123be618`
-- `20231120` `5bb97763f566a0b08ec53b8b44a0fcbb05b5947c`
 </details>
 
 # Commit history
@@ -4154,27 +4153,4 @@
 - `8172cb7075848ecbbde3794f9aab898f7ae5dd75` [fix(batch): fix batch range scan for nulls with consideration for `NULLS FIRST|LAST` (#13567)](https://github.com/risingwavelabs/risingwave/pull/13567)
 
 ## nightly-20231121
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5bb97763f566a0b08ec53b8b44a0fcbb05b5947c...4313a5a8fe3a11a0edaa3ff8f4fdb639123be618)
 - `4313a5a8fe3a11a0edaa3ff8f4fdb639123be618` [feat: support `ALTER [TABLE | [MATERIALIZED] VIEW | SOURCE | SINK | CONNECTION | FUNCTION] <name> SET SCHEMA <schema_name>` syntax (#13341)](https://github.com/risingwavelabs/risingwave/pull/13341)
-- `7717887552f881b86faea2c33089476d0ba14048` [test(connector): add mysql cdc compatible test (#13546)](https://github.com/risingwavelabs/risingwave/pull/13546)
-- `de2a8b0f20e83924d16c89e68273a758d3217811` [chore(risedev): vaildate java 21 for connector node (#13556)](https://github.com/risingwavelabs/risingwave/pull/13556)
-- `2da2dedce1d6a77cbeed30a645f3ea517c4edef4` [feat: support alter owner in catalog controller (#13424)](https://github.com/risingwavelabs/risingwave/pull/13424)
-- `343fd347c49a9bdf3ea6db21fadf29c9b6fde629` [fix: add rolconnlimit column in pg_roles, add pg_auth_members to support \du (#13540)](https://github.com/risingwavelabs/risingwave/pull/13540)
-- `9aaa5188ec507f902c4499597b9f9250f9de9579` [chore: rename source metrics with prefix `source_` (#13550)](https://github.com/risingwavelabs/risingwave/pull/13550)
-- `db18a7e548d1b9d2dec5dcf2a2fe5468fd8a7615` [fix: timeout in split stream test (#13548)](https://github.com/risingwavelabs/risingwave/pull/13548)
-- `2133b82c09d8c23643561fc5cc87f24b2147bad9` [fix: source_status_is_up still reporting after `Drop Source` (#13492)](https://github.com/risingwavelabs/risingwave/pull/13492)
-- `0b98b570c311f8e9f07574de9385edf3477e86e2` [fix(optimizer): fix multi scalar subqueried correlated id (#13544)](https://github.com/risingwavelabs/risingwave/pull/13544)
-- `c89c99c3d40c6dc044d271a6a1573b089b24df39` [feat(dashboard): update RisingWave logo (#13537)](https://github.com/risingwavelabs/risingwave/pull/13537)
-- `ed957e6152bc754d165d32a874d30ae93959f538` [fix(source): make _rw_key not hidden column (#13521)](https://github.com/risingwavelabs/risingwave/pull/13521)
-- `72b407b148a5c18c072e1e259832bb59f4614819` [refactor(storage): add options for seal_current_epoch (#13532)](https://github.com/risingwavelabs/risingwave/pull/13532)
-- `4e1e9d8366819c42b7a6ca5c7abf677dec17e19e` [refactor(meta): merge commit_epoch parameter to a struct (#13533)](https://github.com/risingwavelabs/risingwave/pull/13533)
-- `d006277e490bd86f0360743f4f78e3ee876d2047` [feat(dashboard): add a new panel: views (#13526)](https://github.com/risingwavelabs/risingwave/pull/13526)
-- `b7206095f51b8900f27f1099458deb8ec7839192` [fix(source): workaround avro `date` default (#13530)](https://github.com/risingwavelabs/risingwave/pull/13530)
-- `35070065d5862fee6326c16d8d7e82f889e2d079` [chore(deps): Bump uuid from 1.5.0 to 1.6.1 (#13531)](https://github.com/risingwavelabs/risingwave/pull/13531)
-- `8e5477a3865e2e4278d53845720703d19d458176` [chore(deps): Bump apache-avro to 0.16.0 (#13523)](https://github.com/risingwavelabs/risingwave/pull/13523)
-- `a126c05baf4a7d23ab5f3587adb80ade05529d6a` [fix(batch): fix batch range scan for null (#13524)](https://github.com/risingwavelabs/risingwave/pull/13524)
-- `370c5f3fc5eb3a12edaf9643744cc0a89af8812d` [chore: add a diagram to README.md (#13527)](https://github.com/risingwavelabs/risingwave/pull/13527)
-- `a22e20c5f0a8ec5d9b824bf489206b0945a2b05e` [refactor(proto): use separate proto for cdc scan (#13502)](https://github.com/risingwavelabs/risingwave/pull/13502)
-
-## nightly-20231120
-- `5bb97763f566a0b08ec53b8b44a0fcbb05b5947c` [chore(frontend): system_catalog support compaction status (#13051)](https://github.com/risingwavelabs/risingwave/pull/13051)
