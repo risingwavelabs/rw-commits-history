@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241119` `72e5ad3e0672687439c8a33688c7acc6ded540fa`
 - `20241118` `0b223b4c2f569e749413620287d1655410041d06`
 - `20241117` `0519b3fdd5ab0b94d39ee6989050272e6f3e5c78`
 - `20241116` `f29c971146bc25cc567cedaf6bd4ae7e0228a2bf`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241119
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0b223b4c2f569e749413620287d1655410041d06...72e5ad3e0672687439c8a33688c7acc6ded540fa)
 - `72e5ad3e0672687439c8a33688c7acc6ded540fa` [refactor(connector): extract the common logic of file_scan tvf and parquet source (#19398)](https://github.com/risingwavelabs/risingwave/pull/19398)
 - `a05cf34aea19fb407b6c3ad0b5faeb450c7cf233` [fix: alter FS source rate_limit is not handled correctly (#19438)](https://github.com/risingwavelabs/risingwave/pull/19438)
 - `f89ae893522c3211dbda0eaefcff3dec21b6dec8` [feat(optimizer): allow returning error if a rule fails unrecoverably (#19381)](https://github.com/risingwavelabs/risingwave/pull/19381)
