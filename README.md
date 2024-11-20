@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b37f048e33722fc922d8bd3adce6c45fdeae42af` [fix: Ensure non-negative variance in stddev calculations  (#19448)](https://github.com/risingwavelabs/risingwave/pull/19448)
+- `185243618b23fea634237a70a438e3c3c7da7e2d` [chore: more logs for offline scaling (#19407)](https://github.com/risingwavelabs/risingwave/pull/19407)
 - `c325f42060679bff0dfde4aa5bd63529311d1128` [fix(optimizer): enforce input of `BatchMaxOneRow` to be singleton (#19452)](https://github.com/risingwavelabs/risingwave/pull/19452)
 - `5b224fab428f33e41146e7df157b863402ce607c` [chore(deps): Bump async-nats from 0.37.0 to 0.38.0 (#19465)](https://github.com/risingwavelabs/risingwave/pull/19465)
 - `5b9cf248a15ce1af4381809d0a3bdc464c4d3d31` [fix(meta): remove custom serde (#19463)](https://github.com/risingwavelabs/risingwave/pull/19463)
