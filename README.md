@@ -326,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b9c3f709cc927682738ffc6fee1528be04012cd6` [fix: fix potential data loss for shared source (#19443)](https://github.com/risingwavelabs/risingwave/pull/19443)
+- `34bb3cb0a19edddd629a9a9eadc3ed7f57256dd3` [fix(iceberg): fix iceberg parquet file size in bytes statistics (#19471)](https://github.com/risingwavelabs/risingwave/pull/19471)
+- `a0b65fd618483e38ed351a4d691639ce65c8fa6c` [feat(pgwire): support struct type in extended mode (#19450)](https://github.com/risingwavelabs/risingwave/pull/19450)
 - `c1e8f9a2d177d8a9c9733e06f1c9ce77517582d3` [fix(source): `REFRESH SCHEMA` shall keep `INCLUDE` pk for `UPSERT` (#19384)](https://github.com/risingwavelabs/risingwave/pull/19384)
 - `5f1a59b000b92a2c81163c520564827a0a798ff5` [refactor(frontend): rework `UPDATE` to support subqueries (#19402)](https://github.com/risingwavelabs/risingwave/pull/19402)
 - `c1162ab701d3df0b8a0a3f0bc8564508b0090330` [test: fix test cases of `batch/types` (#19441)](https://github.com/risingwavelabs/risingwave/pull/19441)
@@ -3268,7 +3271,6 @@
 - `ded73afefa465108d3a2baf559ec8380e4b4eda5` [fix(batch): fix sequential exchange (#14924)](https://github.com/risingwavelabs/risingwave/pull/14924)
 - `6b3a3193b673dc24508eccaa0f8054db6fb716ab` [feat(telemetry): add `streaming_job_count` to meta telemetry report (#14878)](https://github.com/risingwavelabs/risingwave/pull/14878)
 - `f621acb7af95db48780f0f7e6438c1a8315cdb24` [fix: using `alter source add column` on a table with conn will panic (#14922)](https://github.com/risingwavelabs/risingwave/pull/14922)
-- `822190b1f3ca253b7eca31a2a9c47eda1d8f8827` [chore: update icelake (#14920)](https://github.com/risingwavelabs/risingwave/pull/14920)
 - `822190b1f3ca253b7eca31a2a9c47eda1d8f8827` [chore: update icelake (#14920)](https://github.com/risingwavelabs/risingwave/pull/14920)
 - `b43a7b9e0d960f6a255c6559d2b0239cf49203d1` [feat: merge config for auto scale & enable auto scale  (#14873)](https://github.com/risingwavelabs/risingwave/pull/14873)
 - `096570d106ee275244e2de3ff7df4a8705db6832` [refactor(connector): avoid anyhow in `AccessError` and avoid using `RwError` if possible (#14874)](https://github.com/risingwavelabs/risingwave/pull/14874)
