@@ -327,6 +327,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3fdd6a5cc0c0789118ab726cbb776bfefb41a557` [feat: add rw_rate_limit system catalog (#19466)](https://github.com/risingwavelabs/risingwave/pull/19466)
 
 ## nightly-20241120
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72e5ad3e0672687439c8a33688c7acc6ded540fa...fe69ce3093b33e16e8f1682eddeac28789190764)
