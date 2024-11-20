@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fe69ce3093b33e16e8f1682eddeac28789190764` [feat: support backfill_rate_limit for source backfill (#19445)](https://github.com/risingwavelabs/risingwave/pull/19445)
 - `b9c3f709cc927682738ffc6fee1528be04012cd6` [fix: fix potential data loss for shared source (#19443)](https://github.com/risingwavelabs/risingwave/pull/19443)
 - `34bb3cb0a19edddd629a9a9eadc3ed7f57256dd3` [fix(iceberg): fix iceberg parquet file size in bytes statistics (#19471)](https://github.com/risingwavelabs/risingwave/pull/19471)
 - `a0b65fd618483e38ed351a4d691639ce65c8fa6c` [feat(pgwire): support struct type in extended mode (#19450)](https://github.com/risingwavelabs/risingwave/pull/19450)
