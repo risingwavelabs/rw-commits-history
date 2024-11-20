@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c325f42060679bff0dfde4aa5bd63529311d1128` [fix(optimizer): enforce input of `BatchMaxOneRow` to be singleton (#19452)](https://github.com/risingwavelabs/risingwave/pull/19452)
 - `5b224fab428f33e41146e7df157b863402ce607c` [chore(deps): Bump async-nats from 0.37.0 to 0.38.0 (#19465)](https://github.com/risingwavelabs/risingwave/pull/19465)
 - `5b9cf248a15ce1af4381809d0a3bdc464c4d3d31` [fix(meta): remove custom serde (#19463)](https://github.com/risingwavelabs/risingwave/pull/19463)
 - `1c29c810748296f65db0b3c7a03ab221f6312a3a` [fix(iceberg): Bump Icelake version to fix null metadata_log (#19397)](https://github.com/risingwavelabs/risingwave/pull/19397)
