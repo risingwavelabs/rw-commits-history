@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241120` `fe69ce3093b33e16e8f1682eddeac28789190764`
 - `20241119` `72e5ad3e0672687439c8a33688c7acc6ded540fa`
 - `20241118` `0b223b4c2f569e749413620287d1655410041d06`
 - `20241117` `0519b3fdd5ab0b94d39ee6989050272e6f3e5c78`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241120
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72e5ad3e0672687439c8a33688c7acc6ded540fa...fe69ce3093b33e16e8f1682eddeac28789190764)
 - `fe69ce3093b33e16e8f1682eddeac28789190764` [feat: support backfill_rate_limit for source backfill (#19445)](https://github.com/risingwavelabs/risingwave/pull/19445)
 - `b9c3f709cc927682738ffc6fee1528be04012cd6` [fix: fix potential data loss for shared source (#19443)](https://github.com/risingwavelabs/risingwave/pull/19443)
 - `34bb3cb0a19edddd629a9a9eadc3ed7f57256dd3` [fix(iceberg): fix iceberg parquet file size in bytes statistics (#19471)](https://github.com/risingwavelabs/risingwave/pull/19471)
