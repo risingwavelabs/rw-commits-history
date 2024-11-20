@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c1162ab701d3df0b8a0a3f0bc8564508b0090330` [test: fix test cases of `batch/types` (#19441)](https://github.com/risingwavelabs/risingwave/pull/19441)
+- `c8e96b9634dc38bcd5bbea74e23aa7ef1974922c` [refactor(barrier): decouple barrier collect and sync in local barrier manager (#19393)](https://github.com/risingwavelabs/risingwave/pull/19393)
 - `b37f048e33722fc922d8bd3adce6c45fdeae42af` [fix: Ensure non-negative variance in stddev calculations  (#19448)](https://github.com/risingwavelabs/risingwave/pull/19448)
 - `185243618b23fea634237a70a438e3c3c7da7e2d` [chore: more logs for offline scaling (#19407)](https://github.com/risingwavelabs/risingwave/pull/19407)
 - `c325f42060679bff0dfde4aa5bd63529311d1128` [fix(optimizer): enforce input of `BatchMaxOneRow` to be singleton (#19452)](https://github.com/risingwavelabs/risingwave/pull/19452)
