@@ -318,7 +318,6 @@
 - `20231124` `2348a2bdcadfd682f13503a057f251b989e4ef5d`
 - `20231123` `9ae870545193e9738dcb1f3376849be124f9dd64`
 - `20231122` `b3eecb3d97471e14b578d2441e6cf8227ac372aa`
-- `20231121` `4313a5a8fe3a11a0edaa3ff8f4fdb639123be618`
 </details>
 
 # Commit history
@@ -4151,26 +4150,4 @@
 - `b3866b7992e66845032b6f5e805757d337bf4c7a` [feat(optimizer): support expr visitable for plan node (#13587)](https://github.com/risingwavelabs/risingwave/pull/13587)
 
 ## nightly-20231122
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4313a5a8fe3a11a0edaa3ff8f4fdb639123be618...b3eecb3d97471e14b578d2441e6cf8227ac372aa)
 - `b3eecb3d97471e14b578d2441e6cf8227ac372aa` [chore: Make batch mpp task num metrics more accurate. (#13589)](https://github.com/risingwavelabs/risingwave/pull/13589)
-- `32717b452c8a7cc718b1f04c8e803b64725fc4dd` [chore(connector): remove unnecessary Serialize for connector config (#13514)](https://github.com/risingwavelabs/risingwave/pull/13514)
-- `11011b144e60acc6727c9274a3c7f25588040162` [refactor(optimizer): make ExprVisitor  an object safe trait. (#13512)](https://github.com/risingwavelabs/risingwave/pull/13512)
-- `e612ef602672deb3f3b2b3a46f93d90c43bd06b9` [refactor(connector): use AwsAuthProps instead of HashMap in config (#13513)](https://github.com/risingwavelabs/risingwave/pull/13513)
-- `f43d2f150fb951b10902179f51851ba5257d3d9c` [chore(deps): Bump fs-err from 2.10.0 to 2.11.0 (#13575)](https://github.com/risingwavelabs/risingwave/pull/13575)
-- `0db8c014be004493a01a595ec08fcd93f34b12fe` [test(connector): add mysql cdc datetime type test (#13583)](https://github.com/risingwavelabs/risingwave/pull/13583)
-- `8e88b8d774df86b2ed95d3d6757e0044fc062d36` [fix(batch): fix join executor nullify build side function (#13581)](https://github.com/risingwavelabs/risingwave/pull/13581)
-- `545b89d046b7915881a714cab4b3c7134d3ebc92` [fix(optimizer): forbid correlated input ref predicate push down through share (#13569)](https://github.com/risingwavelabs/risingwave/pull/13569)
-- `9e1a14775812a5af896a4d7cdcd30b98155b7973` [chore: lint & fmt fix with latest nightly (#13580)](https://github.com/risingwavelabs/risingwave/pull/13580)
-- `ac0bb2343af31c59aae00d7a3abdfe3da00d9c10` [fix(stream agg): fix agg backwards compatibility issue introduced by #13376 (#13571)](https://github.com/risingwavelabs/risingwave/pull/13571)
-- `baf1f92be5f2a4f0504b0889fad7e63fc2dc18b7` [feat: use risectl to throttle `Source` and `Chain` by changing `FlowControl` params via config change (#13166)](https://github.com/risingwavelabs/risingwave/pull/13166)
-- `273de7b974a9c4e1d49ad3fce297e91327547521` [chore(test): add more null range scan test (#13566)](https://github.com/risingwavelabs/risingwave/pull/13566)
-- `8deba24a650f0f4e80188405e055154861def367` [test: add `cassandra-and-scylladb-sink` integration test to the integration test workflow (#13577)](https://github.com/risingwavelabs/risingwave/pull/13577)
-- `710a01eced6dd4e2319b6b526b5b8316e1d1d204` [refactor(common): use `ColumnDesc::named` when possible (#13574)](https://github.com/risingwavelabs/risingwave/pull/13574)
-- `dd3b5c6354926e14523f6dcfe8b57c0de4d48b1e` [chore(ci): fix workflow: auto-create-doc-issue-by-issue (#13504)](https://github.com/risingwavelabs/risingwave/pull/13504)
-- `ec9d8ea35863fd0595c75678a5855b82be5b04af` [fix(Sink): add `name` field and change `date` representation to Epoch in debezium json (#13496)](https://github.com/risingwavelabs/risingwave/pull/13496)
-- `b1e525a35ed9b2b87defd5e6d2e196fc7440aa79` [refactor(error): eliminate `RwError` usages in `batch` (#13557)](https://github.com/risingwavelabs/risingwave/pull/13557)
-- `16e3212e36d97c1c082e83c75749defdc01a9f1a` [feat: expose resource info in cluster controller (#13565)](https://github.com/risingwavelabs/risingwave/pull/13565)
-- `8172cb7075848ecbbde3794f9aab898f7ae5dd75` [fix(batch): fix batch range scan for nulls with consideration for `NULLS FIRST|LAST` (#13567)](https://github.com/risingwavelabs/risingwave/pull/13567)
-
-## nightly-20231121
-- `4313a5a8fe3a11a0edaa3ff8f4fdb639123be618` [feat: support `ALTER [TABLE | [MATERIALIZED] VIEW | SOURCE | SINK | CONNECTION | FUNCTION] <name> SET SCHEMA <schema_name>` syntax (#13341)](https://github.com/risingwavelabs/risingwave/pull/13341)
