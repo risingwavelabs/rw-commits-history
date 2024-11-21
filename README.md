@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bd61bc6e1795b703ca5a45473161804f77955ffe` [chore: add telemetry reminder if meeting `type/feature` (#19359)](https://github.com/risingwavelabs/risingwave/pull/19359)
+- `bae490aab2ae895b4a76d1d2a7c5b0cc63169e99` [refactor(meta): use correct type for the pb counterpart (#19500)](https://github.com/risingwavelabs/risingwave/pull/19500)
 - `ea3e90932f8b8f523f183140ed878e69971e462e` [feat(streaming): decouple memory manager tick interval with barrier (#19494)](https://github.com/risingwavelabs/risingwave/pull/19494)
 - `1eb4ce04d47e4332d1f0c098306790b9ef2d0e8a` [feat(expr): add rw_epoch_to_ts (#19473)](https://github.com/risingwavelabs/risingwave/pull/19473)
 - `ad1d929a3298a4825c548117db4b48e425005de1` [refactor(meta): proactively GC more stale objects. (#19474)](https://github.com/risingwavelabs/risingwave/pull/19474)
