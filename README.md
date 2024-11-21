@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241121` `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f`
 - `20241120` `fe69ce3093b33e16e8f1682eddeac28789190764`
 - `20241119` `72e5ad3e0672687439c8a33688c7acc6ded540fa`
 - `20241118` `0b223b4c2f569e749413620287d1655410041d06`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241121
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fe69ce3093b33e16e8f1682eddeac28789190764...cfa521dcccfdb2763da050ed6a7f79cb39f63f9f)
 - `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f` [test: re-enable backwards compat tests (#19521)](https://github.com/risingwavelabs/risingwave/pull/19521)
 - `e544337a477234656f7c580ddb20f40a5c44ecf8` [feat(iceberg): support rest authentication (#19406)](https://github.com/risingwavelabs/risingwave/pull/19406)
 - `a771dab7465202acd7dab99f5de441a71a82eecd` [feat(frontend): output explain result as graphviz dot format (#19446)](https://github.com/risingwavelabs/risingwave/pull/19446)
