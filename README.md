@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a771dab7465202acd7dab99f5de441a71a82eecd` [feat(frontend): output explain result as graphviz dot format (#19446)](https://github.com/risingwavelabs/risingwave/pull/19446)
 - `075c90d7e3b2953283e188bd636b0ea05b268314` [refactor: rename dummy table id to tmp table id (#19509)](https://github.com/risingwavelabs/risingwave/pull/19509)
 - `f00385991226042ace31eff9bf7bc3ba6d3a0366` [fix(compactor): Fix an unexpected termination of shared compactor (#19505)](https://github.com/risingwavelabs/risingwave/pull/19505)
 - `ca38177324864c9f82372189ef8265d30e7b9aec` [perf(topn): compact the (Group)TopN output to avoid amplification (#19451)](https://github.com/risingwavelabs/risingwave/pull/19451)
