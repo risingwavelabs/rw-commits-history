@@ -326,6 +326,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `075c90d7e3b2953283e188bd636b0ea05b268314` [refactor: rename dummy table id to tmp table id (#19509)](https://github.com/risingwavelabs/risingwave/pull/19509)
+- `f00385991226042ace31eff9bf7bc3ba6d3a0366` [fix(compactor): Fix an unexpected termination of shared compactor (#19505)](https://github.com/risingwavelabs/risingwave/pull/19505)
+- `ca38177324864c9f82372189ef8265d30e7b9aec` [perf(topn): compact the (Group)TopN output to avoid amplification (#19451)](https://github.com/risingwavelabs/risingwave/pull/19451)
+- `8d3ef48fb0f92b96bc2e0a66c89eaaa36df80815` [chore: don't treat subscription as streaming job in system catalog (#19476)](https://github.com/risingwavelabs/risingwave/pull/19476)
+- `d5fd260882d56f902d848d5f33a8a1fe5ade7f5e` [refactor: update configuration (#19501)](https://github.com/risingwavelabs/risingwave/pull/19501)
 - `bd61bc6e1795b703ca5a45473161804f77955ffe` [chore: add telemetry reminder if meeting `type/feature` (#19359)](https://github.com/risingwavelabs/risingwave/pull/19359)
 - `bae490aab2ae895b4a76d1d2a7c5b0cc63169e99` [refactor(meta): use correct type for the pb counterpart (#19500)](https://github.com/risingwavelabs/risingwave/pull/19500)
 - `ea3e90932f8b8f523f183140ed878e69971e462e` [feat(streaming): decouple memory manager tick interval with barrier (#19494)](https://github.com/risingwavelabs/risingwave/pull/19494)
