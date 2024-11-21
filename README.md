@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f` [test: re-enable backwards compat tests (#19521)](https://github.com/risingwavelabs/risingwave/pull/19521)
 - `e544337a477234656f7c580ddb20f40a5c44ecf8` [feat(iceberg): support rest authentication (#19406)](https://github.com/risingwavelabs/risingwave/pull/19406)
 - `a771dab7465202acd7dab99f5de441a71a82eecd` [feat(frontend): output explain result as graphviz dot format (#19446)](https://github.com/risingwavelabs/risingwave/pull/19446)
 - `075c90d7e3b2953283e188bd636b0ea05b268314` [refactor: rename dummy table id to tmp table id (#19509)](https://github.com/risingwavelabs/risingwave/pull/19509)
