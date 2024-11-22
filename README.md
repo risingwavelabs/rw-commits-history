@@ -327,6 +327,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bc06ffdb782ea5a9f11d19825f0f61c1723991c1` [feat(compaction): Limit the size of the new overlapping level (#19277)](https://github.com/risingwavelabs/risingwave/pull/19277)
 - `fd5d0912fdebd031873651041866df6a2b8651b6` [fix: when target is table, the sink downstream pk is not set (#19515)](https://github.com/risingwavelabs/risingwave/pull/19515)
 - `2064b5b145cda3c0b04061a3e819bf68b32d0333` [fix: memory allocation of standalone mode (#19477)](https://github.com/risingwavelabs/risingwave/pull/19477)
 - `09a8ff3a59650df3ec1afa08c7b8579d84a1700b` [refactor: clarify the meaning of table in TableCatalog and TableFragments (#19510)](https://github.com/risingwavelabs/risingwave/pull/19510)
