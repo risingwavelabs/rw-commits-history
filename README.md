@@ -328,6 +328,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `236e7617aebd55bd61b9ceb43cb2e1fd9b6d59e8` [fix: upgrade setuptools because of vulnerablility (#19540)](https://github.com/risingwavelabs/risingwave/pull/19540)
 
 ## nightly-20241122
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cfa521dcccfdb2763da050ed6a7f79cb39f63f9f...bc06ffdb782ea5a9f11d19825f0f61c1723991c1)
