@@ -327,6 +327,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `09a8ff3a59650df3ec1afa08c7b8579d84a1700b` [refactor: clarify the meaning of table in TableCatalog and TableFragments (#19510)](https://github.com/risingwavelabs/risingwave/pull/19510)
 - `ca5f13a49a54fe861ad499e05bf3a7c260c76ca8` [fix(sqlparser): array of struct of struct (#19483)](https://github.com/risingwavelabs/risingwave/pull/19483)
 - `37e108c772ab1a6b3acd1e7e015b33191f3130d9` [feat(meta): dependency check for `drop function` (#19399)](https://github.com/risingwavelabs/risingwave/pull/19399)
 
