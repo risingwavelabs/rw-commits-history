@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241122` `bc06ffdb782ea5a9f11d19825f0f61c1723991c1`
 - `20241121` `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f`
 - `20241120` `fe69ce3093b33e16e8f1682eddeac28789190764`
 - `20241119` `72e5ad3e0672687439c8a33688c7acc6ded540fa`
@@ -327,6 +328,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241122
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cfa521dcccfdb2763da050ed6a7f79cb39f63f9f...bc06ffdb782ea5a9f11d19825f0f61c1723991c1)
 - `bc06ffdb782ea5a9f11d19825f0f61c1723991c1` [feat(compaction): Limit the size of the new overlapping level (#19277)](https://github.com/risingwavelabs/risingwave/pull/19277)
 - `fd5d0912fdebd031873651041866df6a2b8651b6` [fix: when target is table, the sink downstream pk is not set (#19515)](https://github.com/risingwavelabs/risingwave/pull/19515)
 - `2064b5b145cda3c0b04061a3e819bf68b32d0333` [fix: memory allocation of standalone mode (#19477)](https://github.com/risingwavelabs/risingwave/pull/19477)
