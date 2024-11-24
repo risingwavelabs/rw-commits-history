@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20241123` `b4bca5724e7acb9c39919aaa188ed699a10eb1f4`
+- `20241124` `b4bca5724e7acb9c39919aaa188ed699a10eb1f4`
 - `20241122` `bc06ffdb782ea5a9f11d19825f0f61c1723991c1`
 - `20241121` `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f`
 - `20241120` `fe69ce3093b33e16e8f1682eddeac28789190764`
@@ -330,7 +330,7 @@
 
 ## Unreleased
 
-## nightly-20241123
+## nightly-20241124
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc06ffdb782ea5a9f11d19825f0f61c1723991c1...b4bca5724e7acb9c39919aaa188ed699a10eb1f4)
 - `b4bca5724e7acb9c39919aaa188ed699a10eb1f4` [doc(dev-guide): note good first issue (#19543)](https://github.com/risingwavelabs/risingwave/pull/19543)
 - `236e7617aebd55bd61b9ceb43cb2e1fd9b6d59e8` [fix: upgrade setuptools because of vulnerablility (#19540)](https://github.com/risingwavelabs/risingwave/pull/19540)
