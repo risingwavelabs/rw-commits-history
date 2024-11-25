@@ -329,6 +329,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `420b60b591f4da6a6de1eea4966833667f010cd3` [test(pgwire): complete the test cases to cover all data types (#19520)](https://github.com/risingwavelabs/risingwave/pull/19520)
 - `9abd62a7a63446c345310c1aeeba994c86cf20e8` [refactor(optimizer): record error contexts when casting composite types (#19449)](https://github.com/risingwavelabs/risingwave/pull/19449)
 
 ## nightly-20241124
