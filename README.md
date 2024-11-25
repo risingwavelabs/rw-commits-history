@@ -318,7 +318,6 @@
 - `20231129` `db6003ded2965461e1d6f9d2af2797803a6596da`
 - `20231128` `ff90f8cf21d7ef728cc064e229b0d38540fb054d`
 - `20231127` `98639aece6f96a60cb7eb9bb41fa34b157f34f5e`
-- `20231126` `a3ea7c0bc48dc26c200739f5a852638a68186487`
 </details>
 
 # Commit history
@@ -4128,20 +4127,4 @@
 - `6fe26b46b399e5831a6927fdf859a84b02432da4` [chore(integration_tests): cleanup unused datagen.go build (#13671)](https://github.com/risingwavelabs/risingwave/pull/13671)
 
 ## nightly-20231127
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a3ea7c0bc48dc26c200739f5a852638a68186487...98639aece6f96a60cb7eb9bb41fa34b157f34f5e)
 - `98639aece6f96a60cb7eb9bb41fa34b157f34f5e` [feat(batch): improve connection pool value (#13669)](https://github.com/risingwavelabs/risingwave/pull/13669)
-- `5cac7a825efffe4d82e894ae6f7327561d700bee` [test: add `redis-sink` test into the integration test workflow (#13661)](https://github.com/risingwavelabs/risingwave/pull/13661)
-- `b02ac4c898fc3a089857d137fcf5a90336624360` [chore(test): add unit test for mem table spill (#13314)](https://github.com/risingwavelabs/risingwave/pull/13314)
-- `ccccb9c89e3c8e2975844c95c66ed8e03afe1702` [feat(batch): add a pu_to_worker cache for worker node manager (#13660)](https://github.com/risingwavelabs/risingwave/pull/13660)
-- `d91482be52785487435797e10a2b21726d7a1293` [chore: bump aws sdk (#13635)](https://github.com/risingwavelabs/risingwave/pull/13635)
-- `1bf035eea87cba0bf05ef50a9c814cc12105fa39` [feat(meta): store serialized version delta in meta model v2 (#13573)](https://github.com/risingwavelabs/risingwave/pull/13573)
-- `9768a7269a2af4ece868f04a7fd59b3ffaccda61` [feat(optimizer): improve index selection for primary lookup (#13658)](https://github.com/risingwavelabs/risingwave/pull/13658)
-- `14ee6937b20b09911aa96d8498f1c27a4812567b` [feat(frontend): expose compact task progress via SQL (#13555)](https://github.com/risingwavelabs/risingwave/pull/13555)
-- `4f924d645d3d365a514225de5d22bb983021b383` [fix(storage): fix object store config (#13618)](https://github.com/risingwavelabs/risingwave/pull/13618)
-- `45d2df57734dadb078a0cfec2ca8be342f15e045` [fix: correctly handle `scan.startup.timestamp.millis` as `Option<i64>` (#13657)](https://github.com/risingwavelabs/risingwave/pull/13657)
-- `56424ad86326b8958c6bbc100f3bc2606f7afe84` [fix(esSink): Fix es sink jsonb error (#13655)](https://github.com/risingwavelabs/risingwave/pull/13655)
-- `c24759764744b7c6597f8a6277885dec97f7ef49` [chore: upgrade the docker compose etcd version (#13652)](https://github.com/risingwavelabs/risingwave/pull/13652)
-- `f92b5018621706cdbdfaa9b8e16a80b6d3a2e0c8` [doc: update to new github note syntax (#13646)](https://github.com/risingwavelabs/risingwave/pull/13646)
-
-## nightly-20231126
-- `a3ea7c0bc48dc26c200739f5a852638a68186487` [refactor: memory management (#13636)](https://github.com/risingwavelabs/risingwave/pull/13636)
