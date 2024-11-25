@@ -329,6 +329,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9abd62a7a63446c345310c1aeeba994c86cf20e8` [refactor(optimizer): record error contexts when casting composite types (#19449)](https://github.com/risingwavelabs/risingwave/pull/19449)
 
 ## nightly-20241124
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc06ffdb782ea5a9f11d19825f0f61c1723991c1...b4bca5724e7acb9c39919aaa188ed699a10eb1f4)
