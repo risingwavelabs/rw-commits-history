@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `641cf65c4218d632cf17ac155eb91e65cfb9ff17` [fix: add RW_HEAP_PROFILING_DIR for frontend  (#19323)](https://github.com/risingwavelabs/risingwave/pull/19323)
 - `21ea2bc4d92714d867d44d5d7c6efb37a6e4c3d4` [feat(risedev): support configuring meta store by url from env var (#19560)](https://github.com/risingwavelabs/risingwave/pull/19560)
 - `507085657ca54769cb83aafe2e5d6278b9a985eb` [feat(secret): alter secret in catalog (#19495)](https://github.com/risingwavelabs/risingwave/pull/19495)
 
