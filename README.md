@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a58b142d23502e38a902256d3bc7800909e2bca8` [chore: bump iceberg version (java) (#19423)](https://github.com/risingwavelabs/risingwave/pull/19423)
+- `b34f4fdf4c711c614a5985ce3aa413a4bd65d2e8` [refactor(frontend): better cast error message for `UPDATE` setting to subquery (#19555)](https://github.com/risingwavelabs/risingwave/pull/19555)
 - `6cae4d3fcffb931aa799764494a3f8f96e66c9e8` [refactor(meta): provide better message for meta store migration failure (#19551)](https://github.com/risingwavelabs/risingwave/pull/19551)
 - `fcea1bd2200b1bc1de5157fc6b8465e50839a6cb` [chore(ci): increase test timeout for deterministic tests (#19532)](https://github.com/risingwavelabs/risingwave/pull/19532)
 
