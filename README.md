@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241126` `5d6aaf47710b449cde54081e987ba8d457adb6c6`
 - `20241125` `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a`
 - `20241124` `b4bca5724e7acb9c39919aaa188ed699a10eb1f4`
 - `20241122` `bc06ffdb782ea5a9f11d19825f0f61c1723991c1`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241126
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a...5d6aaf47710b449cde54081e987ba8d457adb6c6)
 - `5d6aaf47710b449cde54081e987ba8d457adb6c6` [feat(sink): use mysql dialect for jdbc url start with mariadb (#19523)](https://github.com/risingwavelabs/risingwave/pull/19523)
 - `759ea19eda7cd72afcacb186f79e4e17ed603669` [feat(cdc): init default value for cdc table columns (#19354)](https://github.com/risingwavelabs/risingwave/pull/19354)
 - `fc639feff477c8b97fee13afcf1de2687a4032b0` [perf(cache): reduce exclusive lock usage while dropping in-memory cache entry (#19436)](https://github.com/risingwavelabs/risingwave/pull/19436)
