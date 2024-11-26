@@ -318,7 +318,6 @@
 - `20231130` `ce0121fc7cf30251b5bc58065d1ed5f09f4512ab`
 - `20231129` `db6003ded2965461e1d6f9d2af2797803a6596da`
 - `20231128` `ff90f8cf21d7ef728cc064e229b0d38540fb054d`
-- `20231127` `98639aece6f96a60cb7eb9bb41fa34b157f34f5e`
 </details>
 
 # Commit history
@@ -4128,18 +4127,4 @@
 - `edfb9b903181ee1707bc82acc48cefd5d6c6e774` [feat: Add `exclusive` mode to vertical scaling (#13697)](https://github.com/risingwavelabs/risingwave/pull/13697)
 
 ## nightly-20231128
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98639aece6f96a60cb7eb9bb41fa34b157f34f5e...ff90f8cf21d7ef728cc064e229b0d38540fb054d)
 - `ff90f8cf21d7ef728cc064e229b0d38540fb054d` [fix(udf): add retry on UDF connection error (#13375)](https://github.com/risingwavelabs/risingwave/pull/13375)
-- `92a624a4da71aea06a8c66836d92387b7ba66301` [refactor: trigger auto dump by system memory usage  (#13685)](https://github.com/risingwavelabs/risingwave/pull/13685)
-- `4e28163b4f03909f4755db7dfed829ac1bfaa2c8` [fix(sink): ClickHouse DateTime64 should be timestamptz (#13672)](https://github.com/risingwavelabs/risingwave/pull/13672)
-- `607296367c00ac8df094d800e6c71136b38196d0` [fix: grant CONNECT privilege to new db owner (#13681)](https://github.com/risingwavelabs/risingwave/pull/13681)
-- `c47b9ed8f31c45b056eda13f1598c94488362613` [feat(expr): support implicit cast of arguments for table and aggregate functions (#13545)](https://github.com/risingwavelabs/risingwave/pull/13545)
-- `ce73e80db12d42aa0103ef2f5459b2aedd3b1b40` [fix(frontend): correct handle set to default and parse `SetVariableValue` (#13642)](https://github.com/risingwavelabs/risingwave/pull/13642)
-- `679413a58a4418db2a3bee0bcf74ec5b40e4ca0b` [test: support `background_ddl_rate` in recovery test (#13552)](https://github.com/risingwavelabs/risingwave/pull/13552)
-- `9c752e03d5dda5aea2a8fa8c60522e30d1f72c73` [fix: remove replace outbound cond (#13675)](https://github.com/risingwavelabs/risingwave/pull/13675)
-- `d5850cd078c669c53ed1c49337417e12f36f2fd0` [refactor(error): simplify leaf error instantiation (#13627)](https://github.com/risingwavelabs/risingwave/pull/13627)
-- `2ddab6bc806040455c139823ed75cbcea3ef143f` [fix(memory): increase reserved mem to 30% (#13648)](https://github.com/risingwavelabs/risingwave/pull/13648)
-- `6fe26b46b399e5831a6927fdf859a84b02432da4` [chore(integration_tests): cleanup unused datagen.go build (#13671)](https://github.com/risingwavelabs/risingwave/pull/13671)
-
-## nightly-20231127
-- `98639aece6f96a60cb7eb9bb41fa34b157f34f5e` [feat(batch): improve connection pool value (#13669)](https://github.com/risingwavelabs/risingwave/pull/13669)
