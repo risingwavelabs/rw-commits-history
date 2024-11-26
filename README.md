@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5d6aaf47710b449cde54081e987ba8d457adb6c6` [feat(sink): use mysql dialect for jdbc url start with mariadb (#19523)](https://github.com/risingwavelabs/risingwave/pull/19523)
+- `759ea19eda7cd72afcacb186f79e4e17ed603669` [feat(cdc): init default value for cdc table columns (#19354)](https://github.com/risingwavelabs/risingwave/pull/19354)
 - `fc639feff477c8b97fee13afcf1de2687a4032b0` [perf(cache): reduce exclusive lock usage while dropping in-memory cache entry (#19436)](https://github.com/risingwavelabs/risingwave/pull/19436)
 - `4752db6d820a1af4af0a188f07933504dd9625a0` [fix: minor bug of `to_binary_with_type` of List (#19571)](https://github.com/risingwavelabs/risingwave/pull/19571)
 - `a3c2648f6fe751d2eb17be8a56e6b524c2310a6b` [chore(deps): Bump the all group across 1 directory with 52 updates (#19565)](https://github.com/risingwavelabs/risingwave/pull/19565)
@@ -826,7 +828,6 @@
 - `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f` [fix: telemetry event at paywall not reporting (#18770)](https://github.com/risingwavelabs/risingwave/pull/18770)
 - `72ba6d53e47c92c0bf97a49f8e84a4c6b4391cce` [chore(deps): Bump sysinfo from 0.30.0 to 0.31.4 (#18776)](https://github.com/risingwavelabs/risingwave/pull/18776)
 - `a9104146b3965ed837ed12d1c0d98861b21c7f73` [chore(deps): Bump async-std from 1.12.0 to 1.13.0 (#18778)](https://github.com/risingwavelabs/risingwave/pull/18778)
-- `f0ad2d7e607e2b60b6ee078e1001dcf336952a63` [chore(deps): bump the google-cloud group with 2 updates (#18717)](https://github.com/risingwavelabs/risingwave/pull/18717)
 - `f0ad2d7e607e2b60b6ee078e1001dcf336952a63` [chore(deps): bump the google-cloud group with 2 updates (#18717)](https://github.com/risingwavelabs/risingwave/pull/18717)
 
 ## nightly-20240930
