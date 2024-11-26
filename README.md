@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a3c2648f6fe751d2eb17be8a56e6b524c2310a6b` [chore(deps): Bump the all group across 1 directory with 52 updates (#19565)](https://github.com/risingwavelabs/risingwave/pull/19565)
 - `184900ad9f4adad8504dafbfa86dbfd943dcc678` [chore(sqlsmith): ignore sqrt with negative input error (#19566)](https://github.com/risingwavelabs/risingwave/pull/19566)
 - `519c95db4c18a3741e3f6ab4334af99c6e552531` [refactor(common): consolidate `StructType` constructors (Part 1/2: trivial ones) (#19569)](https://github.com/risingwavelabs/risingwave/pull/19569)
 - `96c5431ed3866483217d3ff54d027ee2ed18bd72` [refactor(meta): rename replace_table to replace_stream_job where appropriate (#19537)](https://github.com/risingwavelabs/risingwave/pull/19537)
