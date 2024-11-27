@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ba225b21dbdf6f24d3f3086c03a18859b9949d73` [fix(planner): correctly handle hidden columns for SourceBackfill (#19578)](https://github.com/risingwavelabs/risingwave/pull/19578)
 - `9643ff9097fd7ea6a1d0ed47c1f0ce15d2f9e9f0` [fix(secret): the name of a secret in the catalog should not contains the schema name (#19584)](https://github.com/risingwavelabs/risingwave/pull/19584)
 
 ## nightly-20241127
