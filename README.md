@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241127` `c45327bae82869699328a47e70919d38e783df2d`
 - `20241126` `5d6aaf47710b449cde54081e987ba8d457adb6c6`
 - `20241125` `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a`
 - `20241124` `b4bca5724e7acb9c39919aaa188ed699a10eb1f4`
@@ -326,6 +327,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241127
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5d6aaf47710b449cde54081e987ba8d457adb6c6...c45327bae82869699328a47e70919d38e783df2d)
 - `c45327bae82869699328a47e70919d38e783df2d` [fix(meta): locate upstream source fragment correctly for SourceBackfill (#19564)](https://github.com/risingwavelabs/risingwave/pull/19564)
 - `200ed05c35ce57a178c30def0380eba7d4e5dc4a` [feat(meta): add a rpc to fetch meta store endpoint (#19594)](https://github.com/risingwavelabs/risingwave/pull/19594)
 - `ac5cb4036ed5d1d28483ab296a3a8811f6addc90` [feat(barrier): maintain per database scheduled command queue (#19592)](https://github.com/risingwavelabs/risingwave/pull/19592)
