@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ba76431f6bee416ee05ed144df58eefe516c9792` [feat(batch): add `batch_expr_strict_mode` to ignore expression error in batch query (#19562)](https://github.com/risingwavelabs/risingwave/pull/19562)
 - `d17b4027ccbcf18304a9b9ee78fb819a514ca80a` [feat(connector): support more parquet data types (#19561)](https://github.com/risingwavelabs/risingwave/pull/19561)
 - `641cf65c4218d632cf17ac155eb91e65cfb9ff17` [fix: add RW_HEAP_PROFILING_DIR for frontend  (#19323)](https://github.com/risingwavelabs/risingwave/pull/19323)
 - `21ea2bc4d92714d867d44d5d7c6efb37a6e4c3d4` [feat(risedev): support configuring meta store by url from env var (#19560)](https://github.com/risingwavelabs/risingwave/pull/19560)
