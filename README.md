@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ac5cb4036ed5d1d28483ab296a3a8811f6addc90` [feat(barrier): maintain per database scheduled command queue (#19592)](https://github.com/risingwavelabs/risingwave/pull/19592)
 - `c121fa7ff0d51b668616c19638db028b1f56e2fa` [refactor(metrics): adapt to the new foyer metrics framework (#19580)](https://github.com/risingwavelabs/risingwave/pull/19580)
 - `3faa0bf346665379bfa2e1295c71aee9f0e29c21` [refactor(common): consolidate `StructType` constructors (Part 2/2) (#19570)](https://github.com/risingwavelabs/risingwave/pull/19570)
 - `066978338838a0a1f98f93bc440d8ac30ab46126` [feat: add builtin function `timezone` (#19524)](https://github.com/risingwavelabs/risingwave/pull/19524)
