@@ -318,7 +318,6 @@
 - `20231201` `fce66c0b06fe27c30a89d9809ebab102b2d68e0e`
 - `20231130` `ce0121fc7cf30251b5bc58065d1ed5f09f4512ab`
 - `20231129` `db6003ded2965461e1d6f9d2af2797803a6596da`
-- `20231128` `ff90f8cf21d7ef728cc064e229b0d38540fb054d`
 </details>
 
 # Commit history
@@ -4121,25 +4120,4 @@
 - `9de63530db1b4704996233eedc33831b6d151b47` [chore(meta): remove obsolete doc comment for `StreamJob` (#13735)](https://github.com/risingwavelabs/risingwave/pull/13735)
 
 ## nightly-20231129
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ff90f8cf21d7ef728cc064e229b0d38540fb054d...db6003ded2965461e1d6f9d2af2797803a6596da)
 - `db6003ded2965461e1d6f9d2af2797803a6596da` [ci(nightly-rust): reserve more swap space (#13723)](https://github.com/risingwavelabs/risingwave/pull/13723)
-- `69604f2873b37714495b954fead0f8a9cc78a952` [ci: increase timeout for sim build temporarily (#13731)](https://github.com/risingwavelabs/risingwave/pull/13731)
-- `40c020f75428648b2bb9130a035c5abba02fa4ab` [fix(udf): support struct[] type in struct (#13689)](https://github.com/risingwavelabs/risingwave/pull/13689)
-- `037b9a2a216d73266a868e53a2620082d2e83707` [feat(stream): backfill resuming for sink (#13665)](https://github.com/risingwavelabs/risingwave/pull/13665)
-- `ea49d4db478796ae467e656922c5eecc5be4c804` [feat: support SET TO DEFAULT (#13693)](https://github.com/risingwavelabs/risingwave/pull/13693)
-- `de006c84adfbcba61e619fc6a0251942672feb3c` [chore(deps): Bump google-cloud-pubsub from 0.20.0 to 0.21.0 (#12892)](https://github.com/risingwavelabs/risingwave/pull/12892)
-- `4dad86d2adcab58d0365a863d4f3204f9ad7185a` [feat(ci): refactor integrations test pipeline and notify (#13705)](https://github.com/risingwavelabs/risingwave/pull/13705)
-- `5ad55af49305a6e9f90d4ce30da87b72a841f98b` [fix(ci): fix cdc create drop e2e case (#13489)](https://github.com/risingwavelabs/risingwave/pull/13489)
-- `a54204b41088b4fa3be06a7e9e2ab026159aaff5` [perf(streaming): concurrent dispatching messages (#13691)](https://github.com/risingwavelabs/risingwave/pull/13691)
-- `83e95861e95533e3f4151d07f53f52afaffd1236` [fix(integration_tests): use `timestamptz` for MySQL, TiDB, Doris and StarRocks (#13641)](https://github.com/risingwavelabs/risingwave/pull/13641)
-- `56a7dc58a5986fcae73d18aa78eebf77f11bafc1` [chore(deps): Bump openssl from 0.10.57 to 0.10.60 in /integration_tests/feature-store/simulator (#13700)](https://github.com/risingwavelabs/risingwave/pull/13700)
-- `48bde9fc3105907e2b8b8fc9d9dab30c7ebd62cd` [chore(deps): Bump openssl from 0.10.57 to 0.10.60 in /integration_tests/feature-store/server (#13701)](https://github.com/risingwavelabs/risingwave/pull/13701)
-- `13ba63069db7b8cff515a390421c27884ed7335d` [refactor(type): refactor `ListValue` using array (#13402)](https://github.com/risingwavelabs/risingwave/pull/13402)
-- `14ff124712a2dd18cc9294a692fcaa6cf77ae334` [ci: move audit check to cron (#13719)](https://github.com/risingwavelabs/risingwave/pull/13719)
-- `b196953ee36628db0a11c18863f68ea020c3050c` [fix(ci): disable python udf retry test (#13714)](https://github.com/risingwavelabs/risingwave/pull/13714)
-- `a43caf3afd730eae01d856c9845224dfb493a704` [fix(batch): refine local compute context (#13688)](https://github.com/risingwavelabs/risingwave/pull/13688)
-- `30a5454615e17d03f4a7deb5f6b3f51b8310b57d` [chore(ci): skip `rsa` crate warning temporarily (#13704)](https://github.com/risingwavelabs/risingwave/pull/13704)
-- `edfb9b903181ee1707bc82acc48cefd5d6c6e774` [feat: Add `exclusive` mode to vertical scaling (#13697)](https://github.com/risingwavelabs/risingwave/pull/13697)
-
-## nightly-20231128
-- `ff90f8cf21d7ef728cc064e229b0d38540fb054d` [fix(udf): add retry on UDF connection error (#13375)](https://github.com/risingwavelabs/risingwave/pull/13375)
