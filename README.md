@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241128` `4b1cb92e5ce37c72139f933b525ed9c41aec575f`
 - `20241127` `c45327bae82869699328a47e70919d38e783df2d`
 - `20241126` `5d6aaf47710b449cde54081e987ba8d457adb6c6`
 - `20241125` `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a`
@@ -326,6 +327,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5bc4d0c844a7d4a0e6b00159ce8fd39339f0eaad` [feat(frontend): support explain with graphviz visualization in dashboard (#19558)](https://github.com/risingwavelabs/risingwave/pull/19558)
+
+## nightly-20241128
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c45327bae82869699328a47e70919d38e783df2d...4b1cb92e5ce37c72139f933b525ed9c41aec575f)
 - `4b1cb92e5ce37c72139f933b525ed9c41aec575f` [refactor(storage): use Arc<SStableInfo> in HummockVersion (#19535)](https://github.com/risingwavelabs/risingwave/pull/19535)
 - `c00fe35fbf1515d243c5d7c233c68b4b1638b7bd` [fix(source): resolve avro `Ref` during `avro_schema_to_column_descs` without hack (#19601)](https://github.com/risingwavelabs/risingwave/pull/19601)
 - `b8c70c156bb3f224293edd273a03849bb6468834` [feat(frontend): support dot output for distsql (#19552)](https://github.com/risingwavelabs/risingwave/pull/19552)
@@ -1156,7 +1161,6 @@
 ## nightly-20240901
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/655ce2a8cdd83f2338b2de23bef1133cf4e1916a...e41b348f2d7d800b45e4102192200fb1698037ca)
 - `e41b348f2d7d800b45e4102192200fb1698037ca` [fix(risedev): fix risedev (#18339)](https://github.com/risingwavelabs/risingwave/pull/18339)
-- `5055cc920aed3f555bcb3ba5a42962555789bd26` [refactor(metrics): refine relabelled metrics interfaces (#18331)](https://github.com/risingwavelabs/risingwave/pull/18331)
 - `5055cc920aed3f555bcb3ba5a42962555789bd26` [refactor(metrics): refine relabelled metrics interfaces (#18331)](https://github.com/risingwavelabs/risingwave/pull/18331)
 - `29db1d95c416ea14c8ebb39ba74857d01c631d34` [fix: fix column nullable definition for index column properties (#18334)](https://github.com/risingwavelabs/risingwave/pull/18334)
 - `59b400a92d623798541c0a49dab0647795afaa38` [chore: Update README.md (#18226)](https://github.com/risingwavelabs/risingwave/pull/18226)
