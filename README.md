@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4b1cb92e5ce37c72139f933b525ed9c41aec575f` [refactor(storage): use Arc<SStableInfo> in HummockVersion (#19535)](https://github.com/risingwavelabs/risingwave/pull/19535)
+- `c00fe35fbf1515d243c5d7c233c68b4b1638b7bd` [fix(source): resolve avro `Ref` during `avro_schema_to_column_descs` without hack (#19601)](https://github.com/risingwavelabs/risingwave/pull/19601)
 - `b8c70c156bb3f224293edd273a03849bb6468834` [feat(frontend): support dot output for distsql (#19552)](https://github.com/risingwavelabs/risingwave/pull/19552)
 - `521f67493e192c6c11e6eb1d241ac7b3b140a862` [refactor(ci): introduce meta backend agnostic e2e tests (#19568)](https://github.com/risingwavelabs/risingwave/pull/19568)
 - `32c44babc511f3dd3c3678c9cbe511d8108dceba` [feat(source): support webhook source table (#19272)](https://github.com/risingwavelabs/risingwave/pull/19272)
@@ -1154,6 +1156,7 @@
 ## nightly-20240901
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/655ce2a8cdd83f2338b2de23bef1133cf4e1916a...e41b348f2d7d800b45e4102192200fb1698037ca)
 - `e41b348f2d7d800b45e4102192200fb1698037ca` [fix(risedev): fix risedev (#18339)](https://github.com/risingwavelabs/risingwave/pull/18339)
+- `5055cc920aed3f555bcb3ba5a42962555789bd26` [refactor(metrics): refine relabelled metrics interfaces (#18331)](https://github.com/risingwavelabs/risingwave/pull/18331)
 - `5055cc920aed3f555bcb3ba5a42962555789bd26` [refactor(metrics): refine relabelled metrics interfaces (#18331)](https://github.com/risingwavelabs/risingwave/pull/18331)
 - `29db1d95c416ea14c8ebb39ba74857d01c631d34` [fix: fix column nullable definition for index column properties (#18334)](https://github.com/risingwavelabs/risingwave/pull/18334)
 - `59b400a92d623798541c0a49dab0647795afaa38` [chore: Update README.md (#18226)](https://github.com/risingwavelabs/risingwave/pull/18226)
