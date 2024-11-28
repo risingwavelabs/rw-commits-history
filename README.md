@@ -327,6 +327,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `01b703dc4b996799d1565f408a57ddea2159c4d5` [feat: Connection for Kafka source & sink (#19270)](https://github.com/risingwavelabs/risingwave/pull/19270)
 - `5bc4d0c844a7d4a0e6b00159ce8fd39339f0eaad` [feat(frontend): support explain with graphviz visualization in dashboard (#19558)](https://github.com/risingwavelabs/risingwave/pull/19558)
 
 ## nightly-20241128
