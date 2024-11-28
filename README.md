@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b8c70c156bb3f224293edd273a03849bb6468834` [feat(frontend): support dot output for distsql (#19552)](https://github.com/risingwavelabs/risingwave/pull/19552)
 - `521f67493e192c6c11e6eb1d241ac7b3b140a862` [refactor(ci): introduce meta backend agnostic e2e tests (#19568)](https://github.com/risingwavelabs/risingwave/pull/19568)
 - `32c44babc511f3dd3c3678c9cbe511d8108dceba` [feat(source): support webhook source table (#19272)](https://github.com/risingwavelabs/risingwave/pull/19272)
 - `15ba09dcb6808fd75a025a05603efc265c86b7a6` [feat(connector): support postgres_sink in rust (#19328)](https://github.com/risingwavelabs/risingwave/pull/19328)
