@@ -318,7 +318,6 @@
 - `20231202` `ab011eb0e58b8637e9d53f70fd7221a49fcd9e75`
 - `20231201` `fce66c0b06fe27c30a89d9809ebab102b2d68e0e`
 - `20231130` `ce0121fc7cf30251b5bc58065d1ed5f09f4512ab`
-- `20231129` `db6003ded2965461e1d6f9d2af2797803a6596da`
 </details>
 
 # Commit history
@@ -4109,30 +4108,4 @@
 - `67c2d70523fd4645c158428a11825e5e4926de7d` [feat(expr): distributed make timestamptz (#13647)](https://github.com/risingwavelabs/risingwave/pull/13647)
 
 ## nightly-20231130
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/db6003ded2965461e1d6f9d2af2797803a6596da...ce0121fc7cf30251b5bc58065d1ed5f09f4512ab)
 - `ce0121fc7cf30251b5bc58065d1ed5f09f4512ab` [feat(storage): prefix key range with vnode (#13734)](https://github.com/risingwavelabs/risingwave/pull/13734)
-- `2db9c8e389a1e6ec892f3ae3fd4e580c01f3441e` [feat(storage): file cache insert rate limit based on real write rate (#13722)](https://github.com/risingwavelabs/risingwave/pull/13722)
-- `84f8f33eb8cac095d9569805f5ebb0d27486bf3b` [fix(Sink): Fix delta sink DATE and Decimal write error (#13677)](https://github.com/risingwavelabs/risingwave/pull/13677)
-- `d0c33add3f1fe4a84af548cd90d824720adeca69` [feat(cdc): validate table for multi table cdc backfill (#13706)](https://github.com/risingwavelabs/risingwave/pull/13706)
-- `51042845e4680050472b1de2a1df1819fb7b07c0` [fix(compaction): fast compact may not cut sst if not meet point key (#13690)](https://github.com/risingwavelabs/risingwave/pull/13690)
-- `4b02d3ac777e8450ee1854eeea5499329d234f6e` [chore(storage): add more log info when panic or assert for compactor component (#13730)](https://github.com/risingwavelabs/risingwave/pull/13730)
-- `98bf3529922c62f129b2bfdc20cea72fcc506ab6` [feat: allow drop streaming jobs during recovery (#12317)](https://github.com/risingwavelabs/risingwave/pull/12317)
-- `47445df9210640317d2a8d35bf1f10cca386344d` [refactor(storage): unify sstable writer in normal compaction (#13742)](https://github.com/risingwavelabs/risingwave/pull/13742)
-- `e7ef790db5a656537523ea60f7619c3b3444173d` [chore: update cherry pick action version to v1.5.0 (#13745)](https://github.com/risingwavelabs/risingwave/pull/13745)
-- `2baf33924ab5a056be7b49ac626544b288c3e659` [fix(storage): remove unused encoding in state table (#13729)](https://github.com/risingwavelabs/risingwave/pull/13729)
-- `6ba29a86430eee348f563cf564aa9b60cafc61b0` [fix(compaction): fix max epoch bug of tombstone (#13696)](https://github.com/risingwavelabs/risingwave/pull/13696)
-- `abc1e0cba033f887ed80862d59f71abc76714c5c` [fix(sqlsmith): `encode` should take in `Bytea` as its first argument instead of `varchar` (#13743)](https://github.com/risingwavelabs/risingwave/pull/13743)
-- `c67df6e831d918bd60824f299daec2b759dc8e56` [fix(test): rate limit must be set in same session for backfill test (#13741)](https://github.com/risingwavelabs/risingwave/pull/13741)
-- `232b93129067c4e7c8c183635d2c944ac0c8b1eb` [feat: Implement `ALTER DATABASE/SCHEMA xxx RENAME TO xxx` (#13713)](https://github.com/risingwavelabs/risingwave/pull/13713)
-- `8a6ca478b3088d54a41e036e50916d12e4bcc172` [fix(ci): fix notification format (#13740)](https://github.com/risingwavelabs/risingwave/pull/13740)
-- `d826ee1c1aa112f15ed70b48253044ed3ecfdc40` [test: add big_query_sink integration test into workflow (#13737)](https://github.com/risingwavelabs/risingwave/pull/13737)
-- `c1113400fe33a7a355cde9070a5736d8b53b529d` [fix(over window): fix over window predicate pushdown (#13662)](https://github.com/risingwavelabs/risingwave/pull/13662)
-- `a5a9c9814919a9778ad8a41d0e5516aa372f4d05` [test(jsonb): enable more jsonb regress tests (#13517)](https://github.com/risingwavelabs/risingwave/pull/13517)
-- `1fb029df7e517bd4611f2b0bc62f73641a20137a` [feat(sink): support pause and resume for sink log store (#13586)](https://github.com/risingwavelabs/risingwave/pull/13586)
-- `a0aee308c6ad85a7e5226e46fd53dc20a782addb` [fix(storage): fast compactor judge whether using streaming uploader (#13733)](https://github.com/risingwavelabs/risingwave/pull/13733)
-- `e6d76a2cd5d0a469ab5a50c50c998f93db827f5d` [fix(metrics): fix sink's throughput metrics (#13736)](https://github.com/risingwavelabs/risingwave/pull/13736)
-- `01e1e43707bceaf0308f3046983587e526916b21` [feat(rate-limiter): support small rate_limit by splitting into smaller chunks (#13728)](https://github.com/risingwavelabs/risingwave/pull/13728)
-- `9de63530db1b4704996233eedc33831b6d151b47` [chore(meta): remove obsolete doc comment for `StreamJob` (#13735)](https://github.com/risingwavelabs/risingwave/pull/13735)
-
-## nightly-20231129
-- `db6003ded2965461e1d6f9d2af2797803a6596da` [ci(nightly-rust): reserve more swap space (#13723)](https://github.com/risingwavelabs/risingwave/pull/13723)
