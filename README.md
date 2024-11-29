@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `22b11ef413b357ab736a7986907de541c1cd710b` [fix(meta): limit max orm param (#19617)](https://github.com/risingwavelabs/risingwave/pull/19617)
 - `d6cf971164d27296e2aec08eedee3fcdc023a520` [refactor: further clarify types of tables (#19539)](https://github.com/risingwavelabs/risingwave/pull/19539)
 - `3b3a1c5f1dd016485bd2ecc1cc9b0669ca46b146` [refactor(barrier): explicitly maintain database barrier state separately in local barrier manager (#19556)](https://github.com/risingwavelabs/risingwave/pull/19556)
 - `ea2f775f5036b8bbe221d51953b57307465435b0` [chore: update docker image to v2.1.0-rc.2 (#19618)](https://github.com/risingwavelabs/risingwave/pull/19618)
