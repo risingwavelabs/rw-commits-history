@@ -326,6 +326,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d6cf971164d27296e2aec08eedee3fcdc023a520` [refactor: further clarify types of tables (#19539)](https://github.com/risingwavelabs/risingwave/pull/19539)
+- `3b3a1c5f1dd016485bd2ecc1cc9b0669ca46b146` [refactor(barrier): explicitly maintain database barrier state separately in local barrier manager (#19556)](https://github.com/risingwavelabs/risingwave/pull/19556)
 - `ea2f775f5036b8bbe221d51953b57307465435b0` [chore: update docker image to v2.1.0-rc.2 (#19618)](https://github.com/risingwavelabs/risingwave/pull/19618)
 - `4fab947575fab3a37f4bd6363bf0f01bfa648646` [chore(deps): Bump quick-xml from 0.35.0 to 0.36.1 (#19420)](https://github.com/risingwavelabs/risingwave/pull/19420)
 - `fbfa35a0aeb1668955f8b7019e0481f35ce0908d` [fix(optimizer): LogicalDedup distinct columns were not mapped when pruning columns (#19611)](https://github.com/risingwavelabs/risingwave/pull/19611)
