@@ -326,6 +326,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ea2f775f5036b8bbe221d51953b57307465435b0` [chore: update docker image to v2.1.0-rc.2 (#19618)](https://github.com/risingwavelabs/risingwave/pull/19618)
 - `4fab947575fab3a37f4bd6363bf0f01bfa648646` [chore(deps): Bump quick-xml from 0.35.0 to 0.36.1 (#19420)](https://github.com/risingwavelabs/risingwave/pull/19420)
 - `fbfa35a0aeb1668955f8b7019e0481f35ce0908d` [fix(optimizer): LogicalDedup distinct columns were not mapped when pruning columns (#19611)](https://github.com/risingwavelabs/risingwave/pull/19611)
 - `2ae70563bd23667d72eb0f15aacd8d151f8b42a0` [fix: consider schema when commenting on a column or table (#19612)](https://github.com/risingwavelabs/risingwave/pull/19612)
