@@ -318,7 +318,6 @@
 - `20231203` `0b6184d8fce4275e9a81a2d66c171c20d2b7a529`
 - `20231202` `ab011eb0e58b8637e9d53f70fd7221a49fcd9e75`
 - `20231201` `fce66c0b06fe27c30a89d9809ebab102b2d68e0e`
-- `20231130` `ce0121fc7cf30251b5bc58065d1ed5f09f4512ab`
 </details>
 
 # Commit history
@@ -4111,13 +4110,4 @@
 - `7677abcb6fa87ea3f667ae2e111650296fdd8e97` [fix(cdc-backfill): ensure snapshot read starts after source (#13663)](https://github.com/risingwavelabs/risingwave/pull/13663)
 
 ## nightly-20231201
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce0121fc7cf30251b5bc58065d1ed5f09f4512ab...fce66c0b06fe27c30a89d9809ebab102b2d68e0e)
 - `fce66c0b06fe27c30a89d9809ebab102b2d68e0e` [test: add vector demo to integration tests (#13753)](https://github.com/risingwavelabs/risingwave/pull/13753)
-- `61d364cbea2d9e3687ce358c9f630c72bedd4494` [feat: check-in `cargo dylint` with `format_error` lint (#13750)](https://github.com/risingwavelabs/risingwave/pull/13750)
-- `26bd9ef630fd360717be23535b39d07949be9570` [feat(storage): optimize data alignment for default compaction group (#13075)](https://github.com/risingwavelabs/risingwave/pull/13075)
-- `0bd10c4f67746075b83913011e86a1eb8fb475e7` [fix(udf): fix decimal values (#11839)](https://github.com/risingwavelabs/risingwave/pull/11839)
-- `da79ff5ba64362cb2ee07f3114040fa00e8e62c4` [chore: Adjust default large query memory (#13686)](https://github.com/risingwavelabs/risingwave/pull/13686)
-- `67c2d70523fd4645c158428a11825e5e4926de7d` [feat(expr): distributed make timestamptz (#13647)](https://github.com/risingwavelabs/risingwave/pull/13647)
-
-## nightly-20231130
-- `ce0121fc7cf30251b5bc58065d1ed5f09f4512ab` [feat(storage): prefix key range with vnode (#13734)](https://github.com/risingwavelabs/risingwave/pull/13734)
