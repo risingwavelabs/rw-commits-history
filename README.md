@@ -317,7 +317,6 @@
 - `20231204` `2461651c9419c7093778343e60127508df75bee2`
 - `20231203` `0b6184d8fce4275e9a81a2d66c171c20d2b7a529`
 - `20231202` `ab011eb0e58b8637e9d53f70fd7221a49fcd9e75`
-- `20231201` `fce66c0b06fe27c30a89d9809ebab102b2d68e0e`
 </details>
 
 # Commit history
@@ -4104,10 +4103,4 @@
 - `0b6184d8fce4275e9a81a2d66c171c20d2b7a529` [doc(docker): add comments for minio disk full issue (#13768)](https://github.com/risingwavelabs/risingwave/pull/13768)
 
 ## nightly-20231202
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fce66c0b06fe27c30a89d9809ebab102b2d68e0e...ab011eb0e58b8637e9d53f70fd7221a49fcd9e75)
 - `ab011eb0e58b8637e9d53f70fd7221a49fcd9e75` [feat(jni): pass stream chunk directly without serde (#13430)](https://github.com/risingwavelabs/risingwave/pull/13430)
-- `b149c67b46a7b42f253f7f09c1c69d9184fa7797` [refactor(error): simplify all boxed error wrapper definition (#13725)](https://github.com/risingwavelabs/risingwave/pull/13725)
-- `7677abcb6fa87ea3f667ae2e111650296fdd8e97` [fix(cdc-backfill): ensure snapshot read starts after source (#13663)](https://github.com/risingwavelabs/risingwave/pull/13663)
-
-## nightly-20231201
-- `fce66c0b06fe27c30a89d9809ebab102b2d68e0e` [test: add vector demo to integration tests (#13753)](https://github.com/risingwavelabs/risingwave/pull/13753)
