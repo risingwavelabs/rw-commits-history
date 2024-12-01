@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20241130` `22b11ef413b357ab736a7986907de541c1cd710b`
+- `20241201` `22b11ef413b357ab736a7986907de541c1cd710b`
 - `20241128` `4b1cb92e5ce37c72139f933b525ed9c41aec575f`
 - `20241127` `c45327bae82869699328a47e70919d38e783df2d`
 - `20241126` `5d6aaf47710b449cde54081e987ba8d457adb6c6`
@@ -326,7 +326,7 @@
 
 ## Unreleased
 
-## nightly-20241130
+## nightly-20241201
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4b1cb92e5ce37c72139f933b525ed9c41aec575f...22b11ef413b357ab736a7986907de541c1cd710b)
 - `22b11ef413b357ab736a7986907de541c1cd710b` [fix(meta): limit max orm param (#19617)](https://github.com/risingwavelabs/risingwave/pull/19617)
 - `d6cf971164d27296e2aec08eedee3fcdc023a520` [refactor: further clarify types of tables (#19539)](https://github.com/risingwavelabs/risingwave/pull/19539)
