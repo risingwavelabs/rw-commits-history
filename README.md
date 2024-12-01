@@ -316,7 +316,6 @@
 - `20231205` `6bf5d47341333a55fcc8ef1d77bbf997133bad37`
 - `20231204` `2461651c9419c7093778343e60127508df75bee2`
 - `20231203` `0b6184d8fce4275e9a81a2d66c171c20d2b7a529`
-- `20231202` `ab011eb0e58b8637e9d53f70fd7221a49fcd9e75`
 </details>
 
 # Commit history
@@ -4099,8 +4098,4 @@
 - `ba4b196bf6a49a4288f1cbd91f37c8736a57ce9f` [chore: Update README.md (#13770)](https://github.com/risingwavelabs/risingwave/pull/13770)
 
 ## nightly-20231203
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ab011eb0e58b8637e9d53f70fd7221a49fcd9e75...0b6184d8fce4275e9a81a2d66c171c20d2b7a529)
 - `0b6184d8fce4275e9a81a2d66c171c20d2b7a529` [doc(docker): add comments for minio disk full issue (#13768)](https://github.com/risingwavelabs/risingwave/pull/13768)
-
-## nightly-20231202
-- `ab011eb0e58b8637e9d53f70fd7221a49fcd9e75` [feat(jni): pass stream chunk directly without serde (#13430)](https://github.com/risingwavelabs/risingwave/pull/13430)
