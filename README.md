@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `303ab11cff3f0b0559fa5fe48a2abd788b601935` [fix(hummock): fix hummock_trace panic with log store  (#19606)](https://github.com/risingwavelabs/risingwave/pull/19606)
+- `4dddbac1fd76ec5fc6eb709daf23083a778d7f53` [refactor(iceberg): support eq delete merge on read with hash join (#19126)](https://github.com/risingwavelabs/risingwave/pull/19126)
 - `32e98c00f967d578e94958c4de5380af0782edca` [feat(ctl): migrate legacy object with new prefix strategy (#19593)](https://github.com/risingwavelabs/risingwave/pull/19593)
 - `a6cd45fbcf9ced630bee4c7a3ba959ed0382fdda` [doc(streaming): Add docs for degree table in hash join (#19628)](https://github.com/risingwavelabs/risingwave/pull/19628)
 
