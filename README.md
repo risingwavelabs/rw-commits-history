@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `396099459bb6e456539bb94def7a68aff856db15` [feat(meta): support reload runtime info of single database (#19597)](https://github.com/risingwavelabs/risingwave/pull/19597)
 - `e2a140e7d1a7d5035ca0d6af19c72d427ade6c3d` [refactor(meta): extract common method to inject initial barrier (#19622)](https://github.com/risingwavelabs/risingwave/pull/19622)
 - `303ab11cff3f0b0559fa5fe48a2abd788b601935` [fix(hummock): fix hummock_trace panic with log store  (#19606)](https://github.com/risingwavelabs/risingwave/pull/19606)
 - `4dddbac1fd76ec5fc6eb709daf23083a778d7f53` [refactor(iceberg): support eq delete merge on read with hash join (#19126)](https://github.com/risingwavelabs/risingwave/pull/19126)
