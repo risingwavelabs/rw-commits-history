@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `32e98c00f967d578e94958c4de5380af0782edca` [feat(ctl): migrate legacy object with new prefix strategy (#19593)](https://github.com/risingwavelabs/risingwave/pull/19593)
+- `a6cd45fbcf9ced630bee4c7a3ba959ed0382fdda` [doc(streaming): Add docs for degree table in hash join (#19628)](https://github.com/risingwavelabs/risingwave/pull/19628)
 
 ## nightly-20241201
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4b1cb92e5ce37c72139f933b525ed9c41aec575f...22b11ef413b357ab736a7986907de541c1cd710b)
