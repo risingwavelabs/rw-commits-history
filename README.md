@@ -316,7 +316,6 @@
 - `20231206` `3733e7cf5b9b08fb4fafea1b589cf2433cb5ed14`
 - `20231205` `6bf5d47341333a55fcc8ef1d77bbf997133bad37`
 - `20231204` `2461651c9419c7093778343e60127508df75bee2`
-- `20231203` `0b6184d8fce4275e9a81a2d66c171c20d2b7a529`
 </details>
 
 # Commit history
@@ -4094,18 +4093,4 @@
 - `4a51bd7e379298bc10b53b60adeeaffa7fdc5bec` [fix(storage): fix compactor sst switch condition (#13790)](https://github.com/risingwavelabs/risingwave/pull/13790)
 
 ## nightly-20231204
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0b6184d8fce4275e9a81a2d66c171c20d2b7a529...2461651c9419c7093778343e60127508df75bee2)
 - `2461651c9419c7093778343e60127508df75bee2` [fix(udf): fix index-out-of-bound error when string or string list is large. (#13781)](https://github.com/risingwavelabs/risingwave/pull/13781)
-- `e41b62f9aaa82fd60407c20546932f5296b0d41d` [fix: revert #13278 & #13390 for include syntax (#13785)](https://github.com/risingwavelabs/risingwave/pull/13785)
-- `f33a5d0c02fb758192632d29abf5603fdd7d3a92` [feat: risectl debug dump support catalog (#13764)](https://github.com/risingwavelabs/risingwave/pull/13764)
-- `c9069c9b4fc21813e4cc4d1b71d70c32051ebf35` [fix: don't clean in-memory tracker when clean persist table catalog (#13783)](https://github.com/risingwavelabs/risingwave/pull/13783)
-- `d7d56bd3a7947918b2be638d7b7b4aca715480cb` [fix(sink): construct java.sql.time/date object with a long type (#13651)](https://github.com/risingwavelabs/risingwave/pull/13651)
-- `666e154e03d666757540fe3dec124f17cefc587c` [chore(deps-dev): Bump @adobe/css-tools from 4.3.1 to 4.3.2 in /dashboard (#13759)](https://github.com/risingwavelabs/risingwave/pull/13759)
-- `5831af86c1617d9c0509e9e19252e5b828eec918` [feat(meta): try to record panic info from worker nodes (#13779)](https://github.com/risingwavelabs/risingwave/pull/13779)
-- `db2239dc24332ef7545fe6c04663b9c8ee017828` [build: upgrade to openssl@3 (#13746)](https://github.com/risingwavelabs/risingwave/pull/13746)
-- `a033c30fa25d92d7ed147b68aa7286a8dfe0e12b` [feat(cdc): add cdc backfill grafana metrics (#13777)](https://github.com/risingwavelabs/risingwave/pull/13777)
-- `a73d940995ea474f7da5a06466d0a2ee5809886c` [refactor(meta): make unregister compaction group member fail fast (#13757)](https://github.com/risingwavelabs/risingwave/pull/13757)
-- `ba4b196bf6a49a4288f1cbd91f37c8736a57ce9f` [chore: Update README.md (#13770)](https://github.com/risingwavelabs/risingwave/pull/13770)
-
-## nightly-20231203
-- `0b6184d8fce4275e9a81a2d66c171c20d2b7a529` [doc(docker): add comments for minio disk full issue (#13768)](https://github.com/risingwavelabs/risingwave/pull/13768)
