@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241202` `396099459bb6e456539bb94def7a68aff856db15`
 - `20241201` `22b11ef413b357ab736a7986907de541c1cd710b`
 - `20241128` `4b1cb92e5ce37c72139f933b525ed9c41aec575f`
 - `20241127` `c45327bae82869699328a47e70919d38e783df2d`
@@ -324,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241202
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/22b11ef413b357ab736a7986907de541c1cd710b...396099459bb6e456539bb94def7a68aff856db15)
 - `396099459bb6e456539bb94def7a68aff856db15` [feat(meta): support reload runtime info of single database (#19597)](https://github.com/risingwavelabs/risingwave/pull/19597)
 - `e2a140e7d1a7d5035ca0d6af19c72d427ade6c3d` [refactor(meta): extract common method to inject initial barrier (#19622)](https://github.com/risingwavelabs/risingwave/pull/19622)
 - `303ab11cff3f0b0559fa5fe48a2abd788b601935` [fix(hummock): fix hummock_trace panic with log store  (#19606)](https://github.com/risingwavelabs/risingwave/pull/19606)
