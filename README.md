@@ -324,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6f2d0c33848871a5f24b2537e0c713fc66afcf96` [feat(frontend): support alter source pause/resume (#19636)](https://github.com/risingwavelabs/risingwave/pull/19636)
 - `845ed68183de5cb63525417063eb4b30064b9707` [feat: add rw_internal_table_info to identity which streaming job the internal table belongs (#19642)](https://github.com/risingwavelabs/risingwave/pull/19642)
 
 ## nightly-20241202
