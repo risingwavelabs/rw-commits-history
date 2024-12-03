@@ -316,7 +316,6 @@
 - `20231207` `2f16540a7f26390e609e44d5165987559dd4c252`
 - `20231206` `3733e7cf5b9b08fb4fafea1b589cf2433cb5ed14`
 - `20231205` `6bf5d47341333a55fcc8ef1d77bbf997133bad37`
-- `20231204` `2461651c9419c7093778343e60127508df75bee2`
 </details>
 
 # Commit history
@@ -325,6 +324,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `404998e422ff7e4727042306dceebf862d8dc11e` [feat(stream): create cdc table reader and source data stream with retry (#19467)](https://github.com/risingwavelabs/risingwave/pull/19467)
 
 ## nightly-20241203
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/396099459bb6e456539bb94def7a68aff856db15...e3337876903cbfa53231407f39a58f1ec53b03d5)
@@ -4099,17 +4099,4 @@
 - `59d56c39a1b46680d11a60eee54171d88cfed9c6` [fix(udf): prevent continuous retries on connection error (#13804)](https://github.com/risingwavelabs/risingwave/pull/13804)
 
 ## nightly-20231205
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2461651c9419c7093778343e60127508df75bee2...6bf5d47341333a55fcc8ef1d77bbf997133bad37)
 - `6bf5d47341333a55fcc8ef1d77bbf997133bad37` [test(connector): add redis-sink compatible test (#13772)](https://github.com/risingwavelabs/risingwave/pull/13772)
-- `4f90e37369fd49703d19954c5e533e05fbc7d331` [refactor(error): clean-up direct error formatting (part 1) (#13763)](https://github.com/risingwavelabs/risingwave/pull/13763)
-- `7d1e9d20d5a1dae2c75968da934563b0712db6c2` [fix: apply `RW_WORKER_THREADS` for all runtimes (#13810)](https://github.com/risingwavelabs/risingwave/pull/13810)
-- `dfb4bc2782a39c73c3b34ec04d19a843bcc09872` [fix(optimizer):  do not push temporal filter predicate passing the temporal join (#13549)](https://github.com/risingwavelabs/risingwave/pull/13549)
-- `1c453f43463a0c1813c38d3c9435258da4efb2f3` [chore(integration_tests): remove invalid mysql type alias (#13721)](https://github.com/risingwavelabs/risingwave/pull/13721)
-- `51c76aaa13ac4e81b61d37a07be1ac7afc6631a9` [feat(streaming): memory-size-based back-pressure in exchange (#13775)](https://github.com/risingwavelabs/risingwave/pull/13775)
-- `5454f6e2d359037280b795dfe444a0b6cf5303cc` [refactor(cdc): clean-up cdc backfill code for the create table xx with (..) syntax (#13765)](https://github.com/risingwavelabs/risingwave/pull/13765)
-- `e0cfb82d96c281a4b5fa4114fc8064fae093c650` [feat(expr): add json path functions (#13568)](https://github.com/risingwavelabs/risingwave/pull/13568)
-- `42979141d7d9a1ffaa916e80d4205a85573d4833` [fix(udf): fix memory leak in Java UDF (#13789)](https://github.com/risingwavelabs/risingwave/pull/13789)
-- `4a51bd7e379298bc10b53b60adeeaffa7fdc5bec` [fix(storage): fix compactor sst switch condition (#13790)](https://github.com/risingwavelabs/risingwave/pull/13790)
-
-## nightly-20231204
-- `2461651c9419c7093778343e60127508df75bee2` [fix(udf): fix index-out-of-bound error when string or string list is large. (#13781)](https://github.com/risingwavelabs/risingwave/pull/13781)
