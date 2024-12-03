@@ -324,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e3337876903cbfa53231407f39a58f1ec53b03d5` [feat(storage): Provide table id filter for sstable_iterator (#19582)](https://github.com/risingwavelabs/risingwave/pull/19582)
+- `c2ee827eeed2912a1c94ceca657d3fa36da43851` [refactor(meta): generalize replace table to replace job (#18935)](https://github.com/risingwavelabs/risingwave/pull/18935)
+- `70d0275561601f5ad020e2e4e373b8675c923d06` [feat: remove flink mock sink from Java connector codebase (#19653)](https://github.com/risingwavelabs/risingwave/pull/19653)
 - `d60649262c4fa4ce841124e8ee75b24175923b5e` [fix(storage): fix the atomicity problem after split/merge operation (#19625)](https://github.com/risingwavelabs/risingwave/pull/19625)
 - `78e39a8b517561a9054a5d422b74a46df5c85ca4` [chore(dep): switch foyer to v0.13.0 release version (#19648)](https://github.com/risingwavelabs/risingwave/pull/19648)
 - `e9e3b24442cc55755c826ec9264fff909e553ef7` [chore: set recursion_limit for sink bench crate (#19651)](https://github.com/risingwavelabs/risingwave/pull/19651)
