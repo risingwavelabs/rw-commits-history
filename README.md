@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d60649262c4fa4ce841124e8ee75b24175923b5e` [fix(storage): fix the atomicity problem after split/merge operation (#19625)](https://github.com/risingwavelabs/risingwave/pull/19625)
+- `78e39a8b517561a9054a5d422b74a46df5c85ca4` [chore(dep): switch foyer to v0.13.0 release version (#19648)](https://github.com/risingwavelabs/risingwave/pull/19648)
 - `e9e3b24442cc55755c826ec9264fff909e553ef7` [chore: set recursion_limit for sink bench crate (#19651)](https://github.com/risingwavelabs/risingwave/pull/19651)
 - `a41866fcd3b6e722e19355c60a839b76319f6301` [feat(metrics): add internal latency of actors, MVs and sinks (#19639)](https://github.com/risingwavelabs/risingwave/pull/19639)
 - `c3750ebbbe80cd979ff236d621acb48e3c8f7e16` [chore(deps): Bump pprof from 0.13.0 to 0.14.0 (#19340)](https://github.com/risingwavelabs/risingwave/pull/19340)
