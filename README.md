@@ -324,6 +324,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c3750ebbbe80cd979ff236d621acb48e3c8f7e16` [chore(deps): Bump pprof from 0.13.0 to 0.14.0 (#19340)](https://github.com/risingwavelabs/risingwave/pull/19340)
+- `84566dc586c8c2e4d03971180a77427ab0b512c7` [feat: make Nats jetstream Source work in parallel (#19529)](https://github.com/risingwavelabs/risingwave/pull/19529)
+- `563c70fda37b83d44415dc448416ecaaca85058f` [refactor(meta): unify DdlType and StreamingJobType (#19630)](https://github.com/risingwavelabs/risingwave/pull/19630)
+- `2c0d286ddb2ef25e722dc330550eec938676d2fd` [fix: bind under schema path for function, connection, subscription to avoid misjudgment of not found error (#19640)](https://github.com/risingwavelabs/risingwave/pull/19640)
 - `e9c15eb55cc246097eff55b7624124d45167343b` [chore(deps): Bump bytes from 1.7.2 to 1.9.0 (#19626)](https://github.com/risingwavelabs/risingwave/pull/19626)
 - `69158c47d16d88569a3ef3adf061cfa2f0721211` [feat: telemetry for connection create and ref (#19638)](https://github.com/risingwavelabs/risingwave/pull/19638)
 - `6f2d0c33848871a5f24b2537e0c713fc66afcf96` [feat(frontend): support alter source pause/resume (#19636)](https://github.com/risingwavelabs/risingwave/pull/19636)
