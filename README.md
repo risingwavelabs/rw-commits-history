@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241203` `e3337876903cbfa53231407f39a58f1ec53b03d5`
 - `20241202` `396099459bb6e456539bb94def7a68aff856db15`
 - `20241201` `22b11ef413b357ab736a7986907de541c1cd710b`
 - `20241128` `4b1cb92e5ce37c72139f933b525ed9c41aec575f`
@@ -324,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241203
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/396099459bb6e456539bb94def7a68aff856db15...e3337876903cbfa53231407f39a58f1ec53b03d5)
 - `e3337876903cbfa53231407f39a58f1ec53b03d5` [feat(storage): Provide table id filter for sstable_iterator (#19582)](https://github.com/risingwavelabs/risingwave/pull/19582)
 - `c2ee827eeed2912a1c94ceca657d3fa36da43851` [refactor(meta): generalize replace table to replace job (#18935)](https://github.com/risingwavelabs/risingwave/pull/18935)
 - `70d0275561601f5ad020e2e4e373b8675c923d06` [feat: remove flink mock sink from Java connector codebase (#19653)](https://github.com/risingwavelabs/risingwave/pull/19653)
