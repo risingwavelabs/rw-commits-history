@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e9e3b24442cc55755c826ec9264fff909e553ef7` [chore: set recursion_limit for sink bench crate (#19651)](https://github.com/risingwavelabs/risingwave/pull/19651)
+- `a41866fcd3b6e722e19355c60a839b76319f6301` [feat(metrics): add internal latency of actors, MVs and sinks (#19639)](https://github.com/risingwavelabs/risingwave/pull/19639)
 - `c3750ebbbe80cd979ff236d621acb48e3c8f7e16` [chore(deps): Bump pprof from 0.13.0 to 0.14.0 (#19340)](https://github.com/risingwavelabs/risingwave/pull/19340)
 - `84566dc586c8c2e4d03971180a77427ab0b512c7` [feat: make Nats jetstream Source work in parallel (#19529)](https://github.com/risingwavelabs/risingwave/pull/19529)
 - `563c70fda37b83d44415dc448416ecaaca85058f` [refactor(meta): unify DdlType and StreamingJobType (#19630)](https://github.com/risingwavelabs/risingwave/pull/19630)
