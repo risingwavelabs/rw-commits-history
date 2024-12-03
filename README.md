@@ -324,6 +324,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e9c15eb55cc246097eff55b7624124d45167343b` [chore(deps): Bump bytes from 1.7.2 to 1.9.0 (#19626)](https://github.com/risingwavelabs/risingwave/pull/19626)
+- `69158c47d16d88569a3ef3adf061cfa2f0721211` [feat: telemetry for connection create and ref (#19638)](https://github.com/risingwavelabs/risingwave/pull/19638)
 - `6f2d0c33848871a5f24b2537e0c713fc66afcf96` [feat(frontend): support alter source pause/resume (#19636)](https://github.com/risingwavelabs/risingwave/pull/19636)
 - `845ed68183de5cb63525417063eb4b30064b9707` [feat: add rw_internal_table_info to identity which streaming job the internal table belongs (#19642)](https://github.com/risingwavelabs/risingwave/pull/19642)
 
