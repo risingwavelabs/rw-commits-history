@@ -19,7 +19,7 @@ def get_build(page):
 
 
 nightly_builds = []
-earliest = "20230901"
+earliest = "20240901"
 
 
 def do(builds):
