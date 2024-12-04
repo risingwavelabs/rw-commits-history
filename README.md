@@ -98,6 +98,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a38c4d111ce0514356c89043f1e373e707c73ad8` [fix(iceberg): bypass iceberg partition table optimization (#19655)](https://github.com/risingwavelabs/risingwave/pull/19655)
 - `206b10bf70c7ab918817821643da5d9d23beece5` [fix(snapshot-backfill): do mapping_chunk with output indices to all chunks (#19665)](https://github.com/risingwavelabs/risingwave/pull/19665)
 - `0b7c43cfde74429c62305144259abe8efe5c35fe` [chore(deps): Bump governor from 0.6.0 to 0.6.3 (#19662)](https://github.com/risingwavelabs/risingwave/pull/19662)
 - `ccd46203faa8b102f65120a99a695c5958560f40` [refactor(meta): insert time travel metadata in batch (#19657)](https://github.com/risingwavelabs/risingwave/pull/19657)
