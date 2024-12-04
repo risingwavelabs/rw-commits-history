@@ -98,6 +98,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ccd46203faa8b102f65120a99a695c5958560f40` [refactor(meta): insert time travel metadata in batch (#19657)](https://github.com/risingwavelabs/risingwave/pull/19657)
 - `404998e422ff7e4727042306dceebf862d8dc11e` [feat(stream): create cdc table reader and source data stream with retry (#19467)](https://github.com/risingwavelabs/risingwave/pull/19467)
 
 ## nightly-20241203
