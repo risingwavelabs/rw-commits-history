@@ -95,6 +95,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `59fa5f882377629798ade81fab64ad54eb82a086` [feat(iceberg): support iceberg engine table (in local env) (#19577)](https://github.com/risingwavelabs/risingwave/pull/19577)
+- `45d266424ef4040795d97c6f744e021b2a6a2b8a` [feat: connection for schema registry (#19685)](https://github.com/risingwavelabs/risingwave/pull/19685)
 - `5ba9a73192262d2d417b1ecc86e33297fc6b9289` [fix(storage): fix backward compact (#19669)](https://github.com/risingwavelabs/risingwave/pull/19669)
 - `80f39766c1b8825846e008aef39f279f93d83052` [refactor(file source): emit source messages line by line directly from opendal reader (#19654)](https://github.com/risingwavelabs/risingwave/pull/19654)
 - `f0a91dfa5bef8474aa6f93ed4b71ef6b37d39327` [feat: add support for dml_rate_limit (#19679)](https://github.com/risingwavelabs/risingwave/pull/19679)
