@@ -96,6 +96,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5ba9a73192262d2d417b1ecc86e33297fc6b9289` [fix(storage): fix backward compact (#19669)](https://github.com/risingwavelabs/risingwave/pull/19669)
+- `80f39766c1b8825846e008aef39f279f93d83052` [refactor(file source): emit source messages line by line directly from opendal reader (#19654)](https://github.com/risingwavelabs/risingwave/pull/19654)
 - `f0a91dfa5bef8474aa6f93ed4b71ef6b37d39327` [feat: add support for dml_rate_limit (#19679)](https://github.com/risingwavelabs/risingwave/pull/19679)
 - `623a796005cc96437cd3b7d3a6d6f4bef8891ab0` [chore(deps): Bump linkme from 0.3.22 to 0.3.24 (#19682)](https://github.com/risingwavelabs/risingwave/pull/19682)
 
