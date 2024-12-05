@@ -96,6 +96,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f0a91dfa5bef8474aa6f93ed4b71ef6b37d39327` [feat: add support for dml_rate_limit (#19679)](https://github.com/risingwavelabs/risingwave/pull/19679)
 - `623a796005cc96437cd3b7d3a6d6f4bef8891ab0` [chore(deps): Bump linkme from 0.3.22 to 0.3.24 (#19682)](https://github.com/risingwavelabs/risingwave/pull/19682)
 
 ## nightly-20241204
