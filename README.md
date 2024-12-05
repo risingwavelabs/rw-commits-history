@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241205` `59fa5f882377629798ade81fab64ad54eb82a086`
 - `20241204` `a38c4d111ce0514356c89043f1e373e707c73ad8`
 - `20241203` `e3337876903cbfa53231407f39a58f1ec53b03d5`
 - `20241202` `396099459bb6e456539bb94def7a68aff856db15`
@@ -94,6 +95,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241205
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a38c4d111ce0514356c89043f1e373e707c73ad8...59fa5f882377629798ade81fab64ad54eb82a086)
 - `59fa5f882377629798ade81fab64ad54eb82a086` [feat(iceberg): support iceberg engine table (in local env) (#19577)](https://github.com/risingwavelabs/risingwave/pull/19577)
 - `45d266424ef4040795d97c6f744e021b2a6a2b8a` [feat: connection for schema registry (#19685)](https://github.com/risingwavelabs/risingwave/pull/19685)
 - `5ba9a73192262d2d417b1ecc86e33297fc6b9289` [fix(storage): fix backward compact (#19669)](https://github.com/risingwavelabs/risingwave/pull/19669)
