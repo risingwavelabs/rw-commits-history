@@ -95,6 +95,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `733342764be327921741748db443ff23286cab63` [refactor(connector): re-arrange the `connector::parser` module for better readibility (#19697)](https://github.com/risingwavelabs/risingwave/pull/19697)
 - `faf660dde20582bd17e0c1ceaa5a7e24904ce108` [feat(frontend): Add struct scan and simply optimise struct filter. (#19425)](https://github.com/risingwavelabs/risingwave/pull/19425)
 
 ## nightly-20241205
