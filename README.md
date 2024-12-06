@@ -95,6 +95,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `faf660dde20582bd17e0c1ceaa5a7e24904ce108` [feat(frontend): Add struct scan and simply optimise struct filter. (#19425)](https://github.com/risingwavelabs/risingwave/pull/19425)
 
 ## nightly-20241205
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a38c4d111ce0514356c89043f1e373e707c73ad8...59fa5f882377629798ade81fab64ad54eb82a086)
