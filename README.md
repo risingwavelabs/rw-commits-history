@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241206` `733342764be327921741748db443ff23286cab63`
 - `20241205` `59fa5f882377629798ade81fab64ad54eb82a086`
 - `20241204` `a38c4d111ce0514356c89043f1e373e707c73ad8`
 - `20241203` `e3337876903cbfa53231407f39a58f1ec53b03d5`
@@ -95,6 +96,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241206
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/59fa5f882377629798ade81fab64ad54eb82a086...733342764be327921741748db443ff23286cab63)
 - `733342764be327921741748db443ff23286cab63` [refactor(connector): re-arrange the `connector::parser` module for better readibility (#19697)](https://github.com/risingwavelabs/risingwave/pull/19697)
 - `faf660dde20582bd17e0c1ceaa5a7e24904ce108` [feat(frontend): Add struct scan and simply optimise struct filter. (#19425)](https://github.com/risingwavelabs/risingwave/pull/19425)
 
