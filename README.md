@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241207` `fcac3111a1524e2c2f5eca2045260a7baa20b8e4`
 - `20241206` `733342764be327921741748db443ff23286cab63`
 - `20241205` `59fa5f882377629798ade81fab64ad54eb82a086`
 - `20241204` `a38c4d111ce0514356c89043f1e373e707c73ad8`
@@ -95,6 +96,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241207
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/733342764be327921741748db443ff23286cab63...fcac3111a1524e2c2f5eca2045260a7baa20b8e4)
 - `fcac3111a1524e2c2f5eca2045260a7baa20b8e4` [refactor(cdc source): merge cdc heartbeat chunk builder & data chunk builder (#19671)](https://github.com/risingwavelabs/risingwave/pull/19671)
 
 ## nightly-20241206
