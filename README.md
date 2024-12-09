@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241209` `4da6bdacf3876713f806569922a1443e69b3b6df`
 - `20241208` `fcac3111a1524e2c2f5eca2045260a7baa20b8e4`
 - `20241206` `733342764be327921741748db443ff23286cab63`
 - `20241205` `59fa5f882377629798ade81fab64ad54eb82a086`
@@ -96,6 +97,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241209
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fcac3111a1524e2c2f5eca2045260a7baa20b8e4...4da6bdacf3876713f806569922a1443e69b3b6df)
 - `4da6bdacf3876713f806569922a1443e69b3b6df` [feat(storage): avoid using box dyn for storage table merge sort (#19713)](https://github.com/risingwavelabs/risingwave/pull/19713)
 - `430fbb9f39dc2dc15193b8b13fb735fede42518f` [chore: fix some typos (#19710)](https://github.com/risingwavelabs/risingwave/pull/19710)
 - `9b26a969ac78805121cd6416dca67e32b0cefb14` [refactor(meta): extract code for connecting sql meta store (#19603)](https://github.com/risingwavelabs/risingwave/pull/19603)
