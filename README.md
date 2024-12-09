@@ -96,6 +96,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `430fbb9f39dc2dc15193b8b13fb735fede42518f` [chore: fix some typos (#19710)](https://github.com/risingwavelabs/risingwave/pull/19710)
+- `9b26a969ac78805121cd6416dca67e32b0cefb14` [refactor(meta): extract code for connecting sql meta store (#19603)](https://github.com/risingwavelabs/risingwave/pull/19603)
 - `7005c0591e7f2f58c28d8615c87d7aab3d604f8f` [feat(storage): support online cache resize via risectl (#19677)](https://github.com/risingwavelabs/risingwave/pull/19677)
 - `f3ed1de67ace232cb09b196ee50e06e6f9f74bd2` [refactor(source): extract avro inner schema precisely (#19701)](https://github.com/risingwavelabs/risingwave/pull/19701)
 
