@@ -96,6 +96,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f3ed1de67ace232cb09b196ee50e06e6f9f74bd2` [refactor(source): extract avro inner schema precisely (#19701)](https://github.com/risingwavelabs/risingwave/pull/19701)
 
 ## nightly-20241208
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/733342764be327921741748db443ff23286cab63...fcac3111a1524e2c2f5eca2045260a7baa20b8e4)
