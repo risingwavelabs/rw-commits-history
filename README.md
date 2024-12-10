@@ -97,6 +97,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae` [feat(sink): add sink throughput( mb/s) metrics  (#19587)](https://github.com/risingwavelabs/risingwave/pull/19587)
 - `152cab20424d883722d62a2ace5a10280a35197b` [refactor(batch): simplify batch executor builder (#19731)](https://github.com/risingwavelabs/risingwave/pull/19731)
 - `d2bb1db634d2ee62da167bcff1199e86266810aa` [feat(meta): support replace source (#19650)](https://github.com/risingwavelabs/risingwave/pull/19650)
 - `5d4dbd4fdef95fd505a18eefdcee2a2a17a8eecf` [feat(meta): ensure recovery is finished after recover command returns (#19737)](https://github.com/risingwavelabs/risingwave/pull/19737)
