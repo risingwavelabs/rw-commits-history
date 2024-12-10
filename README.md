@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241210` `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae`
 - `20241209` `4da6bdacf3876713f806569922a1443e69b3b6df`
 - `20241208` `fcac3111a1524e2c2f5eca2045260a7baa20b8e4`
 - `20241206` `733342764be327921741748db443ff23286cab63`
@@ -97,6 +98,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `87d0bb42b192943f628839afa10a044c714c2257` [fix(iceberg): fix iceberg config load (#19733)](https://github.com/risingwavelabs/risingwave/pull/19733)
+
+## nightly-20241210
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4da6bdacf3876713f806569922a1443e69b3b6df...2b819a39c9a52e764b9a98026bd5d4f93c04b6ae)
 - `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae` [feat(sink): add sink throughput( mb/s) metrics  (#19587)](https://github.com/risingwavelabs/risingwave/pull/19587)
 - `152cab20424d883722d62a2ace5a10280a35197b` [refactor(batch): simplify batch executor builder (#19731)](https://github.com/risingwavelabs/risingwave/pull/19731)
 - `d2bb1db634d2ee62da167bcff1199e86266810aa` [feat(meta): support replace source (#19650)](https://github.com/risingwavelabs/risingwave/pull/19650)
