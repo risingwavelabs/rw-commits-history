@@ -97,6 +97,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f31e762794a509cb41efd40aada8e083e4caff67` [chore(deps): Bump url from 2.5.0 to 2.5.4 (idna from 0.5.0 to 1.0.3) (#19730)](https://github.com/risingwavelabs/risingwave/pull/19730)
+- `6eadbde93d182b5d9df49fd3750a2859a4beb7c9` [feat(iceberg): refine iceberg table column datatype and name. (#19690)](https://github.com/risingwavelabs/risingwave/pull/19690)
+- `a2e53a556c4624bbdc31312a325682a7bdacc825` [fix: double RUST_MIN_STACK to resolve stack overflow (#19695)](https://github.com/risingwavelabs/risingwave/pull/19695)
 - `bd82fe328de30796f641971489e4e0f26ded4b5c` [perf(stream): add hash join memory benchmarking for cache refill (#19712)](https://github.com/risingwavelabs/risingwave/pull/19712)
 - `5585f51c34d9efa02b78b0040816365bd6e32f0d` [fix: missing dependency info of sql UDFs for streaming job ddl (#19716)](https://github.com/risingwavelabs/risingwave/pull/19716)
 - `2042dd4dd64cc103977b175b43d6edbd88c5a60e` [fix(file source): fix message offset of opendal source (#19721)](https://github.com/risingwavelabs/risingwave/pull/19721)
