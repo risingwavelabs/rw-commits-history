@@ -97,6 +97,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `152cab20424d883722d62a2ace5a10280a35197b` [refactor(batch): simplify batch executor builder (#19731)](https://github.com/risingwavelabs/risingwave/pull/19731)
+- `d2bb1db634d2ee62da167bcff1199e86266810aa` [feat(meta): support replace source (#19650)](https://github.com/risingwavelabs/risingwave/pull/19650)
+- `5d4dbd4fdef95fd505a18eefdcee2a2a17a8eecf` [feat(meta): ensure recovery is finished after recover command returns (#19737)](https://github.com/risingwavelabs/risingwave/pull/19737)
 - `f31e762794a509cb41efd40aada8e083e4caff67` [chore(deps): Bump url from 2.5.0 to 2.5.4 (idna from 0.5.0 to 1.0.3) (#19730)](https://github.com/risingwavelabs/risingwave/pull/19730)
 - `6eadbde93d182b5d9df49fd3750a2859a4beb7c9` [feat(iceberg): refine iceberg table column datatype and name. (#19690)](https://github.com/risingwavelabs/risingwave/pull/19690)
 - `a2e53a556c4624bbdc31312a325682a7bdacc825` [fix: double RUST_MIN_STACK to resolve stack overflow (#19695)](https://github.com/risingwavelabs/risingwave/pull/19695)
