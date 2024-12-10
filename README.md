@@ -98,6 +98,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `00ee6663785fc64633d987d65a709597370bcaa0` [test: workaround a flaky source test (#19729)](https://github.com/risingwavelabs/risingwave/pull/19729)
 - `c269f84cb9da1a50a5adb5f628f2fc648b843894` [chore(deps): Bump tower from 0.4.13 to 0.5.0 (#19663)](https://github.com/risingwavelabs/risingwave/pull/19663)
 - `4545b6e98c9ccc9a56b571feeac5ff37f3c00c44` [feat: add connector props and format options in rw_catalog (#19689)](https://github.com/risingwavelabs/risingwave/pull/19689)
 - `87d0bb42b192943f628839afa10a044c714c2257` [fix(iceberg): fix iceberg config load (#19733)](https://github.com/risingwavelabs/risingwave/pull/19733)
