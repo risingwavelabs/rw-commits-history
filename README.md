@@ -97,6 +97,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5585f51c34d9efa02b78b0040816365bd6e32f0d` [fix: missing dependency info of sql UDFs for streaming job ddl (#19716)](https://github.com/risingwavelabs/risingwave/pull/19716)
+- `2042dd4dd64cc103977b175b43d6edbd88c5a60e` [fix(file source): fix message offset of opendal source (#19721)](https://github.com/risingwavelabs/risingwave/pull/19721)
 
 ## nightly-20241209
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fcac3111a1524e2c2f5eca2045260a7baa20b8e4...4da6bdacf3876713f806569922a1443e69b3b6df)
