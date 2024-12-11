@@ -98,6 +98,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e` [feat(iceberg): make commit checkpoint interval default 60 for iceberg engine table (#19738)](https://github.com/risingwavelabs/risingwave/pull/19738)
 - `ffe63f1b20755b49f824949bab21964081a20b43` [feat(frontend): support alter source refresh schema for shared source (#19740)](https://github.com/risingwavelabs/risingwave/pull/19740)
 - `61d4a7918e1578a86404ee87d02ebc217a114fd1` [feat(barrier): support database failure isolation (part 1, meta) (#19664)](https://github.com/risingwavelabs/risingwave/pull/19664)
 - `f945379f2f9cd7052c279e7e6212f1a223f3b1ee` [fix(iceberg): fix iceberg engine table time travel (#19747)](https://github.com/risingwavelabs/risingwave/pull/19747)
