@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241211` `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e`
 - `20241210` `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae`
 - `20241209` `4da6bdacf3876713f806569922a1443e69b3b6df`
 - `20241208` `fcac3111a1524e2c2f5eca2045260a7baa20b8e4`
@@ -98,6 +99,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241211
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2b819a39c9a52e764b9a98026bd5d4f93c04b6ae...9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e)
 - `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e` [feat(iceberg): make commit checkpoint interval default 60 for iceberg engine table (#19738)](https://github.com/risingwavelabs/risingwave/pull/19738)
 - `ffe63f1b20755b49f824949bab21964081a20b43` [feat(frontend): support alter source refresh schema for shared source (#19740)](https://github.com/risingwavelabs/risingwave/pull/19740)
 - `61d4a7918e1578a86404ee87d02ebc217a114fd1` [feat(barrier): support database failure isolation (part 1, meta) (#19664)](https://github.com/risingwavelabs/risingwave/pull/19664)
