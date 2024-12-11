@@ -98,6 +98,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f945379f2f9cd7052c279e7e6212f1a223f3b1ee` [fix(iceberg): fix iceberg engine table time travel (#19747)](https://github.com/risingwavelabs/risingwave/pull/19747)
+- `57773adbec3d454ac0b4bda78c802b678d66f274` [chore(deps): Bump indexmap from 2.6.0 to 2.7.0 (#19748)](https://github.com/risingwavelabs/risingwave/pull/19748)
+- `0b60cc83314bc85be38218a926c390cb224f4d5b` [chore(deps): Bump anstream from 0.6.4 to 0.6.18 in /integration_tests/feature-store/server (#19718)](https://github.com/risingwavelabs/risingwave/pull/19718)
+- `11dac77ab7c3aa07ef16aa48d3198cf8048d0147` [feat(frontend): support alter add column for shared source (#19649)](https://github.com/risingwavelabs/risingwave/pull/19649)
 - `3bc2ccbc8e92595bb2d6df0ddfd6a4a2379e1788` [chore: bump `h2` to address hanging on long headers (#19752)](https://github.com/risingwavelabs/risingwave/pull/19752)
 - `119e17eee482b6add5d5cb6ceb3b84326bf5ce68` [refactor: add 2 pedantic clippy lints for strings (#19614)](https://github.com/risingwavelabs/risingwave/pull/19614)
 - `5954c98171639b6be7bf92d86e6812188b7eafdd` [fix(meta): do not release connection to in-memory SQLite for meta store (#19605)](https://github.com/risingwavelabs/risingwave/pull/19605)
