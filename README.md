@@ -98,6 +98,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ffe63f1b20755b49f824949bab21964081a20b43` [feat(frontend): support alter source refresh schema for shared source (#19740)](https://github.com/risingwavelabs/risingwave/pull/19740)
+- `61d4a7918e1578a86404ee87d02ebc217a114fd1` [feat(barrier): support database failure isolation (part 1, meta) (#19664)](https://github.com/risingwavelabs/risingwave/pull/19664)
 - `f945379f2f9cd7052c279e7e6212f1a223f3b1ee` [fix(iceberg): fix iceberg engine table time travel (#19747)](https://github.com/risingwavelabs/risingwave/pull/19747)
 - `57773adbec3d454ac0b4bda78c802b678d66f274` [chore(deps): Bump indexmap from 2.6.0 to 2.7.0 (#19748)](https://github.com/risingwavelabs/risingwave/pull/19748)
 - `0b60cc83314bc85be38218a926c390cb224f4d5b` [chore(deps): Bump anstream from 0.6.4 to 0.6.18 in /integration_tests/feature-store/server (#19718)](https://github.com/risingwavelabs/risingwave/pull/19718)
