@@ -98,6 +98,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3bc2ccbc8e92595bb2d6df0ddfd6a4a2379e1788` [chore: bump `h2` to address hanging on long headers (#19752)](https://github.com/risingwavelabs/risingwave/pull/19752)
 - `119e17eee482b6add5d5cb6ceb3b84326bf5ce68` [refactor: add 2 pedantic clippy lints for strings (#19614)](https://github.com/risingwavelabs/risingwave/pull/19614)
 - `5954c98171639b6be7bf92d86e6812188b7eafdd` [fix(meta): do not release connection to in-memory SQLite for meta store (#19605)](https://github.com/risingwavelabs/risingwave/pull/19605)
 - `67491ab7b9e9f5817ba1b289602b0a9492e607de` [feat(storage): avoid copy key slice in storage table iter when unnecessary (#19717)](https://github.com/risingwavelabs/risingwave/pull/19717)
