@@ -99,6 +99,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9cd0453e7cb79a4e1709671719758643a468c3b5` [feat(common): support switching from pg jdbc to pg native sinks (#19703)](https://github.com/risingwavelabs/risingwave/pull/19703)
 
 ## nightly-20241212
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e...8e1d60bb7d4ded2264760c8e7202301045e7420d)
