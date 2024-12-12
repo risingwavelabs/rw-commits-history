@@ -99,6 +99,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b3f8dbcb807cd7c3d6180949e0150c9d2f385c7c` [chore(deps): Bump actions/checkout from 1 to 4 (#19778)](https://github.com/risingwavelabs/risingwave/pull/19778)
+- `a201c5c66108d302b98e36f181f00df785c917ff` [chore(deps): Bump actions/setup-java from 3 to 4 (#19776)](https://github.com/risingwavelabs/risingwave/pull/19776)
+- `10f26f7da75047b5365986d67bf26c516952c37c` [chore(deps): Bump 8BitJonny/gh-get-current-pr from 2.2.0 to 3.0.0 (#19780)](https://github.com/risingwavelabs/risingwave/pull/19780)
+- `81c5221c33c89d97dc7dba4342f0479975e68102` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.5 to 0.0.6 (#19777)](https://github.com/risingwavelabs/risingwave/pull/19777)
+- `93f720f95f9634884a30cc38d4336ce48ed475a0` [chore(deps): Bump thehanimo/pr-title-checker from 1.4.2 to 1.4.3 (#19779)](https://github.com/risingwavelabs/risingwave/pull/19779)
 - `ca7dd29647f6d38ffc4261ac6424f7d510ee5d36` [ci: add dependabot for GHA & bump buildkite plugin versions (#19774)](https://github.com/risingwavelabs/risingwave/pull/19774)
 - `7301b413cb7654ccf7c796c16e0787b39a16e38c` [refactor(batch): split executors into a separate crate (#19742)](https://github.com/risingwavelabs/risingwave/pull/19742)
 - `1678ab1e956b3f3f423d6a94d1dedf6cd02a88f4` [fix(source): resolve avro `Ref` during `access` without hack (#19746)](https://github.com/risingwavelabs/risingwave/pull/19746)
