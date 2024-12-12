@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241212` `8e1d60bb7d4ded2264760c8e7202301045e7420d`
 - `20241211` `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e`
 - `20241210` `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae`
 - `20241209` `4da6bdacf3876713f806569922a1443e69b3b6df`
@@ -98,6 +99,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241212
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e...8e1d60bb7d4ded2264760c8e7202301045e7420d)
 - `8e1d60bb7d4ded2264760c8e7202301045e7420d` [fix(source): revert create source reader with retry (#19754)](https://github.com/risingwavelabs/risingwave/pull/19754)
 - `9f929d98ccf5af62d37fed987ca0f63ab03897b7` [chore(deps): Bump golang.org/x/crypto from 0.17.0 to 0.31.0 in /integration_tests/client-library/go (#19768)](https://github.com/risingwavelabs/risingwave/pull/19768)
 - `b3f8dbcb807cd7c3d6180949e0150c9d2f385c7c` [chore(deps): Bump actions/checkout from 1 to 4 (#19778)](https://github.com/risingwavelabs/risingwave/pull/19778)
