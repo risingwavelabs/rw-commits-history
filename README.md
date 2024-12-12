@@ -99,6 +99,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ca7dd29647f6d38ffc4261ac6424f7d510ee5d36` [ci: add dependabot for GHA & bump buildkite plugin versions (#19774)](https://github.com/risingwavelabs/risingwave/pull/19774)
+- `7301b413cb7654ccf7c796c16e0787b39a16e38c` [refactor(batch): split executors into a separate crate (#19742)](https://github.com/risingwavelabs/risingwave/pull/19742)
+- `1678ab1e956b3f3f423d6a94d1dedf6cd02a88f4` [fix(source): resolve avro `Ref` during `access` without hack (#19746)](https://github.com/risingwavelabs/risingwave/pull/19746)
+- `58adff73d872245e5248f677ddc78e8bf39ee453` [fix(streaming): fix compatibility upgrading from v2.1.0 for singleton vnode count (#19760)](https://github.com/risingwavelabs/risingwave/pull/19760)
+- `0e436c23884e63a2f3c5a9feea820bf72f86d166` [refactor(batch): register-style executor builder (#19741)](https://github.com/risingwavelabs/risingwave/pull/19741)
 - `013725dab5d9511c152d8576ae368e6d0a9531c9` [fix(snapshot-backfill): fix incorrect recv barrier and add test for recover (#19756)](https://github.com/risingwavelabs/risingwave/pull/19756)
 - `dcf33600d1240aa6a9f6e503bc8a8493de3d6ba1` [fix(meta): ensure order when restoring metadata (#19763)](https://github.com/risingwavelabs/risingwave/pull/19763)
 - `8d3015a3c342a3a35200173e02d25ac5076aac17` [chore: update PR template (#19762)](https://github.com/risingwavelabs/risingwave/pull/19762)
@@ -302,7 +307,6 @@
 - `185243618b23fea634237a70a438e3c3c7da7e2d` [chore: more logs for offline scaling (#19407)](https://github.com/risingwavelabs/risingwave/pull/19407)
 - `c325f42060679bff0dfde4aa5bd63529311d1128` [fix(optimizer): enforce input of `BatchMaxOneRow` to be singleton (#19452)](https://github.com/risingwavelabs/risingwave/pull/19452)
 - `5b224fab428f33e41146e7df157b863402ce607c` [chore(deps): Bump async-nats from 0.37.0 to 0.38.0 (#19465)](https://github.com/risingwavelabs/risingwave/pull/19465)
-- `5b9cf248a15ce1af4381809d0a3bdc464c4d3d31` [fix(meta): remove custom serde (#19463)](https://github.com/risingwavelabs/risingwave/pull/19463)
 - `5b9cf248a15ce1af4381809d0a3bdc464c4d3d31` [fix(meta): remove custom serde (#19463)](https://github.com/risingwavelabs/risingwave/pull/19463)
 - `1c29c810748296f65db0b3c7a03ab221f6312a3a` [fix(iceberg): Bump Icelake version to fix null metadata_log (#19397)](https://github.com/risingwavelabs/risingwave/pull/19397)
 - `a54a04507b4d6f300f15d8dd36519257b6e4ce1c` [feat: Remove cycle check for `sink into table`  in frontend (#19442)](https://github.com/risingwavelabs/risingwave/pull/19442)
