@@ -99,6 +99,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dcf33600d1240aa6a9f6e503bc8a8493de3d6ba1` [fix(meta): ensure order when restoring metadata (#19763)](https://github.com/risingwavelabs/risingwave/pull/19763)
 - `8d3015a3c342a3a35200173e02d25ac5076aac17` [chore: update PR template (#19762)](https://github.com/risingwavelabs/risingwave/pull/19762)
 - `572404dd561f2f7735103445ed905b04a3c8fd36` [chore: fix typo in comment (#19759)](https://github.com/risingwavelabs/risingwave/pull/19759)
 
@@ -224,7 +225,6 @@
 - `c45327bae82869699328a47e70919d38e783df2d` [fix(meta): locate upstream source fragment correctly for SourceBackfill (#19564)](https://github.com/risingwavelabs/risingwave/pull/19564)
 - `200ed05c35ce57a178c30def0380eba7d4e5dc4a` [feat(meta): add a rpc to fetch meta store endpoint (#19594)](https://github.com/risingwavelabs/risingwave/pull/19594)
 - `ac5cb4036ed5d1d28483ab296a3a8811f6addc90` [feat(barrier): maintain per database scheduled command queue (#19592)](https://github.com/risingwavelabs/risingwave/pull/19592)
-- `c121fa7ff0d51b668616c19638db028b1f56e2fa` [refactor(metrics): adapt to the new foyer metrics framework (#19580)](https://github.com/risingwavelabs/risingwave/pull/19580)
 - `c121fa7ff0d51b668616c19638db028b1f56e2fa` [refactor(metrics): adapt to the new foyer metrics framework (#19580)](https://github.com/risingwavelabs/risingwave/pull/19580)
 - `3faa0bf346665379bfa2e1295c71aee9f0e29c21` [refactor(common): consolidate `StructType` constructors (Part 2/2) (#19570)](https://github.com/risingwavelabs/risingwave/pull/19570)
 - `066978338838a0a1f98f93bc440d8ac30ab46126` [feat: add builtin function `timezone` (#19524)](https://github.com/risingwavelabs/risingwave/pull/19524)
