@@ -99,6 +99,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `013725dab5d9511c152d8576ae368e6d0a9531c9` [fix(snapshot-backfill): fix incorrect recv barrier and add test for recover (#19756)](https://github.com/risingwavelabs/risingwave/pull/19756)
 - `dcf33600d1240aa6a9f6e503bc8a8493de3d6ba1` [fix(meta): ensure order when restoring metadata (#19763)](https://github.com/risingwavelabs/risingwave/pull/19763)
 - `8d3015a3c342a3a35200173e02d25ac5076aac17` [chore: update PR template (#19762)](https://github.com/risingwavelabs/risingwave/pull/19762)
 - `572404dd561f2f7735103445ed905b04a3c8fd36` [chore: fix typo in comment (#19759)](https://github.com/risingwavelabs/risingwave/pull/19759)
@@ -301,6 +302,7 @@
 - `185243618b23fea634237a70a438e3c3c7da7e2d` [chore: more logs for offline scaling (#19407)](https://github.com/risingwavelabs/risingwave/pull/19407)
 - `c325f42060679bff0dfde4aa5bd63529311d1128` [fix(optimizer): enforce input of `BatchMaxOneRow` to be singleton (#19452)](https://github.com/risingwavelabs/risingwave/pull/19452)
 - `5b224fab428f33e41146e7df157b863402ce607c` [chore(deps): Bump async-nats from 0.37.0 to 0.38.0 (#19465)](https://github.com/risingwavelabs/risingwave/pull/19465)
+- `5b9cf248a15ce1af4381809d0a3bdc464c4d3d31` [fix(meta): remove custom serde (#19463)](https://github.com/risingwavelabs/risingwave/pull/19463)
 - `5b9cf248a15ce1af4381809d0a3bdc464c4d3d31` [fix(meta): remove custom serde (#19463)](https://github.com/risingwavelabs/risingwave/pull/19463)
 - `1c29c810748296f65db0b3c7a03ab221f6312a3a` [fix(iceberg): Bump Icelake version to fix null metadata_log (#19397)](https://github.com/risingwavelabs/risingwave/pull/19397)
 - `a54a04507b4d6f300f15d8dd36519257b6e4ce1c` [feat: Remove cycle check for `sink into table`  in frontend (#19442)](https://github.com/risingwavelabs/risingwave/pull/19442)
