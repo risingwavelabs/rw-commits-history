@@ -99,6 +99,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9f929d98ccf5af62d37fed987ca0f63ab03897b7` [chore(deps): Bump golang.org/x/crypto from 0.17.0 to 0.31.0 in /integration_tests/client-library/go (#19768)](https://github.com/risingwavelabs/risingwave/pull/19768)
 - `b3f8dbcb807cd7c3d6180949e0150c9d2f385c7c` [chore(deps): Bump actions/checkout from 1 to 4 (#19778)](https://github.com/risingwavelabs/risingwave/pull/19778)
 - `a201c5c66108d302b98e36f181f00df785c917ff` [chore(deps): Bump actions/setup-java from 3 to 4 (#19776)](https://github.com/risingwavelabs/risingwave/pull/19776)
 - `10f26f7da75047b5365986d67bf26c516952c37c` [chore(deps): Bump 8BitJonny/gh-get-current-pr from 2.2.0 to 3.0.0 (#19780)](https://github.com/risingwavelabs/risingwave/pull/19780)
