@@ -99,6 +99,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5a85b55a1946ff44d1f112a131b01ec038f87d6a` [feat: include subject in NATS source (#19708)](https://github.com/risingwavelabs/risingwave/pull/19708)
+- `a474f5e797e9ea18a963d978fb88497be6f52adb` [chore(deps): Bump nanoid from 3.3.6 to 3.3.8 in /dashboard (#19734)](https://github.com/risingwavelabs/risingwave/pull/19734)
 - `f1ac7661234bb890acc7a018e87249d3277468f6` [refactor(source): DRY decimal parsing (#19782)](https://github.com/risingwavelabs/risingwave/pull/19782)
 - `9cd0453e7cb79a4e1709671719758643a468c3b5` [feat(common): support switching from pg jdbc to pg native sinks (#19703)](https://github.com/risingwavelabs/risingwave/pull/19703)
 
