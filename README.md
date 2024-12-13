@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241213` `bfef38ef5d490165f57b28defecef670c20897df`
 - `20241212` `8e1d60bb7d4ded2264760c8e7202301045e7420d`
 - `20241211` `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e`
 - `20241210` `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae`
@@ -99,6 +100,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241213
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8e1d60bb7d4ded2264760c8e7202301045e7420d...bfef38ef5d490165f57b28defecef670c20897df)
 - `bfef38ef5d490165f57b28defecef670c20897df` [chore(deps): Bump tempfile, rustix, libc (#19339)](https://github.com/risingwavelabs/risingwave/pull/19339)
 - `6b800b4c0320f554eee2226b818c13652894cf23` [feat: add actor info to diagnose & dump diagnose on CI failure (#19787)](https://github.com/risingwavelabs/risingwave/pull/19787)
 - `5a85b55a1946ff44d1f112a131b01ec038f87d6a` [feat: include subject in NATS source (#19708)](https://github.com/risingwavelabs/risingwave/pull/19708)
