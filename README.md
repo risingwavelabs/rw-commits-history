@@ -100,6 +100,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5afda5e7427debd35062cf656f479951d08fda17` [feat(catalog): add pg_my_temp_schema and pg_get_viewdef(int4, bool… (#19750)](https://github.com/risingwavelabs/risingwave/pull/19750)
 
 ## nightly-20241213
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8e1d60bb7d4ded2264760c8e7202301045e7420d...bfef38ef5d490165f57b28defecef670c20897df)
