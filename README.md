@@ -101,6 +101,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `680c0982fc56445394a8eef558f4dd7dceab06be` [feat: allow generated column in cdc table (#19112)](https://github.com/risingwavelabs/risingwave/pull/19112)
 
 ## nightly-20241214
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bfef38ef5d490165f57b28defecef670c20897df...a520c1d493959bb79681e0af3d8000e879534821)
