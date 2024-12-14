@@ -100,6 +100,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a520c1d493959bb79681e0af3d8000e879534821` [feat(barrier): support database failure isolation (part 2, local) (#19579)](https://github.com/risingwavelabs/risingwave/pull/19579)
 - `5afda5e7427debd35062cf656f479951d08fda17` [feat(catalog): add pg_my_temp_schema and pg_get_viewdef(int4, bool… (#19750)](https://github.com/risingwavelabs/risingwave/pull/19750)
 
 ## nightly-20241213
