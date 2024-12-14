@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241214` `a520c1d493959bb79681e0af3d8000e879534821`
 - `20241213` `bfef38ef5d490165f57b28defecef670c20897df`
 - `20241212` `8e1d60bb7d4ded2264760c8e7202301045e7420d`
 - `20241211` `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e`
@@ -100,6 +101,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241214
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bfef38ef5d490165f57b28defecef670c20897df...a520c1d493959bb79681e0af3d8000e879534821)
 - `a520c1d493959bb79681e0af3d8000e879534821` [feat(barrier): support database failure isolation (part 2, local) (#19579)](https://github.com/risingwavelabs/risingwave/pull/19579)
 - `5afda5e7427debd35062cf656f479951d08fda17` [feat(catalog): add pg_my_temp_schema and pg_get_viewdef(int4, bool… (#19750)](https://github.com/risingwavelabs/risingwave/pull/19750)
 
