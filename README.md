@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241215` `680c0982fc56445394a8eef558f4dd7dceab06be`
 - `20241214` `a520c1d493959bb79681e0af3d8000e879534821`
 - `20241213` `bfef38ef5d490165f57b28defecef670c20897df`
 - `20241212` `8e1d60bb7d4ded2264760c8e7202301045e7420d`
@@ -101,6 +102,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241215
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a520c1d493959bb79681e0af3d8000e879534821...680c0982fc56445394a8eef558f4dd7dceab06be)
 - `680c0982fc56445394a8eef558f4dd7dceab06be` [feat: allow generated column in cdc table (#19112)](https://github.com/risingwavelabs/risingwave/pull/19112)
 
 ## nightly-20241214
