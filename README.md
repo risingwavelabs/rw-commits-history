@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4ed93eb9fcd75ddc67b77dcce2cc5b33c959c446` [fix(log): print java exception stack trace in logger (#19814)](https://github.com/risingwavelabs/risingwave/pull/19814)
 
 ## nightly-20241216
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/680c0982fc56445394a8eef558f4dd7dceab06be...492e2d7d03ccfb530692649503a3e74f8624844c)
