@@ -102,6 +102,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7bcb908039547d7b762d73b7d63f3d02e9b00a7b` [fix: alter shared source fresh schema will make it non-shared (#19802)](https://github.com/risingwavelabs/risingwave/pull/19802)
 
 ## nightly-20241215
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a520c1d493959bb79681e0af3d8000e879534821...680c0982fc56445394a8eef558f4dd7dceab06be)
