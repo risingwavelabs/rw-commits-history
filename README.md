@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241216` `492e2d7d03ccfb530692649503a3e74f8624844c`
 - `20241215` `680c0982fc56445394a8eef558f4dd7dceab06be`
 - `20241214` `a520c1d493959bb79681e0af3d8000e879534821`
 - `20241213` `bfef38ef5d490165f57b28defecef670c20897df`
@@ -123,6 +124,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241216
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/680c0982fc56445394a8eef558f4dd7dceab06be...492e2d7d03ccfb530692649503a3e74f8624844c)
 - `492e2d7d03ccfb530692649503a3e74f8624844c` [fix: add mview_definition in scaled actors (#19784)](https://github.com/risingwavelabs/risingwave/pull/19784)
 - `0b1c0e70b7f5b318471557d157d9b7b94d6d013f` [fix: session variable should not affect shared source (#19807)](https://github.com/risingwavelabs/risingwave/pull/19807)
 - `594ef891d30067f99d48ce5e515a3134a1df7f9a` [feat: replace icelake Transform with iceberg (#18625)](https://github.com/risingwavelabs/risingwave/pull/18625)
