@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `492e2d7d03ccfb530692649503a3e74f8624844c` [fix: add mview_definition in scaled actors (#19784)](https://github.com/risingwavelabs/risingwave/pull/19784)
 - `0b1c0e70b7f5b318471557d157d9b7b94d6d013f` [fix: session variable should not affect shared source (#19807)](https://github.com/risingwavelabs/risingwave/pull/19807)
 - `594ef891d30067f99d48ce5e515a3134a1df7f9a` [feat: replace icelake Transform with iceberg (#18625)](https://github.com/risingwavelabs/risingwave/pull/18625)
 - `45fcf8f33c3a5eb71dcf31c7f33d1ee80f7a832d` [refactor(frontend): split create_source into smaller mods (#19803)](https://github.com/risingwavelabs/risingwave/pull/19803)
