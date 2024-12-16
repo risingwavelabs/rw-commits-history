@@ -102,6 +102,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1e24ca482c29c08ba3aeb31ee44f672e3eaaef05` [fix(meta): fix order when restoring metadata (#19791)](https://github.com/risingwavelabs/risingwave/pull/19791)
+- `6b12555285f77aa4a4862b5c437ee5afd1abb4a6` [feat(ci): more meta backend agnostic e2e tests in `main-cron` (#19595)](https://github.com/risingwavelabs/risingwave/pull/19595)
+- `6759a081c8e789f30ce24747218320a06356d9a8` [chore(deps): Bump sysinfo from 0.32.0 to 0.33.0 (#19801)](https://github.com/risingwavelabs/risingwave/pull/19801)
 - `7bcb908039547d7b762d73b7d63f3d02e9b00a7b` [fix: alter shared source fresh schema will make it non-shared (#19802)](https://github.com/risingwavelabs/risingwave/pull/19802)
 
 ## nightly-20241215
