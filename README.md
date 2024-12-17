@@ -123,6 +123,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ee9f5005e7997c0921d6499968bba4e375f6ef9c` [chore(deps): Bump apache/skywalking-eyes from 775fe1ffda59b7e100aa144d0ef8d7beae17f97d to 3ea9df11bb3a5a85665377d1fd10c02edecf2c40 (#19819)](https://github.com/risingwavelabs/risingwave/pull/19819)
+- `cb6c013139ef93358ceb30f84acc13031ac46483` [chore(deps): Bump peter-evans/create-pull-request from 6 to 7 (#19818)](https://github.com/risingwavelabs/risingwave/pull/19818)
+- `123c5c01372f8f9a230d14bfe35b37957b045349` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.6 to 0.0.7 (#19817)](https://github.com/risingwavelabs/risingwave/pull/19817)
+- `a5c8c974676062fe36508fdf75592a17eedba7bb` [chore(deps): Bump crate-ci/typos from 1.28.2 to 1.28.3 (#19816)](https://github.com/risingwavelabs/risingwave/pull/19816)
 - `4ed93eb9fcd75ddc67b77dcce2cc5b33c959c446` [fix(log): print java exception stack trace in logger (#19814)](https://github.com/risingwavelabs/risingwave/pull/19814)
 
 ## nightly-20241216
