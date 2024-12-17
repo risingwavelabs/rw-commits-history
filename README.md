@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241217` `456181340e7f76e2ff4caa198d842c2a1768968f`
 - `20241216` `492e2d7d03ccfb530692649503a3e74f8624844c`
 - `20241215` `680c0982fc56445394a8eef558f4dd7dceab06be`
 - `20241214` `a520c1d493959bb79681e0af3d8000e879534821`
@@ -123,6 +124,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241217
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/492e2d7d03ccfb530692649503a3e74f8624844c...456181340e7f76e2ff4caa198d842c2a1768968f)
 - `456181340e7f76e2ff4caa198d842c2a1768968f` [fix(connector): file scan use correct path (#19793)](https://github.com/risingwavelabs/risingwave/pull/19793)
 - `6f14e7937f3524a29ede0f7da4a3e71d8b65a3b9` [chore: update package version to 2.3.0-alpha (#19823)](https://github.com/risingwavelabs/risingwave/pull/19823)
 - `7a35a6a2b94afcdca37b646ccb649d5c59a4ca47` [feat(error): include gRPC call path in error report (#19809)](https://github.com/risingwavelabs/risingwave/pull/19809)
