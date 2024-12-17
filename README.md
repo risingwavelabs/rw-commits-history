@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6f14e7937f3524a29ede0f7da4a3e71d8b65a3b9` [chore: update package version to 2.3.0-alpha (#19823)](https://github.com/risingwavelabs/risingwave/pull/19823)
 - `7a35a6a2b94afcdca37b646ccb649d5c59a4ca47` [feat(error): include gRPC call path in error report (#19809)](https://github.com/risingwavelabs/risingwave/pull/19809)
 - `ee9f5005e7997c0921d6499968bba4e375f6ef9c` [chore(deps): Bump apache/skywalking-eyes from 775fe1ffda59b7e100aa144d0ef8d7beae17f97d to 3ea9df11bb3a5a85665377d1fd10c02edecf2c40 (#19819)](https://github.com/risingwavelabs/risingwave/pull/19819)
 - `cb6c013139ef93358ceb30f84acc13031ac46483` [chore(deps): Bump peter-evans/create-pull-request from 6 to 7 (#19818)](https://github.com/risingwavelabs/risingwave/pull/19818)
