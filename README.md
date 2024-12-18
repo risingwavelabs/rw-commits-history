@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3cbc231b002eeef2e370ae15d067e4518b0f57dd` [refactor(meta): filter out SSTs for time travel metadata (#19694)](https://github.com/risingwavelabs/risingwave/pull/19694)
 - `1804c80e5bafb1022d35bf480945b1c54d9e513a` [feat: jdbc sink user password (#19822)](https://github.com/risingwavelabs/risingwave/pull/19822)
 - `569f9f9ad9cdb3aa8470ef076c8e6b2bdca56b32` [fix(ci): fix source test dependency issue (#19840)](https://github.com/risingwavelabs/risingwave/pull/19840)
 - `a74508342b03fd66a302f754bc23ee6063277996` [fix(ci): use correct image version for `ci-standard-env` (#19839)](https://github.com/risingwavelabs/risingwave/pull/19839)
