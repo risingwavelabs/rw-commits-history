@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241218` `94ccd00bc21a21de6b82b523f089f2bdd2c9979a`
 - `20241217` `456181340e7f76e2ff4caa198d842c2a1768968f`
 - `20241216` `492e2d7d03ccfb530692649503a3e74f8624844c`
 - `20241215` `680c0982fc56445394a8eef558f4dd7dceab06be`
@@ -123,6 +124,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241218
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/456181340e7f76e2ff4caa198d842c2a1768968f...94ccd00bc21a21de6b82b523f089f2bdd2c9979a)
 - `94ccd00bc21a21de6b82b523f089f2bdd2c9979a` [chore(deps): Bump twox-hash from 1.6.3 to 2.0.1 (#19258)](https://github.com/risingwavelabs/risingwave/pull/19258)
 - `fe84f69e1611dad37f0ea97ff9dcdcbbaa972b63` [feat(source): create source stream with retry during recovery (#19805)](https://github.com/risingwavelabs/risingwave/pull/19805)
 - `3cbc231b002eeef2e370ae15d067e4518b0f57dd` [refactor(meta): filter out SSTs for time travel metadata (#19694)](https://github.com/risingwavelabs/risingwave/pull/19694)
