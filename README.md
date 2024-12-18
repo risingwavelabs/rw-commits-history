@@ -123,6 +123,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `94ccd00bc21a21de6b82b523f089f2bdd2c9979a` [chore(deps): Bump twox-hash from 1.6.3 to 2.0.1 (#19258)](https://github.com/risingwavelabs/risingwave/pull/19258)
+- `fe84f69e1611dad37f0ea97ff9dcdcbbaa972b63` [feat(source): create source stream with retry during recovery (#19805)](https://github.com/risingwavelabs/risingwave/pull/19805)
 - `3cbc231b002eeef2e370ae15d067e4518b0f57dd` [refactor(meta): filter out SSTs for time travel metadata (#19694)](https://github.com/risingwavelabs/risingwave/pull/19694)
 - `1804c80e5bafb1022d35bf480945b1c54d9e513a` [feat: jdbc sink user password (#19822)](https://github.com/risingwavelabs/risingwave/pull/19822)
 - `569f9f9ad9cdb3aa8470ef076c8e6b2bdca56b32` [fix(ci): fix source test dependency issue (#19840)](https://github.com/risingwavelabs/risingwave/pull/19840)
