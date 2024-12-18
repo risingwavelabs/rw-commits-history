@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a74508342b03fd66a302f754bc23ee6063277996` [fix(ci): use correct image version for `ci-standard-env` (#19839)](https://github.com/risingwavelabs/risingwave/pull/19839)
 
 ## nightly-20241217
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/492e2d7d03ccfb530692649503a3e74f8624844c...456181340e7f76e2ff4caa198d842c2a1768968f)
