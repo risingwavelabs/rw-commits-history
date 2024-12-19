@@ -123,6 +123,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `34c93df5b62c88560a7a17a8c3756c54691e170c` [chore(deps): Bump next from 14.2.12 to 14.2.20 in /dashboard (#19844)](https://github.com/risingwavelabs/risingwave/pull/19844)
+- `5cffd1723b8ac3067770f7cbcb060a846c4f77f9` [chore: fix typos in func && doc && comment (#19796)](https://github.com/risingwavelabs/risingwave/pull/19796)
+- `c2389e25e86ca2be5c70cbfdd70dbbc3ed91599c` [chore(deps): Bump quick-xml from 0.36.1 to 0.37.1 (#19692)](https://github.com/risingwavelabs/risingwave/pull/19692)
+- `6ba4565b242949f30a65ebe29284900473648d8c` [chore(deps): Bump self_cell from 1.0.2 to 1.1.0 (#19767)](https://github.com/risingwavelabs/risingwave/pull/19767)
+- `5e66c86f2d4bf447bb2143e0f8365e6622a0321d` [chore(deps): Bump twox-hash from 2.0.1 to 2.1.0 (#19861)](https://github.com/risingwavelabs/risingwave/pull/19861)
 
 ## nightly-20241218
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/456181340e7f76e2ff4caa198d842c2a1768968f...94ccd00bc21a21de6b82b523f089f2bdd2c9979a)
