@@ -123,6 +123,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `adb8651f78e1bcb6cf9cf73db73111d86a009c34` [refactor(source): rename some source parser related types and methods (#19863)](https://github.com/risingwavelabs/risingwave/pull/19863)
+- `f3d8e0d58f759e51397ac1006d34f8405c119d8d` [refactor(source): respect max chunk size in source connector parser (#19698)](https://github.com/risingwavelabs/risingwave/pull/19698)
 - `29d697fd7c292417ca8ebe7991e0fecf6b1ffd5a` [chore(ci): migrate the qa service (#19862)](https://github.com/risingwavelabs/risingwave/pull/19862)
 - `34c93df5b62c88560a7a17a8c3756c54691e170c` [chore(deps): Bump next from 14.2.12 to 14.2.20 in /dashboard (#19844)](https://github.com/risingwavelabs/risingwave/pull/19844)
 - `5cffd1723b8ac3067770f7cbcb060a846c4f77f9` [chore: fix typos in func && doc && comment (#19796)](https://github.com/risingwavelabs/risingwave/pull/19796)
