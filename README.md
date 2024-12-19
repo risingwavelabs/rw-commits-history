@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241219` `adb8651f78e1bcb6cf9cf73db73111d86a009c34`
 - `20241218` `94ccd00bc21a21de6b82b523f089f2bdd2c9979a`
 - `20241217` `456181340e7f76e2ff4caa198d842c2a1768968f`
 - `20241216` `492e2d7d03ccfb530692649503a3e74f8624844c`
@@ -123,6 +124,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241219
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/94ccd00bc21a21de6b82b523f089f2bdd2c9979a...adb8651f78e1bcb6cf9cf73db73111d86a009c34)
 - `adb8651f78e1bcb6cf9cf73db73111d86a009c34` [refactor(source): rename some source parser related types and methods (#19863)](https://github.com/risingwavelabs/risingwave/pull/19863)
 - `f3d8e0d58f759e51397ac1006d34f8405c119d8d` [refactor(source): respect max chunk size in source connector parser (#19698)](https://github.com/risingwavelabs/risingwave/pull/19698)
 - `29d697fd7c292417ca8ebe7991e0fecf6b1ffd5a` [chore(ci): migrate the qa service (#19862)](https://github.com/risingwavelabs/risingwave/pull/19862)
