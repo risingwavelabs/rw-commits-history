@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241220` `5423dee87068c12b473181731862751dbccbb769`
 - `20241219` `adb8651f78e1bcb6cf9cf73db73111d86a009c34`
 - `20241218` `94ccd00bc21a21de6b82b523f089f2bdd2c9979a`
 - `20241217` `456181340e7f76e2ff4caa198d842c2a1768968f`
@@ -124,6 +125,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241220
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/adb8651f78e1bcb6cf9cf73db73111d86a009c34...5423dee87068c12b473181731862751dbccbb769)
 - `5423dee87068c12b473181731862751dbccbb769` [fix: use ring as default provider (#19874)](https://github.com/risingwavelabs/risingwave/pull/19874)
 - `709894d8a44025bdba7835e9d9c352a2a607ba84` [fix: Fix the panic issue with the parallelism() call (#19849)](https://github.com/risingwavelabs/risingwave/pull/19849)
 - `9dff1ac52450380ee5f8208b43841d5e228fb023` [feat: add graph check in risectl for sql meta store (#19764)](https://github.com/risingwavelabs/risingwave/pull/19764)
