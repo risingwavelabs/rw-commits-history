@@ -124,6 +124,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d6341b74be3f1913cc93993a95c147999df1ff74` [refactor: split catalog to smaller files (#19870)](https://github.com/risingwavelabs/risingwave/pull/19870)
 - `c022a36fadf9017ef71ed378314398b1cc1dff5f` [feat(sink): support deafult aws credentials for deltalake (#19557)](https://github.com/risingwavelabs/risingwave/pull/19557)
 
 ## nightly-20241219
