@@ -124,6 +124,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c022a36fadf9017ef71ed378314398b1cc1dff5f` [feat(sink): support deafult aws credentials for deltalake (#19557)](https://github.com/risingwavelabs/risingwave/pull/19557)
 
 ## nightly-20241219
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/94ccd00bc21a21de6b82b523f089f2bdd2c9979a...adb8651f78e1bcb6cf9cf73db73111d86a009c34)
