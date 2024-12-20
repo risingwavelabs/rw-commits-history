@@ -124,6 +124,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `de6eebc6cb562f8a9c316762e497b6afecfe5f0d` [feat(sink): add bigquery sink json string credentials (#19798)](https://github.com/risingwavelabs/risingwave/pull/19798)
 - `d6341b74be3f1913cc93993a95c147999df1ff74` [refactor: split catalog to smaller files (#19870)](https://github.com/risingwavelabs/risingwave/pull/19870)
 - `c022a36fadf9017ef71ed378314398b1cc1dff5f` [feat(sink): support deafult aws credentials for deltalake (#19557)](https://github.com/risingwavelabs/risingwave/pull/19557)
 
