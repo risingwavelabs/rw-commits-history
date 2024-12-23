@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3cd7241696a939274c709aa59508ad4d66b0ce0f` [fix(iceberg): fix commit_checkpoint_interval for iceberg table with connector (#19788)](https://github.com/risingwavelabs/risingwave/pull/19788)
 
 ## nightly-20241222
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/adb8651f78e1bcb6cf9cf73db73111d86a009c34...5423dee87068c12b473181731862751dbccbb769)
