@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6098f65dd3d628204c1ac59714ea657f7e3a19b6` [refactor(frontend): extract arguments for create table handler (#19898)](https://github.com/risingwavelabs/risingwave/pull/19898)
 - `e70eb591f6f505bf99a18d116b3b4373f406f424` [build: prune unused dependencies (#19885)](https://github.com/risingwavelabs/risingwave/pull/19885)
 - `a175600c5f1501dbe2282f57fac23840e4f2ab69` [fix(frontend): fix row filter with pk diff order type (#19797)](https://github.com/risingwavelabs/risingwave/pull/19797)
 
