@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241223` `001ac816136e643593894a4ceff1b19905e73d02`
 - `20241222` `5423dee87068c12b473181731862751dbccbb769`
 - `20241219` `adb8651f78e1bcb6cf9cf73db73111d86a009c34`
 - `20241218` `94ccd00bc21a21de6b82b523f089f2bdd2c9979a`
@@ -122,6 +123,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a175600c5f1501dbe2282f57fac23840e4f2ab69` [fix(frontend): fix row filter with pk diff order type (#19797)](https://github.com/risingwavelabs/risingwave/pull/19797)
+
+## nightly-20241223
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5423dee87068c12b473181731862751dbccbb769...001ac816136e643593894a4ceff1b19905e73d02)
 - `001ac816136e643593894a4ceff1b19905e73d02` [fix: change JNI sink normal logs to debug level (#19758)](https://github.com/risingwavelabs/risingwave/pull/19758)
 - `c5eadcc24fd2ccab3ea02e47e1962f814c934d88` [refactor(metrics): introduce UintGauge to keep consistency (#19896)](https://github.com/risingwavelabs/risingwave/pull/19896)
 - `3831db7a21cb49ee4c243a960bb0a8c583e9e347` [feat(dashboard): show current epoch and color for fragments & relations (#19829)](https://github.com/risingwavelabs/risingwave/pull/19829)
