@@ -122,6 +122,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3831db7a21cb49ee4c243a960bb0a8c583e9e347` [feat(dashboard): show current epoch and color for fragments & relations (#19829)](https://github.com/risingwavelabs/risingwave/pull/19829)
+- `26805d95beead9f855f100d6b17f7dfd8ab0dea6` [chore: update docker image to v2.1.0 (#19888)](https://github.com/risingwavelabs/risingwave/pull/19888)
 - `4aab01730c3b3c24944a2833e63179b6d208fa61` [feat(sink): support sink rate limit for external sink (#19660)](https://github.com/risingwavelabs/risingwave/pull/19660)
 - `eabb2d06fef2cdb98c097465e063949d88a2aff2` [fix: disable telemetry report with madsim (#19890)](https://github.com/risingwavelabs/risingwave/pull/19890)
 - `fcf0af32fda55c7903ae3ff1633538916285967a` [fix(frontend): check data type in column id generator (#19828)](https://github.com/risingwavelabs/risingwave/pull/19828)
