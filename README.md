@@ -122,6 +122,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `001ac816136e643593894a4ceff1b19905e73d02` [fix: change JNI sink normal logs to debug level (#19758)](https://github.com/risingwavelabs/risingwave/pull/19758)
+- `c5eadcc24fd2ccab3ea02e47e1962f814c934d88` [refactor(metrics): introduce UintGauge to keep consistency (#19896)](https://github.com/risingwavelabs/risingwave/pull/19896)
 - `3831db7a21cb49ee4c243a960bb0a8c583e9e347` [feat(dashboard): show current epoch and color for fragments & relations (#19829)](https://github.com/risingwavelabs/risingwave/pull/19829)
 - `26805d95beead9f855f100d6b17f7dfd8ab0dea6` [chore: update docker image to v2.1.0 (#19888)](https://github.com/risingwavelabs/risingwave/pull/19888)
 - `4aab01730c3b3c24944a2833e63179b6d208fa61` [feat(sink): support sink rate limit for external sink (#19660)](https://github.com/risingwavelabs/risingwave/pull/19660)
