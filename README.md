@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fcf0af32fda55c7903ae3ff1633538916285967a` [fix(frontend): check data type in column id generator (#19828)](https://github.com/risingwavelabs/risingwave/pull/19828)
 - `6d4f966d9632b0c6503d5236c9dfe8578f0aea12` [fix(meta): fix & enable e2e tests with MySQL meta backend (#19846)](https://github.com/risingwavelabs/risingwave/pull/19846)
 - `02b53098350aba3eb1025b8c889e5f88b97ab53b` [refactor(optimizer): use `Cell` instead of `RefCell` for interior mutability (#19883)](https://github.com/risingwavelabs/risingwave/pull/19883)
 - `3cd7241696a939274c709aa59508ad4d66b0ce0f` [fix(iceberg): fix commit_checkpoint_interval for iceberg table with connector (#19788)](https://github.com/risingwavelabs/risingwave/pull/19788)
