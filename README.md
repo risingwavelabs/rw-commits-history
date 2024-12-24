@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `81f651f871db375313e1611558269e3e6f757b57` [chore(deps): Bump http from 1.1.0 to 1.2.0 (#19904)](https://github.com/risingwavelabs/risingwave/pull/19904)
 - `1b9b5a797396ce19e08b55c0f111e6e30310fb89` [fix(sink): fix mogodb write error handling (#19869)](https://github.com/risingwavelabs/risingwave/pull/19869)
 - `af666704444506b48f3ae6e6e0869ee99bd53bed` [chore(deps): Bump sqllogictest from 0.23.0 to 0.24.0 (#19903)](https://github.com/risingwavelabs/risingwave/pull/19903)
 - `16c7fcd2e483cb6b154ba3ab78fde37f060ad5b4` [fix(meta): skip unnecessary delta persistence (#19878)](https://github.com/risingwavelabs/risingwave/pull/19878)
