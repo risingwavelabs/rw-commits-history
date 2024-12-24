@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241224` `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e`
 - `20241223` `001ac816136e643593894a4ceff1b19905e73d02`
 - `20241222` `5423dee87068c12b473181731862751dbccbb769`
 - `20241219` `adb8651f78e1bcb6cf9cf73db73111d86a009c34`
@@ -122,6 +123,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3431eabc3ef3c4f6431ba39546707c94a1d5b375` [feat(frontend): Supports cut OR condition and push down to storage (#19812)](https://github.com/risingwavelabs/risingwave/pull/19812)
+
+## nightly-20241224
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/001ac816136e643593894a4ceff1b19905e73d02...86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e)
 - `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e` [fix(metric): include table change log when calculating Hummock version size (#19920)](https://github.com/risingwavelabs/risingwave/pull/19920)
 - `81f651f871db375313e1611558269e3e6f757b57` [chore(deps): Bump http from 1.1.0 to 1.2.0 (#19904)](https://github.com/risingwavelabs/risingwave/pull/19904)
 - `1b9b5a797396ce19e08b55c0f111e6e30310fb89` [fix(sink): fix mogodb write error handling (#19869)](https://github.com/risingwavelabs/risingwave/pull/19869)
