@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d7f8b4e52306cb4075175b9231fa3f6ad076963e` [fix(chore): fix uint gauge vec macro (#19909)](https://github.com/risingwavelabs/risingwave/pull/19909)
 - `3431eabc3ef3c4f6431ba39546707c94a1d5b375` [feat(frontend): Supports cut OR condition and push down to storage (#19812)](https://github.com/risingwavelabs/risingwave/pull/19812)
 
 ## nightly-20241224
