@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c40eb045c91e819a9282a641b716427c520089f1` [feat(storage): lazily remove instance data in uploader to avoid data loss (#19931)](https://github.com/risingwavelabs/risingwave/pull/19931)
 - `d706db6ca770f249221f0c58dd87f41390c6e109` [feat: support pg_stat_user_tables and key_column_usage (#19739)](https://github.com/risingwavelabs/risingwave/pull/19739)
 - `ae48d9d2beae0c7903ffa6ff5269a5ac39ab2976` [feat(snapshot): persist snapshot backfill epoch in fragment stream node (#19751)](https://github.com/risingwavelabs/risingwave/pull/19751)
 - `ef5835e6b3b633b86d9eeaa98a034b59c9cc18c8` [feat(pb): box stream NodeBody to reduce stack memory usage (#19911)](https://github.com/risingwavelabs/risingwave/pull/19911)
