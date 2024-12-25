@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241225` `c40eb045c91e819a9282a641b716427c520089f1`
 - `20241224` `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e`
 - `20241223` `001ac816136e643593894a4ceff1b19905e73d02`
 - `20241222` `5423dee87068c12b473181731862751dbccbb769`
@@ -121,6 +122,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241225
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e...c40eb045c91e819a9282a641b716427c520089f1)
 - `c40eb045c91e819a9282a641b716427c520089f1` [feat(storage): lazily remove instance data in uploader to avoid data loss (#19931)](https://github.com/risingwavelabs/risingwave/pull/19931)
 - `d706db6ca770f249221f0c58dd87f41390c6e109` [feat: support pg_stat_user_tables and key_column_usage (#19739)](https://github.com/risingwavelabs/risingwave/pull/19739)
 - `ae48d9d2beae0c7903ffa6ff5269a5ac39ab2976` [feat(snapshot): persist snapshot backfill epoch in fragment stream node (#19751)](https://github.com/risingwavelabs/risingwave/pull/19751)
