@@ -122,6 +122,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `62818d32bb7a0ab59a9187c34545ec29b391520a` [refactor(frontend): merge steps for resolving on-conflict behavior in create table handler (#19916)](https://github.com/risingwavelabs/risingwave/pull/19916)
+- `ad95d1026ada8a332fb932a60838714fb66ff13a` [feat(dashboard): improve relation & fragment graph (#19872)](https://github.com/risingwavelabs/risingwave/pull/19872)
 - `fa5e442bddbf513b4c5aece5c36ac5f6656c2c2c` [feat: migrate from icelake to iceberg-rust (#19887)](https://github.com/risingwavelabs/risingwave/pull/19887)
 - `764fed7ed58f4df9afc2ea7894ea13617375a456` [chore: remove `file_cache_bench` and `s3_bench` (#19927)](https://github.com/risingwavelabs/risingwave/pull/19927)
 - `1dee3accdd5baf4cafbff451798fdd7bb2381152` [feat(expr): support `IGNORE NULLS` for `first_value`/`last_value` (#19847)](https://github.com/risingwavelabs/risingwave/pull/19847)
