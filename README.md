@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241226` `b13d5e977b6882ff02d18233c3157bf9cf1c01b0`
 - `20241225` `c40eb045c91e819a9282a641b716427c520089f1`
 - `20241224` `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e`
 - `20241223` `001ac816136e643593894a4ceff1b19905e73d02`
@@ -122,6 +123,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241226
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c40eb045c91e819a9282a641b716427c520089f1...b13d5e977b6882ff02d18233c3157bf9cf1c01b0)
 - `b13d5e977b6882ff02d18233c3157bf9cf1c01b0` [test: add a complex nested type test (#19940)](https://github.com/risingwavelabs/risingwave/pull/19940)
 - `3f76da8614e7eba3c8f6155981482dae75f68ac4` [feat(catalog): introduce clean_watermark_index_in_pk for state cleaning (#19938)](https://github.com/risingwavelabs/risingwave/pull/19938)
 - `ef74a63682dbe3ea69952a40d026a2afa8ed4bf8` [build: further prune unused dependencies and check in CI (#19926)](https://github.com/risingwavelabs/risingwave/pull/19926)
