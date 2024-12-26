@@ -122,6 +122,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b13d5e977b6882ff02d18233c3157bf9cf1c01b0` [test: add a complex nested type test (#19940)](https://github.com/risingwavelabs/risingwave/pull/19940)
+- `3f76da8614e7eba3c8f6155981482dae75f68ac4` [feat(catalog): introduce clean_watermark_index_in_pk for state cleaning (#19938)](https://github.com/risingwavelabs/risingwave/pull/19938)
 - `ef74a63682dbe3ea69952a40d026a2afa8ed4bf8` [build: further prune unused dependencies and check in CI (#19926)](https://github.com/risingwavelabs/risingwave/pull/19926)
 - `62818d32bb7a0ab59a9187c34545ec29b391520a` [refactor(frontend): merge steps for resolving on-conflict behavior in create table handler (#19916)](https://github.com/risingwavelabs/risingwave/pull/19916)
 - `ad95d1026ada8a332fb932a60838714fb66ff13a` [feat(dashboard): improve relation & fragment graph (#19872)](https://github.com/risingwavelabs/risingwave/pull/19872)
