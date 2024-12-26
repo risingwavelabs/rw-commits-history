@@ -122,6 +122,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `764fed7ed58f4df9afc2ea7894ea13617375a456` [chore: remove `file_cache_bench` and `s3_bench` (#19927)](https://github.com/risingwavelabs/risingwave/pull/19927)
+- `1dee3accdd5baf4cafbff451798fdd7bb2381152` [feat(expr): support `IGNORE NULLS` for `first_value`/`last_value` (#19847)](https://github.com/risingwavelabs/risingwave/pull/19847)
 - `2f4008ceff378c88312a6d93fb2f28495a2ee043` [fix(iceberg): fix hidden row id for iceberg engine table (#19901)](https://github.com/risingwavelabs/risingwave/pull/19901)
 
 ## nightly-20241225
@@ -203,6 +205,7 @@
 - `492e2d7d03ccfb530692649503a3e74f8624844c` [fix: add mview_definition in scaled actors (#19784)](https://github.com/risingwavelabs/risingwave/pull/19784)
 - `0b1c0e70b7f5b318471557d157d9b7b94d6d013f` [fix: session variable should not affect shared source (#19807)](https://github.com/risingwavelabs/risingwave/pull/19807)
 - `594ef891d30067f99d48ce5e515a3134a1df7f9a` [feat: replace icelake Transform with iceberg (#18625)](https://github.com/risingwavelabs/risingwave/pull/18625)
+- `45fcf8f33c3a5eb71dcf31c7f33d1ee80f7a832d` [refactor(frontend): split create_source into smaller mods (#19803)](https://github.com/risingwavelabs/risingwave/pull/19803)
 - `45fcf8f33c3a5eb71dcf31c7f33d1ee80f7a832d` [refactor(frontend): split create_source into smaller mods (#19803)](https://github.com/risingwavelabs/risingwave/pull/19803)
 - `1e24ca482c29c08ba3aeb31ee44f672e3eaaef05` [fix(meta): fix order when restoring metadata (#19791)](https://github.com/risingwavelabs/risingwave/pull/19791)
 - `6b12555285f77aa4a4862b5c437ee5afd1abb4a6` [feat(ci): more meta backend agnostic e2e tests in `main-cron` (#19595)](https://github.com/risingwavelabs/risingwave/pull/19595)
