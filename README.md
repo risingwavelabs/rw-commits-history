@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241227` `fdd2493fc4025e7b7ae745adac77e6b08697a5f0`
 - `20241226` `b13d5e977b6882ff02d18233c3157bf9cf1c01b0`
 - `20241225` `c40eb045c91e819a9282a641b716427c520089f1`
 - `20241224` `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e`
@@ -121,6 +122,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `eca573d7c69846889c90df7755c81ebcf48bc48b` [feat: support expression in limit clause (#19834)](https://github.com/risingwavelabs/risingwave/pull/19834)
+
+## nightly-20241227
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b13d5e977b6882ff02d18233c3157bf9cf1c01b0...fdd2493fc4025e7b7ae745adac77e6b08697a5f0)
 - `fdd2493fc4025e7b7ae745adac77e6b08697a5f0` [fix(barrier): broadcast actor info to newly added node (#19939)](https://github.com/risingwavelabs/risingwave/pull/19939)
 - `05397f91957f9ca9ed7c893ef6b667faf1bae4a0` [ci: rename e2e-test to e2e-test-serial (#19942)](https://github.com/risingwavelabs/risingwave/pull/19942)
 - `b1a5c58bae6b39166b4f4244526f98b1f24f0cc0` [refactor(iceberg): refactor jni catalog (#19946)](https://github.com/risingwavelabs/risingwave/pull/19946)
