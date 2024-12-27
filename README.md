@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `302c3caa9728a348fa476b43bd9e6f226c9043b0` [fix: support string to number type in JSONB_POPULATE_RECORD (#19937)](https://github.com/risingwavelabs/risingwave/pull/19937)
 
 ## nightly-20241226
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c40eb045c91e819a9282a641b716427c520089f1...b13d5e977b6882ff02d18233c3157bf9cf1c01b0)
