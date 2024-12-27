@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b1a5c58bae6b39166b4f4244526f98b1f24f0cc0` [refactor(iceberg): refactor jni catalog (#19946)](https://github.com/risingwavelabs/risingwave/pull/19946)
 - `302c3caa9728a348fa476b43bd9e6f226c9043b0` [fix: support string to number type in JSONB_POPULATE_RECORD (#19937)](https://github.com/risingwavelabs/risingwave/pull/19937)
 
 ## nightly-20241226
