@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fdd2493fc4025e7b7ae745adac77e6b08697a5f0` [fix(barrier): broadcast actor info to newly added node (#19939)](https://github.com/risingwavelabs/risingwave/pull/19939)
 - `05397f91957f9ca9ed7c893ef6b667faf1bae4a0` [ci: rename e2e-test to e2e-test-serial (#19942)](https://github.com/risingwavelabs/risingwave/pull/19942)
 - `b1a5c58bae6b39166b4f4244526f98b1f24f0cc0` [refactor(iceberg): refactor jni catalog (#19946)](https://github.com/risingwavelabs/risingwave/pull/19946)
 - `302c3caa9728a348fa476b43bd9e6f226c9043b0` [fix: support string to number type in JSONB_POPULATE_RECORD (#19937)](https://github.com/risingwavelabs/risingwave/pull/19937)
