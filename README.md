@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `99e74d76133d3a7f95b651f843719518b49f7ef4` [fix(metric): update committed epoch metrics (#19959)](https://github.com/risingwavelabs/risingwave/pull/19959)
 - `2659bf2f3b6f57e6680e894a977da90727c2bd9d` [refactor(frontend): extract code for parsing table def sql into single stmt (#19948)](https://github.com/risingwavelabs/risingwave/pull/19948)
 
 ## nightly-20241229
