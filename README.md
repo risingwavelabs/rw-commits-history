@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2659bf2f3b6f57e6680e894a977da90727c2bd9d` [refactor(frontend): extract code for parsing table def sql into single stmt (#19948)](https://github.com/risingwavelabs/risingwave/pull/19948)
 
 ## nightly-20241229
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fdd2493fc4025e7b7ae745adac77e6b08697a5f0...eca573d7c69846889c90df7755c81ebcf48bc48b)
