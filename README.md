@@ -123,6 +123,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1f9a4c6969da48adc427078528852b2d2e3d79be` [feat: `message_as_jsonb` to handle circle dep in protobuf (#19935)](https://github.com/risingwavelabs/risingwave/pull/19935)
+- `76a6d1d11c479b7a1707905e6e01d4e6c38ec819` [ci: remove e2e test RUN_COMPACTION (#19970)](https://github.com/risingwavelabs/risingwave/pull/19970)
 - `1d4ab6192e4a973037d0f72457e8a21e5313bb08` [refactor(source): prefer `options_with_secret` over `with_properties` in `SpecificParserConfig::new` (#19900)](https://github.com/risingwavelabs/risingwave/pull/19900)
 
 ## nightly-20241230
