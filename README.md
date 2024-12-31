@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1d4ab6192e4a973037d0f72457e8a21e5313bb08` [refactor(source): prefer `options_with_secret` over `with_properties` in `SpecificParserConfig::new` (#19900)](https://github.com/risingwavelabs/risingwave/pull/19900)
 
 ## nightly-20241230
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eca573d7c69846889c90df7755c81ebcf48bc48b...705cdf1353ae77f3789f49b89b7c695d9fd6cf2f)
