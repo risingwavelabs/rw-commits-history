@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20241231` `1f9a4c6969da48adc427078528852b2d2e3d79be`
 - `20241230` `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f`
 - `20241229` `eca573d7c69846889c90df7755c81ebcf48bc48b`
 - `20241227` `fdd2493fc4025e7b7ae745adac77e6b08697a5f0`
@@ -123,6 +124,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20241231
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/705cdf1353ae77f3789f49b89b7c695d9fd6cf2f...1f9a4c6969da48adc427078528852b2d2e3d79be)
 - `1f9a4c6969da48adc427078528852b2d2e3d79be` [feat: `message_as_jsonb` to handle circle dep in protobuf (#19935)](https://github.com/risingwavelabs/risingwave/pull/19935)
 - `76a6d1d11c479b7a1707905e6e01d4e6c38ec819` [ci: remove e2e test RUN_COMPACTION (#19970)](https://github.com/risingwavelabs/risingwave/pull/19970)
 - `1d4ab6192e4a973037d0f72457e8a21e5313bb08` [refactor(source): prefer `options_with_secret` over `with_properties` in `SpecificParserConfig::new` (#19900)](https://github.com/risingwavelabs/risingwave/pull/19900)
