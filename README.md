@@ -123,6 +123,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fc48e3cb58deb3488e2b63195765be82976a0691` [feat(bench): add bench with join type and cache workload (#19789)](https://github.com/risingwavelabs/risingwave/pull/19789)
 
 ## nightly-20250101
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/705cdf1353ae77f3789f49b89b7c695d9fd6cf2f...1f9a4c6969da48adc427078528852b2d2e3d79be)
