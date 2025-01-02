@@ -123,6 +123,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `442ff0f3ef0d19592bafb74ac5a1d2ba57d82ee2` [feat(dashboard): backpressure: remove the support for Promethues data 		 source (#19953)](https://github.com/risingwavelabs/risingwave/pull/19953)
+- `0e61581697f955a792c7234bc59fcae566475dd9` [feat(test): use ephemeral env for python inline scripts by `uv` if available (#19971)](https://github.com/risingwavelabs/risingwave/pull/19971)
+- `cbf002fcf1973aff2867e3c0549aac38fc97135e` [chore: update license header and happy 2025 (#19979)](https://github.com/risingwavelabs/risingwave/pull/19979)
 - `2cd40981b5ca14d98b85d755fffc3e6d6b449cef` [refactor(connector): use `pk IN (...)` instead of `AND/OR` in DELETE for pg sink (#19977)](https://github.com/risingwavelabs/risingwave/pull/19977)
 - `bfd5e787f62e066edd23a5029bacbc7712e88f2e` [chore(deps): Bump petgraph from 0.6.4 to 0.6.5 (#19976)](https://github.com/risingwavelabs/risingwave/pull/19976)
 - `cb537c6aeea9734e2e8e8c38e1a1a1c7d7122101` [feat(single-node): add memory allocation (#19895)](https://github.com/risingwavelabs/risingwave/pull/19895)
