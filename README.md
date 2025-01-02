@@ -123,6 +123,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `104c4bf6f754de56721a47980e5e4dae5c16e755` [fix(telemetry): retry telemetry ut 3 times to mitigate failures on CI (#19983)](https://github.com/risingwavelabs/risingwave/pull/19983)
+- `5cb0d17182de20354df198477b9955d5689e82ba` [perf(storage): use VecDeque for TableChangeLog to avoid large clone on truncate (#19984)](https://github.com/risingwavelabs/risingwave/pull/19984)
 - `cbf88efe68152d6b01d8a1529572e6eb9a24dd64` [feat: update iceberg version (#19963)](https://github.com/risingwavelabs/risingwave/pull/19963)
 - `17c4cd2b6e8bd5988230c55f856c1c82fce2422c` [chore(deps): Bump duration-str from 0.11.2 to 0.12.0 (#19969)](https://github.com/risingwavelabs/risingwave/pull/19969)
 - `442ff0f3ef0d19592bafb74ac5a1d2ba57d82ee2` [feat(dashboard): backpressure: remove the support for Promethues data 		 source (#19953)](https://github.com/risingwavelabs/risingwave/pull/19953)
