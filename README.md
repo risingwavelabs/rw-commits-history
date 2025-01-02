@@ -123,6 +123,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2cd40981b5ca14d98b85d755fffc3e6d6b449cef` [refactor(connector): use `pk IN (...)` instead of `AND/OR` in DELETE for pg sink (#19977)](https://github.com/risingwavelabs/risingwave/pull/19977)
+- `bfd5e787f62e066edd23a5029bacbc7712e88f2e` [chore(deps): Bump petgraph from 0.6.4 to 0.6.5 (#19976)](https://github.com/risingwavelabs/risingwave/pull/19976)
+- `cb537c6aeea9734e2e8e8c38e1a1a1c7d7122101` [feat(single-node): add memory allocation (#19895)](https://github.com/risingwavelabs/risingwave/pull/19895)
 - `fc48e3cb58deb3488e2b63195765be82976a0691` [feat(bench): add bench with join type and cache workload (#19789)](https://github.com/risingwavelabs/risingwave/pull/19789)
 
 ## nightly-20250101
