@@ -121,6 +121,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `972d5705064ac2b14ea09275ec96dca4443e59e2` [refactor(iceberg): support position delete merge on read with hash join  (#19656)](https://github.com/risingwavelabs/risingwave/pull/19656)
 - `6248415f7bc709a4fd2e3ca39563c6106cd63785` [fix(optimizer): can't apply pull_up_correlated_predicate_agg_rule with non-null-propagating expr (#20012)](https://github.com/risingwavelabs/risingwave/pull/20012)
 - `e08b0f9c9adbb9ef7f5523071d269e2fdfba1dd7` [feat(snapshot-backfill): measure accumulated row count for each vnode stream (#20016)](https://github.com/risingwavelabs/risingwave/pull/20016)
 - `ada38dc05c7cc1b8e03f1812c8bb3bb814da2957` [feat(dashboard): add throughput (rows/s) metrics (#19972)](https://github.com/risingwavelabs/risingwave/pull/19972)
