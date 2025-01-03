@@ -113,7 +113,6 @@
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
 - `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 - `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
-- `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
 </details>
 
 # Commit history
@@ -122,6 +121,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `44665c779466401ae43b7c82cc850b7121721fef` [feat: add uuid for iceberg data file name suffix (#20013)](https://github.com/risingwavelabs/risingwave/pull/20013)
+- `fc5a60f474f7f1e615a2eb00387634845d076478` [refactor(meta): cleanup legacy code for v1 (#19995)](https://github.com/risingwavelabs/risingwave/pull/19995)
+- `895c1bf1d62f6eed89d91004ecb44be1710bd75a` [feat(iceberg): support emr serverless compaction for iceberg table (#19775)](https://github.com/risingwavelabs/risingwave/pull/19775)
 - `18a54d0c201664288e1cffb82c63a65a908c1e54` [fix(meta): use unlimited timeout for sqlite backend (#20009)](https://github.com/risingwavelabs/risingwave/pull/20009)
 - `67cb18b51d3fbf1318f884491d7e5a83495fa7d6` [refactor(streaming): unify rate limiter and related components design (#19967)](https://github.com/risingwavelabs/risingwave/pull/19967)
 - `194f8bbfdc07c3414be52b7f4a06f43c072025b0` [refactor(meta): unify code for different kinds of source change (#19991)](https://github.com/risingwavelabs/risingwave/pull/19991)
@@ -1307,17 +1309,4 @@
 - `7009743799259775b80611043cb7d089c25f7743` [feat(dashboard): visualize average backpressure rather than spot backpressure (#18219)](https://github.com/risingwavelabs/risingwave/pull/18219)
 
 ## nightly-20240823
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9c4984d4ec2d17351a741cab8ac512b39dd2261a...5cae57827c8ca56868b9cc0de0686d6f14e68510)
 - `5cae57827c8ca56868b9cc0de0686d6f14e68510` [fix(udf): allow `aggregate:` prefixed sql udf (#18203)](https://github.com/risingwavelabs/risingwave/pull/18203)
-- `321610dd9c51ee107a3bcd4e6b32d731d1943044` [refactor: add some comments for MV progress tracking (#18110)](https://github.com/risingwavelabs/risingwave/pull/18110)
-- `958794583771632b208068838191a3516cd6d9cc` [feat(source): support temporary source (#18174)](https://github.com/risingwavelabs/risingwave/pull/18174)
-- `ec6074454e39b3b82ee0684f9e714bca95e5bb0c` [chore(doc): Update README.md (#18206)](https://github.com/risingwavelabs/risingwave/pull/18206)
-- `c83ce8632a2f6b1bba83686ec5053c6bfb1c6117` [fix(udf): allow udaf as window function (#18181)](https://github.com/risingwavelabs/risingwave/pull/18181)
-- `2fa80346d429a1c5121f0056e07ecbcc1232477b` [fix(binder): fix function call binding (#18177)](https://github.com/risingwavelabs/risingwave/pull/18177)
-- `4cef811b975cde923d524553a08f1b42d2028534` [ci: install addr2line-rs binary along with flamegraph (#18171)](https://github.com/risingwavelabs/risingwave/pull/18171)
-- `d27169721cce2fed6858913017642cf7922f0148` [feat: use opendal as the s3 sdk by default (#18011)](https://github.com/risingwavelabs/risingwave/pull/18011)
-- `d8c718bfa1e118c1eade3e2fa108371d4eff1c79` [refactor(test):  kafka sink with protobuf/avro as inline style (#18193)](https://github.com/risingwavelabs/risingwave/pull/18193)
-- `71732b1c4446d216f500267a9e1f2bf426a88519` [fix: fix kinesis early exit (#18183)](https://github.com/risingwavelabs/risingwave/pull/18183)
-
-## nightly-20240822
-- `9c4984d4ec2d17351a741cab8ac512b39dd2261a` [refactor(iceberg): use load table v2 to extract iceberg columns (#18196)](https://github.com/risingwavelabs/risingwave/pull/18196)
