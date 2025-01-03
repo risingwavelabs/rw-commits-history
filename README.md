@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bef87728e7a217127e3b955a9f50202d3a046c0f` [refactor(meta): minor refactors  (#19990)](https://github.com/risingwavelabs/risingwave/pull/19990)
 - `c28ea2da9780ea8e82e60a3f2e9a3ea436e18824` [refactor(dashboard): refactor back-pressure calculation (#20001)](https://github.com/risingwavelabs/risingwave/pull/20001)
 - `104c4bf6f754de56721a47980e5e4dae5c16e755` [fix(telemetry): retry telemetry ut 3 times to mitigate failures on CI (#19983)](https://github.com/risingwavelabs/risingwave/pull/19983)
 - `5cb0d17182de20354df198477b9955d5689e82ba` [perf(storage): use VecDeque for TableChangeLog to avoid large clone on truncate (#19984)](https://github.com/risingwavelabs/risingwave/pull/19984)
