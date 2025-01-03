@@ -122,6 +122,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `18a54d0c201664288e1cffb82c63a65a908c1e54` [fix(meta): use unlimited timeout for sqlite backend (#20009)](https://github.com/risingwavelabs/risingwave/pull/20009)
 - `67cb18b51d3fbf1318f884491d7e5a83495fa7d6` [refactor(streaming): unify rate limiter and related components design (#19967)](https://github.com/risingwavelabs/risingwave/pull/19967)
 - `194f8bbfdc07c3414be52b7f4a06f43c072025b0` [refactor(meta): unify code for different kinds of source change (#19991)](https://github.com/risingwavelabs/risingwave/pull/19991)
 - `bef87728e7a217127e3b955a9f50202d3a046c0f` [refactor(meta): minor refactors  (#19990)](https://github.com/risingwavelabs/risingwave/pull/19990)
