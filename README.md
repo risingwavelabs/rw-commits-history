@@ -121,6 +121,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6248415f7bc709a4fd2e3ca39563c6106cd63785` [fix(optimizer): can't apply pull_up_correlated_predicate_agg_rule with non-null-propagating expr (#20012)](https://github.com/risingwavelabs/risingwave/pull/20012)
+- `e08b0f9c9adbb9ef7f5523071d269e2fdfba1dd7` [feat(snapshot-backfill): measure accumulated row count for each vnode stream (#20016)](https://github.com/risingwavelabs/risingwave/pull/20016)
+- `ada38dc05c7cc1b8e03f1812c8bb3bb814da2957` [feat(dashboard): add throughput (rows/s) metrics (#19972)](https://github.com/risingwavelabs/risingwave/pull/19972)
 - `355c4a063dd5074d6aa57e26701ab65c344b7c59` [refactor(source): remove chunk splitting logic in `apply_rate_limit` (#19826)](https://github.com/risingwavelabs/risingwave/pull/19826)
 - `44665c779466401ae43b7c82cc850b7121721fef` [feat: add uuid for iceberg data file name suffix (#20013)](https://github.com/risingwavelabs/risingwave/pull/20013)
 - `fc5a60f474f7f1e615a2eb00387634845d076478` [refactor(meta): cleanup legacy code for v1 (#19995)](https://github.com/risingwavelabs/risingwave/pull/19995)
