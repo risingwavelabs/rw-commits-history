@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250103` `972d5705064ac2b14ea09275ec96dca4443e59e2`
 - `20250101` `1f9a4c6969da48adc427078528852b2d2e3d79be`
 - `20241230` `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f`
 - `20241229` `eca573d7c69846889c90df7755c81ebcf48bc48b`
@@ -121,6 +122,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `79405dc227e289f97164b2ec83046cf1084c0d65` [test: ignore leak bucket unit test (#20019)](https://github.com/risingwavelabs/risingwave/pull/20019)
+
+## nightly-20250103
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1f9a4c6969da48adc427078528852b2d2e3d79be...972d5705064ac2b14ea09275ec96dca4443e59e2)
 - `972d5705064ac2b14ea09275ec96dca4443e59e2` [refactor(iceberg): support position delete merge on read with hash join  (#19656)](https://github.com/risingwavelabs/risingwave/pull/19656)
 - `6248415f7bc709a4fd2e3ca39563c6106cd63785` [fix(optimizer): can't apply pull_up_correlated_predicate_agg_rule with non-null-propagating expr (#20012)](https://github.com/risingwavelabs/risingwave/pull/20012)
 - `e08b0f9c9adbb9ef7f5523071d269e2fdfba1dd7` [feat(snapshot-backfill): measure accumulated row count for each vnode stream (#20016)](https://github.com/risingwavelabs/risingwave/pull/20016)
