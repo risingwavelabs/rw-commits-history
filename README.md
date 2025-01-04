@@ -121,6 +121,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334` [chore(dep): bump rw-tokio to `1.40.0` (#20015)](https://github.com/risingwavelabs/risingwave/pull/20015)
 - `79405dc227e289f97164b2ec83046cf1084c0d65` [test: ignore leak bucket unit test (#20019)](https://github.com/risingwavelabs/risingwave/pull/20019)
 
 ## nightly-20250103
