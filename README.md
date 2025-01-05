@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250104` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
+- `20250105` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
 - `20250103` `972d5705064ac2b14ea09275ec96dca4443e59e2`
 - `20250101` `1f9a4c6969da48adc427078528852b2d2e3d79be`
 - `20241230` `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f`
@@ -121,7 +121,7 @@
 
 ## Unreleased
 
-## nightly-20250104
+## nightly-20250105
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/972d5705064ac2b14ea09275ec96dca4443e59e2...d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334)
 - `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334` [chore(dep): bump rw-tokio to `1.40.0` (#20015)](https://github.com/risingwavelabs/risingwave/pull/20015)
 - `79405dc227e289f97164b2ec83046cf1084c0d65` [test: ignore leak bucket unit test (#20019)](https://github.com/risingwavelabs/risingwave/pull/20019)
