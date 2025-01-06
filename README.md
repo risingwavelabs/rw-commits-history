@@ -119,6 +119,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fef0ffe7a730b0afe1058f52c7a2ed76f26b4dfb` [test: fix flaky slt test cases with `retry` (#20018)](https://github.com/risingwavelabs/risingwave/pull/20018)
+- `0669bd6e3a6a67af4fea9e94d29e7bea260eaf87` [chore(deps): Bump aws-sdk-emrserverless from 1.47.0 to 1.50.0 in the aws group (#20020)](https://github.com/risingwavelabs/risingwave/pull/20020)
+- `dc061858a1327e9464c2f54d265aa8f21f5a7736` [chore(test): extend the waiting period for the single node test (#20029)](https://github.com/risingwavelabs/risingwave/pull/20029)
 - `b05f8646c45d48bf7924be5d0db78c35bb697b76` [fix(risedev): CONNECTOR_LIBS_PATH for frontend is not set (#20027)](https://github.com/risingwavelabs/risingwave/pull/20027)
 - `e5ca409ec49d42b8fc4fb4af4e9c3294226a8928` [chore(deps): Bump next from 14.2.20 to 14.2.22 in /dashboard (#20021)](https://github.com/risingwavelabs/risingwave/pull/20021)
 - `448550db2b328470ad2124b9e7e369c926880a3e` [feat(frontend): purification for source def sql (#19965)](https://github.com/risingwavelabs/risingwave/pull/19965)
