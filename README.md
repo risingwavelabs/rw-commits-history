@@ -119,6 +119,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1d6a421ef7af8243f68f04edd8fa2d2db1e60881` [feat(sink): Support updates rather than overrides for mongodb sink upsert (#20011)](https://github.com/risingwavelabs/risingwave/pull/20011)
 - `fef0ffe7a730b0afe1058f52c7a2ed76f26b4dfb` [test: fix flaky slt test cases with `retry` (#20018)](https://github.com/risingwavelabs/risingwave/pull/20018)
 - `0669bd6e3a6a67af4fea9e94d29e7bea260eaf87` [chore(deps): Bump aws-sdk-emrserverless from 1.47.0 to 1.50.0 in the aws group (#20020)](https://github.com/risingwavelabs/risingwave/pull/20020)
 - `dc061858a1327e9464c2f54d265aa8f21f5a7736` [chore(test): extend the waiting period for the single node test (#20029)](https://github.com/risingwavelabs/risingwave/pull/20029)
