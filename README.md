@@ -119,6 +119,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b05f8646c45d48bf7924be5d0db78c35bb697b76` [fix(risedev): CONNECTOR_LIBS_PATH for frontend is not set (#20027)](https://github.com/risingwavelabs/risingwave/pull/20027)
+- `e5ca409ec49d42b8fc4fb4af4e9c3294226a8928` [chore(deps): Bump next from 14.2.20 to 14.2.22 in /dashboard (#20021)](https://github.com/risingwavelabs/risingwave/pull/20021)
 - `448550db2b328470ad2124b9e7e369c926880a3e` [feat(frontend): purification for source def sql (#19965)](https://github.com/risingwavelabs/risingwave/pull/19965)
 - `2601c237a7dd677c1314482f91720f4ea78841b5` [feat(optimizer): introduce watermark group (#19894)](https://github.com/risingwavelabs/risingwave/pull/19894)
 - `3f75df9acb0eeb49f4e86b1c567ee88680f69c0d` [feat(frontend): initially introduce table def sql purification (#19949)](https://github.com/risingwavelabs/risingwave/pull/19949)
