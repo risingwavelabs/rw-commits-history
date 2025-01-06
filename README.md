@@ -120,6 +120,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8a5a574a65266e226c9cf944747f9069b0f800e5` [fix(frontend): use set time zone in Hummock time travel (#20031)](https://github.com/risingwavelabs/risingwave/pull/20031)
 
 ## nightly-20250106
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334...aa3df8e775921e46c94976437cedf9597ea263d4)
