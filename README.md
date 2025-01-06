@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250106` `aa3df8e775921e46c94976437cedf9597ea263d4`
 - `20250105` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
 - `20250103` `972d5705064ac2b14ea09275ec96dca4443e59e2`
 - `20250101` `1f9a4c6969da48adc427078528852b2d2e3d79be`
@@ -119,6 +120,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250106
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334...aa3df8e775921e46c94976437cedf9597ea263d4)
 - `aa3df8e775921e46c94976437cedf9597ea263d4` [feat(iceberg): support iceberg on gcs (#19999)](https://github.com/risingwavelabs/risingwave/pull/19999)
 - `1d6a421ef7af8243f68f04edd8fa2d2db1e60881` [feat(sink): Support updates rather than overrides for mongodb sink upsert (#20011)](https://github.com/risingwavelabs/risingwave/pull/20011)
 - `fef0ffe7a730b0afe1058f52c7a2ed76f26b4dfb` [test: fix flaky slt test cases with `retry` (#20018)](https://github.com/risingwavelabs/risingwave/pull/20018)
