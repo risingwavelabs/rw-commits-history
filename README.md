@@ -120,6 +120,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3f75df9acb0eeb49f4e86b1c567ee88680f69c0d` [feat(frontend): initially introduce table def sql purification (#19949)](https://github.com/risingwavelabs/risingwave/pull/19949)
 
 ## nightly-20250105
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/972d5705064ac2b14ea09275ec96dca4443e59e2...d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334)
