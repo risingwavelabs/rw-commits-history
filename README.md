@@ -120,6 +120,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f4bfe1fd51317727d38ccfe8f89da5f9a967bde7` [feat(eowc): allow multiple watermark columns in eowc hash agg (#19998)](https://github.com/risingwavelabs/risingwave/pull/19998)
 - `8a5a574a65266e226c9cf944747f9069b0f800e5` [fix(frontend): use set time zone in Hummock time travel (#20031)](https://github.com/risingwavelabs/risingwave/pull/20031)
 
 ## nightly-20250106
