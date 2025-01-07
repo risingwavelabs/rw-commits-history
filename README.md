@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250107` `f530c10b4a614d353d17d924b69b5690aa282476`
 - `20250106` `aa3df8e775921e46c94976437cedf9597ea263d4`
 - `20250105` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
 - `20250103` `972d5705064ac2b14ea09275ec96dca4443e59e2`
@@ -119,6 +120,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250107
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aa3df8e775921e46c94976437cedf9597ea263d4...f530c10b4a614d353d17d924b69b5690aa282476)
 - `f530c10b4a614d353d17d924b69b5690aa282476` [feat(connector): add minio file scan type and enhance test (#19950)](https://github.com/risingwavelabs/risingwave/pull/19950)
 - `5084d92d709b4991017310827b00fa626a646b52` [ci: refine trap; remove misc check (#20030)](https://github.com/risingwavelabs/risingwave/pull/20030)
 - `b098e151baff8423a0187062166bbea297a2a5db` [refactor(streaming): remove `get_compacted_row` from `StateTable` (#20034)](https://github.com/risingwavelabs/risingwave/pull/20034)
