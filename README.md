@@ -119,6 +119,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5084d92d709b4991017310827b00fa626a646b52` [ci: refine trap; remove misc check (#20030)](https://github.com/risingwavelabs/risingwave/pull/20030)
+- `b098e151baff8423a0187062166bbea297a2a5db` [refactor(streaming): remove `get_compacted_row` from `StateTable` (#20034)](https://github.com/risingwavelabs/risingwave/pull/20034)
 - `ec36f40aa80c16fec3e3c1c3c07bf6f3da525931` [fix(iceberg): only convert iceberg table to iceberg source for batch dql (#20045)](https://github.com/risingwavelabs/risingwave/pull/20045)
 - `2497760a206afc7137590c0c581dd5652e79d3f4` [perf(stream): concurrently fetch row from storage and refill cache (#19629)](https://github.com/risingwavelabs/risingwave/pull/19629)
 - `efbeec1f84543ce8c5c7eda2d997ea3e124bc912` [feat(dashboard):  introduce alert overview for dev dashboard  (#20014)](https://github.com/risingwavelabs/risingwave/pull/20014)
