@@ -120,6 +120,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cf5de9f8ae612b9aeb9ef093c7797469ef59d6cd` [chore(test): pin pip package version for e2e sink (#20044)](https://github.com/risingwavelabs/risingwave/pull/20044)
 - `cca7b5e3e227c11b849e83fa6a889e653ffd27f5` [fix(stream): avoid committing to in-memory state store in join benchmark (#20008)](https://github.com/risingwavelabs/risingwave/pull/20008)
 - `f4bfe1fd51317727d38ccfe8f89da5f9a967bde7` [feat(eowc): allow multiple watermark columns in eowc hash agg (#19998)](https://github.com/risingwavelabs/risingwave/pull/19998)
 - `8a5a574a65266e226c9cf944747f9069b0f800e5` [fix(frontend): use set time zone in Hummock time travel (#20031)](https://github.com/risingwavelabs/risingwave/pull/20031)
