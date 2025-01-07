@@ -119,6 +119,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f530c10b4a614d353d17d924b69b5690aa282476` [feat(connector): add minio file scan type and enhance test (#19950)](https://github.com/risingwavelabs/risingwave/pull/19950)
 - `5084d92d709b4991017310827b00fa626a646b52` [ci: refine trap; remove misc check (#20030)](https://github.com/risingwavelabs/risingwave/pull/20030)
 - `b098e151baff8423a0187062166bbea297a2a5db` [refactor(streaming): remove `get_compacted_row` from `StateTable` (#20034)](https://github.com/risingwavelabs/risingwave/pull/20034)
 - `ec36f40aa80c16fec3e3c1c3c07bf6f3da525931` [fix(iceberg): only convert iceberg table to iceberg source for batch dql (#20045)](https://github.com/risingwavelabs/risingwave/pull/20045)
