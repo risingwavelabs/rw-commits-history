@@ -120,6 +120,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ef4f61414db721df8f6121f5dc53993a7562b67a` [chore(deps): Bump downcast-rs from 1.2.0 to 2.0.1 (#20063)](https://github.com/risingwavelabs/risingwave/pull/20063)
 
 ## nightly-20250107
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aa3df8e775921e46c94976437cedf9597ea263d4...f530c10b4a614d353d17d924b69b5690aa282476)
