@@ -120,6 +120,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `52532c7ec6dabad2105146f873c2f95c9c8ea704` [refactor(storage): remove StateStoreWrite and extract separate StateStoreReadLog trait (#20051)](https://github.com/risingwavelabs/risingwave/pull/20051)
 - `1ac43758611096ad4c953bc48b7e601e50b9877f` [bench(iceberg): add iceberg predicate pushdown bench (#20047)](https://github.com/risingwavelabs/risingwave/pull/20047)
 - `f7e5a667ff3d2fcbe04e8631357509663d9625a3` [fix(sqlparser): make LIMIT and OFFSET order flexible (#20026)](https://github.com/risingwavelabs/risingwave/pull/20026)
 - `212addb20c86255293aa81f3e32d41db84b365cc` [fix(ci): increase timeout for e2e source test in main-cron (#20069)](https://github.com/risingwavelabs/risingwave/pull/20069)
