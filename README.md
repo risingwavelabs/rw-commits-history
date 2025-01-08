@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250108` `1bc6bea26cd2c103b827837b007f3a1d5e2d6067`
 - `20250107` `f530c10b4a614d353d17d924b69b5690aa282476`
 - `20250106` `aa3df8e775921e46c94976437cedf9597ea263d4`
 - `20250105` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
@@ -120,6 +121,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250108
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f530c10b4a614d353d17d924b69b5690aa282476...1bc6bea26cd2c103b827837b007f3a1d5e2d6067)
 - `1bc6bea26cd2c103b827837b007f3a1d5e2d6067` [feat: batching telemetry event request avoid too many requests (#20000)](https://github.com/risingwavelabs/risingwave/pull/20000)
 - `52532c7ec6dabad2105146f873c2f95c9c8ea704` [refactor(storage): remove StateStoreWrite and extract separate StateStoreReadLog trait (#20051)](https://github.com/risingwavelabs/risingwave/pull/20051)
 - `1ac43758611096ad4c953bc48b7e601e50b9877f` [bench(iceberg): add iceberg predicate pushdown bench (#20047)](https://github.com/risingwavelabs/risingwave/pull/20047)
