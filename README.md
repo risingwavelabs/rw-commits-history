@@ -120,6 +120,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1ac43758611096ad4c953bc48b7e601e50b9877f` [bench(iceberg): add iceberg predicate pushdown bench (#20047)](https://github.com/risingwavelabs/risingwave/pull/20047)
+- `f7e5a667ff3d2fcbe04e8631357509663d9625a3` [fix(sqlparser): make LIMIT and OFFSET order flexible (#20026)](https://github.com/risingwavelabs/risingwave/pull/20026)
 - `212addb20c86255293aa81f3e32d41db84b365cc` [fix(ci): increase timeout for e2e source test in main-cron (#20069)](https://github.com/risingwavelabs/risingwave/pull/20069)
 - `f89c1b71cd0aa25a5cd378572c8777a17340f1cc` [build(deps): unpatch prost (#20066)](https://github.com/risingwavelabs/risingwave/pull/20066)
 - `ef4f61414db721df8f6121f5dc53993a7562b67a` [chore(deps): Bump downcast-rs from 1.2.0 to 2.0.1 (#20063)](https://github.com/risingwavelabs/risingwave/pull/20063)
