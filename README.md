@@ -121,6 +121,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bb4dec288c5d93cc12c549e56ca7d11b0e827dc3` [refactor(meta): splits source_manager into smaller mods (#20071)](https://github.com/risingwavelabs/risingwave/pull/20071)
 
 ## nightly-20250108
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f530c10b4a614d353d17d924b69b5690aa282476...1bc6bea26cd2c103b827837b007f3a1d5e2d6067)
