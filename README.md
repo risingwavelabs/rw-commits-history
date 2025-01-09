@@ -121,6 +121,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `934db16dbf71dd5ba1fbd69142ec0f0d3737c183` [feat(sink): support force_append_only for es sink (#19919)](https://github.com/risingwavelabs/risingwave/pull/19919)
 - `14823be7a808a5fdb34df262dbed1c75e31d316f` [fix: change iceberg glue catalog default implemantation to java (#20075)](https://github.com/risingwavelabs/risingwave/pull/20075)
 - `63b20efbfd126707e66d217e69ba6157124a6743` [fix(frontend): set `if_not_exists` to false when normalizing `CREATE VIEW` (#20073)](https://github.com/risingwavelabs/risingwave/pull/20073)
 - `9d7698545b3038befed43be7262d7d61132030b6` [refactor(storage): remove option of new log (#20055)](https://github.com/risingwavelabs/risingwave/pull/20055)
