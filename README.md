@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250109` `8b5cabac7ba209efacfc05eb92086d83a45309c8`
 - `20250108` `1bc6bea26cd2c103b827837b007f3a1d5e2d6067`
 - `20250107` `f530c10b4a614d353d17d924b69b5690aa282476`
 - `20250106` `aa3df8e775921e46c94976437cedf9597ea263d4`
@@ -121,6 +122,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250109
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1bc6bea26cd2c103b827837b007f3a1d5e2d6067...8b5cabac7ba209efacfc05eb92086d83a45309c8)
 - `8b5cabac7ba209efacfc05eb92086d83a45309c8` [refactor: log deleted objects (#20086)](https://github.com/risingwavelabs/risingwave/pull/20086)
 - `87eac4f4d92f04fed4d52ae3f13567a77a248455` [fix: wrong streaming_parallelism when default_parallelism is set to fixed (#20072)](https://github.com/risingwavelabs/risingwave/pull/20072)
 - `3619d775a56a9b8eb74fe5e0c9323c4cf10d76a3` [fix(iceberg): fix iceberg time travel timezone (#20085)](https://github.com/risingwavelabs/risingwave/pull/20085)
