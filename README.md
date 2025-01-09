@@ -121,6 +121,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8b5cabac7ba209efacfc05eb92086d83a45309c8` [refactor: log deleted objects (#20086)](https://github.com/risingwavelabs/risingwave/pull/20086)
+- `87eac4f4d92f04fed4d52ae3f13567a77a248455` [fix: wrong streaming_parallelism when default_parallelism is set to fixed (#20072)](https://github.com/risingwavelabs/risingwave/pull/20072)
+- `3619d775a56a9b8eb74fe5e0c9323c4cf10d76a3` [fix(iceberg): fix iceberg time travel timezone (#20085)](https://github.com/risingwavelabs/risingwave/pull/20085)
 - `09e59e43dd7630f02664af8f8fb6672554351530` [feat(udf): support `CREATE FUNCTION/AGGREGATE IF NOT EXISTS` (#20079)](https://github.com/risingwavelabs/risingwave/pull/20079)
 - `934db16dbf71dd5ba1fbd69142ec0f0d3737c183` [feat(sink): support force_append_only for es sink (#19919)](https://github.com/risingwavelabs/risingwave/pull/19919)
 - `14823be7a808a5fdb34df262dbed1c75e31d316f` [fix: change iceberg glue catalog default implemantation to java (#20075)](https://github.com/risingwavelabs/risingwave/pull/20075)
