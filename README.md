@@ -142,6 +142,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `340a167d142899a9705725ac84782c5d276aabcc` [fix: synchronize the index on the mview when changing the owner or schema (#20093)](https://github.com/risingwavelabs/risingwave/pull/20093)
 - `e6e9ace249c3eb9a78c5c900c47ea47dc0dd5c82` [chore(deps): Bump anstream from 0.6.4 to 0.6.18 in /integration_tests/feature-store/simulator (#20022)](https://github.com/risingwavelabs/risingwave/pull/20022)
 
 ## nightly-20250109
