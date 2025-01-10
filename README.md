@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250110` `340a167d142899a9705725ac84782c5d276aabcc`
 - `20250109` `8b5cabac7ba209efacfc05eb92086d83a45309c8`
 - `20250108` `1bc6bea26cd2c103b827837b007f3a1d5e2d6067`
 - `20250107` `f530c10b4a614d353d17d924b69b5690aa282476`
@@ -141,6 +142,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250110
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8b5cabac7ba209efacfc05eb92086d83a45309c8...340a167d142899a9705725ac84782c5d276aabcc)
 - `340a167d142899a9705725ac84782c5d276aabcc` [fix: synchronize the index on the mview when changing the owner or schema (#20093)](https://github.com/risingwavelabs/risingwave/pull/20093)
 - `e6e9ace249c3eb9a78c5c900c47ea47dc0dd5c82` [chore(deps): Bump anstream from 0.6.4 to 0.6.18 in /integration_tests/feature-store/simulator (#20022)](https://github.com/risingwavelabs/risingwave/pull/20022)
 
