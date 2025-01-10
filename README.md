@@ -121,6 +121,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e6e9ace249c3eb9a78c5c900c47ea47dc0dd5c82` [chore(deps): Bump anstream from 0.6.4 to 0.6.18 in /integration_tests/feature-store/simulator (#20022)](https://github.com/risingwavelabs/risingwave/pull/20022)
 
 ## nightly-20250109
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1bc6bea26cd2c103b827837b007f3a1d5e2d6067...8b5cabac7ba209efacfc05eb92086d83a45309c8)
