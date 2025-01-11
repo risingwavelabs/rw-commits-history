@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250111` `326ec191614bfc34075604a9783de7a029cb36dc`
 - `20250110` `340a167d142899a9705725ac84782c5d276aabcc`
 - `20250109` `8b5cabac7ba209efacfc05eb92086d83a45309c8`
 - `20250108` `1bc6bea26cd2c103b827837b007f3a1d5e2d6067`
@@ -138,6 +139,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250111
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/340a167d142899a9705725ac84782c5d276aabcc...326ec191614bfc34075604a9783de7a029cb36dc)
 - `326ec191614bfc34075604a9783de7a029cb36dc` [fix(meta): fix time travel GC bug (#20108)](https://github.com/risingwavelabs/risingwave/pull/20108)
 - `80b3fd04a8b918e57b1be12cc34b98be20724484` [chore(deps): Bump the all group across 1 directory with 44 updates (#20037)](https://github.com/risingwavelabs/risingwave/pull/20037)
 - `4c384402b6c0ca3bd1804319d4b2baabc1df654e` [fix(storage): Remove logic for deleting objects in truncate_time_trav… (#20101)](https://github.com/risingwavelabs/risingwave/pull/20101)
