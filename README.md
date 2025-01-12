@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3b004c63358b62bdc54dc60dbb42fd1a257cab41` [feat(storage): support next_epoch method for StateStoreReadLog (#20068)](https://github.com/risingwavelabs/risingwave/pull/20068)
 
 ## nightly-20250111
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/340a167d142899a9705725ac84782c5d276aabcc...326ec191614bfc34075604a9783de7a029cb36dc)
