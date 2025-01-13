@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250113` `f21f7a09037d195d1c3eab9460f6343cd0a60d36`
 - `20250112` `3b004c63358b62bdc54dc60dbb42fd1a257cab41`
 - `20250111` `326ec191614bfc34075604a9783de7a029cb36dc`
 - `20250110` `340a167d142899a9705725ac84782c5d276aabcc`
@@ -137,6 +138,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `20a68b0f901dbb92fd9373170ad5750eb4bd6a9a` [fix(connector): improve mysql error message (#20135)](https://github.com/risingwavelabs/risingwave/pull/20135)
+- `7e26b2f7e0c957ba06b12ddbac219a2b4ffb7154` [refactor(meta): optimize Hummock version delta deletion (#20114)](https://github.com/risingwavelabs/risingwave/pull/20114)
+
+## nightly-20250113
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b004c63358b62bdc54dc60dbb42fd1a257cab41...f21f7a09037d195d1c3eab9460f6343cd0a60d36)
 - `f21f7a09037d195d1c3eab9460f6343cd0a60d36` [feat(risedev): specify arguments to docker command & enable logical replication for postgres service (#20124)](https://github.com/risingwavelabs/risingwave/pull/20124)
 - `68c38d7be34555748f9d0233a1305f4264101eaa` [revert:feat(frontend): support alter source pause/resume (#19636) (#20126)](https://github.com/risingwavelabs/risingwave/pull/20126)
 - `e1d39082245cfd0bde150db1f0398f438b420811` [feat(frontend): display UDF calls more concisely (#20127)](https://github.com/risingwavelabs/risingwave/pull/20127)
