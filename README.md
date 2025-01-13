@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b3de6d148d5d6b88bf1f683244e9ab3927c488c0` [refactor(meta): use insert_many to reduce latency (#20123)](https://github.com/risingwavelabs/risingwave/pull/20123)
 - `cf43539fa0638b6489610bfd56c34379f3f70ec1` [chore(deps): Bump notify from 7.0.0 to 8.0.0 (#20104)](https://github.com/risingwavelabs/risingwave/pull/20104)
 - `b6d7303e40e214c0f7e044ccfff4172688dee3ed` [ci: fail fast sqllogictest (#20087)](https://github.com/risingwavelabs/risingwave/pull/20087)
 
