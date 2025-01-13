@@ -137,6 +137,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f21f7a09037d195d1c3eab9460f6343cd0a60d36` [feat(risedev): specify arguments to docker command & enable logical replication for postgres service (#20124)](https://github.com/risingwavelabs/risingwave/pull/20124)
+- `68c38d7be34555748f9d0233a1305f4264101eaa` [revert:feat(frontend): support alter source pause/resume (#19636) (#20126)](https://github.com/risingwavelabs/risingwave/pull/20126)
 - `e1d39082245cfd0bde150db1f0398f438b420811` [feat(frontend): display UDF calls more concisely (#20127)](https://github.com/risingwavelabs/risingwave/pull/20127)
 - `b30c7e0fe1be82ecf57a3e53be649c25d03989ad` [doc: better curl command for quick start (#20111)](https://github.com/risingwavelabs/risingwave/pull/20111)
 - `c6ab2f8d06342a758d6fdb2c19f08aad1a57d50e` [fix(license): ignore access event when watching license key file changes (#20122)](https://github.com/risingwavelabs/risingwave/pull/20122)
