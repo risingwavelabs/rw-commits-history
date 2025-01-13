@@ -137,6 +137,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e1d39082245cfd0bde150db1f0398f438b420811` [feat(frontend): display UDF calls more concisely (#20127)](https://github.com/risingwavelabs/risingwave/pull/20127)
 - `b30c7e0fe1be82ecf57a3e53be649c25d03989ad` [doc: better curl command for quick start (#20111)](https://github.com/risingwavelabs/risingwave/pull/20111)
 - `c6ab2f8d06342a758d6fdb2c19f08aad1a57d50e` [fix(license): ignore access event when watching license key file changes (#20122)](https://github.com/risingwavelabs/risingwave/pull/20122)
 - `b3de6d148d5d6b88bf1f683244e9ab3927c488c0` [refactor(meta): use insert_many to reduce latency (#20123)](https://github.com/risingwavelabs/risingwave/pull/20123)
