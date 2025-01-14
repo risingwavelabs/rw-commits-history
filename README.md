@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f437f77b6ad6721f3aa41325ffc4eeacca0081bf` [refactor(storage): switch to foyer 0.14.0 and mixtrics 0.0.2 (#20155)](https://github.com/risingwavelabs/risingwave/pull/20155)
 - `8fd5a9c1d7b15cbe082a9002d7f768a5e157545e` [ci: reuse plugin with anchor to make yaml shorter (#20150)](https://github.com/risingwavelabs/risingwave/pull/20150)
 - `f41dab78ddfb74e5e08f9b63d91ae2152b9f7802` [feat(storage): switch to eviction time disk cache insertion (#20076)](https://github.com/risingwavelabs/risingwave/pull/20076)
 - `a582c11d0c21de2fbfc443e3885c87b0c3c0f9e5` [test: add retry to flaky test (#20149)](https://github.com/risingwavelabs/risingwave/pull/20149)
