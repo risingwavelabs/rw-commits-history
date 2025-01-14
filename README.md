@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250114` `325404c992df685d820267ca28a5c909a8374993`
 - `20250113` `f21f7a09037d195d1c3eab9460f6343cd0a60d36`
 - `20250112` `3b004c63358b62bdc54dc60dbb42fd1a257cab41`
 - `20250111` `326ec191614bfc34075604a9783de7a029cb36dc`
@@ -137,6 +138,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250114
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f21f7a09037d195d1c3eab9460f6343cd0a60d36...325404c992df685d820267ca28a5c909a8374993)
 - `325404c992df685d820267ca28a5c909a8374993` [refactor(connector): make SplitEnumerator/Reader dyn (#20098)](https://github.com/risingwavelabs/risingwave/pull/20098)
 - `406458710752f29e61381c3fea94b09991bee2d6` [chore(deps): Bump golang.org/x/crypto from 0.21.0 to 0.31.0 in /integration_tests/datagen (#20109)](https://github.com/risingwavelabs/risingwave/pull/20109)
 - `f437f77b6ad6721f3aa41325ffc4eeacca0081bf` [refactor(storage): switch to foyer 0.14.0 and mixtrics 0.0.2 (#20155)](https://github.com/risingwavelabs/risingwave/pull/20155)
