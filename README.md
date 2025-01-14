@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f41dab78ddfb74e5e08f9b63d91ae2152b9f7802` [feat(storage): switch to eviction time disk cache insertion (#20076)](https://github.com/risingwavelabs/risingwave/pull/20076)
 - `a582c11d0c21de2fbfc443e3885c87b0c3c0f9e5` [test: add retry to flaky test (#20149)](https://github.com/risingwavelabs/risingwave/pull/20149)
 - `48a9e4b1013cc1295b5ba325bb3f9d253bd5bd4c` [feat(connector): introduce azblob file scan (#20046)](https://github.com/risingwavelabs/risingwave/pull/20046)
 - `8c0cfb427db27e50c8620241b184805d191d5542` [feat(storage): replace magic number with config for gc (#20142)](https://github.com/risingwavelabs/risingwave/pull/20142)
