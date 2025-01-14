@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8c0cfb427db27e50c8620241b184805d191d5542` [feat(storage): replace magic number with config for gc (#20142)](https://github.com/risingwavelabs/risingwave/pull/20142)
 - `9337ddb31a3dd00ed1357c605f83f48999be94b3` [chore(deps): Bump apache/skywalking-eyes from 3ea9df11bb3a5a85665377d1fd10c02edecf2c40 to 69f34abb75ec4e414b593ac3f34228b60e33f97b (#20147)](https://github.com/risingwavelabs/risingwave/pull/20147)
 - `3a7652180af711b56808d478e31ca3d47c56ed99` [chore(deps): Bump crate-ci/typos from 1.28.3 to 1.29.4 (#20146)](https://github.com/risingwavelabs/risingwave/pull/20146)
 - `20a68b0f901dbb92fd9373170ad5750eb4bd6a9a` [fix(connector): improve mysql error message (#20135)](https://github.com/risingwavelabs/risingwave/pull/20135)
