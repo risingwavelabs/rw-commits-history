@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250115` `86179b64d327daa5d87ef5c95002eb93ca3fe91e`
 - `20250114` `325404c992df685d820267ca28a5c909a8374993`
 - `20250113` `f21f7a09037d195d1c3eab9460f6343cd0a60d36`
 - `20250112` `3b004c63358b62bdc54dc60dbb42fd1a257cab41`
@@ -138,6 +139,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250115
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/325404c992df685d820267ca28a5c909a8374993...86179b64d327daa5d87ef5c95002eb93ca3fe91e)
 - `86179b64d327daa5d87ef5c95002eb93ca3fe91e` [refactor(frontend): reuse def purification for assembling cdc table def when auto schema change (#19997)](https://github.com/risingwavelabs/risingwave/pull/19997)
 - `6dbcefd008ecdfb4055b9cc857ee0b889811e7bf` [feat(frontend): lossy "purify" column default value (#19993)](https://github.com/risingwavelabs/risingwave/pull/19993)
 - `5dee6d71649ec67fc9edb0c1d1a689bd40b9d068` [test(connector): add source test for `Date('0000-00-00')` (#20136)](https://github.com/risingwavelabs/risingwave/pull/20136)
