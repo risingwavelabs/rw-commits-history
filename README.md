@@ -138,6 +138,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5dee6d71649ec67fc9edb0c1d1a689bd40b9d068` [test(connector): add source test for `Date('0000-00-00')` (#20136)](https://github.com/risingwavelabs/risingwave/pull/20136)
+- `79fb7e81c09b4f6a4c532c7e29a00e93ef6e53ae` [test: bump slt 0.26.3 (#20166)](https://github.com/risingwavelabs/risingwave/pull/20166)
 - `7d11dd68347ae8ca8307854ce8a3b5f84984ba04` [chore(deps): Bump uuid from 1.11.0 to 1.12.0 (#20162)](https://github.com/risingwavelabs/risingwave/pull/20162)
 - `e635115560eca38c069e8d54fe4d15162f539a0a` [fix: update docker compose to use v2.1.2 (#20157)](https://github.com/risingwavelabs/risingwave/pull/20157)
 - `7c3b70d51e8c19e8414ad61fa07eba31faee9e4e` [chore(deps): Bump itertools from 0.13.0 to 0.14.0 (#20163)](https://github.com/risingwavelabs/risingwave/pull/20163)
