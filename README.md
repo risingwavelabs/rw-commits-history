@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7c3b70d51e8c19e8414ad61fa07eba31faee9e4e` [chore(deps): Bump itertools from 0.13.0 to 0.14.0 (#20163)](https://github.com/risingwavelabs/risingwave/pull/20163)
 
 ## nightly-20250114
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f21f7a09037d195d1c3eab9460f6343cd0a60d36...325404c992df685d820267ca28a5c909a8374993)
