@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6dbcefd008ecdfb4055b9cc857ee0b889811e7bf` [feat(frontend): lossy "purify" column default value (#19993)](https://github.com/risingwavelabs/risingwave/pull/19993)
 - `5dee6d71649ec67fc9edb0c1d1a689bd40b9d068` [test(connector): add source test for `Date('0000-00-00')` (#20136)](https://github.com/risingwavelabs/risingwave/pull/20136)
 - `79fb7e81c09b4f6a4c532c7e29a00e93ef6e53ae` [test: bump slt 0.26.3 (#20166)](https://github.com/risingwavelabs/risingwave/pull/20166)
 - `7d11dd68347ae8ca8307854ce8a3b5f84984ba04` [chore(deps): Bump uuid from 1.11.0 to 1.12.0 (#20162)](https://github.com/risingwavelabs/risingwave/pull/20162)
