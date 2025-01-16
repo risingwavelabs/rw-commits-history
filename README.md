@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250116` `439956ed1fbc07f3ffe0a2f58ad9254a4047649f`
 - `20250115` `86179b64d327daa5d87ef5c95002eb93ca3fe91e`
 - `20250114` `325404c992df685d820267ca28a5c909a8374993`
 - `20250113` `f21f7a09037d195d1c3eab9460f6343cd0a60d36`
@@ -138,6 +139,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250116
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86179b64d327daa5d87ef5c95002eb93ca3fe91e...439956ed1fbc07f3ffe0a2f58ad9254a4047649f)
 - `439956ed1fbc07f3ffe0a2f58ad9254a4047649f` [fix: telemetry init channel unsuccessful leads to panic (#20160)](https://github.com/risingwavelabs/risingwave/pull/20160)
 - `bc429d5c336c440441597658cf47e9bfe3ae088e` [refactor(meta): batch delete time travel metadata (#20169)](https://github.com/risingwavelabs/risingwave/pull/20169)
 - `297a634ad1d73f1c531949a7d9e80ef87f0fc795` [feat: support DROP SCHEMA CASCADE and some refactoring (#19702)](https://github.com/risingwavelabs/risingwave/pull/19702)
