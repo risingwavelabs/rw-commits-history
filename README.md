@@ -139,6 +139,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `439956ed1fbc07f3ffe0a2f58ad9254a4047649f` [fix: telemetry init channel unsuccessful leads to panic (#20160)](https://github.com/risingwavelabs/risingwave/pull/20160)
+- `bc429d5c336c440441597658cf47e9bfe3ae088e` [refactor(meta): batch delete time travel metadata (#20169)](https://github.com/risingwavelabs/risingwave/pull/20169)
 - `297a634ad1d73f1c531949a7d9e80ef87f0fc795` [feat: support DROP SCHEMA CASCADE and some refactoring (#19702)](https://github.com/risingwavelabs/risingwave/pull/19702)
 - `277fa8649a5f94532a35d0a2f6f954502f8c4930` [feat(storage): refactor and support local state store flushed snapshot reader (#20153)](https://github.com/risingwavelabs/risingwave/pull/20153)
 - `e6c25e063d7964572f1347d43acd52eccac2be76` [feat(frontend): allow schema change & sink into a CTAS table (#20174)](https://github.com/risingwavelabs/risingwave/pull/20174)
