@@ -137,6 +137,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `27efddf862d4b7969e0057301070c9d6ba3d9dad` [feat: use order key as mv's dist key (#20176)](https://github.com/risingwavelabs/risingwave/pull/20176)
 - `f0db87bee6d4ba2983bd058bf973a0564a578c17` [feat(frontend): use purified definition for replacing table (#20131)](https://github.com/risingwavelabs/risingwave/pull/20131)
 - `8a7a8ded2178381cde6523222e4ebefd5d730c7e` [feat: support schedule/reschedule resource group (#19955)](https://github.com/risingwavelabs/risingwave/pull/19955)
 - `14a5d3d1c0de0695998987e1be3e138bce266f6c` [refactor(meta): use in memory struct for table fragments (#20190)](https://github.com/risingwavelabs/risingwave/pull/20190)
