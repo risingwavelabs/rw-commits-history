@@ -137,6 +137,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `37635a614454dd5c8a3b74378f5842b87e68936a` [feat(sink): Avro with AWS Glue Schema Registry (#20181)](https://github.com/risingwavelabs/risingwave/pull/20181)
 - `bb90e0fe057c04b52b38804f545264c2813d4bf8` [feat: delete Kafka consumer group on drop (#20065)](https://github.com/risingwavelabs/risingwave/pull/20065)
 
 ## nightly-20250116
