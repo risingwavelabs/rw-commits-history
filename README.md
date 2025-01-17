@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bb90e0fe057c04b52b38804f545264c2813d4bf8` [feat: delete Kafka consumer group on drop (#20065)](https://github.com/risingwavelabs/risingwave/pull/20065)
 
 ## nightly-20250116
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86179b64d327daa5d87ef5c95002eb93ca3fe91e...439956ed1fbc07f3ffe0a2f58ad9254a4047649f)
