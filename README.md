@@ -137,6 +137,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2d316612e0665e0630e30ee228d87a49cf9ce8ec` [fix: add privilege check for drop user (#20199)](https://github.com/risingwavelabs/risingwave/pull/20199)
+- `069583190e7b05d7726adadc77a8bd2df3bc94d6` [feat: delete Kafka consumer group when source backfill is finished (#20077)](https://github.com/risingwavelabs/risingwave/pull/20077)
 - `27efddf862d4b7969e0057301070c9d6ba3d9dad` [feat: use order key as mv's dist key (#20176)](https://github.com/risingwavelabs/risingwave/pull/20176)
 - `f0db87bee6d4ba2983bd058bf973a0564a578c17` [feat(frontend): use purified definition for replacing table (#20131)](https://github.com/risingwavelabs/risingwave/pull/20131)
 - `8a7a8ded2178381cde6523222e4ebefd5d730c7e` [feat: support schedule/reschedule resource group (#19955)](https://github.com/risingwavelabs/risingwave/pull/19955)
