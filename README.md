@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250117` `2d316612e0665e0630e30ee228d87a49cf9ce8ec`
 - `20250116` `439956ed1fbc07f3ffe0a2f58ad9254a4047649f`
 - `20250115` `86179b64d327daa5d87ef5c95002eb93ca3fe91e`
 - `20250114` `325404c992df685d820267ca28a5c909a8374993`
@@ -137,6 +138,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250117
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/439956ed1fbc07f3ffe0a2f58ad9254a4047649f...2d316612e0665e0630e30ee228d87a49cf9ce8ec)
 - `2d316612e0665e0630e30ee228d87a49cf9ce8ec` [fix: add privilege check for drop user (#20199)](https://github.com/risingwavelabs/risingwave/pull/20199)
 - `069583190e7b05d7726adadc77a8bd2df3bc94d6` [feat: delete Kafka consumer group when source backfill is finished (#20077)](https://github.com/risingwavelabs/risingwave/pull/20077)
 - `27efddf862d4b7969e0057301070c9d6ba3d9dad` [feat: use order key as mv's dist key (#20176)](https://github.com/risingwavelabs/risingwave/pull/20176)
