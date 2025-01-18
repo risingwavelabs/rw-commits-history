@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `47e36be6f4a405a00d1a114b165f4518abaa3cc4` [feat(iceberg): support iceberg connection (#20189)](https://github.com/risingwavelabs/risingwave/pull/20189)
 
 ## nightly-20250117
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/439956ed1fbc07f3ffe0a2f58ad9254a4047649f...2d316612e0665e0630e30ee228d87a49cf9ce8ec)
