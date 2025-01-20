@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250120` `bedec0a8ed2aac273790bf7df6d79db213214d7a`
 - `20250119` `47e36be6f4a405a00d1a114b165f4518abaa3cc4`
 - `20250117` `2d316612e0665e0630e30ee228d87a49cf9ce8ec`
 - `20250116` `439956ed1fbc07f3ffe0a2f58ad9254a4047649f`
@@ -139,6 +140,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250120
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/47e36be6f4a405a00d1a114b165f4518abaa3cc4...bedec0a8ed2aac273790bf7df6d79db213214d7a)
 - `bedec0a8ed2aac273790bf7df6d79db213214d7a` [chore: change debezium-connect image name (#20205)](https://github.com/risingwavelabs/risingwave/pull/20205)
 - `04a8813a30e6b1a4ffe558f0abe14c37b0fadc7f` [refactor(frontend): use purified definition for altering source (#20182)](https://github.com/risingwavelabs/risingwave/pull/20182)
 - `bf8f0768a0d06728db3139de43d1c3b1bd396241` [feat(storage): Splitting table change log from HummockVersion on CN side (#20050)](https://github.com/risingwavelabs/risingwave/pull/20050)
