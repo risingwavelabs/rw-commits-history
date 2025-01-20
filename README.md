@@ -139,6 +139,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bedec0a8ed2aac273790bf7df6d79db213214d7a` [chore: change debezium-connect image name (#20205)](https://github.com/risingwavelabs/risingwave/pull/20205)
 - `04a8813a30e6b1a4ffe558f0abe14c37b0fadc7f` [refactor(frontend): use purified definition for altering source (#20182)](https://github.com/risingwavelabs/risingwave/pull/20182)
 - `bf8f0768a0d06728db3139de43d1c3b1bd396241` [feat(storage): Splitting table change log from HummockVersion on CN side (#20050)](https://github.com/risingwavelabs/risingwave/pull/20050)
 - `323d8a24ed396859ccf0e123b885ddf6534f5714` [chore(deps): Bump libz-sys from 1.1.12 to 1.1.21 (#20211)](https://github.com/risingwavelabs/risingwave/pull/20211)
