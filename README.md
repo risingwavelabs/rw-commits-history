@@ -139,6 +139,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f99e53eb601e1016cb876b99e5d6cddbefe3e7b7` [chore(deps): Bump elasticsearch from 8.15.0-alpha.1 to 8.17.0-alpha.1 (#19868)](https://github.com/risingwavelabs/risingwave/pull/19868)
+- `a19acf5e499a8479d13af7c07dddeacbe19f6326` [refactor(iceberg): remove unnecessary JSON serde (#20212)](https://github.com/risingwavelabs/risingwave/pull/20212)
 - `d00c6e35893791067b55422c4f998c69c35e4f10` [refactor: optimize delta log deletion (#20158)](https://github.com/risingwavelabs/risingwave/pull/20158)
 - `6f533710613c98e3b8a1baac94100d7ea33b4e04` [fix(meta): fix incorrect displayed worker type (#20193)](https://github.com/risingwavelabs/risingwave/pull/20193)
 - `d1380588485d0366d23a9a7ca0de34d2667e9851` [chore: increase e2e parallel in-memory test timeout (#20209)](https://github.com/risingwavelabs/risingwave/pull/20209)
