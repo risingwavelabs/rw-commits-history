@@ -139,6 +139,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `04a8813a30e6b1a4ffe558f0abe14c37b0fadc7f` [refactor(frontend): use purified definition for altering source (#20182)](https://github.com/risingwavelabs/risingwave/pull/20182)
+- `bf8f0768a0d06728db3139de43d1c3b1bd396241` [feat(storage): Splitting table change log from HummockVersion on CN side (#20050)](https://github.com/risingwavelabs/risingwave/pull/20050)
 - `323d8a24ed396859ccf0e123b885ddf6534f5714` [chore(deps): Bump libz-sys from 1.1.12 to 1.1.21 (#20211)](https://github.com/risingwavelabs/risingwave/pull/20211)
 - `ccddb4df655b32567fe7fd6ff63894062cd8dd77` [chore(deps): Bump bitflags from 2.7.0 to 2.8.0 (#20165)](https://github.com/risingwavelabs/risingwave/pull/20165)
 - `7bd30b7a4461c962c4c878cfd6386b05cc1c4315` [chore(deps): Bump golang.org/x/net from 0.23.0 to 0.33.0 in /integration_tests/datagen (#20217)](https://github.com/risingwavelabs/risingwave/pull/20217)
