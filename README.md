@@ -139,6 +139,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d1380588485d0366d23a9a7ca0de34d2667e9851` [chore: increase e2e parallel in-memory test timeout (#20209)](https://github.com/risingwavelabs/risingwave/pull/20209)
 
 ## nightly-20250119
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2d316612e0665e0630e30ee228d87a49cf9ce8ec...47e36be6f4a405a00d1a114b165f4518abaa3cc4)
