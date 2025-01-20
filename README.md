@@ -140,6 +140,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ff49a866a19c0fd6f7d5d3039bf5da474b6e90c7` [chore(deps): Bump aws-lc-rs from v1.6.2 to 1.12.1 (#20208)](https://github.com/risingwavelabs/risingwave/pull/20208)
 
 ## nightly-20250120
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/47e36be6f4a405a00d1a114b165f4518abaa3cc4...bedec0a8ed2aac273790bf7df6d79db213214d7a)
