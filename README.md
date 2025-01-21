@@ -139,6 +139,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5874059dda1ed9100269bfa6c8ce9ac1e95a4431` [fix(risedev): set `CONNECTOR_LIBS_PATH` for `risedev playground` (#20224)](https://github.com/risingwavelabs/risingwave/pull/20224)
 - `eed301b66dafec01a3200cccaf77f509ce88ef03` [fix: fix several issues about the public schema (#20201)](https://github.com/risingwavelabs/risingwave/pull/20201)
 - `ff49a866a19c0fd6f7d5d3039bf5da474b6e90c7` [chore(deps): Bump aws-lc-rs from v1.6.2 to 1.12.1 (#20208)](https://github.com/risingwavelabs/risingwave/pull/20208)
 
