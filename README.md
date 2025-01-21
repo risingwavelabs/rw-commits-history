@@ -140,6 +140,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `711fedf72865c5a799ae0b6d1c892c84d1aff4de` [fix(connector): handle update insert and delete + subset pk + handle delete mapping (#20238)](https://github.com/risingwavelabs/risingwave/pull/20238)
 - `f534985c129c246c0ef6c503ea072ca01049ec60` [fix(iceberg): fix iceberg write qps (#20225)](https://github.com/risingwavelabs/risingwave/pull/20225)
 - `7cfbd74d58a56769b57b6152ca801984f6107ef6` [fix(iceberg): fix iceberg eq delete schema (#20237)](https://github.com/risingwavelabs/risingwave/pull/20237)
 - `2c378ac142aed692cf227a906003a38c01be6dc3` [fix: make dashboard prometheus queries work with cloud data sources (#20242)](https://github.com/risingwavelabs/risingwave/pull/20242)
