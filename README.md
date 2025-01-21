@@ -139,6 +139,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `509ec7a7b196ed1e4fe5290655cf93c1dd785b29` [feat: add `specific_resource_group` to `rw_streaming_jobs` (#20207)](https://github.com/risingwavelabs/risingwave/pull/20207)
 - `1b74a95f2d507c0f310f789693c04ea697d21fd3` [feat: support real system func pg_table_is_visible (#20234)](https://github.com/risingwavelabs/risingwave/pull/20234)
 - `5874059dda1ed9100269bfa6c8ce9ac1e95a4431` [fix(risedev): set `CONNECTOR_LIBS_PATH` for `risedev playground` (#20224)](https://github.com/risingwavelabs/risingwave/pull/20224)
 - `eed301b66dafec01a3200cccaf77f509ce88ef03` [fix: fix several issues about the public schema (#20201)](https://github.com/risingwavelabs/risingwave/pull/20201)
