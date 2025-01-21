@@ -140,6 +140,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2c378ac142aed692cf227a906003a38c01be6dc3` [fix: make dashboard prometheus queries work with cloud data sources (#20242)](https://github.com/risingwavelabs/risingwave/pull/20242)
 
 ## nightly-20250121
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bedec0a8ed2aac273790bf7df6d79db213214d7a...c0bea545731feb2800989b81ccbccb1d421fb953)
