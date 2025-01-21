@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250121` `c0bea545731feb2800989b81ccbccb1d421fb953`
 - `20250120` `bedec0a8ed2aac273790bf7df6d79db213214d7a`
 - `20250119` `47e36be6f4a405a00d1a114b165f4518abaa3cc4`
 - `20250117` `2d316612e0665e0630e30ee228d87a49cf9ce8ec`
@@ -139,6 +140,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250121
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bedec0a8ed2aac273790bf7df6d79db213214d7a...c0bea545731feb2800989b81ccbccb1d421fb953)
 - `c0bea545731feb2800989b81ccbccb1d421fb953` [fix: Add read guard on reschedule_lock for `drop_streaming_jobs` (#20240)](https://github.com/risingwavelabs/risingwave/pull/20240)
 - `33bf9ba598f3c0b045a385972f7aa9db39cc5048` [fix(meta): fix receiving scheduled command on blocked database (#20241)](https://github.com/risingwavelabs/risingwave/pull/20241)
 - `509ec7a7b196ed1e4fe5290655cf93c1dd785b29` [feat: add `specific_resource_group` to `rw_streaming_jobs` (#20207)](https://github.com/risingwavelabs/risingwave/pull/20207)
