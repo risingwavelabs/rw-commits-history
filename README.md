@@ -140,6 +140,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `67802fd93f609bf0532594fbf307b3ded8ae26d2` [refactor(storage): Reduce get_table_id_tables lock calls. (#20194)](https://github.com/risingwavelabs/risingwave/pull/20194)
+- `e0e0e78442151d38d58e0e736ecab5918d197ec6` [fix(telemetry): not send report if cluster is in test env (#20180)](https://github.com/risingwavelabs/risingwave/pull/20180)
 - `f5aed12ec97f7f84c6dd99604398c809a9e3e36d` [refactor(connector): use dyn for connection (#20253)](https://github.com/risingwavelabs/risingwave/pull/20253)
 - `49432f1be9426d02c9639c1c85ffe2fc698fdc0a` [chore: capture occasional errors in main cron (#20173)](https://github.com/risingwavelabs/risingwave/pull/20173)
 - `711fedf72865c5a799ae0b6d1c892c84d1aff4de` [fix(connector): handle update insert and delete + subset pk + handle delete mapping (#20238)](https://github.com/risingwavelabs/risingwave/pull/20238)
