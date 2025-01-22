@@ -140,6 +140,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `49432f1be9426d02c9639c1c85ffe2fc698fdc0a` [chore: capture occasional errors in main cron (#20173)](https://github.com/risingwavelabs/risingwave/pull/20173)
 - `711fedf72865c5a799ae0b6d1c892c84d1aff4de` [fix(connector): handle update insert and delete + subset pk + handle delete mapping (#20238)](https://github.com/risingwavelabs/risingwave/pull/20238)
 - `f534985c129c246c0ef6c503ea072ca01049ec60` [fix(iceberg): fix iceberg write qps (#20225)](https://github.com/risingwavelabs/risingwave/pull/20225)
 - `7cfbd74d58a56769b57b6152ca801984f6107ef6` [fix(iceberg): fix iceberg eq delete schema (#20237)](https://github.com/risingwavelabs/risingwave/pull/20237)
