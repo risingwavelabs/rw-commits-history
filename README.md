@@ -140,6 +140,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `983dd185d4edf28c53bd7454e30ffbea38337006` [feat(prost): add deprecated attribute for helper methods of deprecated field (#20257)](https://github.com/risingwavelabs/risingwave/pull/20257)
+- `d558db42f8b6b77f825b74326d721120ae389e4e` [fix(frontend): cursor should not be schema-bound (#20221)](https://github.com/risingwavelabs/risingwave/pull/20221)
 - `1fa4f93765415c8003f19e47fb771490087fe20f` [refactor(frontend): use empty tcp stream for frontend health check in docker-compose (#20219)](https://github.com/risingwavelabs/risingwave/pull/20219)
 - `67802fd93f609bf0532594fbf307b3ded8ae26d2` [refactor(storage): Reduce get_table_id_tables lock calls. (#20194)](https://github.com/risingwavelabs/risingwave/pull/20194)
 - `e0e0e78442151d38d58e0e736ecab5918d197ec6` [fix(telemetry): not send report if cluster is in test env (#20180)](https://github.com/risingwavelabs/risingwave/pull/20180)
