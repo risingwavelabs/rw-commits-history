@@ -140,6 +140,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7d080491e81cc242b3b09ac65373b79f091d9ede` [refactor(secret): use aws-lc-rs to replace aes-gcm crate (#20091)](https://github.com/risingwavelabs/risingwave/pull/20091)
 
 ## nightly-20250122
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0bea545731feb2800989b81ccbccb1d421fb953...983dd185d4edf28c53bd7454e30ffbea38337006)
