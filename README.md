@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250123` `a2cf60d1d5876b6517617f7a21be90c206a79f85`
 - `20250122` `983dd185d4edf28c53bd7454e30ffbea38337006`
 - `20250121` `c0bea545731feb2800989b81ccbccb1d421fb953`
 - `20250120` `bedec0a8ed2aac273790bf7df6d79db213214d7a`
@@ -136,6 +137,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250123
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/983dd185d4edf28c53bd7454e30ffbea38337006...a2cf60d1d5876b6517617f7a21be90c206a79f85)
 - `a2cf60d1d5876b6517617f7a21be90c206a79f85` [fix(batch): fix batch anti join (#20264)](https://github.com/risingwavelabs/risingwave/pull/20264)
 - `07eb58207a2aca5023bc030507faeb280637e1de` [chore(deps): Bump fs-err from 3.0.0 to 3.1.0 (#20265)](https://github.com/risingwavelabs/risingwave/pull/20265)
 - `12dfa28d649a5172b0fd8a941554adced5dece85` [feat: make `privatelink.endpoint` accept json array (#20154)](https://github.com/risingwavelabs/risingwave/pull/20154)
