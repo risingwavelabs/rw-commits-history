@@ -140,6 +140,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9446b41cd0f0fb58cc370206ca3ea85c26cd0a53` [fix(dashboard): randomUUID does not exist in some browser version (#20266)](https://github.com/risingwavelabs/risingwave/pull/20266)
 - `7d080491e81cc242b3b09ac65373b79f091d9ede` [refactor(secret): use aws-lc-rs to replace aes-gcm crate (#20091)](https://github.com/risingwavelabs/risingwave/pull/20091)
 
 ## nightly-20250122
