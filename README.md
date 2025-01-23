@@ -138,6 +138,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a2cf60d1d5876b6517617f7a21be90c206a79f85` [fix(batch): fix batch anti join (#20264)](https://github.com/risingwavelabs/risingwave/pull/20264)
 - `07eb58207a2aca5023bc030507faeb280637e1de` [chore(deps): Bump fs-err from 3.0.0 to 3.1.0 (#20265)](https://github.com/risingwavelabs/risingwave/pull/20265)
 - `12dfa28d649a5172b0fd8a941554adced5dece85` [feat: make `privatelink.endpoint` accept json array (#20154)](https://github.com/risingwavelabs/risingwave/pull/20154)
 - `9446b41cd0f0fb58cc370206ca3ea85c26cd0a53` [fix(dashboard): randomUUID does not exist in some browser version (#20266)](https://github.com/risingwavelabs/risingwave/pull/20266)
