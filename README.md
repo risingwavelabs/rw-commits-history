@@ -136,6 +136,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2351d7eac62e3712b40c78b4dfd609ea3cbcf9b6` [fix: list one page in fs source executor (#20292)](https://github.com/risingwavelabs/risingwave/pull/20292)
 - `0942b6093f13a5b685357966d0af7ab17f1fb475` [test(frontend): add tests for schema change default value not to be refreshed (#17121) (#20291)](https://github.com/risingwavelabs/risingwave/pull/20291)
 - `96e81586c39c90bdd12f5de1506e6f9293da260f` [fix: finish source backfill immediately for scan.startup.mode=latest (#20285)](https://github.com/risingwavelabs/risingwave/pull/20285)
 
