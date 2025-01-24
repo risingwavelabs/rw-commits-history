@@ -136,6 +136,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `96e81586c39c90bdd12f5de1506e6f9293da260f` [fix: finish source backfill immediately for scan.startup.mode=latest (#20285)](https://github.com/risingwavelabs/risingwave/pull/20285)
 
 ## nightly-20250123
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/983dd185d4edf28c53bd7454e30ffbea38337006...a2cf60d1d5876b6517617f7a21be90c206a79f85)
