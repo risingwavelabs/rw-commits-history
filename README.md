@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250124` `a1e5188af4362f24de90130889abe4f4ff416c22`
+- `20250125` `a1e5188af4362f24de90130889abe4f4ff416c22`
 - `20250123` `a2cf60d1d5876b6517617f7a21be90c206a79f85`
 - `20250122` `983dd185d4edf28c53bd7454e30ffbea38337006`
 - `20250121` `c0bea545731feb2800989b81ccbccb1d421fb953`
@@ -136,8 +136,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fa4c46373f5ebe3b10b4573e19b7c6abc243fa23` [fix(playground): listen to `127.0.0.1` instead of `0.0.0.0` for gRPC services (#20297)](https://github.com/risingwavelabs/risingwave/pull/20297)
 
-## nightly-20250124
+## nightly-20250125
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a2cf60d1d5876b6517617f7a21be90c206a79f85...a1e5188af4362f24de90130889abe4f4ff416c22)
 - `a1e5188af4362f24de90130889abe4f4ff416c22` [fix(test): didn't drop source but deleted topic (#20293)](https://github.com/risingwavelabs/risingwave/pull/20293)
 - `217dcfaa73e5450a1c61c60e62f172271ad522c9` [feat(risedev): parallel service startup (#20286)](https://github.com/risingwavelabs/risingwave/pull/20286)
