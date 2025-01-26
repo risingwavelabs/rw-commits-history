@@ -137,6 +137,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f6bebeae436c7065f9aa39a6fdbaf3b95d3d4c81` [refactor: refactor series of visit_stream_node method (#20313)](https://github.com/risingwavelabs/risingwave/pull/20313)
 
 ## nightly-20250126
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a1e5188af4362f24de90130889abe4f4ff416c22...1384d4592ba94ec873c5f513946eb7b7fbfa36e5)
