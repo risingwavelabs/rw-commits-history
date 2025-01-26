@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250126` `1384d4592ba94ec873c5f513946eb7b7fbfa36e5`
 - `20250125` `a1e5188af4362f24de90130889abe4f4ff416c22`
 - `20250123` `a2cf60d1d5876b6517617f7a21be90c206a79f85`
 - `20250122` `983dd185d4edf28c53bd7454e30ffbea38337006`
@@ -136,6 +137,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250126
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a1e5188af4362f24de90130889abe4f4ff416c22...1384d4592ba94ec873c5f513946eb7b7fbfa36e5)
 - `1384d4592ba94ec873c5f513946eb7b7fbfa36e5` [fix(parquet): handle nested data types correctly (#20156)](https://github.com/risingwavelabs/risingwave/pull/20156)
 - `fa4c46373f5ebe3b10b4573e19b7c6abc243fa23` [fix(playground): listen to `127.0.0.1` instead of `0.0.0.0` for gRPC services (#20297)](https://github.com/risingwavelabs/risingwave/pull/20297)
 
