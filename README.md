@@ -136,6 +136,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1384d4592ba94ec873c5f513946eb7b7fbfa36e5` [fix(parquet): handle nested data types correctly (#20156)](https://github.com/risingwavelabs/risingwave/pull/20156)
 - `fa4c46373f5ebe3b10b4573e19b7c6abc243fa23` [fix(playground): listen to `127.0.0.1` instead of `0.0.0.0` for gRPC services (#20297)](https://github.com/risingwavelabs/risingwave/pull/20297)
 
 ## nightly-20250125
