@@ -137,6 +137,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `18092eebb7adb672ae7f6aee64bdd8754f18509c` [refactor: more rename for legacy fs source (#20323)](https://github.com/risingwavelabs/risingwave/pull/20323)
 - `cdfdb97871452402b7a74523dbf9c015993aef89` [refactor: rename fs executor mods (#20322)](https://github.com/risingwavelabs/risingwave/pull/20322)
 - `ef07a495a07fd38dfbb234a82aa9a2b98506dab4` [fix: Fix the issue of actor migration panic caused by the in-place scale-down (#20316)](https://github.com/risingwavelabs/risingwave/pull/20316)
 - `6bf7184d55906785c1f74c84078b8971135cc8b8` [fix(compactor): fix full key can concat (#20314)](https://github.com/risingwavelabs/risingwave/pull/20314)
