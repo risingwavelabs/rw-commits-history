@@ -137,6 +137,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6bf7184d55906785c1f74c84078b8971135cc8b8` [fix(compactor): fix full key can concat (#20314)](https://github.com/risingwavelabs/risingwave/pull/20314)
 - `f6bebeae436c7065f9aa39a6fdbaf3b95d3d4c81` [refactor: refactor series of visit_stream_node method (#20313)](https://github.com/risingwavelabs/risingwave/pull/20313)
 
 ## nightly-20250126
