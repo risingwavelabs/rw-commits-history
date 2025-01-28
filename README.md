@@ -137,6 +137,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cd0ad935d5e8b49bdf7bf104a1d94b66a08a43f7` [doc: Update README.md (#20339)](https://github.com/risingwavelabs/risingwave/pull/20339)
 - `962703d890121ed42a278f8762e0b4bae87c9391` [doc: upload new diagram (#20338)](https://github.com/risingwavelabs/risingwave/pull/20338)
 - `c89eeed35ad4496fed9380200a61fb9c2e93ea41` [feat(batch): introduce batch AsOf join (#19790)](https://github.com/risingwavelabs/risingwave/pull/19790)
 
