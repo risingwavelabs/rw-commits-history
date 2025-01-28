@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250128` `08bdf2743469d7aab35c98403f53a3f4738b93f5`
 - `20250127` `0f5bae08111dcb4fd3912c04476889d5fe564d8e`
 - `20250126` `1384d4592ba94ec873c5f513946eb7b7fbfa36e5`
 - `20250125` `a1e5188af4362f24de90130889abe4f4ff416c22`
@@ -137,6 +138,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250128
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0f5bae08111dcb4fd3912c04476889d5fe564d8e...08bdf2743469d7aab35c98403f53a3f4738b93f5)
 - `08bdf2743469d7aab35c98403f53a3f4738b93f5` [chore(deps): Bump const-str from 0.5.6 to 0.6.0 (#20335)](https://github.com/risingwavelabs/risingwave/pull/20335)
 - `cd0ad935d5e8b49bdf7bf104a1d94b66a08a43f7` [doc: Update README.md (#20339)](https://github.com/risingwavelabs/risingwave/pull/20339)
 - `962703d890121ed42a278f8762e0b4bae87c9391` [doc: upload new diagram (#20338)](https://github.com/risingwavelabs/risingwave/pull/20338)
