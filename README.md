@@ -157,6 +157,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575` [feat(iceberg): add 'glue.id' to iceberg sink config (#20330)](https://github.com/risingwavelabs/risingwave/pull/20330)
 - `92b77f9062f79841bef553d0b5288c432ac01b12` [doc: Update README.md (#20355)](https://github.com/risingwavelabs/risingwave/pull/20355)
 
 ## nightly-20250131
