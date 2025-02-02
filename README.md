@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250201` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
+- `20250202` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
 - `20250131` `08bdf2743469d7aab35c98403f53a3f4738b93f5`
 - `20250127` `0f5bae08111dcb4fd3912c04476889d5fe564d8e`
 - `20250126` `1384d4592ba94ec873c5f513946eb7b7fbfa36e5`
@@ -159,7 +159,7 @@
 
 ## Unreleased
 
-## nightly-20250201
+## nightly-20250202
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/08bdf2743469d7aab35c98403f53a3f4738b93f5...654b836d24c6dcc98bbbfdc7b67ca76c9ec45575)
 - `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575` [feat(iceberg): add 'glue.id' to iceberg sink config (#20330)](https://github.com/risingwavelabs/risingwave/pull/20330)
 - `92b77f9062f79841bef553d0b5288c432ac01b12` [doc: Update README.md (#20355)](https://github.com/risingwavelabs/risingwave/pull/20355)
