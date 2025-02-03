@@ -149,7 +149,6 @@
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
 - `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 - `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
-- `20240808` `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49`
 </details>
 
 # Commit history
@@ -158,6 +157,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3ee72eb15819074a1344d82e8205039731745cdf` [refactor(proto): add `LATEST` const value for proto message version enums (#20359)](https://github.com/risingwavelabs/risingwave/pull/20359)
 - `67ee5a5f1bdfe0ef554291146c85d4cfabaa19c9` [feat(stream): normalize unmatched updates (#20350)](https://github.com/risingwavelabs/risingwave/pull/20350)
 - `552925b2562e0ecc553293f146a7c187c1eb7e88` [docs: Update README.md (#20358)](https://github.com/risingwavelabs/risingwave/pull/20358)
 
@@ -1710,14 +1710,4 @@
 - `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
 
 ## nightly-20240810
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f5701ab5f7cfe084190eac4fabfe1d381d0e49...21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd)
 - `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd` [refactor(storage): use strong type for HummockVersionId (#17971)](https://github.com/risingwavelabs/risingwave/pull/17971)
-- `13af20c8c8e92db775fb9fef62d4e798707f4bc0` [fix(storage): suppress some hummock false panic and warn log (#17914)](https://github.com/risingwavelabs/risingwave/pull/17914)
-- `efdbf3cfb234ed30171bd6444966528399a167d5` [feat(frontend): support extendend query for cursor (#17821)](https://github.com/risingwavelabs/risingwave/pull/17821)
-- `cc21a6abccc47cd9a7da2f13571ba3079195ab16` [refactor(meta): simplify InflightActorInfo and extract InflightGraphInfo (#17956)](https://github.com/risingwavelabs/risingwave/pull/17956)
-- `d00e2ebbeb0e814aaab1de687ea1c0dc7e4a2b0e` [feat(risedev): introduce sql server to risedev (#17951)](https://github.com/risingwavelabs/risingwave/pull/17951)
-- `fbe1a04808addd47aad33c61e3ea3e5fc9acdc6a` [test(mssql-cdc): enrich test cases (#17966)](https://github.com/risingwavelabs/risingwave/pull/17966)
-- `38927e8beaa0604172f64d40732ef8b3c2a1f814` [fix(iceberg): Load the latest table to avoid concurrent modification with the best effort (#17975)](https://github.com/risingwavelabs/risingwave/pull/17975)
-
-## nightly-20240808
-- `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49` [feat(stream): support row merge (a.k.a keyed merge) (#17930)](https://github.com/risingwavelabs/risingwave/pull/17930)
