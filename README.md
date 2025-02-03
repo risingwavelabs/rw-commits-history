@@ -158,6 +158,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `67ee5a5f1bdfe0ef554291146c85d4cfabaa19c9` [feat(stream): normalize unmatched updates (#20350)](https://github.com/risingwavelabs/risingwave/pull/20350)
 - `552925b2562e0ecc553293f146a7c187c1eb7e88` [docs: Update README.md (#20358)](https://github.com/risingwavelabs/risingwave/pull/20358)
 
 ## nightly-20250202
