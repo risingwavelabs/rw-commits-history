@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250203` `3ee72eb15819074a1344d82e8205039731745cdf`
 - `20250202` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
 - `20250131` `08bdf2743469d7aab35c98403f53a3f4738b93f5`
 - `20250127` `0f5bae08111dcb4fd3912c04476889d5fe564d8e`
@@ -157,6 +158,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250203
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/654b836d24c6dcc98bbbfdc7b67ca76c9ec45575...3ee72eb15819074a1344d82e8205039731745cdf)
 - `3ee72eb15819074a1344d82e8205039731745cdf` [refactor(proto): add `LATEST` const value for proto message version enums (#20359)](https://github.com/risingwavelabs/risingwave/pull/20359)
 - `67ee5a5f1bdfe0ef554291146c85d4cfabaa19c9` [feat(stream): normalize unmatched updates (#20350)](https://github.com/risingwavelabs/risingwave/pull/20350)
 - `552925b2562e0ecc553293f146a7c187c1eb7e88` [docs: Update README.md (#20358)](https://github.com/risingwavelabs/risingwave/pull/20358)
