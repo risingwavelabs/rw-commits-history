@@ -158,6 +158,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `016f84ffe635afa6d25d6ca928d38ed39f2f813d` [fix(sink): fix es sink username must required (#20304)](https://github.com/risingwavelabs/risingwave/pull/20304)
+- `dd26e9b7b1d0443f7469385e250d25a84fb318fb` [doc: Update README.md (#20373)](https://github.com/risingwavelabs/risingwave/pull/20373)
 
 ## nightly-20250203
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/654b836d24c6dcc98bbbfdc7b67ca76c9ec45575...3ee72eb15819074a1344d82e8205039731745cdf)
