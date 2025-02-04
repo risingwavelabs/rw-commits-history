@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250204` `f9e420f8743215eff528f81bdd8478bb8467abf5`
 - `20250203` `3ee72eb15819074a1344d82e8205039731745cdf`
 - `20250202` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
 - `20250131` `08bdf2743469d7aab35c98403f53a3f4738b93f5`
@@ -158,6 +159,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250204
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3ee72eb15819074a1344d82e8205039731745cdf...f9e420f8743215eff528f81bdd8478bb8467abf5)
 - `f9e420f8743215eff528f81bdd8478bb8467abf5` [refactor(risedev): use sqlx driver to test whether database is ready (#20360)](https://github.com/risingwavelabs/risingwave/pull/20360)
 - `13e412c9319ec4e3cc77f432f69cf2102596d863` [test(stream): add unit test for normalizing unmatched updates + fix typo (#20366)](https://github.com/risingwavelabs/risingwave/pull/20366)
 - `016f84ffe635afa6d25d6ca928d38ed39f2f813d` [fix(sink): fix es sink username must required (#20304)](https://github.com/risingwavelabs/risingwave/pull/20304)
