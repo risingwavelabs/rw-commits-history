@@ -158,6 +158,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f9e420f8743215eff528f81bdd8478bb8467abf5` [refactor(risedev): use sqlx driver to test whether database is ready (#20360)](https://github.com/risingwavelabs/risingwave/pull/20360)
+- `13e412c9319ec4e3cc77f432f69cf2102596d863` [test(stream): add unit test for normalizing unmatched updates + fix typo (#20366)](https://github.com/risingwavelabs/risingwave/pull/20366)
 - `016f84ffe635afa6d25d6ca928d38ed39f2f813d` [fix(sink): fix es sink username must required (#20304)](https://github.com/risingwavelabs/risingwave/pull/20304)
 - `dd26e9b7b1d0443f7469385e250d25a84fb318fb` [doc: Update README.md (#20373)](https://github.com/risingwavelabs/risingwave/pull/20373)
 
