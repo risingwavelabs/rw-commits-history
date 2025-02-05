@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `40216ce1de65b70c69f914b3a5023ed2e939110c` [feat(risedev): Add resource-group (#20329)](https://github.com/risingwavelabs/risingwave/pull/20329)
 - `b01dae50588fd2ecb7a5b033c540c803d9c0efbb` [feat: Add offline scaling support for background ddl with arrangement backfill (#20006)](https://github.com/risingwavelabs/risingwave/pull/20006)
 - `51a8b081f02a2693efe2fdc31fffdcba14d4efb5` [fix(pg-cdc): fix role-based permission for rds (#20347)](https://github.com/risingwavelabs/risingwave/pull/20347)
 
