@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250205` `827ce146aef3adeb22da5428d675cd90adbbacfb`
 - `20250204` `f9e420f8743215eff528f81bdd8478bb8467abf5`
 - `20250203` `3ee72eb15819074a1344d82e8205039731745cdf`
 - `20250202` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
@@ -159,6 +160,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250205
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f9e420f8743215eff528f81bdd8478bb8467abf5...827ce146aef3adeb22da5428d675cd90adbbacfb)
 - `827ce146aef3adeb22da5428d675cd90adbbacfb` [refactor(meta): do not store upstream actors in merge node (#20222)](https://github.com/risingwavelabs/risingwave/pull/20222)
 - `40216ce1de65b70c69f914b3a5023ed2e939110c` [feat(risedev): Add resource-group (#20329)](https://github.com/risingwavelabs/risingwave/pull/20329)
 - `b01dae50588fd2ecb7a5b033c540c803d9c0efbb` [feat: Add offline scaling support for background ddl with arrangement backfill (#20006)](https://github.com/risingwavelabs/risingwave/pull/20006)
