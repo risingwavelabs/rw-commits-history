@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `57978290e21b7864ff37bd6a35c5b721cc285ab2` [fix(cdc): fix wrong default column matching (#20348)](https://github.com/risingwavelabs/risingwave/pull/20348)
 
 ## nightly-20250205
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f9e420f8743215eff528f81bdd8478bb8467abf5...827ce146aef3adeb22da5428d675cd90adbbacfb)
