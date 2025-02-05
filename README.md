@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `51a8b081f02a2693efe2fdc31fffdcba14d4efb5` [fix(pg-cdc): fix role-based permission for rds (#20347)](https://github.com/risingwavelabs/risingwave/pull/20347)
 
 ## nightly-20250204
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3ee72eb15819074a1344d82e8205039731745cdf...f9e420f8743215eff528f81bdd8478bb8467abf5)
