@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250206` `c3a7a9933bcaafd1b5e8f059ae46fed1c037be63`
 - `20250205` `827ce146aef3adeb22da5428d675cd90adbbacfb`
 - `20250204` `f9e420f8743215eff528f81bdd8478bb8467abf5`
 - `20250203` `3ee72eb15819074a1344d82e8205039731745cdf`
@@ -160,6 +161,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250206
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/827ce146aef3adeb22da5428d675cd90adbbacfb...c3a7a9933bcaafd1b5e8f059ae46fed1c037be63)
 - `c3a7a9933bcaafd1b5e8f059ae46fed1c037be63` [feat(storage): support non_pk_prefix_watermark state cleaning (#19889)](https://github.com/risingwavelabs/risingwave/pull/19889)
 - `c9ca12efd22d4490c507ddc21efb0d831a395a7e` [feat(compaction): support trivial move multi ssts (#20284)](https://github.com/risingwavelabs/risingwave/pull/20284)
 - `4f6ad776c2e95129e4400fa282916ed2f34ff2ca` [fix(storage): Decoupling `WriteStop` and `Emergency` of compaction strategy (#20260)](https://github.com/risingwavelabs/risingwave/pull/20260)
