@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c3a7a9933bcaafd1b5e8f059ae46fed1c037be63` [feat(storage): support non_pk_prefix_watermark state cleaning (#19889)](https://github.com/risingwavelabs/risingwave/pull/19889)
 - `c9ca12efd22d4490c507ddc21efb0d831a395a7e` [feat(compaction): support trivial move multi ssts (#20284)](https://github.com/risingwavelabs/risingwave/pull/20284)
 - `4f6ad776c2e95129e4400fa282916ed2f34ff2ca` [fix(storage): Decoupling `WriteStop` and `Emergency` of compaction strategy (#20260)](https://github.com/risingwavelabs/risingwave/pull/20260)
 - `271877a5f5776e39d3856ab0f3f3b013037f700d` [refactor: rename StorageTable to BatchTable (#20235)](https://github.com/risingwavelabs/risingwave/pull/20235)
