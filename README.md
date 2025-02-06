@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `271877a5f5776e39d3856ab0f3f3b013037f700d` [refactor: rename StorageTable to BatchTable (#20235)](https://github.com/risingwavelabs/risingwave/pull/20235)
 - `57978290e21b7864ff37bd6a35c5b721cc285ab2` [fix(cdc): fix wrong default column matching (#20348)](https://github.com/risingwavelabs/risingwave/pull/20348)
 
 ## nightly-20250205
