@@ -151,7 +151,6 @@
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
-- `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 </details>
 
 # Commit history
@@ -1729,15 +1728,4 @@
 - `58b3f414763a4550f8408c3761b2f34a26c5e476` [chore: test data shall not use non-existent option `kafka.servers` (#17996)](https://github.com/risingwavelabs/risingwave/pull/17996)
 
 ## nightly-20240812
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a8b281147873b8ddc6ff633966a9381b1af26e85...15432093b71066fd1097ebebf6b716033ac340dd)
 - `15432093b71066fd1097ebebf6b716033ac340dd` [fix(stream): let approx percentile output its results every epoch (#18002)](https://github.com/risingwavelabs/risingwave/pull/18002)
-- `b2b5a335a421667fd072add96617058aba52f361` [feat: add map type to scalar/array/expr (#17690)](https://github.com/risingwavelabs/risingwave/pull/17690)
-- `3707a1eef00106da08f878c66d3a3295aaf47a02` [feat(source): use the default_provider for AWS-related connectors (#17933)](https://github.com/risingwavelabs/risingwave/pull/17933)
-- `ef0272baaac5ae80bba63e008ab4fc92206f1556` [fix(docs): display of math equations in dev docs (#17998)](https://github.com/risingwavelabs/risingwave/pull/17998)
-- `de7e55bd23a40613b23b2a9a365f0cd92076ed00` [chore(ci): sync nexmark queries for flamegraph generation (#17993)](https://github.com/risingwavelabs/risingwave/pull/17993)
-- `fbb30ad2be06ca7d8d619b44d25a03ffdccd3568` [feat: support initializing license key from env var (#17906)](https://github.com/risingwavelabs/risingwave/pull/17906)
-- `5137f4801c695df5401b2699f269c48fa3fa3b01` [feat: redact license key when displaying to users (#17936)](https://github.com/risingwavelabs/risingwave/pull/17936)
-- `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
-
-## nightly-20240811
-- `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
