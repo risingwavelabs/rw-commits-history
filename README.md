@@ -152,7 +152,6 @@
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
 - `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
-- `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 </details>
 
 # Commit history
@@ -161,6 +160,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0a6772b4133ded8e05ad4661d1dc1cdea538736f` [fix(compaction): avoid merge a emergency group (#20327)](https://github.com/risingwavelabs/risingwave/pull/20327)
+- `0211a937f229f9dd6062966ca45fae3969eceda0` [fix(metrics): hide some actor-level metrics (#20390)](https://github.com/risingwavelabs/risingwave/pull/20390)
 - `6668614be3a5511a187192cfe19049b36674d101` [chore: add some log for meta startup (#20301)](https://github.com/risingwavelabs/risingwave/pull/20301)
 
 ## nightly-20250206
@@ -1736,8 +1737,4 @@
 - `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
 
 ## nightly-20240811
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd...a8b281147873b8ddc6ff633966a9381b1af26e85)
 - `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
-
-## nightly-20240810
-- `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd` [refactor(storage): use strong type for HummockVersionId (#17971)](https://github.com/risingwavelabs/risingwave/pull/17971)
