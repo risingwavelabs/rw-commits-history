@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250207` `c17dd5ed95b86492c20967850b80a671d3f740ab`
 - `20250206` `c3a7a9933bcaafd1b5e8f059ae46fed1c037be63`
 - `20250205` `827ce146aef3adeb22da5428d675cd90adbbacfb`
 - `20250204` `f9e420f8743215eff528f81bdd8478bb8467abf5`
@@ -159,6 +160,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250207
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c3a7a9933bcaafd1b5e8f059ae46fed1c037be63...c17dd5ed95b86492c20967850b80a671d3f740ab)
 - `c17dd5ed95b86492c20967850b80a671d3f740ab` [feat(storage): Provide table id filter for BackwardSstableIterator (#19659)](https://github.com/risingwavelabs/risingwave/pull/19659)
 - `7c7e0ad4ed27fbc6c1f7a9b54dd96a80c2f1182f` [refactor: make actor graph builder fragment aware (#20385)](https://github.com/risingwavelabs/risingwave/pull/20385)
 - `ad80f2acc12ef26cc7af76caffd082a5bc04960e` [feat(stream): add synced logstore (#20204)](https://github.com/risingwavelabs/risingwave/pull/20204)
