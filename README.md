@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c17dd5ed95b86492c20967850b80a671d3f740ab` [feat(storage): Provide table id filter for BackwardSstableIterator (#19659)](https://github.com/risingwavelabs/risingwave/pull/19659)
 - `7c7e0ad4ed27fbc6c1f7a9b54dd96a80c2f1182f` [refactor: make actor graph builder fragment aware (#20385)](https://github.com/risingwavelabs/risingwave/pull/20385)
 - `ad80f2acc12ef26cc7af76caffd082a5bc04960e` [feat(stream): add synced logstore (#20204)](https://github.com/risingwavelabs/risingwave/pull/20204)
 - `0a6772b4133ded8e05ad4661d1dc1cdea538736f` [fix(compaction): avoid merge a emergency group (#20327)](https://github.com/risingwavelabs/risingwave/pull/20327)
