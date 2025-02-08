@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1578865ce611c7e1a5276d9c9c566de8f685304e` [fix(storage): reset partition_vnode_count after merge (#20426)](https://github.com/risingwavelabs/risingwave/pull/20426)
 
 ## nightly-20250208
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c17dd5ed95b86492c20967850b80a671d3f740ab...37d96fdc3af6ed24bf88ea877c3c8bf3d9ff1946)
