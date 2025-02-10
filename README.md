@@ -161,6 +161,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `30def4b3014e3b0f4121b275244fc2e54886911f` [fix(telemtry): remove redundant report_event during recovery (#20259)](https://github.com/risingwavelabs/risingwave/pull/20259)
 - `3fdfb522e01dfa76e896bf38ede72ca091afa7ee` [fix(storage): fix state store sync metrics (#20420)](https://github.com/risingwavelabs/risingwave/pull/20420)
 
 ## nightly-20250209
