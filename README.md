@@ -161,6 +161,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `770307da4715422a5b8a109c44428bce7b0e2fff` [refactor(udf): change JS UDF to include the function head (#20392)](https://github.com/risingwavelabs/risingwave/pull/20392)
 
 ## nightly-20250210
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0e5aa83266974d9b45b56120fa05453cca3f5abf...246c825d7d6dfb2ada874ac88867d3f77187ee2f)
