@@ -161,6 +161,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f28467732be039fc2519a17b12dea8621c6555ce` [refactor(log-store): extract common read write methods to log store state (#20432)](https://github.com/risingwavelabs/risingwave/pull/20432)
 - `367636bd70ac101e5a212ab6b51fd77283760119` [feat(iceberg): support iceberg engine connection (#20298)](https://github.com/risingwavelabs/risingwave/pull/20298)
 - `770307da4715422a5b8a109c44428bce7b0e2fff` [refactor(udf): change JS UDF to include the function head (#20392)](https://github.com/risingwavelabs/risingwave/pull/20392)
 
