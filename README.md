@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `246c825d7d6dfb2ada874ac88867d3f77187ee2f` [feat(sink): support geospatial for redis sink (#20402)](https://github.com/risingwavelabs/risingwave/pull/20402)
 - `ae8d6068c71c3db1d17824cc593041d13e364424` [fix(udf): bump `arrow-udf-wasm` to 0.4.1 to fix rust udf compile target (#20252)](https://github.com/risingwavelabs/risingwave/pull/20252)
 - `30def4b3014e3b0f4121b275244fc2e54886911f` [fix(telemtry): remove redundant report_event during recovery (#20259)](https://github.com/risingwavelabs/risingwave/pull/20259)
 - `3fdfb522e01dfa76e896bf38ede72ca091afa7ee` [fix(storage): fix state store sync metrics (#20420)](https://github.com/risingwavelabs/risingwave/pull/20420)
