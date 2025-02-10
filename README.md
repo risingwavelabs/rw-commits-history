@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250210` `246c825d7d6dfb2ada874ac88867d3f77187ee2f`
 - `20250209` `0e5aa83266974d9b45b56120fa05453cca3f5abf`
 - `20250208` `37d96fdc3af6ed24bf88ea877c3c8bf3d9ff1946`
 - `20250207` `c17dd5ed95b86492c20967850b80a671d3f740ab`
@@ -160,6 +161,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250210
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0e5aa83266974d9b45b56120fa05453cca3f5abf...246c825d7d6dfb2ada874ac88867d3f77187ee2f)
 - `246c825d7d6dfb2ada874ac88867d3f77187ee2f` [feat(sink): support geospatial for redis sink (#20402)](https://github.com/risingwavelabs/risingwave/pull/20402)
 - `ae8d6068c71c3db1d17824cc593041d13e364424` [fix(udf): bump `arrow-udf-wasm` to 0.4.1 to fix rust udf compile target (#20252)](https://github.com/risingwavelabs/risingwave/pull/20252)
 - `30def4b3014e3b0f4121b275244fc2e54886911f` [fix(telemtry): remove redundant report_event during recovery (#20259)](https://github.com/risingwavelabs/risingwave/pull/20259)
