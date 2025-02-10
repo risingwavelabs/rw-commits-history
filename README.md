@@ -161,6 +161,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3fdfb522e01dfa76e896bf38ede72ca091afa7ee` [fix(storage): fix state store sync metrics (#20420)](https://github.com/risingwavelabs/risingwave/pull/20420)
 
 ## nightly-20250209
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/37d96fdc3af6ed24bf88ea877c3c8bf3d9ff1946...0e5aa83266974d9b45b56120fa05453cca3f5abf)
