@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27` [refactor(pgwire): allow sharing of pg stream (#20362)](https://github.com/risingwavelabs/risingwave/pull/20362)
 - `e94b1c09606e8b0232ab3de2334d53d871ea9199` [chore: fix install script... (#20455)](https://github.com/risingwavelabs/risingwave/pull/20455)
 - `3235d9cf479d29a2273a32767f1f6a9b7efdb30f` [chore(install script): use release page redirection instead of github api to get latest version (#20448)](https://github.com/risingwavelabs/risingwave/pull/20448)
 - `6f25c0386af269adf0799c16a62ef65633e21218` [fix(hash agg): split `AggGroup` inter states and outputs change building, fixing old groups not deleted bug (#20435)](https://github.com/risingwavelabs/risingwave/pull/20435)
