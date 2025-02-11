@@ -161,6 +161,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a517caef162613b9fb56f0b68e0e4db0ad9f5c5f` [feat(stream): inform rate limit update for fsfetch executor (#20457)](https://github.com/risingwavelabs/risingwave/pull/20457)
+- `77c80fb86b3509b989bc96acd87fbddb328d8b3f` [fix(cdc): pass ownership of source message sender to java thread (#20353)](https://github.com/risingwavelabs/risingwave/pull/20353)
 
 ## nightly-20250211
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/246c825d7d6dfb2ada874ac88867d3f77187ee2f...99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27)
