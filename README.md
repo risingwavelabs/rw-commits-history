@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250211` `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27`
 - `20250210` `246c825d7d6dfb2ada874ac88867d3f77187ee2f`
 - `20250209` `0e5aa83266974d9b45b56120fa05453cca3f5abf`
 - `20250208` `37d96fdc3af6ed24bf88ea877c3c8bf3d9ff1946`
@@ -160,6 +161,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250211
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/246c825d7d6dfb2ada874ac88867d3f77187ee2f...99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27)
 - `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27` [refactor(pgwire): allow sharing of pg stream (#20362)](https://github.com/risingwavelabs/risingwave/pull/20362)
 - `e94b1c09606e8b0232ab3de2334d53d871ea9199` [chore: fix install script... (#20455)](https://github.com/risingwavelabs/risingwave/pull/20455)
 - `3235d9cf479d29a2273a32767f1f6a9b7efdb30f` [chore(install script): use release page redirection instead of github api to get latest version (#20448)](https://github.com/risingwavelabs/risingwave/pull/20448)
