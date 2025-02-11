@@ -161,6 +161,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d542b2004a7e811f94fb3d230d8d9ad7df22c24b` [feat(snapshot-backfill): implement executor to consume upstream table (#20167)](https://github.com/risingwavelabs/risingwave/pull/20167)
+- `0d21f5deb00235a4cdeb4cd1b034875ed48c0a93` [refactor(log-store): refine synced log store executor implementation (#20440)](https://github.com/risingwavelabs/risingwave/pull/20440)
+- `4b2ea9d3dfe71fd82241bd18f8a115662291cef7` [feat(license): set default key in production to enable paid features in clusters with a maximum of 4 CPU cores (#20296)](https://github.com/risingwavelabs/risingwave/pull/20296)
 - `a04b55f5dde089c439be59138486bddd58e6fa44` [chore(deps): Bump crate-ci/typos from 1.29.4 to 1.29.5 (#20371)](https://github.com/risingwavelabs/risingwave/pull/20371)
 - `c3247295733524b02efe5985e86c144120f32bbf` [chore(deps): Bump apache/skywalking-eyes from 69f34abb75ec4e414b593ac3f34228b60e33f97b to 5042f7f88d68fd1bc15e2b4ba25f7000b607487c (#20443)](https://github.com/risingwavelabs/risingwave/pull/20443)
 - `deb98b5c6877fce17a65edb8fbf0524c945b073d` [feat: tvf with cdc source (#20439)](https://github.com/risingwavelabs/risingwave/pull/20439)
