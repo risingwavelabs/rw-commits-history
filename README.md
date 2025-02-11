@@ -161,6 +161,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a04b55f5dde089c439be59138486bddd58e6fa44` [chore(deps): Bump crate-ci/typos from 1.29.4 to 1.29.5 (#20371)](https://github.com/risingwavelabs/risingwave/pull/20371)
+- `c3247295733524b02efe5985e86c144120f32bbf` [chore(deps): Bump apache/skywalking-eyes from 69f34abb75ec4e414b593ac3f34228b60e33f97b to 5042f7f88d68fd1bc15e2b4ba25f7000b607487c (#20443)](https://github.com/risingwavelabs/risingwave/pull/20443)
+- `deb98b5c6877fce17a65edb8fbf0524c945b073d` [feat: tvf with cdc source (#20439)](https://github.com/risingwavelabs/risingwave/pull/20439)
 - `f28467732be039fc2519a17b12dea8621c6555ce` [refactor(log-store): extract common read write methods to log store state (#20432)](https://github.com/risingwavelabs/risingwave/pull/20432)
 - `367636bd70ac101e5a212ab6b51fd77283760119` [feat(iceberg): support iceberg engine connection (#20298)](https://github.com/risingwavelabs/risingwave/pull/20298)
 - `770307da4715422a5b8a109c44428bce7b0e2fff` [refactor(udf): change JS UDF to include the function head (#20392)](https://github.com/risingwavelabs/risingwave/pull/20392)
@@ -1030,7 +1033,6 @@
 - `ad0bf17d33860d642190f7f6a8c4319c614e5d2f` [fix(meta): align job's max parallelism while replacing table (#19052)](https://github.com/risingwavelabs/risingwave/pull/19052)
 - `e22462d848d6b04ecab99e6af67016a8bbc38d0f` [feat(frontend): allow users to confirm if background_ddl is enabled for a materialized view (#19085)](https://github.com/risingwavelabs/risingwave/pull/19085)
 - `7e8bf1c72e19bc8c3d3c25f153597a6507d76fdb` [chore(deps): Bump tonic from 0.12.2 to 0.12.3 (#19077)](https://github.com/risingwavelabs/risingwave/pull/19077)
-- `6e57ac32deb4dbe0e634c71d7c418fa837667783` [chore(deps): Bump org.eclipse.jetty:jetty-http from 12.0.10 to 12.0.12 in /java (#18911)](https://github.com/risingwavelabs/risingwave/pull/18911)
 - `6e57ac32deb4dbe0e634c71d7c418fa837667783` [chore(deps): Bump org.eclipse.jetty:jetty-http from 12.0.10 to 12.0.12 in /java (#18911)](https://github.com/risingwavelabs/risingwave/pull/18911)
 - `abdeca68bd451a2cc230f9d198c38f51617c629d` [chore(deps): Bump tinyvec from 1.6.0 to 1.8.0 (#18906)](https://github.com/risingwavelabs/risingwave/pull/18906)
 - `deb7eb54121166119baa2ab923ac47af32f11dc3` [feat(stream): enable background ddl for `StreamNow`, `StreamSource` (#19099)](https://github.com/risingwavelabs/risingwave/pull/19099)
