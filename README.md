@@ -1031,6 +1031,7 @@
 - `e22462d848d6b04ecab99e6af67016a8bbc38d0f` [feat(frontend): allow users to confirm if background_ddl is enabled for a materialized view (#19085)](https://github.com/risingwavelabs/risingwave/pull/19085)
 - `7e8bf1c72e19bc8c3d3c25f153597a6507d76fdb` [chore(deps): Bump tonic from 0.12.2 to 0.12.3 (#19077)](https://github.com/risingwavelabs/risingwave/pull/19077)
 - `6e57ac32deb4dbe0e634c71d7c418fa837667783` [chore(deps): Bump org.eclipse.jetty:jetty-http from 12.0.10 to 12.0.12 in /java (#18911)](https://github.com/risingwavelabs/risingwave/pull/18911)
+- `6e57ac32deb4dbe0e634c71d7c418fa837667783` [chore(deps): Bump org.eclipse.jetty:jetty-http from 12.0.10 to 12.0.12 in /java (#18911)](https://github.com/risingwavelabs/risingwave/pull/18911)
 - `abdeca68bd451a2cc230f9d198c38f51617c629d` [chore(deps): Bump tinyvec from 1.6.0 to 1.8.0 (#18906)](https://github.com/risingwavelabs/risingwave/pull/18906)
 - `deb7eb54121166119baa2ab923ac47af32f11dc3` [feat(stream): enable background ddl for `StreamNow`, `StreamSource` (#19099)](https://github.com/risingwavelabs/risingwave/pull/19099)
 
