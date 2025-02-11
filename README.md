@@ -160,6 +160,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e94b1c09606e8b0232ab3de2334d53d871ea9199` [chore: fix install script... (#20455)](https://github.com/risingwavelabs/risingwave/pull/20455)
+- `3235d9cf479d29a2273a32767f1f6a9b7efdb30f` [chore(install script): use release page redirection instead of github api to get latest version (#20448)](https://github.com/risingwavelabs/risingwave/pull/20448)
 - `6f25c0386af269adf0799c16a62ef65633e21218` [fix(hash agg): split `AggGroup` inter states and outputs change building, fixing old groups not deleted bug (#20435)](https://github.com/risingwavelabs/risingwave/pull/20435)
 - `d542b2004a7e811f94fb3d230d8d9ad7df22c24b` [feat(snapshot-backfill): implement executor to consume upstream table (#20167)](https://github.com/risingwavelabs/risingwave/pull/20167)
 - `0d21f5deb00235a4cdeb4cd1b034875ed48c0a93` [refactor(log-store): refine synced log store executor implementation (#20440)](https://github.com/risingwavelabs/risingwave/pull/20440)
