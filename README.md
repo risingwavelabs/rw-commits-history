@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1a6eb0001c806c547de129d4cf66035ec66e4fe1` [feat(frontend): allow specifying (partial) schema when creating table with derived schema (#20203)](https://github.com/risingwavelabs/risingwave/pull/20203)
 - `190af60007fc47b0bdc2054ca39d7d23ef10fe68` [chore(frontend): remove some dead code (#20469)](https://github.com/risingwavelabs/risingwave/pull/20469)
 - `5de6edcdec16e755de2b65ac1355a1b53b02220b` [feat(pgwire): send notice asynchronously and promptly (#20374)](https://github.com/risingwavelabs/risingwave/pull/20374)
 - `b8dbd575fcc6639050a2886cc7a40eaabb642287` [fix: restore migration code for `node_label` column (#20468)](https://github.com/risingwavelabs/risingwave/pull/20468)
