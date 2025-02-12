@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e6ec56950fee08d1dd8dfa13323101cdb90a7478` [fix: ack nats message properly (#20453)](https://github.com/risingwavelabs/risingwave/pull/20453)
 - `1d58b407f5eb7079186661a203dbf58c1cbe962e` [feat(snapshot-backfill): support cross db snapshot backfill (#20210)](https://github.com/risingwavelabs/risingwave/pull/20210)
 - `2b269bd86f3e90873277070777d8ffc14eb30ba7` [feat(dal-sink): support dynamic json handle mode (#20418)](https://github.com/risingwavelabs/risingwave/pull/20418)
 - `a517caef162613b9fb56f0b68e0e4db0ad9f5c5f` [feat(stream): inform rate limit update for fsfetch executor (#20457)](https://github.com/risingwavelabs/risingwave/pull/20457)
