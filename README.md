@@ -160,6 +160,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2df1a07f140c1bd05752002dfcdd6f343574bf8d` [fix(storage): fix data race (#20474)](https://github.com/risingwavelabs/risingwave/pull/20474)
+- `0fa3a1d360783cefa258fe4390137642bf59eac1` [refactor(frontend): release large objects early (#20470)](https://github.com/risingwavelabs/risingwave/pull/20470)
+- `5dcc141cf86b5b41e7e6965ac7ec840c73aad247` [ci: decrease parallelism for e2e source test (#20472)](https://github.com/risingwavelabs/risingwave/pull/20472)
 - `1a6eb0001c806c547de129d4cf66035ec66e4fe1` [feat(frontend): allow specifying (partial) schema when creating table with derived schema (#20203)](https://github.com/risingwavelabs/risingwave/pull/20203)
 - `190af60007fc47b0bdc2054ca39d7d23ef10fe68` [chore(frontend): remove some dead code (#20469)](https://github.com/risingwavelabs/risingwave/pull/20469)
 - `5de6edcdec16e755de2b65ac1355a1b53b02220b` [feat(pgwire): send notice asynchronously and promptly (#20374)](https://github.com/risingwavelabs/risingwave/pull/20374)
