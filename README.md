@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `549447003ef1689bbafb37ff5a44e35e2e51ba98` [feat: try adding FragmentRelation in meta store (#20035)](https://github.com/risingwavelabs/risingwave/pull/20035)
 - `2df1a07f140c1bd05752002dfcdd6f343574bf8d` [fix(storage): fix data race (#20474)](https://github.com/risingwavelabs/risingwave/pull/20474)
 - `0fa3a1d360783cefa258fe4390137642bf59eac1` [refactor(frontend): release large objects early (#20470)](https://github.com/risingwavelabs/risingwave/pull/20470)
 - `5dcc141cf86b5b41e7e6965ac7ec840c73aad247` [ci: decrease parallelism for e2e source test (#20472)](https://github.com/risingwavelabs/risingwave/pull/20472)
