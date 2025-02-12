@@ -160,6 +160,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `190af60007fc47b0bdc2054ca39d7d23ef10fe68` [chore(frontend): remove some dead code (#20469)](https://github.com/risingwavelabs/risingwave/pull/20469)
+- `5de6edcdec16e755de2b65ac1355a1b53b02220b` [feat(pgwire): send notice asynchronously and promptly (#20374)](https://github.com/risingwavelabs/risingwave/pull/20374)
 - `b8dbd575fcc6639050a2886cc7a40eaabb642287` [fix: restore migration code for `node_label` column (#20468)](https://github.com/risingwavelabs/risingwave/pull/20468)
 - `e6ec56950fee08d1dd8dfa13323101cdb90a7478` [fix: ack nats message properly (#20453)](https://github.com/risingwavelabs/risingwave/pull/20453)
 - `1d58b407f5eb7079186661a203dbf58c1cbe962e` [feat(snapshot-backfill): support cross db snapshot backfill (#20210)](https://github.com/risingwavelabs/risingwave/pull/20210)
