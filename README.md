@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250212` `a5413ff38dcdacbaa0e7119f13e89ad4db165db8`
 - `20250211` `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27`
 - `20250210` `246c825d7d6dfb2ada874ac88867d3f77187ee2f`
 - `20250209` `0e5aa83266974d9b45b56120fa05453cca3f5abf`
@@ -158,6 +159,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250212
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27...a5413ff38dcdacbaa0e7119f13e89ad4db165db8)
 - `a5413ff38dcdacbaa0e7119f13e89ad4db165db8` [refactor: display original length for truncated fmt (#20477)](https://github.com/risingwavelabs/risingwave/pull/20477)
 - `549447003ef1689bbafb37ff5a44e35e2e51ba98` [feat: try adding FragmentRelation in meta store (#20035)](https://github.com/risingwavelabs/risingwave/pull/20035)
 - `2df1a07f140c1bd05752002dfcdd6f343574bf8d` [fix(storage): fix data race (#20474)](https://github.com/risingwavelabs/risingwave/pull/20474)
