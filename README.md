@@ -158,6 +158,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `660cddff346679fdb431b67c1cca285ac833bd15` [refactor: ensure update vnode bitmap after yield barrier (#20218)](https://github.com/risingwavelabs/risingwave/pull/20218)
 - `f36537e3e8a0067308cf90c5fd2e3e82443f6424` [chore(ci): refactor image tags (#20454)](https://github.com/risingwavelabs/risingwave/pull/20454)
 - `3b047f7d6c93e198d6f51def7882d12344b0e862` [refactor(stream): namespace metrics for unaligned join logstore (#20375)](https://github.com/risingwavelabs/risingwave/pull/20375)
 - `694ce41f01ed3e87ab294000749ca243da1adb1d` [refactor(iceberg): remove table_meta in IcebergSplit and load_table_with_metadata (#20476)](https://github.com/risingwavelabs/risingwave/pull/20476)
