@@ -158,6 +158,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b5bd1be8715b3f83bc1f03116b91424a8d574217` [chore: labeler backward compat tests when migration updated (#20481)](https://github.com/risingwavelabs/risingwave/pull/20481)
 - `432b7e6cc5bb35db59f5943eaf0595d979f627e3` [chore(main-cron): increase timeout for failed test (#20478)](https://github.com/risingwavelabs/risingwave/pull/20478)
 - `aa180c40e1279097204689e316895b1aa67d9862` [feat(meta): let stream actors in fragment share same stream node (#20310)](https://github.com/risingwavelabs/risingwave/pull/20310)
 - `95fa51f49fbd6d6be9c9408fea99604393cf12a0` [feat(iceberg): add support for creating new iceberg tables with partition keys (#20340)](https://github.com/risingwavelabs/risingwave/pull/20340)
