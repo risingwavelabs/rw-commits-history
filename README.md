@@ -158,6 +158,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2f86553d527b40f6d5935258970991bc32f0dd4e` [chore: fix docker script PATH (#20494)](https://github.com/risingwavelabs/risingwave/pull/20494)
 - `660cddff346679fdb431b67c1cca285ac833bd15` [refactor: ensure update vnode bitmap after yield barrier (#20218)](https://github.com/risingwavelabs/risingwave/pull/20218)
 - `f36537e3e8a0067308cf90c5fd2e3e82443f6424` [chore(ci): refactor image tags (#20454)](https://github.com/risingwavelabs/risingwave/pull/20454)
 - `3b047f7d6c93e198d6f51def7882d12344b0e862` [refactor(stream): namespace metrics for unaligned join logstore (#20375)](https://github.com/risingwavelabs/risingwave/pull/20375)
