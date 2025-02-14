@@ -158,6 +158,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bf119afb86255d15da68cf019f87a34afaa4d470` [feat(dashboard): Improve eslint configuration for @deprecated code (#20484)](https://github.com/risingwavelabs/risingwave/pull/20484)
 - `39f242980b45b32e3c132e7993ce619f7e9ffbf3` [refactor(log-store): update log store state vnode bitmap after yield barrier (#20491)](https://github.com/risingwavelabs/risingwave/pull/20491)
 - `50d1e683343b9a443216cbb2e990b82679a1ddd3` [fix(logstore): fix merging of `LogStoreBufferItem::Flushed` (#20487)](https://github.com/risingwavelabs/risingwave/pull/20487)
 - `2f86553d527b40f6d5935258970991bc32f0dd4e` [chore: fix docker script PATH (#20494)](https://github.com/risingwavelabs/risingwave/pull/20494)
