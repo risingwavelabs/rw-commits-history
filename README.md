@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4a4e03aa97f01e0d4ee31c5e1a7aa35a1d89c2f1` [feat(webhook): webhook waiting for persistency. (#20164)](https://github.com/risingwavelabs/risingwave/pull/20164)
 - `7ab159f9e47b8a96766634f64ed8842661db4128` [fix: ref secret in another schema (#20504)](https://github.com/risingwavelabs/risingwave/pull/20504)
 - `bf0475e3d9d150e80f91a920a8403ff86419e3c0` [fix(sink): fix iceberg sink partition_by panic  (#20495)](https://github.com/risingwavelabs/risingwave/pull/20495)
 
