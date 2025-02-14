@@ -158,6 +158,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bf0475e3d9d150e80f91a920a8403ff86419e3c0` [fix(sink): fix iceberg sink partition_by panic  (#20495)](https://github.com/risingwavelabs/risingwave/pull/20495)
 - `72f189c89c506bd480ae430a6d76d698041e4bbf` [fix(storage): fix unexpected sstable size zero (#20502)](https://github.com/risingwavelabs/risingwave/pull/20502)
 - `c8b23d11f180491aa0e4eb36c11ab23896b47736` [fix(iceberg): fix creating iceberg table warning  (#20486)](https://github.com/risingwavelabs/risingwave/pull/20486)
 - `4f604bf7222cff64389ae7173c01c95ff3368f22` [refactor(foyer): try foyer with the new madsim switch policy (#20411)](https://github.com/risingwavelabs/risingwave/pull/20411)
