@@ -1142,6 +1142,7 @@
 - `20bd924b9a1091392ac5d04af798ca5a6e86fe75` [fix(meta): read correct id field (#18988)](https://github.com/risingwavelabs/risingwave/pull/18988)
 - `d241a3228a40a508a640511c4f2332280817dfbc` [doc(dev-guide): minor improve testing guide (#18986)](https://github.com/risingwavelabs/risingwave/pull/18986)
 - `75190a791bef7f50d45de7cbc5aa5f8fb0599010` [chore(deps): Bump uuid from 1.10.0 to 1.11.0 (#18985)](https://github.com/risingwavelabs/risingwave/pull/18985)
+- `75190a791bef7f50d45de7cbc5aa5f8fb0599010` [chore(deps): Bump uuid from 1.10.0 to 1.11.0 (#18985)](https://github.com/risingwavelabs/risingwave/pull/18985)
 - `ee97c1d52a0a27cf6684fd082ebc4065407d71e0` [fix(ci): add contents write permission (#18981)](https://github.com/risingwavelabs/risingwave/pull/18981)
 - `9e4a6fdacafbf821835ecf76e8b9fa2c1b093b35` [revert: we allow single quotation in title again (#18973)](https://github.com/risingwavelabs/risingwave/pull/18973)
 - `e1177e59c374111d2c82835be87f4961819d9610` [fix(ci): use explicit permissions (#18980)](https://github.com/risingwavelabs/risingwave/pull/18980)
