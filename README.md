@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250215` `fc307d34e298ae3aa8014a22816d7a123491e951`
 - `20250214` `72f189c89c506bd480ae430a6d76d698041e4bbf`
 - `20250212` `a5413ff38dcdacbaa0e7119f13e89ad4db165db8`
 - `20250211` `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27`
@@ -158,6 +159,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250215
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72f189c89c506bd480ae430a6d76d698041e4bbf...fc307d34e298ae3aa8014a22816d7a123491e951)
 - `fc307d34e298ae3aa8014a22816d7a123491e951` [feat(webhook): allow webhook without secret (#20307)](https://github.com/risingwavelabs/risingwave/pull/20307)
 - `4a4e03aa97f01e0d4ee31c5e1a7aa35a1d89c2f1` [feat(webhook): webhook waiting for persistency. (#20164)](https://github.com/risingwavelabs/risingwave/pull/20164)
 - `7ab159f9e47b8a96766634f64ed8842661db4128` [fix: ref secret in another schema (#20504)](https://github.com/risingwavelabs/risingwave/pull/20504)
