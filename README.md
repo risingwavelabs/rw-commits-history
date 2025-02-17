@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ca86b79ebe289b163e8f5b705668b1eac74bf471` [chore: update docker compose images to v2.2.1 (#20512)](https://github.com/risingwavelabs/risingwave/pull/20512)
 - `3a94911bf1180c49babf2a98dee77a89b9cf2066` [fix(sink): fix redis sink error (#20456)](https://github.com/risingwavelabs/risingwave/pull/20456)
 - `87f0efca2cf6a62b5d17bc3d0b16eb9715021a32` [chore: also release connector libs separately (#20514)](https://github.com/risingwavelabs/risingwave/pull/20514)
 - `51c4809c6fdefe0595989c8cb957724e858ad01c` [feat: support cross-db query in frontend and meta (#20261)](https://github.com/risingwavelabs/risingwave/pull/20261)
