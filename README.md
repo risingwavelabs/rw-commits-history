@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6650af081d1794207c2eea519cb8ec4123bf71fa` [feat(source): enable csv for kinesis connector (#20509)](https://github.com/risingwavelabs/risingwave/pull/20509)
 
 ## nightly-20250216
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72f189c89c506bd480ae430a6d76d698041e4bbf...fc307d34e298ae3aa8014a22816d7a123491e951)
