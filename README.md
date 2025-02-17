@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250217` `ca86b79ebe289b163e8f5b705668b1eac74bf471`
 - `20250216` `fc307d34e298ae3aa8014a22816d7a123491e951`
 - `20250214` `72f189c89c506bd480ae430a6d76d698041e4bbf`
 - `20250212` `a5413ff38dcdacbaa0e7119f13e89ad4db165db8`
@@ -159,6 +160,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250217
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fc307d34e298ae3aa8014a22816d7a123491e951...ca86b79ebe289b163e8f5b705668b1eac74bf471)
 - `ca86b79ebe289b163e8f5b705668b1eac74bf471` [chore: update docker compose images to v2.2.1 (#20512)](https://github.com/risingwavelabs/risingwave/pull/20512)
 - `3a94911bf1180c49babf2a98dee77a89b9cf2066` [fix(sink): fix redis sink error (#20456)](https://github.com/risingwavelabs/risingwave/pull/20456)
 - `87f0efca2cf6a62b5d17bc3d0b16eb9715021a32` [chore: also release connector libs separately (#20514)](https://github.com/risingwavelabs/risingwave/pull/20514)
