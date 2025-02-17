@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `614e4412e3394341c4350ae9fec918743b18f982` [feat(frontend): add AddLogStore rule (#20386)](https://github.com/risingwavelabs/risingwave/pull/20386)
 - `aec5c088204c51365195475b4228abfda99072ed` [feat(sink): support protobuf enum from varchar (#20501)](https://github.com/risingwavelabs/risingwave/pull/20501)
 - `88bb6a7ac24fc8f073463eb8d35c32cbc3a3c6ce` [feat(frontend): support logstore plan node (#20376)](https://github.com/risingwavelabs/risingwave/pull/20376)
 - `6650af081d1794207c2eea519cb8ec4123bf71fa` [feat(source): enable csv for kinesis connector (#20509)](https://github.com/risingwavelabs/risingwave/pull/20509)
