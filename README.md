@@ -160,6 +160,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3afbf25da3cb4a1f914679fc18afaef9c7e2855a` [feat(iceberg): optimize iceberg source `count(*)` query (#20151)](https://github.com/risingwavelabs/risingwave/pull/20151)
+- `7aabcad4cf1b4f32e5f3bd924f63a87cd0eeb869` [feat(SBC): Provision proto (#20452)](https://github.com/risingwavelabs/risingwave/pull/20452)
 - `d98b06e129c017fe870476cb1d0902c188dde531` [feat: drop connector for table with connector (#20023)](https://github.com/risingwavelabs/risingwave/pull/20023)
 - `7335fa6615021ef66dd02239daf777771bc09cc8` [feat(meta): expose internal table catalog during backfill phase to batch engine (#20460)](https://github.com/risingwavelabs/risingwave/pull/20460)
 - `e298fe2edc3ab7c049a5c9340a0f8a1e029c9151` [chore(deps): Bump tempfile from 3.14.0 to 3.17.1 (#20521)](https://github.com/risingwavelabs/risingwave/pull/20521)
@@ -198,7 +200,6 @@
 - `9a163033c47f5ea4173b2f80d6b2fb29dec2f234` [chore: update docker-compose files to use v2.2.0 (#20489)](https://github.com/risingwavelabs/risingwave/pull/20489)
 - `9f16c5e9f3a600137b31877c956e0eeb66f3c18f` [fix(iceberg): fix jni catalog resource leak (#20482)](https://github.com/risingwavelabs/risingwave/pull/20482)
 - `b72d0a20ad8be11cb657a3b27788381d5ebc3a3e` [fix: Replace `DISTINCT ON` with `DISTINCT` for SQLite compatibility in migration query (#20485)](https://github.com/risingwavelabs/risingwave/pull/20485)
-- `b5bd1be8715b3f83bc1f03116b91424a8d574217` [chore: labeler backward compat tests when migration updated (#20481)](https://github.com/risingwavelabs/risingwave/pull/20481)
 - `b5bd1be8715b3f83bc1f03116b91424a8d574217` [chore: labeler backward compat tests when migration updated (#20481)](https://github.com/risingwavelabs/risingwave/pull/20481)
 - `432b7e6cc5bb35db59f5943eaf0595d979f627e3` [chore(main-cron): increase timeout for failed test (#20478)](https://github.com/risingwavelabs/risingwave/pull/20478)
 - `aa180c40e1279097204689e316895b1aa67d9862` [feat(meta): let stream actors in fragment share same stream node (#20310)](https://github.com/risingwavelabs/risingwave/pull/20310)
