@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250218` `7167d864a657237b23086cb47dbc99baa9785f46`
 - `20250217` `ca86b79ebe289b163e8f5b705668b1eac74bf471`
 - `20250216` `fc307d34e298ae3aa8014a22816d7a123491e951`
 - `20250214` `72f189c89c506bd480ae430a6d76d698041e4bbf`
@@ -159,6 +160,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250218
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ca86b79ebe289b163e8f5b705668b1eac74bf471...7167d864a657237b23086cb47dbc99baa9785f46)
 - `7167d864a657237b23086cb47dbc99baa9785f46` [fix(iceberg): iceberg partition by should specify field id and the partition spec id (#20517)](https://github.com/risingwavelabs/risingwave/pull/20517)
 - `3afbf25da3cb4a1f914679fc18afaef9c7e2855a` [feat(iceberg): optimize iceberg source `count(*)` query (#20151)](https://github.com/risingwavelabs/risingwave/pull/20151)
 - `7aabcad4cf1b4f32e5f3bd924f63a87cd0eeb869` [feat(SBC): Provision proto (#20452)](https://github.com/risingwavelabs/risingwave/pull/20452)
