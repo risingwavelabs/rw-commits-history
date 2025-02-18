@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7335fa6615021ef66dd02239daf777771bc09cc8` [feat(meta): expose internal table catalog during backfill phase to batch engine (#20460)](https://github.com/risingwavelabs/risingwave/pull/20460)
 - `e298fe2edc3ab7c049a5c9340a0f8a1e029c9151` [chore(deps): Bump tempfile from 3.14.0 to 3.17.1 (#20521)](https://github.com/risingwavelabs/risingwave/pull/20521)
 
 ## nightly-20250217
