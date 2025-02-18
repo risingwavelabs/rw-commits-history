@@ -199,6 +199,7 @@
 - `9f16c5e9f3a600137b31877c956e0eeb66f3c18f` [fix(iceberg): fix jni catalog resource leak (#20482)](https://github.com/risingwavelabs/risingwave/pull/20482)
 - `b72d0a20ad8be11cb657a3b27788381d5ebc3a3e` [fix: Replace `DISTINCT ON` with `DISTINCT` for SQLite compatibility in migration query (#20485)](https://github.com/risingwavelabs/risingwave/pull/20485)
 - `b5bd1be8715b3f83bc1f03116b91424a8d574217` [chore: labeler backward compat tests when migration updated (#20481)](https://github.com/risingwavelabs/risingwave/pull/20481)
+- `b5bd1be8715b3f83bc1f03116b91424a8d574217` [chore: labeler backward compat tests when migration updated (#20481)](https://github.com/risingwavelabs/risingwave/pull/20481)
 - `432b7e6cc5bb35db59f5943eaf0595d979f627e3` [chore(main-cron): increase timeout for failed test (#20478)](https://github.com/risingwavelabs/risingwave/pull/20478)
 - `aa180c40e1279097204689e316895b1aa67d9862` [feat(meta): let stream actors in fragment share same stream node (#20310)](https://github.com/risingwavelabs/risingwave/pull/20310)
 - `95fa51f49fbd6d6be9c9408fea99604393cf12a0` [feat(iceberg): add support for creating new iceberg tables with partition keys (#20340)](https://github.com/risingwavelabs/risingwave/pull/20340)
