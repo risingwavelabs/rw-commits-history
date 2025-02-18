@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e298fe2edc3ab7c049a5c9340a0f8a1e029c9151` [chore(deps): Bump tempfile from 3.14.0 to 3.17.1 (#20521)](https://github.com/risingwavelabs/risingwave/pull/20521)
 
 ## nightly-20250217
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fc307d34e298ae3aa8014a22816d7a123491e951...ca86b79ebe289b163e8f5b705668b1eac74bf471)
