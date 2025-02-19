@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b8feb75d7544d06e7a4c26b6cb49fd24708388be` [feat(connector): resolve `$ref` in json schema (#20446)](https://github.com/risingwavelabs/risingwave/pull/20446)
 
 ## nightly-20250219
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7167d864a657237b23086cb47dbc99baa9785f46...087d96bf1ee04e4dfce0b70c622e92c1a66e826e)
