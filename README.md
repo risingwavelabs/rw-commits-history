@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1a047ba406fcc61a045b8f438d7d3eb89a1abd07` [feat(frontend): redirect cast char to varchar (#20532)](https://github.com/risingwavelabs/risingwave/pull/20532)
 
 ## nightly-20250218
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ca86b79ebe289b163e8f5b705668b1eac74bf471...7167d864a657237b23086cb47dbc99baa9785f46)
