@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250219` `087d96bf1ee04e4dfce0b70c622e92c1a66e826e`
 - `20250218` `7167d864a657237b23086cb47dbc99baa9785f46`
 - `20250217` `ca86b79ebe289b163e8f5b705668b1eac74bf471`
 - `20250216` `fc307d34e298ae3aa8014a22816d7a123491e951`
@@ -159,6 +160,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250219
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7167d864a657237b23086cb47dbc99baa9785f46...087d96bf1ee04e4dfce0b70c622e92c1a66e826e)
 - `087d96bf1ee04e4dfce0b70c622e92c1a66e826e` [fix(expr): use resolve_schema_qualified_name in cast_regclass (#20533)](https://github.com/risingwavelabs/risingwave/pull/20533)
 - `d05ac57dcdc067454618e437f70ac1560d638c06` [feat: refine check_cluster_limits error message (#20538)](https://github.com/risingwavelabs/risingwave/pull/20538)
 - `7df444c14f5b78effff4e9634a9488befdcd6467` [chore(test): upgrade sqllogictest to 0.27.1 (#20516)](https://github.com/risingwavelabs/risingwave/pull/20516)
