@@ -160,6 +160,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7df444c14f5b78effff4e9634a9488befdcd6467` [chore(test): upgrade sqllogictest to 0.27.1 (#20516)](https://github.com/risingwavelabs/risingwave/pull/20516)
+- `01ef2d649944b39ac8925b44332f6c185a87e1f3` [feat(frontend): support extended query mode for declare subscription cursor (#20528)](https://github.com/risingwavelabs/risingwave/pull/20528)
 - `0d4c90fa8494f602c47c87b6b15017ed0029ba16` [feat(cdc): fix generated column for table on cdc source (#20380)](https://github.com/risingwavelabs/risingwave/pull/20380)
 - `587cdd9d73718c8f72b731872b035deee463f771` [test: add retry for check on drop table connector (#20534)](https://github.com/risingwavelabs/risingwave/pull/20534)
 - `8fa011e9a3b5ad19f1fc033e67bc2c39f17928cf` [doc: Update README.md (#20529)](https://github.com/risingwavelabs/risingwave/pull/20529)
