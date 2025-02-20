@@ -158,6 +158,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `034bda01e3351ca0007ff343056cf56e07745c5f` [refactor(types): assign name `f{}` to unnamed fields of struct (`record`) (#20490)](https://github.com/risingwavelabs/risingwave/pull/20490)
+- `905545179d936d1d0b1ae5f3347c257330c183d7` [feat: enable privilege check for system catalogs (#20056)](https://github.com/risingwavelabs/risingwave/pull/20056)
 - `0783e0171d0a4c0718308ca90d124fd9febe5817` [refactor(stream): send barriers in batch when possible (#19932)](https://github.com/risingwavelabs/risingwave/pull/19932)
 - `b8feb75d7544d06e7a4c26b6cb49fd24708388be` [feat(connector): resolve `$ref` in json schema (#20446)](https://github.com/risingwavelabs/risingwave/pull/20446)
 
