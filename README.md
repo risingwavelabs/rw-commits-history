@@ -156,6 +156,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c6328357e3b5c7fed48be2eacbf71224143b99a7` [refactor(types): remove `type_name` and `field_descs` from `ColumnDesc` (#20497)](https://github.com/risingwavelabs/risingwave/pull/20497)
 - `2dbf6fbc49408ddc006458afdc8fe1b35ee1ca3b` [refactor(types): remove `type_name` and `sub_fields` from Field (#20496)](https://github.com/risingwavelabs/risingwave/pull/20496)
 - `9160155173815909a98ffb72cd06d0c778286584` [feat(source): update split state after yield barrier on split change for source executor (#20506)](https://github.com/risingwavelabs/risingwave/pull/20506)
 - `5d2265b5c2c12c8df7b7a2eb018c1cbb2f79725a` [refactor(meta): deprecate persisted actor upstreams and get upstreams from dispatcher info (#20387)](https://github.com/risingwavelabs/risingwave/pull/20387)
