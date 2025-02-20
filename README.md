@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250220` `c6328357e3b5c7fed48be2eacbf71224143b99a7`
 - `20250219` `087d96bf1ee04e4dfce0b70c622e92c1a66e826e`
 - `20250218` `7167d864a657237b23086cb47dbc99baa9785f46`
 - `20250217` `ca86b79ebe289b163e8f5b705668b1eac74bf471`
@@ -156,6 +157,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250220
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/087d96bf1ee04e4dfce0b70c622e92c1a66e826e...c6328357e3b5c7fed48be2eacbf71224143b99a7)
 - `c6328357e3b5c7fed48be2eacbf71224143b99a7` [refactor(types): remove `type_name` and `field_descs` from `ColumnDesc` (#20497)](https://github.com/risingwavelabs/risingwave/pull/20497)
 - `2dbf6fbc49408ddc006458afdc8fe1b35ee1ca3b` [refactor(types): remove `type_name` and `sub_fields` from Field (#20496)](https://github.com/risingwavelabs/risingwave/pull/20496)
 - `9160155173815909a98ffb72cd06d0c778286584` [feat(source): update split state after yield barrier on split change for source executor (#20506)](https://github.com/risingwavelabs/risingwave/pull/20506)
