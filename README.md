@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0783e0171d0a4c0718308ca90d124fd9febe5817` [refactor(stream): send barriers in batch when possible (#19932)](https://github.com/risingwavelabs/risingwave/pull/19932)
 - `b8feb75d7544d06e7a4c26b6cb49fd24708388be` [feat(connector): resolve `$ref` in json schema (#20446)](https://github.com/risingwavelabs/risingwave/pull/20446)
 
 ## nightly-20250219
