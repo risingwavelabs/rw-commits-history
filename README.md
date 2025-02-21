@@ -157,6 +157,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bf43ee8372f90cae3f4eb94e8f67bbef942e4182` [feat(iceberg): add support for validating nested iceberg schemas (#20551)](https://github.com/risingwavelabs/risingwave/pull/20551)
 
 ## nightly-20250221
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c6328357e3b5c7fed48be2eacbf71224143b99a7...f5cf608507fac2ff15ce9c6c7bd386df7986fa3d)
