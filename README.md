@@ -157,6 +157,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1eab2635948d90dfa5241181c022e2e72b3154eb` [feat(rw_catalog): add schema id for rw_secrets (#20556)](https://github.com/risingwavelabs/risingwave/pull/20556)
 - `cee2d2dd87b0ebad1a859cad37ab6d7c7a08659f` [feat: add fips option for aws-lc (#20287)](https://github.com/risingwavelabs/risingwave/pull/20287)
 
 ## nightly-20250220
