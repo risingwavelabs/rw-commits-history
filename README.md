@@ -157,6 +157,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e97b91489355d8641353aa719c2a3b93a98c763c` [ci: merge label for iceberg tests & add auto labeler (#20574)](https://github.com/risingwavelabs/risingwave/pull/20574)
 - `e202dac58fe1a53d8438cc3e4976c4f5e7a84dd2` [fix(iceberg): fix iceberg predicate pushdown (#20571)](https://github.com/risingwavelabs/risingwave/pull/20571)
 - `cf6ecedf4388d5e04ef2893a23f95016c680cc9f` [fix: Fix the remaining mview_definition errors (#20569)](https://github.com/risingwavelabs/risingwave/pull/20569)
 - `bf43ee8372f90cae3f4eb94e8f67bbef942e4182` [feat(iceberg): add support for validating nested iceberg schemas (#20551)](https://github.com/risingwavelabs/risingwave/pull/20551)
