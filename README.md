@@ -157,6 +157,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f5cf608507fac2ff15ce9c6c7bd386df7986fa3d` [fix(udf): update arrow-udf-python to fix python embedded udf panic (#20561)](https://github.com/risingwavelabs/risingwave/pull/20561)
 - `1eab2635948d90dfa5241181c022e2e72b3154eb` [feat(rw_catalog): add schema id for rw_secrets (#20556)](https://github.com/risingwavelabs/risingwave/pull/20556)
 - `cee2d2dd87b0ebad1a859cad37ab6d7c7a08659f` [feat: add fips option for aws-lc (#20287)](https://github.com/risingwavelabs/risingwave/pull/20287)
 
