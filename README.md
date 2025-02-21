@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250221` `f5cf608507fac2ff15ce9c6c7bd386df7986fa3d`
 - `20250220` `c6328357e3b5c7fed48be2eacbf71224143b99a7`
 - `20250219` `087d96bf1ee04e4dfce0b70c622e92c1a66e826e`
 - `20250218` `7167d864a657237b23086cb47dbc99baa9785f46`
@@ -156,6 +157,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250221
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c6328357e3b5c7fed48be2eacbf71224143b99a7...f5cf608507fac2ff15ce9c6c7bd386df7986fa3d)
 - `f5cf608507fac2ff15ce9c6c7bd386df7986fa3d` [fix(udf): update arrow-udf-python to fix python embedded udf panic (#20561)](https://github.com/risingwavelabs/risingwave/pull/20561)
 - `1eab2635948d90dfa5241181c022e2e72b3154eb` [feat(rw_catalog): add schema id for rw_secrets (#20556)](https://github.com/risingwavelabs/risingwave/pull/20556)
 - `cee2d2dd87b0ebad1a859cad37ab6d7c7a08659f` [feat: add fips option for aws-lc (#20287)](https://github.com/risingwavelabs/risingwave/pull/20287)
