@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250222` `e97b91489355d8641353aa719c2a3b93a98c763c`
 - `20250221` `f5cf608507fac2ff15ce9c6c7bd386df7986fa3d`
 - `20250220` `c6328357e3b5c7fed48be2eacbf71224143b99a7`
 - `20250219` `087d96bf1ee04e4dfce0b70c622e92c1a66e826e`
@@ -157,6 +158,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250222
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5cf608507fac2ff15ce9c6c7bd386df7986fa3d...e97b91489355d8641353aa719c2a3b93a98c763c)
 - `e97b91489355d8641353aa719c2a3b93a98c763c` [ci: merge label for iceberg tests & add auto labeler (#20574)](https://github.com/risingwavelabs/risingwave/pull/20574)
 - `e202dac58fe1a53d8438cc3e4976c4f5e7a84dd2` [fix(iceberg): fix iceberg predicate pushdown (#20571)](https://github.com/risingwavelabs/risingwave/pull/20571)
 - `cf6ecedf4388d5e04ef2893a23f95016c680cc9f` [fix: Fix the remaining mview_definition errors (#20569)](https://github.com/risingwavelabs/risingwave/pull/20569)
