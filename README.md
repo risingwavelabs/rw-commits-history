@@ -158,6 +158,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0c8b828828ae05c1e0c927612ba998801d5706c4` [chore: apply formatting for style edition 2024 (#20578)](https://github.com/risingwavelabs/risingwave/pull/20578)
+- `53cb96ee124e0a7485e2adfb2d1f6588e12e742d` [feat(telemetry): report connector info in meta report (#20537)](https://github.com/risingwavelabs/risingwave/pull/20537)
 
 ## nightly-20250223
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5cf608507fac2ff15ce9c6c7bd386df7986fa3d...e97b91489355d8641353aa719c2a3b93a98c763c)
