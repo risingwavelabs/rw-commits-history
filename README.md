@@ -159,6 +159,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `15d8ef6f8e520a829d350b75a7c4584b31a8b963` [refactor(iceberg): move scan from batch to connector (#20567)](https://github.com/risingwavelabs/risingwave/pull/20567)
 - `e1e6f6dc00f4bd705c27b09b12bee81ae309521e` [refactor: remove unnessary check_iceberg_source (#20566)](https://github.com/risingwavelabs/risingwave/pull/20566)
 
 ## nightly-20250224
