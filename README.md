@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250224` `2f2ab537ae98f26bc7a95a2d6988d1e7cb139ee0`
 - `20250223` `e97b91489355d8641353aa719c2a3b93a98c763c`
 - `20250221` `f5cf608507fac2ff15ce9c6c7bd386df7986fa3d`
 - `20250220` `c6328357e3b5c7fed48be2eacbf71224143b99a7`
@@ -158,6 +159,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250224
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e97b91489355d8641353aa719c2a3b93a98c763c...2f2ab537ae98f26bc7a95a2d6988d1e7cb139ee0)
 - `2f2ab537ae98f26bc7a95a2d6988d1e7cb139ee0` [feat(grafana): change default layout from 1/2 width to 1/3 (#20579)](https://github.com/risingwavelabs/risingwave/pull/20579)
 - `bdb2d2581f214140ef5dc0f35d22e881d05887f4` [feat(iceberg): add nested bytea byte to `full_type_t` table (#20570)](https://github.com/risingwavelabs/risingwave/pull/20570)
 - `b10daa219f84fd1f1c041276b3861dabb4f9eec6` [refactor(source): simplify Avro field to SQL column mapping (#20559)](https://github.com/risingwavelabs/risingwave/pull/20559)
