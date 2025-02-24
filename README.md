@@ -158,6 +158,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5f97c3314d44796744873d9b04c9c0ef50faae5b` [feat(sink): resolve avro `Ref` to corresponding `Record` definition (#20401)](https://github.com/risingwavelabs/risingwave/pull/20401)
+- `6debb12cc790a7139b5b2656e62c05e2c9872ef1` [chore(test): change embedded udf tests to parallel, fix some failing tests (#20531)](https://github.com/risingwavelabs/risingwave/pull/20531)
 - `0c8b828828ae05c1e0c927612ba998801d5706c4` [chore: apply formatting for style edition 2024 (#20578)](https://github.com/risingwavelabs/risingwave/pull/20578)
 - `53cb96ee124e0a7485e2adfb2d1f6588e12e742d` [feat(telemetry): report connector info in meta report (#20537)](https://github.com/risingwavelabs/risingwave/pull/20537)
 
