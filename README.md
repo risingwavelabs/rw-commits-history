@@ -158,6 +158,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2f2ab537ae98f26bc7a95a2d6988d1e7cb139ee0` [feat(grafana): change default layout from 1/2 width to 1/3 (#20579)](https://github.com/risingwavelabs/risingwave/pull/20579)
 - `bdb2d2581f214140ef5dc0f35d22e881d05887f4` [feat(iceberg): add nested bytea byte to `full_type_t` table (#20570)](https://github.com/risingwavelabs/risingwave/pull/20570)
 - `b10daa219f84fd1f1c041276b3861dabb4f9eec6` [refactor(source): simplify Avro field to SQL column mapping (#20559)](https://github.com/risingwavelabs/risingwave/pull/20559)
 - `5f97c3314d44796744873d9b04c9c0ef50faae5b` [feat(sink): resolve avro `Ref` to corresponding `Record` definition (#20401)](https://github.com/risingwavelabs/risingwave/pull/20401)
