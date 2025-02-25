@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250225` `4a63ece56e30568d66b8e764ccaf8e4d97933832`
 - `20250224` `2f2ab537ae98f26bc7a95a2d6988d1e7cb139ee0`
 - `20250223` `e97b91489355d8641353aa719c2a3b93a98c763c`
 - `20250221` `f5cf608507fac2ff15ce9c6c7bd386df7986fa3d`
@@ -159,6 +160,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `90be3f7baf46b5f951eff9b4c48fda4b94c1a875` [feat(frontend): improve index selection to pushdown limit (#20587)](https://github.com/risingwavelabs/risingwave/pull/20587)
+- `1cf0e4c51bf55a1b982601bc556bd1230427eaa3` [feat(expr): `generate_series` on `timestamptz` (#20564)](https://github.com/risingwavelabs/risingwave/pull/20564)
+
+## nightly-20250225
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2f2ab537ae98f26bc7a95a2d6988d1e7cb139ee0...4a63ece56e30568d66b8e764ccaf8e4d97933832)
 - `4a63ece56e30568d66b8e764ccaf8e4d97933832` [chore(deps): Bump crate-ci/typos from 1.29.5 to 1.29.9 (#20591)](https://github.com/risingwavelabs/risingwave/pull/20591)
 - `12a15ed469a3a26f750234ae5753698f8230905c` [refactor: make handler more organized (#20595)](https://github.com/risingwavelabs/risingwave/pull/20595)
 - `f6d312c1675e5e7277bd784144f61ec343a37a07` [refactor(source): simplify Protobuf field to SQL column mapping (#20584)](https://github.com/risingwavelabs/risingwave/pull/20584)
