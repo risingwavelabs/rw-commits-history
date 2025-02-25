@@ -159,6 +159,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4a63ece56e30568d66b8e764ccaf8e4d97933832` [chore(deps): Bump crate-ci/typos from 1.29.5 to 1.29.9 (#20591)](https://github.com/risingwavelabs/risingwave/pull/20591)
+- `12a15ed469a3a26f750234ae5753698f8230905c` [refactor: make handler more organized (#20595)](https://github.com/risingwavelabs/risingwave/pull/20595)
 - `f6d312c1675e5e7277bd784144f61ec343a37a07` [refactor(source): simplify Protobuf field to SQL column mapping (#20584)](https://github.com/risingwavelabs/risingwave/pull/20584)
 - `b5a40ef129b4be0ac32f734d961aafe4431988f5` [refactor(batch): release PlanNode early (#20594)](https://github.com/risingwavelabs/risingwave/pull/20594)
 - `47c8fc15df2f9f2c996738c6b6f5b5063794aeaf` [fix: wrong err msg for kafka & debezium format (#20582)](https://github.com/risingwavelabs/risingwave/pull/20582)
