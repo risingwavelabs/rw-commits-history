@@ -159,6 +159,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b5a40ef129b4be0ac32f734d961aafe4431988f5` [refactor(batch): release PlanNode early (#20594)](https://github.com/risingwavelabs/risingwave/pull/20594)
+- `47c8fc15df2f9f2c996738c6b6f5b5063794aeaf` [fix: wrong err msg for kafka & debezium format (#20582)](https://github.com/risingwavelabs/risingwave/pull/20582)
 - `0ab6a4a822131dd308b6bd5799d25e5068caad4c` [feat(storage): wait committed epoch when update vnode bitmap (#20492)](https://github.com/risingwavelabs/risingwave/pull/20492)
 - `af3e042171f270c9f29567b0e36b8fc3d86164ce` [doc: Update README.md (#20586)](https://github.com/risingwavelabs/risingwave/pull/20586)
 - `15d8ef6f8e520a829d350b75a7c4584b31a8b963` [refactor(iceberg): move scan from batch to connector (#20567)](https://github.com/risingwavelabs/risingwave/pull/20567)
