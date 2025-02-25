@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5c3dedf9993a219e340f19a45a79ba2a3d7217d3` [fix(connector): rollback transaction before closing connection for jdbc sink (#20597)](https://github.com/risingwavelabs/risingwave/pull/20597)
 - `90be3f7baf46b5f951eff9b4c48fda4b94c1a875` [feat(frontend): improve index selection to pushdown limit (#20587)](https://github.com/risingwavelabs/risingwave/pull/20587)
 - `1cf0e4c51bf55a1b982601bc556bd1230427eaa3` [feat(expr): `generate_series` on `timestamptz` (#20564)](https://github.com/risingwavelabs/risingwave/pull/20564)
 
