@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250226` `8af9e0fa92cae7b63010434c1e5111e49ff76f92`
 - `20250225` `4a63ece56e30568d66b8e764ccaf8e4d97933832`
 - `20250224` `2f2ab537ae98f26bc7a95a2d6988d1e7cb139ee0`
 - `20250223` `e97b91489355d8641353aa719c2a3b93a98c763c`
@@ -159,6 +160,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250226
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4a63ece56e30568d66b8e764ccaf8e4d97933832...8af9e0fa92cae7b63010434c1e5111e49ff76f92)
 - `8af9e0fa92cae7b63010434c1e5111e49ff76f92` [refactor(source): column derivation shall return `Field` rather than `PbColumnDesc` (#20603)](https://github.com/risingwavelabs/risingwave/pull/20603)
 - `21cb00e3305ab92794ca81c01bcc1e87b6cf65c2` [refactor(common): consolidate `ColumnDesc` constructors (#20609)](https://github.com/risingwavelabs/risingwave/pull/20609)
 - `7b52133fc178f2f06b2523fc5ea281ab4a23ec8f` [fix(backfill): skip reading snapshot chunks from a completed partition (#20614)](https://github.com/risingwavelabs/risingwave/pull/20614)
