@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8af9e0fa92cae7b63010434c1e5111e49ff76f92` [refactor(source): column derivation shall return `Field` rather than `PbColumnDesc` (#20603)](https://github.com/risingwavelabs/risingwave/pull/20603)
 - `21cb00e3305ab92794ca81c01bcc1e87b6cf65c2` [refactor(common): consolidate `ColumnDesc` constructors (#20609)](https://github.com/risingwavelabs/risingwave/pull/20609)
 - `7b52133fc178f2f06b2523fc5ea281ab4a23ec8f` [fix(backfill): skip reading snapshot chunks from a completed partition (#20614)](https://github.com/risingwavelabs/risingwave/pull/20614)
 - `6418963242dd41adb4c637f7563499c2e4242288` [fix(sink): align init epoch for coordinated sinks (#20598)](https://github.com/risingwavelabs/risingwave/pull/20598)
