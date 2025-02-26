@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6418963242dd41adb4c637f7563499c2e4242288` [fix(sink): align init epoch for coordinated sinks (#20598)](https://github.com/risingwavelabs/risingwave/pull/20598)
 - `61813d86b598d211d78ad9d32dd873a74d9b9a37` [refactor: move source retry inside reader stream (#20526)](https://github.com/risingwavelabs/risingwave/pull/20526)
 - `54d4a5818a0bc49c88938cb8c5ef77cb6d393289` [ci: auto label for s3 source (#20607)](https://github.com/risingwavelabs/risingwave/pull/20607)
 - `2c1d252fd4057a6d2b4b8e97089b04668634e795` [test: fix flaky license test (#20585)](https://github.com/risingwavelabs/risingwave/pull/20585)
