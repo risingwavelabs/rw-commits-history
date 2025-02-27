@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250227` `76e51505b67dbdc42cfc02eab6cbecd64bdf4c25`
 - `20250226` `8af9e0fa92cae7b63010434c1e5111e49ff76f92`
 - `20250225` `4a63ece56e30568d66b8e764ccaf8e4d97933832`
 - `20250224` `2f2ab537ae98f26bc7a95a2d6988d1e7cb139ee0`
@@ -181,6 +182,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ce3a8e674fbc222637b39eca6582bbcf4533d8c9` [refactor(struct): cleanup remaining special treatment of `struct` (#20631)](https://github.com/risingwavelabs/risingwave/pull/20631)
+
+## nightly-20250227
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8af9e0fa92cae7b63010434c1e5111e49ff76f92...76e51505b67dbdc42cfc02eab6cbecd64bdf4c25)
 - `76e51505b67dbdc42cfc02eab6cbecd64bdf4c25` [fix(meta): delete large time travel metadata in smaller batch (#20588)](https://github.com/risingwavelabs/risingwave/pull/20588)
 - `ee72621d2e11664df8c9d4f2909b795fb2daa701` [feat(expr): add expression to reveal license status & content (#20629)](https://github.com/risingwavelabs/risingwave/pull/20629)
 - `5ea786334c5a78f013279276dbc06a5c8017997d` [fix(file source): clear counter `splits_on_fetch` when updating rate limit (#20622)](https://github.com/risingwavelabs/risingwave/pull/20622)
