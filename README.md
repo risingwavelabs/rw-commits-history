@@ -181,6 +181,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `76e51505b67dbdc42cfc02eab6cbecd64bdf4c25` [fix(meta): delete large time travel metadata in smaller batch (#20588)](https://github.com/risingwavelabs/risingwave/pull/20588)
+- `ee72621d2e11664df8c9d4f2909b795fb2daa701` [feat(expr): add expression to reveal license status & content (#20629)](https://github.com/risingwavelabs/risingwave/pull/20629)
 - `5ea786334c5a78f013279276dbc06a5c8017997d` [fix(file source): clear counter `splits_on_fetch` when updating rate limit (#20622)](https://github.com/risingwavelabs/risingwave/pull/20622)
 - `71cd2dd1950141592f6ecd0fc50cfb54d0f8d84e` [fix(ci): sqllogictest command not found (#20630)](https://github.com/risingwavelabs/risingwave/pull/20630)
 - `5c54c4692a070edfc1c22910bef1c92b05cebeb6` [refactor(meta): deprecate dispatcher table and compose dispatcher by fragment relation (#20541)](https://github.com/risingwavelabs/risingwave/pull/20541)
