@@ -181,6 +181,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `71cd2dd1950141592f6ecd0fc50cfb54d0f8d84e` [fix(ci): sqllogictest command not found (#20630)](https://github.com/risingwavelabs/risingwave/pull/20630)
+- `5c54c4692a070edfc1c22910bef1c92b05cebeb6` [refactor(meta): deprecate dispatcher table and compose dispatcher by fragment relation (#20541)](https://github.com/risingwavelabs/risingwave/pull/20541)
 - `659960ee0472d5ea14173cde22b5bdfdcc993865` [fix(streaming): asof join can panic in some cases (#20621)](https://github.com/risingwavelabs/risingwave/pull/20621)
 - `d72061e91ef0defd27519badd0031e4409bdf374` [fix(barrier): ensure causal order in local barrier manager event (#20627)](https://github.com/risingwavelabs/risingwave/pull/20627)
 - `810bc4caf4f54db6ca567cd5e307a1f5bbbccd7b` [feat: add some logs for recovery (#20617)](https://github.com/risingwavelabs/risingwave/pull/20617)
