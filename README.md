@@ -181,6 +181,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `659960ee0472d5ea14173cde22b5bdfdcc993865` [fix(streaming): asof join can panic in some cases (#20621)](https://github.com/risingwavelabs/risingwave/pull/20621)
+- `d72061e91ef0defd27519badd0031e4409bdf374` [fix(barrier): ensure causal order in local barrier manager event (#20627)](https://github.com/risingwavelabs/risingwave/pull/20627)
 - `810bc4caf4f54db6ca567cd5e307a1f5bbbccd7b` [feat: add some logs for recovery (#20617)](https://github.com/risingwavelabs/risingwave/pull/20617)
 - `a8d2b2ba476d2327c794cd79574ebfca46ab0d9f` [feat: add aws.msk.signer_timeout_sec to config the timeout of signer (#20610)](https://github.com/risingwavelabs/risingwave/pull/20610)
 - `8eefc2ddedef67279a7b06c55f89b6ac0eee9147` [fix(log-store): rebuild decoupled sink on scale to fix data loss (#20615)](https://github.com/risingwavelabs/risingwave/pull/20615)
