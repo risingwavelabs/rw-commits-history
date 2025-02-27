@@ -160,6 +160,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1c459aa6be64748e9b21c6e8fbc2365ad21e8f90` [fix(udf): fix wasm e2e test compile and update build target (#20623)](https://github.com/risingwavelabs/risingwave/pull/20623)
 
 ## nightly-20250226
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4a63ece56e30568d66b8e764ccaf8e4d97933832...8af9e0fa92cae7b63010434c1e5111e49ff76f92)
