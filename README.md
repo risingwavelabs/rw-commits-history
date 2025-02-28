@@ -182,6 +182,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ab747de905bbd26a0c1d978d0a60755c18c61bf0` [feat(frontend): alter column type for debugging purposes (#20562)](https://github.com/risingwavelabs/risingwave/pull/20562)
+- `a3d5ca909c7c59181e4d73fc31952c78d1b4076e` [fix(sqlparser): `Display` of `ConnectionRef` shall be valid SQL (#20656)](https://github.com/risingwavelabs/risingwave/pull/20656)
 - `70506ee07d7509ccb2b3842c8e4ba2f3a92b45b1` [fix(sink): reduce jdbc query timeout to 60s (#20641)](https://github.com/risingwavelabs/risingwave/pull/20641)
 - `66ffccffc8e33584a5ef189d1f66dfe443be41bf` [refactor(stream): shortcircuit flushing chunks on barrier (#20523)](https://github.com/risingwavelabs/risingwave/pull/20523)
 - `faa6cb6db628e4e574a51c06707e242c2f07501a` [feat(logstore): handle paused stream (#20511)](https://github.com/risingwavelabs/risingwave/pull/20511)
