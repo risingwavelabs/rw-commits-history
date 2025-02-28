@@ -182,6 +182,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `96e09b449a4d836f220ecc3b9fa32686c0111b8f` [feat(meta): do configuration change in single barrier (#20493)](https://github.com/risingwavelabs/risingwave/pull/20493)
+- `543b94af8a1aeb4888d184b96d63e54ec05cfee9` [refactor(meta): deprecate persisted fragment upstream ids (#20548)](https://github.com/risingwavelabs/risingwave/pull/20548)
 - `ab747de905bbd26a0c1d978d0a60755c18c61bf0` [feat(frontend): alter column type for debugging purposes (#20562)](https://github.com/risingwavelabs/risingwave/pull/20562)
 - `a3d5ca909c7c59181e4d73fc31952c78d1b4076e` [fix(sqlparser): `Display` of `ConnectionRef` shall be valid SQL (#20656)](https://github.com/risingwavelabs/risingwave/pull/20656)
 - `70506ee07d7509ccb2b3842c8e4ba2f3a92b45b1` [fix(sink): reduce jdbc query timeout to 60s (#20641)](https://github.com/risingwavelabs/risingwave/pull/20641)
