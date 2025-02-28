@@ -182,6 +182,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `866921ef875e7b0b2b14c3ad4938a30a60b2a949` [feat: introduce `adaptive_parallelism_strategy` (#20589)](https://github.com/risingwavelabs/risingwave/pull/20589)
 - `96e09b449a4d836f220ecc3b9fa32686c0111b8f` [feat(meta): do configuration change in single barrier (#20493)](https://github.com/risingwavelabs/risingwave/pull/20493)
 - `543b94af8a1aeb4888d184b96d63e54ec05cfee9` [refactor(meta): deprecate persisted fragment upstream ids (#20548)](https://github.com/risingwavelabs/risingwave/pull/20548)
 - `ab747de905bbd26a0c1d978d0a60755c18c61bf0` [feat(frontend): alter column type for debugging purposes (#20562)](https://github.com/risingwavelabs/risingwave/pull/20562)
