@@ -182,6 +182,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `70506ee07d7509ccb2b3842c8e4ba2f3a92b45b1` [fix(sink): reduce jdbc query timeout to 60s (#20641)](https://github.com/risingwavelabs/risingwave/pull/20641)
 - `66ffccffc8e33584a5ef189d1f66dfe443be41bf` [refactor(stream): shortcircuit flushing chunks on barrier (#20523)](https://github.com/risingwavelabs/risingwave/pull/20523)
 - `faa6cb6db628e4e574a51c06707e242c2f07501a` [feat(logstore): handle paused stream (#20511)](https://github.com/risingwavelabs/risingwave/pull/20511)
 - `ce3a8e674fbc222637b39eca6582bbcf4533d8c9` [refactor(struct): cleanup remaining special treatment of `struct` (#20631)](https://github.com/risingwavelabs/risingwave/pull/20631)
