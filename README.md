@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250228` `86ce96e7439080af6e5b5081490bb61a1d1a4c7c`
 - `20250227` `76e51505b67dbdc42cfc02eab6cbecd64bdf4c25`
 - `20250226` `8af9e0fa92cae7b63010434c1e5111e49ff76f92`
 - `20250225` `4a63ece56e30568d66b8e764ccaf8e4d97933832`
@@ -181,6 +182,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250228
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/76e51505b67dbdc42cfc02eab6cbecd64bdf4c25...86ce96e7439080af6e5b5081490bb61a1d1a4c7c)
 - `86ce96e7439080af6e5b5081490bb61a1d1a4c7c` [fix(jni): more user friendly jni error (#20659)](https://github.com/risingwavelabs/risingwave/pull/20659)
 - `ac302387497038e153d8c4cbd1dc44ff5b2f2f6a` [feat(types): add id to struct fields (#20620)](https://github.com/risingwavelabs/risingwave/pull/20620)
 - `21cee93b3c425458c7cd8329af4d3a7c82ac10c6` [fix(iceberg): refine iceberg catalog parameter validation (#20624)](https://github.com/risingwavelabs/risingwave/pull/20624)
