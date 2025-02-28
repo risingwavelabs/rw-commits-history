@@ -173,7 +173,6 @@
 - `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 - `20240808` `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49`
 - `20240807` `e68a7bbe877e3de31c7abeeb28d081ad84b61f62`
-- `20240806` `5933b93093f0a73d8d783ab220a3ef49e4f97217`
 </details>
 
 # Commit history
@@ -182,6 +181,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `86ce96e7439080af6e5b5081490bb61a1d1a4c7c` [fix(jni): more user friendly jni error (#20659)](https://github.com/risingwavelabs/risingwave/pull/20659)
+- `ac302387497038e153d8c4cbd1dc44ff5b2f2f6a` [feat(types): add id to struct fields (#20620)](https://github.com/risingwavelabs/risingwave/pull/20620)
+- `21cee93b3c425458c7cd8329af4d3a7c82ac10c6` [fix(iceberg): refine iceberg catalog parameter validation (#20624)](https://github.com/risingwavelabs/risingwave/pull/20624)
 - `866921ef875e7b0b2b14c3ad4938a30a60b2a949` [feat: introduce `adaptive_parallelism_strategy` (#20589)](https://github.com/risingwavelabs/risingwave/pull/20589)
 - `96e09b449a4d836f220ecc3b9fa32686c0111b8f` [feat(meta): do configuration change in single barrier (#20493)](https://github.com/risingwavelabs/risingwave/pull/20493)
 - `543b94af8a1aeb4888d184b96d63e54ec05cfee9` [refactor(meta): deprecate persisted fragment upstream ids (#20548)](https://github.com/risingwavelabs/risingwave/pull/20548)
@@ -1985,14 +1987,4 @@
 - `ac99459311667373f28f84bf629bf507cf5cbe05` [fix(sink): Fix sink into table in the recovery of the new version of table graph. (#17960)](https://github.com/risingwavelabs/risingwave/pull/17960)
 
 ## nightly-20240807
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5933b93093f0a73d8d783ab220a3ef49e4f97217...e68a7bbe877e3de31c7abeeb28d081ad84b61f62)
 - `e68a7bbe877e3de31c7abeeb28d081ad84b61f62` [fix: clear in progress creation tracker when recovery to avoid recovering failed foreground ddl in some corner cases (#17955)](https://github.com/risingwavelabs/risingwave/pull/17955)
-- `accfb49593c34bfad4a84ef22598432eb0b2eaf4` [feat(cdc): support sql server cdc (#17429)](https://github.com/risingwavelabs/risingwave/pull/17429)
-- `50294deb1a96f1f33d164bdc3ef74bcc5fa7fd87` [fix(pg-cdc): add validation for slot name of pg cdc source (#17949)](https://github.com/risingwavelabs/risingwave/pull/17949)
-- `e7c370603428eba85a56a95641ccb2fce5965f41` [refactor(common): use macro to impl tosql and fromsql for date, time, da… (#17950)](https://github.com/risingwavelabs/risingwave/pull/17950)
-- `ea4e8f0ddd1850ae8509afcdcc33c72cf25eb398` [feat(iceberg): reduce iceberg catalog fetch rpc number for iceberg scan (#17939)](https://github.com/risingwavelabs/risingwave/pull/17939)
-- `05efd48b3c77adc4dcd37ee242abec53964dec69` [feat(iceberg): reuse http client for iceberg (#17940)](https://github.com/risingwavelabs/risingwave/pull/17940)
-- `b671bc7d65c38abc3595479f08490b018a086984` [chore: add col name when type mismatch in sink (#17948)](https://github.com/risingwavelabs/risingwave/pull/17948)
-
-## nightly-20240806
-- `5933b93093f0a73d8d783ab220a3ef49e4f97217` [fix(migration): include missing `sea-orm` dependency (#17941)](https://github.com/risingwavelabs/risingwave/pull/17941)
