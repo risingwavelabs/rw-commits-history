@@ -183,6 +183,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e3b44454058c85a0d1438653c9ee70c2b35a5052` [fix(frontend): avoid error when `create materialized view if not exists` on existing background mv (#20681)](https://github.com/risingwavelabs/risingwave/pull/20681)
 
 ## nightly-20250301
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86ce96e7439080af6e5b5081490bb61a1d1a4c7c...cda5da48aaa7db0dcaf751fda311d0b8b86f45ce)
