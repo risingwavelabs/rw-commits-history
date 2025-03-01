@@ -182,6 +182,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cda5da48aaa7db0dcaf751fda311d0b8b86f45ce` [feat: remove support for default column from CDC (#20671)](https://github.com/risingwavelabs/risingwave/pull/20671)
 
 ## nightly-20250228
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/76e51505b67dbdc42cfc02eab6cbecd64bdf4c25...86ce96e7439080af6e5b5081490bb61a1d1a4c7c)
