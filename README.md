@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250302` `ea7c01eb340c9ebcd501a2da991b9948311caf10`
 - `20250301` `cda5da48aaa7db0dcaf751fda311d0b8b86f45ce`
 - `20250228` `86ce96e7439080af6e5b5081490bb61a1d1a4c7c`
 - `20250227` `76e51505b67dbdc42cfc02eab6cbecd64bdf4c25`
@@ -182,6 +183,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250302
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cda5da48aaa7db0dcaf751fda311d0b8b86f45ce...ea7c01eb340c9ebcd501a2da991b9948311caf10)
 - `ea7c01eb340c9ebcd501a2da991b9948311caf10` [feat: support alter source set parallelism & fix shared source scale bug (#20606)](https://github.com/risingwavelabs/risingwave/pull/20606)
 - `e3b44454058c85a0d1438653c9ee70c2b35a5052` [fix(frontend): avoid error when `create materialized view if not exists` on existing background mv (#20681)](https://github.com/risingwavelabs/risingwave/pull/20681)
 
