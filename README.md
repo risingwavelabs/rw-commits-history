@@ -183,6 +183,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4dcf2945855385c674031c9ba3bf5a76e69bc000` [refactor(frontend): move column id generator to a separate submodule (#20664)](https://github.com/risingwavelabs/risingwave/pull/20664)
 - `0ffc3f46974f103e48d9c692b60a7b265b2f1b09` [feat(iceberg): enable config load for storage catalog (#20690)](https://github.com/risingwavelabs/risingwave/pull/20690)
 - `7d807a68c1e9f6e959935ea851fe3e04ce9b4b61` [refactor(source): prepare `encode protobuf` for more schema registries (#20628)](https://github.com/risingwavelabs/risingwave/pull/20628)
 - `6a1090b7b9cc35ad03ca431d118ba73ea9d1ddc2` [feat(cdc): accept Postgres major version == 17 CDC (#20668)](https://github.com/risingwavelabs/risingwave/pull/20668)
