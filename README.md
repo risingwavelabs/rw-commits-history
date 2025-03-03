@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250303` `8d8d47d6b32f31661ea8c146221761f377a86c4e`
 - `20250302` `ea7c01eb340c9ebcd501a2da991b9948311caf10`
 - `20250301` `cda5da48aaa7db0dcaf751fda311d0b8b86f45ce`
 - `20250228` `86ce96e7439080af6e5b5081490bb61a1d1a4c7c`
@@ -184,6 +185,9 @@
 
 ## Unreleased
 - `3bb35c789e20827956b93bae55cd8bbfacc229d3` [fix: Dockerfile (#20680)](https://github.com/risingwavelabs/risingwave/pull/20680)
+
+## nightly-20250303
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ea7c01eb340c9ebcd501a2da991b9948311caf10...8d8d47d6b32f31661ea8c146221761f377a86c4e)
 - `8d8d47d6b32f31661ea8c146221761f377a86c4e` [feat: support grant/revoke privilege on view (#20670)](https://github.com/risingwavelabs/risingwave/pull/20670)
 - `829db234e16856be99cf2b7daf48c5896bd5e278` [refactor(udf): simplify WASM UDF implementation by moving some logic to `arrow-udf-wasm` (#20239)](https://github.com/risingwavelabs/risingwave/pull/20239)
 - `510a3c798758525f8cb5433f3c9957893b720b44` [fix: fix shared source scale bug again (#20688)](https://github.com/risingwavelabs/risingwave/pull/20688)
