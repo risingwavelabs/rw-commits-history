@@ -184,6 +184,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e2727f74b32723d453677966d68749d508c9fb04` [chore: cherry pick since version X (#20557)](https://github.com/risingwavelabs/risingwave/pull/20557)
 - `3bb35c789e20827956b93bae55cd8bbfacc229d3` [fix: Dockerfile (#20680)](https://github.com/risingwavelabs/risingwave/pull/20680)
 
 ## nightly-20250303
