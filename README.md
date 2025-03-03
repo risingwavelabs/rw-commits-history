@@ -183,6 +183,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6a1090b7b9cc35ad03ca431d118ba73ea9d1ddc2` [feat(cdc): accept Postgres major version == 17 CDC (#20668)](https://github.com/risingwavelabs/risingwave/pull/20668)
+- `632880970d3f592873880c92ca90484a4b39d5b5` [feat(source): pass `PulsarMeta` to `AvroAccessBuilder` (#20637)](https://github.com/risingwavelabs/risingwave/pull/20637)
 
 ## nightly-20250302
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cda5da48aaa7db0dcaf751fda311d0b8b86f45ce...ea7c01eb340c9ebcd501a2da991b9948311caf10)
