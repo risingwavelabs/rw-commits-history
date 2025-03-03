@@ -183,6 +183,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3bb35c789e20827956b93bae55cd8bbfacc229d3` [fix: Dockerfile (#20680)](https://github.com/risingwavelabs/risingwave/pull/20680)
+- `8d8d47d6b32f31661ea8c146221761f377a86c4e` [feat: support grant/revoke privilege on view (#20670)](https://github.com/risingwavelabs/risingwave/pull/20670)
+- `829db234e16856be99cf2b7daf48c5896bd5e278` [refactor(udf): simplify WASM UDF implementation by moving some logic to `arrow-udf-wasm` (#20239)](https://github.com/risingwavelabs/risingwave/pull/20239)
 - `510a3c798758525f8cb5433f3c9957893b720b44` [fix: fix shared source scale bug again (#20688)](https://github.com/risingwavelabs/risingwave/pull/20688)
 - `4dcf2945855385c674031c9ba3bf5a76e69bc000` [refactor(frontend): move column id generator to a separate submodule (#20664)](https://github.com/risingwavelabs/risingwave/pull/20664)
 - `0ffc3f46974f103e48d9c692b60a7b265b2f1b09` [feat(iceberg): enable config load for storage catalog (#20690)](https://github.com/risingwavelabs/risingwave/pull/20690)
