@@ -179,6 +179,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d26ac1ca9de2eb076fcd3f590a04e27640d6841c` [fix(optimizer): fix predicate pushdown for asof join (#20711)](https://github.com/risingwavelabs/risingwave/pull/20711)
 - `51732de76732e8479ca29ee926a3b70837ad94eb` [chore: update PR template by newest release branch (#20560)](https://github.com/risingwavelabs/risingwave/pull/20560)
 - `f5e812470d2d6eb4ef3d0d813409c0f89fef6b44` [chore: update package version to v2.4.0-alpha (#20704)](https://github.com/risingwavelabs/risingwave/pull/20704)
 - `d084ca871fda9024b53a4ca1fe87f645070aa46b` [fix: Temporarily add sleep to prevent unexpected test failures (#20705)](https://github.com/risingwavelabs/risingwave/pull/20705)
