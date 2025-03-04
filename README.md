@@ -180,6 +180,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1b289d63135a2b2ef2b148a54ce7e4d27545a24d` [fix(frontend): fix error message for casting `ROW` expression with mismatched field count (#20703)](https://github.com/risingwavelabs/risingwave/pull/20703)
 - `01d700849737dc4f2490b1c76029fed0f865f016` [fix(jdbc): remove postgres jdbc sink schema if not specified (#20632)](https://github.com/risingwavelabs/risingwave/pull/20632)
 - `7b2fbf4e108ee01ac63def574959d9fe2a853b02` [feat: fully deprecate legacy s3 source (#20658)](https://github.com/risingwavelabs/risingwave/pull/20658)
 - `0cc54b3f8f042847df84eecbdcbf6d49bc92dd7a` [feat(udf): introduce async and batched JavaScript UDF (#20403)](https://github.com/risingwavelabs/risingwave/pull/20403)
