@@ -177,6 +177,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `70a53de1d6dbbf740c2bdc576c5d13bce2420b40` [ci: do not dump logs (#20732)](https://github.com/risingwavelabs/risingwave/pull/20732)
 - `c77e8150445e471b66383f4085b2a413180e21f6` [fix(ci): fix rust toolchain (#20728)](https://github.com/risingwavelabs/risingwave/pull/20728)
 - `f1df6b83d2c53d7f945bfe770c2dd81c80b5c18f` [refactor: streamline column-aware row encoding impl (#20583)](https://github.com/risingwavelabs/risingwave/pull/20583)
 - `6640f4123f6af8221dddca9d062f824d6d122a69` [feat: support ALTER CONNECTION OWNER TO  (#20709)](https://github.com/risingwavelabs/risingwave/pull/20709)
