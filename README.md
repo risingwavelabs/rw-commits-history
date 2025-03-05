@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250305` `b5ac1fccf06090e30ad809aff0b730ee3735e024`
 - `20250303` `8d8d47d6b32f31661ea8c146221761f377a86c4e`
 - `20250302` `ea7c01eb340c9ebcd501a2da991b9948311caf10`
 - `20250301` `cda5da48aaa7db0dcaf751fda311d0b8b86f45ce`
@@ -177,6 +178,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250305
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8d8d47d6b32f31661ea8c146221761f377a86c4e...b5ac1fccf06090e30ad809aff0b730ee3735e024)
 - `b5ac1fccf06090e30ad809aff0b730ee3735e024` [chore(deps): Bump winnow from 0.6.11 to 0.7.3 (#20553)](https://github.com/risingwavelabs/risingwave/pull/20553)
 - `70a53de1d6dbbf740c2bdc576c5d13bce2420b40` [ci: do not dump logs (#20732)](https://github.com/risingwavelabs/risingwave/pull/20732)
 - `c77e8150445e471b66383f4085b2a413180e21f6` [fix(ci): fix rust toolchain (#20728)](https://github.com/risingwavelabs/risingwave/pull/20728)
