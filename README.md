@@ -179,6 +179,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `49192868b785d953b8725055bd2b3f58892e7ca7` [fix(ci): fix rustup 1.28.0 breaking change (#20718)](https://github.com/risingwavelabs/risingwave/pull/20718)
 - `c24a452ca05a63b9e98f23896dd8d3df3e0a93f2` [feat(batch): AsOf lookup join (#20712)](https://github.com/risingwavelabs/risingwave/pull/20712)
 - `ccf7b736e6b8c658002fc274c5eb16642c9280d8` [feat: support retry commit for iceberg sink (#20433)](https://github.com/risingwavelabs/risingwave/pull/20433)
 - `621145ae9d3098eff4fddb8ed042054fe236ae5e` [feat(iceberg): support list namespaces and tables for jni catalog (#20669)](https://github.com/risingwavelabs/risingwave/pull/20669)
