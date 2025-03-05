@@ -178,6 +178,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f1df6b83d2c53d7f945bfe770c2dd81c80b5c18f` [refactor: streamline column-aware row encoding impl (#20583)](https://github.com/risingwavelabs/risingwave/pull/20583)
 - `6640f4123f6af8221dddca9d062f824d6d122a69` [feat: support ALTER CONNECTION OWNER TO  (#20709)](https://github.com/risingwavelabs/risingwave/pull/20709)
 - `408822748f6b4a4031b0a8b8e886c155d1527afd` [feat: add rw version to meta backup log (#20693)](https://github.com/risingwavelabs/risingwave/pull/20693)
 - `49192868b785d953b8725055bd2b3f58892e7ca7` [fix(ci): fix rustup 1.28.0 breaking change (#20718)](https://github.com/risingwavelabs/risingwave/pull/20718)
