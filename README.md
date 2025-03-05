@@ -179,6 +179,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c24a452ca05a63b9e98f23896dd8d3df3e0a93f2` [feat(batch): AsOf lookup join (#20712)](https://github.com/risingwavelabs/risingwave/pull/20712)
 - `ccf7b736e6b8c658002fc274c5eb16642c9280d8` [feat: support retry commit for iceberg sink (#20433)](https://github.com/risingwavelabs/risingwave/pull/20433)
 - `621145ae9d3098eff4fddb8ed042054fe236ae5e` [feat(iceberg): support list namespaces and tables for jni catalog (#20669)](https://github.com/risingwavelabs/risingwave/pull/20669)
 - `d26ac1ca9de2eb076fcd3f590a04e27640d6841c` [fix(optimizer): fix predicate pushdown for asof join (#20711)](https://github.com/risingwavelabs/risingwave/pull/20711)
