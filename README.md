@@ -169,7 +169,6 @@
 - `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
-- `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 </details>
 
 # Commit history
@@ -178,6 +177,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c77e8150445e471b66383f4085b2a413180e21f6` [fix(ci): fix rust toolchain (#20728)](https://github.com/risingwavelabs/risingwave/pull/20728)
 - `f1df6b83d2c53d7f945bfe770c2dd81c80b5c18f` [refactor: streamline column-aware row encoding impl (#20583)](https://github.com/risingwavelabs/risingwave/pull/20583)
 - `6640f4123f6af8221dddca9d062f824d6d122a69` [feat: support ALTER CONNECTION OWNER TO  (#20709)](https://github.com/risingwavelabs/risingwave/pull/20709)
 - `408822748f6b4a4031b0a8b8e886c155d1527afd` [feat: add rw version to meta backup log (#20693)](https://github.com/risingwavelabs/risingwave/pull/20693)
@@ -1939,12 +1939,4 @@
 - `31e52d4f66745280097e981eb154042cab46296b` [ci: add cherry-pick 2.0 (#18074)](https://github.com/risingwavelabs/risingwave/pull/18074)
 
 ## nightly-20240816
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cbeda4d0d61707f6637ea15f5e929b8169bbe9d9...f5f09a6c15b1291623a1fccc9638035cf19002c0)
 - `f5f09a6c15b1291623a1fccc9638035cf19002c0` [feat: enable shuffle for snapshot backfill (#18063)](https://github.com/risingwavelabs/risingwave/pull/18063)
-- `4e6850754cc552aab9bee8fa487e295e0513ff0d` [fix(common): fix hyper-014 compile (#18068)](https://github.com/risingwavelabs/risingwave/pull/18068)
-- `7b807cf7bf8f44bf02741fd33a57f30a1fbafd68` [feat(stream): add approx percentile cache for global approx percentile (#18026)](https://github.com/risingwavelabs/risingwave/pull/18026)
-- `ccad6f4b5b18267c124705a41d71f1217bc1d212` [refactor: deprecate old s3 and use use s3_v2 as default (#17963)](https://github.com/risingwavelabs/risingwave/pull/17963)
-- `cfea9f3ee6c7669bd0ed06ad4c5d3a8cf0d147c5` [feat: support partial checkpoint based backfill (a.k.a snapshot backfill) (#17735)](https://github.com/risingwavelabs/risingwave/pull/17735)
-
-## nightly-20240815
-- `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
