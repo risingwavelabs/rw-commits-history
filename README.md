@@ -175,6 +175,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d060229e05ae33f56be7f382aa7dba770389b300` [fix(iceberg): revert iceberg engine paid feature (#20750)](https://github.com/risingwavelabs/risingwave/pull/20750)
+- `0e622971bdfc90ff51db37a274607dda5f3ac036` [fix(source): debezium avro schema evolution (#20699)](https://github.com/risingwavelabs/risingwave/pull/20699)
 - `ec899adc3f7e8b23f555657972368dc7ef6ba6c3` [refactor(storage): create new read snapshot to read for StateStore trait (#20172)](https://github.com/risingwavelabs/risingwave/pull/20172)
 - `c245a318c26d16d426f61237a24209269db747e1` [fix(stoarge): fix in-mem state store seal epoch panic on singleton vnode (#20665)](https://github.com/risingwavelabs/risingwave/pull/20665)
 - `7bd425edf3c8ab371f1588266173621b932a72bb` [refactor(meta): remove dispatcher field from StreamActor (#20694)](https://github.com/risingwavelabs/risingwave/pull/20694)
