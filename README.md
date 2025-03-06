@@ -176,6 +176,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5a08f9606859061f6705ba20b0d6b57634cc4297` [feat(expr): support `atand` function (#20646)](https://github.com/risingwavelabs/risingwave/pull/20646)
 
 ## nightly-20250305
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8d8d47d6b32f31661ea8c146221761f377a86c4e...b5ac1fccf06090e30ad809aff0b730ee3735e024)
