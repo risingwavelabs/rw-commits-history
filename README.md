@@ -176,6 +176,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a5e6243998d81f34d32cd8e11c5e963c2282cf95` [feat: Implement batch-based updates in offline scaling (#20749)](https://github.com/risingwavelabs/risingwave/pull/20749)
 - `03c354ecf688350eaeeb129d682c0d031dc3214a` [feat: Add support for resource group in database creation (#20751)](https://github.com/risingwavelabs/risingwave/pull/20751)
 - `9bf160e60e1e33f95fed9b8b08a2f3301a3d2751` [fix(action): correctly escape hashtag (#20745)](https://github.com/risingwavelabs/risingwave/pull/20745)
 
