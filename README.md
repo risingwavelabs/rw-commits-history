@@ -175,6 +175,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c245a318c26d16d426f61237a24209269db747e1` [fix(stoarge): fix in-mem state store seal epoch panic on singleton vnode (#20665)](https://github.com/risingwavelabs/risingwave/pull/20665)
+- `7bd425edf3c8ab371f1588266173621b932a72bb` [refactor(meta): remove dispatcher field from StreamActor (#20694)](https://github.com/risingwavelabs/risingwave/pull/20694)
+- `2b66fe374a7386f62443744b5e372cfb15ffd7e9` [refactor: replace hardcoded buffer size with config (#20738)](https://github.com/risingwavelabs/risingwave/pull/20738)
 - `adebdaec6b2eed60753c516a2c105f9050b689f7` [fix(storage): fix compactor meta cache config (#20737)](https://github.com/risingwavelabs/risingwave/pull/20737)
 - `8e5f6e4f6ca65d5075eb57b19e4ff266c11f6bd3` [fix: update latest release branch in pr template (#20739)](https://github.com/risingwavelabs/risingwave/pull/20739)
 - `5a08f9606859061f6705ba20b0d6b57634cc4297` [feat(expr): support `atand` function (#20646)](https://github.com/risingwavelabs/risingwave/pull/20646)
