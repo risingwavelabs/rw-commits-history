@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250306` `d060229e05ae33f56be7f382aa7dba770389b300`
 - `20250305` `b5ac1fccf06090e30ad809aff0b730ee3735e024`
 - `20250303` `8d8d47d6b32f31661ea8c146221761f377a86c4e`
 - `20250302` `ea7c01eb340c9ebcd501a2da991b9948311caf10`
@@ -175,6 +176,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9bf160e60e1e33f95fed9b8b08a2f3301a3d2751` [fix(action): correctly escape hashtag (#20745)](https://github.com/risingwavelabs/risingwave/pull/20745)
+
+## nightly-20250306
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b5ac1fccf06090e30ad809aff0b730ee3735e024...d060229e05ae33f56be7f382aa7dba770389b300)
 - `d060229e05ae33f56be7f382aa7dba770389b300` [fix(iceberg): revert iceberg engine paid feature (#20750)](https://github.com/risingwavelabs/risingwave/pull/20750)
 - `0e622971bdfc90ff51db37a274607dda5f3ac036` [fix(source): debezium avro schema evolution (#20699)](https://github.com/risingwavelabs/risingwave/pull/20699)
 - `ec899adc3f7e8b23f555657972368dc7ef6ba6c3` [refactor(storage): create new read snapshot to read for StateStore trait (#20172)](https://github.com/risingwavelabs/risingwave/pull/20172)
