@@ -175,6 +175,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ec899adc3f7e8b23f555657972368dc7ef6ba6c3` [refactor(storage): create new read snapshot to read for StateStore trait (#20172)](https://github.com/risingwavelabs/risingwave/pull/20172)
 - `c245a318c26d16d426f61237a24209269db747e1` [fix(stoarge): fix in-mem state store seal epoch panic on singleton vnode (#20665)](https://github.com/risingwavelabs/risingwave/pull/20665)
 - `7bd425edf3c8ab371f1588266173621b932a72bb` [refactor(meta): remove dispatcher field from StreamActor (#20694)](https://github.com/risingwavelabs/risingwave/pull/20694)
 - `2b66fe374a7386f62443744b5e372cfb15ffd7e9` [refactor: replace hardcoded buffer size with config (#20738)](https://github.com/risingwavelabs/risingwave/pull/20738)
