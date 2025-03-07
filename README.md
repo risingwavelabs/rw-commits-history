@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250307` `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5`
 - `20250306` `d060229e05ae33f56be7f382aa7dba770389b300`
 - `20250305` `b5ac1fccf06090e30ad809aff0b730ee3735e024`
 - `20250303` `8d8d47d6b32f31661ea8c146221761f377a86c4e`
@@ -175,6 +176,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250307
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d060229e05ae33f56be7f382aa7dba770389b300...1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5)
 - `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5` [feat(iceberg): support creating namespace and namespace exists for iceberg catalog (#20759)](https://github.com/risingwavelabs/risingwave/pull/20759)
 - `37e487a6a1277eacf01ff2d804cd808cf63398e4` [refactor(grafana): split dashboard definition into multiple python files (#20770)](https://github.com/risingwavelabs/risingwave/pull/20770)
 - `080a099f7ec0b9ff86685c8ef32181363b651eb6` [feat: re-organize grafana dashboard sections (#20731)](https://github.com/risingwavelabs/risingwave/pull/20731)
