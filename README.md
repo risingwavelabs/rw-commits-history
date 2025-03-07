@@ -175,6 +175,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `080a099f7ec0b9ff86685c8ef32181363b651eb6` [feat: re-organize grafana dashboard sections (#20731)](https://github.com/risingwavelabs/risingwave/pull/20731)
 - `b22b742ee8e2fbca09f11c183359cbaa8aff7623` [chore: add diff in update pr template github action (#20774)](https://github.com/risingwavelabs/risingwave/pull/20774)
 - `07946f0ca1c1dcaec3dd2180af636ff606f9bb75` [chore(deps): Bump the aws group with 3 updates (#20767)](https://github.com/risingwavelabs/risingwave/pull/20767)
 - `c12996f4633d7785b4b228d5f73db8ec57193e00` [feat(dml): add not null support (#20611)](https://github.com/risingwavelabs/risingwave/pull/20611)
