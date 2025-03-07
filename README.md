@@ -175,6 +175,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5` [feat(iceberg): support creating namespace and namespace exists for iceberg catalog (#20759)](https://github.com/risingwavelabs/risingwave/pull/20759)
 - `37e487a6a1277eacf01ff2d804cd808cf63398e4` [refactor(grafana): split dashboard definition into multiple python files (#20770)](https://github.com/risingwavelabs/risingwave/pull/20770)
 - `080a099f7ec0b9ff86685c8ef32181363b651eb6` [feat: re-organize grafana dashboard sections (#20731)](https://github.com/risingwavelabs/risingwave/pull/20731)
 - `b22b742ee8e2fbca09f11c183359cbaa8aff7623` [chore: add diff in update pr template github action (#20774)](https://github.com/risingwavelabs/risingwave/pull/20774)
