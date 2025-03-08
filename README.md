@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250308` `87c7975a7f3d366eb950b220beb5fc551cefb28f`
 - `20250307` `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5`
 - `20250306` `d060229e05ae33f56be7f382aa7dba770389b300`
 - `20250305` `b5ac1fccf06090e30ad809aff0b730ee3735e024`
@@ -176,6 +177,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250308
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5...87c7975a7f3d366eb950b220beb5fc551cefb28f)
 - `87c7975a7f3d366eb950b220beb5fc551cefb28f` [fix(iceberg): reject iceberg on gcs with catalog rather than rest and storage (#20781)](https://github.com/risingwavelabs/risingwave/pull/20781)
 
 ## nightly-20250307
