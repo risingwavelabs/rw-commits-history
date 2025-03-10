@@ -163,7 +163,6 @@
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
-- `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 </details>
 
 # Commit history
@@ -172,6 +171,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `21a35ca9a58426ef64077e393fb9fdc4443ee71a` [chore(deps): Bump ring from 0.17.5 to 0.17.13 (#20805)](https://github.com/risingwavelabs/risingwave/pull/20805)
+- `209f23361ad56d3e7899cafa5c39c9cf12f412c8` [chore(test): show each output line immediately in deterministic recovery test (#20808)](https://github.com/risingwavelabs/risingwave/pull/20808)
 - `4c8568a3537a4dbbf87b8356944f61c765845909` [refactor(storage): better backtrace display in warn log for `wait_for_update` (#20810)](https://github.com/risingwavelabs/risingwave/pull/20810)
 - `b2d06fed7cf28671a384cbed94a4b803152880bd` [ci: use buildkite job parallelism to speed up sqllogictests (#20727)](https://github.com/risingwavelabs/risingwave/pull/20727)
 - `dffe0ef8eef9a3855b8ebec581636033d0ead525` [chore(deps): Bump ring from 0.17.5 to 0.17.13 (#20809)](https://github.com/risingwavelabs/risingwave/pull/20809)
@@ -1855,16 +1856,4 @@
 - `7a97076cedfc1018facc892ed1c350327fe6b8db` [fix(meta): fix list changed log epoch retrun null epoch (#18273)](https://github.com/risingwavelabs/risingwave/pull/18273)
 
 ## nightly-20240827
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983...63b4d47ea9f54f567983e097e15d8dc9b0384849)
 - `63b4d47ea9f54f567983e097e15d8dc9b0384849` [fix: should use table_metric for MV throughput (#18265)](https://github.com/risingwavelabs/risingwave/pull/18265)
-- `6bd0e89cf056969fe0f9028815d83786c53dfec6` [chore: create an issue in the doc repo if it is a breaking change (#18263)](https://github.com/risingwavelabs/risingwave/pull/18263)
-- `22926d67fff102cd7114b150b8437e3afd4a4231` [refactor(iceberg): Separate iceberg source pb from source pb (#18209)](https://github.com/risingwavelabs/risingwave/pull/18209)
-- `edaace2f93877f1bc25c523da4d434b869aaf73a` [fix(batch): fix CTAS pins snapshot too long (#18248)](https://github.com/risingwavelabs/risingwave/pull/18248)
-- `79d98109deee8518740be6a00c3e4f41c29d5f1b` [feat(storage): Support for repairing the size of a split sst based on table stats (#18053)](https://github.com/risingwavelabs/risingwave/pull/18053)
-- `e3a9d37ddad6ed519c0fa48ec457a0ea994c441a` [feat(agg): support `aggregate:` prefixed scalar function in streaming agg (#18205)](https://github.com/risingwavelabs/risingwave/pull/18205)
-- `3c31ef9755c0bc9799dd4b65151b095beb148120` [fix(storage): Fix the bug that switch table_id breaks block data constraints. (#18235)](https://github.com/risingwavelabs/risingwave/pull/18235)
-- `9932d12bf91c822164a06551fe2b56363d77e99c` [feat(connector): introduce azblob sink (#18244)](https://github.com/risingwavelabs/risingwave/pull/18244)
-- `860a936beb8ee4fae1576429b5a02a9c765dea6d` [fix: allow nullable for target table columns for normal sink (#18251)](https://github.com/risingwavelabs/risingwave/pull/18251)
-
-## nightly-20240826
-- `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983` [feat: inject pause/resume for creating sink into table (#17651)](https://github.com/risingwavelabs/risingwave/pull/17651)
