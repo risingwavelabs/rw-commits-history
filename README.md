@@ -175,6 +175,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `34abdfabd4a12fa1447dfaab6face12737edd282` [feat(logstore): provide more opportunities to read (#20546)](https://github.com/risingwavelabs/risingwave/pull/20546)
 
 ## nightly-20250309
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5...87c7975a7f3d366eb950b220beb5fc551cefb28f)
