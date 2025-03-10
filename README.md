@@ -172,6 +172,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6a3cdb11d12d11e5e1b8a4bb6c59d43ebb9ce4fc` [chore(deps): Bump openssl from 0.10.66 to 0.10.70 (#20370)](https://github.com/risingwavelabs/risingwave/pull/20370)
 
 ## nightly-20250310
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/87c7975a7f3d366eb950b220beb5fc551cefb28f...21a35ca9a58426ef64077e393fb9fdc4443ee71a)
