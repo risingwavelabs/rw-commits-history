@@ -172,6 +172,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4c8568a3537a4dbbf87b8356944f61c765845909` [refactor(storage): better backtrace display in warn log for `wait_for_update` (#20810)](https://github.com/risingwavelabs/risingwave/pull/20810)
+- `b2d06fed7cf28671a384cbed94a4b803152880bd` [ci: use buildkite job parallelism to speed up sqllogictests (#20727)](https://github.com/risingwavelabs/risingwave/pull/20727)
+- `dffe0ef8eef9a3855b8ebec581636033d0ead525` [chore(deps): Bump ring from 0.17.5 to 0.17.13 (#20809)](https://github.com/risingwavelabs/risingwave/pull/20809)
 - `2a3f4d3aafcf3e1787812deb417cd73e65d81bdf` [chore(deps): Bump sct from 0.7.0 to 0.7.1 (ring from 0.16 to 0.17) (#20804)](https://github.com/risingwavelabs/risingwave/pull/20804)
 - `dadc0e6160e0468810cfca733be170c5df7be08a` [fix(meta): background ddl wait collect first barrier (#20783)](https://github.com/risingwavelabs/risingwave/pull/20783)
 - `1f744d14125e8434da16bd9aede679e11d12ff46` [chore: remove telemetry tests (#20797)](https://github.com/risingwavelabs/risingwave/pull/20797)
