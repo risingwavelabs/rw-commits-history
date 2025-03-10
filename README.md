@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250310` `21a35ca9a58426ef64077e393fb9fdc4443ee71a`
 - `20250309` `87c7975a7f3d366eb950b220beb5fc551cefb28f`
 - `20250307` `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5`
 - `20250306` `d060229e05ae33f56be7f382aa7dba770389b300`
@@ -171,6 +172,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250310
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/87c7975a7f3d366eb950b220beb5fc551cefb28f...21a35ca9a58426ef64077e393fb9fdc4443ee71a)
 - `21a35ca9a58426ef64077e393fb9fdc4443ee71a` [chore(deps): Bump ring from 0.17.5 to 0.17.13 (#20805)](https://github.com/risingwavelabs/risingwave/pull/20805)
 - `209f23361ad56d3e7899cafa5c39c9cf12f412c8` [chore(test): show each output line immediately in deterministic recovery test (#20808)](https://github.com/risingwavelabs/risingwave/pull/20808)
 - `4c8568a3537a4dbbf87b8356944f61c765845909` [refactor(storage): better backtrace display in warn log for `wait_for_update` (#20810)](https://github.com/risingwavelabs/risingwave/pull/20810)
