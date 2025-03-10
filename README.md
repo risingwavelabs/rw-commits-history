@@ -172,6 +172,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2a3f4d3aafcf3e1787812deb417cd73e65d81bdf` [chore(deps): Bump sct from 0.7.0 to 0.7.1 (ring from 0.16 to 0.17) (#20804)](https://github.com/risingwavelabs/risingwave/pull/20804)
 - `dadc0e6160e0468810cfca733be170c5df7be08a` [fix(meta): background ddl wait collect first barrier (#20783)](https://github.com/risingwavelabs/risingwave/pull/20783)
 - `1f744d14125e8434da16bd9aede679e11d12ff46` [chore: remove telemetry tests (#20797)](https://github.com/risingwavelabs/risingwave/pull/20797)
 - `34abdfabd4a12fa1447dfaab6face12737edd282` [feat(logstore): provide more opportunities to read (#20546)](https://github.com/risingwavelabs/risingwave/pull/20546)
