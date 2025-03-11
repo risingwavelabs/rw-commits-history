@@ -173,6 +173,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c14d4bf0d44ac46ba2c3d55c52ad5c543a79303d` [feat(iceberg): support enable_config_load for glue catalog (#20813)](https://github.com/risingwavelabs/risingwave/pull/20813)
+- `48ccbdc6ed681f860c013a38295eca167c85519f` [chore(deps): Bump bytes from 1.9.0 to 1.10.1 (#20815)](https://github.com/risingwavelabs/risingwave/pull/20815)
+- `ba21e82dec17e05b4b5854ef58938492e315077c` [refactor(iceberg): deprecate pulsar iceberg reader (#20844)](https://github.com/risingwavelabs/risingwave/pull/20844)
+- `f3d38030c73407aa879fe83a1c0ca2154e0736f1` [chore(deps): Bump actions/checkout from 3 to 4 (#20820)](https://github.com/risingwavelabs/risingwave/pull/20820)
+- `ef754c718234a52c98e36d8ceb333d64b4b42283` [fix(meta): allow subset of databases enter running after global recovery (#20792)](https://github.com/risingwavelabs/risingwave/pull/20792)
 - `4838c3bc0ff28c8968b913f0e3cf65489dac6ea5` [chore(deps): Bump crate-ci/typos from 1.29.9 to 1.30.0 (#20696)](https://github.com/risingwavelabs/risingwave/pull/20696)
 - `6d2d6f5c739fda91c1ba78ab4c47bb4d2deb2071` [chore(ci): fix python dependency installation (#20845)](https://github.com/risingwavelabs/risingwave/pull/20845)
 - `3324887f1775d58b7c5cd4e5db92812c21238f1c` [chore(deps): Bump hashbrown from 0.15.0 to 0.15.1 (#20812)](https://github.com/risingwavelabs/risingwave/pull/20812)
