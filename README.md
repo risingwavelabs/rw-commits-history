@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250311` `11761bc94b205f6cddd9630a0e1165a8148a740a`
 - `20250310` `21a35ca9a58426ef64077e393fb9fdc4443ee71a`
 - `20250309` `87c7975a7f3d366eb950b220beb5fc551cefb28f`
 - `20250307` `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5`
@@ -172,6 +173,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f6faa2da7c27db00fd999ac7d85b91a0cefd073c` [chore(ci): revert changes specific to rustup v1.28 (#20843)](https://github.com/risingwavelabs/risingwave/pull/20843)
+
+## nightly-20250311
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/21a35ca9a58426ef64077e393fb9fdc4443ee71a...11761bc94b205f6cddd9630a0e1165a8148a740a)
 - `11761bc94b205f6cddd9630a0e1165a8148a740a` [chore(deps): Bump ginepro from 0.8.1 to 0.8.2 (avoid idna@0.4 and trust-dns-resolver@0.23) (#20811)](https://github.com/risingwavelabs/risingwave/pull/20811)
 - `abc7d9ddc2900242d93042d320ce94b2053150db` [fix(sqlparser): `Display` of `WITH VERSION COLUMN` (#20823)](https://github.com/risingwavelabs/risingwave/pull/20823)
 - `cba2052987e8a4854babac482a117c5c4bb933f6` [feat(snapshot-backfill): impose back-pressure to upstream by epoch lag size (#20800)](https://github.com/risingwavelabs/risingwave/pull/20800)
