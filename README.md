@@ -173,6 +173,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4838c3bc0ff28c8968b913f0e3cf65489dac6ea5` [chore(deps): Bump crate-ci/typos from 1.29.9 to 1.30.0 (#20696)](https://github.com/risingwavelabs/risingwave/pull/20696)
+- `6d2d6f5c739fda91c1ba78ab4c47bb4d2deb2071` [chore(ci): fix python dependency installation (#20845)](https://github.com/risingwavelabs/risingwave/pull/20845)
+- `3324887f1775d58b7c5cd4e5db92812c21238f1c` [chore(deps): Bump hashbrown from 0.15.0 to 0.15.1 (#20812)](https://github.com/risingwavelabs/risingwave/pull/20812)
+- `eb7ec4ad4f2b9f7fe1673af328be88424216e52a` [fix: cherry-pick bot format and leading space issue (#20842)](https://github.com/risingwavelabs/risingwave/pull/20842)
+- `9b71efb99cd9bf64a7abd6d59d1d82b9222e1aa5` [fix(risedev): fix task panic error msg (#20736)](https://github.com/risingwavelabs/risingwave/pull/20736)
 - `f6faa2da7c27db00fd999ac7d85b91a0cefd073c` [chore(ci): revert changes specific to rustup v1.28 (#20843)](https://github.com/risingwavelabs/risingwave/pull/20843)
 
 ## nightly-20250311
