@@ -172,6 +172,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5b4afb36b43247fc2d1b24e719b23ce8a2451949` [feat(frontend): memory throttling for frontend messages (#20649)](https://github.com/risingwavelabs/risingwave/pull/20649)
 - `7bdef17710a1c4a5fe6de2b9ae7cc94e2f13aea2` [chore(deps): Bump rustls-pki-types from 1.10.0 to 1.11.0 (#20334)](https://github.com/risingwavelabs/risingwave/pull/20334)
 - `94b80132f3cb9f70d53d69a592c7ee521b1d5bf3` [chore(deps): Bump similar from 2.6.0 to 2.7.0 (#20229)](https://github.com/risingwavelabs/risingwave/pull/20229)
 - `6a3cdb11d12d11e5e1b8a4bb6c59d43ebb9ce4fc` [chore(deps): Bump openssl from 0.10.66 to 0.10.70 (#20370)](https://github.com/risingwavelabs/risingwave/pull/20370)
