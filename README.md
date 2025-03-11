@@ -172,6 +172,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `11761bc94b205f6cddd9630a0e1165a8148a740a` [chore(deps): Bump ginepro from 0.8.1 to 0.8.2 (avoid idna@0.4 and trust-dns-resolver@0.23) (#20811)](https://github.com/risingwavelabs/risingwave/pull/20811)
 - `abc7d9ddc2900242d93042d320ce94b2053150db` [fix(sqlparser): `Display` of `WITH VERSION COLUMN` (#20823)](https://github.com/risingwavelabs/risingwave/pull/20823)
 - `cba2052987e8a4854babac482a117c5c4bb933f6` [feat(snapshot-backfill): impose back-pressure to upstream by epoch lag size (#20800)](https://github.com/risingwavelabs/risingwave/pull/20800)
 - `965416ec6d4636e89fea79dc6f9dc08da9ac2ea2` [chore:  add issue template for tracking flaky tests (#20825)](https://github.com/risingwavelabs/risingwave/pull/20825)
