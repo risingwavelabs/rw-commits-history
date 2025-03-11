@@ -172,6 +172,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `abc7d9ddc2900242d93042d320ce94b2053150db` [fix(sqlparser): `Display` of `WITH VERSION COLUMN` (#20823)](https://github.com/risingwavelabs/risingwave/pull/20823)
+- `cba2052987e8a4854babac482a117c5c4bb933f6` [feat(snapshot-backfill): impose back-pressure to upstream by epoch lag size (#20800)](https://github.com/risingwavelabs/risingwave/pull/20800)
 - `965416ec6d4636e89fea79dc6f9dc08da9ac2ea2` [chore:  add issue template for tracking flaky tests (#20825)](https://github.com/risingwavelabs/risingwave/pull/20825)
 - `9cc5d229b636d6557983a62b8c0d5dca44fa8e4f` [feat(frontend,meta): support alter fragment rate limit (#20795)](https://github.com/risingwavelabs/risingwave/pull/20795)
 - `5b4afb36b43247fc2d1b24e719b23ce8a2451949` [feat(frontend): memory throttling for frontend messages (#20649)](https://github.com/risingwavelabs/risingwave/pull/20649)
