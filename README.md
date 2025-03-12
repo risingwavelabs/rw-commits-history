@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250312` `9dd6477b0e039e491b3705689fa3785e7700754a`
 - `20250311` `11761bc94b205f6cddd9630a0e1165a8148a740a`
 - `20250310` `21a35ca9a58426ef64077e393fb9fdc4443ee71a`
 - `20250309` `87c7975a7f3d366eb950b220beb5fc551cefb28f`
@@ -172,6 +173,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250312
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/11761bc94b205f6cddd9630a0e1165a8148a740a...9dd6477b0e039e491b3705689fa3785e7700754a)
 - `9dd6477b0e039e491b3705689fa3785e7700754a` [fix(meta): avoid handling stale exchange request with term_id (#20879)](https://github.com/risingwavelabs/risingwave/pull/20879)
 - `3ed4264e650fe7e92180c1fb684b105bead27c02` [refactor(compaction): optimize stale compaction task validation (#20863)](https://github.com/risingwavelabs/risingwave/pull/20863)
 - `6812577f33724ae15ab826a484d507c7cf341925` [feat: Add configurable sync call timeout for sources (#20828)](https://github.com/risingwavelabs/risingwave/pull/20828)
