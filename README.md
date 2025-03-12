@@ -172,6 +172,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bdabc0fafc85c7daad73f58cb584eb11cca2d373` [refactor(frontend):  also check column data type when generating column index mapping for replacing table (#20706)](https://github.com/risingwavelabs/risingwave/pull/20706)
+- `93e5ee07ba7506c64b63f2bc21aa6224be13442b` [refactor(compaction): optimize level_insert_ssts (#20824)](https://github.com/risingwavelabs/risingwave/pull/20824)
 - `02a1aac9de6e4427d14f67ffb6089fabe6b98f86` [chore(deps): Bump tokio to v1.44.0 (#20807)](https://github.com/risingwavelabs/risingwave/pull/20807)
 - `dfa699c96e70d262449dad919e50a05a1854719f` [fix(sqlparser): enforce `Display` of `create table | source` to be valid SQL (#20860)](https://github.com/risingwavelabs/risingwave/pull/20860)
 - `54711c25edd0a3da770403c243eab9b2ea47beec` [refactor(connector):  correctly log java exceptions (#20840)](https://github.com/risingwavelabs/risingwave/pull/20840)
