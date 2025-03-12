@@ -173,6 +173,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c1bf3e50eb3d378de78ecbcb2f66e48b1622817f` [feat(meta): add more per database meta metrics (#20827)](https://github.com/risingwavelabs/risingwave/pull/20827)
 - `85698c247a9ff775e2888689d9e2164b8fd4b5a3` [chore(deps): Bump async-nats from 0.38.0 to 0.39.0 (#20817)](https://github.com/risingwavelabs/risingwave/pull/20817)
 - `96b92fdfb77e229d6c1ecd181dab90b071629670` [feat(frontend,meta,stream): explain analyze stream job (#20715)](https://github.com/risingwavelabs/risingwave/pull/20715)
 - `c14d4bf0d44ac46ba2c3d55c52ad5c543a79303d` [feat(iceberg): support enable_config_load for glue catalog (#20813)](https://github.com/risingwavelabs/risingwave/pull/20813)
