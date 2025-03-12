@@ -173,6 +173,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dfa699c96e70d262449dad919e50a05a1854719f` [fix(sqlparser): enforce `Display` of `create table | source` to be valid SQL (#20860)](https://github.com/risingwavelabs/risingwave/pull/20860)
 - `54711c25edd0a3da770403c243eab9b2ea47beec` [refactor(connector):  correctly log java exceptions (#20840)](https://github.com/risingwavelabs/risingwave/pull/20840)
 - `90792bca2237a7c2f46aa0a8089d026472a8b6b1` [chore(deps):  Bump uuid from 1.12.0 to 1.15.1 (#20853)](https://github.com/risingwavelabs/risingwave/pull/20853)
 - `11edfd3b89389dee5793e3f743ad53161acb6005` [feat(meta): isolate database worker node failure (#20734)](https://github.com/risingwavelabs/risingwave/pull/20734)
