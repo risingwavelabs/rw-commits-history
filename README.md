@@ -173,6 +173,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `11edfd3b89389dee5793e3f743ad53161acb6005` [feat(meta): isolate database worker node failure (#20734)](https://github.com/risingwavelabs/risingwave/pull/20734)
+- `9994c878494ef0b7bcb3ad704dede78c47fdd484` [ci: include span in ci log (#20852)](https://github.com/risingwavelabs/risingwave/pull/20852)
 - `c1bf3e50eb3d378de78ecbcb2f66e48b1622817f` [feat(meta): add more per database meta metrics (#20827)](https://github.com/risingwavelabs/risingwave/pull/20827)
 - `85698c247a9ff775e2888689d9e2164b8fd4b5a3` [chore(deps): Bump async-nats from 0.38.0 to 0.39.0 (#20817)](https://github.com/risingwavelabs/risingwave/pull/20817)
 - `96b92fdfb77e229d6c1ecd181dab90b071629670` [feat(frontend,meta,stream): explain analyze stream job (#20715)](https://github.com/risingwavelabs/risingwave/pull/20715)
