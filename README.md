@@ -164,7 +164,6 @@
 - `20240901` `e41b348f2d7d800b45e4102192200fb1698037ca`
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
-- `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 </details>
 
 # Commit history
@@ -173,6 +172,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `02a1aac9de6e4427d14f67ffb6089fabe6b98f86` [chore(deps): Bump tokio to v1.44.0 (#20807)](https://github.com/risingwavelabs/risingwave/pull/20807)
 - `dfa699c96e70d262449dad919e50a05a1854719f` [fix(sqlparser): enforce `Display` of `create table | source` to be valid SQL (#20860)](https://github.com/risingwavelabs/risingwave/pull/20860)
 - `54711c25edd0a3da770403c243eab9b2ea47beec` [refactor(connector):  correctly log java exceptions (#20840)](https://github.com/risingwavelabs/risingwave/pull/20840)
 - `90792bca2237a7c2f46aa0a8089d026472a8b6b1` [chore(deps):  Bump uuid from 1.12.0 to 1.15.1 (#20853)](https://github.com/risingwavelabs/risingwave/pull/20853)
@@ -1875,21 +1875,4 @@
 - `2529c56382ea94ae2ea6a2da21036546f389b29a` [feat(sink): add es retry_on_conflict and max_task_num (#17867)](https://github.com/risingwavelabs/risingwave/pull/17867)
 
 ## nightly-20240828
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/63b4d47ea9f54f567983e097e15d8dc9b0384849...befb04f1e433ecbb564a059f34b4299ba4952bed)
 - `befb04f1e433ecbb564a059f34b4299ba4952bed` [fix: disable sink decouple for trivial sink (#18302)](https://github.com/risingwavelabs/risingwave/pull/18302)
-- `14a46ff1440604d9c6013605b81b4bd305e4b2ba` [fix(connector): upsert+protobuf source (#18301)](https://github.com/risingwavelabs/risingwave/pull/18301)
-- `40074f69cd9472888a01d1735d9d963227504963` [feat(connector): support azblob file source (#18295)](https://github.com/risingwavelabs/risingwave/pull/18295)
-- `0239e22a4187fa424451f09ea9e293f62243ae5b` [fix(cdc): only allow `ADD` and `DROP` in auto schema change (#18245)](https://github.com/risingwavelabs/risingwave/pull/18245)
-- `54134df47b30554313bb91177ed2ad8e4621d441` [fix(frontend): add project after simple agg to avoid noop updates (#18292)](https://github.com/risingwavelabs/risingwave/pull/18292)
-- `0e5a46f48f5f99ee32c649493ad9d2d7d023677d` [feat(connector): add webhdfs sink (#18293)](https://github.com/risingwavelabs/risingwave/pull/18293)
-- `86f403a5af372fb3c3259ea0be7ed1914799eb41` [refactor: simplify SourceBackfill's memory state (#18296)](https://github.com/risingwavelabs/risingwave/pull/18296)
-- `53c2b0a99473f7306d0b352572f7058e82e41006` [perf(dashboard): only fetch ids and specified fragments for a relation (#18272)](https://github.com/risingwavelabs/risingwave/pull/18272)
-- `ee77691f03772ede158a9d5a3e87861b6abf7205` [feat(storage): remove shared buffer compaction grouped payload (#18277)](https://github.com/risingwavelabs/risingwave/pull/18277)
-- `9f52981fb7af366074601c9ba12feef5bc76bca5` [refactor(storage): reorg writer code (#18291)](https://github.com/risingwavelabs/risingwave/pull/18291)
-- `04b9cb4e61e1a5119ef636a6335d02a178372dcb` [fix(iceberg): fix path style access (#18259)](https://github.com/risingwavelabs/risingwave/pull/18259)
-- `7998622f78e0ed97fddbf1ebf2634e06a45a52d1` [fix(source/nats): add missing `default` attribute for vectors (#18261)](https://github.com/risingwavelabs/risingwave/pull/18261)
-- `205acb42896abfcbae15094aa4b3ed244e4567f8` [chore: remove sqlite file (#18282)](https://github.com/risingwavelabs/risingwave/pull/18282)
-- `7a97076cedfc1018facc892ed1c350327fe6b8db` [fix(meta): fix list changed log epoch retrun null epoch (#18273)](https://github.com/risingwavelabs/risingwave/pull/18273)
-
-## nightly-20240827
-- `63b4d47ea9f54f567983e097e15d8dc9b0384849` [fix: should use table_metric for MV throughput (#18265)](https://github.com/risingwavelabs/risingwave/pull/18265)
