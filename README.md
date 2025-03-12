@@ -172,6 +172,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9dd6477b0e039e491b3705689fa3785e7700754a` [fix(meta): avoid handling stale exchange request with term_id (#20879)](https://github.com/risingwavelabs/risingwave/pull/20879)
+- `3ed4264e650fe7e92180c1fb684b105bead27c02` [refactor(compaction): optimize stale compaction task validation (#20863)](https://github.com/risingwavelabs/risingwave/pull/20863)
+- `6812577f33724ae15ab826a484d507c7cf341925` [feat: Add configurable sync call timeout for sources (#20828)](https://github.com/risingwavelabs/risingwave/pull/20828)
+- `129a616d86608ed2ace260546bc9301222431277` [feat(meta): add system param to disable per-database isolation (#20872)](https://github.com/risingwavelabs/risingwave/pull/20872)
 - `bdabc0fafc85c7daad73f58cb584eb11cca2d373` [refactor(frontend):  also check column data type when generating column index mapping for replacing table (#20706)](https://github.com/risingwavelabs/risingwave/pull/20706)
 - `93e5ee07ba7506c64b63f2bc21aa6224be13442b` [refactor(compaction): optimize level_insert_ssts (#20824)](https://github.com/risingwavelabs/risingwave/pull/20824)
 - `02a1aac9de6e4427d14f67ffb6089fabe6b98f86` [chore(deps): Bump tokio to v1.44.0 (#20807)](https://github.com/risingwavelabs/risingwave/pull/20807)
