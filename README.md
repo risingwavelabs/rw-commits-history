@@ -173,6 +173,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `38388506c70068f9ae49c739b1bbc6b04e4cf7ec` [feat(sink): change sink type to append only when plan is append-only (#20558)](https://github.com/risingwavelabs/risingwave/pull/20558)
 - `893e2aeeec6b4e90d50e177324cef7a933ab7ea9` [refactor(types):  add convenient macros for simple & composite data types (#20880)](https://github.com/risingwavelabs/risingwave/pull/20880)
 - `4ccc2876c7dc442077f6805498c2d650db772166` [fix(meta): fix notification when dropping tables (#20010)](https://github.com/risingwavelabs/risingwave/pull/20010)
 - `e4571ccf82ef6fbf9bebe961369d8fccefe65177` [feat(ctl): enable overwriting of system parameters during metadata restoration. (#20773)](https://github.com/risingwavelabs/risingwave/pull/20773)
