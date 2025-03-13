@@ -173,6 +173,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9b80a45a31445ccd8bf19cfcb2f69a1900fc455b` [test: add retry to a flaky source test (#20850)](https://github.com/risingwavelabs/risingwave/pull/20850)
 - `4a5eb2c8a2bce1a2a8d7906a06089aaaf937d705` [feat(stream): support not null in stream (#20822)](https://github.com/risingwavelabs/risingwave/pull/20822)
 
 ## nightly-20250312
