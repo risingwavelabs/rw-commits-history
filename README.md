@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250313` `6201013e0e2ef3cdf61197ea11dfb658ff629e0d`
 - `20250312` `9dd6477b0e039e491b3705689fa3785e7700754a`
 - `20250311` `11761bc94b205f6cddd9630a0e1165a8148a740a`
 - `20250310` `21a35ca9a58426ef64077e393fb9fdc4443ee71a`
@@ -173,6 +174,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250313
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9dd6477b0e039e491b3705689fa3785e7700754a...6201013e0e2ef3cdf61197ea11dfb658ff629e0d)
 - `6201013e0e2ef3cdf61197ea11dfb658ff629e0d` [feat: add `UdfConfig` to enable/disable embedded UDF for different language (#20893)](https://github.com/risingwavelabs/risingwave/pull/20893)
 - `8e10d41941324ccc20e2c1e1d17f6a69e868a8e4` [chore: update docker version to v2.2.3 (#20894)](https://github.com/risingwavelabs/risingwave/pull/20894)
 - `38388506c70068f9ae49c739b1bbc6b04e4cf7ec` [feat(sink): change sink type to append only when plan is append-only (#20558)](https://github.com/risingwavelabs/risingwave/pull/20558)
