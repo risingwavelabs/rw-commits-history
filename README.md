@@ -173,6 +173,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6201013e0e2ef3cdf61197ea11dfb658ff629e0d` [feat: add `UdfConfig` to enable/disable embedded UDF for different language (#20893)](https://github.com/risingwavelabs/risingwave/pull/20893)
 - `8e10d41941324ccc20e2c1e1d17f6a69e868a8e4` [chore: update docker version to v2.2.3 (#20894)](https://github.com/risingwavelabs/risingwave/pull/20894)
 - `38388506c70068f9ae49c739b1bbc6b04e4cf7ec` [feat(sink): change sink type to append only when plan is append-only (#20558)](https://github.com/risingwavelabs/risingwave/pull/20558)
 - `893e2aeeec6b4e90d50e177324cef7a933ab7ea9` [refactor(types):  add convenient macros for simple & composite data types (#20880)](https://github.com/risingwavelabs/risingwave/pull/20880)
