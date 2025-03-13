@@ -173,6 +173,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `893e2aeeec6b4e90d50e177324cef7a933ab7ea9` [refactor(types):  add convenient macros for simple & composite data types (#20880)](https://github.com/risingwavelabs/risingwave/pull/20880)
+- `4ccc2876c7dc442077f6805498c2d650db772166` [fix(meta): fix notification when dropping tables (#20010)](https://github.com/risingwavelabs/risingwave/pull/20010)
+- `e4571ccf82ef6fbf9bebe961369d8fccefe65177` [feat(ctl): enable overwriting of system parameters during metadata restoration. (#20773)](https://github.com/risingwavelabs/risingwave/pull/20773)
+- `cc360041722fe74bfeaae0311803e852d3da4539` [chore(deps): bump peekable from 0.2.4 to 0.3.0 (#20887)](https://github.com/risingwavelabs/risingwave/pull/20887)
 - `ef678606eeb4cef09bb12c727dbfb6f5ae1b0548` [chore: update rust-toolchain version to `nightly-2025-03-05` (#20717)](https://github.com/risingwavelabs/risingwave/pull/20717)
 - `7bf88547eb63e39b1af02772d01383d787f14277` [chore(deps): bump duration-str from 0.12.0 to 0.15.1 (#20888)](https://github.com/risingwavelabs/risingwave/pull/20888)
 - `9b80a45a31445ccd8bf19cfcb2f69a1900fc455b` [test: add retry to a flaky source test (#20850)](https://github.com/risingwavelabs/risingwave/pull/20850)
