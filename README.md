@@ -174,6 +174,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fc37a2d6de2ce4318cfff9f661c56c4c4bddfb45` [fix(action): fetch all branches not only main (#20912)](https://github.com/risingwavelabs/risingwave/pull/20912)
 - `569a7692fa79cdc1cc598786ffbcde32d0dd076a` [chore: remove risingwave_connector::source::DataType (#20895)](https://github.com/risingwavelabs/risingwave/pull/20895)
 - `4ca59cf6b9a2a940850d660b85c50254acba8e46` [refactor(iceberg): bump iceberg-rs (#20882)](https://github.com/risingwavelabs/risingwave/pull/20882)
 
