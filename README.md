@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250315` `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d`
+- `20250316` `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d`
 - `20250313` `6201013e0e2ef3cdf61197ea11dfb658ff629e0d`
 - `20250312` `9dd6477b0e039e491b3705689fa3785e7700754a`
 - `20250311` `11761bc94b205f6cddd9630a0e1165a8148a740a`
@@ -176,7 +176,7 @@
 
 ## Unreleased
 
-## nightly-20250315
+## nightly-20250316
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6201013e0e2ef3cdf61197ea11dfb658ff629e0d...eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d)
 - `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d` [feat(types): implement `Row` for `StructRef` (#20917)](https://github.com/risingwavelabs/risingwave/pull/20917)
 - `b81a899ddc9fee0de823c890880c61227074badc` [fix(action): don't override the update branch when it exists remotely (#20914)](https://github.com/risingwavelabs/risingwave/pull/20914)
