@@ -175,6 +175,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0bedf6503e7ceb50d40637083fc34bb735f0a0aa` [feat: support privilege management for connection, function and secret (#20755)](https://github.com/risingwavelabs/risingwave/pull/20755)
+- `360c0654e66c3b5b1e083692ed34437a8a2b8ae0` [fix(meta): isolate database logical error in global recovery (#20896)](https://github.com/risingwavelabs/risingwave/pull/20896)
 - `e3cf7f7b23f256fd80275b10700275948d443ab4` [feat: introduce `rw_resource_groups` view  (#20920)](https://github.com/risingwavelabs/risingwave/pull/20920)
 - `643b86138ed86393702d3a67519ef5182d26e531` [refactor(state table): add an API for 1 row table (#20911)](https://github.com/risingwavelabs/risingwave/pull/20911)
 - `0465e73b3f68dd4913261ea1c65399d31442e8de` [chore: remove false positive blocking consume_log from await-tree output (#20891)](https://github.com/risingwavelabs/risingwave/pull/20891)
