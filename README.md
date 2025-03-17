@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250317` `9207d4f128c3a97a34b25b5165b9856e9ae2a8d2`
 - `20250316` `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d`
 - `20250313` `6201013e0e2ef3cdf61197ea11dfb658ff629e0d`
 - `20250312` `9dd6477b0e039e491b3705689fa3785e7700754a`
@@ -174,6 +175,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `62a8d6b4b80e0b62df65fa5764a701c1f215f913` [feat(frontend): generate column id to struct fields (#20563)](https://github.com/risingwavelabs/risingwave/pull/20563)
+
+## nightly-20250317
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d...9207d4f128c3a97a34b25b5165b9856e9ae2a8d2)
 - `9207d4f128c3a97a34b25b5165b9856e9ae2a8d2` [fix: ignore referring relations privilege check for view (#20941)](https://github.com/risingwavelabs/risingwave/pull/20941)
 - `b0216ed41650326a4c09a234f81ae1a1c50383c4` [feat(storage): separate shared buffer compact SSTs of state table with and without old values (#20939)](https://github.com/risingwavelabs/risingwave/pull/20939)
 - `e03b3f56a6e19d13fbe5b1c77359af2362192acc` [feat: add auxiliary methods for struct type with field ids (#20910)](https://github.com/risingwavelabs/risingwave/pull/20910)
