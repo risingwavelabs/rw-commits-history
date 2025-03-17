@@ -175,6 +175,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0465e73b3f68dd4913261ea1c65399d31442e8de` [chore: remove false positive blocking consume_log from await-tree output (#20891)](https://github.com/risingwavelabs/risingwave/pull/20891)
 
 ## nightly-20250316
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6201013e0e2ef3cdf61197ea11dfb658ff629e0d...eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d)
