@@ -175,6 +175,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b0216ed41650326a4c09a234f81ae1a1c50383c4` [feat(storage): separate shared buffer compact SSTs of state table with and without old values (#20939)](https://github.com/risingwavelabs/risingwave/pull/20939)
+- `e03b3f56a6e19d13fbe5b1c77359af2362192acc` [feat: add auxiliary methods for struct type with field ids (#20910)](https://github.com/risingwavelabs/risingwave/pull/20910)
 - `0bedf6503e7ceb50d40637083fc34bb735f0a0aa` [feat: support privilege management for connection, function and secret (#20755)](https://github.com/risingwavelabs/risingwave/pull/20755)
 - `360c0654e66c3b5b1e083692ed34437a8a2b8ae0` [fix(meta): isolate database logical error in global recovery (#20896)](https://github.com/risingwavelabs/risingwave/pull/20896)
 - `e3cf7f7b23f256fd80275b10700275948d443ab4` [feat: introduce `rw_resource_groups` view  (#20920)](https://github.com/risingwavelabs/risingwave/pull/20920)
