@@ -175,6 +175,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `643b86138ed86393702d3a67519ef5182d26e531` [refactor(state table): add an API for 1 row table (#20911)](https://github.com/risingwavelabs/risingwave/pull/20911)
 - `0465e73b3f68dd4913261ea1c65399d31442e8de` [chore: remove false positive blocking consume_log from await-tree output (#20891)](https://github.com/risingwavelabs/risingwave/pull/20891)
 
 ## nightly-20250316
