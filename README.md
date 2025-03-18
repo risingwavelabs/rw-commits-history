@@ -196,6 +196,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `df2a92f2e407cc9e93cb1d01afb7132cdaae5e23` [feat(metric): add metric for table change log (#20950)](https://github.com/risingwavelabs/risingwave/pull/20950)
+- `a72f6932e9d102eb693dfe7d32cfaefd0cd030ef` [test: add e2e tests for `ALTER COLUMN TYPE` (#20940)](https://github.com/risingwavelabs/risingwave/pull/20940)
+- `3ce8ec6624d084ce85d7c49aa42011af32d13917` [fix(frontend): `encode protobuf` shall pass options without `legacy_source::ProtobufSchema` (#20949)](https://github.com/risingwavelabs/risingwave/pull/20949)
 - `060f11b15340421ebc0684e9e54ac2c84e3975a4` [fix(snapshot-backfill): fix panic in cross db snapshot backfill recovery (#20937)](https://github.com/risingwavelabs/risingwave/pull/20937)
 - `524185f8a25f86083f3cb8b0ac3543c5f7d6e573` [feat(CLOUD-3655): Frontend communication with serverless backfill controller (#20672)](https://github.com/risingwavelabs/risingwave/pull/20672)
 - `4c8bc7b09e3701e96f176653111fca78650c239f` [feat: recursively use col-aware encoding for structs (#20604)](https://github.com/risingwavelabs/risingwave/pull/20604)
