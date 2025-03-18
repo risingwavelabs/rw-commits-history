@@ -196,6 +196,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8ae38cf0096dc71eb3d5c4f72c3904510b8494dd` [fix(subscription):fix loss of subscription data due to reboot (#20959)](https://github.com/risingwavelabs/risingwave/pull/20959)
+- `6a6b34015c2e7986294f95590e620b40de3b9f9f` [feat: add worker isolation in simulation tests (#20756)](https://github.com/risingwavelabs/risingwave/pull/20756)
 - `df2a92f2e407cc9e93cb1d01afb7132cdaae5e23` [feat(metric): add metric for table change log (#20950)](https://github.com/risingwavelabs/risingwave/pull/20950)
 - `a72f6932e9d102eb693dfe7d32cfaefd0cd030ef` [test: add e2e tests for `ALTER COLUMN TYPE` (#20940)](https://github.com/risingwavelabs/risingwave/pull/20940)
 - `3ce8ec6624d084ce85d7c49aa42011af32d13917` [fix(frontend): `encode protobuf` shall pass options without `legacy_source::ProtobufSchema` (#20949)](https://github.com/risingwavelabs/risingwave/pull/20949)
