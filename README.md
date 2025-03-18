@@ -175,6 +175,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `082a9cff8916d744df7f499490ecdaa17d67dab3` [fix(sink): correctly get primary keys from starrocks aggregate table (#20925)](https://github.com/risingwavelabs/risingwave/pull/20925)
+- `46540da2f3dc906aa89102499393767337a56836` [feat: add recovery events (#20918)](https://github.com/risingwavelabs/risingwave/pull/20918)
 - `62a8d6b4b80e0b62df65fa5764a701c1f215f913` [feat(frontend): generate column id to struct fields (#20563)](https://github.com/risingwavelabs/risingwave/pull/20563)
 
 ## nightly-20250317
