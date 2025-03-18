@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250318` `8ae38cf0096dc71eb3d5c4f72c3904510b8494dd`
 - `20250317` `9207d4f128c3a97a34b25b5165b9856e9ae2a8d2`
 - `20250316` `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d`
 - `20250313` `6201013e0e2ef3cdf61197ea11dfb658ff629e0d`
@@ -196,6 +197,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250318
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9207d4f128c3a97a34b25b5165b9856e9ae2a8d2...8ae38cf0096dc71eb3d5c4f72c3904510b8494dd)
 - `8ae38cf0096dc71eb3d5c4f72c3904510b8494dd` [fix(subscription):fix loss of subscription data due to reboot (#20959)](https://github.com/risingwavelabs/risingwave/pull/20959)
 - `6a6b34015c2e7986294f95590e620b40de3b9f9f` [feat: add worker isolation in simulation tests (#20756)](https://github.com/risingwavelabs/risingwave/pull/20756)
 - `df2a92f2e407cc9e93cb1d01afb7132cdaae5e23` [feat(metric): add metric for table change log (#20950)](https://github.com/risingwavelabs/risingwave/pull/20950)
