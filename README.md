@@ -187,7 +187,6 @@
 - `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 - `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 - `20240808` `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49`
-- `20240807` `e68a7bbe877e3de31c7abeeb28d081ad84b61f62`
 </details>
 
 # Commit history
@@ -196,6 +195,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `693407a5beb0a7d31c22fb50dd744cc580a700c6` [chore(deps): bump tinyvec from 1.8.0 to 1.9.0 (#20906)](https://github.com/risingwavelabs/risingwave/pull/20906)
 - `a66004e918fb8318c9fd520c5dc7c437ee87e146` [fix(action): cherry-pick-since GITHUB_OUTPUT as single line (#20975)](https://github.com/risingwavelabs/risingwave/pull/20975)
 - `9dfd3a69f9a913b8d9d5b4cc1feb40a7ea4cc8f9` [chore(deps): bump http from 1.2.0 to 1.3.1 (#20886)](https://github.com/risingwavelabs/risingwave/pull/20886)
 - `a702294c13666a7388cb621a2ece809c18fd97f7` [chore(deps): Bump rust-embed from 8.5.0 to 8.6.0 (#20854)](https://github.com/risingwavelabs/risingwave/pull/20854)
@@ -2166,17 +2166,4 @@
 - `38927e8beaa0604172f64d40732ef8b3c2a1f814` [fix(iceberg): Load the latest table to avoid concurrent modification with the best effort (#17975)](https://github.com/risingwavelabs/risingwave/pull/17975)
 
 ## nightly-20240808
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e68a7bbe877e3de31c7abeeb28d081ad84b61f62...f5f5701ab5f7cfe084190eac4fabfe1d381d0e49)
 - `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49` [feat(stream): support row merge (a.k.a keyed merge) (#17930)](https://github.com/risingwavelabs/risingwave/pull/17930)
-- `fbaed06d4935564e9f34e4ffe472f55f0a26ec2d` [feat(stream): output chunks on every barrier for simple agg (#17945)](https://github.com/risingwavelabs/risingwave/pull/17945)
-- `0aed6823504129ff3ef91f4c68b5eaffc64ebc82` [fix(error): add sink_id in sinkerror (#17969)](https://github.com/risingwavelabs/risingwave/pull/17969)
-- `de32dab1e56e23e27d3b8d82a251065ac2260dcd` [fix(source): persist `rate_limit` to source catalog (#16472)](https://github.com/risingwavelabs/risingwave/pull/16472)
-- `a4d890ed6d446d289fbed00a3f49b8fc57f6b05b` [fix: early terminate when reach the end of inactive shard (#17957)](https://github.com/risingwavelabs/risingwave/pull/17957)
-- `006a8dbafcadfc693f8e52e6654573d823e27c55` [refactor(topn): audit and refactor `TopNCache` and fix a potential bug (#17947)](https://github.com/risingwavelabs/risingwave/pull/17947)
-- `c315942d9a841d869b59ed3b07be6369a54c5b69` [feat(stream): add two-phase stateless simple approx percentile (#17873)](https://github.com/risingwavelabs/risingwave/pull/17873)
-- `e2d18c1c03d30b34bf354c116acebeafb32a5569` [fix: fix incorrect notification info when sink into table fails (#17961)](https://github.com/risingwavelabs/risingwave/pull/17961)
-- `fb62114768e5f3306cf6bfc3d0157c39553f5fa3` [feat: support `CORRESPONDING` specification in set operations (#17891)](https://github.com/risingwavelabs/risingwave/pull/17891)
-- `ac99459311667373f28f84bf629bf507cf5cbe05` [fix(sink): Fix sink into table in the recovery of the new version of table graph. (#17960)](https://github.com/risingwavelabs/risingwave/pull/17960)
-
-## nightly-20240807
-- `e68a7bbe877e3de31c7abeeb28d081ad84b61f62` [fix: clear in progress creation tracker when recovery to avoid recovering failed foreground ddl in some corner cases (#17955)](https://github.com/risingwavelabs/risingwave/pull/17955)
