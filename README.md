@@ -195,6 +195,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c4048aa9aa74e6a247ab68748585afe3a22ac747` [chore(deps): bump arrow-udf version (& bumps to arrow 54) to avoid unexpected arrow version change (#20983)](https://github.com/risingwavelabs/risingwave/pull/20983)
 - `fe5e4901c0fda845ca54cb4a5aafedc2389c8a19` [feat(sink): support es sink partial update  (#20048)](https://github.com/risingwavelabs/risingwave/pull/20048)
 - `e29e1ed7cb302a40232b792b497b167e1e0f9785` [refactor(stream): move agg executors to `stream/executor/aggregate` (#20968)](https://github.com/risingwavelabs/risingwave/pull/20968)
 - `693407a5beb0a7d31c22fb50dd744cc580a700c6` [chore(deps): bump tinyvec from 1.8.0 to 1.9.0 (#20906)](https://github.com/risingwavelabs/risingwave/pull/20906)
