@@ -195,6 +195,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `42e1fd81bcb6525a53ed9a98509169b0c9cdf6cc` [refactor(config): make rpc client option configurable (#20993)](https://github.com/risingwavelabs/risingwave/pull/20993)
+- `a2a5b0767b863f0815609b66d71ad90ea7f7c90d` [fix(meta): fix late collect resp on failed database in recovery (#20988)](https://github.com/risingwavelabs/risingwave/pull/20988)
+- `50cf12d21f6d6fd14154689a0d7525471dad8a83` [refactor(stream): move sort buffer and sort executor to `stream/executor/eowc` (#20969)](https://github.com/risingwavelabs/risingwave/pull/20969)
 - `c4048aa9aa74e6a247ab68748585afe3a22ac747` [chore(deps): bump arrow-udf version (& bumps to arrow 54) to avoid unexpected arrow version change (#20983)](https://github.com/risingwavelabs/risingwave/pull/20983)
 - `fe5e4901c0fda845ca54cb4a5aafedc2389c8a19` [feat(sink): support es sink partial update  (#20048)](https://github.com/risingwavelabs/risingwave/pull/20048)
 - `e29e1ed7cb302a40232b792b497b167e1e0f9785` [refactor(stream): move agg executors to `stream/executor/aggregate` (#20968)](https://github.com/risingwavelabs/risingwave/pull/20968)
