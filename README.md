@@ -197,6 +197,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9dfd3a69f9a913b8d9d5b4cc1feb40a7ea4cc8f9` [chore(deps): bump http from 1.2.0 to 1.3.1 (#20886)](https://github.com/risingwavelabs/risingwave/pull/20886)
 - `a702294c13666a7388cb621a2ece809c18fd97f7` [chore(deps): Bump rust-embed from 8.5.0 to 8.6.0 (#20854)](https://github.com/risingwavelabs/risingwave/pull/20854)
 
 ## nightly-20250318
