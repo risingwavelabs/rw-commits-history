@@ -188,7 +188,6 @@
 - `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 - `20240808` `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49`
 - `20240807` `e68a7bbe877e3de31c7abeeb28d081ad84b61f62`
-- `20240806` `5933b93093f0a73d8d783ab220a3ef49e4f97217`
 </details>
 
 # Commit history
@@ -197,6 +196,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a66004e918fb8318c9fd520c5dc7c437ee87e146` [fix(action): cherry-pick-since GITHUB_OUTPUT as single line (#20975)](https://github.com/risingwavelabs/risingwave/pull/20975)
 - `9dfd3a69f9a913b8d9d5b4cc1feb40a7ea4cc8f9` [chore(deps): bump http from 1.2.0 to 1.3.1 (#20886)](https://github.com/risingwavelabs/risingwave/pull/20886)
 - `a702294c13666a7388cb621a2ece809c18fd97f7` [chore(deps): Bump rust-embed from 8.5.0 to 8.6.0 (#20854)](https://github.com/risingwavelabs/risingwave/pull/20854)
 
@@ -2179,14 +2179,4 @@
 - `ac99459311667373f28f84bf629bf507cf5cbe05` [fix(sink): Fix sink into table in the recovery of the new version of table graph. (#17960)](https://github.com/risingwavelabs/risingwave/pull/17960)
 
 ## nightly-20240807
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5933b93093f0a73d8d783ab220a3ef49e4f97217...e68a7bbe877e3de31c7abeeb28d081ad84b61f62)
 - `e68a7bbe877e3de31c7abeeb28d081ad84b61f62` [fix: clear in progress creation tracker when recovery to avoid recovering failed foreground ddl in some corner cases (#17955)](https://github.com/risingwavelabs/risingwave/pull/17955)
-- `accfb49593c34bfad4a84ef22598432eb0b2eaf4` [feat(cdc): support sql server cdc (#17429)](https://github.com/risingwavelabs/risingwave/pull/17429)
-- `50294deb1a96f1f33d164bdc3ef74bcc5fa7fd87` [fix(pg-cdc): add validation for slot name of pg cdc source (#17949)](https://github.com/risingwavelabs/risingwave/pull/17949)
-- `e7c370603428eba85a56a95641ccb2fce5965f41` [refactor(common): use macro to impl tosql and fromsql for date, time, da… (#17950)](https://github.com/risingwavelabs/risingwave/pull/17950)
-- `ea4e8f0ddd1850ae8509afcdcc33c72cf25eb398` [feat(iceberg): reduce iceberg catalog fetch rpc number for iceberg scan (#17939)](https://github.com/risingwavelabs/risingwave/pull/17939)
-- `05efd48b3c77adc4dcd37ee242abec53964dec69` [feat(iceberg): reuse http client for iceberg (#17940)](https://github.com/risingwavelabs/risingwave/pull/17940)
-- `b671bc7d65c38abc3595479f08490b018a086984` [chore: add col name when type mismatch in sink (#17948)](https://github.com/risingwavelabs/risingwave/pull/17948)
-
-## nightly-20240806
-- `5933b93093f0a73d8d783ab220a3ef49e4f97217` [fix(migration): include missing `sea-orm` dependency (#17941)](https://github.com/risingwavelabs/risingwave/pull/17941)
