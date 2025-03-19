@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250319` `42e1fd81bcb6525a53ed9a98509169b0c9cdf6cc`
 - `20250318` `8ae38cf0096dc71eb3d5c4f72c3904510b8494dd`
 - `20250317` `9207d4f128c3a97a34b25b5165b9856e9ae2a8d2`
 - `20250316` `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d`
@@ -195,6 +196,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `93dfc0ad510e5eeac8ffbe16797e599ca926ebb8` [fix(source): modify the logic of gzip compressed file source (#20236)](https://github.com/risingwavelabs/risingwave/pull/20236)
+
+## nightly-20250319
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ae38cf0096dc71eb3d5c4f72c3904510b8494dd...42e1fd81bcb6525a53ed9a98509169b0c9cdf6cc)
 - `42e1fd81bcb6525a53ed9a98509169b0c9cdf6cc` [refactor(config): make rpc client option configurable (#20993)](https://github.com/risingwavelabs/risingwave/pull/20993)
 - `a2a5b0767b863f0815609b66d71ad90ea7f7c90d` [fix(meta): fix late collect resp on failed database in recovery (#20988)](https://github.com/risingwavelabs/risingwave/pull/20988)
 - `50cf12d21f6d6fd14154689a0d7525471dad8a83` [refactor(stream): move sort buffer and sort executor to `stream/executor/eowc` (#20969)](https://github.com/risingwavelabs/risingwave/pull/20969)
