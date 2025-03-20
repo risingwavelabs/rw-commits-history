@@ -194,6 +194,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `529def8e761611ea3c5197a6ef37fb714bd8d0dd` [chore(deps): Bump strum from 0.26.3 to 0.27.1 (#21032)](https://github.com/risingwavelabs/risingwave/pull/21032)
+- `5a6ca9b15e88656cc93db45c58d89905786838fc` [chore(deps): bump duration-str from 0.15.1 to 0.16.1 (#20922)](https://github.com/risingwavelabs/risingwave/pull/20922)
 - `a737995f1efecc9f7288f33366dc85f2ff1b6b76` [feat(stream): add `MaterializedExprsExecutor` implementation (#20971)](https://github.com/risingwavelabs/risingwave/pull/20971)
 - `5d5eeb081ef9444dfbedc4f1f6de5be04900f17c` [fix(udf): fix udf test for single-node and standalone binary test (#21023)](https://github.com/risingwavelabs/risingwave/pull/21023)
 
