@@ -196,6 +196,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a737995f1efecc9f7288f33366dc85f2ff1b6b76` [feat(stream): add `MaterializedExprsExecutor` implementation (#20971)](https://github.com/risingwavelabs/risingwave/pull/20971)
 - `5d5eeb081ef9444dfbedc4f1f6de5be04900f17c` [fix(udf): fix udf test for single-node and standalone binary test (#21023)](https://github.com/risingwavelabs/risingwave/pull/21023)
 
 ## nightly-20250320
