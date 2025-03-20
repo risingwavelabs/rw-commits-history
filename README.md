@@ -195,6 +195,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `38574be750bcbd5395333ec22322813fa8f5ccea` [chore(deps): bump bitflags from 2.8.0 to 2.9.0 (#21015)](https://github.com/risingwavelabs/risingwave/pull/21015)
 - `91bcec1504a041ceb112044b75a0c054df44ece9` [feat(stream): notice for NOT NULL when create table with connector (#20858)](https://github.com/risingwavelabs/risingwave/pull/20858)
 - `fca55ff0c09837300b32c7a84b1ae2f33e34cc33` [fix(meta): change mysql charset to utf8mb4 (#20981)](https://github.com/risingwavelabs/risingwave/pull/20981)
 - `2bc1ae7da2967f12b6a992f0b5aebb7ed73964fd` [refactor(stream): move project and project set executors to `stream/executor/project` (#20970)](https://github.com/risingwavelabs/risingwave/pull/20970)
