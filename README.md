@@ -195,6 +195,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `95e276dac75c6d8342a8a6f5e3d5bdf6a4316292` [perf(common): improve performance of col-aware encoding for structs (deserialization part) (#20990)](https://github.com/risingwavelabs/risingwave/pull/20990)
 - `b22caba7b921542dedbdb8f3409ecccbb65201c1` [fix: fix catalog inconsistency when dropping stream jobs. (#21017)](https://github.com/risingwavelabs/risingwave/pull/21017)
 - `bbb379c7257d06d7d5d05b6500d54035013392ab` [fix(action): cherry-pick-since shall read `github.event.pull_request.labels` on merge (#21016)](https://github.com/risingwavelabs/risingwave/pull/21016)
 - `4d17dcc4cd4b558d630de9ba563682500624fe8e` [perf(common): improve performance of col-aware encoding for structs (serialization part) (#20957)](https://github.com/risingwavelabs/risingwave/pull/20957)
