@@ -195,6 +195,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b22caba7b921542dedbdb8f3409ecccbb65201c1` [fix: fix catalog inconsistency when dropping stream jobs. (#21017)](https://github.com/risingwavelabs/risingwave/pull/21017)
+- `bbb379c7257d06d7d5d05b6500d54035013392ab` [fix(action): cherry-pick-since shall read `github.event.pull_request.labels` on merge (#21016)](https://github.com/risingwavelabs/risingwave/pull/21016)
+- `4d17dcc4cd4b558d630de9ba563682500624fe8e` [perf(common): improve performance of col-aware encoding for structs (serialization part) (#20957)](https://github.com/risingwavelabs/risingwave/pull/20957)
 - `5a06d47cf43d605e92ce5c46960e17ae671cdf4c` [chore(deps): bump indexmap from 2.7.0 to 2.8.0 (#21014)](https://github.com/risingwavelabs/risingwave/pull/21014)
 - `38574be750bcbd5395333ec22322813fa8f5ccea` [chore(deps): bump bitflags from 2.8.0 to 2.9.0 (#21015)](https://github.com/risingwavelabs/risingwave/pull/21015)
 - `91bcec1504a041ceb112044b75a0c054df44ece9` [feat(stream): notice for NOT NULL when create table with connector (#20858)](https://github.com/risingwavelabs/risingwave/pull/20858)
