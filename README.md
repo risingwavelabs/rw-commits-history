@@ -195,6 +195,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d5e037bf9916a1c8daedb299ea525f8801e24413` [feat(iceberg): iceberg integration with s3 tables (#21018)](https://github.com/risingwavelabs/risingwave/pull/21018)
+- `260e1925705f5f0ccd4e1647cdaace13caee59bd` [chore(ci):  relax log size check to 8MB (#21025)](https://github.com/risingwavelabs/risingwave/pull/21025)
+- `ec8c7416d8a0a3d45b1285b760fb5917697fdd55` [chore(deps): Bump apache/skywalking-eyes from 5042f7f88d68fd1bc15e2b4ba25f7000b607487c to 477772b7ef382b9024ac89676ebe6cbb26165a4f (#20520)](https://github.com/risingwavelabs/risingwave/pull/20520)
+- `5050936afacc73c861e1f0e4a017272d56d901a5` [chore(deps): Bump either from 1.13.0 to 1.15.0 (#20972)](https://github.com/risingwavelabs/risingwave/pull/20972)
 - `95e276dac75c6d8342a8a6f5e3d5bdf6a4316292` [perf(common): improve performance of col-aware encoding for structs (deserialization part) (#20990)](https://github.com/risingwavelabs/risingwave/pull/20990)
 - `b22caba7b921542dedbdb8f3409ecccbb65201c1` [fix: fix catalog inconsistency when dropping stream jobs. (#21017)](https://github.com/risingwavelabs/risingwave/pull/21017)
 - `bbb379c7257d06d7d5d05b6500d54035013392ab` [fix(action): cherry-pick-since shall read `github.event.pull_request.labels` on merge (#21016)](https://github.com/risingwavelabs/risingwave/pull/21016)
