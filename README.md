@@ -194,6 +194,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e4692d54196510220c9ad03a4cf013b0c665927f` [chore(deps): Bump tempfile from 3.17.1 to 3.19.1 (#21049)](https://github.com/risingwavelabs/risingwave/pull/21049)
+- `371d0b374516aa9569d6ce65b42e70087ced10a0` [chore(deps): Bump humantime from 2.1.0 to 2.2.0 (#21051)](https://github.com/risingwavelabs/risingwave/pull/21051)
+- `6df709131c46a20b45c176b3884b054f163d4848` [ci: unify iceberg test script (#20958)](https://github.com/risingwavelabs/risingwave/pull/20958)
+- `9404e93cd1e1340c078b601b441b721f75f5f6b3` [chore(deps): update groups rand, strum and opentelemetry (#21043)](https://github.com/risingwavelabs/risingwave/pull/21043)
 - `ea08e068a5b85e30f74357dc461b364e9dee83d9` [chore(deps): Bump rand from 0.8.5 to 0.9.0 (rand_chacha from 0.3.1 to 0.9.0) (#21031)](https://github.com/risingwavelabs/risingwave/pull/21031)
 - `a24a9ce749ec8d742a96396b4eec1adacc2d942c` [chore(deps): Bump tokio-metrics from 0.3.1 to 0.4.0 (#21034)](https://github.com/risingwavelabs/risingwave/pull/21034)
 - `95441a6c216ff7edbc215a4211a9b373e95583a5` [chore(deps): Bump simd-json from 0.14.2 to 0.15.0 (#21039)](https://github.com/risingwavelabs/risingwave/pull/21039)
