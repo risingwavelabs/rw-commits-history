@@ -194,6 +194,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `680827aa35052cf047d081813ac35228ca9685fd` [ci: also use buildkite job parallelism in main-cron (#21044)](https://github.com/risingwavelabs/risingwave/pull/21044)
 
 ## nightly-20250321
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d5e037bf9916a1c8daedb299ea525f8801e24413...c727880e314baf068e2285d3e4530516d89945aa)
