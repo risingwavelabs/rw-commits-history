@@ -194,6 +194,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c727880e314baf068e2285d3e4530516d89945aa` [feat(frontend): support specifying explain analyze duration (#20966)](https://github.com/risingwavelabs/risingwave/pull/20966)
 - `934eff3776f673c63514989fea16d7da18955622` [chore(deps): Bump typed-builder from 0.20.0 to 0.21.0 (#21059)](https://github.com/risingwavelabs/risingwave/pull/21059)
 - `e44eda608c26896cba780bf1d47ee365988c876c` [chore(deps): Bump constant_time_eq from 0.3.0 to 0.4.2 (#21057)](https://github.com/risingwavelabs/risingwave/pull/21057)
 - `8530aead907f2bf6232c8660966127339d7da19e` [chore: Update README.md (#20942)](https://github.com/risingwavelabs/risingwave/pull/20942)
