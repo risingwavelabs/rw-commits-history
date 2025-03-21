@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250321` `c727880e314baf068e2285d3e4530516d89945aa`
 - `20250320` `d5e037bf9916a1c8daedb299ea525f8801e24413`
 - `20250319` `42e1fd81bcb6525a53ed9a98509169b0c9cdf6cc`
 - `20250318` `8ae38cf0096dc71eb3d5c4f72c3904510b8494dd`
@@ -185,7 +186,6 @@
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
-- `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
 </details>
 
 # Commit history
@@ -194,6 +194,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250321
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d5e037bf9916a1c8daedb299ea525f8801e24413...c727880e314baf068e2285d3e4530516d89945aa)
 - `c727880e314baf068e2285d3e4530516d89945aa` [feat(frontend): support specifying explain analyze duration (#20966)](https://github.com/risingwavelabs/risingwave/pull/20966)
 - `934eff3776f673c63514989fea16d7da18955622` [chore(deps): Bump typed-builder from 0.20.0 to 0.21.0 (#21059)](https://github.com/risingwavelabs/risingwave/pull/21059)
 - `e44eda608c26896cba780bf1d47ee365988c876c` [chore(deps): Bump constant_time_eq from 0.3.0 to 0.4.2 (#21057)](https://github.com/risingwavelabs/risingwave/pull/21057)
@@ -2175,16 +2178,4 @@
 - `44d25a5c407e84ccdf48499000d14c369f760fa3` [fix(connector): fix batch file source when there are no files (#18018)](https://github.com/risingwavelabs/risingwave/pull/18018)
 
 ## nightly-20240813
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/15432093b71066fd1097ebebf6b716033ac340dd...c6ed9bb6deb333452e311c3e8ba028ae1ab0f847)
 - `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847` [feat(sink): allow upsert protobuf with text key (#18024)](https://github.com/risingwavelabs/risingwave/pull/18024)
-- `1df6b80c8f68fdba41d5f84bcc8198e9a3927408` [fix(iceberg): fix iceberg manifest data corruption (#18020)](https://github.com/risingwavelabs/risingwave/pull/18020)
-- `c2e2376855f2bb55b7637945519cc22c1b84a251` [feat: call clear shared buffer with latest version id (#17972)](https://github.com/risingwavelabs/risingwave/pull/17972)
-- `a5cd1418ad6bdfb01d9c147700bc30f01e3f2a6e` [fix: add license key env for integration test (#18014)](https://github.com/risingwavelabs/risingwave/pull/18014)
-- `f2bcff737a8b7b0ba20f15313ca06e33d28d8873` [feat: support parsing map type: `map(k,v)` (#17860)](https://github.com/risingwavelabs/risingwave/pull/17860)
-- `cd9c31efc7da656655e955090ff66fcc1642cf70` [fix(sink): handle Kinesis PutRecords partial success and throttle (#17983)](https://github.com/risingwavelabs/risingwave/pull/17983)
-- `cad31daea39634e5349ba3a8f6a555edf2ad20c0` [fix(mssql-cdc): remove vendored-openssl of tiberus (#18013)](https://github.com/risingwavelabs/risingwave/pull/18013)
-- `2844ad25801f9255f93a6d6683ebc8a57903c59f` [fix(ci): wait for the standalone/single-node process to be killed before starting again (#18010)](https://github.com/risingwavelabs/risingwave/pull/18010)
-- `58b3f414763a4550f8408c3761b2f34a26c5e476` [chore: test data shall not use non-existent option `kafka.servers` (#17996)](https://github.com/risingwavelabs/risingwave/pull/17996)
-
-## nightly-20240812
-- `15432093b71066fd1097ebebf6b716033ac340dd` [fix(stream): let approx percentile output its results every epoch (#18002)](https://github.com/risingwavelabs/risingwave/pull/18002)
