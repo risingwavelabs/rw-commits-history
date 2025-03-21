@@ -194,6 +194,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cda3c2e089390723f37ce8df7b62cf1008f9c3e0` [feat(parquet): give more hints when schema does not match (#20467)](https://github.com/risingwavelabs/risingwave/pull/20467)
 - `e4692d54196510220c9ad03a4cf013b0c665927f` [chore(deps): Bump tempfile from 3.17.1 to 3.19.1 (#21049)](https://github.com/risingwavelabs/risingwave/pull/21049)
 - `371d0b374516aa9569d6ce65b42e70087ced10a0` [chore(deps): Bump humantime from 2.1.0 to 2.2.0 (#21051)](https://github.com/risingwavelabs/risingwave/pull/21051)
 - `6df709131c46a20b45c176b3884b054f163d4848` [ci: unify iceberg test script (#20958)](https://github.com/risingwavelabs/risingwave/pull/20958)
