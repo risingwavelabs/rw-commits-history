@@ -194,6 +194,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `934eff3776f673c63514989fea16d7da18955622` [chore(deps): Bump typed-builder from 0.20.0 to 0.21.0 (#21059)](https://github.com/risingwavelabs/risingwave/pull/21059)
+- `e44eda608c26896cba780bf1d47ee365988c876c` [chore(deps): Bump constant_time_eq from 0.3.0 to 0.4.2 (#21057)](https://github.com/risingwavelabs/risingwave/pull/21057)
+- `8530aead907f2bf6232c8660966127339d7da19e` [chore: Update README.md (#20942)](https://github.com/risingwavelabs/risingwave/pull/20942)
+- `f6672715015293eeef624990fb13787d4359e64a` [chore(deps): Bump rust_decimal from 1.36.0 to 1.37.0 (#21058)](https://github.com/risingwavelabs/risingwave/pull/21058)
 - `cda3c2e089390723f37ce8df7b62cf1008f9c3e0` [feat(parquet): give more hints when schema does not match (#20467)](https://github.com/risingwavelabs/risingwave/pull/20467)
 - `e4692d54196510220c9ad03a4cf013b0c665927f` [chore(deps): Bump tempfile from 3.17.1 to 3.19.1 (#21049)](https://github.com/risingwavelabs/risingwave/pull/21049)
 - `371d0b374516aa9569d6ce65b42e70087ced10a0` [chore(deps): Bump humantime from 2.1.0 to 2.2.0 (#21051)](https://github.com/risingwavelabs/risingwave/pull/21051)
