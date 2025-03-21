@@ -194,6 +194,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `95441a6c216ff7edbc215a4211a9b373e95583a5` [chore(deps): Bump simd-json from 0.14.2 to 0.15.0 (#21039)](https://github.com/risingwavelabs/risingwave/pull/21039)
 - `ca68acec7de6df45af7f315326c8277393dc881e` [chore(deps): Bump smallvec from 1.13.1 to 1.14.0 (#21038)](https://github.com/risingwavelabs/risingwave/pull/21038)
 - `ce3d5965ed8fb89c60354b8181c1e721b57e3beb` [chore(deps): Bump uuid from 1.15.1 to 1.16.0 (#21036)](https://github.com/risingwavelabs/risingwave/pull/21036)
 - `761576d58cbf59add82a65150da31dbd1ff2eb0b` [chore(deps): Bump strum_macros from 0.26.4 to 0.27.1 (#21033)](https://github.com/risingwavelabs/risingwave/pull/21033)
