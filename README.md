@@ -194,6 +194,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1370774f1287db0d3da6efe9587a4e2e7805358d` [chore(deps): Bump hashbrown from 0.14.5 to 0.15.2 (#21060)](https://github.com/risingwavelabs/risingwave/pull/21060)
 - `680827aa35052cf047d081813ac35228ca9685fd` [ci: also use buildkite job parallelism in main-cron (#21044)](https://github.com/risingwavelabs/risingwave/pull/21044)
 
 ## nightly-20250321
