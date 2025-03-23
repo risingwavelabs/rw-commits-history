@@ -195,6 +195,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `72bbe0aa8a4d3e0c55d39c7e5bc5c08b7472d1ee` [chore(deps): Bump opentelemetry from 0.24 to 0.26 (#21070)](https://github.com/risingwavelabs/risingwave/pull/21070)
 
 ## nightly-20250322
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c727880e314baf068e2285d3e4530516d89945aa...1370774f1287db0d3da6efe9587a4e2e7805358d)
