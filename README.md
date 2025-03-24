@@ -196,6 +196,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `904c606d7049ab46abec045a506387720807ee58` [doc: remove docset support (#21083)](https://github.com/risingwavelabs/risingwave/pull/21083)
 - `3c4c09e444fb139b44d0a3f806584f9a956a0154` [feat: add more librdkafka options for kafka source (#21080)](https://github.com/risingwavelabs/risingwave/pull/21080)
 - `69b977a487df5ca0cbf0a5a7b57794ca6ed15fd6` [ci: fix iceberg test on main-cron (#21073)](https://github.com/risingwavelabs/risingwave/pull/21073)
 - `96056ab47ca116bc9058543a5420ebd56289b6be` [feat(foyer): upgrade foyer for fast disk cache recovery (#20725)](https://github.com/risingwavelabs/risingwave/pull/20725)
