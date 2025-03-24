@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250324` `e19de86bcf3ef6f13b2228183f6b92e950369e81`
 - `20250323` `72bbe0aa8a4d3e0c55d39c7e5bc5c08b7472d1ee`
 - `20250322` `1370774f1287db0d3da6efe9587a4e2e7805358d`
 - `20250321` `c727880e314baf068e2285d3e4530516d89945aa`
@@ -196,6 +197,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250324
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72bbe0aa8a4d3e0c55d39c7e5bc5c08b7472d1ee...e19de86bcf3ef6f13b2228183f6b92e950369e81)
 - `e19de86bcf3ef6f13b2228183f6b92e950369e81` [fix(ctl): object store migration tool (#21085)](https://github.com/risingwavelabs/risingwave/pull/21085)
 - `904c606d7049ab46abec045a506387720807ee58` [doc: remove docset support (#21083)](https://github.com/risingwavelabs/risingwave/pull/21083)
 - `3c4c09e444fb139b44d0a3f806584f9a956a0154` [feat: add more librdkafka options for kafka source (#21080)](https://github.com/risingwavelabs/risingwave/pull/21080)
