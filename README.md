@@ -196,6 +196,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5e0c22f08018efc522bc302603becc4905ade05e` [chore(deps): Bump @babel/helpers from 7.19.0 to 7.26.10 in /dashboard (#20857)](https://github.com/risingwavelabs/risingwave/pull/20857)
+- `6f81f5ae28abbb917309e1cadbedfbef07fe33a8` [fix(streaming): abort actors after collecting actor failure (#21097)](https://github.com/risingwavelabs/risingwave/pull/21097)
+- `babcec0c809a22950b5efeb8164ca16d6e753a71` [feat: elastic-search/open-search connection support (#20951)](https://github.com/risingwavelabs/risingwave/pull/20951)
 - `d69b981af00df7b08035522e32f5f62f266c116a` [feat(meta): maintain actor vnode distribution in global barrier manager (#21020)](https://github.com/risingwavelabs/risingwave/pull/21020)
 - `d51d47cc36f0415c726b2342d446e6047352b6c5` [chore(deps): Bump crate-ci/typos from 1.30.2 to 1.30.3 (#21098)](https://github.com/risingwavelabs/risingwave/pull/21098)
 - `5c6bf332960b5fdad77d1e7b01567858819335ae` [refactor: bump `await-tree` to `v0.3.0-alpha.3` (#21079)](https://github.com/risingwavelabs/risingwave/pull/21079)
