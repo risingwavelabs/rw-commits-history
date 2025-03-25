@@ -196,6 +196,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e7522e4c92ae5713310d6939ec6bf1519fd41f32` [chore: remove moved grafana/common.py (#21101)](https://github.com/risingwavelabs/risingwave/pull/21101)
+- `1acd08c0928f3d35b0f94cada03ba5bd66b825bd` [refactor(meta): exclude table change log from time travel metadata (#20948)](https://github.com/risingwavelabs/risingwave/pull/20948)
 - `5e0c22f08018efc522bc302603becc4905ade05e` [chore(deps): Bump @babel/helpers from 7.19.0 to 7.26.10 in /dashboard (#20857)](https://github.com/risingwavelabs/risingwave/pull/20857)
 - `6f81f5ae28abbb917309e1cadbedfbef07fe33a8` [fix(streaming): abort actors after collecting actor failure (#21097)](https://github.com/risingwavelabs/risingwave/pull/21097)
 - `babcec0c809a22950b5efeb8164ca16d6e753a71` [feat: elastic-search/open-search connection support (#20951)](https://github.com/risingwavelabs/risingwave/pull/20951)
