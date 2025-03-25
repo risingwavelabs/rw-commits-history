@@ -197,6 +197,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3b8a5ae78d37b92119a0ea0469bc01b94efa6480` [chore(deps): Bump governor from 0.8.0 to 0.8.1 (#21090)](https://github.com/risingwavelabs/risingwave/pull/21090)
+- `16a0a1eb06f219b739128074db136105e6ce0f37` [chore: fix risedev install (#21061)](https://github.com/risingwavelabs/risingwave/pull/21061)
+- `b82f3c5eb3e40b8d6a0cb2032ac4a67c7d4b5f4b` [chore(deps): bump golang.org/x/net from 0.33.0 to 0.36.0 in /integration_tests/datagen (#20889)](https://github.com/risingwavelabs/risingwave/pull/20889)
+- `fea1cceb0e86fbf19368846546e9af1c6ba82ec2` [chore(deps): Bump peter-evans/create-pull-request from 5 to 7 (#20818)](https://github.com/risingwavelabs/risingwave/pull/20818)
+- `2549af71b2585c0f74d6f8bc1fe385261b52cae3` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.7 to 0.0.8 (#20819)](https://github.com/risingwavelabs/risingwave/pull/20819)
 - `20cb21fb4ee4512ad70b670bdeffb360b10eb53d` [feat(sink): support redis sink with pubsub format (#20991)](https://github.com/risingwavelabs/risingwave/pull/20991)
 
 ## nightly-20250324
