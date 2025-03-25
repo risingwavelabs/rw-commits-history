@@ -197,6 +197,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `20cb21fb4ee4512ad70b670bdeffb360b10eb53d` [feat(sink): support redis sink with pubsub format (#20991)](https://github.com/risingwavelabs/risingwave/pull/20991)
 
 ## nightly-20250324
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72bbe0aa8a4d3e0c55d39c7e5bc5c08b7472d1ee...e19de86bcf3ef6f13b2228183f6b92e950369e81)
