@@ -196,6 +196,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d69b981af00df7b08035522e32f5f62f266c116a` [feat(meta): maintain actor vnode distribution in global barrier manager (#21020)](https://github.com/risingwavelabs/risingwave/pull/21020)
+- `d51d47cc36f0415c726b2342d446e6047352b6c5` [chore(deps): Bump crate-ci/typos from 1.30.2 to 1.30.3 (#21098)](https://github.com/risingwavelabs/risingwave/pull/21098)
+- `5c6bf332960b5fdad77d1e7b01567858819335ae` [refactor: bump `await-tree` to `v0.3.0-alpha.3` (#21079)](https://github.com/risingwavelabs/risingwave/pull/21079)
 - `56b25991c2930bfd103c5a82a2144de9870bcfcf` [feat(log_store): apply change in log store for exactly once sink (#20772)](https://github.com/risingwavelabs/risingwave/pull/20772)
 - `a11efcd36e3806957e42c69d2c111258502e96b9` [chore(deps): bump serde 1.0.208 -> 219 (#21095)](https://github.com/risingwavelabs/risingwave/pull/21095)
 - `9c73c4b20dda9dd2652e84350840a9c4d338c152` [chore(deps): Bump redis from 0.25.4 to 0.28.2 (#21050)](https://github.com/risingwavelabs/risingwave/pull/21050)
