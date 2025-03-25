@@ -197,6 +197,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9c73c4b20dda9dd2652e84350840a9c4d338c152` [chore(deps): Bump redis from 0.25.4 to 0.28.2 (#21050)](https://github.com/risingwavelabs/risingwave/pull/21050)
+- `a55ae6d367a2ab47d9b1df713c930eb47b33524a` [chore(deps): Bump async-nats from 0.39.0 to 0.40.0 (#21089)](https://github.com/risingwavelabs/risingwave/pull/21089)
 - `3b8a5ae78d37b92119a0ea0469bc01b94efa6480` [chore(deps): Bump governor from 0.8.0 to 0.8.1 (#21090)](https://github.com/risingwavelabs/risingwave/pull/21090)
 - `16a0a1eb06f219b739128074db136105e6ce0f37` [chore: fix risedev install (#21061)](https://github.com/risingwavelabs/risingwave/pull/21061)
 - `b82f3c5eb3e40b8d6a0cb2032ac4a67c7d4b5f4b` [chore(deps): bump golang.org/x/net from 0.33.0 to 0.36.0 in /integration_tests/datagen (#20889)](https://github.com/risingwavelabs/risingwave/pull/20889)
