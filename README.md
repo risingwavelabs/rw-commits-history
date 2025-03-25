@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250325` `1779dcc1aeee2c0ab8bc8ae303dbf30576a69d7b`
 - `20250324` `e19de86bcf3ef6f13b2228183f6b92e950369e81`
 - `20250323` `72bbe0aa8a4d3e0c55d39c7e5bc5c08b7472d1ee`
 - `20250322` `1370774f1287db0d3da6efe9587a4e2e7805358d`
@@ -196,6 +197,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a60dec043bdec2fe11166e83254f57eaac04b34c` [fix: fix the self-reference issue in the sink into table creation (#21103)](https://github.com/risingwavelabs/risingwave/pull/21103)
+
+## nightly-20250325
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e19de86bcf3ef6f13b2228183f6b92e950369e81...1779dcc1aeee2c0ab8bc8ae303dbf30576a69d7b)
 - `1779dcc1aeee2c0ab8bc8ae303dbf30576a69d7b` [refactor: refactor test function in `isolation.rs` to enhance result validation (#21102)](https://github.com/risingwavelabs/risingwave/pull/21102)
 - `324f1d85fac8ac64c025b56022dda20e3539a9ab` [feat(batch): show panic message when "execution panic" (#21086)](https://github.com/risingwavelabs/risingwave/pull/21086)
 - `e7522e4c92ae5713310d6939ec6bf1519fd41f32` [chore: remove moved grafana/common.py (#21101)](https://github.com/risingwavelabs/risingwave/pull/21101)
