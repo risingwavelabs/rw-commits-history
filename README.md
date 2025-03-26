@@ -196,6 +196,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `663fa624fbf603aca7d050612dcdd929bffa5397` [feat(storage): support subscribe to table committed epoch in hummock manager (#20921)](https://github.com/risingwavelabs/risingwave/pull/20921)
 - `bede4add94f3b78194b3e6b4cafe804eb979dc14` [Update PR Template for Highest Release Version (#21126)](https://github.com/risingwavelabs/risingwave/pull/21126)
 - `536e40b737298c1783fff27dbeb1747e3f78664b` [fix(action): update-pr-template-by-version auto branch management (#21123)](https://github.com/risingwavelabs/risingwave/pull/21123)
 - `cfca5fe88dc3f170e2441ce5ecbc844f6d724572` [chore(deps): bump nextest min version to 0.9.72 (#21124)](https://github.com/risingwavelabs/risingwave/pull/21124)
