@@ -197,6 +197,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d0d602324be6677e98a1a8e7dcf0d08618fa2941` [fix(action):   branch name typo in update-pr-template-by-version (#21120)](https://github.com/risingwavelabs/risingwave/pull/21120)
 - `8e9fb98907d04447ffe5b369a963f552e3d92758` [refactor(foyer): bump foyer v0.15.2 to refine error handling (#21119)](https://github.com/risingwavelabs/risingwave/pull/21119)
 - `e9282df4094cebc4f0400272b4508ee2c656a60a` [chore(deps): Bump the aws group with 4 updates (#21099)](https://github.com/risingwavelabs/risingwave/pull/21099)
 - `4717d2301417216d89634bcdd454019d5fa0fceb` [feat(cdc): support mapping json of pg to jsonb in rw in pg-cdc (#20444)](https://github.com/risingwavelabs/risingwave/pull/20444)
