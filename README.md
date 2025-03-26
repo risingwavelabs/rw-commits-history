@@ -196,6 +196,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ea2c4d3af6c7f5bffe5a51cbb2f03502e7f7fb0d` [feat(snapshot-backfill): support recoverable snapshot backfill (executor part) (#20847)](https://github.com/risingwavelabs/risingwave/pull/20847)
 - `b183eded71df4e3872834596f196495c739d0194` [feat(iceberg): bump iceberg-rs to 20250325 rebase branch (#21111)](https://github.com/risingwavelabs/risingwave/pull/21111)
 - `d0d602324be6677e98a1a8e7dcf0d08618fa2941` [fix(action):   branch name typo in update-pr-template-by-version (#21120)](https://github.com/risingwavelabs/risingwave/pull/21120)
 - `8e9fb98907d04447ffe5b369a963f552e3d92758` [refactor(foyer): bump foyer v0.15.2 to refine error handling (#21119)](https://github.com/risingwavelabs/risingwave/pull/21119)
