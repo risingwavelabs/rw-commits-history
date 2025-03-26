@@ -196,6 +196,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bede4add94f3b78194b3e6b4cafe804eb979dc14` [Update PR Template for Highest Release Version (#21126)](https://github.com/risingwavelabs/risingwave/pull/21126)
+- `536e40b737298c1783fff27dbeb1747e3f78664b` [fix(action): update-pr-template-by-version auto branch management (#21123)](https://github.com/risingwavelabs/risingwave/pull/21123)
+- `cfca5fe88dc3f170e2441ce5ecbc844f6d724572` [chore(deps): bump nextest min version to 0.9.72 (#21124)](https://github.com/risingwavelabs/risingwave/pull/21124)
 - `ea2c4d3af6c7f5bffe5a51cbb2f03502e7f7fb0d` [feat(snapshot-backfill): support recoverable snapshot backfill (executor part) (#20847)](https://github.com/risingwavelabs/risingwave/pull/20847)
 - `b183eded71df4e3872834596f196495c739d0194` [feat(iceberg): bump iceberg-rs to 20250325 rebase branch (#21111)](https://github.com/risingwavelabs/risingwave/pull/21111)
 - `d0d602324be6677e98a1a8e7dcf0d08618fa2941` [fix(action):   branch name typo in update-pr-template-by-version (#21120)](https://github.com/risingwavelabs/risingwave/pull/21120)
