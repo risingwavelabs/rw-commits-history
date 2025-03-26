@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250326` `663fa624fbf603aca7d050612dcdd929bffa5397`
 - `20250325` `1779dcc1aeee2c0ab8bc8ae303dbf30576a69d7b`
 - `20250324` `e19de86bcf3ef6f13b2228183f6b92e950369e81`
 - `20250323` `72bbe0aa8a4d3e0c55d39c7e5bc5c08b7472d1ee`
@@ -196,6 +197,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250326
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1779dcc1aeee2c0ab8bc8ae303dbf30576a69d7b...663fa624fbf603aca7d050612dcdd929bffa5397)
 - `663fa624fbf603aca7d050612dcdd929bffa5397` [feat(storage): support subscribe to table committed epoch in hummock manager (#20921)](https://github.com/risingwavelabs/risingwave/pull/20921)
 - `bede4add94f3b78194b3e6b4cafe804eb979dc14` [Update PR Template for Highest Release Version (#21126)](https://github.com/risingwavelabs/risingwave/pull/21126)
 - `536e40b737298c1783fff27dbeb1747e3f78664b` [fix(action): update-pr-template-by-version auto branch management (#21123)](https://github.com/risingwavelabs/risingwave/pull/21123)
