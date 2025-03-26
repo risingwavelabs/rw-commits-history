@@ -197,6 +197,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e9282df4094cebc4f0400272b4508ee2c656a60a` [chore(deps): Bump the aws group with 4 updates (#21099)](https://github.com/risingwavelabs/risingwave/pull/21099)
+- `4717d2301417216d89634bcdd454019d5fa0fceb` [feat(cdc): support mapping json of pg to jsonb in rw in pg-cdc (#20444)](https://github.com/risingwavelabs/risingwave/pull/20444)
+- `f16ae4f7273282e5a505fcb9b758a9f2fefa72ba` [chore(risedev): make risedev less noisy (#21096)](https://github.com/risingwavelabs/risingwave/pull/21096)
 - `922f418d98433233ab1d3c3aa1b2ef8cf57dce40` [chore: bump foyer v0.15.0 (#21093)](https://github.com/risingwavelabs/risingwave/pull/21093)
 - `94d7039a99a194861888c3a286f56fbcb4e6ae2a` [chore(deps): Bump apache/skywalking-eyes from 477772b7ef382b9024ac89676ebe6cbb26165a4f to 0.7.0 (#21053)](https://github.com/risingwavelabs/risingwave/pull/21053)
 - `a60dec043bdec2fe11166e83254f57eaac04b34c` [fix: fix the self-reference issue in the sink into table creation (#21103)](https://github.com/risingwavelabs/risingwave/pull/21103)
