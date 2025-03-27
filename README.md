@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250327` `fe1ca25060339f37ba6a85f12f7bb288e4fab097`
 - `20250326` `663fa624fbf603aca7d050612dcdd929bffa5397`
 - `20250325` `1779dcc1aeee2c0ab8bc8ae303dbf30576a69d7b`
 - `20250324` `e19de86bcf3ef6f13b2228183f6b92e950369e81`
@@ -196,6 +197,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `900c595695ea3a0687aeec289aedd42ed52d0931` [feat(meta): compose fragment dispatcher in barrier workers (#20701)](https://github.com/risingwavelabs/risingwave/pull/20701)
+- `5a409af9ecbc387da56d60483df1a6f21efca901` [feat(sink): support registering the more general dyn LogSinker in test (#21074)](https://github.com/risingwavelabs/risingwave/pull/21074)
+
+## nightly-20250327
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/663fa624fbf603aca7d050612dcdd929bffa5397...fe1ca25060339f37ba6a85f12f7bb288e4fab097)
 - `fe1ca25060339f37ba6a85f12f7bb288e4fab097` [ci: parallelize integration test (deterministic simulation) (#20802)](https://github.com/risingwavelabs/risingwave/pull/20802)
 - `249904626adae661997fd886ee5543bdf06402d8` [test(iceberg): refine test script to support test discovery, prepare env & CI parallelism (#21082)](https://github.com/risingwavelabs/risingwave/pull/21082)
 - `6b463b84aa2a3368ba47e964035198bcdd2e030e` [feat(iceberg): enable exactly once semantics for iceberg table engine (#21134)](https://github.com/risingwavelabs/risingwave/pull/21134)
