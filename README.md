@@ -197,6 +197,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `249904626adae661997fd886ee5543bdf06402d8` [test(iceberg): refine test script to support test discovery, prepare env & CI parallelism (#21082)](https://github.com/risingwavelabs/risingwave/pull/21082)
+- `6b463b84aa2a3368ba47e964035198bcdd2e030e` [feat(iceberg): enable exactly once semantics for iceberg table engine (#21134)](https://github.com/risingwavelabs/risingwave/pull/21134)
 - `7f08c38e693911a69aa595af783fb02b7fbc9231` [feat(sink): introduce exactly once iceberg sink (#19771)](https://github.com/risingwavelabs/risingwave/pull/19771)
 - `ed4555ebe832fa321e79e2a5a2c13ad39238269e` [refactor(snapshot-backfill): refine snapshot backfill tracking logic in meta (#20952)](https://github.com/risingwavelabs/risingwave/pull/20952)
 - `e4959e46116c1e9a86c5858b340ecde1e9005b5f` [chore: bump min cargo make version (#21132)](https://github.com/risingwavelabs/risingwave/pull/21132)
