@@ -197,6 +197,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7f08c38e693911a69aa595af783fb02b7fbc9231` [feat(sink): introduce exactly once iceberg sink (#19771)](https://github.com/risingwavelabs/risingwave/pull/19771)
+- `ed4555ebe832fa321e79e2a5a2c13ad39238269e` [refactor(snapshot-backfill): refine snapshot backfill tracking logic in meta (#20952)](https://github.com/risingwavelabs/risingwave/pull/20952)
+- `e4959e46116c1e9a86c5858b340ecde1e9005b5f` [chore: bump min cargo make version (#21132)](https://github.com/risingwavelabs/risingwave/pull/21132)
+- `0661d8bb6bfaeb73ac30fe90dfd98f945a97ab14` [refactor: explain analyze (#21066)](https://github.com/risingwavelabs/risingwave/pull/21066)
 - `ac4458b80e425d7c9a859525a6a07da47202af48` [chore(deps): Bump the aws group with 3 updates (#21127)](https://github.com/risingwavelabs/risingwave/pull/21127)
 
 ## nightly-20250326
