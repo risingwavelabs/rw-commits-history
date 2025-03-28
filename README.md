@@ -196,6 +196,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `db881a877e4a0d9bb886695d8f78b715d016a1c6` [refactor(sink): merge log store barrier and update_vnode_bitmap item (#21139)](https://github.com/risingwavelabs/risingwave/pull/21139)
 
 ## nightly-20250328
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fe1ca25060339f37ba6a85f12f7bb288e4fab097...602d2f7f521198611ce694b264113384a16c18a0)
