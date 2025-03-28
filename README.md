@@ -195,6 +195,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `602d2f7f521198611ce694b264113384a16c18a0` [fix(foyer): fix foyer split condition calculation error (#21145)](https://github.com/risingwavelabs/risingwave/pull/21145)
 - `94f5231b8ace120ab0700b48842fb8965ea719be` [chore(deps): Bump bson from 2.11.0 to 2.14.0 (#21162)](https://github.com/risingwavelabs/risingwave/pull/21162)
 - `f8cf568336a2aaef0669d84275a84887bb629057` [ci: fix doc CI (#21160)](https://github.com/risingwavelabs/risingwave/pull/21160)
 - `fd9dce213e3432c63d3ad2cff3746eebe807dfdf` [revert: "fix: copyright in license" (#21161)](https://github.com/risingwavelabs/risingwave/pull/21161)
