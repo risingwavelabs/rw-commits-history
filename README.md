@@ -196,6 +196,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fd9dce213e3432c63d3ad2cff3746eebe807dfdf` [revert: "fix: copyright in license" (#21161)](https://github.com/risingwavelabs/risingwave/pull/21161)
 - `9cf3448a6453465002e4c26d3e45e08d1188f956` [fix: copyright in license (#21158)](https://github.com/risingwavelabs/risingwave/pull/21158)
 - `10f8ff9d07d9bd2b91bd651e0862fe0416635e1c` [refactor(compaciton): refactor compaction group merge validator (#21135)](https://github.com/risingwavelabs/risingwave/pull/21135)
 - `900c595695ea3a0687aeec289aedd42ed52d0931` [feat(meta): compose fragment dispatcher in barrier workers (#20701)](https://github.com/risingwavelabs/risingwave/pull/20701)
