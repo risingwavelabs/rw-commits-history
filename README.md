@@ -188,7 +188,6 @@
 - `20240820` `e6e1f485cc0f778d4f67e33a362d67359e4fa736`
 - `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
-- `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 </details>
 
 # Commit history
@@ -2212,11 +2211,4 @@
 - `e36a630dfe0ee60ac9b4293c76f87fc2f035a59b` [chore: fix RustRover macro expansion (#18077)](https://github.com/risingwavelabs/risingwave/pull/18077)
 
 ## nightly-20240818
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f09a6c15b1291623a1fccc9638035cf19002c0...7cb75e565470570fd191fac062e91864d4582c98)
 - `7cb75e565470570fd191fac062e91864d4582c98` [feat: support constructor `MAP {..}` and index operator `m[k]` for map (#18066)](https://github.com/risingwavelabs/risingwave/pull/18066)
-- `d11d3ea1762d300cbb569caa79e40e4dcfb3f2f2` [chore: update Cargo package version to 2.1.0-alpha (#18075)](https://github.com/risingwavelabs/risingwave/pull/18075)
-- `83b3647ece55ad04d3b4a565c524f8f415d9a71d` [fix(stream): fix functional dependencies for row merge (#18072)](https://github.com/risingwavelabs/risingwave/pull/18072)
-- `31e52d4f66745280097e981eb154042cab46296b` [ci: add cherry-pick 2.0 (#18074)](https://github.com/risingwavelabs/risingwave/pull/18074)
-
-## nightly-20240816
-- `f5f09a6c15b1291623a1fccc9638035cf19002c0` [feat: enable shuffle for snapshot backfill (#18063)](https://github.com/risingwavelabs/risingwave/pull/18063)
