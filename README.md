@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250328` `602d2f7f521198611ce694b264113384a16c18a0`
 - `20250327` `fe1ca25060339f37ba6a85f12f7bb288e4fab097`
 - `20250326` `663fa624fbf603aca7d050612dcdd929bffa5397`
 - `20250325` `1779dcc1aeee2c0ab8bc8ae303dbf30576a69d7b`
@@ -195,6 +196,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250328
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fe1ca25060339f37ba6a85f12f7bb288e4fab097...602d2f7f521198611ce694b264113384a16c18a0)
 - `602d2f7f521198611ce694b264113384a16c18a0` [fix(foyer): fix foyer split condition calculation error (#21145)](https://github.com/risingwavelabs/risingwave/pull/21145)
 - `94f5231b8ace120ab0700b48842fb8965ea719be` [chore(deps): Bump bson from 2.11.0 to 2.14.0 (#21162)](https://github.com/risingwavelabs/risingwave/pull/21162)
 - `f8cf568336a2aaef0669d84275a84887bb629057` [ci: fix doc CI (#21160)](https://github.com/risingwavelabs/risingwave/pull/21160)
