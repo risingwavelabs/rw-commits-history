@@ -196,6 +196,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f1cde2e6f0d295aa735911e7a50ac7b138a399de` [chore(deps): Bump spin from 0.9.8 to 0.10.0 (#21147)](https://github.com/risingwavelabs/risingwave/pull/21147)
+- `0cd9151fff6d78cb15180907e24ef5b139bafe39` [chore(deps): Bump serde_with from 3.8.1 to 3.12.0 (#21167)](https://github.com/risingwavelabs/risingwave/pull/21167)
 - `06f7b63f493cfed8de9e95c89d2e79cd55faa5b7` [chore(deps): Bump sysinfo from 0.33.0 to 0.34.1 (#21168)](https://github.com/risingwavelabs/risingwave/pull/21168)
 
 ## nightly-20250329
