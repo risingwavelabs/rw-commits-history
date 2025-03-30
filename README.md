@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250330` `f1cde2e6f0d295aa735911e7a50ac7b138a399de`
 - `20250329` `db881a877e4a0d9bb886695d8f78b715d016a1c6`
 - `20250328` `602d2f7f521198611ce694b264113384a16c18a0`
 - `20250327` `fe1ca25060339f37ba6a85f12f7bb288e4fab097`
@@ -196,6 +197,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250330
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/db881a877e4a0d9bb886695d8f78b715d016a1c6...f1cde2e6f0d295aa735911e7a50ac7b138a399de)
 - `f1cde2e6f0d295aa735911e7a50ac7b138a399de` [chore(deps): Bump spin from 0.9.8 to 0.10.0 (#21147)](https://github.com/risingwavelabs/risingwave/pull/21147)
 - `0cd9151fff6d78cb15180907e24ef5b139bafe39` [chore(deps): Bump serde_with from 3.8.1 to 3.12.0 (#21167)](https://github.com/risingwavelabs/risingwave/pull/21167)
 - `06f7b63f493cfed8de9e95c89d2e79cd55faa5b7` [chore(deps): Bump sysinfo from 0.33.0 to 0.34.1 (#21168)](https://github.com/risingwavelabs/risingwave/pull/21168)
