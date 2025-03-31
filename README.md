@@ -197,6 +197,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `45e412328a35ae17dd67c3b6a7c766c1cb62032e` [feat: set rdkafka `socket.keepalive.enable` default to `true` (#21178)](https://github.com/risingwavelabs/risingwave/pull/21178)
 - `6a5de33badab4ddf9ce6d34abc254ae5a8f35b57` [feat: support more avro encode types in sink (#20885)](https://github.com/risingwavelabs/risingwave/pull/20885)
 - `d84730945bb10a2569701b9dc078b8178e67519d` [ci: fix pulsar source test (#21175)](https://github.com/risingwavelabs/risingwave/pull/21175)
 
