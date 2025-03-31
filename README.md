@@ -197,6 +197,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6a5de33badab4ddf9ce6d34abc254ae5a8f35b57` [feat: support more avro encode types in sink (#20885)](https://github.com/risingwavelabs/risingwave/pull/20885)
 - `d84730945bb10a2569701b9dc078b8178e67519d` [ci: fix pulsar source test (#21175)](https://github.com/risingwavelabs/risingwave/pull/21175)
 
 ## nightly-20250330
