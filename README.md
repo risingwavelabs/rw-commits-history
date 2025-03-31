@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250331` `45e412328a35ae17dd67c3b6a7c766c1cb62032e`
 - `20250330` `f1cde2e6f0d295aa735911e7a50ac7b138a399de`
 - `20250329` `db881a877e4a0d9bb886695d8f78b715d016a1c6`
 - `20250328` `602d2f7f521198611ce694b264113384a16c18a0`
@@ -197,6 +198,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b06066e5279e0164ba9bbf850563754ff158549f` [chore: Optimize `fragment_ids` retrieval in `scale.rs` by using `select_only()` to boost performance. (#21182)](https://github.com/risingwavelabs/risingwave/pull/21182)
+
+## nightly-20250331
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f1cde2e6f0d295aa735911e7a50ac7b138a399de...45e412328a35ae17dd67c3b6a7c766c1cb62032e)
 - `45e412328a35ae17dd67c3b6a7c766c1cb62032e` [feat: set rdkafka `socket.keepalive.enable` default to `true` (#21178)](https://github.com/risingwavelabs/risingwave/pull/21178)
 - `6a5de33badab4ddf9ce6d34abc254ae5a8f35b57` [feat: support more avro encode types in sink (#20885)](https://github.com/risingwavelabs/risingwave/pull/20885)
 - `d84730945bb10a2569701b9dc078b8178e67519d` [ci: fix pulsar source test (#21175)](https://github.com/risingwavelabs/risingwave/pull/21175)
