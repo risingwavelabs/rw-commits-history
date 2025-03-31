@@ -197,6 +197,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d84730945bb10a2569701b9dc078b8178e67519d` [ci: fix pulsar source test (#21175)](https://github.com/risingwavelabs/risingwave/pull/21175)
 
 ## nightly-20250330
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/db881a877e4a0d9bb886695d8f78b715d016a1c6...f1cde2e6f0d295aa735911e7a50ac7b138a399de)
