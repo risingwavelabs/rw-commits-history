@@ -198,6 +198,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7f11530f8d77c19f2a66744ab13e579ac711294f` [feat(stream): add dedicated metrics for sync log store (#20907)](https://github.com/risingwavelabs/risingwave/pull/20907)
+- `b9a1d21670a42bd7d2d88df84de46661ae037b31` [feat(stream): add executor id to `ExecutorInfo` (#21165)](https://github.com/risingwavelabs/risingwave/pull/21165)
+- `c5764d46e01dc55cffdabec87fce4c1a3b493fbd` [refactor(sink): dedicated log sink for coordinator sink (#21140)](https://github.com/risingwavelabs/risingwave/pull/21140)
 - `e33e5a85331419afa2e0e02cf80b5788b0b50a1b` [chore: add cursor rules for basic building, running and testing (#21205)](https://github.com/risingwavelabs/risingwave/pull/21205)
 - `b936b992e86dd5ef944b0e4a63e77f3836d258a1` [feat: support streaming iceberg source (#20568)](https://github.com/risingwavelabs/risingwave/pull/20568)
 - `895412bfb14cdc030ef8e381b68491c95f7a4dfe` [ci: fix iceberg labeller #21199 (#21204)](https://github.com/risingwavelabs/risingwave/pull/21204)
