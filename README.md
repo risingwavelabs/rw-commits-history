@@ -198,6 +198,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e33e5a85331419afa2e0e02cf80b5788b0b50a1b` [chore: add cursor rules for basic building, running and testing (#21205)](https://github.com/risingwavelabs/risingwave/pull/21205)
+- `b936b992e86dd5ef944b0e4a63e77f3836d258a1` [feat: support streaming iceberg source (#20568)](https://github.com/risingwavelabs/risingwave/pull/20568)
 - `895412bfb14cdc030ef8e381b68491c95f7a4dfe` [ci: fix iceberg labeller #21199 (#21204)](https://github.com/risingwavelabs/risingwave/pull/21204)
 - `ac5f3f7d3c3098ee9120f4a229b3b14871ebc8d8` [chore: disable exactly once for iceberg table engine (#21198)](https://github.com/risingwavelabs/risingwave/pull/21198)
 - `4986eb4f45d80ed79b8e1c95e0a722a47467e0d7` [ci: run iceberg tests if title contains iceberg (#21199)](https://github.com/risingwavelabs/risingwave/pull/21199)
