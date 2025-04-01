@@ -198,6 +198,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3e920bd5874e2060f741ffe0178ba20dfc51a099` [chore(deps): Bump mongodb from 2 to 3 (#21159)](https://github.com/risingwavelabs/risingwave/pull/21159)
 - `01f94dd58cbfe710c8f38a62afab8d886edab7f2` [chore(deps): Bump duration-str from 0.16.1 to 0.17.0 (#21190)](https://github.com/risingwavelabs/risingwave/pull/21190)
 - `b0b13798518140d6181593ded998db31b6257b5e` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.8 to 0.0.9 (#21191)](https://github.com/risingwavelabs/risingwave/pull/21191)
 - `80aadbc486cb7981bdded25ed7a726b64f95180b` [chore(deps): Bump crate-ci/typos from 1.30.3 to 1.31.1 (#21192)](https://github.com/risingwavelabs/risingwave/pull/21192)
