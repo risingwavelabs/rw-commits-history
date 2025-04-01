@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250401` `df56dbc87e6902d5f8986fd44867cc9bd1102225`
 - `20250331` `45e412328a35ae17dd67c3b6a7c766c1cb62032e`
 - `20250330` `f1cde2e6f0d295aa735911e7a50ac7b138a399de`
 - `20250329` `db881a877e4a0d9bb886695d8f78b715d016a1c6`
@@ -198,6 +199,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250401
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/45e412328a35ae17dd67c3b6a7c766c1cb62032e...df56dbc87e6902d5f8986fd44867cc9bd1102225)
 - `df56dbc87e6902d5f8986fd44867cc9bd1102225` [fix(snapshot-backfill): reproduce snapshot backfill test timeout (#21200)](https://github.com/risingwavelabs/risingwave/pull/21200)
 - `7f11530f8d77c19f2a66744ab13e579ac711294f` [feat(stream): add dedicated metrics for sync log store (#20907)](https://github.com/risingwavelabs/risingwave/pull/20907)
 - `b9a1d21670a42bd7d2d88df84de46661ae037b31` [feat(stream): add executor id to `ExecutorInfo` (#21165)](https://github.com/risingwavelabs/risingwave/pull/21165)
