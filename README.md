@@ -198,6 +198,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4986eb4f45d80ed79b8e1c95e0a722a47467e0d7` [ci: run iceberg tests if title contains iceberg (#21199)](https://github.com/risingwavelabs/risingwave/pull/21199)
+- `f560ef30bcc679a5881159fde93194b57b2f58ae` [chore(deps): Bump opentelemetry group (#21068)](https://github.com/risingwavelabs/risingwave/pull/21068)
 - `3e920bd5874e2060f741ffe0178ba20dfc51a099` [chore(deps): Bump mongodb from 2 to 3 (#21159)](https://github.com/risingwavelabs/risingwave/pull/21159)
 - `01f94dd58cbfe710c8f38a62afab8d886edab7f2` [chore(deps): Bump duration-str from 0.16.1 to 0.17.0 (#21190)](https://github.com/risingwavelabs/risingwave/pull/21190)
 - `b0b13798518140d6181593ded998db31b6257b5e` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.8 to 0.0.9 (#21191)](https://github.com/risingwavelabs/risingwave/pull/21191)
