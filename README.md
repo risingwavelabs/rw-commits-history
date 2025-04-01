@@ -198,6 +198,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `01f94dd58cbfe710c8f38a62afab8d886edab7f2` [chore(deps): Bump duration-str from 0.16.1 to 0.17.0 (#21190)](https://github.com/risingwavelabs/risingwave/pull/21190)
+- `b0b13798518140d6181593ded998db31b6257b5e` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.8 to 0.0.9 (#21191)](https://github.com/risingwavelabs/risingwave/pull/21191)
+- `80aadbc486cb7981bdded25ed7a726b64f95180b` [chore(deps): Bump crate-ci/typos from 1.30.3 to 1.31.1 (#21192)](https://github.com/risingwavelabs/risingwave/pull/21192)
 - `558487a650cb63e93f957bb38878cc4401cb9d54` [refactor(license): check license for disk cache and data refill (#21176)](https://github.com/risingwavelabs/risingwave/pull/21176)
 - `30cb916f6b52aa1cae65eb3bdbdafe0ce8724398` [chore: move executor test_utils.rs to a separate dir (#21194)](https://github.com/risingwavelabs/risingwave/pull/21194)
 - `a0c2ab75a6c95ead3142199b00d9375638a07b3f` [chore(deps): Bump tonic-build from 0.12.2 to 0.12.3 in the tonic group (#21128)](https://github.com/risingwavelabs/risingwave/pull/21128)
