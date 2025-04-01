@@ -198,6 +198,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `df56dbc87e6902d5f8986fd44867cc9bd1102225` [fix(snapshot-backfill): reproduce snapshot backfill test timeout (#21200)](https://github.com/risingwavelabs/risingwave/pull/21200)
 - `7f11530f8d77c19f2a66744ab13e579ac711294f` [feat(stream): add dedicated metrics for sync log store (#20907)](https://github.com/risingwavelabs/risingwave/pull/20907)
 - `b9a1d21670a42bd7d2d88df84de46661ae037b31` [feat(stream): add executor id to `ExecutorInfo` (#21165)](https://github.com/risingwavelabs/risingwave/pull/21165)
 - `c5764d46e01dc55cffdabec87fce4c1a3b493fbd` [refactor(sink): dedicated log sink for coordinator sink (#21140)](https://github.com/risingwavelabs/risingwave/pull/21140)
