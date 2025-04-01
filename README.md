@@ -198,6 +198,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `895412bfb14cdc030ef8e381b68491c95f7a4dfe` [ci: fix iceberg labeller #21199 (#21204)](https://github.com/risingwavelabs/risingwave/pull/21204)
 - `ac5f3f7d3c3098ee9120f4a229b3b14871ebc8d8` [chore: disable exactly once for iceberg table engine (#21198)](https://github.com/risingwavelabs/risingwave/pull/21198)
 - `4986eb4f45d80ed79b8e1c95e0a722a47467e0d7` [ci: run iceberg tests if title contains iceberg (#21199)](https://github.com/risingwavelabs/risingwave/pull/21199)
 - `f560ef30bcc679a5881159fde93194b57b2f58ae` [chore(deps): Bump opentelemetry group (#21068)](https://github.com/risingwavelabs/risingwave/pull/21068)
