@@ -198,6 +198,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `558487a650cb63e93f957bb38878cc4401cb9d54` [refactor(license): check license for disk cache and data refill (#21176)](https://github.com/risingwavelabs/risingwave/pull/21176)
 - `30cb916f6b52aa1cae65eb3bdbdafe0ce8724398` [chore: move executor test_utils.rs to a separate dir (#21194)](https://github.com/risingwavelabs/risingwave/pull/21194)
 - `a0c2ab75a6c95ead3142199b00d9375638a07b3f` [chore(deps): Bump tonic-build from 0.12.2 to 0.12.3 in the tonic group (#21128)](https://github.com/risingwavelabs/risingwave/pull/21128)
 - `b06066e5279e0164ba9bbf850563754ff158549f` [chore: Optimize `fragment_ids` retrieval in `scale.rs` by using `select_only()` to boost performance. (#21182)](https://github.com/risingwavelabs/risingwave/pull/21182)
