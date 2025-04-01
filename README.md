@@ -199,6 +199,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5baa3c3db0761865bbd6d5ae4578b30a23ff87ad` [feat(stream): limit sync log store flushed item read size + only pause on checkpoint barrier (#20908)](https://github.com/risingwavelabs/risingwave/pull/20908)
 
 ## nightly-20250401
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/45e412328a35ae17dd67c3b6a7c766c1cb62032e...df56dbc87e6902d5f8986fd44867cc9bd1102225)
