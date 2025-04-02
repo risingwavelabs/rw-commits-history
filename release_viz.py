@@ -190,7 +190,11 @@ def get_releases_for_version(version):
     """Get all releases for a specific version."""
     releases = []
     for release in repo.get_releases():
-        if release.tag_name.startswith(f"v{version}."):
+        if (
+            release.tag_name.startswith(f"v{version}.")
+            and "rc" not in release.tag_name
+            and "single-node" not in release.tag_name
+        ):
             releases.append(release)
 
     # Sort releases by creation date
@@ -207,9 +211,6 @@ def process_branch_data(branch_tuple, repo_path=None):
     """Process data for a single branch concurrently."""
     version, branch = branch_tuple
     releases = get_releases_for_version(version)
-
-    if not releases:
-        return None
 
     branch_creation = get_branch_creation_date(branch.name, repo_path)
     first_release = releases[0].created_at if releases else None
@@ -423,8 +424,12 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
             )
 
     # 绘制版本标签
-    for i, data in enumerate(release_data):
-        version = f"v{data['version']}"
+    for i in range(len(release_data)):
+        data = release_data[i]
+        if i == len(release_data) - 1:
+            version = "main"
+        else:
+            version = f"v{release_data[i+1]['version']}"
         # 使用代码冻结日期的x坐标来对齐版本号
         if data["branch_creation"]:
             x = normalize_date(data["branch_creation"])
@@ -435,9 +440,6 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
                 font=big_font,
                 fill=TEXT_COLOR,
             )
-
-    # 绘制main标签
-    draw.text((width - 120, header_height - 40), "main", font=big_font, fill=TEXT_COLOR)
 
     # 绘制每个版本的时间线
     for i, data in enumerate(release_data):
@@ -455,19 +457,22 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
 
         if branch_created_x and last_commit_x:
             # 1. Code freeze period
-            if branch_created_x and first_release_x:
+            if branch_created_x:
+                end = first_release_x if first_release_x else last_commit_x
+                data_end = (
+                    data["first_release"] if first_release_x else data["last_commit"]
+                )
                 draw.rectangle(
-                    [branch_created_x, bar_top, first_release_x, bar_bottom],
+                    [branch_created_x, bar_top, end, bar_bottom],
                     fill=BRANCH_COLOR,
                     outline=None,
                 )
-                days = days_between(data["branch_creation"], data["first_release"])
+                days = days_between(data["branch_creation"], data_end)
                 if days is not None:
                     text = f"{days}d"
                     text_width = draw.textlength(text, font=small_font)
                     text_x = (
-                        branch_created_x
-                        + (first_release_x - branch_created_x - text_width) / 2
+                        branch_created_x + (end - branch_created_x - text_width) / 2
                     )
                     text_y = bar_top - 25  # 保持在上方
                     draw.text(
