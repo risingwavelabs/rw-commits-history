@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250402` `b3ceb54fa84a84c0c686e8673d22a4b04eb55bed`
 - `20250401` `df56dbc87e6902d5f8986fd44867cc9bd1102225`
 - `20250331` `45e412328a35ae17dd67c3b6a7c766c1cb62032e`
 - `20250330` `f1cde2e6f0d295aa735911e7a50ac7b138a399de`
@@ -199,6 +200,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250402
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/df56dbc87e6902d5f8986fd44867cc9bd1102225...b3ceb54fa84a84c0c686e8673d22a4b04eb55bed)
 - `b3ceb54fa84a84c0c686e8673d22a4b04eb55bed` [fix(frontend): fix metric keys for explain analyze (#21223)](https://github.com/risingwavelabs/risingwave/pull/21223)
 - `ca6e63ac1da89f2ebaa756d12b7c5a0ca5c7c054` [chore: use cmake 3.31 to avoid cmake 4.0.0 compiling issue (#21180) (#21222)](https://github.com/risingwavelabs/risingwave/pull/21222)
 - `edbdb7f946c36b6f376ffd7085eaa20d0d6a6a06` [chore: fix release upload connector repeatedly (#21217)](https://github.com/risingwavelabs/risingwave/pull/21217)
