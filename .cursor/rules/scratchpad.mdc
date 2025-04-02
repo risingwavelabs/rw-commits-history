@@ -6,3 +6,24 @@ Create a visualization to track risingwavelabs/risingwave release progress, show
 2. First release (e.g., v2.0.1)
 3. Last patch release (e.g., v2.0.6)
 4. Last commit in the release branch (e.g., HEAD of release-2.0)
+
+## Current Task: Fix Git Command Issues in CI
+[X] Fix git merge-base command failures in CI environment
+- Issue: git commands failing in /tmp directory
+- Root cause: Incorrect git repository path handling in temporary directory
+- Solution: Modified git clone and command execution:
+  1. Changed from bare clone to no-checkout clone for better branch handling
+  2. Fixed repository path to use a subdirectory in temp directory
+  3. Added explicit fetch of all branches
+  4. Simplified remote reference handling
+
+## Current Task: Fix Multiple Repository Clones Issue
+[X] Fix inefficient repository cloning in ThreadPoolExecutor
+- Issue: Each thread is cloning the repository independently
+- Root cause: Repository cloning is inside the thread function
+- Solution implemented:
+  1. Moved repository cloning to before ThreadPoolExecutor creation
+  2. Added repo_path parameter to get_branch_creation_date and process_branch_data
+  3. Improved error handling and repository path management
+  4. Cleanup happens after all threads are done
+  5. Maintained backward compatibility with local repository usage
