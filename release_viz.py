@@ -83,7 +83,7 @@ def get_release_branches():
     return branches
 
 
-def get_branch_creation_date(branch_name):
+def get_branch_creation_date(branch_name, repo_path=None):
     """Get the date when the branch was created (merge-base with main)."""
     try:
         # 使用git命令获取merge-base（分支创建点）
@@ -91,49 +91,35 @@ def get_branch_creation_date(branch_name):
 
         # 检查是否有本地仓库路径
         local_repo_path = os.path.expanduser("../risingwave")
-        using_temp_dir = False
-        temp_dir = None
+        using_local_repo = False
 
-        if os.path.exists(local_repo_path) and os.path.isdir(
+        if repo_path:
+            # 使用传入的仓库路径
+            actual_repo_path = repo_path
+            debug_print(f"Using provided repository at: {actual_repo_path}")
+        elif os.path.exists(local_repo_path) and os.path.isdir(
             os.path.join(local_repo_path, ".git")
         ):
             # 使用本地仓库
-            repo_path = local_repo_path
-            debug_print(f"Using local repository at: {repo_path}")
+            actual_repo_path = local_repo_path
+            using_local_repo = True
+            debug_print(f"Using local repository at: {actual_repo_path}")
         else:
-            # 创建临时目录并克隆仓库
-            using_temp_dir = True
-            temp_dir = tempfile.mkdtemp()
-            repo_path = temp_dir
-            debug_print(f"Local repo not found, creating temp directory: {temp_dir}")
-
-            # 只clone必要的信息（不包含文件内容，节省时间和空间）
-            debug_print("Cloning repository (bare clone)...")
-            subprocess.run(
-                [
-                    "git",
-                    "clone",
-                    "--bare",
-                    "https://github.com/risingwavelabs/risingwave.git",
-                    temp_dir,
-                ],
-                check=True,
-                capture_output=True,
+            raise ValueError(
+                "No repository path provided and no local repository found"
             )
 
         try:
             # 获取merge-base
             debug_print(f"Finding merge-base between {branch_name} and main...")
-            remote_prefix = "origin/" if using_temp_dir else "origin/"
-
             result = subprocess.run(
                 [
                     "git",
                     "-C",
-                    repo_path,
+                    actual_repo_path,
                     "merge-base",
-                    f"{remote_prefix}{branch_name}",
-                    f"{remote_prefix}main",
+                    f"origin/{branch_name}",
+                    "origin/main",
                 ],
                 check=True,
                 capture_output=True,
@@ -144,7 +130,15 @@ def get_branch_creation_date(branch_name):
 
             # 获取该提交的时间
             result = subprocess.run(
-                ["git", "-C", repo_path, "show", "-s", "--format=%ci", merge_base_sha],
+                [
+                    "git",
+                    "-C",
+                    actual_repo_path,
+                    "show",
+                    "-s",
+                    "--format=%ci",
+                    merge_base_sha,
+                ],
                 check=True,
                 capture_output=True,
                 text=True,
@@ -158,11 +152,8 @@ def get_branch_creation_date(branch_name):
 
             return commit_date
 
-        finally:
-            # 如果使用临时目录，需要清理
-            if using_temp_dir and temp_dir:
-                debug_print(f"Cleaning up temp directory: {temp_dir}")
-                shutil.rmtree(temp_dir)
+        except Exception as e:
+            raise e
 
     except Exception as e:
         print(f"Error getting branch creation date for {branch_name}: {e}")
@@ -199,7 +190,11 @@ def get_releases_for_version(version):
     """Get all releases for a specific version."""
     releases = []
     for release in repo.get_releases():
-        if release.tag_name.startswith(f"v{version}."):
+        if (
+            release.tag_name.startswith(f"v{version}.")
+            and "rc" not in release.tag_name
+            and "single-node" not in release.tag_name
+        ):
             releases.append(release)
 
     # Sort releases by creation date
@@ -212,15 +207,12 @@ def get_last_commit_in_branch(branch):
     return branch.commit.commit.author.date
 
 
-def process_branch_data(branch_tuple):
+def process_branch_data(branch_tuple, repo_path=None):
     """Process data for a single branch concurrently."""
     version, branch = branch_tuple
     releases = get_releases_for_version(version)
 
-    if not releases:
-        return None
-
-    branch_creation = get_branch_creation_date(branch.name)
+    branch_creation = get_branch_creation_date(branch.name, repo_path)
     first_release = releases[0].created_at if releases else None
     last_release = releases[-1].created_at if releases else None
     last_commit = get_last_commit_in_branch(branch)
@@ -242,26 +234,72 @@ def generate_timeline_data():
     branches = get_release_branches()
     release_data = []
 
-    # 使用线程池并发处理每个分支的数据
-    with ThreadPoolExecutor(max_workers=len(branches)) as executor:
-        # 提交所有任务
-        future_to_branch = {
-            executor.submit(process_branch_data, branch_tuple): branch_tuple[0]
-            for branch_tuple in branches
-        }
+    # 在线程池外克隆仓库
+    temp_dir = None
+    repo_path = None
+    try:
+        # 检查是否有本地仓库
+        local_repo_path = os.path.expanduser("../risingwave")
+        if os.path.exists(local_repo_path) and os.path.isdir(
+            os.path.join(local_repo_path, ".git")
+        ):
+            repo_path = local_repo_path
+            debug_print(f"Using local repository at: {repo_path}")
+        else:
+            # 创建临时目录并克隆仓库
+            temp_dir = tempfile.mkdtemp()
+            repo_path = os.path.join(temp_dir, "risingwave")
+            debug_print(f"Creating temp directory for repository: {temp_dir}")
 
-        # 使用tqdm显示进度
-        with tqdm(total=len(branches), desc="Fetching release data") as pbar:
-            # 处理完成的任务
-            for future in as_completed(future_to_branch):
-                version = future_to_branch[future]
-                try:
-                    data = future.result()
-                    if data:
-                        release_data.append(data)
-                except Exception as e:
-                    print(f"Error processing version {version}: {e}")
-                pbar.update(1)
+            # Clone the repository with all branches but without checking out
+            debug_print("Cloning repository...")
+            subprocess.run(
+                [
+                    "git",
+                    "clone",
+                    "--no-checkout",
+                    "https://github.com/risingwavelabs/risingwave.git",
+                    repo_path,
+                ],
+                check=True,
+                capture_output=True,
+            )
+
+            # Fetch all branches
+            subprocess.run(
+                ["git", "-C", repo_path, "fetch", "--all"],
+                check=True,
+                capture_output=True,
+            )
+
+        # 使用线程池并发处理每个分支的数据
+        with ThreadPoolExecutor(max_workers=len(branches)) as executor:
+            # 提交所有任务，传入repo_path
+            future_to_branch = {
+                executor.submit(
+                    process_branch_data, branch_tuple, repo_path
+                ): branch_tuple[0]
+                for branch_tuple in branches
+            }
+
+            # 使用tqdm显示进度
+            with tqdm(total=len(branches), desc="Fetching release data") as pbar:
+                # 处理完成的任务
+                for future in as_completed(future_to_branch):
+                    version = future_to_branch[future]
+                    try:
+                        data = future.result()
+                        if data:
+                            release_data.append(data)
+                    except Exception as e:
+                        print(f"Error processing version {version}: {e}")
+                    pbar.update(1)
+
+    finally:
+        # 清理临时目录
+        if temp_dir:
+            debug_print(f"Cleaning up temp directory: {temp_dir}")
+            shutil.rmtree(temp_dir)
 
     # 按版本排序
     release_data.sort(key=lambda x: [int(n) for n in x["version"].split(".")])
@@ -386,8 +424,12 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
             )
 
     # 绘制版本标签
-    for i, data in enumerate(release_data):
-        version = f"v{data['version']}"
+    for i in range(len(release_data)):
+        data = release_data[i]
+        if i == len(release_data) - 1:
+            version = "main"
+        else:
+            version = f"v{release_data[i+1]['version']}"
         # 使用代码冻结日期的x坐标来对齐版本号
         if data["branch_creation"]:
             x = normalize_date(data["branch_creation"])
@@ -398,9 +440,6 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
                 font=big_font,
                 fill=TEXT_COLOR,
             )
-
-    # 绘制main标签
-    draw.text((width - 120, header_height - 40), "main", font=big_font, fill=TEXT_COLOR)
 
     # 绘制每个版本的时间线
     for i, data in enumerate(release_data):
@@ -418,19 +457,22 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
 
         if branch_created_x and last_commit_x:
             # 1. Code freeze period
-            if branch_created_x and first_release_x:
+            if branch_created_x:
+                end = first_release_x if first_release_x else last_commit_x
+                data_end = (
+                    data["first_release"] if first_release_x else data["last_commit"]
+                )
                 draw.rectangle(
-                    [branch_created_x, bar_top, first_release_x, bar_bottom],
+                    [branch_created_x, bar_top, end, bar_bottom],
                     fill=BRANCH_COLOR,
                     outline=None,
                 )
-                days = days_between(data["branch_creation"], data["first_release"])
+                days = days_between(data["branch_creation"], data_end)
                 if days is not None:
                     text = f"{days}d"
                     text_width = draw.textlength(text, font=small_font)
                     text_x = (
-                        branch_created_x
-                        + (first_release_x - branch_created_x - text_width) / 2
+                        branch_created_x + (end - branch_created_x - text_width) / 2
                     )
                     text_y = bar_top - 25  # 保持在上方
                     draw.text(
@@ -480,6 +522,37 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
                     draw.text(
                         (text_x, text_y), text, font=small_font, fill=TEXT_COLOR_LIGHT
                     )
+
+    # Draw legend in the bottom left corner
+    legend_x = 50
+    legend_y = height - 120  # 120 pixels from bottom
+    legend_box_width = 30
+    legend_box_height = 20
+    legend_text_offset = 40
+    legend_spacing = 40
+
+    # Draw legend boxes and labels
+    legend_items = [
+        (BRANCH_COLOR, "Pre-Release Period:  code freeze ~ first release"),
+        (ACTIVE_COLOR, "Release Period:      first release ~ last patch release"),
+        (RELEASE_COLOR, "Maintenance Period: last patch release ~ last commit"),
+    ]
+
+    for i, (color, label) in enumerate(legend_items):
+        # Draw colored rectangle
+        box_y = legend_y + i * legend_spacing
+        draw.rectangle(
+            [legend_x, box_y, legend_x + legend_box_width, box_y + legend_box_height],
+            fill=color,
+            outline=None,
+        )
+        # Draw label
+        draw.text(
+            (legend_x + legend_box_width + legend_text_offset, box_y + 2),
+            label,
+            font=font,
+            fill=TEXT_COLOR,
+        )
 
     # Save the image
     img.save(output_file)
