@@ -523,6 +523,37 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
                         (text_x, text_y), text, font=small_font, fill=TEXT_COLOR_LIGHT
                     )
 
+    # Draw legend in the bottom left corner
+    legend_x = 50
+    legend_y = height - 120  # 120 pixels from bottom
+    legend_box_width = 30
+    legend_box_height = 20
+    legend_text_offset = 40
+    legend_spacing = 40
+
+    # Draw legend boxes and labels
+    legend_items = [
+        (BRANCH_COLOR, "Pre-Release Period:  code freeze ~ first release"),
+        (ACTIVE_COLOR, "Release Period:      first release ~ last patch release"),
+        (RELEASE_COLOR, "Maintenance Period: last patch release ~ last commit"),
+    ]
+
+    for i, (color, label) in enumerate(legend_items):
+        # Draw colored rectangle
+        box_y = legend_y + i * legend_spacing
+        draw.rectangle(
+            [legend_x, box_y, legend_x + legend_box_width, box_y + legend_box_height],
+            fill=color,
+            outline=None,
+        )
+        # Draw label
+        draw.text(
+            (legend_x + legend_box_width + legend_text_offset, box_y + 2),
+            label,
+            font=font,
+            fill=TEXT_COLOR,
+        )
+
     # Save the image
     img.save(output_file)
     print(f"Visualization saved to {output_file}")

@@ -20,7 +20,7 @@ jobs:
         run: pip install --requirement=requirements.txt
       - name: Generate commits history
         run: |
-          python gen.py > README.md
+          python gen.py > commits_history.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILDKITE_TOKEN: ${{ secrets.BUILDKITE_TOKEN }}
