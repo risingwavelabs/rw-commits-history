@@ -17,16 +17,23 @@ jobs:
       - uses: actions/checkout@v3
       - name: Install dependencies
         run: pip install --requirement=requirements.txt
-      - run: |
+      - name: Generate commits history
+        run: |
           python gen.py > README.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILDKITE_TOKEN: ${{ secrets.BUILDKITE_TOKEN }}
+
+      - name: Generate release visualization
+        run: |
+          python release_viz.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Show diff
         run: git diff
   
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: update commits history
+          commit_message: update commits history and release visualization
           commit_author: github-actions[bot] <actions@github.com>

@@ -1,0 +1,37 @@
+# Lessons for the RisingWave Release Progress Project
+
+## Libraries
+- PyGithub: Used for GitHub API interaction
+  - `repo.get_commits()` does NOT support a `search` parameter - need to fetch commits and filter manually
+- pybuildkite: Used for BuildKite API interaction
+
+## Package Management
+- uv: Preferred package manager (instead of pip)
+  - `uv pip install`: Used for package installation
+  - `uv run`: Used to run Python scripts directly
+
+## GitHub API Notes
+- Avoid using `repo.merge()` as it attempts to actually merge branches and can cause merge conflicts
+- For branch creation date calculation:
+  - Best approach: Use git's `merge-base` command directly via subprocess
+  - First check for local repository (../risingwave) to avoid unnecessary cloning
+  - Only clone bare repository to temp directory if local repo not found
+  - Use proper exception handling with finally blocks for cleanup
+  - Ensure conditional cleanup only for temp directories that were created
+
+## Error handling:
+  - Add try/except blocks around GitHub API calls to handle unexpected errors
+  - Provide meaningful fallback behavior when API calls fail
+  - For temporary directories, always use a finally block to ensure cleanup
+  - Use flags like `using_temp_dir` to track resource allocation
+
+## UI/UX Improvements:
+  - Date formatting: Use `strftime('%b %d, %Y')` for more readable dates (e.g., "Apr 02, 2024" instead of "2024-04-02")
+  - HTML tables: Add alternating row colors, padding, and text formatting for better readability
+  - Markdown tables: Use left-aligned columns (`:---`) and HTML formatting elements like `<br>` and `**bold**` for better presentation
+
+## Project-specific Notes
+- This project aims to visualize release progress for risingwavelabs/risingwave repository
+- Key timestamps to track: branch creation, first release, last patch release, last commit
+- Local development should prefer existing repositories when available
+- CI environments will automatically use the clone functionality 
