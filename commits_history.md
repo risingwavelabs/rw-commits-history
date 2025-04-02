@@ -199,6 +199,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1dcbd2dbfe8265b7baf71045e5b6d1b56895bc76` [chore(ci): deprecate `cherry-pick-to-release` in favor of `since` (#21206)](https://github.com/risingwavelabs/risingwave/pull/21206)
 - `3df9549d603b98d8c8fd0a02bb83e304463b7264` [chore(deps): Bump aws-lc-rs from 1.12.1 to 1.13.0 in the aws group (#21215)](https://github.com/risingwavelabs/risingwave/pull/21215)
 - `abcc858fbf4c6fb4ead64de2a793d689b9a99505` [fix(test): ban non-decoupled exactly once sink and enhance iceberg engine test  (#21202)](https://github.com/risingwavelabs/risingwave/pull/21202)
 - `b4d9de3a2d90741c5cb21a359219d298213cadd9` [refactor(frontend,stream): store metrics at an executor level rather than operator level (#21166)](https://github.com/risingwavelabs/risingwave/pull/21166)
