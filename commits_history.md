@@ -199,6 +199,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b3ceb54fa84a84c0c686e8673d22a4b04eb55bed` [fix(frontend): fix metric keys for explain analyze (#21223)](https://github.com/risingwavelabs/risingwave/pull/21223)
+- `ca6e63ac1da89f2ebaa756d12b7c5a0ca5c7c054` [chore: use cmake 3.31 to avoid cmake 4.0.0 compiling issue (#21180) (#21222)](https://github.com/risingwavelabs/risingwave/pull/21222)
 - `edbdb7f946c36b6f376ffd7085eaa20d0d6a6a06` [chore: fix release upload connector repeatedly (#21217)](https://github.com/risingwavelabs/risingwave/pull/21217)
 - `1dcbd2dbfe8265b7baf71045e5b6d1b56895bc76` [chore(ci): deprecate `cherry-pick-to-release` in favor of `since` (#21206)](https://github.com/risingwavelabs/risingwave/pull/21206)
 - `3df9549d603b98d8c8fd0a02bb83e304463b7264` [chore(deps): Bump aws-lc-rs from 1.12.1 to 1.13.0 in the aws group (#21215)](https://github.com/risingwavelabs/risingwave/pull/21215)
