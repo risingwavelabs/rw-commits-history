@@ -199,6 +199,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `abcc858fbf4c6fb4ead64de2a793d689b9a99505` [fix(test): ban non-decoupled exactly once sink and enhance iceberg engine test  (#21202)](https://github.com/risingwavelabs/risingwave/pull/21202)
 - `b4d9de3a2d90741c5cb21a359219d298213cadd9` [refactor(frontend,stream): store metrics at an executor level rather than operator level (#21166)](https://github.com/risingwavelabs/risingwave/pull/21166)
 - `5baa3c3db0761865bbd6d5ae4578b30a23ff87ad` [feat(stream): limit sync log store flushed item read size + only pause on checkpoint barrier (#20908)](https://github.com/risingwavelabs/risingwave/pull/20908)
 
