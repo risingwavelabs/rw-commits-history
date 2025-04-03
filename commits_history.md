@@ -200,6 +200,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `80ad7dfb0719f3fe67db4501a21c8a851719859e` [feat: mongo parse strong schema (#20100)](https://github.com/risingwavelabs/risingwave/pull/20100)
 - `69d2c0eb7ed01e90429b9271cfec8f43ca57eba5` [refactor: increase default time_travel_version_cache_capacity (#21219)](https://github.com/risingwavelabs/risingwave/pull/21219)
 - `293088b5607d12a8f6393ab8f73ff12fa0a71cab` [refactor(e2e, udf): reorganize udf e2e tests, again... (#21226)](https://github.com/risingwavelabs/risingwave/pull/21226)
 
