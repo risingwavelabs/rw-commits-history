@@ -200,6 +200,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c8bcb15219e2919f15a815f8edd90f77b3da5a12` [fix(iceberg): check sink decouple for iceberg engine (#21235)](https://github.com/risingwavelabs/risingwave/pull/21235)
 - `63c36958904d850225a3e69d5f6892f5ae0a4bea` [feat(frontend): support dispatcher metrics for explain analyze (#21227)](https://github.com/risingwavelabs/risingwave/pull/21227)
 - `80ad7dfb0719f3fe67db4501a21c8a851719859e` [feat: mongo parse strong schema (#20100)](https://github.com/risingwavelabs/risingwave/pull/20100)
 - `69d2c0eb7ed01e90429b9271cfec8f43ca57eba5` [refactor: increase default time_travel_version_cache_capacity (#21219)](https://github.com/risingwavelabs/risingwave/pull/21219)
