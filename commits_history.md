@@ -200,6 +200,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `293088b5607d12a8f6393ab8f73ff12fa0a71cab` [refactor(e2e, udf): reorganize udf e2e tests, again... (#21226)](https://github.com/risingwavelabs/risingwave/pull/21226)
 
 ## nightly-20250402
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/df56dbc87e6902d5f8986fd44867cc9bd1102225...b3ceb54fa84a84c0c686e8673d22a4b04eb55bed)
