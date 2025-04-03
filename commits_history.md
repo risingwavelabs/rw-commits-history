@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250403` `c8bcb15219e2919f15a815f8edd90f77b3da5a12`
 - `20250402` `b3ceb54fa84a84c0c686e8673d22a4b04eb55bed`
 - `20250401` `df56dbc87e6902d5f8986fd44867cc9bd1102225`
 - `20250331` `45e412328a35ae17dd67c3b6a7c766c1cb62032e`
@@ -200,6 +201,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d75c7654ec035eea8b60e3d26d3de8e565cb3340` [refactor(frontend): use ns granularity for blocking duration inside explain analyze (#21228)](https://github.com/risingwavelabs/risingwave/pull/21228)
+
+## nightly-20250403
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b3ceb54fa84a84c0c686e8673d22a4b04eb55bed...c8bcb15219e2919f15a815f8edd90f77b3da5a12)
 - `c8bcb15219e2919f15a815f8edd90f77b3da5a12` [fix(iceberg): check sink decouple for iceberg engine (#21235)](https://github.com/risingwavelabs/risingwave/pull/21235)
 - `63c36958904d850225a3e69d5f6892f5ae0a4bea` [feat(frontend): support dispatcher metrics for explain analyze (#21227)](https://github.com/risingwavelabs/risingwave/pull/21227)
 - `80ad7dfb0719f3fe67db4501a21c8a851719859e` [feat: mongo parse strong schema (#20100)](https://github.com/risingwavelabs/risingwave/pull/20100)
