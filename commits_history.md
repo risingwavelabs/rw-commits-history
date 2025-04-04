@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250404` `d75c7654ec035eea8b60e3d26d3de8e565cb3340`
 - `20250403` `c8bcb15219e2919f15a815f8edd90f77b3da5a12`
 - `20250402` `b3ceb54fa84a84c0c686e8673d22a4b04eb55bed`
 - `20250401` `df56dbc87e6902d5f8986fd44867cc9bd1102225`
@@ -201,6 +202,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250404
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c8bcb15219e2919f15a815f8edd90f77b3da5a12...d75c7654ec035eea8b60e3d26d3de8e565cb3340)
 - `d75c7654ec035eea8b60e3d26d3de8e565cb3340` [refactor(frontend): use ns granularity for blocking duration inside explain analyze (#21228)](https://github.com/risingwavelabs/risingwave/pull/21228)
 
 ## nightly-20250403
