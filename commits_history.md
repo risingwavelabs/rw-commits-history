@@ -202,6 +202,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `40be3a78386fdb927950fcecb8f9d7548a4c9792` [refactor(sink): remove sink coordination from starrocks sink (#21118)](https://github.com/risingwavelabs/risingwave/pull/21118)
 - `dc444565486bab2fc9d624ad4945e4d749ccc80c` [fix: panic when migrate_splits_for_source_actors (#21237)](https://github.com/risingwavelabs/risingwave/pull/21237)
 
 ## nightly-20250404
