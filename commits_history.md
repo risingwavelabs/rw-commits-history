@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250405` `40be3a78386fdb927950fcecb8f9d7548a4c9792`
 - `20250404` `d75c7654ec035eea8b60e3d26d3de8e565cb3340`
 - `20250403` `c8bcb15219e2919f15a815f8edd90f77b3da5a12`
 - `20250402` `b3ceb54fa84a84c0c686e8673d22a4b04eb55bed`
@@ -202,6 +203,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250405
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d75c7654ec035eea8b60e3d26d3de8e565cb3340...40be3a78386fdb927950fcecb8f9d7548a4c9792)
 - `40be3a78386fdb927950fcecb8f9d7548a4c9792` [refactor(sink): remove sink coordination from starrocks sink (#21118)](https://github.com/risingwavelabs/risingwave/pull/21118)
 - `dc444565486bab2fc9d624ad4945e4d749ccc80c` [fix: panic when migrate_splits_for_source_actors (#21237)](https://github.com/risingwavelabs/risingwave/pull/21237)
 
