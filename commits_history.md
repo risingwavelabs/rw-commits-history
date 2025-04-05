@@ -202,6 +202,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dc444565486bab2fc9d624ad4945e4d749ccc80c` [fix: panic when migrate_splits_for_source_actors (#21237)](https://github.com/risingwavelabs/risingwave/pull/21237)
 
 ## nightly-20250404
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c8bcb15219e2919f15a815f8edd90f77b3da5a12...d75c7654ec035eea8b60e3d26d3de8e565cb3340)
