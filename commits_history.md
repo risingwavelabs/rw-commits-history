@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250406` `3de27c5f972866f559a7e141e01dd3d72c81dada`
 - `20250405` `40be3a78386fdb927950fcecb8f9d7548a4c9792`
 - `20250404` `d75c7654ec035eea8b60e3d26d3de8e565cb3340`
 - `20250403` `c8bcb15219e2919f15a815f8edd90f77b3da5a12`
@@ -202,6 +203,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250406
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/40be3a78386fdb927950fcecb8f9d7548a4c9792...3de27c5f972866f559a7e141e01dd3d72c81dada)
 - `3de27c5f972866f559a7e141e01dd3d72c81dada` [feat(e2e, udf): add complex udf tests (#21246)](https://github.com/risingwavelabs/risingwave/pull/21246)
 
 ## nightly-20250405
