@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `63c4059d52de19bc4e4cb338ccace47ed98190f5` [fix: enhance resource group handling and add e2e test case (#21249)](https://github.com/risingwavelabs/risingwave/pull/21249)
 
 ## nightly-20250406
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/40be3a78386fdb927950fcecb8f9d7548a4c9792...3de27c5f972866f559a7e141e01dd3d72c81dada)
