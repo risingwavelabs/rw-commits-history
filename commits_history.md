@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d515d6544c12f0c28d693b5fbdbd655f36db571f` [refactor(stream): add seq_id to logstore stream (#21238)](https://github.com/risingwavelabs/risingwave/pull/21238)
 - `63c4059d52de19bc4e4cb338ccace47ed98190f5` [fix: enhance resource group handling and add e2e test case (#21249)](https://github.com/risingwavelabs/risingwave/pull/21249)
 
 ## nightly-20250406
