@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4bfc1657747d36e809fef8fdf1c539502fea31a2` [feat(udf): use `StreamMaterializedExprs` for scalar UDF calls (#21029)](https://github.com/risingwavelabs/risingwave/pull/21029)
 
 ## nightly-20250407
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3de27c5f972866f559a7e141e01dd3d72c81dada...cb111f5bea34483c2f946213178fafa9dd001832)
