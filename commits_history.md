@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cb111f5bea34483c2f946213178fafa9dd001832` [refactor(stream): add vnode to logstore stream (#21239)](https://github.com/risingwavelabs/risingwave/pull/21239)
 - `81411ab5d7676867b9226eb8340ac806b07ca12e` [chore(deps): Bump next from 14.2.25 to 14.2.26 in /dashboard (#21229)](https://github.com/risingwavelabs/risingwave/pull/21229)
 - `96487f22d661f0d1e92a15b4acc4a8bafd07c494` [chore(deps): Bump openssl from 0.10.70 to 0.10.72 (#21244)](https://github.com/risingwavelabs/risingwave/pull/21244)
 - `d515d6544c12f0c28d693b5fbdbd655f36db571f` [refactor(stream): add seq_id to logstore stream (#21238)](https://github.com/risingwavelabs/risingwave/pull/21238)
