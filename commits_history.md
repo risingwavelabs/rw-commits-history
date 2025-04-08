@@ -203,6 +203,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `23aaa32780edb6d860f86e45da333583c05d6baf` [fix: throttle time based warning for kinesis (#21240)](https://github.com/risingwavelabs/risingwave/pull/21240)
+- `3d371d9334ccf66a622bb0509de34aeaba68a17d` [chore: delete legacy deltalake Java code (#21275)](https://github.com/risingwavelabs/risingwave/pull/21275)
+- `cb4ca40cbfd2670c1d53a96e522a302886e3a05d` [chore: remove hard-coded release version and refer to doc (#21220)](https://github.com/risingwavelabs/risingwave/pull/21220)
 - `34e863aa0407a64ed479a5b3a75bf3ac3d221582` [chore(deps): Bump tokio from 1.33.0 to 1.38.2 in /integration_tests/feature-store/simulator (#21268)](https://github.com/risingwavelabs/risingwave/pull/21268)
 - `f09d594b9c8c74454d7f4b85b9e6b559aa449882` [feat(ctl): add API to detect bottleneck actors (#21149)](https://github.com/risingwavelabs/risingwave/pull/21149)
 - `8b549ffe9f98ca627597d675795dcb960c016fb3` [fix: `SHOW CREATE SINK` missing column spec (#21260)](https://github.com/risingwavelabs/risingwave/pull/21260)
