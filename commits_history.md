@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a8e5aeecef48f77955e4a6eafca9676fcc1d79ee` [chore(deps): Bump indexmap from 2.8.0 to 2.9.0 (#21264)](https://github.com/risingwavelabs/risingwave/pull/21264)
 - `4bfc1657747d36e809fef8fdf1c539502fea31a2` [feat(udf): use `StreamMaterializedExprs` for scalar UDF calls (#21029)](https://github.com/risingwavelabs/risingwave/pull/21029)
 
 ## nightly-20250407
