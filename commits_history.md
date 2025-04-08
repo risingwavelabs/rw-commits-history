@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250408` `4cc576837731499a0213d2dc6a1b835dfd208d51`
 - `20250407` `cb111f5bea34483c2f946213178fafa9dd001832`
 - `20250406` `3de27c5f972866f559a7e141e01dd3d72c81dada`
 - `20250405` `40be3a78386fdb927950fcecb8f9d7548a4c9792`
@@ -203,6 +204,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `13838cae3732fc2be1e5259b9897a68bb49e6e6a` [refactor(storage): unify state store trait get method (#20175)](https://github.com/risingwavelabs/risingwave/pull/20175)
+- `54e40644da6ffe901a2be0f2c9535b3e2d0757bc` [feat: retry for requests in schema registry (#21201)](https://github.com/risingwavelabs/risingwave/pull/21201)
+
+## nightly-20250408
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cb111f5bea34483c2f946213178fafa9dd001832...4cc576837731499a0213d2dc6a1b835dfd208d51)
 - `4cc576837731499a0213d2dc6a1b835dfd208d51` [test: fix several integration tests (#21286)](https://github.com/risingwavelabs/risingwave/pull/21286)
 - `aa861be545d6941433413d5b74275554ef131497` [fix: missing KEY ENCODE when display `FormatEncodeOptions` (#21270)](https://github.com/risingwavelabs/risingwave/pull/21270)
 - `0c8b4c343c00be6fc5b4c9937f657eb2320e7bda` [refactor(stream): store shared context in local barrier manager (#21257)](https://github.com/risingwavelabs/risingwave/pull/21257)
