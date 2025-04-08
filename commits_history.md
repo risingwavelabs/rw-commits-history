@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `34e863aa0407a64ed479a5b3a75bf3ac3d221582` [chore(deps): Bump tokio from 1.33.0 to 1.38.2 in /integration_tests/feature-store/simulator (#21268)](https://github.com/risingwavelabs/risingwave/pull/21268)
 - `f09d594b9c8c74454d7f4b85b9e6b559aa449882` [feat(ctl): add API to detect bottleneck actors (#21149)](https://github.com/risingwavelabs/risingwave/pull/21149)
 - `8b549ffe9f98ca627597d675795dcb960c016fb3` [fix: `SHOW CREATE SINK` missing column spec (#21260)](https://github.com/risingwavelabs/risingwave/pull/21260)
 - `70d27d51d62fe2e33b44810770071e0286bac2f1` [chore(deps): Bump smallvec from 1.14.0 to 1.15.0 (#21265)](https://github.com/risingwavelabs/risingwave/pull/21265)
