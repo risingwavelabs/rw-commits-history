@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9adf8f2bd861726ee33320cb0b37fd3c55934480` [test: fix integration test go.mod (#21281)](https://github.com/risingwavelabs/risingwave/pull/21281)
 - `c441e4a3054a95d56d33fc787ceab48c53de61c8` [chore(deps): Bump the all group across 1 directory with 42 updates (#21278)](https://github.com/risingwavelabs/risingwave/pull/21278)
 - `26cd91e99bc35ce682a8725530c561aedb2af88d` [refactor(stream): unify remote and local output (#21256)](https://github.com/risingwavelabs/risingwave/pull/21256)
 - `23aaa32780edb6d860f86e45da333583c05d6baf` [fix: throttle time based warning for kinesis (#21240)](https://github.com/risingwavelabs/risingwave/pull/21240)
