@@ -617,7 +617,7 @@ def generate_markdown(release_data: List[ReleaseData]) -> str:
 
         md += f"| v{data['version']} | {branch_date} | {first_rel} | {last_rel} | {last_commit} |\n"
 
-    md += "\n*Generated on " + datetime.now().strftime("%b %d, %Y %H:%M:%S") + "*\n"
+    md += "\n*Generated on " + datetime.now().strftime("%b %d, %Y") + "*\n"
     return md
 
 
