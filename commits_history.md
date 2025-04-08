@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f09d594b9c8c74454d7f4b85b9e6b559aa449882` [feat(ctl): add API to detect bottleneck actors (#21149)](https://github.com/risingwavelabs/risingwave/pull/21149)
 - `8b549ffe9f98ca627597d675795dcb960c016fb3` [fix: `SHOW CREATE SINK` missing column spec (#21260)](https://github.com/risingwavelabs/risingwave/pull/21260)
 - `70d27d51d62fe2e33b44810770071e0286bac2f1` [chore(deps): Bump smallvec from 1.14.0 to 1.15.0 (#21265)](https://github.com/risingwavelabs/risingwave/pull/21265)
 - `18060c9241f5c6d2f6bd83e8abce6e2d3739b0dd` [fix: fix slt of kafka source mongo strong schema (#21253)](https://github.com/risingwavelabs/risingwave/pull/21253)
