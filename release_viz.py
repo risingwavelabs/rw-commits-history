@@ -14,6 +14,7 @@ import re
 import sys
 import argparse
 from datetime import datetime, timedelta
+from typing import List, Dict, Optional, TypedDict, Any, Tuple
 from github import Github
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
@@ -26,6 +27,21 @@ from pathlib import Path
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
+
+
+# 定义 ReleaseData 类型
+class ReleaseData(TypedDict):
+    """Release data for a specific version."""
+
+    version: str  # 版本号 (如 "0.1")
+    branch_name: str  # 分支名称 (如 "release-0.1")
+    branch_creation: Optional[datetime]  # 分支创建日期
+    first_release: Optional[datetime]  # 首次发布日期
+    last_release: Optional[datetime]  # 最后一次补丁发布日期
+    last_commit: Optional[datetime]  # 最后一次提交日期
+    first_release_tag: Optional[str]  # 首次发布标签 (如 "v0.1.0")
+    last_release_tag: Optional[str]  # 最后一次补丁发布标签 (如 "v0.1.5")
+
 
 # 加载 .env 文件
 load_dotenv()
@@ -68,7 +84,7 @@ if __name__ == "__main__":
     debug_print("Debug mode enabled")
 
 
-def get_release_branches():
+def get_release_branches() -> List[Tuple[str, Any]]:
     """Get all release branches from the repository."""
     branches = []
     for branch in repo.get_branches():
@@ -83,7 +99,9 @@ def get_release_branches():
     return branches
 
 
-def get_branch_creation_date(branch_name, repo_path=None):
+def get_branch_creation_date(
+    branch_name: str, repo_path: Optional[str] = None
+) -> Optional[datetime]:
     """Get the date when the branch was created (merge-base with main)."""
     try:
         # 使用git命令获取merge-base（分支创建点）
@@ -186,7 +204,7 @@ def get_branch_creation_date(branch_name, repo_path=None):
             return datetime.now() - timedelta(days=30)
 
 
-def get_releases_for_version(version):
+def get_releases_for_version(version: str) -> List[Any]:
     """Get all releases for a specific version."""
     releases = []
     for release in repo.get_releases():
@@ -202,12 +220,14 @@ def get_releases_for_version(version):
     return releases
 
 
-def get_last_commit_in_branch(branch):
+def get_last_commit_in_branch(branch: Any) -> datetime:
     """Get the last commit in a branch."""
     return branch.commit.commit.author.date
 
 
-def process_branch_data(branch_tuple, repo_path=None):
+def process_branch_data(
+    branch_tuple: Tuple[str, Any], repo_path: Optional[str] = None
+) -> ReleaseData:
     """Process data for a single branch concurrently."""
     version, branch = branch_tuple
     releases = get_releases_for_version(version)
@@ -229,10 +249,10 @@ def process_branch_data(branch_tuple, repo_path=None):
     }
 
 
-def generate_timeline_data():
+def generate_timeline_data() -> List[ReleaseData]:
     """Generate timeline data for visualization."""
     branches = get_release_branches()
-    release_data = []
+    release_data: List[ReleaseData] = []
 
     # 在线程池外克隆仓库
     temp_dir = None
@@ -306,7 +326,9 @@ def generate_timeline_data():
     return release_data
 
 
-def generate_visualization(release_data, output_file="release_timeline.png"):
+def generate_visualization(
+    release_data: List[ReleaseData], output_file: str = "release_timeline.png"
+) -> str:
     """Generate a visual timeline of releases."""
     # Define colors - using a more pleasing color scheme
     BACKGROUND_COLOR = (245, 245, 245)  # 浅灰色背景
@@ -325,7 +347,7 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
     draw = ImageDraw.Draw(img)
 
     # Find min and max dates for scaling
-    all_dates = []
+    all_dates: List[datetime] = []
     for data in release_data:
         for date_field in [
             "branch_creation",
@@ -358,7 +380,7 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
     rightmost_edge = width - 120
 
     # 归一化日期到可用宽度的辅助函数
-    def normalize_date(date):
+    def normalize_date(date: Optional[datetime]) -> Optional[float]:
         if not date:
             return None
         time_diff = (date - min_date).total_seconds()
@@ -458,10 +480,10 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
         if branch_created_x and last_commit_x:
             # 1. Code freeze period
             if branch_created_x:
-                end = first_release_x if first_release_x else last_commit_x
-                data_end = (
-                    data["first_release"] if first_release_x else data["last_commit"]
-                )
+                today = datetime.now()
+                data_end = data["first_release"] if first_release_x else today
+                end = normalize_date(data_end)
+
                 draw.rectangle(
                     [branch_created_x, bar_top, end, bar_bottom],
                     fill=BRANCH_COLOR,
@@ -564,7 +586,7 @@ def generate_visualization(release_data, output_file="release_timeline.png"):
     return img_data
 
 
-def generate_markdown(release_data):
+def generate_markdown(release_data: List[ReleaseData]) -> str:
     """Generate markdown content for README."""
     md = "# RisingWave Release Timeline\n\n"
     md += f"![Release Timeline](./release_timeline.png)\n\n"
