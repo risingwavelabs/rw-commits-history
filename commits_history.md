@@ -203,6 +203,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0c8b4c343c00be6fc5b4c9937f657eb2320e7bda` [refactor(stream): store shared context in local barrier manager (#21257)](https://github.com/risingwavelabs/risingwave/pull/21257)
+- `2e82103ea7bc804f9ece71fc83477b234e772c3c` [fix(ci): backoff when connecting to remote udf (#21283)](https://github.com/risingwavelabs/risingwave/pull/21283)
+- `5db80728ca7f7a5fa1c22b8b969a29090b0bfc7d` [ci: support workflow dispatch for cherry-pick workflow (#21274)](https://github.com/risingwavelabs/risingwave/pull/21274)
 - `9adf8f2bd861726ee33320cb0b37fd3c55934480` [test: fix integration test go.mod (#21281)](https://github.com/risingwavelabs/risingwave/pull/21281)
 - `c441e4a3054a95d56d33fc787ceab48c53de61c8` [chore(deps): Bump the all group across 1 directory with 42 updates (#21278)](https://github.com/risingwavelabs/risingwave/pull/21278)
 - `26cd91e99bc35ce682a8725530c561aedb2af88d` [refactor(stream): unify remote and local output (#21256)](https://github.com/risingwavelabs/risingwave/pull/21256)
