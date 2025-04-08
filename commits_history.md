@@ -203,6 +203,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c441e4a3054a95d56d33fc787ceab48c53de61c8` [chore(deps): Bump the all group across 1 directory with 42 updates (#21278)](https://github.com/risingwavelabs/risingwave/pull/21278)
+- `26cd91e99bc35ce682a8725530c561aedb2af88d` [refactor(stream): unify remote and local output (#21256)](https://github.com/risingwavelabs/risingwave/pull/21256)
 - `23aaa32780edb6d860f86e45da333583c05d6baf` [fix: throttle time based warning for kinesis (#21240)](https://github.com/risingwavelabs/risingwave/pull/21240)
 - `3d371d9334ccf66a622bb0509de34aeaba68a17d` [chore: delete legacy deltalake Java code (#21275)](https://github.com/risingwavelabs/risingwave/pull/21275)
 - `cb4ca40cbfd2670c1d53a96e522a302886e3a05d` [chore: remove hard-coded release version and refer to doc (#21220)](https://github.com/risingwavelabs/risingwave/pull/21220)
