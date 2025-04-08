@@ -13,7 +13,7 @@ import os
 import re
 import sys
 import argparse
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional, TypedDict, Any, Tuple
 from github import Github
 from PIL import Image, ImageDraw, ImageFont
@@ -480,7 +480,7 @@ def generate_visualization(
         if branch_created_x and last_commit_x:
             # 1. Code freeze period
             if branch_created_x:
-                today = datetime.now()
+                today = datetime.now(timezone.utc)
                 data_end = data["first_release"] if first_release_x else today
                 end = normalize_date(data_end)
 
