@@ -201,6 +201,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `575c848e81045235a9f74f55e5acb04d14bd7368` [chore(ci): add actions write permission to cherry-pick-since-release (#21311)](https://github.com/risingwavelabs/risingwave/pull/21311)
+- `2de7c10f271769aec7ca8bf7ace66e346a3927a4` [feat: let `ALTER SYSTEM set <session_parameter>` take effect in the current session (#21294)](https://github.com/risingwavelabs/risingwave/pull/21294)
 - `59fbad35e4ba1bc069fc9eff988794a7e27bfc68` [ci: label ci/main-cron/run-all for cherry-pick PRs (#21306)](https://github.com/risingwavelabs/risingwave/pull/21306)
 - `0f8c21ae0763d29a5ffb602ff83d9a51a3a2fa95` [chore: remove dead code for origin snowflake sink (#21136)](https://github.com/risingwavelabs/risingwave/pull/21136)
 - `2a818280d69c450d32e8458597ab52fbe36ba023` [feat: allow user to force filter pushed into join in streaming query (#21289)](https://github.com/risingwavelabs/risingwave/pull/21289)
