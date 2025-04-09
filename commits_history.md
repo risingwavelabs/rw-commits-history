@@ -194,7 +194,6 @@
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
 - `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
-- `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
 </details>
 
 # Commit history
@@ -2247,9 +2246,4 @@
 - `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
 
 ## nightly-20240824
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5cae57827c8ca56868b9cc0de0686d6f14e68510...d33623accf6e932592f4a945af436c18ced812fd)
 - `d33623accf6e932592f4a945af436c18ced812fd` [chore(build): add curl & less into docker image (#18223)](https://github.com/risingwavelabs/risingwave/pull/18223)
-- `7009743799259775b80611043cb7d089c25f7743` [feat(dashboard): visualize average backpressure rather than spot backpressure (#18219)](https://github.com/risingwavelabs/risingwave/pull/18219)
-
-## nightly-20240823
-- `5cae57827c8ca56868b9cc0de0686d6f14e68510` [fix(udf): allow `aggregate:` prefixed sql udf (#18203)](https://github.com/risingwavelabs/risingwave/pull/18203)
