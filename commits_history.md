@@ -193,7 +193,6 @@
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
-- `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 </details>
 
 # Commit history
@@ -202,6 +201,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `59fbad35e4ba1bc069fc9eff988794a7e27bfc68` [ci: label ci/main-cron/run-all for cherry-pick PRs (#21306)](https://github.com/risingwavelabs/risingwave/pull/21306)
 - `0f8c21ae0763d29a5ffb602ff83d9a51a3a2fa95` [chore: remove dead code for origin snowflake sink (#21136)](https://github.com/risingwavelabs/risingwave/pull/21136)
 - `2a818280d69c450d32e8458597ab52fbe36ba023` [feat: allow user to force filter pushed into join in streaming query (#21289)](https://github.com/risingwavelabs/risingwave/pull/21289)
 - `13838cae3732fc2be1e5259b9897a68bb49e6e6a` [refactor(storage): unify state store trait get method (#20175)](https://github.com/risingwavelabs/risingwave/pull/20175)
@@ -2243,8 +2243,4 @@
 - `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
 
 ## nightly-20240825
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d33623accf6e932592f4a945af436c18ced812fd...5c1af4c21215f8887133233a5978402019c3d3fa)
 - `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
-
-## nightly-20240824
-- `d33623accf6e932592f4a945af436c18ced812fd` [chore(build): add curl & less into docker image (#18223)](https://github.com/risingwavelabs/risingwave/pull/18223)
