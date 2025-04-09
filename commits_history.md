@@ -202,6 +202,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0f8c21ae0763d29a5ffb602ff83d9a51a3a2fa95` [chore: remove dead code for origin snowflake sink (#21136)](https://github.com/risingwavelabs/risingwave/pull/21136)
 - `2a818280d69c450d32e8458597ab52fbe36ba023` [feat: allow user to force filter pushed into join in streaming query (#21289)](https://github.com/risingwavelabs/risingwave/pull/21289)
 - `13838cae3732fc2be1e5259b9897a68bb49e6e6a` [refactor(storage): unify state store trait get method (#20175)](https://github.com/risingwavelabs/risingwave/pull/20175)
 - `54e40644da6ffe901a2be0f2c9535b3e2d0757bc` [feat: retry for requests in schema registry (#21201)](https://github.com/risingwavelabs/risingwave/pull/21201)
