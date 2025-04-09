@@ -201,6 +201,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `18542e3ba9004e00c3d9d21d51cc8df6f4dc0eea` [feat(ctl): add an IO-bound rule for await tree analyze (#21303)](https://github.com/risingwavelabs/risingwave/pull/21303)
 - `d380d9ab1fc37dc6b60d901b8865a900a424253f` [refactor(mview): simplify `Materialize` conflict handling (#21288)](https://github.com/risingwavelabs/risingwave/pull/21288)
 
 ## nightly-20250409
