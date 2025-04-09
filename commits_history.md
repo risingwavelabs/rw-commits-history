@@ -201,6 +201,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0e98c9d802d8cead31358ec4fa9985f871af6809` [fix(release): enable python udf compilation in release binary (#21307)](https://github.com/risingwavelabs/risingwave/pull/21307)
 - `575c848e81045235a9f74f55e5acb04d14bd7368` [chore(ci): add actions write permission to cherry-pick-since-release (#21311)](https://github.com/risingwavelabs/risingwave/pull/21311)
 - `2de7c10f271769aec7ca8bf7ace66e346a3927a4` [feat: let `ALTER SYSTEM set <session_parameter>` take effect in the current session (#21294)](https://github.com/risingwavelabs/risingwave/pull/21294)
 - `59fbad35e4ba1bc069fc9eff988794a7e27bfc68` [ci: label ci/main-cron/run-all for cherry-pick PRs (#21306)](https://github.com/risingwavelabs/risingwave/pull/21306)
