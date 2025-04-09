@@ -201,6 +201,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `55427ccdc5544c203b34ec91abcdb5969ffb27d2` [feat: add premium license check for resource group (#21298)](https://github.com/risingwavelabs/risingwave/pull/21298)
+- `d66d7607e7cad478ac63fc6afe586f813a3fa0c0` [chore(deps): Bump tokio from 1.33.0 to 1.38.2 in /integration_tests/feature-store/server (#21310)](https://github.com/risingwavelabs/risingwave/pull/21310)
 - `0e98c9d802d8cead31358ec4fa9985f871af6809` [fix(release): enable python udf compilation in release binary (#21307)](https://github.com/risingwavelabs/risingwave/pull/21307)
 - `575c848e81045235a9f74f55e5acb04d14bd7368` [chore(ci): add actions write permission to cherry-pick-since-release (#21311)](https://github.com/risingwavelabs/risingwave/pull/21311)
 - `2de7c10f271769aec7ca8bf7ace66e346a3927a4` [feat: let `ALTER SYSTEM set <session_parameter>` take effect in the current session (#21294)](https://github.com/risingwavelabs/risingwave/pull/21294)
