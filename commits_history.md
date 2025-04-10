@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250410` `9aa03f684a8249ba48fccdd16c1ce127a49e6bca`
 - `20250409` `55427ccdc5544c203b34ec91abcdb5969ffb27d2`
 - `20250408` `4cc576837731499a0213d2dc6a1b835dfd208d51`
 - `20250407` `cb111f5bea34483c2f946213178fafa9dd001832`
@@ -200,6 +201,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `776e317ca5a64630d9dc948d847029eb8a75dba5` [fix(iceberg): fix iceberg count star (#21341)](https://github.com/risingwavelabs/risingwave/pull/21341)
+
+## nightly-20250410
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/55427ccdc5544c203b34ec91abcdb5969ffb27d2...9aa03f684a8249ba48fccdd16c1ce127a49e6bca)
 - `9aa03f684a8249ba48fccdd16c1ce127a49e6bca` [feat(subscription): Support specified pk read log store (#19274)](https://github.com/risingwavelabs/risingwave/pull/19274)
 - `8087bb8fc6130fe19b10c465d16a1502fcc7e3c4` [chore(ci): use python3.12 in release.sh to compile python udf (#21333)](https://github.com/risingwavelabs/risingwave/pull/21333)
 - `847792475f5f21934ec2147c0ab1a7630321bfcb` [refactor(source): refactor iceberg source split task algorithm (#21322)](https://github.com/risingwavelabs/risingwave/pull/21322)
