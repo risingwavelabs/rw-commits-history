@@ -200,6 +200,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8087bb8fc6130fe19b10c465d16a1502fcc7e3c4` [chore(ci): use python3.12 in release.sh to compile python udf (#21333)](https://github.com/risingwavelabs/risingwave/pull/21333)
+- `847792475f5f21934ec2147c0ab1a7630321bfcb` [refactor(source): refactor iceberg source split task algorithm (#21322)](https://github.com/risingwavelabs/risingwave/pull/21322)
+- `b984e508f7dd2bff1cb3190bd97a6f8dbd494a88` [refactor(storage): remove unnecessary fields from ReadOptions (#20545)](https://github.com/risingwavelabs/risingwave/pull/20545)
+- `a190d37e1a017f8914268c848e5dd675764bd29c` [fix(distinct agg): delete row from dedup table when counts drop to 0 (#21329)](https://github.com/risingwavelabs/risingwave/pull/21329)
 - `52eb7c2f409200bc4f055547785e8f24f119b974` [refactor(stream): do not broadcast actor info in shared context (#21258)](https://github.com/risingwavelabs/risingwave/pull/21258)
 - `2bfc5ef1bf2db499bdd47316b89d78785f34d97d` [chore(ci): remove unused logs for ci recovery test (#21309)](https://github.com/risingwavelabs/risingwave/pull/21309)
 - `18542e3ba9004e00c3d9d21d51cc8df6f4dc0eea` [feat(ctl): add an IO-bound rule for await tree analyze (#21303)](https://github.com/risingwavelabs/risingwave/pull/21303)
