@@ -200,6 +200,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9aa03f684a8249ba48fccdd16c1ce127a49e6bca` [feat(subscription): Support specified pk read log store (#19274)](https://github.com/risingwavelabs/risingwave/pull/19274)
 - `8087bb8fc6130fe19b10c465d16a1502fcc7e3c4` [chore(ci): use python3.12 in release.sh to compile python udf (#21333)](https://github.com/risingwavelabs/risingwave/pull/21333)
 - `847792475f5f21934ec2147c0ab1a7630321bfcb` [refactor(source): refactor iceberg source split task algorithm (#21322)](https://github.com/risingwavelabs/risingwave/pull/21322)
 - `b984e508f7dd2bff1cb3190bd97a6f8dbd494a88` [refactor(storage): remove unnecessary fields from ReadOptions (#20545)](https://github.com/risingwavelabs/risingwave/pull/20545)
