@@ -201,6 +201,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2bfc5ef1bf2db499bdd47316b89d78785f34d97d` [chore(ci): remove unused logs for ci recovery test (#21309)](https://github.com/risingwavelabs/risingwave/pull/21309)
 - `18542e3ba9004e00c3d9d21d51cc8df6f4dc0eea` [feat(ctl): add an IO-bound rule for await tree analyze (#21303)](https://github.com/risingwavelabs/risingwave/pull/21303)
 - `d380d9ab1fc37dc6b60d901b8865a900a424253f` [refactor(mview): simplify `Materialize` conflict handling (#21288)](https://github.com/risingwavelabs/risingwave/pull/21288)
 
@@ -950,7 +951,6 @@
 - `8a7a8ded2178381cde6523222e4ebefd5d730c7e` [feat: support schedule/reschedule resource group (#19955)](https://github.com/risingwavelabs/risingwave/pull/19955)
 - `14a5d3d1c0de0695998987e1be3e138bce266f6c` [refactor(meta): use in memory struct for table fragments (#20190)](https://github.com/risingwavelabs/risingwave/pull/20190)
 - `37635a614454dd5c8a3b74378f5842b87e68936a` [feat(sink): Avro with AWS Glue Schema Registry (#20181)](https://github.com/risingwavelabs/risingwave/pull/20181)
-- `bb90e0fe057c04b52b38804f545264c2813d4bf8` [feat: delete Kafka consumer group on drop (#20065)](https://github.com/risingwavelabs/risingwave/pull/20065)
 - `bb90e0fe057c04b52b38804f545264c2813d4bf8` [feat: delete Kafka consumer group on drop (#20065)](https://github.com/risingwavelabs/risingwave/pull/20065)
 
 ## nightly-20250116
