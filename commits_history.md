@@ -951,6 +951,7 @@
 - `14a5d3d1c0de0695998987e1be3e138bce266f6c` [refactor(meta): use in memory struct for table fragments (#20190)](https://github.com/risingwavelabs/risingwave/pull/20190)
 - `37635a614454dd5c8a3b74378f5842b87e68936a` [feat(sink): Avro with AWS Glue Schema Registry (#20181)](https://github.com/risingwavelabs/risingwave/pull/20181)
 - `bb90e0fe057c04b52b38804f545264c2813d4bf8` [feat: delete Kafka consumer group on drop (#20065)](https://github.com/risingwavelabs/risingwave/pull/20065)
+- `bb90e0fe057c04b52b38804f545264c2813d4bf8` [feat: delete Kafka consumer group on drop (#20065)](https://github.com/risingwavelabs/risingwave/pull/20065)
 
 ## nightly-20250116
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86179b64d327daa5d87ef5c95002eb93ca3fe91e...439956ed1fbc07f3ffe0a2f58ad9254a4047649f)
