@@ -200,6 +200,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `12435addef45212fa4cd469021ee40850d4b12e4` [chore(deps): Bump prometheus from 0.13.3 to 0.14.0, foyer from 0.15.3 to 0.16.1 (#21148)](https://github.com/risingwavelabs/risingwave/pull/21148)
+- `3729ba81e6ebb75252de3ad401b06aca1566f5f3` [refactor(storage): remove is_dirty method from state store and refine state table commit_pending_watermark (#21331)](https://github.com/risingwavelabs/risingwave/pull/21331)
 - `b131e0dac04a44177cbe62c71689bfc6a9d0c0f7` [fix(meta): `risedev d default` should not release connection to in-memory SQLite for meta store (#21349)](https://github.com/risingwavelabs/risingwave/pull/21349)
 - `d86c4d3482bfbcd4b820277664069f62ff28da2b` [fix(iceberg): remove parquet avro lib (#21344)](https://github.com/risingwavelabs/risingwave/pull/21344)
 - `776e317ca5a64630d9dc948d847029eb8a75dba5` [fix(iceberg): fix iceberg count star (#21341)](https://github.com/risingwavelabs/risingwave/pull/21341)
@@ -2165,6 +2167,7 @@
 
 ## nightly-20240904
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0ce8a8a6b4d51e463a605fb307fa4b014e0f609...0dd06ffa9a34b0cb584393990f8de8a41267718d)
+- `0dd06ffa9a34b0cb584393990f8de8a41267718d` [feat(snapshot-backfill): only receive mutation from barrier worker for snapshot backfill (#18210)](https://github.com/risingwavelabs/risingwave/pull/18210)
 - `0dd06ffa9a34b0cb584393990f8de8a41267718d` [feat(snapshot-backfill): only receive mutation from barrier worker for snapshot backfill (#18210)](https://github.com/risingwavelabs/risingwave/pull/18210)
 - `9923c3abb8f87a6f643d5f753585e2b31f4de7e0` [feat(risedev): support providing env var in yaml config (#18396)](https://github.com/risingwavelabs/risingwave/pull/18396)
 - `ee33271dd98cfa84e390656e5b5836f7453b07cc` [fix: parquet test missing comma (#18397)](https://github.com/risingwavelabs/risingwave/pull/18397)
