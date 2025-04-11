@@ -200,6 +200,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b131e0dac04a44177cbe62c71689bfc6a9d0c0f7` [fix(meta): `risedev d default` should not release connection to in-memory SQLite for meta store (#21349)](https://github.com/risingwavelabs/risingwave/pull/21349)
+- `d86c4d3482bfbcd4b820277664069f62ff28da2b` [fix(iceberg): remove parquet avro lib (#21344)](https://github.com/risingwavelabs/risingwave/pull/21344)
 - `776e317ca5a64630d9dc948d847029eb8a75dba5` [fix(iceberg): fix iceberg count star (#21341)](https://github.com/risingwavelabs/risingwave/pull/21341)
 
 ## nightly-20250410
