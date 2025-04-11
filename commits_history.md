@@ -200,6 +200,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4847896a5a564ea5f9b06a0401b864b29033da1a` [chore(deps): Bump google-cloud-bigquery from 0.14.0 to 0.15.0 in the google-cloud group (#20785)](https://github.com/risingwavelabs/risingwave/pull/20785)
+- `a691215651224ebb4ae65147c0e201bada8cc7cf` [perf(udf): add LRU cache for `MaterializedExprsExecutor` (#21030)](https://github.com/risingwavelabs/risingwave/pull/21030)
+- `3f7b4c0d7b8ee904edf44e3629be9327e9ae33de` [feat(sink): return correct start epoch after scale for coupled coordinated sinks (#21212)](https://github.com/risingwavelabs/risingwave/pull/21212)
 - `12435addef45212fa4cd469021ee40850d4b12e4` [chore(deps): Bump prometheus from 0.13.3 to 0.14.0, foyer from 0.15.3 to 0.16.1 (#21148)](https://github.com/risingwavelabs/risingwave/pull/21148)
 - `3729ba81e6ebb75252de3ad401b06aca1566f5f3` [refactor(storage): remove is_dirty method from state store and refine state table commit_pending_watermark (#21331)](https://github.com/risingwavelabs/risingwave/pull/21331)
 - `b131e0dac04a44177cbe62c71689bfc6a9d0c0f7` [fix(meta): `risedev d default` should not release connection to in-memory SQLite for meta store (#21349)](https://github.com/risingwavelabs/risingwave/pull/21349)
@@ -2167,7 +2170,6 @@
 
 ## nightly-20240904
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0ce8a8a6b4d51e463a605fb307fa4b014e0f609...0dd06ffa9a34b0cb584393990f8de8a41267718d)
-- `0dd06ffa9a34b0cb584393990f8de8a41267718d` [feat(snapshot-backfill): only receive mutation from barrier worker for snapshot backfill (#18210)](https://github.com/risingwavelabs/risingwave/pull/18210)
 - `0dd06ffa9a34b0cb584393990f8de8a41267718d` [feat(snapshot-backfill): only receive mutation from barrier worker for snapshot backfill (#18210)](https://github.com/risingwavelabs/risingwave/pull/18210)
 - `9923c3abb8f87a6f643d5f753585e2b31f4de7e0` [feat(risedev): support providing env var in yaml config (#18396)](https://github.com/risingwavelabs/risingwave/pull/18396)
 - `ee33271dd98cfa84e390656e5b5836f7453b07cc` [fix: parquet test missing comma (#18397)](https://github.com/risingwavelabs/risingwave/pull/18397)
