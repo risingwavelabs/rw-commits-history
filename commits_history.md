@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250411` `4847896a5a564ea5f9b06a0401b864b29033da1a`
 - `20250410` `9aa03f684a8249ba48fccdd16c1ce127a49e6bca`
 - `20250409` `55427ccdc5544c203b34ec91abcdb5969ffb27d2`
 - `20250408` `4cc576837731499a0213d2dc6a1b835dfd208d51`
@@ -200,6 +201,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250411
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9aa03f684a8249ba48fccdd16c1ce127a49e6bca...4847896a5a564ea5f9b06a0401b864b29033da1a)
 - `4847896a5a564ea5f9b06a0401b864b29033da1a` [chore(deps): Bump google-cloud-bigquery from 0.14.0 to 0.15.0 in the google-cloud group (#20785)](https://github.com/risingwavelabs/risingwave/pull/20785)
 - `a691215651224ebb4ae65147c0e201bada8cc7cf` [perf(udf): add LRU cache for `MaterializedExprsExecutor` (#21030)](https://github.com/risingwavelabs/risingwave/pull/21030)
 - `3f7b4c0d7b8ee904edf44e3629be9327e9ae33de` [feat(sink): return correct start epoch after scale for coupled coordinated sinks (#21212)](https://github.com/risingwavelabs/risingwave/pull/21212)
