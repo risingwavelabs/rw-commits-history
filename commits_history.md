@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250412` `c6a2c17280240c2389ae09407e9ff00406ae53e6`
 - `20250411` `4847896a5a564ea5f9b06a0401b864b29033da1a`
 - `20250410` `9aa03f684a8249ba48fccdd16c1ce127a49e6bca`
 - `20250409` `55427ccdc5544c203b34ec91abcdb5969ffb27d2`
@@ -201,6 +202,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250412
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4847896a5a564ea5f9b06a0401b864b29033da1a...c6a2c17280240c2389ae09407e9ff00406ae53e6)
 - `c6a2c17280240c2389ae09407e9ff00406ae53e6` [chore(deps): Bump protox from 0.7.1 to 0.7.2 (#21363)](https://github.com/risingwavelabs/risingwave/pull/21363)
 
 ## nightly-20250411
