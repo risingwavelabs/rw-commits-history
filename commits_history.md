@@ -201,6 +201,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c6a2c17280240c2389ae09407e9ff00406ae53e6` [chore(deps): Bump protox from 0.7.1 to 0.7.2 (#21363)](https://github.com/risingwavelabs/risingwave/pull/21363)
 
 ## nightly-20250411
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9aa03f684a8249ba48fccdd16c1ce127a49e6bca...4847896a5a564ea5f9b06a0401b864b29033da1a)
