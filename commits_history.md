@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250414` `fe3fb414f55d937763dad24f390580edc0d8b143`
 - `20250413` `478c7ad228112b58895d0b3810007ff338c5945a`
 - `20250412` `c6a2c17280240c2389ae09407e9ff00406ae53e6`
 - `20250411` `4847896a5a564ea5f9b06a0401b864b29033da1a`
@@ -203,6 +204,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250414
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/478c7ad228112b58895d0b3810007ff338c5945a...fe3fb414f55d937763dad24f390580edc0d8b143)
 - `fe3fb414f55d937763dad24f390580edc0d8b143` [feat(sink): skip some epoch items to align initial coordinate epoch (#21213)](https://github.com/risingwavelabs/risingwave/pull/21213)
 - `c30e1d79d7a295910718d754cb5d1cafa27a04e6` [chore: update docker image tag v2.3.0 (#21387)](https://github.com/risingwavelabs/risingwave/pull/21387)
 - `8e54ba3c1a832a2476bf9bb6db7380c83fd40487` [refactor(simulation): separate background_ddl runner execution methods (#21385)](https://github.com/risingwavelabs/risingwave/pull/21385)
