@@ -203,6 +203,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e614dfff8f1fbddc84253021eeee43cd40edab76` [fix: Correctly set the `job_type` for the sink target table. (#21369)](https://github.com/risingwavelabs/risingwave/pull/21369)
+- `2e1ab810a1677a4050ce84d7491aa3777630d772` [feat: enforce some props to be secret on RisingWave Cloud (#21248)](https://github.com/risingwavelabs/risingwave/pull/21248)
 - `87a1c39d753493832b72483c2879e8043888718d` [fix(ci): remove e2e tests with in-memory state store (#21353)](https://github.com/risingwavelabs/risingwave/pull/21353)
 
 ## nightly-20250413
