@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fe3fb414f55d937763dad24f390580edc0d8b143` [feat(sink): skip some epoch items to align initial coordinate epoch (#21213)](https://github.com/risingwavelabs/risingwave/pull/21213)
 - `c30e1d79d7a295910718d754cb5d1cafa27a04e6` [chore: update docker image tag v2.3.0 (#21387)](https://github.com/risingwavelabs/risingwave/pull/21387)
 - `8e54ba3c1a832a2476bf9bb6db7380c83fd40487` [refactor(simulation): separate background_ddl runner execution methods (#21385)](https://github.com/risingwavelabs/risingwave/pull/21385)
 - `72bcb9873212ab79e99cfb966917a32eb01f0651` [chore(ci): handover backwards-compatibility test maintainer to RC (#21386)](https://github.com/risingwavelabs/risingwave/pull/21386)
