@@ -203,6 +203,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `87a1c39d753493832b72483c2879e8043888718d` [fix(ci): remove e2e tests with in-memory state store (#21353)](https://github.com/risingwavelabs/risingwave/pull/21353)
 
 ## nightly-20250413
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c6a2c17280240c2389ae09407e9ff00406ae53e6...478c7ad228112b58895d0b3810007ff338c5945a)
