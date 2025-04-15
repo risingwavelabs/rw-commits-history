@@ -204,6 +204,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `419c2207b772615fcc9915490ba89d8b690d09a2` [feat(sink): add madsim tests for coordinated sink (#21214)](https://github.com/risingwavelabs/risingwave/pull/21214)
 - `6f3dcb0133a3683ba757e7474967153edf5bd061` [chore(deps): Bump auto_impl from 1.2.0 to 1.3.0 (#21348)](https://github.com/risingwavelabs/risingwave/pull/21348)
 - `912e5ee5d32d2ad84179fad73fe6814bc32fd90c` [chore(deps): Bump prost-reflect from 0.14.0 to 0.15.0 in the tonic group (#21362)](https://github.com/risingwavelabs/risingwave/pull/21362)
 
