@@ -204,6 +204,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `912e5ee5d32d2ad84179fad73fe6814bc32fd90c` [chore(deps): Bump prost-reflect from 0.14.0 to 0.15.0 in the tonic group (#21362)](https://github.com/risingwavelabs/risingwave/pull/21362)
 
 ## nightly-20250414
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/478c7ad228112b58895d0b3810007ff338c5945a...fe3fb414f55d937763dad24f390580edc0d8b143)
