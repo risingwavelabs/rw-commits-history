@@ -204,6 +204,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d2fd7d08415f491f82511d4753c805ddf12d1fd2` [fix(source): handling the case of reading empty files (#21416)](https://github.com/risingwavelabs/risingwave/pull/21416)
 - `51189e2f66bb0eb14539b2a757c97857d87141fe` [feat: check SecretManagement available when enforce secret (#21407)](https://github.com/risingwavelabs/risingwave/pull/21407)
 - `84873451f3739f4b3d54df58a7519dcc6f0332ed` [feat: Add parallelism configuration for each streaming_job type (#21366)](https://github.com/risingwavelabs/risingwave/pull/21366)
 - `d718997e050803d82d58cf48138821f3f81f2ac6` [feat(compaction): Enhance the restrictions on the merge dimension var… (#21334)](https://github.com/risingwavelabs/risingwave/pull/21334)
