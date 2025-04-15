@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250415` `d2fd7d08415f491f82511d4753c805ddf12d1fd2`
 - `20250414` `fe3fb414f55d937763dad24f390580edc0d8b143`
 - `20250413` `478c7ad228112b58895d0b3810007ff338c5945a`
 - `20250412` `c6a2c17280240c2389ae09407e9ff00406ae53e6`
@@ -204,6 +205,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250415
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fe3fb414f55d937763dad24f390580edc0d8b143...d2fd7d08415f491f82511d4753c805ddf12d1fd2)
 - `d2fd7d08415f491f82511d4753c805ddf12d1fd2` [fix(source): handling the case of reading empty files (#21416)](https://github.com/risingwavelabs/risingwave/pull/21416)
 - `51189e2f66bb0eb14539b2a757c97857d87141fe` [feat: check SecretManagement available when enforce secret (#21407)](https://github.com/risingwavelabs/risingwave/pull/21407)
 - `84873451f3739f4b3d54df58a7519dcc6f0332ed` [feat: Add parallelism configuration for each streaming_job type (#21366)](https://github.com/risingwavelabs/risingwave/pull/21366)
