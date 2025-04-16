@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a8a58f553b644848453c99aa1041762ea189a330` [refactor(dedup): simple refactoring for append-only dedup executor (#21435)](https://github.com/risingwavelabs/risingwave/pull/21435)
 
 ## nightly-20250416
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d2fd7d08415f491f82511d4753c805ddf12d1fd2...f67d950ec5fa10e1e894c1c501925b49fb295525)
