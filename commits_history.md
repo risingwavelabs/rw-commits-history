@@ -204,6 +204,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f66fc45696a1973393c2b9f859374e62cc5a390d` [refactor(ci): move slow tests out of e2e_test/streaming (#21396)](https://github.com/risingwavelabs/risingwave/pull/21396)
+- `572124b1cdf25f3c0abaf30f3fc14be5042d9766` [fix(distinct agg): remove from cache when removing from table (#21430)](https://github.com/risingwavelabs/risingwave/pull/21430)
+- `0ff2e75515b667c8cb73c7c17bbde14fc03a04d3` [test: run fe stack overflow test only in release mode (#21424)](https://github.com/risingwavelabs/risingwave/pull/21424)
 - `5336ac17eaf662d8b5bdfabdbfcbb2cb0292c94e` [feat(lru): add `remove` method to LruCache and ManagedLruCache (#21429)](https://github.com/risingwavelabs/risingwave/pull/21429)
 - `017748e455d8935cd2741ebc4ef443ee92766b16` [fix: fix compute node ElasticDiskCache license check (#21421)](https://github.com/risingwavelabs/risingwave/pull/21421)
 - `2cffb62381cd21362343aa83f2b942c5b184cf58` [fix: ban source access in streaming for cross-db access (#21419)](https://github.com/risingwavelabs/risingwave/pull/21419)
