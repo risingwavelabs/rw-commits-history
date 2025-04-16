@@ -204,6 +204,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3c74c3443779e3c62e4d1902df0178040829d36c` [chore(udf): control all udf languages/runtimes by a single feature/env var (#21390)](https://github.com/risingwavelabs/risingwave/pull/21390)
 - `f66fc45696a1973393c2b9f859374e62cc5a390d` [refactor(ci): move slow tests out of e2e_test/streaming (#21396)](https://github.com/risingwavelabs/risingwave/pull/21396)
 - `572124b1cdf25f3c0abaf30f3fc14be5042d9766` [fix(distinct agg): remove from cache when removing from table (#21430)](https://github.com/risingwavelabs/risingwave/pull/21430)
 - `0ff2e75515b667c8cb73c7c17bbde14fc03a04d3` [test: run fe stack overflow test only in release mode (#21424)](https://github.com/risingwavelabs/risingwave/pull/21424)
