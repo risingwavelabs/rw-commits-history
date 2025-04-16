@@ -204,6 +204,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5336ac17eaf662d8b5bdfabdbfcbb2cb0292c94e` [feat(lru): add `remove` method to LruCache and ManagedLruCache (#21429)](https://github.com/risingwavelabs/risingwave/pull/21429)
 - `017748e455d8935cd2741ebc4ef443ee92766b16` [fix: fix compute node ElasticDiskCache license check (#21421)](https://github.com/risingwavelabs/risingwave/pull/21421)
 - `2cffb62381cd21362343aa83f2b942c5b184cf58` [fix: ban source access in streaming for cross-db access (#21419)](https://github.com/risingwavelabs/risingwave/pull/21419)
 
