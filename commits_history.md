@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `83bc2cd060d5938a757920079d48b8b61da4a2cf` [chore(deps): Bump self_cell from 1.1.0 to 1.2.0 (#21364)](https://github.com/risingwavelabs/risingwave/pull/21364)
 - `06584565a90720c7d7520eed6de8b8601eff886f` [feat(risedev): support restart a node  (#21422)](https://github.com/risingwavelabs/risingwave/pull/21422)
 - `f26368cdbb22edce61cc5047e62292655c53f9c0` [feat: support `DESCRIBE FRAGMENTS` (#21354)](https://github.com/risingwavelabs/risingwave/pull/21354)
 - `7243d87bf91e5787791adfccacaf70853175d949` [refactor(frontend): reduce memory usage of `LogicalJoin::to_stream` (#21439)](https://github.com/risingwavelabs/risingwave/pull/21439)
