@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5bb02eae15095b0334eaac29adabbd699e4b98f4` [feat(iceberg): support iceberg jdbc catalog views (#21400)](https://github.com/risingwavelabs/risingwave/pull/21400)
 - `a383594a21d7c4bba7a733415663b8d10b7110bd` [feat(object): Add support for configurable part size in opendal. (#21437)](https://github.com/risingwavelabs/risingwave/pull/21437)
 - `850b281ee08d8dfb9a96e36f38b2094977c76384` [ci: merge label `run-e2e-parallel-tests` into `run-e2e-tests` (#21443)](https://github.com/risingwavelabs/risingwave/pull/21443)
 - `a8a58f553b644848453c99aa1041762ea189a330` [refactor(dedup): simple refactoring for append-only dedup executor (#21435)](https://github.com/risingwavelabs/risingwave/pull/21435)
