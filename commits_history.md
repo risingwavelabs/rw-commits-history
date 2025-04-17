@@ -225,6 +225,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d520b67fe4a3c1e9339114c8e5dd4962226607cd` [chore(ci): relax minio rate limits (#21450)](https://github.com/risingwavelabs/risingwave/pull/21450)
 - `83bc2cd060d5938a757920079d48b8b61da4a2cf` [chore(deps): Bump self_cell from 1.1.0 to 1.2.0 (#21364)](https://github.com/risingwavelabs/risingwave/pull/21364)
 - `06584565a90720c7d7520eed6de8b8601eff886f` [feat(risedev): support restart a node  (#21422)](https://github.com/risingwavelabs/risingwave/pull/21422)
 - `f26368cdbb22edce61cc5047e62292655c53f9c0` [feat: support `DESCRIBE FRAGMENTS` (#21354)](https://github.com/risingwavelabs/risingwave/pull/21354)
