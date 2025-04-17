@@ -226,6 +226,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `06584565a90720c7d7520eed6de8b8601eff886f` [feat(risedev): support restart a node  (#21422)](https://github.com/risingwavelabs/risingwave/pull/21422)
+- `f26368cdbb22edce61cc5047e62292655c53f9c0` [feat: support `DESCRIBE FRAGMENTS` (#21354)](https://github.com/risingwavelabs/risingwave/pull/21354)
 - `7243d87bf91e5787791adfccacaf70853175d949` [refactor(frontend): reduce memory usage of `LogicalJoin::to_stream` (#21439)](https://github.com/risingwavelabs/risingwave/pull/21439)
 - `5bb02eae15095b0334eaac29adabbd699e4b98f4` [feat(iceberg): support iceberg jdbc catalog views (#21400)](https://github.com/risingwavelabs/risingwave/pull/21400)
 - `a383594a21d7c4bba7a733415663b8d10b7110bd` [feat(object): Add support for configurable part size in opendal. (#21437)](https://github.com/risingwavelabs/risingwave/pull/21437)
