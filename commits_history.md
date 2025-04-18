@@ -225,6 +225,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc` [fix(iceberg): fix iceberg decimal predicate pushdown (#21470)](https://github.com/risingwavelabs/risingwave/pull/21470)
 - `90f2802efd991b5fbf13238b6f935f29ce9a9c54` [fix: add under creation info when checking name duplicate in meta (#21360)](https://github.com/risingwavelabs/risingwave/pull/21360)
 - `4cefe33ee49d79e20601596f13a0308f0110e808` [feat(ci): graceful exit of `sqllogictest` on failure, cancellation, or timeout (#21463)](https://github.com/risingwavelabs/risingwave/pull/21463)
 - `af075f88f2d7a264902b70e5d5fafa0647a38719` [fix(subscription): fix subscription notify (#21451)](https://github.com/risingwavelabs/risingwave/pull/21451)
