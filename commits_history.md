@@ -225,6 +225,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bbb1dac1863b88eb292d3b2a32fab0f5d8388e18` [chore(ci): install python dependency for opendal test  (#21467)](https://github.com/risingwavelabs/risingwave/pull/21467)
 - `3397e2b894936623e6180387639c8cd6308283fd` [fix(connector): support for SQL server table schema (#21461)](https://github.com/risingwavelabs/risingwave/pull/21461)
 - `c9083e60b1dd881cf79bdfb3d259297eaa5cec2d` [revert: "test: run fe stack overflow test only in release mode" (#21454)](https://github.com/risingwavelabs/risingwave/pull/21454)
 - `8c8c9df0bc962d209fc3b100c72f80a94ab1cf8b` [fix(risedev): workaround ctrl-c handling for `risedev psql` (#21460)](https://github.com/risingwavelabs/risingwave/pull/21460)
