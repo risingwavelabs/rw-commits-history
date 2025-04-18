@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250418` `eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55`
 - `20250416` `f67d950ec5fa10e1e894c1c501925b49fb295525`
 - `20250415` `d2fd7d08415f491f82511d4753c805ddf12d1fd2`
 - `20250414` `fe3fb414f55d937763dad24f390580edc0d8b143`
@@ -224,6 +225,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `af075f88f2d7a264902b70e5d5fafa0647a38719` [fix(subscription): fix subscription notify (#21451)](https://github.com/risingwavelabs/risingwave/pull/21451)
+- `50d6be01909c244b3136bbf5046ea889d77cf3b5` [feat(ctl): support backup integrity validation (#20985)](https://github.com/risingwavelabs/risingwave/pull/20985)
+
+## nightly-20250418
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f67d950ec5fa10e1e894c1c501925b49fb295525...eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55)
 - `eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55` [feat: enforce some props to be secret (sink part) (#21269)](https://github.com/risingwavelabs/risingwave/pull/21269)
 - `bbb1dac1863b88eb292d3b2a32fab0f5d8388e18` [chore(ci): install python dependency for opendal test  (#21467)](https://github.com/risingwavelabs/risingwave/pull/21467)
 - `3397e2b894936623e6180387639c8cd6308283fd` [fix(connector): support for SQL server table schema (#21461)](https://github.com/risingwavelabs/risingwave/pull/21461)
