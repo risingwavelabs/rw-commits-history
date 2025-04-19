@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250419` `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc`
 - `20250418` `eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55`
 - `20250416` `f67d950ec5fa10e1e894c1c501925b49fb295525`
 - `20250415` `d2fd7d08415f491f82511d4753c805ddf12d1fd2`
@@ -225,6 +226,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250419
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55...e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc)
 - `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc` [fix(iceberg): fix iceberg decimal predicate pushdown (#21470)](https://github.com/risingwavelabs/risingwave/pull/21470)
 - `90f2802efd991b5fbf13238b6f935f29ce9a9c54` [fix: add under creation info when checking name duplicate in meta (#21360)](https://github.com/risingwavelabs/risingwave/pull/21360)
 - `4cefe33ee49d79e20601596f13a0308f0110e808` [feat(ci): graceful exit of `sqllogictest` on failure, cancellation, or timeout (#21463)](https://github.com/risingwavelabs/risingwave/pull/21463)
