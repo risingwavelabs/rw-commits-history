@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250420` `79650ee380d8dd416aab8937fc1bd913d9384f5a`
 - `20250419` `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc`
 - `20250418` `eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55`
 - `20250416` `f67d950ec5fa10e1e894c1c501925b49fb295525`
@@ -226,6 +227,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250420
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc...79650ee380d8dd416aab8937fc1bd913d9384f5a)
 - `79650ee380d8dd416aab8937fc1bd913d9384f5a` [chore(risedev): describe minio rate limit parameters (#21449)](https://github.com/risingwavelabs/risingwave/pull/21449)
 
 ## nightly-20250419
