@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `79650ee380d8dd416aab8937fc1bd913d9384f5a` [chore(risedev): describe minio rate limit parameters (#21449)](https://github.com/risingwavelabs/risingwave/pull/21449)
 
 ## nightly-20250419
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55...e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc)
