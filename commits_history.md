@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250421` `202dcd082554e050f386c82e46339c54c0671c1e`
 - `20250420` `79650ee380d8dd416aab8937fc1bd913d9384f5a`
 - `20250419` `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc`
 - `20250418` `eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55`
@@ -226,6 +227,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250421
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79650ee380d8dd416aab8937fc1bd913d9384f5a...202dcd082554e050f386c82e46339c54c0671c1e)
 - `202dcd082554e050f386c82e46339c54c0671c1e` [feat(stream): truncate synced log store using progress map (#21263)](https://github.com/risingwavelabs/risingwave/pull/21263)
 - `42ce5fb61bf4ffddf57f3b2dbd0bf196a776ee20` [docs(readme): added a new github releases badge (#21107)](https://github.com/risingwavelabs/risingwave/pull/21107)
 - `98b351ac9a810b1548849cf72d04205ededc9eea` [chore(ci): move `issue_20342.slt` to slow tests (#21476)](https://github.com/risingwavelabs/risingwave/pull/21476)
