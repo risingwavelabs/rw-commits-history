@@ -227,6 +227,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `93cb8df5398f068b702c52c7917e07ce11997f0c` [feat(sink): support alter sink config (#20691)](https://github.com/risingwavelabs/risingwave/pull/20691)
 - `cc5081493da4614d0f70f5a2b1f3411d95040bac` [feat(snapshot-backfill): support recoverable snapshot backfill (meta part) (#20848)](https://github.com/risingwavelabs/risingwave/pull/20848)
 
 ## nightly-20250420
