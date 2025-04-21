@@ -226,6 +226,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `202dcd082554e050f386c82e46339c54c0671c1e` [feat(stream): truncate synced log store using progress map (#21263)](https://github.com/risingwavelabs/risingwave/pull/21263)
+- `42ce5fb61bf4ffddf57f3b2dbd0bf196a776ee20` [docs(readme): added a new github releases badge (#21107)](https://github.com/risingwavelabs/risingwave/pull/21107)
+- `98b351ac9a810b1548849cf72d04205ededc9eea` [chore(ci): move `issue_20342.slt` to slow tests (#21476)](https://github.com/risingwavelabs/risingwave/pull/21476)
+- `d276146a63194eefa41065edd97e4ca89af3b26d` [refactor(config): turn const LOCAL_EXECUTE_BUFFER_SIZE into configura… (#21345)](https://github.com/risingwavelabs/risingwave/pull/21345)
+- `e293a2c5e137121e8718b67435c3e5a8fa46e66e` [fix(meta): reset connection pool in recovery (#21477)](https://github.com/risingwavelabs/risingwave/pull/21477)
 - `2898024723e63fda61cdb348ba016804a65a7d12` [chore(ci): add `exit_status: -1` as buildkite auto-retry condition (#21475)](https://github.com/risingwavelabs/risingwave/pull/21475)
 - `93cb8df5398f068b702c52c7917e07ce11997f0c` [feat(sink): support alter sink config (#20691)](https://github.com/risingwavelabs/risingwave/pull/20691)
 - `cc5081493da4614d0f70f5a2b1f3411d95040bac` [feat(snapshot-backfill): support recoverable snapshot backfill (meta part) (#20848)](https://github.com/risingwavelabs/risingwave/pull/20848)
