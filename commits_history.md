@@ -227,6 +227,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6ffeffb463a499d8c5df1e611224e7d3c1193a36` [feat(iceberg): support iceberg on azure blob (#21468)](https://github.com/risingwavelabs/risingwave/pull/21468)
 - `193abf741b771d7c45a182c8d4e5ec302b1ca21f` [fix(cdc): transform upstream correctly (#21490)](https://github.com/risingwavelabs/risingwave/pull/21490)
 - `f5f7eeb41ab8710a30496cef6f3b1d5db1663102` [feat(stream): actor create exchange via channel (#21299)](https://github.com/risingwavelabs/risingwave/pull/21299)
 - `579ae6b41933179153ff8ba9408ae3326c8c7c8c` [chore: bump package version to 2.5.0-alpha (#21488)](https://github.com/risingwavelabs/risingwave/pull/21488)
