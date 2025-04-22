@@ -228,6 +228,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2195efbbe7d4dcc8c90114da3bd280a9a7bae754` [chore(deps): Bump golang.org/x/net from 0.36.0 to 0.38.0 in /integration_tests/datagen (#21442)](https://github.com/risingwavelabs/risingwave/pull/21442)
 
 ## nightly-20250422
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/202dcd082554e050f386c82e46339c54c0671c1e...6ffeffb463a499d8c5df1e611224e7d3c1193a36)
