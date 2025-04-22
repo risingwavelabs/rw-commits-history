@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250422` `6ffeffb463a499d8c5df1e611224e7d3c1193a36`
 - `20250421` `202dcd082554e050f386c82e46339c54c0671c1e`
 - `20250420` `79650ee380d8dd416aab8937fc1bd913d9384f5a`
 - `20250419` `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc`
@@ -227,6 +228,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250422
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/202dcd082554e050f386c82e46339c54c0671c1e...6ffeffb463a499d8c5df1e611224e7d3c1193a36)
 - `6ffeffb463a499d8c5df1e611224e7d3c1193a36` [feat(iceberg): support iceberg on azure blob (#21468)](https://github.com/risingwavelabs/risingwave/pull/21468)
 - `193abf741b771d7c45a182c8d4e5ec302b1ca21f` [fix(cdc): transform upstream correctly (#21490)](https://github.com/risingwavelabs/risingwave/pull/21490)
 - `f5f7eeb41ab8710a30496cef6f3b1d5db1663102` [feat(stream): actor create exchange via channel (#21299)](https://github.com/risingwavelabs/risingwave/pull/21299)
