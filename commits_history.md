@@ -227,6 +227,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `579ae6b41933179153ff8ba9408ae3326c8c7c8c` [chore: bump package version to 2.5.0-alpha (#21488)](https://github.com/risingwavelabs/risingwave/pull/21488)
 - `e7b19a136752dc58589a5dc5ee9c409ab85a72c1` [feat(foyer): bump foyer version for advanced io throttling (#21406)](https://github.com/risingwavelabs/risingwave/pull/21406)
 
 ## nightly-20250421
