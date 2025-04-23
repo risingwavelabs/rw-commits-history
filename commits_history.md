@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250423` `0ecba4446ae2cfedd7f8f16c109ea582afb82315`
 - `20250422` `6ffeffb463a499d8c5df1e611224e7d3c1193a36`
 - `20250421` `202dcd082554e050f386c82e46339c54c0671c1e`
 - `20250420` `79650ee380d8dd416aab8937fc1bd913d9384f5a`
@@ -218,7 +219,6 @@
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
-- `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 </details>
 
 # Commit history
@@ -227,6 +227,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `697d11192a57245f7b8887bc5383e9485b8a0692` [fix(cdc): fix the race case where cleanup process of stale dbz engine may accidentally remove the handler of the active one from registry during recovery (#21522)](https://github.com/risingwavelabs/risingwave/pull/21522)
+
+## nightly-20250423
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6ffeffb463a499d8c5df1e611224e7d3c1193a36...0ecba4446ae2cfedd7f8f16c109ea582afb82315)
 - `0ecba4446ae2cfedd7f8f16c109ea582afb82315` [fix(meta): fix subscription notify (#21479)](https://github.com/risingwavelabs/risingwave/pull/21479)
 - `7efa3a6ce27d9b45f52a0069467ca99c261e21a1` [chore(ci): increase minio rate-limit-test's rate limit (#21508)](https://github.com/risingwavelabs/risingwave/pull/21508)
 - `0aae97855991527ef024ddf6fda1529d81130d78` [fix(optimizer): fix like rewrite rule (#21500)](https://github.com/risingwavelabs/risingwave/pull/21500)
@@ -2535,15 +2539,4 @@
 - `58b3f414763a4550f8408c3761b2f34a26c5e476` [chore: test data shall not use non-existent option `kafka.servers` (#17996)](https://github.com/risingwavelabs/risingwave/pull/17996)
 
 ## nightly-20240812
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a8b281147873b8ddc6ff633966a9381b1af26e85...15432093b71066fd1097ebebf6b716033ac340dd)
 - `15432093b71066fd1097ebebf6b716033ac340dd` [fix(stream): let approx percentile output its results every epoch (#18002)](https://github.com/risingwavelabs/risingwave/pull/18002)
-- `b2b5a335a421667fd072add96617058aba52f361` [feat: add map type to scalar/array/expr (#17690)](https://github.com/risingwavelabs/risingwave/pull/17690)
-- `3707a1eef00106da08f878c66d3a3295aaf47a02` [feat(source): use the default_provider for AWS-related connectors (#17933)](https://github.com/risingwavelabs/risingwave/pull/17933)
-- `ef0272baaac5ae80bba63e008ab4fc92206f1556` [fix(docs): display of math equations in dev docs (#17998)](https://github.com/risingwavelabs/risingwave/pull/17998)
-- `de7e55bd23a40613b23b2a9a365f0cd92076ed00` [chore(ci): sync nexmark queries for flamegraph generation (#17993)](https://github.com/risingwavelabs/risingwave/pull/17993)
-- `fbb30ad2be06ca7d8d619b44d25a03ffdccd3568` [feat: support initializing license key from env var (#17906)](https://github.com/risingwavelabs/risingwave/pull/17906)
-- `5137f4801c695df5401b2699f269c48fa3fa3b01` [feat: redact license key when displaying to users (#17936)](https://github.com/risingwavelabs/risingwave/pull/17936)
-- `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
-
-## nightly-20240811
-- `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
