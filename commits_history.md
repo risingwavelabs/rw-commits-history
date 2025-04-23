@@ -228,6 +228,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0aae97855991527ef024ddf6fda1529d81130d78` [fix(optimizer): fix like rewrite rule (#21500)](https://github.com/risingwavelabs/risingwave/pull/21500)
+- `96d5238e55f91613f96f1f5d35fced0506882637` [chore(deps): Bump iana-time-zone/hostname/resolv-conf patch versions to avoid too many windows src versions (#21494)](https://github.com/risingwavelabs/risingwave/pull/21494)
 - `a5353e4b3c3ec083588dbc313a9c6276b6e69274` [fix(cdc): check database name when creating tables from cdc source (#21472)](https://github.com/risingwavelabs/risingwave/pull/21472)
 - `2195efbbe7d4dcc8c90114da3bd280a9a7bae754` [chore(deps): Bump golang.org/x/net from 0.36.0 to 0.38.0 in /integration_tests/datagen (#21442)](https://github.com/risingwavelabs/risingwave/pull/21442)
 
