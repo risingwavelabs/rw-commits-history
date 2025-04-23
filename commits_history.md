@@ -228,6 +228,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7efa3a6ce27d9b45f52a0069467ca99c261e21a1` [chore(ci): increase minio rate-limit-test's rate limit (#21508)](https://github.com/risingwavelabs/risingwave/pull/21508)
 - `0aae97855991527ef024ddf6fda1529d81130d78` [fix(optimizer): fix like rewrite rule (#21500)](https://github.com/risingwavelabs/risingwave/pull/21500)
 - `96d5238e55f91613f96f1f5d35fced0506882637` [chore(deps): Bump iana-time-zone/hostname/resolv-conf patch versions to avoid too many windows src versions (#21494)](https://github.com/risingwavelabs/risingwave/pull/21494)
 - `a5353e4b3c3ec083588dbc313a9c6276b6e69274` [fix(cdc): check database name when creating tables from cdc source (#21472)](https://github.com/risingwavelabs/risingwave/pull/21472)
