@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `46b4b707438fabbaeb2e77068ec59bf9139d328a` [fix(iceberg): remove iceberg data lib (#21546)](https://github.com/risingwavelabs/risingwave/pull/21546)
 - `55e9f4c3ba612a59c3f2542fffc69e1baa3c6d5c` [fix(test): set max parallelism for integration test (madsim) to avoid possibly OOM (#21524)](https://github.com/risingwavelabs/risingwave/pull/21524)
 - `ef87394f1985c809078464bcabb4790fc7e5be2d` [fix(cdc): transform upstream correctly again (#21513)](https://github.com/risingwavelabs/risingwave/pull/21513)
 - `422cc1819fc5625f4ad6f4766e1d8c76180fc7e3` [fix(agg): fix the error of append-only approx_count_distinct (#21516)](https://github.com/risingwavelabs/risingwave/pull/21516)
