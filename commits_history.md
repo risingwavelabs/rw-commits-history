@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ef87394f1985c809078464bcabb4790fc7e5be2d` [fix(cdc): transform upstream correctly again (#21513)](https://github.com/risingwavelabs/risingwave/pull/21513)
 - `422cc1819fc5625f4ad6f4766e1d8c76180fc7e3` [fix(agg): fix the error of append-only approx_count_distinct (#21516)](https://github.com/risingwavelabs/risingwave/pull/21516)
 - `697d11192a57245f7b8887bc5383e9485b8a0692` [fix(cdc): fix the race case where cleanup process of stale dbz engine may accidentally remove the handler of the active one from registry during recovery (#21522)](https://github.com/risingwavelabs/risingwave/pull/21522)
 
