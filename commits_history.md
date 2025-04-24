@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250424` `66325d3af5b902b787ff44b0b470275461cd2f0c`
 - `20250423` `0ecba4446ae2cfedd7f8f16c109ea582afb82315`
 - `20250422` `6ffeffb463a499d8c5df1e611224e7d3c1193a36`
 - `20250421` `202dcd082554e050f386c82e46339c54c0671c1e`
@@ -226,6 +227,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250424
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0ecba4446ae2cfedd7f8f16c109ea582afb82315...66325d3af5b902b787ff44b0b470275461cd2f0c)
 - `66325d3af5b902b787ff44b0b470275461cd2f0c` [feat(risedev): support docker image for `USE_SYSTEM_RISINGWAVE` (#21520)](https://github.com/risingwavelabs/risingwave/pull/21520)
 - `bf3033fcc5ec4e5829326487e71d04124029c240` [test: add test for duckdb (#21533)](https://github.com/risingwavelabs/risingwave/pull/21533)
 - `692b3a2a103d9fd70a04849b1ad1e55c66874c14` [fix(frontend): fallback to persisted SQL if purified SQL is unparsable (#21514)](https://github.com/risingwavelabs/risingwave/pull/21514)
