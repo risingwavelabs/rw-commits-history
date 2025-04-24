@@ -226,6 +226,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `66325d3af5b902b787ff44b0b470275461cd2f0c` [feat(risedev): support docker image for `USE_SYSTEM_RISINGWAVE` (#21520)](https://github.com/risingwavelabs/risingwave/pull/21520)
+- `bf3033fcc5ec4e5829326487e71d04124029c240` [test: add test for duckdb (#21533)](https://github.com/risingwavelabs/risingwave/pull/21533)
+- `692b3a2a103d9fd70a04849b1ad1e55c66874c14` [fix(frontend): fallback to persisted SQL if purified SQL is unparsable (#21514)](https://github.com/risingwavelabs/risingwave/pull/21514)
+- `5019216fe851c91c8ce3f1e33f9b9b9cedf1fd79` [perf(agg): reduce unnecessary generic expansion for `approx_count_distinct` (#21540)](https://github.com/risingwavelabs/risingwave/pull/21540)
 - `46b4b707438fabbaeb2e77068ec59bf9139d328a` [fix(iceberg): remove iceberg data lib (#21546)](https://github.com/risingwavelabs/risingwave/pull/21546)
 - `55e9f4c3ba612a59c3f2542fffc69e1baa3c6d5c` [fix(test): set max parallelism for integration test (madsim) to avoid possibly OOM (#21524)](https://github.com/risingwavelabs/risingwave/pull/21524)
 - `ef87394f1985c809078464bcabb4790fc7e5be2d` [fix(cdc): transform upstream correctly again (#21513)](https://github.com/risingwavelabs/risingwave/pull/21513)
