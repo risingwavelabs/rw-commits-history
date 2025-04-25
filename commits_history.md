@@ -227,6 +227,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f3f51e0d36f8baef3de286799aa466aea4c43cd2` [refactor(storage): extract epoch control common methods (#21397)](https://github.com/risingwavelabs/risingwave/pull/21397)
+- `6ade35a96092a22b3aa9dba2cf4c044a568bace4` [feat(udf): add `streaming_enable_materialized_expressions` session config (#21552)](https://github.com/risingwavelabs/risingwave/pull/21552)
 - `00abb73ae09116ae6dc7a927b1265632b569bc25` [fix(test): work around generate_with_options_yaml_inner issue (#21560)](https://github.com/risingwavelabs/risingwave/pull/21560)
 
 ## nightly-20250424
