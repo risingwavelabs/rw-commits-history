@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f58128a04250a3941ff127027c555859c086535f` [fix(meta): Don’t need to notify the frontend to clean up subscriptions upon recovery. (#21568)](https://github.com/risingwavelabs/risingwave/pull/21568)
 - `d8cefea495d636d265912ad27940d6a96cbc2f81` [refactor: use sql udf for nexmark q14 `count_char` (#21570)](https://github.com/risingwavelabs/risingwave/pull/21570)
 - `7913aef4102ea1353951b10faa2437b7640ad722` [fix(binder): check database if exists for binder (#21571)](https://github.com/risingwavelabs/risingwave/pull/21571)
 - `f3f51e0d36f8baef3de286799aa466aea4c43cd2` [refactor(storage): extract epoch control common methods (#21397)](https://github.com/risingwavelabs/risingwave/pull/21397)
