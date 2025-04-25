@@ -227,6 +227,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `00abb73ae09116ae6dc7a927b1265632b569bc25` [fix(test): work around generate_with_options_yaml_inner issue (#21560)](https://github.com/risingwavelabs/risingwave/pull/21560)
 
 ## nightly-20250424
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0ecba4446ae2cfedd7f8f16c109ea582afb82315...66325d3af5b902b787ff44b0b470275461cd2f0c)
