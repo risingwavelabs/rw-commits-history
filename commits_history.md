@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250425` `f58128a04250a3941ff127027c555859c086535f`
+- `20250426` `f58128a04250a3941ff127027c555859c086535f`
 - `20250424` `66325d3af5b902b787ff44b0b470275461cd2f0c`
 - `20250423` `0ecba4446ae2cfedd7f8f16c109ea582afb82315`
 - `20250422` `6ffeffb463a499d8c5df1e611224e7d3c1193a36`
@@ -228,7 +228,7 @@
 
 ## Unreleased
 
-## nightly-20250425
+## nightly-20250426
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66325d3af5b902b787ff44b0b470275461cd2f0c...f58128a04250a3941ff127027c555859c086535f)
 - `f58128a04250a3941ff127027c555859c086535f` [fix(meta): Don’t need to notify the frontend to clean up subscriptions upon recovery. (#21568)](https://github.com/risingwavelabs/risingwave/pull/21568)
 - `d8cefea495d636d265912ad27940d6a96cbc2f81` [refactor: use sql udf for nexmark q14 `count_char` (#21570)](https://github.com/risingwavelabs/risingwave/pull/21570)
