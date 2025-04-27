@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250427` `6a19d4a0c86902dd84ded08cf48fb9d011003422`
 - `20250426` `f58128a04250a3941ff127027c555859c086535f`
 - `20250424` `66325d3af5b902b787ff44b0b470275461cd2f0c`
 - `20250423` `0ecba4446ae2cfedd7f8f16c109ea582afb82315`
@@ -225,6 +226,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250427
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f58128a04250a3941ff127027c555859c086535f...6a19d4a0c86902dd84ded08cf48fb9d011003422)
 - `6a19d4a0c86902dd84ded08cf48fb9d011003422` [fix(meta): try reconnect to worker node on create new streaming job (#21591)](https://github.com/risingwavelabs/risingwave/pull/21591)
 - `fc5c769552616f730b51d29882cc2e1ce98ac662` [fix(iceberg): fix iceberg partition by name (#21590)](https://github.com/risingwavelabs/risingwave/pull/21590)
 - `34881bd1ad6e9ee54250f34b82f65a3086da377c` [fix(action): Label Commenter uses deprecated ubuntu-20.04 (#21567)](https://github.com/risingwavelabs/risingwave/pull/21567)
