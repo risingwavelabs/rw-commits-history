@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `34881bd1ad6e9ee54250f34b82f65a3086da377c` [fix(action): Label Commenter uses deprecated ubuntu-20.04 (#21567)](https://github.com/risingwavelabs/risingwave/pull/21567)
 
 ## nightly-20250426
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66325d3af5b902b787ff44b0b470275461cd2f0c...f58128a04250a3941ff127027c555859c086535f)
