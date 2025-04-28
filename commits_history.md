@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1caedb100b61e4f39731856da5f85cdade0faabc` [fix(cdc): mysql default value conversion failure should be tolerated (#21569)](https://github.com/risingwavelabs/risingwave/pull/21569)
 - `14763811ff7ce9c6da17f4557230ae0e97b1398c` [feat(meta,frontend,streaming): support fixed backfill order control (#20967)](https://github.com/risingwavelabs/risingwave/pull/20967)
 - `e05848715d6f41a25e65d625496eea73d63a0979` [fix(streaming): reset stream client pool in local barrier worker (#21611)](https://github.com/risingwavelabs/risingwave/pull/21611)
 - `7e468aa07f2dcef04ca680b9c93d8dc546c24c29` [fix: reset client pool for compute node (#21603)](https://github.com/risingwavelabs/risingwave/pull/21603)
