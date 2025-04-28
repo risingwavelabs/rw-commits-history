@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250428` `63cc14ed48b970bc03860adcdb47ecc119e026c8`
 - `20250427` `6a19d4a0c86902dd84ded08cf48fb9d011003422`
 - `20250426` `f58128a04250a3941ff127027c555859c086535f`
 - `20250424` `66325d3af5b902b787ff44b0b470275461cd2f0c`
@@ -225,6 +226,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250428
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a19d4a0c86902dd84ded08cf48fb9d011003422...63cc14ed48b970bc03860adcdb47ecc119e026c8)
 - `63cc14ed48b970bc03860adcdb47ecc119e026c8` [fix(stream): switch `jdbc_pg_to_native` sink (#21543)](https://github.com/risingwavelabs/risingwave/pull/21543)
 - `1caedb100b61e4f39731856da5f85cdade0faabc` [fix(cdc): mysql default value conversion failure should be tolerated (#21569)](https://github.com/risingwavelabs/risingwave/pull/21569)
 - `14763811ff7ce9c6da17f4557230ae0e97b1398c` [feat(meta,frontend,streaming): support fixed backfill order control (#20967)](https://github.com/risingwavelabs/risingwave/pull/20967)
