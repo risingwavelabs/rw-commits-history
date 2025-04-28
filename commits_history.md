@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e05848715d6f41a25e65d625496eea73d63a0979` [fix(streaming): reset stream client pool in local barrier worker (#21611)](https://github.com/risingwavelabs/risingwave/pull/21611)
 - `7e468aa07f2dcef04ca680b9c93d8dc546c24c29` [fix: reset client pool for compute node (#21603)](https://github.com/risingwavelabs/risingwave/pull/21603)
 - `86179645c995e227b033c23a65435e9db3159bdd` [chore: update docker image v2.3.1 (#21597)](https://github.com/risingwavelabs/risingwave/pull/21597)
 
