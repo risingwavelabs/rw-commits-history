@@ -224,6 +224,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `03a1ec44e49d14c3f095e295b712ca5f4a300b39` [chore(iceberg): remove emr compaction (#21641)](https://github.com/risingwavelabs/risingwave/pull/21641)
 - `b9e06dcc11fe51d4f8be87acb4f048e9d8956fc1` [fix(frontend): correctly handle case-sensitive identifier (column name) during def purification (#21638)](https://github.com/risingwavelabs/risingwave/pull/21638)
 - `6ff5dc55ef9d806b17041adf2c9439b802d49569` [feat(agg): ban non-append-only `APPROX_COUNT_DISTINCT` (#21545)](https://github.com/risingwavelabs/risingwave/pull/21545)
 - `7325885c2ac2f5be5699249072e8c40aa034a35b` [chore: change the log level of exactly once normal commit to `debug` (#21608)](https://github.com/risingwavelabs/risingwave/pull/21608)
