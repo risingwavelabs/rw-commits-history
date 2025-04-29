@@ -226,6 +226,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7325885c2ac2f5be5699249072e8c40aa034a35b` [chore: change the log level of exactly once normal commit to `debug` (#21608)](https://github.com/risingwavelabs/risingwave/pull/21608)
+- `a15de71f51e352c04d1226decf3b0a467611fb3b` [feat: add iceberg partition shuffle (#20198)](https://github.com/risingwavelabs/risingwave/pull/20198)
 - `a34328383239ed08956e10bf805f5d687106eea7` [fix(sqlsmith): ignore `ApproxCountDistinct` in sqlsmith (#21632)](https://github.com/risingwavelabs/risingwave/pull/21632)
 
 ## nightly-20250428
