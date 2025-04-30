@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250430` `a41aaf5767c25b4aebd14d70c6de7fbea9be029e`
 - `20250429` `03a1ec44e49d14c3f095e295b712ca5f4a300b39`
 - `20250428` `63cc14ed48b970bc03860adcdb47ecc119e026c8`
 - `20250427` `6a19d4a0c86902dd84ded08cf48fb9d011003422`
@@ -225,6 +226,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250430
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03a1ec44e49d14c3f095e295b712ca5f4a300b39...a41aaf5767c25b4aebd14d70c6de7fbea9be029e)
 - `a41aaf5767c25b4aebd14d70c6de7fbea9be029e` [chore(proto): do not add docs for `Pb`-prefixed type aliases (#21666)](https://github.com/risingwavelabs/risingwave/pull/21666)
 - `e45b1a699ab5755a9ae251e2ede7828871abc014` [feat(frontend): add a session config to allow disabling sql purification (#21656)](https://github.com/risingwavelabs/risingwave/pull/21656)
 - `6a22ad9669bbae40ce376cab4f8ac545a8743370` [feat(storage):  Optimizing the l0 intervals selection algorithm (#21042)](https://github.com/risingwavelabs/risingwave/pull/21042)
