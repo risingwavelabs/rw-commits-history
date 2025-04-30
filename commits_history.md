@@ -225,6 +225,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a41aaf5767c25b4aebd14d70c6de7fbea9be029e` [chore(proto): do not add docs for `Pb`-prefixed type aliases (#21666)](https://github.com/risingwavelabs/risingwave/pull/21666)
 - `e45b1a699ab5755a9ae251e2ede7828871abc014` [feat(frontend): add a session config to allow disabling sql purification (#21656)](https://github.com/risingwavelabs/risingwave/pull/21656)
 - `6a22ad9669bbae40ce376cab4f8ac545a8743370` [feat(storage):  Optimizing the l0 intervals selection algorithm (#21042)](https://github.com/risingwavelabs/risingwave/pull/21042)
 - `5c2c79653b71f987ef2015cbb8983017796fe3ae` [chore(ci): report cherry-pick workflow status to PR (#21647)](https://github.com/risingwavelabs/risingwave/pull/21647)
