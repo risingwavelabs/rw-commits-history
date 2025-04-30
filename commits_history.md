@@ -225,6 +225,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `253dc4aa2d834b281b0e9547474298da85ce0ee9` [chore(deps): Bump golang.org/x/crypto from 0.31.0 to 0.35.0 in /integration_tests/client-library/go (#21403)](https://github.com/risingwavelabs/risingwave/pull/21403)
+- `0576c52f29d97285c83455d80ddc9cb2f371bc1d` [chore(deps): Bump @babel/runtime from 7.23.9 to 7.27.0 in /dashboard (#21350)](https://github.com/risingwavelabs/risingwave/pull/21350)
 - `b96205cbcb1ad1bf3de8ab8dde9f171550c772e3` [fix(sqlparser): skip format_encode for CDC source (#21649)](https://github.com/risingwavelabs/risingwave/pull/21649)
 - `40e006b1420d402abb82938a3a6edd99db126088` [fix(log_store): fix init epoch of synced log store (#21557)](https://github.com/risingwavelabs/risingwave/pull/21557)
 - `d38c0f60f400c5db73a824ad483a24bf45019c1a` [fix(file source): do not persist empty file info in state table (#21646)](https://github.com/risingwavelabs/risingwave/pull/21646)
