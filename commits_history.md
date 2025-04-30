@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cad252c739779d69505f64da44f22854460274f9` [fix: Fix the issue of source split loss in sink into table (#21665)](https://github.com/risingwavelabs/risingwave/pull/21665)
 
 ## nightly-20250430
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03a1ec44e49d14c3f095e295b712ca5f4a300b39...a41aaf5767c25b4aebd14d70c6de7fbea9be029e)
