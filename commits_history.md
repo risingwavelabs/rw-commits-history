@@ -225,6 +225,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6a22ad9669bbae40ce376cab4f8ac545a8743370` [feat(storage):  Optimizing the l0 intervals selection algorithm (#21042)](https://github.com/risingwavelabs/risingwave/pull/21042)
+- `5c2c79653b71f987ef2015cbb8983017796fe3ae` [chore(ci): report cherry-pick workflow status to PR (#21647)](https://github.com/risingwavelabs/risingwave/pull/21647)
 - `253dc4aa2d834b281b0e9547474298da85ce0ee9` [chore(deps): Bump golang.org/x/crypto from 0.31.0 to 0.35.0 in /integration_tests/client-library/go (#21403)](https://github.com/risingwavelabs/risingwave/pull/21403)
 - `0576c52f29d97285c83455d80ddc9cb2f371bc1d` [chore(deps): Bump @babel/runtime from 7.23.9 to 7.27.0 in /dashboard (#21350)](https://github.com/risingwavelabs/risingwave/pull/21350)
 - `b96205cbcb1ad1bf3de8ab8dde9f171550c772e3` [fix(sqlparser): skip format_encode for CDC source (#21649)](https://github.com/risingwavelabs/risingwave/pull/21649)
