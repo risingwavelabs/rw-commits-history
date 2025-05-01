@@ -227,6 +227,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `88238d48fa2be86571b349c90c995996d3ec1d9f` [chore(deps): Bump crate-ci/typos from 1.31.1 to 1.31.2 (#21630)](https://github.com/risingwavelabs/risingwave/pull/21630)
 
 ## nightly-20250501
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a41aaf5767c25b4aebd14d70c6de7fbea9be029e...76bc348e7f931f99a4dd4404323fb51dad994453)
