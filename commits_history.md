@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250501` `76bc348e7f931f99a4dd4404323fb51dad994453`
 - `20250430` `a41aaf5767c25b4aebd14d70c6de7fbea9be029e`
 - `20250429` `03a1ec44e49d14c3f095e295b712ca5f4a300b39`
 - `20250428` `63cc14ed48b970bc03860adcdb47ecc119e026c8`
@@ -226,6 +227,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250501
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a41aaf5767c25b4aebd14d70c6de7fbea9be029e...76bc348e7f931f99a4dd4404323fb51dad994453)
 - `76bc348e7f931f99a4dd4404323fb51dad994453` [fix(ci): only run `report_status` if there's a cherry-pick tag (#21673)](https://github.com/risingwavelabs/risingwave/pull/21673)
 - `6fbddc6cccf4bd802b48e13abc5b0748a19079b1` [chore(ci): skip batch e2e also for standalone mode (#21672)](https://github.com/risingwavelabs/risingwave/pull/21672)
 - `b7995c50a21c445a81c32feeb44f89c43dffcf7e` [fix(test): typo in glue schema registry license test (#21658)](https://github.com/risingwavelabs/risingwave/pull/21658)
