@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b7995c50a21c445a81c32feeb44f89c43dffcf7e` [fix(test): typo in glue schema registry license test (#21658)](https://github.com/risingwavelabs/risingwave/pull/21658)
 - `cad252c739779d69505f64da44f22854460274f9` [fix: Fix the issue of source split loss in sink into table (#21665)](https://github.com/risingwavelabs/risingwave/pull/21665)
 
 ## nightly-20250430
