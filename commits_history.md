@@ -226,6 +226,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `76bc348e7f931f99a4dd4404323fb51dad994453` [fix(ci): only run `report_status` if there's a cherry-pick tag (#21673)](https://github.com/risingwavelabs/risingwave/pull/21673)
+- `6fbddc6cccf4bd802b48e13abc5b0748a19079b1` [chore(ci): skip batch e2e also for standalone mode (#21672)](https://github.com/risingwavelabs/risingwave/pull/21672)
 - `b7995c50a21c445a81c32feeb44f89c43dffcf7e` [fix(test): typo in glue schema registry license test (#21658)](https://github.com/risingwavelabs/risingwave/pull/21658)
 - `cad252c739779d69505f64da44f22854460274f9` [fix: Fix the issue of source split loss in sink into table (#21665)](https://github.com/risingwavelabs/risingwave/pull/21665)
 
