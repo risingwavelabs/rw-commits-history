@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250502` `88238d48fa2be86571b349c90c995996d3ec1d9f`
 - `20250501` `76bc348e7f931f99a4dd4404323fb51dad994453`
 - `20250430` `a41aaf5767c25b4aebd14d70c6de7fbea9be029e`
 - `20250429` `03a1ec44e49d14c3f095e295b712ca5f4a300b39`
@@ -227,6 +228,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250502
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/76bc348e7f931f99a4dd4404323fb51dad994453...88238d48fa2be86571b349c90c995996d3ec1d9f)
 - `88238d48fa2be86571b349c90c995996d3ec1d9f` [chore(deps): Bump crate-ci/typos from 1.31.1 to 1.31.2 (#21630)](https://github.com/risingwavelabs/risingwave/pull/21630)
 
 ## nightly-20250501
