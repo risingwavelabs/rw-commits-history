@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b974144617f20880a7dbf2b63ec0d275ac69e6d2` [Revert "feat: use order key as mv's dist key (#20176)" (#21687)](https://github.com/risingwavelabs/risingwave/pull/21687)
 - `f837e37698b87ffde0b3510e5e66a5f35163531a` [fix: handle missing 'connector' field in WITH clause with CONNECTION (#21691)](https://github.com/risingwavelabs/risingwave/pull/21691)
 
 ## nightly-20250504
