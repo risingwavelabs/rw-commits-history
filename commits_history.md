@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `75bda90ade54b123fe13a804a96095e082b6ff66` [ci: fix duplicated sparksql in e2e test (#21690)](https://github.com/risingwavelabs/risingwave/pull/21690)
 - `d7479c61c518805365317899e857778c8f734d32` [feat(sqlsmith): support generation of generate_series and range table functions (#21689)](https://github.com/risingwavelabs/risingwave/pull/21689)
 - `b974144617f20880a7dbf2b63ec0d275ac69e6d2` [Revert "feat: use order key as mv's dist key (#20176)" (#21687)](https://github.com/risingwavelabs/risingwave/pull/21687)
 - `f837e37698b87ffde0b3510e5e66a5f35163531a` [fix: handle missing 'connector' field in WITH clause with CONNECTION (#21691)](https://github.com/risingwavelabs/risingwave/pull/21691)
