@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250505` `75bda90ade54b123fe13a804a96095e082b6ff66`
 - `20250504` `88238d48fa2be86571b349c90c995996d3ec1d9f`
 - `20250501` `76bc348e7f931f99a4dd4404323fb51dad994453`
 - `20250430` `a41aaf5767c25b4aebd14d70c6de7fbea9be029e`
@@ -226,6 +227,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250505
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/88238d48fa2be86571b349c90c995996d3ec1d9f...75bda90ade54b123fe13a804a96095e082b6ff66)
 - `75bda90ade54b123fe13a804a96095e082b6ff66` [ci: fix duplicated sparksql in e2e test (#21690)](https://github.com/risingwavelabs/risingwave/pull/21690)
 - `d7479c61c518805365317899e857778c8f734d32` [feat(sqlsmith): support generation of generate_series and range table functions (#21689)](https://github.com/risingwavelabs/risingwave/pull/21689)
 - `b974144617f20880a7dbf2b63ec0d275ac69e6d2` [Revert "feat: use order key as mv's dist key (#20176)" (#21687)](https://github.com/risingwavelabs/risingwave/pull/21687)
