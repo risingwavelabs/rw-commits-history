@@ -224,6 +224,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a99bb1fa8ec4b29603bbd6a1819b568fdc4dc7da` [feat(expr): add date_bin (#21559)](https://github.com/risingwavelabs/risingwave/pull/21559)
+- `279c63d8725255787cb05824670f524c4f4d070e` [chore(deps): Bump deltalake from 0.20.1 to 0.24 to drop some ancient transitive dependencies (#21712)](https://github.com/risingwavelabs/risingwave/pull/21712)
 - `4d6c019db6b7aef9fa9d9a1e6568e5cad1d178c4` [feat(sqlsmith): support generation of unnest table function (#21738)](https://github.com/risingwavelabs/risingwave/pull/21738)
 
 ## nightly-20250506
