@@ -224,6 +224,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4d6c019db6b7aef9fa9d9a1e6568e5cad1d178c4` [feat(sqlsmith): support generation of unnest table function (#21738)](https://github.com/risingwavelabs/risingwave/pull/21738)
 
 ## nightly-20250506
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75bda90ade54b123fe13a804a96095e082b6ff66...a01676e9a04b0edc928d1f6de512d246e29c3ad8)
