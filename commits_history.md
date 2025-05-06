@@ -225,6 +225,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a3057d42374978e3ea1475825ad6e523c3e3536b` [chore(deps): Bump sysinfo from 0.34.1 to 0.35.0 (#21688)](https://github.com/risingwavelabs/risingwave/pull/21688)
 - `4fe5b712da82061245924e58f39534f36bf7a7b9` [refactor(storage): break down log epoch list into non-checkpoint and checkpoint (#21631)](https://github.com/risingwavelabs/risingwave/pull/21631)
 - `d36ffccbf72cf9cce7c55b1ffda61e96589326ce` [feat(dashboard): display metadata for index itself besides index table (#21680)](https://github.com/risingwavelabs/risingwave/pull/21680)
 - `f25bad14c1a866df90077af8fce461a2e0816fca` [chore(deps): Bump bitfield-struct from 0.10.1 to 0.11.0 (#21716)](https://github.com/risingwavelabs/risingwave/pull/21716)
