@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250506` `a01676e9a04b0edc928d1f6de512d246e29c3ad8`
 - `20250505` `75bda90ade54b123fe13a804a96095e082b6ff66`
 - `20250504` `88238d48fa2be86571b349c90c995996d3ec1d9f`
 - `20250501` `76bc348e7f931f99a4dd4404323fb51dad994453`
@@ -224,6 +225,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250506
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75bda90ade54b123fe13a804a96095e082b6ff66...a01676e9a04b0edc928d1f6de512d246e29c3ad8)
 - `a01676e9a04b0edc928d1f6de512d246e29c3ad8` [chore(ci): refactor backfill and background_ddl tests (#21710)](https://github.com/risingwavelabs/risingwave/pull/21710)
 - `9b54d9ab31b845bcda3601acfa121f7193f1497b` [refactor(risedev): deprecate `risedev-compose` (#21729)](https://github.com/risingwavelabs/risingwave/pull/21729)
 - `b939ccb992743b6eba2bb97f3e0f69d2258f4dc5` [feat(test): support mocked exactly once iceberg sink in simulation environment (#21301)](https://github.com/risingwavelabs/risingwave/pull/21301)
