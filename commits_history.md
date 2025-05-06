@@ -226,6 +226,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d36ffccbf72cf9cce7c55b1ffda61e96589326ce` [feat(dashboard): display metadata for index itself besides index table (#21680)](https://github.com/risingwavelabs/risingwave/pull/21680)
+- `f25bad14c1a866df90077af8fce461a2e0816fca` [chore(deps): Bump bitfield-struct from 0.10.1 to 0.11.0 (#21716)](https://github.com/risingwavelabs/risingwave/pull/21716)
 - `334312d84c3da45aef0ad88e926aff5141263986` [fix: assertion caused by missing check during sink into table recovery (#21714)](https://github.com/risingwavelabs/risingwave/pull/21714)
 - `955d66a667ff3f285973142747f06258fd2b43a6` [test(source): pulsar with docker in addition to public cloud (#21711)](https://github.com/risingwavelabs/risingwave/pull/21711)
 
