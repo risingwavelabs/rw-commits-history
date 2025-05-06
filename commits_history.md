@@ -216,7 +216,6 @@
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
-- `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 </details>
 
 # Commit history
@@ -225,6 +224,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c0ca1576b80cc2b0014e249331e77fa9f36d3f1f` [fix(test): add retry for js async udf call (#21728)](https://github.com/risingwavelabs/risingwave/pull/21728)
+- `3b7e14616b2b090e8d87638ff229c320c86d1a3c` [test: add coverage check for slt files (#21703)](https://github.com/risingwavelabs/risingwave/pull/21703)
+- `cce7b77a2a2d4a393c9bb018fa5c3ac13e8e9c59` [feat(expr): implement `array_flatten` (#21640)](https://github.com/risingwavelabs/risingwave/pull/21640)
+- `4790072b22e0440de3a3b6f24dc9105d9ebf0865` [refactor(arrow): cleanup stale arrow-48 compatible work (#21713)](https://github.com/risingwavelabs/risingwave/pull/21713)
 - `a3057d42374978e3ea1475825ad6e523c3e3536b` [chore(deps): Bump sysinfo from 0.34.1 to 0.35.0 (#21688)](https://github.com/risingwavelabs/risingwave/pull/21688)
 - `4fe5b712da82061245924e58f39534f36bf7a7b9` [refactor(storage): break down log epoch list into non-checkpoint and checkpoint (#21631)](https://github.com/risingwavelabs/risingwave/pull/21631)
 - `d36ffccbf72cf9cce7c55b1ffda61e96589326ce` [feat(dashboard): display metadata for index itself besides index table (#21680)](https://github.com/risingwavelabs/risingwave/pull/21680)
@@ -2479,8 +2482,4 @@
 - `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
 
 ## nightly-20240825
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d33623accf6e932592f4a945af436c18ced812fd...5c1af4c21215f8887133233a5978402019c3d3fa)
 - `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
-
-## nightly-20240824
-- `d33623accf6e932592f4a945af436c18ced812fd` [chore(build): add curl & less into docker image (#18223)](https://github.com/risingwavelabs/risingwave/pull/18223)
