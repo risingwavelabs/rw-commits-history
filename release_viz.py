@@ -148,6 +148,7 @@ def process_branch(version, br, repo_path):
         "last_release_version": releases[-1].tag_name if releases else None,
         "last_commit": br.commit.commit.author.date,
         "rc_releases": rc_releases,
+        "formal_releases": releases,
     }
     # 计算各段天数
     row["pre_days"] = days_between(row["branch_creation"], row["first_release"])
@@ -287,8 +288,8 @@ def to_markdown(df: pd.DataFrame) -> str:
         "# RisingWave Release Timeline\n",
         f"![timeline]({Path('release_timeline.svg').name})\n",
         "## Details\n",
-        "| Version | Branch creation | RC releases | First release | Last release | Last commit |\n",
-        "| :------ | :-------------- | :---------- | :------------ | :----------- | :---------- |\n",
+        "| Version | Branch creation | RC releases | Formal releases | Last commit |\n",
+        "| :------ | :-------------- | :---------- | :-------------- | :---------- |\n",
     ]
     for _, r in df.iterrows():
         if r.last_release_version:
@@ -301,12 +302,18 @@ def to_markdown(df: pd.DataFrame) -> str:
                 for i in range(len(r.rc_releases))
             ]
         )
+        formal_release_str = "<br>".join(
+            [
+                f"{fmt_date(r.formal_releases[i].created_at)} ({r.formal_releases[i].tag_name})"
+                for i in range(len(r.formal_releases))
+            ]
+        )
         md.append(
             f"| v{r.version} | "
             f"{fmt_date(r.branch_creation)} | "
             f"{rc_release_str} | "
-            f"{fmt_date(r.first_release)} | "
-            f"{last_release} | {fmt_date(r.last_commit)} |\n"
+            f"{formal_release_str} | "
+            f"{fmt_date(r.last_commit)} |\n"
         )
     md.append(f"\n*Generated {datetime.now():%Y-%m-%d}*")
     return "".join(md)
