@@ -77,15 +77,20 @@ def git_merge_base_date(branch_name: str, repo_path: str) -> datetime | None:
 
 
 def get_releases_for_version(version: str):
-    rels = [
-        r
-        for r in repo.get_releases()
-        if r.tag_name.startswith(f"v{version}.")
-        and "rc" not in r.tag_name
-        and "single-node" not in r.tag_name
-    ]
+    rels = []
+    rc_rels = []
+    for r in repo.get_releases():
+        if r.tag_name.startswith(f"v{version}."):
+            if "single-node" in r.tag_name:
+                # skip
+                continue
+            if "rc" in r.tag_name:
+                rc_rels.append(r)
+            else:
+                rels.append(r)
     rels.sort(key=lambda r: r.created_at)
-    return rels
+    rc_rels.sort(key=lambda r: r.created_at)
+    return rels, rc_rels
 
 
 def collect_release_data() -> pd.DataFrame:
@@ -133,7 +138,7 @@ def collect_release_data() -> pd.DataFrame:
 
 
 def process_branch(version, br, repo_path):
-    releases = get_releases_for_version(version)
+    releases, rc_releases = get_releases_for_version(version)
     row = {
         "version": version,
         "version_num": [int(x) for x in version.split(".")],  # 排序辅助
@@ -142,6 +147,7 @@ def process_branch(version, br, repo_path):
         "last_release": releases[-1].created_at if releases else pd.NaT,
         "last_release_version": releases[-1].tag_name if releases else None,
         "last_commit": br.commit.commit.author.date,
+        "rc_releases": rc_releases,
     }
     # 计算各段天数
     row["pre_days"] = days_between(row["branch_creation"], row["first_release"])
@@ -281,24 +287,32 @@ def to_markdown(df: pd.DataFrame) -> str:
         "# RisingWave Release Timeline\n",
         f"![timeline]({Path('release_timeline.svg').name})\n",
         "## Details\n",
-        "| Version | Branch creation | First release | Last release | Last commit |\n",
-        "| :------ | :---------- | :------------ | :----------- | :---------- |\n",
+        "| Version | Branch creation | RC releases | First release | Last release | Last commit |\n",
+        "| :------ | :-------------- | :---------- | :------------ | :----------- | :---------- |\n",
     ]
     for _, r in df.iterrows():
         if r.last_release_version:
-            last_release = f"{fmt(r.last_release)} ({r.last_release_version})"
+            last_release = f"{fmt_date(r.last_release)} ({r.last_release_version})"
         else:
-            last_release = fmt(r.last_release)
+            last_release = fmt_date(r.last_release)
+        rc_release_str = "<br>".join(
+            [
+                f"{fmt_date(r.rc_releases[i].created_at)} ({r.rc_releases[i].tag_name})"
+                for i in range(len(r.rc_releases))
+            ]
+        )
         md.append(
             f"| v{r.version} | "
-            f"{fmt(r.branch_creation)} | {fmt(r.first_release)} | "
-            f"{last_release} | {fmt(r.last_commit)} |\n"
+            f"{fmt_date(r.branch_creation)} | "
+            f"{rc_release_str} | "
+            f"{fmt_date(r.first_release)} | "
+            f"{last_release} | {fmt_date(r.last_commit)} |\n"
         )
     md.append(f"\n*Generated {datetime.now():%Y-%m-%d}*")
     return "".join(md)
 
 
-def fmt(x):
+def fmt_date(x):
     return x.strftime("%Y-%m-%d") if pd.notna(x) else "—"
 
 
