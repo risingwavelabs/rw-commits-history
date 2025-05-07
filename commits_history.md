@@ -215,7 +215,6 @@
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
-- `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 </details>
 
 # Commit history
@@ -224,6 +223,18 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `792dc86b320c8955cf3ba25c100be0d252f950f3` [chore: update docker image to v2.4.0-rc.1 (#21758)](https://github.com/risingwavelabs/risingwave/pull/21758)
+- `4ac11794490b8a4cb885be57e888a9dfeb509954` [fix(connector) Dont resubscibe mqtt client and propagate error (#21323)](https://github.com/risingwavelabs/risingwave/pull/21323)
+- `03ffc986b393fe9b58adde56e8ae6d6395bf6df2` [chore(deps): Bump nix from 0.29.0 to 0.30.1 (#21717)](https://github.com/risingwavelabs/risingwave/pull/21717)
+- `19d23c1650a1658b39e51a7d745ce5232683f187` [feat(optimizer): eliminate fixed output simple agg (#21753)](https://github.com/risingwavelabs/risingwave/pull/21753)
+- `5ac039d3446dbc305b518d0901159d6cf95c7d1a` [feat(risedev): support starting pulsar (#21732)](https://github.com/risingwavelabs/risingwave/pull/21732)
+- `d921d1836bf2848925f7094aaea02908ef5e0ff9` [chore(deps): Bump gcloud-bigquery from 1.0.0 to 1.1.0 (depending on arrow-53 -> arrow-54) (#21748)](https://github.com/risingwavelabs/risingwave/pull/21748)
+- `88541866548937d0de4198c2b3ddbe1e9676b770` [test: integrate pulsar (user-managed) into risedev (#21682)](https://github.com/risingwavelabs/risingwave/pull/21682)
+- `6479e981927558d7c5e075938d097c4cfc222da5` [refactor(meta): include resource group name in scheduling error message (#21727)](https://github.com/risingwavelabs/risingwave/pull/21727)
+- `df32061d7f23956c6942797825ad1372a06d3796` [chore(deps): Migrate from google-cloud-* to gcloud-* (#21743)](https://github.com/risingwavelabs/risingwave/pull/21743)
+- `e9edf5a932a3db4cac1094e50cd2341e80661c3c` [feat: support describe fragment <fragment-id> (#21587)](https://github.com/risingwavelabs/risingwave/pull/21587)
+- `6fabd5b29b369a09695a05a16a08bfdec057d8ab` [refactor(common): rename `DataType::as_list` to `as_list_element_type` (#21643)](https://github.com/risingwavelabs/risingwave/pull/21643)
+- `5461454594a9602819088820f31b74adb6031d83` [fix: handle telemetry None event (#21652)](https://github.com/risingwavelabs/risingwave/pull/21652)
 - `a99bb1fa8ec4b29603bbd6a1819b568fdc4dc7da` [feat(expr): add date_bin (#21559)](https://github.com/risingwavelabs/risingwave/pull/21559)
 - `279c63d8725255787cb05824670f524c4f4d070e` [chore(deps): Bump deltalake from 0.20.1 to 0.24 to drop some ancient transitive dependencies (#21712)](https://github.com/risingwavelabs/risingwave/pull/21712)
 - `4d6c019db6b7aef9fa9d9a1e6568e5cad1d178c4` [feat(sqlsmith): support generation of unnest table function (#21738)](https://github.com/risingwavelabs/risingwave/pull/21738)
@@ -2463,16 +2474,4 @@
 - `7a97076cedfc1018facc892ed1c350327fe6b8db` [fix(meta): fix list changed log epoch retrun null epoch (#18273)](https://github.com/risingwavelabs/risingwave/pull/18273)
 
 ## nightly-20240827
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983...63b4d47ea9f54f567983e097e15d8dc9b0384849)
 - `63b4d47ea9f54f567983e097e15d8dc9b0384849` [fix: should use table_metric for MV throughput (#18265)](https://github.com/risingwavelabs/risingwave/pull/18265)
-- `6bd0e89cf056969fe0f9028815d83786c53dfec6` [chore: create an issue in the doc repo if it is a breaking change (#18263)](https://github.com/risingwavelabs/risingwave/pull/18263)
-- `22926d67fff102cd7114b150b8437e3afd4a4231` [refactor(iceberg): Separate iceberg source pb from source pb (#18209)](https://github.com/risingwavelabs/risingwave/pull/18209)
-- `edaace2f93877f1bc25c523da4d434b869aaf73a` [fix(batch): fix CTAS pins snapshot too long (#18248)](https://github.com/risingwavelabs/risingwave/pull/18248)
-- `79d98109deee8518740be6a00c3e4f41c29d5f1b` [feat(storage): Support for repairing the size of a split sst based on table stats (#18053)](https://github.com/risingwavelabs/risingwave/pull/18053)
-- `e3a9d37ddad6ed519c0fa48ec457a0ea994c441a` [feat(agg): support `aggregate:` prefixed scalar function in streaming agg (#18205)](https://github.com/risingwavelabs/risingwave/pull/18205)
-- `3c31ef9755c0bc9799dd4b65151b095beb148120` [fix(storage): Fix the bug that switch table_id breaks block data constraints. (#18235)](https://github.com/risingwavelabs/risingwave/pull/18235)
-- `9932d12bf91c822164a06551fe2b56363d77e99c` [feat(connector): introduce azblob sink (#18244)](https://github.com/risingwavelabs/risingwave/pull/18244)
-- `860a936beb8ee4fae1576429b5a02a9c765dea6d` [fix: allow nullable for target table columns for normal sink (#18251)](https://github.com/risingwavelabs/risingwave/pull/18251)
-
-## nightly-20240826
-- `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983` [feat: inject pause/resume for creating sink into table (#17651)](https://github.com/risingwavelabs/risingwave/pull/17651)
