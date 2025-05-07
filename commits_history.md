@@ -224,6 +224,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fc7ea34ceb4749891de590dbd4aa0a1ad4f5953c` [feat(ci): support workflow for docker image building (#21626)](https://github.com/risingwavelabs/risingwave/pull/21626)
 
 ## nightly-20250507
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a01676e9a04b0edc928d1f6de512d246e29c3ad8...792dc86b320c8955cf3ba25c100be0d252f950f3)
