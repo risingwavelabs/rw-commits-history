@@ -184,7 +184,7 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
     ax.grid(axis="x", color="#d0d0d0", linewidth=0.5, linestyle="--", alpha=0.6)
 
     # 画条
-    for idx, row in df.iterrows():
+    for idx, row in df.iloc[::-1].iterrows():
         y = idx
 
         # 如果只有 branch_creation，使用 last_commit 作为 pre-release 的结束时间
@@ -291,7 +291,7 @@ def to_markdown(df: pd.DataFrame) -> str:
         "| Version | Branch creation | RC releases | Formal releases | Last commit |\n",
         "| :------ | :-------------- | :---------- | :-------------- | :---------- |\n",
     ]
-    for _, r in df.iterrows():
+    for _, r in df.iloc[::-1].iterrows():
         if r.last_release_version:
             last_release = f"{fmt_date(r.last_release)} ({r.last_release_version})"
         else:
