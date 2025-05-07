@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250507` `792dc86b320c8955cf3ba25c100be0d252f950f3`
 - `20250506` `a01676e9a04b0edc928d1f6de512d246e29c3ad8`
 - `20250505` `75bda90ade54b123fe13a804a96095e082b6ff66`
 - `20250504` `88238d48fa2be86571b349c90c995996d3ec1d9f`
@@ -223,6 +224,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250507
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a01676e9a04b0edc928d1f6de512d246e29c3ad8...792dc86b320c8955cf3ba25c100be0d252f950f3)
 - `792dc86b320c8955cf3ba25c100be0d252f950f3` [chore: update docker image to v2.4.0-rc.1 (#21758)](https://github.com/risingwavelabs/risingwave/pull/21758)
 - `4ac11794490b8a4cb885be57e888a9dfeb509954` [fix(connector) Dont resubscibe mqtt client and propagate error (#21323)](https://github.com/risingwavelabs/risingwave/pull/21323)
 - `03ffc986b393fe9b58adde56e8ae6d6395bf6df2` [chore(deps): Bump nix from 0.29.0 to 0.30.1 (#21717)](https://github.com/risingwavelabs/risingwave/pull/21717)
