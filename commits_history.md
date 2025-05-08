@@ -224,6 +224,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1611e1bff1ae904fedb6060c120b565baad8320a` [feat(proto): introduce iceberg compaction proto (#21778)](https://github.com/risingwavelabs/risingwave/pull/21778)
+- `edf7afd9bb8ac94f99d145d91838faebcf4cf6ca` [chore(udf): upgrade arrow-udf-runtime to 0.8.0 (#21780)](https://github.com/risingwavelabs/risingwave/pull/21780)
+- `65c9c271ebd3f57a222d386155a230d3809d97bd` [feat(risedev): skip build connector node for USE_SYSTEM_RISINGWAVE (#21772)](https://github.com/risingwavelabs/risingwave/pull/21772)
+- `f3c432fbb2a95a0258a3530fcd9a23cece553e32` [fix(test): include missing OverWindow slt tests (#21755)](https://github.com/risingwavelabs/risingwave/pull/21755)
+- `f456829893c0e2752c3b6cfb3fb7b150d11dbd7d` [chore(ci): move more dep installation from script to image & bump sqllogictest-bin to 0.28.2 (#21730)](https://github.com/risingwavelabs/risingwave/pull/21730)
+- `097dcd11b6b4b395cab1fc4c8f69b09177b64398` [feat(iceberg): support iceberg compaction manager (#21657)](https://github.com/risingwavelabs/risingwave/pull/21657)
 - `fc7ea34ceb4749891de590dbd4aa0a1ad4f5953c` [feat(ci): support workflow for docker image building (#21626)](https://github.com/risingwavelabs/risingwave/pull/21626)
 
 ## nightly-20250507
