@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250508` `1611e1bff1ae904fedb6060c120b565baad8320a`
 - `20250507` `792dc86b320c8955cf3ba25c100be0d252f950f3`
 - `20250506` `a01676e9a04b0edc928d1f6de512d246e29c3ad8`
 - `20250505` `75bda90ade54b123fe13a804a96095e082b6ff66`
@@ -224,6 +225,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250508
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/792dc86b320c8955cf3ba25c100be0d252f950f3...1611e1bff1ae904fedb6060c120b565baad8320a)
 - `1611e1bff1ae904fedb6060c120b565baad8320a` [feat(proto): introduce iceberg compaction proto (#21778)](https://github.com/risingwavelabs/risingwave/pull/21778)
 - `edf7afd9bb8ac94f99d145d91838faebcf4cf6ca` [chore(udf): upgrade arrow-udf-runtime to 0.8.0 (#21780)](https://github.com/risingwavelabs/risingwave/pull/21780)
 - `65c9c271ebd3f57a222d386155a230d3809d97bd` [feat(risedev): skip build connector node for USE_SYSTEM_RISINGWAVE (#21772)](https://github.com/risingwavelabs/risingwave/pull/21772)
