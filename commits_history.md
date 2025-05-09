@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250509` `d0d43406522b7758cffe8ec1a1eda6f8bc11a771`
 - `20250508` `1611e1bff1ae904fedb6060c120b565baad8320a`
 - `20250507` `792dc86b320c8955cf3ba25c100be0d252f950f3`
 - `20250506` `a01676e9a04b0edc928d1f6de512d246e29c3ad8`
@@ -225,6 +226,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5681cedbea081be54b8350e308d3df55a94aca50` [refactor(compaction): refactor compaction event stream (#21669)](https://github.com/risingwavelabs/risingwave/pull/21669)
+
+## nightly-20250509
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1611e1bff1ae904fedb6060c120b565baad8320a...d0d43406522b7758cffe8ec1a1eda6f8bc11a771)
 - `d0d43406522b7758cffe8ec1a1eda6f8bc11a771` [feat(frontend): support sink_decouple for sink into table (#21784)](https://github.com/risingwavelabs/risingwave/pull/21784)
 - `706c7f9e70ddcab2d54bc073512db790699eb1f0` [feat(compactor): introduce iceberg compactor manager (#21785)](https://github.com/risingwavelabs/risingwave/pull/21785)
 - `0b3ab2fc25adb8c1fe9b895eac06f7f5c7f1d935` [fix: print `AlterSinkOperation::SetSinkProps` correctly (#21790)](https://github.com/risingwavelabs/risingwave/pull/21790)
