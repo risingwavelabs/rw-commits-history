@@ -225,6 +225,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d0d43406522b7758cffe8ec1a1eda6f8bc11a771` [feat(frontend): support sink_decouple for sink into table (#21784)](https://github.com/risingwavelabs/risingwave/pull/21784)
+- `706c7f9e70ddcab2d54bc073512db790699eb1f0` [feat(compactor): introduce iceberg compactor manager (#21785)](https://github.com/risingwavelabs/risingwave/pull/21785)
+- `0b3ab2fc25adb8c1fe9b895eac06f7f5c7f1d935` [fix: print `AlterSinkOperation::SetSinkProps` correctly (#21790)](https://github.com/risingwavelabs/risingwave/pull/21790)
+- `b180c0e4e788421bb427f8ef3da52f9501c2fbfe` [feat(sink): Support more template format for Redis sink (#21431)](https://github.com/risingwavelabs/risingwave/pull/21431)
+- `5b5813c6e9f42aad818297d476feb88a99c7c748` [refactor(meta): cleanup more dead code of etcd meta store (#21782)](https://github.com/risingwavelabs/risingwave/pull/21782)
+- `59540d2e90266c567913eb90bb2886ef9d5bb036` [fix(iceberg): fix iceberg table engine pk retrieving (#21789)](https://github.com/risingwavelabs/risingwave/pull/21789)
+- `14d4c71e81fbaa57e48e4ce79dc1faa13c82cd95` [fix(connector): add timeout and retry for kinesis client (#21616)](https://github.com/risingwavelabs/risingwave/pull/21616)
+- `638de198829f6214226830d3bbd9b142aefc4b06` [feat(sqlsmith): support generation of jsonb_* table function (#21773)](https://github.com/risingwavelabs/risingwave/pull/21773)
 
 ## nightly-20250508
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/792dc86b320c8955cf3ba25c100be0d252f950f3...1611e1bff1ae904fedb6060c120b565baad8320a)
