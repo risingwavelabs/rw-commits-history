@@ -226,6 +226,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bc77615871afe926a90705af306b99e7f2bcfabb` [chore: Update README.md (#21807)](https://github.com/risingwavelabs/risingwave/pull/21807)
 - `5681cedbea081be54b8350e308d3df55a94aca50` [refactor(compaction): refactor compaction event stream (#21669)](https://github.com/risingwavelabs/risingwave/pull/21669)
 
 ## nightly-20250509
