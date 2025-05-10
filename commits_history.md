@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250510` `bc77615871afe926a90705af306b99e7f2bcfabb`
 - `20250509` `d0d43406522b7758cffe8ec1a1eda6f8bc11a771`
 - `20250508` `1611e1bff1ae904fedb6060c120b565baad8320a`
 - `20250507` `792dc86b320c8955cf3ba25c100be0d252f950f3`
@@ -226,6 +227,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250510
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0d43406522b7758cffe8ec1a1eda6f8bc11a771...bc77615871afe926a90705af306b99e7f2bcfabb)
 - `bc77615871afe926a90705af306b99e7f2bcfabb` [chore: Update README.md (#21807)](https://github.com/risingwavelabs/risingwave/pull/21807)
 - `5681cedbea081be54b8350e308d3df55a94aca50` [refactor(compaction): refactor compaction event stream (#21669)](https://github.com/risingwavelabs/risingwave/pull/21669)
 
