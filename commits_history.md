@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250511` `10a75d54b30af4d640f623eec0477d9c0d2c6ad4`
 - `20250510` `bc77615871afe926a90705af306b99e7f2bcfabb`
 - `20250509` `d0d43406522b7758cffe8ec1a1eda6f8bc11a771`
 - `20250508` `1611e1bff1ae904fedb6060c120b565baad8320a`
@@ -226,6 +227,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250511
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc77615871afe926a90705af306b99e7f2bcfabb...10a75d54b30af4d640f623eec0477d9c0d2c6ad4)
 - `10a75d54b30af4d640f623eec0477d9c0d2c6ad4` [fix(ci): increase wait time for doris to be ready in `e2e-doris-sink` test (#21812)](https://github.com/risingwavelabs/risingwave/pull/21812)
 - `52c15a5a54f5ae7cbe2a4945f162f74c8e590cff` [chore: Update README.md (#21808)](https://github.com/risingwavelabs/risingwave/pull/21808)
 
