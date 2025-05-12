@@ -227,6 +227,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `21becf438db2dbdb73b5410ff247c894db1fa2aa` [feat(foyer): skip disk cache write young populated entries (#21573)](https://github.com/risingwavelabs/risingwave/pull/21573)
+- `c6dfb1be1823b868946fd483ede745c846538572` [feat(storage): define vector read write trait (#21398)](https://github.com/risingwavelabs/risingwave/pull/21398)
+- `b30901f57dc4cf3001b1e1720ef60d7c49279703` [chore: remove ActorDispatcher table (#21816)](https://github.com/risingwavelabs/risingwave/pull/21816)
+- `0098ebe5f717fc85f572ae06c74ac0f7b42cadc3` [refactor(ci): move `pyarrow` from ci image to test scripts (#21804)](https://github.com/risingwavelabs/risingwave/pull/21804)
+- `8a81b77c3385d6acde507badca808390f563f8d1` [fix: change the source name associated with the table for the rename command (#21793)](https://github.com/risingwavelabs/risingwave/pull/21793)
+- `99065c7116d111b90e70664a6468f761b4d0935b` [refactor(sink): add feature flag for deltalake sink (#21786)](https://github.com/risingwavelabs/risingwave/pull/21786)
+- `77cb45429dbc3e1275dbe6cd12a106859c5160ff` [feat(compactor): introduce compactor mode for iceberg (#21818)](https://github.com/risingwavelabs/risingwave/pull/21818)
+- `d43a594327cd7ff4627ad37ee00a3a949a6cb9f8` [feat(sqlsmith): support generation of regexp_match table function (#21809)](https://github.com/risingwavelabs/risingwave/pull/21809)
 
 ## nightly-20250511
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc77615871afe926a90705af306b99e7f2bcfabb...10a75d54b30af4d640f623eec0477d9c0d2c6ad4)
