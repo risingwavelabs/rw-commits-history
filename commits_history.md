@@ -227,6 +227,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5a88db10650d3cd0720ff2940f13d6c6a1db3e1a` [fix: cherry-pick action report_status is not run (#21745)](https://github.com/risingwavelabs/risingwave/pull/21745)
 - `21becf438db2dbdb73b5410ff247c894db1fa2aa` [feat(foyer): skip disk cache write young populated entries (#21573)](https://github.com/risingwavelabs/risingwave/pull/21573)
 - `c6dfb1be1823b868946fd483ede745c846538572` [feat(storage): define vector read write trait (#21398)](https://github.com/risingwavelabs/risingwave/pull/21398)
 - `b30901f57dc4cf3001b1e1720ef60d7c49279703` [chore: remove ActorDispatcher table (#21816)](https://github.com/risingwavelabs/risingwave/pull/21816)
