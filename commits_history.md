@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250513` `c3c2962848dbb71ca2f65f9de63bc02a4ef70500`
 - `20250511` `10a75d54b30af4d640f623eec0477d9c0d2c6ad4`
 - `20250510` `bc77615871afe926a90705af306b99e7f2bcfabb`
 - `20250509` `d0d43406522b7758cffe8ec1a1eda6f8bc11a771`
@@ -227,6 +228,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250513
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10a75d54b30af4d640f623eec0477d9c0d2c6ad4...c3c2962848dbb71ca2f65f9de63bc02a4ef70500)
 - `c3c2962848dbb71ca2f65f9de63bc02a4ef70500` [fix(test): include uncovered & remove useless misc e2e tests (#21828)](https://github.com/risingwavelabs/risingwave/pull/21828)
 - `148b4948b38cb89e680033c4106569bb6819398c` [refactor(meta): avoid using frontend generated `ColumnIndexMapping` when constructing new dispatcher for replacement (#21499)](https://github.com/risingwavelabs/risingwave/pull/21499)
 - `85fc9ef6122563231d0d366441bd797819b73d0b` [fix: do not expose the columns of table's associated source (#21842)](https://github.com/risingwavelabs/risingwave/pull/21842)
