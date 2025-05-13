@@ -227,6 +227,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c3c2962848dbb71ca2f65f9de63bc02a4ef70500` [fix(test): include uncovered & remove useless misc e2e tests (#21828)](https://github.com/risingwavelabs/risingwave/pull/21828)
+- `148b4948b38cb89e680033c4106569bb6819398c` [refactor(meta): avoid using frontend generated `ColumnIndexMapping` when constructing new dispatcher for replacement (#21499)](https://github.com/risingwavelabs/risingwave/pull/21499)
+- `85fc9ef6122563231d0d366441bd797819b73d0b` [fix: do not expose the columns of table's associated source (#21842)](https://github.com/risingwavelabs/risingwave/pull/21842)
+- `bd177ef3555a1f462ea56227410a8af2a9aab76a` [feat(foyer): add config field to set file cache fifo probation ratio (#21841)](https://github.com/risingwavelabs/risingwave/pull/21841)
+- `3ee6c2463cea9a4513ee64590fb0c857f573b8a9` [chore(foyer): switch to foyer released version v0.17.1 (#21840)](https://github.com/risingwavelabs/risingwave/pull/21840)
+- `84a94936c04fe78f9b2e19218ec347a9e51f49b5` [fix(test): include uncovered streaming e2e tests (#21827)](https://github.com/risingwavelabs/risingwave/pull/21827)
 - `5a88db10650d3cd0720ff2940f13d6c6a1db3e1a` [fix: cherry-pick action report_status is not run (#21745)](https://github.com/risingwavelabs/risingwave/pull/21745)
 - `21becf438db2dbdb73b5410ff247c894db1fa2aa` [feat(foyer): skip disk cache write young populated entries (#21573)](https://github.com/risingwavelabs/risingwave/pull/21573)
 - `c6dfb1be1823b868946fd483ede745c846538572` [feat(storage): define vector read write trait (#21398)](https://github.com/risingwavelabs/risingwave/pull/21398)
