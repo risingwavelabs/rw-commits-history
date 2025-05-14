@@ -228,6 +228,18 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `436277bfb5af5231b0ae93da2fab5b339ec70154` [feat(compaction): introduce iceberg compaction pull strategy (#21824)](https://github.com/risingwavelabs/risingwave/pull/21824)
+- `f5f725051bfea644dc4fe1fda8264854f702de6a` [fix(ci): CI_STEPS regex shall not require leading space  (#21867)](https://github.com/risingwavelabs/risingwave/pull/21867)
+- `8c77e05adbe18521f59a11517ded41390607c829` [chore(deps): Bump deltalake from 0.24 to 0.26 (#21860)](https://github.com/risingwavelabs/risingwave/pull/21860)
+- `76175590b64cd00900e56773642474aa8031eed0` [refactor: unify `hummock+memory` with `hummock+memory-shared` & fix compactor service in playground (#21847)](https://github.com/risingwavelabs/risingwave/pull/21847)
+- `c4b96e13fcab4c6852fbdc8ad6bd035f469d9d80` [fix(foyer): fix wrong disk cache result on hash collision (#21864)](https://github.com/risingwavelabs/risingwave/pull/21864)
+- `832d48a5d2907b44f1d8e27dba872702f2dcb48c` [fix(ci): fix container name conflict (#21850)](https://github.com/risingwavelabs/risingwave/pull/21850)
+- `358287b5de2762551ff29622b76597b8e6c372e2` [fix(iceberg): fix delete file lost wake (#21848)](https://github.com/risingwavelabs/risingwave/pull/21848)
+- `e2824e04dfc2fc8e775a46be5b13c9e8631c928e` [feat(storage): implement in memory FLAT vector index (#21399)](https://github.com/risingwavelabs/risingwave/pull/21399)
+- `ce8e8375dc1929eeed710896199cebef6bf12541` [refactor(storage): strong typed hummock sstable and object id (#21839)](https://github.com/risingwavelabs/risingwave/pull/21839)
+- `38449023136a19ed67ad4c605769a1a23e1e4f6a` [fix(frontend): do not purify SQL definition for CDC sources (#21521)](https://github.com/risingwavelabs/risingwave/pull/21521)
+- `8248033b8ffa25cdb8d244ce4ce57e5abf69579a` [chore(deps): Bump fixedbitset from 0.5.0 to 0.5.7 (#21853)](https://github.com/risingwavelabs/risingwave/pull/21853)
+- `0966224552c589a18c118f06cdaaa1959007a4dc` [refactor(storage): no default sstable info (#21845)](https://github.com/risingwavelabs/risingwave/pull/21845)
 
 ## nightly-20250513
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10a75d54b30af4d640f623eec0477d9c0d2c6ad4...c3c2962848dbb71ca2f65f9de63bc02a4ef70500)
