@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250515` `699bb51ec2df2536f04ec7cd28c745ca91b7364a`
 - `20250514` `436277bfb5af5231b0ae93da2fab5b339ec70154`
 - `20250513` `c3c2962848dbb71ca2f65f9de63bc02a4ef70500`
 - `20250511` `10a75d54b30af4d640f623eec0477d9c0d2c6ad4`
@@ -228,6 +229,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250515
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/436277bfb5af5231b0ae93da2fab5b339ec70154...699bb51ec2df2536f04ec7cd28c745ca91b7364a)
 - `699bb51ec2df2536f04ec7cd28c745ca91b7364a` [chore(deps): tighten range to avoid downgrading to vulnerable versions (#21882)](https://github.com/risingwavelabs/risingwave/pull/21882)
 - `08853b28c969fdd5c314b540ed5f0ac2b94691df` [fix(optimizer): fix join reorder for temporal join (#21858)](https://github.com/risingwavelabs/risingwave/pull/21858)
 - `ab87cbcbaeb6621b5d8b0894d23d1ff763069687` [fix: fix several bugs when trying to enable recovery for sink into table and replace table (#21872)](https://github.com/risingwavelabs/risingwave/pull/21872)
