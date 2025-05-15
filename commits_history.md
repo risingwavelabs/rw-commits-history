@@ -228,6 +228,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `699bb51ec2df2536f04ec7cd28c745ca91b7364a` [chore(deps): tighten range to avoid downgrading to vulnerable versions (#21882)](https://github.com/risingwavelabs/risingwave/pull/21882)
+- `08853b28c969fdd5c314b540ed5f0ac2b94691df` [fix(optimizer): fix join reorder for temporal join (#21858)](https://github.com/risingwavelabs/risingwave/pull/21858)
+- `ab87cbcbaeb6621b5d8b0894d23d1ff763069687` [fix: fix several bugs when trying to enable recovery for sink into table and replace table (#21872)](https://github.com/risingwavelabs/risingwave/pull/21872)
+- `efe74766c105c15b703ce0f1b0f3e64d97cbf2d8` [feat(frontend): plan backfill order strategy after the planner phase, instead of binding phase (#21813)](https://github.com/risingwavelabs/risingwave/pull/21813)
+- `f1e48e02886f0b1d76a0cb965bce681c97b3880e` [chore(deps): Bump protox from 0.7.2 to 0.8.0 (#21740)](https://github.com/risingwavelabs/risingwave/pull/21740)
+- `ec003ff0fb38eb3f069e7c10320a4223274c5176` [chore(deps): Bump rustls-pki-types from 1.11.0 to 1.12.0 (#21766)](https://github.com/risingwavelabs/risingwave/pull/21766)
+- `b34ead99cea83cf861952bba326ca2c1bff2efe0` [feat(frontend): support batch scan on datagen source (#21869)](https://github.com/risingwavelabs/risingwave/pull/21869)
+- `8862750ad2fcca3736c9676a5f8875fd705d62bc` [chore(deps): Bump petgraph from 0.6.5 to 0.7.1 (#21876)](https://github.com/risingwavelabs/risingwave/pull/21876)
 
 ## nightly-20250514
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c3c2962848dbb71ca2f65f9de63bc02a4ef70500...436277bfb5af5231b0ae93da2fab5b339ec70154)
