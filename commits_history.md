@@ -229,6 +229,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35` [fix(iceberg): fix duplicated iceberg all files (#21783)](https://github.com/risingwavelabs/risingwave/pull/21783)
+- `776d84746bd11c92b6443b4fc96b5db18f49d9f8` [feat(iceberg): skip write to hummock for APPEND ONLY iceberg table (#21811)](https://github.com/risingwavelabs/risingwave/pull/21811)
+- `354c1aca15f90c1af0e82fc8c65e147e8db08bac` [feat(iceberg): introduce per sink compaction config (#21837)](https://github.com/risingwavelabs/risingwave/pull/21837)
+- `7a226a25bce11878e69d898b36c906f5dafdbb96` [chore(deps): bump `thiserror` to `2` along with `thiserror-ext` (#21880)](https://github.com/risingwavelabs/risingwave/pull/21880)
+- `7863c524295eed1a209280ad82db54c8ccd29b81` [refactor(storage): support GC on multiple object types and suffixs (#21881)](https://github.com/risingwavelabs/risingwave/pull/21881)
 
 ## nightly-20250515
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/436277bfb5af5231b0ae93da2fab5b339ec70154...699bb51ec2df2536f04ec7cd28c745ca91b7364a)
