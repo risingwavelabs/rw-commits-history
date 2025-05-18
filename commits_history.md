@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250517` `e247fa90a7913cd3e2c9ad664b3d258b82e44d86`
+- `20250518` `e247fa90a7913cd3e2c9ad664b3d258b82e44d86`
 - `20250516` `42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35`
 - `20250515` `699bb51ec2df2536f04ec7cd28c745ca91b7364a`
 - `20250514` `436277bfb5af5231b0ae93da2fab5b339ec70154`
@@ -251,8 +251,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c6396c2d5e60ad15c21ad9f7d0782c77da6e8c4a` [feat(frontend): auto derive backfill order (#21814)](https://github.com/risingwavelabs/risingwave/pull/21814)
 
-## nightly-20250517
+## nightly-20250518
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35...e247fa90a7913cd3e2c9ad664b3d258b82e44d86)
 - `e247fa90a7913cd3e2c9ad664b3d258b82e44d86` [fix(cdc): support Money type in sqlserver cdc correctly (#21829)](https://github.com/risingwavelabs/risingwave/pull/21829)
 
