@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250519` `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec`
 - `20250518` `e247fa90a7913cd3e2c9ad664b3d258b82e44d86`
 - `20250516` `42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35`
 - `20250515` `699bb51ec2df2536f04ec7cd28c745ca91b7364a`
@@ -250,6 +251,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d24ef0fbe7478b4831388160f5593cea608aff18` [chore(deps): Bump crate-ci/typos from 1.31.2 to 1.32.0 (#21715)](https://github.com/risingwavelabs/risingwave/pull/21715)
+- `f4f9bac5265fda676866639995f720496cb847b9` [refactor(dashboard): use graphviz-wasm to visualize the dot output instead (#21918)](https://github.com/risingwavelabs/risingwave/pull/21918)
+
+## nightly-20250519
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e247fa90a7913cd3e2c9ad664b3d258b82e44d86...f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec)
 - `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec` [fix(iceberg): fix CDC table with iceberg engine (#21901)](https://github.com/risingwavelabs/risingwave/pull/21901)
 - `f288e76741dec406b0cd167ae1412617a35af52c` [fix(cursor): fix cursor schema error (#21776)](https://github.com/risingwavelabs/risingwave/pull/21776)
 - `17d27981ffbb06a67ed43b8256287fbfbbe3c21a` [feat: add some check for iceberg source to prevent unexpected behavior (#21851)](https://github.com/risingwavelabs/risingwave/pull/21851)
