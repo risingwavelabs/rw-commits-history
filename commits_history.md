@@ -242,7 +242,6 @@
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
 - `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 - `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
-- `20240808` `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49`
 </details>
 
 # Commit history
@@ -251,6 +250,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fefcc3fb7dc970690a714e9526904837b945f8c4` [chore(deps): Bump async-nats from 0.40.0 to 0.41.0 (#21890)](https://github.com/risingwavelabs/risingwave/pull/21890)
+- `dc6e70058b23995ed18adabe2c25803435b2283d` [refactor(frontend): reuse `resolve_secret_refs_inner` (#21928)](https://github.com/risingwavelabs/risingwave/pull/21928)
+- `4c7e17d808719a863e8d436d534e23f7c2db0539` [feat(sqlsmith): support decoupling weights from generators (#21873)](https://github.com/risingwavelabs/risingwave/pull/21873)
+- `e3ef5fba98952d12e0c53b1097c83af37e7d1a8b` [feat(frontend): support `explain(backfill, format dot)` (#21838)](https://github.com/risingwavelabs/risingwave/pull/21838)
+- `40e9e2a36751352b465f052c301b09522ef47aa4` [feat(iceberg): add await tree instrument for iceberg sink (#21926)](https://github.com/risingwavelabs/risingwave/pull/21926)
+- `fd2e5bd0bb2ef726c0d56f7382ea68aa6d43e3cc` [feat(dashboard): add hidden cluster variable to hint query over promxy (#21735)](https://github.com/risingwavelabs/risingwave/pull/21735)
+- `95d7e237ed7e51024c330755a1d90aa65838dc39` [refactor(dashboard): remove react-syntax-highlighter (#21920)](https://github.com/risingwavelabs/risingwave/pull/21920)
 - `d24ef0fbe7478b4831388160f5593cea608aff18` [chore(deps): Bump crate-ci/typos from 1.31.2 to 1.32.0 (#21715)](https://github.com/risingwavelabs/risingwave/pull/21715)
 - `f4f9bac5265fda676866639995f720496cb847b9` [refactor(dashboard): use graphviz-wasm to visualize the dot output instead (#21918)](https://github.com/risingwavelabs/risingwave/pull/21918)
 
@@ -2783,14 +2789,4 @@
 - `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
 
 ## nightly-20240810
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f5701ab5f7cfe084190eac4fabfe1d381d0e49...21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd)
 - `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd` [refactor(storage): use strong type for HummockVersionId (#17971)](https://github.com/risingwavelabs/risingwave/pull/17971)
-- `13af20c8c8e92db775fb9fef62d4e798707f4bc0` [fix(storage): suppress some hummock false panic and warn log (#17914)](https://github.com/risingwavelabs/risingwave/pull/17914)
-- `efdbf3cfb234ed30171bd6444966528399a167d5` [feat(frontend): support extendend query for cursor (#17821)](https://github.com/risingwavelabs/risingwave/pull/17821)
-- `cc21a6abccc47cd9a7da2f13571ba3079195ab16` [refactor(meta): simplify InflightActorInfo and extract InflightGraphInfo (#17956)](https://github.com/risingwavelabs/risingwave/pull/17956)
-- `d00e2ebbeb0e814aaab1de687ea1c0dc7e4a2b0e` [feat(risedev): introduce sql server to risedev (#17951)](https://github.com/risingwavelabs/risingwave/pull/17951)
-- `fbe1a04808addd47aad33c61e3ea3e5fc9acdc6a` [test(mssql-cdc): enrich test cases (#17966)](https://github.com/risingwavelabs/risingwave/pull/17966)
-- `38927e8beaa0604172f64d40732ef8b3c2a1f814` [fix(iceberg): Load the latest table to avoid concurrent modification with the best effort (#17975)](https://github.com/risingwavelabs/risingwave/pull/17975)
-
-## nightly-20240808
-- `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49` [feat(stream): support row merge (a.k.a keyed merge) (#17930)](https://github.com/risingwavelabs/risingwave/pull/17930)
