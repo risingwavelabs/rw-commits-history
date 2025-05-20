@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250520` `fefcc3fb7dc970690a714e9526904837b945f8c4`
 - `20250519` `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec`
 - `20250518` `e247fa90a7913cd3e2c9ad664b3d258b82e44d86`
 - `20250516` `42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35`
@@ -250,6 +251,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cfa40efe8eec78017b3d6fe71a7cac9af6846b29` [feat: show backtrace from iceberg::Error by introducing a newtype (#21919)](https://github.com/risingwavelabs/risingwave/pull/21919)
+
+## nightly-20250520
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec...fefcc3fb7dc970690a714e9526904837b945f8c4)
 - `fefcc3fb7dc970690a714e9526904837b945f8c4` [chore(deps): Bump async-nats from 0.40.0 to 0.41.0 (#21890)](https://github.com/risingwavelabs/risingwave/pull/21890)
 - `dc6e70058b23995ed18adabe2c25803435b2283d` [refactor(frontend): reuse `resolve_secret_refs_inner` (#21928)](https://github.com/risingwavelabs/risingwave/pull/21928)
 - `4c7e17d808719a863e8d436d534e23f7c2db0539` [feat(sqlsmith): support decoupling weights from generators (#21873)](https://github.com/risingwavelabs/risingwave/pull/21873)
