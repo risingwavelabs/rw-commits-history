@@ -242,7 +242,6 @@
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
 - `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
-- `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 </details>
 
 # Commit history
@@ -251,6 +250,17 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e21f5b3035d325560bd986dfca9514a498288e2e` [fix(iceberg): bump poetry setuptools to 78.1.1 (#21942)](https://github.com/risingwavelabs/risingwave/pull/21942)
+- `ca9474b076c8568be647ceb1d60db2ddd628743f` [feat: support partition by for iceberg table engine (#21594)](https://github.com/risingwavelabs/risingwave/pull/21594)
+- `2ed2350572d4dd516c97f5913acb0b0d62e75c0d` [feat(storage): filter out GC objects by listing time travel versions and deltas (#21916)](https://github.com/risingwavelabs/risingwave/pull/21916)
+- `cfd333361a4eb6a2bf4da65f28048720a3caeeb1` [fix: fix validate_integrity bug (#21936)](https://github.com/risingwavelabs/risingwave/pull/21936)
+- `559afda3219ed03ee0aa21846e48d04298c45fa5` [feat(iceberg): support interval type for iceberg engine (#21802)](https://github.com/risingwavelabs/risingwave/pull/21802)
+- `591ff0a0d154ba26ee2408bc32d77aa38aa66b75` [fix: include exactly_once_iceberg_sink metadata in metadata backup (#21939)](https://github.com/risingwavelabs/risingwave/pull/21939)
+- `436862f37b0963302af25d21913f7f06866fc6bc` [feat(iceberg): refine enable config load for iceberg (#21938)](https://github.com/risingwavelabs/risingwave/pull/21938)
+- `024e4226bb2a55eb6ef19ec6c19348bb5a3b158d` [chore(deps): update iceberg-rust version (#21935)](https://github.com/risingwavelabs/risingwave/pull/21935)
+- `f371f161aa725e75cd9a9f6acbc538fa32560488` [refactor(meta): generate general hummock object id on meta (#21923)](https://github.com/risingwavelabs/risingwave/pull/21923)
+- `d0240762a3144b49bbc6110f8ef69450c7ffa965` [fix: make batch scan adhere to runtime param batch_parallelism (#21886)](https://github.com/risingwavelabs/risingwave/pull/21886)
+- `2510e939f7cfa0599e86d0a4305d92ef3e10c04c` [chore(deps): Bump petgraph from 0.7.1 to 0.8.1 (#21889)](https://github.com/risingwavelabs/risingwave/pull/21889)
 - `cfa40efe8eec78017b3d6fe71a7cac9af6846b29` [feat: show backtrace from iceberg::Error by introducing a newtype (#21919)](https://github.com/risingwavelabs/risingwave/pull/21919)
 
 ## nightly-20250520
@@ -2790,8 +2800,4 @@
 - `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
 
 ## nightly-20240811
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd...a8b281147873b8ddc6ff633966a9381b1af26e85)
 - `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
-
-## nightly-20240810
-- `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd` [refactor(storage): use strong type for HummockVersionId (#17971)](https://github.com/risingwavelabs/risingwave/pull/17971)
