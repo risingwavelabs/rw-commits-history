@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250522` `f739dd3b1da3b7df68c90bd491e520797d2c0e3f`
 - `20250521` `e21f5b3035d325560bd986dfca9514a498288e2e`
 - `20250520` `fefcc3fb7dc970690a714e9526904837b945f8c4`
 - `20250519` `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec`
@@ -249,6 +250,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250522
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e21f5b3035d325560bd986dfca9514a498288e2e...f739dd3b1da3b7df68c90bd491e520797d2c0e3f)
 - `f739dd3b1da3b7df68c90bd491e520797d2c0e3f` [fix(iceberg): dropping database and dropping source cascade with iceberg tables. (#21957)](https://github.com/risingwavelabs/risingwave/pull/21957)
 - `611266eabadd07bf7b995288701e40e5e132ed71` [refactor: minor cleanup for drop cascade (#21959)](https://github.com/risingwavelabs/risingwave/pull/21959)
 - `a789fea62daa4c04e884a6ca6f5165ed7eb0a55a` [fix(foyer): bump foyer to v0.17.3 to fix hasher (#21958)](https://github.com/risingwavelabs/risingwave/pull/21958)
