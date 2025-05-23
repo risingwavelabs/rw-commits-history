@@ -250,6 +250,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `44fd186bf03b8cfd27469d119fa6fcaa153274e5` [feat(iceberg): init and backup hosted iceberg system table (#21960)](https://github.com/risingwavelabs/risingwave/pull/21960)
+- `fc539db2e16c1e46c57d711b26b26e440c9707ba` [feat(iceberg): add iceberg compactor in risingwave (#21823)](https://github.com/risingwavelabs/risingwave/pull/21823)
+- `b745241a10837e88b1c0be23832038cc02401988` [feat(frontend): SHOW PROCESSLIST of all frontends (#21952)](https://github.com/risingwavelabs/risingwave/pull/21952)
+- `0dfc325c389d41dec7910a1981652f56ca55ea9e` [chore: update docker image to v2.4.0 (#21954)](https://github.com/risingwavelabs/risingwave/pull/21954)
 
 ## nightly-20250522
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e21f5b3035d325560bd986dfca9514a498288e2e...f739dd3b1da3b7df68c90bd491e520797d2c0e3f)
