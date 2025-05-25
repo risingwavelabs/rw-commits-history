@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250524` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
+- `20250525` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
 - `20250523` `44fd186bf03b8cfd27469d119fa6fcaa153274e5`
 - `20250522` `f739dd3b1da3b7df68c90bd491e520797d2c0e3f`
 - `20250521` `e21f5b3035d325560bd986dfca9514a498288e2e`
@@ -253,7 +253,7 @@
 
 ## Unreleased
 
-## nightly-20250524
+## nightly-20250525
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/44fd186bf03b8cfd27469d119fa6fcaa153274e5...7c53f072c69eedee4c4bdc51936a617d53e32b8b)
 - `7c53f072c69eedee4c4bdc51936a617d53e32b8b` [fix: use new tokio thread for iam request to avoid stuck meta (#21892)](https://github.com/risingwavelabs/risingwave/pull/21892)
 
