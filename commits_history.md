@@ -243,7 +243,6 @@
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
-- `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 </details>
 
 # Commit history
@@ -252,6 +251,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3995e9bf49b33014047cbba598acbea8cd08bc09` [feat(streaming): support mapping column type in dispatcher (#21661)](https://github.com/risingwavelabs/risingwave/pull/21661)
+- `3ea88e307c425177211037138d3e0d6cc86fee6c` [refactor(meta): Refactor some command structs to improve readability (#21992)](https://github.com/risingwavelabs/risingwave/pull/21992)
+- `7e23f96e8347a0be49bfe73e782919b583744319` [feat(meta): enrich dispatcher output indices to support storing type mapping information (#21645)](https://github.com/risingwavelabs/risingwave/pull/21645)
+- `fac187aa11a61da40d95ed0cff4c4ed5749cde87` [feat(storage): define vector index metadata (#21885)](https://github.com/risingwavelabs/risingwave/pull/21885)
+- `d003894151e67448352b06a74c0897611c8edcd9` [chore: update github labels (#21990)](https://github.com/risingwavelabs/risingwave/pull/21990)
+- `d209371864173b1d1b56e1078cd448eb78359ea3` [fix(ddl): create if not exists waits for job created (#21915)](https://github.com/risingwavelabs/risingwave/pull/21915)
+- `da54f8254e364944596a31d6183c64152403144c` [chore(deps): Bump actions/checkout from 3 to 4 (#21832)](https://github.com/risingwavelabs/risingwave/pull/21832)
 
 ## nightly-20250525
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/44fd186bf03b8cfd27469d119fa6fcaa153274e5...7c53f072c69eedee4c4bdc51936a617d53e32b8b)
@@ -2781,23 +2787,4 @@
 - `ebc0e47102eeab6533991a06277b3fe4b9a46a3f` [feat(sink): add check license for snowflake, dynamodb opensearch sink (#17912)](https://github.com/risingwavelabs/risingwave/pull/17912)
 
 ## nightly-20240814
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c6ed9bb6deb333452e311c3e8ba028ae1ab0f847...f09f195499381ee54904bfdcdc879d4903a7366c)
 - `f09f195499381ee54904bfdcdc879d4903a7366c` [feat(frontend): support two phase vnode based simple agg with approx_percentile (#18007)](https://github.com/risingwavelabs/risingwave/pull/18007)
-- `3cae1c3cec333fad4d4ebd439375d7e08b384442` [perf(memory): raise memory eviction threshold (#17265)](https://github.com/risingwavelabs/risingwave/pull/17265)
-- `b9f734aa6c1c23245a6ad5aefa7d17725e6b2b70` [doc(readme): updat architecture image (#18042)](https://github.com/risingwavelabs/risingwave/pull/18042)
-- `be6b3a7caa61ebc16e9fdd234c1e716c18d57f60` [fix: not `bail!` on kinesis's state if `scan.startup.mode` set to `timestamp`  (#18038)](https://github.com/risingwavelabs/risingwave/pull/18038)
-- `e96c39d2760bdc84c17059f58faec90be1fed1a7` [chore: bump `tonic` to v0.12 (#17889)](https://github.com/risingwavelabs/risingwave/pull/17889)
-- `3043efd9d1020930da2682cc73bb13eaaf49353c` [feat: support current_catalog sys function (#18037)](https://github.com/risingwavelabs/risingwave/pull/18037)
-- `bd664bbb065977038057d120dd453a0136d32495` [refactor(parser): introduce `ast::FunctionArgList` to contain all info in `()` of function call (#18029)](https://github.com/risingwavelabs/risingwave/pull/18029)
-- `e1de1857a6b96c1070d1273cfcebd8eef52a62c3` [feat: support `map_access` (#17986)](https://github.com/risingwavelabs/risingwave/pull/17986)
-- `8a1ffc62f391ad9706183e86630fa4f4df49fdc8` [fix(meta): fix query rename visitor for complex func calls (#18023)](https://github.com/risingwavelabs/risingwave/pull/18023)
-- `ca4c98ca88135c6b21ebffe15b408f9a1c37b79d` [feat(source): support ingesting Avro map type to RisingWave map type (#17980)](https://github.com/risingwavelabs/risingwave/pull/17980)
-- `69422aa108b3687c544af7f116441fa34d89880b` [fix(mssql-cdc): support case sensitve db, schema, table name (#18032)](https://github.com/risingwavelabs/risingwave/pull/18032)
-- `3a856bbd84740d8a15d27b2bad5815d1dfbab785` [feat(cdc): rate limit for cdc backfill (#17989)](https://github.com/risingwavelabs/risingwave/pull/17989)
-- `4b63d9f61c4f8e1ab3a9a09d4679acf02ec60eff` [fix(catalog): add mv indexes to pg_indexes (#17981)](https://github.com/risingwavelabs/risingwave/pull/17981)
-- `dec5023b9a69a9a6d964d12d289bb82aabc4c646` [refactor(storage): hide usage on global max committed epoch (#17973)](https://github.com/risingwavelabs/risingwave/pull/17973)
-- `e0e04df9480d974e793447ccc8c3335e5e1da813` [feat: upgrade tokio version to 1.38.0 (#17536)](https://github.com/risingwavelabs/risingwave/pull/17536)
-- `44d25a5c407e84ccdf48499000d14c369f760fa3` [fix(connector): fix batch file source when there are no files (#18018)](https://github.com/risingwavelabs/risingwave/pull/18018)
-
-## nightly-20240813
-- `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847` [feat(sink): allow upsert protobuf with text key (#18024)](https://github.com/risingwavelabs/risingwave/pull/18024)
