@@ -251,6 +251,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5fbf85c550e3667993feef9555c22a6d1d269163` [feat(risedev): support specifying compactor mode for risedev's compactors (#21997)](https://github.com/risingwavelabs/risingwave/pull/21997)
+- `7919c9c58d87e724eae4b9dbec9d08a79d779e35` [test: add tests for `ALTER COLUMN TYPE` with downstream jobs (#21686)](https://github.com/risingwavelabs/risingwave/pull/21686)
+- `228f9cc6ca9b74a3422631e760145e36e54174af` [feat(meta): consider types when resolve dispatcher output mapping  (#21662)](https://github.com/risingwavelabs/risingwave/pull/21662)
 - `3995e9bf49b33014047cbba598acbea8cd08bc09` [feat(streaming): support mapping column type in dispatcher (#21661)](https://github.com/risingwavelabs/risingwave/pull/21661)
 - `3ea88e307c425177211037138d3e0d6cc86fee6c` [refactor(meta): Refactor some command structs to improve readability (#21992)](https://github.com/risingwavelabs/risingwave/pull/21992)
 - `7e23f96e8347a0be49bfe73e782919b583744319` [feat(meta): enrich dispatcher output indices to support storing type mapping information (#21645)](https://github.com/risingwavelabs/risingwave/pull/21645)
