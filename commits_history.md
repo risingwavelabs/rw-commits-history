@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250527` `6a2e153dbd8404167931871addc318f90186e48f`
 - `20250525` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
 - `20250523` `44fd186bf03b8cfd27469d119fa6fcaa153274e5`
 - `20250522` `f739dd3b1da3b7df68c90bd491e520797d2c0e3f`
@@ -251,6 +252,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f71d952db6e687e187841f923d23e2477f9c87ce` [chore: remove a todo not planned (#22023)](https://github.com/risingwavelabs/risingwave/pull/22023)
+
+## nightly-20250527
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7c53f072c69eedee4c4bdc51936a617d53e32b8b...6a2e153dbd8404167931871addc318f90186e48f)
 - `6a2e153dbd8404167931871addc318f90186e48f` [feat(frontend): make KILL process_id work across all worker nodes (#21998)](https://github.com/risingwavelabs/risingwave/pull/21998)
 - `7b2547288c794525ea466df0423756d1abd0f35f` [chore(deps): Bump opentelemetry from 0.29.0 to 0.29.1 in the opentelemetry group (#21982)](https://github.com/risingwavelabs/risingwave/pull/21982)
 - `5fbf85c550e3667993feef9555c22a6d1d269163` [feat(risedev): support specifying compactor mode for risedev's compactors (#21997)](https://github.com/risingwavelabs/risingwave/pull/21997)
