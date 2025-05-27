@@ -251,6 +251,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6a2e153dbd8404167931871addc318f90186e48f` [feat(frontend): make KILL process_id work across all worker nodes (#21998)](https://github.com/risingwavelabs/risingwave/pull/21998)
+- `7b2547288c794525ea466df0423756d1abd0f35f` [chore(deps): Bump opentelemetry from 0.29.0 to 0.29.1 in the opentelemetry group (#21982)](https://github.com/risingwavelabs/risingwave/pull/21982)
 - `5fbf85c550e3667993feef9555c22a6d1d269163` [feat(risedev): support specifying compactor mode for risedev's compactors (#21997)](https://github.com/risingwavelabs/risingwave/pull/21997)
 - `7919c9c58d87e724eae4b9dbec9d08a79d779e35` [test: add tests for `ALTER COLUMN TYPE` with downstream jobs (#21686)](https://github.com/risingwavelabs/risingwave/pull/21686)
 - `228f9cc6ca9b74a3422631e760145e36e54174af` [feat(meta): consider types when resolve dispatcher output mapping  (#21662)](https://github.com/risingwavelabs/risingwave/pull/21662)
