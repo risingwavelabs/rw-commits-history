@@ -252,6 +252,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff` [refactor(over window): extract range cache into separate module (#22020)](https://github.com/risingwavelabs/risingwave/pull/22020)
+- `00aea5b178681d514cec69ee1a1cefe7d2debc31` [chore(doc): Fixed some introduction docs (#22038)](https://github.com/risingwavelabs/risingwave/pull/22038)
+- `a4eabd6920e375dc02a16122c8a13444ebf0d9d3` [test: add regression test for `count(*)` over `distinct on` (#22027)](https://github.com/risingwavelabs/risingwave/pull/22027)
+- `8ad9c87f0309a03897ab025e03d1b80295003cbf` [chore(ci): replace mc config host add with mc alias set (#22011)](https://github.com/risingwavelabs/risingwave/pull/22011)
+- `89b778e56c2e587f5f2611a64bbed59fa1524ed8` [feat: add ENV to control Kafka sdk log level (#21865)](https://github.com/risingwavelabs/risingwave/pull/21865)
 - `f71d952db6e687e187841f923d23e2477f9c87ce` [chore: remove a todo not planned (#22023)](https://github.com/risingwavelabs/risingwave/pull/22023)
 
 ## nightly-20250527
