@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250528` `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff`
 - `20250527` `6a2e153dbd8404167931871addc318f90186e48f`
 - `20250525` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
 - `20250523` `44fd186bf03b8cfd27469d119fa6fcaa153274e5`
@@ -252,6 +253,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1a3677dec5c56825729606c0b6c30d5c58e3f01f` [refactor: refine error message (#22017)](https://github.com/risingwavelabs/risingwave/pull/22017)
+- `1a25dcf18ce19ce8bc69c17338cd45817ed0047e` [refactor(ci): enable sql server cdc test in ci (#21976)](https://github.com/risingwavelabs/risingwave/pull/21976)
+
+## nightly-20250528
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a2e153dbd8404167931871addc318f90186e48f...ad53aac274f297f4b6cb72b116641b2d7c9ed8ff)
 - `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff` [refactor(over window): extract range cache into separate module (#22020)](https://github.com/risingwavelabs/risingwave/pull/22020)
 - `00aea5b178681d514cec69ee1a1cefe7d2debc31` [chore(doc): Fixed some introduction docs (#22038)](https://github.com/risingwavelabs/risingwave/pull/22038)
 - `a4eabd6920e375dc02a16122c8a13444ebf0d9d3` [test: add regression test for `count(*)` over `distinct on` (#22027)](https://github.com/risingwavelabs/risingwave/pull/22027)
