@@ -252,6 +252,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d8a6c8ac7493f7d0bb0e90847c7db64cc5c9b84f` [feat(iceberg): enable iceberg compaction for iceberg table and add license check (#22043)](https://github.com/risingwavelabs/risingwave/pull/22043)
 - `216113c855498bc3b975fee23f2c9706d7eacbb5` [feat(sink): support json for clickhouse sink (#21989)](https://github.com/risingwavelabs/risingwave/pull/21989)
 - `be6379d378bc86a9c7f6c2ac32a339c6262eba49` [fix(test): fix test_ddl_cancel (#22046)](https://github.com/risingwavelabs/risingwave/pull/22046)
 - `af710fb553e91d8dc115c5cbb36eaa3d0755300e` [fix(ci): spark 3.5.5 URL is no longer valid; use 3.5.6 (#22037)](https://github.com/risingwavelabs/risingwave/pull/22037)
