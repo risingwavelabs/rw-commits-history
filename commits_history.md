@@ -244,7 +244,6 @@
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
-- `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 </details>
 
 # Commit history
@@ -253,6 +252,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `216113c855498bc3b975fee23f2c9706d7eacbb5` [feat(sink): support json for clickhouse sink (#21989)](https://github.com/risingwavelabs/risingwave/pull/21989)
+- `be6379d378bc86a9c7f6c2ac32a339c6262eba49` [fix(test): fix test_ddl_cancel (#22046)](https://github.com/risingwavelabs/risingwave/pull/22046)
+- `af710fb553e91d8dc115c5cbb36eaa3d0755300e` [fix(ci): spark 3.5.5 URL is no longer valid; use 3.5.6 (#22037)](https://github.com/risingwavelabs/risingwave/pull/22037)
+- `c6ad450e2b61dc916853bea0eaf54129ab271adf` [feat(over window): support named window (#22024)](https://github.com/risingwavelabs/risingwave/pull/22024)
 - `1a3677dec5c56825729606c0b6c30d5c58e3f01f` [refactor: refine error message (#22017)](https://github.com/risingwavelabs/risingwave/pull/22017)
 - `1a25dcf18ce19ce8bc69c17338cd45817ed0047e` [refactor(ci): enable sql server cdc test in ci (#21976)](https://github.com/risingwavelabs/risingwave/pull/21976)
 
@@ -2800,12 +2803,4 @@
 - `cfea9f3ee6c7669bd0ed06ad4c5d3a8cf0d147c5` [feat: support partial checkpoint based backfill (a.k.a snapshot backfill) (#17735)](https://github.com/risingwavelabs/risingwave/pull/17735)
 
 ## nightly-20240815
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f09f195499381ee54904bfdcdc879d4903a7366c...cbeda4d0d61707f6637ea15f5e929b8169bbe9d9)
 - `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
-- `f511bcfe10cb21f6a1365445710ecdc3c8a34c7a` [feat(storage): support file cache recover mode (#18036)](https://github.com/risingwavelabs/risingwave/pull/18036)
-- `8fbb8a5128c5e5c2df3bb515a5c35b5ab6fa6384` [feat(parser): parse `IGNORE NULLS` in (window) function calls (#18028)](https://github.com/risingwavelabs/risingwave/pull/18028)
-- `a1872f3b78a40b628cba2a81010e6d40628196e0` [fix: show progress for background ddls that are in initial status (#18043)](https://github.com/risingwavelabs/risingwave/pull/18043)
-- `ebc0e47102eeab6533991a06277b3fe4b9a46a3f` [feat(sink): add check license for snowflake, dynamodb opensearch sink (#17912)](https://github.com/risingwavelabs/risingwave/pull/17912)
-
-## nightly-20240814
-- `f09f195499381ee54904bfdcdc879d4903a7366c` [feat(frontend): support two phase vnode based simple agg with approx_percentile (#18007)](https://github.com/risingwavelabs/risingwave/pull/18007)
