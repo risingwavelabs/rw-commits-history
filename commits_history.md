@@ -252,6 +252,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `187d0e9c1667adedfccb59da952b3c6f0c2e0337` [chore(deps): Bump pprof from 0.14.0 to 0.15.0 (#22025)](https://github.com/risingwavelabs/risingwave/pull/22025)
+- `69f5525c738b9a1f7898185538ec841474f0c1a6` [fix(sink): add snowflake sink license check (#22047)](https://github.com/risingwavelabs/risingwave/pull/22047)
+- `7e0640f677dc0e1e72f9d76d22d66ff06fbf253d` [fix(ci): fix integration test filter (#22039)](https://github.com/risingwavelabs/risingwave/pull/22039)
 - `d8a6c8ac7493f7d0bb0e90847c7db64cc5c9b84f` [feat(iceberg): enable iceberg compaction for iceberg table and add license check (#22043)](https://github.com/risingwavelabs/risingwave/pull/22043)
 - `216113c855498bc3b975fee23f2c9706d7eacbb5` [feat(sink): support json for clickhouse sink (#21989)](https://github.com/risingwavelabs/risingwave/pull/21989)
 - `be6379d378bc86a9c7f6c2ac32a339c6262eba49` [fix(test): fix test_ddl_cancel (#22046)](https://github.com/risingwavelabs/risingwave/pull/22046)
