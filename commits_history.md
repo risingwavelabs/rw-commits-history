@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250530` `187d0e9c1667adedfccb59da952b3c6f0c2e0337`
 - `20250528` `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff`
 - `20250527` `6a2e153dbd8404167931871addc318f90186e48f`
 - `20250525` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
@@ -243,7 +244,6 @@
 - `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
-- `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 </details>
 
 # Commit history
@@ -252,6 +252,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2fe44d63b3c3e472fcc177fab56b40cde7deb18d` [refactor: change default gRPC addr (#22057)](https://github.com/risingwavelabs/risingwave/pull/22057)
+
+## nightly-20250530
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ad53aac274f297f4b6cb72b116641b2d7c9ed8ff...187d0e9c1667adedfccb59da952b3c6f0c2e0337)
 - `187d0e9c1667adedfccb59da952b3c6f0c2e0337` [chore(deps): Bump pprof from 0.14.0 to 0.15.0 (#22025)](https://github.com/risingwavelabs/risingwave/pull/22025)
 - `69f5525c738b9a1f7898185538ec841474f0c1a6` [fix(sink): add snowflake sink license check (#22047)](https://github.com/risingwavelabs/risingwave/pull/22047)
 - `7e0640f677dc0e1e72f9d76d22d66ff06fbf253d` [fix(ci): fix integration test filter (#22039)](https://github.com/risingwavelabs/risingwave/pull/22039)
@@ -2799,12 +2803,4 @@
 - `31e52d4f66745280097e981eb154042cab46296b` [ci: add cherry-pick 2.0 (#18074)](https://github.com/risingwavelabs/risingwave/pull/18074)
 
 ## nightly-20240816
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cbeda4d0d61707f6637ea15f5e929b8169bbe9d9...f5f09a6c15b1291623a1fccc9638035cf19002c0)
 - `f5f09a6c15b1291623a1fccc9638035cf19002c0` [feat: enable shuffle for snapshot backfill (#18063)](https://github.com/risingwavelabs/risingwave/pull/18063)
-- `4e6850754cc552aab9bee8fa487e295e0513ff0d` [fix(common): fix hyper-014 compile (#18068)](https://github.com/risingwavelabs/risingwave/pull/18068)
-- `7b807cf7bf8f44bf02741fd33a57f30a1fbafd68` [feat(stream): add approx percentile cache for global approx percentile (#18026)](https://github.com/risingwavelabs/risingwave/pull/18026)
-- `ccad6f4b5b18267c124705a41d71f1217bc1d212` [refactor: deprecate old s3 and use use s3_v2 as default (#17963)](https://github.com/risingwavelabs/risingwave/pull/17963)
-- `cfea9f3ee6c7669bd0ed06ad4c5d3a8cf0d147c5` [feat: support partial checkpoint based backfill (a.k.a snapshot backfill) (#17735)](https://github.com/risingwavelabs/risingwave/pull/17735)
-
-## nightly-20240815
-- `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
