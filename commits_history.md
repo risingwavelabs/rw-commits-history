@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250531` `2fe44d63b3c3e472fcc177fab56b40cde7deb18d`
 - `20250530` `187d0e9c1667adedfccb59da952b3c6f0c2e0337`
 - `20250528` `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff`
 - `20250527` `6a2e153dbd8404167931871addc318f90186e48f`
@@ -251,6 +252,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250531
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/187d0e9c1667adedfccb59da952b3c6f0c2e0337...2fe44d63b3c3e472fcc177fab56b40cde7deb18d)
 - `2fe44d63b3c3e472fcc177fab56b40cde7deb18d` [refactor: change default gRPC addr (#22057)](https://github.com/risingwavelabs/risingwave/pull/22057)
 
 ## nightly-20250530
