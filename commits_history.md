@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250601` `e5642049430b846064e3757f1feee4380f80adf5`
+- `20250602` `e5642049430b846064e3757f1feee4380f80adf5`
 - `20250531` `2fe44d63b3c3e472fcc177fab56b40cde7deb18d`
 - `20250530` `187d0e9c1667adedfccb59da952b3c6f0c2e0337`
 - `20250528` `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff`
@@ -253,7 +253,7 @@
 
 ## Unreleased
 
-## nightly-20250601
+## nightly-20250602
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2fe44d63b3c3e472fcc177fab56b40cde7deb18d...e5642049430b846064e3757f1feee4380f80adf5)
 - `e5642049430b846064e3757f1feee4380f80adf5` [test: add integration test for logstore scale-in / out (#21781)](https://github.com/risingwavelabs/risingwave/pull/21781)
 - `962d01f195985749fb32e839cd5cb7b4a9889b6d` [feat(streaming): add tracing logs for arrangement backfill and improve inconsistency logs for over window (#21741)](https://github.com/risingwavelabs/risingwave/pull/21741)
