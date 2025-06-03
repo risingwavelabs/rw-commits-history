@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250603` `32899664e7e0f61ba51a13e58a40cdb15fe3f954`
 - `20250602` `e5642049430b846064e3757f1feee4380f80adf5`
 - `20250531` `2fe44d63b3c3e472fcc177fab56b40cde7deb18d`
 - `20250530` `187d0e9c1667adedfccb59da952b3c6f0c2e0337`
@@ -251,6 +252,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3fae8aa8e9818b80766cccd889ee1fd0b7fd245d` [ci: make sql server cdc source test serial (#22083)](https://github.com/risingwavelabs/risingwave/pull/22083)
+
+## nightly-20250603
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e5642049430b846064e3757f1feee4380f80adf5...32899664e7e0f61ba51a13e58a40cdb15fe3f954)
 - `32899664e7e0f61ba51a13e58a40cdb15fe3f954` [feat: print backtrace in pg_protocol in debug mode (#21849)](https://github.com/risingwavelabs/risingwave/pull/21849)
 - `70add5b8faeb5e790571e0520ca463d60773861f` [fix: respect RUST_LOG when RISINGWAVE_KAFKA_LOG_LEVEL is not set (#22081)](https://github.com/risingwavelabs/risingwave/pull/22081)
 - `21b4c33f32f0c677292a0d369df5be17fe2a5e05` [feat(ddl): Implement database-level barrier and checkpoint configuration - Part 1 (#22052)](https://github.com/risingwavelabs/risingwave/pull/22052)
