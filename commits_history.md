@@ -252,6 +252,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2f7a2498eed6fda8ca5eed100ffba4c2535d5be7` [refactor(sqlsmith): replace SqlGeneratorContext with config (#22026)](https://github.com/risingwavelabs/risingwave/pull/22026)
 - `45c8ca3bffddef133ee5fe431600386d6f7a6dbc` [feat(iceberg): expired_snapshots (#22042)](https://github.com/risingwavelabs/risingwave/pull/22042)
 - `d394c0c2c05c1fb215a7b9d41dd01a394f8087dc` [chore(ci): enforce unit (UI) test of dylint (#21893)](https://github.com/risingwavelabs/risingwave/pull/21893)
 - `8a2fa08dc96b74810dc837080ef4387e2832267c` [perf: add micro-benchmark between column-aware encoding and value encoding (#21224)](https://github.com/risingwavelabs/risingwave/pull/21224)
