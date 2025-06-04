@@ -252,6 +252,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `45c8ca3bffddef133ee5fe431600386d6f7a6dbc` [feat(iceberg): expired_snapshots (#22042)](https://github.com/risingwavelabs/risingwave/pull/22042)
+- `d394c0c2c05c1fb215a7b9d41dd01a394f8087dc` [chore(ci): enforce unit (UI) test of dylint (#21893)](https://github.com/risingwavelabs/risingwave/pull/21893)
+- `8a2fa08dc96b74810dc837080ef4387e2832267c` [perf: add micro-benchmark between column-aware encoding and value encoding (#21224)](https://github.com/risingwavelabs/risingwave/pull/21224)
+- `d22aa212cffc77b4e8b17c56b6e24c647f03ad16` [fix(sqlparser): bypass parsability check for redacted sql (#22096)](https://github.com/risingwavelabs/risingwave/pull/22096)
+- `b4ee3b8583371e0076702d472a349f724f7a237f` [fix: redact sql option in diagnosis report according to keywords (#22097)](https://github.com/risingwavelabs/risingwave/pull/22097)
+- `e0fd767ca0cfd86d98facb4dead9f409f2532f81` [ci: add sleep to increase test stability (#22087)](https://github.com/risingwavelabs/risingwave/pull/22087)
+- `f2d2606b1946050f93cd09fa83050ffe8327efd0` [refactor: deduplicate await-tree fetching & add registry for meta node (#21996)](https://github.com/risingwavelabs/risingwave/pull/21996)
+- `6cd712d2de5af8c4b3b68d14d1b7dab63c1b97a0` [fix: ALTER SOURCE ... REFRESH SCHEMA for source with generated columns (#22088)](https://github.com/risingwavelabs/risingwave/pull/22088)
+- `c19ad88c3661132c37f80b34fbe0ae9981ba3699` [feat(sqlsmith): support natural and using join (#22089)](https://github.com/risingwavelabs/risingwave/pull/22089)
 - `3fae8aa8e9818b80766cccd889ee1fd0b7fd245d` [ci: make sql server cdc source test serial (#22083)](https://github.com/risingwavelabs/risingwave/pull/22083)
 
 ## nightly-20250603
