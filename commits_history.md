@@ -252,6 +252,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9c99835c004e807e10b3f23c9d8465b1baf294cd` [fix(frontend): quote column and field names in `DESCRIBE` and `SHOW COLUMNS` (#22109)](https://github.com/risingwavelabs/risingwave/pull/22109)
+- `b7893145dc7e5626584cc3e1e420f598b6914ac2` [fix(types): quote struct field identifiers in `Display` implementation (#22106)](https://github.com/risingwavelabs/risingwave/pull/22106)
+- `6ebc76ffea1b34c3b39e68053ab4157c7e843685` [refactor: extract `QuoteIdent` wrapper for formatting quoted identifier (#22105)](https://github.com/risingwavelabs/risingwave/pull/22105)
 - `2f7a2498eed6fda8ca5eed100ffba4c2535d5be7` [refactor(sqlsmith): replace SqlGeneratorContext with config (#22026)](https://github.com/risingwavelabs/risingwave/pull/22026)
 - `45c8ca3bffddef133ee5fe431600386d6f7a6dbc` [feat(iceberg): expired_snapshots (#22042)](https://github.com/risingwavelabs/risingwave/pull/22042)
 - `d394c0c2c05c1fb215a7b9d41dd01a394f8087dc` [chore(ci): enforce unit (UI) test of dylint (#21893)](https://github.com/risingwavelabs/risingwave/pull/21893)
