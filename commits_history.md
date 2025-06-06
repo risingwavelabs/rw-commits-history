@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250605` `9c99835c004e807e10b3f23c9d8465b1baf294cd`
 - `20250603` `32899664e7e0f61ba51a13e58a40cdb15fe3f954`
 - `20250602` `e5642049430b846064e3757f1feee4380f80adf5`
 - `20250531` `2fe44d63b3c3e472fcc177fab56b40cde7deb18d`
@@ -243,7 +244,6 @@
 - `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
 - `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
 - `20240821` `dd6515625d980443ae1a71cf6332438cdbd49e86`
-- `20240820` `e6e1f485cc0f778d4f67e33a362d67359e4fa736`
 </details>
 
 # Commit history
@@ -252,6 +252,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ca32f8b7d5d4b68e9382297a42b834cc45ef2665` [fix(common): ignore field ids when comparing `struct` for backward compatibility (#22054)](https://github.com/risingwavelabs/risingwave/pull/22054)
+- `bf88f2f8ed4670383fcb13e1f6ae4323932f574a` [chore(ci): use PAT for cherry-pick workflow (#22137)](https://github.com/risingwavelabs/risingwave/pull/22137)
+- `e477fb47a29d7fac27d9d9ea3a8cb307c83c65b8` [fix(ci):  increase load to increase logstore lag (#22127)](https://github.com/risingwavelabs/risingwave/pull/22127)
+- `7e67aadb64dbd57403df48733d30466ffa7931c3` [refactor(common): remove `PartialOrd` for `DataType` (retained for `DataTypeName`) (#22053)](https://github.com/risingwavelabs/risingwave/pull/22053)
+
+## nightly-20250605
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32899664e7e0f61ba51a13e58a40cdb15fe3f954...9c99835c004e807e10b3f23c9d8465b1baf294cd)
 - `9c99835c004e807e10b3f23c9d8465b1baf294cd` [fix(frontend): quote column and field names in `DESCRIBE` and `SHOW COLUMNS` (#22109)](https://github.com/risingwavelabs/risingwave/pull/22109)
 - `b7893145dc7e5626584cc3e1e420f598b6914ac2` [fix(types): quote struct field identifiers in `Display` implementation (#22106)](https://github.com/risingwavelabs/risingwave/pull/22106)
 - `6ebc76ffea1b34c3b39e68053ab4157c7e843685` [refactor: extract `QuoteIdent` wrapper for formatting quoted identifier (#22105)](https://github.com/risingwavelabs/risingwave/pull/22105)
@@ -2781,21 +2788,4 @@
 - `da46c4dd2be4c69d77f8347fbe18b72d6653cfaf` [refactor: register actor barrier sender asynchronously (#18104)](https://github.com/risingwavelabs/risingwave/pull/18104)
 
 ## nightly-20240821
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6e1f485cc0f778d4f67e33a362d67359e4fa736...dd6515625d980443ae1a71cf6332438cdbd49e86)
 - `dd6515625d980443ae1a71cf6332438cdbd49e86` [fix: fix log store truncate offset incorrect check (#18165)](https://github.com/risingwavelabs/risingwave/pull/18165)
-- `ff55fcf2bd2e70c0abb67f9d18806c38aaf7982f` [feat(compactor): compaction iterator support filter key with key_range (#18031)](https://github.com/risingwavelabs/risingwave/pull/18031)
-- `fc3f4e10ac11745ba1879c28360394b04a6b39df` [fix(meta): correctly persist license key system param in SQL backend (#18163)](https://github.com/risingwavelabs/risingwave/pull/18163)
-- `d3ba75c45dc174375e4a9394258ad7d9832c5194` [fix(meta): fix time travel metadata for partial checkpoint (#18160)](https://github.com/risingwavelabs/risingwave/pull/18160)
-- `723833ac3d7e5be1bd07aa35f7dfe2525902da57` [fix: check split assignment before pushing mutation (#18134)](https://github.com/risingwavelabs/risingwave/pull/18134)
-- `5d35cf3686b46298b76d9c9dd29ff62cb5960cf9` [refactor(meta): only bail out on server-side error when registering worker node (#18127)](https://github.com/risingwavelabs/risingwave/pull/18127)
-- `ac655ea49796f495ee7fc129280b23428a0c38c7` [feat: support custom kafka group id prefix (#18115)](https://github.com/risingwavelabs/risingwave/pull/18115)
-- `f94ec7ef10dad1c23ba3989ea2ba1059e467e6b2` [fix(ci): fix bad indent of `cassandra sink test` (#18150)](https://github.com/risingwavelabs/risingwave/pull/18150)
-- `4f095a05276b2928ecf1d49c813c27708d25bdb9` [chore: patch cargo `patch-production` profile (#18139)](https://github.com/risingwavelabs/risingwave/pull/18139)
-- `ed73a52ccf6ee2caa2bd475efb5414eca40cd8a9` [perf(stream): set `noop_update_hint` when jsonb access exists (#18065)](https://github.com/risingwavelabs/risingwave/pull/18065)
-- `4b32136fe06ec284fb1466fdcadce40ffedef414` [refactor(expr): show candicates when function not found (#18078)](https://github.com/risingwavelabs/risingwave/pull/18078)
-- `6b5e364873401b42d75dbe3cba59f4787ebeaae0` [ci: fix log size limit failure by increasing limit (#18117)](https://github.com/risingwavelabs/risingwave/pull/18117)
-- `6d8abb7bc1a115d6c386e9edba924ebf916ceb61` [fix: flaky udf e2e error ui test (#18132)](https://github.com/risingwavelabs/risingwave/pull/18132)
-- `281a6960bc99b7ab2b9000954e1eec2a2673a62a` [feat(ci): add `fast-docker-build-arm` workflow (#18124)](https://github.com/risingwavelabs/risingwave/pull/18124)
-
-## nightly-20240820
-- `e6e1f485cc0f778d4f67e33a362d67359e4fa736` [refactor(grafana): provide finer grain filter for object store op (#18004)](https://github.com/risingwavelabs/risingwave/pull/18004)
