@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250607` `ca32f8b7d5d4b68e9382297a42b834cc45ef2665`
+- `20250608` `ca32f8b7d5d4b68e9382297a42b834cc45ef2665`
 - `20250605` `9c99835c004e807e10b3f23c9d8465b1baf294cd`
 - `20250603` `32899664e7e0f61ba51a13e58a40cdb15fe3f954`
 - `20250602` `e5642049430b846064e3757f1feee4380f80adf5`
@@ -253,7 +253,7 @@
 
 ## Unreleased
 
-## nightly-20250607
+## nightly-20250608
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9c99835c004e807e10b3f23c9d8465b1baf294cd...ca32f8b7d5d4b68e9382297a42b834cc45ef2665)
 - `ca32f8b7d5d4b68e9382297a42b834cc45ef2665` [fix(common): ignore field ids when comparing `struct` for backward compatibility (#22054)](https://github.com/risingwavelabs/risingwave/pull/22054)
 - `bf88f2f8ed4670383fcb13e1f6ae4323932f574a` [chore(ci): use PAT for cherry-pick workflow (#22137)](https://github.com/risingwavelabs/risingwave/pull/22137)
