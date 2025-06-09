@@ -252,6 +252,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2939d363f7c6505031c268a2a1485b1e5798d1b1` [feat(license): remove license guard for cdc auto schema mapping (#22136)](https://github.com/risingwavelabs/risingwave/pull/22136)
+- `7e5f73368f51b4404f810927828ff2cf2cdff4c3` [chore(dep): bump tokio to 1.44.2 (#21931)](https://github.com/risingwavelabs/risingwave/pull/21931)
+- `17b4a338b17aea60ab6f7d273a97844516c54fe7` [fix(ci): fix backwards compat test offset version (#22133)](https://github.com/risingwavelabs/risingwave/pull/22133)
+- `f0f68190047338f5837e5430b529e709afcbcfa0` [fix(cdc/batch): special char during debezium props substitution and `postgres_query` (#21943)](https://github.com/risingwavelabs/risingwave/pull/21943)
+- `30368a48acaff7f7674356eec13d940afdb91cbf` [feat(webhook): add support for webhook batching (#22075)](https://github.com/risingwavelabs/risingwave/pull/22075)
+- `2529c7fbde108d156d31ce8fea0f4c4dbd1bb435` [feat: increase timeout for slow e2e test (#22144)](https://github.com/risingwavelabs/risingwave/pull/22144)
 
 ## nightly-20250608
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9c99835c004e807e10b3f23c9d8465b1baf294cd...ca32f8b7d5d4b68e9382297a42b834cc45ef2665)
