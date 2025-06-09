@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250609` `2939d363f7c6505031c268a2a1485b1e5798d1b1`
 - `20250608` `ca32f8b7d5d4b68e9382297a42b834cc45ef2665`
 - `20250605` `9c99835c004e807e10b3f23c9d8465b1baf294cd`
 - `20250603` `32899664e7e0f61ba51a13e58a40cdb15fe3f954`
@@ -252,6 +253,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0168190c23560c60a207f9f35eea6ccf8a532fb7` [fix: remove KinesisSdkOptions for compatibility issue (#22143)](https://github.com/risingwavelabs/risingwave/pull/22143)
+- `c3f3276288682d8d766e0fadbf69a78ce775e182` [chore: apply `cargo-sort` v2 (#22149)](https://github.com/risingwavelabs/risingwave/pull/22149)
+- `579935e58ed7d7a46a7416740fc0287f9f9cc32b` [fix: improve error handling for AWS MSK IAM token generation (#22113)](https://github.com/risingwavelabs/risingwave/pull/22113)
+
+## nightly-20250609
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ca32f8b7d5d4b68e9382297a42b834cc45ef2665...2939d363f7c6505031c268a2a1485b1e5798d1b1)
 - `2939d363f7c6505031c268a2a1485b1e5798d1b1` [feat(license): remove license guard for cdc auto schema mapping (#22136)](https://github.com/risingwavelabs/risingwave/pull/22136)
 - `7e5f73368f51b4404f810927828ff2cf2cdff4c3` [chore(dep): bump tokio to 1.44.2 (#21931)](https://github.com/risingwavelabs/risingwave/pull/21931)
 - `17b4a338b17aea60ab6f7d273a97844516c54fe7` [fix(ci): fix backwards compat test offset version (#22133)](https://github.com/risingwavelabs/risingwave/pull/22133)
