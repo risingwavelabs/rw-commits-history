@@ -253,6 +253,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ffb4231e935e429694b75c05e31a44a7e4414c37` [fix(mssql-cdc): support `uuid` and `varchar` as primary key data type (#22157)](https://github.com/risingwavelabs/risingwave/pull/22157)
+- `265b8ef5b7639a8c05dac5aedc5795a1cdec4cd8` [chore(ci):  configure slt shutdown timeout to 10s (#22147)](https://github.com/risingwavelabs/risingwave/pull/22147)
+- `1e35be99e50b0102cdb4a92db4d28389e0d5134c` [chore: revert telemetry reminder workflow (#22159)](https://github.com/risingwavelabs/risingwave/pull/22159)
+- `1257a69dc1baa22e2886a867146c227677224f23` [[Feat] Implement function `map_filter` (#22077)](https://github.com/risingwavelabs/risingwave/pull/22077)
+- `be7e898cd7097b831fead51d3f7ff5e28db519e2` [doc: Update architecture diagram (#22160)](https://github.com/risingwavelabs/risingwave/pull/22160)
 - `0168190c23560c60a207f9f35eea6ccf8a532fb7` [fix: remove KinesisSdkOptions for compatibility issue (#22143)](https://github.com/risingwavelabs/risingwave/pull/22143)
 - `c3f3276288682d8d766e0fadbf69a78ce775e182` [chore: apply `cargo-sort` v2 (#22149)](https://github.com/risingwavelabs/risingwave/pull/22149)
 - `579935e58ed7d7a46a7416740fc0287f9f9cc32b` [fix: improve error handling for AWS MSK IAM token generation (#22113)](https://github.com/risingwavelabs/risingwave/pull/22113)
