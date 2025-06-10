@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250610` `ffb4231e935e429694b75c05e31a44a7e4414c37`
 - `20250609` `2939d363f7c6505031c268a2a1485b1e5798d1b1`
 - `20250608` `ca32f8b7d5d4b68e9382297a42b834cc45ef2665`
 - `20250605` `9c99835c004e807e10b3f23c9d8465b1baf294cd`
@@ -253,6 +254,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250610
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2939d363f7c6505031c268a2a1485b1e5798d1b1...ffb4231e935e429694b75c05e31a44a7e4414c37)
 - `ffb4231e935e429694b75c05e31a44a7e4414c37` [fix(mssql-cdc): support `uuid` and `varchar` as primary key data type (#22157)](https://github.com/risingwavelabs/risingwave/pull/22157)
 - `265b8ef5b7639a8c05dac5aedc5795a1cdec4cd8` [chore(ci):  configure slt shutdown timeout to 10s (#22147)](https://github.com/risingwavelabs/risingwave/pull/22147)
 - `1e35be99e50b0102cdb4a92db4d28389e0d5134c` [chore: revert telemetry reminder workflow (#22159)](https://github.com/risingwavelabs/risingwave/pull/22159)
