@@ -243,9 +243,6 @@
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
-- `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
-- `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
-- `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
 </details>
 
 # Commit history
@@ -254,6 +251,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2` [feat(meta): add await-tree instrument for ddl (#22141)](https://github.com/risingwavelabs/risingwave/pull/22141)
+- `0e729f9e5c6f86a4f6c276a8f255908f4c7c3c77` [feat(sqlsmith): support testing EOWC (#21930)](https://github.com/risingwavelabs/risingwave/pull/21930)
+- `5467b69fe13623c3650f0ab4849a62591f6e31db` [feat(frontend): support querying internal backfill table progress (#22122)](https://github.com/risingwavelabs/risingwave/pull/22122)
+- `75e853d51fbf106a6b5863c4a81cccc1c92da94d` [fix(meta, frontend): convert `real_value` back to `ast::Ident` properly (#22085)](https://github.com/risingwavelabs/risingwave/pull/22085)
+- `05e51214815c6c100854fbaf8a479cc8d9a25033` [feat: support ||, position and overlay bytea functions (#22076)](https://github.com/risingwavelabs/risingwave/pull/22076)
+- `2756a5bde3a55278427479be6fa3c89072aa1800` [fix(ci): update main-cron PostgreSQL meta backend password (#22182)](https://github.com/risingwavelabs/risingwave/pull/22182)
 
 ## nightly-20250610
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2939d363f7c6505031c268a2a1485b1e5798d1b1...ffb4231e935e429694b75c05e31a44a7e4414c37)
@@ -2776,26 +2779,4 @@
 - `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
 
 ## nightly-20240825
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d33623accf6e932592f4a945af436c18ced812fd...5c1af4c21215f8887133233a5978402019c3d3fa)
 - `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
-
-## nightly-20240824
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5cae57827c8ca56868b9cc0de0686d6f14e68510...d33623accf6e932592f4a945af436c18ced812fd)
-- `d33623accf6e932592f4a945af436c18ced812fd` [chore(build): add curl & less into docker image (#18223)](https://github.com/risingwavelabs/risingwave/pull/18223)
-- `7009743799259775b80611043cb7d089c25f7743` [feat(dashboard): visualize average backpressure rather than spot backpressure (#18219)](https://github.com/risingwavelabs/risingwave/pull/18219)
-
-## nightly-20240823
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9c4984d4ec2d17351a741cab8ac512b39dd2261a...5cae57827c8ca56868b9cc0de0686d6f14e68510)
-- `5cae57827c8ca56868b9cc0de0686d6f14e68510` [fix(udf): allow `aggregate:` prefixed sql udf (#18203)](https://github.com/risingwavelabs/risingwave/pull/18203)
-- `321610dd9c51ee107a3bcd4e6b32d731d1943044` [refactor: add some comments for MV progress tracking (#18110)](https://github.com/risingwavelabs/risingwave/pull/18110)
-- `958794583771632b208068838191a3516cd6d9cc` [feat(source): support temporary source (#18174)](https://github.com/risingwavelabs/risingwave/pull/18174)
-- `ec6074454e39b3b82ee0684f9e714bca95e5bb0c` [chore(doc): Update README.md (#18206)](https://github.com/risingwavelabs/risingwave/pull/18206)
-- `c83ce8632a2f6b1bba83686ec5053c6bfb1c6117` [fix(udf): allow udaf as window function (#18181)](https://github.com/risingwavelabs/risingwave/pull/18181)
-- `2fa80346d429a1c5121f0056e07ecbcc1232477b` [fix(binder): fix function call binding (#18177)](https://github.com/risingwavelabs/risingwave/pull/18177)
-- `4cef811b975cde923d524553a08f1b42d2028534` [ci: install addr2line-rs binary along with flamegraph (#18171)](https://github.com/risingwavelabs/risingwave/pull/18171)
-- `d27169721cce2fed6858913017642cf7922f0148` [feat: use opendal as the s3 sdk by default (#18011)](https://github.com/risingwavelabs/risingwave/pull/18011)
-- `d8c718bfa1e118c1eade3e2fa108371d4eff1c79` [refactor(test):  kafka sink with protobuf/avro as inline style (#18193)](https://github.com/risingwavelabs/risingwave/pull/18193)
-- `71732b1c4446d216f500267a9e1f2bf426a88519` [fix: fix kinesis early exit (#18183)](https://github.com/risingwavelabs/risingwave/pull/18183)
-
-## nightly-20240822
-- `9c4984d4ec2d17351a741cab8ac512b39dd2261a` [refactor(iceberg): use load table v2 to extract iceberg columns (#18196)](https://github.com/risingwavelabs/risingwave/pull/18196)
