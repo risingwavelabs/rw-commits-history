@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250611` `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2`
 - `20250610` `ffb4231e935e429694b75c05e31a44a7e4414c37`
 - `20250609` `2939d363f7c6505031c268a2a1485b1e5798d1b1`
 - `20250608` `ca32f8b7d5d4b68e9382297a42b834cc45ef2665`
@@ -251,6 +252,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `62038304cc8309e405f8ac376e7104a7dd47c1f1` [feat(catalog): add rw_table_scan system catalog (#22123)](https://github.com/risingwavelabs/risingwave/pull/22123)
+- `58c1603fcec2b2c69cc8f043daa2cbd5d9b4760d` [feat(iceberg): introduce iceberg compaction metrics (#22061)](https://github.com/risingwavelabs/risingwave/pull/22061)
+- `b58813ebb0901c06f1be8b2c0dcc5d1db5d49708` [fix(ci): update pull-request PostgreSQL meta backend password (#22203)](https://github.com/risingwavelabs/risingwave/pull/22203)
+
+## nightly-20250611
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffb4231e935e429694b75c05e31a44a7e4414c37...f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2)
 - `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2` [feat(meta): add await-tree instrument for ddl (#22141)](https://github.com/risingwavelabs/risingwave/pull/22141)
 - `0e729f9e5c6f86a4f6c276a8f255908f4c7c3c77` [feat(sqlsmith): support testing EOWC (#21930)](https://github.com/risingwavelabs/risingwave/pull/21930)
 - `5467b69fe13623c3650f0ab4849a62591f6e31db` [feat(frontend): support querying internal backfill table progress (#22122)](https://github.com/risingwavelabs/risingwave/pull/22122)
