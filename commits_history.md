@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250612` `05a11653a11980d00af18016d268775b530099fd`
 - `20250611` `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2`
 - `20250610` `ffb4231e935e429694b75c05e31a44a7e4414c37`
 - `20250609` `2939d363f7c6505031c268a2a1485b1e5798d1b1`
@@ -250,6 +251,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `13ed954a0c4ae6214684a5407b5644c14b537126` [feat(frontend): support fragment level progress for snapshot backfill (#22166)](https://github.com/risingwavelabs/risingwave/pull/22166)
+
+## nightly-20250612
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2...05a11653a11980d00af18016d268775b530099fd)
 - `05a11653a11980d00af18016d268775b530099fd` [feat(common): add a new dummy data type (#21380)](https://github.com/risingwavelabs/risingwave/pull/21380)
 - `52a0df186a62d251f706b225a40d88b50da34816` [feat(iceberg): introduce iceberg compaction config (#22209)](https://github.com/risingwavelabs/risingwave/pull/22209)
 - `b707e40dfc05248b9e11cee4eddce893b2aeeae5` [feat(frontend): allow DESCRIBE FRAGMENTS to describe creating stream jobs (#22205)](https://github.com/risingwavelabs/risingwave/pull/22205)
