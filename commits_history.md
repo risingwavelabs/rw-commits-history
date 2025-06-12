@@ -242,8 +242,6 @@
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
-- `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
-- `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
 </details>
 
 # Commit history
@@ -252,6 +250,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `05a11653a11980d00af18016d268775b530099fd` [feat(common): add a new dummy data type (#21380)](https://github.com/risingwavelabs/risingwave/pull/21380)
+- `52a0df186a62d251f706b225a40d88b50da34816` [feat(iceberg): introduce iceberg compaction config (#22209)](https://github.com/risingwavelabs/risingwave/pull/22209)
+- `b707e40dfc05248b9e11cee4eddce893b2aeeae5` [feat(frontend): allow DESCRIBE FRAGMENTS to describe creating stream jobs (#22205)](https://github.com/risingwavelabs/risingwave/pull/22205)
+- `149e43f7de838987678106be07142fa83ee3dc00` [refactor(s3 connector): expose `enable_config_load` to user for s3 source and sink (#22198)](https://github.com/risingwavelabs/risingwave/pull/22198)
+- `53fbd5767e6596ab60cef0f13bace8140788bbd8` [feat(catalog): add fragment backfill progress view (#22124)](https://github.com/risingwavelabs/risingwave/pull/22124)
+- `6f2b519df39f2f99b40a6a3ec27d75af5f829b6d` [fix(proto): fix nullable column (#22206)](https://github.com/risingwavelabs/risingwave/pull/22206)
 - `62038304cc8309e405f8ac376e7104a7dd47c1f1` [feat(catalog): add rw_table_scan system catalog (#22123)](https://github.com/risingwavelabs/risingwave/pull/22123)
 - `58c1603fcec2b2c69cc8f043daa2cbd5d9b4760d` [feat(iceberg): introduce iceberg compaction metrics (#22061)](https://github.com/risingwavelabs/risingwave/pull/22061)
 - `b58813ebb0901c06f1be8b2c0dcc5d1db5d49708` [fix(ci): update pull-request PostgreSQL meta backend password (#22203)](https://github.com/risingwavelabs/risingwave/pull/22203)
@@ -2758,32 +2762,4 @@
 - `7a97076cedfc1018facc892ed1c350327fe6b8db` [fix(meta): fix list changed log epoch retrun null epoch (#18273)](https://github.com/risingwavelabs/risingwave/pull/18273)
 
 ## nightly-20240827
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983...63b4d47ea9f54f567983e097e15d8dc9b0384849)
 - `63b4d47ea9f54f567983e097e15d8dc9b0384849` [fix: should use table_metric for MV throughput (#18265)](https://github.com/risingwavelabs/risingwave/pull/18265)
-- `6bd0e89cf056969fe0f9028815d83786c53dfec6` [chore: create an issue in the doc repo if it is a breaking change (#18263)](https://github.com/risingwavelabs/risingwave/pull/18263)
-- `22926d67fff102cd7114b150b8437e3afd4a4231` [refactor(iceberg): Separate iceberg source pb from source pb (#18209)](https://github.com/risingwavelabs/risingwave/pull/18209)
-- `edaace2f93877f1bc25c523da4d434b869aaf73a` [fix(batch): fix CTAS pins snapshot too long (#18248)](https://github.com/risingwavelabs/risingwave/pull/18248)
-- `79d98109deee8518740be6a00c3e4f41c29d5f1b` [feat(storage): Support for repairing the size of a split sst based on table stats (#18053)](https://github.com/risingwavelabs/risingwave/pull/18053)
-- `e3a9d37ddad6ed519c0fa48ec457a0ea994c441a` [feat(agg): support `aggregate:` prefixed scalar function in streaming agg (#18205)](https://github.com/risingwavelabs/risingwave/pull/18205)
-- `3c31ef9755c0bc9799dd4b65151b095beb148120` [fix(storage): Fix the bug that switch table_id breaks block data constraints. (#18235)](https://github.com/risingwavelabs/risingwave/pull/18235)
-- `9932d12bf91c822164a06551fe2b56363d77e99c` [feat(connector): introduce azblob sink (#18244)](https://github.com/risingwavelabs/risingwave/pull/18244)
-- `860a936beb8ee4fae1576429b5a02a9c765dea6d` [fix: allow nullable for target table columns for normal sink (#18251)](https://github.com/risingwavelabs/risingwave/pull/18251)
-
-## nightly-20240826
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5c1af4c21215f8887133233a5978402019c3d3fa...ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983)
-- `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983` [feat: inject pause/resume for creating sink into table (#17651)](https://github.com/risingwavelabs/risingwave/pull/17651)
-- `f00c82f3baceec71185b6af752335ccd193dc7c0` [feat(cdc): add metrics for auto schema change (#18216)](https://github.com/risingwavelabs/risingwave/pull/18216)
-- `62b7586a5ff788fa793934666e20810e52268354` [fix: fix fe internal rpc host addr issues (#18241)](https://github.com/risingwavelabs/risingwave/pull/18241)
-- `4e3b9ff081d59c28668bdca9817930eb3fd013c3` [feat(storage): introduce new field `sst_size` for SstableInfo  (#18005)](https://github.com/risingwavelabs/risingwave/pull/18005)
-- `b0e50b4e4428e38ba35670a775b25aea2c4f1890` [fix(log-store): fix incorrect lag caused by invalid initial read epoch (#18231)](https://github.com/risingwavelabs/risingwave/pull/18231)
-- `b36ac57677906e2a1e006c6cb132e6fee8abd224` [fix(sink): allow starrocks.host to be an fe follower (#17679)](https://github.com/risingwavelabs/risingwave/pull/17679)
-- `86a15baada5b17bfc8934662f6d0a7c7d85f6ffd` [fix: make fs list exec singleton (#18199)](https://github.com/risingwavelabs/risingwave/pull/18199)
-- `ec61f325a5d07a15a4a2c1b2cd55c3a7f5f38402` [feat(suscription): Improving usability of subscription (#18217)](https://github.com/risingwavelabs/risingwave/pull/18217)
-- `07911cfa3d02ed90cb1f2e3a8926fbfd456d6b91` [chore: add license to file sink (#18227)](https://github.com/risingwavelabs/risingwave/pull/18227)
-- `b2d2de3ff8de41051fdf6c1d9c54c0db9dc5b4ad` [fix(ci): fix java connector node ci (#18229)](https://github.com/risingwavelabs/risingwave/pull/18229)
-- `7d20fa851b93ccc43c3dfabf4d808ddc145b1888` [feat(sink): set default_sink_decouple = true for all sink (#18182)](https://github.com/risingwavelabs/risingwave/pull/18182)
-- `220fded7139658d727fa811c6ae9d051d0696574` [feat(source): add NATS source consumer parameters (#17615)](https://github.com/risingwavelabs/risingwave/pull/17615)
-- `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
-
-## nightly-20240825
-- `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
