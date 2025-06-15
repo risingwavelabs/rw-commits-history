@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250614` `15ed34163360b53e58dabe4f5537dad904f8d724`
+- `20250615` `15ed34163360b53e58dabe4f5537dad904f8d724`
 - `20250612` `05a11653a11980d00af18016d268775b530099fd`
 - `20250611` `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2`
 - `20250610` `ffb4231e935e429694b75c05e31a44a7e4414c37`
@@ -252,7 +252,7 @@
 
 ## Unreleased
 
-## nightly-20250614
+## nightly-20250615
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/05a11653a11980d00af18016d268775b530099fd...15ed34163360b53e58dabe4f5537dad904f8d724)
 - `15ed34163360b53e58dabe4f5537dad904f8d724` [feat(meta): add await-tree instrument for barrier manager (#22189)](https://github.com/risingwavelabs/risingwave/pull/22189)
 - `b8e86a61191af0c4ba1611478702cc75f1b30429` [feat(iceberg): optimize iceberg compaction parallelism calculate (#22216)](https://github.com/risingwavelabs/risingwave/pull/22216)
