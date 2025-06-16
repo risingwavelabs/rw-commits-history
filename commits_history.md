@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250616` `22fae31830fc0c97cc0cf8021b88a5c940ff7f01`
 - `20250615` `15ed34163360b53e58dabe4f5537dad904f8d724`
 - `20250612` `05a11653a11980d00af18016d268775b530099fd`
 - `20250611` `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2`
@@ -251,6 +252,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b4a6931393d00eae0145d9bc2a914c0e462ce647` [feat(ddl): Implement database-level barrier and checkpoint configuration - Part 2 (#22178)](https://github.com/risingwavelabs/risingwave/pull/22178)
+- `b7c976700e640c65217e938fa79f57845f52d82b` [feat(iceberg): support dedup full compact task from compactor side (#22220)](https://github.com/risingwavelabs/risingwave/pull/22220)
+
+## nightly-20250616
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/15ed34163360b53e58dabe4f5537dad904f8d724...22fae31830fc0c97cc0cf8021b88a5c940ff7f01)
 - `22fae31830fc0c97cc0cf8021b88a5c940ff7f01` [refactor: unify alter connector op name in `AlterSinkOperation` (#22239)](https://github.com/risingwavelabs/risingwave/pull/22239)
 - `a8e9214dc4a588cbc7612c8526af66838e729656` [fix(sqlsmith): use `ObjectName` for column name to correctly distinguish qualified name (#22225)](https://github.com/risingwavelabs/risingwave/pull/22225)
 - `2b0d277ca515992e6612bd386145a6a986b35b56` [fix(ci): fix `create_materialized_view_snapshot.slt` (#22226)](https://github.com/risingwavelabs/risingwave/pull/22226)
