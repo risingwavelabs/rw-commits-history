@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250617` `6e0fc647097082700ec6a7fb652a60b6d746245e`
 - `20250616` `22fae31830fc0c97cc0cf8021b88a5c940ff7f01`
 - `20250615` `15ed34163360b53e58dabe4f5537dad904f8d724`
 - `20250612` `05a11653a11980d00af18016d268775b530099fd`
@@ -251,6 +252,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8403c9445991dd9b1f811896ba8af0f74ea43f95` [feat(sqlsmith): support generation of select * except (#22146)](https://github.com/risingwavelabs/risingwave/pull/22146)
+
+## nightly-20250617
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/22fae31830fc0c97cc0cf8021b88a5c940ff7f01...6e0fc647097082700ec6a7fb652a60b6d746245e)
 - `6e0fc647097082700ec6a7fb652a60b6d746245e` [chore: notice about empty password when trying to create or alter user (#22261)](https://github.com/risingwavelabs/risingwave/pull/22261)
 - `393cafdde1e22d88e5f280025823a4ede29ece0a` [fix(frontend): ban snapshot backfill with shared source backfill and delta join (#22256)](https://github.com/risingwavelabs/risingwave/pull/22256)
 - `cc6d15e3a8154413bf9039090944e3a68ec84780` [chore(ci):  isolate logstore tests from pull request workflow (#22258)](https://github.com/risingwavelabs/risingwave/pull/22258)
