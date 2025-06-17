@@ -243,7 +243,6 @@
 - `20240902` `b2eea6b799d31aae8240e41cf3f0e0d29e542255`
 - `20240901` `e41b348f2d7d800b45e4102192200fb1698037ca`
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
-- `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 </details>
 
 # Commit history
@@ -252,6 +251,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6e0fc647097082700ec6a7fb652a60b6d746245e` [chore: notice about empty password when trying to create or alter user (#22261)](https://github.com/risingwavelabs/risingwave/pull/22261)
+- `393cafdde1e22d88e5f280025823a4ede29ece0a` [fix(frontend): ban snapshot backfill with shared source backfill and delta join (#22256)](https://github.com/risingwavelabs/risingwave/pull/22256)
+- `cc6d15e3a8154413bf9039090944e3a68ec84780` [chore(ci):  isolate logstore tests from pull request workflow (#22258)](https://github.com/risingwavelabs/risingwave/pull/22258)
+- `44d6e1d6f51741eb2a35f67407472bed8289c660` [feat(expr): add `openai_embedding` function (#22242)](https://github.com/risingwavelabs/risingwave/pull/22242)
+- `2633dd80aaa14625f6714b6f9139afe13b69a49d` [fix(meta): injected project and merge nodes should have unique operator ids by sink into table (#22230)](https://github.com/risingwavelabs/risingwave/pull/22230)
+- `0b3a188bad5705bcaf66bf29509f75726e819fcb` [feat(frontend): add source backfill progress tracking (#22217)](https://github.com/risingwavelabs/risingwave/pull/22217)
+- `e769acc8f6731201011d63139a2cc78df7b679c3` [feat: introduce new scheduling algorithm (#21803)](https://github.com/risingwavelabs/risingwave/pull/21803)
+- `f39618d1f849c793adc5d6b93cad609e50b4e1a9` [refactor(sqlsmith): change config to control weight and features (#22235)](https://github.com/risingwavelabs/risingwave/pull/22235)
+- `c4e2b470b780f332817258da6a2c27eb726c5dea` [fix(frontend): tolerate duplicate operator ids and missing metrics (#22234)](https://github.com/risingwavelabs/risingwave/pull/22234)
 - `b4a6931393d00eae0145d9bc2a914c0e462ce647` [feat(ddl): Implement database-level barrier and checkpoint configuration - Part 2 (#22178)](https://github.com/risingwavelabs/risingwave/pull/22178)
 - `b7c976700e640c65217e938fa79f57845f52d82b` [feat(iceberg): support dedup full compact task from compactor side (#22220)](https://github.com/risingwavelabs/risingwave/pull/22220)
 
@@ -2757,15 +2765,4 @@
 - `70c1146a0ede4c8a5b6a5adcde07b3f0449c2b5e` [fix: s3 source cannot read incremental files (#18017)](https://github.com/risingwavelabs/risingwave/pull/18017)
 
 ## nightly-20240829
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/befb04f1e433ecbb564a059f34b4299ba4952bed...655ce2a8cdd83f2338b2de23bef1133cf4e1916a)
 - `655ce2a8cdd83f2338b2de23bef1133cf4e1916a` [fix: Sort by actor_id in CustomFragmentInfo and rebalance_actor_vnode for consistent ordering (#18317)](https://github.com/risingwavelabs/risingwave/pull/18317)
-- `edb149317bad534730c09d04e639a622ba19e5fa` [refactor(metrics): remove `actor_id` label from back-pressure metrics based on metrics level (#18213)](https://github.com/risingwavelabs/risingwave/pull/18213)
-- `a5cbeb716ed8dc58287346e02b31252d784ded37` [fix(source): parquet file source use number of rows to determine the end of the file reading (#18149)](https://github.com/risingwavelabs/risingwave/pull/18149)
-- `ca99aee25cb4df928dc525e727d170bf1366e12b` [chore: remove unnecessary debug info (#18309)](https://github.com/risingwavelabs/risingwave/pull/18309)
-- `fac2904d4bac6a3c2ad8bd126ace04ec02ebda1b` [refactor(meta): build actors in inject barrier (#18270)](https://github.com/risingwavelabs/risingwave/pull/18270)
-- `a137e302a955eb89def9efd2fedbff28bd3798b3` [feat: deprecate current epoch in pinned snapshot (#18230)](https://github.com/risingwavelabs/risingwave/pull/18230)
-- `242dbff19fa9322178db0830e4a125507ecc98e2` [feat(sink): use official default message_timeout_ms (#18304)](https://github.com/risingwavelabs/risingwave/pull/18304)
-- `2529c56382ea94ae2ea6a2da21036546f389b29a` [feat(sink): add es retry_on_conflict and max_task_num (#17867)](https://github.com/risingwavelabs/risingwave/pull/17867)
-
-## nightly-20240828
-- `befb04f1e433ecbb564a059f34b4299ba4952bed` [fix: disable sink decouple for trivial sink (#18302)](https://github.com/risingwavelabs/risingwave/pull/18302)
