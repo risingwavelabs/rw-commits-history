@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250618` `33d9fb5132ceb59ca599d3d9437af659b2370f20`
 - `20250617` `6e0fc647097082700ec6a7fb652a60b6d746245e`
 - `20250616` `22fae31830fc0c97cc0cf8021b88a5c940ff7f01`
 - `20250615` `15ed34163360b53e58dabe4f5537dad904f8d724`
@@ -271,6 +272,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `409c10515550650d3cd1ed2449cc03e921184076` [chore: report details when trying to drop some referring object in restrict mode (#22276)](https://github.com/risingwavelabs/risingwave/pull/22276)
+- `2c081005e1a075adf4fcd948af0fcde0c9a1f6b8` [fix(snapshot-backfill): ensure data chunk builder size has least 2 (#22279)](https://github.com/risingwavelabs/risingwave/pull/22279)
+
+## nightly-20250618
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6e0fc647097082700ec6a7fb652a60b6d746245e...33d9fb5132ceb59ca599d3d9437af659b2370f20)
 - `33d9fb5132ceb59ca599d3d9437af659b2370f20` [fix(mssql-cdc): change the default behavior of schema checks for unsupported data types to reject (#21961)](https://github.com/risingwavelabs/risingwave/pull/21961)
 - `8f031df2272105a6eaf171ab5139ebdfd4e7256f` [feat(expr): use `MaterializedExprs` for all impure expressions (#22257)](https://github.com/risingwavelabs/risingwave/pull/22257)
 - `deff9bee0cd703faa4baa9275eea1f3a8d005fb4` [feat(common): support input/output of new data type `vector(n)` (#22019)](https://github.com/risingwavelabs/risingwave/pull/22019)
