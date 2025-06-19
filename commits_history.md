@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250619` `521a0aba6a19adda57293391b604d5b7f28e07b8`
 - `20250618` `33d9fb5132ceb59ca599d3d9437af659b2370f20`
 - `20250617` `6e0fc647097082700ec6a7fb652a60b6d746245e`
 - `20250616` `22fae31830fc0c97cc0cf8021b88a5c940ff7f01`
@@ -271,6 +272,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c4cb473af8d98f0c988b71b8c4fce576b2fe7a8c` [feat: support alter default privileges (#22191)](https://github.com/risingwavelabs/risingwave/pull/22191)
+
+## nightly-20250619
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/33d9fb5132ceb59ca599d3d9437af659b2370f20...521a0aba6a19adda57293391b604d5b7f28e07b8)
 - `521a0aba6a19adda57293391b604d5b7f28e07b8` [fix(connector): avoid returning any rows for jdbc sink (#22280)](https://github.com/risingwavelabs/risingwave/pull/22280)
 - `0cc1f7a54b0bfb09f884ec47baf0fd98fee25738` [feat(ci): add code coverage report for e2e tests (#22201)](https://github.com/risingwavelabs/risingwave/pull/22201)
 - `9a2d165161f108d60cfba9dd10d5343d6842ab0f` [fix(integration-test): fix feature store demo and bump protobuf python version (#22277)](https://github.com/risingwavelabs/risingwave/pull/22277)
