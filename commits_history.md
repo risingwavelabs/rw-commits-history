@@ -272,6 +272,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2f40095e23d86832b9e92dae8ab7864d9376faa5` [fix(parquet-source): recursively check the schema of nested data types (#22301)](https://github.com/risingwavelabs/risingwave/pull/22301)
 - `6d26579ce76027149fb1933c1d2e11025e510bf8` [fix(meta): unify validation logic for system parameters (#22289)](https://github.com/risingwavelabs/risingwave/pull/22289)
 - `baf8532c748b70c57354728afe19d4aa716b753c` [fix(iceberg): fix empty metastore password for iceberg engine. (#22302)](https://github.com/risingwavelabs/risingwave/pull/22302)
 - `b1cbf2eb7ae53855b287a78e68417231b09e8e8e` [feat(frontend): disallow backfill order with cross-db snapshot backfill (#22300)](https://github.com/risingwavelabs/risingwave/pull/22300)
