@@ -272,6 +272,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6d26579ce76027149fb1933c1d2e11025e510bf8` [fix(meta): unify validation logic for system parameters (#22289)](https://github.com/risingwavelabs/risingwave/pull/22289)
+- `baf8532c748b70c57354728afe19d4aa716b753c` [fix(iceberg): fix empty metastore password for iceberg engine. (#22302)](https://github.com/risingwavelabs/risingwave/pull/22302)
+- `b1cbf2eb7ae53855b287a78e68417231b09e8e8e` [feat(frontend): disallow backfill order with cross-db snapshot backfill (#22300)](https://github.com/risingwavelabs/risingwave/pull/22300)
+- `28e793d65783827026cc367ab570d009b55cd989` [feat(error): check in complete list of postgres error code (#22286)](https://github.com/risingwavelabs/risingwave/pull/22286)
+- `12da00c3d1121391243740a1441eae067293d91b` [feat(optimizer): simplify filter predicate before converting row_number + filter to topn (#22295)](https://github.com/risingwavelabs/risingwave/pull/22295)
+- `04b350b6971a2f1507db1bbbf8bd55f989813dfc` [feat(stream): support snapshot backfill in backfill order control (#22215)](https://github.com/risingwavelabs/risingwave/pull/22215)
+- `e1ae4d45f1e719277af80ce489003c9c49f74367` [feat(dashboard): show table data size (#22288)](https://github.com/risingwavelabs/risingwave/pull/22288)
+- `a2e971195dc15f087ce3dcae3e8c8ca29c8132e7` [feat(log-store): limit the max size of merged flushed chunk (#22285)](https://github.com/risingwavelabs/risingwave/pull/22285)
+- `247d0ce3a402c39687554d1811212885980c334a` [feat(stream): support source backfill in backfill order control (#22199)](https://github.com/risingwavelabs/risingwave/pull/22199)
 - `c4cb473af8d98f0c988b71b8c4fce576b2fe7a8c` [feat: support alter default privileges (#22191)](https://github.com/risingwavelabs/risingwave/pull/22191)
 
 ## nightly-20250619
