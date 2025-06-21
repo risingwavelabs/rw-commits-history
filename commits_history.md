@@ -272,6 +272,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ef500aa24075c69d48689834bf97a17af4377066` [fix(connector): jdbc pg should use `NO_GENERATED_KEYS` instead of `SUCCESS_NO_INFO` (#22312)](https://github.com/risingwavelabs/risingwave/pull/22312)
+- `57924b5cf8ba5c51b4034619150acef4993b4c17` [chore: update iceberg-compaction dep (#22294)](https://github.com/risingwavelabs/risingwave/pull/22294)
 - `2f40095e23d86832b9e92dae8ab7864d9376faa5` [fix(parquet-source): recursively check the schema of nested data types (#22301)](https://github.com/risingwavelabs/risingwave/pull/22301)
 - `6d26579ce76027149fb1933c1d2e11025e510bf8` [fix(meta): unify validation logic for system parameters (#22289)](https://github.com/risingwavelabs/risingwave/pull/22289)
 - `baf8532c748b70c57354728afe19d4aa716b753c` [fix(iceberg): fix empty metastore password for iceberg engine. (#22302)](https://github.com/risingwavelabs/risingwave/pull/22302)
