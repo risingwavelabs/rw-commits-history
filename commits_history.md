@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250621` `ef500aa24075c69d48689834bf97a17af4377066`
 - `20250619` `521a0aba6a19adda57293391b604d5b7f28e07b8`
 - `20250618` `33d9fb5132ceb59ca599d3d9437af659b2370f20`
 - `20250617` `6e0fc647097082700ec6a7fb652a60b6d746245e`
@@ -272,6 +273,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `08ad48b656eb8f82544af56e9503db747e23132e` [fix(risedev): fix kill when no llvm code cov env set (#22313)](https://github.com/risingwavelabs/risingwave/pull/22313)
+
+## nightly-20250621
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/521a0aba6a19adda57293391b604d5b7f28e07b8...ef500aa24075c69d48689834bf97a17af4377066)
 - `ef500aa24075c69d48689834bf97a17af4377066` [fix(connector): jdbc pg should use `NO_GENERATED_KEYS` instead of `SUCCESS_NO_INFO` (#22312)](https://github.com/risingwavelabs/risingwave/pull/22312)
 - `57924b5cf8ba5c51b4034619150acef4993b4c17` [chore: update iceberg-compaction dep (#22294)](https://github.com/risingwavelabs/risingwave/pull/22294)
 - `2f40095e23d86832b9e92dae8ab7864d9376faa5` [fix(parquet-source): recursively check the schema of nested data types (#22301)](https://github.com/risingwavelabs/risingwave/pull/22301)
