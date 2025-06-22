@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250622` `08ad48b656eb8f82544af56e9503db747e23132e`
 - `20250621` `ef500aa24075c69d48689834bf97a17af4377066`
 - `20250619` `521a0aba6a19adda57293391b604d5b7f28e07b8`
 - `20250618` `33d9fb5132ceb59ca599d3d9437af659b2370f20`
@@ -273,6 +274,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250622
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef500aa24075c69d48689834bf97a17af4377066...08ad48b656eb8f82544af56e9503db747e23132e)
 - `08ad48b656eb8f82544af56e9503db747e23132e` [fix(risedev): fix kill when no llvm code cov env set (#22313)](https://github.com/risingwavelabs/risingwave/pull/22313)
 
 ## nightly-20250621
