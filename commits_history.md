@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250623` `faf78c625289b51b341041a0d1150f824959212a`
 - `20250622` `08ad48b656eb8f82544af56e9503db747e23132e`
 - `20250621` `ef500aa24075c69d48689834bf97a17af4377066`
 - `20250619` `521a0aba6a19adda57293391b604d5b7f28e07b8`
@@ -274,6 +275,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250623
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/08ad48b656eb8f82544af56e9503db747e23132e...faf78c625289b51b341041a0d1150f824959212a)
 - `faf78c625289b51b341041a0d1150f824959212a` [feat(ci): code coverage for unit test (#22321)](https://github.com/risingwavelabs/risingwave/pull/22321)
 - `d4c7d3f17cf4b9c943022df183244ee8edf5ea97` [feat(risedev): add network latency simulation for postgres service (#22309)](https://github.com/risingwavelabs/risingwave/pull/22309)
 - `1a81b366dd03683308d7412f33f6d6e63cc302e5` [feat(error): use forked version of `thiserror` to allow providing postgres error code (#22304)](https://github.com/risingwavelabs/risingwave/pull/22304)
