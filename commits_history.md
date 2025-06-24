@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250624` `31a2b7b35f9f6fac88c118238c858a4eebfb0748`
 - `20250623` `faf78c625289b51b341041a0d1150f824959212a`
 - `20250622` `08ad48b656eb8f82544af56e9503db747e23132e`
 - `20250621` `ef500aa24075c69d48689834bf97a17af4377066`
@@ -274,6 +275,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250624
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/faf78c625289b51b341041a0d1150f824959212a...31a2b7b35f9f6fac88c118238c858a4eebfb0748)
 - `31a2b7b35f9f6fac88c118238c858a4eebfb0748` [chore(deps): bump `madsim-rdkafka` to 0.4.4 (#22343)](https://github.com/risingwavelabs/risingwave/pull/22343)
 - `581e0009d2abd5f5e51f3fc734484bbca5535d4c` [feat: introduce rwadmin user for cloud control plane (#22327)](https://github.com/risingwavelabs/risingwave/pull/22327)
 - `2ac1c6f9a4f2ad496147630c064d33e7706cf942` [chore: remove all existing `#[coverage(off)]` (#22341)](https://github.com/risingwavelabs/risingwave/pull/22341)
