@@ -266,7 +266,6 @@
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
 - `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
-- `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 </details>
 
 # Commit history
@@ -275,6 +274,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `31a2b7b35f9f6fac88c118238c858a4eebfb0748` [chore(deps): bump `madsim-rdkafka` to 0.4.4 (#22343)](https://github.com/risingwavelabs/risingwave/pull/22343)
+- `581e0009d2abd5f5e51f3fc734484bbca5535d4c` [feat: introduce rwadmin user for cloud control plane (#22327)](https://github.com/risingwavelabs/risingwave/pull/22327)
+- `2ac1c6f9a4f2ad496147630c064d33e7706cf942` [chore: remove all existing `#[coverage(off)]` (#22341)](https://github.com/risingwavelabs/risingwave/pull/22341)
+- `1561e2ecaced6fb2de5a4114c2d9b955cd2bbfcb` [feat(ci): enable coverage report for `main-cron` runs (#22319)](https://github.com/risingwavelabs/risingwave/pull/22319)
+- `4c7754eb8aaaa3e3ba777046dcfacbef9bf960bd` [test(sqlparser): `escape_string.yml` was not executed (#22334)](https://github.com/risingwavelabs/risingwave/pull/22334)
+- `54d88cfc59785a8fe6466439cf26a4dbc9c85a40` [refactor(sqlparser): tokenize multi-char operators as PostgreSQL (#22333)](https://github.com/risingwavelabs/risingwave/pull/22333)
+- `1a825138bdf0d0e0e218bd339c2f5b4eb7fbc793` [fix(mysql-cdc): use connection pool to avoid data loss caused by unsafe cancellation (#22128)](https://github.com/risingwavelabs/risingwave/pull/22128)
+- `c0ab2178e3029882de40806a3738d7826d40566d` [feat(storage): define vector file format and impl vector file writer (#22103)](https://github.com/risingwavelabs/risingwave/pull/22103)
+- `9821e534fd902eb09801cc3c51ab39d5072ea7b9` [feat: a session variable to separate consecutive stream join (#22259)](https://github.com/risingwavelabs/risingwave/pull/22259)
 
 ## nightly-20250623
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/08ad48b656eb8f82544af56e9503db747e23132e...faf78c625289b51b341041a0d1150f824959212a)
@@ -3048,8 +3056,4 @@
 - `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
 
 ## nightly-20240811
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd...a8b281147873b8ddc6ff633966a9381b1af26e85)
 - `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
-
-## nightly-20240810
-- `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd` [refactor(storage): use strong type for HummockVersionId (#17971)](https://github.com/risingwavelabs/risingwave/pull/17971)
