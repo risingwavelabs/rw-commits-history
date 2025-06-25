@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250625` `253c09395f1c98c8001ddf473cfc24d9f49bd547`
 - `20250624` `31a2b7b35f9f6fac88c118238c858a4eebfb0748`
 - `20250623` `faf78c625289b51b341041a0d1150f824959212a`
 - `20250622` `08ad48b656eb8f82544af56e9503db747e23132e`
@@ -274,6 +275,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250625
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/31a2b7b35f9f6fac88c118238c858a4eebfb0748...253c09395f1c98c8001ddf473cfc24d9f49bd547)
 - `253c09395f1c98c8001ddf473cfc24d9f49bd547` [feat: Use ActorAlignmentMapping instead of WorkerSlotMapping in the scheduler (#22326)](https://github.com/risingwavelabs/risingwave/pull/22326)
 - `e825667f6b7ecb62274157c0e501f5e1b676412a` [refactor(sqlparser): dispatch multi-char operators in binder in an sqlparser-agnostic way (#22344)](https://github.com/risingwavelabs/risingwave/pull/22344)
 - `8d9fc4fe576cad67f8cd1d4f530303b107657cb0` [feat(sink): Add config to block table drop if incoming sinks exist (#22347)](https://github.com/risingwavelabs/risingwave/pull/22347)
