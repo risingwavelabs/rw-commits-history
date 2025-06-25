@@ -266,7 +266,6 @@
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
-- `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 </details>
 
 # Commit history
@@ -275,6 +274,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `253c09395f1c98c8001ddf473cfc24d9f49bd547` [feat: Use ActorAlignmentMapping instead of WorkerSlotMapping in the scheduler (#22326)](https://github.com/risingwavelabs/risingwave/pull/22326)
+- `e825667f6b7ecb62274157c0e501f5e1b676412a` [refactor(sqlparser): dispatch multi-char operators in binder in an sqlparser-agnostic way (#22344)](https://github.com/risingwavelabs/risingwave/pull/22344)
+- `8d9fc4fe576cad67f8cd1d4f530303b107657cb0` [feat(sink): Add config to block table drop if incoming sinks exist (#22347)](https://github.com/risingwavelabs/risingwave/pull/22347)
+- `061585222b1e6eb4c1bd3497d3afadf66123ca03` [feat(meta): support offline realignment of unaligned join (#22331)](https://github.com/risingwavelabs/risingwave/pull/22331)
+- `7f8498d161eb44c752b89c6e02195105aa704e6b` [feat: add `allow_create_stream` to avoid create nats stream by mistake (#22315)](https://github.com/risingwavelabs/risingwave/pull/22315)
+- `053e1e611ac7a417b9353d51ca57bebc37e14593` [feat(storage): batch add flushed imm to uploader (#22342)](https://github.com/risingwavelabs/risingwave/pull/22342)
+- `0e1dbc59ab09a15e5d51441b15054ae95d2113c1` [refactor(batch): avoid using async-trait in BatchLookupExecutor (#22345)](https://github.com/risingwavelabs/risingwave/pull/22345)
+- `2deb7c3de32afcad38b7c8259e64e84859d31228` [chore(ci): remove unused sink test: e2e_test/sink/pg_native_vs_jdbc.slt (#22272)](https://github.com/risingwavelabs/risingwave/pull/22272)
+- `c6d4c507d5eaed064881fd2be50c68db1fe73005` [chore: update package version to v2.6.0 (#22346)](https://github.com/risingwavelabs/risingwave/pull/22346)
 
 ## nightly-20250624
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/faf78c625289b51b341041a0d1150f824959212a...31a2b7b35f9f6fac88c118238c858a4eebfb0748)
@@ -3049,15 +3057,4 @@
 - `58b3f414763a4550f8408c3761b2f34a26c5e476` [chore: test data shall not use non-existent option `kafka.servers` (#17996)](https://github.com/risingwavelabs/risingwave/pull/17996)
 
 ## nightly-20240812
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a8b281147873b8ddc6ff633966a9381b1af26e85...15432093b71066fd1097ebebf6b716033ac340dd)
 - `15432093b71066fd1097ebebf6b716033ac340dd` [fix(stream): let approx percentile output its results every epoch (#18002)](https://github.com/risingwavelabs/risingwave/pull/18002)
-- `b2b5a335a421667fd072add96617058aba52f361` [feat: add map type to scalar/array/expr (#17690)](https://github.com/risingwavelabs/risingwave/pull/17690)
-- `3707a1eef00106da08f878c66d3a3295aaf47a02` [feat(source): use the default_provider for AWS-related connectors (#17933)](https://github.com/risingwavelabs/risingwave/pull/17933)
-- `ef0272baaac5ae80bba63e008ab4fc92206f1556` [fix(docs): display of math equations in dev docs (#17998)](https://github.com/risingwavelabs/risingwave/pull/17998)
-- `de7e55bd23a40613b23b2a9a365f0cd92076ed00` [chore(ci): sync nexmark queries for flamegraph generation (#17993)](https://github.com/risingwavelabs/risingwave/pull/17993)
-- `fbb30ad2be06ca7d8d619b44d25a03ffdccd3568` [feat: support initializing license key from env var (#17906)](https://github.com/risingwavelabs/risingwave/pull/17906)
-- `5137f4801c695df5401b2699f269c48fa3fa3b01` [feat: redact license key when displaying to users (#17936)](https://github.com/risingwavelabs/risingwave/pull/17936)
-- `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
-
-## nightly-20240811
-- `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
