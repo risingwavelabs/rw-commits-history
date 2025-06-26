@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250626` `7db96b9cd7802f109ce430795d32924decc3718a`
 - `20250625` `253c09395f1c98c8001ddf473cfc24d9f49bd547`
 - `20250624` `31a2b7b35f9f6fac88c118238c858a4eebfb0748`
 - `20250623` `faf78c625289b51b341041a0d1150f824959212a`
@@ -274,6 +275,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e6caae9c3736815fc41ecda5672822ad9d557966` [refactor(test): move integration test for mysql-async to a separate crate (#22353)](https://github.com/risingwavelabs/risingwave/pull/22353)
+
+## nightly-20250626
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/253c09395f1c98c8001ddf473cfc24d9f49bd547...7db96b9cd7802f109ce430795d32924decc3718a)
 - `7db96b9cd7802f109ce430795d32924decc3718a` [chore: increase iceberg test timeout in main-cron (#22382)](https://github.com/risingwavelabs/risingwave/pull/22382)
 - `8d70815aabf21913797cb10dc7541b7406c73a51` [test(e2e): Add Kafka Startup Timestamp Test (#22375)](https://github.com/risingwavelabs/risingwave/pull/22375)
 - `ae6c7dc601d428c91555cee2c01f11b39f683a20` [feat: Add support for altering source connector properties (#20780)](https://github.com/risingwavelabs/risingwave/pull/20780)
