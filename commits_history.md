@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250627` `1d4f7fc4629b5a6d848baf661c37a44a940b856f`
 - `20250626` `7db96b9cd7802f109ce430795d32924decc3718a`
 - `20250625` `253c09395f1c98c8001ddf473cfc24d9f49bd547`
 - `20250624` `31a2b7b35f9f6fac88c118238c858a4eebfb0748`
@@ -265,7 +266,6 @@
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
-- `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 </details>
 
 # Commit history
@@ -274,6 +274,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `68f698d3853addd38843833ae97be35f2224475b` [feat(optimizer): optimize select clause's subquery unnesting (#22386)](https://github.com/risingwavelabs/risingwave/pull/22386)
+- `0b1ebd284ac212e5a8d13ac153940aa63c55f9cc` [perf(connector): optimize pg native sink writer with pipelining (#22310)](https://github.com/risingwavelabs/risingwave/pull/22310)
+
+## nightly-20250627
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7db96b9cd7802f109ce430795d32924decc3718a...1d4f7fc4629b5a6d848baf661c37a44a940b856f)
 - `1d4f7fc4629b5a6d848baf661c37a44a940b856f` [chore(iceberg): measure the iceberg spark download time for e2e test (#22400)](https://github.com/risingwavelabs/risingwave/pull/22400)
 - `1211b82d4d7139709edde3cb18a17728d04c1a43` [refactor(frontend): defer converting into `PbTable` or `PbSource` until necessary in handler (#22401)](https://github.com/risingwavelabs/risingwave/pull/22401)
 - `f0f285765d39378ab38c2ddb33608ac92cbda9dc` [fix: lookup join jsonb distinct (#22390)](https://github.com/risingwavelabs/risingwave/pull/22390)
@@ -3038,12 +3043,4 @@
 - `cfea9f3ee6c7669bd0ed06ad4c5d3a8cf0d147c5` [feat: support partial checkpoint based backfill (a.k.a snapshot backfill) (#17735)](https://github.com/risingwavelabs/risingwave/pull/17735)
 
 ## nightly-20240815
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f09f195499381ee54904bfdcdc879d4903a7366c...cbeda4d0d61707f6637ea15f5e929b8169bbe9d9)
 - `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
-- `f511bcfe10cb21f6a1365445710ecdc3c8a34c7a` [feat(storage): support file cache recover mode (#18036)](https://github.com/risingwavelabs/risingwave/pull/18036)
-- `8fbb8a5128c5e5c2df3bb515a5c35b5ab6fa6384` [feat(parser): parse `IGNORE NULLS` in (window) function calls (#18028)](https://github.com/risingwavelabs/risingwave/pull/18028)
-- `a1872f3b78a40b628cba2a81010e6d40628196e0` [fix: show progress for background ddls that are in initial status (#18043)](https://github.com/risingwavelabs/risingwave/pull/18043)
-- `ebc0e47102eeab6533991a06277b3fe4b9a46a3f` [feat(sink): add check license for snowflake, dynamodb opensearch sink (#17912)](https://github.com/risingwavelabs/risingwave/pull/17912)
-
-## nightly-20240814
-- `f09f195499381ee54904bfdcdc879d4903a7366c` [feat(frontend): support two phase vnode based simple agg with approx_percentile (#18007)](https://github.com/risingwavelabs/risingwave/pull/18007)
