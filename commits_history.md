@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250628` `68f698d3853addd38843833ae97be35f2224475b`
 - `20250627` `1d4f7fc4629b5a6d848baf661c37a44a940b856f`
 - `20250626` `7db96b9cd7802f109ce430795d32924decc3718a`
 - `20250625` `253c09395f1c98c8001ddf473cfc24d9f49bd547`
@@ -274,6 +275,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250628
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d4f7fc4629b5a6d848baf661c37a44a940b856f...68f698d3853addd38843833ae97be35f2224475b)
 - `68f698d3853addd38843833ae97be35f2224475b` [feat(optimizer): optimize select clause's subquery unnesting (#22386)](https://github.com/risingwavelabs/risingwave/pull/22386)
 - `0b1ebd284ac212e5a8d13ac153940aa63c55f9cc` [perf(connector): optimize pg native sink writer with pipelining (#22310)](https://github.com/risingwavelabs/risingwave/pull/22310)
 
