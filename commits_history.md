@@ -266,7 +266,6 @@
 - `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
-- `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 </details>
 
 # Commit history
@@ -3039,12 +3038,4 @@
 - `31e52d4f66745280097e981eb154042cab46296b` [ci: add cherry-pick 2.0 (#18074)](https://github.com/risingwavelabs/risingwave/pull/18074)
 
 ## nightly-20240816
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cbeda4d0d61707f6637ea15f5e929b8169bbe9d9...f5f09a6c15b1291623a1fccc9638035cf19002c0)
 - `f5f09a6c15b1291623a1fccc9638035cf19002c0` [feat: enable shuffle for snapshot backfill (#18063)](https://github.com/risingwavelabs/risingwave/pull/18063)
-- `4e6850754cc552aab9bee8fa487e295e0513ff0d` [fix(common): fix hyper-014 compile (#18068)](https://github.com/risingwavelabs/risingwave/pull/18068)
-- `7b807cf7bf8f44bf02741fd33a57f30a1fbafd68` [feat(stream): add approx percentile cache for global approx percentile (#18026)](https://github.com/risingwavelabs/risingwave/pull/18026)
-- `ccad6f4b5b18267c124705a41d71f1217bc1d212` [refactor: deprecate old s3 and use use s3_v2 as default (#17963)](https://github.com/risingwavelabs/risingwave/pull/17963)
-- `cfea9f3ee6c7669bd0ed06ad4c5d3a8cf0d147c5` [feat: support partial checkpoint based backfill (a.k.a snapshot backfill) (#17735)](https://github.com/risingwavelabs/risingwave/pull/17735)
-
-## nightly-20240815
-- `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
