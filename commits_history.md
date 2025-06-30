@@ -274,6 +274,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d45a4da926c3acff168781154874b2063dfd0fc3` [fix: remove assertion for exactly one rate limit node in a single fragment (#22426)](https://github.com/risingwavelabs/risingwave/pull/22426)
+- `23491fe02d5d78b3f971609d0063457034e94abd` [feat: Add database_id to rw_streaming_jobs  (#22427)](https://github.com/risingwavelabs/risingwave/pull/22427)
+- `977a20ef0cb51580235f7ed04ed78ddf17702089` [fix: kafka offset handling for timestamps beyond latest (#22413)](https://github.com/risingwavelabs/risingwave/pull/22413)
+- `98af4f8eb8059eb480484abe912470ebdfe09f47` [feat(frontend): minimal support for `ALTER MATERIALIZED VIEW AS` (#22365)](https://github.com/risingwavelabs/risingwave/pull/22365)
+- `6ed5763f858e8ade2c8471bdb3badf630854f4ed` [refactor(frontend): avoid multiple declaration of plan node in macro (#22420)](https://github.com/risingwavelabs/risingwave/pull/22420)
+- `4f6eb5a072949ec35ade98c90201c82ac2b09ca4` [feat(connector): allow schema registry with prefix path (#21138)](https://github.com/risingwavelabs/risingwave/pull/21138)
+- `9edf3895c7194242d834376c4174c6bf53ea4e97` [fix(stream): truncate flushed chunks which were read (#22320)](https://github.com/risingwavelabs/risingwave/pull/22320)
 
 ## nightly-20250629
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d4f7fc4629b5a6d848baf661c37a44a940b856f...68f698d3853addd38843833ae97be35f2224475b)
