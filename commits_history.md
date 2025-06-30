@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250630` `d45a4da926c3acff168781154874b2063dfd0fc3`
 - `20250629` `68f698d3853addd38843833ae97be35f2224475b`
 - `20250627` `1d4f7fc4629b5a6d848baf661c37a44a940b856f`
 - `20250626` `7db96b9cd7802f109ce430795d32924decc3718a`
@@ -274,6 +275,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250630
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/68f698d3853addd38843833ae97be35f2224475b...d45a4da926c3acff168781154874b2063dfd0fc3)
 - `d45a4da926c3acff168781154874b2063dfd0fc3` [fix: remove assertion for exactly one rate limit node in a single fragment (#22426)](https://github.com/risingwavelabs/risingwave/pull/22426)
 - `23491fe02d5d78b3f971609d0063457034e94abd` [feat: Add database_id to rw_streaming_jobs  (#22427)](https://github.com/risingwavelabs/risingwave/pull/22427)
 - `977a20ef0cb51580235f7ed04ed78ddf17702089` [fix: kafka offset handling for timestamps beyond latest (#22413)](https://github.com/risingwavelabs/risingwave/pull/22413)
