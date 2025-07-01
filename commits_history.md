@@ -266,7 +266,6 @@
 - `20240820` `e6e1f485cc0f778d4f67e33a362d67359e4fa736`
 - `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
-- `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 </details>
 
 # Commit history
@@ -275,6 +274,20 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5a972a6704769bc819744b0a91c92613dba9ef5a` [fix: iceberg location generator (#22443)](https://github.com/risingwavelabs/risingwave/pull/22443)
+- `064117ddf3f474717234709d667ec81b72961c30` [chore(deps): Bump org.postgresql:postgresql from 42.7.5 to 42.7.7 in /java (#22204)](https://github.com/risingwavelabs/risingwave/pull/22204)
+- `ec4132afc2fff4e00484884ff7b2bb7ca315af8c` [fix(mssql-cdc): do not require full `database.schema.table` format (#22391)](https://github.com/risingwavelabs/risingwave/pull/22391)
+- `728318161b91de60ba0ee17a4de45e951e4bde20` [refactor(frontend): static typed plan phase (#22421)](https://github.com/risingwavelabs/risingwave/pull/22421)
+- `d37d54c16e945b64f609044acc0f28c338883a5b` [fix(mysql-cdc): enhance mysql schema check (#22175)](https://github.com/risingwavelabs/risingwave/pull/22175)
+- `6ce355a7fa461781dda9ab3a2305d27726230e97` [chore(deps): Bump async-nats from 0.41.0 to 0.42.0 (#22207)](https://github.com/risingwavelabs/risingwave/pull/22207)
+- `befda3158750348430aaa676a8fb92df11341f4e` [chore(deps): Bump protobuf from 4.25.3 to 4.25.8 in /integration_tests/iceberg-sink2/python (#22253)](https://github.com/risingwavelabs/risingwave/pull/22253)
+- `719dd41b7cded3391e5b3d45e3541e40b98fe63d` [chore(sqlsmith): ban strpos/position (#22444)](https://github.com/risingwavelabs/risingwave/pull/22444)
+- `e127ad6058547729ca05cd8ec6f52e6a7fa0b01f` [fix(batch): fix `binary` and `varbinary` type mapping in table function `mysql_query` (#22442)](https://github.com/risingwavelabs/risingwave/pull/22442)
+- `886397b836862d0bee9223a385bf754fcd9ca29d` [feat(sink): Enable compression by default in opendal parquet writer (#22238)](https://github.com/risingwavelabs/risingwave/pull/22238)
+- `db5ca1d9ae0f4a0d9c1179d12dc635dc569bd0e0` [feat(streaming): add chunk compaction post-reader, over logstore stream (#22414)](https://github.com/risingwavelabs/risingwave/pull/22414)
+- `f33045e449fef9ee31765c6a3a481878de5dad1a` [refactor(sqlparser): make all non-standard operators sqlparser-agnostic (#22362)](https://github.com/risingwavelabs/risingwave/pull/22362)
+- `a6cf21dac1e8ab79b9f3f0c3fc05a8120fdb5b1a` [refactor(meta): wrap fragment type mask with struct (#22419)](https://github.com/risingwavelabs/risingwave/pull/22419)
+- `495b97c272b69fed66e3d697b6c074db04d50a2d` [chore(deps): Bump the all group across 1 directory with 39 updates (#22440)](https://github.com/risingwavelabs/risingwave/pull/22440)
 
 ## nightly-20250630
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/68f698d3853addd38843833ae97be35f2224475b...d45a4da926c3acff168781154874b2063dfd0fc3)
@@ -3042,11 +3055,4 @@
 - `e36a630dfe0ee60ac9b4293c76f87fc2f035a59b` [chore: fix RustRover macro expansion (#18077)](https://github.com/risingwavelabs/risingwave/pull/18077)
 
 ## nightly-20240818
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f09a6c15b1291623a1fccc9638035cf19002c0...7cb75e565470570fd191fac062e91864d4582c98)
 - `7cb75e565470570fd191fac062e91864d4582c98` [feat: support constructor `MAP {..}` and index operator `m[k]` for map (#18066)](https://github.com/risingwavelabs/risingwave/pull/18066)
-- `d11d3ea1762d300cbb569caa79e40e4dcfb3f2f2` [chore: update Cargo package version to 2.1.0-alpha (#18075)](https://github.com/risingwavelabs/risingwave/pull/18075)
-- `83b3647ece55ad04d3b4a565c524f8f415d9a71d` [fix(stream): fix functional dependencies for row merge (#18072)](https://github.com/risingwavelabs/risingwave/pull/18072)
-- `31e52d4f66745280097e981eb154042cab46296b` [ci: add cherry-pick 2.0 (#18074)](https://github.com/risingwavelabs/risingwave/pull/18074)
-
-## nightly-20240816
-- `f5f09a6c15b1291623a1fccc9638035cf19002c0` [feat: enable shuffle for snapshot backfill (#18063)](https://github.com/risingwavelabs/risingwave/pull/18063)
