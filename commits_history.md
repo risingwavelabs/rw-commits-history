@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250701` `5a972a6704769bc819744b0a91c92613dba9ef5a`
 - `20250630` `d45a4da926c3acff168781154874b2063dfd0fc3`
 - `20250629` `68f698d3853addd38843833ae97be35f2224475b`
 - `20250627` `1d4f7fc4629b5a6d848baf661c37a44a940b856f`
@@ -274,6 +275,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250701
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d45a4da926c3acff168781154874b2063dfd0fc3...5a972a6704769bc819744b0a91c92613dba9ef5a)
 - `5a972a6704769bc819744b0a91c92613dba9ef5a` [fix: iceberg location generator (#22443)](https://github.com/risingwavelabs/risingwave/pull/22443)
 - `064117ddf3f474717234709d667ec81b72961c30` [chore(deps): Bump org.postgresql:postgresql from 42.7.5 to 42.7.7 in /java (#22204)](https://github.com/risingwavelabs/risingwave/pull/22204)
 - `ec4132afc2fff4e00484884ff7b2bb7ca315af8c` [fix(mssql-cdc): do not require full `database.schema.table` format (#22391)](https://github.com/risingwavelabs/risingwave/pull/22391)
