@@ -275,6 +275,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0c62290e5d0ab441344cc961ea0a32ff78afaf47` [feat: use proc_macro to generate allow_alter props (#22363)](https://github.com/risingwavelabs/risingwave/pull/22363)
+- `6a70b1063cf69c8216fd2ce6b0a6b75de5782fa3` [feat(storage): support hummock FLAT index  (#21820)](https://github.com/risingwavelabs/risingwave/pull/21820)
+- `d031c02b9e16f09a3bd13ac869ade1076eb4c3cd` [feat(meta): minimal support for `ALTER MATERIALIZED VIEW AS` (#22366)](https://github.com/risingwavelabs/risingwave/pull/22366)
+- `5391b2f2fe9c62feefc2cbf0b925af18710d5e71` [refactor(ci): pulsar util script (#22305)](https://github.com/risingwavelabs/risingwave/pull/22305)
+- `cc880e9e389836bf5fa3e25956fad7ca84eeaee1` [feat(test): add test to cover incorrect commit epoch on worker crash (#22393)](https://github.com/risingwavelabs/risingwave/pull/22393)
+- `ed3a0c86ad74a804685cdc718d8c029bc01dac1f` [feat(storage): use faiss utils for vector computation (#22287)](https://github.com/risingwavelabs/risingwave/pull/22287)
+- `bc6b8c70b05ed056dc793702284093a344f6c752` [chore(deps): Bump console from 0.15.7 to 0.15.11 (#22469)](https://github.com/risingwavelabs/risingwave/pull/22469)
+- `9cf8ce982c1d459e408bd276a996d263c8e78522` [chore(iceberg): speed up iceberg e2e test (#22468)](https://github.com/risingwavelabs/risingwave/pull/22468)
 
 ## nightly-20250701
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d45a4da926c3acff168781154874b2063dfd0fc3...5a972a6704769bc819744b0a91c92613dba9ef5a)
