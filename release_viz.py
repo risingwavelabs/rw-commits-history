@@ -314,7 +314,7 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
 
     ax.legend(
         handles,
-        ["Pre-release", "Release", "Maintenance", "Patch Versions"],
+        ["Release Testing", "Released", "Unreleased", "Patch Versions"],
         bbox_to_anchor=(0.5, -0.2),
         loc="center left",
         frameon=False,
