@@ -4,13 +4,13 @@ Generate RisingWave release timeline (sweet Gantt-style).
 
 Steps
 -----
-1. 通过 GitHub API + git merge-base 拿到各 release-X.Y 分支上的
+1. Get data for each release-X.Y branch via GitHub API + git merge-base:
    - branch_creation     (code-freeze)
    - first_release       (vX.Y.Z)
    - last_release
    - last_commit         (HEAD of release branch)
-2. 整理成 pandas.DataFrame
-3. 用 matplotlib.broken_barh 画 3 段彩条：
+2. Organize into pandas.DataFrame
+3. Use matplotlib.broken_barh to draw 3-segment colored bars:
    Pre-release / Release / Maintenance
 """
 
@@ -31,31 +31,31 @@ from github import Github
 from tqdm import tqdm
 from dotenv import load_dotenv
 
-# ---------- ① 数据抓取 ---------- #
+# ---------- ① Data Collection ---------- #
 
 load_dotenv()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 if not GITHUB_TOKEN:
-    raise RuntimeError("请在 .env / ENV 里配置 GITHUB_TOKEN")
+    raise RuntimeError("Please configure GITHUB_TOKEN in .env / ENV")
 
 g = Github(GITHUB_TOKEN)
 repo = g.get_repo("risingwavelabs/risingwave")
 
 
 def get_release_branches():
-    """返回 [(version, github.Branch), ...]，按版本号排序"""
+    """Return [(version, github.Branch), ...], sorted by version number"""
     branches = []
     for br in repo.get_branches():
         if br.name.startswith("release-"):
             ver = br.name.replace("release-", "")
-            if re.match(r"^\d+\.\d+$", ver):  # 过滤掉 release-docs 等
+            if re.match(r"^\d+\.\d+$", ver):  # Filter out release-docs etc.
                 branches.append((ver, br))
     branches.sort(key=lambda t: [int(x) for x in t[0].split(".")])
     return branches
 
 
 def git_merge_base_date(branch_name: str, repo_path: str) -> datetime | None:
-    """用 git merge-base 取分支与 main 分叉时间"""
+    """Use git merge-base to get the time when branch diverged from main"""
     try:
         sha = subprocess.check_output(
             [
@@ -96,7 +96,7 @@ def get_releases_for_version(version: str):
 def collect_release_data() -> pd.DataFrame:
     branches = get_release_branches()
 
-    # 先确定本地仓库（加速 merge-base）
+    # First determine local repository (to speed up merge-base)
     local_repo = os.path.expanduser("../risingwave")
     if not (os.path.isdir(local_repo) and os.path.isdir(f"{local_repo}/.git")):
         tmp = tempfile.mkdtemp()
@@ -117,7 +117,7 @@ def collect_release_data() -> pd.DataFrame:
             ["git", "-C", local_repo, "fetch", "--all"], check=True, capture_output=True
         )
     else:
-        tmp = None  # 不用删
+        tmp = None  # No need to delete
 
     rows = []
     with (
@@ -142,7 +142,7 @@ def process_branch(version, br, repo_path):
     releases, rc_releases = get_releases_for_version(version)
     row = {
         "version": version,
-        "version_num": [int(x) for x in version.split(".")],  # 排序辅助
+        "version_num": [int(x) for x in version.split(".")],  # Helper for sorting
         "branch_creation": git_merge_base_date(br.name, repo_path),
         "first_release": releases[0].created_at if releases else pd.NaT,
         "last_release": releases[-1].created_at if releases else pd.NaT,
@@ -151,7 +151,7 @@ def process_branch(version, br, repo_path):
         "rc_releases": rc_releases,
         "formal_releases": releases,
     }
-    # 计算各段天数
+    # Calculate days for each segment
     row["pre_days"] = days_between(row["branch_creation"], row["first_release"])
     row["live_days"] = days_between(row["first_release"], row["last_release"])
     row["maint_days"] = days_between(row["last_release"], row["last_commit"])
@@ -162,7 +162,7 @@ def days_between(a, b):
     return (b - a).days if pd.notna(a) and pd.notna(b) else None
 
 
-# ---------- ② 绘图 ---------- #
+# ---------- ② Plotting ---------- #
 
 
 def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
@@ -172,23 +172,23 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
     n = len(df)
     fig, ax = plt.subplots(figsize=(15, max(3, n * 0.55)))
 
-    # y 轴
+    # y-axis
     ax.set_yticks(range(n))
     ax.set_yticklabels([f"v{s}" for s in df["version"]])
     ax.invert_yaxis()
 
-    # x 轴
+    # x-axis
     ax.xaxis_date()
     ax.xaxis.set_major_locator(mdates.MonthLocator(interval=2))
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
     fig.autofmt_xdate(rotation=45, ha="right")
     ax.grid(axis="x", color="#d0d0d0", linewidth=0.5, linestyle="--", alpha=0.6)
 
-    # 画条
+    # Draw bars
     for idx, row in df.iloc[::-1].iterrows():
         y = idx
 
-        # 如果只有 branch_creation，使用 last_commit 作为 pre-release 的结束时间
+        # If only branch_creation exists, use last_commit as the end time for pre-release
         if pd.notna(row.branch_creation):
             if pd.isna(row.first_release):
                 pre_end = row.last_commit
@@ -212,7 +212,7 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
                     [(x, w)], (y - BAR_H / 2, BAR_H), facecolors=COLORS[k], zorder=2
                 )
 
-                # --- 天数标签 ---
+                # --- Days label ---
                 txt = f"{int(days)}d"
                 if w > 25:
                     ax.text(
@@ -237,9 +237,9 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
                         zorder=3,
                     )
 
-                # --- 起始日期 ---
+                # --- Start date ---
                 date_s = start.strftime("%Y-%m-%d")
-                if w < 20:  # 条短 → 日期放条外
+                if w < 20:  # Short bar → place date outside bar
                     ax.text(
                         x - 0.6,
                         y - BAR_H / 2 - 0.06,
@@ -264,27 +264,27 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
                         zorder=3,
                     )
 
-            # --- 添加 patch version 标记 ---
+            # --- Add patch version markers ---
             if hasattr(row, "formal_releases") and row.formal_releases:
-                # 只标记有多个patch的版本，且只标记非.0版本
+                # Only mark versions with multiple patches, and only mark non-.0 versions
                 patch_releases = [
                     r for r in row.formal_releases if not r.tag_name.endswith(".0")
                 ]
 
-                if patch_releases:  # 只有当存在patch版本时才画标记
+                if patch_releases:  # Only draw markers when patch versions exist
                     for i, release in enumerate(patch_releases):
                         release_date = release.created_at
                         release_x = mdates.date2num(release_date)
 
-                        # 画小的垂直标记点
+                        # Draw small vertical marker points
                         ax.plot(
                             release_x, y, "o", color="#ff4444", markersize=4, zorder=4
                         )
 
-                        # 提取patch号 (如 v2.3.1 -> .1)
+                        # Extract patch number (e.g. v2.3.1 -> .1)
                         patch_num = release.tag_name.split(".")[-1]
                         if any(c.isalpha() for c in patch_num):
-                            continue  # 跳过怪版本
+                            continue  # Skip weird versions
                         ax.text(
                             release_x,
                             y - BAR_H / 2 - 0.08,
@@ -297,9 +297,9 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
                             zorder=5,
                         )
 
-    # 图例
+    # Legend
     handles = [plt.Rectangle((0, 0), 1, 1, color=c) for c in COLORS.values()]
-    # 添加 patch version 标记到图例 - 改为圆点
+    # Add patch version markers to legend - changed to dots
     handles.append(
         plt.Line2D(
             [0],
@@ -327,7 +327,7 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
     print(f"Saved ⇢ {out_file}")
 
 
-# ---------- ③ markdown 表 ---------- #
+# ---------- ③ Markdown Table ---------- #
 
 
 def to_markdown(df: pd.DataFrame) -> str:
