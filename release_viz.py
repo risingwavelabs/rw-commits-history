@@ -120,9 +120,10 @@ def collect_release_data() -> pd.DataFrame:
         tmp = None  # 不用删
 
     rows = []
-    with ThreadPoolExecutor(max_workers=8) as pool, tqdm(
-        total=len(branches), desc="Fetch branches"
-    ) as bar:
+    with (
+        ThreadPoolExecutor(max_workers=8) as pool,
+        tqdm(total=len(branches), desc="Fetch branches") as bar,
+    ):
         futures = {}
         for ver, br in branches:
             futures[pool.submit(process_branch, ver, br, local_repo)] = ver
@@ -263,11 +264,57 @@ def plot_release_timeline(df: pd.DataFrame, out_file="release_timeline.svg"):
                         zorder=3,
                     )
 
+            # --- 添加 patch version 标记 ---
+            if hasattr(row, "formal_releases") and row.formal_releases:
+                # 只标记有多个patch的版本，且只标记非.0版本
+                patch_releases = [
+                    r for r in row.formal_releases if not r.tag_name.endswith(".0")
+                ]
+
+                if patch_releases:  # 只有当存在patch版本时才画标记
+                    for i, release in enumerate(patch_releases):
+                        release_date = release.created_at
+                        release_x = mdates.date2num(release_date)
+
+                        # 画小的垂直标记点
+                        ax.plot(
+                            release_x, y, "o", color="#ff4444", markersize=4, zorder=4
+                        )
+
+                        # 提取patch号 (如 v2.3.1 -> .1)
+                        patch_num = release.tag_name.split(".")[-1]
+                        if any(c.isalpha() for c in patch_num):
+                            continue  # 跳过怪版本
+                        ax.text(
+                            release_x,
+                            y - BAR_H / 2 - 0.08,
+                            f".{patch_num}",
+                            va="top",
+                            ha="center",
+                            fontsize=7,
+                            color="#ff4444",
+                            weight="bold",
+                            zorder=5,
+                        )
+
     # 图例
     handles = [plt.Rectangle((0, 0), 1, 1, color=c) for c in COLORS.values()]
+    # 添加 patch version 标记到图例 - 改为圆点
+    handles.append(
+        plt.Line2D(
+            [0],
+            [0],
+            marker="o",
+            color="#ff4444",
+            linewidth=0,
+            markersize=4,
+            label="Patch Versions",
+        )
+    )
+
     ax.legend(
         handles,
-        ["Pre-release", "Release", "Maintenance"],
+        ["Pre-release", "Release", "Maintenance", "Patch Versions"],
         bbox_to_anchor=(0.5, -0.2),
         loc="center left",
         frameon=False,
