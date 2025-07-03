@@ -273,6 +273,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `59f5ba39a54b7903efb0c81c23a8c79bff8f1700` [feat: make kafka source `group.id.prefix` alter-able (#22492)](https://github.com/risingwavelabs/risingwave/pull/22492)
 - `2d5d8880f182704b7335409d583bb352f8e06952` [feat(storage): implement in memory hnsw builder (#21648)](https://github.com/risingwavelabs/risingwave/pull/21648)
 - `feb36441de09d491f054076b5b2124eb0e83238e` [chore: bump rust-toolchain to nightly-2025-06-25 & edition2024 (#22438)](https://github.com/risingwavelabs/risingwave/pull/22438)
 - `9f10b92beabc2147ae9c61bce01dacb523ff2f2f` [refactor: make allow alter check rely on generate code (#22466)](https://github.com/risingwavelabs/risingwave/pull/22466)
