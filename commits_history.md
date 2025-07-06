@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250705` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
+- `20250706` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
 - `20250704` `1d82fa885fa6ed9f74e04339639e1686acb7b6d4`
 - `20250703` `59f5ba39a54b7903efb0c81c23a8c79bff8f1700`
 - `20250701` `5a972a6704769bc819744b0a91c92613dba9ef5a`
@@ -275,7 +275,7 @@
 
 ## Unreleased
 
-## nightly-20250705
+## nightly-20250706
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d82fa885fa6ed9f74e04339639e1686acb7b6d4...a88b8fc651a91216b5059eaf5c23697fc04328e5)
 - `a88b8fc651a91216b5059eaf5c23697fc04328e5` [fix(release): install dependencies required by faiss in release pipeline (#22515)](https://github.com/risingwavelabs/risingwave/pull/22515)
 
