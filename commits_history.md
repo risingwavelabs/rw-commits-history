@@ -274,6 +274,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f75c9e9f5a2381d8de81c428db24b253d60e0273` [fix: construct user info after secret and conn privilege granted or revoked (#22529)](https://github.com/risingwavelabs/risingwave/pull/22529)
+- `875768c6a2bfdcf73b3b36970ecc7dc36fc64e3e` [refactor(license): define feature list with JSON schema (#22514)](https://github.com/risingwavelabs/risingwave/pull/22514)
+- `93d18f39bc4271576aa87c2153651994b9822d81` [chore: update .gitignore to exclude rustc ice files (#22523)](https://github.com/risingwavelabs/risingwave/pull/22523)
+- `deda835453e9567600411d7279915939dccf0217` [feat(license): add support for custom license tiers (#22506)](https://github.com/risingwavelabs/risingwave/pull/22506)
+- `fe007236b54dd91796aef50b3d59a0c2feaf48eb` [feat(meta): introduce basic state table mapping algorithm for `ALTER MV` (#22429)](https://github.com/risingwavelabs/risingwave/pull/22429)
+- `f98cce3cff6e90b6f8253d4e579c38c592ac1de5` [fix(sink): fix starrrocks https host error (#22108)](https://github.com/risingwavelabs/risingwave/pull/22108)
+- `b46551fefd7e14e96c746b9b2dfac54b2bba281f` [fix(pgwire): send `ParameterStatus(TimeZone)` on startup to avoid `psycopg[binary]` segfault (#22504)](https://github.com/risingwavelabs/risingwave/pull/22504)
 
 ## nightly-20250706
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d82fa885fa6ed9f74e04339639e1686acb7b6d4...a88b8fc651a91216b5059eaf5c23697fc04328e5)
