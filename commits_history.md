@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250707` `f75c9e9f5a2381d8de81c428db24b253d60e0273`
 - `20250706` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
 - `20250704` `1d82fa885fa6ed9f74e04339639e1686acb7b6d4`
 - `20250703` `59f5ba39a54b7903efb0c81c23a8c79bff8f1700`
@@ -274,6 +275,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e3ba3624eaba1008f5f02bbfd1af8688a5cdeb58` [fix(iceberg): spwan blocking task for dropping iceberg table (#22530)](https://github.com/risingwavelabs/risingwave/pull/22530)
+
+## nightly-20250707
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a88b8fc651a91216b5059eaf5c23697fc04328e5...f75c9e9f5a2381d8de81c428db24b253d60e0273)
 - `f75c9e9f5a2381d8de81c428db24b253d60e0273` [fix: construct user info after secret and conn privilege granted or revoked (#22529)](https://github.com/risingwavelabs/risingwave/pull/22529)
 - `875768c6a2bfdcf73b3b36970ecc7dc36fc64e3e` [refactor(license): define feature list with JSON schema (#22514)](https://github.com/risingwavelabs/risingwave/pull/22514)
 - `93d18f39bc4271576aa87c2153651994b9822d81` [chore: update .gitignore to exclude rustc ice files (#22523)](https://github.com/risingwavelabs/risingwave/pull/22523)
