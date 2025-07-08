@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250708` `dd759acf1fea4bc972e3c82f527ff2587687d35f`
 - `20250707` `f75c9e9f5a2381d8de81c428db24b253d60e0273`
 - `20250706` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
 - `20250704` `1d82fa885fa6ed9f74e04339639e1686acb7b6d4`
@@ -264,8 +265,6 @@
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
-- `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
-- `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
 </details>
 
 # Commit history
@@ -274,6 +273,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d58087a336dd2fc0a3009a6328ccd793fcf21f61` [fix: make pulsar source exactly once (#22510)](https://github.com/risingwavelabs/risingwave/pull/22510)
+
+## nightly-20250708
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f75c9e9f5a2381d8de81c428db24b253d60e0273...dd759acf1fea4bc972e3c82f527ff2587687d35f)
 - `dd759acf1fea4bc972e3c82f527ff2587687d35f` [fix(build): disable parallel frontend to reduce ICE (#22541)](https://github.com/risingwavelabs/risingwave/pull/22541)
 - `d584d665389300c1352282486e168cd77e1f7489` [feat: add CLAUDE.md (#22537)](https://github.com/risingwavelabs/risingwave/pull/22537)
 - `0c2e1baccb317b4f45730b14a0d612ac12a08af2` [fix: correctly display connection ref to secret in other schema (#22524)](https://github.com/risingwavelabs/risingwave/pull/22524)
@@ -3016,13 +3019,4 @@
 - `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
 
 ## nightly-20240825
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d33623accf6e932592f4a945af436c18ced812fd...5c1af4c21215f8887133233a5978402019c3d3fa)
 - `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
-
-## nightly-20240824
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5cae57827c8ca56868b9cc0de0686d6f14e68510...d33623accf6e932592f4a945af436c18ced812fd)
-- `d33623accf6e932592f4a945af436c18ced812fd` [chore(build): add curl & less into docker image (#18223)](https://github.com/risingwavelabs/risingwave/pull/18223)
-- `7009743799259775b80611043cb7d089c25f7743` [feat(dashboard): visualize average backpressure rather than spot backpressure (#18219)](https://github.com/risingwavelabs/risingwave/pull/18219)
-
-## nightly-20240823
-- `5cae57827c8ca56868b9cc0de0686d6f14e68510` [fix(udf): allow `aggregate:` prefixed sql udf (#18203)](https://github.com/risingwavelabs/risingwave/pull/18203)
