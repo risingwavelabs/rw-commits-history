@@ -266,7 +266,6 @@
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
 - `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 - `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
-- `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
 </details>
 
 # Commit history
@@ -275,6 +274,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dd759acf1fea4bc972e3c82f527ff2587687d35f` [fix(build): disable parallel frontend to reduce ICE (#22541)](https://github.com/risingwavelabs/risingwave/pull/22541)
+- `d584d665389300c1352282486e168cd77e1f7489` [feat: add CLAUDE.md (#22537)](https://github.com/risingwavelabs/risingwave/pull/22537)
+- `0c2e1baccb317b4f45730b14a0d612ac12a08af2` [fix: correctly display connection ref to secret in other schema (#22524)](https://github.com/risingwavelabs/risingwave/pull/22524)
+- `8d2617aa1a8c98df718c3ef40b8d1ff5817560c4` [feat(license): provision license key with tier `All` & add tests for custom tier (#22522)](https://github.com/risingwavelabs/risingwave/pull/22522)
+- `f1f3366a668afdc38b37a20c1731a52a5df1dbb3` [test: cover ALTER CONNECTION SET SCHEMA (#22493)](https://github.com/risingwavelabs/risingwave/pull/22493)
+- `99f6c5108096702185c4173a38dd03f5a94d62a7` [chore(deps): Bump the all group in /java with 7 updates (#22535)](https://github.com/risingwavelabs/risingwave/pull/22535)
 - `e3ba3624eaba1008f5f02bbfd1af8688a5cdeb58` [fix(iceberg): spwan blocking task for dropping iceberg table (#22530)](https://github.com/risingwavelabs/risingwave/pull/22530)
 
 ## nightly-20250707
@@ -3020,17 +3025,4 @@
 - `7009743799259775b80611043cb7d089c25f7743` [feat(dashboard): visualize average backpressure rather than spot backpressure (#18219)](https://github.com/risingwavelabs/risingwave/pull/18219)
 
 ## nightly-20240823
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9c4984d4ec2d17351a741cab8ac512b39dd2261a...5cae57827c8ca56868b9cc0de0686d6f14e68510)
 - `5cae57827c8ca56868b9cc0de0686d6f14e68510` [fix(udf): allow `aggregate:` prefixed sql udf (#18203)](https://github.com/risingwavelabs/risingwave/pull/18203)
-- `321610dd9c51ee107a3bcd4e6b32d731d1943044` [refactor: add some comments for MV progress tracking (#18110)](https://github.com/risingwavelabs/risingwave/pull/18110)
-- `958794583771632b208068838191a3516cd6d9cc` [feat(source): support temporary source (#18174)](https://github.com/risingwavelabs/risingwave/pull/18174)
-- `ec6074454e39b3b82ee0684f9e714bca95e5bb0c` [chore(doc): Update README.md (#18206)](https://github.com/risingwavelabs/risingwave/pull/18206)
-- `c83ce8632a2f6b1bba83686ec5053c6bfb1c6117` [fix(udf): allow udaf as window function (#18181)](https://github.com/risingwavelabs/risingwave/pull/18181)
-- `2fa80346d429a1c5121f0056e07ecbcc1232477b` [fix(binder): fix function call binding (#18177)](https://github.com/risingwavelabs/risingwave/pull/18177)
-- `4cef811b975cde923d524553a08f1b42d2028534` [ci: install addr2line-rs binary along with flamegraph (#18171)](https://github.com/risingwavelabs/risingwave/pull/18171)
-- `d27169721cce2fed6858913017642cf7922f0148` [feat: use opendal as the s3 sdk by default (#18011)](https://github.com/risingwavelabs/risingwave/pull/18011)
-- `d8c718bfa1e118c1eade3e2fa108371d4eff1c79` [refactor(test):  kafka sink with protobuf/avro as inline style (#18193)](https://github.com/risingwavelabs/risingwave/pull/18193)
-- `71732b1c4446d216f500267a9e1f2bf426a88519` [fix: fix kinesis early exit (#18183)](https://github.com/risingwavelabs/risingwave/pull/18183)
-
-## nightly-20240822
-- `9c4984d4ec2d17351a741cab8ac512b39dd2261a` [refactor(iceberg): use load table v2 to extract iceberg columns (#18196)](https://github.com/risingwavelabs/risingwave/pull/18196)
