@@ -262,7 +262,6 @@
 - `20240901` `e41b348f2d7d800b45e4102192200fb1698037ca`
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
-- `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 </details>
 
 # Commit history
@@ -271,6 +270,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f91eacaf81215fb86670935a9cb71dd7c0a39613` [feat: add a session variable to switch join encoding type (#22416)](https://github.com/risingwavelabs/risingwave/pull/22416)
+- `21145ce716984d74af543734ef2e91675a513904` [chore(deps): Bump `aws-smithy-*` crates (#22168)](https://github.com/risingwavelabs/risingwave/pull/22168)
+- `aa98e68769c23b6b3ce6c82de96462578f70a3e9` [feat(dashboard): add `Functions` page to display all created UDFs (#22550)](https://github.com/risingwavelabs/risingwave/pull/22550)
+- `b33eefce7d6dda0d300fdbcf7a6d27a075940494` [chore(deps): Bump peekable from 0.3.0 to 0.4.1 (#22552)](https://github.com/risingwavelabs/risingwave/pull/22552)
 - `7df145ff0a08e637d24bfbf74229487dbf91b9cf` [fix: check pulsar topic exist (#22544)](https://github.com/risingwavelabs/risingwave/pull/22544)
 - `3c73ee40f8b9a699b448149b3f3df25c29ada992` [fix: fix notification with erased definition of creating mv (#22549)](https://github.com/risingwavelabs/risingwave/pull/22549)
 - `785edac7ec6d70be4844de04812f475752572913` [chore: fully deprecate dependent_relations to avoid misuse (#22542)](https://github.com/risingwavelabs/risingwave/pull/22542)
@@ -2975,21 +2978,4 @@
 - `2529c56382ea94ae2ea6a2da21036546f389b29a` [feat(sink): add es retry_on_conflict and max_task_num (#17867)](https://github.com/risingwavelabs/risingwave/pull/17867)
 
 ## nightly-20240828
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/63b4d47ea9f54f567983e097e15d8dc9b0384849...befb04f1e433ecbb564a059f34b4299ba4952bed)
 - `befb04f1e433ecbb564a059f34b4299ba4952bed` [fix: disable sink decouple for trivial sink (#18302)](https://github.com/risingwavelabs/risingwave/pull/18302)
-- `14a46ff1440604d9c6013605b81b4bd305e4b2ba` [fix(connector): upsert+protobuf source (#18301)](https://github.com/risingwavelabs/risingwave/pull/18301)
-- `40074f69cd9472888a01d1735d9d963227504963` [feat(connector): support azblob file source (#18295)](https://github.com/risingwavelabs/risingwave/pull/18295)
-- `0239e22a4187fa424451f09ea9e293f62243ae5b` [fix(cdc): only allow `ADD` and `DROP` in auto schema change (#18245)](https://github.com/risingwavelabs/risingwave/pull/18245)
-- `54134df47b30554313bb91177ed2ad8e4621d441` [fix(frontend): add project after simple agg to avoid noop updates (#18292)](https://github.com/risingwavelabs/risingwave/pull/18292)
-- `0e5a46f48f5f99ee32c649493ad9d2d7d023677d` [feat(connector): add webhdfs sink (#18293)](https://github.com/risingwavelabs/risingwave/pull/18293)
-- `86f403a5af372fb3c3259ea0be7ed1914799eb41` [refactor: simplify SourceBackfill's memory state (#18296)](https://github.com/risingwavelabs/risingwave/pull/18296)
-- `53c2b0a99473f7306d0b352572f7058e82e41006` [perf(dashboard): only fetch ids and specified fragments for a relation (#18272)](https://github.com/risingwavelabs/risingwave/pull/18272)
-- `ee77691f03772ede158a9d5a3e87861b6abf7205` [feat(storage): remove shared buffer compaction grouped payload (#18277)](https://github.com/risingwavelabs/risingwave/pull/18277)
-- `9f52981fb7af366074601c9ba12feef5bc76bca5` [refactor(storage): reorg writer code (#18291)](https://github.com/risingwavelabs/risingwave/pull/18291)
-- `04b9cb4e61e1a5119ef636a6335d02a178372dcb` [fix(iceberg): fix path style access (#18259)](https://github.com/risingwavelabs/risingwave/pull/18259)
-- `7998622f78e0ed97fddbf1ebf2634e06a45a52d1` [fix(source/nats): add missing `default` attribute for vectors (#18261)](https://github.com/risingwavelabs/risingwave/pull/18261)
-- `205acb42896abfcbae15094aa4b3ed244e4567f8` [chore: remove sqlite file (#18282)](https://github.com/risingwavelabs/risingwave/pull/18282)
-- `7a97076cedfc1018facc892ed1c350327fe6b8db` [fix(meta): fix list changed log epoch retrun null epoch (#18273)](https://github.com/risingwavelabs/risingwave/pull/18273)
-
-## nightly-20240827
-- `63b4d47ea9f54f567983e097e15d8dc9b0384849` [fix: should use table_metric for MV throughput (#18265)](https://github.com/risingwavelabs/risingwave/pull/18265)
