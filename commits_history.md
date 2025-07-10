@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250710` `f91eacaf81215fb86670935a9cb71dd7c0a39613`
 - `20250708` `dd759acf1fea4bc972e3c82f527ff2587687d35f`
 - `20250707` `f75c9e9f5a2381d8de81c428db24b253d60e0273`
 - `20250706` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
@@ -270,6 +271,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4bd823e9a06c52504f99ec86bf929a034b45a837` [fix: fix jni register on compactor component (#22562)](https://github.com/risingwavelabs/risingwave/pull/22562)
+
+## nightly-20250710
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dd759acf1fea4bc972e3c82f527ff2587687d35f...f91eacaf81215fb86670935a9cb71dd7c0a39613)
 - `f91eacaf81215fb86670935a9cb71dd7c0a39613` [feat: add a session variable to switch join encoding type (#22416)](https://github.com/risingwavelabs/risingwave/pull/22416)
 - `21145ce716984d74af543734ef2e91675a513904` [chore(deps): Bump `aws-smithy-*` crates (#22168)](https://github.com/risingwavelabs/risingwave/pull/22168)
 - `aa98e68769c23b6b3ce6c82de96462578f70a3e9` [feat(dashboard): add `Functions` page to display all created UDFs (#22550)](https://github.com/risingwavelabs/risingwave/pull/22550)
