@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250711` `909cc0c77f40554c228a543d07d96203a6e0432c`
 - `20250710` `f91eacaf81215fb86670935a9cb71dd7c0a39613`
 - `20250708` `dd759acf1fea4bc972e3c82f527ff2587687d35f`
 - `20250707` `f75c9e9f5a2381d8de81c428db24b253d60e0273`
@@ -271,6 +272,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e5afc4e70aafa9da919ee22f09cfdc370552e8a0` [feat: impl has_database_privilege func (#22576)](https://github.com/risingwavelabs/risingwave/pull/22576)
+- `542f88c1bc46f3757008a52b62778b67cea7bd4b` [fix: join encoding type backward compability (#22560)](https://github.com/risingwavelabs/risingwave/pull/22560)
+
+## nightly-20250711
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f91eacaf81215fb86670935a9cb71dd7c0a39613...909cc0c77f40554c228a543d07d96203a6e0432c)
 - `909cc0c77f40554c228a543d07d96203a6e0432c` [fix: clean dirty creating subscription after command failure (#22577)](https://github.com/risingwavelabs/risingwave/pull/22577)
 - `0c74f42c6821a2bdc1a142f5b71b728056c2f2b2` [fix(frontend): fix topn on index optimization rule bug (#22561)](https://github.com/risingwavelabs/risingwave/pull/22561)
 - `6c79fe18cc3e1741fff2fd81e71289e72adf3cdd` [fix: database owner should alway be able to connect (#22569)](https://github.com/risingwavelabs/risingwave/pull/22569)
