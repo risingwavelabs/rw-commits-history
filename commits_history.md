@@ -271,6 +271,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `909cc0c77f40554c228a543d07d96203a6e0432c` [fix: clean dirty creating subscription after command failure (#22577)](https://github.com/risingwavelabs/risingwave/pull/22577)
+- `0c74f42c6821a2bdc1a142f5b71b728056c2f2b2` [fix(frontend): fix topn on index optimization rule bug (#22561)](https://github.com/risingwavelabs/risingwave/pull/22561)
+- `6c79fe18cc3e1741fff2fd81e71289e72adf3cdd` [fix: database owner should alway be able to connect (#22569)](https://github.com/risingwavelabs/risingwave/pull/22569)
+- `a74658ce3d8559b9100efe0ab8c9d61f1c950c63` [fix(cdc): limit cdc offset fetch concurrency globally (#22559)](https://github.com/risingwavelabs/risingwave/pull/22559)
+- `45131c463561de75dbb595b51356dcdca18f1df4` [fix: only super user can alter system parameters (#22564)](https://github.com/risingwavelabs/risingwave/pull/22564)
+- `b80fc58fe5b0c474fb500e636afcb704e0640264` [fix(cdc): fix auto schema change failure when include hidden columns  (#22525)](https://github.com/risingwavelabs/risingwave/pull/22525)
 - `4bd823e9a06c52504f99ec86bf929a034b45a837` [fix: fix jni register on compactor component (#22562)](https://github.com/risingwavelabs/risingwave/pull/22562)
 
 ## nightly-20250710
