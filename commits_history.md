@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250712` `e5afc4e70aafa9da919ee22f09cfdc370552e8a0`
 - `20250711` `909cc0c77f40554c228a543d07d96203a6e0432c`
 - `20250710` `f91eacaf81215fb86670935a9cb71dd7c0a39613`
 - `20250708` `dd759acf1fea4bc972e3c82f527ff2587687d35f`
@@ -272,6 +273,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250712
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/909cc0c77f40554c228a543d07d96203a6e0432c...e5afc4e70aafa9da919ee22f09cfdc370552e8a0)
 - `e5afc4e70aafa9da919ee22f09cfdc370552e8a0` [feat: impl has_database_privilege func (#22576)](https://github.com/risingwavelabs/risingwave/pull/22576)
 - `542f88c1bc46f3757008a52b62778b67cea7bd4b` [fix: join encoding type backward compability (#22560)](https://github.com/risingwavelabs/risingwave/pull/22560)
 
