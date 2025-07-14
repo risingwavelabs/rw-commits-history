@@ -273,6 +273,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `aab3f23538471a0dcab77fcbb8b00ebc60f09f66` [chore(deps): Bump twox-hash from 1.6.3 to 2.1.0 (#22265)](https://github.com/risingwavelabs/risingwave/pull/22265)
+- `a079bf56f22485d74e1e00eda6c5420804d3c834` [feat: support viewing background sink progress and some refactoring (#22435)](https://github.com/risingwavelabs/risingwave/pull/22435)
+- `53b75da81d5b5340337da810a0928fa2ae537225` [fix(sink): shall not panic when protobuf message not found (#22587)](https://github.com/risingwavelabs/risingwave/pull/22587)
+- `74afb6a76bf2555c6cb54534aba83f3b6b062ab8` [fix(fronted): fix negative number parsing in `postgres` interval style (#22231)](https://github.com/risingwavelabs/risingwave/pull/22231)
+- `570c7059a18bdc0dae5ea9d90fbcfa1d8d9300c3` [chore(deps): Bump org.apache.commons:commons-lang3 from 3.17.0 to 3.18.0 in /java (#22580)](https://github.com/risingwavelabs/risingwave/pull/22580)
+- `dc370fa13f8a3fa9e8b0d8057c594045d3e901d8` [refactor(source): split out DummySourceExec to remove an Option (#22584)](https://github.com/risingwavelabs/risingwave/pull/22584)
+- `1c4efedbdc59e974dd660ce8b3d58075f6c69a95` [refactor(source): remove dead code  (#22583)](https://github.com/risingwavelabs/risingwave/pull/22583)
+- `9ed00c9b8f08c075f1351a32d8925136cee5c1c8` [chore(deps): Bump crate-ci/typos from 1.33.1 to 1.34.0 (#22439)](https://github.com/risingwavelabs/risingwave/pull/22439)
 
 ## nightly-20250713
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/909cc0c77f40554c228a543d07d96203a6e0432c...e5afc4e70aafa9da919ee22f09cfdc370552e8a0)
