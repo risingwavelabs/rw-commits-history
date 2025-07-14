@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250714` `aab3f23538471a0dcab77fcbb8b00ebc60f09f66`
 - `20250713` `e5afc4e70aafa9da919ee22f09cfdc370552e8a0`
 - `20250711` `909cc0c77f40554c228a543d07d96203a6e0432c`
 - `20250710` `f91eacaf81215fb86670935a9cb71dd7c0a39613`
@@ -264,7 +265,6 @@
 - `20240902` `b2eea6b799d31aae8240e41cf3f0e0d29e542255`
 - `20240901` `e41b348f2d7d800b45e4102192200fb1698037ca`
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
-- `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 </details>
 
 # Commit history
@@ -273,6 +273,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250714
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e5afc4e70aafa9da919ee22f09cfdc370552e8a0...aab3f23538471a0dcab77fcbb8b00ebc60f09f66)
 - `aab3f23538471a0dcab77fcbb8b00ebc60f09f66` [chore(deps): Bump twox-hash from 1.6.3 to 2.1.0 (#22265)](https://github.com/risingwavelabs/risingwave/pull/22265)
 - `a079bf56f22485d74e1e00eda6c5420804d3c834` [feat: support viewing background sink progress and some refactoring (#22435)](https://github.com/risingwavelabs/risingwave/pull/22435)
 - `53b75da81d5b5340337da810a0928fa2ae537225` [fix(sink): shall not panic when protobuf message not found (#22587)](https://github.com/risingwavelabs/risingwave/pull/22587)
@@ -2996,15 +2999,4 @@
 - `70c1146a0ede4c8a5b6a5adcde07b3f0449c2b5e` [fix: s3 source cannot read incremental files (#18017)](https://github.com/risingwavelabs/risingwave/pull/18017)
 
 ## nightly-20240829
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/befb04f1e433ecbb564a059f34b4299ba4952bed...655ce2a8cdd83f2338b2de23bef1133cf4e1916a)
 - `655ce2a8cdd83f2338b2de23bef1133cf4e1916a` [fix: Sort by actor_id in CustomFragmentInfo and rebalance_actor_vnode for consistent ordering (#18317)](https://github.com/risingwavelabs/risingwave/pull/18317)
-- `edb149317bad534730c09d04e639a622ba19e5fa` [refactor(metrics): remove `actor_id` label from back-pressure metrics based on metrics level (#18213)](https://github.com/risingwavelabs/risingwave/pull/18213)
-- `a5cbeb716ed8dc58287346e02b31252d784ded37` [fix(source): parquet file source use number of rows to determine the end of the file reading (#18149)](https://github.com/risingwavelabs/risingwave/pull/18149)
-- `ca99aee25cb4df928dc525e727d170bf1366e12b` [chore: remove unnecessary debug info (#18309)](https://github.com/risingwavelabs/risingwave/pull/18309)
-- `fac2904d4bac6a3c2ad8bd126ace04ec02ebda1b` [refactor(meta): build actors in inject barrier (#18270)](https://github.com/risingwavelabs/risingwave/pull/18270)
-- `a137e302a955eb89def9efd2fedbff28bd3798b3` [feat: deprecate current epoch in pinned snapshot (#18230)](https://github.com/risingwavelabs/risingwave/pull/18230)
-- `242dbff19fa9322178db0830e4a125507ecc98e2` [feat(sink): use official default message_timeout_ms (#18304)](https://github.com/risingwavelabs/risingwave/pull/18304)
-- `2529c56382ea94ae2ea6a2da21036546f389b29a` [feat(sink): add es retry_on_conflict and max_task_num (#17867)](https://github.com/risingwavelabs/risingwave/pull/17867)
-
-## nightly-20240828
-- `befb04f1e433ecbb564a059f34b4299ba4952bed` [fix: disable sink decouple for trivial sink (#18302)](https://github.com/risingwavelabs/risingwave/pull/18302)
