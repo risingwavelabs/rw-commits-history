@@ -273,6 +273,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71` [test(cdc): add test for postgres TOAST (#22582)](https://github.com/risingwavelabs/risingwave/pull/22582)
+- `2c8d1f6d1d1d51b8d3c3ec48ecf8c844140e4a91` [fix: include internal tables of the creating background job in snapshot (#22604)](https://github.com/risingwavelabs/risingwave/pull/22604)
+- `51bcef0563a841993d17ed8affaac4c3ec4ad8e2` [feat(iceberg): support manual compaction of iceberg engine table (#22571)](https://github.com/risingwavelabs/risingwave/pull/22571)
+- `be92d020c837f0b71ed79ffb8c7f8fe833e1c08e` [feat(sql_bench): add a sql benchmark framework using `hyperfine`, `risedev` and `python` (#21941)](https://github.com/risingwavelabs/risingwave/pull/21941)
+- `89ead7b6c630b42c92eecc2c88af93004ff7aa69` [chore(deps): Bump indexmap from 2.9.0 to 2.10.0 (#22566)](https://github.com/risingwavelabs/risingwave/pull/22566)
 
 ## nightly-20250714
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e5afc4e70aafa9da919ee22f09cfdc370552e8a0...aab3f23538471a0dcab77fcbb8b00ebc60f09f66)
