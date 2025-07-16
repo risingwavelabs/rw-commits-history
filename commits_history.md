@@ -284,8 +284,6 @@
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
 - `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
 - `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
-- `20240808` `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49`
-- `20240807` `e68a7bbe877e3de31c7abeeb28d081ad84b61f62`
 </details>
 
 # Commit history
@@ -294,6 +292,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `20a9de07eb2761fed58904acb4100d3e659c781d` [refactor(compute): Combined the same logic of Merge and Union (#22595)](https://github.com/risingwavelabs/risingwave/pull/22595)
+- `1c3ff630509bcf7d5a4a813f3fc86dcfdc6fdae9` [feat: add a data exist metric to materialized view cache (#22012)](https://github.com/risingwavelabs/risingwave/pull/22012)
+- `d85cc1ea8b79e86a24dbdde28d23657a33a7b1bf` [fix: increase retry times to wait sink complete in sink.slt (#22628)](https://github.com/risingwavelabs/risingwave/pull/22628)
+- `e7b652a0918fa816a9d7028aa040139496d89122` [fix(pgwire): CancelRequest shall not be responded (#22626)](https://github.com/risingwavelabs/risingwave/pull/22626)
+- `d7adfa377d1b8c061eaab6754366bb07f143c993` [chore(ci): increase release amd64 from 60 to 90 (#22624)](https://github.com/risingwavelabs/risingwave/pull/22624)
+- `93dd1f28ff5fced28d5d46fddce0c029f24f1e49` [chore(deps): Bump buildkite/trigger-pipeline-action from 2.0.0 to 2.3.0 (#21833)](https://github.com/risingwavelabs/risingwave/pull/21833)
+- `57bcf2f25fd5c21dca469438447531db5badd02a` [chore(deps): Bump protobuf from 5.28.0 to 5.29.5 in /e2e_test (#22251)](https://github.com/risingwavelabs/risingwave/pull/22251)
 
 ## nightly-20250715
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aab3f23538471a0dcab77fcbb8b00ebc60f09f66...89fd5d01d56acf62ea80144c3fdbdaa7910e9a71)
@@ -3237,27 +3242,4 @@
 - `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
 
 ## nightly-20240810
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f5701ab5f7cfe084190eac4fabfe1d381d0e49...21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd)
 - `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd` [refactor(storage): use strong type for HummockVersionId (#17971)](https://github.com/risingwavelabs/risingwave/pull/17971)
-- `13af20c8c8e92db775fb9fef62d4e798707f4bc0` [fix(storage): suppress some hummock false panic and warn log (#17914)](https://github.com/risingwavelabs/risingwave/pull/17914)
-- `efdbf3cfb234ed30171bd6444966528399a167d5` [feat(frontend): support extendend query for cursor (#17821)](https://github.com/risingwavelabs/risingwave/pull/17821)
-- `cc21a6abccc47cd9a7da2f13571ba3079195ab16` [refactor(meta): simplify InflightActorInfo and extract InflightGraphInfo (#17956)](https://github.com/risingwavelabs/risingwave/pull/17956)
-- `d00e2ebbeb0e814aaab1de687ea1c0dc7e4a2b0e` [feat(risedev): introduce sql server to risedev (#17951)](https://github.com/risingwavelabs/risingwave/pull/17951)
-- `fbe1a04808addd47aad33c61e3ea3e5fc9acdc6a` [test(mssql-cdc): enrich test cases (#17966)](https://github.com/risingwavelabs/risingwave/pull/17966)
-- `38927e8beaa0604172f64d40732ef8b3c2a1f814` [fix(iceberg): Load the latest table to avoid concurrent modification with the best effort (#17975)](https://github.com/risingwavelabs/risingwave/pull/17975)
-
-## nightly-20240808
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e68a7bbe877e3de31c7abeeb28d081ad84b61f62...f5f5701ab5f7cfe084190eac4fabfe1d381d0e49)
-- `f5f5701ab5f7cfe084190eac4fabfe1d381d0e49` [feat(stream): support row merge (a.k.a keyed merge) (#17930)](https://github.com/risingwavelabs/risingwave/pull/17930)
-- `fbaed06d4935564e9f34e4ffe472f55f0a26ec2d` [feat(stream): output chunks on every barrier for simple agg (#17945)](https://github.com/risingwavelabs/risingwave/pull/17945)
-- `0aed6823504129ff3ef91f4c68b5eaffc64ebc82` [fix(error): add sink_id in sinkerror (#17969)](https://github.com/risingwavelabs/risingwave/pull/17969)
-- `de32dab1e56e23e27d3b8d82a251065ac2260dcd` [fix(source): persist `rate_limit` to source catalog (#16472)](https://github.com/risingwavelabs/risingwave/pull/16472)
-- `a4d890ed6d446d289fbed00a3f49b8fc57f6b05b` [fix: early terminate when reach the end of inactive shard (#17957)](https://github.com/risingwavelabs/risingwave/pull/17957)
-- `006a8dbafcadfc693f8e52e6654573d823e27c55` [refactor(topn): audit and refactor `TopNCache` and fix a potential bug (#17947)](https://github.com/risingwavelabs/risingwave/pull/17947)
-- `c315942d9a841d869b59ed3b07be6369a54c5b69` [feat(stream): add two-phase stateless simple approx percentile (#17873)](https://github.com/risingwavelabs/risingwave/pull/17873)
-- `e2d18c1c03d30b34bf354c116acebeafb32a5569` [fix: fix incorrect notification info when sink into table fails (#17961)](https://github.com/risingwavelabs/risingwave/pull/17961)
-- `fb62114768e5f3306cf6bfc3d0157c39553f5fa3` [feat: support `CORRESPONDING` specification in set operations (#17891)](https://github.com/risingwavelabs/risingwave/pull/17891)
-- `ac99459311667373f28f84bf629bf507cf5cbe05` [fix(sink): Fix sink into table in the recovery of the new version of table graph. (#17960)](https://github.com/risingwavelabs/risingwave/pull/17960)
-
-## nightly-20240807
-- `e68a7bbe877e3de31c7abeeb28d081ad84b61f62` [fix: clear in progress creation tracker when recovery to avoid recovering failed foreground ddl in some corner cases (#17955)](https://github.com/risingwavelabs/risingwave/pull/17955)
