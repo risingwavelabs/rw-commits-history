@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250716` `20a9de07eb2761fed58904acb4100d3e659c781d`
 - `20250715` `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71`
 - `20250714` `aab3f23538471a0dcab77fcbb8b00ebc60f09f66`
 - `20250713` `e5afc4e70aafa9da919ee22f09cfdc370552e8a0`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250716
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/89fd5d01d56acf62ea80144c3fdbdaa7910e9a71...20a9de07eb2761fed58904acb4100d3e659c781d)
 - `20a9de07eb2761fed58904acb4100d3e659c781d` [refactor(compute): Combined the same logic of Merge and Union (#22595)](https://github.com/risingwavelabs/risingwave/pull/22595)
 - `1c3ff630509bcf7d5a4a813f3fc86dcfdc6fdae9` [feat: add a data exist metric to materialized view cache (#22012)](https://github.com/risingwavelabs/risingwave/pull/22012)
 - `d85cc1ea8b79e86a24dbdde28d23657a33a7b1bf` [fix: increase retry times to wait sink complete in sink.slt (#22628)](https://github.com/risingwavelabs/risingwave/pull/22628)
