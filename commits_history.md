@@ -293,6 +293,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d150dd6cf0420eb1a4a3d383c56f718043b44421` [fix(iceberg): fix iceberg plan files stuck (#22651)](https://github.com/risingwavelabs/risingwave/pull/22651)
+- `7baadd4464ffd5cc68a1127ef497a61d3745e2c5` [feat(expr): support parsing decimal in scientific notation (#22645)](https://github.com/risingwavelabs/risingwave/pull/22645)
+- `8a0678963d750edf33e4582094b939f933cae73e` [chore(deps): Bump uuid from 1.16.0 to 1.17.0 (#21983)](https://github.com/risingwavelabs/risingwave/pull/21983)
+- `02c6753730786138f55d27ff0c51654e7fb8d78e` [feat: Include internal tables in diagnose command output (#22638)](https://github.com/risingwavelabs/risingwave/pull/22638)
 
 ## nightly-20250716
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/89fd5d01d56acf62ea80144c3fdbdaa7910e9a71...20a9de07eb2761fed58904acb4100d3e659c781d)
