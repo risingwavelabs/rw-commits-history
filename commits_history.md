@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250717` `d150dd6cf0420eb1a4a3d383c56f718043b44421`
 - `20250716` `20a9de07eb2761fed58904acb4100d3e659c781d`
 - `20250715` `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71`
 - `20250714` `aab3f23538471a0dcab77fcbb8b00ebc60f09f66`
@@ -293,6 +294,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0af3e4c9057729e545de0b91db0bfc760d013eac` [fix: Support compaction filter for fast compactor (#22646)](https://github.com/risingwavelabs/risingwave/pull/22646)
+
+## nightly-20250717
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/20a9de07eb2761fed58904acb4100d3e659c781d...d150dd6cf0420eb1a4a3d383c56f718043b44421)
 - `d150dd6cf0420eb1a4a3d383c56f718043b44421` [fix(iceberg): fix iceberg plan files stuck (#22651)](https://github.com/risingwavelabs/risingwave/pull/22651)
 - `7baadd4464ffd5cc68a1127ef497a61d3745e2c5` [feat(expr): support parsing decimal in scientific notation (#22645)](https://github.com/risingwavelabs/risingwave/pull/22645)
 - `8a0678963d750edf33e4582094b939f933cae73e` [chore(deps): Bump uuid from 1.16.0 to 1.17.0 (#21983)](https://github.com/risingwavelabs/risingwave/pull/21983)
