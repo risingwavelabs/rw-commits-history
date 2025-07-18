@@ -284,8 +284,6 @@
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 - `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 - `20240812` `15432093b71066fd1097ebebf6b716033ac340dd`
-- `20240811` `a8b281147873b8ddc6ff633966a9381b1af26e85`
-- `20240810` `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd`
 </details>
 
 # Commit history
@@ -294,6 +292,18 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fbd11ce8254abbd53d395bc4661b8bbcc3338039` [feat(iceberg): support iceberg_sink_write_parquet_max_row_group_rows (#22663)](https://github.com/risingwavelabs/risingwave/pull/22663)
+- `89b6f978db53bb06249de2cab927de2ad258f729` [feat: Configure GitHub Actions setup for Copilot Agent environment (#22655)](https://github.com/risingwavelabs/risingwave/pull/22655)
+- `0fcf512dd7bfcb02e4fe2b55c3a635228ec2dc03` [refactor: Split config file into smaller modules (#22554)](https://github.com/risingwavelabs/risingwave/pull/22554)
+- `a5650a5ec9f567a622769289f4e5e2e07ac5a46e` [feat(meta): shared inflight actor info in meta and unify fragment mapping notification (#22600)](https://github.com/risingwavelabs/risingwave/pull/22600)
+- `497ab425674e69a2803070be6efb4747c262f0ee` [test(ci): enable kafka sasl test (#22588)](https://github.com/risingwavelabs/risingwave/pull/22588)
+- `e2d02cf2f6f6e5a7c42efb4bd492b07165439b55` [feat: expand WithOption generate Connection props (#22496)](https://github.com/risingwavelabs/risingwave/pull/22496)
+- `0c69b31cfc4e09487fe79b432b12ac1a4ba976f9` [feat(mqtt): fix MQTT data loss (#22074)](https://github.com/risingwavelabs/risingwave/pull/22074)
+- `e061703df7eb357e8b34a9b2e57fd0d0239c3eaa` [chore: increase unit test main-cron timeout (#22574)](https://github.com/risingwavelabs/risingwave/pull/22574)
+- `1159ee883011763a5118d49e9c43dda1d92643f7` [feat: parallelize apply_chunk in agg (#22631)](https://github.com/risingwavelabs/risingwave/pull/22631)
+- `fd1ada231d27963847622ad6a441ab0c322152ca` [feat(iceberg): manual compact iceberg sink (#22605)](https://github.com/risingwavelabs/risingwave/pull/22605)
+- `d3bd4e79807dcb6acb8d14b3822d22603b423808` [chore: disable hnsw test on madsim (#22547)](https://github.com/risingwavelabs/risingwave/pull/22547)
+- `9e06d9908de6701a3df6598f6f4500dd9aa02b20` [refactor(stream): reorg types and add docs for BarrierWorker and stuff (#22656)](https://github.com/risingwavelabs/risingwave/pull/22656)
 - `0af3e4c9057729e545de0b91db0bfc760d013eac` [fix: Support compaction filter for fast compactor (#22646)](https://github.com/risingwavelabs/risingwave/pull/22646)
 
 ## nightly-20250717
@@ -3240,19 +3250,4 @@
 - `58b3f414763a4550f8408c3761b2f34a26c5e476` [chore: test data shall not use non-existent option `kafka.servers` (#17996)](https://github.com/risingwavelabs/risingwave/pull/17996)
 
 ## nightly-20240812
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a8b281147873b8ddc6ff633966a9381b1af26e85...15432093b71066fd1097ebebf6b716033ac340dd)
 - `15432093b71066fd1097ebebf6b716033ac340dd` [fix(stream): let approx percentile output its results every epoch (#18002)](https://github.com/risingwavelabs/risingwave/pull/18002)
-- `b2b5a335a421667fd072add96617058aba52f361` [feat: add map type to scalar/array/expr (#17690)](https://github.com/risingwavelabs/risingwave/pull/17690)
-- `3707a1eef00106da08f878c66d3a3295aaf47a02` [feat(source): use the default_provider for AWS-related connectors (#17933)](https://github.com/risingwavelabs/risingwave/pull/17933)
-- `ef0272baaac5ae80bba63e008ab4fc92206f1556` [fix(docs): display of math equations in dev docs (#17998)](https://github.com/risingwavelabs/risingwave/pull/17998)
-- `de7e55bd23a40613b23b2a9a365f0cd92076ed00` [chore(ci): sync nexmark queries for flamegraph generation (#17993)](https://github.com/risingwavelabs/risingwave/pull/17993)
-- `fbb30ad2be06ca7d8d619b44d25a03ffdccd3568` [feat: support initializing license key from env var (#17906)](https://github.com/risingwavelabs/risingwave/pull/17906)
-- `5137f4801c695df5401b2699f269c48fa3fa3b01` [feat: redact license key when displaying to users (#17936)](https://github.com/risingwavelabs/risingwave/pull/17936)
-- `dcae99de76f41fc30aa851934315252fb4823076` [refactor: use a dummy `Debug` impl for `SystemParams` message (#17943)](https://github.com/risingwavelabs/risingwave/pull/17943)
-
-## nightly-20240811
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd...a8b281147873b8ddc6ff633966a9381b1af26e85)
-- `a8b281147873b8ddc6ff633966a9381b1af26e85` [fix(stream): let `Row Merge` executor handle extra row count column in input (#17978)](https://github.com/risingwavelabs/risingwave/pull/17978)
-
-## nightly-20240810
-- `21a46ab3fbb456ceba80ae620a5d9c5bd17ee2dd` [refactor(storage): use strong type for HummockVersionId (#17971)](https://github.com/risingwavelabs/risingwave/pull/17971)
