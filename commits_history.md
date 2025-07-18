@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250718` `fbd11ce8254abbd53d395bc4661b8bbcc3338039`
 - `20250717` `d150dd6cf0420eb1a4a3d383c56f718043b44421`
 - `20250716` `20a9de07eb2761fed58904acb4100d3e659c781d`
 - `20250715` `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250718
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d150dd6cf0420eb1a4a3d383c56f718043b44421...fbd11ce8254abbd53d395bc4661b8bbcc3338039)
 - `fbd11ce8254abbd53d395bc4661b8bbcc3338039` [feat(iceberg): support iceberg_sink_write_parquet_max_row_group_rows (#22663)](https://github.com/risingwavelabs/risingwave/pull/22663)
 - `89b6f978db53bb06249de2cab927de2ad258f729` [feat: Configure GitHub Actions setup for Copilot Agent environment (#22655)](https://github.com/risingwavelabs/risingwave/pull/22655)
 - `0fcf512dd7bfcb02e4fe2b55c3a635228ec2dc03` [refactor: Split config file into smaller modules (#22554)](https://github.com/risingwavelabs/risingwave/pull/22554)
