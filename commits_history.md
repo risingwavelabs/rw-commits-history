@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250719` `bd70249d049e60e0fc9a4a93408400ee9c277cda`
 - `20250718` `fbd11ce8254abbd53d395bc4661b8bbcc3338039`
 - `20250717` `d150dd6cf0420eb1a4a3d383c56f718043b44421`
 - `20250716` `20a9de07eb2761fed58904acb4100d3e659c781d`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250719
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fbd11ce8254abbd53d395bc4661b8bbcc3338039...bd70249d049e60e0fc9a4a93408400ee9c277cda)
 - `bd70249d049e60e0fc9a4a93408400ee9c277cda` [fix: improve error handling in reachability check for Kafka Sink (#22666)](https://github.com/risingwavelabs/risingwave/pull/22666)
 
 ## nightly-20250718
