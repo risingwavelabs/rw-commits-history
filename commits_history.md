@@ -293,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a47d04081f7dccaa1d323e24669601b85e02e62c` [fix(storage): bump faiss-rs to avoid unstable PATH to avoid frequent rebuild (#22678)](https://github.com/risingwavelabs/risingwave/pull/22678)
+- `16b5316a505a34dcb60a8f528e3f332d2faad990` [refactor(sink): no explicit specifying dummy sink coordinator (#22659)](https://github.com/risingwavelabs/risingwave/pull/22659)
+- `de3298a957eef3e0d219ddd2d2c5bf37fe171983` [refactor(frontend): reduce Clone in Binder (#22601)](https://github.com/risingwavelabs/risingwave/pull/22601)
 
 ## nightly-20250720
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fbd11ce8254abbd53d395bc4661b8bbcc3338039...bd70249d049e60e0fc9a4a93408400ee9c277cda)
