@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250722` `86b56d35f947e549d31d1652218186481929abef`
 - `20250720` `bd70249d049e60e0fc9a4a93408400ee9c277cda`
 - `20250718` `fbd11ce8254abbd53d395bc4661b8bbcc3338039`
 - `20250717` `d150dd6cf0420eb1a4a3d383c56f718043b44421`
@@ -293,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250722
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bd70249d049e60e0fc9a4a93408400ee9c277cda...86b56d35f947e549d31d1652218186481929abef)
 - `86b56d35f947e549d31d1652218186481929abef` [chore(deps): Bump the all group across 1 directory with 21 updates (#22684)](https://github.com/risingwavelabs/risingwave/pull/22684)
 - `1232729b71f6def553c26877d0f9f85b00d3cecb` [feat(sink): trigger sink schema change on upstream table add columns (#22660)](https://github.com/risingwavelabs/risingwave/pull/22660)
 - `d7e50cc25da47669731c8ad9e67f73ba1e459da1` [feat: minor improve risedev d in cursorrule (#22689)](https://github.com/risingwavelabs/risingwave/pull/22689)
