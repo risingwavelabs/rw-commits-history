@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250723` `32cc14a5ed75973eb7e79a992d1751ce7b593420`
 - `20250722` `86b56d35f947e549d31d1652218186481929abef`
 - `20250720` `bd70249d049e60e0fc9a4a93408400ee9c277cda`
 - `20250718` `fbd11ce8254abbd53d395bc4661b8bbcc3338039`
@@ -293,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250723
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86b56d35f947e549d31d1652218186481929abef...32cc14a5ed75973eb7e79a992d1751ce7b593420)
 - `32cc14a5ed75973eb7e79a992d1751ce7b593420` [ci: Fix e2e-deltalake-sink-rust-tests by enabling sink-deltalake feature in ci-dev builds (#22639)](https://github.com/risingwavelabs/risingwave/pull/22639)
 - `e217c8a7de2be01a6a70fd5d167b5ea4be805c18` [ci: fix tool install in copilot-setup-steps (#22707)](https://github.com/risingwavelabs/risingwave/pull/22707)
 - `126ca209634355f7609badd10cfa41225edd7cae` [ci: fix copilot-setup-steps (#22705)](https://github.com/risingwavelabs/risingwave/pull/22705)
