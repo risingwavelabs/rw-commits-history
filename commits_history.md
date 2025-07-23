@@ -285,7 +285,6 @@
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
 - `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
-- `20240813` `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847`
 </details>
 
 # Commit history
@@ -294,6 +293,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `32cc14a5ed75973eb7e79a992d1751ce7b593420` [ci: Fix e2e-deltalake-sink-rust-tests by enabling sink-deltalake feature in ci-dev builds (#22639)](https://github.com/risingwavelabs/risingwave/pull/22639)
+- `e217c8a7de2be01a6a70fd5d167b5ea4be805c18` [ci: fix tool install in copilot-setup-steps (#22707)](https://github.com/risingwavelabs/risingwave/pull/22707)
+- `126ca209634355f7609badd10cfa41225edd7cae` [ci: fix copilot-setup-steps (#22705)](https://github.com/risingwavelabs/risingwave/pull/22705)
+- `123b9a9317c6ceb27fcfb79a50fa17cb154d5675` [feat: introduce sql_url_params config for metastore (#22636)](https://github.com/risingwavelabs/risingwave/pull/22636)
+- `e77f6398f3e5653cd9164961175f085560de9a88` [chore: increase build other components timeout (#22694)](https://github.com/risingwavelabs/risingwave/pull/22694)
 
 ## nightly-20250722
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bd70249d049e60e0fc9a4a93408400ee9c277cda...86b56d35f947e549d31d1652218186481929abef)
@@ -3241,23 +3245,4 @@
 - `ebc0e47102eeab6533991a06277b3fe4b9a46a3f` [feat(sink): add check license for snowflake, dynamodb opensearch sink (#17912)](https://github.com/risingwavelabs/risingwave/pull/17912)
 
 ## nightly-20240814
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c6ed9bb6deb333452e311c3e8ba028ae1ab0f847...f09f195499381ee54904bfdcdc879d4903a7366c)
 - `f09f195499381ee54904bfdcdc879d4903a7366c` [feat(frontend): support two phase vnode based simple agg with approx_percentile (#18007)](https://github.com/risingwavelabs/risingwave/pull/18007)
-- `3cae1c3cec333fad4d4ebd439375d7e08b384442` [perf(memory): raise memory eviction threshold (#17265)](https://github.com/risingwavelabs/risingwave/pull/17265)
-- `b9f734aa6c1c23245a6ad5aefa7d17725e6b2b70` [doc(readme): updat architecture image (#18042)](https://github.com/risingwavelabs/risingwave/pull/18042)
-- `be6b3a7caa61ebc16e9fdd234c1e716c18d57f60` [fix: not `bail!` on kinesis's state if `scan.startup.mode` set to `timestamp`  (#18038)](https://github.com/risingwavelabs/risingwave/pull/18038)
-- `e96c39d2760bdc84c17059f58faec90be1fed1a7` [chore: bump `tonic` to v0.12 (#17889)](https://github.com/risingwavelabs/risingwave/pull/17889)
-- `3043efd9d1020930da2682cc73bb13eaaf49353c` [feat: support current_catalog sys function (#18037)](https://github.com/risingwavelabs/risingwave/pull/18037)
-- `bd664bbb065977038057d120dd453a0136d32495` [refactor(parser): introduce `ast::FunctionArgList` to contain all info in `()` of function call (#18029)](https://github.com/risingwavelabs/risingwave/pull/18029)
-- `e1de1857a6b96c1070d1273cfcebd8eef52a62c3` [feat: support `map_access` (#17986)](https://github.com/risingwavelabs/risingwave/pull/17986)
-- `8a1ffc62f391ad9706183e86630fa4f4df49fdc8` [fix(meta): fix query rename visitor for complex func calls (#18023)](https://github.com/risingwavelabs/risingwave/pull/18023)
-- `ca4c98ca88135c6b21ebffe15b408f9a1c37b79d` [feat(source): support ingesting Avro map type to RisingWave map type (#17980)](https://github.com/risingwavelabs/risingwave/pull/17980)
-- `69422aa108b3687c544af7f116441fa34d89880b` [fix(mssql-cdc): support case sensitve db, schema, table name (#18032)](https://github.com/risingwavelabs/risingwave/pull/18032)
-- `3a856bbd84740d8a15d27b2bad5815d1dfbab785` [feat(cdc): rate limit for cdc backfill (#17989)](https://github.com/risingwavelabs/risingwave/pull/17989)
-- `4b63d9f61c4f8e1ab3a9a09d4679acf02ec60eff` [fix(catalog): add mv indexes to pg_indexes (#17981)](https://github.com/risingwavelabs/risingwave/pull/17981)
-- `dec5023b9a69a9a6d964d12d289bb82aabc4c646` [refactor(storage): hide usage on global max committed epoch (#17973)](https://github.com/risingwavelabs/risingwave/pull/17973)
-- `e0e04df9480d974e793447ccc8c3335e5e1da813` [feat: upgrade tokio version to 1.38.0 (#17536)](https://github.com/risingwavelabs/risingwave/pull/17536)
-- `44d25a5c407e84ccdf48499000d14c369f760fa3` [fix(connector): fix batch file source when there are no files (#18018)](https://github.com/risingwavelabs/risingwave/pull/18018)
-
-## nightly-20240813
-- `c6ed9bb6deb333452e311c3e8ba028ae1ab0f847` [feat(sink): allow upsert protobuf with text key (#18024)](https://github.com/risingwavelabs/risingwave/pull/18024)
