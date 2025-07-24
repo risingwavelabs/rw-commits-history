@@ -285,7 +285,6 @@
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
-- `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 </details>
 
 # Commit history
@@ -294,6 +293,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ab9e9eb784d046f07d1b8154279e7ffe30a3182f` [chore(deps): Bump sysinfo from 0.35.0 to 0.35.2 (#22674)](https://github.com/risingwavelabs/risingwave/pull/22674)
+- `8185f0748c869393938f649b904a25ec05077fcf` [feat: Add CASCADE support for DROP CONNECTION (#22557)](https://github.com/risingwavelabs/risingwave/pull/22557)
+- `6de5c8244028d5eb313dd703ff581f3ff5144b0b` [chore: improve error msg for sink (#22709)](https://github.com/risingwavelabs/risingwave/pull/22709)
+- `e9ce124105b7d4b8ba6e93a458d1d641db0e9044` [feat(compute): Implement UnionUpstreamSink operator (#22614)](https://github.com/risingwavelabs/risingwave/pull/22614)
+- `01623d19f81029ed348522834ce37913ec6da7b7` [fix(proto): Deprecate unused MergeNode fields (#22716)](https://github.com/risingwavelabs/risingwave/pull/22716)
+- `7dc29df5bf71efc13d5bff026c3197e45cdaf968` [chore(deps): Bump form-data from 4.0.0 to 4.0.4 in /dashboard (#22685)](https://github.com/risingwavelabs/risingwave/pull/22685)
+- `3c9102acb71d0d215eb347e8ee8d580e6305100f` [fix(meta): notify fragment mapping changes in snapshot backfill (#22683)](https://github.com/risingwavelabs/risingwave/pull/22683)
 
 ## nightly-20250723
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86b56d35f947e549d31d1652218186481929abef...32cc14a5ed75973eb7e79a992d1751ce7b593420)
@@ -3241,12 +3247,4 @@
 - `cfea9f3ee6c7669bd0ed06ad4c5d3a8cf0d147c5` [feat: support partial checkpoint based backfill (a.k.a snapshot backfill) (#17735)](https://github.com/risingwavelabs/risingwave/pull/17735)
 
 ## nightly-20240815
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f09f195499381ee54904bfdcdc879d4903a7366c...cbeda4d0d61707f6637ea15f5e929b8169bbe9d9)
 - `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
-- `f511bcfe10cb21f6a1365445710ecdc3c8a34c7a` [feat(storage): support file cache recover mode (#18036)](https://github.com/risingwavelabs/risingwave/pull/18036)
-- `8fbb8a5128c5e5c2df3bb515a5c35b5ab6fa6384` [feat(parser): parse `IGNORE NULLS` in (window) function calls (#18028)](https://github.com/risingwavelabs/risingwave/pull/18028)
-- `a1872f3b78a40b628cba2a81010e6d40628196e0` [fix: show progress for background ddls that are in initial status (#18043)](https://github.com/risingwavelabs/risingwave/pull/18043)
-- `ebc0e47102eeab6533991a06277b3fe4b9a46a3f` [feat(sink): add check license for snowflake, dynamodb opensearch sink (#17912)](https://github.com/risingwavelabs/risingwave/pull/17912)
-
-## nightly-20240814
-- `f09f195499381ee54904bfdcdc879d4903a7366c` [feat(frontend): support two phase vnode based simple agg with approx_percentile (#18007)](https://github.com/risingwavelabs/risingwave/pull/18007)
