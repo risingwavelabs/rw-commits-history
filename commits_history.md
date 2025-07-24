@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250724` `ab9e9eb784d046f07d1b8154279e7ffe30a3182f`
 - `20250723` `32cc14a5ed75973eb7e79a992d1751ce7b593420`
 - `20250722` `86b56d35f947e549d31d1652218186481929abef`
 - `20250720` `bd70249d049e60e0fc9a4a93408400ee9c277cda`
@@ -293,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250724
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32cc14a5ed75973eb7e79a992d1751ce7b593420...ab9e9eb784d046f07d1b8154279e7ffe30a3182f)
 - `ab9e9eb784d046f07d1b8154279e7ffe30a3182f` [chore(deps): Bump sysinfo from 0.35.0 to 0.35.2 (#22674)](https://github.com/risingwavelabs/risingwave/pull/22674)
 - `8185f0748c869393938f649b904a25ec05077fcf` [feat: Add CASCADE support for DROP CONNECTION (#22557)](https://github.com/risingwavelabs/risingwave/pull/22557)
 - `6de5c8244028d5eb313dd703ff581f3ff5144b0b` [chore: improve error msg for sink (#22709)](https://github.com/risingwavelabs/risingwave/pull/22709)
