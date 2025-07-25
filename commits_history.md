@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `797c5a9c43fd9780dd8bfcb149f3d6e14629b432` [chore(deps): Bump deltalake from 0.26.1 to 0.26.2 (#22597)](https://github.com/risingwavelabs/risingwave/pull/22597)
+- `d858f3c3a17a116c25c934e804c20273cee4a055` [fix(frontend): Fix alter table column project node under sink-into-table (#22721)](https://github.com/risingwavelabs/risingwave/pull/22721)
+- `2e25495916e7d361c30a41752793db99e2be62df` [fix: limit background streaming jobs using max_concurrent_creating_streaming_jobs (#22648)](https://github.com/risingwavelabs/risingwave/pull/22648)
 
 ## nightly-20250724
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32cc14a5ed75973eb7e79a992d1751ce7b593420...ab9e9eb784d046f07d1b8154279e7ffe30a3182f)
