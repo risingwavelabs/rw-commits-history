@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250726` `ffb2ce460aaf643746ffea4390961c79fe0b311c`
 - `20250725` `797c5a9c43fd9780dd8bfcb149f3d6e14629b432`
 - `20250724` `ab9e9eb784d046f07d1b8154279e7ffe30a3182f`
 - `20250723` `32cc14a5ed75973eb7e79a992d1751ce7b593420`
@@ -295,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250726
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/797c5a9c43fd9780dd8bfcb149f3d6e14629b432...ffb2ce460aaf643746ffea4390961c79fe0b311c)
 - `ffb2ce460aaf643746ffea4390961c79fe0b311c` [feat: iceberg COW write-mode framework (#22713)](https://github.com/risingwavelabs/risingwave/pull/22713)
 
 ## nightly-20250725
