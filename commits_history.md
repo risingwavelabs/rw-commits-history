@@ -295,6 +295,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0231521759301e617f7f7638fa4df36df673f1c5` [feat(license): add `rw_features` system table & `rw_test_feature` function (#22526)](https://github.com/risingwavelabs/risingwave/pull/22526)
+- `b190d408a83e2f5ecab06c8a5544b45d080839d8` [refactor(frontend): restrict convention on optimizer rules (#22732)](https://github.com/risingwavelabs/risingwave/pull/22732)
+- `c30d32d8ea81d10b65ab6ee03caf71d7657619d7` [feat(meta): check if derived vnode count matches existing state tables during job replacement (#22495)](https://github.com/risingwavelabs/risingwave/pull/22495)
+- `1d0947aca8bc0e08c399af4ac544f4ea5c793049` [feat(frontend): add refreshable property & refresh command (#22619)](https://github.com/risingwavelabs/risingwave/pull/22619)
+- `9281601808d04f8a04043480a055543752e107ce` [refactor(frontend): separate PlanVisitor of different conventions (#22724)](https://github.com/risingwavelabs/risingwave/pull/22724)
+- `99a1c26dd6625177cfbb20d1e854a40451a53000` [feat(expr): more `vector` distance functions (#22647)](https://github.com/risingwavelabs/risingwave/pull/22647)
+- `7e3885a7c1bc20996344f88eba49c1c65a86c81b` [refactor(frontend): unify handling logic of LogicalShare and StreamShare (#22712)](https://github.com/risingwavelabs/risingwave/pull/22712)
 
 ## nightly-20250727
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/797c5a9c43fd9780dd8bfcb149f3d6e14629b432...ffb2ce460aaf643746ffea4390961c79fe0b311c)
