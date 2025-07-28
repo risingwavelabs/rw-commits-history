@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250728` `0231521759301e617f7f7638fa4df36df673f1c5`
 - `20250727` `ffb2ce460aaf643746ffea4390961c79fe0b311c`
 - `20250725` `797c5a9c43fd9780dd8bfcb149f3d6e14629b432`
 - `20250724` `ab9e9eb784d046f07d1b8154279e7ffe30a3182f`
@@ -286,7 +287,6 @@
 - `20240820` `e6e1f485cc0f778d4f67e33a362d67359e4fa736`
 - `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
-- `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 </details>
 
 # Commit history
@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250728
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffb2ce460aaf643746ffea4390961c79fe0b311c...0231521759301e617f7f7638fa4df36df673f1c5)
 - `0231521759301e617f7f7638fa4df36df673f1c5` [feat(license): add `rw_features` system table & `rw_test_feature` function (#22526)](https://github.com/risingwavelabs/risingwave/pull/22526)
 - `b190d408a83e2f5ecab06c8a5544b45d080839d8` [refactor(frontend): restrict convention on optimizer rules (#22732)](https://github.com/risingwavelabs/risingwave/pull/22732)
 - `c30d32d8ea81d10b65ab6ee03caf71d7657619d7` [feat(meta): check if derived vnode count matches existing state tables during job replacement (#22495)](https://github.com/risingwavelabs/risingwave/pull/22495)
@@ -3254,11 +3257,4 @@
 - `e36a630dfe0ee60ac9b4293c76f87fc2f035a59b` [chore: fix RustRover macro expansion (#18077)](https://github.com/risingwavelabs/risingwave/pull/18077)
 
 ## nightly-20240818
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f5f09a6c15b1291623a1fccc9638035cf19002c0...7cb75e565470570fd191fac062e91864d4582c98)
 - `7cb75e565470570fd191fac062e91864d4582c98` [feat: support constructor `MAP {..}` and index operator `m[k]` for map (#18066)](https://github.com/risingwavelabs/risingwave/pull/18066)
-- `d11d3ea1762d300cbb569caa79e40e4dcfb3f2f2` [chore: update Cargo package version to 2.1.0-alpha (#18075)](https://github.com/risingwavelabs/risingwave/pull/18075)
-- `83b3647ece55ad04d3b4a565c524f8f415d9a71d` [fix(stream): fix functional dependencies for row merge (#18072)](https://github.com/risingwavelabs/risingwave/pull/18072)
-- `31e52d4f66745280097e981eb154042cab46296b` [ci: add cherry-pick 2.0 (#18074)](https://github.com/risingwavelabs/risingwave/pull/18074)
-
-## nightly-20240816
-- `f5f09a6c15b1291623a1fccc9638035cf19002c0` [feat: enable shuffle for snapshot backfill (#18063)](https://github.com/risingwavelabs/risingwave/pull/18063)
