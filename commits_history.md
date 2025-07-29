@@ -295,6 +295,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `75c40d356278eff6b3b5331d096c52ef87ad4d0d` [feat(iceberg): introduce small file compaction (#22527)](https://github.com/risingwavelabs/risingwave/pull/22527)
+- `272d305574b902dd945f721101750887e7bd519c` [fix(binder): correctly bind relation from another database with non-default schema name (#22735)](https://github.com/risingwavelabs/risingwave/pull/22735)
 
 ## nightly-20250728
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffb2ce460aaf643746ffea4390961c79fe0b311c...0231521759301e617f7f7638fa4df36df673f1c5)
