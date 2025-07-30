@@ -286,7 +286,6 @@
 - `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
 - `20240821` `dd6515625d980443ae1a71cf6332438cdbd49e86`
 - `20240820` `e6e1f485cc0f778d4f67e33a362d67359e4fa736`
-- `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
 </details>
 
 # Commit history
@@ -295,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2` [feat(expr): `vector || vector` concatenation (#22745)](https://github.com/risingwavelabs/risingwave/pull/22745)
+- `c9462750b18efe1f877774ce7cdc73cc4617f37f` [feat(expr): support vector `+`/`-`/`*` vector (#22736)](https://github.com/risingwavelabs/risingwave/pull/22736)
+- `4eb413b2c63a925924e058e838878c92fafcf6fd` [fix(mssql-cdc): support binary as primary key data type (#22192)](https://github.com/risingwavelabs/risingwave/pull/22192)
 
 ## nightly-20250729
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0231521759301e617f7f7638fa4df36df673f1c5...75c40d356278eff6b3b5331d096c52ef87ad4d0d)
@@ -3232,17 +3234,4 @@
 - `281a6960bc99b7ab2b9000954e1eec2a2673a62a` [feat(ci): add `fast-docker-build-arm` workflow (#18124)](https://github.com/risingwavelabs/risingwave/pull/18124)
 
 ## nightly-20240820
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/11f0acfe548ff0f317c979e51570041058955b9e...e6e1f485cc0f778d4f67e33a362d67359e4fa736)
 - `e6e1f485cc0f778d4f67e33a362d67359e4fa736` [refactor(grafana): provide finer grain filter for object store op (#18004)](https://github.com/risingwavelabs/risingwave/pull/18004)
-- `eb1cae5601e5283e6bf4c2db4aca3a8dd2812fe7` [fix: overwrite splite assignment for config change (#18128)](https://github.com/risingwavelabs/risingwave/pull/18128)
-- `d469cc353f1a257c7e8db630157f7efa0b56f893` [fix(meta): fix cpu core limit check query (#18122)](https://github.com/risingwavelabs/risingwave/pull/18122)
-- `26a57216db4c41a2da7acef02c1d9ceb7a87b5af` [feat(cdc): auto schema change for mysql cdc (#17876)](https://github.com/risingwavelabs/risingwave/pull/17876)
-- `190875c83c51ceeacee688512e2d59474cd4989a` [fix: remove overly strict assertion during stream pause/resume (#18131)](https://github.com/risingwavelabs/risingwave/pull/18131)
-- `aba3232cae52426211c261d43b456e778185a793` [fix(sink): fix sink in to Cassandra failed when using column name containing upper case letter  (#17493)](https://github.com/risingwavelabs/risingwave/pull/17493)
-- `e383ad60cb3a07c0008b53921816271fd64979a1` [fix(connector): file source do not panic when credential is wrong (#17935)](https://github.com/risingwavelabs/risingwave/pull/17935)
-- `747245f12815715f6df6a3b97eafc1267578292d` [fix: udf error ui (#18118)](https://github.com/risingwavelabs/risingwave/pull/18118)
-- `0595aa1d901b2f99811ba1e7e40161b395ddd6a4` [feat(connector): add support for path-style access in Iceberg sink connector (#17747)](https://github.com/risingwavelabs/risingwave/pull/17747)
-- `d5e832cbe0339f5deedab3baa18b8f0df8f91772` [feat(test): switch meta to sql backend in simluate test (#15612)](https://github.com/risingwavelabs/risingwave/pull/15612)
-
-## nightly-20240819
-- `11f0acfe548ff0f317c979e51570041058955b9e` [feat(iceberg): bump iceberg-rust to v0.3.0 (#18088)](https://github.com/risingwavelabs/risingwave/pull/18088)
