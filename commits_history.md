@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250730` `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2`
 - `20250729` `75c40d356278eff6b3b5331d096c52ef87ad4d0d`
 - `20250728` `0231521759301e617f7f7638fa4df36df673f1c5`
 - `20250727` `ffb2ce460aaf643746ffea4390961c79fe0b311c`
@@ -294,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8f7c9008b1e8a2a1e728efb57011d53994fb80c2` [feat(expr): vector cast to/from arrays (#22746)](https://github.com/risingwavelabs/risingwave/pull/22746)
+
+## nightly-20250730
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75c40d356278eff6b3b5331d096c52ef87ad4d0d...0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2)
 - `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2` [feat(expr): `vector || vector` concatenation (#22745)](https://github.com/risingwavelabs/risingwave/pull/22745)
 - `c9462750b18efe1f877774ce7cdc73cc4617f37f` [feat(expr): support vector `+`/`-`/`*` vector (#22736)](https://github.com/risingwavelabs/risingwave/pull/22736)
 - `4eb413b2c63a925924e058e838878c92fafcf6fd` [fix(mssql-cdc): support binary as primary key data type (#22192)](https://github.com/risingwavelabs/risingwave/pull/22192)
