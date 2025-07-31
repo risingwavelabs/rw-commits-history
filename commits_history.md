@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `70c821424a0822fb529c264756a3329e24e8c979` [refactor(frontend): static optimizer plan convention (#22700)](https://github.com/risingwavelabs/risingwave/pull/22700)
+- `e386e875eb4d3e2c49b614228017f81ad6f53383` [fix(cdc): handle watermark for parallelized cdc backfill (#22755)](https://github.com/risingwavelabs/risingwave/pull/22755)
+- `3a4f5ee522786cab69a59d0099f68be8b1c41c6b` [feat(cdc): add support for parallelized cdc backfill (#22536)](https://github.com/risingwavelabs/risingwave/pull/22536)
+- `64b50647e5511c6f22e0f7954f76324a8f17a9df` [fix(sink): avoid advance delete for force_append_only sink (#22747)](https://github.com/risingwavelabs/risingwave/pull/22747)
 - `8f7c9008b1e8a2a1e728efb57011d53994fb80c2` [feat(expr): vector cast to/from arrays (#22746)](https://github.com/risingwavelabs/risingwave/pull/22746)
 
 ## nightly-20250730
