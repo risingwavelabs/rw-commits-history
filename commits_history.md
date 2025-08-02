@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250801` `70c821424a0822fb529c264756a3329e24e8c979`
+- `20250802` `70c821424a0822fb529c264756a3329e24e8c979`
 - `20250730` `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2`
 - `20250729` `75c40d356278eff6b3b5331d096c52ef87ad4d0d`
 - `20250728` `0231521759301e617f7f7638fa4df36df673f1c5`
@@ -296,8 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e1365fd714a5f864caee466b98722f7be210dcbf` [feat(binder): support schema binding of functions (#22770)](https://github.com/risingwavelabs/risingwave/pull/22770)
 
-## nightly-20250801
+## nightly-20250802
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2...70c821424a0822fb529c264756a3329e24e8c979)
 - `70c821424a0822fb529c264756a3329e24e8c979` [refactor(frontend): static optimizer plan convention (#22700)](https://github.com/risingwavelabs/risingwave/pull/22700)
 - `e386e875eb4d3e2c49b614228017f81ad6f53383` [fix(cdc): handle watermark for parallelized cdc backfill (#22755)](https://github.com/risingwavelabs/risingwave/pull/22755)
