@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250804` `fbe59664db8af503b3c405c7e2745c562add2606`
 - `20250803` `e1365fd714a5f864caee466b98722f7be210dcbf`
 - `20250802` `70c821424a0822fb529c264756a3329e24e8c979`
 - `20250730` `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2`
@@ -297,6 +298,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fb928a353560eaeb6fcc26b936f53db4019dba42` [fix: check usage privilege for secret (#22784)](https://github.com/risingwavelabs/risingwave/pull/22784)
+- `027bf506a2aae40c6fd0d8387ac9edc7e66b81cb` [chore(deps): Bump indicatif from 0.17.6 to 0.17.11 (#22722)](https://github.com/risingwavelabs/risingwave/pull/22722)
+
+## nightly-20250804
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e1365fd714a5f864caee466b98722f7be210dcbf...fbe59664db8af503b3c405c7e2745c562add2606)
 - `fbe59664db8af503b3c405c7e2745c562add2606` [chore: update the readme (#22780)](https://github.com/risingwavelabs/risingwave/pull/22780)
 - `e95a79d704d00950c7efd12a5567a998cc57147d` [feat: batch posix fs connector (__for_testing_only_batch_posix_fs) (#22733)](https://github.com/risingwavelabs/risingwave/pull/22733)
 - `ddabf84bf343e04eab19d4c7b87075d2edcd75e5` [refactor(frontend): simplify optimizer generic table scan (#22776)](https://github.com/risingwavelabs/risingwave/pull/22776)
