@@ -297,6 +297,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fbe59664db8af503b3c405c7e2745c562add2606` [chore: update the readme (#22780)](https://github.com/risingwavelabs/risingwave/pull/22780)
+- `e95a79d704d00950c7efd12a5567a998cc57147d` [feat: batch posix fs connector (__for_testing_only_batch_posix_fs) (#22733)](https://github.com/risingwavelabs/risingwave/pull/22733)
+- `ddabf84bf343e04eab19d4c7b87075d2edcd75e5` [refactor(frontend): simplify optimizer generic table scan (#22776)](https://github.com/risingwavelabs/risingwave/pull/22776)
+- `d5011dd3818ee5bfa12ec5d002a953ec30fa90d5` [feat(optimizer): support pull up correlated project value rule (#22760)](https://github.com/risingwavelabs/risingwave/pull/22760)
+- `db7ef569310ef98fa72c48246424f184e1dc07ac` [feat(sqlsmith): integrate reducer into sqlsmith (#22609)](https://github.com/risingwavelabs/risingwave/pull/22609)
+- `a6136be785bdf93aae04f2f2c48690bfc7f41549` [feat: refreshable source, SourceExec part (#22620)](https://github.com/risingwavelabs/risingwave/pull/22620)
 
 ## nightly-20250803
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/70c821424a0822fb529c264756a3329e24e8c979...e1365fd714a5f864caee466b98722f7be210dcbf)
