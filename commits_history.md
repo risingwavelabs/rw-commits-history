@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250805` `a7c7e35a386aa7f2cc37fd6551417b3984a54a10`
 - `20250804` `fbe59664db8af503b3c405c7e2745c562add2606`
 - `20250803` `e1365fd714a5f864caee466b98722f7be210dcbf`
 - `20250802` `70c821424a0822fb529c264756a3329e24e8c979`
@@ -288,7 +289,6 @@
 - `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 - `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
 - `20240822` `9c4984d4ec2d17351a741cab8ac512b39dd2261a`
-- `20240821` `dd6515625d980443ae1a71cf6332438cdbd49e86`
 </details>
 
 # Commit history
@@ -297,6 +297,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250805
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fbe59664db8af503b3c405c7e2745c562add2606...a7c7e35a386aa7f2cc37fd6551417b3984a54a10)
 - `a7c7e35a386aa7f2cc37fd6551417b3984a54a10` [feat(binder): correctly bind arguments and `FROM` clause in SQL UDF by binding it as subquery (#22748)](https://github.com/risingwavelabs/risingwave/pull/22748)
 - `3355c6b69a98868a40ef2fa205206aba1c3f851d` [fix(sink): fix starrocks sink use_https (#22797)](https://github.com/risingwavelabs/risingwave/pull/22797)
 - `cb2fff74119f02f8e52a09c3a0b2674aa299c4f1` [feat(expr): `jsonb_to_array` (#22777)](https://github.com/risingwavelabs/risingwave/pull/22777)
@@ -3236,19 +3239,4 @@
 - `71732b1c4446d216f500267a9e1f2bf426a88519` [fix: fix kinesis early exit (#18183)](https://github.com/risingwavelabs/risingwave/pull/18183)
 
 ## nightly-20240822
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dd6515625d980443ae1a71cf6332438cdbd49e86...9c4984d4ec2d17351a741cab8ac512b39dd2261a)
 - `9c4984d4ec2d17351a741cab8ac512b39dd2261a` [refactor(iceberg): use load table v2 to extract iceberg columns (#18196)](https://github.com/risingwavelabs/risingwave/pull/18196)
-- `84b7b9444c794886b40970212c9181545249e948` [refactor: make telemetry event a separate crate (#18192)](https://github.com/risingwavelabs/risingwave/pull/18192)
-- `955c6bba246f116d77f334864836a40fb17b5c84` [feat(iceberg): add license for iceberg sink with glue (#18187)](https://github.com/risingwavelabs/risingwave/pull/18187)
-- `c101a3066a3d3f33b7c216ffdac9dc5d18cf4aba` [fix(sqlparser): fix subclause order when parsing function calls (#18130)](https://github.com/risingwavelabs/risingwave/pull/18130)
-- `4a5bc4cbf20c16600ba645fa0b849955d09019c2` [feat(cdc): add event log and fill table catalog for auto schema change (#18060)](https://github.com/risingwavelabs/risingwave/pull/18060)
-- `c37ca316b01526a75d145bc63f76e00c11cfff04` [feat(storage): adjust base compaction limitation (#17979)](https://github.com/risingwavelabs/risingwave/pull/17979)
-- `dcdf421f8489853adf6e3ede18d53804bbf1ef97` [chore: remove whitespace from `ci-profiling.md` (#18178)](https://github.com/risingwavelabs/risingwave/pull/18178)
-- `477115c6bdb4ae709e5066181b3b15f01b14c5a4` [doc: add docs on profiling on osx (#18175)](https://github.com/risingwavelabs/risingwave/pull/18175)
-- `fe56ce2d78e4faa700a7bf546dea82d73295006c` [fix(pgwire): allow configuring tcp keepalive idle time (#18136)](https://github.com/risingwavelabs/risingwave/pull/18136)
-- `7ebe0a2a5e7cd6e5b18de39bd165e94f3956190e` [feat(sink): introduce file sink in PARQUET format  (#17311)](https://github.com/risingwavelabs/risingwave/pull/17311)
-- `a4a4583019fa42942bdefaa5f9badc21e50983b1` [test(mssql-cdc): enrich tests and small refactor (#18081)](https://github.com/risingwavelabs/risingwave/pull/18081)
-- `da46c4dd2be4c69d77f8347fbe18b72d6653cfaf` [refactor: register actor barrier sender asynchronously (#18104)](https://github.com/risingwavelabs/risingwave/pull/18104)
-
-## nightly-20240821
-- `dd6515625d980443ae1a71cf6332438cdbd49e86` [fix: fix log store truncate offset incorrect check (#18165)](https://github.com/risingwavelabs/risingwave/pull/18165)
