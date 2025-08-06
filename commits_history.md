@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250806` `14cb777969c3b44b15e668c20b04f192dd2dcc9d`
 - `20250805` `a7c7e35a386aa7f2cc37fd6551417b3984a54a10`
 - `20250804` `fbe59664db8af503b3c405c7e2745c562add2606`
 - `20250803` `e1365fd714a5f864caee466b98722f7be210dcbf`
@@ -296,6 +297,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250806
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a7c7e35a386aa7f2cc37fd6551417b3984a54a10...14cb777969c3b44b15e668c20b04f192dd2dcc9d)
 - `14cb777969c3b44b15e668c20b04f192dd2dcc9d` [refactor(frontend): simplify sys table scan (#22810)](https://github.com/risingwavelabs/risingwave/pull/22810)
 - `270377446942c566184c721bfc31428798a2c0c1` [feat: support truncate table (#22759)](https://github.com/risingwavelabs/risingwave/pull/22759)
 - `b991dc65de7f5b88ac84e87950def8d433a97266` [refactor(binder): simplify error reporting for binding SQL UDF (#22778)](https://github.com/risingwavelabs/risingwave/pull/22778)
