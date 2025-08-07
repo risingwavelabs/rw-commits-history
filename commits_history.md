@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250807` `5f96ad5300b5881e1b74d6a9a751761b03471d3f`
 - `20250806` `14cb777969c3b44b15e668c20b04f192dd2dcc9d`
 - `20250805` `a7c7e35a386aa7f2cc37fd6551417b3984a54a10`
 - `20250804` `fbe59664db8af503b3c405c7e2745c562add2606`
@@ -295,6 +296,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4d629b76ff8f11a4d87b8483a1ce4d35f0dce9cb` [fix(optimizer): let it panic when calling `dist_column_indices` on `SomeShard` and `Broadcast` (#22817)](https://github.com/risingwavelabs/risingwave/pull/22817)
+
+## nightly-20250807
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/14cb777969c3b44b15e668c20b04f192dd2dcc9d...5f96ad5300b5881e1b74d6a9a751761b03471d3f)
 - `5f96ad5300b5881e1b74d6a9a751761b03471d3f` [feat(ddl): Make checkpoint frequency per-db config premium feature (#22822)](https://github.com/risingwavelabs/risingwave/pull/22822)
 - `27a8c0c49f5017327f6a9871e64bfb9c778b2512` [feat: add a session variable to separate sink (#22827)](https://github.com/risingwavelabs/risingwave/pull/22827)
 
