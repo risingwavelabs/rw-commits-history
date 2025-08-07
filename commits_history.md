@@ -287,8 +287,6 @@
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
-- `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
-- `20240823` `5cae57827c8ca56868b9cc0de0686d6f14e68510`
 </details>
 
 # Commit history
@@ -297,6 +295,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5f96ad5300b5881e1b74d6a9a751761b03471d3f` [feat(ddl): Make checkpoint frequency per-db config premium feature (#22822)](https://github.com/risingwavelabs/risingwave/pull/22822)
+- `27a8c0c49f5017327f6a9871e64bfb9c778b2512` [feat: add a session variable to separate sink (#22827)](https://github.com/risingwavelabs/risingwave/pull/22827)
 
 ## nightly-20250806
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a7c7e35a386aa7f2cc37fd6551417b3984a54a10...14cb777969c3b44b15e668c20b04f192dd2dcc9d)
@@ -3226,13 +3226,4 @@
 - `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
 
 ## nightly-20240825
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d33623accf6e932592f4a945af436c18ced812fd...5c1af4c21215f8887133233a5978402019c3d3fa)
 - `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
-
-## nightly-20240824
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5cae57827c8ca56868b9cc0de0686d6f14e68510...d33623accf6e932592f4a945af436c18ced812fd)
-- `d33623accf6e932592f4a945af436c18ced812fd` [chore(build): add curl & less into docker image (#18223)](https://github.com/risingwavelabs/risingwave/pull/18223)
-- `7009743799259775b80611043cb7d089c25f7743` [feat(dashboard): visualize average backpressure rather than spot backpressure (#18219)](https://github.com/risingwavelabs/risingwave/pull/18219)
-
-## nightly-20240823
-- `5cae57827c8ca56868b9cc0de0686d6f14e68510` [fix(udf): allow `aggregate:` prefixed sql udf (#18203)](https://github.com/risingwavelabs/risingwave/pull/18203)
