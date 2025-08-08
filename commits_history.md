@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250808` `fe7475344a5088f5161a4c0fcbc9dd291e29a758`
 - `20250807` `5f96ad5300b5881e1b74d6a9a751761b03471d3f`
 - `20250806` `14cb777969c3b44b15e668c20b04f192dd2dcc9d`
 - `20250805` `a7c7e35a386aa7f2cc37fd6551417b3984a54a10`
@@ -294,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250808
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5f96ad5300b5881e1b74d6a9a751761b03471d3f...fe7475344a5088f5161a4c0fcbc9dd291e29a758)
 - `fe7475344a5088f5161a4c0fcbc9dd291e29a758` [refactor(optimizer): refactor `append_only: bool` into enum `StreamKind` (#22798)](https://github.com/risingwavelabs/risingwave/pull/22798)
 - `0c2f42d43be734a965da13245ed5251507f8e964` [refactor(frontend): replace table desc with table catalog in optimizer (#22794)](https://github.com/risingwavelabs/risingwave/pull/22794)
 - `7787e44bc456073a37262b0f5fc57bb2e58dc1ef` [refactor(frontend): Unify license check error in frontend (#22830)](https://github.com/risingwavelabs/risingwave/pull/22830)
