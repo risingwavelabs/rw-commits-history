@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250809` `49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e`
 - `20250808` `fe7475344a5088f5161a4c0fcbc9dd291e29a758`
 - `20250807` `5f96ad5300b5881e1b74d6a9a751761b03471d3f`
 - `20250806` `14cb777969c3b44b15e668c20b04f192dd2dcc9d`
@@ -295,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250809
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fe7475344a5088f5161a4c0fcbc9dd291e29a758...49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e)
 - `49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e` [chore(deps): Bump protobuf from 5.29.3 to 5.29.5 in /integration_tests/feature-store/server/model (#22676)](https://github.com/risingwavelabs/risingwave/pull/22676)
 - `596a6ad3ab34e506b26ed546609b7757f695bf0f` [chore(deps): Bump async-openai from 0.28.3 to 0.29.0 (#22488)](https://github.com/risingwavelabs/risingwave/pull/22488)
 
