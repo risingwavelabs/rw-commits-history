@@ -295,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a3ffa6b68ea72e59b721138eea9f4c1af0149ec4` [chore: sink test coverage  (#21970)](https://github.com/risingwavelabs/risingwave/pull/21970)
+- `cb73906e7be2d641a7a701d634544b99230b6707` [fix(optimizer): enforce distribution of the input not to be `SomeShard` for `DynamicFilter` and `MaterializedExprs` (#22829)](https://github.com/risingwavelabs/risingwave/pull/22829)
+- `cf6e921cd4bc2cd25ca59f47332a8ef1ae7b24c1` [chore(deps): Bump pbjson-build from 0.7.0 to 0.8.0 (#22796)](https://github.com/risingwavelabs/risingwave/pull/22796)
+- `11bb23bf07a8cfa4a98b89783b9d7707783a8509` [chore(deps): Bump pbjson from 0.7.0 to 0.8.0 (#22729)](https://github.com/risingwavelabs/risingwave/pull/22729)
+- `aa901ef0cad904568fd876f4ec56878540bbf0d3` [feat: hashicorp_vault as secret backend (#22627)](https://github.com/risingwavelabs/risingwave/pull/22627)
 
 ## nightly-20250810
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fe7475344a5088f5161a4c0fcbc9dd291e29a758...49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e)
