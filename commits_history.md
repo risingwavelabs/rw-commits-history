@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250812` `251fda77e66be839e8738e7efbd3ddd595af6d2d`
 - `20250811` `a3ffa6b68ea72e59b721138eea9f4c1af0149ec4`
 - `20250810` `49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e`
 - `20250808` `fe7475344a5088f5161a4c0fcbc9dd291e29a758`
@@ -296,6 +297,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1ce8448bb51993640d238d74c45060be71b73fb2` [fix: float comparison in vector::distance tests (#22874)](https://github.com/risingwavelabs/risingwave/pull/22874)
+- `65eaf9c634ecbdb0490278b6e3176aaede37639e` [feat(streaming): implement vector index write executor (#22241)](https://github.com/risingwavelabs/risingwave/pull/22241)
+
+## nightly-20250812
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a3ffa6b68ea72e59b721138eea9f4c1af0149ec4...251fda77e66be839e8738e7efbd3ddd595af6d2d)
 - `251fda77e66be839e8738e7efbd3ddd595af6d2d` [fix: iceberg compaction fix sql format (#22871)](https://github.com/risingwavelabs/risingwave/pull/22871)
 - `7810a574ead9d0bafed4e78a19baa8e4d691965c` [chore: fix typo of column prunning of the share node  (#22869)](https://github.com/risingwavelabs/risingwave/pull/22869)
 - `ce1129a65b2fccc373579d2302689d7445adde77` [fix(dashboard): normalize backpressure values to 0-1 range (#22802)](https://github.com/risingwavelabs/risingwave/pull/22802)
