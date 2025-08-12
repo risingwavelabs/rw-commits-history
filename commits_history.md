@@ -296,6 +296,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `251fda77e66be839e8738e7efbd3ddd595af6d2d` [fix: iceberg compaction fix sql format (#22871)](https://github.com/risingwavelabs/risingwave/pull/22871)
+- `7810a574ead9d0bafed4e78a19baa8e4d691965c` [chore: fix typo of column prunning of the share node  (#22869)](https://github.com/risingwavelabs/risingwave/pull/22869)
+- `ce1129a65b2fccc373579d2302689d7445adde77` [fix(dashboard): normalize backpressure values to 0-1 range (#22802)](https://github.com/risingwavelabs/risingwave/pull/22802)
+- `79b51ef8476ddc93f14668edce87349814910a57` [fix(iceberg): fix iceberg s3 path style access (#22860)](https://github.com/risingwavelabs/risingwave/pull/22860)
+- `dbc12a11a0bb35c09a49fcad5063a43a570ba1eb` [chore(deps): Bump the all group in /java with 18 updates (#22861)](https://github.com/risingwavelabs/risingwave/pull/22861)
+- `cf4b9bd984360ebe6931dfa0f1527fa62ac1178f` [feat(dashboard): add test data for dashboard rendering (#22801)](https://github.com/risingwavelabs/risingwave/pull/22801)
 
 ## nightly-20250811
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e...a3ffa6b68ea72e59b721138eea9f4c1af0149ec4)
