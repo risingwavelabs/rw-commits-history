@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250813` `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683`
 - `20250812` `251fda77e66be839e8738e7efbd3ddd595af6d2d`
 - `20250811` `a3ffa6b68ea72e59b721138eea9f4c1af0149ec4`
 - `20250810` `49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e`
@@ -296,6 +297,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250813
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/251fda77e66be839e8738e7efbd3ddd595af6d2d...2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683)
 - `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683` [feat: support recoverable background sink into table with progress tracking (#22616)](https://github.com/risingwavelabs/risingwave/pull/22616)
 - `20f27e2e04e97d09ede6783eec9014f58fe1883a` [fix(streaming): avoid `unwrap` when reading state (#22878)](https://github.com/risingwavelabs/risingwave/pull/22878)
 - `502da35cbdf36cce8607027a3e70f22c515ca831` [refactor(cdc): allow alter cdc source cdc.source.wait.streaming.start.timeout (#22826)](https://github.com/risingwavelabs/risingwave/pull/22826)
