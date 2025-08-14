@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250814` `753282bc39fe568d32a488ed45142944edd823ec`
 - `20250813` `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683`
 - `20250812` `251fda77e66be839e8738e7efbd3ddd595af6d2d`
 - `20250811` `a3ffa6b68ea72e59b721138eea9f4c1af0149ec4`
@@ -302,7 +303,6 @@
 - `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 - `20240816` `f5f09a6c15b1291623a1fccc9638035cf19002c0`
 - `20240815` `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9`
-- `20240814` `f09f195499381ee54904bfdcdc879d4903a7366c`
 </details>
 
 # Commit history
@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250814
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683...753282bc39fe568d32a488ed45142944edd823ec)
 - `753282bc39fe568d32a488ed45142944edd823ec` [feat(connector): add debug logging for blackhole sink with `TRACE` level (#22893)](https://github.com/risingwavelabs/risingwave/pull/22893)
 - `fdd6276c690feb35d35905b9fa66cd53f81f3b59` [feat(expr): support non deterministic random()  (#22835)](https://github.com/risingwavelabs/risingwave/pull/22835)
 - `3abd4da19cb3b6dc89c0d568de4013bbb2ae4f9a` [refactor(optimizer): introduce `Upsert` stream kind & reject it in many cases (#22840)](https://github.com/risingwavelabs/risingwave/pull/22840)
@@ -3390,12 +3393,4 @@
 - `cfea9f3ee6c7669bd0ed06ad4c5d3a8cf0d147c5` [feat: support partial checkpoint based backfill (a.k.a snapshot backfill) (#17735)](https://github.com/risingwavelabs/risingwave/pull/17735)
 
 ## nightly-20240815
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f09f195499381ee54904bfdcdc879d4903a7366c...cbeda4d0d61707f6637ea15f5e929b8169bbe9d9)
 - `cbeda4d0d61707f6637ea15f5e929b8169bbe9d9` [feat(meta): support commit epoch on subset of tables (#17997)](https://github.com/risingwavelabs/risingwave/pull/17997)
-- `f511bcfe10cb21f6a1365445710ecdc3c8a34c7a` [feat(storage): support file cache recover mode (#18036)](https://github.com/risingwavelabs/risingwave/pull/18036)
-- `8fbb8a5128c5e5c2df3bb515a5c35b5ab6fa6384` [feat(parser): parse `IGNORE NULLS` in (window) function calls (#18028)](https://github.com/risingwavelabs/risingwave/pull/18028)
-- `a1872f3b78a40b628cba2a81010e6d40628196e0` [fix: show progress for background ddls that are in initial status (#18043)](https://github.com/risingwavelabs/risingwave/pull/18043)
-- `ebc0e47102eeab6533991a06277b3fe4b9a46a3f` [feat(sink): add check license for snowflake, dynamodb opensearch sink (#17912)](https://github.com/risingwavelabs/risingwave/pull/17912)
-
-## nightly-20240814
-- `f09f195499381ee54904bfdcdc879d4903a7366c` [feat(frontend): support two phase vnode based simple agg with approx_percentile (#18007)](https://github.com/risingwavelabs/risingwave/pull/18007)
