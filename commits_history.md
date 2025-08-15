@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `755c8202560a8d3cbe7e126a3a6884c3f0990498` [feat(cdc): allow user config `debezium.time.precision.mode` to handle extreme timestamp (#22774)](https://github.com/risingwavelabs/risingwave/pull/22774)
+- `8f5628c6c4adf7db610e732ce8d1fd4b3f6167a9` [feat(expr): vector l2 norm and normalize (#22751)](https://github.com/risingwavelabs/risingwave/pull/22751)
+- `1352522daea37ba2a425aa199bd166160576e47e` [feat(ci): add option to control push to dockerhub (#22889)](https://github.com/risingwavelabs/risingwave/pull/22889)
 
 ## nightly-20250814
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683...753282bc39fe568d32a488ed45142944edd823ec)
