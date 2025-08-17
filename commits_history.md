@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250816` `fa19d3cdd924b20d4003522a4518f5a2d0da3843`
+- `20250817` `fa19d3cdd924b20d4003522a4518f5a2d0da3843`
 - `20250815` `755c8202560a8d3cbe7e126a3a6884c3f0990498`
 - `20250814` `753282bc39fe568d32a488ed45142944edd823ec`
 - `20250813` `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683`
@@ -312,7 +312,7 @@
 
 ## Unreleased
 
-## nightly-20250816
+## nightly-20250817
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/755c8202560a8d3cbe7e126a3a6884c3f0990498...fa19d3cdd924b20d4003522a4518f5a2d0da3843)
 - `fa19d3cdd924b20d4003522a4518f5a2d0da3843` [fix(typo): slt file name typo (#22903)](https://github.com/risingwavelabs/risingwave/pull/22903)
 
