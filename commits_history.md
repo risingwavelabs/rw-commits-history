@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `59dccd3d7a31a40e87be04d4d242635761da7173` [feat(dashboard): add Prometheus-based streaming stats with backpressure metrics (#22838)](https://github.com/risingwavelabs/risingwave/pull/22838)
+- `52af6ee3e7a1bb6ebdc3e502b00bbf35a4366595` [refactor: shrink 'write_chunk' future (#22906)](https://github.com/risingwavelabs/risingwave/pull/22906)
+- `868eaff15c1d2ee4d9275662a043b396beafdc67` [feat(iceberg): integrate lakekeeper to risedev (#22905)](https://github.com/risingwavelabs/risingwave/pull/22905)
 
 ## nightly-20250817
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/755c8202560a8d3cbe7e126a3a6884c3f0990498...fa19d3cdd924b20d4003522a4518f5a2d0da3843)
