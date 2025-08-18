@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250818` `59dccd3d7a31a40e87be04d4d242635761da7173`
 - `20250817` `fa19d3cdd924b20d4003522a4518f5a2d0da3843`
 - `20250815` `755c8202560a8d3cbe7e126a3a6884c3f0990498`
 - `20250814` `753282bc39fe568d32a488ed45142944edd823ec`
@@ -302,7 +303,6 @@
 - `20240821` `dd6515625d980443ae1a71cf6332438cdbd49e86`
 - `20240820` `e6e1f485cc0f778d4f67e33a362d67359e4fa736`
 - `20240819` `11f0acfe548ff0f317c979e51570041058955b9e`
-- `20240818` `7cb75e565470570fd191fac062e91864d4582c98`
 </details>
 
 # Commit history
@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ac7629d15682b30441202cdcef2d221a44751653` [fix(ci): Skipping a unit test for barrier_interval (#22919)](https://github.com/risingwavelabs/risingwave/pull/22919)
+
+## nightly-20250818
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fa19d3cdd924b20d4003522a4518f5a2d0da3843...59dccd3d7a31a40e87be04d4d242635761da7173)
 - `59dccd3d7a31a40e87be04d4d242635761da7173` [feat(dashboard): add Prometheus-based streaming stats with backpressure metrics (#22838)](https://github.com/risingwavelabs/risingwave/pull/22838)
 - `52af6ee3e7a1bb6ebdc3e502b00bbf35a4366595` [refactor: shrink 'write_chunk' future (#22906)](https://github.com/risingwavelabs/risingwave/pull/22906)
 - `868eaff15c1d2ee4d9275662a043b396beafdc67` [feat(iceberg): integrate lakekeeper to risedev (#22905)](https://github.com/risingwavelabs/risingwave/pull/22905)
@@ -3374,21 +3378,4 @@
 - `d5e832cbe0339f5deedab3baa18b8f0df8f91772` [feat(test): switch meta to sql backend in simluate test (#15612)](https://github.com/risingwavelabs/risingwave/pull/15612)
 
 ## nightly-20240819
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7cb75e565470570fd191fac062e91864d4582c98...11f0acfe548ff0f317c979e51570041058955b9e)
 - `11f0acfe548ff0f317c979e51570041058955b9e` [feat(iceberg): bump iceberg-rust to v0.3.0 (#18088)](https://github.com/risingwavelabs/risingwave/pull/18088)
-- `f98904d6f06117827883f2c9823adb0aa3eb819c` [feat: support more map functions (#18073)](https://github.com/risingwavelabs/risingwave/pull/18073)
-- `a9bfcd27e4e748d476ead2d606037049cd3cff44` [fix(meta): adapt time travel for partial checkpoint (#18093)](https://github.com/risingwavelabs/risingwave/pull/18093)
-- `da74340e3ed5a1d7cbf1657343612cf74956e610` [fix(parser): fix unparse of include columns (#18098)](https://github.com/risingwavelabs/risingwave/pull/18098)
-- `7f80900147bc3da2db31cf386bb25a1b86cbefc0` [feat(license): add limit for total cpu cores in the cluster (#18022)](https://github.com/risingwavelabs/risingwave/pull/18022)
-- `f1fd63ed1470fb076971df43deb1f85af5027a7a` [feat(frontend): support single phase approx percentile in batch (#18083)](https://github.com/risingwavelabs/risingwave/pull/18083)
-- `7b97788491a5fb8389c7ad0f849810ad591efc57` [fix(schedule): Restrict parallelism that exceed the virtual node limit during automatic scaling. (#18006)](https://github.com/risingwavelabs/risingwave/pull/18006)
-- `09865088ffd0077779665e8d409a3e6fe67d1ee4` [refactor(meta): only retry on connection error when registering worker node (#18061)](https://github.com/risingwavelabs/risingwave/pull/18061)
-- `f54c7fe03198f5dd0c8a822763c380414290ce7f` [feat: Optimize the performance of scaling in the SQL backend. (#16722)](https://github.com/risingwavelabs/risingwave/pull/16722)
-- `a10e61f8500de49ca669638db82f52209fbc22f6` [test(frontend): test two phase approx percentile with group key is banned (#18085)](https://github.com/risingwavelabs/risingwave/pull/18085)
-- `1699b3ed093ba7c516f1ce2da7ad7669cd01f8c5` [refactor: reduce periodical logs (#18080)](https://github.com/risingwavelabs/risingwave/pull/18080)
-- `d16847d1057990cc1ef4c4283503d39d64a08f75` [feat(frontend): bind default value for `approx_percentile` relative_error (#18082)](https://github.com/risingwavelabs/risingwave/pull/18082)
-- `33dc6fd65c9332e6c2751021652e5766802cf87e` [chore: remind labeling new features or improvements as experiemental if needed (#18084)](https://github.com/risingwavelabs/risingwave/pull/18084)
-- `e36a630dfe0ee60ac9b4293c76f87fc2f035a59b` [chore: fix RustRover macro expansion (#18077)](https://github.com/risingwavelabs/risingwave/pull/18077)
-
-## nightly-20240818
-- `7cb75e565470570fd191fac062e91864d4582c98` [feat: support constructor `MAP {..}` and index operator `m[k]` for map (#18066)](https://github.com/risingwavelabs/risingwave/pull/18066)
