@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `52400e522cc7d70fe010f2bfe3e1debf0e8afeeb` [test(iceberg): add lakekeeper e2e test (#22913)](https://github.com/risingwavelabs/risingwave/pull/22913)
+- `ee8fcb4b7da510184f94bfb24d4791162f432a07` [feat(vector): implement dedicated array and serde format for vector data type (#22890)](https://github.com/risingwavelabs/risingwave/pull/22890)
+- `0a3ff778c73689c94b1701a6555335bfc473a34a` [feat(frontend): support create vector index on frontend (#22432)](https://github.com/risingwavelabs/risingwave/pull/22432)
+- `c1bd28b0e1c5ad77d67a80be816350df2c7d2f6e` [feat(vector): clear remaining vector place holders (#22820)](https://github.com/risingwavelabs/risingwave/pull/22820)
 - `ac7629d15682b30441202cdcef2d221a44751653` [fix(ci): Skipping a unit test for barrier_interval (#22919)](https://github.com/risingwavelabs/risingwave/pull/22919)
 
 ## nightly-20250818
