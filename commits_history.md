@@ -311,6 +311,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f7e9124cd10a0f96f91c77bd5d40da2671c7059d` [fix(meta): include new model in metadata backup (#22946)](https://github.com/risingwavelabs/risingwave/pull/22946)
+- `f81a53091b2eff95427f548b0eb00875c777149f` [fix(log-store): fix invalid key range when reading initial persisted stream (#22941)](https://github.com/risingwavelabs/risingwave/pull/22941)
+- `ab87e0fa3b4a9bc2194c6057fe1a010a5be9862c` [feat(ci): support trigger nexmark bench via github actions (#22936)](https://github.com/risingwavelabs/risingwave/pull/22936)
+- `9603817e1bdda937d09cc5dfdc8e025cf4f84ceb` [feat(dashboard): support querying historical backpressure (#22843)](https://github.com/risingwavelabs/risingwave/pull/22843)
+- `4b5dcf4e4112dae990e0e0a334b944928f532e9d` [fix: SQL Server timestamp test database name conflict with MySQL tests (#22934)](https://github.com/risingwavelabs/risingwave/pull/22934)
+- `9188afcefbe4a475287c1e8454b61e0674aab7f3` [fix: fix temporal join prev epoch (#22935)](https://github.com/risingwavelabs/risingwave/pull/22935)
 
 ## nightly-20250819
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/59dccd3d7a31a40e87be04d4d242635761da7173...52400e522cc7d70fe010f2bfe3e1debf0e8afeeb)
