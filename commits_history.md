@@ -311,6 +311,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d` [fix(ci): remove non-existent query for nexmark action (#22953)](https://github.com/risingwavelabs/risingwave/pull/22953)
+- `acf31989069031e0c059cfed200abbaf9fa5e403` [feat(user): enforce admin users as superusers and simplify privilege system (#22828)](https://github.com/risingwavelabs/risingwave/pull/22828)
+- `8367a9b187194c39e9d5c68d6959ea44d4e8dea7` [fix: fix compaction_interval config check (#22957)](https://github.com/risingwavelabs/risingwave/pull/22957)
+- `438ab534ae709afb227e1e3a93346b541deca652` [feat(ddl): Make UpstreamSinkUnion node dynamically handle upstreams (#22917)](https://github.com/risingwavelabs/risingwave/pull/22917)
+- `8b0bde4b27561189864b15bd8f971843a002ec15` [refactor(proto): change `bool append_only` to `enum StreamKind` in stream plan node & add it to `ExecutorParams` (#22901)](https://github.com/risingwavelabs/risingwave/pull/22901)
+- `b98135345e72f7e94ed0cf154365ed7501c1fb5a` [feat(hummock): support skip recent filter, add sharded recent filter (#22940)](https://github.com/risingwavelabs/risingwave/pull/22940)
 
 ## nightly-20250820
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52400e522cc7d70fe010f2bfe3e1debf0e8afeeb...f7e9124cd10a0f96f91c77bd5d40da2671c7059d)
