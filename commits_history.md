@@ -311,6 +311,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `23967c45be7596a99d770c360f6e17b715b6bff5` [refactor(on conflict): optimize materialize executor by storing `OwnedRow` in `ChangeBuffer` (#22956)](https://github.com/risingwavelabs/risingwave/pull/22956)
+- `7d6e6fe47560406cc944a68f0a7742f95cabecef` [fix(stream): Fix unexpected error upgraded in Merge executor (#22966)](https://github.com/risingwavelabs/risingwave/pull/22966)
+- `9206cde13cebcafe7e88cc9ac5b6380a0cff6a00` [feat(streaming): only materialize expr for retract input (#22955)](https://github.com/risingwavelabs/risingwave/pull/22955)
+- `9ac71c2304b3e1781af16076a9a5e686385bb25b` [fix(ci): use dirname instead of hard-coded absolute path for env in `common.sh` (#22307)](https://github.com/risingwavelabs/risingwave/pull/22307)
+- `e6e8ca027f34967540947090b41e1ba8b03a6ee7` [feat: support vacuum full iceberg table (#22942)](https://github.com/risingwavelabs/risingwave/pull/22942)
+- `5e7047d4a31f1c18c7c7df11be5fe0a00293cd6f` [chore: skip generated `allow_alter_on_fly_fields` format check (#22959)](https://github.com/risingwavelabs/risingwave/pull/22959)
 
 ## nightly-20250821
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f7e9124cd10a0f96f91c77bd5d40da2671c7059d...bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d)
