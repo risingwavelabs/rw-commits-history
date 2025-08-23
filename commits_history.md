@@ -311,6 +311,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0abd8178188a0fa2d7840a9abdf63598a7b5fdbc` [fix(test): fix sqlserver test in main cron (#22970)](https://github.com/risingwavelabs/risingwave/pull/22970)
+- `bcad48e3345e356a00e788152c54174cb6dbe492` [feat(stream): improve output buffer blocking duration metrics with periodic updates (#22846)](https://github.com/risingwavelabs/risingwave/pull/22846)
 - `00915b86b8cc1dd1cb05801d60dc8ba347b849d7` [feat: expose snapshot expiration config (#22947)](https://github.com/risingwavelabs/risingwave/pull/22947)
 
 ## nightly-20250822
