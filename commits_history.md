@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250824` `f829838c8ca42d819bda71288ae4dca694c7466f`
 - `20250823` `0abd8178188a0fa2d7840a9abdf63598a7b5fdbc`
 - `20250822` `23967c45be7596a99d770c360f6e17b715b6bff5`
 - `20250821` `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d`
@@ -302,7 +303,6 @@
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 - `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
-- `20240824` `d33623accf6e932592f4a945af436c18ced812fd`
 </details>
 
 # Commit history
@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250824
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0abd8178188a0fa2d7840a9abdf63598a7b5fdbc...f829838c8ca42d819bda71288ae4dca694c7466f)
 - `f829838c8ca42d819bda71288ae4dca694c7466f` [feat: support iceberg snapshot metrics (#22967)](https://github.com/risingwavelabs/risingwave/pull/22967)
 
 ## nightly-20250823
@@ -3352,8 +3355,4 @@
 - `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
 
 ## nightly-20240825
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d33623accf6e932592f4a945af436c18ced812fd...5c1af4c21215f8887133233a5978402019c3d3fa)
 - `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
-
-## nightly-20240824
-- `d33623accf6e932592f4a945af436c18ced812fd` [chore(build): add curl & less into docker image (#18223)](https://github.com/risingwavelabs/risingwave/pull/18223)
