@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f829838c8ca42d819bda71288ae4dca694c7466f` [feat: support iceberg snapshot metrics (#22967)](https://github.com/risingwavelabs/risingwave/pull/22967)
 
 ## nightly-20250823
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/23967c45be7596a99d770c360f6e17b715b6bff5...0abd8178188a0fa2d7840a9abdf63598a7b5fdbc)
