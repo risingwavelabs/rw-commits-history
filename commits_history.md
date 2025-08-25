@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250824` `f829838c8ca42d819bda71288ae4dca694c7466f`
+- `20250825` `f829838c8ca42d819bda71288ae4dca694c7466f`
 - `20250823` `0abd8178188a0fa2d7840a9abdf63598a7b5fdbc`
 - `20250822` `23967c45be7596a99d770c360f6e17b715b6bff5`
 - `20250821` `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d`
@@ -302,7 +302,6 @@
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
 - `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
-- `20240825` `5c1af4c21215f8887133233a5978402019c3d3fa`
 </details>
 
 # Commit history
@@ -311,8 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `26ae2633411e02b3fb65c4d3567a658ca6e07ac5` [feat(batch): support vector index nearest batch executor (#22348)](https://github.com/risingwavelabs/risingwave/pull/22348)
 
-## nightly-20250824
+## nightly-20250825
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0abd8178188a0fa2d7840a9abdf63598a7b5fdbc...f829838c8ca42d819bda71288ae4dca694c7466f)
 - `f829838c8ca42d819bda71288ae4dca694c7466f` [feat: support iceberg snapshot metrics (#22967)](https://github.com/risingwavelabs/risingwave/pull/22967)
 
@@ -3339,20 +3339,4 @@
 - `860a936beb8ee4fae1576429b5a02a9c765dea6d` [fix: allow nullable for target table columns for normal sink (#18251)](https://github.com/risingwavelabs/risingwave/pull/18251)
 
 ## nightly-20240826
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5c1af4c21215f8887133233a5978402019c3d3fa...ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983)
 - `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983` [feat: inject pause/resume for creating sink into table (#17651)](https://github.com/risingwavelabs/risingwave/pull/17651)
-- `f00c82f3baceec71185b6af752335ccd193dc7c0` [feat(cdc): add metrics for auto schema change (#18216)](https://github.com/risingwavelabs/risingwave/pull/18216)
-- `62b7586a5ff788fa793934666e20810e52268354` [fix: fix fe internal rpc host addr issues (#18241)](https://github.com/risingwavelabs/risingwave/pull/18241)
-- `4e3b9ff081d59c28668bdca9817930eb3fd013c3` [feat(storage): introduce new field `sst_size` for SstableInfo  (#18005)](https://github.com/risingwavelabs/risingwave/pull/18005)
-- `b0e50b4e4428e38ba35670a775b25aea2c4f1890` [fix(log-store): fix incorrect lag caused by invalid initial read epoch (#18231)](https://github.com/risingwavelabs/risingwave/pull/18231)
-- `b36ac57677906e2a1e006c6cb132e6fee8abd224` [fix(sink): allow starrocks.host to be an fe follower (#17679)](https://github.com/risingwavelabs/risingwave/pull/17679)
-- `86a15baada5b17bfc8934662f6d0a7c7d85f6ffd` [fix: make fs list exec singleton (#18199)](https://github.com/risingwavelabs/risingwave/pull/18199)
-- `ec61f325a5d07a15a4a2c1b2cd55c3a7f5f38402` [feat(suscription): Improving usability of subscription (#18217)](https://github.com/risingwavelabs/risingwave/pull/18217)
-- `07911cfa3d02ed90cb1f2e3a8926fbfd456d6b91` [chore: add license to file sink (#18227)](https://github.com/risingwavelabs/risingwave/pull/18227)
-- `b2d2de3ff8de41051fdf6c1d9c54c0db9dc5b4ad` [fix(ci): fix java connector node ci (#18229)](https://github.com/risingwavelabs/risingwave/pull/18229)
-- `7d20fa851b93ccc43c3dfabf4d808ddc145b1888` [feat(sink): set default_sink_decouple = true for all sink (#18182)](https://github.com/risingwavelabs/risingwave/pull/18182)
-- `220fded7139658d727fa811c6ae9d051d0696574` [feat(source): add NATS source consumer parameters (#17615)](https://github.com/risingwavelabs/risingwave/pull/17615)
-- `2af7a5662626704b9f2cdb55958235eb5331bb4d` [chore(test): sleep after flaky test (#18218)](https://github.com/risingwavelabs/risingwave/pull/18218)
-
-## nightly-20240825
-- `5c1af4c21215f8887133233a5978402019c3d3fa` [feat(iceberg): use native glue impl for iceberg source (#18106)](https://github.com/risingwavelabs/risingwave/pull/18106)
