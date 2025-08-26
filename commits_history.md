@@ -310,6 +310,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `75494f43485c568dfc6b3494d7fbc2708fd191a3` [feat: decouple streaming now timestamp and epoch (#22487)](https://github.com/risingwavelabs/risingwave/pull/22487)
+- `60f1561d1a4787a9c54e31a20f9efa40f1bb400e` [feat(sink): add mutation to add sink schema (#22661)](https://github.com/risingwavelabs/risingwave/pull/22661)
+- `e508896ca17bfd83ce582e6a27b6b21da7f10095` [refactor(sink): determine how to handle input inconsistency based on stream kind (#22904)](https://github.com/risingwavelabs/risingwave/pull/22904)
+- `7c3ec9a86db03e53c707bceadff124aeaa959c97` [fix: fix snapshot_expiration_timestamp_ms config semantics (#22977)](https://github.com/risingwavelabs/risingwave/pull/22977)
+- `a6cb087778af3341caec6300b1b303c2160537c2` [chore(doc): Update README.md (#22975)](https://github.com/risingwavelabs/risingwave/pull/22975)
+- `6036c8de525cb273fccaab0e7f2cef37a9559e68` [fix: Add pruning logic to prevent the compactor from incorrectly accessing watermarks. (#22973)](https://github.com/risingwavelabs/risingwave/pull/22973)
 - `26ae2633411e02b3fb65c4d3567a658ca6e07ac5` [feat(batch): support vector index nearest batch executor (#22348)](https://github.com/risingwavelabs/risingwave/pull/22348)
 
 ## nightly-20250825
