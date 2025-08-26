@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250826` `75494f43485c568dfc6b3494d7fbc2708fd191a3`
 - `20250825` `f829838c8ca42d819bda71288ae4dca694c7466f`
 - `20250823` `0abd8178188a0fa2d7840a9abdf63598a7b5fdbc`
 - `20250822` `23967c45be7596a99d770c360f6e17b715b6bff5`
@@ -301,7 +302,6 @@
 - `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 - `20240828` `befb04f1e433ecbb564a059f34b4299ba4952bed`
 - `20240827` `63b4d47ea9f54f567983e097e15d8dc9b0384849`
-- `20240826` `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983`
 </details>
 
 # Commit history
@@ -310,6 +310,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7ed1facbd490487f9ee9eb4cbda5cbb95171c811` [feat(embedding): pass embedding options via jsonb const (#22960)](https://github.com/risingwavelabs/risingwave/pull/22960)
+
+## nightly-20250826
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f829838c8ca42d819bda71288ae4dca694c7466f...75494f43485c568dfc6b3494d7fbc2708fd191a3)
 - `75494f43485c568dfc6b3494d7fbc2708fd191a3` [feat: decouple streaming now timestamp and epoch (#22487)](https://github.com/risingwavelabs/risingwave/pull/22487)
 - `60f1561d1a4787a9c54e31a20f9efa40f1bb400e` [feat(sink): add mutation to add sink schema (#22661)](https://github.com/risingwavelabs/risingwave/pull/22661)
 - `e508896ca17bfd83ce582e6a27b6b21da7f10095` [refactor(sink): determine how to handle input inconsistency based on stream kind (#22904)](https://github.com/risingwavelabs/risingwave/pull/22904)
@@ -3333,16 +3337,4 @@
 - `7a97076cedfc1018facc892ed1c350327fe6b8db` [fix(meta): fix list changed log epoch retrun null epoch (#18273)](https://github.com/risingwavelabs/risingwave/pull/18273)
 
 ## nightly-20240827
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983...63b4d47ea9f54f567983e097e15d8dc9b0384849)
 - `63b4d47ea9f54f567983e097e15d8dc9b0384849` [fix: should use table_metric for MV throughput (#18265)](https://github.com/risingwavelabs/risingwave/pull/18265)
-- `6bd0e89cf056969fe0f9028815d83786c53dfec6` [chore: create an issue in the doc repo if it is a breaking change (#18263)](https://github.com/risingwavelabs/risingwave/pull/18263)
-- `22926d67fff102cd7114b150b8437e3afd4a4231` [refactor(iceberg): Separate iceberg source pb from source pb (#18209)](https://github.com/risingwavelabs/risingwave/pull/18209)
-- `edaace2f93877f1bc25c523da4d434b869aaf73a` [fix(batch): fix CTAS pins snapshot too long (#18248)](https://github.com/risingwavelabs/risingwave/pull/18248)
-- `79d98109deee8518740be6a00c3e4f41c29d5f1b` [feat(storage): Support for repairing the size of a split sst based on table stats (#18053)](https://github.com/risingwavelabs/risingwave/pull/18053)
-- `e3a9d37ddad6ed519c0fa48ec457a0ea994c441a` [feat(agg): support `aggregate:` prefixed scalar function in streaming agg (#18205)](https://github.com/risingwavelabs/risingwave/pull/18205)
-- `3c31ef9755c0bc9799dd4b65151b095beb148120` [fix(storage): Fix the bug that switch table_id breaks block data constraints. (#18235)](https://github.com/risingwavelabs/risingwave/pull/18235)
-- `9932d12bf91c822164a06551fe2b56363d77e99c` [feat(connector): introduce azblob sink (#18244)](https://github.com/risingwavelabs/risingwave/pull/18244)
-- `860a936beb8ee4fae1576429b5a02a9c765dea6d` [fix: allow nullable for target table columns for normal sink (#18251)](https://github.com/risingwavelabs/risingwave/pull/18251)
-
-## nightly-20240826
-- `ce7a5afc0ecc86adbf5fb7c49cb4337d5d4df983` [feat: inject pause/resume for creating sink into table (#17651)](https://github.com/risingwavelabs/risingwave/pull/17651)
