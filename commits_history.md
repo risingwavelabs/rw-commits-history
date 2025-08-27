@@ -310,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d83b464647e59b00e431e499571d08557d5b149c` [refactor(frontend): use const size array guard_by_len in builtin scalar function (#23000)](https://github.com/risingwavelabs/risingwave/pull/23000)
+- `cf38d49f70dc9fc0d441b65f6999581530bd0bf1` [Add support for DROP FUNCTION CASCADE (#22991)](https://github.com/risingwavelabs/risingwave/pull/22991)
+- `5abf33fcc56531e70ccdfe84078efe421215167d` [fix(main cron): clickhouse test out of order (#22988)](https://github.com/risingwavelabs/risingwave/pull/22988)
 - `7ed1facbd490487f9ee9eb4cbda5cbb95171c811` [feat(embedding): pass embedding options via jsonb const (#22960)](https://github.com/risingwavelabs/risingwave/pull/22960)
 
 ## nightly-20250826
