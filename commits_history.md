@@ -310,6 +310,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee` [chore(ctl): add clippy warning on large future size and stack frame (#22971)](https://github.com/risingwavelabs/risingwave/pull/22971)
+- `9955cbbe00b5938be610277da3cb3ac00f47ab9a` [fix: enhaunce parser for user option and format encode (#23007)](https://github.com/risingwavelabs/risingwave/pull/23007)
+- `25f9482b24ed8a1bc6c1d7a8b32f412383c1e0c4` [refactor(meta): add new field to diagnostic report (#23006)](https://github.com/risingwavelabs/risingwave/pull/23006)
+- `b3b62175da4f838e56b1290de076cf966840a501` [fix(storage): set missing opendal metakey (#23005)](https://github.com/risingwavelabs/risingwave/pull/23005)
 - `67f1a13bf18efaa83e4d642df844f4f6cc503dc8` [feat: introduce aggregation fns for arg_min / max (#22895)](https://github.com/risingwavelabs/risingwave/pull/22895)
 
 ## nightly-20250827
