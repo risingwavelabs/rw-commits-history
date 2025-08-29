@@ -310,6 +310,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `124f3056a61719850912917ac6356d3d6be45a3f` [chore:  use a larger runner for copilot agent (#23015)](https://github.com/risingwavelabs/risingwave/pull/23015)
+- `573ae81a9baa08e162ba944f2ba4f951bce88211` [feat(frontend): support binding for objects with qualified database name (#22989)](https://github.com/risingwavelabs/risingwave/pull/22989)
 
 ## nightly-20250828
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d83b464647e59b00e431e499571d08557d5b149c...ea6eede2ba1455e16fc3c009a5ea39c2eb156fee)
