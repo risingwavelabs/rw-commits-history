@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250829` `124f3056a61719850912917ac6356d3d6be45a3f`
 - `20250828` `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee`
 - `20250827` `d83b464647e59b00e431e499571d08557d5b149c`
 - `20250826` `75494f43485c568dfc6b3494d7fbc2708fd191a3`
@@ -301,7 +302,6 @@
 - `20240903` `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609`
 - `20240902` `b2eea6b799d31aae8240e41cf3f0e0d29e542255`
 - `20240901` `e41b348f2d7d800b45e4102192200fb1698037ca`
-- `20240829` `655ce2a8cdd83f2338b2de23bef1133cf4e1916a`
 </details>
 
 # Commit history
@@ -310,6 +310,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bcfe9ce966f6893dea4d6b54151488aa057f572d` [feat(pg-cdc): handle TOAST column when update (#22852)](https://github.com/risingwavelabs/risingwave/pull/22852)
+- `f771fd0b3f77343c59d12a018866a904faa376b1` [fix(pg-cdc): enhance postgres cdc schema check (#22200)](https://github.com/risingwavelabs/risingwave/pull/22200)
+
+## nightly-20250829
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ea6eede2ba1455e16fc3c009a5ea39c2eb156fee...124f3056a61719850912917ac6356d3d6be45a3f)
 - `124f3056a61719850912917ac6356d3d6be45a3f` [chore:  use a larger runner for copilot agent (#23015)](https://github.com/risingwavelabs/risingwave/pull/23015)
 - `573ae81a9baa08e162ba944f2ba4f951bce88211` [feat(frontend): support binding for objects with qualified database name (#22989)](https://github.com/risingwavelabs/risingwave/pull/22989)
 
@@ -3316,13 +3321,4 @@
 - `ef71eefea35c1fbb1ad3669ce3dc7b17f71c4019` [chore(docs): Update README.md (#18340)](https://github.com/risingwavelabs/risingwave/pull/18340)
 
 ## nightly-20240901
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/655ce2a8cdd83f2338b2de23bef1133cf4e1916a...e41b348f2d7d800b45e4102192200fb1698037ca)
 - `e41b348f2d7d800b45e4102192200fb1698037ca` [fix(risedev): fix risedev (#18339)](https://github.com/risingwavelabs/risingwave/pull/18339)
-- `5055cc920aed3f555bcb3ba5a42962555789bd26` [refactor(metrics): refine relabelled metrics interfaces (#18331)](https://github.com/risingwavelabs/risingwave/pull/18331)
-- `29db1d95c416ea14c8ebb39ba74857d01c631d34` [fix: fix column nullable definition for index column properties (#18334)](https://github.com/risingwavelabs/risingwave/pull/18334)
-- `59b400a92d623798541c0a49dab0647795afaa38` [chore: Update README.md (#18226)](https://github.com/risingwavelabs/risingwave/pull/18226)
-- `04ef98d6e76ced350adce9a75862336118ce09d0` [fix: allow ENCODE BYTES use generated columns (#18294)](https://github.com/risingwavelabs/risingwave/pull/18294)
-- `70c1146a0ede4c8a5b6a5adcde07b3f0449c2b5e` [fix: s3 source cannot read incremental files (#18017)](https://github.com/risingwavelabs/risingwave/pull/18017)
-
-## nightly-20240829
-- `655ce2a8cdd83f2338b2de23bef1133cf4e1916a` [fix: Sort by actor_id in CustomFragmentInfo and rebalance_actor_vnode for consistent ordering (#18317)](https://github.com/risingwavelabs/risingwave/pull/18317)
