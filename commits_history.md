@@ -310,6 +310,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3e8636ed59b201afd12da48568fdf9590f84ce83` [chore(deps): Bump tracing-subscriber from 0.3.17 to 0.3.20 (#23021)](https://github.com/risingwavelabs/risingwave/pull/23021)
 - `bcfe9ce966f6893dea4d6b54151488aa057f572d` [feat(pg-cdc): handle TOAST column when update (#22852)](https://github.com/risingwavelabs/risingwave/pull/22852)
 - `f771fd0b3f77343c59d12a018866a904faa376b1` [fix(pg-cdc): enhance postgres cdc schema check (#22200)](https://github.com/risingwavelabs/risingwave/pull/22200)
 
