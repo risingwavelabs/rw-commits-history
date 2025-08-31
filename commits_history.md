@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250830` `3e8636ed59b201afd12da48568fdf9590f84ce83`
+- `20250831` `3e8636ed59b201afd12da48568fdf9590f84ce83`
 - `20250829` `124f3056a61719850912917ac6356d3d6be45a3f`
 - `20250828` `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee`
 - `20250827` `d83b464647e59b00e431e499571d08557d5b149c`
@@ -312,7 +312,7 @@
 
 ## Unreleased
 
-## nightly-20250830
+## nightly-20250831
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/124f3056a61719850912917ac6356d3d6be45a3f...3e8636ed59b201afd12da48568fdf9590f84ce83)
 - `3e8636ed59b201afd12da48568fdf9590f84ce83` [chore(deps): Bump tracing-subscriber from 0.3.17 to 0.3.20 (#23021)](https://github.com/risingwavelabs/risingwave/pull/23021)
 - `bcfe9ce966f6893dea4d6b54151488aa057f572d` [feat(pg-cdc): handle TOAST column when update (#22852)](https://github.com/risingwavelabs/risingwave/pull/22852)
