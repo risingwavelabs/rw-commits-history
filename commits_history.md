@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250901` `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc`
 - `20250831` `3e8636ed59b201afd12da48568fdf9590f84ce83`
 - `20250829` `124f3056a61719850912917ac6356d3d6be45a3f`
 - `20250828` `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee`
@@ -302,7 +303,6 @@
 - `20240904` `0dd06ffa9a34b0cb584393990f8de8a41267718d`
 - `20240903` `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609`
 - `20240902` `b2eea6b799d31aae8240e41cf3f0e0d29e542255`
-- `20240901` `e41b348f2d7d800b45e4102192200fb1698037ca`
 </details>
 
 # Commit history
@@ -311,6 +311,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a422cf3f7940e93b1e75f53d869459ff9b3c50f3` [feat(frontend): convert to read vector index on covering vector index (#22545)](https://github.com/risingwavelabs/risingwave/pull/22545)
+- `a69df59dce4ba61551b37bfb26002547ad6768c4` [feat(cdc): add progress tracking for parallelized cdc backfill (#22943)](https://github.com/risingwavelabs/risingwave/pull/22943)
+- `0aa3e1c842d1243cbcd46b877e1079255b2420d0` [chore(deps): Bump sea-query from 0.32.0 to 0.32.1 (#23035)](https://github.com/risingwavelabs/risingwave/pull/23035)
+- `0c3901f7dfdaa41387624dd0baef589ef82efde5` [feat(storage): bump OpenDAL to v0.53 (#22423)](https://github.com/risingwavelabs/risingwave/pull/22423)
+
+## nightly-20250901
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3e8636ed59b201afd12da48568fdf9590f84ce83...3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc)
 - `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc` [refactor(state-table): extract logic of row store in state table (#22853)](https://github.com/risingwavelabs/risingwave/pull/22853)
 - `b5f76444bb78489b5c725e84e95af8234c517de4` [chore(ci): remove extra branch configuration (#23032)](https://github.com/risingwavelabs/risingwave/pull/23032)
 - `4ba2143eef196c657638290ee600cf333eb13062` [chore(risedev): replace unmaintained `yaml-rust` with `yaml-rust2` (#23033)](https://github.com/risingwavelabs/risingwave/pull/23033)
@@ -3331,13 +3338,4 @@
 - `ea6674ea31f2f6fd1b526c11405168f39a5131e0` [feat(risedev): prompt user with `argv[0]` instead of hard-coded `./risedev` (#18358)](https://github.com/risingwavelabs/risingwave/pull/18358)
 
 ## nightly-20240902
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e41b348f2d7d800b45e4102192200fb1698037ca...b2eea6b799d31aae8240e41cf3f0e0d29e542255)
 - `b2eea6b799d31aae8240e41cf3f0e0d29e542255` [refactor(prost): optimize some Debug representation (#18211)](https://github.com/risingwavelabs/risingwave/pull/18211)
-- `cd0eefd2e5cd83f7d79894693f64340e74fbd7fc` [fix(compaction): disable fast compact for split sst (#18347)](https://github.com/risingwavelabs/risingwave/pull/18347)
-- `f60be139715b8b54e1e2c8d5d9ac8431de29395b` [fix(meta): correctly update serving vnode mapping after scaling (#18349)](https://github.com/risingwavelabs/risingwave/pull/18349)
-- `602c6adccaf6de63b430bfdfce045653172a015d` [refactor(metrics): suppress more actor-level metrics (#18318)](https://github.com/risingwavelabs/risingwave/pull/18318)
-- `e78832351945c171f5e10f895932463b6f3c4664` [fix(ci): fix flaky barrier read e2e transaction test (#18346)](https://github.com/risingwavelabs/risingwave/pull/18346)
-- `ef71eefea35c1fbb1ad3669ce3dc7b17f71c4019` [chore(docs): Update README.md (#18340)](https://github.com/risingwavelabs/risingwave/pull/18340)
-
-## nightly-20240901
-- `e41b348f2d7d800b45e4102192200fb1698037ca` [fix(risedev): fix risedev (#18339)](https://github.com/risingwavelabs/risingwave/pull/18339)
