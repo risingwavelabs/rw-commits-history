@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250902` `bdaad06e2825362b343bf227f1b8af0ba250a283`
 - `20250901` `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc`
 - `20250831` `3e8636ed59b201afd12da48568fdf9590f84ce83`
 - `20250829` `124f3056a61719850912917ac6356d3d6be45a3f`
@@ -302,7 +303,6 @@
 - `20240905` `79ba86964acf0616693a8534c9eac1a67eb2889d`
 - `20240904` `0dd06ffa9a34b0cb584393990f8de8a41267718d`
 - `20240903` `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609`
-- `20240902` `b2eea6b799d31aae8240e41cf3f0e0d29e542255`
 </details>
 
 # Commit history
@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b234e00d218d8e12b3abf10b3855d7b72db719f8` [feat(iceberg): add e2e test for iceberg copy on write mode (#22992)](https://github.com/risingwavelabs/risingwave/pull/22992)
+
+## nightly-20250902
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc...bdaad06e2825362b343bf227f1b8af0ba250a283)
 - `bdaad06e2825362b343bf227f1b8af0ba250a283` [fix(meta): fix meta store compatibility issue (#23051)](https://github.com/risingwavelabs/risingwave/pull/23051)
 - `635928395f4b6110f050d58edf487349ce01d289` [feat(frontend): support create vector index on function expression (#22808)](https://github.com/risingwavelabs/risingwave/pull/22808)
 - `a309e2d9f85ad52387ff74441a63325265adf13b` [feat(risectl): add a hidden command to test availibility of JVM and Java libraries (#22998)](https://github.com/risingwavelabs/risingwave/pull/22998)
@@ -3333,18 +3337,4 @@
 - `c843edcd298be55a0bdc938dfa3c240676fba9c1` [feat: support arrow map -> rw map (#18375)](https://github.com/risingwavelabs/risingwave/pull/18375)
 
 ## nightly-20240903
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b2eea6b799d31aae8240e41cf3f0e0d29e542255...c0ce8a8a6b4d51e463a605fb307fa4b014e0f609)
 - `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609` [feat(sink): support async for bigquery sink  (#17488)](https://github.com/risingwavelabs/risingwave/pull/17488)
-- `c519f0dbb13cd66d1b5cb5bfb1325150f0e5d70b` [feat(telemetry): add telemetry data point when checking license (#18371)](https://github.com/risingwavelabs/risingwave/pull/18371)
-- `51d3c63f702ddf8860f6223a1e9a425e034d3375` [fix: `DROP DATABASE` doesn't clean up the source stream job (in v1) (#18033)](https://github.com/risingwavelabs/risingwave/pull/18033)
-- `5ab2a59ed708f2d704455bbaa5e51e56e58db757` [feat(iceberg): support iceberg sink create table (#18362)](https://github.com/risingwavelabs/risingwave/pull/18362)
-- `5d8b1650ecd0d9e34a3eed519a9723752c5ea633` [feat(iceberg): support create table for jdbc catalog (#18364)](https://github.com/risingwavelabs/risingwave/pull/18364)
-- `f05d549efb5c1c2287047c07750ed210645c8b81` [fix(streaming): correctly retrieve initial split assignments from combined mutation for sink-into-table (#18356)](https://github.com/risingwavelabs/risingwave/pull/18356)
-- `124011d94ab7ac44c8a7868688e4b326a10ac0b0` [feat(cdc): support constant default value for alter table ADD COLUMN (#18322)](https://github.com/risingwavelabs/risingwave/pull/18322)
-- `9d6515b6a8af4e8935bea76e46aa14aecc174cf7` [feat(compaction): support recreate block stream for fast compact iter (#18350)](https://github.com/risingwavelabs/risingwave/pull/18350)
-- `5a314486da5c3f70e71fb13e2398df96ca00ee87` [feat(compute): give more batch memory for serving node (#18365)](https://github.com/risingwavelabs/risingwave/pull/18365)
-- `46bce7e4091c09db08714aad1bbee32b6c3f8da4` [refactor: add target_offsets to determinine if source backfill finished (#18297)](https://github.com/risingwavelabs/risingwave/pull/18297)
-- `ea6674ea31f2f6fd1b526c11405168f39a5131e0` [feat(risedev): prompt user with `argv[0]` instead of hard-coded `./risedev` (#18358)](https://github.com/risingwavelabs/risingwave/pull/18358)
-
-## nightly-20240902
-- `b2eea6b799d31aae8240e41cf3f0e0d29e542255` [refactor(prost): optimize some Debug representation (#18211)](https://github.com/risingwavelabs/risingwave/pull/18211)
