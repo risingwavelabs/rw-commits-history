@@ -311,6 +311,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fbcbbd36720f37a936376bb290cdc60c9224b665` [feat(sink): support snowflake and redshift sink auto schema change (#22984)](https://github.com/risingwavelabs/risingwave/pull/22984)
+- `f39d25efced07cfa855f65c8fcca518fa51fd27b` [fix(connector): restore None field for state (#23066)](https://github.com/risingwavelabs/risingwave/pull/23066)
+- `1d40061b0b681c2a3ea79314df7022734616775f` [chore: increase single-node test timeout (#23063)](https://github.com/risingwavelabs/risingwave/pull/23063)
+- `92d0351fb5930c49926bcceb0f5ea845c079bd63` [feat: support multiple version columns in conflict resolution (#22931)](https://github.com/risingwavelabs/risingwave/pull/22931)
+- `a307543e766868c9380e86cc6a846c4430efa225` [fix(pg-cdc): completely fix the schema conversion problem during auto schema change (#22610)](https://github.com/risingwavelabs/risingwave/pull/22610)
+- `4afed7eeb278557013bb4a77aa6f3639bc584df3` [feat(storage): support hummock hnsw index (#22022)](https://github.com/risingwavelabs/risingwave/pull/22022)
 - `b234e00d218d8e12b3abf10b3855d7b72db719f8` [feat(iceberg): add e2e test for iceberg copy on write mode (#22992)](https://github.com/risingwavelabs/risingwave/pull/22992)
 
 ## nightly-20250902
