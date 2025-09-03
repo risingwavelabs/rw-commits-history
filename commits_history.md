@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250903` `fbcbbd36720f37a936376bb290cdc60c9224b665`
 - `20250902` `bdaad06e2825362b343bf227f1b8af0ba250a283`
 - `20250901` `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc`
 - `20250831` `3e8636ed59b201afd12da48568fdf9590f84ce83`
@@ -302,7 +303,6 @@
 - `20240907` `71753f11223cd0b4d67ba6baf7ac636fa246e7fc`
 - `20240905` `79ba86964acf0616693a8534c9eac1a67eb2889d`
 - `20240904` `0dd06ffa9a34b0cb584393990f8de8a41267718d`
-- `20240903` `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609`
 </details>
 
 # Commit history
@@ -311,6 +311,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `71583edf8a449250ac80cc180df89869087fed69` [fix: ALTER SOURCE CONNECTOR should work for non-shared source (#23055)](https://github.com/risingwavelabs/risingwave/pull/23055)
+- `d57303d4eba58d1678979977b856f57eceb3fd38` [feat(state-table): support optionally preload all rows in memory (#22857)](https://github.com/risingwavelabs/risingwave/pull/22857)
+- `142bd66167939a6cafe0d7a1cbf3f62637be739e` [fix(cdc-test): merge some tests to avoid conflicts when running them in parallel (#23062)](https://github.com/risingwavelabs/risingwave/pull/23062)
+
+## nightly-20250903
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bdaad06e2825362b343bf227f1b8af0ba250a283...fbcbbd36720f37a936376bb290cdc60c9224b665)
 - `fbcbbd36720f37a936376bb290cdc60c9224b665` [feat(sink): support snowflake and redshift sink auto schema change (#22984)](https://github.com/risingwavelabs/risingwave/pull/22984)
 - `f39d25efced07cfa855f65c8fcca518fa51fd27b` [fix(connector): restore None field for state (#23066)](https://github.com/risingwavelabs/risingwave/pull/23066)
 - `1d40061b0b681c2a3ea79314df7022734616775f` [chore: increase single-node test timeout (#23063)](https://github.com/risingwavelabs/risingwave/pull/23063)
@@ -3330,17 +3336,4 @@
 - `670a94f118d61462b720d51d62f164986d23cb23` [feat: variable vnode count support in table distribution (#18373)](https://github.com/risingwavelabs/risingwave/pull/18373)
 
 ## nightly-20240904
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0ce8a8a6b4d51e463a605fb307fa4b014e0f609...0dd06ffa9a34b0cb584393990f8de8a41267718d)
 - `0dd06ffa9a34b0cb584393990f8de8a41267718d` [feat(snapshot-backfill): only receive mutation from barrier worker for snapshot backfill (#18210)](https://github.com/risingwavelabs/risingwave/pull/18210)
-- `9923c3abb8f87a6f643d5f753585e2b31f4de7e0` [feat(risedev): support providing env var in yaml config (#18396)](https://github.com/risingwavelabs/risingwave/pull/18396)
-- `ee33271dd98cfa84e390656e5b5836f7453b07cc` [fix: parquet test missing comma (#18397)](https://github.com/risingwavelabs/risingwave/pull/18397)
-- `6402328e7ff51b16691c6b72858b7075250246fe` [refactor: add some comments for source splits  (#18034)](https://github.com/risingwavelabs/risingwave/pull/18034)
-- `c4b1dd4555c329a58fc92955b4a7aa9a3d957d89` [feat(expr): support `jsonb_populate_map` (#18378)](https://github.com/risingwavelabs/risingwave/pull/18378)
-- `0a4ccde5c4b8762d825b150a0a73a80afdec6253` [fix(sqlparser): display create items with comma properly (#18393)](https://github.com/risingwavelabs/risingwave/pull/18393)
-- `a7480e1c6225e6bd32314fec9f5e0a686a9850b9` [feat(risedev): attempt to kill existing session when launching `risedev-dev` (#18370)](https://github.com/risingwavelabs/risingwave/pull/18370)
-- `847610a0e1007207d44dcadd6c61f5373ed4bdb9` [refactor: use high watermark to finish backfill faster (#18342)](https://github.com/risingwavelabs/risingwave/pull/18342)
-- `e9d77a4d5166f78cb65d6b3a8d6d5d67f56b5b05` [feat(streaming): add `must_output_per_barrier` flag for stream simple agg (#18374)](https://github.com/risingwavelabs/risingwave/pull/18374)
-- `c843edcd298be55a0bdc938dfa3c240676fba9c1` [feat: support arrow map -> rw map (#18375)](https://github.com/risingwavelabs/risingwave/pull/18375)
-
-## nightly-20240903
-- `c0ce8a8a6b4d51e463a605fb307fa4b014e0f609` [feat(sink): support async for bigquery sink  (#17488)](https://github.com/risingwavelabs/risingwave/pull/17488)
