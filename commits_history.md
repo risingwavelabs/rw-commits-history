@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `132e296d3d88861a73cbffb04cfdca35a80f88e2` [chore: Update GitHub Actions workflow to use new token (#23090)](https://github.com/risingwavelabs/risingwave/pull/23090)
+- `7ea2810256e06872495238897a42ba6f5f0140d6` [feat: remove license check on basic iceberg compaction (#23029)](https://github.com/risingwavelabs/risingwave/pull/23029)
+- `5d370516d52b47b1e13688b60c0e1baa32f4d6e9` [feat(iceberg): add docker compose with lakekeeper (#23045)](https://github.com/risingwavelabs/risingwave/pull/23045)
+- `75134003c2d99f4c59dcda6f6cf7a86fd228658a` [fix(foyer): bump foyer version v0.19.2 for bugfixs (#23044)](https://github.com/risingwavelabs/risingwave/pull/23044)
 - `71583edf8a449250ac80cc180df89869087fed69` [fix: ALTER SOURCE CONNECTOR should work for non-shared source (#23055)](https://github.com/risingwavelabs/risingwave/pull/23055)
 - `d57303d4eba58d1678979977b856f57eceb3fd38` [feat(state-table): support optionally preload all rows in memory (#22857)](https://github.com/risingwavelabs/risingwave/pull/22857)
 - `142bd66167939a6cafe0d7a1cbf3f62637be739e` [fix(cdc-test): merge some tests to avoid conflicts when running them in parallel (#23062)](https://github.com/risingwavelabs/risingwave/pull/23062)
