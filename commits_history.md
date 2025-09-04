@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250904` `132e296d3d88861a73cbffb04cfdca35a80f88e2`
 - `20250903` `fbcbbd36720f37a936376bb290cdc60c9224b665`
 - `20250902` `bdaad06e2825362b343bf227f1b8af0ba250a283`
 - `20250901` `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc`
@@ -302,7 +303,6 @@
 - `20240908` `becb896acd442d32eab4c14dccf558a4b346c643`
 - `20240907` `71753f11223cd0b4d67ba6baf7ac636fa246e7fc`
 - `20240905` `79ba86964acf0616693a8534c9eac1a67eb2889d`
-- `20240904` `0dd06ffa9a34b0cb584393990f8de8a41267718d`
 </details>
 
 # Commit history
@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9c418bd0b3fefefac3770eb46783649ce06e8275` [fix(sink): Build dist_key in sink-into-table dispatcher (#23069)](https://github.com/risingwavelabs/risingwave/pull/23069)
+
+## nightly-20250904
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fbcbbd36720f37a936376bb290cdc60c9224b665...132e296d3d88861a73cbffb04cfdca35a80f88e2)
 - `132e296d3d88861a73cbffb04cfdca35a80f88e2` [chore: Update GitHub Actions workflow to use new token (#23090)](https://github.com/risingwavelabs/risingwave/pull/23090)
 - `7ea2810256e06872495238897a42ba6f5f0140d6` [feat: remove license check on basic iceberg compaction (#23029)](https://github.com/risingwavelabs/risingwave/pull/23029)
 - `5d370516d52b47b1e13688b60c0e1baa32f4d6e9` [feat(iceberg): add docker compose with lakekeeper (#23045)](https://github.com/risingwavelabs/risingwave/pull/23045)
@@ -3329,15 +3333,4 @@
 - `df7f54f0b35cfe39937ae49bf9b5dab4343d51de` [fix(meta): fix catalog ref count (#18427)](https://github.com/risingwavelabs/risingwave/pull/18427)
 
 ## nightly-20240905
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0dd06ffa9a34b0cb584393990f8de8a41267718d...79ba86964acf0616693a8534c9eac1a67eb2889d)
 - `79ba86964acf0616693a8534c9eac1a67eb2889d` [fix(backup): fix restore order (#18423)](https://github.com/risingwavelabs/risingwave/pull/18423)
-- `0134191ca8055543ece575e9f074f4ef3b23ac45` [fix(storage): fix correct_commit_ssts with sst table_ids (#18414)](https://github.com/risingwavelabs/risingwave/pull/18414)
-- `1d220eeba6f813673f8efc72b1fcf9e449171cf0` [fix(error): fix sinkError and connector error  (#18425)](https://github.com/risingwavelabs/risingwave/pull/18425)
-- `8a32a9b21b45c4d91f3235411d35a0a2b3f5102a` [feat: variable vnode count support in vnode structure (#18381)](https://github.com/risingwavelabs/risingwave/pull/18381)
-- `cb29fe0a3221638b5dc62c3ea543b08dd567135d` [feat: support more SSL related configurations in Kafka connector (#18361)](https://github.com/risingwavelabs/risingwave/pull/18361)
-- `f2f58272cc51a118a83c1fce02bd42afeb98c80b` [fix(storage): fix assertion (#18413)](https://github.com/risingwavelabs/risingwave/pull/18413)
-- `3b98b71f27525ad936820c264198c0f02334d252` [fix(source): Protobuf `Any` as canonical JSON (#18380)](https://github.com/risingwavelabs/risingwave/pull/18380)
-- `670a94f118d61462b720d51d62f164986d23cb23` [feat: variable vnode count support in table distribution (#18373)](https://github.com/risingwavelabs/risingwave/pull/18373)
-
-## nightly-20240904
-- `0dd06ffa9a34b0cb584393990f8de8a41267718d` [feat(snapshot-backfill): only receive mutation from barrier worker for snapshot backfill (#18210)](https://github.com/risingwavelabs/risingwave/pull/18210)
