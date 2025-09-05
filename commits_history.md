@@ -311,6 +311,18 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `876e405dc7b1f01070239c91976fb08c6d9800e9` [fix: hnsw off-by-one in insert descent and add visitation tests (#23067)](https://github.com/risingwavelabs/risingwave/pull/23067)
+- `94b99f5cec51c618dc7332ea01eb7fa1e733c42f` [feat(sink): support bigquery credentials with base64 (#23100)](https://github.com/risingwavelabs/risingwave/pull/23100)
+- `9551c84ac01f63726c0471833b34080ca886302b` [feat(sqlparser): support parsing `STRUCT< >` as empty struct (#23099)](https://github.com/risingwavelabs/risingwave/pull/23099)
+- `b4de83b164aede716cd6e385240e2a29fa48e334` [fix: ban cross database stream query with upstream only (#23098)](https://github.com/risingwavelabs/risingwave/pull/23098)
+- `db6887f41db6fcc6eebb09527c185e61dc76054e` [refactor(meta): deprecate incoming sinks fields in Table (#23091)](https://github.com/risingwavelabs/risingwave/pull/23091)
+- `8d4ab011c069ecf95dcea5a066d74d6fabf3a010` [test: lower flush threshold to decrease test_uploader_frequently_flush runtime (#23073)](https://github.com/risingwavelabs/risingwave/pull/23073)
+- `dc4ebc574e21cc70648cf4989ccd52c8208d5baf` [fix(compute): reduced compute_node_serve future size (#23019)](https://github.com/risingwavelabs/risingwave/pull/23019)
+- `8c956f093e6e58e260387cce5a04cf55116d91ca` [feat: treat empty(zero-field) struct as alterable (#23047)](https://github.com/risingwavelabs/risingwave/pull/23047)
+- `1cadb7752b47a5eacd2a3ea637f8a28e953cff60` [fix(vector): recreate graph builder with capacity derived from hnsw.m (#23095)](https://github.com/risingwavelabs/risingwave/pull/23095)
+- `6f9d56c7e07caff59113bde8078d84e6deb75bda` [feat(optimizer): set `noop_update_hint` for `Project` after `Now` (#23034)](https://github.com/risingwavelabs/risingwave/pull/23034)
+- `f09875e3d540ef41f5f2178b732864c928f60543` [fix: cache cancel table list for compactor notification (#23087)](https://github.com/risingwavelabs/risingwave/pull/23087)
+- `cfc7c1bcfb1dc61c250c9d282e314fa96e3cb35c` [fix(cdc): use `lsn_commit` and `lsn_proc` for pg cdc offset (#22503)](https://github.com/risingwavelabs/risingwave/pull/22503)
 - `9c418bd0b3fefefac3770eb46783649ce06e8275` [fix(sink): Build dist_key in sink-into-table dispatcher (#23069)](https://github.com/risingwavelabs/risingwave/pull/23069)
 
 ## nightly-20250904
