@@ -310,6 +310,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `77830522f9f35d4f3c24716670e97da275c09f6a` [fix: add recover to avoid flaky test (#23060)](https://github.com/risingwavelabs/risingwave/pull/23060)
+- `dcaf966b7fdac7d00d236100f181d74325f4f4a3` [fix: check index dependencies before dropping table in restrict mode (#23101)](https://github.com/risingwavelabs/risingwave/pull/23101)
 - `876e405dc7b1f01070239c91976fb08c6d9800e9` [fix: hnsw off-by-one in insert descent and add visitation tests (#23067)](https://github.com/risingwavelabs/risingwave/pull/23067)
 - `94b99f5cec51c618dc7332ea01eb7fa1e733c42f` [feat(sink): support bigquery credentials with base64 (#23100)](https://github.com/risingwavelabs/risingwave/pull/23100)
 - `9551c84ac01f63726c0471833b34080ca886302b` [feat(sqlparser): support parsing `STRUCT< >` as empty struct (#23099)](https://github.com/risingwavelabs/risingwave/pull/23099)
