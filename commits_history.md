@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250906` `77830522f9f35d4f3c24716670e97da275c09f6a`
 - `20250904` `132e296d3d88861a73cbffb04cfdca35a80f88e2`
 - `20250903` `fbcbbd36720f37a936376bb290cdc60c9224b665`
 - `20250902` `bdaad06e2825362b343bf227f1b8af0ba250a283`
@@ -310,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250906
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/132e296d3d88861a73cbffb04cfdca35a80f88e2...77830522f9f35d4f3c24716670e97da275c09f6a)
 - `77830522f9f35d4f3c24716670e97da275c09f6a` [fix: add recover to avoid flaky test (#23060)](https://github.com/risingwavelabs/risingwave/pull/23060)
 - `dcaf966b7fdac7d00d236100f181d74325f4f4a3` [fix: check index dependencies before dropping table in restrict mode (#23101)](https://github.com/risingwavelabs/risingwave/pull/23101)
 - `876e405dc7b1f01070239c91976fb08c6d9800e9` [fix: hnsw off-by-one in insert descent and add visitation tests (#23067)](https://github.com/risingwavelabs/risingwave/pull/23067)
