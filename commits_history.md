@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250907` `dfef8bed223ce00cc37cbd790fcabfc576a4693f`
 - `20250906` `77830522f9f35d4f3c24716670e97da275c09f6a`
 - `20250904` `132e296d3d88861a73cbffb04cfdca35a80f88e2`
 - `20250903` `fbcbbd36720f37a936376bb290cdc60c9224b665`
@@ -302,7 +303,6 @@
 - `20240910` `596138e0364cc98e02224ea387d6644d9bf9e8cb`
 - `20240909` `29d2e1ef33fad45e8348af9d0de251bbd7ddd194`
 - `20240908` `becb896acd442d32eab4c14dccf558a4b346c643`
-- `20240907` `71753f11223cd0b4d67ba6baf7ac636fa246e7fc`
 </details>
 
 # Commit history
@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `85d8e89ead76973285e5d6ce6c4f2ef4c7cb6aa3` [build: restrict serde to derive feature (#22886)](https://github.com/risingwavelabs/risingwave/pull/22886)
+
+## nightly-20250907
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/77830522f9f35d4f3c24716670e97da275c09f6a...dfef8bed223ce00cc37cbd790fcabfc576a4693f)
 - `dfef8bed223ce00cc37cbd790fcabfc576a4693f` [feat(sqlsmith): integrate reducer into ci (#23011)](https://github.com/risingwavelabs/risingwave/pull/23011)
 
 ## nightly-20250906
@@ -3335,8 +3339,4 @@
 - `9a03718accb10e75cc92b0d27c7ec58cdf0b0c64` [doc(readme): update architecture image (#18418)](https://github.com/risingwavelabs/risingwave/pull/18418)
 
 ## nightly-20240908
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/71753f11223cd0b4d67ba6baf7ac636fa246e7fc...becb896acd442d32eab4c14dccf558a4b346c643)
 - `becb896acd442d32eab4c14dccf558a4b346c643` [fix(iceberg): fix select empty iceberg table (#18449)](https://github.com/risingwavelabs/risingwave/pull/18449)
-
-## nightly-20240907
-- `71753f11223cd0b4d67ba6baf7ac636fa246e7fc` [fix(meta): correctly update serving parallelism mapping (#18439)](https://github.com/risingwavelabs/risingwave/pull/18439)
