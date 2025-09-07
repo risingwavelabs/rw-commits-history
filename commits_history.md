@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dfef8bed223ce00cc37cbd790fcabfc576a4693f` [feat(sqlsmith): integrate reducer into ci (#23011)](https://github.com/risingwavelabs/risingwave/pull/23011)
 
 ## nightly-20250906
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/132e296d3d88861a73cbffb04cfdca35a80f88e2...77830522f9f35d4f3c24716670e97da275c09f6a)
