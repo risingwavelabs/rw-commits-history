@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2f6792377b0763eaa034f35a5641361dc5906e53` [refactor(meta): match fragment type mask correctly (#23124)](https://github.com/risingwavelabs/risingwave/pull/23124)
+- `06963da9c15e06add34b1dacef810b914f31fc24` [refactor(sink): Simplify sink-into-table with new dynamic operator (#22920)](https://github.com/risingwavelabs/risingwave/pull/22920)
+- `74fa792648bc045049fb3d8dc74bd1e5f0a3efc0` [fix(sqlsmith): increase timeout to allow generation of snapshots (#23116)](https://github.com/risingwavelabs/risingwave/pull/23116)
 - `85d8e89ead76973285e5d6ce6c4f2ef4c7cb6aa3` [build: restrict serde to derive feature (#22886)](https://github.com/risingwavelabs/risingwave/pull/22886)
 
 ## nightly-20250907
