@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250908` `2f6792377b0763eaa034f35a5641361dc5906e53`
 - `20250907` `dfef8bed223ce00cc37cbd790fcabfc576a4693f`
 - `20250906` `77830522f9f35d4f3c24716670e97da275c09f6a`
 - `20250904` `132e296d3d88861a73cbffb04cfdca35a80f88e2`
@@ -302,7 +303,6 @@
 - `20240911` `23410f09511f3f75cbd2dbe4813fe766081e6656`
 - `20240910` `596138e0364cc98e02224ea387d6644d9bf9e8cb`
 - `20240909` `29d2e1ef33fad45e8348af9d0de251bbd7ddd194`
-- `20240908` `becb896acd442d32eab4c14dccf558a4b346c643`
 </details>
 
 # Commit history
@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250908
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfef8bed223ce00cc37cbd790fcabfc576a4693f...2f6792377b0763eaa034f35a5641361dc5906e53)
 - `2f6792377b0763eaa034f35a5641361dc5906e53` [refactor(meta): match fragment type mask correctly (#23124)](https://github.com/risingwavelabs/risingwave/pull/23124)
 - `06963da9c15e06add34b1dacef810b914f31fc24` [refactor(sink): Simplify sink-into-table with new dynamic operator (#22920)](https://github.com/risingwavelabs/risingwave/pull/22920)
 - `74fa792648bc045049fb3d8dc74bd1e5f0a3efc0` [fix(sqlsmith): increase timeout to allow generation of snapshots (#23116)](https://github.com/risingwavelabs/risingwave/pull/23116)
@@ -3335,11 +3338,4 @@
 - `8c7a3641d38df253fa71029c134f09b9ab369d1f` [refactor(frontend): extract filling fields in fragment graph (#18466)](https://github.com/risingwavelabs/risingwave/pull/18466)
 
 ## nightly-20240909
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/becb896acd442d32eab4c14dccf558a4b346c643...29d2e1ef33fad45e8348af9d0de251bbd7ddd194)
 - `29d2e1ef33fad45e8348af9d0de251bbd7ddd194` [refactor: track progress minor refactor (#18446)](https://github.com/risingwavelabs/risingwave/pull/18446)
-- `462253e12b6957bf6e20aaaff44335215d8eacfc` [chore: update image version to 2.0.0-rc.1 (#18460)](https://github.com/risingwavelabs/risingwave/pull/18460)
-- `8d5b62b17b2a98b6bb28d492c9cfe72f9dcd787c` [feat: variable vnode count support in batch/streaming scheduler (#18407)](https://github.com/risingwavelabs/risingwave/pull/18407)
-- `9a03718accb10e75cc92b0d27c7ec58cdf0b0c64` [doc(readme): update architecture image (#18418)](https://github.com/risingwavelabs/risingwave/pull/18418)
-
-## nightly-20240908
-- `becb896acd442d32eab4c14dccf558a4b346c643` [fix(iceberg): fix select empty iceberg table (#18449)](https://github.com/risingwavelabs/risingwave/pull/18449)
