@@ -311,6 +311,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ed2d149e46793f03426c207aa8f5927d0e549f39` [chore(ci): move doc build & test to a separate step (#23138)](https://github.com/risingwavelabs/risingwave/pull/23138)
+- `27b08f9abdb33ab0d365023528f4cbdb6d638645` [fix(sink): Relax some alter table column conditions (#23142)](https://github.com/risingwavelabs/risingwave/pull/23142)
+- `0a312b1a02609a208f3b7a1c7ac74a0243d96cb0` [fix(foyer): unify blob index size unit in configuration (#23137)](https://github.com/risingwavelabs/risingwave/pull/23137)
+- `ec81261a520537545deb0af24e69dd8a92cea7cd` [fix(frontend): correctly purify definition for upsert source (#23123)](https://github.com/risingwavelabs/risingwave/pull/23123)
+- `b636a8581a2ad176e8865d0159f2f124e4ca4d83` [feat(optimizer): support index selection for backfilling (part 1) (#23092)](https://github.com/risingwavelabs/risingwave/pull/23092)
+- `6e61fc8bc53227470b83bfacd3bed31bbe03bae3` [fix(meta): Relax sink-into-table recovery checks (#23125)](https://github.com/risingwavelabs/risingwave/pull/23125)
+- `aeb03378fffe71b710f6fd3d143f497067e690d8` [feat(foyer): expose blob size index configuration (#23097)](https://github.com/risingwavelabs/risingwave/pull/23097)
 
 ## nightly-20250908
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfef8bed223ce00cc37cbd790fcabfc576a4693f...2f6792377b0763eaa034f35a5641361dc5906e53)
