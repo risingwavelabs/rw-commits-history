@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250909` `ed2d149e46793f03426c207aa8f5927d0e549f39`
 - `20250908` `2f6792377b0763eaa034f35a5641361dc5906e53`
 - `20250907` `dfef8bed223ce00cc37cbd790fcabfc576a4693f`
 - `20250906` `77830522f9f35d4f3c24716670e97da275c09f6a`
@@ -302,7 +303,6 @@
 - `20240912` `b9ac1ac1f606a3ed1c894db2a69de134660a2924`
 - `20240911` `23410f09511f3f75cbd2dbe4813fe766081e6656`
 - `20240910` `596138e0364cc98e02224ea387d6644d9bf9e8cb`
-- `20240909` `29d2e1ef33fad45e8348af9d0de251bbd7ddd194`
 </details>
 
 # Commit history
@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6411756705112f1e49d636abaa5c99c622fc23a2` [chore(docker): update docker image (#23147)](https://github.com/risingwavelabs/risingwave/pull/23147)
+
+## nightly-20250909
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2f6792377b0763eaa034f35a5641361dc5906e53...ed2d149e46793f03426c207aa8f5927d0e549f39)
 - `ed2d149e46793f03426c207aa8f5927d0e549f39` [chore(ci): move doc build & test to a separate step (#23138)](https://github.com/risingwavelabs/risingwave/pull/23138)
 - `27b08f9abdb33ab0d365023528f4cbdb6d638645` [fix(sink): Relax some alter table column conditions (#23142)](https://github.com/risingwavelabs/risingwave/pull/23142)
 - `0a312b1a02609a208f3b7a1c7ac74a0243d96cb0` [fix(foyer): unify blob index size unit in configuration (#23137)](https://github.com/risingwavelabs/risingwave/pull/23137)
@@ -3335,14 +3339,4 @@
 - `829bef3330581be251d6057f090b29037de0c853` [feat(expr): support map keys/values/entries (#18480)](https://github.com/risingwavelabs/risingwave/pull/18480)
 
 ## nightly-20240910
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29d2e1ef33fad45e8348af9d0de251bbd7ddd194...596138e0364cc98e02224ea387d6644d9bf9e8cb)
 - `596138e0364cc98e02224ea387d6644d9bf9e8cb` [feat(source): configure whether to recursively scan file source (#18324)](https://github.com/risingwavelabs/risingwave/pull/18324)
-- `dc07da010735ac30751df2edbed14591272f6385` [feat(meta): support time travel query on a per-table basis (part1) (#18459)](https://github.com/risingwavelabs/risingwave/pull/18459)
-- `f970372021e3b65587b5ad61a2f6b8e0f8be6abe` [fix(metric): include table_change_log when calculating object size (#18452)](https://github.com/risingwavelabs/risingwave/pull/18452)
-- `99d6121aca3104d08b1dff44941584bbfad58b42` [feat(compaction): support merge compaction group (#18188)](https://github.com/risingwavelabs/risingwave/pull/18188)
-- `952962c03192cf4540485d38037c26a5afb52e21` [refactor: replace `RdKafkaStats` with Guarded metrics (#18462)](https://github.com/risingwavelabs/risingwave/pull/18462)
-- `267939635bcb74b0be8f08d039786e65f359c4a3` [fix: empty string as license key stuck docker compose (#18421)](https://github.com/risingwavelabs/risingwave/pull/18421)
-- `8c7a3641d38df253fa71029c134f09b9ab369d1f` [refactor(frontend): extract filling fields in fragment graph (#18466)](https://github.com/risingwavelabs/risingwave/pull/18466)
-
-## nightly-20240909
-- `29d2e1ef33fad45e8348af9d0de251bbd7ddd194` [refactor: track progress minor refactor (#18446)](https://github.com/risingwavelabs/risingwave/pull/18446)
