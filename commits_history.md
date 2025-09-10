@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250910` `9e004fc167aa698ab71f4aec82b49ead664b7520`
 - `20250909` `ed2d149e46793f03426c207aa8f5927d0e549f39`
 - `20250908` `2f6792377b0763eaa034f35a5641361dc5906e53`
 - `20250907` `dfef8bed223ce00cc37cbd790fcabfc576a4693f`
@@ -311,6 +312,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250910
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ed2d149e46793f03426c207aa8f5927d0e549f39...9e004fc167aa698ab71f4aec82b49ead664b7520)
 - `9e004fc167aa698ab71f4aec82b49ead664b7520` [fix(meta): Fix actors-to-build in snapshot-backfill (#23160)](https://github.com/risingwavelabs/risingwave/pull/23160)
 - `3c301c9d58daf0192f06d24951eb3aa548f08a6d` [fix(sink): Forbid non-migrated tables from sink DDL operations (#23152)](https://github.com/risingwavelabs/risingwave/pull/23152)
 - `ebc1131fa07947c9153a605430934d58eff1c568` [feat: add license check for SmallDataFileCompaction (#23161)](https://github.com/risingwavelabs/risingwave/pull/23161)
