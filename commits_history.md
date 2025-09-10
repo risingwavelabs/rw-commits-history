@@ -311,6 +311,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9e004fc167aa698ab71f4aec82b49ead664b7520` [fix(meta): Fix actors-to-build in snapshot-backfill (#23160)](https://github.com/risingwavelabs/risingwave/pull/23160)
+- `3c301c9d58daf0192f06d24951eb3aa548f08a6d` [fix(sink): Forbid non-migrated tables from sink DDL operations (#23152)](https://github.com/risingwavelabs/risingwave/pull/23152)
+- `ebc1131fa07947c9153a605430934d58eff1c568` [feat: add license check for SmallDataFileCompaction (#23161)](https://github.com/risingwavelabs/risingwave/pull/23161)
+- `7e159bc77f1386371c916c65877ac6c9232089d4` [fix(kinesis): handle kinesis source timeout in dedicated branch (#23159)](https://github.com/risingwavelabs/risingwave/pull/23159)
+- `8163e5b47ccc9dff45c3ea0ed962709affe771f5` [fix(cdc): fix some ssl mode issue (#23117)](https://github.com/risingwavelabs/risingwave/pull/23117)
+- `d52febd4dbc0c04f92fd1f9b3db8d537230d8d65` [chore(deps): Bump tempfile from 3.19.1 to 3.21.0 (#22950)](https://github.com/risingwavelabs/risingwave/pull/22950)
+- `04df7dd058dbe758d3536c53b76bf856f93a20ee` [perf: protobuf parser perf bench (#23122)](https://github.com/risingwavelabs/risingwave/pull/23122)
 - `6411756705112f1e49d636abaa5c99c622fc23a2` [chore(docker): update docker image (#23147)](https://github.com/risingwavelabs/risingwave/pull/23147)
 
 ## nightly-20250909
