@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250911` `7bcb5c6c655e0cf8cd7e629bada490abc54b7e46`
 - `20250910` `9e004fc167aa698ab71f4aec82b49ead664b7520`
 - `20250909` `ed2d149e46793f03426c207aa8f5927d0e549f39`
 - `20250908` `2f6792377b0763eaa034f35a5641361dc5906e53`
@@ -312,6 +313,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c898cc27b1982784d6f5cc085f35a763517800bd` [feat(cdc): record cdc auto schema change failure events in `rw_event_log` (#23103)](https://github.com/risingwavelabs/risingwave/pull/23103)
+
+## nightly-20250911
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9e004fc167aa698ab71f4aec82b49ead664b7520...7bcb5c6c655e0cf8cd7e629bada490abc54b7e46)
 - `7bcb5c6c655e0cf8cd7e629bada490abc54b7e46` [fix: start heartbeat worker early (#23094)](https://github.com/risingwavelabs/risingwave/pull/23094)
 - `ce8835d559e755561f8eac69c5cc4c600fcf825e` [feat(streaming): add a developer config for aggressive no-op update elimination (#23140)](https://github.com/risingwavelabs/risingwave/pull/23140)
 - `1d7e933f0f28040335140b5625f11bfc103d2c74` [feat(optimizer): support index selection for dedup, topn and union (part 2) (#23128)](https://github.com/risingwavelabs/risingwave/pull/23128)
