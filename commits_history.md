@@ -312,6 +312,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7bcb5c6c655e0cf8cd7e629bada490abc54b7e46` [fix: start heartbeat worker early (#23094)](https://github.com/risingwavelabs/risingwave/pull/23094)
+- `ce8835d559e755561f8eac69c5cc4c600fcf825e` [feat(streaming): add a developer config for aggressive no-op update elimination (#23140)](https://github.com/risingwavelabs/risingwave/pull/23140)
+- `1d7e933f0f28040335140b5625f11bfc103d2c74` [feat(optimizer): support index selection for dedup, topn and union (part 2) (#23128)](https://github.com/risingwavelabs/risingwave/pull/23128)
+- `7312daa6a847b39625d18bbd81642749077ad394` [chore(deps): Bump tempfile from 3.21.0 to 3.22.0 (#23167)](https://github.com/risingwavelabs/risingwave/pull/23167)
 
 ## nightly-20250910
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ed2d149e46793f03426c207aa8f5927d0e549f39...9e004fc167aa698ab71f4aec82b49ead664b7520)
