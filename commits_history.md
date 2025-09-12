@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250912` `408aebc69a71dcdc4a944b0d2410e0ac37e49bf8`
 - `20250911` `7bcb5c6c655e0cf8cd7e629bada490abc54b7e46`
 - `20250910` `9e004fc167aa698ab71f4aec82b49ead664b7520`
 - `20250909` `ed2d149e46793f03426c207aa8f5927d0e549f39`
@@ -313,6 +314,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b62f7ab3c50d02e9f7d34c76250205fe148d721f` [feat(pg-cdc): monitor Postgres CDC LSN Progression (#22968)](https://github.com/risingwavelabs/risingwave/pull/22968)
+
+## nightly-20250912
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7bcb5c6c655e0cf8cd7e629bada490abc54b7e46...408aebc69a71dcdc4a944b0d2410e0ac37e49bf8)
 - `408aebc69a71dcdc4a944b0d2410e0ac37e49bf8` [fix: use error instead of warn for source/sink errors (#23178)](https://github.com/risingwavelabs/risingwave/pull/23178)
 - `f13cc5767de996d1df260d46b3abeb49775eca0b` [feat(optimizer): optimize topn's shuffle (#23174)](https://github.com/risingwavelabs/risingwave/pull/23174)
 - `e14fdce1ced8e9a30a398cab2cbca45506cfa4ae` [fix(sink): fix file sink create time issue (#23179)](https://github.com/risingwavelabs/risingwave/pull/23179)
