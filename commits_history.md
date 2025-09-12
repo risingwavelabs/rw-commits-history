@@ -313,6 +313,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `408aebc69a71dcdc4a944b0d2410e0ac37e49bf8` [fix: use error instead of warn for source/sink errors (#23178)](https://github.com/risingwavelabs/risingwave/pull/23178)
+- `f13cc5767de996d1df260d46b3abeb49775eca0b` [feat(optimizer): optimize topn's shuffle (#23174)](https://github.com/risingwavelabs/risingwave/pull/23174)
+- `e14fdce1ced8e9a30a398cab2cbca45506cfa4ae` [fix(sink): fix file sink create time issue (#23179)](https://github.com/risingwavelabs/risingwave/pull/23179)
+- `38508e3e802aeb9b64bdd520ef404a30a03c3a9b` [feat(optimizer): support index selection for backfilling (part 3) (#23171)](https://github.com/risingwavelabs/risingwave/pull/23171)
+- `29ee0c9c6677dcdcbceccfa330e402ff28d06cf1` [feat(source): correctly handle protobuf field presence (#23120)](https://github.com/risingwavelabs/risingwave/pull/23120)
+- `7cab46171acd39c41aa6ec80a312775481caebfe` [chore: replace `serde_derive` with `serde` `derive` feature (#23149)](https://github.com/risingwavelabs/risingwave/pull/23149)
+- `cf21ed9bbe9db2fe6e592becb24ff89187f01229` [fix(batch): apply chunk size configuration (#23173)](https://github.com/risingwavelabs/risingwave/pull/23173)
+- `f57d74c3118330bfa558b22152514e630a7535a5` [feat(mqtt): Add single shared client per mqtt broker for split enumerator (#23003)](https://github.com/risingwavelabs/risingwave/pull/23003)
 - `c898cc27b1982784d6f5cc085f35a763517800bd` [feat(cdc): record cdc auto schema change failure events in `rw_event_log` (#23103)](https://github.com/risingwavelabs/risingwave/pull/23103)
 
 ## nightly-20250911
