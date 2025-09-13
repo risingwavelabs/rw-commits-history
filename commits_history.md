@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250913` `b62f7ab3c50d02e9f7d34c76250205fe148d721f`
 - `20250912` `408aebc69a71dcdc4a944b0d2410e0ac37e49bf8`
 - `20250911` `7bcb5c6c655e0cf8cd7e629bada490abc54b7e46`
 - `20250910` `9e004fc167aa698ab71f4aec82b49ead664b7520`
@@ -314,6 +315,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250913
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/408aebc69a71dcdc4a944b0d2410e0ac37e49bf8...b62f7ab3c50d02e9f7d34c76250205fe148d721f)
 - `b62f7ab3c50d02e9f7d34c76250205fe148d721f` [feat(pg-cdc): monitor Postgres CDC LSN Progression (#22968)](https://github.com/risingwavelabs/risingwave/pull/22968)
 
 ## nightly-20250912
