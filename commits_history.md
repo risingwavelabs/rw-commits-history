@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250915` `a17c11dd33323bc540f9d3c1208a27a7fd476d21`
 - `20250914` `b62f7ab3c50d02e9f7d34c76250205fe148d721f`
 - `20250912` `408aebc69a71dcdc4a944b0d2410e0ac37e49bf8`
 - `20250911` `7bcb5c6c655e0cf8cd7e629bada490abc54b7e46`
@@ -302,7 +303,6 @@
 - `20240918` `5b625f81b06217c4350a57b8457006e6b9bfdd8d`
 - `20240917` `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8`
 - `20240916` `9413b28b5a836bc577a9c50fa8cd223cd137618b`
-- `20240915` `ac966f1c897544afb00a1e71c14bf01d32866388`
 </details>
 
 # Commit history
@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250915
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b62f7ab3c50d02e9f7d34c76250205fe148d721f...a17c11dd33323bc540f9d3c1208a27a7fd476d21)
 - `a17c11dd33323bc540f9d3c1208a27a7fd476d21` [feat(streaming): support ordered-set aggregations (`PERCENTILE_CONT`, `PERCENTILE_DISC`, `MODE`) (#23172)](https://github.com/risingwavelabs/risingwave/pull/23172)
 - `a46933d12aa8c0f4afbddb3082688ed94b05c895` [fix(optimizer): fix watermark columns derivation of dynamic filter (#23180)](https://github.com/risingwavelabs/risingwave/pull/23180)
 - `bb933720ccaf4ade659ed06178464fcffbc75c1f` [feat(optimizer): improve batch index selection for or condition (#23193)](https://github.com/risingwavelabs/risingwave/pull/23193)
@@ -3336,9 +3339,4 @@
 - `91677683efdbefdb04bb2fb18f16d3183d183347` [fix(stream): handle `0.0` case of approx percentile, and fix computation of `quantile_count` (#18546)](https://github.com/risingwavelabs/risingwave/pull/18546)
 
 ## nightly-20240916
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ac966f1c897544afb00a1e71c14bf01d32866388...9413b28b5a836bc577a9c50fa8cd223cd137618b)
 - `9413b28b5a836bc577a9c50fa8cd223cd137618b` [test: s3 source with additional column payload  (#18496)](https://github.com/risingwavelabs/risingwave/pull/18496)
-- `789d34503b9782d1ee23b4e0f2822d494954a16d` [fix: dup split assignment in source (#18541)](https://github.com/risingwavelabs/risingwave/pull/18541)
-
-## nightly-20240915
-- `ac966f1c897544afb00a1e71c14bf01d32866388` [refactor(test): refactor some ut for hummock (#18534)](https://github.com/risingwavelabs/risingwave/pull/18534)
