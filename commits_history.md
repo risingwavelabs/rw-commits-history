@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250916` `c09d5a7604200ac827fdbd26866ff28775c92717`
 - `20250915` `a17c11dd33323bc540f9d3c1208a27a7fd476d21`
 - `20250914` `b62f7ab3c50d02e9f7d34c76250205fe148d721f`
 - `20250912` `408aebc69a71dcdc4a944b0d2410e0ac37e49bf8`
@@ -302,7 +303,6 @@
 - `20240919` `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6`
 - `20240918` `5b625f81b06217c4350a57b8457006e6b9bfdd8d`
 - `20240917` `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8`
-- `20240916` `9413b28b5a836bc577a9c50fa8cd223cd137618b`
 </details>
 
 # Commit history
@@ -311,6 +311,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bb600ca9c72aef5386e7557697a5109eba612dbc` [chore(ci): increase CI timeout for build other components (#23227)](https://github.com/risingwavelabs/risingwave/pull/23227)
+- `18741f86e4bc9c3413daebd9827b4d63a50ed3d5` [refactor(source): remove actor_splits in StreamJobFragments (#23212)](https://github.com/risingwavelabs/risingwave/pull/23212)
+- `d63ea76b6cf7eb4a22bb29c6c439f4b103dea415` [fix(iceberg): fix iceberg compact get sink error (#23217)](https://github.com/risingwavelabs/risingwave/pull/23217)
+
+## nightly-20250916
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a17c11dd33323bc540f9d3c1208a27a7fd476d21...c09d5a7604200ac827fdbd26866ff28775c92717)
 - `c09d5a7604200ac827fdbd26866ff28775c92717` [chore: set EventLogServiceServer to allow unlimited message size (#23203)](https://github.com/risingwavelabs/risingwave/pull/23203)
 - `7b4f01f080642701f357567a6f53775ffba0437d` [feat: batch source (#23024)](https://github.com/risingwavelabs/risingwave/pull/23024)
 - `f54a8860cd2eafabab90a871fd15faf0e67e515f` [fix(meta): isolate barrier injection pause between databases (#23206)](https://github.com/risingwavelabs/risingwave/pull/23206)
@@ -3333,13 +3339,4 @@
 - `2b9280f2333ac857864bf510158f34ee79fa6b51` [fix(test): fix version sort and handle case where release branch is current branch (#18562)](https://github.com/risingwavelabs/risingwave/pull/18562)
 
 ## nightly-20240917
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9413b28b5a836bc577a9c50fa8cd223cd137618b...1c04a5ce3ab2cc605abd6cf4367017433b63c7d8)
 - `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8` [feat(mqtt): Add max_packet_size option to MQTT Source (#18520)](https://github.com/risingwavelabs/risingwave/pull/18520)
-- `ee62b43cf779ca0a27c64fd3e4b7deacd90d9478` [chore: use Postgres meta backend for `risedev d full` (#18560)](https://github.com/risingwavelabs/risingwave/pull/18560)
-- `604fdc8d7a679eda3d21c656215cb4b4bf4728aa` [fix(sink): remove some todo!() with error (#18550)](https://github.com/risingwavelabs/risingwave/pull/18550)
-- `9c6cec19592a16367ab76f5a26c57b730645bd69` [fix: revert split assignment check (#18554)](https://github.com/risingwavelabs/risingwave/pull/18554)
-- `11ad34b24ff2ef5a26c9d91ba386b825030807cc` [fix(metadata v2): existing actor splits were not updated (#18553)](https://github.com/risingwavelabs/risingwave/pull/18553)
-- `91677683efdbefdb04bb2fb18f16d3183d183347` [fix(stream): handle `0.0` case of approx percentile, and fix computation of `quantile_count` (#18546)](https://github.com/risingwavelabs/risingwave/pull/18546)
-
-## nightly-20240916
-- `9413b28b5a836bc577a9c50fa8cd223cd137618b` [test: s3 source with additional column payload  (#18496)](https://github.com/risingwavelabs/risingwave/pull/18496)
