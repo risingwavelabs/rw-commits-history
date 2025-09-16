@@ -311,6 +311,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c09d5a7604200ac827fdbd26866ff28775c92717` [chore: set EventLogServiceServer to allow unlimited message size (#23203)](https://github.com/risingwavelabs/risingwave/pull/23203)
+- `7b4f01f080642701f357567a6f53775ffba0437d` [feat: batch source (#23024)](https://github.com/risingwavelabs/risingwave/pull/23024)
+- `f54a8860cd2eafabab90a871fd15faf0e67e515f` [fix(meta): isolate barrier injection pause between databases (#23206)](https://github.com/risingwavelabs/risingwave/pull/23206)
 
 ## nightly-20250915
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b62f7ab3c50d02e9f7d34c76250205fe148d721f...a17c11dd33323bc540f9d3c1208a27a7fd476d21)
