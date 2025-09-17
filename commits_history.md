@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250917` `234b3138c505cec92240cdf61a35a18486f11a0e`
 - `20250916` `c09d5a7604200ac827fdbd26866ff28775c92717`
 - `20250915` `a17c11dd33323bc540f9d3c1208a27a7fd476d21`
 - `20250914` `b62f7ab3c50d02e9f7d34c76250205fe148d721f`
@@ -302,7 +303,6 @@
 - `20240920` `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a`
 - `20240919` `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6`
 - `20240918` `5b625f81b06217c4350a57b8457006e6b9bfdd8d`
-- `20240917` `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8`
 </details>
 
 # Commit history
@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c791739f79e94f581eeb22d7d1e7de77f9f01bc6` [refactor: use state machine for `MaterializeExecutor`  (#23234)](https://github.com/risingwavelabs/risingwave/pull/23234)
+
+## nightly-20250917
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c09d5a7604200ac827fdbd26866ff28775c92717...234b3138c505cec92240cdf61a35a18486f11a0e)
 - `234b3138c505cec92240cdf61a35a18486f11a0e` [chore(doc): Update documentation check condition in workflow (#23200)](https://github.com/risingwavelabs/risingwave/pull/23200)
 - `bb600ca9c72aef5386e7557697a5109eba612dbc` [chore(ci): increase CI timeout for build other components (#23227)](https://github.com/risingwavelabs/risingwave/pull/23227)
 - `18741f86e4bc9c3413daebd9827b4d63a50ed3d5` [refactor(source): remove actor_splits in StreamJobFragments (#23212)](https://github.com/risingwavelabs/risingwave/pull/23212)
@@ -3323,21 +3327,4 @@
 - `ff479f60996f9ac61b0d8b5ddf40370c8b0217f8` [refactor(storage): remove legacy delta type `GroupMetaChange` and `GroupTableChange` (#18585)](https://github.com/risingwavelabs/risingwave/pull/18585)
 
 ## nightly-20240918
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c04a5ce3ab2cc605abd6cf4367017433b63c7d8...5b625f81b06217c4350a57b8457006e6b9bfdd8d)
 - `5b625f81b06217c4350a57b8457006e6b9bfdd8d` [refactor(stream): make `degree_state` field in `JoinHashMap` an Option (#18539)](https://github.com/risingwavelabs/risingwave/pull/18539)
-- `4ec727d5e07370d1d358e4026322893aef73e962` [chore(deps): bump next from 14.1.1 to 14.2.12 in /dashboard (#18568)](https://github.com/risingwavelabs/risingwave/pull/18568)
-- `b1a38b36e51e5c0b9411666314d756c9e38a5d83` [feat(compaction): introduce new task status for serverless compaction (#18575)](https://github.com/risingwavelabs/risingwave/pull/18575)
-- `745fb16fec638178c7a862dfaa2ffd23b076ddaa` [fix: Fix the panic caused by scaling with a single fragment downstream of no shuffle (#18581)](https://github.com/risingwavelabs/risingwave/pull/18581)
-- `da08cd5a377bae3b0394e65a952f9b9f82aa9e18` [fix(ci): fix static link for `openssl` (#18569)](https://github.com/risingwavelabs/risingwave/pull/18569)
-- `25b0cc9362ea931367e245c45d6ebea85804c286` [refactor(connector): replace `protobuf-native` with `protox` for schema compiling (#18543)](https://github.com/risingwavelabs/risingwave/pull/18543)
-- `a3c6e48c67cf666d382c8e3fcb2afc451c8bcdc5` [refactor: unify to subscribe mutation via barrier sender (#18255)](https://github.com/risingwavelabs/risingwave/pull/18255)
-- `06d5cdef259ecd67aa0a09d4e362f9ec80436aa8` [refactor: maintain subscriptions in local barrier worker (#18516)](https://github.com/risingwavelabs/risingwave/pull/18516)
-- `3ee3b2cb084586a9a39ba0b922473bce7421a02c` [refactor(storage): deprecate code of range delete (#18525)](https://github.com/risingwavelabs/risingwave/pull/18525)
-- `6ca719f546b44ca04fd2c5a36c4090736e11155b` [feat(metrics): support filtering metrics by name in Prometheus scrape handler (#18556)](https://github.com/risingwavelabs/risingwave/pull/18556)
-- `f19dec52daba2f27d80e7fa5aba8974b7c252bd3` [fix(optimizer): correctly derive cardinality for group top-n (#18561)](https://github.com/risingwavelabs/risingwave/pull/18561)
-- `24336eb97df1c8ee9348d627d317daa501a3b178` [refactor(state table): replace `new_` series with `gen_` series (#18566)](https://github.com/risingwavelabs/risingwave/pull/18566)
-- `3b3dda7dc8f6c8c8b248c89eb0eee36336efd9a8` [fix(test): fix `current_branch` for backwards compat test (#18565)](https://github.com/risingwavelabs/risingwave/pull/18565)
-- `2b9280f2333ac857864bf510158f34ee79fa6b51` [fix(test): fix version sort and handle case where release branch is current branch (#18562)](https://github.com/risingwavelabs/risingwave/pull/18562)
-
-## nightly-20240917
-- `1c04a5ce3ab2cc605abd6cf4367017433b63c7d8` [feat(mqtt): Add max_packet_size option to MQTT Source (#18520)](https://github.com/risingwavelabs/risingwave/pull/18520)
