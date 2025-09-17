@@ -311,6 +311,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `234b3138c505cec92240cdf61a35a18486f11a0e` [chore(doc): Update documentation check condition in workflow (#23200)](https://github.com/risingwavelabs/risingwave/pull/23200)
 - `bb600ca9c72aef5386e7557697a5109eba612dbc` [chore(ci): increase CI timeout for build other components (#23227)](https://github.com/risingwavelabs/risingwave/pull/23227)
 - `18741f86e4bc9c3413daebd9827b4d63a50ed3d5` [refactor(source): remove actor_splits in StreamJobFragments (#23212)](https://github.com/risingwavelabs/risingwave/pull/23212)
 - `d63ea76b6cf7eb4a22bb29c6c439f4b103dea415` [fix(iceberg): fix iceberg compact get sink error (#23217)](https://github.com/risingwavelabs/risingwave/pull/23217)
