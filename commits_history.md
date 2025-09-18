@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250918` `b7c6fe53bbcacbd21ee7ce52a0cb91e10ea53521`
 - `20250917` `234b3138c505cec92240cdf61a35a18486f11a0e`
 - `20250916` `c09d5a7604200ac827fdbd26866ff28775c92717`
 - `20250915` `a17c11dd33323bc540f9d3c1208a27a7fd476d21`
@@ -302,7 +303,6 @@
 - `20240921` `98a2d410ab40f58d2bc24b296aee6f644e380229`
 - `20240920` `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a`
 - `20240919` `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6`
-- `20240918` `5b625f81b06217c4350a57b8457006e6b9bfdd8d`
 </details>
 
 # Commit history
@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3f1db15783705f5c120db2ac0a58f42df9eae1c0` [refactor(frontend): reduce reserved keywords in explain options (#23208)](https://github.com/risingwavelabs/risingwave/pull/23208)
+
+## nightly-20250918
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/234b3138c505cec92240cdf61a35a18486f11a0e...b7c6fe53bbcacbd21ee7ce52a0cb91e10ea53521)
 - `b7c6fe53bbcacbd21ee7ce52a0cb91e10ea53521` [feat(sink): support redis sink tls (#23223)](https://github.com/risingwavelabs/risingwave/pull/23223)
 - `04df78cbc19c466198bd8d71627c7c651991e3d5` [refactor: deprecate actor_splits in SouceManager (#23165)](https://github.com/risingwavelabs/risingwave/pull/23165)
 - `898203661ed2301ebde8f186c4be5e60c932e094` [feat(streaming): introduce upsert behavior for filter executor (#23209)](https://github.com/risingwavelabs/risingwave/pull/23209)
@@ -3324,13 +3328,4 @@
 - `89f93df1812e7470faa50df522e47c184fb7c6d4` [feat(sink): support sink map to avro (#18551)](https://github.com/risingwavelabs/risingwave/pull/18551)
 
 ## nightly-20240919
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5b625f81b06217c4350a57b8457006e6b9bfdd8d...97a329350a14d747e0eae31e4e1c86ff3d4d4ea6)
 - `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6` [feat(storage): introduce merge group metrics and corrects some config (#18576)](https://github.com/risingwavelabs/risingwave/pull/18576)
-- `c7b6fff8a9328eedbae145697ab2eac0d1d84b89` [fix(catalog): add views' dependencies in `rw_depend` (#18596)](https://github.com/risingwavelabs/risingwave/pull/18596)
-- `57f828500e6343efc7a7e7bafd080b8cc8a7295f` [fix: fix message_queue image tag in docker compose (#18602)](https://github.com/risingwavelabs/risingwave/pull/18602)
-- `d353d1332795c3c46d80f9b2950169029e6859d8` [feat: improve error of building key encoder (#18563)](https://github.com/risingwavelabs/risingwave/pull/18563)
-- `0f1984a58cdb318158c707723057eeded71bcc09` [chore(scale): Report an error instead of asserting for unsatisfied conditions in the plan.  (#18589)](https://github.com/risingwavelabs/risingwave/pull/18589)
-- `ff479f60996f9ac61b0d8b5ddf40370c8b0217f8` [refactor(storage): remove legacy delta type `GroupMetaChange` and `GroupTableChange` (#18585)](https://github.com/risingwavelabs/risingwave/pull/18585)
-
-## nightly-20240918
-- `5b625f81b06217c4350a57b8457006e6b9bfdd8d` [refactor(stream): make `degree_state` field in `JoinHashMap` an Option (#18539)](https://github.com/risingwavelabs/risingwave/pull/18539)
