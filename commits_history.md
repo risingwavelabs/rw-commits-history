@@ -311,6 +311,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b7c6fe53bbcacbd21ee7ce52a0cb91e10ea53521` [feat(sink): support redis sink tls (#23223)](https://github.com/risingwavelabs/risingwave/pull/23223)
+- `04df78cbc19c466198bd8d71627c7c651991e3d5` [refactor: deprecate actor_splits in SouceManager (#23165)](https://github.com/risingwavelabs/risingwave/pull/23165)
+- `898203661ed2301ebde8f186c4be5e60c932e094` [feat(streaming): introduce upsert behavior for filter executor (#23209)](https://github.com/risingwavelabs/risingwave/pull/23209)
+- `5859e1fcc119026d3ac5e8204970b2efdd9822fd` [refactor(types): introduce wrapper type `ListType` for `DataType::List` (#23237)](https://github.com/risingwavelabs/risingwave/pull/23237)
+- `2861c609b8f0a3be02bfd5ea1a7f443d8d206abb` [fix(doc): Fix outdated links in readme (#23243)](https://github.com/risingwavelabs/risingwave/pull/23243)
+- `160fb80fa673965522b9727ef67c460c63cf78f0` [fix: map_contains with polymorphic type (#22084)](https://github.com/risingwavelabs/risingwave/pull/22084)
 - `c791739f79e94f581eeb22d7d1e7de77f9f01bc6` [refactor: use state machine for `MaterializeExecutor`  (#23234)](https://github.com/risingwavelabs/risingwave/pull/23234)
 
 ## nightly-20250917
