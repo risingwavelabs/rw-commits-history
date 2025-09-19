@@ -311,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dce92415d8636d7e9188b2cf58ce99943c26c447` [feat(frontend): support creating upsert source & basic ETL usage (#22856)](https://github.com/risingwavelabs/risingwave/pull/22856)
+- `3717afcadd0d37578987c06bf1aa079a07a296ad` [fix(ci): move backfill test from `e2e-test-serial.sh` to `slow-e2e-test.sh` (#23250)](https://github.com/risingwavelabs/risingwave/pull/23250)
+- `fa879a183dcf92cb5c47041dddaa1f8e4170718e` [refactor(types): follow-ups of using `ListType` for `DataType::List` (#23248)](https://github.com/risingwavelabs/risingwave/pull/23248)
+- `e6eec9e5ed2472f44cf5e5f546588dfe0cd71e77` [feat(kinesis): add more metrics for Kinesis source (#23245)](https://github.com/risingwavelabs/risingwave/pull/23245)
 - `3f1db15783705f5c120db2ac0a58f42df9eae1c0` [refactor(frontend): reduce reserved keywords in explain options (#23208)](https://github.com/risingwavelabs/risingwave/pull/23208)
 
 ## nightly-20250918
