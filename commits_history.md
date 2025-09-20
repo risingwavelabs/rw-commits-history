@@ -303,7 +303,6 @@
 - `20240922` `bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d`
 - `20240921` `98a2d410ab40f58d2bc24b296aee6f644e380229`
 - `20240920` `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a`
-- `20240919` `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6`
 </details>
 
 # Commit history
@@ -3315,26 +3314,4 @@
 - `98a2d410ab40f58d2bc24b296aee6f644e380229` [chore(cdc): update sea-schema version to 0.15 (#18521)](https://github.com/risingwavelabs/risingwave/pull/18521)
 
 ## nightly-20240920
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/97a329350a14d747e0eae31e4e1c86ff3d4d4ea6...2b8f6a6be6a283b8cfc0f4b348092d897573cc5a)
 - `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a` [fix: fix flaky simulation integration test cancel ddl (#18626)](https://github.com/risingwavelabs/risingwave/pull/18626)
-- `409bc8d1b088f122ebe2285e5ef2dfff2fd12775` [refactor(meta): deprecate pin/unpin snapshot (#18493)](https://github.com/risingwavelabs/risingwave/pull/18493)
-- `6b29ec919341cccd6ce41dcf1280b900a68485bf` [feat(storage): variable vnode count support (#18415)](https://github.com/risingwavelabs/risingwave/pull/18415)
-- `eb2d9f4f773265e0d6ffa0ea1d3f6f27ddcd1d93` [chore(deps): bump sqlx from 0.7.2 to 0.8.1 in /integration_tests/feature-store/server (#18617)](https://github.com/risingwavelabs/risingwave/pull/18617)
-- `5652a1f66e651773072a34859f3c1d4b0a3b3527` [build(deps): bump arrow-udf to use arrow 52 (#18609)](https://github.com/risingwavelabs/risingwave/pull/18609)
-- `3c94345bd553ec83a911d4945c498b3484194d65` [refactor: minor refactor on create/alter source (#18619)](https://github.com/risingwavelabs/risingwave/pull/18619)
-- `3c743902d4922fe47aee472b1dc6ef51d4e67dc8` [feat(subscription): add metrics for cursor (#18052)](https://github.com/risingwavelabs/risingwave/pull/18052)
-- `af98091c3e9e29535584690896f4cc7e0e67898a` [refactor(compaction): deprecate safe_epoch (#18491)](https://github.com/risingwavelabs/risingwave/pull/18491)
-- `767dbc156022e964ef66ba7f164c5febc6a17d5f` [fix: forbid the usage of single quotation in title to avoid failure of cherry-pick (#18614)](https://github.com/risingwavelabs/risingwave/pull/18614)
-- `c6db8013319c4f540f9b2c93fc1671472e3757b2` [refactor: refactor arrow conversion (#18608)](https://github.com/risingwavelabs/risingwave/pull/18608)
-- `82ac534a92c3b269f5da3d7a4142297beb7e031c` [feat: upgrade foyer to 0.11.3 (#18313)](https://github.com/risingwavelabs/risingwave/pull/18313)
-- `4bc3b28d7eac7e9c9700b76b41ce0fc5350069c1` [refactor(iceberg): extract IcebergCommon config (#18600)](https://github.com/risingwavelabs/risingwave/pull/18600)
-- `5aca9144e5bd937b3427bb9bfdce9f9cea013860` [feat(sink): support sink map to protobuf (#18552)](https://github.com/risingwavelabs/risingwave/pull/18552)
-- `ff2d937735133e7135d83c0d532fb9daa10141a7` [refactor(state table): cleanup `StateTable::seal_current_epoch` (#18578)](https://github.com/risingwavelabs/risingwave/pull/18578)
-- `4ba84deb9f328c8eaaab56b388a4e409ef77d1fb` [feat(storage): notify frontend with more hummock version info (#18570)](https://github.com/risingwavelabs/risingwave/pull/18570)
-- `759efe3fda4937881e9ad5d5387cb4bc685813e8` [feat(iceberg): support position delete for iceberg source  (#18579)](https://github.com/risingwavelabs/risingwave/pull/18579)
-- `57f01de196ff6e8e5f3e6adc6abfe438ba63b5d1` [chore: update image version to v2.0.0 (#18574)](https://github.com/risingwavelabs/risingwave/pull/18574)
-- `8b0c5a3e11a40d20a91c42a85b637717f4fea2d3` [feat(dashboard): add backpressure to the relation dependency graph (#18280)](https://github.com/risingwavelabs/risingwave/pull/18280)
-- `89f93df1812e7470faa50df522e47c184fb7c6d4` [feat(sink): support sink map to avro (#18551)](https://github.com/risingwavelabs/risingwave/pull/18551)
-
-## nightly-20240919
-- `97a329350a14d747e0eae31e4e1c86ff3d4d4ea6` [feat(storage): introduce merge group metrics and corrects some config (#18576)](https://github.com/risingwavelabs/risingwave/pull/18576)
