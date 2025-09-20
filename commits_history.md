@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250920` `44fce447e0f8c0143b6e6b771d2758e37e754791`
 - `20250919` `dce92415d8636d7e9188b2cf58ce99943c26c447`
 - `20250918` `b7c6fe53bbcacbd21ee7ce52a0cb91e10ea53521`
 - `20250917` `234b3138c505cec92240cdf61a35a18486f11a0e`
@@ -311,6 +312,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250920
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dce92415d8636d7e9188b2cf58ce99943c26c447...44fce447e0f8c0143b6e6b771d2758e37e754791)
 - `44fce447e0f8c0143b6e6b771d2758e37e754791` [feat: avoid populating the high part of append-only group topn cache (#23264)](https://github.com/risingwavelabs/risingwave/pull/23264)
 
 ## nightly-20250919
