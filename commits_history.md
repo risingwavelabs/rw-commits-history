@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250920` `44fce447e0f8c0143b6e6b771d2758e37e754791`
+- `20250921` `44fce447e0f8c0143b6e6b771d2758e37e754791`
 - `20250919` `dce92415d8636d7e9188b2cf58ce99943c26c447`
 - `20250918` `b7c6fe53bbcacbd21ee7ce52a0cb91e10ea53521`
 - `20250917` `234b3138c505cec92240cdf61a35a18486f11a0e`
@@ -302,8 +302,6 @@
 - `20240924` `29adeb97370b6a77a4dcc857ac55249016dc3be9`
 - `20240923` `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a`
 - `20240922` `bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d`
-- `20240921` `98a2d410ab40f58d2bc24b296aee6f644e380229`
-- `20240920` `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a`
 </details>
 
 # Commit history
@@ -313,7 +311,7 @@
 
 ## Unreleased
 
-## nightly-20250920
+## nightly-20250921
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dce92415d8636d7e9188b2cf58ce99943c26c447...44fce447e0f8c0143b6e6b771d2758e37e754791)
 - `44fce447e0f8c0143b6e6b771d2758e37e754791` [feat: avoid populating the high part of append-only group topn cache (#23264)](https://github.com/risingwavelabs/risingwave/pull/23264)
 
@@ -3310,12 +3308,4 @@
 - `bfa43091930004d008bcd0b3bd7407549e06c6d7` [refactor(object store): OpenDAL write concurrent = 256 (#18590)](https://github.com/risingwavelabs/risingwave/pull/18590)
 
 ## nightly-20240922
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98a2d410ab40f58d2bc24b296aee6f644e380229...bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d)
 - `bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d` [fix(pg-cdc): fix support for partitioned table (#18456)](https://github.com/risingwavelabs/risingwave/pull/18456)
-
-## nightly-20240921
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2b8f6a6be6a283b8cfc0f4b348092d897573cc5a...98a2d410ab40f58d2bc24b296aee6f644e380229)
-- `98a2d410ab40f58d2bc24b296aee6f644e380229` [chore(cdc): update sea-schema version to 0.15 (#18521)](https://github.com/risingwavelabs/risingwave/pull/18521)
-
-## nightly-20240920
-- `2b8f6a6be6a283b8cfc0f4b348092d897573cc5a` [fix: fix flaky simulation integration test cancel ddl (#18626)](https://github.com/risingwavelabs/risingwave/pull/18626)
