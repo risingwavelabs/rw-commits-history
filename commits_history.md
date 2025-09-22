@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250922` `7b42daa4fadcf7d4ce9bf079972c290a2176d375`
 - `20250921` `44fce447e0f8c0143b6e6b771d2758e37e754791`
 - `20250919` `dce92415d8636d7e9188b2cf58ce99943c26c447`
 - `20250918` `b7c6fe53bbcacbd21ee7ce52a0cb91e10ea53521`
@@ -301,7 +302,6 @@
 - `20240925` `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa`
 - `20240924` `29adeb97370b6a77a4dcc857ac55249016dc3be9`
 - `20240923` `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a`
-- `20240922` `bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d`
 </details>
 
 # Commit history
@@ -310,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250922
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/44fce447e0f8c0143b6e6b771d2758e37e754791...7b42daa4fadcf7d4ce9bf079972c290a2176d375)
 - `7b42daa4fadcf7d4ce9bf079972c290a2176d375` [fix: inaccurate join barrier processing time and description (#22573)](https://github.com/risingwavelabs/risingwave/pull/22573)
 - `9d8556661caba94b8ea0213e197641a04d7d0de5` [fix(mysql-cdc): support `timstamptz` as primary key when backfilling (#23272)](https://github.com/risingwavelabs/risingwave/pull/23272)
 - `979e4806ecf6dbc50ee427cee36d2a423d4cb554` [test(mysql-cdc): test MySQL CDC support for partitioning (#23222)](https://github.com/risingwavelabs/risingwave/pull/23222)
@@ -3304,15 +3307,4 @@
 - `a5ec3eaacf649a42cc3bb496eef73e3be6e0c7cc` [refactor(rpc): prefer `monitored_connect` over `connect` (#18635)](https://github.com/risingwavelabs/risingwave/pull/18635)
 
 ## nightly-20240923
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d...a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a)
 - `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a` [feat(frontend): generate query epoch by committed epoch of involved tables (#18592)](https://github.com/risingwavelabs/risingwave/pull/18592)
-- `5e427d6c318f4489253495d668bfd7dfa27449ca` [feat(batch): enable batch query metric by default and only collect node level data (#18627)](https://github.com/risingwavelabs/risingwave/pull/18627)
-- `f3bd45624227f9eb1b3182f1e8bb7919a71a09b8` [refactor(agg): separate semantics of `AggKind` and `AggType` (#18640)](https://github.com/risingwavelabs/risingwave/pull/18640)
-- `92317823a2aa4f4342a74528c721f983d2e39aaa` [fix(meta): fix type conversion (#18638)](https://github.com/risingwavelabs/risingwave/pull/18638)
-- `8fa0468689002dc919c2560e1a264f754d5dc4d9` [chore(dashboard): rename relation dependency graph to relation graph (#18612)](https://github.com/risingwavelabs/risingwave/pull/18612)
-- `039af9dd98477abd1e24cf52caeeff56bcd90e9b` [refactor(meta): remove BarrierInfo and reduce pause and resume log output (#18630)](https://github.com/risingwavelabs/risingwave/pull/18630)
-- `2651278ac2a301fa23229b39eb66432515f33c51` [feat(frontend): frontend wait hummock version id for ddl (#18613)](https://github.com/risingwavelabs/risingwave/pull/18613)
-- `bfa43091930004d008bcd0b3bd7407549e06c6d7` [refactor(object store): OpenDAL write concurrent = 256 (#18590)](https://github.com/risingwavelabs/risingwave/pull/18590)
-
-## nightly-20240922
-- `bc65ffbf0cf58eadcff87930bc69cb5a8bbcf56d` [fix(pg-cdc): fix support for partitioned table (#18456)](https://github.com/risingwavelabs/risingwave/pull/18456)
