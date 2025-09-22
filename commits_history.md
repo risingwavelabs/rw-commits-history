@@ -310,6 +310,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7b42daa4fadcf7d4ce9bf079972c290a2176d375` [fix: inaccurate join barrier processing time and description (#22573)](https://github.com/risingwavelabs/risingwave/pull/22573)
+- `9d8556661caba94b8ea0213e197641a04d7d0de5` [fix(mysql-cdc): support `timstamptz` as primary key when backfilling (#23272)](https://github.com/risingwavelabs/risingwave/pull/23272)
+- `979e4806ecf6dbc50ee427cee36d2a423d4cb554` [test(mysql-cdc): test MySQL CDC support for partitioning (#23222)](https://github.com/risingwavelabs/risingwave/pull/23222)
+- `8f1fe6a7ad7198e3cd5fc3d7e08023ab3e834de9` [fix: update dropped table cache for pre-applied commands in recovery (#23216)](https://github.com/risingwavelabs/risingwave/pull/23216)
+- `892292d84ae3ad35c9b1cb68bfba8347b2c65988` [feat(pgwire): support copy query to stdout (#23198)](https://github.com/risingwavelabs/risingwave/pull/23198)
+- `940381c770e9dc3f04fd0e400a9adb7bb36b381a` [refactor(types): more explicit methods on `ListValue` and `ListRef` (#23262)](https://github.com/risingwavelabs/risingwave/pull/23262)
+- `7d253c2949cb48798c82375953a76433d973f860` [doc: add macOS setup instructions for apple silicon mac (#23261)](https://github.com/risingwavelabs/risingwave/pull/23261)
 
 ## nightly-20250921
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dce92415d8636d7e9188b2cf58ce99943c26c447...44fce447e0f8c0143b6e6b771d2758e37e754791)
