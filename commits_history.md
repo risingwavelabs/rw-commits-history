@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250923` `48f5eb5693b6e52017468140753bc096288911ed`
 - `20250922` `7b42daa4fadcf7d4ce9bf079972c290a2176d375`
 - `20250921` `44fce447e0f8c0143b6e6b771d2758e37e754791`
 - `20250919` `dce92415d8636d7e9188b2cf58ce99943c26c447`
@@ -301,7 +302,6 @@
 - `20240926` `75080b765e5914c07e906de4eff7f16146aa207d`
 - `20240925` `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa`
 - `20240924` `29adeb97370b6a77a4dcc857ac55249016dc3be9`
-- `20240923` `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a`
 </details>
 
 # Commit history
@@ -310,6 +310,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fb7b1464e067e308d249de8ea75a08bdd0f89bf4` [feat: support iceberg sink write_stop (#23187)](https://github.com/risingwavelabs/risingwave/pull/23187)
+
+## nightly-20250923
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7b42daa4fadcf7d4ce9bf079972c290a2176d375...48f5eb5693b6e52017468140753bc096288911ed)
 - `48f5eb5693b6e52017468140753bc096288911ed` [feat: metric indicating barrier_interval_ms (#23258)](https://github.com/risingwavelabs/risingwave/pull/23258)
 - `222c6032e56c0d5ae442f30cf565fa4153321698` [feat(streaming): allow configuring number of cached rows in TopN cache per group key (#23257)](https://github.com/risingwavelabs/risingwave/pull/23257)
 
@@ -3291,22 +3295,4 @@
 - `c467dcdc46ab8462a4794165ef64bfe671d98ef1` [fix(scale): Fixed propagation issue with low level no shuffle scale in the sql backend  (#18676)](https://github.com/risingwavelabs/risingwave/pull/18676)
 
 ## nightly-20240924
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a...29adeb97370b6a77a4dcc857ac55249016dc3be9)
 - `29adeb97370b6a77a4dcc857ac55249016dc3be9` [refactor(storage): adapt time travel cache to partial checkpoint (#18646)](https://github.com/risingwavelabs/risingwave/pull/18646)
-- `4401694e4e96eec9e26be7384d26c0460b88e9e1` [chore(ci): build v1.10.2 from source for backwards compat tests (#18667)](https://github.com/risingwavelabs/risingwave/pull/18667)
-- `de73970705424e11a9bf16950402efc860bd3944` [feat(cdc): support default column in auto schema mapping (#18571)](https://github.com/risingwavelabs/risingwave/pull/18571)
-- `75cc17b7178f5a5ffadf5b75fec18c05c99de2f7` [fix(ci): correct release check (#18666)](https://github.com/risingwavelabs/risingwave/pull/18666)
-- `5f800b9a167c8850f048145adc9d6af7ea7ad22c` [feat(streaming): support up to 16-bit vnode count in row id gen (#18529)](https://github.com/risingwavelabs/risingwave/pull/18529)
-- `a24d557083748db6d62f7481bbd6cfbbe3f57eef` [chore(risedev): add `env` fields in schema of risedev profile (#18665)](https://github.com/risingwavelabs/risingwave/pull/18665)
-- `7b977a2e7d222f4666a698941c0ca845e62f5552` [feat: support per-fragment vnode count (#18444)](https://github.com/risingwavelabs/risingwave/pull/18444)
-- `fe01e22d41923c150a8e0b7d784d12695a452972` [refactor(test): migrate s3 parquet test from s3 to minio (#18662)](https://github.com/risingwavelabs/risingwave/pull/18662)
-- `6eaecbb21e4e3acd11cf5ec158efcf3451457cae` [fix(ci): build 2.0.0 from source in backwards compat test (#18649)](https://github.com/risingwavelabs/risingwave/pull/18649)
-- `148a5fceca496c06e5e244cf86e55878c697ea1b` [fix: s3 source main-cron (#18655)](https://github.com/risingwavelabs/risingwave/pull/18655)
-- `477706f999cdac4725fb8be0c4e1c9ec59cc510a` [fix(test): fix backward compatibility test (#18656)](https://github.com/risingwavelabs/risingwave/pull/18656)
-- `e7458205ac18407c89a6f88d497ea36e2ceab7be` [fix(pg-cdc): fix postgres.publication_exist, found in issues#18628 (#18629)](https://github.com/risingwavelabs/risingwave/pull/18629)
-- `27458d8b038992c0e3f570bac4cfa2887a5a5454` [feat(storage): bump opendal to v0.49.0 (#18266)](https://github.com/risingwavelabs/risingwave/pull/18266)
-- `d5dbc6ac1cd266140bb0740b3fedc53dbb53b07c` [fix(rpc): workaround for tonic hanging on large error message (#18639)](https://github.com/risingwavelabs/risingwave/pull/18639)
-- `a5ec3eaacf649a42cc3bb496eef73e3be6e0c7cc` [refactor(rpc): prefer `monitored_connect` over `connect` (#18635)](https://github.com/risingwavelabs/risingwave/pull/18635)
-
-## nightly-20240923
-- `a898dcc8f42001b5a4f4dcd965cd0bde8e67b45a` [feat(frontend): generate query epoch by committed epoch of involved tables (#18592)](https://github.com/risingwavelabs/risingwave/pull/18592)
