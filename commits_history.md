@@ -310,6 +310,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `48f5eb5693b6e52017468140753bc096288911ed` [feat: metric indicating barrier_interval_ms (#23258)](https://github.com/risingwavelabs/risingwave/pull/23258)
+- `222c6032e56c0d5ae442f30cf565fa4153321698` [feat(streaming): allow configuring number of cached rows in TopN cache per group key (#23257)](https://github.com/risingwavelabs/risingwave/pull/23257)
 
 ## nightly-20250922
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/44fce447e0f8c0143b6e6b771d2758e37e754791...7b42daa4fadcf7d4ce9bf079972c290a2176d375)
