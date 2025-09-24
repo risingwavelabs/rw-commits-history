@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250924` `5e9eb6baa40b3df5dcbc580c96254b08ceb65370`
 - `20250923` `48f5eb5693b6e52017468140753bc096288911ed`
 - `20250922` `7b42daa4fadcf7d4ce9bf079972c290a2176d375`
 - `20250921` `44fce447e0f8c0143b6e6b771d2758e37e754791`
@@ -301,7 +302,6 @@
 - `20240927` `d8774819c47930d0da158792983188fbeff4eb59`
 - `20240926` `75080b765e5914c07e906de4eff7f16146aa207d`
 - `20240925` `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa`
-- `20240924` `29adeb97370b6a77a4dcc857ac55249016dc3be9`
 </details>
 
 # Commit history
@@ -310,6 +310,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9f528edc0d94101ae395d60276eb3bfb8d816489` [fix(stream): fix _changelog_row_id out of order (#23240)](https://github.com/risingwavelabs/risingwave/pull/23240)
+
+## nightly-20250924
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/48f5eb5693b6e52017468140753bc096288911ed...5e9eb6baa40b3df5dcbc580c96254b08ceb65370)
 - `5e9eb6baa40b3df5dcbc580c96254b08ceb65370` [fix(vector): fix vector search distribution inference and execution (#23202)](https://github.com/risingwavelabs/risingwave/pull/23202)
 - `5e096499347d91dc499fe493ec67100bbdb2c8fb` [fix(optimizer): fix over_window_to_agg_and_join_rule (#23284)](https://github.com/risingwavelabs/risingwave/pull/23284)
 - `e5349531f129e2de15f82ce38e8fd34095049a93` [feat(sink): add enum support for kafka avro schema (#22962)](https://github.com/risingwavelabs/risingwave/pull/22962)
@@ -3281,22 +3285,4 @@
 - `d1baacf347ae1e7dec11191e6f138a4438445d9a` [chore(ci): fix the warning due to Node 16 EOL for GitHub Actions. (#18710)](https://github.com/risingwavelabs/risingwave/pull/18710)
 
 ## nightly-20240925
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/29adeb97370b6a77a4dcc857ac55249016dc3be9...0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa)
 - `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa` [fix(mysql-cdc): add missing data types when parse schema change event (#18706)](https://github.com/risingwavelabs/risingwave/pull/18706)
-- `2c89c244f0ca12dd3b151444cfed4ca838087eff` [feat(telemetry): record cloud hosted UUID (#18019)](https://github.com/risingwavelabs/risingwave/pull/18019)
-- `1993bae530d756d64d33b631eebfadd4c1adc473` [feat: support information_schema.schemata (#18709)](https://github.com/risingwavelabs/risingwave/pull/18709)
-- `7f39b6a0f3a1b50547259f9bddeca0b12c374d5b` [fix(kinesis): bump `aws-sdk-kinesis` to 1.18.0 to fix creation failure (#18702)](https://github.com/risingwavelabs/risingwave/pull/18702)
-- `9aa26bd099ff2e55bd1cb844d65930631b845ed3` [feat: support SET TIME ZONE INTERVAL '+00:00' HOUR TO MINUTE; (#18705)](https://github.com/risingwavelabs/risingwave/pull/18705)
-- `9629fddebdaabd49a94e3ac9fb0935995fd3049a` [fix(ci): fix release static build (#18689)](https://github.com/risingwavelabs/risingwave/pull/18689)
-- `a7e60cb7d1998af459bbe30ba52ba2a6ad62cb48` [fix(foyer): upgrade foyer to involve some bug fixes (#18693)](https://github.com/risingwavelabs/risingwave/pull/18693)
-- `e5498fb3f462a9350b196cbce99485be01488a21` [build(deps): bump iceberg-rust to latest main (#18686)](https://github.com/risingwavelabs/risingwave/pull/18686)
-- `0bcebd888f5281e9c356809d0daea77677d9ea18` [feat: allow append only table with pk (#18634)](https://github.com/risingwavelabs/risingwave/pull/18634)
-- `ce70a51f4fb05ef9b0efc01c645e490ff68b624d` [fix(agg): fix embedded UDAF as window function (#18632)](https://github.com/risingwavelabs/risingwave/pull/18632)
-- `93601398c5b9526775c28398fa43f377a4530afa` [fix(ci): add contents write permission cherry pick workflow (#18695)](https://github.com/risingwavelabs/risingwave/pull/18695)
-- `dac92a43ecf00220ec456eff6cc55e5c664cdebc` [fix(scale): Remove the wrong assert for broadcast dispatcher in the scaling post apply stage (#18681)](https://github.com/risingwavelabs/risingwave/pull/18681)
-- `97f3d9c3c5da252c7b1bf66ef0aa0c64c43e2460` [chore(deps): bump dashmap from 5.5.3 to 6.1.0 (#18429)](https://github.com/risingwavelabs/risingwave/pull/18429)
-- `c7975e0be2c31d9c156a9a2ea5810ddd2357ded2` [fix(pg-cdc): check ancestors and descendants for pg partitions (#18648)](https://github.com/risingwavelabs/risingwave/pull/18648)
-- `c467dcdc46ab8462a4794165ef64bfe671d98ef1` [fix(scale): Fixed propagation issue with low level no shuffle scale in the sql backend  (#18676)](https://github.com/risingwavelabs/risingwave/pull/18676)
-
-## nightly-20240924
-- `29adeb97370b6a77a4dcc857ac55249016dc3be9` [refactor(storage): adapt time travel cache to partial checkpoint (#18646)](https://github.com/risingwavelabs/risingwave/pull/18646)
