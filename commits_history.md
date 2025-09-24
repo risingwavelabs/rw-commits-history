@@ -310,6 +310,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5e9eb6baa40b3df5dcbc580c96254b08ceb65370` [fix(vector): fix vector search distribution inference and execution (#23202)](https://github.com/risingwavelabs/risingwave/pull/23202)
+- `5e096499347d91dc499fe493ec67100bbdb2c8fb` [fix(optimizer): fix over_window_to_agg_and_join_rule (#23284)](https://github.com/risingwavelabs/risingwave/pull/23284)
+- `e5349531f129e2de15f82ce38e8fd34095049a93` [feat(sink): add enum support for kafka avro schema (#22962)](https://github.com/risingwavelabs/risingwave/pull/22962)
+- `2e386917648aaf66fd0f4d858e80d43fc8629269` [fix(streaming): fix sync log store fragment_id used in metrics (#23008)](https://github.com/risingwavelabs/risingwave/pull/23008)
 - `fb7b1464e067e308d249de8ea75a08bdd0f89bf4` [feat: support iceberg sink write_stop (#23187)](https://github.com/risingwavelabs/risingwave/pull/23187)
 
 ## nightly-20250923
