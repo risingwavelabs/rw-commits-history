@@ -310,6 +310,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ad6e6ab4960c7e7c100e215cd35168053e5cbcc4` [feat(streaming): support creating materialized view from upsert stream (#23211)](https://github.com/risingwavelabs/risingwave/pull/23211)
 - `9f528edc0d94101ae395d60276eb3bfb8d816489` [fix(stream): fix _changelog_row_id out of order (#23240)](https://github.com/risingwavelabs/risingwave/pull/23240)
 
 ## nightly-20250924
