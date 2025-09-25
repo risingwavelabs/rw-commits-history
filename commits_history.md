@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250925` `ad6e6ab4960c7e7c100e215cd35168053e5cbcc4`
 - `20250924` `5e9eb6baa40b3df5dcbc580c96254b08ceb65370`
 - `20250923` `48f5eb5693b6e52017468140753bc096288911ed`
 - `20250922` `7b42daa4fadcf7d4ce9bf079972c290a2176d375`
@@ -301,7 +302,6 @@
 - `20240928` `b4ac5aba12d40df880931821ee68fde45f1d4683`
 - `20240927` `d8774819c47930d0da158792983188fbeff4eb59`
 - `20240926` `75080b765e5914c07e906de4eff7f16146aa207d`
-- `20240925` `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa`
 </details>
 
 # Commit history
@@ -310,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250925
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5e9eb6baa40b3df5dcbc580c96254b08ceb65370...ad6e6ab4960c7e7c100e215cd35168053e5cbcc4)
 - `ad6e6ab4960c7e7c100e215cd35168053e5cbcc4` [feat(streaming): support creating materialized view from upsert stream (#23211)](https://github.com/risingwavelabs/risingwave/pull/23211)
 - `9f528edc0d94101ae395d60276eb3bfb8d816489` [fix(stream): fix _changelog_row_id out of order (#23240)](https://github.com/risingwavelabs/risingwave/pull/23240)
 
@@ -3270,20 +3273,4 @@
 - `39141cc47b0acf5ef81c1d8a5ecf792ffcf36c06` [refactor: sink metrics (#18730)](https://github.com/risingwavelabs/risingwave/pull/18730)
 
 ## nightly-20240926
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa...75080b765e5914c07e906de4eff7f16146aa207d)
 - `75080b765e5914c07e906de4eff7f16146aa207d` [fix(binder): disallow CTE in right table of temporal join (#18738)](https://github.com/risingwavelabs/risingwave/pull/18738)
-- `dba5975b25ff11cea2fa4403473ea949c4433f92` [feat: user-facing part of variable vnode count (#18515)](https://github.com/risingwavelabs/risingwave/pull/18515)
-- `f394288ae4eff029353ef5b3c1ffac105f46313d` [chore(sink): validate file sink when creating (#18707)](https://github.com/risingwavelabs/risingwave/pull/18707)
-- `647b37ec184491ad0a80cbba1c94cd21c18ffeed` [chore: change streaming upload timeout to 20s only for backfill test (#18652)](https://github.com/risingwavelabs/risingwave/pull/18652)
-- `cb926aff4e36861bb81e1d790c4795c265b6eff6` [chore(deps): bump the aws group across 1 directory with 4 updates (#18719)](https://github.com/risingwavelabs/risingwave/pull/18719)
-- `5e2cfac4f0fa8c29c21ac6691c7bf8c0abd45a90` [chore(deps): bump pbjson from 0.6.0 to 0.7.0 (#18718)](https://github.com/risingwavelabs/risingwave/pull/18718)
-- `375e9338534daacafe628342c85da882c9d37a72` [feat: support information_schema.table_constraints (#18716)](https://github.com/risingwavelabs/risingwave/pull/18716)
-- `b3765cea8fb25987d8fbce3377781ae89bbd9697` [fix(ci): change GITHUB_TOKEN permission to write-all (#18724)](https://github.com/risingwavelabs/risingwave/pull/18724)
-- `e535aa7c743ee603265a18e0d145132bb5b3e11a` [refactor(kinesis): rename fields of `KinesisOffset` and `KinesisSplit` to make everything explicit (#18704)](https://github.com/risingwavelabs/risingwave/pull/18704)
-- `1db23dec67b89ac7f0b4b67ea978d202783d119b` [feat: support pg_catalog.pg_sequence (#18714)](https://github.com/risingwavelabs/risingwave/pull/18714)
-- `fdc57908b8622672f9f4f9ae68f3cf8feb56eb51` [fix(pg-cdc): fix compatibility issue of publish_via_partition_root (#18691)](https://github.com/risingwavelabs/risingwave/pull/18691)
-- `45ef6c45bac250e351a1dda1ad366e02ffe98343` [feat(sink): add es dynamic route (#18698)](https://github.com/risingwavelabs/risingwave/pull/18698)
-- `d1baacf347ae1e7dec11191e6f138a4438445d9a` [chore(ci): fix the warning due to Node 16 EOL for GitHub Actions. (#18710)](https://github.com/risingwavelabs/risingwave/pull/18710)
-
-## nightly-20240925
-- `0679b2fbb5f54e4c9e9daf6f8ab5018da9ebb9fa` [fix(mysql-cdc): add missing data types when parse schema change event (#18706)](https://github.com/risingwavelabs/risingwave/pull/18706)
