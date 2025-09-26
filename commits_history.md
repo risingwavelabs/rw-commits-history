@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250926` `40989a3e48911e2c267a4a6380172ed06071be23`
 - `20250925` `ad6e6ab4960c7e7c100e215cd35168053e5cbcc4`
 - `20250924` `5e9eb6baa40b3df5dcbc580c96254b08ceb65370`
 - `20250923` `48f5eb5693b6e52017468140753bc096288911ed`
@@ -301,7 +302,6 @@
 - `20240929` `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267`
 - `20240928` `b4ac5aba12d40df880931821ee68fde45f1d4683`
 - `20240927` `d8774819c47930d0da158792983188fbeff4eb59`
-- `20240926` `75080b765e5914c07e906de4eff7f16146aa207d`
 </details>
 
 # Commit history
@@ -310,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250926
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ad6e6ab4960c7e7c100e215cd35168053e5cbcc4...40989a3e48911e2c267a4a6380172ed06071be23)
 - `40989a3e48911e2c267a4a6380172ed06071be23` [fix: bump foyer to v0.20.0 to fix #23274 (#23294)](https://github.com/risingwavelabs/risingwave/pull/23294)
 - `172ae117da201cbb60095351c2118a95b522487f` [feat(frontend): support enforce ssl connection (#23306)](https://github.com/risingwavelabs/risingwave/pull/23306)
 - `eac59725f92b69504d0e468257bcf6aab7faef68` [fix(stream): fix changlog panic  (#23317)](https://github.com/risingwavelabs/risingwave/pull/23317)
@@ -3262,18 +3265,4 @@
 - `8e6ebb0c613f41946f0fcde348caf982e4a815b5` [refactor: add metrics for time travel and recent versions (#18690)](https://github.com/risingwavelabs/risingwave/pull/18690)
 
 ## nightly-20240927
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75080b765e5914c07e906de4eff7f16146aa207d...d8774819c47930d0da158792983188fbeff4eb59)
 - `d8774819c47930d0da158792983188fbeff4eb59` [feat(sink): support async for mongodb  dynamodb (#17645)](https://github.com/risingwavelabs/risingwave/pull/17645)
-- `1ddf30e8a22ecfdfe793bf8d054a2bd73b32bc32` [fix(risedev): fix log check and startup failure for postgres (#18745)](https://github.com/risingwavelabs/risingwave/pull/18745)
-- `2b4e57aa2e84d36bac7489dfb57173331f88e04a` [refactor(meta): reduce time travel hummock version size (#18699)](https://github.com/risingwavelabs/risingwave/pull/18699)
-- `811fa54cf5e9fd127923e568761914f1a1e9f245` [fix(meta): fix query for `running_fragment_parallelisms` in postgres backend (#18743)](https://github.com/risingwavelabs/risingwave/pull/18743)
-- `056ccfbb6789a27d00bc9914e7c957aa64add32c` [fix(nats): align the semantics of `scan.startup.mode=latest` of NATS with others (#18733)](https://github.com/risingwavelabs/risingwave/pull/18733)
-- `83fe9f38ff032cb86c9b31caed4f9fd5a54ab58e` [fix on conflict syntax (#18735)](https://github.com/risingwavelabs/risingwave/pull/18735)
-- `8f0d5decac74f806046b06f197e879664793cd20` [refactor(storage): support pagination for LIST during full GC (#18737)](https://github.com/risingwavelabs/risingwave/pull/18737)
-- `e9c216185bb5226d14f484126f5dc2f851b2312c` [feat(storage): per table try wait epoch (#18622)](https://github.com/risingwavelabs/risingwave/pull/18622)
-- `d6f8ca22d9884d2a8367f4eaecda3171b4933c3a` [fix(nats): align offset and property fields between NATS and others for better ux and dx (#18732)](https://github.com/risingwavelabs/risingwave/pull/18732)
-- `4548a995596b160a168aa9e11386cfd2d2322c89` [chore: update image version to 2.0.1 (#18741)](https://github.com/risingwavelabs/risingwave/pull/18741)
-- `39141cc47b0acf5ef81c1d8a5ecf792ffcf36c06` [refactor: sink metrics (#18730)](https://github.com/risingwavelabs/risingwave/pull/18730)
-
-## nightly-20240926
-- `75080b765e5914c07e906de4eff7f16146aa207d` [fix(binder): disallow CTE in right table of temporal join (#18738)](https://github.com/risingwavelabs/risingwave/pull/18738)
