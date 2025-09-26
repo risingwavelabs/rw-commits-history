@@ -310,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `40989a3e48911e2c267a4a6380172ed06071be23` [fix: bump foyer to v0.20.0 to fix #23274 (#23294)](https://github.com/risingwavelabs/risingwave/pull/23294)
+- `172ae117da201cbb60095351c2118a95b522487f` [feat(frontend): support enforce ssl connection (#23306)](https://github.com/risingwavelabs/risingwave/pull/23306)
+- `eac59725f92b69504d0e468257bcf6aab7faef68` [fix(stream): fix changlog panic  (#23317)](https://github.com/risingwavelabs/risingwave/pull/23317)
 
 ## nightly-20250925
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5e9eb6baa40b3df5dcbc580c96254b08ceb65370...ad6e6ab4960c7e7c100e215cd35168053e5cbcc4)
