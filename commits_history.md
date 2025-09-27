@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250926` `40989a3e48911e2c267a4a6380172ed06071be23`
+- `20250927` `40989a3e48911e2c267a4a6380172ed06071be23`
 - `20250925` `ad6e6ab4960c7e7c100e215cd35168053e5cbcc4`
 - `20250924` `5e9eb6baa40b3df5dcbc580c96254b08ceb65370`
 - `20250923` `48f5eb5693b6e52017468140753bc096288911ed`
@@ -301,7 +301,6 @@
 - `20240930` `17ea32610a22d697ccf4499ddd1cc6f90c5b1492`
 - `20240929` `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267`
 - `20240928` `b4ac5aba12d40df880931821ee68fde45f1d4683`
-- `20240927` `d8774819c47930d0da158792983188fbeff4eb59`
 </details>
 
 # Commit history
@@ -311,7 +310,7 @@
 
 ## Unreleased
 
-## nightly-20250926
+## nightly-20250927
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ad6e6ab4960c7e7c100e215cd35168053e5cbcc4...40989a3e48911e2c267a4a6380172ed06071be23)
 - `40989a3e48911e2c267a4a6380172ed06071be23` [fix: bump foyer to v0.20.0 to fix #23274 (#23294)](https://github.com/risingwavelabs/risingwave/pull/23294)
 - `172ae117da201cbb60095351c2118a95b522487f` [feat(frontend): support enforce ssl connection (#23306)](https://github.com/risingwavelabs/risingwave/pull/23306)
@@ -3255,14 +3254,4 @@
 - `04af708f5bb84e639e5ac074bd6ba290eecf67b7` [refactor: unify duplicated alter_*_name methods (#18751)](https://github.com/risingwavelabs/risingwave/pull/18751)
 
 ## nightly-20240928
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d8774819c47930d0da158792983188fbeff4eb59...b4ac5aba12d40df880931821ee68fde45f1d4683)
 - `b4ac5aba12d40df880931821ee68fde45f1d4683` [chore(deps): Bump vergen from 8.3.0 to 8.3.2 (#17781)](https://github.com/risingwavelabs/risingwave/pull/17781)
-- `dcbd574af0ecccceba520f90facf09820c2df22c` [chore(deps): Bump org.elasticsearch:elasticsearch from 7.17.19 to 7.17.23 in /java (#17886)](https://github.com/risingwavelabs/risingwave/pull/17886)
-- `939493e4156c60742513ef3a707bbfcf9c9c3da6` [chore(deps): Bump serde_default from 0.1.0 to 0.2.0 (#17790)](https://github.com/risingwavelabs/risingwave/pull/17790)
-- `edc3c8fb68e0f3ff148c41b83ed113be1df1f069` [chore(deps): Bump redis from 0.25.1 to 0.25.4 (#17828)](https://github.com/risingwavelabs/risingwave/pull/17828)
-- `f8b2b847048a0b6bf66de814cd97dd0f050f03e6` [chore(deps): bump lz4 from 1.25.0 to 1.28.0 (#18742)](https://github.com/risingwavelabs/risingwave/pull/18742)
-- `adc30c0f7c3e76c8e1d2a15673b359bb80e8f7f1` [feat: add `rw_actor_splits` (#18746)](https://github.com/risingwavelabs/risingwave/pull/18746)
-- `8e6ebb0c613f41946f0fcde348caf982e4a815b5` [refactor: add metrics for time travel and recent versions (#18690)](https://github.com/risingwavelabs/risingwave/pull/18690)
-
-## nightly-20240927
-- `d8774819c47930d0da158792983188fbeff4eb59` [feat(sink): support async for mongodb  dynamodb (#17645)](https://github.com/risingwavelabs/risingwave/pull/17645)
