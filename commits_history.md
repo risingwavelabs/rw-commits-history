@@ -309,6 +309,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bd850b67c6ee0ae4958ff2d516f32c26dc778cd4` [fix(file_source): update state table offset and add more error log (#23305)](https://github.com/risingwavelabs/risingwave/pull/23305)
+- `a311859c5415f3dd1313ed9011f6ff24be113ec8` [fix(connector): fix sql server sink deadlock (#23318)](https://github.com/risingwavelabs/risingwave/pull/23318)
 
 ## nightly-20250927
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ad6e6ab4960c7e7c100e215cd35168053e5cbcc4...40989a3e48911e2c267a4a6380172ed06071be23)
