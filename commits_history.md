@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250928` `bd850b67c6ee0ae4958ff2d516f32c26dc778cd4`
 - `20250927` `40989a3e48911e2c267a4a6380172ed06071be23`
 - `20250925` `ad6e6ab4960c7e7c100e215cd35168053e5cbcc4`
 - `20250924` `5e9eb6baa40b3df5dcbc580c96254b08ceb65370`
@@ -300,7 +301,6 @@
 - `20241001` `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f`
 - `20240930` `17ea32610a22d697ccf4499ddd1cc6f90c5b1492`
 - `20240929` `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267`
-- `20240928` `b4ac5aba12d40df880931821ee68fde45f1d4683`
 </details>
 
 # Commit history
@@ -309,6 +309,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250928
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/40989a3e48911e2c267a4a6380172ed06071be23...bd850b67c6ee0ae4958ff2d516f32c26dc778cd4)
 - `bd850b67c6ee0ae4958ff2d516f32c26dc778cd4` [fix(file_source): update state table offset and add more error log (#23305)](https://github.com/risingwavelabs/risingwave/pull/23305)
 - `a311859c5415f3dd1313ed9011f6ff24be113ec8` [fix(connector): fix sql server sink deadlock (#23318)](https://github.com/risingwavelabs/risingwave/pull/23318)
 
@@ -3246,14 +3249,4 @@
 - `6731c26be9f6be7f49c9ebc84378a5ba46f6fee1` [chore(ci): remove gcs source test (#18763)](https://github.com/risingwavelabs/risingwave/pull/18763)
 
 ## nightly-20240929
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b4ac5aba12d40df880931821ee68fde45f1d4683...83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267)
 - `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267` [feat(storage): Introduces a split implementation based on split_key to replace the previous move implementation. (#18594)](https://github.com/risingwavelabs/risingwave/pull/18594)
-- `5e20f2dd3032530a846986aefeaec2ae3a116a97` [refactor(meta): persist job-level max parallelism & check when `ALTER .. SET PARALLELISM` (#18740)](https://github.com/risingwavelabs/risingwave/pull/18740)
-- `1da18155b7fd88f64063c3f7b4b719d7405d4aab` [chore: unready source worker should not affect other sources. (#18761)](https://github.com/risingwavelabs/risingwave/pull/18761)
-- `4dfc4c961a8c7b6f69c900fafe18d074c01676ae` [feat: improve sink metrics (#18758)](https://github.com/risingwavelabs/risingwave/pull/18758)
-- `e6435e60e558eab607a2ed3902a04903eccf78ae` [fix: better error message for `./risedev d` timeout (#18756)](https://github.com/risingwavelabs/risingwave/pull/18756)
-- `d492843560530901dffe6e39b41cda8b8b5c2d37` [refactor(storage): remove most usage of max_committed_epoch (#18641)](https://github.com/risingwavelabs/risingwave/pull/18641)
-- `04af708f5bb84e639e5ac074bd6ba290eecf67b7` [refactor: unify duplicated alter_*_name methods (#18751)](https://github.com/risingwavelabs/risingwave/pull/18751)
-
-## nightly-20240928
-- `b4ac5aba12d40df880931821ee68fde45f1d4683` [chore(deps): Bump vergen from 8.3.0 to 8.3.2 (#17781)](https://github.com/risingwavelabs/risingwave/pull/17781)
