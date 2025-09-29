@@ -309,6 +309,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d0fba202332946fab8cacc902475b1178d25aa86` [refactor(executor): Decouple barrier alignment and mutation for merge type executor (#23273)](https://github.com/risingwavelabs/risingwave/pull/23273)
+- `61f3dbeb4dc052fde8546989f2ac23a7f016eb25` [fix: only check schema usage privilege for show object command (#23331)](https://github.com/risingwavelabs/risingwave/pull/23331)
+- `c9b4caac6ab1d8a552285a9e0b7b2ec05b8ac1c3` [feat(frontend,meta): provide backpressure stats via SQL table function `internal_get_channel_delta_stats` (#23158)](https://github.com/risingwavelabs/risingwave/pull/23158)
+- `5ff4758bea88eb99e68f8954f507146ecbbe7ba9` [chore: update bitnami kafka repository to bitnamilegacy (#23336)](https://github.com/risingwavelabs/risingwave/pull/23336)
+- `af8c40c48cf55ad473cf58820af1d7de2e6dd8c6` [fix: don't notify empty info during bootstrap recovery (#23330)](https://github.com/risingwavelabs/risingwave/pull/23330)
+- `58f93b2f8d286ec755f067063e32b49a4f184e87` [fix(stream): fix vnode changlog stream error (#23329)](https://github.com/risingwavelabs/risingwave/pull/23329)
+- `2bfc14a2a0c000544073b111506a3963a85fcc25` [chore(deps): Bump tempfile from 3.22.0 to 3.23.0 (#23287)](https://github.com/risingwavelabs/risingwave/pull/23287)
+- `b2e078081b6fd643ad9de07cdaeceb957bce359f` [chore(deps): Bump uuid from 1.17.0 to 1.18.1 (#23070)](https://github.com/risingwavelabs/risingwave/pull/23070)
 
 ## nightly-20250928
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/40989a3e48911e2c267a4a6380172ed06071be23...bd850b67c6ee0ae4958ff2d516f32c26dc778cd4)
