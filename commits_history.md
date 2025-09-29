@@ -300,7 +300,6 @@
 - `20241002` `66890dbf054bd2c9980e4817dac7affe974286d0`
 - `20241001` `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f`
 - `20240930` `17ea32610a22d697ccf4499ddd1cc6f90c5b1492`
-- `20240929` `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267`
 </details>
 
 # Commit history
@@ -309,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dc208341a231ed9541dab2db4074afd255365c62` [refactor(sink): Make sink-into-table refactor backwards compatible (#23201)](https://github.com/risingwavelabs/risingwave/pull/23201)
 - `d0fba202332946fab8cacc902475b1178d25aa86` [refactor(executor): Decouple barrier alignment and mutation for merge type executor (#23273)](https://github.com/risingwavelabs/risingwave/pull/23273)
 - `61f3dbeb4dc052fde8546989f2ac23a7f016eb25` [fix: only check schema usage privilege for show object command (#23331)](https://github.com/risingwavelabs/risingwave/pull/23331)
 - `c9b4caac6ab1d8a552285a9e0b7b2ec05b8ac1c3` [feat(frontend,meta): provide backpressure stats via SQL table function `internal_get_channel_delta_stats` (#23158)](https://github.com/risingwavelabs/risingwave/pull/23158)
@@ -3246,15 +3246,4 @@
 - `f0ad2d7e607e2b60b6ee078e1001dcf336952a63` [chore(deps): bump the google-cloud group with 2 updates (#18717)](https://github.com/risingwavelabs/risingwave/pull/18717)
 
 ## nightly-20240930
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267...17ea32610a22d697ccf4499ddd1cc6f90c5b1492)
 - `17ea32610a22d697ccf4499ddd1cc6f90c5b1492` [chore(deps): Bump itertools from 0.12.1 to 0.13.0 (#17075)](https://github.com/risingwavelabs/risingwave/pull/17075)
-- `e82932f47bf57dbe393b4ec28ba7431b40e8232e` [feat(streaming): plan asof join (#18683)](https://github.com/risingwavelabs/risingwave/pull/18683)
-- `fae0201524761c33c293ddc689c866bf78395020` [refactor: deprecate max_committed_epoch of hummock version (#18644)](https://github.com/risingwavelabs/risingwave/pull/18644)
-- `7ff4d98830bacdfdc28beb1f81a25eecaacdc732` [refactor(storage): add SST sanity check during commit epoch (#18757)](https://github.com/risingwavelabs/risingwave/pull/18757)
-- `254dce9e05ba129dd2830007f639c2068e8e5ad8` [chore: add comment for KafkaSplit's start_offset (#18766)](https://github.com/risingwavelabs/risingwave/pull/18766)
-- `61b745935c7c97988d5f1c38baaccbdedc74a7ec` [feat: ensure number of tokio worker threads to be at least 4 (#18762)](https://github.com/risingwavelabs/risingwave/pull/18762)
-- `f7e506844fa0435b8736bef2e6b426f316b43366` [feat(frontend): show job's max parallelism in system tables (#18672)](https://github.com/risingwavelabs/risingwave/pull/18672)
-- `6731c26be9f6be7f49c9ebc84378a5ba46f6fee1` [chore(ci): remove gcs source test (#18763)](https://github.com/risingwavelabs/risingwave/pull/18763)
-
-## nightly-20240929
-- `83e3c4b4e35ed1dea80cee4ba49cbb4c49d6e267` [feat(storage): Introduces a split implementation based on split_key to replace the previous move implementation. (#18594)](https://github.com/risingwavelabs/risingwave/pull/18594)
