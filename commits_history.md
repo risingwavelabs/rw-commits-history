@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20250930` `40cfa398e5f6c83f995bbe36c4d86d3fd0469687`
 - `20250928` `bd850b67c6ee0ae4958ff2d516f32c26dc778cd4`
 - `20250927` `40989a3e48911e2c267a4a6380172ed06071be23`
 - `20250925` `ad6e6ab4960c7e7c100e215cd35168053e5cbcc4`
@@ -299,7 +300,6 @@
 - `20241006` `51c5e3e0bef991767f48a0c3bf6814426711b5f2`
 - `20241002` `66890dbf054bd2c9980e4817dac7affe974286d0`
 - `20241001` `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f`
-- `20240930` `17ea32610a22d697ccf4499ddd1cc6f90c5b1492`
 </details>
 
 # Commit history
@@ -308,6 +308,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20250930
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bd850b67c6ee0ae4958ff2d516f32c26dc778cd4...40cfa398e5f6c83f995bbe36c4d86d3fd0469687)
 - `40cfa398e5f6c83f995bbe36c4d86d3fd0469687` [chore(deps): Bump simd-json from 0.15.0 to 0.16.0 (#23346)](https://github.com/risingwavelabs/risingwave/pull/23346)
 - `dc208341a231ed9541dab2db4074afd255365c62` [refactor(sink): Make sink-into-table refactor backwards compatible (#23201)](https://github.com/risingwavelabs/risingwave/pull/23201)
 - `d0fba202332946fab8cacc902475b1178d25aa86` [refactor(executor): Decouple barrier alignment and mutation for merge type executor (#23273)](https://github.com/risingwavelabs/risingwave/pull/23273)
@@ -3240,11 +3243,4 @@
 - `66890dbf054bd2c9980e4817dac7affe974286d0` [fix(meta): fix test (#18783)](https://github.com/risingwavelabs/risingwave/pull/18783)
 
 ## nightly-20241001
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/17ea32610a22d697ccf4499ddd1cc6f90c5b1492...ef8c50f5f56c04374cda3c8b8204afc10ee6a88f)
 - `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f` [fix: telemetry event at paywall not reporting (#18770)](https://github.com/risingwavelabs/risingwave/pull/18770)
-- `72ba6d53e47c92c0bf97a49f8e84a4c6b4391cce` [chore(deps): Bump sysinfo from 0.30.0 to 0.31.4 (#18776)](https://github.com/risingwavelabs/risingwave/pull/18776)
-- `a9104146b3965ed837ed12d1c0d98861b21c7f73` [chore(deps): Bump async-std from 1.12.0 to 1.13.0 (#18778)](https://github.com/risingwavelabs/risingwave/pull/18778)
-- `f0ad2d7e607e2b60b6ee078e1001dcf336952a63` [chore(deps): bump the google-cloud group with 2 updates (#18717)](https://github.com/risingwavelabs/risingwave/pull/18717)
-
-## nightly-20240930
-- `17ea32610a22d697ccf4499ddd1cc6f90c5b1492` [chore(deps): Bump itertools from 0.12.1 to 0.13.0 (#17075)](https://github.com/risingwavelabs/risingwave/pull/17075)
