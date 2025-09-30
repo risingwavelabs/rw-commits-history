@@ -308,6 +308,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `40cfa398e5f6c83f995bbe36c4d86d3fd0469687` [chore(deps): Bump simd-json from 0.15.0 to 0.16.0 (#23346)](https://github.com/risingwavelabs/risingwave/pull/23346)
 - `dc208341a231ed9541dab2db4074afd255365c62` [refactor(sink): Make sink-into-table refactor backwards compatible (#23201)](https://github.com/risingwavelabs/risingwave/pull/23201)
 - `d0fba202332946fab8cacc902475b1178d25aa86` [refactor(executor): Decouple barrier alignment and mutation for merge type executor (#23273)](https://github.com/risingwavelabs/risingwave/pull/23273)
 - `61f3dbeb4dc052fde8546989f2ac23a7f016eb25` [fix: only check schema usage privilege for show object command (#23331)](https://github.com/risingwavelabs/risingwave/pull/23331)
