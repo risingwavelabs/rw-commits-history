@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20250930` `40cfa398e5f6c83f995bbe36c4d86d3fd0469687`
+- `20251001` `40cfa398e5f6c83f995bbe36c4d86d3fd0469687`
 - `20250928` `bd850b67c6ee0ae4958ff2d516f32c26dc778cd4`
 - `20250927` `40989a3e48911e2c267a4a6380172ed06071be23`
 - `20250925` `ad6e6ab4960c7e7c100e215cd35168053e5cbcc4`
@@ -299,7 +299,6 @@
 - `20241007` `ba761f2362886ab3b73602a3423b73c97a9f5b26`
 - `20241006` `51c5e3e0bef991767f48a0c3bf6814426711b5f2`
 - `20241002` `66890dbf054bd2c9980e4817dac7affe974286d0`
-- `20241001` `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f`
 </details>
 
 # Commit history
@@ -309,7 +308,7 @@
 
 ## Unreleased
 
-## nightly-20250930
+## nightly-20251001
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bd850b67c6ee0ae4958ff2d516f32c26dc778cd4...40cfa398e5f6c83f995bbe36c4d86d3fd0469687)
 - `40cfa398e5f6c83f995bbe36c4d86d3fd0469687` [chore(deps): Bump simd-json from 0.15.0 to 0.16.0 (#23346)](https://github.com/risingwavelabs/risingwave/pull/23346)
 - `dc208341a231ed9541dab2db4074afd255365c62` [refactor(sink): Make sink-into-table refactor backwards compatible (#23201)](https://github.com/risingwavelabs/risingwave/pull/23201)
@@ -3239,8 +3238,4 @@
 - `1d8b5361db3eb99b269bf2a321cab0ad156e307d` [chore(deps): Bump indexmap from 2.2.6 to 2.6.0 (#18788)](https://github.com/risingwavelabs/risingwave/pull/18788)
 
 ## nightly-20241002
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef8c50f5f56c04374cda3c8b8204afc10ee6a88f...66890dbf054bd2c9980e4817dac7affe974286d0)
 - `66890dbf054bd2c9980e4817dac7affe974286d0` [fix(meta): fix test (#18783)](https://github.com/risingwavelabs/risingwave/pull/18783)
-
-## nightly-20241001
-- `ef8c50f5f56c04374cda3c8b8204afc10ee6a88f` [fix: telemetry event at paywall not reporting (#18770)](https://github.com/risingwavelabs/risingwave/pull/18770)
