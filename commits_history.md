@@ -306,6 +306,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e9690f02e77f717ea82bd0557db7e7372c0381b9` [chore(deps): Bump mongodb from 3.2.3 to 3.2.5 (#23355)](https://github.com/risingwavelabs/risingwave/pull/23355)
 
 ## nightly-20251002
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bd850b67c6ee0ae4958ff2d516f32c26dc778cd4...40cfa398e5f6c83f995bbe36c4d86d3fd0469687)
