@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251004` `e9690f02e77f717ea82bd0557db7e7372c0381b9`
+- `20251005` `e9690f02e77f717ea82bd0557db7e7372c0381b9`
 - `20251002` `40cfa398e5f6c83f995bbe36c4d86d3fd0469687`
 - `20250928` `bd850b67c6ee0ae4958ff2d516f32c26dc778cd4`
 - `20250927` `40989a3e48911e2c267a4a6380172ed06071be23`
@@ -308,7 +308,7 @@
 
 ## Unreleased
 
-## nightly-20251004
+## nightly-20251005
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/40cfa398e5f6c83f995bbe36c4d86d3fd0469687...e9690f02e77f717ea82bd0557db7e7372c0381b9)
 - `e9690f02e77f717ea82bd0557db7e7372c0381b9` [chore(deps): Bump mongodb from 3.2.3 to 3.2.5 (#23355)](https://github.com/risingwavelabs/risingwave/pull/23355)
 
