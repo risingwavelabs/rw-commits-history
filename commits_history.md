@@ -307,6 +307,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300` [chore(deps): Bump const-str from 0.6.0 to 0.7.0 (#23366)](https://github.com/risingwavelabs/risingwave/pull/23366)
+- `6d5389d9a6920d2763e5f2defade3bf2d444e154` [chore: patch rdkafka-sys and upgrade to `v4.9.0+2.10.0` (#23363)](https://github.com/risingwavelabs/risingwave/pull/23363)
 
 ## nightly-20251005
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/40cfa398e5f6c83f995bbe36c4d86d3fd0469687...e9690f02e77f717ea82bd0557db7e7372c0381b9)
