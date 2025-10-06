@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251006` `3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300`
 - `20251005` `e9690f02e77f717ea82bd0557db7e7372c0381b9`
 - `20251002` `40cfa398e5f6c83f995bbe36c4d86d3fd0469687`
 - `20250928` `bd850b67c6ee0ae4958ff2d516f32c26dc778cd4`
@@ -298,7 +299,6 @@
 - `20241009` `b8c3fcb52964ff87d743cb9349e7097f77047c21`
 - `20241008` `c359bd9662d45fb90f0957101be20d658cd1fde3`
 - `20241007` `ba761f2362886ab3b73602a3423b73c97a9f5b26`
-- `20241006` `51c5e3e0bef991767f48a0c3bf6814426711b5f2`
 </details>
 
 # Commit history
@@ -307,6 +307,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251006
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e9690f02e77f717ea82bd0557db7e7372c0381b9...3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300)
 - `3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300` [chore(deps): Bump const-str from 0.6.0 to 0.7.0 (#23366)](https://github.com/risingwavelabs/risingwave/pull/23366)
 - `6d5389d9a6920d2763e5f2defade3bf2d444e154` [chore: patch rdkafka-sys and upgrade to `v4.9.0+2.10.0` (#23363)](https://github.com/risingwavelabs/risingwave/pull/23363)
 
@@ -3234,8 +3237,4 @@
 - `24a68514ba039535e1afbfa21d2becbff0731462` [fix(meta): avoid removing control stream node when failed to send request (#18767)](https://github.com/risingwavelabs/risingwave/pull/18767)
 
 ## nightly-20241007
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/51c5e3e0bef991767f48a0c3bf6814426711b5f2...ba761f2362886ab3b73602a3423b73c97a9f5b26)
 - `ba761f2362886ab3b73602a3423b73c97a9f5b26` [feat: switch madsim integration and recovery tests to sql backend (#18678)](https://github.com/risingwavelabs/risingwave/pull/18678)
-
-## nightly-20241006
-- `51c5e3e0bef991767f48a0c3bf6814426711b5f2` [chore(deps): Bump chrono-tz from 0.9.0 to 0.10.0 (#18774)](https://github.com/risingwavelabs/risingwave/pull/18774)
