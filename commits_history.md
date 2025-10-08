@@ -306,6 +306,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c2cae359acfcf34b720bf6e5e6691793a525f073` [feat(frontend): support `trim`, `ltrim`, `rtrim` function on bytea type (#22762)](https://github.com/risingwavelabs/risingwave/pull/22762)
 
 ## nightly-20251007
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e9690f02e77f717ea82bd0557db7e7372c0381b9...3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300)
