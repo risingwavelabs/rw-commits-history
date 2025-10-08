@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251008` `c2cae359acfcf34b720bf6e5e6691793a525f073`
 - `20251007` `3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300`
 - `20251005` `e9690f02e77f717ea82bd0557db7e7372c0381b9`
 - `20251002` `40cfa398e5f6c83f995bbe36c4d86d3fd0469687`
@@ -297,7 +298,6 @@
 - `20241011` `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5`
 - `20241010` `b12460d08b5fadef15d43495cf63b6fe21dd4ee8`
 - `20241009` `b8c3fcb52964ff87d743cb9349e7097f77047c21`
-- `20241008` `c359bd9662d45fb90f0957101be20d658cd1fde3`
 </details>
 
 # Commit history
@@ -306,6 +306,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251008
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300...c2cae359acfcf34b720bf6e5e6691793a525f073)
 - `c2cae359acfcf34b720bf6e5e6691793a525f073` [feat(frontend): support `trim`, `ltrim`, `rtrim` function on bytea type (#22762)](https://github.com/risingwavelabs/risingwave/pull/22762)
 
 ## nightly-20251007
@@ -3215,15 +3218,4 @@
 - `786cd632d362afc1befcfc24beda8b5bc4920f7b` [fix: Remove `DISTINCT` in recursive CTEs for MySQL (#18825)](https://github.com/risingwavelabs/risingwave/pull/18825)
 
 ## nightly-20241009
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c359bd9662d45fb90f0957101be20d658cd1fde3...b8c3fcb52964ff87d743cb9349e7097f77047c21)
 - `b8c3fcb52964ff87d743cb9349e7097f77047c21` [fix(ci): bump protoc version (#18824)](https://github.com/risingwavelabs/risingwave/pull/18824)
-- `81780bec1a5ac2b7e20d47c09baeb0e9db99a585` [fix(expr): cast untyped `start` and `step` when inferring type for `generate_series` (#18786)](https://github.com/risingwavelabs/risingwave/pull/18786)
-- `2478845fa72964725a38824f5d132cf421863d22` [feat(meta): watch and reload license key from file (#18768)](https://github.com/risingwavelabs/risingwave/pull/18768)
-- `ee4d9e798bb0d6ff9cc5e8f20e92faa4c54b8ba2` [chore(deps): Bump procfs from 0.16.0 to 0.17.0 (#18818)](https://github.com/risingwavelabs/risingwave/pull/18818)
-- `18604b2fc3abf7ad055402bafd6db8b463499700` [build(mac): brew install llvm -> lld (#18804)](https://github.com/risingwavelabs/risingwave/pull/18804)
-- `c96c91330e2bd757e4eb7d98b3f60e3b3fe2f9a9` [fix(batch): fix distributed batch query not properly throwing errors to PG client (#18812)](https://github.com/risingwavelabs/risingwave/pull/18812)
-- `20699d4103e2328e25fb937f432fd3bdfdcc7209` [feat(subscription): support blocking cursor (#18675)](https://github.com/risingwavelabs/risingwave/pull/18675)
-- `00965ba60c469407ed57cd165b86ea1171651b02` [chore(deps): Bump syn from 1.0.109 to 2.0.66 (#18792)](https://github.com/risingwavelabs/risingwave/pull/18792)
-
-## nightly-20241008
-- `c359bd9662d45fb90f0957101be20d658cd1fde3` [refactor: remove prefix "rw_" in session variables (#18769)](https://github.com/risingwavelabs/risingwave/pull/18769)
