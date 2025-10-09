@@ -306,6 +306,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b9f88148501c6b8e67229a02b293159aed644f74` [feat: introduce `fragment_splits` (#23395)](https://github.com/risingwavelabs/risingwave/pull/23395)
+- `42f2d7aa2c63ab817abdedb23c509aabcb3651de` [feat: Add Bitmap::from_indices  (#23391)](https://github.com/risingwavelabs/risingwave/pull/23391)
+- `3e5daf5472928c65fd7e31f4f2debaf580af2e74` [feat: support more bytea type functions (#22769)](https://github.com/risingwavelabs/risingwave/pull/22769)
+- `66b2edf152684944e2413cb239ee8f3e69b59644` [fix(frontend): use binder with correct `BindFor` in extended mode (#23381)](https://github.com/risingwavelabs/risingwave/pull/23381)
+- `268b2d335dc3c7ed5cdca6bb38bd933abfea7dce` [fix(ci): Enable recovery test for sink-into-table (#23349)](https://github.com/risingwavelabs/risingwave/pull/23349)
+- `2cd91ad83f802279c2496bb0335e93c0e56d4365` [refactor(streaming): make hash-join row type agnostic (#23358)](https://github.com/risingwavelabs/risingwave/pull/23358)
+- `33e7578e4ada82ee454a551da61831215013383d` [chore(deps): Bump async-nats from 0.42.0 to 0.44.2 (#23385)](https://github.com/risingwavelabs/risingwave/pull/23385)
+- `73a983935e926f36533f8e3fc735eb0aa94ec8af` [fix(sink): fix data loss caused by rate limit reader cancellation unsafety (#23321)](https://github.com/risingwavelabs/risingwave/pull/23321)
+- `5a0f6ea1b180cacc728c1a86504dfc2617b1a820` [feat: support iceberg user agent tag for rest catalog (#23386)](https://github.com/risingwavelabs/risingwave/pull/23386)
 
 ## nightly-20251008
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300...c2cae359acfcf34b720bf6e5e6691793a525f073)
