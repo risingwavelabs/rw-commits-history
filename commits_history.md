@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251009` `b9f88148501c6b8e67229a02b293159aed644f74`
 - `20251008` `c2cae359acfcf34b720bf6e5e6691793a525f073`
 - `20251007` `3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300`
 - `20251005` `e9690f02e77f717ea82bd0557db7e7372c0381b9`
@@ -297,7 +298,6 @@
 - `20241013` `f50535978d243e8158e2647430ba408c7b895008`
 - `20241011` `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5`
 - `20241010` `b12460d08b5fadef15d43495cf63b6fe21dd4ee8`
-- `20241009` `b8c3fcb52964ff87d743cb9349e7097f77047c21`
 </details>
 
 # Commit history
@@ -306,6 +306,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `45f1b7837c519bb18e024aa5fdf253d410ee3ce2` [chore(deps): Bump hashbrown from 0.15.2 to 0.16.0 (#23344)](https://github.com/risingwavelabs/risingwave/pull/23344)
+
+## nightly-20251009
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c2cae359acfcf34b720bf6e5e6691793a525f073...b9f88148501c6b8e67229a02b293159aed644f74)
 - `b9f88148501c6b8e67229a02b293159aed644f74` [feat: introduce `fragment_splits` (#23395)](https://github.com/risingwavelabs/risingwave/pull/23395)
 - `42f2d7aa2c63ab817abdedb23c509aabcb3651de` [feat: Add Bitmap::from_indices  (#23391)](https://github.com/risingwavelabs/risingwave/pull/23391)
 - `3e5daf5472928c65fd7e31f4f2debaf580af2e74` [feat: support more bytea type functions (#22769)](https://github.com/risingwavelabs/risingwave/pull/22769)
@@ -3211,20 +3215,4 @@
 - `7720bee5f49c021c1064e6d33dd4b62077caceb7` [refactor(over window): move `build_changes` to `OverPartition` for better modularity (#18846)](https://github.com/risingwavelabs/risingwave/pull/18846)
 
 ## nightly-20241010
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b8c3fcb52964ff87d743cb9349e7097f77047c21...b12460d08b5fadef15d43495cf63b6fe21dd4ee8)
 - `b12460d08b5fadef15d43495cf63b6fe21dd4ee8` [fix: fix base64 decode on + (#18837)](https://github.com/risingwavelabs/risingwave/pull/18837)
-- `840c37bd089f03f06aabca8e0cf76998c47c7a9d` [refactor(sink): refactor es and opensearch to support async (#17746)](https://github.com/risingwavelabs/risingwave/pull/17746)
-- `f8be7735d21db85d3513dc1604bdae742f5285f6` [chore(deps): bump the tonic group with 2 updates (#18682)](https://github.com/risingwavelabs/risingwave/pull/18682)
-- `80dd8afb397fb30f6d7083e8c81d6e0d7c46b97e` [fix: don't initialize executor_row_count metrics when disabled (#18836)](https://github.com/risingwavelabs/risingwave/pull/18836)
-- `286e25b1716d6a622800fe11665ef87a1a511fa5` [feat(storage): support disable auto group scheduling (#18833)](https://github.com/risingwavelabs/risingwave/pull/18833)
-- `df6aa8a6e05ae9834b89e2e285ab901c966dc0c4` [fix(metric): correctly update storage object metric (#18835)](https://github.com/risingwavelabs/risingwave/pull/18835)
-- `f32d01389249afbfcabbf32efe6435c6a26c5766` [chore(deps): Bump bytes from 1.6.0 to 1.7.2 (#18827)](https://github.com/risingwavelabs/risingwave/pull/18827)
-- `c68aa5e36ed32af92ee3bb6642c68be9f96c6f2b` [refactor(expr): separate user-facing `rw_vnode` from the internal one (#18815)](https://github.com/risingwavelabs/risingwave/pull/18815)
-- `b4976e0d0bf3c77544a3555c1f42d60f517145fb` [chore(deps): Bump wasmtime from 22.0.0 to 22.0.1 (#18828)](https://github.com/risingwavelabs/risingwave/pull/18828)
-- `e0fc16cd2c12ae0fba0296730c57a4fd47f81ba6` [fix(sqlparser): `Display` multiple source `INCLUDE` columns correctly (#18813)](https://github.com/risingwavelabs/risingwave/pull/18813)
-- `71001d8444b7176fd2f406eecc65c8e516f0d4e6` [refactor(meta): limit max inflight time travel query (#18810)](https://github.com/risingwavelabs/risingwave/pull/18810)
-- `0311d835f7980ab37cb8775b6a4d407ab121eb7a` [feat: ban ALTER SOURCE for shared source, and refine all ALTER clauses (#18750)](https://github.com/risingwavelabs/risingwave/pull/18750)
-- `786cd632d362afc1befcfc24beda8b5bc4920f7b` [fix: Remove `DISTINCT` in recursive CTEs for MySQL (#18825)](https://github.com/risingwavelabs/risingwave/pull/18825)
-
-## nightly-20241009
-- `b8c3fcb52964ff87d743cb9349e7097f77047c21` [fix(ci): bump protoc version (#18824)](https://github.com/risingwavelabs/risingwave/pull/18824)
