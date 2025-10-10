@@ -306,6 +306,17 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `953a006b3e6bf455c1f5da62257f37d753e076ae` [feat(optimizer): support enforcing locality on the reqirement side (#23401)](https://github.com/risingwavelabs/risingwave/pull/23401)
+- `b7429ac18a4a61b0a3989fa531a5357e05ecb6f7` [fix(docker): Update docker-compose-with-lakekeeper.yml (#23387)](https://github.com/risingwavelabs/risingwave/pull/23387)
+- `982e0bc9e972f442b35ff3605e36c56d6f195832` [refactor: modify several functions to use `shared_actor_info` (#23396)](https://github.com/risingwavelabs/risingwave/pull/23396)
+- `549d6823eb2fc2bc7f62df7f55ede9ac936d4b93` [feat(sink): support ADLS for iceberg sink (#23350)](https://github.com/risingwavelabs/risingwave/pull/23350)
+- `95797f8999adb0b1fe15190c05036f5044189728` [chore(deps): Bump socket2 from 0.5.9 to 0.6.0 (#22896)](https://github.com/risingwavelabs/risingwave/pull/22896)
+- `e036611c9cc76d7a2e527a6a4753dbc1e39dc3ed` [feat(streaming): support locality enforcement and locality backfill (#23275)](https://github.com/risingwavelabs/risingwave/pull/23275)
+- `bf010866dc80eb171680590695da807b94ace715` [chore(deps): Bump phf from 0.11.3 to 0.12.1 (#22844)](https://github.com/risingwavelabs/risingwave/pull/22844)
+- `ef201e100b8e694bd8ed89f64f5a3ffb6853f587` [feat(test): add sim test for async truncate sinks (#23388)](https://github.com/risingwavelabs/risingwave/pull/23388)
+- `5ae2a436cfa6216368b19c973a5555d7168f5884` [chore(deps): Bump typed-builder from 0.21.0 to 0.22.0 (#23398)](https://github.com/risingwavelabs/risingwave/pull/23398)
+- `af32b4e1f51768b5a885ca518f062b9d41cc5182` [chore(deps): Bump md5 from 0.7.0 to 0.8.0 (#22876)](https://github.com/risingwavelabs/risingwave/pull/22876)
+- `f0a2a9a086f7a831300dda21e47bb016508f5421` [chore(deps): Bump comfy-table from 7.1.0 to 7.2.1 (#23397)](https://github.com/risingwavelabs/risingwave/pull/23397)
 - `45f1b7837c519bb18e024aa5fdf253d410ee3ce2` [chore(deps): Bump hashbrown from 0.15.2 to 0.16.0 (#23344)](https://github.com/risingwavelabs/risingwave/pull/23344)
 
 ## nightly-20251009
