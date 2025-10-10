@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251010` `953a006b3e6bf455c1f5da62257f37d753e076ae`
 - `20251009` `b9f88148501c6b8e67229a02b293159aed644f74`
 - `20251008` `c2cae359acfcf34b720bf6e5e6691793a525f073`
 - `20251007` `3b494fd959b6d5f6d1bd14f2a29b9ca5bb8dc300`
@@ -297,7 +298,6 @@
 - `20241014` `909b7157978ae5c6fe33d08de955cc4987bc455d`
 - `20241013` `f50535978d243e8158e2647430ba408c7b895008`
 - `20241011` `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5`
-- `20241010` `b12460d08b5fadef15d43495cf63b6fe21dd4ee8`
 </details>
 
 # Commit history
@@ -306,6 +306,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251010
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b9f88148501c6b8e67229a02b293159aed644f74...953a006b3e6bf455c1f5da62257f37d753e076ae)
 - `953a006b3e6bf455c1f5da62257f37d753e076ae` [feat(optimizer): support enforcing locality on the reqirement side (#23401)](https://github.com/risingwavelabs/risingwave/pull/23401)
 - `b7429ac18a4a61b0a3989fa531a5357e05ecb6f7` [fix(docker): Update docker-compose-with-lakekeeper.yml (#23387)](https://github.com/risingwavelabs/risingwave/pull/23387)
 - `982e0bc9e972f442b35ff3605e36c56d6f195832` [refactor: modify several functions to use `shared_actor_info` (#23396)](https://github.com/risingwavelabs/risingwave/pull/23396)
@@ -3206,24 +3209,4 @@
 - `7bdc37e21a27e64cc945d4c7b1b53133fd254ad6` [fix: filter out creating associated source catalog in notification snapshot (#18874)](https://github.com/risingwavelabs/risingwave/pull/18874)
 
 ## nightly-20241011
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b12460d08b5fadef15d43495cf63b6fe21dd4ee8...9ef40ba54a3cfce9f4946440ef78c8020b1b72f5)
 - `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5` [test: move kafka alter source test to source_inline (#18867)](https://github.com/risingwavelabs/risingwave/pull/18867)
-- `360d55267c390e62ba27063867474a4d05e5a656` [fix(udf): upgrade arrow-udf to 0.5 which fixes rust udf compilation (#18862)](https://github.com/risingwavelabs/risingwave/pull/18862)
-- `b1ea9e486f4665a64f660ebfa9d079502222ff12` [refactor: enable time travel by default (#18854)](https://github.com/risingwavelabs/risingwave/pull/18854)
-- `755edb4c67476d1f12fcfec5bf7216b277c8d01e` [fix: fix subscription clean during recovery (#18866)](https://github.com/risingwavelabs/risingwave/pull/18866)
-- `e9d2e29cc79557c9eb4fb17d42bf41a22cd654fa` [fix(udf): unlimit external udf message size (#18591)](https://github.com/risingwavelabs/risingwave/pull/18591)
-- `da977e921f397391d9025c068e0b0f025405e44c` [feat(batch): support basic postgres tvf (#18811)](https://github.com/risingwavelabs/risingwave/pull/18811)
-- `aaad651dfda2308f96bf96b485b844486dc92665` [fix(storage): Fix panic caused by group overlapping ssts optimization (#18861)](https://github.com/risingwavelabs/risingwave/pull/18861)
-- `d6dc650a3e1103d6243d95b57100b20fe04874d7` [fix(meta): rename `--license-key-file` to `--license-key-path` (#18838)](https://github.com/risingwavelabs/risingwave/pull/18838)
-- `7cd2ab071df0d0e394598857d80c8f716a53bd30` [fix(ci): fix there is no reactor running in meta recovery tests, when kill-meta enabled (#18852)](https://github.com/risingwavelabs/risingwave/pull/18852)
-- `b01906ec6fe3fe0d962cd02196c2c9c25583c13b` [refactor(meta): reject directly setting license key when it's managed by watching a file (#18823)](https://github.com/risingwavelabs/risingwave/pull/18823)
-- `7fa1dfffd33747036a24253accda11887f9db705` [refactor(cache): upgrade foyer to 0.12 and related deps (#18822)](https://github.com/risingwavelabs/risingwave/pull/18822)
-- `442086b3c1d27331972780648ab4ce17546c47ec` [chore(deps): Bump rust_decimal from 1.35.0 to 1.36.0 (#18773)](https://github.com/risingwavelabs/risingwave/pull/18773)
-- `b11e15c1425b2bc9d9db1df492237eb4728d3667` [fix(jdbc-sink): fix incorrect data type mapping of Timestamptz (#18843)](https://github.com/risingwavelabs/risingwave/pull/18843)
-- `a9bf2e9863b52ec833ca56e6120ad816a3947439` [chore(deps): bump async-nats from 0.35.0 to 0.37.0 (#18851)](https://github.com/risingwavelabs/risingwave/pull/18851)
-- `9a71862c8fdb6e64cf23f4ac4c81aac40c5f5c3e` [chore(cdc): enhance cdc primary key error message (#18829)](https://github.com/risingwavelabs/risingwave/pull/18829)
-- `dce14c94fe9bcd6315cd8b8e7db8353ba7bc0feb` [feat(over window): add compute count metric for general over window executor (#18847)](https://github.com/risingwavelabs/risingwave/pull/18847)
-- `7720bee5f49c021c1064e6d33dd4b62077caceb7` [refactor(over window): move `build_changes` to `OverPartition` for better modularity (#18846)](https://github.com/risingwavelabs/risingwave/pull/18846)
-
-## nightly-20241010
-- `b12460d08b5fadef15d43495cf63b6fe21dd4ee8` [fix: fix base64 decode on + (#18837)](https://github.com/risingwavelabs/risingwave/pull/18837)
