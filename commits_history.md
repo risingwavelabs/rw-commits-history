@@ -306,6 +306,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `126e31e2d403cd1da82363a120cbed708a132a44` [feat(iceberg): differentiate cloud and oss user agent tag (#23415)](https://github.com/risingwavelabs/risingwave/pull/23415)
+- `d61b712d4906044f8e8978a99bfedf31b6582ef2` [refactor(meta): migrate fragment retrieval to use shared fragment info (#23404)](https://github.com/risingwavelabs/risingwave/pull/23404)
 
 ## nightly-20251010
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b9f88148501c6b8e67229a02b293159aed644f74...953a006b3e6bf455c1f5da62257f37d753e076ae)
