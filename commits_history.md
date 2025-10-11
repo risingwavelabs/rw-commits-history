@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251011` `126e31e2d403cd1da82363a120cbed708a132a44`
 - `20251010` `953a006b3e6bf455c1f5da62257f37d753e076ae`
 - `20251009` `b9f88148501c6b8e67229a02b293159aed644f74`
 - `20251008` `c2cae359acfcf34b720bf6e5e6691793a525f073`
@@ -297,7 +298,6 @@
 - `20241015` `2af00e81d826ed4f5198e429b5803bfa3dc29652`
 - `20241014` `909b7157978ae5c6fe33d08de955cc4987bc455d`
 - `20241013` `f50535978d243e8158e2647430ba408c7b895008`
-- `20241011` `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5`
 </details>
 
 # Commit history
@@ -306,6 +306,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8aa0be8d3876dac29d984353a6daa749abf50b37` [feat(connector): support jdbc sqlserver sink (#23416)](https://github.com/risingwavelabs/risingwave/pull/23416)
+
+## nightly-20251011
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/953a006b3e6bf455c1f5da62257f37d753e076ae...126e31e2d403cd1da82363a120cbed708a132a44)
 - `126e31e2d403cd1da82363a120cbed708a132a44` [feat(iceberg): differentiate cloud and oss user agent tag (#23415)](https://github.com/risingwavelabs/risingwave/pull/23415)
 - `d61b712d4906044f8e8978a99bfedf31b6582ef2` [refactor(meta): migrate fragment retrieval to use shared fragment info (#23404)](https://github.com/risingwavelabs/risingwave/pull/23404)
 
@@ -3200,15 +3204,4 @@
 - `a348b8a76ed4146df117188fa8954784fff0e1df` [fix: use larger max_cached_recent_versions_number for CI (#18883)](https://github.com/risingwavelabs/risingwave/pull/18883)
 
 ## nightly-20241013
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9ef40ba54a3cfce9f4946440ef78c8020b1b72f5...f50535978d243e8158e2647430ba408c7b895008)
 - `f50535978d243e8158e2647430ba408c7b895008` [feat: create connector source worker before the txn write of catalog (#18885)](https://github.com/risingwavelabs/risingwave/pull/18885)
-- `798896fc4eec986193b49a0443fa0452caf41b4f` [fix(storage): fix sub level id for time travel (#18886)](https://github.com/risingwavelabs/risingwave/pull/18886)
-- `52f233186b73d60f6d150b5da57946c729537711` [feat(iceberg): introduce read/write bytes metrics for iceberg and all files sys_catalog (#18841)](https://github.com/risingwavelabs/risingwave/pull/18841)
-- `55723f0bf0e754eda2b2a6d859802e5b657b5d95` [chore(sink): dump delta-rs to 0.20.1 (#18840)](https://github.com/risingwavelabs/risingwave/pull/18840)
-- `75161ed8bb22c26aca1bc7505c5f8b42a6b850ec` [chore(deps): Bump parse-display from 0.9.0 to 0.10.0 (#18880)](https://github.com/risingwavelabs/risingwave/pull/18880)
-- `da368b2dab3bfa7d61c89699f6adf9d7c7f6507f` [chore(deps): Bump sysinfo from 0.31.4 to 0.32.0 (#18879)](https://github.com/risingwavelabs/risingwave/pull/18879)
-- `00fbff45f978e57ced1eb7d70a16666ebeeeac3c` [fix(mssql-cdc): fix sqlserver-cdc backfill command (#18848)](https://github.com/risingwavelabs/risingwave/pull/18848)
-- `7bdc37e21a27e64cc945d4c7b1b53133fd254ad6` [fix: filter out creating associated source catalog in notification snapshot (#18874)](https://github.com/risingwavelabs/risingwave/pull/18874)
-
-## nightly-20241011
-- `9ef40ba54a3cfce9f4946440ef78c8020b1b72f5` [test: move kafka alter source test to source_inline (#18867)](https://github.com/risingwavelabs/risingwave/pull/18867)
