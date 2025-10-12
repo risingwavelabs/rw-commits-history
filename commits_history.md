@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251012` `8aa0be8d3876dac29d984353a6daa749abf50b37`
 - `20251011` `126e31e2d403cd1da82363a120cbed708a132a44`
 - `20251010` `953a006b3e6bf455c1f5da62257f37d753e076ae`
 - `20251009` `b9f88148501c6b8e67229a02b293159aed644f74`
@@ -306,6 +307,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251012
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/126e31e2d403cd1da82363a120cbed708a132a44...8aa0be8d3876dac29d984353a6daa749abf50b37)
 - `8aa0be8d3876dac29d984353a6daa749abf50b37` [feat(connector): support jdbc sqlserver sink (#23416)](https://github.com/risingwavelabs/risingwave/pull/23416)
 
 ## nightly-20251011
