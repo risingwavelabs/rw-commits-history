@@ -307,6 +307,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `32ac5cf4ecd1bdd2da75db11414924e41a4642df` [chore(deps): Bump xorf from 0.11.0 to 0.12.0 (#23433)](https://github.com/risingwavelabs/risingwave/pull/23433)
+- `52172e81a369625c723ad2a8b6b6129e83efd2e7` [chore(deps): Bump tinyvec from 1.9.0 to 1.10.0 (#23434)](https://github.com/risingwavelabs/risingwave/pull/23434)
+- `403fc8e657a3d12cafdfd695ecad228af70b5a51` [fix(err): Get error score with root cause in anyhow (#23413)](https://github.com/risingwavelabs/risingwave/pull/23413)
+- `3c0f8989f7e673bfc8cc740d86162e981ffe14ef` [chore(deps): Bump procfs from 0.17.0 to 0.18.0 (#23408)](https://github.com/risingwavelabs/risingwave/pull/23408)
+- `6cf2edc12da8db9571e16d47df6ac7bea0f3963a` [chore(deps): Bump inquire from 0.7.0 to 0.9.1 (#23407)](https://github.com/risingwavelabs/risingwave/pull/23407)
+- `f33fa0b696ae2fac028831627b3b7b17b48dec79` [feat: make iceberg snapshot expiration loop interval configurable (#23389)](https://github.com/risingwavelabs/risingwave/pull/23389)
+- `43419a2c701a6b2ec4e2574ec89d3ac83615518e` [feat(compactor): Supports configurable rpc parameters. (#23392)](https://github.com/risingwavelabs/risingwave/pull/23392)
+- `cc3f0d2aeb19786de6b5bb509adeec9f38a6d3e2` [feat(pg-cdc): allows users to configure whether upstream database is AWS RDS (#23420)](https://github.com/risingwavelabs/risingwave/pull/23420)
+- `11dd5685745a1df358c939844b73772d8b099654` [fix: fix test script (#23419)](https://github.com/risingwavelabs/risingwave/pull/23419)
 
 ## nightly-20251012
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/126e31e2d403cd1da82363a120cbed708a132a44...8aa0be8d3876dac29d984353a6daa749abf50b37)
