@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251013` `32ac5cf4ecd1bdd2da75db11414924e41a4642df`
 - `20251012` `8aa0be8d3876dac29d984353a6daa749abf50b37`
 - `20251011` `126e31e2d403cd1da82363a120cbed708a132a44`
 - `20251010` `953a006b3e6bf455c1f5da62257f37d753e076ae`
@@ -298,7 +299,6 @@
 - `20241016` `360fe8adc5b65fda09ff2a87388b7102326ea190`
 - `20241015` `2af00e81d826ed4f5198e429b5803bfa3dc29652`
 - `20241014` `909b7157978ae5c6fe33d08de955cc4987bc455d`
-- `20241013` `f50535978d243e8158e2647430ba408c7b895008`
 </details>
 
 # Commit history
@@ -307,6 +307,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251013
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8aa0be8d3876dac29d984353a6daa749abf50b37...32ac5cf4ecd1bdd2da75db11414924e41a4642df)
 - `32ac5cf4ecd1bdd2da75db11414924e41a4642df` [chore(deps): Bump xorf from 0.11.0 to 0.12.0 (#23433)](https://github.com/risingwavelabs/risingwave/pull/23433)
 - `52172e81a369625c723ad2a8b6b6129e83efd2e7` [chore(deps): Bump tinyvec from 1.9.0 to 1.10.0 (#23434)](https://github.com/risingwavelabs/risingwave/pull/23434)
 - `403fc8e657a3d12cafdfd695ecad228af70b5a51` [fix(err): Get error score with root cause in anyhow (#23413)](https://github.com/risingwavelabs/risingwave/pull/23413)
@@ -3210,11 +3213,4 @@
 - `f217edde107fbf6369d1bd1088b7e35e6c6ba912` [feat: improve observability for subscription/cursor SHOW commands (#18896)](https://github.com/risingwavelabs/risingwave/pull/18896)
 
 ## nightly-20241014
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f50535978d243e8158e2647430ba408c7b895008...909b7157978ae5c6fe33d08de955cc4987bc455d)
 - `909b7157978ae5c6fe33d08de955cc4987bc455d` [refactor(test): rename non-inline-style `e2e_test/source` to `source_legacy` (#18890)](https://github.com/risingwavelabs/risingwave/pull/18890)
-- `7dcd1bde52fb0f9ed67a38da454d82b0342e91f4` [chore(deps): Bump rust-embed from 8.4.0 to 8.5.0 (#18817)](https://github.com/risingwavelabs/risingwave/pull/18817)
-- `f2999416f31c26bb6c823dd4cfc7080d07a0592b` [test(ci): switch all tests to sql backend (#18099)](https://github.com/risingwavelabs/risingwave/pull/18099)
-- `a348b8a76ed4146df117188fa8954784fff0e1df` [fix: use larger max_cached_recent_versions_number for CI (#18883)](https://github.com/risingwavelabs/risingwave/pull/18883)
-
-## nightly-20241013
-- `f50535978d243e8158e2647430ba408c7b895008` [feat: create connector source worker before the txn write of catalog (#18885)](https://github.com/risingwavelabs/risingwave/pull/18885)
