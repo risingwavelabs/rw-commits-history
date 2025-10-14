@@ -307,6 +307,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `86595ec10b1bbfc5fecb4989b608184a29f6376d` [fix(frontend): let is_nullable default to true in views (#23425)](https://github.com/risingwavelabs/risingwave/pull/23425)
+- `e0592dd12f12042b628222682b89a35ed3a0e7c6` [refactor: modify some functions in the controller/fragment.rs to depend on shared_actor_info (#23445)](https://github.com/risingwavelabs/risingwave/pull/23445)
+- `7c0af4c079c9b30f1e752dc460c18b5fd4ef5f77` [feat(frontend): include schema name in output of `SHOW [TABLE|..]S` (#23119)](https://github.com/risingwavelabs/risingwave/pull/23119)
 
 ## nightly-20251013
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8aa0be8d3876dac29d984353a6daa749abf50b37...32ac5cf4ecd1bdd2da75db11414924e41a4642df)
