@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251014` `86595ec10b1bbfc5fecb4989b608184a29f6376d`
 - `20251013` `32ac5cf4ecd1bdd2da75db11414924e41a4642df`
 - `20251012` `8aa0be8d3876dac29d984353a6daa749abf50b37`
 - `20251011` `126e31e2d403cd1da82363a120cbed708a132a44`
@@ -298,7 +299,6 @@
 - `20241017` `79ee46fdfab686486875713e1705d58cf0bd2da0`
 - `20241016` `360fe8adc5b65fda09ff2a87388b7102326ea190`
 - `20241015` `2af00e81d826ed4f5198e429b5803bfa3dc29652`
-- `20241014` `909b7157978ae5c6fe33d08de955cc4987bc455d`
 </details>
 
 # Commit history
@@ -307,6 +307,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2cc8605c147a8f3054fc4e78409d43514fbba486` [refactor: propagate job_id in shared fragment info and related apis (#23447)](https://github.com/risingwavelabs/risingwave/pull/23447)
+- `0cfdf68ab8a29b33a485b22274916d060f29a244` [fix(parser): fix missing single quote for interval value in formatting AsOf (#23457)](https://github.com/risingwavelabs/risingwave/pull/23457)
+- `8a008dae92497a7dd7ab5491e87b8a7e7cea87d5` [chore: deprecate fields in stream fragment graph (#23455)](https://github.com/risingwavelabs/risingwave/pull/23455)
+
+## nightly-20251014
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32ac5cf4ecd1bdd2da75db11414924e41a4642df...86595ec10b1bbfc5fecb4989b608184a29f6376d)
 - `86595ec10b1bbfc5fecb4989b608184a29f6376d` [fix(frontend): let is_nullable default to true in views (#23425)](https://github.com/risingwavelabs/risingwave/pull/23425)
 - `e0592dd12f12042b628222682b89a35ed3a0e7c6` [refactor: modify some functions in the controller/fragment.rs to depend on shared_actor_info (#23445)](https://github.com/risingwavelabs/risingwave/pull/23445)
 - `7c0af4c079c9b30f1e752dc460c18b5fd4ef5f77` [feat(frontend): include schema name in output of `SHOW [TABLE|..]S` (#23119)](https://github.com/risingwavelabs/risingwave/pull/23119)
@@ -3199,21 +3205,4 @@
 - `efbbc7dd7c0a72f0c7341a594eb4960db84f13c5` [refactor(test): move some tests from source_legacy to source_inline (#18894)](https://github.com/risingwavelabs/risingwave/pull/18894)
 
 ## nightly-20241015
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/909b7157978ae5c6fe33d08de955cc4987bc455d...2af00e81d826ed4f5198e429b5803bfa3dc29652)
 - `2af00e81d826ed4f5198e429b5803bfa3dc29652` [fix(storage): purge dropped columns for sql backend (#18914)](https://github.com/risingwavelabs/risingwave/pull/18914)
-- `6463815b8175621c43db257179d1ef6774e43acf` [feat: deprecate etcd meta store (#18621)](https://github.com/risingwavelabs/risingwave/pull/18621)
-- `4cf3a4842cf64f3206af9584c0c34928abeeaec8` [chore(deps): Bump serde_with from 3.8.0 to 3.8.1 (#18910)](https://github.com/risingwavelabs/risingwave/pull/18910)
-- `08fe4115ac5c1429de9b9723ee1a144e095aeceb` [doc: Create SECURITY.md (#18917)](https://github.com/risingwavelabs/risingwave/pull/18917)
-- `88c66475e17f6227a3776e06a8a7be9127a8c667` [feat(log): change opendal and reqsign log level to INFO (#18913)](https://github.com/risingwavelabs/risingwave/pull/18913)
-- `e2712901d4991ed8e851f90021290e80516e40dc` [feat: allow nats additional column offset and payload  (#18897)](https://github.com/risingwavelabs/risingwave/pull/18897)
-- `df8840b8cc7ffbbe77210bc4a50ae5f6fa273e50` [chore(deps): Bump libtest-mimic from 0.7.0 to 0.8.1 (#18909)](https://github.com/risingwavelabs/risingwave/pull/18909)
-- `cfc3f84593da8d8805583bc4d003661ff02ba85c` [chore(deps): Bump tempfile from 3.10.0 to 3.13.0 (#18772)](https://github.com/risingwavelabs/risingwave/pull/18772)
-- `adc48b579905be0fefafb0064cdf3a50ffe10631` [chore(deps): Bump commons-io:commons-io from 2.11.0 to 2.14.0 in /java (#18791)](https://github.com/risingwavelabs/risingwave/pull/18791)
-- `a6f2b88b1bd81e7216fdb85035cc2ad9d0288c95` [fix: misused source row count metric (#18902)](https://github.com/risingwavelabs/risingwave/pull/18902)
-- `67514c1cb2944b298a39608bcf3daeca4318bea9` [chore(deps): Bump pbjson-build from 0.5.1 to 0.7.0 (#18781)](https://github.com/risingwavelabs/risingwave/pull/18781)
-- `0045fd6f2d3de1338daaf223960e38d8da924ea6` [chore(deps): bump typed-builder from 0.18.2 to 0.20.0 (#18850)](https://github.com/risingwavelabs/risingwave/pull/18850)
-- `883bcb1e781e8909c3c9227584c3611a2232ad39` [refactor(test): mv `scripts/source` `e2e_test/source_legacy/basic/scripts` (#18891)](https://github.com/risingwavelabs/risingwave/pull/18891)
-- `f217edde107fbf6369d1bd1088b7e35e6c6ba912` [feat: improve observability for subscription/cursor SHOW commands (#18896)](https://github.com/risingwavelabs/risingwave/pull/18896)
-
-## nightly-20241014
-- `909b7157978ae5c6fe33d08de955cc4987bc455d` [refactor(test): rename non-inline-style `e2e_test/source` to `source_legacy` (#18890)](https://github.com/risingwavelabs/risingwave/pull/18890)
