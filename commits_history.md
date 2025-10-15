@@ -307,6 +307,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f3c9a7899f8f8415fe464d8ad47bac49722604e0` [feat(streaming): support truncating locality backfill state (#23324)](https://github.com/risingwavelabs/risingwave/pull/23324)
+- `e976418efb52ce88cdd55f071b2493f60bc78cab` [test: refactor simulation scaling to use sql ddl exclusively (#23474)](https://github.com/risingwavelabs/risingwave/pull/23474)
+- `671e914c0f177154adf5a6518c6714ea79aeccbf` [chore: bump rumqttc (#23456)](https://github.com/risingwavelabs/risingwave/pull/23456)
+- `8f8ad65c296f427252c2bb31c187f8bc2044dbbd` [feat: unify the notification for background and foreground job and refactoring cancel process (#23215)](https://github.com/risingwavelabs/risingwave/pull/23215)
+- `043a404909c29c74bb4baf051cefbd4c2226e2f4` [fix(streaming): ban background ddl for locality backfill (#23460)](https://github.com/risingwavelabs/risingwave/pull/23460)
+- `bdaafd3cade49e7a2f7089fb71d9549e416b9e50` [refactor: remove source_splits model and related code (#23467)](https://github.com/risingwavelabs/risingwave/pull/23467)
+- `7800e2ba0de1327970962e6b74f30a95778ac907` [fix: fix typos (#23428)](https://github.com/risingwavelabs/risingwave/pull/23428)
+- `fd42085cd390a4dd77525baa3be3afd7f6bfe312` [chore: increase build other components timeout (#23470)](https://github.com/risingwavelabs/risingwave/pull/23470)
+- `c8992d09c8c231af215a686304c2b2d5b1b218dc` [fix(types): enable `float_roundtrip` for `serde_json` used by value encoding of JSONB (#23453)](https://github.com/risingwavelabs/risingwave/pull/23453)
 - `2cc8605c147a8f3054fc4e78409d43514fbba486` [refactor: propagate job_id in shared fragment info and related apis (#23447)](https://github.com/risingwavelabs/risingwave/pull/23447)
 - `0cfdf68ab8a29b33a485b22274916d060f29a244` [fix(parser): fix missing single quote for interval value in formatting AsOf (#23457)](https://github.com/risingwavelabs/risingwave/pull/23457)
 - `8a008dae92497a7dd7ab5491e87b8a7e7cea87d5` [chore: deprecate fields in stream fragment graph (#23455)](https://github.com/risingwavelabs/risingwave/pull/23455)
