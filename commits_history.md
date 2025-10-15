@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251015` `f3c9a7899f8f8415fe464d8ad47bac49722604e0`
 - `20251014` `86595ec10b1bbfc5fecb4989b608184a29f6376d`
 - `20251013` `32ac5cf4ecd1bdd2da75db11414924e41a4642df`
 - `20251012` `8aa0be8d3876dac29d984353a6daa749abf50b37`
@@ -298,7 +299,6 @@
 - `20241018` `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65`
 - `20241017` `79ee46fdfab686486875713e1705d58cf0bd2da0`
 - `20241016` `360fe8adc5b65fda09ff2a87388b7102326ea190`
-- `20241015` `2af00e81d826ed4f5198e429b5803bfa3dc29652`
 </details>
 
 # Commit history
@@ -307,6 +307,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251015
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86595ec10b1bbfc5fecb4989b608184a29f6376d...f3c9a7899f8f8415fe464d8ad47bac49722604e0)
 - `f3c9a7899f8f8415fe464d8ad47bac49722604e0` [feat(streaming): support truncating locality backfill state (#23324)](https://github.com/risingwavelabs/risingwave/pull/23324)
 - `e976418efb52ce88cdd55f071b2493f60bc78cab` [test: refactor simulation scaling to use sql ddl exclusively (#23474)](https://github.com/risingwavelabs/risingwave/pull/23474)
 - `671e914c0f177154adf5a6518c6714ea79aeccbf` [chore: bump rumqttc (#23456)](https://github.com/risingwavelabs/risingwave/pull/23456)
@@ -3192,26 +3195,4 @@
 - `7920e3df88f453516885d9a7ce076f4afbba7800` [feat(mssql-cdc): add ssl support for sqlserver-cdc (#18912)](https://github.com/risingwavelabs/risingwave/pull/18912)
 
 ## nightly-20241016
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2af00e81d826ed4f5198e429b5803bfa3dc29652...360fe8adc5b65fda09ff2a87388b7102326ea190)
 - `360fe8adc5b65fda09ff2a87388b7102326ea190` [fix(meta): fix contention (#18945)](https://github.com/risingwavelabs/risingwave/pull/18945)
-- `0154e89cb33cd2e32a8113ce73c90c36ab2cf00a` [chore: update package version to 2.2.0-alpha (#18934)](https://github.com/risingwavelabs/risingwave/pull/18934)
-- `6d35ac1eadd40ae81e89ef67806fbb11b87979fe` [refactor(storage): proactively prevent uncommitted SSTs from GC (#18882)](https://github.com/risingwavelabs/risingwave/pull/18882)
-- `b089d1ee3c98c15190e73513795e287cef7db2f9` [fix(sqlparser): keyword after `char` shall not be consumed on error (#18921)](https://github.com/risingwavelabs/risingwave/pull/18921)
-- `a2b6f4feb4a739b91f8a61e3351b7bd18392bae1` [chore: fix overwrite to append new migration when using generate cli (#18939)](https://github.com/risingwavelabs/risingwave/pull/18939)
-- `e2a04af13c56a49ac8057a758006b6c0f73d6afd` [fix(java-binding): use table committed epoch in demo query (#18937)](https://github.com/risingwavelabs/risingwave/pull/18937)
-- `b7f9da48d657962f38992c5961cd852ecd7972d5` [refactor(source): handle `INCLUDE header` data type properly (#18821)](https://github.com/risingwavelabs/risingwave/pull/18821)
-- `6e775bd1d0ea175d9ca9ad00a5bb177dadc5267e` [feat(ci): add cherry-pick job to release-2.1 (#18933)](https://github.com/risingwavelabs/risingwave/pull/18933)
-- `82c124d57a7dd8fbffeb1fd7535c472e98573a32` [chore(deps): Bump the aws group with 3 updates (#18905)](https://github.com/risingwavelabs/risingwave/pull/18905)
-- `66021134eaa9ac60266ec38137fcfb55cccedc87` [feat(meta): support commit epoch on multiple graphs at once (#18819)](https://github.com/risingwavelabs/risingwave/pull/18819)
-- `959321025e972bff406349787c0702e224ae0128` [feat(risedev): support launching system rw in risedev-dev (#18889)](https://github.com/risingwavelabs/risingwave/pull/18889)
-- `04755fdc27aa9c0c44746b73a03dea3714a0526e` [fix(cdc): fix the filter expression of CdcFilter executor (#18868)](https://github.com/risingwavelabs/risingwave/pull/18868)
-- `dd4b1d4fb37ed2ba2ff40309c7234640666f3c56` [chore(deps): Bump rustls-pki-types from 1.7.0 to 1.10.0 (#18923)](https://github.com/risingwavelabs/risingwave/pull/18923)
-- `d997ebe842a4c9079b5a438a6398f9b9d357fc64` [refactor: impl ack and migrate to durable consumer for Nats (#18873)](https://github.com/risingwavelabs/risingwave/pull/18873)
-- `6863a24b86085e9ef6cc87fc4ac8d396602c735d` [test: add recovery in nexmark q4 sim test (#18577)](https://github.com/risingwavelabs/risingwave/pull/18577)
-- `a8b83e38128ed426e5faf2432a4caf36cc8889c5` [feat(stream agg): add agg state cache miss ratio metric (#18900)](https://github.com/risingwavelabs/risingwave/pull/18900)
-- `5d914bab1a74eb3361575a57d3142627ae64a8cb` [chore(deps): Bump opensearch from 2.2.0 to 2.3.0 (#18922)](https://github.com/risingwavelabs/risingwave/pull/18922)
-- `890ec7a429b7809fd72199ecd1ed2f9152f290d9` [feat: try add integrity check before offline scale (#18901)](https://github.com/risingwavelabs/risingwave/pull/18901)
-- `efbbc7dd7c0a72f0c7341a594eb4960db84f13c5` [refactor(test): move some tests from source_legacy to source_inline (#18894)](https://github.com/risingwavelabs/risingwave/pull/18894)
-
-## nightly-20241015
-- `2af00e81d826ed4f5198e429b5803bfa3dc29652` [fix(storage): purge dropped columns for sql backend (#18914)](https://github.com/risingwavelabs/risingwave/pull/18914)
