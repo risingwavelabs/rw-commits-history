@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251016` `461a55f8288810dc5baf9705e22c416009c3bdf2`
 - `20251015` `f3c9a7899f8f8415fe464d8ad47bac49722604e0`
 - `20251014` `86595ec10b1bbfc5fecb4989b608184a29f6376d`
 - `20251013` `32ac5cf4ecd1bdd2da75db11414924e41a4642df`
@@ -298,7 +299,6 @@
 - `20241020` `96aeb52372543bf1cc5ab814e50210cb3fb1d898`
 - `20241018` `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65`
 - `20241017` `79ee46fdfab686486875713e1705d58cf0bd2da0`
-- `20241016` `360fe8adc5b65fda09ff2a87388b7102326ea190`
 </details>
 
 # Commit history
@@ -307,6 +307,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c6daacc06817a5ee8fa937c3878b80e6fe7f11d2` [chore: bump toolchain to nightly-20251010 (#23473)](https://github.com/risingwavelabs/risingwave/pull/23473)
+
+## nightly-20251016
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f3c9a7899f8f8415fe464d8ad47bac49722604e0...461a55f8288810dc5baf9705e22c416009c3bdf2)
 - `461a55f8288810dc5baf9705e22c416009c3bdf2` [chore(deps): Bump rust_decimal from 1.37.0 to 1.39.0 (#23443)](https://github.com/risingwavelabs/risingwave/pull/23443)
 - `b7727c9c53f47c57b599d7023e36fa453e867180` [chore: remove `local_stats_alloc` (#23488)](https://github.com/risingwavelabs/risingwave/pull/23488)
 - `b1eb994f3461876aea69b1b32a26f103cb516ab7` [chore: improve notification panic log with info type (#23351)](https://github.com/risingwavelabs/risingwave/pull/23351)
@@ -3189,18 +3193,4 @@
 - `e1177e59c374111d2c82835be87f4961819d9610` [fix(ci): use explicit permissions (#18980)](https://github.com/risingwavelabs/risingwave/pull/18980)
 
 ## nightly-20241017
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/360fe8adc5b65fda09ff2a87388b7102326ea190...79ee46fdfab686486875713e1705d58cf0bd2da0)
 - `79ee46fdfab686486875713e1705d58cf0bd2da0` [feat(ci): simplify the cherry-pick workflow (#18978)](https://github.com/risingwavelabs/risingwave/pull/18978)
-- `fb1edb60c7a1aaed794aad8fd1d93ad4255e04f8` [chore(test): longer streaming_upload_attempt_timeout_ms for backfill test only (#18960)](https://github.com/risingwavelabs/risingwave/pull/18960)
-- `9a6a7f9052d5679165ff57cc01417c742c95351c` [chore: cleanup v2 naming for sql metastore (#18941)](https://github.com/risingwavelabs/risingwave/pull/18941)
-- `c56294f16d30d9bdb0b8d4ea9901dc95319edf1d` [chore(ci): eliminate the progress output of wget (#18965)](https://github.com/risingwavelabs/risingwave/pull/18965)
-- `5204ea4495ce77e5bbff00997c8155488867b5cc` [feat(sink): introduce batching strategy for  file sink (#18472)](https://github.com/risingwavelabs/risingwave/pull/18472)
-- `bf36aad0a839ad1babaff778b376059d18362f86` [refactor(compaction): Simplify task checking in group scheduling (#18884)](https://github.com/risingwavelabs/risingwave/pull/18884)
-- `340dba6bea00e9acc475ea2a96a9b8742b7aa565` [feat(postgres-cdc): support replicating Postgres schema change (#18760)](https://github.com/risingwavelabs/risingwave/pull/18760)
-- `73fa688369b7b04062e546a2916fc2b646fbfc62` [feat: support background DDL for MV on shared source (#18919)](https://github.com/risingwavelabs/risingwave/pull/18919)
-- `b55732f77060315da6e3e68fda0f99ed22106981` [fix: prevent mqtt enumerator in dead loop if disconnected (#18961)](https://github.com/risingwavelabs/risingwave/pull/18961)
-- `4ec4db1baeec1fcc1982a375d18b04ad3556dd3f` [chore(deps): Bump rustls-pemfile from 2.1.1 to 2.2.0 (#18956)](https://github.com/risingwavelabs/risingwave/pull/18956)
-- `7920e3df88f453516885d9a7ce076f4afbba7800` [feat(mssql-cdc): add ssl support for sqlserver-cdc (#18912)](https://github.com/risingwavelabs/risingwave/pull/18912)
-
-## nightly-20241016
-- `360fe8adc5b65fda09ff2a87388b7102326ea190` [fix(meta): fix contention (#18945)](https://github.com/risingwavelabs/risingwave/pull/18945)
