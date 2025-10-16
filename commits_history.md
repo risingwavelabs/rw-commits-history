@@ -307,6 +307,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `461a55f8288810dc5baf9705e22c416009c3bdf2` [chore(deps): Bump rust_decimal from 1.37.0 to 1.39.0 (#23443)](https://github.com/risingwavelabs/risingwave/pull/23443)
+- `b7727c9c53f47c57b599d7023e36fa453e867180` [chore: remove `local_stats_alloc` (#23488)](https://github.com/risingwavelabs/risingwave/pull/23488)
+- `b1eb994f3461876aea69b1b32a26f103cb516ab7` [chore: improve notification panic log with info type (#23351)](https://github.com/risingwavelabs/risingwave/pull/23351)
+- `76690cfb3d9d6c0d971dfbf6a2d254ab553df691` [feat(license):  also count cpu cores for nodes other than compute nodes (#23390)](https://github.com/risingwavelabs/risingwave/pull/23390)
+- `28e68c6e1874f92fef7fff1461cf2bd7b08615aa` [refactor(batch): store BatchQueryEpoch in batch node (#23448)](https://github.com/risingwavelabs/risingwave/pull/23448)
+- `1a10d976aadb8f5eeb39a2b1370a922d2463a05b` [chore(deps): Bump the mysql group across 1 directory with 2 updates (#20206)](https://github.com/risingwavelabs/risingwave/pull/20206)
+- `fd295583a6708d5c8a5b8e1bdc8bebe2a248ddb1` [feat(streaming): also match `Insert` then `Delete` pairs when eliminating adjacent no-op updates (#23483)](https://github.com/risingwavelabs/risingwave/pull/23483)
+- `1955c8bd3a4a75e726227c98ef4b38c3049754ad` [chore(ci): increase build other components timeout (#23479)](https://github.com/risingwavelabs/risingwave/pull/23479)
 
 ## nightly-20251015
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86595ec10b1bbfc5fecb4989b608184a29f6376d...f3c9a7899f8f8415fe464d8ad47bac49722604e0)
