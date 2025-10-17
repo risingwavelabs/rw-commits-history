@@ -298,7 +298,6 @@
 - `20241021` `ff61c885fd873de3686111d2db3aaa61b99c0e75`
 - `20241020` `96aeb52372543bf1cc5ab814e50210cb3fb1d898`
 - `20241018` `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65`
-- `20241017` `79ee46fdfab686486875713e1705d58cf0bd2da0`
 </details>
 
 # Commit history
@@ -307,6 +306,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `383a24bb288ed25ea7640537c5694fbc3a93149e` [refactor(vector): extract common vector index reader (#23339)](https://github.com/risingwavelabs/risingwave/pull/23339)
 - `93541413c44b28e8334d1e3469747cc492f5f631` [fix(streaming): use `Delete`/`Insert` instead of `UpdateDelete`/`UpdateInsert` for outer joins (#23472)](https://github.com/risingwavelabs/risingwave/pull/23472)
 - `a4dced32c16a678aa707d8ceb133e8ddf6aac990` [chore: Update rustfmt entry to use edition 2024 (#23506)](https://github.com/risingwavelabs/risingwave/pull/23506)
 - `7593435f478dba5cac17a4e18ce22c11982dc345` [feat(license): change cpu limit to rwu limit, restricting cluster total memory (#23403)](https://github.com/risingwavelabs/risingwave/pull/23403)
@@ -3179,24 +3179,4 @@
 - `60e124dba68ad8770e2909553cd5e4de29fa2f69` [ci: parallelize e2e_test/source_inline (#18971)](https://github.com/risingwavelabs/risingwave/pull/18971)
 
 ## nightly-20241018
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79ee46fdfab686486875713e1705d58cf0bd2da0...14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65)
 - `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65` [fix(ci): ensure timeout steps also notify (#18962)](https://github.com/risingwavelabs/risingwave/pull/18962)
-- `7f37a8e8621c48aac3c28063a297fee87e3d4e21` [feat(frontend): support create database with owner (#19005)](https://github.com/risingwavelabs/risingwave/pull/19005)
-- `73a4bb979f2b11624c46fd64d8d5534eddafc659` [fix: changelog does not support fully qualified path (#18785)](https://github.com/risingwavelabs/risingwave/pull/18785)
-- `3b161303f37fdc080756faab759455176eaa0d48` [feat(batch): ensure user-facing context is always present for external system errors (#18982)](https://github.com/risingwavelabs/risingwave/pull/18982)
-- `339ebf8119a8ebceae63dfe76f005c9b7793e71e` [fix(test): fix some flaky e2e source tests (#18989)](https://github.com/risingwavelabs/risingwave/pull/18989)
-- `ab526062690ea35b26de6eb0f70b0a9f9fd91e05` [feat(meta): record Hummock GC history (#18946)](https://github.com/risingwavelabs/risingwave/pull/18946)
-- `0226bd5933b753b95c79b084be6b92f6bd4992b6` [fix(frontend): allow `INCLUDE payload` without other columns (#19003)](https://github.com/risingwavelabs/risingwave/pull/19003)
-- `c0d6af170770ca34635c467ac03f5ac8327c9b21` [feat(meta): commit epoch in separate group delta (#18893)](https://github.com/risingwavelabs/risingwave/pull/18893)
-- `d6277fb78f287e433ccf8a473b3a30393b57cc9e` [feat: report sink failure event to event log (#18958)](https://github.com/risingwavelabs/risingwave/pull/18958)
-- `87e2ebfd04b8bf9adfa6da6bf9e9c45fbcf85e33` [feat(snapshot-backfill): control log store back pressure in backfill executor (#18798)](https://github.com/risingwavelabs/risingwave/pull/18798)
-- `b801234b7219858e9aa59c0463607e3744dcc70f` [fix(ci): change backfill test config (#18994)](https://github.com/risingwavelabs/risingwave/pull/18994)
-- `20bd924b9a1091392ac5d04af798ca5a6e86fe75` [fix(meta): read correct id field (#18988)](https://github.com/risingwavelabs/risingwave/pull/18988)
-- `d241a3228a40a508a640511c4f2332280817dfbc` [doc(dev-guide): minor improve testing guide (#18986)](https://github.com/risingwavelabs/risingwave/pull/18986)
-- `75190a791bef7f50d45de7cbc5aa5f8fb0599010` [chore(deps): Bump uuid from 1.10.0 to 1.11.0 (#18985)](https://github.com/risingwavelabs/risingwave/pull/18985)
-- `ee97c1d52a0a27cf6684fd082ebc4065407d71e0` [fix(ci): add contents write permission (#18981)](https://github.com/risingwavelabs/risingwave/pull/18981)
-- `9e4a6fdacafbf821835ecf76e8b9fa2c1b093b35` [revert: we allow single quotation in title again (#18973)](https://github.com/risingwavelabs/risingwave/pull/18973)
-- `e1177e59c374111d2c82835be87f4961819d9610` [fix(ci): use explicit permissions (#18980)](https://github.com/risingwavelabs/risingwave/pull/18980)
-
-## nightly-20241017
-- `79ee46fdfab686486875713e1705d58cf0bd2da0` [feat(ci): simplify the cherry-pick workflow (#18978)](https://github.com/risingwavelabs/risingwave/pull/18978)
