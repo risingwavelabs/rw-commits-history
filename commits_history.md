@@ -307,6 +307,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `93541413c44b28e8334d1e3469747cc492f5f631` [fix(streaming): use `Delete`/`Insert` instead of `UpdateDelete`/`UpdateInsert` for outer joins (#23472)](https://github.com/risingwavelabs/risingwave/pull/23472)
+- `a4dced32c16a678aa707d8ceb133e8ddf6aac990` [chore: Update rustfmt entry to use edition 2024 (#23506)](https://github.com/risingwavelabs/risingwave/pull/23506)
+- `7593435f478dba5cac17a4e18ce22c11982dc345` [feat(license): change cpu limit to rwu limit, restricting cluster total memory (#23403)](https://github.com/risingwavelabs/risingwave/pull/23403)
+- `419b22f465de60b0502407d8f30ce9b827785ecb` [fix(iceberg): fix iceberg streaming source when schema change. (#23491)](https://github.com/risingwavelabs/risingwave/pull/23491)
+- `cf1a6f1b6d599fa899585c16858133364300d7c1` [feat: add ListFinish step in refresh table (#23487)](https://github.com/risingwavelabs/risingwave/pull/23487)
+- `339aafd1a8967f89397275efbb719e7d7a6afd6d` [chore(deps): Bump governor from 0.8.1 to 0.10.1 (#23500)](https://github.com/risingwavelabs/risingwave/pull/23500)
 - `c6daacc06817a5ee8fa937c3878b80e6fe7f11d2` [chore: bump toolchain to nightly-20251010 (#23473)](https://github.com/risingwavelabs/risingwave/pull/23473)
 
 ## nightly-20251016
