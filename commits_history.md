@@ -297,7 +297,6 @@
 - `20241022` `87b7164b8029e779c7ccd5f6a475376c491ad0dc`
 - `20241021` `ff61c885fd873de3686111d2db3aaa61b99c0e75`
 - `20241020` `96aeb52372543bf1cc5ab814e50210cb3fb1d898`
-- `20241018` `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65`
 </details>
 
 # Commit history
@@ -3172,11 +3171,4 @@
 - `3c57ef8dd5d26f6eaedf42c169309a0751bcf5e6` [feat: enable shared source in session variable by default, and add cluster-level config to disable (#18749)](https://github.com/risingwavelabs/risingwave/pull/18749)
 
 ## nightly-20241020
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65...96aeb52372543bf1cc5ab814e50210cb3fb1d898)
 - `96aeb52372543bf1cc5ab814e50210cb3fb1d898` [test: use tempfile for rw metadata storage in deterministic tests (#18970)](https://github.com/risingwavelabs/risingwave/pull/18970)
-- `5b93390125f5a78d72ba531df3cfce04b23688a1` [chore(deps): unpatch madsim (#19013)](https://github.com/risingwavelabs/risingwave/pull/19013)
-- `aed4e6e979fbd15befa30a90c9f267c6d370c94f` [fix(common): fix conversion between Decimal to arrow Decimal128 (#19007)](https://github.com/risingwavelabs/risingwave/pull/19007)
-- `60e124dba68ad8770e2909553cd5e4de29fa2f69` [ci: parallelize e2e_test/source_inline (#18971)](https://github.com/risingwavelabs/risingwave/pull/18971)
-
-## nightly-20241018
-- `14f67e9f6c07e03de114bd8b1f3cfb5b66ef8c65` [fix(ci): ensure timeout steps also notify (#18962)](https://github.com/risingwavelabs/risingwave/pull/18962)
