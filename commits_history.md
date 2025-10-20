@@ -305,6 +305,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f98f6c44b1de471111e3afa24960303dee403945` [fix(sink): fix doris deadline has elapsed  (#23512)](https://github.com/risingwavelabs/risingwave/pull/23512)
+- `e565e0b0d844af2ee1242ea0d52c027bf3339d5e` [feat(vector): support time travel query for vector index (#23464)](https://github.com/risingwavelabs/risingwave/pull/23464)
+- `278d8e53609eeea96cc12c4923c4daf05e4ae873` [chore: change the parameter `ast` to `ast: Ast` about apply method (#23503)](https://github.com/risingwavelabs/risingwave/pull/23503)
 - `383a24bb288ed25ea7640537c5694fbc3a93149e` [refactor(vector): extract common vector index reader (#23339)](https://github.com/risingwavelabs/risingwave/pull/23339)
 - `93541413c44b28e8334d1e3469747cc492f5f631` [fix(streaming): use `Delete`/`Insert` instead of `UpdateDelete`/`UpdateInsert` for outer joins (#23472)](https://github.com/risingwavelabs/risingwave/pull/23472)
 - `a4dced32c16a678aa707d8ceb133e8ddf6aac990` [chore: Update rustfmt entry to use edition 2024 (#23506)](https://github.com/risingwavelabs/risingwave/pull/23506)
