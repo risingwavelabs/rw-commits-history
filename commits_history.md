@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251021` `4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d`
 - `20251016` `461a55f8288810dc5baf9705e22c416009c3bdf2`
 - `20251015` `f3c9a7899f8f8415fe464d8ad47bac49722604e0`
 - `20251014` `86595ec10b1bbfc5fecb4989b608184a29f6376d`
@@ -295,7 +296,6 @@
 - `20241024` `65ed113a3c52c0fe079c9fa2751fda48d92ead49`
 - `20241023` `e6f830b68f42022b8ee1d9e4f68836cddcb3086a`
 - `20241022` `87b7164b8029e779c7ccd5f6a475376c491ad0dc`
-- `20241021` `ff61c885fd873de3686111d2db3aaa61b99c0e75`
 </details>
 
 # Commit history
@@ -304,6 +304,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fbdd768fc236697e673aca8afa24c77a2d5d9e43` [fix(meta): remove message size limit for sink coordination service (#23485)](https://github.com/risingwavelabs/risingwave/pull/23485)
+- `e728f1645c3d7c474394a0123d7406180889b7dd` [refactor(sqlsmith): support path-based reduction (#23369)](https://github.com/risingwavelabs/risingwave/pull/23369)
+- `db3d3e19949dfe3d57e864a86d22e5d95612b3b3` [refactor: use in-memory actor info for meta operations (#23528)](https://github.com/risingwavelabs/risingwave/pull/23528)
+
+## nightly-20251021
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/461a55f8288810dc5baf9705e22c416009c3bdf2...4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d)
 - `4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d` [feat(mysql-cdc):support mysql 8.4 (#23286)](https://github.com/risingwavelabs/risingwave/pull/23286)
 - `56997e33ca492e369844c35bf913cb87a4b2867b` [chore(deps): Bump io.grpc:grpc-netty-shaded from 1.74.0 to 1.75.0 in /java (#23356)](https://github.com/risingwavelabs/risingwave/pull/23356)
 - `14f9df2fa0d5135cce5b37378d179cfa8c31799a` [feat(expr): add `reverse(bytea)` (#23492)](https://github.com/risingwavelabs/risingwave/pull/23492)
@@ -3168,14 +3174,4 @@
 - `5ca0a739671e38e2f582937d53ab4941b2de0586` [feat(frontend): support `explain format json` (#19041)](https://github.com/risingwavelabs/risingwave/pull/19041)
 
 ## nightly-20241022
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ff61c885fd873de3686111d2db3aaa61b99c0e75...87b7164b8029e779c7ccd5f6a475376c491ad0dc)
 - `87b7164b8029e779c7ccd5f6a475376c491ad0dc` [feat: Add dashboard Backfill Snapshot Read Throughput(rows) by MV (#19018)](https://github.com/risingwavelabs/risingwave/pull/19018)
-- `b299fe9ff8ea2ad56d5e45ba12fa2d74891ee3f2` [chore(ci): update notify for mqtt, iceberg tests + increase standalone test timeout (#19042)](https://github.com/risingwavelabs/risingwave/pull/19042)
-- `8865c58b9ad6d543a41f66ecc212e87aea7b017f` [test: snapshot with option for sink into table (#19051)](https://github.com/risingwavelabs/risingwave/pull/19051)
-- `4745119eb1640efa5cee364290ea44924bb513ad` [test: add planner test case for distinct on (#19048)](https://github.com/risingwavelabs/risingwave/pull/19048)
-- `9b42fb05de7b04e0cbb5dfe87048b11f2e9179ee` [test: refactor pg tvf tests into inline tests (#19004)](https://github.com/risingwavelabs/risingwave/pull/19004)
-- `f637d0fbe14b1b02bae619774c5dfc745ee3e059` [feat: improve progress msg in SHOW JOBS for source backfill (#18925)](https://github.com/risingwavelabs/risingwave/pull/18925)
-- `0790a7312434d8491caede9df925bb666cd891c2` [chore(deps): Bump tower from 0.4.13 to 0.5.0 (#18957)](https://github.com/risingwavelabs/risingwave/pull/18957)
-
-## nightly-20241021
-- `ff61c885fd873de3686111d2db3aaa61b99c0e75` [refactor: distinguish between placeholder and compat for vnode count (#18976)](https://github.com/risingwavelabs/risingwave/pull/18976)
