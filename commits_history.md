@@ -296,7 +296,6 @@
 - `20241023` `e6f830b68f42022b8ee1d9e4f68836cddcb3086a`
 - `20241022` `87b7164b8029e779c7ccd5f6a475376c491ad0dc`
 - `20241021` `ff61c885fd873de3686111d2db3aaa61b99c0e75`
-- `20241020` `96aeb52372543bf1cc5ab814e50210cb3fb1d898`
 </details>
 
 # Commit history
@@ -305,6 +304,26 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d` [feat(mysql-cdc):support mysql 8.4 (#23286)](https://github.com/risingwavelabs/risingwave/pull/23286)
+- `56997e33ca492e369844c35bf913cb87a4b2867b` [chore(deps): Bump io.grpc:grpc-netty-shaded from 1.74.0 to 1.75.0 in /java (#23356)](https://github.com/risingwavelabs/risingwave/pull/23356)
+- `14f9df2fa0d5135cce5b37378d179cfa8c31799a` [feat(expr): add `reverse(bytea)` (#23492)](https://github.com/risingwavelabs/risingwave/pull/23492)
+- `bb877b9792a20415fae1ac747eb25d5c7793ab12` [chore(deps): Bump humantime from 2.2.0 to 2.3.0 (#23444)](https://github.com/risingwavelabs/risingwave/pull/23444)
+- `b62d1092e0ba622be17990ce373d42ce4fbf5382` [chore(deps): Bump crate-ci/typos from 1.34.0 to 1.38.1 (#23427)](https://github.com/risingwavelabs/risingwave/pull/23427)
+- `f53f01b7d2861b7ad0fd514d54a129121c70527f` [chore(deps): Bump authlib from 1.6.0 to 1.6.5 in /e2e_test (#23410)](https://github.com/risingwavelabs/risingwave/pull/23410)
+- `848dae48828f50d3b17af6fc678f7fddbe9a9cbc` [chore(deps): Bump simd-json from 0.16.0 to 0.17.0 (#23406)](https://github.com/risingwavelabs/risingwave/pull/23406)
+- `5d38d6edccf999e2a8587203a00f168c46a1035b` [chore: remove incorrect comment (#23328)](https://github.com/risingwavelabs/risingwave/pull/23328)
+- `25dd318cfe35526059b4cd055768861085eb2949` [feat(streaming): improve locality backfill progress (#23454)](https://github.com/risingwavelabs/risingwave/pull/23454)
+- `cf557596f8cd46bdf63b51ecb2c65a68e863e0fe` [test: add RabbitMQ service and MQTT tests (#23471)](https://github.com/risingwavelabs/risingwave/pull/23471)
+- `472ba66dcf0aa33dbaa57e02dad18fb3abeb217f` [fix: optimize fragment retrieval and improve catalog statistics (#23469)](https://github.com/risingwavelabs/risingwave/pull/23469)
+- `3572992f5a12c7a6b43ab72479fdad3afb285788` [refactor: make batch posix source follow new stream plan (#23504)](https://github.com/risingwavelabs/risingwave/pull/23504)
+- `ec74b5f3c0106102b75693f9a2490259195472df` [feat: add migration for fragment parallelism column (#23521)](https://github.com/risingwavelabs/risingwave/pull/23521)
+- `0d66fa059c5a976a519f1701bbb69b59968fbace` [refactor(streaming): assert stream key consistency for `U-` `U+` pairs (#23463)](https://github.com/risingwavelabs/risingwave/pull/23463)
+- `0e2472ac690726357124f32cfe97e28a17bb1066` [refactor(storage): use new higher rank lifetime assumption to avoid unnecessary clone (#23490)](https://github.com/risingwavelabs/risingwave/pull/23490)
+- `bc66647bcd8144b176094825140211f81419898e` [fix: fix prod compile (#23520)](https://github.com/risingwavelabs/risingwave/pull/23520)
+- `92c908c104e2e96e57ca7373c26c356fcdb2c130` [chore: enable `clippy::redundant_clone` in workspace (#23502)](https://github.com/risingwavelabs/risingwave/pull/23502)
+- `c60df8bb79762d5781d875c2259c9901a8623f90` [feat(optimizer): support column prunning for iceberg streaming source (#23509)](https://github.com/risingwavelabs/risingwave/pull/23509)
+- `b1c14578574e571b0640325debaa7bfacc9cd60e` [chore(deps): Bump redis from 0.28.2 to 0.32.7 (#23494)](https://github.com/risingwavelabs/risingwave/pull/23494)
+- `7fc2a1a9e340ff5feb925e73c7adbecd09a73128` [chore(deps): Bump indexmap from 2.10.0 to 2.12.0 (#23517)](https://github.com/risingwavelabs/risingwave/pull/23517)
 - `f98f6c44b1de471111e3afa24960303dee403945` [fix(sink): fix doris deadline has elapsed  (#23512)](https://github.com/risingwavelabs/risingwave/pull/23512)
 - `e565e0b0d844af2ee1242ea0d52c027bf3339d5e` [feat(vector): support time travel query for vector index (#23464)](https://github.com/risingwavelabs/risingwave/pull/23464)
 - `278d8e53609eeea96cc12c4923c4daf05e4ae873` [chore: change the parameter `ast` to `ast: Ast` about apply method (#23503)](https://github.com/risingwavelabs/risingwave/pull/23503)
@@ -3159,19 +3178,4 @@
 - `0790a7312434d8491caede9df925bb666cd891c2` [chore(deps): Bump tower from 0.4.13 to 0.5.0 (#18957)](https://github.com/risingwavelabs/risingwave/pull/18957)
 
 ## nightly-20241021
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/96aeb52372543bf1cc5ab814e50210cb3fb1d898...ff61c885fd873de3686111d2db3aaa61b99c0e75)
 - `ff61c885fd873de3686111d2db3aaa61b99c0e75` [refactor: distinguish between placeholder and compat for vnode count (#18976)](https://github.com/risingwavelabs/risingwave/pull/18976)
-- `3e7fffd9850bd09d68dd87d0e1ca0033bf324430` [feat: persist processed rows for SourceBackfill for SHOW JOBS (#18983)](https://github.com/risingwavelabs/risingwave/pull/18983)
-- `d17ce39433c8f0726ed9125dad0d3fca49203e07` [fix(meta): rename changelog shall check `self.from` (#19030)](https://github.com/risingwavelabs/risingwave/pull/19030)
-- `9bbf418a8136b26dd3f7e240abf683a192ce7010` [refactor(meta): clarify the completeness of internal table catalogs (#18944)](https://github.com/risingwavelabs/risingwave/pull/18944)
-- `a04365a6c9cb3c27c44934a71232541a52d2dade` [refactor(meta): validate time_travel_retention_ms (#18979)](https://github.com/risingwavelabs/risingwave/pull/18979)
-- `43544ac655d9ff0c1e284d456179faa675003fe3` [fix(sqlparser): `Display` changelog with quoted identifiers (#19029)](https://github.com/risingwavelabs/risingwave/pull/19029)
-- `23bdf31b996a790250be77268b7314cf6c994598` [feat: add `is_shared` column to `rw_sources` (#19027)](https://github.com/risingwavelabs/risingwave/pull/19027)
-- `1ca2ea7597bd3190bdf6495cbf20bf32d1b42b05` [feat(over window): add `over_window_accessed_entry_count` to metric for better observability (#18943)](https://github.com/risingwavelabs/risingwave/pull/18943)
-- `4dec2eaf45d56d1021b9b3371de770952042fe26` [chore: add missing system columns in pg_class and pg_attribute (#19011)](https://github.com/risingwavelabs/risingwave/pull/19011)
-- `120747f951fad0edc6bf75582d9a99e9ff2aa6a1` [fix(metric): better agg state cache miss ratio metric (#19012)](https://github.com/risingwavelabs/risingwave/pull/19012)
-- `2a71574417e468199550c2bc40829d45543f587e` [fix(iceberg): fix iceberg source position and all delete (#18932)](https://github.com/risingwavelabs/risingwave/pull/18932)
-- `3c57ef8dd5d26f6eaedf42c169309a0751bcf5e6` [feat: enable shared source in session variable by default, and add cluster-level config to disable (#18749)](https://github.com/risingwavelabs/risingwave/pull/18749)
-
-## nightly-20241020
-- `96aeb52372543bf1cc5ab814e50210cb3fb1d898` [test: use tempfile for rw metadata storage in deterministic tests (#18970)](https://github.com/risingwavelabs/risingwave/pull/18970)
