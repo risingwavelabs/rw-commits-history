@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251022` `2dca2547afa7fdb92289aedc2a381ba3738add78`
 - `20251021` `4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d`
 - `20251016` `461a55f8288810dc5baf9705e22c416009c3bdf2`
 - `20251015` `f3c9a7899f8f8415fe464d8ad47bac49722604e0`
@@ -295,7 +296,6 @@
 - `20241025` `d5d0283650fafef0eb2592c273a1d0a95a04f35c`
 - `20241024` `65ed113a3c52c0fe079c9fa2751fda48d92ead49`
 - `20241023` `e6f830b68f42022b8ee1d9e4f68836cddcb3086a`
-- `20241022` `87b7164b8029e779c7ccd5f6a475376c491ad0dc`
 </details>
 
 # Commit history
@@ -304,6 +304,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8b0624f93c23a10d54c29adaa66f6ea009143926` [refactor(streaming): extract `ChangeBuffer` for chunk compaction (#23507)](https://github.com/risingwavelabs/risingwave/pull/23507)
+- `c9719e77f4d3aca5dbd5c789917d58395907dbed` [chore(deps): Bump jsonbb from 0.1.4 to 0.2.2 (#23497)](https://github.com/risingwavelabs/risingwave/pull/23497)
+
+## nightly-20251022
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d...2dca2547afa7fdb92289aedc2a381ba3738add78)
 - `2dca2547afa7fdb92289aedc2a381ba3738add78` [fix: remove graph-check CLI command and sea-orm dependency (#23543)](https://github.com/risingwavelabs/risingwave/pull/23543)
 - `d123916cd281788ef529426a7f3deba8520ba2ee` [feat(iceberg): handle iceberg table DDL creation in meta side (#23468)](https://github.com/risingwavelabs/risingwave/pull/23468)
 - `08990ec5f4501f3c23b1409d03fde7be233e73c8` [fix: simplify adaptive split assignment for NATS sources (#23533)](https://github.com/risingwavelabs/risingwave/pull/23533)
@@ -3177,12 +3182,4 @@
 - `bdfd89214171104a8c31e9bf40cb64a2919d9d77` [fix: remove redundant `consumer_durable_name` (#19090)](https://github.com/risingwavelabs/risingwave/pull/19090)
 
 ## nightly-20241023
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/87b7164b8029e779c7ccd5f6a475376c491ad0dc...e6f830b68f42022b8ee1d9e4f68836cddcb3086a)
 - `e6f830b68f42022b8ee1d9e4f68836cddcb3086a` [fix(dashboard): show creating job edges in bp graph (#19066)](https://github.com/risingwavelabs/risingwave/pull/19066)
-- `fd975e025e2f9964970a35afb186a0e2e336493c` [fix(optimizer): apply join transpose rule (#19060)](https://github.com/risingwavelabs/risingwave/pull/19060)
-- `3a4c4de29d3d1da55df186bc1124b0f221a89f82` [fix(batch): use streaming api for `postgres_query` when fetching rows from upstream (#19064)](https://github.com/risingwavelabs/risingwave/pull/19064)
-- `db245612ba9c319e97c7105daf12587e1fc9809c` [doc(dev-guide): `cargo binstall` -> `cargo install`  (#19054)](https://github.com/risingwavelabs/risingwave/pull/19054)
-- `5ca0a739671e38e2f582937d53ab4941b2de0586` [feat(frontend): support `explain format json` (#19041)](https://github.com/risingwavelabs/risingwave/pull/19041)
-
-## nightly-20241022
-- `87b7164b8029e779c7ccd5f6a475376c491ad0dc` [feat: Add dashboard Backfill Snapshot Read Throughput(rows) by MV (#19018)](https://github.com/risingwavelabs/risingwave/pull/19018)
