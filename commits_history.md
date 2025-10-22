@@ -304,6 +304,17 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2dca2547afa7fdb92289aedc2a381ba3738add78` [fix: remove graph-check CLI command and sea-orm dependency (#23543)](https://github.com/risingwavelabs/risingwave/pull/23543)
+- `d123916cd281788ef529426a7f3deba8520ba2ee` [feat(iceberg): handle iceberg table DDL creation in meta side (#23468)](https://github.com/risingwavelabs/risingwave/pull/23468)
+- `08990ec5f4501f3c23b1409d03fde7be233e73c8` [fix: simplify adaptive split assignment for NATS sources (#23533)](https://github.com/risingwavelabs/risingwave/pull/23533)
+- `61c66fd7d8ed31901bb2d7a07462985f2623f6e2` [fix(binder): report error when defaulting null values to a non-nullable column (#23446)](https://github.com/risingwavelabs/risingwave/pull/23446)
+- `47b9dd224f2e118e1462987771c7a27677361529` [refactor:  remove some deps on `lru` (#23489)](https://github.com/risingwavelabs/risingwave/pull/23489)
+- `adb504d891f3204f99b50c2a1174172232cfd9af` [fix: use counter instead of gauge for error metrics (#23522)](https://github.com/risingwavelabs/risingwave/pull/23522)
+- `4385512376cb3041a6e55ea042a002b854af7d33` [chore(deps): Bump csv from 1.3.0 to 1.4.0 (#23510)](https://github.com/risingwavelabs/risingwave/pull/23510)
+- `21f46bece749daa28bf5410a4ee8175d2a082b53` [chore(deps): Bump const-currying from 0.0.4 to 0.0.5 (#23539)](https://github.com/risingwavelabs/risingwave/pull/23539)
+- `4ba8dc56d7356952eaa8f55821753efbb8fb946a` [chore(deps): Bump typed-builder from 0.22.0 to 0.23.0 (#23536)](https://github.com/risingwavelabs/risingwave/pull/23536)
+- `d0a4a38364738886b29cfc93ff6b15c529b3edd2` [chore(deps): Bump dialoguer from 0.11.0 to 0.12.0 (#23432)](https://github.com/risingwavelabs/risingwave/pull/23432)
+- `61e3e2f3914f1ae23aedef4b34cfde1b7b945e4d` [chore(deps): Bump sysinfo from 0.35.2 to 0.37.2 (#23438)](https://github.com/risingwavelabs/risingwave/pull/23438)
 - `fbdd768fc236697e673aca8afa24c77a2d5d9e43` [fix(meta): remove message size limit for sink coordination service (#23485)](https://github.com/risingwavelabs/risingwave/pull/23485)
 - `e728f1645c3d7c474394a0123d7406180889b7dd` [refactor(sqlsmith): support path-based reduction (#23369)](https://github.com/risingwavelabs/risingwave/pull/23369)
 - `db3d3e19949dfe3d57e864a86d22e5d95612b3b3` [refactor: use in-memory actor info for meta operations (#23528)](https://github.com/risingwavelabs/risingwave/pull/23528)
