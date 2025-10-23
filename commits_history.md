@@ -304,6 +304,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ccea65953af41c2d8b2dc4763616d296c6e7ba69` [refactor: rename `compact` to `compact_vis` (#23555)](https://github.com/risingwavelabs/risingwave/pull/23555)
+- `06ec4634f4f4be6ccc2a7c8ec3d9df33a86b6a2f` [feat(iceberg): change iceberg default commit checkpoint interval from 10 to 60 (#23552)](https://github.com/risingwavelabs/risingwave/pull/23552)
+- `95ae3f20de1d47684c0e5138c0c46aac70f2e41d` [feat(expr): support `subvector` function (#22944)](https://github.com/risingwavelabs/risingwave/pull/22944)
+- `78aed59da2584b2c73f18fbba528da09547f84b3` [feat(observability): add system parameters monitoring dashboard (#23289)](https://github.com/risingwavelabs/risingwave/pull/23289)
 - `8b0624f93c23a10d54c29adaa66f6ea009143926` [refactor(streaming): extract `ChangeBuffer` for chunk compaction (#23507)](https://github.com/risingwavelabs/risingwave/pull/23507)
 - `c9719e77f4d3aca5dbd5c789917d58395907dbed` [chore(deps): Bump jsonbb from 0.1.4 to 0.2.2 (#23497)](https://github.com/risingwavelabs/risingwave/pull/23497)
 
