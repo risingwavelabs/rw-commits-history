@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251023` `ccea65953af41c2d8b2dc4763616d296c6e7ba69`
 - `20251022` `2dca2547afa7fdb92289aedc2a381ba3738add78`
 - `20251021` `4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d`
 - `20251016` `461a55f8288810dc5baf9705e22c416009c3bdf2`
@@ -295,7 +296,6 @@
 - `20241026` `32666f2183f49585c69d8690afec796e14e5ab78`
 - `20241025` `d5d0283650fafef0eb2592c273a1d0a95a04f35c`
 - `20241024` `65ed113a3c52c0fe079c9fa2751fda48d92ead49`
-- `20241023` `e6f830b68f42022b8ee1d9e4f68836cddcb3086a`
 </details>
 
 # Commit history
@@ -304,6 +304,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0610624aa600208e80a2ed95136026beea01fce2` [refactor(streaming): use `ChangeBuffer` for executors (#23508)](https://github.com/risingwavelabs/risingwave/pull/23508)
+
+## nightly-20251023
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2dca2547afa7fdb92289aedc2a381ba3738add78...ccea65953af41c2d8b2dc4763616d296c6e7ba69)
 - `ccea65953af41c2d8b2dc4763616d296c6e7ba69` [refactor: rename `compact` to `compact_vis` (#23555)](https://github.com/risingwavelabs/risingwave/pull/23555)
 - `06ec4634f4f4be6ccc2a7c8ec3d9df33a86b6a2f` [feat(iceberg): change iceberg default commit checkpoint interval from 10 to 60 (#23552)](https://github.com/risingwavelabs/risingwave/pull/23552)
 - `95ae3f20de1d47684c0e5138c0c46aac70f2e41d` [feat(expr): support `subvector` function (#22944)](https://github.com/risingwavelabs/risingwave/pull/22944)
@@ -3178,12 +3182,4 @@
 - `deb7eb54121166119baa2ab923ac47af32f11dc3` [feat(stream): enable background ddl for `StreamNow`, `StreamSource` (#19099)](https://github.com/risingwavelabs/risingwave/pull/19099)
 
 ## nightly-20241024
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6f830b68f42022b8ee1d9e4f68836cddcb3086a...65ed113a3c52c0fe079c9fa2751fda48d92ead49)
 - `65ed113a3c52c0fe079c9fa2751fda48d92ead49` [feat: expose connection options for sql meta store (#19040)](https://github.com/risingwavelabs/risingwave/pull/19040)
-- `8cf092f55bcaa11c63e06370030a9efe09fc4fed` [fix(batch): warn when fragment mapping not found (#19105)](https://github.com/risingwavelabs/risingwave/pull/19105)
-- `707a0d2c51afc87c47e0750c5f7a8086dbdeccf3` [test(secret): use correct RW_SECRET_STORE_PRIVATE_KEY_HEX length in test (#19092)](https://github.com/risingwavelabs/risingwave/pull/19092)
-- `73a3d9749154177a6b7c49cd5c99f19ef3e13fe9` [fix(over window): fix table iter pk prefix to use deduped partition key (#19081)](https://github.com/risingwavelabs/risingwave/pull/19081)
-- `bdfd89214171104a8c31e9bf40cb64a2919d9d77` [fix: remove redundant `consumer_durable_name` (#19090)](https://github.com/risingwavelabs/risingwave/pull/19090)
-
-## nightly-20241023
-- `e6f830b68f42022b8ee1d9e4f68836cddcb3086a` [fix(dashboard): show creating job edges in bp graph (#19066)](https://github.com/risingwavelabs/risingwave/pull/19066)
