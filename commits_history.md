@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251024` `d88378e21c3b71bd055bfadc6b4ab3fe5933db53`
 - `20251023` `ccea65953af41c2d8b2dc4763616d296c6e7ba69`
 - `20251022` `2dca2547afa7fdb92289aedc2a381ba3738add78`
 - `20251021` `4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d`
@@ -295,7 +296,6 @@
 - `20241027` `a176aced3c047d780adc8f3981a4921faa526255`
 - `20241026` `32666f2183f49585c69d8690afec796e14e5ab78`
 - `20241025` `d5d0283650fafef0eb2592c273a1d0a95a04f35c`
-- `20241024` `65ed113a3c52c0fe079c9fa2751fda48d92ead49`
 </details>
 
 # Commit history
@@ -304,6 +304,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251024
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ccea65953af41c2d8b2dc4763616d296c6e7ba69...d88378e21c3b71bd055bfadc6b4ab3fe5933db53)
 - `d88378e21c3b71bd055bfadc6b4ab3fe5933db53` [refactor(sink): use `downstream_pk: None` to represent user not specifying sink pk (#23557)](https://github.com/risingwavelabs/risingwave/pull/23557)
 - `1f7214bf70abf967fec2dcff48f171be8e4e07cd` [ci(doc): fix github action by passing required RUSTDOCFLAGS (#23564)](https://github.com/risingwavelabs/risingwave/pull/23564)
 - `af8aee945ccf5baf1244c2690a2be1e095e13151` [fix(mysql-cdc): up cast all unsigned int types (#23278)](https://github.com/risingwavelabs/risingwave/pull/23278)
@@ -3173,21 +3176,4 @@
 - `32666f2183f49585c69d8690afec796e14e5ab78` [refactor(test): unify `sr_register` usage for avro and protobuf (#19107)](https://github.com/risingwavelabs/risingwave/pull/19107)
 
 ## nightly-20241025
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/65ed113a3c52c0fe079c9fa2751fda48d92ead49...d5d0283650fafef0eb2592c273a1d0a95a04f35c)
 - `d5d0283650fafef0eb2592c273a1d0a95a04f35c` [feat(ci): add docker scout to check vulnerabilities in docker pipeline (#19128)](https://github.com/risingwavelabs/risingwave/pull/19128)
-- `70d1d4264cd4e72700a9a1334fcc6bee5df10c52` [chore: enable integrity check before offline scaling (#19104)](https://github.com/risingwavelabs/risingwave/pull/19104)
-- `ef22d0e032d8d102ae314ea209917bfc1ad5f69b` [fix(pg-cdc): handle citext data type and other string compatible data types (#19103)](https://github.com/risingwavelabs/risingwave/pull/19103)
-- `58ecec217dab253284beac1419da878928e296e9` [refactor: use 1 for vnode count of singletons (#18753)](https://github.com/risingwavelabs/risingwave/pull/18753)
-- `fcb6c358d0b96c7fa41b9fdafec9e52f01cc19a1` [feat(subscription): support cusor order (#18801)](https://github.com/risingwavelabs/risingwave/pull/18801)
-- `a89abcf014f0438e0cea0880534c9521eb7e4a6f` [feat(mysql-cdc): support mysql source capture multiple databases (#19038)](https://github.com/risingwavelabs/risingwave/pull/19038)
-- `083d66d704182453ee3bc71c66868a6f1f9e246e` [feat(source): column pruning for parquet file source (#18967)](https://github.com/risingwavelabs/risingwave/pull/18967)
-- `ca75c21701f7098e82ad2124d356acb0935fb74f` [feat(iceberg): support s3 path style for iceberg source (#19111)](https://github.com/risingwavelabs/risingwave/pull/19111)
-- `ad0bf17d33860d642190f7f6a8c4319c614e5d2f` [fix(meta): align job's max parallelism while replacing table (#19052)](https://github.com/risingwavelabs/risingwave/pull/19052)
-- `e22462d848d6b04ecab99e6af67016a8bbc38d0f` [feat(frontend): allow users to confirm if background_ddl is enabled for a materialized view (#19085)](https://github.com/risingwavelabs/risingwave/pull/19085)
-- `7e8bf1c72e19bc8c3d3c25f153597a6507d76fdb` [chore(deps): Bump tonic from 0.12.2 to 0.12.3 (#19077)](https://github.com/risingwavelabs/risingwave/pull/19077)
-- `6e57ac32deb4dbe0e634c71d7c418fa837667783` [chore(deps): Bump org.eclipse.jetty:jetty-http from 12.0.10 to 12.0.12 in /java (#18911)](https://github.com/risingwavelabs/risingwave/pull/18911)
-- `abdeca68bd451a2cc230f9d198c38f51617c629d` [chore(deps): Bump tinyvec from 1.6.0 to 1.8.0 (#18906)](https://github.com/risingwavelabs/risingwave/pull/18906)
-- `deb7eb54121166119baa2ab923ac47af32f11dc3` [feat(stream): enable background ddl for `StreamNow`, `StreamSource` (#19099)](https://github.com/risingwavelabs/risingwave/pull/19099)
-
-## nightly-20241024
-- `65ed113a3c52c0fe079c9fa2751fda48d92ead49` [feat: expose connection options for sql meta store (#19040)](https://github.com/risingwavelabs/risingwave/pull/19040)
