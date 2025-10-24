@@ -304,6 +304,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d88378e21c3b71bd055bfadc6b4ab3fe5933db53` [refactor(sink): use `downstream_pk: None` to represent user not specifying sink pk (#23557)](https://github.com/risingwavelabs/risingwave/pull/23557)
+- `1f7214bf70abf967fec2dcff48f171be8e4e07cd` [ci(doc): fix github action by passing required RUSTDOCFLAGS (#23564)](https://github.com/risingwavelabs/risingwave/pull/23564)
+- `af8aee945ccf5baf1244c2690a2be1e095e13151` [fix(mysql-cdc): up cast all unsigned int types (#23278)](https://github.com/risingwavelabs/risingwave/pull/23278)
+- `16d696f1546825b8e701588d7b2646488584e478` [refactor(iceberg): unify iceberg connection properties and iceberg common (#23551)](https://github.com/risingwavelabs/risingwave/pull/23551)
+- `3aa794561795914bfabee08112cc1148accbc423` [refactor(meta): avoid loading StreamJobFragments in recovery (#23545)](https://github.com/risingwavelabs/risingwave/pull/23545)
+- `65f47e1669afefb4c8b183dff355821d3c8e6d71` [ci(docker): fix fast build env var passing (#23561)](https://github.com/risingwavelabs/risingwave/pull/23561)
+- `940c883e668569951761a69dd67a9eed7d8c115a` [ci(docker): unify `fast-docker-build-arm` into github action (#23402)](https://github.com/risingwavelabs/risingwave/pull/23402)
+- `9ecd5225f9f707a6857a893e76a1d09b6033b6f9` [feat(iceberg): enable exactly once for iceberg sink by default (#23553)](https://github.com/risingwavelabs/risingwave/pull/23553)
 - `0610624aa600208e80a2ed95136026beea01fce2` [refactor(streaming): use `ChangeBuffer` for executors (#23508)](https://github.com/risingwavelabs/risingwave/pull/23508)
 
 ## nightly-20251023
