@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251024` `d88378e21c3b71bd055bfadc6b4ab3fe5933db53`
+- `20251025` `d88378e21c3b71bd055bfadc6b4ab3fe5933db53`
 - `20251023` `ccea65953af41c2d8b2dc4763616d296c6e7ba69`
 - `20251022` `2dca2547afa7fdb92289aedc2a381ba3738add78`
 - `20251021` `4be95331bc050e5e5a82d0fe81aff52c0f2c3b1d`
@@ -295,7 +295,6 @@
 - `20241028` `0d013eab1bba8cd86c575057e165586262362636`
 - `20241027` `a176aced3c047d780adc8f3981a4921faa526255`
 - `20241026` `32666f2183f49585c69d8690afec796e14e5ab78`
-- `20241025` `d5d0283650fafef0eb2592c273a1d0a95a04f35c`
 </details>
 
 # Commit history
@@ -305,7 +304,7 @@
 
 ## Unreleased
 
-## nightly-20251024
+## nightly-20251025
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ccea65953af41c2d8b2dc4763616d296c6e7ba69...d88378e21c3b71bd055bfadc6b4ab3fe5933db53)
 - `d88378e21c3b71bd055bfadc6b4ab3fe5933db53` [refactor(sink): use `downstream_pk: None` to represent user not specifying sink pk (#23557)](https://github.com/risingwavelabs/risingwave/pull/23557)
 - `1f7214bf70abf967fec2dcff48f171be8e4e07cd` [ci(doc): fix github action by passing required RUSTDOCFLAGS (#23564)](https://github.com/risingwavelabs/risingwave/pull/23564)
@@ -3172,8 +3171,4 @@
 - `a176aced3c047d780adc8f3981a4921faa526255` [fix(ci): fix standalone tests startup (#19067)](https://github.com/risingwavelabs/risingwave/pull/19067)
 
 ## nightly-20241026
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d5d0283650fafef0eb2592c273a1d0a95a04f35c...32666f2183f49585c69d8690afec796e14e5ab78)
 - `32666f2183f49585c69d8690afec796e14e5ab78` [refactor(test): unify `sr_register` usage for avro and protobuf (#19107)](https://github.com/risingwavelabs/risingwave/pull/19107)
-
-## nightly-20241025
-- `d5d0283650fafef0eb2592c273a1d0a95a04f35c` [feat(ci): add docker scout to check vulnerabilities in docker pipeline (#19128)](https://github.com/risingwavelabs/risingwave/pull/19128)
