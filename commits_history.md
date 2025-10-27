@@ -302,6 +302,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f1e2631151c6251e0d72c79c2ab8e1223d1df00d` [fix: allow binding internal creating tables when schema specified (#23580)](https://github.com/risingwavelabs/risingwave/pull/23580)
+- `9a72ff1e3dc890ac5844bce2cc2bfc95fa72fdda` [fix: add display for fixed backfill order (#23576)](https://github.com/risingwavelabs/risingwave/pull/23576)
+- `b95da09b97840d07e3e96e27bb93ef08ab351709` [refactor: refactor iceberg compactor task queue (#23309)](https://github.com/risingwavelabs/risingwave/pull/23309)
+- `3e464b3f55e543659134ea9a7c2260a4488ca56b` [chore: change file content in rw_iceberg_files better representation (#23578)](https://github.com/risingwavelabs/risingwave/pull/23578)
+- `3afb731d101fcd916b54e6d0cb67198c679d2437` [doc: Revise README for clarity and detail (#23577)](https://github.com/risingwavelabs/risingwave/pull/23577)
+- `4a253044eb4ca20635b1008a638d262604a9880f` [doc: Revise README for unified streaming data platform (#23572)](https://github.com/risingwavelabs/risingwave/pull/23572)
+- `98de2cc75d5e8cc09417a9d724c83e608693f46a` [fix(frontend): keep partial traces even if plan fails (#23568)](https://github.com/risingwavelabs/risingwave/pull/23568)
+- `e9df190590bd4b303684e016b37a37ea71146344` [feat(iceberg): support vended credentails for iceberg (#23567)](https://github.com/risingwavelabs/risingwave/pull/23567)
+- `2824ff4ba353faed2353b6da0315e28fa9edb34e` [test(cdc): upgrade from Mongo 4.4 to 8 (#23542)](https://github.com/risingwavelabs/risingwave/pull/23542)
 
 ## nightly-20251026
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ccea65953af41c2d8b2dc4763616d296c6e7ba69...d88378e21c3b71bd055bfadc6b4ab3fe5933db53)
