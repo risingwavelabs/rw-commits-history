@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251027` `f1e2631151c6251e0d72c79c2ab8e1223d1df00d`
 - `20251026` `d88378e21c3b71bd055bfadc6b4ab3fe5933db53`
 - `20251023` `ccea65953af41c2d8b2dc4763616d296c6e7ba69`
 - `20251022` `2dca2547afa7fdb92289aedc2a381ba3738add78`
@@ -293,7 +294,6 @@
 - `20241030` `a36c3172230d2aaf5632f60a4a31f0958d11f98f`
 - `20241029` `98baacd19f521cd75ec7dc9cbdde903e7ef01d12`
 - `20241028` `0d013eab1bba8cd86c575057e165586262362636`
-- `20241027` `a176aced3c047d780adc8f3981a4921faa526255`
 </details>
 
 # Commit history
@@ -302,6 +302,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `848cc000cc6a3ca6c3b8b7261d1a474c9f7f7acc` [refactor(sink): simplify and refine documentation for compaction (#23558)](https://github.com/risingwavelabs/risingwave/pull/23558)
+- `d293284c334f189340c22f48588fb10115a40ffe` [fix(mysql-cdc): remove snapshot redundant take (#23575)](https://github.com/risingwavelabs/risingwave/pull/23575)
+
+## nightly-20251027
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d88378e21c3b71bd055bfadc6b4ab3fe5933db53...f1e2631151c6251e0d72c79c2ab8e1223d1df00d)
 - `f1e2631151c6251e0d72c79c2ab8e1223d1df00d` [fix: allow binding internal creating tables when schema specified (#23580)](https://github.com/risingwavelabs/risingwave/pull/23580)
 - `9a72ff1e3dc890ac5844bce2cc2bfc95fa72fdda` [fix: add display for fixed backfill order (#23576)](https://github.com/risingwavelabs/risingwave/pull/23576)
 - `b95da09b97840d07e3e96e27bb93ef08ab351709` [refactor: refactor iceberg compactor task queue (#23309)](https://github.com/risingwavelabs/risingwave/pull/23309)
@@ -3162,17 +3167,4 @@
 - `0935cf2dff746165b03dc5aa15a942f2934ce7a2` [refactor(meta): decouple global barrier worker from context with trait (#19034)](https://github.com/risingwavelabs/risingwave/pull/19034)
 
 ## nightly-20241028
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a176aced3c047d780adc8f3981a4921faa526255...0d013eab1bba8cd86c575057e165586262362636)
 - `0d013eab1bba8cd86c575057e165586262362636` [perf(over window): pass through `Update`s not affecting window function outputs (#19056)](https://github.com/risingwavelabs/risingwave/pull/19056)
-- `9f12b10b34fd73a7b3b984c7d1fbeb0b721e583f` [fix(meta): fix vnode count data type when querying system table `rw_fragments` (#19155)](https://github.com/risingwavelabs/risingwave/pull/19155)
-- `c582c48d88565e1c692d47225c63b54a9dd0a6b8` [feat(compaction): introduce auto split and merge policy and config (#18806)](https://github.com/risingwavelabs/risingwave/pull/18806)
-- `16107fde0f6ee184546d2510bffc460625f34a14` [perf(over window): avoid recompute information about window frames (#19036)](https://github.com/risingwavelabs/risingwave/pull/19036)
-- `0d5ffe77800072da0a674f8c6f2176de7625c573` [fix(meta): fix migration query under postgres meta store for #18753 (#19151)](https://github.com/risingwavelabs/risingwave/pull/19151)
-- `aea38863c7acf7f00a921319f5f95751ed09ffb1` [chore(madsim,deps): use patched `sqlx` managed by the `madsim-rs` organization instead of a personal repository (#19130)](https://github.com/risingwavelabs/risingwave/pull/19130)
-- `81703a9d1eea53b0e22ee42af2c20fcf8c25516e` [fix(ci): fix docker scount notification (#19143)](https://github.com/risingwavelabs/risingwave/pull/19143)
-- `e99ad679863f4c5c6fbcb605739b8a9fe1e3a02c` [feat(stream): merge stream chunks at MergeExecutor (#17968)](https://github.com/risingwavelabs/risingwave/pull/17968)
-- `6263ea63592bcfa159082658969a1a86585ed473` [refactor(meta): reorganize global barrier manager field (#18920)](https://github.com/risingwavelabs/risingwave/pull/18920)
-- `f0988c41382e100da4cb906efeb0a48a2493a9ec` [fix(runtime): set default crypto provider (#19136)](https://github.com/risingwavelabs/risingwave/pull/19136)
-
-## nightly-20241027
-- `a176aced3c047d780adc8f3981a4921faa526255` [fix(ci): fix standalone tests startup (#19067)](https://github.com/risingwavelabs/risingwave/pull/19067)
