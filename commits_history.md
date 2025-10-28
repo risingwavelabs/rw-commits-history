@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251028` `d201911107d2bcb37f7ae7f10def827b0703ce9b`
 - `20251027` `f1e2631151c6251e0d72c79c2ab8e1223d1df00d`
 - `20251026` `d88378e21c3b71bd055bfadc6b4ab3fe5933db53`
 - `20251023` `ccea65953af41c2d8b2dc4763616d296c6e7ba69`
@@ -293,7 +294,6 @@
 - `20241031` `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8`
 - `20241030` `a36c3172230d2aaf5632f60a4a31f0958d11f98f`
 - `20241029` `98baacd19f521cd75ec7dc9cbdde903e7ef01d12`
-- `20241028` `0d013eab1bba8cd86c575057e165586262362636`
 </details>
 
 # Commit history
@@ -302,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251028
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f1e2631151c6251e0d72c79c2ab8e1223d1df00d...d201911107d2bcb37f7ae7f10def827b0703ce9b)
 - `d201911107d2bcb37f7ae7f10def827b0703ce9b` [refactor(meta): maintain subscription information in job info (#23529)](https://github.com/risingwavelabs/risingwave/pull/23529)
 - `d15602b0e4c4ffe9888db691f2f83fddbcd866db` [fix(binder): fix explain with parameters; simplify IN expr without consts (#23579)](https://github.com/risingwavelabs/risingwave/pull/23579)
 - `be60f7ee0d1a2e45fb3a3f3af962dd65cb9048fa` [chore(deps): Bump rustls-pki-types from 1.12.0 to 1.13.0 (#23585)](https://github.com/risingwavelabs/risingwave/pull/23585)
@@ -3155,19 +3158,4 @@
 - `b6051d84c7e7d5dc4bf3994d1ea95ca93166723f` [refactor: rename ConnectorSchema/SourceSchema to FormatEncode (#19174)](https://github.com/risingwavelabs/risingwave/pull/19174)
 
 ## nightly-20241029
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0d013eab1bba8cd86c575057e165586262362636...98baacd19f521cd75ec7dc9cbdde903e7ef01d12)
 - `98baacd19f521cd75ec7dc9cbdde903e7ef01d12` [feat(meta): maintain per database job fragment info in barrier manager (#19062)](https://github.com/risingwavelabs/risingwave/pull/19062)
-- `4c05b7ab0140ca707fed2cfcc4d0c1656b13fe7d` [fix: reject invalid storage cache capacities configs (#19016)](https://github.com/risingwavelabs/risingwave/pull/19016)
-- `51a70d8696e46a905893272dc7dcc4a5f503f0c3` [feat(ci): run e2e tests against postgres/mysql backends on demand (#19152)](https://github.com/risingwavelabs/risingwave/pull/19152)
-- `55d42c865715c808500d7b74797812ad7061c43c` [feat(dashboard): show vnode count for mv/table/internal-table (#19133)](https://github.com/risingwavelabs/risingwave/pull/19133)
-- `661939a3491fe40807dbb84593e6ef3157b74b91` [feat(connector): Add topic to mqtt additional columns (#19017)](https://github.com/risingwavelabs/risingwave/pull/19017)
-- `193e93fd8d9f9dbae717fe6a5b411e7f33382f27` [ci: fix scout in docker pipeline (#19164)](https://github.com/risingwavelabs/risingwave/pull/19164)
-- `31a650521dae6bbb83c87c37db7795c60e2a0a0a` [chore(dashboard): remove unused function (#19158)](https://github.com/risingwavelabs/risingwave/pull/19158)
-- `d39ac9c085ec60cc202902322e2e200bcbc5e635` [chore(deps): Bump simd-json from 0.13.3 to 0.14.2 (#19118)](https://github.com/risingwavelabs/risingwave/pull/19118)
-- `e24e19b9ba7c9f133eec21e3889242e31b48b937` [chore(deps): Bump elasticsearch from 8.5.0-alpha.1 to 8.15.0-alpha.1 (#18908)](https://github.com/risingwavelabs/risingwave/pull/18908)
-- `d44814ddba49a768c72578c785a8681e70b5e3a6` [chore(deps): Bump notify from 6.1.1 to 7.0.0 (#19137)](https://github.com/risingwavelabs/risingwave/pull/19137)
-- `b0dad757e8a3de951ef03ce83feffbb3a1b43c48` [perf(over window): skip remaining affected rows when rank is not changed (#18950)](https://github.com/risingwavelabs/risingwave/pull/18950)
-- `0935cf2dff746165b03dc5aa15a942f2934ce7a2` [refactor(meta): decouple global barrier worker from context with trait (#19034)](https://github.com/risingwavelabs/risingwave/pull/19034)
-
-## nightly-20241028
-- `0d013eab1bba8cd86c575057e165586262362636` [perf(over window): pass through `Update`s not affecting window function outputs (#19056)](https://github.com/risingwavelabs/risingwave/pull/19056)
