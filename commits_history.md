@@ -302,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d201911107d2bcb37f7ae7f10def827b0703ce9b` [refactor(meta): maintain subscription information in job info (#23529)](https://github.com/risingwavelabs/risingwave/pull/23529)
+- `d15602b0e4c4ffe9888db691f2f83fddbcd866db` [fix(binder): fix explain with parameters; simplify IN expr without consts (#23579)](https://github.com/risingwavelabs/risingwave/pull/23579)
+- `be60f7ee0d1a2e45fb3a3f3af962dd65cb9048fa` [chore(deps): Bump rustls-pki-types from 1.12.0 to 1.13.0 (#23585)](https://github.com/risingwavelabs/risingwave/pull/23585)
 - `848cc000cc6a3ca6c3b8b7261d1a474c9f7f7acc` [refactor(sink): simplify and refine documentation for compaction (#23558)](https://github.com/risingwavelabs/risingwave/pull/23558)
 - `d293284c334f189340c22f48588fb10115a40ffe` [fix(mysql-cdc): remove snapshot redundant take (#23575)](https://github.com/risingwavelabs/risingwave/pull/23575)
 
