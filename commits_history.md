@@ -302,6 +302,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `082faf1f082d047a45edc17eedd51c32cb05cc82` [fix(stream): convert U-/U+ to D-/I+ when dist key values change (#23603)](https://github.com/risingwavelabs/risingwave/pull/23603)
+- `7a827c1c4cb05fb8d6c81c97fdbf0b2e77feb191` [feat(meta): global barrier worker concurrently reconnect to worker (#23596)](https://github.com/risingwavelabs/risingwave/pull/23596)
+- `bd5e6f61156ac2d52e8fbb3b898b4d3529b22b19` [fix(meta): reload per database background job in recovery (#23602)](https://github.com/risingwavelabs/risingwave/pull/23602)
+- `d7804496945b3258e02ac9e5b209cd18410790bc` [feat(sqlsmith): optimizations to speed up sqlsmith reduction (#23554)](https://github.com/risingwavelabs/risingwave/pull/23554)
 
 ## nightly-20251028
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f1e2631151c6251e0d72c79c2ab8e1223d1df00d...d201911107d2bcb37f7ae7f10def827b0703ce9b)
