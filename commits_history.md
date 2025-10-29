@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251029` `7a827c1c4cb05fb8d6c81c97fdbf0b2e77feb191`
 - `20251028` `d201911107d2bcb37f7ae7f10def827b0703ce9b`
 - `20251027` `f1e2631151c6251e0d72c79c2ab8e1223d1df00d`
 - `20251026` `d88378e21c3b71bd055bfadc6b4ab3fe5933db53`
@@ -293,7 +294,6 @@
 - `20241101` `b39c9af88fd1bbe05df7e1ece506741eb489471b`
 - `20241031` `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8`
 - `20241030` `a36c3172230d2aaf5632f60a4a31f0958d11f98f`
-- `20241029` `98baacd19f521cd75ec7dc9cbdde903e7ef01d12`
 </details>
 
 # Commit history
@@ -303,6 +303,9 @@
 
 ## Unreleased
 - `082faf1f082d047a45edc17eedd51c32cb05cc82` [fix(stream): convert U-/U+ to D-/I+ when dist key values change (#23603)](https://github.com/risingwavelabs/risingwave/pull/23603)
+
+## nightly-20251029
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d201911107d2bcb37f7ae7f10def827b0703ce9b...7a827c1c4cb05fb8d6c81c97fdbf0b2e77feb191)
 - `7a827c1c4cb05fb8d6c81c97fdbf0b2e77feb191` [feat(meta): global barrier worker concurrently reconnect to worker (#23596)](https://github.com/risingwavelabs/risingwave/pull/23596)
 - `bd5e6f61156ac2d52e8fbb3b898b4d3529b22b19` [fix(meta): reload per database background job in recovery (#23602)](https://github.com/risingwavelabs/risingwave/pull/23602)
 - `d7804496945b3258e02ac9e5b209cd18410790bc` [feat(sqlsmith): optimizations to speed up sqlsmith reduction (#23554)](https://github.com/risingwavelabs/risingwave/pull/23554)
@@ -3151,15 +3154,4 @@
 - `07c7bc357017b383fe6033818151ffc0860c8d2c` [refactor: remove private link related connection (#18975)](https://github.com/risingwavelabs/risingwave/pull/18975)
 
 ## nightly-20241030
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/98baacd19f521cd75ec7dc9cbdde903e7ef01d12...a36c3172230d2aaf5632f60a4a31f0958d11f98f)
 - `a36c3172230d2aaf5632f60a4a31f0958d11f98f` [chore(deps): Bump fancy-regex from 0.13.0 to 0.14.0 (#19184)](https://github.com/risingwavelabs/risingwave/pull/19184)
-- `a3793c8f82bc8880cd4595bf0c54ad67283280aa` [chore: update image version to v2.1.0-rc.1 (#19190)](https://github.com/risingwavelabs/risingwave/pull/19190)
-- `be73a02e29a37fa720071123eeefa15f735c7d1f` [fix(optimizer): fix lateral subquery with cte (#19162)](https://github.com/risingwavelabs/risingwave/pull/19162)
-- `18bf666906760907b028389fd3dd9c1b63e5df0b` [feat(dashboard): list streaming job from `streaming_job` table & show info (#19134)](https://github.com/risingwavelabs/risingwave/pull/19134)
-- `c706e8dab3815bd6c8f2297d49141e5da2065227` [fix: include schema for view name in rw_relations show create view (#19180)](https://github.com/risingwavelabs/risingwave/pull/19180)
-- `68b470e4d3c8a70cb8e7653fc7a1dae217417889` [refactor: improve assertion message (#19191)](https://github.com/risingwavelabs/risingwave/pull/19191)
-- `0e844fe43bc1602fe05b77b1962a259f8bdba7d5` [fix(source): pause source correctly (#19148)](https://github.com/risingwavelabs/risingwave/pull/19148)
-- `b6051d84c7e7d5dc4bf3994d1ea95ca93166723f` [refactor: rename ConnectorSchema/SourceSchema to FormatEncode (#19174)](https://github.com/risingwavelabs/risingwave/pull/19174)
-
-## nightly-20241029
-- `98baacd19f521cd75ec7dc9cbdde903e7ef01d12` [feat(meta): maintain per database job fragment info in barrier manager (#19062)](https://github.com/risingwavelabs/risingwave/pull/19062)
