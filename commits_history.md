@@ -302,6 +302,18 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1d4537b03bfd18fd8e6b4a3283ff567acc286c3d` [refactor: migrate actor and fragment metadata from db to in-memory cache (#22932)](https://github.com/risingwavelabs/risingwave/pull/22932)
+- `115a803e2dbe36a6c2bc98b9ee8ce9667b2d8322` [chore(deps): Bump the aws group with 3 updates (#23429)](https://github.com/risingwavelabs/risingwave/pull/23429)
+- `dae94086ab740563a4a3270a4f1a7b4956e1f8d6` [chore(deps): Bump bitfield-struct from 0.11.0 to 0.12.1 (#23586)](https://github.com/risingwavelabs/risingwave/pull/23586)
+- `a412a59e9f1f64310964afb393c698df2d226d6d` [feat: integrated with new iceberg compact interface (#23414)](https://github.com/risingwavelabs/risingwave/pull/23414)
+- `71d08817d092fc13529a97e6d5c30dc1d0b17745` [chore(deps): Bump criterion from 0.5.1 to 0.7.0 (#23499)](https://github.com/risingwavelabs/risingwave/pull/23499)
+- `dd808a7dd56e39b2f59c1570896a816d57d046b1` [chore(deps): Bump bitflags from 2.9.0 to 2.10.0 (#23518)](https://github.com/risingwavelabs/risingwave/pull/23518)
+- `04f30bbfe5992f7bb1158fa4c55f7019c62d37c9` [chore(deps): Bump rust-embed from 8.7.0 to 8.8.0 (#23516)](https://github.com/risingwavelabs/risingwave/pull/23516)
+- `41ebc53163216e942fda3876a8042624097f2a87` [chore(deps): Bump lru from 0.14.0 to 0.16.2 (#23498)](https://github.com/risingwavelabs/risingwave/pull/23498)
+- `7de2a58ca6875d77bc2090e14307e0952e29577f` [chore(deps): Bump regex from 1.11.0 to 1.12.2 (#23449)](https://github.com/risingwavelabs/risingwave/pull/23449)
+- `7842a16825e219108c2f158202171c265c15a71b` [chore(deps): Bump mach2 from 0.4.2 to 0.5.0 (#23440)](https://github.com/risingwavelabs/risingwave/pull/23440)
+- `b7e98913bccfa72b2e92d34952f3138fb896443c` [chore(deps): Bump typify from 0.4.2 to 0.4.3 (#23439)](https://github.com/risingwavelabs/risingwave/pull/23439)
+- `17a3141206f2d3b959cf42c40ac3b2073751b758` [chore(deps): Bump enum-iterator from 2.1.0 to 2.3.0 (#23436)](https://github.com/risingwavelabs/risingwave/pull/23436)
 - `082faf1f082d047a45edc17eedd51c32cb05cc82` [fix(stream): convert U-/U+ to D-/I+ when dist key values change (#23603)](https://github.com/risingwavelabs/risingwave/pull/23603)
 
 ## nightly-20251029
