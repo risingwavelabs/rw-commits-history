@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251031` `c8378d1e9186be402a70920d35e7b7c40955c38b`
 - `20251030` `1d4537b03bfd18fd8e6b4a3283ff567acc286c3d`
 - `20251029` `7a827c1c4cb05fb8d6c81c97fdbf0b2e77feb191`
 - `20251028` `d201911107d2bcb37f7ae7f10def827b0703ce9b`
@@ -293,7 +294,6 @@
 - `20241104` `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676`
 - `20241103` `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6`
 - `20241101` `b39c9af88fd1bbe05df7e1ece506741eb489471b`
-- `20241031` `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8`
 </details>
 
 # Commit history
@@ -302,6 +302,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3f139d1441e588466fbe87b337f22ae5eec53ceb` [feat: frontend of gap fill (#23166)](https://github.com/risingwavelabs/risingwave/pull/23166)
+- `9a9b60d7e2e8797eb58e2a7723e809bd335957cc` [fix: panic in relation not found in backfill order (#23573)](https://github.com/risingwavelabs/risingwave/pull/23573)
+
+## nightly-20251031
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d4537b03bfd18fd8e6b4a3283ff567acc286c3d...c8378d1e9186be402a70920d35e7b7c40955c38b)
 - `c8378d1e9186be402a70920d35e7b7c40955c38b` [refactor: modularize cdc backfill actor collection and add parallelism to fragments (#23623)](https://github.com/risingwavelabs/risingwave/pull/23623)
 - `c502b7dc4feea17cd00f2a3a0f3b4ebc55b5961f` [feat: eowc gap_fill executor (#22731)](https://github.com/risingwavelabs/risingwave/pull/22731)
 - `a603a4f0fcdfa58168568eac8f52a7e7fc85667b` [feat: stream gap fill executor (#23083)](https://github.com/risingwavelabs/risingwave/pull/23083)
@@ -3158,18 +3163,4 @@
 - `d9ee9b450de59dba6c0310e9eb3cd4d73b701f40` [feat(frontend): plan nested loop temporal join (#19201)](https://github.com/risingwavelabs/risingwave/pull/19201)
 
 ## nightly-20241101
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8...b39c9af88fd1bbe05df7e1ece506741eb489471b)
 - `b39c9af88fd1bbe05df7e1ece506741eb489471b` [perf(over window): shortcut implementation for `first_value` and `last_value` in over window (#19233)](https://github.com/risingwavelabs/risingwave/pull/19233)
-- `56ab1fac042c1f42430c6febdc32168104bd13f9` [feat(iceberg): bump iceberg-rust (#19206)](https://github.com/risingwavelabs/risingwave/pull/19206)
-- `ca845040c98ef949d0fd91574b5e262306fc923d` [feat(meta): ensure each command is applied to exactly one database (#19076)](https://github.com/risingwavelabs/risingwave/pull/19076)
-- `9dd7fba8671193ec9fa9ae8ffee6dfeff1ce87ba` [chore: fix nextest warning (#19231)](https://github.com/risingwavelabs/risingwave/pull/19231)
-- `051fbad84228006fd6e76d9737ad1e06a3367d9e` [refactor: move server.id for MySQL CDC from meta to fe (#19169)](https://github.com/risingwavelabs/risingwave/pull/19169)
-- `c053c2a2cf6b7b53c5de13f9989adaebd50c15c2` [fix(watermark): stop generating watermark messages when stream is paused (#19199)](https://github.com/risingwavelabs/risingwave/pull/19199)
-- `3b8b913f2e6baa922ce8a20200ae65ec3a9cebe9` [feat(batch): support `mysql_query` for mysql batch ingestion (#19071)](https://github.com/risingwavelabs/risingwave/pull/19071)
-- `9671fa36279e6f2663ea60287b47e7654f66b042` [perf(over window): O(1) impl for `delta_btree_map::CursorWithDelta::move_next ` (#19214)](https://github.com/risingwavelabs/risingwave/pull/19214)
-- `03e9c954b0c7e6de061516842370422b3cff35d9` [fix: unexpected warning on undefined-field-padding-null error (#19002)](https://github.com/risingwavelabs/risingwave/pull/19002)
-- `127a44b4bd581683e67533bd2ade1d5da3c10179` [chore(ci): move fmt and sort checks from `build` step to `check` step (#19209)](https://github.com/risingwavelabs/risingwave/pull/19209)
-- `3a5a51d38cdfa8294b904f194ffe865bb30a9589` [chore(deps): Bump tower-http from 0.5.2 to 0.6.1 (#19216)](https://github.com/risingwavelabs/risingwave/pull/19216)
-
-## nightly-20241031
-- `de7b7cd2b66ebe8bacf654f3e488cab2f3c241e8` [chore: upgrade clippy utils to a version on the main branch (#19219)](https://github.com/risingwavelabs/risingwave/pull/19219)
