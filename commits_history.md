@@ -302,6 +302,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c8378d1e9186be402a70920d35e7b7c40955c38b` [refactor: modularize cdc backfill actor collection and add parallelism to fragments (#23623)](https://github.com/risingwavelabs/risingwave/pull/23623)
+- `c502b7dc4feea17cd00f2a3a0f3b4ebc55b5961f` [feat: eowc gap_fill executor (#22731)](https://github.com/risingwavelabs/risingwave/pull/22731)
+- `a603a4f0fcdfa58168568eac8f52a7e7fc85667b` [feat: stream gap fill executor (#23083)](https://github.com/risingwavelabs/risingwave/pull/23083)
+- `9769d66818b68c7e2a5d01154450e0063bdb4fc2` [feat(frontend): notify user to RECOVER when DROP or CANCEL take too long (#23613)](https://github.com/risingwavelabs/risingwave/pull/23613)
+- `63fd8aff73dccb40d9e365b3081274f14e077c08` [fix(streaming): fix index's stream key to include distribution key (#23592)](https://github.com/risingwavelabs/risingwave/pull/23592)
+- `4849aaa0e2e9138a7e0d96c4057527df1fcb2c05` [chore(deps): Bump console-subscriber from 0.4.0 to 0.4.1 (#23619)](https://github.com/risingwavelabs/risingwave/pull/23619)
+- `fcb22c35fbfcbf73153da8aa2fd681a253907d96` [chore(deps): Bump the aws group with 2 updates (#23617)](https://github.com/risingwavelabs/risingwave/pull/23617)
+- `d2b9607683101dde50d3d86a3204305d9c79b680` [chore(deps): Bump async-openai from 0.29.3 to 0.30.1 (#23537)](https://github.com/risingwavelabs/risingwave/pull/23537)
+- `bb287de1623efcf8c83152c8c22e6696eb9728e3` [chore(deps): Bump jsonwebtoken from 9.3.0 to 10.1.0 (#23514)](https://github.com/risingwavelabs/risingwave/pull/23514)
 - `74793c92e4434a550bcef80fd3fd8de61b402435` [chore(deps): Bump toml from 0.8.12 to 0.9.6 (#23501)](https://github.com/risingwavelabs/risingwave/pull/23501)
 - `368e15e80adaa376dd1a047963970128c82cecf5` [feat(sink): introduce `Retract` sink type (#23593)](https://github.com/risingwavelabs/risingwave/pull/23593)
 
