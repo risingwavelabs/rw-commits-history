@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251101` `3f139d1441e588466fbe87b337f22ae5eec53ceb`
 - `20251031` `c8378d1e9186be402a70920d35e7b7c40955c38b`
 - `20251030` `1d4537b03bfd18fd8e6b4a3283ff567acc286c3d`
 - `20251029` `7a827c1c4cb05fb8d6c81c97fdbf0b2e77feb191`
@@ -293,7 +294,6 @@
 - `20241105` `a945f52de4633a6f87f62309aa3cdbbebaff8d11`
 - `20241104` `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676`
 - `20241103` `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6`
-- `20241101` `b39c9af88fd1bbe05df7e1ece506741eb489471b`
 </details>
 
 # Commit history
@@ -302,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251101
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c8378d1e9186be402a70920d35e7b7c40955c38b...3f139d1441e588466fbe87b337f22ae5eec53ceb)
 - `3f139d1441e588466fbe87b337f22ae5eec53ceb` [feat: frontend of gap fill (#23166)](https://github.com/risingwavelabs/risingwave/pull/23166)
 - `9a9b60d7e2e8797eb58e2a7723e809bd335957cc` [fix: panic in relation not found in backfill order (#23573)](https://github.com/risingwavelabs/risingwave/pull/23573)
 
@@ -3157,10 +3160,4 @@
 - `271faac7e8eb71c756746897b1d1db6e86d22ad3` [fix(sink): Fix excessive number of starrocks txn (#19217)](https://github.com/risingwavelabs/risingwave/pull/19217)
 
 ## nightly-20241103
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b39c9af88fd1bbe05df7e1ece506741eb489471b...e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6)
 - `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6` [feat: share kafka client on meta (#19058)](https://github.com/risingwavelabs/risingwave/pull/19058)
-- `3a8d5a8427b1d0a3a746c302527fb51e8815a1ee` [fix(mysql-cdc): fix mysql enum type default value (#19192)](https://github.com/risingwavelabs/risingwave/pull/19192)
-- `d9ee9b450de59dba6c0310e9eb3cd4d73b701f40` [feat(frontend): plan nested loop temporal join (#19201)](https://github.com/risingwavelabs/risingwave/pull/19201)
-
-## nightly-20241101
-- `b39c9af88fd1bbe05df7e1ece506741eb489471b` [perf(over window): shortcut implementation for `first_value` and `last_value` in over window (#19233)](https://github.com/risingwavelabs/risingwave/pull/19233)
