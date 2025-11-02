@@ -302,6 +302,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `70aae5e1832d78ed1bbd0213320098ce643302b2` [doc: Add Nimtable observability tool reference to README (#23628)](https://github.com/risingwavelabs/risingwave/pull/23628)
+- `846a989d517ea296e869c93ceeb4022cadce76d2` [doc: Update section titles for clarity and accuracy (#23627)](https://github.com/risingwavelabs/risingwave/pull/23627)
 
 ## nightly-20251101
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c8378d1e9186be402a70920d35e7b7c40955c38b...3f139d1441e588466fbe87b337f22ae5eec53ceb)
