@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251102` `70aae5e1832d78ed1bbd0213320098ce643302b2`
 - `20251101` `3f139d1441e588466fbe87b337f22ae5eec53ceb`
 - `20251031` `c8378d1e9186be402a70920d35e7b7c40955c38b`
 - `20251030` `1d4537b03bfd18fd8e6b4a3283ff567acc286c3d`
@@ -302,6 +303,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251102
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3f139d1441e588466fbe87b337f22ae5eec53ceb...70aae5e1832d78ed1bbd0213320098ce643302b2)
 - `70aae5e1832d78ed1bbd0213320098ce643302b2` [doc: Add Nimtable observability tool reference to README (#23628)](https://github.com/risingwavelabs/risingwave/pull/23628)
 - `846a989d517ea296e869c93ceeb4022cadce76d2` [doc: Update section titles for clarity and accuracy (#23627)](https://github.com/risingwavelabs/risingwave/pull/23627)
 
