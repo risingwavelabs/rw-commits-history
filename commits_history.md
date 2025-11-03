@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251103` `e0df7e7f8cba3edcccd37ba79a556624fdbc7656`
 - `20251102` `70aae5e1832d78ed1bbd0213320098ce643302b2`
 - `20251101` `3f139d1441e588466fbe87b337f22ae5eec53ceb`
 - `20251031` `c8378d1e9186be402a70920d35e7b7c40955c38b`
@@ -294,7 +295,6 @@
 - `20241106` `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b`
 - `20241105` `a945f52de4633a6f87f62309aa3cdbbebaff8d11`
 - `20241104` `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676`
-- `20241103` `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6`
 </details>
 
 # Commit history
@@ -303,6 +303,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c0d596c3e9670484103016704095859938a55102` [feat: add SQL support to alter fragment parallelism  (#23523)](https://github.com/risingwavelabs/risingwave/pull/23523)
+
+## nightly-20251103
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/70aae5e1832d78ed1bbd0213320098ce643302b2...e0df7e7f8cba3edcccd37ba79a556624fdbc7656)
 - `e0df7e7f8cba3edcccd37ba79a556624fdbc7656` [test(iceberg): add validation for PositionDeletes in iceberg_source_position_delete.slt (#23591)](https://github.com/risingwavelabs/risingwave/pull/23591)
 - `6910e7ad5d6760b46279a48d6b5d6d9de6d53a83` [refactor: remove actorstatus enum and simplify actor state handling (#23625)](https://github.com/risingwavelabs/risingwave/pull/23625)
 - `23234a698d8d6946ef37074c71b7fe0f82edc122` [feat(streaming): better handling of `Update` on conflict in `Materialize` (#23622)](https://github.com/risingwavelabs/risingwave/pull/23622)
@@ -3162,17 +3166,4 @@
 - `b796d0ddb02112ddedf2a4ae755924865fbf0ba5` [refactor(common): simplify chunk iteration with `filter_by_bitmap` (#19254)](https://github.com/risingwavelabs/risingwave/pull/19254)
 
 ## nightly-20241104
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6...bb0d786b39c9eef9dbf1e16814e8d12e46b8a676)
 - `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676` [fix(connector): handle backwards compat parsing for `boolean` datatype (#19251)](https://github.com/risingwavelabs/risingwave/pull/19251)
-- `946b50089673b026720905e5cccece0485192553` [fix: fix index create privilege check and ensure consistency between the owner and its associated table (#19252)](https://github.com/risingwavelabs/risingwave/pull/19252)
-- `a9f8945658dc2044f8e2f4eef5037ec6b7f42330` [refactor(meta): simplify stream job table/source id assignment (#19171)](https://github.com/risingwavelabs/risingwave/pull/19171)
-- `7690f674c48a7cb824dcd44fe3940a03d42e54ed` [chore(deps): update sqlx to 0.8.2, sea-orm to 1.1, sea-orm-migration to 1.1 (#19145)](https://github.com/risingwavelabs/risingwave/pull/19145)
-- `6b10d92ecbacec65f361823799ef6470630ee316` [fix(meta): address bugs for mysql backend & enable e2e tests (#19156)](https://github.com/risingwavelabs/risingwave/pull/19156)
-- `f3e9a3be1952c5f0e7fcb9dc595a99a25a6528be` [refactor(test): reorganize file connector CI tests (#19230)](https://github.com/risingwavelabs/risingwave/pull/19230)
-- `d3d2969036c1f423c04dc76488040d8d01364dc3` [feat: support swap rename syntax for table/mview/view/source/sink and subscription (#19172)](https://github.com/risingwavelabs/risingwave/pull/19172)
-- `bb8f94dbdf354b2e866d92025ee62e93dd479167` [fix(pg-cdc): fix ssl.mode value to debezium (#19239)](https://github.com/risingwavelabs/risingwave/pull/19239)
-- `f559d3468a16f0a15e429dfb55276b1a07c814e3` [chore(meta): bump sea-orm to 1.0 (#19207)](https://github.com/risingwavelabs/risingwave/pull/19207)
-- `271faac7e8eb71c756746897b1d1db6e86d22ad3` [fix(sink): Fix excessive number of starrocks txn (#19217)](https://github.com/risingwavelabs/risingwave/pull/19217)
-
-## nightly-20241103
-- `e7e4a2c9d9f288f6fe89c92e3fcdbfe3d6d36ca6` [feat: share kafka client on meta (#19058)](https://github.com/risingwavelabs/risingwave/pull/19058)
