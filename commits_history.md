@@ -303,6 +303,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e0df7e7f8cba3edcccd37ba79a556624fdbc7656` [test(iceberg): add validation for PositionDeletes in iceberg_source_position_delete.slt (#23591)](https://github.com/risingwavelabs/risingwave/pull/23591)
+- `6910e7ad5d6760b46279a48d6b5d6d9de6d53a83` [refactor: remove actorstatus enum and simplify actor state handling (#23625)](https://github.com/risingwavelabs/risingwave/pull/23625)
+- `23234a698d8d6946ef37074c71b7fe0f82edc122` [feat(streaming): better handling of `Update` on conflict in `Materialize` (#23622)](https://github.com/risingwavelabs/risingwave/pull/23622)
+- `c4f85a03d3ef49574f93d974c732c2390a24fc6c` [refactor: unify table id and separate strong typed table and job id (#23631)](https://github.com/risingwavelabs/risingwave/pull/23631)
+- `49ea1554be5de6b99422d920ee3e6c9dd44f316b` [feat: allow enabling storage ttl for non-append-only table on user's own risk (#23630)](https://github.com/risingwavelabs/risingwave/pull/23630)
+- `627ab9f4294509fe11efbcff10eba77a2004e534` [feat: Introduce SmallFiles Compaction for all sink types. (#23626)](https://github.com/risingwavelabs/risingwave/pull/23626)
+- `e295d96459e7af486695b080f9aaca32e42bce87` [feat(stream): add license check for locality backfill (#23632)](https://github.com/risingwavelabs/risingwave/pull/23632)
+- `6665de82b0accfce63c4efc345b8d17387f82457` [refactor: remove SerDe implementation on TableId (#23629)](https://github.com/risingwavelabs/risingwave/pull/23629)
+- `62d003176b5a7827ad2a86c17c680c6fc705e92e` [refactor(storage): replace raw u32 table id with strong typed table id (#23621)](https://github.com/risingwavelabs/risingwave/pull/23621)
 
 ## nightly-20251102
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3f139d1441e588466fbe87b337f22ae5eec53ceb...70aae5e1832d78ed1bbd0213320098ce643302b2)
