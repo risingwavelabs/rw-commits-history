@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251104` `8aa78ee09a7a38cf430e670b5950f1d3c0e0232f`
 - `20251103` `e0df7e7f8cba3edcccd37ba79a556624fdbc7656`
 - `20251102` `70aae5e1832d78ed1bbd0213320098ce643302b2`
 - `20251101` `3f139d1441e588466fbe87b337f22ae5eec53ceb`
@@ -294,7 +295,6 @@
 - `20241107` `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397`
 - `20241106` `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b`
 - `20241105` `a945f52de4633a6f87f62309aa3cdbbebaff8d11`
-- `20241104` `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676`
 </details>
 
 # Commit history
@@ -303,6 +303,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3512bee371eb4c013b36d596d799121fd9f146d0` [feat: expose parallelism_policy in fragment metadata and system catalog (#23524)](https://github.com/risingwavelabs/risingwave/pull/23524)
+- `a45a3a9ce57c59fc29e7a5d9f228fcd7ad3b6507` [chore(deps): Bump actions/setup-java from 4 to 5 (#22985)](https://github.com/risingwavelabs/risingwave/pull/22985)
+- `5da58728dd5e5b14d2938f7b5cc3a1ceedd8c97c` [chore(deps): Bump apache/skywalking-eyes from 0.7.0 to 0.8.0 (#23588)](https://github.com/risingwavelabs/risingwave/pull/23588)
+- `d21c9335ec99ba120ff90c19a495723351861a08` [fix(mysql-cdc): introduce `OpendalSchemaHistory` to resolve the schema change loss issue when debezium offline (#22255)](https://github.com/risingwavelabs/risingwave/pull/22255)
+
+## nightly-20251104
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e0df7e7f8cba3edcccd37ba79a556624fdbc7656...8aa78ee09a7a38cf430e670b5950f1d3c0e0232f)
 - `8aa78ee09a7a38cf430e670b5950f1d3c0e0232f` [feat(frontend): support LDAP authentication (#23150)](https://github.com/risingwavelabs/risingwave/pull/23150)
 - `8322baa8310ece5be38fb947597db7a1b5ecdc4c` [fix(meta): fix diagnose (#23648)](https://github.com/risingwavelabs/risingwave/pull/23648)
 - `23585908443f2b284d182a07d568785ae778d63b` [chore(streaming): rename `pk_indices` to `stream_key` (#23656)](https://github.com/risingwavelabs/risingwave/pull/23656)
@@ -3166,12 +3173,4 @@
 - `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b` [feat(compaction): default new compaction group for new table (#19080)](https://github.com/risingwavelabs/risingwave/pull/19080)
 
 ## nightly-20241105
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bb0d786b39c9eef9dbf1e16814e8d12e46b8a676...a945f52de4633a6f87f62309aa3cdbbebaff8d11)
 - `a945f52de4633a6f87f62309aa3cdbbebaff8d11` [fix: none-shared source to secret dependence (#19263)](https://github.com/risingwavelabs/risingwave/pull/19263)
-- `0f78e6a3c3ae5eba074209a7b2a8b3d6fb4fd63f` [fix: support Kinesis with include timestamp (#19211)](https://github.com/risingwavelabs/risingwave/pull/19211)
-- `9d83354629bde178ba31e5fbea4ebc51c814fecf` [chore(deps): Bump speedate from 0.14.0 to 0.15.0 (#19257)](https://github.com/risingwavelabs/risingwave/pull/19257)
-- `46ad59877c7d5115d5285e3e24ac6590b1478b28` [fix(meta): record delta for new compaction group (#19253)](https://github.com/risingwavelabs/risingwave/pull/19253)
-- `b796d0ddb02112ddedf2a4ae755924865fbf0ba5` [refactor(common): simplify chunk iteration with `filter_by_bitmap` (#19254)](https://github.com/risingwavelabs/risingwave/pull/19254)
-
-## nightly-20241104
-- `bb0d786b39c9eef9dbf1e16814e8d12e46b8a676` [fix(connector): handle backwards compat parsing for `boolean` datatype (#19251)](https://github.com/risingwavelabs/risingwave/pull/19251)
