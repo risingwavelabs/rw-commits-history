@@ -303,6 +303,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8aa78ee09a7a38cf430e670b5950f1d3c0e0232f` [feat(frontend): support LDAP authentication (#23150)](https://github.com/risingwavelabs/risingwave/pull/23150)
+- `8322baa8310ece5be38fb947597db7a1b5ecdc4c` [fix(meta): fix diagnose (#23648)](https://github.com/risingwavelabs/risingwave/pull/23648)
+- `23585908443f2b284d182a07d568785ae778d63b` [chore(streaming): rename `pk_indices` to `stream_key` (#23656)](https://github.com/risingwavelabs/risingwave/pull/23656)
+- `bed0e8a9484d4428ccf2180de333b91a9f444945` [refactor: unify strong typed database and schema id (#23636)](https://github.com/risingwavelabs/risingwave/pull/23636)
+- `14e3632d0a5e82c6db4c5fac63d2262fc59ae425` [fix: include fragment_splits in meta snapshot V2 backup (#23654)](https://github.com/risingwavelabs/risingwave/pull/23654)
+- `dadc8242f1daf2b95c13678611484134d87eae0a` [feat(risedev): add sqlsmith-reducer risedev command (#23598)](https://github.com/risingwavelabs/risingwave/pull/23598)
+- `503ec8df8f96115ecf932a5c0c4d4b557a90d7f3` [fix(stream): change locality provider stream key to include locality columns (#23633)](https://github.com/risingwavelabs/risingwave/pull/23633)
+- `c2fd947558bd9241436f5947019886380515242e` [feat(pgwire): implement OAuth audience validation  (#23155)](https://github.com/risingwavelabs/risingwave/pull/23155)
 - `c0d596c3e9670484103016704095859938a55102` [feat: add SQL support to alter fragment parallelism  (#23523)](https://github.com/risingwavelabs/risingwave/pull/23523)
 
 ## nightly-20251103
