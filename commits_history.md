@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251105` `c9d3fad0077af6c407753ee88c178ce828dc8563`
 - `20251104` `8aa78ee09a7a38cf430e670b5950f1d3c0e0232f`
 - `20251103` `e0df7e7f8cba3edcccd37ba79a556624fdbc7656`
 - `20251102` `70aae5e1832d78ed1bbd0213320098ce643302b2`
@@ -294,7 +295,6 @@
 - `20241108` `c65834074c8334d835a03333362c0f2eb67a0802`
 - `20241107` `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397`
 - `20241106` `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b`
-- `20241105` `a945f52de4633a6f87f62309aa3cdbbebaff8d11`
 </details>
 
 # Commit history
@@ -303,6 +303,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `924b06fabf0c85d4863a5766539ac5237b4a069c` [chore(executor): unify functions in gap fill and replace / with div_floor (#23643)](https://github.com/risingwavelabs/risingwave/pull/23643)
+
+## nightly-20251105
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8aa78ee09a7a38cf430e670b5950f1d3c0e0232f...c9d3fad0077af6c407753ee88c178ce828dc8563)
 - `c9d3fad0077af6c407753ee88c178ce828dc8563` [fix(optimizer): preserve `field_name` in `ProjectMerge` rule (#23647)](https://github.com/risingwavelabs/risingwave/pull/23647)
 - `4f54213ed6697a065b67027fb42629f18079cfb8` [feat(sink): support redis sink stream (#23412)](https://github.com/risingwavelabs/risingwave/pull/23412)
 - `0a9177ffe71a0afacf0e997bb831e54e159802bf` [feat(optimizer): strip unnecessary stream key from the output of `TopN` when the `LIMIT` is 1 (#23634)](https://github.com/risingwavelabs/risingwave/pull/23634)
@@ -3174,8 +3178,4 @@
 - `218e63e30821fbb500cdaa4edf8ff50078f7f763` [fix: fix grant and revoke privileges for internal table (#19249)](https://github.com/risingwavelabs/risingwave/pull/19249)
 
 ## nightly-20241106
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a945f52de4633a6f87f62309aa3cdbbebaff8d11...9a32e75f227f837a6f16fb3afe159c1f8af2ad5b)
 - `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b` [feat(compaction): default new compaction group for new table (#19080)](https://github.com/risingwavelabs/risingwave/pull/19080)
-
-## nightly-20241105
-- `a945f52de4633a6f87f62309aa3cdbbebaff8d11` [fix: none-shared source to secret dependence (#19263)](https://github.com/risingwavelabs/risingwave/pull/19263)
