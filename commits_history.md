@@ -303,6 +303,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c9d3fad0077af6c407753ee88c178ce828dc8563` [fix(optimizer): preserve `field_name` in `ProjectMerge` rule (#23647)](https://github.com/risingwavelabs/risingwave/pull/23647)
+- `4f54213ed6697a065b67027fb42629f18079cfb8` [feat(sink): support redis sink stream (#23412)](https://github.com/risingwavelabs/risingwave/pull/23412)
+- `0a9177ffe71a0afacf0e997bb831e54e159802bf` [feat(optimizer): strip unnecessary stream key from the output of `TopN` when the `LIMIT` is 1 (#23634)](https://github.com/risingwavelabs/risingwave/pull/23634)
+- `6afa40bd8c695f816e768856058eb38b06823be1` [feat(sink): produce `Upsert` chunk in compaction for `SinkType::Upsert` (#23581)](https://github.com/risingwavelabs/risingwave/pull/23581)
+- `99b21d64c96a9995b6b0f9b9928c83a40280d8e5` [feat(connector): support key-pair authentication for Snowflake sink (#23525)](https://github.com/risingwavelabs/risingwave/pull/23525)
 - `3512bee371eb4c013b36d596d799121fd9f146d0` [feat: expose parallelism_policy in fragment metadata and system catalog (#23524)](https://github.com/risingwavelabs/risingwave/pull/23524)
 - `a45a3a9ce57c59fc29e7a5d9f228fcd7ad3b6507` [chore(deps): Bump actions/setup-java from 4 to 5 (#22985)](https://github.com/risingwavelabs/risingwave/pull/22985)
 - `5da58728dd5e5b14d2938f7b5cc3a1ceedd8c97c` [chore(deps): Bump apache/skywalking-eyes from 0.7.0 to 0.8.0 (#23588)](https://github.com/risingwavelabs/risingwave/pull/23588)
