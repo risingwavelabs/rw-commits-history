@@ -303,6 +303,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a23e841e37aec0fdabed1fa45bc6fa6ee4f4903b` [feat(meta): Add system table to show unmigrated lagacy tables with new sink-into-table impl (#23690)](https://github.com/risingwavelabs/risingwave/pull/23690)
+- `f238be39159f33fdbfc598530bd12c696cf7e43c` [fix(iceberg): enfore iceberg sink type to retract when specified as upsert (#23697)](https://github.com/risingwavelabs/risingwave/pull/23697)
+- `9ea713971e97a14373a4138031bdd7a71647b63e` [feat: add rw_fragment_vnodes and rw_actor_vnodes functions (#23688)](https://github.com/risingwavelabs/risingwave/pull/23688)
+- `66b1d463c564a0d1961e91ce5d417fa3685ffd6e` [fix: fix panic when renaming table with upstream cdc source (#23694)](https://github.com/risingwavelabs/risingwave/pull/23694)
+- `67bc0aba868e99a85b501375a0d3bf0d9ce5c461` [fix(optimizer): fix properties of plan nodes for approx percentile (#23687)](https://github.com/risingwavelabs/risingwave/pull/23687)
+- `c4e58192cd85d9d25951093069dca21b7df405c2` [feat(optimizer): add limit for sys queries if meet max_one_row requirement (#23686)](https://github.com/risingwavelabs/risingwave/pull/23686)
+- `919a199f9ad664783912ecb2307ec05b2321fa6d` [feat(dashboard): add timeseries latency panel for Materialize Views & Sinks to monitor processing epochs (#23685)](https://github.com/risingwavelabs/risingwave/pull/23685)
+- `15dfc8894ae24b4e1c98444a79e1b5f48d3f604e` [chore(deps): Bump async-nats from 0.44.2 to 0.45.0 (#23665)](https://github.com/risingwavelabs/risingwave/pull/23665)
+- `35c4ed14fa699a10742d2a530201c9220c548ded` [fix(dml): recreate reader handle if it's dropped when scaling (#23677)](https://github.com/risingwavelabs/risingwave/pull/23677)
+- `7fea82d39639633487eeef44dd4c8ff76f6ed183` [chore(deps): Bump net.snowflake:snowflake-jdbc from 3.23.0 to 3.23.1 in /java/connector-node/risingwave-sink-jdbc (#23679)](https://github.com/risingwavelabs/risingwave/pull/23679)
 - `924b06fabf0c85d4863a5766539ac5237b4a069c` [chore(executor): unify functions in gap fill and replace / with div_floor (#23643)](https://github.com/risingwavelabs/risingwave/pull/23643)
 
 ## nightly-20251105
