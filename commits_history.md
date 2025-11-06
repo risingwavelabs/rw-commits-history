@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251106` `a23e841e37aec0fdabed1fa45bc6fa6ee4f4903b`
 - `20251105` `c9d3fad0077af6c407753ee88c178ce828dc8563`
 - `20251104` `8aa78ee09a7a38cf430e670b5950f1d3c0e0232f`
 - `20251103` `e0df7e7f8cba3edcccd37ba79a556624fdbc7656`
@@ -294,7 +295,6 @@
 - `20241110` `82b782547c0cefe48263d0fc69047b2fcb71cac3`
 - `20241108` `c65834074c8334d835a03333362c0f2eb67a0802`
 - `20241107` `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397`
-- `20241106` `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b`
 </details>
 
 # Commit history
@@ -303,6 +303,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d052368d0f54631b5649dce648b70ac323634954` [refactor(optimizer): add assertion on dist key being a subset of stream key in exchange (#23583)](https://github.com/risingwavelabs/risingwave/pull/23583)
+
+## nightly-20251106
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c9d3fad0077af6c407753ee88c178ce828dc8563...a23e841e37aec0fdabed1fa45bc6fa6ee4f4903b)
 - `a23e841e37aec0fdabed1fa45bc6fa6ee4f4903b` [feat(meta): Add system table to show unmigrated lagacy tables with new sink-into-table impl (#23690)](https://github.com/risingwavelabs/risingwave/pull/23690)
 - `f238be39159f33fdbfc598530bd12c696cf7e43c` [fix(iceberg): enfore iceberg sink type to retract when specified as upsert (#23697)](https://github.com/risingwavelabs/risingwave/pull/23697)
 - `9ea713971e97a14373a4138031bdd7a71647b63e` [feat: add rw_fragment_vnodes and rw_actor_vnodes functions (#23688)](https://github.com/risingwavelabs/risingwave/pull/23688)
@@ -3183,9 +3187,4 @@
 - `ea01a37b3e64c38ffb2d6114f4621159d176d4de` [feat: support `key encode bytes` for sink  (#19243)](https://github.com/risingwavelabs/risingwave/pull/19243)
 
 ## nightly-20241107
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9a32e75f227f837a6f16fb3afe159c1f8af2ad5b...e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397)
 - `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397` [refactor(sink): Use s3 sink to replace the original snowflake backend implementation (#18996)](https://github.com/risingwavelabs/risingwave/pull/18996)
-- `218e63e30821fbb500cdaa4edf8ff50078f7f763` [fix: fix grant and revoke privileges for internal table (#19249)](https://github.com/risingwavelabs/risingwave/pull/19249)
-
-## nightly-20241106
-- `9a32e75f227f837a6f16fb3afe159c1f8af2ad5b` [feat(compaction): default new compaction group for new table (#19080)](https://github.com/risingwavelabs/risingwave/pull/19080)
