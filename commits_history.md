@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251107` `04249bab1852be4b644ed4a4a0c561ff809493ac`
 - `20251106` `a23e841e37aec0fdabed1fa45bc6fa6ee4f4903b`
 - `20251105` `c9d3fad0077af6c407753ee88c178ce828dc8563`
 - `20251104` `8aa78ee09a7a38cf430e670b5950f1d3c0e0232f`
@@ -294,7 +295,6 @@
 - `20241111` `3c2e81b53a8411451a5f999ca3313654d98c9586`
 - `20241110` `82b782547c0cefe48263d0fc69047b2fcb71cac3`
 - `20241108` `c65834074c8334d835a03333362c0f2eb67a0802`
-- `20241107` `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397`
 </details>
 
 # Commit history
@@ -303,6 +303,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `748ac192a645c522491f0c1be84402324a089821` [feat: strong typed id in generated pb struct (#23699)](https://github.com/risingwavelabs/risingwave/pull/23699)
+
+## nightly-20251107
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a23e841e37aec0fdabed1fa45bc6fa6ee4f4903b...04249bab1852be4b644ed4a4a0c561ff809493ac)
 - `04249bab1852be4b644ed4a4a0c561ff809493ac` [fix: suppress "telemetry event reporting disabled" log lines with rate limit (#23693)](https://github.com/risingwavelabs/risingwave/pull/23693)
 - `d6cbc32103b19c1ee75fb48bd24b8c338ed77b88` [feat(sink): allow buffering and compacting when stream key is same as sink primary key (#23681)](https://github.com/risingwavelabs/risingwave/pull/23681)
 - `c349e39634b8dfb9ad78b255597d0e531738ce2a` [feat: impl ack for pulsar (#22158)](https://github.com/risingwavelabs/risingwave/pull/22158)
@@ -3186,13 +3190,4 @@
 - `c673db66486e5415d2ea2b124c6195217c08caa7` [chore(deps): Bump bytes from 1.7.2 to 1.8.0 (#19185)](https://github.com/risingwavelabs/risingwave/pull/19185)
 
 ## nightly-20241108
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397...c65834074c8334d835a03333362c0f2eb67a0802)
 - `c65834074c8334d835a03333362c0f2eb67a0802` [refactor: some CDC table's code (#19255)](https://github.com/risingwavelabs/risingwave/pull/19255)
-- `99703d17a207cb7cf925fa24edf47a149e0d74e2` [test: fix flaky test `two_phase_approx_percentile_merge_stateless_agg.slt` due to rounding  (#19292)](https://github.com/risingwavelabs/risingwave/pull/19292)
-- `82a80631aa94b45284ff68c07e61c474a5c6132d` [fix(pg-cdc): fix real/float data type mapping (#19300)](https://github.com/risingwavelabs/risingwave/pull/19300)
-- `cc085ebd98a4c224c28277c722914af9e8650ffd` [fix: Single fragment scaling is too conservative (#19259)](https://github.com/risingwavelabs/risingwave/pull/19259)
-- `31d4406f1c18fb9794b6aa3218d4078511226248` [fix(meta): set auto_increment when restoring metadata (#19303)](https://github.com/risingwavelabs/risingwave/pull/19303)
-- `ea01a37b3e64c38ffb2d6114f4621159d176d4de` [feat: support `key encode bytes` for sink  (#19243)](https://github.com/risingwavelabs/risingwave/pull/19243)
-
-## nightly-20241107
-- `e6e1ca9eb987e6abb9a7f7e8f53163f9f02b5397` [refactor(sink): Use s3 sink to replace the original snowflake backend implementation (#18996)](https://github.com/risingwavelabs/risingwave/pull/18996)
