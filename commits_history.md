@@ -303,6 +303,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `04249bab1852be4b644ed4a4a0c561ff809493ac` [fix: suppress "telemetry event reporting disabled" log lines with rate limit (#23693)](https://github.com/risingwavelabs/risingwave/pull/23693)
+- `d6cbc32103b19c1ee75fb48bd24b8c338ed77b88` [feat(sink): allow buffering and compacting when stream key is same as sink primary key (#23681)](https://github.com/risingwavelabs/risingwave/pull/23681)
+- `c349e39634b8dfb9ad78b255597d0e531738ce2a` [feat: impl ack for pulsar (#22158)](https://github.com/risingwavelabs/risingwave/pull/22158)
+- `3fe6d610db4484f81f6cc7562190a18aac85b3ed` [refactor: upgrade to debezium 3.2.4 and cherry-pick patch (#23600)](https://github.com/risingwavelabs/risingwave/pull/23600)
+- `18ed612629ecb2ebc07d661eadfb835a9ffcefa5` [fix(frontend): Avoid using search path when replace table plan (#23710)](https://github.com/risingwavelabs/risingwave/pull/23710)
+- `5e2b96888dabfa4c90f0d7877918a58c7cf8dd36` [fix(mysql-cdc): allow converting unsigned bigint to bigint and handling overflow value (#23244)](https://github.com/risingwavelabs/risingwave/pull/23244)
+- `505b5e653b2bf7e34068326ebe7dadfaefa39242` [chore(cdc): update error hint message (#23705)](https://github.com/risingwavelabs/risingwave/pull/23705)
+- `b3baa5d7c18dd208915d4d012188f6859f2cea62` [fix(meta): Fix cancel creating job not return error (#23700)](https://github.com/risingwavelabs/risingwave/pull/23700)
 - `d052368d0f54631b5649dce648b70ac323634954` [refactor(optimizer): add assertion on dist key being a subset of stream key in exchange (#23583)](https://github.com/risingwavelabs/risingwave/pull/23583)
 
 ## nightly-20251106
