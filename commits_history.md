@@ -303,6 +303,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6fc356bb518ca1a9dc5d925f38fa49bd8c5f3123` [feat(iceberg): support refreshable batch iceberg table (#23527)](https://github.com/risingwavelabs/risingwave/pull/23527)
+- `1d915464b3e98b7f0b7858d6945736d163ad336a` [refactor(mysql-cdc): enhance mysql cdc schema check for unsigned int (#23711)](https://github.com/risingwavelabs/risingwave/pull/23711)
 - `748ac192a645c522491f0c1be84402324a089821` [feat: strong typed id in generated pb struct (#23699)](https://github.com/risingwavelabs/risingwave/pull/23699)
 
 ## nightly-20251107
