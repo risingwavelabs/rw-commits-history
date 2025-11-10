@@ -302,6 +302,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `daac574d14cb999552c5321ee588714c790e90d1` [fix(cdc): reject non-numeric `cdc.source.wait.streaming.start.timeout` values (#23724)](https://github.com/risingwavelabs/risingwave/pull/23724)
+- `f88fd790ba11417a415054328e698bcca40f79a9` [refactor: unify strong typed fragment id (#23649)](https://github.com/risingwavelabs/risingwave/pull/23649)
+- `fddfa5853ef7e4e5f68d9ea0f9e1fdc1b1516248` [fix(docker): exclude ignoring prost id.rs in .dockerignore (#23725)](https://github.com/risingwavelabs/risingwave/pull/23725)
+- `d67b60bfbea2bf3874bebe367db4e407386eba9c` [fix: shared_buffer_compact parallelism (#23210)](https://github.com/risingwavelabs/risingwave/pull/23210)
+- `2d41dba5602bdd8aecadff50961992e4cd05c532` [refactor(streaming): separate streaming config in `actor_context` from `stream_env` (#23658)](https://github.com/risingwavelabs/risingwave/pull/23658)
 - `6fc356bb518ca1a9dc5d925f38fa49bd8c5f3123` [feat(iceberg): support refreshable batch iceberg table (#23527)](https://github.com/risingwavelabs/risingwave/pull/23527)
 - `1d915464b3e98b7f0b7858d6945736d163ad336a` [refactor(mysql-cdc): enhance mysql cdc schema check for unsigned int (#23711)](https://github.com/risingwavelabs/risingwave/pull/23711)
 - `748ac192a645c522491f0c1be84402324a089821` [feat: strong typed id in generated pb struct (#23699)](https://github.com/risingwavelabs/risingwave/pull/23699)
