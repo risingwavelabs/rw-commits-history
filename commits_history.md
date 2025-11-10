@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251110` `daac574d14cb999552c5321ee588714c790e90d1`
 - `20251107` `04249bab1852be4b644ed4a4a0c561ff809493ac`
 - `20251106` `a23e841e37aec0fdabed1fa45bc6fa6ee4f4903b`
 - `20251105` `c9d3fad0077af6c407753ee88c178ce828dc8563`
@@ -302,6 +303,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5ece5e620f8c4e6f6b1c9fad316b9d5f7c992dde` [chore(.gitignore): reorganize sections (#23704)](https://github.com/risingwavelabs/risingwave/pull/23704)
+- `58db54c811dd2a84e995f43354f4da13113525fd` [fix(test): add compatibility test (#23715)](https://github.com/risingwavelabs/risingwave/pull/23715)
+- `1387da987e1f8ad0459c032c7425fc68e3c1f09e` [refactor: unify strong typed actor id (#23650)](https://github.com/risingwavelabs/risingwave/pull/23650)
+
+## nightly-20251110
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/04249bab1852be4b644ed4a4a0c561ff809493ac...daac574d14cb999552c5321ee588714c790e90d1)
 - `daac574d14cb999552c5321ee588714c790e90d1` [fix(cdc): reject non-numeric `cdc.source.wait.streaming.start.timeout` values (#23724)](https://github.com/risingwavelabs/risingwave/pull/23724)
 - `f88fd790ba11417a415054328e698bcca40f79a9` [refactor: unify strong typed fragment id (#23649)](https://github.com/risingwavelabs/risingwave/pull/23649)
 - `fddfa5853ef7e4e5f68d9ea0f9e1fdc1b1516248` [fix(docker): exclude ignoring prost id.rs in .dockerignore (#23725)](https://github.com/risingwavelabs/risingwave/pull/23725)
