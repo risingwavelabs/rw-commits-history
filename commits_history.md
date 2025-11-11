@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251111` `32f2119da47d2d7f9320504cefc12af460dbc9fb`
 - `20251110` `daac574d14cb999552c5321ee588714c790e90d1`
 - `20251107` `04249bab1852be4b644ed4a4a0c561ff809493ac`
 - `20251106` `a23e841e37aec0fdabed1fa45bc6fa6ee4f4903b`
@@ -303,6 +304,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1c8366219ce470b1d4dfcae687743540dd9bca37` [feat(vector): support batch vector index lookup join (#23154)](https://github.com/risingwavelabs/risingwave/pull/23154)
+
+## nightly-20251111
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/daac574d14cb999552c5321ee588714c790e90d1...32f2119da47d2d7f9320504cefc12af460dbc9fb)
 - `32f2119da47d2d7f9320504cefc12af460dbc9fb` [refactor: unify strong typed sink id (#23652)](https://github.com/risingwavelabs/risingwave/pull/23652)
 - `fae0667d063e9c8ed60412c67268934f39e97992` [refactor: remove AddAndUpdate and Combined mutation (#23736)](https://github.com/risingwavelabs/risingwave/pull/23736)
 - `f21af5b5c4f3139f1b040a74597245a9f1b99f02` [refactor(sqlparser):  remove no_std and serde support (#23738)](https://github.com/risingwavelabs/risingwave/pull/23738)
