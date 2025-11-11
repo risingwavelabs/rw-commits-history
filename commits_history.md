@@ -303,6 +303,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `32f2119da47d2d7f9320504cefc12af460dbc9fb` [refactor: unify strong typed sink id (#23652)](https://github.com/risingwavelabs/risingwave/pull/23652)
+- `fae0667d063e9c8ed60412c67268934f39e97992` [refactor: remove AddAndUpdate and Combined mutation (#23736)](https://github.com/risingwavelabs/risingwave/pull/23736)
+- `f21af5b5c4f3139f1b040a74597245a9f1b99f02` [refactor(sqlparser):  remove no_std and serde support (#23738)](https://github.com/risingwavelabs/risingwave/pull/23738)
+- `e700eb0f3db6ae107eb1a08f0b8edee5cea9338d` [fix: handle uninitialized streaming vnode mapping with explicit error variant (#23729)](https://github.com/risingwavelabs/risingwave/pull/23729)
+- `cda053d303dd9cc491f0bdeff383355c34cd523b` [feat(meta): Add meta config to disable automatic migration with new sink-into-table impl (#23691)](https://github.com/risingwavelabs/risingwave/pull/23691)
+- `f8fb44bc891e7295e9ae48c6ea08da9ecd5ee293` [refactor: unify strong typed worker id (#23651)](https://github.com/risingwavelabs/risingwave/pull/23651)
+- `ae5c4ab0e665fcd6f021589cc66fca922baa2c5e` [fix(stream): do not pause backfill if initial barrier is update (#23731)](https://github.com/risingwavelabs/risingwave/pull/23731)
 - `5ece5e620f8c4e6f6b1c9fad316b9d5f7c992dde` [chore(.gitignore): reorganize sections (#23704)](https://github.com/risingwavelabs/risingwave/pull/23704)
 - `58db54c811dd2a84e995f43354f4da13113525fd` [fix(test): add compatibility test (#23715)](https://github.com/risingwavelabs/risingwave/pull/23715)
 - `1387da987e1f8ad0459c032c7425fc68e3c1f09e` [refactor: unify strong typed actor id (#23650)](https://github.com/risingwavelabs/risingwave/pull/23650)
