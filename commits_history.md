@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251112` `063c21d2d1f1ef5938d82726d09883e9621de658`
 - `20251111` `32f2119da47d2d7f9320504cefc12af460dbc9fb`
 - `20251110` `daac574d14cb999552c5321ee588714c790e90d1`
 - `20251107` `04249bab1852be4b644ed4a4a0c561ff809493ac`
@@ -303,6 +304,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f84147949ca405dcfb8fe39862e9db0abf0aea6f` [feat: manage all catalogs of the iceberg table in a transactional manner (#23597)](https://github.com/risingwavelabs/risingwave/pull/23597)
+- `ebfe5ec0655fc9bb1a891c63fb0a086dcd09771d` [chore: cleanup some workaround for background siit (#23749)](https://github.com/risingwavelabs/risingwave/pull/23749)
+- `a8bd2f37ae829ff664e0531e24e3fb2df18b8bd6` [feat(iceberg): Introduce FileWithDeletes Compaction (#23660)](https://github.com/risingwavelabs/risingwave/pull/23660)
+
+## nightly-20251112
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32f2119da47d2d7f9320504cefc12af460dbc9fb...063c21d2d1f1ef5938d82726d09883e9621de658)
 - `063c21d2d1f1ef5938d82726d09883e9621de658` [test(ci): add e2e ldap authentication tests (#23642)](https://github.com/risingwavelabs/risingwave/pull/23642)
 - `936aef23f8ebb9c6e596cae7485632a7b4a3d690` [perf(expr): support writer-style #[function] for bytea type (#23727)](https://github.com/risingwavelabs/risingwave/pull/23727)
 - `58daf88757aca617e0c316927b3eb250d85f1ea7` [refactor: unify strong typed source id (#23653)](https://github.com/risingwavelabs/risingwave/pull/23653)
