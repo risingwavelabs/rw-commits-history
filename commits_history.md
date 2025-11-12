@@ -295,7 +295,6 @@
 - `20241113` `1aed314c2d8944da22b6d9c3c4d07c7683c2a98b`
 - `20241112` `98aa20b886a63a58e602cda41c1c161a66a9fc06`
 - `20241111` `3c2e81b53a8411451a5f999ca3313654d98c9586`
-- `20241110` `82b782547c0cefe48263d0fc69047b2fcb71cac3`
 </details>
 
 # Commit history
@@ -304,6 +303,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `063c21d2d1f1ef5938d82726d09883e9621de658` [test(ci): add e2e ldap authentication tests (#23642)](https://github.com/risingwavelabs/risingwave/pull/23642)
+- `936aef23f8ebb9c6e596cae7485632a7b4a3d690` [perf(expr): support writer-style #[function] for bytea type (#23727)](https://github.com/risingwavelabs/risingwave/pull/23727)
+- `58daf88757aca617e0c316927b3eb250d85f1ea7` [refactor: unify strong typed source id (#23653)](https://github.com/risingwavelabs/risingwave/pull/23653)
+- `8405225d054d262f06fb11cf3c78b9cc77a35c7e` [feat(stream,dashboard): improve actor input buffer blocking metrics and add actor busy time panel (#23612)](https://github.com/risingwavelabs/risingwave/pull/23612)
+- `ff095c47ab1c37c6d66f6fb574a29db52b2d63c9` [fix(ci): fix reducer script (#23745)](https://github.com/risingwavelabs/risingwave/pull/23745)
+- `e6ff1dbf10e8f8c90b5c1c31b6d7fa41dfe8b975` [feat(vector): add metrics to monitor vector index (#23151)](https://github.com/risingwavelabs/risingwave/pull/23151)
 - `1c8366219ce470b1d4dfcae687743540dd9bca37` [feat(vector): support batch vector index lookup join (#23154)](https://github.com/risingwavelabs/risingwave/pull/23154)
 
 ## nightly-20251111
@@ -3202,11 +3207,4 @@
 - `73108d527fd0c0a834a83009d865709183fd4398` [feat(meta): extend streaming scheduler to be aware of vnode count (#19267)](https://github.com/risingwavelabs/risingwave/pull/19267)
 
 ## nightly-20241111
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/82b782547c0cefe48263d0fc69047b2fcb71cac3...3c2e81b53a8411451a5f999ca3313654d98c9586)
 - `3c2e81b53a8411451a5f999ca3313654d98c9586` [refactor(meta): reorganize code of global barrier manager (part 1) (#19334)](https://github.com/risingwavelabs/risingwave/pull/19334)
-- `b689615512b773485244a130f22e771142461d9b` [refactor(meta): list and delete SST objects in meta node (#19329)](https://github.com/risingwavelabs/risingwave/pull/19329)
-- `71146a6bf5931e68d5f51917ac72b7070ad0df3f` [feat(meta): support database checkpoint isolation (#19173)](https://github.com/risingwavelabs/risingwave/pull/19173)
-- `2c4a0002f7b812cc6b3ec057654401e88db5284f` [chore(ci): serial-run `source_inline/kafka/avro/glue.slt` (#19318)](https://github.com/risingwavelabs/risingwave/pull/19318)
-
-## nightly-20241110
-- `82b782547c0cefe48263d0fc69047b2fcb71cac3` [chore(deps): Bump rustls-native-certs from 0.7.0 to 0.8.0 (#18782)](https://github.com/risingwavelabs/risingwave/pull/18782)
