@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251113` `00ee83fafb33958122afaa579df6cc2a408dd5fb`
 - `20251112` `063c21d2d1f1ef5938d82726d09883e9621de658`
 - `20251111` `32f2119da47d2d7f9320504cefc12af460dbc9fb`
 - `20251110` `daac574d14cb999552c5321ee588714c790e90d1`
@@ -304,6 +305,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `975fd075d5a3db0e5782c650d8ec1fc7c43c5788` [fix(test): correctly demonstrate current behavior for sink formatting error in `avro-enum.slt` (#23759)](https://github.com/risingwavelabs/risingwave/pull/23759)
+
+## nightly-20251113
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/063c21d2d1f1ef5938d82726d09883e9621de658...00ee83fafb33958122afaa579df6cc2a408dd5fb)
 - `00ee83fafb33958122afaa579df6cc2a408dd5fb` [refactor: unify strong typed object id (#23659)](https://github.com/risingwavelabs/risingwave/pull/23659)
 - `5a3fb4b96e3ed7188d7a3d38545f1ecd99d07da9` [chore(ci): remove `maximize-build-space` step (#23757)](https://github.com/risingwavelabs/risingwave/pull/23757)
 - `887cc81f18361050f2f77a906c6ee600a83aaaa1` [chore: upgrade typos-cli and fix typos (#23743)](https://github.com/risingwavelabs/risingwave/pull/23743)
