@@ -304,6 +304,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `00ee83fafb33958122afaa579df6cc2a408dd5fb` [refactor: unify strong typed object id (#23659)](https://github.com/risingwavelabs/risingwave/pull/23659)
+- `5a3fb4b96e3ed7188d7a3d38545f1ecd99d07da9` [chore(ci): remove `maximize-build-space` step (#23757)](https://github.com/risingwavelabs/risingwave/pull/23757)
+- `887cc81f18361050f2f77a906c6ee600a83aaaa1` [chore: upgrade typos-cli and fix typos (#23743)](https://github.com/risingwavelabs/risingwave/pull/23743)
 - `f84147949ca405dcfb8fe39862e9db0abf0aea6f` [feat: manage all catalogs of the iceberg table in a transactional manner (#23597)](https://github.com/risingwavelabs/risingwave/pull/23597)
 - `ebfe5ec0655fc9bb1a891c63fb0a086dcd09771d` [chore: cleanup some workaround for background siit (#23749)](https://github.com/risingwavelabs/risingwave/pull/23749)
 - `a8bd2f37ae829ff664e0531e24e3fb2df18b8bd6` [feat(iceberg): Introduce FileWithDeletes Compaction (#23660)](https://github.com/risingwavelabs/risingwave/pull/23660)
