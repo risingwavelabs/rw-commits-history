@@ -305,6 +305,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2646eaf1fc6332fec0df141b49b32918033f4691` [perf(expr): support writer-style #[function] for jsonb type (#23751)](https://github.com/risingwavelabs/risingwave/pull/23751)
+- `4d0e752cb31748e4a4c86f531b27dbc89b41bc0c` [test(sink): Alter add column for table with multiple upstream sinks (#23766)](https://github.com/risingwavelabs/risingwave/pull/23766)
+- `0c2e34a2879dd1a1fcc172cf20751be41653eb0f` [refactor(connector):  introduce a macro to easily gate sink impl behind a feature (#23674)](https://github.com/risingwavelabs/risingwave/pull/23674)
 - `975fd075d5a3db0e5782c650d8ec1fc7c43c5788` [fix(test): correctly demonstrate current behavior for sink formatting error in `avro-enum.slt` (#23759)](https://github.com/risingwavelabs/risingwave/pull/23759)
 
 ## nightly-20251113
