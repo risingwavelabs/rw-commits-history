@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251114` `2646eaf1fc6332fec0df141b49b32918033f4691`
 - `20251113` `00ee83fafb33958122afaa579df6cc2a408dd5fb`
 - `20251112` `063c21d2d1f1ef5938d82726d09883e9621de658`
 - `20251111` `32f2119da47d2d7f9320504cefc12af460dbc9fb`
@@ -305,6 +306,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b` [fix(connector): fix cdc heartbeat message issues (#23689)](https://github.com/risingwavelabs/risingwave/pull/23689)
+
+## nightly-20251114
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/00ee83fafb33958122afaa579df6cc2a408dd5fb...2646eaf1fc6332fec0df141b49b32918033f4691)
 - `2646eaf1fc6332fec0df141b49b32918033f4691` [perf(expr): support writer-style #[function] for jsonb type (#23751)](https://github.com/risingwavelabs/risingwave/pull/23751)
 - `4d0e752cb31748e4a4c86f531b27dbc89b41bc0c` [test(sink): Alter add column for table with multiple upstream sinks (#23766)](https://github.com/risingwavelabs/risingwave/pull/23766)
 - `0c2e34a2879dd1a1fcc172cf20751be41653eb0f` [refactor(connector):  introduce a macro to easily gate sink impl behind a feature (#23674)](https://github.com/risingwavelabs/risingwave/pull/23674)
