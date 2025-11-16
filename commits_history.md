@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251115` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
+- `20251116` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
 - `20251114` `2646eaf1fc6332fec0df141b49b32918033f4691`
 - `20251113` `00ee83fafb33958122afaa579df6cc2a408dd5fb`
 - `20251112` `063c21d2d1f1ef5938d82726d09883e9621de658`
@@ -308,7 +308,7 @@
 
 ## Unreleased
 
-## nightly-20251115
+## nightly-20251116
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2646eaf1fc6332fec0df141b49b32918033f4691...7bc2b0bf881a4e62057065b252bc821a1f4f3b0b)
 - `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b` [fix(connector): fix cdc heartbeat message issues (#23689)](https://github.com/risingwavelabs/risingwave/pull/23689)
 
