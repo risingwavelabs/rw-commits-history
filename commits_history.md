@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251117` `95561355ac07b02d849318e55e510f87a0c76a49`
 - `20251116` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
 - `20251114` `2646eaf1fc6332fec0df141b49b32918033f4691`
 - `20251113` `00ee83fafb33958122afaa579df6cc2a408dd5fb`
@@ -293,7 +294,6 @@
 - `20241120` `fe69ce3093b33e16e8f1682eddeac28789190764`
 - `20241119` `72e5ad3e0672687439c8a33688c7acc6ded540fa`
 - `20241118` `0b223b4c2f569e749413620287d1655410041d06`
-- `20241117` `0519b3fdd5ab0b94d39ee6989050272e6f3e5c78`
 </details>
 
 # Commit history
@@ -302,6 +302,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7e0d3bf7fe67ca03a60d2f8ad6af5a797e26f99d` [refactor: improve cluster kill-and-recovery tests with precise recovery tracking (#23728)](https://github.com/risingwavelabs/risingwave/pull/23728)
+- `3056f3e1dcd24ccd2f49381b5cf9d23d718ed542` [feat(vector): support stream vector index lookup (#23288)](https://github.com/risingwavelabs/risingwave/pull/23288)
+- `0307939e40b6e6e567c75ceb0d7daf9911db4d79` [fix: change placeholder of username in ldap filter config (#23782)](https://github.com/risingwavelabs/risingwave/pull/23782)
+- `f7fa138be60389596db5fcbc5908ebc8e38218a6` [test(cdc): migrate mongodb-cdc tests to inline style with all data types (#23753)](https://github.com/risingwavelabs/risingwave/pull/23753)
+
+## nightly-20251117
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7bc2b0bf881a4e62057065b252bc821a1f4f3b0b...95561355ac07b02d849318e55e510f87a0c76a49)
 - `95561355ac07b02d849318e55e510f87a0c76a49` [chore:  temporally disable flaky ldap test in pull request (#23778)](https://github.com/risingwavelabs/risingwave/pull/23778)
 - `8dbf02d62e316545e3d7f5d2d9368029c651163e` [feat(meta): add `config_override` in stream context and meta store (#23752)](https://github.com/risingwavelabs/risingwave/pull/23752)
 - `6ec057b6e84f81ff6eb856cf6870277068c0f175` [feat(parser): support `ALTER .. [SET | RESET] CONFIG` (#23742)](https://github.com/risingwavelabs/risingwave/pull/23742)
@@ -3175,16 +3182,4 @@
 - `7a50fec7bc0b1a743da1c829d958c046edcfbd59` [test: add more planner tests for explain xml, json, yaml (#19430)](https://github.com/risingwavelabs/risingwave/pull/19430)
 
 ## nightly-20241118
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0519b3fdd5ab0b94d39ee6989050272e6f3e5c78...0b223b4c2f569e749413620287d1655410041d06)
 - `0b223b4c2f569e749413620287d1655410041d06` [fix(test): incorrect flaky madsim initial sink parallelism (#19419)](https://github.com/risingwavelabs/risingwave/pull/19419)
-- `d2c64465386e19d777952f53677d64816a7de6bb` [chore(deps): Bump sqllogictest from 0.22.0 to 0.23.0 (#19417)](https://github.com/risingwavelabs/risingwave/pull/19417)
-- `88f9efa58c1366dbce901749c53febf583f0c0b1` [fix(starrocks): fix starrocks coordinator incorrect try_join_all on join handle (#19412)](https://github.com/risingwavelabs/risingwave/pull/19412)
-- `084fff883b2c2470754c2745b14afaa6500e6c46` [feat(batch): use get_keyed_row to implement point get for _rw_timestamp (#19415)](https://github.com/risingwavelabs/risingwave/pull/19415)
-- `a4d96ec2edf7d05fa25fb567ff463b6045fc389f` [chore: enable dependabot for java (#19212)](https://github.com/risingwavelabs/risingwave/pull/19212)
-- `ca54fff9b8a18f953a3b570d6688166c24c12cad` [test: vnode count chaos test in e2e madsim (#19250)](https://github.com/risingwavelabs/risingwave/pull/19250)
-- `9ab21987eb25c9afee660180d08137481d458b9e` [fix: approximately update table stats for vnode watermark reclaim (#19370)](https://github.com/risingwavelabs/risingwave/pull/19370)
-- `43730aa0734f54aef96888af03c60fe72c9ca2dd` [fix(direct-cdc): improve type match for pg-cdc (#19409)](https://github.com/risingwavelabs/risingwave/pull/19409)
-- `94154c03ff7d80076b9e4e10da416ce85a620ab4` [refactor(udf): remove `function_type` field previously used by Deno UDF (#19404)](https://github.com/risingwavelabs/risingwave/pull/19404)
-
-## nightly-20241117
-- `0519b3fdd5ab0b94d39ee6989050272e6f3e5c78` [chore: bump java dependencies (#19208)](https://github.com/risingwavelabs/risingwave/pull/19208)
