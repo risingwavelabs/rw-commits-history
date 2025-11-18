@@ -302,6 +302,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462` [fix(iceberg): rebuild stream when errors occur for iceberg list executor (#23793)](https://github.com/risingwavelabs/risingwave/pull/23793)
+- `7fd37d8dfc9abb267dd2397fbe41199ee5adce59` [feat(iceberg): change iceberg list interval sec to 10 sec (#23791)](https://github.com/risingwavelabs/risingwave/pull/23791)
+- `a608d3f388075863934dfaead58a18c8d0354e56` [feat(iceberg): support assume role for s3 and glue catalog together with enable_config_load  (#23788)](https://github.com/risingwavelabs/risingwave/pull/23788)
+- `66b519a5fdc8d54ce4dcd5dd38bcc0a2d1c2e499` [chore: rename iceberg common fields to better names. (#23790)](https://github.com/risingwavelabs/risingwave/pull/23790)
+- `163e9ea64549fc9f8c95073708233d2d97adf41b` [feat(metrics): add relation busy rate to dashboard (#23730)](https://github.com/risingwavelabs/risingwave/pull/23730)
+- `1a1c4f20f045e1cf5153321231817ede0b125bfa` [chore(ci): add maven cache for `build-other.sh` step (#23781)](https://github.com/risingwavelabs/risingwave/pull/23781)
+- `8640902c8d845993b101ee5bb5453d61ce4e807b` [feat(streaming): add functionality to override config when building actors (#23735)](https://github.com/risingwavelabs/risingwave/pull/23735)
+- `8cd742c2d0fc21a8b1dda6e20cdfbc4424954ddd` [chore(deps): Bump mach2 from 0.5.0 to 0.6.0 (#23784)](https://github.com/risingwavelabs/risingwave/pull/23784)
+- `546e921e0c9eecba46ce8dd28cb87806f1d98b37` [feat(iceberg): support s3 and glue iam role arn (#23775)](https://github.com/risingwavelabs/risingwave/pull/23775)
 - `7e0d3bf7fe67ca03a60d2f8ad6af5a797e26f99d` [refactor: improve cluster kill-and-recovery tests with precise recovery tracking (#23728)](https://github.com/risingwavelabs/risingwave/pull/23728)
 - `3056f3e1dcd24ccd2f49381b5cf9d23d718ed542` [feat(vector): support stream vector index lookup (#23288)](https://github.com/risingwavelabs/risingwave/pull/23288)
 - `0307939e40b6e6e567c75ceb0d7daf9911db4d79` [fix: change placeholder of username in ldap filter config (#23782)](https://github.com/risingwavelabs/risingwave/pull/23782)
