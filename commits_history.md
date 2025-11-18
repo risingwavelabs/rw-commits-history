@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251118` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
 - `20251117` `95561355ac07b02d849318e55e510f87a0c76a49`
 - `20251116` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
 - `20251114` `2646eaf1fc6332fec0df141b49b32918033f4691`
@@ -293,7 +294,6 @@
 - `20241121` `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f`
 - `20241120` `fe69ce3093b33e16e8f1682eddeac28789190764`
 - `20241119` `72e5ad3e0672687439c8a33688c7acc6ded540fa`
-- `20241118` `0b223b4c2f569e749413620287d1655410041d06`
 </details>
 
 # Commit history
@@ -302,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251118
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/95561355ac07b02d849318e55e510f87a0c76a49...7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462)
 - `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462` [fix(iceberg): rebuild stream when errors occur for iceberg list executor (#23793)](https://github.com/risingwavelabs/risingwave/pull/23793)
 - `7fd37d8dfc9abb267dd2397fbe41199ee5adce59` [feat(iceberg): change iceberg list interval sec to 10 sec (#23791)](https://github.com/risingwavelabs/risingwave/pull/23791)
 - `a608d3f388075863934dfaead58a18c8d0354e56` [feat(iceberg): support assume role for s3 and glue catalog together with enable_config_load  (#23788)](https://github.com/risingwavelabs/risingwave/pull/23788)
@@ -3178,17 +3181,4 @@
 - `a54a04507b4d6f300f15d8dd36519257b6e4ce1c` [feat: Remove cycle check for `sink into table`  in frontend (#19442)](https://github.com/risingwavelabs/risingwave/pull/19442)
 
 ## nightly-20241119
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0b223b4c2f569e749413620287d1655410041d06...72e5ad3e0672687439c8a33688c7acc6ded540fa)
 - `72e5ad3e0672687439c8a33688c7acc6ded540fa` [refactor(connector): extract the common logic of file_scan tvf and parquet source (#19398)](https://github.com/risingwavelabs/risingwave/pull/19398)
-- `a05cf34aea19fb407b6c3ad0b5faeb450c7cf233` [fix: alter FS source rate_limit is not handled correctly (#19438)](https://github.com/risingwavelabs/risingwave/pull/19438)
-- `f89ae893522c3211dbda0eaefcff3dec21b6dec8` [feat(optimizer): allow returning error if a rule fails unrecoverably (#19381)](https://github.com/risingwavelabs/risingwave/pull/19381)
-- `9e27e6270c36bda30d61257f84ddc9a939ee51a1` [fix: request for topic spec metadata to narrow privilege required (#19421)](https://github.com/risingwavelabs/risingwave/pull/19421)
-- `8f552d859af9f6993354fd1b04b74c15baa32c4a` [refactor: allow modification of the query mode (#19424)](https://github.com/risingwavelabs/risingwave/pull/19424)
-- `e26292b558584b4a66614625e5c60ef294cdee34` [feat(pgwire): support 1-dimension array in extended mode (#19432)](https://github.com/risingwavelabs/risingwave/pull/19432)
-- `f12f4e51146cf6b42ce88f5fab3d2b7a8ab09998` [feat(storage): support sync on multiple partial graph (#19431)](https://github.com/risingwavelabs/risingwave/pull/19431)
-- `7ba6650c926b80c8f50f52837e33fa8f76373329` [feat(batch): support extended declare query cursor (#19043)](https://github.com/risingwavelabs/risingwave/pull/19043)
-- `f5537d955f102e382da5456a44911519c978ade6` [refactor: remove unexpected memory watermark update (#19366)](https://github.com/risingwavelabs/risingwave/pull/19366)
-- `7a50fec7bc0b1a743da1c829d958c046edcfbd59` [test: add more planner tests for explain xml, json, yaml (#19430)](https://github.com/risingwavelabs/risingwave/pull/19430)
-
-## nightly-20241118
-- `0b223b4c2f569e749413620287d1655410041d06` [fix(test): incorrect flaky madsim initial sink parallelism (#19419)](https://github.com/risingwavelabs/risingwave/pull/19419)
