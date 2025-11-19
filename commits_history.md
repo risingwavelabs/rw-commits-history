@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251118` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
+- `20251119` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
 - `20251117` `95561355ac07b02d849318e55e510f87a0c76a49`
 - `20251116` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
 - `20251114` `2646eaf1fc6332fec0df141b49b32918033f4691`
@@ -293,7 +293,6 @@
 - `20241122` `bc06ffdb782ea5a9f11d19825f0f61c1723991c1`
 - `20241121` `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f`
 - `20241120` `fe69ce3093b33e16e8f1682eddeac28789190764`
-- `20241119` `72e5ad3e0672687439c8a33688c7acc6ded540fa`
 </details>
 
 # Commit history
@@ -302,8 +301,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ef90c15cc8459c8953142f61372763649c3028d8` [chore: replace `number_prefix` with `unit-prefix` (#23801)](https://github.com/risingwavelabs/risingwave/pull/23801)
 
-## nightly-20251118
+## nightly-20251119
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/95561355ac07b02d849318e55e510f87a0c76a49...7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462)
 - `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462` [fix(iceberg): rebuild stream when errors occur for iceberg list executor (#23793)](https://github.com/risingwavelabs/risingwave/pull/23793)
 - `7fd37d8dfc9abb267dd2397fbe41199ee5adce59` [feat(iceberg): change iceberg list interval sec to 10 sec (#23791)](https://github.com/risingwavelabs/risingwave/pull/23791)
@@ -3163,22 +3163,4 @@
 - `3fdd6a5cc0c0789118ab726cbb776bfefb41a557` [feat: add rw_rate_limit system catalog (#19466)](https://github.com/risingwavelabs/risingwave/pull/19466)
 
 ## nightly-20241120
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72e5ad3e0672687439c8a33688c7acc6ded540fa...fe69ce3093b33e16e8f1682eddeac28789190764)
 - `fe69ce3093b33e16e8f1682eddeac28789190764` [feat: support backfill_rate_limit for source backfill (#19445)](https://github.com/risingwavelabs/risingwave/pull/19445)
-- `b9c3f709cc927682738ffc6fee1528be04012cd6` [fix: fix potential data loss for shared source (#19443)](https://github.com/risingwavelabs/risingwave/pull/19443)
-- `34bb3cb0a19edddd629a9a9eadc3ed7f57256dd3` [fix(iceberg): fix iceberg parquet file size in bytes statistics (#19471)](https://github.com/risingwavelabs/risingwave/pull/19471)
-- `a0b65fd618483e38ed351a4d691639ce65c8fa6c` [feat(pgwire): support struct type in extended mode (#19450)](https://github.com/risingwavelabs/risingwave/pull/19450)
-- `c1e8f9a2d177d8a9c9733e06f1c9ce77517582d3` [fix(source): `REFRESH SCHEMA` shall keep `INCLUDE` pk for `UPSERT` (#19384)](https://github.com/risingwavelabs/risingwave/pull/19384)
-- `5f1a59b000b92a2c81163c520564827a0a798ff5` [refactor(frontend): rework `UPDATE` to support subqueries (#19402)](https://github.com/risingwavelabs/risingwave/pull/19402)
-- `c1162ab701d3df0b8a0a3f0bc8564508b0090330` [test: fix test cases of `batch/types` (#19441)](https://github.com/risingwavelabs/risingwave/pull/19441)
-- `c8e96b9634dc38bcd5bbea74e23aa7ef1974922c` [refactor(barrier): decouple barrier collect and sync in local barrier manager (#19393)](https://github.com/risingwavelabs/risingwave/pull/19393)
-- `b37f048e33722fc922d8bd3adce6c45fdeae42af` [fix: Ensure non-negative variance in stddev calculations  (#19448)](https://github.com/risingwavelabs/risingwave/pull/19448)
-- `185243618b23fea634237a70a438e3c3c7da7e2d` [chore: more logs for offline scaling (#19407)](https://github.com/risingwavelabs/risingwave/pull/19407)
-- `c325f42060679bff0dfde4aa5bd63529311d1128` [fix(optimizer): enforce input of `BatchMaxOneRow` to be singleton (#19452)](https://github.com/risingwavelabs/risingwave/pull/19452)
-- `5b224fab428f33e41146e7df157b863402ce607c` [chore(deps): Bump async-nats from 0.37.0 to 0.38.0 (#19465)](https://github.com/risingwavelabs/risingwave/pull/19465)
-- `5b9cf248a15ce1af4381809d0a3bdc464c4d3d31` [fix(meta): remove custom serde (#19463)](https://github.com/risingwavelabs/risingwave/pull/19463)
-- `1c29c810748296f65db0b3c7a03ab221f6312a3a` [fix(iceberg): Bump Icelake version to fix null metadata_log (#19397)](https://github.com/risingwavelabs/risingwave/pull/19397)
-- `a54a04507b4d6f300f15d8dd36519257b6e4ce1c` [feat: Remove cycle check for `sink into table`  in frontend (#19442)](https://github.com/risingwavelabs/risingwave/pull/19442)
-
-## nightly-20241119
-- `72e5ad3e0672687439c8a33688c7acc6ded540fa` [refactor(connector): extract the common logic of file_scan tvf and parquet source (#19398)](https://github.com/risingwavelabs/risingwave/pull/19398)
