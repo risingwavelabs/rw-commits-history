@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251120` `ef90c15cc8459c8953142f61372763649c3028d8`
 - `20251119` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
 - `20251117` `95561355ac07b02d849318e55e510f87a0c76a49`
 - `20251116` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
@@ -292,7 +293,6 @@
 - `20241124` `b4bca5724e7acb9c39919aaa188ed699a10eb1f4`
 - `20241122` `bc06ffdb782ea5a9f11d19825f0f61c1723991c1`
 - `20241121` `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f`
-- `20241120` `fe69ce3093b33e16e8f1682eddeac28789190764`
 </details>
 
 # Commit history
@@ -301,6 +301,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251120
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462...ef90c15cc8459c8953142f61372763649c3028d8)
 - `ef90c15cc8459c8953142f61372763649c3028d8` [chore: replace `number_prefix` with `unit-prefix` (#23801)](https://github.com/risingwavelabs/risingwave/pull/23801)
 
 ## nightly-20251119
@@ -3146,21 +3149,4 @@
 - `37e108c772ab1a6b3acd1e7e015b33191f3130d9` [feat(meta): dependency check for `drop function` (#19399)](https://github.com/risingwavelabs/risingwave/pull/19399)
 
 ## nightly-20241121
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fe69ce3093b33e16e8f1682eddeac28789190764...cfa521dcccfdb2763da050ed6a7f79cb39f63f9f)
 - `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f` [test: re-enable backwards compat tests (#19521)](https://github.com/risingwavelabs/risingwave/pull/19521)
-- `e544337a477234656f7c580ddb20f40a5c44ecf8` [feat(iceberg): support rest authentication (#19406)](https://github.com/risingwavelabs/risingwave/pull/19406)
-- `a771dab7465202acd7dab99f5de441a71a82eecd` [feat(frontend): output explain result as graphviz dot format (#19446)](https://github.com/risingwavelabs/risingwave/pull/19446)
-- `075c90d7e3b2953283e188bd636b0ea05b268314` [refactor: rename dummy table id to tmp table id (#19509)](https://github.com/risingwavelabs/risingwave/pull/19509)
-- `f00385991226042ace31eff9bf7bc3ba6d3a0366` [fix(compactor): Fix an unexpected termination of shared compactor (#19505)](https://github.com/risingwavelabs/risingwave/pull/19505)
-- `ca38177324864c9f82372189ef8265d30e7b9aec` [perf(topn): compact the (Group)TopN output to avoid amplification (#19451)](https://github.com/risingwavelabs/risingwave/pull/19451)
-- `8d3ef48fb0f92b96bc2e0a66c89eaaa36df80815` [chore: don't treat subscription as streaming job in system catalog (#19476)](https://github.com/risingwavelabs/risingwave/pull/19476)
-- `d5fd260882d56f902d848d5f33a8a1fe5ade7f5e` [refactor: update configuration (#19501)](https://github.com/risingwavelabs/risingwave/pull/19501)
-- `bd61bc6e1795b703ca5a45473161804f77955ffe` [chore: add telemetry reminder if meeting `type/feature` (#19359)](https://github.com/risingwavelabs/risingwave/pull/19359)
-- `bae490aab2ae895b4a76d1d2a7c5b0cc63169e99` [refactor(meta): use correct type for the pb counterpart (#19500)](https://github.com/risingwavelabs/risingwave/pull/19500)
-- `ea3e90932f8b8f523f183140ed878e69971e462e` [feat(streaming): decouple memory manager tick interval with barrier (#19494)](https://github.com/risingwavelabs/risingwave/pull/19494)
-- `1eb4ce04d47e4332d1f0c098306790b9ef2d0e8a` [feat(expr): add rw_epoch_to_ts (#19473)](https://github.com/risingwavelabs/risingwave/pull/19473)
-- `ad1d929a3298a4825c548117db4b48e425005de1` [refactor(meta): proactively GC more stale objects. (#19474)](https://github.com/risingwavelabs/risingwave/pull/19474)
-- `3fdd6a5cc0c0789118ab726cbb776bfefb41a557` [feat: add rw_rate_limit system catalog (#19466)](https://github.com/risingwavelabs/risingwave/pull/19466)
-
-## nightly-20241120
-- `fe69ce3093b33e16e8f1682eddeac28789190764` [feat: support backfill_rate_limit for source backfill (#19445)](https://github.com/risingwavelabs/risingwave/pull/19445)
