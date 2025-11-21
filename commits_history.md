@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251120` `ef90c15cc8459c8953142f61372763649c3028d8`
+- `20251121` `ef90c15cc8459c8953142f61372763649c3028d8`
 - `20251119` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
 - `20251117` `95561355ac07b02d849318e55e510f87a0c76a49`
 - `20251116` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
@@ -292,7 +292,6 @@
 - `20241125` `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a`
 - `20241124` `b4bca5724e7acb9c39919aaa188ed699a10eb1f4`
 - `20241122` `bc06ffdb782ea5a9f11d19825f0f61c1723991c1`
-- `20241121` `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f`
 </details>
 
 # Commit history
@@ -302,7 +301,7 @@
 
 ## Unreleased
 
-## nightly-20251120
+## nightly-20251121
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462...ef90c15cc8459c8953142f61372763649c3028d8)
 - `ef90c15cc8459c8953142f61372763649c3028d8` [chore: replace `number_prefix` with `unit-prefix` (#23801)](https://github.com/risingwavelabs/risingwave/pull/23801)
 
@@ -3140,13 +3139,4 @@
 - `236e7617aebd55bd61b9ceb43cb2e1fd9b6d59e8` [fix: upgrade setuptools because of vulnerablility (#19540)](https://github.com/risingwavelabs/risingwave/pull/19540)
 
 ## nightly-20241122
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cfa521dcccfdb2763da050ed6a7f79cb39f63f9f...bc06ffdb782ea5a9f11d19825f0f61c1723991c1)
 - `bc06ffdb782ea5a9f11d19825f0f61c1723991c1` [feat(compaction): Limit the size of the new overlapping level (#19277)](https://github.com/risingwavelabs/risingwave/pull/19277)
-- `fd5d0912fdebd031873651041866df6a2b8651b6` [fix: when target is table, the sink downstream pk is not set (#19515)](https://github.com/risingwavelabs/risingwave/pull/19515)
-- `2064b5b145cda3c0b04061a3e819bf68b32d0333` [fix: memory allocation of standalone mode (#19477)](https://github.com/risingwavelabs/risingwave/pull/19477)
-- `09a8ff3a59650df3ec1afa08c7b8579d84a1700b` [refactor: clarify the meaning of table in TableCatalog and TableFragments (#19510)](https://github.com/risingwavelabs/risingwave/pull/19510)
-- `ca5f13a49a54fe861ad499e05bf3a7c260c76ca8` [fix(sqlparser): array of struct of struct (#19483)](https://github.com/risingwavelabs/risingwave/pull/19483)
-- `37e108c772ab1a6b3acd1e7e015b33191f3130d9` [feat(meta): dependency check for `drop function` (#19399)](https://github.com/risingwavelabs/risingwave/pull/19399)
-
-## nightly-20241121
-- `cfa521dcccfdb2763da050ed6a7f79cb39f63f9f` [test: re-enable backwards compat tests (#19521)](https://github.com/risingwavelabs/risingwave/pull/19521)
