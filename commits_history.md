@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251121` `ef90c15cc8459c8953142f61372763649c3028d8`
+- `20251122` `ef90c15cc8459c8953142f61372763649c3028d8`
 - `20251119` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
 - `20251117` `95561355ac07b02d849318e55e510f87a0c76a49`
 - `20251116` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
@@ -291,7 +291,6 @@
 - `20241126` `5d6aaf47710b449cde54081e987ba8d457adb6c6`
 - `20241125` `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a`
 - `20241124` `b4bca5724e7acb9c39919aaa188ed699a10eb1f4`
-- `20241122` `bc06ffdb782ea5a9f11d19825f0f61c1723991c1`
 </details>
 
 # Commit history
@@ -301,7 +300,7 @@
 
 ## Unreleased
 
-## nightly-20251121
+## nightly-20251122
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462...ef90c15cc8459c8953142f61372763649c3028d8)
 - `ef90c15cc8459c8953142f61372763649c3028d8` [chore: replace `number_prefix` with `unit-prefix` (#23801)](https://github.com/risingwavelabs/risingwave/pull/23801)
 
@@ -3134,9 +3133,4 @@
 - `9abd62a7a63446c345310c1aeeba994c86cf20e8` [refactor(optimizer): record error contexts when casting composite types (#19449)](https://github.com/risingwavelabs/risingwave/pull/19449)
 
 ## nightly-20241124
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc06ffdb782ea5a9f11d19825f0f61c1723991c1...b4bca5724e7acb9c39919aaa188ed699a10eb1f4)
 - `b4bca5724e7acb9c39919aaa188ed699a10eb1f4` [doc(dev-guide): note good first issue (#19543)](https://github.com/risingwavelabs/risingwave/pull/19543)
-- `236e7617aebd55bd61b9ceb43cb2e1fd9b6d59e8` [fix: upgrade setuptools because of vulnerablility (#19540)](https://github.com/risingwavelabs/risingwave/pull/19540)
-
-## nightly-20241122
-- `bc06ffdb782ea5a9f11d19825f0f61c1723991c1` [feat(compaction): Limit the size of the new overlapping level (#19277)](https://github.com/risingwavelabs/risingwave/pull/19277)
