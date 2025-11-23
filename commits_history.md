@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251122` `ef90c15cc8459c8953142f61372763649c3028d8`
+- `20251123` `ef90c15cc8459c8953142f61372763649c3028d8`
 - `20251119` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
 - `20251117` `95561355ac07b02d849318e55e510f87a0c76a49`
 - `20251116` `7bc2b0bf881a4e62057065b252bc821a1f4f3b0b`
@@ -300,7 +300,7 @@
 
 ## Unreleased
 
-## nightly-20251122
+## nightly-20251123
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462...ef90c15cc8459c8953142f61372763649c3028d8)
 - `ef90c15cc8459c8953142f61372763649c3028d8` [chore: replace `number_prefix` with `unit-prefix` (#23801)](https://github.com/risingwavelabs/risingwave/pull/23801)
 
