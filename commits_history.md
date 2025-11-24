@@ -299,6 +299,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5d7301e3a6c926e920bd9a1fe0bca9281133fa79` [fix: support AdaptiveParallelismStrategy as string format in config (#23817)](https://github.com/risingwavelabs/risingwave/pull/23817)
+- `056a4d3b675d7f63e4c860c1e6dd02962029d621` [fix(iceberg): fix batch iceberg list executor (#23824)](https://github.com/risingwavelabs/risingwave/pull/23824)
+- `f2fb5f94e7ae40f755f82b3f5a4e9daa1b2dc872` [feat: add periodic refresh table jobs & refactor ProgressTracker (#23737)](https://github.com/risingwavelabs/risingwave/pull/23737)
+- `7336d716b8902c5cd2a1fc69d6e80a5c55a009ee` [fix(dashboard): fix some foyer metrics name followed by OpenMetrics (#23818)](https://github.com/risingwavelabs/risingwave/pull/23818)
+- `0447ecc8547b9f7170c5e825fbeb5899c91a3fae` [fix(iceberg): fix batch iceberg list executor (#23811)](https://github.com/risingwavelabs/risingwave/pull/23811)
+- `cc8aa7fb4e5da20dd99d7e7e6931adb212f8507f` [refactor(meta): refine inflight info ownership and avoid unnecessary clone (#23754)](https://github.com/risingwavelabs/risingwave/pull/23754)
+- `b7854e4f1f198c12f8cb5ec4420228a8551ef5b9` [fix(iceberg): fix iceberg engine with compaction extra config (#23809)](https://github.com/risingwavelabs/risingwave/pull/23809)
+- `08977f6a895ecbc97d257fdbb401f1363360d128` [feat(mysql-cdc): monitor the progress of binlog offsets in the upstream and downstream processes (#23692)](https://github.com/risingwavelabs/risingwave/pull/23692)
 
 ## nightly-20251123
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462...ef90c15cc8459c8953142f61372763649c3028d8)
