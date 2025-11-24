@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251124` `5d7301e3a6c926e920bd9a1fe0bca9281133fa79`
 - `20251123` `ef90c15cc8459c8953142f61372763649c3028d8`
 - `20251119` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
 - `20251117` `95561355ac07b02d849318e55e510f87a0c76a49`
@@ -290,7 +291,6 @@
 - `20241127` `c45327bae82869699328a47e70919d38e783df2d`
 - `20241126` `5d6aaf47710b449cde54081e987ba8d457adb6c6`
 - `20241125` `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a`
-- `20241124` `b4bca5724e7acb9c39919aaa188ed699a10eb1f4`
 </details>
 
 # Commit history
@@ -299,6 +299,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251124
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef90c15cc8459c8953142f61372763649c3028d8...5d7301e3a6c926e920bd9a1fe0bca9281133fa79)
 - `5d7301e3a6c926e920bd9a1fe0bca9281133fa79` [fix: support AdaptiveParallelismStrategy as string format in config (#23817)](https://github.com/risingwavelabs/risingwave/pull/23817)
 - `056a4d3b675d7f63e4c860c1e6dd02962029d621` [fix(iceberg): fix batch iceberg list executor (#23824)](https://github.com/risingwavelabs/risingwave/pull/23824)
 - `f2fb5f94e7ae40f755f82b3f5a4e9daa1b2dc872` [feat: add periodic refresh table jobs & refactor ProgressTracker (#23737)](https://github.com/risingwavelabs/risingwave/pull/23737)
@@ -3134,11 +3137,4 @@
 - `fcea1bd2200b1bc1de5157fc6b8465e50839a6cb` [chore(ci): increase test timeout for deterministic tests (#19532)](https://github.com/risingwavelabs/risingwave/pull/19532)
 
 ## nightly-20241125
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b4bca5724e7acb9c39919aaa188ed699a10eb1f4...9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a)
 - `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a` [feat: introduce node label (#19153)](https://github.com/risingwavelabs/risingwave/pull/19153)
-- `49398f602e8f01c82b8106017647bcdaa2cc5bbc` [feat(storage): reclaim table throughput statistics (#19135)](https://github.com/risingwavelabs/risingwave/pull/19135)
-- `420b60b591f4da6a6de1eea4966833667f010cd3` [test(pgwire): complete the test cases to cover all data types (#19520)](https://github.com/risingwavelabs/risingwave/pull/19520)
-- `9abd62a7a63446c345310c1aeeba994c86cf20e8` [refactor(optimizer): record error contexts when casting composite types (#19449)](https://github.com/risingwavelabs/risingwave/pull/19449)
-
-## nightly-20241124
-- `b4bca5724e7acb9c39919aaa188ed699a10eb1f4` [doc(dev-guide): note good first issue (#19543)](https://github.com/risingwavelabs/risingwave/pull/19543)
