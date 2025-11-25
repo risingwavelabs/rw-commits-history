@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3bdf0437a4a8637bacab6184238c8ec5cc6c96eb` [fix: update Minio client initialization to use keyword arguments (#23836)](https://github.com/risingwavelabs/risingwave/pull/23836)
+- `75c4201d9abef2f70df495de8f1c9b9073fc6242` [fix(streaming): fix locality backfill state -- write upstream chunk to the state (#23838)](https://github.com/risingwavelabs/risingwave/pull/23838)
+- `3247aeac462f98b808801bfbb986c437330110a0` [fix(ci): use larger runner with more disk space for workflows that build RW (#23842)](https://github.com/risingwavelabs/risingwave/pull/23842)
+- `b9afc41e44350971477a6569ef81d85d076ddb65` [feat: migrate `JoinEncodingType` from session config to per-job config override (#23768)](https://github.com/risingwavelabs/risingwave/pull/23768)
+- `8ea524ab35df748db38556021d7c13eb22bab02a` [chore(iceberg): better logging if mis-config `enable_config_load` on Cloud (#23822)](https://github.com/risingwavelabs/risingwave/pull/23822)
+- `219d2031b1f22d58abd0968fabb7413a6638d8f4` [chore: add back grafana json (#23831)](https://github.com/risingwavelabs/risingwave/pull/23831)
 
 ## nightly-20251124
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef90c15cc8459c8953142f61372763649c3028d8...5d7301e3a6c926e920bd9a1fe0bca9281133fa79)
