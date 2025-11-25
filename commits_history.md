@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251125` `3bdf0437a4a8637bacab6184238c8ec5cc6c96eb`
 - `20251124` `5d7301e3a6c926e920bd9a1fe0bca9281133fa79`
 - `20251123` `ef90c15cc8459c8953142f61372763649c3028d8`
 - `20251119` `7e4a8ccfeb0b65f657f7e171e7b3eccecfbe8462`
@@ -290,7 +291,6 @@
 - `20241128` `4b1cb92e5ce37c72139f933b525ed9c41aec575f`
 - `20241127` `c45327bae82869699328a47e70919d38e783df2d`
 - `20241126` `5d6aaf47710b449cde54081e987ba8d457adb6c6`
-- `20241125` `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a`
 </details>
 
 # Commit history
@@ -299,6 +299,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251125
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5d7301e3a6c926e920bd9a1fe0bca9281133fa79...3bdf0437a4a8637bacab6184238c8ec5cc6c96eb)
 - `3bdf0437a4a8637bacab6184238c8ec5cc6c96eb` [fix: update Minio client initialization to use keyword arguments (#23836)](https://github.com/risingwavelabs/risingwave/pull/23836)
 - `75c4201d9abef2f70df495de8f1c9b9073fc6242` [fix(streaming): fix locality backfill state -- write upstream chunk to the state (#23838)](https://github.com/risingwavelabs/risingwave/pull/23838)
 - `3247aeac462f98b808801bfbb986c437330110a0` [fix(ci): use larger runner with more disk space for workflows that build RW (#23842)](https://github.com/risingwavelabs/risingwave/pull/23842)
@@ -3128,19 +3131,4 @@
 - `507085657ca54769cb83aafe2e5d6278b9a985eb` [feat(secret): alter secret in catalog (#19495)](https://github.com/risingwavelabs/risingwave/pull/19495)
 
 ## nightly-20241126
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a...5d6aaf47710b449cde54081e987ba8d457adb6c6)
 - `5d6aaf47710b449cde54081e987ba8d457adb6c6` [feat(sink): use mysql dialect for jdbc url start with mariadb (#19523)](https://github.com/risingwavelabs/risingwave/pull/19523)
-- `759ea19eda7cd72afcacb186f79e4e17ed603669` [feat(cdc): init default value for cdc table columns (#19354)](https://github.com/risingwavelabs/risingwave/pull/19354)
-- `fc639feff477c8b97fee13afcf1de2687a4032b0` [perf(cache): reduce exclusive lock usage while dropping in-memory cache entry (#19436)](https://github.com/risingwavelabs/risingwave/pull/19436)
-- `4752db6d820a1af4af0a188f07933504dd9625a0` [fix: minor bug of `to_binary_with_type` of List (#19571)](https://github.com/risingwavelabs/risingwave/pull/19571)
-- `a3c2648f6fe751d2eb17be8a56e6b524c2310a6b` [chore(deps): Bump the all group across 1 directory with 52 updates (#19565)](https://github.com/risingwavelabs/risingwave/pull/19565)
-- `184900ad9f4adad8504dafbfa86dbfd943dcc678` [chore(sqlsmith): ignore sqrt with negative input error (#19566)](https://github.com/risingwavelabs/risingwave/pull/19566)
-- `519c95db4c18a3741e3f6ab4334af99c6e552531` [refactor(common): consolidate `StructType` constructors (Part 1/2: trivial ones) (#19569)](https://github.com/risingwavelabs/risingwave/pull/19569)
-- `96c5431ed3866483217d3ff54d027ee2ed18bd72` [refactor(meta): rename replace_table to replace_stream_job where appropriate (#19537)](https://github.com/risingwavelabs/risingwave/pull/19537)
-- `a58b142d23502e38a902256d3bc7800909e2bca8` [chore: bump iceberg version (java) (#19423)](https://github.com/risingwavelabs/risingwave/pull/19423)
-- `b34f4fdf4c711c614a5985ce3aa413a4bd65d2e8` [refactor(frontend): better cast error message for `UPDATE` setting to subquery (#19555)](https://github.com/risingwavelabs/risingwave/pull/19555)
-- `6cae4d3fcffb931aa799764494a3f8f96e66c9e8` [refactor(meta): provide better message for meta store migration failure (#19551)](https://github.com/risingwavelabs/risingwave/pull/19551)
-- `fcea1bd2200b1bc1de5157fc6b8465e50839a6cb` [chore(ci): increase test timeout for deterministic tests (#19532)](https://github.com/risingwavelabs/risingwave/pull/19532)
-
-## nightly-20241125
-- `9bc0b1fb017d0ee0d04249dc01a5f3c5c428c27a` [feat: introduce node label (#19153)](https://github.com/risingwavelabs/risingwave/pull/19153)
