@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251126` `76cc28d11e8e1ea38c28abaf49f22aa74450385b`
 - `20251125` `3bdf0437a4a8637bacab6184238c8ec5cc6c96eb`
 - `20251124` `5d7301e3a6c926e920bd9a1fe0bca9281133fa79`
 - `20251123` `ef90c15cc8459c8953142f61372763649c3028d8`
@@ -290,7 +291,6 @@
 - `20241201` `22b11ef413b357ab736a7986907de541c1cd710b`
 - `20241128` `4b1cb92e5ce37c72139f933b525ed9c41aec575f`
 - `20241127` `c45327bae82869699328a47e70919d38e783df2d`
-- `20241126` `5d6aaf47710b449cde54081e987ba8d457adb6c6`
 </details>
 
 # Commit history
@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9f03b3037f448e65f140410d77adef008c19945a` [feat: add last_success_time tracking to refresh jobs (#23834)](https://github.com/risingwavelabs/risingwave/pull/23834)
+
+## nightly-20251126
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3bdf0437a4a8637bacab6184238c8ec5cc6c96eb...76cc28d11e8e1ea38c28abaf49f22aa74450385b)
 - `76cc28d11e8e1ea38c28abaf49f22aa74450385b` [perf(expr): support writer-style #[function] for array type (#23767)](https://github.com/risingwavelabs/risingwave/pull/23767)
 - `d3d9418fe06d2abed1ec25b0d69f7307fb2a408f` [fix(sink): use downstream pk to compact when stream key is its subset (#23859)](https://github.com/risingwavelabs/risingwave/pull/23859)
 - `e4f55db15accbaffa9ef61e76d3a532b2f954942` [feat: implement watermark derivation for AsOf joins (#23803)](https://github.com/risingwavelabs/risingwave/pull/23803)
@@ -3124,18 +3128,4 @@
 - `9643ff9097fd7ea6a1d0ed47c1f0ce15d2f9e9f0` [fix(secret): the name of a secret in the catalog should not contains the schema name (#19584)](https://github.com/risingwavelabs/risingwave/pull/19584)
 
 ## nightly-20241127
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5d6aaf47710b449cde54081e987ba8d457adb6c6...c45327bae82869699328a47e70919d38e783df2d)
 - `c45327bae82869699328a47e70919d38e783df2d` [fix(meta): locate upstream source fragment correctly for SourceBackfill (#19564)](https://github.com/risingwavelabs/risingwave/pull/19564)
-- `200ed05c35ce57a178c30def0380eba7d4e5dc4a` [feat(meta): add a rpc to fetch meta store endpoint (#19594)](https://github.com/risingwavelabs/risingwave/pull/19594)
-- `ac5cb4036ed5d1d28483ab296a3a8811f6addc90` [feat(barrier): maintain per database scheduled command queue (#19592)](https://github.com/risingwavelabs/risingwave/pull/19592)
-- `c121fa7ff0d51b668616c19638db028b1f56e2fa` [refactor(metrics): adapt to the new foyer metrics framework (#19580)](https://github.com/risingwavelabs/risingwave/pull/19580)
-- `3faa0bf346665379bfa2e1295c71aee9f0e29c21` [refactor(common): consolidate `StructType` constructors (Part 2/2) (#19570)](https://github.com/risingwavelabs/risingwave/pull/19570)
-- `066978338838a0a1f98f93bc440d8ac30ab46126` [feat: add builtin function `timezone` (#19524)](https://github.com/risingwavelabs/risingwave/pull/19524)
-- `ba76431f6bee416ee05ed144df58eefe516c9792` [feat(batch): add `batch_expr_strict_mode` to ignore expression error in batch query (#19562)](https://github.com/risingwavelabs/risingwave/pull/19562)
-- `d17b4027ccbcf18304a9b9ee78fb819a514ca80a` [feat(connector): support more parquet data types (#19561)](https://github.com/risingwavelabs/risingwave/pull/19561)
-- `641cf65c4218d632cf17ac155eb91e65cfb9ff17` [fix: add RW_HEAP_PROFILING_DIR for frontend  (#19323)](https://github.com/risingwavelabs/risingwave/pull/19323)
-- `21ea2bc4d92714d867d44d5d7c6efb37a6e4c3d4` [feat(risedev): support configuring meta store by url from env var (#19560)](https://github.com/risingwavelabs/risingwave/pull/19560)
-- `507085657ca54769cb83aafe2e5d6278b9a985eb` [feat(secret): alter secret in catalog (#19495)](https://github.com/risingwavelabs/risingwave/pull/19495)
-
-## nightly-20241126
-- `5d6aaf47710b449cde54081e987ba8d457adb6c6` [feat(sink): use mysql dialect for jdbc url start with mariadb (#19523)](https://github.com/risingwavelabs/risingwave/pull/19523)
