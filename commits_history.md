@@ -299,6 +299,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `76cc28d11e8e1ea38c28abaf49f22aa74450385b` [perf(expr): support writer-style #[function] for array type (#23767)](https://github.com/risingwavelabs/risingwave/pull/23767)
+- `d3d9418fe06d2abed1ec25b0d69f7307fb2a408f` [fix(sink): use downstream pk to compact when stream key is its subset (#23859)](https://github.com/risingwavelabs/risingwave/pull/23859)
+- `e4f55db15accbaffa9ef61e76d3a532b2f954942` [feat: implement watermark derivation for AsOf joins (#23803)](https://github.com/risingwavelabs/risingwave/pull/23803)
+- `82cb86d16f2c191014a38e23bc8b2f0c7c80fa64` [fix: Supports config checks within compaction group scheduling. (#23841)](https://github.com/risingwavelabs/risingwave/pull/23841)
+- `d311a2f368fdadce85a7b121cde06e09ceb02e83` [feat(meta): include view definition in diagnostic report (#23853)](https://github.com/risingwavelabs/risingwave/pull/23853)
+- `157c17b805511af0adfd68927e735ec8341939aa` [fix(ci): update connector node integration test pipeline to java 17 & 21 (#23854)](https://github.com/risingwavelabs/risingwave/pull/23854)
+- `c00c6064403343c7e5b97d8afb55a4d69635ba5b` [fix(ci):  bump and pin versions of mdbook and related tools (#23840)](https://github.com/risingwavelabs/risingwave/pull/23840)
 
 ## nightly-20251125
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5d7301e3a6c926e920bd9a1fe0bca9281133fa79...3bdf0437a4a8637bacab6184238c8ec5cc6c96eb)
