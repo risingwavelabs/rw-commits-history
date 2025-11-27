@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251127` `9c3bdee684550f3408195d4f41c763e4b809815c`
 - `20251126` `76cc28d11e8e1ea38c28abaf49f22aa74450385b`
 - `20251125` `3bdf0437a4a8637bacab6184238c8ec5cc6c96eb`
 - `20251124` `5d7301e3a6c926e920bd9a1fe0bca9281133fa79`
@@ -290,7 +291,6 @@
 - `20241202` `396099459bb6e456539bb94def7a68aff856db15`
 - `20241201` `22b11ef413b357ab736a7986907de541c1cd710b`
 - `20241128` `4b1cb92e5ce37c72139f933b525ed9c41aec575f`
-- `20241127` `c45327bae82869699328a47e70919d38e783df2d`
 </details>
 
 # Commit history
@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ae96269560dd420160a4b14d9fe16a305eee31a1` [feat(optimizer): improve index selection for topn (#23894)](https://github.com/risingwavelabs/risingwave/pull/23894)
+- `43774755666eded94b72588938a310c7a4f590c3` [fix(optimizer): use shard_by_exact_key instead of shard_by_key for locality backfill (#23888)](https://github.com/risingwavelabs/risingwave/pull/23888)
+
+## nightly-20251127
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/76cc28d11e8e1ea38c28abaf49f22aa74450385b...9c3bdee684550f3408195d4f41c763e4b809815c)
 - `9c3bdee684550f3408195d4f41c763e4b809815c` [refactor(meta): introduce strong typed subscriber id (#23883)](https://github.com/risingwavelabs/risingwave/pull/23883)
 - `d0a0b8d89788eede552606b4b83ad6ab7f068b34` [feat(frontend): add handler for `ALTER .. [SET | RESET] CONFIG` (#23748)](https://github.com/risingwavelabs/risingwave/pull/23748)
 - `e9c6589b8f84e777409a44c9325dcea9fcdfb79a` [fix(iceberg): add snapshot id to iceberg scan (#23882)](https://github.com/risingwavelabs/risingwave/pull/23882)
@@ -3122,16 +3127,4 @@
 - `5bc4d0c844a7d4a0e6b00159ce8fd39339f0eaad` [feat(frontend): support explain with graphviz visualization in dashboard (#19558)](https://github.com/risingwavelabs/risingwave/pull/19558)
 
 ## nightly-20241128
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c45327bae82869699328a47e70919d38e783df2d...4b1cb92e5ce37c72139f933b525ed9c41aec575f)
 - `4b1cb92e5ce37c72139f933b525ed9c41aec575f` [refactor(storage): use Arc<SStableInfo> in HummockVersion (#19535)](https://github.com/risingwavelabs/risingwave/pull/19535)
-- `c00fe35fbf1515d243c5d7c233c68b4b1638b7bd` [fix(source): resolve avro `Ref` during `avro_schema_to_column_descs` without hack (#19601)](https://github.com/risingwavelabs/risingwave/pull/19601)
-- `b8c70c156bb3f224293edd273a03849bb6468834` [feat(frontend): support dot output for distsql (#19552)](https://github.com/risingwavelabs/risingwave/pull/19552)
-- `521f67493e192c6c11e6eb1d241ac7b3b140a862` [refactor(ci): introduce meta backend agnostic e2e tests (#19568)](https://github.com/risingwavelabs/risingwave/pull/19568)
-- `32c44babc511f3dd3c3678c9cbe511d8108dceba` [feat(source): support webhook source table (#19272)](https://github.com/risingwavelabs/risingwave/pull/19272)
-- `15ba09dcb6808fd75a025a05603efc265c86b7a6` [feat(connector): support postgres_sink in rust (#19328)](https://github.com/risingwavelabs/risingwave/pull/19328)
-- `42f1e1b1698c2f2a8bf617c824325293a6bb1f41` [test: add tpch/nexmark tests for shared kafka source (#19589)](https://github.com/risingwavelabs/risingwave/pull/19589)
-- `ba225b21dbdf6f24d3f3086c03a18859b9949d73` [fix(planner): correctly handle hidden columns for SourceBackfill (#19578)](https://github.com/risingwavelabs/risingwave/pull/19578)
-- `9643ff9097fd7ea6a1d0ed47c1f0ce15d2f9e9f0` [fix(secret): the name of a secret in the catalog should not contains the schema name (#19584)](https://github.com/risingwavelabs/risingwave/pull/19584)
-
-## nightly-20241127
-- `c45327bae82869699328a47e70919d38e783df2d` [fix(meta): locate upstream source fragment correctly for SourceBackfill (#19564)](https://github.com/risingwavelabs/risingwave/pull/19564)
