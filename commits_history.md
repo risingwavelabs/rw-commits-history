@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9c3bdee684550f3408195d4f41c763e4b809815c` [refactor(meta): introduce strong typed subscriber id (#23883)](https://github.com/risingwavelabs/risingwave/pull/23883)
+- `d0a0b8d89788eede552606b4b83ad6ab7f068b34` [feat(frontend): add handler for `ALTER .. [SET | RESET] CONFIG` (#23748)](https://github.com/risingwavelabs/risingwave/pull/23748)
+- `e9c6589b8f84e777409a44c9325dcea9fcdfb79a` [fix(iceberg): add snapshot id to iceberg scan (#23882)](https://github.com/risingwavelabs/risingwave/pull/23882)
+- `2229d8342d15559de5a0712152cbb55b9e976168` [fix(test): delay mongodb-cdc test insertion (#23866)](https://github.com/risingwavelabs/risingwave/pull/23866)
+- `4992aa5b3ac717f7470542571df1400d25872ef2` [fix(optimizer): fix gap fill column pruning (#23867)](https://github.com/risingwavelabs/risingwave/pull/23867)
+- `f228232d8e09eb43dec657aa9626fe47221bd752` [fix(streaming): deduplicate locality backfill ordering edge casued by share sub-plan (#23869)](https://github.com/risingwavelabs/risingwave/pull/23869)
 - `9f03b3037f448e65f140410d77adef008c19945a` [feat: add last_success_time tracking to refresh jobs (#23834)](https://github.com/risingwavelabs/risingwave/pull/23834)
 
 ## nightly-20251126
