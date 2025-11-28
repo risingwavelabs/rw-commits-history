@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251128` `13facad1a1be0628cb931332f2199141b4e6e6ab`
 - `20251127` `9c3bdee684550f3408195d4f41c763e4b809815c`
 - `20251126` `76cc28d11e8e1ea38c28abaf49f22aa74450385b`
 - `20251125` `3bdf0437a4a8637bacab6184238c8ec5cc6c96eb`
@@ -290,7 +291,6 @@
 - `20241203` `e3337876903cbfa53231407f39a58f1ec53b03d5`
 - `20241202` `396099459bb6e456539bb94def7a68aff856db15`
 - `20241201` `22b11ef413b357ab736a7986907de541c1cd710b`
-- `20241128` `4b1cb92e5ce37c72139f933b525ed9c41aec575f`
 </details>
 
 # Commit history
@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dfc1b47909c32b2dafb1c879a61f9f8dd07d405a` [refactor: improve stream parallelism resolution and error handling (#23921)](https://github.com/risingwavelabs/risingwave/pull/23921)
+- `455ad1231e04b6ec53508972e1704aa88eb44aca` [fix(optimizer): fix agg to dedup optimization (#23922)](https://github.com/risingwavelabs/risingwave/pull/23922)
+
+## nightly-20251128
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9c3bdee684550f3408195d4f41c763e4b809815c...13facad1a1be0628cb931332f2199141b4e6e6ab)
 - `13facad1a1be0628cb931332f2199141b4e6e6ab` [fix: use `on_conflict_do_nothing` for mysql backend (#23915)](https://github.com/risingwavelabs/risingwave/pull/23915)
 - `db58850d5f92437e127d0c7e8980fd0b331ab503` [test(backfill): add more tests for locality backfill (#23906)](https://github.com/risingwavelabs/risingwave/pull/23906)
 - `a37c95922c33c7c3d9dce4a6bc77648cfbf4120b` [fix(ci): fix several failures in main-cron (#23900)](https://github.com/risingwavelabs/risingwave/pull/23900)
@@ -3124,17 +3129,4 @@
 - `a6cd45fbcf9ced630bee4c7a3ba959ed0382fdda` [doc(streaming): Add docs for degree table in hash join (#19628)](https://github.com/risingwavelabs/risingwave/pull/19628)
 
 ## nightly-20241201
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4b1cb92e5ce37c72139f933b525ed9c41aec575f...22b11ef413b357ab736a7986907de541c1cd710b)
 - `22b11ef413b357ab736a7986907de541c1cd710b` [fix(meta): limit max orm param (#19617)](https://github.com/risingwavelabs/risingwave/pull/19617)
-- `d6cf971164d27296e2aec08eedee3fcdc023a520` [refactor: further clarify types of tables (#19539)](https://github.com/risingwavelabs/risingwave/pull/19539)
-- `3b3a1c5f1dd016485bd2ecc1cc9b0669ca46b146` [refactor(barrier): explicitly maintain database barrier state separately in local barrier manager (#19556)](https://github.com/risingwavelabs/risingwave/pull/19556)
-- `ea2f775f5036b8bbe221d51953b57307465435b0` [chore: update docker image to v2.1.0-rc.2 (#19618)](https://github.com/risingwavelabs/risingwave/pull/19618)
-- `4fab947575fab3a37f4bd6363bf0f01bfa648646` [chore(deps): Bump quick-xml from 0.35.0 to 0.36.1 (#19420)](https://github.com/risingwavelabs/risingwave/pull/19420)
-- `fbfa35a0aeb1668955f8b7019e0481f35ce0908d` [fix(optimizer): LogicalDedup distinct columns were not mapped when pruning columns (#19611)](https://github.com/risingwavelabs/risingwave/pull/19611)
-- `2ae70563bd23667d72eb0f15aacd8d151f8b42a0` [fix: consider schema when commenting on a column or table (#19612)](https://github.com/risingwavelabs/risingwave/pull/19612)
-- `275f10d78eb53f735dc7e732f9c5e27f4a6af513` [fix: bypass cluster limits by default in debug build (#19610)](https://github.com/risingwavelabs/risingwave/pull/19610)
-- `01b703dc4b996799d1565f408a57ddea2159c4d5` [feat: Connection for Kafka source & sink (#19270)](https://github.com/risingwavelabs/risingwave/pull/19270)
-- `5bc4d0c844a7d4a0e6b00159ce8fd39339f0eaad` [feat(frontend): support explain with graphviz visualization in dashboard (#19558)](https://github.com/risingwavelabs/risingwave/pull/19558)
-
-## nightly-20241128
-- `4b1cb92e5ce37c72139f933b525ed9c41aec575f` [refactor(storage): use Arc<SStableInfo> in HummockVersion (#19535)](https://github.com/risingwavelabs/risingwave/pull/19535)
