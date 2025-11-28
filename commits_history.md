@@ -299,6 +299,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `13facad1a1be0628cb931332f2199141b4e6e6ab` [fix: use `on_conflict_do_nothing` for mysql backend (#23915)](https://github.com/risingwavelabs/risingwave/pull/23915)
+- `db58850d5f92437e127d0c7e8980fd0b331ab503` [test(backfill): add more tests for locality backfill (#23906)](https://github.com/risingwavelabs/risingwave/pull/23906)
+- `a37c95922c33c7c3d9dce4a6bc77648cfbf4120b` [fix(ci): fix several failures in main-cron (#23900)](https://github.com/risingwavelabs/risingwave/pull/23900)
+- `0d2508ed05f875d048a2a4d7d99badb4af80a710` [fix(test): Use tokio time pausing in ut to avoid unstable clocks for periodic barriers (#23905)](https://github.com/risingwavelabs/risingwave/pull/23905)
+- `9f6e1a8de7df2bd5c5ad79df195f184dde098ec3` [fix: invalid schema type for LogicalVectorSearchLookupJoin (#23893)](https://github.com/risingwavelabs/risingwave/pull/23893)
+- `48bc5921c26267e1c412f31d3c1bc285b0ba67bd` [feat(cdc): allow user alter `debezium.max.queue.size` to avoid JVM OOM (#23886)](https://github.com/risingwavelabs/risingwave/pull/23886)
+- `501886e3346c42ea2f497a7a4c825195b9cbe1e8` [chore: replace sleep + query pattern to `retry X backoff 1s` (#23855)](https://github.com/risingwavelabs/risingwave/pull/23855)
+- `bc5da41446ee86ce24826b70d22200a8b37887fa` [chore: upgrade parking_lot to 0.12.5 (#23902)](https://github.com/risingwavelabs/risingwave/pull/23902)
+- `526a9a73794f3c6166687b824d9753378a7a3817` [refactor(config): remove unnecessary prefix in configs (#23889)](https://github.com/risingwavelabs/risingwave/pull/23889)
+- `fd66884b3aa74b862d1fd2612582a7e356d11aea` [refactor(foyer): upgrade foyer to v0.21.0-dev (#23750)](https://github.com/risingwavelabs/risingwave/pull/23750)
 - `ae96269560dd420160a4b14d9fe16a305eee31a1` [feat(optimizer): improve index selection for topn (#23894)](https://github.com/risingwavelabs/risingwave/pull/23894)
 - `43774755666eded94b72588938a310c7a4f590c3` [fix(optimizer): use shard_by_exact_key instead of shard_by_key for locality backfill (#23888)](https://github.com/risingwavelabs/risingwave/pull/23888)
 
