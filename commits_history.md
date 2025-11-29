@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251129` `dfc1b47909c32b2dafb1c879a61f9f8dd07d405a`
 - `20251128` `13facad1a1be0628cb931332f2199141b4e6e6ab`
 - `20251127` `9c3bdee684550f3408195d4f41c763e4b809815c`
 - `20251126` `76cc28d11e8e1ea38c28abaf49f22aa74450385b`
@@ -299,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251129
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/13facad1a1be0628cb931332f2199141b4e6e6ab...dfc1b47909c32b2dafb1c879a61f9f8dd07d405a)
 - `dfc1b47909c32b2dafb1c879a61f9f8dd07d405a` [refactor: improve stream parallelism resolution and error handling (#23921)](https://github.com/risingwavelabs/risingwave/pull/23921)
 - `455ad1231e04b6ec53508972e1704aa88eb44aca` [fix(optimizer): fix agg to dedup optimization (#23922)](https://github.com/risingwavelabs/risingwave/pull/23922)
 
