@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251201` `34115470d66c59ff0c4b4e2c3c5162dd4f7edfcb`
 - `20251130` `dfc1b47909c32b2dafb1c879a61f9f8dd07d405a`
 - `20251128` `13facad1a1be0628cb931332f2199141b4e6e6ab`
 - `20251127` `9c3bdee684550f3408195d4f41c763e4b809815c`
@@ -291,7 +292,6 @@
 - `20241204` `a38c4d111ce0514356c89043f1e373e707c73ad8`
 - `20241203` `e3337876903cbfa53231407f39a58f1ec53b03d5`
 - `20241202` `396099459bb6e456539bb94def7a68aff856db15`
-- `20241201` `22b11ef413b357ab736a7986907de541c1cd710b`
 </details>
 
 # Commit history
@@ -300,6 +300,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d3b765b3f134d6a30a6e1ecda044b0ff38bb36ac` [feat(frontend): add system table `rw_streaming_job_config` (#23914)](https://github.com/risingwavelabs/risingwave/pull/23914)
+
+## nightly-20251201
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfc1b47909c32b2dafb1c879a61f9f8dd07d405a...34115470d66c59ff0c4b4e2c3c5162dd4f7edfcb)
 - `34115470d66c59ff0c4b4e2c3c5162dd4f7edfcb` [feat(sink): exactly once sink on coordination process (#23657)](https://github.com/risingwavelabs/risingwave/pull/23657)
 - `9b9a9b0190053fac9111824b2416ff181affd184` [fix(mongo-cdc): add connection check for mongo cdc (#23850)](https://github.com/risingwavelabs/risingwave/pull/23850)
 - `c2892b92d2fff8fd5e29f6ae2a68ad5ce6e08160` [feat(meta): add service impl for `ALTER .. SET CONFIG` (#23864)](https://github.com/risingwavelabs/risingwave/pull/23864)
@@ -3127,13 +3131,4 @@
 - `845ed68183de5cb63525417063eb4b30064b9707` [feat: add rw_internal_table_info to identity which streaming job the internal table belongs (#19642)](https://github.com/risingwavelabs/risingwave/pull/19642)
 
 ## nightly-20241202
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/22b11ef413b357ab736a7986907de541c1cd710b...396099459bb6e456539bb94def7a68aff856db15)
 - `396099459bb6e456539bb94def7a68aff856db15` [feat(meta): support reload runtime info of single database (#19597)](https://github.com/risingwavelabs/risingwave/pull/19597)
-- `e2a140e7d1a7d5035ca0d6af19c72d427ade6c3d` [refactor(meta): extract common method to inject initial barrier (#19622)](https://github.com/risingwavelabs/risingwave/pull/19622)
-- `303ab11cff3f0b0559fa5fe48a2abd788b601935` [fix(hummock): fix hummock_trace panic with log store  (#19606)](https://github.com/risingwavelabs/risingwave/pull/19606)
-- `4dddbac1fd76ec5fc6eb709daf23083a778d7f53` [refactor(iceberg): support eq delete merge on read with hash join (#19126)](https://github.com/risingwavelabs/risingwave/pull/19126)
-- `32e98c00f967d578e94958c4de5380af0782edca` [feat(ctl): migrate legacy object with new prefix strategy (#19593)](https://github.com/risingwavelabs/risingwave/pull/19593)
-- `a6cd45fbcf9ced630bee4c7a3ba959ed0382fdda` [doc(streaming): Add docs for degree table in hash join (#19628)](https://github.com/risingwavelabs/risingwave/pull/19628)
-
-## nightly-20241201
-- `22b11ef413b357ab736a7986907de541c1cd710b` [fix(meta): limit max orm param (#19617)](https://github.com/risingwavelabs/risingwave/pull/19617)
