@@ -300,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `34115470d66c59ff0c4b4e2c3c5162dd4f7edfcb` [feat(sink): exactly once sink on coordination process (#23657)](https://github.com/risingwavelabs/risingwave/pull/23657)
+- `9b9a9b0190053fac9111824b2416ff181affd184` [fix(mongo-cdc): add connection check for mongo cdc (#23850)](https://github.com/risingwavelabs/risingwave/pull/23850)
+- `c2892b92d2fff8fd5e29f6ae2a68ad5ce6e08160` [feat(meta): add service impl for `ALTER .. SET CONFIG` (#23864)](https://github.com/risingwavelabs/risingwave/pull/23864)
 
 ## nightly-20251130
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/13facad1a1be0628cb931332f2199141b4e6e6ab...dfc1b47909c32b2dafb1c879a61f9f8dd07d405a)
