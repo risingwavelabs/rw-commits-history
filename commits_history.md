@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251202` `942e8d2b9686915394e5f36e8a643ab968cfcb44`
 - `20251201` `34115470d66c59ff0c4b4e2c3c5162dd4f7edfcb`
 - `20251130` `dfc1b47909c32b2dafb1c879a61f9f8dd07d405a`
 - `20251128` `13facad1a1be0628cb931332f2199141b4e6e6ab`
@@ -291,7 +292,6 @@
 - `20241205` `59fa5f882377629798ade81fab64ad54eb82a086`
 - `20241204` `a38c4d111ce0514356c89043f1e373e707c73ad8`
 - `20241203` `e3337876903cbfa53231407f39a58f1ec53b03d5`
-- `20241202` `396099459bb6e456539bb94def7a68aff856db15`
 </details>
 
 # Commit history
@@ -300,6 +300,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bebd4e311a021546c27b267ba1bf221e772d4fef` [feat: persist compactor iceberg flag across meta and diagnostics (#23884)](https://github.com/risingwavelabs/risingwave/pull/23884)
+
+## nightly-20251202
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/34115470d66c59ff0c4b4e2c3c5162dd4f7edfcb...942e8d2b9686915394e5f36e8a643ab968cfcb44)
 - `942e8d2b9686915394e5f36e8a643ab968cfcb44` [fix(sink): fix redshift timestamptz error  (#23812)](https://github.com/risingwavelabs/risingwave/pull/23812)
 - `e378e702ac57840c0a1d6108752107238bdc7649` [feat: migrate configs for sync log store and over-window executor from session config to per-job config override (#23792)](https://github.com/risingwavelabs/risingwave/pull/23792)
 - `d485cb8e2fb8c66d2dea920fe3f2f10f0d5f84f5` [feat: use datafusion engine for Iceberg batch query (#23860)](https://github.com/risingwavelabs/risingwave/pull/23860)
@@ -3116,22 +3120,4 @@
 - `404998e422ff7e4727042306dceebf862d8dc11e` [feat(stream): create cdc table reader and source data stream with retry (#19467)](https://github.com/risingwavelabs/risingwave/pull/19467)
 
 ## nightly-20241203
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/396099459bb6e456539bb94def7a68aff856db15...e3337876903cbfa53231407f39a58f1ec53b03d5)
 - `e3337876903cbfa53231407f39a58f1ec53b03d5` [feat(storage): Provide table id filter for sstable_iterator (#19582)](https://github.com/risingwavelabs/risingwave/pull/19582)
-- `c2ee827eeed2912a1c94ceca657d3fa36da43851` [refactor(meta): generalize replace table to replace job (#18935)](https://github.com/risingwavelabs/risingwave/pull/18935)
-- `70d0275561601f5ad020e2e4e373b8675c923d06` [feat: remove flink mock sink from Java connector codebase (#19653)](https://github.com/risingwavelabs/risingwave/pull/19653)
-- `d60649262c4fa4ce841124e8ee75b24175923b5e` [fix(storage): fix the atomicity problem after split/merge operation (#19625)](https://github.com/risingwavelabs/risingwave/pull/19625)
-- `78e39a8b517561a9054a5d422b74a46df5c85ca4` [chore(dep): switch foyer to v0.13.0 release version (#19648)](https://github.com/risingwavelabs/risingwave/pull/19648)
-- `e9e3b24442cc55755c826ec9264fff909e553ef7` [chore: set recursion_limit for sink bench crate (#19651)](https://github.com/risingwavelabs/risingwave/pull/19651)
-- `a41866fcd3b6e722e19355c60a839b76319f6301` [feat(metrics): add internal latency of actors, MVs and sinks (#19639)](https://github.com/risingwavelabs/risingwave/pull/19639)
-- `c3750ebbbe80cd979ff236d621acb48e3c8f7e16` [chore(deps): Bump pprof from 0.13.0 to 0.14.0 (#19340)](https://github.com/risingwavelabs/risingwave/pull/19340)
-- `84566dc586c8c2e4d03971180a77427ab0b512c7` [feat: make Nats jetstream Source work in parallel (#19529)](https://github.com/risingwavelabs/risingwave/pull/19529)
-- `563c70fda37b83d44415dc448416ecaaca85058f` [refactor(meta): unify DdlType and StreamingJobType (#19630)](https://github.com/risingwavelabs/risingwave/pull/19630)
-- `2c0d286ddb2ef25e722dc330550eec938676d2fd` [fix: bind under schema path for function, connection, subscription to avoid misjudgment of not found error (#19640)](https://github.com/risingwavelabs/risingwave/pull/19640)
-- `e9c15eb55cc246097eff55b7624124d45167343b` [chore(deps): Bump bytes from 1.7.2 to 1.9.0 (#19626)](https://github.com/risingwavelabs/risingwave/pull/19626)
-- `69158c47d16d88569a3ef3adf061cfa2f0721211` [feat: telemetry for connection create and ref (#19638)](https://github.com/risingwavelabs/risingwave/pull/19638)
-- `6f2d0c33848871a5f24b2537e0c713fc66afcf96` [feat(frontend): support alter source pause/resume (#19636)](https://github.com/risingwavelabs/risingwave/pull/19636)
-- `845ed68183de5cb63525417063eb4b30064b9707` [feat: add rw_internal_table_info to identity which streaming job the internal table belongs (#19642)](https://github.com/risingwavelabs/risingwave/pull/19642)
-
-## nightly-20241202
-- `396099459bb6e456539bb94def7a68aff856db15` [feat(meta): support reload runtime info of single database (#19597)](https://github.com/risingwavelabs/risingwave/pull/19597)
