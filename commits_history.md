@@ -300,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `942e8d2b9686915394e5f36e8a643ab968cfcb44` [fix(sink): fix redshift timestamptz error  (#23812)](https://github.com/risingwavelabs/risingwave/pull/23812)
+- `e378e702ac57840c0a1d6108752107238bdc7649` [feat: migrate configs for sync log store and over-window executor from session config to per-job config override (#23792)](https://github.com/risingwavelabs/risingwave/pull/23792)
+- `d485cb8e2fb8c66d2dea920fe3f2f10f0d5f84f5` [feat: use datafusion engine for Iceberg batch query (#23860)](https://github.com/risingwavelabs/risingwave/pull/23860)
 - `d3b765b3f134d6a30a6e1ecda044b0ff38bb36ac` [feat(frontend): add system table `rw_streaming_job_config` (#23914)](https://github.com/risingwavelabs/risingwave/pull/23914)
 
 ## nightly-20251201
