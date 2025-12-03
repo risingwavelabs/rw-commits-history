@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251203` `a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0`
 - `20251202` `942e8d2b9686915394e5f36e8a643ab968cfcb44`
 - `20251201` `34115470d66c59ff0c4b4e2c3c5162dd4f7edfcb`
 - `20251130` `dfc1b47909c32b2dafb1c879a61f9f8dd07d405a`
@@ -291,7 +292,6 @@
 - `20241206` `733342764be327921741748db443ff23286cab63`
 - `20241205` `59fa5f882377629798ade81fab64ad54eb82a086`
 - `20241204` `a38c4d111ce0514356c89043f1e373e707c73ad8`
-- `20241203` `e3337876903cbfa53231407f39a58f1ec53b03d5`
 </details>
 
 # Commit history
@@ -300,6 +300,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9b3ccc30a871d32c2bb22a1f13fa313da70f07e0` [chore(streaming): add explicit target for expression error log (`stream_expr_error`) (#23964)](https://github.com/risingwavelabs/risingwave/pull/23964)
+
+## nightly-20251203
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/942e8d2b9686915394e5f36e8a643ab968cfcb44...a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0)
 - `a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0` [feat: support setting pause_on_next_bootstrap_offline (#23910)](https://github.com/risingwavelabs/risingwave/pull/23910)
 - `f4ca6f3d8e581a963284aab04d455c072b4ecb5b` [refactor(streaming): move `MaterializeCache` to a separate module (#23961)](https://github.com/risingwavelabs/risingwave/pull/23961)
 - `99fa1cf46709aa958422fef510bdf4d81536e6de` [feat(stream,dashboard): aggregate tokio actor metrics by fragment (#23747)](https://github.com/risingwavelabs/risingwave/pull/23747)
@@ -3119,12 +3123,4 @@
 - `623a796005cc96437cd3b7d3a6d6f4bef8891ab0` [chore(deps): Bump linkme from 0.3.22 to 0.3.24 (#19682)](https://github.com/risingwavelabs/risingwave/pull/19682)
 
 ## nightly-20241204
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e3337876903cbfa53231407f39a58f1ec53b03d5...a38c4d111ce0514356c89043f1e373e707c73ad8)
 - `a38c4d111ce0514356c89043f1e373e707c73ad8` [fix(iceberg): bypass iceberg partition table optimization (#19655)](https://github.com/risingwavelabs/risingwave/pull/19655)
-- `206b10bf70c7ab918817821643da5d9d23beece5` [fix(snapshot-backfill): do mapping_chunk with output indices to all chunks (#19665)](https://github.com/risingwavelabs/risingwave/pull/19665)
-- `0b7c43cfde74429c62305144259abe8efe5c35fe` [chore(deps): Bump governor from 0.6.0 to 0.6.3 (#19662)](https://github.com/risingwavelabs/risingwave/pull/19662)
-- `ccd46203faa8b102f65120a99a695c5958560f40` [refactor(meta): insert time travel metadata in batch (#19657)](https://github.com/risingwavelabs/risingwave/pull/19657)
-- `404998e422ff7e4727042306dceebf862d8dc11e` [feat(stream): create cdc table reader and source data stream with retry (#19467)](https://github.com/risingwavelabs/risingwave/pull/19467)
-
-## nightly-20241203
-- `e3337876903cbfa53231407f39a58f1ec53b03d5` [feat(storage): Provide table id filter for sstable_iterator (#19582)](https://github.com/risingwavelabs/risingwave/pull/19582)
