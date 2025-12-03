@@ -300,6 +300,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0` [feat: support setting pause_on_next_bootstrap_offline (#23910)](https://github.com/risingwavelabs/risingwave/pull/23910)
+- `f4ca6f3d8e581a963284aab04d455c072b4ecb5b` [refactor(streaming): move `MaterializeCache` to a separate module (#23961)](https://github.com/risingwavelabs/risingwave/pull/23961)
+- `99fa1cf46709aa958422fef510bdf4d81536e6de` [feat(stream,dashboard): aggregate tokio actor metrics by fragment (#23747)](https://github.com/risingwavelabs/risingwave/pull/23747)
+- `43d97c0dade586bf63de426639b966ee8f0fd9d5` [refactor(hummock): refine `fetch_block` impl, restore old style (#23957)](https://github.com/risingwavelabs/risingwave/pull/23957)
+- `1fd4152a2214151495b85b8e56aa826eef628e7b` [feat: Expose license status, limits, and features in diagnose output (#23885)](https://github.com/risingwavelabs/risingwave/pull/23885)
+- `5c8f40bca39b7eebdb7d563614ad8f917f4327ed` [chore(deps): Bump uuid from 1.18.1 to 1.19.0 (#23951)](https://github.com/risingwavelabs/risingwave/pull/23951)
+- `a050b25bd61a7190a2433d6f7d6c26ddfc3d6d79` [chore: allow altering owner of iceberg table (#23944)](https://github.com/risingwavelabs/risingwave/pull/23944)
 - `bebd4e311a021546c27b267ba1bf221e772d4fef` [feat: persist compactor iceberg flag across meta and diagnostics (#23884)](https://github.com/risingwavelabs/risingwave/pull/23884)
 
 ## nightly-20251202
