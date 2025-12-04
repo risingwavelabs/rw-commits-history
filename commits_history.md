@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251204` `d39b05b9058f450c5daa0919625c968b89ed0ad7`
 - `20251203` `a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0`
 - `20251202` `942e8d2b9686915394e5f36e8a643ab968cfcb44`
 - `20251201` `34115470d66c59ff0c4b4e2c3c5162dd4f7edfcb`
@@ -291,7 +292,6 @@
 - `20241208` `fcac3111a1524e2c2f5eca2045260a7baa20b8e4`
 - `20241206` `733342764be327921741748db443ff23286cab63`
 - `20241205` `59fa5f882377629798ade81fab64ad54eb82a086`
-- `20241204` `a38c4d111ce0514356c89043f1e373e707c73ad8`
 </details>
 
 # Commit history
@@ -300,6 +300,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `92c850a9f071b282571ed3021a063a4ee06b4cbd` [fix: fix auto cdc schema change with schema binding and memory leak in fe (#23993)](https://github.com/risingwavelabs/risingwave/pull/23993)
+- `b12146dd84c43eb1317a1a3b360b4d8c32214449` [chore: bump `thiserror-ext` to avoid dep on `thiserror` & bump `thiserror` to `2.0.17` (#23999)](https://github.com/risingwavelabs/risingwave/pull/23999)
+
+## nightly-20251204
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0...d39b05b9058f450c5daa0919625c968b89ed0ad7)
 - `d39b05b9058f450c5daa0919625c968b89ed0ad7` [perf(streaming): remove `passed_actors` in barrier to reduce encoded size (#23987)](https://github.com/risingwavelabs/risingwave/pull/23987)
 - `307a83e016b15a7b50cc94a52da497f1ca6e67a4` [feat(tokio): bump tokio to 1.47 (#23985)](https://github.com/risingwavelabs/risingwave/pull/23985)
 - `fd89984c6879d93b9407cbf001de55e53af37e7f` [refactor(file_sink): do not use executor id for file sink (#23981)](https://github.com/risingwavelabs/risingwave/pull/23981)
@@ -3122,13 +3127,4 @@
 - `faf660dde20582bd17e0c1ceaa5a7e24904ce108` [feat(frontend): Add struct scan and simply optimise struct filter. (#19425)](https://github.com/risingwavelabs/risingwave/pull/19425)
 
 ## nightly-20241205
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a38c4d111ce0514356c89043f1e373e707c73ad8...59fa5f882377629798ade81fab64ad54eb82a086)
 - `59fa5f882377629798ade81fab64ad54eb82a086` [feat(iceberg): support iceberg engine table (in local env) (#19577)](https://github.com/risingwavelabs/risingwave/pull/19577)
-- `45d266424ef4040795d97c6f744e021b2a6a2b8a` [feat: connection for schema registry (#19685)](https://github.com/risingwavelabs/risingwave/pull/19685)
-- `5ba9a73192262d2d417b1ecc86e33297fc6b9289` [fix(storage): fix backward compact (#19669)](https://github.com/risingwavelabs/risingwave/pull/19669)
-- `80f39766c1b8825846e008aef39f279f93d83052` [refactor(file source): emit source messages line by line directly from opendal reader (#19654)](https://github.com/risingwavelabs/risingwave/pull/19654)
-- `f0a91dfa5bef8474aa6f93ed4b71ef6b37d39327` [feat: add support for dml_rate_limit (#19679)](https://github.com/risingwavelabs/risingwave/pull/19679)
-- `623a796005cc96437cd3b7d3a6d6f4bef8891ab0` [chore(deps): Bump linkme from 0.3.22 to 0.3.24 (#19682)](https://github.com/risingwavelabs/risingwave/pull/19682)
-
-## nightly-20241204
-- `a38c4d111ce0514356c89043f1e373e707c73ad8` [fix(iceberg): bypass iceberg partition table optimization (#19655)](https://github.com/risingwavelabs/risingwave/pull/19655)
