@@ -300,6 +300,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d39b05b9058f450c5daa0919625c968b89ed0ad7` [perf(streaming): remove `passed_actors` in barrier to reduce encoded size (#23987)](https://github.com/risingwavelabs/risingwave/pull/23987)
+- `307a83e016b15a7b50cc94a52da497f1ca6e67a4` [feat(tokio): bump tokio to 1.47 (#23985)](https://github.com/risingwavelabs/risingwave/pull/23985)
+- `fd89984c6879d93b9407cbf001de55e53af37e7f` [refactor(file_sink): do not use executor id for file sink (#23981)](https://github.com/risingwavelabs/risingwave/pull/23981)
+- `91e2f5f4421706a5a95c730f441c3f73010a840f` [feat: support `created_at` and `initialized_at` for rw_views (#23774)](https://github.com/risingwavelabs/risingwave/pull/23774)
+- `150fafd663482c02cd44abafab2c890fa1a37f1c` [fix(doc): missing GNU Parallel installation (#23851)](https://github.com/risingwavelabs/risingwave/pull/23851)
+- `7692aa89c56c0236613b4d57e3d3da28170837a9` [fix(metric): fix error metrics in dashboard (#23974)](https://github.com/risingwavelabs/risingwave/pull/23974)
+- `d772e8a5cf81546cb4cc29b045ad15c743d507fa` [feat(meta): add streaming job table in diagnose output (#23966)](https://github.com/risingwavelabs/risingwave/pull/23966)
+- `ca66340adf0e5cf47dea42afd5498453f4ddf027` [fix(cdc): fix snapshot schema (#23970)](https://github.com/risingwavelabs/risingwave/pull/23970)
 - `9b3ccc30a871d32c2bb22a1f13fa313da70f07e0` [chore(streaming): add explicit target for expression error log (`stream_expr_error`) (#23964)](https://github.com/risingwavelabs/risingwave/pull/23964)
 
 ## nightly-20251203
