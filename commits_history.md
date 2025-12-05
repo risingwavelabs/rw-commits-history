@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251205` `855104222f00800bd8470b5ebb87109c8e3e1de2`
 - `20251204` `d39b05b9058f450c5daa0919625c968b89ed0ad7`
 - `20251203` `a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0`
 - `20251202` `942e8d2b9686915394e5f36e8a643ab968cfcb44`
@@ -291,7 +292,6 @@
 - `20241209` `4da6bdacf3876713f806569922a1443e69b3b6df`
 - `20241208` `fcac3111a1524e2c2f5eca2045260a7baa20b8e4`
 - `20241206` `733342764be327921741748db443ff23286cab63`
-- `20241205` `59fa5f882377629798ade81fab64ad54eb82a086`
 </details>
 
 # Commit history
@@ -300,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251205
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d39b05b9058f450c5daa0919625c968b89ed0ad7...855104222f00800bd8470b5ebb87109c8e3e1de2)
 - `855104222f00800bd8470b5ebb87109c8e3e1de2` [fix: notify local subscribers when streaming job backfill finishes (#24021)](https://github.com/risingwavelabs/risingwave/pull/24021)
 - `56848e4098411486e0f7bbc0ce8ee0131555d9c1` [refactor(sink): Delay the initialization of IcebergSinkWriter after LogReader alignment (#23949)](https://github.com/risingwavelabs/risingwave/pull/23949)
 - `bf7cfd46eeff753c391289c3293dfd6d3991365f` [test(sink): Enable integration test for exactly once sink (#23833)](https://github.com/risingwavelabs/risingwave/pull/23833)
@@ -3130,9 +3133,4 @@
 - `fcac3111a1524e2c2f5eca2045260a7baa20b8e4` [refactor(cdc source): merge cdc heartbeat chunk builder & data chunk builder (#19671)](https://github.com/risingwavelabs/risingwave/pull/19671)
 
 ## nightly-20241206
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/59fa5f882377629798ade81fab64ad54eb82a086...733342764be327921741748db443ff23286cab63)
 - `733342764be327921741748db443ff23286cab63` [refactor(connector): re-arrange the `connector::parser` module for better readibility (#19697)](https://github.com/risingwavelabs/risingwave/pull/19697)
-- `faf660dde20582bd17e0c1ceaa5a7e24904ce108` [feat(frontend): Add struct scan and simply optimise struct filter. (#19425)](https://github.com/risingwavelabs/risingwave/pull/19425)
-
-## nightly-20241205
-- `59fa5f882377629798ade81fab64ad54eb82a086` [feat(iceberg): support iceberg engine table (in local env) (#19577)](https://github.com/risingwavelabs/risingwave/pull/19577)
