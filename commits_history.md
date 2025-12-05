@@ -300,6 +300,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `855104222f00800bd8470b5ebb87109c8e3e1de2` [fix: notify local subscribers when streaming job backfill finishes (#24021)](https://github.com/risingwavelabs/risingwave/pull/24021)
+- `56848e4098411486e0f7bbc0ce8ee0131555d9c1` [refactor(sink): Delay the initialization of IcebergSinkWriter after LogReader alignment (#23949)](https://github.com/risingwavelabs/risingwave/pull/23949)
+- `bf7cfd46eeff753c391289c3293dfd6d3991365f` [test(sink): Enable integration test for exactly once sink (#23833)](https://github.com/risingwavelabs/risingwave/pull/23833)
+- `44ef3e425036b283bdb4feb30b26796ac0db2a36` [refactor(sink): Backup new exactly once sink table & Remove some legacy code (#24001)](https://github.com/risingwavelabs/risingwave/pull/24001)
+- `5eca6e90e4023bd5fe4362847c9c01b12fff6319` [refactor: Reuse and manage Nats client connections (#23963)](https://github.com/risingwavelabs/risingwave/pull/23963)
+- `afd77081e5c14f8585d9f5dc520bcfd819bd1492` [fix(test): fix `mysql_partition` test in main cron (#23965)](https://github.com/risingwavelabs/risingwave/pull/23965)
+- `c098769f623fa7853f4fe70422980794add5818b` [refactor(streaming): reuse code via generics between `Merge` and `Receiver` executors (#23984)](https://github.com/risingwavelabs/risingwave/pull/23984)
+- `9de5aace4fdab5f2b761012559d18560f86923a6` [chore(deps): Bump github.com/sirupsen/logrus from 1.8.1 to 1.8.3 in /integration_tests/datagen (#24007)](https://github.com/risingwavelabs/risingwave/pull/24007)
 - `92c850a9f071b282571ed3021a063a4ee06b4cbd` [fix: fix auto cdc schema change with schema binding and memory leak in fe (#23993)](https://github.com/risingwavelabs/risingwave/pull/23993)
 - `b12146dd84c43eb1317a1a3b360b4d8c32214449` [chore: bump `thiserror-ext` to avoid dep on `thiserror` & bump `thiserror` to `2.0.17` (#23999)](https://github.com/risingwavelabs/risingwave/pull/23999)
 
