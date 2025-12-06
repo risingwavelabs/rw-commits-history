@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251205` `855104222f00800bd8470b5ebb87109c8e3e1de2`
+- `20251206` `855104222f00800bd8470b5ebb87109c8e3e1de2`
 - `20251204` `d39b05b9058f450c5daa0919625c968b89ed0ad7`
 - `20251203` `a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0`
 - `20251202` `942e8d2b9686915394e5f36e8a643ab968cfcb44`
@@ -301,7 +301,7 @@
 
 ## Unreleased
 
-## nightly-20251205
+## nightly-20251206
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d39b05b9058f450c5daa0919625c968b89ed0ad7...855104222f00800bd8470b5ebb87109c8e3e1de2)
 - `855104222f00800bd8470b5ebb87109c8e3e1de2` [fix: notify local subscribers when streaming job backfill finishes (#24021)](https://github.com/risingwavelabs/risingwave/pull/24021)
 - `56848e4098411486e0f7bbc0ce8ee0131555d9c1` [refactor(sink): Delay the initialization of IcebergSinkWriter after LogReader alignment (#23949)](https://github.com/risingwavelabs/risingwave/pull/23949)
