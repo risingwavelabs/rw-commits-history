@@ -291,7 +291,6 @@
 - `20241210` `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae`
 - `20241209` `4da6bdacf3876713f806569922a1443e69b3b6df`
 - `20241208` `fcac3111a1524e2c2f5eca2045260a7baa20b8e4`
-- `20241206` `733342764be327921741748db443ff23286cab63`
 </details>
 
 # Commit history
@@ -3129,8 +3128,4 @@
 - `f3ed1de67ace232cb09b196ee50e06e6f9f74bd2` [refactor(source): extract avro inner schema precisely (#19701)](https://github.com/risingwavelabs/risingwave/pull/19701)
 
 ## nightly-20241208
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/733342764be327921741748db443ff23286cab63...fcac3111a1524e2c2f5eca2045260a7baa20b8e4)
 - `fcac3111a1524e2c2f5eca2045260a7baa20b8e4` [refactor(cdc source): merge cdc heartbeat chunk builder & data chunk builder (#19671)](https://github.com/risingwavelabs/risingwave/pull/19671)
-
-## nightly-20241206
-- `733342764be327921741748db443ff23286cab63` [refactor(connector): re-arrange the `connector::parser` module for better readibility (#19697)](https://github.com/risingwavelabs/risingwave/pull/19697)
