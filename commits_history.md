@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251208` `9d5643c9566ddb176045311769c2b5f871a400dc`
 - `20251207` `855104222f00800bd8470b5ebb87109c8e3e1de2`
 - `20251204` `d39b05b9058f450c5daa0919625c968b89ed0ad7`
 - `20251203` `a408001a4b09dffd0ebe5cbdb4e5bb9a599fe2a0`
@@ -290,7 +291,6 @@
 - `20241211` `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e`
 - `20241210` `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae`
 - `20241209` `4da6bdacf3876713f806569922a1443e69b3b6df`
-- `20241208` `fcac3111a1524e2c2f5eca2045260a7baa20b8e4`
 </details>
 
 # Commit history
@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f7d8541e4b7192d56056694ffe456b88b499c14e` [fix(sink): Missing field update in sink auto schema change (#24039)](https://github.com/risingwavelabs/risingwave/pull/24039)
+
+## nightly-20251208
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/855104222f00800bd8470b5ebb87109c8e3e1de2...9d5643c9566ddb176045311769c2b5f871a400dc)
 - `9d5643c9566ddb176045311769c2b5f871a400dc` [feat(dashboard): inspect streaming job info & config override (#24037)](https://github.com/risingwavelabs/risingwave/pull/24037)
 - `f98e052be6627e6644c457342e095d553f389714` [chore(deps): Bump net.snowflake:snowflake-jdbc from 3.23.0 to 3.23.1 (#23813)](https://github.com/risingwavelabs/risingwave/pull/23813)
 
@@ -3122,12 +3126,4 @@
 - `2042dd4dd64cc103977b175b43d6edbd88c5a60e` [fix(file source): fix message offset of opendal source (#19721)](https://github.com/risingwavelabs/risingwave/pull/19721)
 
 ## nightly-20241209
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fcac3111a1524e2c2f5eca2045260a7baa20b8e4...4da6bdacf3876713f806569922a1443e69b3b6df)
 - `4da6bdacf3876713f806569922a1443e69b3b6df` [feat(storage): avoid using box dyn for storage table merge sort (#19713)](https://github.com/risingwavelabs/risingwave/pull/19713)
-- `430fbb9f39dc2dc15193b8b13fb735fede42518f` [chore: fix some typos (#19710)](https://github.com/risingwavelabs/risingwave/pull/19710)
-- `9b26a969ac78805121cd6416dca67e32b0cefb14` [refactor(meta): extract code for connecting sql meta store (#19603)](https://github.com/risingwavelabs/risingwave/pull/19603)
-- `7005c0591e7f2f58c28d8615c87d7aab3d604f8f` [feat(storage): support online cache resize via risectl (#19677)](https://github.com/risingwavelabs/risingwave/pull/19677)
-- `f3ed1de67ace232cb09b196ee50e06e6f9f74bd2` [refactor(source): extract avro inner schema precisely (#19701)](https://github.com/risingwavelabs/risingwave/pull/19701)
-
-## nightly-20241208
-- `fcac3111a1524e2c2f5eca2045260a7baa20b8e4` [refactor(cdc source): merge cdc heartbeat chunk builder & data chunk builder (#19671)](https://github.com/risingwavelabs/risingwave/pull/19671)
