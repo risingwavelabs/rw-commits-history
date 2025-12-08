@@ -299,6 +299,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9d5643c9566ddb176045311769c2b5f871a400dc` [feat(dashboard): inspect streaming job info & config override (#24037)](https://github.com/risingwavelabs/risingwave/pull/24037)
+- `f98e052be6627e6644c457342e095d553f389714` [chore(deps): Bump net.snowflake:snowflake-jdbc from 3.23.0 to 3.23.1 (#23813)](https://github.com/risingwavelabs/risingwave/pull/23813)
 
 ## nightly-20251207
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d39b05b9058f450c5daa0919625c968b89ed0ad7...855104222f00800bd8470b5ebb87109c8e3e1de2)
