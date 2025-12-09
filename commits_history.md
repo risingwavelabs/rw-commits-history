@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `07d7a2cc522698954174fb2696e881b46b94205c` [feat: support sink payload as bytes into downstream mq (#22925)](https://github.com/risingwavelabs/risingwave/pull/22925)
+- `8a2efb3b365142c3bd1df0fc39c536f56b4ae67d` [refactor(mysql-cdc): cache latest schema history file records to reduce object storage I/O  (#23976)](https://github.com/risingwavelabs/risingwave/pull/23976)
+- `e366310f5a034b96e8d756403c0dc79b9b779232` [chore(deps): Bump criterion from 0.7.0 to 0.8.1 (#24043)](https://github.com/risingwavelabs/risingwave/pull/24043)
+- `336a8c5f9013cf21c18264a3dbd1e076f6ae22cb` [refactor(error): use `provide` functionality from `thiserror-ext` to avoid patching `thiserror` (#24008)](https://github.com/risingwavelabs/risingwave/pull/24008)
 - `f7d8541e4b7192d56056694ffe456b88b499c14e` [fix(sink): Missing field update in sink auto schema change (#24039)](https://github.com/risingwavelabs/risingwave/pull/24039)
 
 ## nightly-20251208
