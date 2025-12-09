@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251209` `07d7a2cc522698954174fb2696e881b46b94205c`
 - `20251208` `9d5643c9566ddb176045311769c2b5f871a400dc`
 - `20251207` `855104222f00800bd8470b5ebb87109c8e3e1de2`
 - `20251204` `d39b05b9058f450c5daa0919625c968b89ed0ad7`
@@ -290,7 +291,6 @@
 - `20241212` `8e1d60bb7d4ded2264760c8e7202301045e7420d`
 - `20241211` `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e`
 - `20241210` `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae`
-- `20241209` `4da6bdacf3876713f806569922a1443e69b3b6df`
 </details>
 
 # Commit history
@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f903e9e8f95a8071af6d2ed740ffa9c7407815a4` [feat: support risingwave scalar function in datafusion (#24002)](https://github.com/risingwavelabs/risingwave/pull/24002)
+- `cf915c89a4d41294dfcd75d2e3ad094d4b923e45` [refactor: refactor write-mode and compaction.type to enum (#23942)](https://github.com/risingwavelabs/risingwave/pull/23942)
+- `cc0e1943a97e3a6339d71e0f3f95182e28555d88` [fix: pass file cache recover mode config correctly (#24031)](https://github.com/risingwavelabs/risingwave/pull/24031)
+
+## nightly-20251209
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9d5643c9566ddb176045311769c2b5f871a400dc...07d7a2cc522698954174fb2696e881b46b94205c)
 - `07d7a2cc522698954174fb2696e881b46b94205c` [feat: support sink payload as bytes into downstream mq (#22925)](https://github.com/risingwavelabs/risingwave/pull/22925)
 - `8a2efb3b365142c3bd1df0fc39c536f56b4ae67d` [refactor(mysql-cdc): cache latest schema history file records to reduce object storage I/O  (#23976)](https://github.com/risingwavelabs/risingwave/pull/23976)
 - `e366310f5a034b96e8d756403c0dc79b9b779232` [chore(deps): Bump criterion from 0.7.0 to 0.8.1 (#24043)](https://github.com/risingwavelabs/risingwave/pull/24043)
@@ -3117,17 +3123,4 @@
 - `87d0bb42b192943f628839afa10a044c714c2257` [fix(iceberg): fix iceberg config load (#19733)](https://github.com/risingwavelabs/risingwave/pull/19733)
 
 ## nightly-20241210
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4da6bdacf3876713f806569922a1443e69b3b6df...2b819a39c9a52e764b9a98026bd5d4f93c04b6ae)
 - `2b819a39c9a52e764b9a98026bd5d4f93c04b6ae` [feat(sink): add sink throughput( mb/s) metrics  (#19587)](https://github.com/risingwavelabs/risingwave/pull/19587)
-- `152cab20424d883722d62a2ace5a10280a35197b` [refactor(batch): simplify batch executor builder (#19731)](https://github.com/risingwavelabs/risingwave/pull/19731)
-- `d2bb1db634d2ee62da167bcff1199e86266810aa` [feat(meta): support replace source (#19650)](https://github.com/risingwavelabs/risingwave/pull/19650)
-- `5d4dbd4fdef95fd505a18eefdcee2a2a17a8eecf` [feat(meta): ensure recovery is finished after recover command returns (#19737)](https://github.com/risingwavelabs/risingwave/pull/19737)
-- `f31e762794a509cb41efd40aada8e083e4caff67` [chore(deps): Bump url from 2.5.0 to 2.5.4 (idna from 0.5.0 to 1.0.3) (#19730)](https://github.com/risingwavelabs/risingwave/pull/19730)
-- `6eadbde93d182b5d9df49fd3750a2859a4beb7c9` [feat(iceberg): refine iceberg table column datatype and name. (#19690)](https://github.com/risingwavelabs/risingwave/pull/19690)
-- `a2e53a556c4624bbdc31312a325682a7bdacc825` [fix: double RUST_MIN_STACK to resolve stack overflow (#19695)](https://github.com/risingwavelabs/risingwave/pull/19695)
-- `bd82fe328de30796f641971489e4e0f26ded4b5c` [perf(stream): add hash join memory benchmarking for cache refill (#19712)](https://github.com/risingwavelabs/risingwave/pull/19712)
-- `5585f51c34d9efa02b78b0040816365bd6e32f0d` [fix: missing dependency info of sql UDFs for streaming job ddl (#19716)](https://github.com/risingwavelabs/risingwave/pull/19716)
-- `2042dd4dd64cc103977b175b43d6edbd88c5a60e` [fix(file source): fix message offset of opendal source (#19721)](https://github.com/risingwavelabs/risingwave/pull/19721)
-
-## nightly-20241209
-- `4da6bdacf3876713f806569922a1443e69b3b6df` [feat(storage): avoid using box dyn for storage table merge sort (#19713)](https://github.com/risingwavelabs/risingwave/pull/19713)
