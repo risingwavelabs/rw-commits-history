@@ -299,6 +299,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c39514ef0be11eea6d92e5a93267af2f50c23b3d` [fix: add retry mechanism to mqtt_nested_source query in e2e test (#24063)](https://github.com/risingwavelabs/risingwave/pull/24063)
+- `cd1686d2e265d0b262a6ca165c9a49f04eb15b30` [fix: fix sstable serde to avoid losing bloom filter (#24025)](https://github.com/risingwavelabs/risingwave/pull/24025)
+- `624f65e718d417125f7c96f23e2c9db15d2f662b` [refactor(watermark): use clean_watermark_indices to replace clean_watermark_index_in_pk (#23877)](https://github.com/risingwavelabs/risingwave/pull/23877)
+- `92b1757b6c12b31304b754378d367ade6457af9f` [feat(frontend): improve notifications for slow DDL (CREATE TABLE and ALTER RATE LIMIT/PARALLELISM) (#24016)](https://github.com/risingwavelabs/risingwave/pull/24016)
+- `26bdcbd75943c17b6abe2c1dbde63b34b37b6b88` [refactor(foyer): upgrade foyer to released version v0.21.0 (#24047)](https://github.com/risingwavelabs/risingwave/pull/24047)
+- `f5069be6f26ea245cb6f476968e987dccf9e7f5a` [refactor: split batch and streaming exchange service (#24050)](https://github.com/risingwavelabs/risingwave/pull/24050)
+- `1f21d9e016826272b65589aa154cfd387bc9af85` [fix: add retry delay and improve error handling in observer and fragment modules (#24057)](https://github.com/risingwavelabs/risingwave/pull/24057)
 - `f903e9e8f95a8071af6d2ed740ffa9c7407815a4` [feat: support risingwave scalar function in datafusion (#24002)](https://github.com/risingwavelabs/risingwave/pull/24002)
 - `cf915c89a4d41294dfcd75d2e3ad094d4b923e45` [refactor: refactor write-mode and compaction.type to enum (#23942)](https://github.com/risingwavelabs/risingwave/pull/23942)
 - `cc0e1943a97e3a6339d71e0f3f95182e28555d88` [fix: pass file cache recover mode config correctly (#24031)](https://github.com/risingwavelabs/risingwave/pull/24031)
