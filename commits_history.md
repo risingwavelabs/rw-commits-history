@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251211` `324f7067f98182d89d953e9fc7786aaa4c8e84c5`
 - `20251210` `c39514ef0be11eea6d92e5a93267af2f50c23b3d`
 - `20251209` `07d7a2cc522698954174fb2696e881b46b94205c`
 - `20251208` `9d5643c9566ddb176045311769c2b5f871a400dc`
@@ -290,7 +291,6 @@
 - `20241214` `a520c1d493959bb79681e0af3d8000e879534821`
 - `20241213` `bfef38ef5d490165f57b28defecef670c20897df`
 - `20241212` `8e1d60bb7d4ded2264760c8e7202301045e7420d`
-- `20241211` `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e`
 </details>
 
 # Commit history
@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a0cf41f811d768b37e1633676050267451c90d38` [feat: add vnode-aligned compaction config for large single-table group (#24053)](https://github.com/risingwavelabs/risingwave/pull/24053)
+- `8612210e1eb79952b6730381e7ee16f08e81fe55` [feat(streaming): use actor-local config for exchange (#24036)](https://github.com/risingwavelabs/risingwave/pull/24036)
+
+## nightly-20251211
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c39514ef0be11eea6d92e5a93267af2f50c23b3d...324f7067f98182d89d953e9fc7786aaa4c8e84c5)
 - `324f7067f98182d89d953e9fc7786aaa4c8e84c5` [chore: increase log filter levels for some external crates (#24085)](https://github.com/risingwavelabs/risingwave/pull/24085)
 - `7af9ad429b903adcf6795995308bf3d63e1fed9a` [fix(test): fix flaky time travel e2e tests (#24087)](https://github.com/risingwavelabs/risingwave/pull/24087)
 - `58a8f43a5178638811ce5379d2f4d12a6d7201cc` [chore(pgwire): add start of execution logs for all queries (#24079)](https://github.com/risingwavelabs/risingwave/pull/24079)
@@ -3103,23 +3108,4 @@
 - `9cd0453e7cb79a4e1709671719758643a468c3b5` [feat(common): support switching from pg jdbc to pg native sinks (#19703)](https://github.com/risingwavelabs/risingwave/pull/19703)
 
 ## nightly-20241212
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e...8e1d60bb7d4ded2264760c8e7202301045e7420d)
 - `8e1d60bb7d4ded2264760c8e7202301045e7420d` [fix(source): revert create source reader with retry (#19754)](https://github.com/risingwavelabs/risingwave/pull/19754)
-- `9f929d98ccf5af62d37fed987ca0f63ab03897b7` [chore(deps): Bump golang.org/x/crypto from 0.17.0 to 0.31.0 in /integration_tests/client-library/go (#19768)](https://github.com/risingwavelabs/risingwave/pull/19768)
-- `b3f8dbcb807cd7c3d6180949e0150c9d2f385c7c` [chore(deps): Bump actions/checkout from 1 to 4 (#19778)](https://github.com/risingwavelabs/risingwave/pull/19778)
-- `a201c5c66108d302b98e36f181f00df785c917ff` [chore(deps): Bump actions/setup-java from 3 to 4 (#19776)](https://github.com/risingwavelabs/risingwave/pull/19776)
-- `10f26f7da75047b5365986d67bf26c516952c37c` [chore(deps): Bump 8BitJonny/gh-get-current-pr from 2.2.0 to 3.0.0 (#19780)](https://github.com/risingwavelabs/risingwave/pull/19780)
-- `81c5221c33c89d97dc7dba4342f0479975e68102` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.5 to 0.0.6 (#19777)](https://github.com/risingwavelabs/risingwave/pull/19777)
-- `93f720f95f9634884a30cc38d4336ce48ed475a0` [chore(deps): Bump thehanimo/pr-title-checker from 1.4.2 to 1.4.3 (#19779)](https://github.com/risingwavelabs/risingwave/pull/19779)
-- `ca7dd29647f6d38ffc4261ac6424f7d510ee5d36` [ci: add dependabot for GHA & bump buildkite plugin versions (#19774)](https://github.com/risingwavelabs/risingwave/pull/19774)
-- `7301b413cb7654ccf7c796c16e0787b39a16e38c` [refactor(batch): split executors into a separate crate (#19742)](https://github.com/risingwavelabs/risingwave/pull/19742)
-- `1678ab1e956b3f3f423d6a94d1dedf6cd02a88f4` [fix(source): resolve avro `Ref` during `access` without hack (#19746)](https://github.com/risingwavelabs/risingwave/pull/19746)
-- `58adff73d872245e5248f677ddc78e8bf39ee453` [fix(streaming): fix compatibility upgrading from v2.1.0 for singleton vnode count (#19760)](https://github.com/risingwavelabs/risingwave/pull/19760)
-- `0e436c23884e63a2f3c5a9feea820bf72f86d166` [refactor(batch): register-style executor builder (#19741)](https://github.com/risingwavelabs/risingwave/pull/19741)
-- `013725dab5d9511c152d8576ae368e6d0a9531c9` [fix(snapshot-backfill): fix incorrect recv barrier and add test for recover (#19756)](https://github.com/risingwavelabs/risingwave/pull/19756)
-- `dcf33600d1240aa6a9f6e503bc8a8493de3d6ba1` [fix(meta): ensure order when restoring metadata (#19763)](https://github.com/risingwavelabs/risingwave/pull/19763)
-- `8d3015a3c342a3a35200173e02d25ac5076aac17` [chore: update PR template (#19762)](https://github.com/risingwavelabs/risingwave/pull/19762)
-- `572404dd561f2f7735103445ed905b04a3c8fd36` [chore: fix typo in comment (#19759)](https://github.com/risingwavelabs/risingwave/pull/19759)
-
-## nightly-20241211
-- `9292b6f38bc070d54bfcf2f2c6f4e63b77f75c1e` [feat(iceberg): make commit checkpoint interval default 60 for iceberg engine table (#19738)](https://github.com/risingwavelabs/risingwave/pull/19738)
