@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `324f7067f98182d89d953e9fc7786aaa4c8e84c5` [chore: increase log filter levels for some external crates (#24085)](https://github.com/risingwavelabs/risingwave/pull/24085)
+- `7af9ad429b903adcf6795995308bf3d63e1fed9a` [fix(test): fix flaky time travel e2e tests (#24087)](https://github.com/risingwavelabs/risingwave/pull/24087)
+- `58a8f43a5178638811ce5379d2f4d12a6d7201cc` [chore(pgwire): add start of execution logs for all queries (#24079)](https://github.com/risingwavelabs/risingwave/pull/24079)
+- `7f56eb56b73cd859601d4bf15d75640c2cd3df97` [feat: unify the managment of privileges for the iceberg sink, source and table (#24038)](https://github.com/risingwavelabs/risingwave/pull/24038)
 - `0e649f41890d82078ba1cef126830659021e2a31` [chore(ci): check duplicated lines in logs & fix verbose logs (#24045)](https://github.com/risingwavelabs/risingwave/pull/24045)
 - `c516abea9baf2adff00be5c9556419ee889b66ca` [feat(frontend): support backfill order control for sinks (#23958)](https://github.com/risingwavelabs/risingwave/pull/23958)
 - `903caefd728a8b261089cea6aea5667a716cdced` [feat: optimize streaming job count query and improve diagnostics (#24068)](https://github.com/risingwavelabs/risingwave/pull/24068)
