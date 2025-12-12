@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251212` `e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73`
 - `20251211` `324f7067f98182d89d953e9fc7786aaa4c8e84c5`
 - `20251210` `c39514ef0be11eea6d92e5a93267af2f50c23b3d`
 - `20251209` `07d7a2cc522698954174fb2696e881b46b94205c`
@@ -299,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251212
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/324f7067f98182d89d953e9fc7786aaa4c8e84c5...e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73)
 - `e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73` [fix(frontend): support view sink internal state tables (#24051)](https://github.com/risingwavelabs/risingwave/pull/24051)
 - `4e094961188f79c80d68c5ffc6ff6cd670e559c5` [fix: better handle iceberg error when refreshing (#23847)](https://github.com/risingwavelabs/risingwave/pull/23847)
 - `7931b42b17d9976ce20fa55cd22250fc522524e0` [feat(sink): Support schema change in two-phase commit coordination (#24069)](https://github.com/risingwavelabs/risingwave/pull/24069)
