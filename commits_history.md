@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73` [fix(frontend): support view sink internal state tables (#24051)](https://github.com/risingwavelabs/risingwave/pull/24051)
+- `4e094961188f79c80d68c5ffc6ff6cd670e559c5` [fix: better handle iceberg error when refreshing (#23847)](https://github.com/risingwavelabs/risingwave/pull/23847)
+- `7931b42b17d9976ce20fa55cd22250fc522524e0` [feat(sink): Support schema change in two-phase commit coordination (#24069)](https://github.com/risingwavelabs/risingwave/pull/24069)
+- `389c509695e10f234308941ed1ce74255aab3c8b` [feat(iceberg): support DeleteScan for datafusion engine (#24065)](https://github.com/risingwavelabs/risingwave/pull/24065)
+- `a5d642ca01174c4105b2b6ad3d1a76252ecd3deb` [feat(pulsar): add support for read_compacted option in consumer properties (#23582)](https://github.com/risingwavelabs/risingwave/pull/23582)
+- `a379238ea4bf7c2fa9f9079a6f1d47eee27cf0d3` [feat(sink): Support schema change in decouple sink (#24048)](https://github.com/risingwavelabs/risingwave/pull/24048)
 - `a0cf41f811d768b37e1633676050267451c90d38` [feat: add vnode-aligned compaction config for large single-table group (#24053)](https://github.com/risingwavelabs/risingwave/pull/24053)
 - `8612210e1eb79952b6730381e7ee16f08e81fe55` [feat(streaming): use actor-local config for exchange (#24036)](https://github.com/risingwavelabs/risingwave/pull/24036)
 
