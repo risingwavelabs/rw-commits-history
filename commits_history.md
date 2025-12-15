@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251215` `ec898b31edfff7ac4ee190ee1d3b345df9161416`
 - `20251214` `e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73`
 - `20251211` `324f7067f98182d89d953e9fc7786aaa4c8e84c5`
 - `20251210` `c39514ef0be11eea6d92e5a93267af2f50c23b3d`
@@ -300,6 +301,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5ef31eea47b04d49f56ad29c7443aaaad0cbda74` [refactor(iceberg): simplify scan_task_to_chunk by using the sdk to handle delete (#24089)](https://github.com/risingwavelabs/risingwave/pull/24089)
+
+## nightly-20251215
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73...ec898b31edfff7ac4ee190ee1d3b345df9161416)
 - `ec898b31edfff7ac4ee190ee1d3b345df9161416` [feat(iceberg): bump iceberg rust to 20251111 version (#24004)](https://github.com/risingwavelabs/risingwave/pull/24004)
 - `af56f27b7387bd5684f01389c6ee93bae168228d` [fix(sink): Parameters lost when sink-decouple (#24114)](https://github.com/risingwavelabs/risingwave/pull/24114)
 - `cdeb0732a322e2b0f7772cf4e2ce1bf6bf61e1dc` [refactor(compute): avoid locking metrics in exchange loop each time we yield a message (#24099)](https://github.com/risingwavelabs/risingwave/pull/24099)
