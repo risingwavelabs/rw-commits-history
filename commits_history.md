@@ -300,6 +300,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ec898b31edfff7ac4ee190ee1d3b345df9161416` [feat(iceberg): bump iceberg rust to 20251111 version (#24004)](https://github.com/risingwavelabs/risingwave/pull/24004)
+- `af56f27b7387bd5684f01389c6ee93bae168228d` [fix(sink): Parameters lost when sink-decouple (#24114)](https://github.com/risingwavelabs/risingwave/pull/24114)
+- `cdeb0732a322e2b0f7772cf4e2ce1bf6bf61e1dc` [refactor(compute): avoid locking metrics in exchange loop each time we yield a message (#24099)](https://github.com/risingwavelabs/risingwave/pull/24099)
+- `86dc86507aa4cfb8a2f36ace3dbb76486b49aaa0` [refactor(meta): separate per job cdc backfill tracker (#23795)](https://github.com/risingwavelabs/risingwave/pull/23795)
 
 ## nightly-20251214
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/324f7067f98182d89d953e9fc7786aaa4c8e84c5...e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73)
