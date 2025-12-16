@@ -301,6 +301,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6f7d6c2ef91cff42093b274aa13e167caef76362` [refactor(meta): avoid self-generate command in barrier worker (#23858)](https://github.com/risingwavelabs/risingwave/pull/23858)
+- `fb17049332f6b4ff4fb0e9d4cfa10014bb5f5c33` [fix(iceberg): fix iceberg_source_streaming flaky test (#24150)](https://github.com/risingwavelabs/risingwave/pull/24150)
+- `fd3bbdb157ba70fe48f6a94e87909025289681a6` [refactor: improve error handling for datafusion engine (#24097)](https://github.com/risingwavelabs/risingwave/pull/24097)
+- `8fcbbd172ffe1a6405c1f3c7a75fd871745cf4a3` [feat(deltalake): bump deltalake to 0.29 and remove arrow 55 (#24145)](https://github.com/risingwavelabs/risingwave/pull/24145)
+- `c47d513a45d540f482978f96fc55713e9655f8db` [chore:  update package version in Cargo.toml (#24147)](https://github.com/risingwavelabs/risingwave/pull/24147)
+- `1c316bea9f6dd2d484e021f67a3c194d66b0dd8e` [feat(iceberg): do not commit large statistical to avoid persistent metadata becoming too large (#24054)](https://github.com/risingwavelabs/risingwave/pull/24054)
+- `37ee234b44b0d86d5ea15bb4816b134eaf258e47` [fix(meta): avoid global recovery on single database reload failure (#24140)](https://github.com/risingwavelabs/risingwave/pull/24140)
+- `878373f908fbd2445ae2f3004614d82ed6a56643` [fix(frontend): reject defining watermarks on upsert source (#24113)](https://github.com/risingwavelabs/risingwave/pull/24113)
+- `6e23b827ec643e3daef425e4e8f16839eeaf5f5e` [feat(meta): trigger barrier immediately on force checkpoint (#24141)](https://github.com/risingwavelabs/risingwave/pull/24141)
 - `5ef31eea47b04d49f56ad29c7443aaaad0cbda74` [refactor(iceberg): simplify scan_task_to_chunk by using the sdk to handle delete (#24089)](https://github.com/risingwavelabs/risingwave/pull/24089)
 
 ## nightly-20251215
