@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251216` `6f7d6c2ef91cff42093b274aa13e167caef76362`
 - `20251215` `ec898b31edfff7ac4ee190ee1d3b345df9161416`
 - `20251214` `e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73`
 - `20251211` `324f7067f98182d89d953e9fc7786aaa4c8e84c5`
@@ -301,6 +302,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8ab35c8cfe40777ba4546704ab75a409d81606a0` [fix(frontend): forbid temporal join with snapshot backfill (#24149)](https://github.com/risingwavelabs/risingwave/pull/24149)
+- `7a71c4b13d3866ae853377e061739b5568ef3a3c` [feat(risedev): add ADBC Snowflake driver support (#23986)](https://github.com/risingwavelabs/risingwave/pull/23986)
+
+## nightly-20251216
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ec898b31edfff7ac4ee190ee1d3b345df9161416...6f7d6c2ef91cff42093b274aa13e167caef76362)
 - `6f7d6c2ef91cff42093b274aa13e167caef76362` [refactor(meta): avoid self-generate command in barrier worker (#23858)](https://github.com/risingwavelabs/risingwave/pull/23858)
 - `fb17049332f6b4ff4fb0e9d4cfa10014bb5f5c33` [fix(iceberg): fix iceberg_source_streaming flaky test (#24150)](https://github.com/risingwavelabs/risingwave/pull/24150)
 - `fd3bbdb157ba70fe48f6a94e87909025289681a6` [refactor: improve error handling for datafusion engine (#24097)](https://github.com/risingwavelabs/risingwave/pull/24097)
