@@ -289,11 +289,6 @@
 - `20241219` `adb8651f78e1bcb6cf9cf73db73111d86a009c34`
 - `20241218` `94ccd00bc21a21de6b82b523f089f2bdd2c9979a`
 - `20241217` `456181340e7f76e2ff4caa198d842c2a1768968f`
-- `20241216` `492e2d7d03ccfb530692649503a3e74f8624844c`
-- `20241215` `680c0982fc56445394a8eef558f4dd7dceab06be`
-- `20241214` `a520c1d493959bb79681e0af3d8000e879534821`
-- `20241213` `bfef38ef5d490165f57b28defecef670c20897df`
-- `20241212` `8e1d60bb7d4ded2264760c8e7202301045e7420d`
 </details>
 
 # Commit history
@@ -302,6 +297,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a005251c6c62da7577272ba10bd436b687c6431d` [feat: backup refresh jobs in meta snapshot (#24158)](https://github.com/risingwavelabs/risingwave/pull/24158)
+- `3684b8a03c04b1be712ec94fa7b02437cd6c0bfc` [fix(ci): fix package version check script when there are branches like `release-2.7-suffix` (#24160)](https://github.com/risingwavelabs/risingwave/pull/24160)
+- `38d1206144608f48b5436ba3efc118a80087b466` [feat(iceberg): support explain datafusion plan (#24157)](https://github.com/risingwavelabs/risingwave/pull/24157)
+- `2543450ec645c7727d8595465a7f0181b5ab1d38` [fix(meta): fill original snapshot backfill epoch in alter mv (#24153)](https://github.com/risingwavelabs/risingwave/pull/24153)
+- `639b9993097ddac444661aa05e98b397b7b33922` [fix(iceberg): change iceberg partition field id from 0 to 1000 (#24139)](https://github.com/risingwavelabs/risingwave/pull/24139)
 - `8ab35c8cfe40777ba4546704ab75a409d81606a0` [fix(frontend): forbid temporal join with snapshot backfill (#24149)](https://github.com/risingwavelabs/risingwave/pull/24149)
 - `7a71c4b13d3866ae853377e061739b5568ef3a3c` [feat(risedev): add ADBC Snowflake driver support (#23986)](https://github.com/risingwavelabs/risingwave/pull/23986)
 
@@ -3102,44 +3102,4 @@
 - `a74508342b03fd66a302f754bc23ee6063277996` [fix(ci): use correct image version for `ci-standard-env` (#19839)](https://github.com/risingwavelabs/risingwave/pull/19839)
 
 ## nightly-20241217
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/492e2d7d03ccfb530692649503a3e74f8624844c...456181340e7f76e2ff4caa198d842c2a1768968f)
 - `456181340e7f76e2ff4caa198d842c2a1768968f` [fix(connector): file scan use correct path (#19793)](https://github.com/risingwavelabs/risingwave/pull/19793)
-- `6f14e7937f3524a29ede0f7da4a3e71d8b65a3b9` [chore: update package version to 2.3.0-alpha (#19823)](https://github.com/risingwavelabs/risingwave/pull/19823)
-- `7a35a6a2b94afcdca37b646ccb649d5c59a4ca47` [feat(error): include gRPC call path in error report (#19809)](https://github.com/risingwavelabs/risingwave/pull/19809)
-- `ee9f5005e7997c0921d6499968bba4e375f6ef9c` [chore(deps): Bump apache/skywalking-eyes from 775fe1ffda59b7e100aa144d0ef8d7beae17f97d to 3ea9df11bb3a5a85665377d1fd10c02edecf2c40 (#19819)](https://github.com/risingwavelabs/risingwave/pull/19819)
-- `cb6c013139ef93358ceb30f84acc13031ac46483` [chore(deps): Bump peter-evans/create-pull-request from 6 to 7 (#19818)](https://github.com/risingwavelabs/risingwave/pull/19818)
-- `123c5c01372f8f9a230d14bfe35b37957b045349` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.6 to 0.0.7 (#19817)](https://github.com/risingwavelabs/risingwave/pull/19817)
-- `a5c8c974676062fe36508fdf75592a17eedba7bb` [chore(deps): Bump crate-ci/typos from 1.28.2 to 1.28.3 (#19816)](https://github.com/risingwavelabs/risingwave/pull/19816)
-- `4ed93eb9fcd75ddc67b77dcce2cc5b33c959c446` [fix(log): print java exception stack trace in logger (#19814)](https://github.com/risingwavelabs/risingwave/pull/19814)
-
-## nightly-20241216
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/680c0982fc56445394a8eef558f4dd7dceab06be...492e2d7d03ccfb530692649503a3e74f8624844c)
-- `492e2d7d03ccfb530692649503a3e74f8624844c` [fix: add mview_definition in scaled actors (#19784)](https://github.com/risingwavelabs/risingwave/pull/19784)
-- `0b1c0e70b7f5b318471557d157d9b7b94d6d013f` [fix: session variable should not affect shared source (#19807)](https://github.com/risingwavelabs/risingwave/pull/19807)
-- `594ef891d30067f99d48ce5e515a3134a1df7f9a` [feat: replace icelake Transform with iceberg (#18625)](https://github.com/risingwavelabs/risingwave/pull/18625)
-- `45fcf8f33c3a5eb71dcf31c7f33d1ee80f7a832d` [refactor(frontend): split create_source into smaller mods (#19803)](https://github.com/risingwavelabs/risingwave/pull/19803)
-- `1e24ca482c29c08ba3aeb31ee44f672e3eaaef05` [fix(meta): fix order when restoring metadata (#19791)](https://github.com/risingwavelabs/risingwave/pull/19791)
-- `6b12555285f77aa4a4862b5c437ee5afd1abb4a6` [feat(ci): more meta backend agnostic e2e tests in `main-cron` (#19595)](https://github.com/risingwavelabs/risingwave/pull/19595)
-- `6759a081c8e789f30ce24747218320a06356d9a8` [chore(deps): Bump sysinfo from 0.32.0 to 0.33.0 (#19801)](https://github.com/risingwavelabs/risingwave/pull/19801)
-- `7bcb908039547d7b762d73b7d63f3d02e9b00a7b` [fix: alter shared source fresh schema will make it non-shared (#19802)](https://github.com/risingwavelabs/risingwave/pull/19802)
-
-## nightly-20241215
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a520c1d493959bb79681e0af3d8000e879534821...680c0982fc56445394a8eef558f4dd7dceab06be)
-- `680c0982fc56445394a8eef558f4dd7dceab06be` [feat: allow generated column in cdc table (#19112)](https://github.com/risingwavelabs/risingwave/pull/19112)
-
-## nightly-20241214
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bfef38ef5d490165f57b28defecef670c20897df...a520c1d493959bb79681e0af3d8000e879534821)
-- `a520c1d493959bb79681e0af3d8000e879534821` [feat(barrier): support database failure isolation (part 2, local) (#19579)](https://github.com/risingwavelabs/risingwave/pull/19579)
-- `5afda5e7427debd35062cf656f479951d08fda17` [feat(catalog): add pg_my_temp_schema and pg_get_viewdef(int4, bool… (#19750)](https://github.com/risingwavelabs/risingwave/pull/19750)
-
-## nightly-20241213
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8e1d60bb7d4ded2264760c8e7202301045e7420d...bfef38ef5d490165f57b28defecef670c20897df)
-- `bfef38ef5d490165f57b28defecef670c20897df` [chore(deps): Bump tempfile, rustix, libc (#19339)](https://github.com/risingwavelabs/risingwave/pull/19339)
-- `6b800b4c0320f554eee2226b818c13652894cf23` [feat: add actor info to diagnose & dump diagnose on CI failure (#19787)](https://github.com/risingwavelabs/risingwave/pull/19787)
-- `5a85b55a1946ff44d1f112a131b01ec038f87d6a` [feat: include subject in NATS source (#19708)](https://github.com/risingwavelabs/risingwave/pull/19708)
-- `a474f5e797e9ea18a963d978fb88497be6f52adb` [chore(deps): Bump nanoid from 3.3.6 to 3.3.8 in /dashboard (#19734)](https://github.com/risingwavelabs/risingwave/pull/19734)
-- `f1ac7661234bb890acc7a018e87249d3277468f6` [refactor(source): DRY decimal parsing (#19782)](https://github.com/risingwavelabs/risingwave/pull/19782)
-- `9cd0453e7cb79a4e1709671719758643a468c3b5` [feat(common): support switching from pg jdbc to pg native sinks (#19703)](https://github.com/risingwavelabs/risingwave/pull/19703)
-
-## nightly-20241212
-- `8e1d60bb7d4ded2264760c8e7202301045e7420d` [fix(source): revert create source reader with retry (#19754)](https://github.com/risingwavelabs/risingwave/pull/19754)
