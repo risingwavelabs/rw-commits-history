@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251217` `a005251c6c62da7577272ba10bd436b687c6431d`
 - `20251216` `6f7d6c2ef91cff42093b274aa13e167caef76362`
 - `20251215` `ec898b31edfff7ac4ee190ee1d3b345df9161416`
 - `20251214` `e4f03c94c3eadeae8e8a5ecba4ba95bdf85afa73`
@@ -288,7 +289,6 @@
 - `20241222` `5423dee87068c12b473181731862751dbccbb769`
 - `20241219` `adb8651f78e1bcb6cf9cf73db73111d86a009c34`
 - `20241218` `94ccd00bc21a21de6b82b523f089f2bdd2c9979a`
-- `20241217` `456181340e7f76e2ff4caa198d842c2a1768968f`
 </details>
 
 # Commit history
@@ -297,6 +297,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `eea16389d35d43b92f4f2a6d245ad805902c56d9` [refactor(streaming): remove watermark cache in state table (#24148)](https://github.com/risingwavelabs/risingwave/pull/24148)
+- `d3a95df001c939c10cf3ce1bd3519e36baeca58b` [feat: support ALTER CONNECTION CONNECTOR WITH (#22563)](https://github.com/risingwavelabs/risingwave/pull/22563)
+
+## nightly-20251217
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6f7d6c2ef91cff42093b274aa13e167caef76362...a005251c6c62da7577272ba10bd436b687c6431d)
 - `a005251c6c62da7577272ba10bd436b687c6431d` [feat: backup refresh jobs in meta snapshot (#24158)](https://github.com/risingwavelabs/risingwave/pull/24158)
 - `3684b8a03c04b1be712ec94fa7b02437cd6c0bfc` [fix(ci): fix package version check script when there are branches like `release-2.7-suffix` (#24160)](https://github.com/risingwavelabs/risingwave/pull/24160)
 - `38d1206144608f48b5436ba3efc118a80087b466` [feat(iceberg): support explain datafusion plan (#24157)](https://github.com/risingwavelabs/risingwave/pull/24157)
@@ -3093,13 +3098,4 @@
 - `5e66c86f2d4bf447bb2143e0f8365e6622a0321d` [chore(deps): Bump twox-hash from 2.0.1 to 2.1.0 (#19861)](https://github.com/risingwavelabs/risingwave/pull/19861)
 
 ## nightly-20241218
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/456181340e7f76e2ff4caa198d842c2a1768968f...94ccd00bc21a21de6b82b523f089f2bdd2c9979a)
 - `94ccd00bc21a21de6b82b523f089f2bdd2c9979a` [chore(deps): Bump twox-hash from 1.6.3 to 2.0.1 (#19258)](https://github.com/risingwavelabs/risingwave/pull/19258)
-- `fe84f69e1611dad37f0ea97ff9dcdcbbaa972b63` [feat(source): create source stream with retry during recovery (#19805)](https://github.com/risingwavelabs/risingwave/pull/19805)
-- `3cbc231b002eeef2e370ae15d067e4518b0f57dd` [refactor(meta): filter out SSTs for time travel metadata (#19694)](https://github.com/risingwavelabs/risingwave/pull/19694)
-- `1804c80e5bafb1022d35bf480945b1c54d9e513a` [feat: jdbc sink user password (#19822)](https://github.com/risingwavelabs/risingwave/pull/19822)
-- `569f9f9ad9cdb3aa8470ef076c8e6b2bdca56b32` [fix(ci): fix source test dependency issue (#19840)](https://github.com/risingwavelabs/risingwave/pull/19840)
-- `a74508342b03fd66a302f754bc23ee6063277996` [fix(ci): use correct image version for `ci-standard-env` (#19839)](https://github.com/risingwavelabs/risingwave/pull/19839)
-
-## nightly-20241217
-- `456181340e7f76e2ff4caa198d842c2a1768968f` [fix(connector): file scan use correct path (#19793)](https://github.com/risingwavelabs/risingwave/pull/19793)
