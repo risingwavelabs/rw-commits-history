@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251218` `71e188772ab6bba3dcd3c23b914280d837f04646`
 - `20251217` `a005251c6c62da7577272ba10bd436b687c6431d`
 - `20251216` `6f7d6c2ef91cff42093b274aa13e167caef76362`
 - `20251215` `ec898b31edfff7ac4ee190ee1d3b345df9161416`
@@ -288,7 +289,6 @@
 - `20241223` `001ac816136e643593894a4ceff1b19905e73d02`
 - `20241222` `5423dee87068c12b473181731862751dbccbb769`
 - `20241219` `adb8651f78e1bcb6cf9cf73db73111d86a009c34`
-- `20241218` `94ccd00bc21a21de6b82b523f089f2bdd2c9979a`
 </details>
 
 # Commit history
@@ -297,6 +297,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251218
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a005251c6c62da7577272ba10bd436b687c6431d...71e188772ab6bba3dcd3c23b914280d837f04646)
 - `71e188772ab6bba3dcd3c23b914280d837f04646` [chore(pgwire): add sql to the log span (#24171)](https://github.com/risingwavelabs/risingwave/pull/24171)
 - `d5c54ee78252f51bc0426d6c0986c247a4c8d1ae` [feat: improve type coercion and validation for datafusion execution (#24120)](https://github.com/risingwavelabs/risingwave/pull/24120)
 - `fe2d9179a77d89be9dc3d3b7a097cedc6b6781b0` [fix: fix hummock metrics bucket (#24143)](https://github.com/risingwavelabs/risingwave/pull/24143)
@@ -3094,15 +3097,4 @@
 - `c022a36fadf9017ef71ed378314398b1cc1dff5f` [feat(sink): support deafult aws credentials for deltalake (#19557)](https://github.com/risingwavelabs/risingwave/pull/19557)
 
 ## nightly-20241219
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/94ccd00bc21a21de6b82b523f089f2bdd2c9979a...adb8651f78e1bcb6cf9cf73db73111d86a009c34)
 - `adb8651f78e1bcb6cf9cf73db73111d86a009c34` [refactor(source): rename some source parser related types and methods (#19863)](https://github.com/risingwavelabs/risingwave/pull/19863)
-- `f3d8e0d58f759e51397ac1006d34f8405c119d8d` [refactor(source): respect max chunk size in source connector parser (#19698)](https://github.com/risingwavelabs/risingwave/pull/19698)
-- `29d697fd7c292417ca8ebe7991e0fecf6b1ffd5a` [chore(ci): migrate the qa service (#19862)](https://github.com/risingwavelabs/risingwave/pull/19862)
-- `34c93df5b62c88560a7a17a8c3756c54691e170c` [chore(deps): Bump next from 14.2.12 to 14.2.20 in /dashboard (#19844)](https://github.com/risingwavelabs/risingwave/pull/19844)
-- `5cffd1723b8ac3067770f7cbcb060a846c4f77f9` [chore: fix typos in func && doc && comment (#19796)](https://github.com/risingwavelabs/risingwave/pull/19796)
-- `c2389e25e86ca2be5c70cbfdd70dbbc3ed91599c` [chore(deps): Bump quick-xml from 0.36.1 to 0.37.1 (#19692)](https://github.com/risingwavelabs/risingwave/pull/19692)
-- `6ba4565b242949f30a65ebe29284900473648d8c` [chore(deps): Bump self_cell from 1.0.2 to 1.1.0 (#19767)](https://github.com/risingwavelabs/risingwave/pull/19767)
-- `5e66c86f2d4bf447bb2143e0f8365e6622a0321d` [chore(deps): Bump twox-hash from 2.0.1 to 2.1.0 (#19861)](https://github.com/risingwavelabs/risingwave/pull/19861)
-
-## nightly-20241218
-- `94ccd00bc21a21de6b82b523f089f2bdd2c9979a` [chore(deps): Bump twox-hash from 1.6.3 to 2.0.1 (#19258)](https://github.com/risingwavelabs/risingwave/pull/19258)
