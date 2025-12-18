@@ -297,6 +297,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `71e188772ab6bba3dcd3c23b914280d837f04646` [chore(pgwire): add sql to the log span (#24171)](https://github.com/risingwavelabs/risingwave/pull/24171)
+- `d5c54ee78252f51bc0426d6c0986c247a4c8d1ae` [feat: improve type coercion and validation for datafusion execution (#24120)](https://github.com/risingwavelabs/risingwave/pull/24120)
+- `fe2d9179a77d89be9dc3d3b7a097cedc6b6781b0` [fix: fix hummock metrics bucket (#24143)](https://github.com/risingwavelabs/risingwave/pull/24143)
+- `fe2d288372beff8472cfbe7707fe02181b8f6049` [feat(streaming): always enable merge barrier align metrics (#24163)](https://github.com/risingwavelabs/risingwave/pull/24163)
+- `c42f2b0e016c72648f40f0a8a95658cbd0425a48` [feat(streaming): add metrics for oom and other exit statuses on kernel dashboard (#24175)](https://github.com/risingwavelabs/risingwave/pull/24175)
+- `933ea251b726c2972f4e299532706e8ef029fb60` [fix(ci): correct bump main PR body (#24173)](https://github.com/risingwavelabs/risingwave/pull/24173)
+- `2ea25f701bdcf20047b123ab8989b57756f7e816` [chore(ci): bump main branch package version after creating new release branches (#24165)](https://github.com/risingwavelabs/risingwave/pull/24165)
 - `eea16389d35d43b92f4f2a6d245ad805902c56d9` [refactor(streaming): remove watermark cache in state table (#24148)](https://github.com/risingwavelabs/risingwave/pull/24148)
 - `d3a95df001c939c10cf3ce1bd3519e36baeca58b` [feat: support ALTER CONNECTION CONNECTOR WITH (#22563)](https://github.com/risingwavelabs/risingwave/pull/22563)
 
