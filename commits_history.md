@@ -297,6 +297,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b8dd7e1461ee03db15e8e8fe553c056a1499159a` [feat: include more useful info in diagnose (#23992)](https://github.com/risingwavelabs/risingwave/pull/23992)
+- `cd3f4749d4ba14d85ade20b9201f6a0fc511d795` [fix(ci):  check in `dhparam.pem` for ldap test (#24180)](https://github.com/risingwavelabs/risingwave/pull/24180)
+- `fdcdceea61d17f5d82d7338353c30ecb9ebc86de` [refactor(streaming): keep & validate row id if specified regardless of op in `RowIdGen` (#24164)](https://github.com/risingwavelabs/risingwave/pull/24164)
+- `463c40385bbe507c74fda8f0d3642231249d48bd` [fix: simplify alter connection test (#24185)](https://github.com/risingwavelabs/risingwave/pull/24185)
+- `63928b64679e9550bb09d955d974b470c751ebdb` [chore: update error message (#24181)](https://github.com/risingwavelabs/risingwave/pull/24181)
 
 ## nightly-20251218
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a005251c6c62da7577272ba10bd436b687c6431d...71e188772ab6bba3dcd3c23b914280d837f04646)
