@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251219` `b8dd7e1461ee03db15e8e8fe553c056a1499159a`
 - `20251218` `71e188772ab6bba3dcd3c23b914280d837f04646`
 - `20251217` `a005251c6c62da7577272ba10bd436b687c6431d`
 - `20251216` `6f7d6c2ef91cff42093b274aa13e167caef76362`
@@ -288,7 +289,6 @@
 - `20241224` `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e`
 - `20241223` `001ac816136e643593894a4ceff1b19905e73d02`
 - `20241222` `5423dee87068c12b473181731862751dbccbb769`
-- `20241219` `adb8651f78e1bcb6cf9cf73db73111d86a009c34`
 </details>
 
 # Commit history
@@ -297,6 +297,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b0798bd75f5581f15abb8f1fe60540119542d4f8` [feat: snowflake source support (#23988)](https://github.com/risingwavelabs/risingwave/pull/23988)
+- `33da7e3c7a1ac07aeefa40937b352957f1299eab` [refactor: strong typed executor and operator id (#24204)](https://github.com/risingwavelabs/risingwave/pull/24204)
+
+## nightly-20251219
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/71e188772ab6bba3dcd3c23b914280d837f04646...b8dd7e1461ee03db15e8e8fe553c056a1499159a)
 - `b8dd7e1461ee03db15e8e8fe553c056a1499159a` [feat: include more useful info in diagnose (#23992)](https://github.com/risingwavelabs/risingwave/pull/23992)
 - `cd3f4749d4ba14d85ade20b9201f6a0fc511d795` [fix(ci):  check in `dhparam.pem` for ldap test (#24180)](https://github.com/risingwavelabs/risingwave/pull/24180)
 - `fdcdceea61d17f5d82d7338353c30ecb9ebc86de` [refactor(streaming): keep & validate row id if specified regardless of op in `RowIdGen` (#24164)](https://github.com/risingwavelabs/risingwave/pull/24164)
@@ -3093,13 +3098,4 @@
 - `3cd7241696a939274c709aa59508ad4d66b0ce0f` [fix(iceberg): fix commit_checkpoint_interval for iceberg table with connector (#19788)](https://github.com/risingwavelabs/risingwave/pull/19788)
 
 ## nightly-20241222
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/adb8651f78e1bcb6cf9cf73db73111d86a009c34...5423dee87068c12b473181731862751dbccbb769)
 - `5423dee87068c12b473181731862751dbccbb769` [fix: use ring as default provider (#19874)](https://github.com/risingwavelabs/risingwave/pull/19874)
-- `709894d8a44025bdba7835e9d9c352a2a607ba84` [fix: Fix the panic issue with the parallelism() call (#19849)](https://github.com/risingwavelabs/risingwave/pull/19849)
-- `9dff1ac52450380ee5f8208b43841d5e228fb023` [feat: add graph check in risectl for sql meta store (#19764)](https://github.com/risingwavelabs/risingwave/pull/19764)
-- `de6eebc6cb562f8a9c316762e497b6afecfe5f0d` [feat(sink): add bigquery sink json string credentials (#19798)](https://github.com/risingwavelabs/risingwave/pull/19798)
-- `d6341b74be3f1913cc93993a95c147999df1ff74` [refactor: split catalog to smaller files (#19870)](https://github.com/risingwavelabs/risingwave/pull/19870)
-- `c022a36fadf9017ef71ed378314398b1cc1dff5f` [feat(sink): support deafult aws credentials for deltalake (#19557)](https://github.com/risingwavelabs/risingwave/pull/19557)
-
-## nightly-20241219
-- `adb8651f78e1bcb6cf9cf73db73111d86a009c34` [refactor(source): rename some source parser related types and methods (#19863)](https://github.com/risingwavelabs/risingwave/pull/19863)
