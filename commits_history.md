@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251220` `b0798bd75f5581f15abb8f1fe60540119542d4f8`
+- `20251221` `b0798bd75f5581f15abb8f1fe60540119542d4f8`
 - `20251219` `b8dd7e1461ee03db15e8e8fe553c056a1499159a`
 - `20251218` `71e188772ab6bba3dcd3c23b914280d837f04646`
 - `20251217` `a005251c6c62da7577272ba10bd436b687c6431d`
@@ -299,7 +299,7 @@
 
 ## Unreleased
 
-## nightly-20251220
+## nightly-20251221
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b8dd7e1461ee03db15e8e8fe553c056a1499159a...b0798bd75f5581f15abb8f1fe60540119542d4f8)
 - `b0798bd75f5581f15abb8f1fe60540119542d4f8` [feat: snowflake source support (#23988)](https://github.com/risingwavelabs/risingwave/pull/23988)
 - `33da7e3c7a1ac07aeefa40937b352957f1299eab` [refactor: strong typed executor and operator id (#24204)](https://github.com/risingwavelabs/risingwave/pull/24204)
