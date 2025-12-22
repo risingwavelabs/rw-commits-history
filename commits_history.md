@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251222` `026111e9cc61e6ae7718151c8df27528a9b326d6`
 - `20251221` `b0798bd75f5581f15abb8f1fe60540119542d4f8`
 - `20251219` `b8dd7e1461ee03db15e8e8fe553c056a1499159a`
 - `20251218` `71e188772ab6bba3dcd3c23b914280d837f04646`
@@ -289,7 +290,6 @@
 - `20241225` `c40eb045c91e819a9282a641b716427c520089f1`
 - `20241224` `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e`
 - `20241223` `001ac816136e643593894a4ceff1b19905e73d02`
-- `20241222` `5423dee87068c12b473181731862751dbccbb769`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251222
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b0798bd75f5581f15abb8f1fe60540119542d4f8...026111e9cc61e6ae7718151c8df27528a9b326d6)
 - `026111e9cc61e6ae7718151c8df27528a9b326d6` [fix(iceberg): fix row id gen in iceberg fetch executor (#24231)](https://github.com/risingwavelabs/risingwave/pull/24231)
 - `d69b53be441eba241be56d386d33d3608b367fa8` [feat(hummock): make block based XOR16 filter threshold configurable (#24208)](https://github.com/risingwavelabs/risingwave/pull/24208)
 - `9549afa214684605808581a3b58bb74a955e4a6f` [chore: update rules for risedev usage in `build-run-test.mdc`  (#24224)](https://github.com/risingwavelabs/risingwave/pull/24224)
@@ -3098,17 +3101,4 @@
 - `a175600c5f1501dbe2282f57fac23840e4f2ab69` [fix(frontend): fix row filter with pk diff order type (#19797)](https://github.com/risingwavelabs/risingwave/pull/19797)
 
 ## nightly-20241223
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5423dee87068c12b473181731862751dbccbb769...001ac816136e643593894a4ceff1b19905e73d02)
 - `001ac816136e643593894a4ceff1b19905e73d02` [fix: change JNI sink normal logs to debug level (#19758)](https://github.com/risingwavelabs/risingwave/pull/19758)
-- `c5eadcc24fd2ccab3ea02e47e1962f814c934d88` [refactor(metrics): introduce UintGauge to keep consistency (#19896)](https://github.com/risingwavelabs/risingwave/pull/19896)
-- `3831db7a21cb49ee4c243a960bb0a8c583e9e347` [feat(dashboard): show current epoch and color for fragments & relations (#19829)](https://github.com/risingwavelabs/risingwave/pull/19829)
-- `26805d95beead9f855f100d6b17f7dfd8ab0dea6` [chore: update docker image to v2.1.0 (#19888)](https://github.com/risingwavelabs/risingwave/pull/19888)
-- `4aab01730c3b3c24944a2833e63179b6d208fa61` [feat(sink): support sink rate limit for external sink (#19660)](https://github.com/risingwavelabs/risingwave/pull/19660)
-- `eabb2d06fef2cdb98c097465e063949d88a2aff2` [fix: disable telemetry report with madsim (#19890)](https://github.com/risingwavelabs/risingwave/pull/19890)
-- `fcf0af32fda55c7903ae3ff1633538916285967a` [fix(frontend): check data type in column id generator (#19828)](https://github.com/risingwavelabs/risingwave/pull/19828)
-- `6d4f966d9632b0c6503d5236c9dfe8578f0aea12` [fix(meta): fix & enable e2e tests with MySQL meta backend (#19846)](https://github.com/risingwavelabs/risingwave/pull/19846)
-- `02b53098350aba3eb1025b8c889e5f88b97ab53b` [refactor(optimizer): use `Cell` instead of `RefCell` for interior mutability (#19883)](https://github.com/risingwavelabs/risingwave/pull/19883)
-- `3cd7241696a939274c709aa59508ad4d66b0ce0f` [fix(iceberg): fix commit_checkpoint_interval for iceberg table with connector (#19788)](https://github.com/risingwavelabs/risingwave/pull/19788)
-
-## nightly-20241222
-- `5423dee87068c12b473181731862751dbccbb769` [fix: use ring as default provider (#19874)](https://github.com/risingwavelabs/risingwave/pull/19874)
