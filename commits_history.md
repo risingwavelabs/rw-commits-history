@@ -298,6 +298,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `026111e9cc61e6ae7718151c8df27528a9b326d6` [fix(iceberg): fix row id gen in iceberg fetch executor (#24231)](https://github.com/risingwavelabs/risingwave/pull/24231)
+- `d69b53be441eba241be56d386d33d3608b367fa8` [feat(hummock): make block based XOR16 filter threshold configurable (#24208)](https://github.com/risingwavelabs/risingwave/pull/24208)
+- `9549afa214684605808581a3b58bb74a955e4a6f` [chore: update rules for risedev usage in `build-run-test.mdc`  (#24224)](https://github.com/risingwavelabs/risingwave/pull/24224)
+- `5c42988c3f030b277487dcb34313712f47c2299d` [chore(ci): always upload docker compose logs  (#24217)](https://github.com/risingwavelabs/risingwave/pull/24217)
+- `68b9683d8f045a5ae1f9178b90f7d6d0ce5b74c1` [refactor(pgwire): use concrete error type in `Session` (#24201)](https://github.com/risingwavelabs/risingwave/pull/24201)
+- `c26380b61f89fe382da183ab920ba4b86c1e985b` [feat(dml): add an option for emitting upsert records (#24152)](https://github.com/risingwavelabs/risingwave/pull/24152)
+- `fd37c9926212187d46de381bbc093f2da6bf1676` [fix: support async javascript UDTF (#24197)](https://github.com/risingwavelabs/risingwave/pull/24197)
+- `5c0b7fed32b870e58842caef08b0484a1cbe74cc` [feat(stream, observability): add job-level cpu usage profiling for streaming job (#24151)](https://github.com/risingwavelabs/risingwave/pull/24151)
+- `22a1f9ad85b10ea5c6ca42f1f9c306dd293458e6` [fix(streaming): wrap snapshot backfill executor (#24205)](https://github.com/risingwavelabs/risingwave/pull/24205)
 
 ## nightly-20251221
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b8dd7e1461ee03db15e8e8fe553c056a1499159a...b0798bd75f5581f15abb8f1fe60540119542d4f8)
