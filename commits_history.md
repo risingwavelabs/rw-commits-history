@@ -298,6 +298,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `62f41838fc9b02e3cb2d500b55671351a09062fe` [chore: ignore `.cargo/` (for trailing space check and maybe more) (#24244)](https://github.com/risingwavelabs/risingwave/pull/24244)
+- `be5422b89b2f059f4d99c323d7395dc41ae2573e` [feat(expr): support casting `serial` to `timestamptz` to extract time from row id (#24233)](https://github.com/risingwavelabs/risingwave/pull/24233)
 
 ## nightly-20251222
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b0798bd75f5581f15abb8f1fe60540119542d4f8...026111e9cc61e6ae7718151c8df27528a9b326d6)
