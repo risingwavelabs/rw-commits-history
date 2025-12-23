@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251223` `62f41838fc9b02e3cb2d500b55671351a09062fe`
 - `20251222` `026111e9cc61e6ae7718151c8df27528a9b326d6`
 - `20251221` `b0798bd75f5581f15abb8f1fe60540119542d4f8`
 - `20251219` `b8dd7e1461ee03db15e8e8fe553c056a1499159a`
@@ -289,7 +290,6 @@
 - `20241226` `b13d5e977b6882ff02d18233c3157bf9cf1c01b0`
 - `20241225` `c40eb045c91e819a9282a641b716427c520089f1`
 - `20241224` `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e`
-- `20241223` `001ac816136e643593894a4ceff1b19905e73d02`
 </details>
 
 # Commit history
@@ -298,6 +298,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9fc33cd85ac7036d99072a5ca25340ee0ebe7915` [refactor: separate fragment metadata loading and actor assignment rendering (#24155)](https://github.com/risingwavelabs/risingwave/pull/24155)
+
+## nightly-20251223
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/026111e9cc61e6ae7718151c8df27528a9b326d6...62f41838fc9b02e3cb2d500b55671351a09062fe)
 - `62f41838fc9b02e3cb2d500b55671351a09062fe` [chore: ignore `.cargo/` (for trailing space check and maybe more) (#24244)](https://github.com/risingwavelabs/risingwave/pull/24244)
 - `be5422b89b2f059f4d99c323d7395dc41ae2573e` [feat(expr): support casting `serial` to `timestamptz` to extract time from row id (#24233)](https://github.com/risingwavelabs/risingwave/pull/24233)
 
@@ -3092,15 +3096,4 @@
 - `3431eabc3ef3c4f6431ba39546707c94a1d5b375` [feat(frontend): Supports cut OR condition and push down to storage (#19812)](https://github.com/risingwavelabs/risingwave/pull/19812)
 
 ## nightly-20241224
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/001ac816136e643593894a4ceff1b19905e73d02...86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e)
 - `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e` [fix(metric): include table change log when calculating Hummock version size (#19920)](https://github.com/risingwavelabs/risingwave/pull/19920)
-- `81f651f871db375313e1611558269e3e6f757b57` [chore(deps): Bump http from 1.1.0 to 1.2.0 (#19904)](https://github.com/risingwavelabs/risingwave/pull/19904)
-- `1b9b5a797396ce19e08b55c0f111e6e30310fb89` [fix(sink): fix mogodb write error handling (#19869)](https://github.com/risingwavelabs/risingwave/pull/19869)
-- `af666704444506b48f3ae6e6e0869ee99bd53bed` [chore(deps): Bump sqllogictest from 0.23.0 to 0.24.0 (#19903)](https://github.com/risingwavelabs/risingwave/pull/19903)
-- `16c7fcd2e483cb6b154ba3ab78fde37f060ad5b4` [fix(meta): skip unnecessary delta persistence (#19878)](https://github.com/risingwavelabs/risingwave/pull/19878)
-- `6098f65dd3d628204c1ac59714ea657f7e3a19b6` [refactor(frontend): extract arguments for create table handler (#19898)](https://github.com/risingwavelabs/risingwave/pull/19898)
-- `e70eb591f6f505bf99a18d116b3b4373f406f424` [build: prune unused dependencies (#19885)](https://github.com/risingwavelabs/risingwave/pull/19885)
-- `a175600c5f1501dbe2282f57fac23840e4f2ab69` [fix(frontend): fix row filter with pk diff order type (#19797)](https://github.com/risingwavelabs/risingwave/pull/19797)
-
-## nightly-20241223
-- `001ac816136e643593894a4ceff1b19905e73d02` [fix: change JNI sink normal logs to debug level (#19758)](https://github.com/risingwavelabs/risingwave/pull/19758)
