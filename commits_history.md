@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `92c193f8771812e094e538260283b263ecd098b1` [feat(iceberg): support schema change(add column) for non exactly once iceberg sink  (#24246)](https://github.com/risingwavelabs/risingwave/pull/24246)
+- `6a38199dcafdf608a25e08f2db17336b9949d6a9` [feat(meta): create new actors for finished snapshot backfill jobs (#24189)](https://github.com/risingwavelabs/risingwave/pull/24189)
+- `5a4cfd6104f533bfaa5ca8d35c13e152a4bf6d64` [fix(snapshot-backfill): fix snapshot backfill recovery panic (#24245)](https://github.com/risingwavelabs/risingwave/pull/24245)
 - `9fc33cd85ac7036d99072a5ca25340ee0ebe7915` [refactor: separate fragment metadata loading and actor assignment rendering (#24155)](https://github.com/risingwavelabs/risingwave/pull/24155)
 
 ## nightly-20251223
