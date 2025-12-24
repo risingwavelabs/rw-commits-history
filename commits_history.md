@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251224` `92c193f8771812e094e538260283b263ecd098b1`
 - `20251223` `62f41838fc9b02e3cb2d500b55671351a09062fe`
 - `20251222` `026111e9cc61e6ae7718151c8df27528a9b326d6`
 - `20251221` `b0798bd75f5581f15abb8f1fe60540119542d4f8`
@@ -289,7 +290,6 @@
 - `20241227` `fdd2493fc4025e7b7ae745adac77e6b08697a5f0`
 - `20241226` `b13d5e977b6882ff02d18233c3157bf9cf1c01b0`
 - `20241225` `c40eb045c91e819a9282a641b716427c520089f1`
-- `20241224` `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251224
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/62f41838fc9b02e3cb2d500b55671351a09062fe...92c193f8771812e094e538260283b263ecd098b1)
 - `92c193f8771812e094e538260283b263ecd098b1` [feat(iceberg): support schema change(add column) for non exactly once iceberg sink  (#24246)](https://github.com/risingwavelabs/risingwave/pull/24246)
 - `6a38199dcafdf608a25e08f2db17336b9949d6a9` [feat(meta): create new actors for finished snapshot backfill jobs (#24189)](https://github.com/risingwavelabs/risingwave/pull/24189)
 - `5a4cfd6104f533bfaa5ca8d35c13e152a4bf6d64` [fix(snapshot-backfill): fix snapshot backfill recovery panic (#24245)](https://github.com/risingwavelabs/risingwave/pull/24245)
@@ -3089,14 +3092,4 @@
 - `2f4008ceff378c88312a6d93fb2f28495a2ee043` [fix(iceberg): fix hidden row id for iceberg engine table (#19901)](https://github.com/risingwavelabs/risingwave/pull/19901)
 
 ## nightly-20241225
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e...c40eb045c91e819a9282a641b716427c520089f1)
 - `c40eb045c91e819a9282a641b716427c520089f1` [feat(storage): lazily remove instance data in uploader to avoid data loss (#19931)](https://github.com/risingwavelabs/risingwave/pull/19931)
-- `d706db6ca770f249221f0c58dd87f41390c6e109` [feat: support pg_stat_user_tables and key_column_usage (#19739)](https://github.com/risingwavelabs/risingwave/pull/19739)
-- `ae48d9d2beae0c7903ffa6ff5269a5ac39ab2976` [feat(snapshot): persist snapshot backfill epoch in fragment stream node (#19751)](https://github.com/risingwavelabs/risingwave/pull/19751)
-- `ef5835e6b3b633b86d9eeaa98a034b59c9cc18c8` [feat(pb): box stream NodeBody to reduce stack memory usage (#19911)](https://github.com/risingwavelabs/risingwave/pull/19911)
-- `3bdf84dcf62569c6e8ff4861e8ae7ea6185c86ab` [perf(stream): optimize native pg sink (#19688)](https://github.com/risingwavelabs/risingwave/pull/19688)
-- `d7f8b4e52306cb4075175b9231fa3f6ad076963e` [fix(chore): fix uint gauge vec macro (#19909)](https://github.com/risingwavelabs/risingwave/pull/19909)
-- `3431eabc3ef3c4f6431ba39546707c94a1d5b375` [feat(frontend): Supports cut OR condition and push down to storage (#19812)](https://github.com/risingwavelabs/risingwave/pull/19812)
-
-## nightly-20241224
-- `86c3933ff3f14ef5bf226a004d7ac6a9fd72c60e` [fix(metric): include table change log when calculating Hummock version size (#19920)](https://github.com/risingwavelabs/risingwave/pull/19920)
