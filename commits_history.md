@@ -298,6 +298,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0` [chore(deps): Bump org.bouncycastle:bcpkix-jdk18on from 1.78 to 1.79 in /java/connector-node/risingwave-sink-jdbc (#23666)](https://github.com/risingwavelabs/risingwave/pull/23666)
+- `0a9e05651b0ca6d99137e6da8d3338358d7eb1f0` [refactor(storage): use `clean_watermark_index` in `StateTable` (#24232)](https://github.com/risingwavelabs/risingwave/pull/24232)
+- `838538c3dfe830825c22c5e52d70b89d0298b257` [chore(deps): Bump org.apache.logging.log4j:log4j-core from 2.25.1 to 2.25.3 in /java (#24210)](https://github.com/risingwavelabs/risingwave/pull/24210)
+- `0a28d9fd1efaacc52efbb150966ead29396f34ff` [fix: XorFilterReader estimate_size (#24262)](https://github.com/risingwavelabs/risingwave/pull/24262)
+- `6184574aaa87cdee9d21f37a67a1beabba078603` [feat: support aggregate function for datafusion (#24206)](https://github.com/risingwavelabs/risingwave/pull/24206)
+- `e4224da0cc5fea23fc000f0587bbe39c19d6dc7f` [test(streaming): add a test case demonstrating `scan.startup.mode = 'latest'` with shared source (#24253)](https://github.com/risingwavelabs/risingwave/pull/24253)
+- `10c555d37051959e746d8c57fa4dc60ac95e4210` [fix(iceberg): stop coordinator when drop iceberg engine table & improve retry (#24259)](https://github.com/risingwavelabs/risingwave/pull/24259)
 
 ## nightly-20251224
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/62f41838fc9b02e3cb2d500b55671351a09062fe...92c193f8771812e094e538260283b263ecd098b1)
