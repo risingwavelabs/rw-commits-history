@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251225` `3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0`
 - `20251224` `92c193f8771812e094e538260283b263ecd098b1`
 - `20251223` `62f41838fc9b02e3cb2d500b55671351a09062fe`
 - `20251222` `026111e9cc61e6ae7718151c8df27528a9b326d6`
@@ -289,7 +290,6 @@
 - `20241229` `eca573d7c69846889c90df7755c81ebcf48bc48b`
 - `20241227` `fdd2493fc4025e7b7ae745adac77e6b08697a5f0`
 - `20241226` `b13d5e977b6882ff02d18233c3157bf9cf1c01b0`
-- `20241225` `c40eb045c91e819a9282a641b716427c520089f1`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251225
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/92c193f8771812e094e538260283b263ecd098b1...3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0)
 - `3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0` [chore(deps): Bump org.bouncycastle:bcpkix-jdk18on from 1.78 to 1.79 in /java/connector-node/risingwave-sink-jdbc (#23666)](https://github.com/risingwavelabs/risingwave/pull/23666)
 - `0a9e05651b0ca6d99137e6da8d3338358d7eb1f0` [refactor(storage): use `clean_watermark_index` in `StateTable` (#24232)](https://github.com/risingwavelabs/risingwave/pull/24232)
 - `838538c3dfe830825c22c5e52d70b89d0298b257` [chore(deps): Bump org.apache.logging.log4j:log4j-core from 2.25.1 to 2.25.3 in /java (#24210)](https://github.com/risingwavelabs/risingwave/pull/24210)
@@ -3087,16 +3090,4 @@
 - `302c3caa9728a348fa476b43bd9e6f226c9043b0` [fix: support string to number type in JSONB_POPULATE_RECORD (#19937)](https://github.com/risingwavelabs/risingwave/pull/19937)
 
 ## nightly-20241226
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c40eb045c91e819a9282a641b716427c520089f1...b13d5e977b6882ff02d18233c3157bf9cf1c01b0)
 - `b13d5e977b6882ff02d18233c3157bf9cf1c01b0` [test: add a complex nested type test (#19940)](https://github.com/risingwavelabs/risingwave/pull/19940)
-- `3f76da8614e7eba3c8f6155981482dae75f68ac4` [feat(catalog): introduce clean_watermark_index_in_pk for state cleaning (#19938)](https://github.com/risingwavelabs/risingwave/pull/19938)
-- `ef74a63682dbe3ea69952a40d026a2afa8ed4bf8` [build: further prune unused dependencies and check in CI (#19926)](https://github.com/risingwavelabs/risingwave/pull/19926)
-- `62818d32bb7a0ab59a9187c34545ec29b391520a` [refactor(frontend): merge steps for resolving on-conflict behavior in create table handler (#19916)](https://github.com/risingwavelabs/risingwave/pull/19916)
-- `ad95d1026ada8a332fb932a60838714fb66ff13a` [feat(dashboard): improve relation & fragment graph (#19872)](https://github.com/risingwavelabs/risingwave/pull/19872)
-- `fa5e442bddbf513b4c5aece5c36ac5f6656c2c2c` [feat: migrate from icelake to iceberg-rust (#19887)](https://github.com/risingwavelabs/risingwave/pull/19887)
-- `764fed7ed58f4df9afc2ea7894ea13617375a456` [chore: remove `file_cache_bench` and `s3_bench` (#19927)](https://github.com/risingwavelabs/risingwave/pull/19927)
-- `1dee3accdd5baf4cafbff451798fdd7bb2381152` [feat(expr): support `IGNORE NULLS` for `first_value`/`last_value` (#19847)](https://github.com/risingwavelabs/risingwave/pull/19847)
-- `2f4008ceff378c88312a6d93fb2f28495a2ee043` [fix(iceberg): fix hidden row id for iceberg engine table (#19901)](https://github.com/risingwavelabs/risingwave/pull/19901)
-
-## nightly-20241225
-- `c40eb045c91e819a9282a641b716427c520089f1` [feat(storage): lazily remove instance data in uploader to avoid data loss (#19931)](https://github.com/risingwavelabs/risingwave/pull/19931)
