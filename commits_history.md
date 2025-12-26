@@ -298,6 +298,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ad39e862416e1d8f9b576086afb050804c21a7af` [feat: support order by in datafusion (#24275)](https://github.com/risingwavelabs/risingwave/pull/24275)
+- `09dabbbebf01960a91f3a948f8e84e475f5fb73b` [feat: improve default compaction config (#24209)](https://github.com/risingwavelabs/risingwave/pull/24209)
+- `2cb86ee3100c711be67cd2cc2320ef17e600f8d2` [feat(frontend): support planning table with watermark-ttl (#24121)](https://github.com/risingwavelabs/risingwave/pull/24121)
+- `33e25f3b6f934d9ae99ad3e67d7e47839c17d00c` [fix: count star may panic in datafusion (#24267)](https://github.com/risingwavelabs/risingwave/pull/24267)
+- `e879eb08dcb9d8a4316c1b3035a04631cb20caf2` [chore(deps): Bump github.com/dvsekhvalnov/jose2go from 1.6.0 to 1.7.0 in /integration_tests/datagen (#23771)](https://github.com/risingwavelabs/risingwave/pull/23771)
 
 ## nightly-20251225
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/92c193f8771812e094e538260283b263ecd098b1...3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0)
