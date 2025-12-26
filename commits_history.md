@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251226` `ad39e862416e1d8f9b576086afb050804c21a7af`
 - `20251225` `3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0`
 - `20251224` `92c193f8771812e094e538260283b263ecd098b1`
 - `20251223` `62f41838fc9b02e3cb2d500b55671351a09062fe`
@@ -289,7 +290,6 @@
 - `20241230` `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f`
 - `20241229` `eca573d7c69846889c90df7755c81ebcf48bc48b`
 - `20241227` `fdd2493fc4025e7b7ae745adac77e6b08697a5f0`
-- `20241226` `b13d5e977b6882ff02d18233c3157bf9cf1c01b0`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20251226
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0...ad39e862416e1d8f9b576086afb050804c21a7af)
 - `ad39e862416e1d8f9b576086afb050804c21a7af` [feat: support order by in datafusion (#24275)](https://github.com/risingwavelabs/risingwave/pull/24275)
 - `09dabbbebf01960a91f3a948f8e84e475f5fb73b` [feat: improve default compaction config (#24209)](https://github.com/risingwavelabs/risingwave/pull/24209)
 - `2cb86ee3100c711be67cd2cc2320ef17e600f8d2` [feat(frontend): support planning table with watermark-ttl (#24121)](https://github.com/risingwavelabs/risingwave/pull/24121)
@@ -3088,11 +3091,4 @@
 - `eca573d7c69846889c90df7755c81ebcf48bc48b` [feat: support expression in limit clause (#19834)](https://github.com/risingwavelabs/risingwave/pull/19834)
 
 ## nightly-20241227
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b13d5e977b6882ff02d18233c3157bf9cf1c01b0...fdd2493fc4025e7b7ae745adac77e6b08697a5f0)
 - `fdd2493fc4025e7b7ae745adac77e6b08697a5f0` [fix(barrier): broadcast actor info to newly added node (#19939)](https://github.com/risingwavelabs/risingwave/pull/19939)
-- `05397f91957f9ca9ed7c893ef6b667faf1bae4a0` [ci: rename e2e-test to e2e-test-serial (#19942)](https://github.com/risingwavelabs/risingwave/pull/19942)
-- `b1a5c58bae6b39166b4f4244526f98b1f24f0cc0` [refactor(iceberg): refactor jni catalog (#19946)](https://github.com/risingwavelabs/risingwave/pull/19946)
-- `302c3caa9728a348fa476b43bd9e6f226c9043b0` [fix: support string to number type in JSONB_POPULATE_RECORD (#19937)](https://github.com/risingwavelabs/risingwave/pull/19937)
-
-## nightly-20241226
-- `b13d5e977b6882ff02d18233c3157bf9cf1c01b0` [test: add a complex nested type test (#19940)](https://github.com/risingwavelabs/risingwave/pull/19940)
