@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251226` `ad39e862416e1d8f9b576086afb050804c21a7af`
+- `20251227` `ad39e862416e1d8f9b576086afb050804c21a7af`
 - `20251225` `3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0`
 - `20251224` `92c193f8771812e094e538260283b263ecd098b1`
 - `20251223` `62f41838fc9b02e3cb2d500b55671351a09062fe`
@@ -289,7 +289,6 @@
 - `20250101` `1f9a4c6969da48adc427078528852b2d2e3d79be`
 - `20241230` `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f`
 - `20241229` `eca573d7c69846889c90df7755c81ebcf48bc48b`
-- `20241227` `fdd2493fc4025e7b7ae745adac77e6b08697a5f0`
 </details>
 
 # Commit history
@@ -299,7 +298,7 @@
 
 ## Unreleased
 
-## nightly-20251226
+## nightly-20251227
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0...ad39e862416e1d8f9b576086afb050804c21a7af)
 - `ad39e862416e1d8f9b576086afb050804c21a7af` [feat: support order by in datafusion (#24275)](https://github.com/risingwavelabs/risingwave/pull/24275)
 - `09dabbbebf01960a91f3a948f8e84e475f5fb73b` [feat: improve default compaction config (#24209)](https://github.com/risingwavelabs/risingwave/pull/24209)
@@ -3087,8 +3086,4 @@
 - `2659bf2f3b6f57e6680e894a977da90727c2bd9d` [refactor(frontend): extract code for parsing table def sql into single stmt (#19948)](https://github.com/risingwavelabs/risingwave/pull/19948)
 
 ## nightly-20241229
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fdd2493fc4025e7b7ae745adac77e6b08697a5f0...eca573d7c69846889c90df7755c81ebcf48bc48b)
 - `eca573d7c69846889c90df7755c81ebcf48bc48b` [feat: support expression in limit clause (#19834)](https://github.com/risingwavelabs/risingwave/pull/19834)
-
-## nightly-20241227
-- `fdd2493fc4025e7b7ae745adac77e6b08697a5f0` [fix(barrier): broadcast actor info to newly added node (#19939)](https://github.com/risingwavelabs/risingwave/pull/19939)
