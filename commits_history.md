@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20251227` `ad39e862416e1d8f9b576086afb050804c21a7af`
+- `20251228` `ad39e862416e1d8f9b576086afb050804c21a7af`
 - `20251225` `3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0`
 - `20251224` `92c193f8771812e094e538260283b263ecd098b1`
 - `20251223` `62f41838fc9b02e3cb2d500b55671351a09062fe`
@@ -298,7 +298,7 @@
 
 ## Unreleased
 
-## nightly-20251227
+## nightly-20251228
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0...ad39e862416e1d8f9b576086afb050804c21a7af)
 - `ad39e862416e1d8f9b576086afb050804c21a7af` [feat: support order by in datafusion (#24275)](https://github.com/risingwavelabs/risingwave/pull/24275)
 - `09dabbbebf01960a91f3a948f8e84e475f5fb73b` [feat: improve default compaction config (#24209)](https://github.com/risingwavelabs/risingwave/pull/24209)
