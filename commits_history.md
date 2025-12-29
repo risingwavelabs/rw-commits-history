@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251229` `7465f1712039fe3246827302d14a6a24ab1d55e9`
 - `20251228` `ad39e862416e1d8f9b576086afb050804c21a7af`
 - `20251225` `3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0`
 - `20251224` `92c193f8771812e094e538260283b263ecd098b1`
@@ -288,7 +289,6 @@
 - `20250103` `972d5705064ac2b14ea09275ec96dca4443e59e2`
 - `20250101` `1f9a4c6969da48adc427078528852b2d2e3d79be`
 - `20241230` `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f`
-- `20241229` `eca573d7c69846889c90df7755c81ebcf48bc48b`
 </details>
 
 # Commit history
@@ -297,6 +297,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d593c2b2bde12bd3e569e372132c0221bbc64c0c` [chore(ci): add semver tag for images build on non-release branches (#24283)](https://github.com/risingwavelabs/risingwave/pull/24283)
+- `19c8b457db56dd450b9c7074ca6f8baeb9261bed` [fix(dashboard): download heap dump `collapsed` analyzed result (#24287)](https://github.com/risingwavelabs/risingwave/pull/24287)
+
+## nightly-20251229
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ad39e862416e1d8f9b576086afb050804c21a7af...7465f1712039fe3246827302d14a6a24ab1d55e9)
 - `7465f1712039fe3246827302d14a6a24ab1d55e9` [feat: support sql state 3D000 & add slt tests (#24216)](https://github.com/risingwavelabs/risingwave/pull/24216)
 - `35a761dfa8f27a6b25369b00a057c7e3e62e4718` [feat(sink): Sink schema change from barrier to persistent (#24271)](https://github.com/risingwavelabs/risingwave/pull/24271)
 - `62017adeadac787f21b199c47cfc412ab621b297` [fix: fix iceberg compaction queue duplicated id (#24279)](https://github.com/risingwavelabs/risingwave/pull/24279)
@@ -3081,12 +3086,4 @@
 - `1d4ab6192e4a973037d0f72457e8a21e5313bb08` [refactor(source): prefer `options_with_secret` over `with_properties` in `SpecificParserConfig::new` (#19900)](https://github.com/risingwavelabs/risingwave/pull/19900)
 
 ## nightly-20241230
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eca573d7c69846889c90df7755c81ebcf48bc48b...705cdf1353ae77f3789f49b89b7c695d9fd6cf2f)
 - `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f` [refactor(snapshot-backfill): extract common logic of consuming snapshot and log store (#19936)](https://github.com/risingwavelabs/risingwave/pull/19936)
-- `b8c9c236ac5e18f794f495c9d114042de735c389` [feat(types): support ns timestamp (#19827)](https://github.com/risingwavelabs/risingwave/pull/19827)
-- `e7cfe7935135ab3e4505dc79b178026b277778ad` [feat: support set database of the current session (#19786)](https://github.com/risingwavelabs/risingwave/pull/19786)
-- `99e74d76133d3a7f95b651f843719518b49f7ef4` [fix(metric): update committed epoch metrics (#19959)](https://github.com/risingwavelabs/risingwave/pull/19959)
-- `2659bf2f3b6f57e6680e894a977da90727c2bd9d` [refactor(frontend): extract code for parsing table def sql into single stmt (#19948)](https://github.com/risingwavelabs/risingwave/pull/19948)
-
-## nightly-20241229
-- `eca573d7c69846889c90df7755c81ebcf48bc48b` [feat: support expression in limit clause (#19834)](https://github.com/risingwavelabs/risingwave/pull/19834)
