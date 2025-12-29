@@ -297,6 +297,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7465f1712039fe3246827302d14a6a24ab1d55e9` [feat: support sql state 3D000 & add slt tests (#24216)](https://github.com/risingwavelabs/risingwave/pull/24216)
+- `35a761dfa8f27a6b25369b00a057c7e3e62e4718` [feat(sink): Sink schema change from barrier to persistent (#24271)](https://github.com/risingwavelabs/risingwave/pull/24271)
+- `62017adeadac787f21b199c47cfc412ab621b297` [fix: fix iceberg compaction queue duplicated id (#24279)](https://github.com/risingwavelabs/risingwave/pull/24279)
 
 ## nightly-20251228
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0...ad39e862416e1d8f9b576086afb050804c21a7af)
