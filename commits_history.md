@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251230` `1c5e482fc3b6b85b28bf4474b684f42946e414be`
 - `20251229` `7465f1712039fe3246827302d14a6a24ab1d55e9`
 - `20251228` `ad39e862416e1d8f9b576086afb050804c21a7af`
 - `20251225` `3b3da1a032cbb9d36aa6d8ea2257753dcaa9e2c0`
@@ -288,7 +289,6 @@
 - `20250105` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
 - `20250103` `972d5705064ac2b14ea09275ec96dca4443e59e2`
 - `20250101` `1f9a4c6969da48adc427078528852b2d2e3d79be`
-- `20241230` `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f`
 </details>
 
 # Commit history
@@ -297,6 +297,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c91ccd619a4f83c3b31292aad4eb06b4f4ca7125` [feat: add backfill-specific parallelism control for streaming jobs (#24026)](https://github.com/risingwavelabs/risingwave/pull/24026)
+
+## nightly-20251230
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7465f1712039fe3246827302d14a6a24ab1d55e9...1c5e482fc3b6b85b28bf4474b684f42946e414be)
 - `1c5e482fc3b6b85b28bf4474b684f42946e414be` [chore(deps): Bump redis from 0.32.7 to 1.0.2 (#24265)](https://github.com/risingwavelabs/risingwave/pull/24265)
 - `8fd2e7bc9c5eae71a919c80eddb7aef8ef3d60b3` [fix(sink): fix jdbc sink setTransactionIsolation to prevent RDS Proxy session pinning (#24270)](https://github.com/risingwavelabs/risingwave/pull/24270)
 - `d593c2b2bde12bd3e569e372132c0221bbc64c0c` [chore(ci): add semver tag for images build on non-release branches (#24283)](https://github.com/risingwavelabs/risingwave/pull/24283)
@@ -3082,10 +3086,4 @@
 - `fc48e3cb58deb3488e2b63195765be82976a0691` [feat(bench): add bench with join type and cache workload (#19789)](https://github.com/risingwavelabs/risingwave/pull/19789)
 
 ## nightly-20250101
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/705cdf1353ae77f3789f49b89b7c695d9fd6cf2f...1f9a4c6969da48adc427078528852b2d2e3d79be)
 - `1f9a4c6969da48adc427078528852b2d2e3d79be` [feat: `message_as_jsonb` to handle circle dep in protobuf (#19935)](https://github.com/risingwavelabs/risingwave/pull/19935)
-- `76a6d1d11c479b7a1707905e6e01d4e6c38ec819` [ci: remove e2e test RUN_COMPACTION (#19970)](https://github.com/risingwavelabs/risingwave/pull/19970)
-- `1d4ab6192e4a973037d0f72457e8a21e5313bb08` [refactor(source): prefer `options_with_secret` over `with_properties` in `SpecificParserConfig::new` (#19900)](https://github.com/risingwavelabs/risingwave/pull/19900)
-
-## nightly-20241230
-- `705cdf1353ae77f3789f49b89b7c695d9fd6cf2f` [refactor(snapshot-backfill): extract common logic of consuming snapshot and log store (#19936)](https://github.com/risingwavelabs/risingwave/pull/19936)
