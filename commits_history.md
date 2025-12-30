@@ -297,6 +297,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1c5e482fc3b6b85b28bf4474b684f42946e414be` [chore(deps): Bump redis from 0.32.7 to 1.0.2 (#24265)](https://github.com/risingwavelabs/risingwave/pull/24265)
+- `8fd2e7bc9c5eae71a919c80eddb7aef8ef3d60b3` [fix(sink): fix jdbc sink setTransactionIsolation to prevent RDS Proxy session pinning (#24270)](https://github.com/risingwavelabs/risingwave/pull/24270)
 - `d593c2b2bde12bd3e569e372132c0221bbc64c0c` [chore(ci): add semver tag for images build on non-release branches (#24283)](https://github.com/risingwavelabs/risingwave/pull/24283)
 - `19c8b457db56dd450b9c7074ca6f8baeb9261bed` [fix(dashboard): download heap dump `collapsed` analyzed result (#24287)](https://github.com/risingwavelabs/risingwave/pull/24287)
 
