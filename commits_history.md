@@ -297,6 +297,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `698d28ead061bde013db51e689d45f97ace9570d` [feat(risectl, dashboard): support profiling nodes other than compute node (#24278)](https://github.com/risingwavelabs/risingwave/pull/24278)
+- `130a8a10a771bd296e85e7aa49a0bc1f66a36587` [feat(binder): reuse existing expressions when binding extra columns in `ORDER BY` (#24298)](https://github.com/risingwavelabs/risingwave/pull/24298)
+- `928e358a5cc559abcdb866542575c8a98f51866f` [refactor(dashboards): rewrite to reduce nested string quotes (#24238)](https://github.com/risingwavelabs/risingwave/pull/24238)
 - `c91ccd619a4f83c3b31292aad4eb06b4f4ca7125` [feat: add backfill-specific parallelism control for streaming jobs (#24026)](https://github.com/risingwavelabs/risingwave/pull/24026)
 
 ## nightly-20251230
