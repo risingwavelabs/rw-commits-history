@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20251231` `698d28ead061bde013db51e689d45f97ace9570d`
 - `20251230` `1c5e482fc3b6b85b28bf4474b684f42946e414be`
 - `20251229` `7465f1712039fe3246827302d14a6a24ab1d55e9`
 - `20251228` `ad39e862416e1d8f9b576086afb050804c21a7af`
@@ -297,6 +298,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97` [fix(test): increase recovery wait time in backfill parallelism test (#24309)](https://github.com/risingwavelabs/risingwave/pull/24309)
+
+## nightly-20251231
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c5e482fc3b6b85b28bf4474b684f42946e414be...698d28ead061bde013db51e689d45f97ace9570d)
 - `698d28ead061bde013db51e689d45f97ace9570d` [feat(risectl, dashboard): support profiling nodes other than compute node (#24278)](https://github.com/risingwavelabs/risingwave/pull/24278)
 - `130a8a10a771bd296e85e7aa49a0bc1f66a36587` [feat(binder): reuse existing expressions when binding extra columns in `ORDER BY` (#24298)](https://github.com/risingwavelabs/risingwave/pull/24298)
 - `928e358a5cc559abcdb866542575c8a98f51866f` [refactor(dashboards): rewrite to reduce nested string quotes (#24238)](https://github.com/risingwavelabs/risingwave/pull/24238)
