@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260101` `fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97`
 - `20251231` `698d28ead061bde013db51e689d45f97ace9570d`
 - `20251230` `1c5e482fc3b6b85b28bf4474b684f42946e414be`
 - `20251229` `7465f1712039fe3246827302d14a6a24ab1d55e9`
@@ -289,7 +290,6 @@
 - `20250106` `aa3df8e775921e46c94976437cedf9597ea263d4`
 - `20250105` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
 - `20250103` `972d5705064ac2b14ea09275ec96dca4443e59e2`
-- `20250101` `1f9a4c6969da48adc427078528852b2d2e3d79be`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260101
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/698d28ead061bde013db51e689d45f97ace9570d...fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97)
 - `fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97` [fix(test): increase recovery wait time in backfill parallelism test (#24309)](https://github.com/risingwavelabs/risingwave/pull/24309)
 
 ## nightly-20251231
@@ -3067,31 +3070,4 @@
 - `79405dc227e289f97164b2ec83046cf1084c0d65` [test: ignore leak bucket unit test (#20019)](https://github.com/risingwavelabs/risingwave/pull/20019)
 
 ## nightly-20250103
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1f9a4c6969da48adc427078528852b2d2e3d79be...972d5705064ac2b14ea09275ec96dca4443e59e2)
 - `972d5705064ac2b14ea09275ec96dca4443e59e2` [refactor(iceberg): support position delete merge on read with hash join  (#19656)](https://github.com/risingwavelabs/risingwave/pull/19656)
-- `6248415f7bc709a4fd2e3ca39563c6106cd63785` [fix(optimizer): can't apply pull_up_correlated_predicate_agg_rule with non-null-propagating expr (#20012)](https://github.com/risingwavelabs/risingwave/pull/20012)
-- `e08b0f9c9adbb9ef7f5523071d269e2fdfba1dd7` [feat(snapshot-backfill): measure accumulated row count for each vnode stream (#20016)](https://github.com/risingwavelabs/risingwave/pull/20016)
-- `ada38dc05c7cc1b8e03f1812c8bb3bb814da2957` [feat(dashboard): add throughput (rows/s) metrics (#19972)](https://github.com/risingwavelabs/risingwave/pull/19972)
-- `355c4a063dd5074d6aa57e26701ab65c344b7c59` [refactor(source): remove chunk splitting logic in `apply_rate_limit` (#19826)](https://github.com/risingwavelabs/risingwave/pull/19826)
-- `44665c779466401ae43b7c82cc850b7121721fef` [feat: add uuid for iceberg data file name suffix (#20013)](https://github.com/risingwavelabs/risingwave/pull/20013)
-- `fc5a60f474f7f1e615a2eb00387634845d076478` [refactor(meta): cleanup legacy code for v1 (#19995)](https://github.com/risingwavelabs/risingwave/pull/19995)
-- `895c1bf1d62f6eed89d91004ecb44be1710bd75a` [feat(iceberg): support emr serverless compaction for iceberg table (#19775)](https://github.com/risingwavelabs/risingwave/pull/19775)
-- `18a54d0c201664288e1cffb82c63a65a908c1e54` [fix(meta): use unlimited timeout for sqlite backend (#20009)](https://github.com/risingwavelabs/risingwave/pull/20009)
-- `67cb18b51d3fbf1318f884491d7e5a83495fa7d6` [refactor(streaming): unify rate limiter and related components design (#19967)](https://github.com/risingwavelabs/risingwave/pull/19967)
-- `194f8bbfdc07c3414be52b7f4a06f43c072025b0` [refactor(meta): unify code for different kinds of source change (#19991)](https://github.com/risingwavelabs/risingwave/pull/19991)
-- `bef87728e7a217127e3b955a9f50202d3a046c0f` [refactor(meta): minor refactors  (#19990)](https://github.com/risingwavelabs/risingwave/pull/19990)
-- `c28ea2da9780ea8e82e60a3f2e9a3ea436e18824` [refactor(dashboard): refactor back-pressure calculation (#20001)](https://github.com/risingwavelabs/risingwave/pull/20001)
-- `104c4bf6f754de56721a47980e5e4dae5c16e755` [fix(telemetry): retry telemetry ut 3 times to mitigate failures on CI (#19983)](https://github.com/risingwavelabs/risingwave/pull/19983)
-- `5cb0d17182de20354df198477b9955d5689e82ba` [perf(storage): use VecDeque for TableChangeLog to avoid large clone on truncate (#19984)](https://github.com/risingwavelabs/risingwave/pull/19984)
-- `cbf88efe68152d6b01d8a1529572e6eb9a24dd64` [feat: update iceberg version (#19963)](https://github.com/risingwavelabs/risingwave/pull/19963)
-- `17c4cd2b6e8bd5988230c55f856c1c82fce2422c` [chore(deps): Bump duration-str from 0.11.2 to 0.12.0 (#19969)](https://github.com/risingwavelabs/risingwave/pull/19969)
-- `442ff0f3ef0d19592bafb74ac5a1d2ba57d82ee2` [feat(dashboard): backpressure: remove the support for Promethues data 		 source (#19953)](https://github.com/risingwavelabs/risingwave/pull/19953)
-- `0e61581697f955a792c7234bc59fcae566475dd9` [feat(test): use ephemeral env for python inline scripts by `uv` if available (#19971)](https://github.com/risingwavelabs/risingwave/pull/19971)
-- `cbf002fcf1973aff2867e3c0549aac38fc97135e` [chore: update license header and happy 2025 (#19979)](https://github.com/risingwavelabs/risingwave/pull/19979)
-- `2cd40981b5ca14d98b85d755fffc3e6d6b449cef` [refactor(connector): use `pk IN (...)` instead of `AND/OR` in DELETE for pg sink (#19977)](https://github.com/risingwavelabs/risingwave/pull/19977)
-- `bfd5e787f62e066edd23a5029bacbc7712e88f2e` [chore(deps): Bump petgraph from 0.6.4 to 0.6.5 (#19976)](https://github.com/risingwavelabs/risingwave/pull/19976)
-- `cb537c6aeea9734e2e8e8c38e1a1a1c7d7122101` [feat(single-node): add memory allocation (#19895)](https://github.com/risingwavelabs/risingwave/pull/19895)
-- `fc48e3cb58deb3488e2b63195765be82976a0691` [feat(bench): add bench with join type and cache workload (#19789)](https://github.com/risingwavelabs/risingwave/pull/19789)
-
-## nightly-20250101
-- `1f9a4c6969da48adc427078528852b2d2e3d79be` [feat: `message_as_jsonb` to handle circle dep in protobuf (#19935)](https://github.com/risingwavelabs/risingwave/pull/19935)
