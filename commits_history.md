@@ -298,6 +298,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5d6d72e8d70667701ae36219993a3643a377939b` [fix(expr): resolve PG incompatibility with NULL handling in array con… (#23399)](https://github.com/risingwavelabs/risingwave/pull/23399)
+- `df9f6e9d3c0454c4f818a443f710c442042b9b06` [chore(ci): use file creation date as copyright year for license header check  (#24317)](https://github.com/risingwavelabs/risingwave/pull/24317)
+- `cf32a09198518e2332b8b13228ac6e22f07d16d6` [feat(expr): allow jsonb null values to be cast to scalar types as null (#23608)](https://github.com/risingwavelabs/risingwave/pull/23608)
+- `f1a056fe877cb9297d83702aab8349c92a2fd459` [feat: make decimal as datafusion native type (#24284)](https://github.com/risingwavelabs/risingwave/pull/24284)
 
 ## nightly-20260101
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/698d28ead061bde013db51e689d45f97ace9570d...fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97)
