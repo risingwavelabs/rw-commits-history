@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260102` `5d6d72e8d70667701ae36219993a3643a377939b`
 - `20260101` `fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97`
 - `20251231` `698d28ead061bde013db51e689d45f97ace9570d`
 - `20251230` `1c5e482fc3b6b85b28bf4474b684f42946e414be`
@@ -298,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c8e8c52cb24bf0284e4a63a5d5f6afe41792ebf6` [feat(iceberg): improve iceberg decimal handling: adjust ICEBERG_DECIMAL_PRECISION = 38 (#24316)](https://github.com/risingwavelabs/risingwave/pull/24316)
+- `423a3553b70b73b510fc4aa0733dc3d4e94bdf73` [fix(optimizer): improve table scan better locality index selection (#24318)](https://github.com/risingwavelabs/risingwave/pull/24318)
+
+## nightly-20260102
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97...5d6d72e8d70667701ae36219993a3643a377939b)
 - `5d6d72e8d70667701ae36219993a3643a377939b` [fix(expr): resolve PG incompatibility with NULL handling in array con… (#23399)](https://github.com/risingwavelabs/risingwave/pull/23399)
 - `df9f6e9d3c0454c4f818a443f710c442042b9b06` [chore(ci): use file creation date as copyright year for license header check  (#24317)](https://github.com/risingwavelabs/risingwave/pull/24317)
 - `cf32a09198518e2332b8b13228ac6e22f07d16d6` [feat(expr): allow jsonb null values to be cast to scalar types as null (#23608)](https://github.com/risingwavelabs/risingwave/pull/23608)
