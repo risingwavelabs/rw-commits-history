@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260103` `c8e8c52cb24bf0284e4a63a5d5f6afe41792ebf6`
 - `20260102` `5d6d72e8d70667701ae36219993a3643a377939b`
 - `20260101` `fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97`
 - `20251231` `698d28ead061bde013db51e689d45f97ace9570d`
@@ -290,7 +291,6 @@
 - `20250107` `f530c10b4a614d353d17d924b69b5690aa282476`
 - `20250106` `aa3df8e775921e46c94976437cedf9597ea263d4`
 - `20250105` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
-- `20250103` `972d5705064ac2b14ea09275ec96dca4443e59e2`
 </details>
 
 # Commit history
@@ -299,6 +299,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260103
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5d6d72e8d70667701ae36219993a3643a377939b...c8e8c52cb24bf0284e4a63a5d5f6afe41792ebf6)
 - `c8e8c52cb24bf0284e4a63a5d5f6afe41792ebf6` [feat(iceberg): improve iceberg decimal handling: adjust ICEBERG_DECIMAL_PRECISION = 38 (#24316)](https://github.com/risingwavelabs/risingwave/pull/24316)
 - `423a3553b70b73b510fc4aa0733dc3d4e94bdf73` [fix(optimizer): improve table scan better locality index selection (#24318)](https://github.com/risingwavelabs/risingwave/pull/24318)
 
@@ -3075,9 +3078,4 @@
 - `3f75df9acb0eeb49f4e86b1c567ee88680f69c0d` [feat(frontend): initially introduce table def sql purification (#19949)](https://github.com/risingwavelabs/risingwave/pull/19949)
 
 ## nightly-20250105
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/972d5705064ac2b14ea09275ec96dca4443e59e2...d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334)
 - `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334` [chore(dep): bump rw-tokio to `1.40.0` (#20015)](https://github.com/risingwavelabs/risingwave/pull/20015)
-- `79405dc227e289f97164b2ec83046cf1084c0d65` [test: ignore leak bucket unit test (#20019)](https://github.com/risingwavelabs/risingwave/pull/20019)
-
-## nightly-20250103
-- `972d5705064ac2b14ea09275ec96dca4443e59e2` [refactor(iceberg): support position delete merge on read with hash join  (#19656)](https://github.com/risingwavelabs/risingwave/pull/19656)
