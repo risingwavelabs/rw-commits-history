@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260104` `2e3a141e68868aa8cd569eb50e309e8158c2b5fa`
 - `20260103` `c8e8c52cb24bf0284e4a63a5d5f6afe41792ebf6`
 - `20260102` `5d6d72e8d70667701ae36219993a3643a377939b`
 - `20260101` `fef6e1f4e5f6cbf5dd756a510a116543f8d8ba97`
@@ -299,6 +300,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `89a91a0011d5e23ce0c7df728098c3221fbe592d` [fix(meta): include cdc metadata in backup (#24327)](https://github.com/risingwavelabs/risingwave/pull/24327)
+- `9f5659c0969fd4560c38c2a0d0bd561f14c9a7fd` [refactor(meta): throttle jobs by fragment (#24301)](https://github.com/risingwavelabs/risingwave/pull/24301)
+
+## nightly-20260104
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c8e8c52cb24bf0284e4a63a5d5f6afe41792ebf6...2e3a141e68868aa8cd569eb50e309e8158c2b5fa)
 - `2e3a141e68868aa8cd569eb50e309e8158c2b5fa` [chore: fix iceberg schema change test in main cron (#24324)](https://github.com/risingwavelabs/risingwave/pull/24324)
 - `36b003cb090b11d939784aea2f2d48e4550455dd` [fix(iceberg): Remove some limit between sink-decouple and exactly-once (#24290)](https://github.com/risingwavelabs/risingwave/pull/24290)
 
