@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260105` `52acc86e9a8fab039ce1fdf3d750f9884b6102a1`
 - `20260104` `2e3a141e68868aa8cd569eb50e309e8158c2b5fa`
 - `20260103` `c8e8c52cb24bf0284e4a63a5d5f6afe41792ebf6`
 - `20260102` `5d6d72e8d70667701ae36219993a3643a377939b`
@@ -291,7 +292,6 @@
 - `20250108` `1bc6bea26cd2c103b827837b007f3a1d5e2d6067`
 - `20250107` `f530c10b4a614d353d17d924b69b5690aa282476`
 - `20250106` `aa3df8e775921e46c94976437cedf9597ea263d4`
-- `20250105` `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334`
 </details>
 
 # Commit history
@@ -300,6 +300,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e629bf44c380bf85607a2a23279cb224eca52b17` [refactor(sink): Split sink schema change to use two-phase commit (#24288)](https://github.com/risingwavelabs/risingwave/pull/24288)
+- `d40e79ae614762b578348fccdef71ec7f1f7264e` [chore(ci): refine hints on license header checks  (#24343)](https://github.com/risingwavelabs/risingwave/pull/24343)
+
+## nightly-20260105
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2e3a141e68868aa8cd569eb50e309e8158c2b5fa...52acc86e9a8fab039ce1fdf3d750f9884b6102a1)
 - `52acc86e9a8fab039ce1fdf3d750f9884b6102a1` [fix(optimizer): fix topn index selection for scan with output col idx (#24242)](https://github.com/risingwavelabs/risingwave/pull/24242)
 - `2ea1f6c3c9508effce602caa78be649fa77729b8` [refactor: preload recovery context for upstream sink union recovery (#24255)](https://github.com/risingwavelabs/risingwave/pull/24255)
 - `5c5ec84cda5963f7bff037f82478414d87d5a97b` [feat: export iceberg stats to datafusion (#24334)](https://github.com/risingwavelabs/risingwave/pull/24334)
@@ -3090,17 +3095,4 @@
 - `8a5a574a65266e226c9cf944747f9069b0f800e5` [fix(frontend): use set time zone in Hummock time travel (#20031)](https://github.com/risingwavelabs/risingwave/pull/20031)
 
 ## nightly-20250106
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334...aa3df8e775921e46c94976437cedf9597ea263d4)
 - `aa3df8e775921e46c94976437cedf9597ea263d4` [feat(iceberg): support iceberg on gcs (#19999)](https://github.com/risingwavelabs/risingwave/pull/19999)
-- `1d6a421ef7af8243f68f04edd8fa2d2db1e60881` [feat(sink): Support updates rather than overrides for mongodb sink upsert (#20011)](https://github.com/risingwavelabs/risingwave/pull/20011)
-- `fef0ffe7a730b0afe1058f52c7a2ed76f26b4dfb` [test: fix flaky slt test cases with `retry` (#20018)](https://github.com/risingwavelabs/risingwave/pull/20018)
-- `0669bd6e3a6a67af4fea9e94d29e7bea260eaf87` [chore(deps): Bump aws-sdk-emrserverless from 1.47.0 to 1.50.0 in the aws group (#20020)](https://github.com/risingwavelabs/risingwave/pull/20020)
-- `dc061858a1327e9464c2f54d265aa8f21f5a7736` [chore(test): extend the waiting period for the single node test (#20029)](https://github.com/risingwavelabs/risingwave/pull/20029)
-- `b05f8646c45d48bf7924be5d0db78c35bb697b76` [fix(risedev): CONNECTOR_LIBS_PATH for frontend is not set (#20027)](https://github.com/risingwavelabs/risingwave/pull/20027)
-- `e5ca409ec49d42b8fc4fb4af4e9c3294226a8928` [chore(deps): Bump next from 14.2.20 to 14.2.22 in /dashboard (#20021)](https://github.com/risingwavelabs/risingwave/pull/20021)
-- `448550db2b328470ad2124b9e7e369c926880a3e` [feat(frontend): purification for source def sql (#19965)](https://github.com/risingwavelabs/risingwave/pull/19965)
-- `2601c237a7dd677c1314482f91720f4ea78841b5` [feat(optimizer): introduce watermark group (#19894)](https://github.com/risingwavelabs/risingwave/pull/19894)
-- `3f75df9acb0eeb49f4e86b1c567ee88680f69c0d` [feat(frontend): initially introduce table def sql purification (#19949)](https://github.com/risingwavelabs/risingwave/pull/19949)
-
-## nightly-20250105
-- `d8f9d96da8d9f079eaa17d18c8ac00f74d1fd334` [chore(dep): bump rw-tokio to `1.40.0` (#20015)](https://github.com/risingwavelabs/risingwave/pull/20015)
