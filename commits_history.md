@@ -300,6 +300,23 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `52acc86e9a8fab039ce1fdf3d750f9884b6102a1` [fix(optimizer): fix topn index selection for scan with output col idx (#24242)](https://github.com/risingwavelabs/risingwave/pull/24242)
+- `2ea1f6c3c9508effce602caa78be649fa77729b8` [refactor: preload recovery context for upstream sink union recovery (#24255)](https://github.com/risingwavelabs/risingwave/pull/24255)
+- `5c5ec84cda5963f7bff037f82478414d87d5a97b` [feat: export iceberg stats to datafusion (#24334)](https://github.com/risingwavelabs/risingwave/pull/24334)
+- `0f8616634537ba4224b264fb5a1658d39a379814` [feat: shorten_block_smallest_key (#24274)](https://github.com/risingwavelabs/risingwave/pull/24274)
+- `9bb25d28712fc3f299378a8eb4619bd12091ab0c` [perf: Reduce block-meta copies in the compactor . (#24256)](https://github.com/risingwavelabs/risingwave/pull/24256)
+- `d9f72431094b034dc15ef6fe2d3ce2cbaccd44e2` [feat: support LogicalUnion and LogicalDedup in datafusion (#24300)](https://github.com/risingwavelabs/risingwave/pull/24300)
+- `70e0b1922adaea76a2821d8c334b1d586d8e8402` [fix(iceberg): relax meta store check for iceberg connection (#24260)](https://github.com/risingwavelabs/risingwave/pull/24260)
+- `8b9f8359d505711ab5a188c0cf68ee6255aa3f1d` [feat(cdc): introduce configurable and adjustable `max.queue.size.in.bytes` (#23897)](https://github.com/risingwavelabs/risingwave/pull/23897)
+- `e99510a6ada88473abc16ee2e43581617f98e7cb` [refactor(sink): replace `ForceAppendOnly` with a separate `ignore_delete` field (#24310)](https://github.com/risingwavelabs/risingwave/pull/24310)
+- `6becf3a537d4809118f94f57b1e9418cc31c21f7` [refactor(streaming): remove `cleaned_by_watermark` field in table (#24266)](https://github.com/risingwavelabs/risingwave/pull/24266)
+- `8499bf419667f383b04f0879268757d9da5b634a` [perf(storage): avoid redundant key encoding in block builder (#24228)](https://github.com/risingwavelabs/risingwave/pull/24228)
+- `4216c1d2db04616d7391029b1261cbe80a7a381f` [fix(meta): Fix loop control in alter mv graph matching (#24326)](https://github.com/risingwavelabs/risingwave/pull/24326)
+- `4982aad1adf3aa859aed47726b2ecb2431993439` [fix(meta): fix race condition during metadata backup (#24269)](https://github.com/risingwavelabs/risingwave/pull/24269)
+- `c649dfffcf068857b18080e68386eb9d30ecc943` [fix: fix split huge group condition (#24243)](https://github.com/risingwavelabs/risingwave/pull/24243)
+- `37cddc5bf7e182b7efcee432ef7b4397a2e9eda5` [feat: support window function in datafusion (#24297)](https://github.com/risingwavelabs/risingwave/pull/24297)
+- `8c5b2f28bfdf27c5b76eebdfe0832d9f2d8d841f` [feat(expr): add `array_reverse` (#23478)](https://github.com/risingwavelabs/risingwave/pull/23478)
+- `44c8691da8939e713a9089d80e735c179eba74ff` [feat(iceberg): support schema change for exactly once iceberg sink (#24273)](https://github.com/risingwavelabs/risingwave/pull/24273)
 - `89a91a0011d5e23ce0c7df728098c3221fbe592d` [fix(meta): include cdc metadata in backup (#24327)](https://github.com/risingwavelabs/risingwave/pull/24327)
 - `9f5659c0969fd4560c38c2a0d0bd561f14c9a7fd` [refactor(meta): throttle jobs by fragment (#24301)](https://github.com/risingwavelabs/risingwave/pull/24301)
 
