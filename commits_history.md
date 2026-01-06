@@ -300,6 +300,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6c5816d71f1e84b31b5f40089fc28e4a714c6aaf` [feat(stream): remove dispatcher on error to avoid recovery (#24289)](https://github.com/risingwavelabs/risingwave/pull/24289)
+- `6e50feec93497ea076835f7397ca4dd11005b6ae` [fix(privilege): Use super user for dummy session to avoid permission checks (#24352)](https://github.com/risingwavelabs/risingwave/pull/24352)
+- `8c6e198759a33ef0a5e5449dafc57b09ec796ed8` [feat(optimizer): convert lateral table-function apply to project-set (#24254)](https://github.com/risingwavelabs/risingwave/pull/24254)
+- `aed1a22a8590c070d07178c2478d7a829e640147` [feat(iceberg): support explain datafusion physical plan (#24345)](https://github.com/risingwavelabs/risingwave/pull/24345)
+- `c603bd0f15a56545995577b69994b9b4e9a366af` [chore(deps): Bump serial_test from 3.2.0 to 3.3.1 (#24347)](https://github.com/risingwavelabs/risingwave/pull/24347)
+- `7ea776e0f59e553276ad26d164d5093acad45884` [feat: maintain per vnode min/max in state table for pruning (#24214)](https://github.com/risingwavelabs/risingwave/pull/24214)
 - `e629bf44c380bf85607a2a23279cb224eca52b17` [refactor(sink): Split sink schema change to use two-phase commit (#24288)](https://github.com/risingwavelabs/risingwave/pull/24288)
 - `d40e79ae614762b578348fccdef71ec7f1f7264e` [chore(ci): refine hints on license header checks  (#24343)](https://github.com/risingwavelabs/risingwave/pull/24343)
 
