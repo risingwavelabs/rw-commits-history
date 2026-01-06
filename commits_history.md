@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260106` `6c5816d71f1e84b31b5f40089fc28e4a714c6aaf`
 - `20260105` `52acc86e9a8fab039ce1fdf3d750f9884b6102a1`
 - `20260104` `2e3a141e68868aa8cd569eb50e309e8158c2b5fa`
 - `20260103` `c8e8c52cb24bf0284e4a63a5d5f6afe41792ebf6`
@@ -291,7 +292,6 @@
 - `20250109` `8b5cabac7ba209efacfc05eb92086d83a45309c8`
 - `20250108` `1bc6bea26cd2c103b827837b007f3a1d5e2d6067`
 - `20250107` `f530c10b4a614d353d17d924b69b5690aa282476`
-- `20250106` `aa3df8e775921e46c94976437cedf9597ea263d4`
 </details>
 
 # Commit history
@@ -300,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260106
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52acc86e9a8fab039ce1fdf3d750f9884b6102a1...6c5816d71f1e84b31b5f40089fc28e4a714c6aaf)
 - `6c5816d71f1e84b31b5f40089fc28e4a714c6aaf` [feat(stream): remove dispatcher on error to avoid recovery (#24289)](https://github.com/risingwavelabs/risingwave/pull/24289)
 - `6e50feec93497ea076835f7397ca4dd11005b6ae` [fix(privilege): Use super user for dummy session to avoid permission checks (#24352)](https://github.com/risingwavelabs/risingwave/pull/24352)
 - `8c6e198759a33ef0a5e5449dafc57b09ec796ed8` [feat(optimizer): convert lateral table-function apply to project-set (#24254)](https://github.com/risingwavelabs/risingwave/pull/24254)
@@ -3085,20 +3088,4 @@
 - `ef4f61414db721df8f6121f5dc53993a7562b67a` [chore(deps): Bump downcast-rs from 1.2.0 to 2.0.1 (#20063)](https://github.com/risingwavelabs/risingwave/pull/20063)
 
 ## nightly-20250107
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aa3df8e775921e46c94976437cedf9597ea263d4...f530c10b4a614d353d17d924b69b5690aa282476)
 - `f530c10b4a614d353d17d924b69b5690aa282476` [feat(connector): add minio file scan type and enhance test (#19950)](https://github.com/risingwavelabs/risingwave/pull/19950)
-- `5084d92d709b4991017310827b00fa626a646b52` [ci: refine trap; remove misc check (#20030)](https://github.com/risingwavelabs/risingwave/pull/20030)
-- `b098e151baff8423a0187062166bbea297a2a5db` [refactor(streaming): remove `get_compacted_row` from `StateTable` (#20034)](https://github.com/risingwavelabs/risingwave/pull/20034)
-- `ec36f40aa80c16fec3e3c1c3c07bf6f3da525931` [fix(iceberg): only convert iceberg table to iceberg source for batch dql (#20045)](https://github.com/risingwavelabs/risingwave/pull/20045)
-- `2497760a206afc7137590c0c581dd5652e79d3f4` [perf(stream): concurrently fetch row from storage and refill cache (#19629)](https://github.com/risingwavelabs/risingwave/pull/19629)
-- `efbeec1f84543ce8c5c7eda2d997ea3e124bc912` [feat(dashboard):  introduce alert overview for dev dashboard  (#20014)](https://github.com/risingwavelabs/risingwave/pull/20014)
-- `8a03433c78215f7333fe035723a3f8c48236d754` [chore(deps): Bump google-cloud-googleapis (#20024)](https://github.com/risingwavelabs/risingwave/pull/20024)
-- `bb8b8554eb8e4e30a68d9806a7d8dd35bcc6520b` [feat(connector): introduce gcs file scan (#19974)](https://github.com/risingwavelabs/risingwave/pull/19974)
-- `189319d0d87219d7cf632417f0b5a3b0c192c355` [feat(snapshot-backfill): introduce state to snapshot backfill (#19720)](https://github.com/risingwavelabs/risingwave/pull/19720)
-- `cf5de9f8ae612b9aeb9ef093c7797469ef59d6cd` [chore(test): pin pip package version for e2e sink (#20044)](https://github.com/risingwavelabs/risingwave/pull/20044)
-- `cca7b5e3e227c11b849e83fa6a889e653ffd27f5` [fix(stream): avoid committing to in-memory state store in join benchmark (#20008)](https://github.com/risingwavelabs/risingwave/pull/20008)
-- `f4bfe1fd51317727d38ccfe8f89da5f9a967bde7` [feat(eowc): allow multiple watermark columns in eowc hash agg (#19998)](https://github.com/risingwavelabs/risingwave/pull/19998)
-- `8a5a574a65266e226c9cf944747f9069b0f800e5` [fix(frontend): use set time zone in Hummock time travel (#20031)](https://github.com/risingwavelabs/risingwave/pull/20031)
-
-## nightly-20250106
-- `aa3df8e775921e46c94976437cedf9597ea263d4` [feat(iceberg): support iceberg on gcs (#19999)](https://github.com/risingwavelabs/risingwave/pull/19999)
