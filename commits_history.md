@@ -300,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d701d6cae3687825cd28bca99549ce757bcccdb2` [fix(sink): fix force-append-only sink panicked at inconsistent changes when specified pk does not guarantee uniqueness (#24368)](https://github.com/risingwavelabs/risingwave/pull/24368)
+- `aff8bf8040f4904c55f97b113dd548cb7c18cf0f` [feat(cdc): introduce reset source command (#23945)](https://github.com/risingwavelabs/risingwave/pull/23945)
+- `145d97007f5c437df9805bde278a815af79a54ab` [fix(metrics): join lookup miss metric in take_state_opt (#24363)](https://github.com/risingwavelabs/risingwave/pull/24363)
 
 ## nightly-20260106
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52acc86e9a8fab039ce1fdf3d750f9884b6102a1...6c5816d71f1e84b31b5f40089fc28e4a714c6aaf)
