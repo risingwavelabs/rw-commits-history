@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260107` `d701d6cae3687825cd28bca99549ce757bcccdb2`
 - `20260106` `6c5816d71f1e84b31b5f40089fc28e4a714c6aaf`
 - `20260105` `52acc86e9a8fab039ce1fdf3d750f9884b6102a1`
 - `20260104` `2e3a141e68868aa8cd569eb50e309e8158c2b5fa`
@@ -291,7 +292,6 @@
 - `20250110` `340a167d142899a9705725ac84782c5d276aabcc`
 - `20250109` `8b5cabac7ba209efacfc05eb92086d83a45309c8`
 - `20250108` `1bc6bea26cd2c103b827837b007f3a1d5e2d6067`
-- `20250107` `f530c10b4a614d353d17d924b69b5690aa282476`
 </details>
 
 # Commit history
@@ -300,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260107
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6c5816d71f1e84b31b5f40089fc28e4a714c6aaf...d701d6cae3687825cd28bca99549ce757bcccdb2)
 - `d701d6cae3687825cd28bca99549ce757bcccdb2` [fix(sink): fix force-append-only sink panicked at inconsistent changes when specified pk does not guarantee uniqueness (#24368)](https://github.com/risingwavelabs/risingwave/pull/24368)
 - `aff8bf8040f4904c55f97b113dd548cb7c18cf0f` [feat(cdc): introduce reset source command (#23945)](https://github.com/risingwavelabs/risingwave/pull/23945)
 - `145d97007f5c437df9805bde278a815af79a54ab` [fix(metrics): join lookup miss metric in take_state_opt (#24363)](https://github.com/risingwavelabs/risingwave/pull/24363)
@@ -3081,14 +3084,4 @@
 - `bb4dec288c5d93cc12c549e56ca7d11b0e827dc3` [refactor(meta): splits source_manager into smaller mods (#20071)](https://github.com/risingwavelabs/risingwave/pull/20071)
 
 ## nightly-20250108
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f530c10b4a614d353d17d924b69b5690aa282476...1bc6bea26cd2c103b827837b007f3a1d5e2d6067)
 - `1bc6bea26cd2c103b827837b007f3a1d5e2d6067` [feat: batching telemetry event request avoid too many requests (#20000)](https://github.com/risingwavelabs/risingwave/pull/20000)
-- `52532c7ec6dabad2105146f873c2f95c9c8ea704` [refactor(storage): remove StateStoreWrite and extract separate StateStoreReadLog trait (#20051)](https://github.com/risingwavelabs/risingwave/pull/20051)
-- `1ac43758611096ad4c953bc48b7e601e50b9877f` [bench(iceberg): add iceberg predicate pushdown bench (#20047)](https://github.com/risingwavelabs/risingwave/pull/20047)
-- `f7e5a667ff3d2fcbe04e8631357509663d9625a3` [fix(sqlparser): make LIMIT and OFFSET order flexible (#20026)](https://github.com/risingwavelabs/risingwave/pull/20026)
-- `212addb20c86255293aa81f3e32d41db84b365cc` [fix(ci): increase timeout for e2e source test in main-cron (#20069)](https://github.com/risingwavelabs/risingwave/pull/20069)
-- `f89c1b71cd0aa25a5cd378572c8777a17340f1cc` [build(deps): unpatch prost (#20066)](https://github.com/risingwavelabs/risingwave/pull/20066)
-- `ef4f61414db721df8f6121f5dc53993a7562b67a` [chore(deps): Bump downcast-rs from 1.2.0 to 2.0.1 (#20063)](https://github.com/risingwavelabs/risingwave/pull/20063)
-
-## nightly-20250107
-- `f530c10b4a614d353d17d924b69b5690aa282476` [feat(connector): add minio file scan type and enhance test (#19950)](https://github.com/risingwavelabs/risingwave/pull/19950)
