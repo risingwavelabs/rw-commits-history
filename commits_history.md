@@ -291,7 +291,6 @@
 - `20250111` `326ec191614bfc34075604a9783de7a029cb36dc`
 - `20250110` `340a167d142899a9705725ac84782c5d276aabcc`
 - `20250109` `8b5cabac7ba209efacfc05eb92086d83a45309c8`
-- `20250108` `1bc6bea26cd2c103b827837b007f3a1d5e2d6067`
 </details>
 
 # Commit history
@@ -300,6 +299,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e859f980ff00706bae51bbf162da61ccd602745d` [chore: refine the temporal join error message (#24391)](https://github.com/risingwavelabs/risingwave/pull/24391)
 - `ef3e9e6e4fc6bc6bd8d0f457fb34bceaf2c38714` [fix(planner): reject impure expressions on retract stream on `to_proto` (#24353)](https://github.com/risingwavelabs/risingwave/pull/24353)
 - `9ae9060e94ba6ad3ead1fb33945e70ef6cf13007` [feat(expr): `postgres_query` (aka PostgreSQL batch source) SSL support (#24340)](https://github.com/risingwavelabs/risingwave/pull/24340)
 - `303c78dba2dd4df07e2e509a98897ea99c805e9b` [test: add tests for metadata backup sync with meta model (#24362)](https://github.com/risingwavelabs/risingwave/pull/24362)
@@ -3076,16 +3076,4 @@
 - `e6e9ace249c3eb9a78c5c900c47ea47dc0dd5c82` [chore(deps): Bump anstream from 0.6.4 to 0.6.18 in /integration_tests/feature-store/simulator (#20022)](https://github.com/risingwavelabs/risingwave/pull/20022)
 
 ## nightly-20250109
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1bc6bea26cd2c103b827837b007f3a1d5e2d6067...8b5cabac7ba209efacfc05eb92086d83a45309c8)
 - `8b5cabac7ba209efacfc05eb92086d83a45309c8` [refactor: log deleted objects (#20086)](https://github.com/risingwavelabs/risingwave/pull/20086)
-- `87eac4f4d92f04fed4d52ae3f13567a77a248455` [fix: wrong streaming_parallelism when default_parallelism is set to fixed (#20072)](https://github.com/risingwavelabs/risingwave/pull/20072)
-- `3619d775a56a9b8eb74fe5e0c9323c4cf10d76a3` [fix(iceberg): fix iceberg time travel timezone (#20085)](https://github.com/risingwavelabs/risingwave/pull/20085)
-- `09e59e43dd7630f02664af8f8fb6672554351530` [feat(udf): support `CREATE FUNCTION/AGGREGATE IF NOT EXISTS` (#20079)](https://github.com/risingwavelabs/risingwave/pull/20079)
-- `934db16dbf71dd5ba1fbd69142ec0f0d3737c183` [feat(sink): support force_append_only for es sink (#19919)](https://github.com/risingwavelabs/risingwave/pull/19919)
-- `14823be7a808a5fdb34df262dbed1c75e31d316f` [fix: change iceberg glue catalog default implemantation to java (#20075)](https://github.com/risingwavelabs/risingwave/pull/20075)
-- `63b20efbfd126707e66d217e69ba6157124a6743` [fix(frontend): set `if_not_exists` to false when normalizing `CREATE VIEW` (#20073)](https://github.com/risingwavelabs/risingwave/pull/20073)
-- `9d7698545b3038befed43be7262d7d61132030b6` [refactor(storage): remove option of new log (#20055)](https://github.com/risingwavelabs/risingwave/pull/20055)
-- `bb4dec288c5d93cc12c549e56ca7d11b0e827dc3` [refactor(meta): splits source_manager into smaller mods (#20071)](https://github.com/risingwavelabs/risingwave/pull/20071)
-
-## nightly-20250108
-- `1bc6bea26cd2c103b827837b007f3a1d5e2d6067` [feat: batching telemetry event request avoid too many requests (#20000)](https://github.com/risingwavelabs/risingwave/pull/20000)
