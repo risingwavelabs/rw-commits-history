@@ -300,6 +300,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ef3e9e6e4fc6bc6bd8d0f457fb34bceaf2c38714` [fix(planner): reject impure expressions on retract stream on `to_proto` (#24353)](https://github.com/risingwavelabs/risingwave/pull/24353)
+- `9ae9060e94ba6ad3ead1fb33945e70ef6cf13007` [feat(expr): `postgres_query` (aka PostgreSQL batch source) SSL support (#24340)](https://github.com/risingwavelabs/risingwave/pull/24340)
+- `303c78dba2dd4df07e2e509a98897ea99c805e9b` [test: add tests for metadata backup sync with meta model (#24362)](https://github.com/risingwavelabs/risingwave/pull/24362)
+- `d2a0495228af02591103a6f0b268a82444676bac` [ci: enable datafusion feature for docker and release (#24379)](https://github.com/risingwavelabs/risingwave/pull/24379)
 
 ## nightly-20260107
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6c5816d71f1e84b31b5f40089fc28e4a714c6aaf...d701d6cae3687825cd28bca99549ce757bcccdb2)
