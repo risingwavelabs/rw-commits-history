@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260109` `8641a0c6a38ed875f68b382d2e79c0e2ed5a9d5a`
 - `20260107` `d701d6cae3687825cd28bca99549ce757bcccdb2`
 - `20260106` `6c5816d71f1e84b31b5f40089fc28e4a714c6aaf`
 - `20260105` `52acc86e9a8fab039ce1fdf3d750f9884b6102a1`
@@ -290,7 +291,6 @@
 - `20250112` `3b004c63358b62bdc54dc60dbb42fd1a257cab41`
 - `20250111` `326ec191614bfc34075604a9783de7a029cb36dc`
 - `20250110` `340a167d142899a9705725ac84782c5d276aabcc`
-- `20250109` `8b5cabac7ba209efacfc05eb92086d83a45309c8`
 </details>
 
 # Commit history
@@ -299,6 +299,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `684494dfa42802dbdd494e0be5392de8ea9c8db3` [fix(test): only check SST subset in meta backup sst test (#24405)](https://github.com/risingwavelabs/risingwave/pull/24405)
+- `1878d681a1ba2e2a8324a25e2e2bac57758f8671` [fix(test): avoid cleaning up reducer input log file (#24406)](https://github.com/risingwavelabs/risingwave/pull/24406)
+- `141fba970dea949b67dfa422ab6656926a391850` [fix: make catalog queries transaction-aware in recovery context (#24407)](https://github.com/risingwavelabs/risingwave/pull/24407)
+- `c9d6c19a02f2f107a4ae6bca43add478d9b4180d` [feat(frontend): auto disable snapshot backfill in some cases (#24360)](https://github.com/risingwavelabs/risingwave/pull/24360)
+
+## nightly-20260109
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d701d6cae3687825cd28bca99549ce757bcccdb2...8641a0c6a38ed875f68b382d2e79c0e2ed5a9d5a)
 - `8641a0c6a38ed875f68b382d2e79c0e2ed5a9d5a` [fix(streaming): some executors should always clear the cache on scaling regardless of `cache_may_stale` (#24384)](https://github.com/risingwavelabs/risingwave/pull/24384)
 - `ca23ae909c0b59c243a7d7203f4942a9ac18493e` [chore: bump `futures-async-stream` for correct code coverage report (#24385)](https://github.com/risingwavelabs/risingwave/pull/24385)
 - `026e86b8500b41c6d18bda3d2026f8b669675801` [chore: fix unit test for state table vnode pruning (#24390)](https://github.com/risingwavelabs/risingwave/pull/24390)
@@ -3075,9 +3082,4 @@
 - `4c384402b6c0ca3bd1804319d4b2baabc1df654e` [fix(storage): Remove logic for deleting objects in truncate_time_trav… (#20101)](https://github.com/risingwavelabs/risingwave/pull/20101)
 
 ## nightly-20250110
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8b5cabac7ba209efacfc05eb92086d83a45309c8...340a167d142899a9705725ac84782c5d276aabcc)
 - `340a167d142899a9705725ac84782c5d276aabcc` [fix: synchronize the index on the mview when changing the owner or schema (#20093)](https://github.com/risingwavelabs/risingwave/pull/20093)
-- `e6e9ace249c3eb9a78c5c900c47ea47dc0dd5c82` [chore(deps): Bump anstream from 0.6.4 to 0.6.18 in /integration_tests/feature-store/simulator (#20022)](https://github.com/risingwavelabs/risingwave/pull/20022)
-
-## nightly-20250109
-- `8b5cabac7ba209efacfc05eb92086d83a45309c8` [refactor: log deleted objects (#20086)](https://github.com/risingwavelabs/risingwave/pull/20086)
