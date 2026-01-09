@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8641a0c6a38ed875f68b382d2e79c0e2ed5a9d5a` [fix(streaming): some executors should always clear the cache on scaling regardless of `cache_may_stale` (#24384)](https://github.com/risingwavelabs/risingwave/pull/24384)
+- `ca23ae909c0b59c243a7d7203f4942a9ac18493e` [chore: bump `futures-async-stream` for correct code coverage report (#24385)](https://github.com/risingwavelabs/risingwave/pull/24385)
+- `026e86b8500b41c6d18bda3d2026f8b669675801` [chore: fix unit test for state table vnode pruning (#24390)](https://github.com/risingwavelabs/risingwave/pull/24390)
+- `addd66d365c89cf37898ace7eb82581b5148d31b` [fix(cdc): fix connector failure due to OpenLineage (#24382)](https://github.com/risingwavelabs/risingwave/pull/24382)
 - `e859f980ff00706bae51bbf162da61ccd602745d` [chore: refine the temporal join error message (#24391)](https://github.com/risingwavelabs/risingwave/pull/24391)
 - `ef3e9e6e4fc6bc6bd8d0f457fb34bceaf2c38714` [fix(planner): reject impure expressions on retract stream on `to_proto` (#24353)](https://github.com/risingwavelabs/risingwave/pull/24353)
 - `9ae9060e94ba6ad3ead1fb33945e70ef6cf13007` [feat(expr): `postgres_query` (aka PostgreSQL batch source) SSL support (#24340)](https://github.com/risingwavelabs/risingwave/pull/24340)
