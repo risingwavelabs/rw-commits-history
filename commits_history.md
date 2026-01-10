@@ -299,6 +299,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ddfb5ef01b2f9a28b7ab182e4516df1e5932bee2` [fix(optimizer): fix unify first last value rule (#24398)](https://github.com/risingwavelabs/risingwave/pull/24398)
 - `684494dfa42802dbdd494e0be5392de8ea9c8db3` [fix(test): only check SST subset in meta backup sst test (#24405)](https://github.com/risingwavelabs/risingwave/pull/24405)
 - `1878d681a1ba2e2a8324a25e2e2bac57758f8671` [fix(test): avoid cleaning up reducer input log file (#24406)](https://github.com/risingwavelabs/risingwave/pull/24406)
 - `141fba970dea949b67dfa422ab6656926a391850` [fix: make catalog queries transaction-aware in recovery context (#24407)](https://github.com/risingwavelabs/risingwave/pull/24407)
