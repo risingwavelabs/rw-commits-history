@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260110` `ddfb5ef01b2f9a28b7ab182e4516df1e5932bee2`
 - `20260109` `8641a0c6a38ed875f68b382d2e79c0e2ed5a9d5a`
 - `20260107` `d701d6cae3687825cd28bca99549ce757bcccdb2`
 - `20260106` `6c5816d71f1e84b31b5f40089fc28e4a714c6aaf`
@@ -290,7 +291,6 @@
 - `20250113` `f21f7a09037d195d1c3eab9460f6343cd0a60d36`
 - `20250112` `3b004c63358b62bdc54dc60dbb42fd1a257cab41`
 - `20250111` `326ec191614bfc34075604a9783de7a029cb36dc`
-- `20250110` `340a167d142899a9705725ac84782c5d276aabcc`
 </details>
 
 # Commit history
@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bbeb888e95ffae37fec35c02253bce7c40343160` [fix: initialize notification infra before first ticker tick (#24049)](https://github.com/risingwavelabs/risingwave/pull/24049)
+
+## nightly-20260110
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8641a0c6a38ed875f68b382d2e79c0e2ed5a9d5a...ddfb5ef01b2f9a28b7ab182e4516df1e5932bee2)
 - `ddfb5ef01b2f9a28b7ab182e4516df1e5932bee2` [fix(optimizer): fix unify first last value rule (#24398)](https://github.com/risingwavelabs/risingwave/pull/24398)
 - `684494dfa42802dbdd494e0be5392de8ea9c8db3` [fix(test): only check SST subset in meta backup sst test (#24405)](https://github.com/risingwavelabs/risingwave/pull/24405)
 - `1878d681a1ba2e2a8324a25e2e2bac57758f8671` [fix(test): avoid cleaning up reducer input log file (#24406)](https://github.com/risingwavelabs/risingwave/pull/24406)
@@ -3077,10 +3081,4 @@
 - `3b004c63358b62bdc54dc60dbb42fd1a257cab41` [feat(storage): support next_epoch method for StateStoreReadLog (#20068)](https://github.com/risingwavelabs/risingwave/pull/20068)
 
 ## nightly-20250111
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/340a167d142899a9705725ac84782c5d276aabcc...326ec191614bfc34075604a9783de7a029cb36dc)
 - `326ec191614bfc34075604a9783de7a029cb36dc` [fix(meta): fix time travel GC bug (#20108)](https://github.com/risingwavelabs/risingwave/pull/20108)
-- `80b3fd04a8b918e57b1be12cc34b98be20724484` [chore(deps): Bump the all group across 1 directory with 44 updates (#20037)](https://github.com/risingwavelabs/risingwave/pull/20037)
-- `4c384402b6c0ca3bd1804319d4b2baabc1df654e` [fix(storage): Remove logic for deleting objects in truncate_time_trav… (#20101)](https://github.com/risingwavelabs/risingwave/pull/20101)
-
-## nightly-20250110
-- `340a167d142899a9705725ac84782c5d276aabcc` [fix: synchronize the index on the mview when changing the owner or schema (#20093)](https://github.com/risingwavelabs/risingwave/pull/20093)
