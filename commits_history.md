@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `82992299b216d4f9be874f55109ea435405cdb07` [feat: add reschedule support for backfilling jobs (#23998)](https://github.com/risingwavelabs/risingwave/pull/23998)
+- `16911b233bb4cb64b48cc4b3bc050c7db4dcdce3` [ci: trigger homebrew bump on release (#24422)](https://github.com/risingwavelabs/risingwave/pull/24422)
+- `3dc6dc82cb2dcc01837c468180b3e7e2b9049f90` [fix(test): force stable scale for numeric matching in `two_phase_approx_percentile_merge_stateless_agg.slt` (#24420)](https://github.com/risingwavelabs/risingwave/pull/24420)
+- `ef858eafa18e9b88c8abf2c0792bbf1b923fda33` [fix: fix the non-exit problem after seek rewind. (#24416)](https://github.com/risingwavelabs/risingwave/pull/24416)
 
 ## nightly-20260111
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ddfb5ef01b2f9a28b7ab182e4516df1e5932bee2...bbeb888e95ffae37fec35c02253bce7c40343160)
