@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260112` `82992299b216d4f9be874f55109ea435405cdb07`
 - `20260111` `bbeb888e95ffae37fec35c02253bce7c40343160`
 - `20260110` `ddfb5ef01b2f9a28b7ab182e4516df1e5932bee2`
 - `20260109` `8641a0c6a38ed875f68b382d2e79c0e2ed5a9d5a`
@@ -290,7 +291,6 @@
 - `20250115` `86179b64d327daa5d87ef5c95002eb93ca3fe91e`
 - `20250114` `325404c992df685d820267ca28a5c909a8374993`
 - `20250113` `f21f7a09037d195d1c3eab9460f6343cd0a60d36`
-- `20250112` `3b004c63358b62bdc54dc60dbb42fd1a257cab41`
 </details>
 
 # Commit history
@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b388426197bdcd6269a91b73a2b7863420cbd368` [feat(backup): validate object store parameter (#24426)](https://github.com/risingwavelabs/risingwave/pull/24426)
+
+## nightly-20260112
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bbeb888e95ffae37fec35c02253bce7c40343160...82992299b216d4f9be874f55109ea435405cdb07)
 - `82992299b216d4f9be874f55109ea435405cdb07` [feat: add reschedule support for backfilling jobs (#23998)](https://github.com/risingwavelabs/risingwave/pull/23998)
 - `16911b233bb4cb64b48cc4b3bc050c7db4dcdce3` [ci: trigger homebrew bump on release (#24422)](https://github.com/risingwavelabs/risingwave/pull/24422)
 - `3dc6dc82cb2dcc01837c468180b3e7e2b9049f90` [fix(test): force stable scale for numeric matching in `two_phase_approx_percentile_merge_stateless_agg.slt` (#24420)](https://github.com/risingwavelabs/risingwave/pull/24420)
@@ -3073,15 +3077,4 @@
 - `7e26b2f7e0c957ba06b12ddbac219a2b4ffb7154` [refactor(meta): optimize Hummock version delta deletion (#20114)](https://github.com/risingwavelabs/risingwave/pull/20114)
 
 ## nightly-20250113
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b004c63358b62bdc54dc60dbb42fd1a257cab41...f21f7a09037d195d1c3eab9460f6343cd0a60d36)
 - `f21f7a09037d195d1c3eab9460f6343cd0a60d36` [feat(risedev): specify arguments to docker command & enable logical replication for postgres service (#20124)](https://github.com/risingwavelabs/risingwave/pull/20124)
-- `68c38d7be34555748f9d0233a1305f4264101eaa` [revert:feat(frontend): support alter source pause/resume (#19636) (#20126)](https://github.com/risingwavelabs/risingwave/pull/20126)
-- `e1d39082245cfd0bde150db1f0398f438b420811` [feat(frontend): display UDF calls more concisely (#20127)](https://github.com/risingwavelabs/risingwave/pull/20127)
-- `b30c7e0fe1be82ecf57a3e53be649c25d03989ad` [doc: better curl command for quick start (#20111)](https://github.com/risingwavelabs/risingwave/pull/20111)
-- `c6ab2f8d06342a758d6fdb2c19f08aad1a57d50e` [fix(license): ignore access event when watching license key file changes (#20122)](https://github.com/risingwavelabs/risingwave/pull/20122)
-- `b3de6d148d5d6b88bf1f683244e9ab3927c488c0` [refactor(meta): use insert_many to reduce latency (#20123)](https://github.com/risingwavelabs/risingwave/pull/20123)
-- `cf43539fa0638b6489610bfd56c34379f3f70ec1` [chore(deps): Bump notify from 7.0.0 to 8.0.0 (#20104)](https://github.com/risingwavelabs/risingwave/pull/20104)
-- `b6d7303e40e214c0f7e044ccfff4172688dee3ed` [ci: fail fast sqllogictest (#20087)](https://github.com/risingwavelabs/risingwave/pull/20087)
-
-## nightly-20250112
-- `3b004c63358b62bdc54dc60dbb42fd1a257cab41` [feat(storage): support next_epoch method for StateStoreReadLog (#20068)](https://github.com/risingwavelabs/risingwave/pull/20068)
