@@ -299,6 +299,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `906c0152873da808faa7ca9184ae8bc81f832aa0` [feat: enhance DataFusionExecuteChecker to align with DataFusionPlanConverter (#24341)](https://github.com/risingwavelabs/risingwave/pull/24341)
+- `d1d12b5ea9a05b0f4927a1c42a3ba8a89bb05df1` [refactor(meta): include upstream partial graph id in exchange request (#24342)](https://github.com/risingwavelabs/risingwave/pull/24342)
+- `161112d873999dd0b1bdaf005dff814f6a434a32` [chore(test): enable coverage for madsim tests (#24389)](https://github.com/risingwavelabs/risingwave/pull/24389)
+- `bbab2ba459eb4f35b723143f91bc989a5012899b` [perf: improve l0 seclection (#24417)](https://github.com/risingwavelabs/risingwave/pull/24417)
+- `c940daf82fb493aad7112524663c03b6c16a3936` [feat(diagnose): add hostname column to diagnosis output (#24436)](https://github.com/risingwavelabs/risingwave/pull/24436)
+- `3f6f6df1953ce25e959f5b12fb517b8898593a02` [feat(meta): avoid sending inject barrier request to all workers (#24361)](https://github.com/risingwavelabs/risingwave/pull/24361)
+- `f5014f23d985c2b935fabb36e84327131e7c7eb8` [doc: refine README messaging (#24433)](https://github.com/risingwavelabs/risingwave/pull/24433)
 - `b388426197bdcd6269a91b73a2b7863420cbd368` [feat(backup): validate object store parameter (#24426)](https://github.com/risingwavelabs/risingwave/pull/24426)
 
 ## nightly-20260112
