@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260113` `906c0152873da808faa7ca9184ae8bc81f832aa0`
 - `20260112` `82992299b216d4f9be874f55109ea435405cdb07`
 - `20260111` `bbeb888e95ffae37fec35c02253bce7c40343160`
 - `20260110` `ddfb5ef01b2f9a28b7ab182e4516df1e5932bee2`
@@ -290,7 +291,6 @@
 - `20250116` `439956ed1fbc07f3ffe0a2f58ad9254a4047649f`
 - `20250115` `86179b64d327daa5d87ef5c95002eb93ca3fe91e`
 - `20250114` `325404c992df685d820267ca28a5c909a8374993`
-- `20250113` `f21f7a09037d195d1c3eab9460f6343cd0a60d36`
 </details>
 
 # Commit history
@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `73e0b3fc49ca5712b90c8ac6be8c6f18aed53080` [feat(meta): include backfill_type and is_serverless in rw_ddl_progress (#24401)](https://github.com/risingwavelabs/risingwave/pull/24401)
+- `5faaf7b5798da0206050a532b5a98839cc1a88d3` [test: resolve massive log when prepare sql server data (#24408)](https://github.com/risingwavelabs/risingwave/pull/24408)
+
+## nightly-20260113
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/82992299b216d4f9be874f55109ea435405cdb07...906c0152873da808faa7ca9184ae8bc81f832aa0)
 - `906c0152873da808faa7ca9184ae8bc81f832aa0` [feat: enhance DataFusionExecuteChecker to align with DataFusionPlanConverter (#24341)](https://github.com/risingwavelabs/risingwave/pull/24341)
 - `d1d12b5ea9a05b0f4927a1c42a3ba8a89bb05df1` [refactor(meta): include upstream partial graph id in exchange request (#24342)](https://github.com/risingwavelabs/risingwave/pull/24342)
 - `161112d873999dd0b1bdaf005dff814f6a434a32` [chore(test): enable coverage for madsim tests (#24389)](https://github.com/risingwavelabs/risingwave/pull/24389)
@@ -3069,19 +3074,4 @@
 - `7c3b70d51e8c19e8414ad61fa07eba31faee9e4e` [chore(deps): Bump itertools from 0.13.0 to 0.14.0 (#20163)](https://github.com/risingwavelabs/risingwave/pull/20163)
 
 ## nightly-20250114
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f21f7a09037d195d1c3eab9460f6343cd0a60d36...325404c992df685d820267ca28a5c909a8374993)
 - `325404c992df685d820267ca28a5c909a8374993` [refactor(connector): make SplitEnumerator/Reader dyn (#20098)](https://github.com/risingwavelabs/risingwave/pull/20098)
-- `406458710752f29e61381c3fea94b09991bee2d6` [chore(deps): Bump golang.org/x/crypto from 0.21.0 to 0.31.0 in /integration_tests/datagen (#20109)](https://github.com/risingwavelabs/risingwave/pull/20109)
-- `f437f77b6ad6721f3aa41325ffc4eeacca0081bf` [refactor(storage): switch to foyer 0.14.0 and mixtrics 0.0.2 (#20155)](https://github.com/risingwavelabs/risingwave/pull/20155)
-- `8fd5a9c1d7b15cbe082a9002d7f768a5e157545e` [ci: reuse plugin with anchor to make yaml shorter (#20150)](https://github.com/risingwavelabs/risingwave/pull/20150)
-- `f41dab78ddfb74e5e08f9b63d91ae2152b9f7802` [feat(storage): switch to eviction time disk cache insertion (#20076)](https://github.com/risingwavelabs/risingwave/pull/20076)
-- `a582c11d0c21de2fbfc443e3885c87b0c3c0f9e5` [test: add retry to flaky test (#20149)](https://github.com/risingwavelabs/risingwave/pull/20149)
-- `48a9e4b1013cc1295b5ba325bb3f9d253bd5bd4c` [feat(connector): introduce azblob file scan (#20046)](https://github.com/risingwavelabs/risingwave/pull/20046)
-- `8c0cfb427db27e50c8620241b184805d191d5542` [feat(storage): replace magic number with config for gc (#20142)](https://github.com/risingwavelabs/risingwave/pull/20142)
-- `9337ddb31a3dd00ed1357c605f83f48999be94b3` [chore(deps): Bump apache/skywalking-eyes from 3ea9df11bb3a5a85665377d1fd10c02edecf2c40 to 69f34abb75ec4e414b593ac3f34228b60e33f97b (#20147)](https://github.com/risingwavelabs/risingwave/pull/20147)
-- `3a7652180af711b56808d478e31ca3d47c56ed99` [chore(deps): Bump crate-ci/typos from 1.28.3 to 1.29.4 (#20146)](https://github.com/risingwavelabs/risingwave/pull/20146)
-- `20a68b0f901dbb92fd9373170ad5750eb4bd6a9a` [fix(connector): improve mysql error message (#20135)](https://github.com/risingwavelabs/risingwave/pull/20135)
-- `7e26b2f7e0c957ba06b12ddbac219a2b4ffb7154` [refactor(meta): optimize Hummock version delta deletion (#20114)](https://github.com/risingwavelabs/risingwave/pull/20114)
-
-## nightly-20250113
-- `f21f7a09037d195d1c3eab9460f6343cd0a60d36` [feat(risedev): specify arguments to docker command & enable logical replication for postgres service (#20124)](https://github.com/risingwavelabs/risingwave/pull/20124)
