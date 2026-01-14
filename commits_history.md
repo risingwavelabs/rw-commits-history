@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9d51bf04c9cf34bb5588fcfec957f1e34299aeb6` [fix(optimizer): preserve eq key during rewrite in physical join plan nodes (#24442)](https://github.com/risingwavelabs/risingwave/pull/24442)
+- `78d193b24a7203646723767d3502b00972831fac` [chore(iceberg): upgrade iceberg rust (#24372)](https://github.com/risingwavelabs/risingwave/pull/24372)
+- `9a1c3e9d95480c8ff489b2862140dfb5aee8a7df` [feat(streaming): add dev config `materialize_force_overwrite_on_no_check` and rename `unsafe_enable_strict_consistency` to `unsafe_disable` (#24443)](https://github.com/risingwavelabs/risingwave/pull/24443)
+- `c1849b3f38d773d398ad2e61f34ebe41a83ea107` [feat(streaming): executor part for watermark TTL (#24186)](https://github.com/risingwavelabs/risingwave/pull/24186)
+- `d8d2c8fc64ff88f9c94fba09fca4220d0cbbddd5` [ci(kafka): replace bitnami with redpanda for kafka sasl tests (#24437)](https://github.com/risingwavelabs/risingwave/pull/24437)
 - `73e0b3fc49ca5712b90c8ac6be8c6f18aed53080` [feat(meta): include backfill_type and is_serverless in rw_ddl_progress (#24401)](https://github.com/risingwavelabs/risingwave/pull/24401)
 - `5faaf7b5798da0206050a532b5a98839cc1a88d3` [test: resolve massive log when prepare sql server data (#24408)](https://github.com/risingwavelabs/risingwave/pull/24408)
 
