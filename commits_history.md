@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260114` `9d51bf04c9cf34bb5588fcfec957f1e34299aeb6`
 - `20260113` `906c0152873da808faa7ca9184ae8bc81f832aa0`
 - `20260112` `82992299b216d4f9be874f55109ea435405cdb07`
 - `20260111` `bbeb888e95ffae37fec35c02253bce7c40343160`
@@ -290,7 +291,6 @@
 - `20250117` `2d316612e0665e0630e30ee228d87a49cf9ce8ec`
 - `20250116` `439956ed1fbc07f3ffe0a2f58ad9254a4047649f`
 - `20250115` `86179b64d327daa5d87ef5c95002eb93ca3fe91e`
-- `20250114` `325404c992df685d820267ca28a5c909a8374993`
 </details>
 
 # Commit history
@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a97e945a680a2792ecc5651401e83a0a4b1be0e5` [chore(deps): Bump num-bigint-dig from 0.8.4 to 0.8.6 (#24454)](https://github.com/risingwavelabs/risingwave/pull/24454)
+
+## nightly-20260114
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/906c0152873da808faa7ca9184ae8bc81f832aa0...9d51bf04c9cf34bb5588fcfec957f1e34299aeb6)
 - `9d51bf04c9cf34bb5588fcfec957f1e34299aeb6` [fix(optimizer): preserve eq key during rewrite in physical join plan nodes (#24442)](https://github.com/risingwavelabs/risingwave/pull/24442)
 - `78d193b24a7203646723767d3502b00972831fac` [chore(iceberg): upgrade iceberg rust (#24372)](https://github.com/risingwavelabs/risingwave/pull/24372)
 - `9a1c3e9d95480c8ff489b2862140dfb5aee8a7df` [feat(streaming): add dev config `materialize_force_overwrite_on_no_check` and rename `unsafe_enable_strict_consistency` to `unsafe_disable` (#24443)](https://github.com/risingwavelabs/risingwave/pull/24443)
@@ -3069,14 +3073,4 @@
 - `e6c25e063d7964572f1347d43acd52eccac2be76` [feat(frontend): allow schema change & sink into a CTAS table (#20174)](https://github.com/risingwavelabs/risingwave/pull/20174)
 
 ## nightly-20250115
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/325404c992df685d820267ca28a5c909a8374993...86179b64d327daa5d87ef5c95002eb93ca3fe91e)
 - `86179b64d327daa5d87ef5c95002eb93ca3fe91e` [refactor(frontend): reuse def purification for assembling cdc table def when auto schema change (#19997)](https://github.com/risingwavelabs/risingwave/pull/19997)
-- `6dbcefd008ecdfb4055b9cc857ee0b889811e7bf` [feat(frontend): lossy "purify" column default value (#19993)](https://github.com/risingwavelabs/risingwave/pull/19993)
-- `5dee6d71649ec67fc9edb0c1d1a689bd40b9d068` [test(connector): add source test for `Date('0000-00-00')` (#20136)](https://github.com/risingwavelabs/risingwave/pull/20136)
-- `79fb7e81c09b4f6a4c532c7e29a00e93ef6e53ae` [test: bump slt 0.26.3 (#20166)](https://github.com/risingwavelabs/risingwave/pull/20166)
-- `7d11dd68347ae8ca8307854ce8a3b5f84984ba04` [chore(deps): Bump uuid from 1.11.0 to 1.12.0 (#20162)](https://github.com/risingwavelabs/risingwave/pull/20162)
-- `e635115560eca38c069e8d54fe4d15162f539a0a` [fix: update docker compose to use v2.1.2 (#20157)](https://github.com/risingwavelabs/risingwave/pull/20157)
-- `7c3b70d51e8c19e8414ad61fa07eba31faee9e4e` [chore(deps): Bump itertools from 0.13.0 to 0.14.0 (#20163)](https://github.com/risingwavelabs/risingwave/pull/20163)
-
-## nightly-20250114
-- `325404c992df685d820267ca28a5c909a8374993` [refactor(connector): make SplitEnumerator/Reader dyn (#20098)](https://github.com/risingwavelabs/risingwave/pull/20098)
