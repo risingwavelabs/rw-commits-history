@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `18e562f268089a735c8d1604bc6dc576dd82ce95` [feat: make materialized view status visible (#24329)](https://github.com/risingwavelabs/risingwave/pull/24329)
+- `763f961a0a1a5cda070e171aac37e7333239013e` [fix(test): relax nexmark watermark lower bound in madsim scaling test (#24473)](https://github.com/risingwavelabs/risingwave/pull/24473)
+- `2a8b6eff424452999e7f836eb98ec5307c6f72a1` [feat(grafana): fix relative memory utilization panel (#24445)](https://github.com/risingwavelabs/risingwave/pull/24445)
+- `0114267d6aba4eee335e8f7a4e4dbb88e35df434` [fix(sqlparser): also quote keyword identifiers (#24461)](https://github.com/risingwavelabs/risingwave/pull/24461)
+- `cb18d19b176e064f9a1702bf32b2a43e516f97a1` [fix(streaming): fix some bugs for tables with watermark TTL & add tests for append-only table (#24459)](https://github.com/risingwavelabs/risingwave/pull/24459)
+- `6404dd7f8981df665fbbab482256f9e846dce53c` [fix(docker): update docker image version and fix prometheus to scrape iceberg compactor (#24460)](https://github.com/risingwavelabs/risingwave/pull/24460)
 - `a97e945a680a2792ecc5651401e83a0a4b1be0e5` [chore(deps): Bump num-bigint-dig from 0.8.4 to 0.8.6 (#24454)](https://github.com/risingwavelabs/risingwave/pull/24454)
 
 ## nightly-20260114
