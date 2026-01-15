@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260115` `18e562f268089a735c8d1604bc6dc576dd82ce95`
 - `20260114` `9d51bf04c9cf34bb5588fcfec957f1e34299aeb6`
 - `20260113` `906c0152873da808faa7ca9184ae8bc81f832aa0`
 - `20260112` `82992299b216d4f9be874f55109ea435405cdb07`
@@ -290,7 +291,6 @@
 - `20250119` `47e36be6f4a405a00d1a114b165f4518abaa3cc4`
 - `20250117` `2d316612e0665e0630e30ee228d87a49cf9ce8ec`
 - `20250116` `439956ed1fbc07f3ffe0a2f58ad9254a4047649f`
-- `20250115` `86179b64d327daa5d87ef5c95002eb93ca3fe91e`
 </details>
 
 # Commit history
@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1bc059b25ff94078ccad0a6ea1790a27b8af7fd4` [feat: add global shared object cache for iceberg table (#24230)](https://github.com/risingwavelabs/risingwave/pull/24230)
+- `bdc07ce5dbaf33d1db3a81f206092a89dff7081f` [fix(stream): fix inconsistent global approx percentile initial state (#24480)](https://github.com/risingwavelabs/risingwave/pull/24480)
+
+## nightly-20260115
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9d51bf04c9cf34bb5588fcfec957f1e34299aeb6...18e562f268089a735c8d1604bc6dc576dd82ce95)
 - `18e562f268089a735c8d1604bc6dc576dd82ce95` [feat: make materialized view status visible (#24329)](https://github.com/risingwavelabs/risingwave/pull/24329)
 - `763f961a0a1a5cda070e171aac37e7333239013e` [fix(test): relax nexmark watermark lower bound in madsim scaling test (#24473)](https://github.com/risingwavelabs/risingwave/pull/24473)
 - `2a8b6eff424452999e7f836eb98ec5307c6f72a1` [feat(grafana): fix relative memory utilization panel (#24445)](https://github.com/risingwavelabs/risingwave/pull/24445)
@@ -3071,12 +3076,4 @@
 - `bb90e0fe057c04b52b38804f545264c2813d4bf8` [feat: delete Kafka consumer group on drop (#20065)](https://github.com/risingwavelabs/risingwave/pull/20065)
 
 ## nightly-20250116
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86179b64d327daa5d87ef5c95002eb93ca3fe91e...439956ed1fbc07f3ffe0a2f58ad9254a4047649f)
 - `439956ed1fbc07f3ffe0a2f58ad9254a4047649f` [fix: telemetry init channel unsuccessful leads to panic (#20160)](https://github.com/risingwavelabs/risingwave/pull/20160)
-- `bc429d5c336c440441597658cf47e9bfe3ae088e` [refactor(meta): batch delete time travel metadata (#20169)](https://github.com/risingwavelabs/risingwave/pull/20169)
-- `297a634ad1d73f1c531949a7d9e80ef87f0fc795` [feat: support DROP SCHEMA CASCADE and some refactoring (#19702)](https://github.com/risingwavelabs/risingwave/pull/19702)
-- `277fa8649a5f94532a35d0a2f6f954502f8c4930` [feat(storage): refactor and support local state store flushed snapshot reader (#20153)](https://github.com/risingwavelabs/risingwave/pull/20153)
-- `e6c25e063d7964572f1347d43acd52eccac2be76` [feat(frontend): allow schema change & sink into a CTAS table (#20174)](https://github.com/risingwavelabs/risingwave/pull/20174)
-
-## nightly-20250115
-- `86179b64d327daa5d87ef5c95002eb93ca3fe91e` [refactor(frontend): reuse def purification for assembling cdc table def when auto schema change (#19997)](https://github.com/risingwavelabs/risingwave/pull/19997)
