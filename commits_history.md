@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f81f53d12d96ada91885ce7da9a180c94e4168a8` [feat(storage): handle uploader events in batch (#24498)](https://github.com/risingwavelabs/risingwave/pull/24498)
+- `36e92b83ab71abffac739259e7ef1dce998e862e` [fix(stream): fix inconsistent global approx percentile initial state again (#24500)](https://github.com/risingwavelabs/risingwave/pull/24500)
+- `f9f2e28a53fdb4bf143b7a0cbd9f96727bcb41d2` [fix(storage): read version globally visible after initialized (#24492)](https://github.com/risingwavelabs/risingwave/pull/24492)
+- `31d3bf67f6309d5332cbf6c8af3ea1b756d8162c` [fix(optimizer): revert 23180 of dynamic filter watermark derivation (#24484)](https://github.com/risingwavelabs/risingwave/pull/24484)
+- `7ab3333304e78325ec4072f8aca451284b1b611e` [fix(optimizer): align watermark propagation in `StreamGroupTopN` with executor (#24481)](https://github.com/risingwavelabs/risingwave/pull/24481)
+- `c58bf2f614fd9dc08dbe6d85f93ffbebea490be2` [refactor(grafana): organize metrics by component (#24490)](https://github.com/risingwavelabs/risingwave/pull/24490)
 - `1bc059b25ff94078ccad0a6ea1790a27b8af7fd4` [feat: add global shared object cache for iceberg table (#24230)](https://github.com/risingwavelabs/risingwave/pull/24230)
 - `bdc07ce5dbaf33d1db3a81f206092a89dff7081f` [fix(stream): fix inconsistent global approx percentile initial state (#24480)](https://github.com/risingwavelabs/risingwave/pull/24480)
 
