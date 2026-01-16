@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260116` `f81f53d12d96ada91885ce7da9a180c94e4168a8`
 - `20260115` `18e562f268089a735c8d1604bc6dc576dd82ce95`
 - `20260114` `9d51bf04c9cf34bb5588fcfec957f1e34299aeb6`
 - `20260113` `906c0152873da808faa7ca9184ae8bc81f832aa0`
@@ -290,7 +291,6 @@
 - `20250120` `bedec0a8ed2aac273790bf7df6d79db213214d7a`
 - `20250119` `47e36be6f4a405a00d1a114b165f4518abaa3cc4`
 - `20250117` `2d316612e0665e0630e30ee228d87a49cf9ce8ec`
-- `20250116` `439956ed1fbc07f3ffe0a2f58ad9254a4047649f`
 </details>
 
 # Commit history
@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `570d8abb55d719287efc725e436557467859697c` [feat(license): skip rwu limit check for single-node deployments (#24495)](https://github.com/risingwavelabs/risingwave/pull/24495)
+
+## nightly-20260116
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/18e562f268089a735c8d1604bc6dc576dd82ce95...f81f53d12d96ada91885ce7da9a180c94e4168a8)
 - `f81f53d12d96ada91885ce7da9a180c94e4168a8` [feat(storage): handle uploader events in batch (#24498)](https://github.com/risingwavelabs/risingwave/pull/24498)
 - `36e92b83ab71abffac739259e7ef1dce998e862e` [fix(stream): fix inconsistent global approx percentile initial state again (#24500)](https://github.com/risingwavelabs/risingwave/pull/24500)
 - `f9f2e28a53fdb4bf143b7a0cbd9f96727bcb41d2` [fix(storage): read version globally visible after initialized (#24492)](https://github.com/risingwavelabs/risingwave/pull/24492)
@@ -3071,15 +3075,4 @@
 - `47e36be6f4a405a00d1a114b165f4518abaa3cc4` [feat(iceberg): support iceberg connection (#20189)](https://github.com/risingwavelabs/risingwave/pull/20189)
 
 ## nightly-20250117
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/439956ed1fbc07f3ffe0a2f58ad9254a4047649f...2d316612e0665e0630e30ee228d87a49cf9ce8ec)
 - `2d316612e0665e0630e30ee228d87a49cf9ce8ec` [fix: add privilege check for drop user (#20199)](https://github.com/risingwavelabs/risingwave/pull/20199)
-- `069583190e7b05d7726adadc77a8bd2df3bc94d6` [feat: delete Kafka consumer group when source backfill is finished (#20077)](https://github.com/risingwavelabs/risingwave/pull/20077)
-- `27efddf862d4b7969e0057301070c9d6ba3d9dad` [feat: use order key as mv's dist key (#20176)](https://github.com/risingwavelabs/risingwave/pull/20176)
-- `f0db87bee6d4ba2983bd058bf973a0564a578c17` [feat(frontend): use purified definition for replacing table (#20131)](https://github.com/risingwavelabs/risingwave/pull/20131)
-- `8a7a8ded2178381cde6523222e4ebefd5d730c7e` [feat: support schedule/reschedule resource group (#19955)](https://github.com/risingwavelabs/risingwave/pull/19955)
-- `14a5d3d1c0de0695998987e1be3e138bce266f6c` [refactor(meta): use in memory struct for table fragments (#20190)](https://github.com/risingwavelabs/risingwave/pull/20190)
-- `37635a614454dd5c8a3b74378f5842b87e68936a` [feat(sink): Avro with AWS Glue Schema Registry (#20181)](https://github.com/risingwavelabs/risingwave/pull/20181)
-- `bb90e0fe057c04b52b38804f545264c2813d4bf8` [feat: delete Kafka consumer group on drop (#20065)](https://github.com/risingwavelabs/risingwave/pull/20065)
-
-## nightly-20250116
-- `439956ed1fbc07f3ffe0a2f58ad9254a4047649f` [fix: telemetry init channel unsuccessful leads to panic (#20160)](https://github.com/risingwavelabs/risingwave/pull/20160)
