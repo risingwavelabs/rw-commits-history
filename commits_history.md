@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260117` `11222b5db87852c84aa7fa571908724b4520267e`
 - `20260116` `f81f53d12d96ada91885ce7da9a180c94e4168a8`
 - `20260115` `18e562f268089a735c8d1604bc6dc576dd82ce95`
 - `20260114` `9d51bf04c9cf34bb5588fcfec957f1e34299aeb6`
@@ -290,7 +291,6 @@
 - `20250121` `c0bea545731feb2800989b81ccbccb1d421fb953`
 - `20250120` `bedec0a8ed2aac273790bf7df6d79db213214d7a`
 - `20250119` `47e36be6f4a405a00d1a114b165f4518abaa3cc4`
-- `20250117` `2d316612e0665e0630e30ee228d87a49cf9ce8ec`
 </details>
 
 # Commit history
@@ -299,6 +299,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260117
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f81f53d12d96ada91885ce7da9a180c94e4168a8...11222b5db87852c84aa7fa571908724b4520267e)
 - `11222b5db87852c84aa7fa571908724b4520267e` [feat(storage): support state clean for watermark in either pk or value column (#24041)](https://github.com/risingwavelabs/risingwave/pull/24041)
 - `570d8abb55d719287efc725e436557467859697c` [feat(license): skip rwu limit check for single-node deployments (#24495)](https://github.com/risingwavelabs/risingwave/pull/24495)
 
@@ -3072,8 +3075,4 @@
 - `d1380588485d0366d23a9a7ca0de34d2667e9851` [chore: increase e2e parallel in-memory test timeout (#20209)](https://github.com/risingwavelabs/risingwave/pull/20209)
 
 ## nightly-20250119
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2d316612e0665e0630e30ee228d87a49cf9ce8ec...47e36be6f4a405a00d1a114b165f4518abaa3cc4)
 - `47e36be6f4a405a00d1a114b165f4518abaa3cc4` [feat(iceberg): support iceberg connection (#20189)](https://github.com/risingwavelabs/risingwave/pull/20189)
-
-## nightly-20250117
-- `2d316612e0665e0630e30ee228d87a49cf9ce8ec` [fix: add privilege check for drop user (#20199)](https://github.com/risingwavelabs/risingwave/pull/20199)
