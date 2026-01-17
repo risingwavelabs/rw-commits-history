@@ -299,6 +299,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `11222b5db87852c84aa7fa571908724b4520267e` [feat(storage): support state clean for watermark in either pk or value column (#24041)](https://github.com/risingwavelabs/risingwave/pull/24041)
 - `570d8abb55d719287efc725e436557467859697c` [feat(license): skip rwu limit check for single-node deployments (#24495)](https://github.com/risingwavelabs/risingwave/pull/24495)
 
 ## nightly-20260116
