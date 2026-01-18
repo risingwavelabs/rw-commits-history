@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260117` `11222b5db87852c84aa7fa571908724b4520267e`
+- `20260118` `11222b5db87852c84aa7fa571908724b4520267e`
 - `20260116` `f81f53d12d96ada91885ce7da9a180c94e4168a8`
 - `20260115` `18e562f268089a735c8d1604bc6dc576dd82ce95`
 - `20260114` `9d51bf04c9cf34bb5588fcfec957f1e34299aeb6`
@@ -300,7 +300,7 @@
 
 ## Unreleased
 
-## nightly-20260117
+## nightly-20260118
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f81f53d12d96ada91885ce7da9a180c94e4168a8...11222b5db87852c84aa7fa571908724b4520267e)
 - `11222b5db87852c84aa7fa571908724b4520267e` [feat(storage): support state clean for watermark in either pk or value column (#24041)](https://github.com/risingwavelabs/risingwave/pull/24041)
 - `570d8abb55d719287efc725e436557467859697c` [feat(license): skip rwu limit check for single-node deployments (#24495)](https://github.com/risingwavelabs/risingwave/pull/24495)
