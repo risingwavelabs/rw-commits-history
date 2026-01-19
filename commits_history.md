@@ -299,6 +299,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `905c5060f2592c4dd30be296aa0ac2bfb553c72e` [feat(pg-cdc): support geometry type for postgres cdc (#24491)](https://github.com/risingwavelabs/risingwave/pull/24491)
+- `6bdff2bb50edacc85ca9a11704ccc57d90020a15` [refactor(grafana): move relation and actor level metrics from cluster_essential to streaming section (#24494)](https://github.com/risingwavelabs/risingwave/pull/24494)
+- `b0531ac96431c4f8f886cea3181f370c8486f17e` [refactor(grafana): move alerts and errors into separate section (#24493)](https://github.com/risingwavelabs/risingwave/pull/24493)
+- `6a1d382f91b9a80e92a343e3c2fab7e611269771` [feat(frontend): update `IndexCatalog` to support background ddl (#24349)](https://github.com/risingwavelabs/risingwave/pull/24349)
+- `005a61e71190bfc3e762c1a7f9057ec2d9267ffc` [chore: refine license check (#24514)](https://github.com/risingwavelabs/risingwave/pull/24514)
+- `a5516bc1264e84db1c7845db7739a2ca767c81be` [chore(license): polish the license error message (#24479)](https://github.com/risingwavelabs/risingwave/pull/24479)
+- `4e6e521bc3901e37ec70e91028b9a731d3b8e68e` [refactor: only handle partial graphs in local barrier worker (#24239)](https://github.com/risingwavelabs/risingwave/pull/24239)
 
 ## nightly-20260118
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f81f53d12d96ada91885ce7da9a180c94e4168a8...11222b5db87852c84aa7fa571908724b4520267e)
