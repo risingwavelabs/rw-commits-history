@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260119` `905c5060f2592c4dd30be296aa0ac2bfb553c72e`
 - `20260118` `11222b5db87852c84aa7fa571908724b4520267e`
 - `20260116` `f81f53d12d96ada91885ce7da9a180c94e4168a8`
 - `20260115` `18e562f268089a735c8d1604bc6dc576dd82ce95`
@@ -290,7 +291,6 @@
 - `20250122` `983dd185d4edf28c53bd7454e30ffbea38337006`
 - `20250121` `c0bea545731feb2800989b81ccbccb1d421fb953`
 - `20250120` `bedec0a8ed2aac273790bf7df6d79db213214d7a`
-- `20250119` `47e36be6f4a405a00d1a114b165f4518abaa3cc4`
 </details>
 
 # Commit history
@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f81de168c9362402d7a5cb35090125c8a0efba58` [feat(meta): persist is_serverless_backfill field in meta store table (#24520)](https://github.com/risingwavelabs/risingwave/pull/24520)
+- `e393d5c9acaf96b23477a5b4096e8c032ea32067` [feat: batch insert fragments and fragment relations to minimize stream job preparation time (#24475)](https://github.com/risingwavelabs/risingwave/pull/24475)
+
+## nightly-20260119
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/11222b5db87852c84aa7fa571908724b4520267e...905c5060f2592c4dd30be296aa0ac2bfb553c72e)
 - `905c5060f2592c4dd30be296aa0ac2bfb553c72e` [feat(pg-cdc): support geometry type for postgres cdc (#24491)](https://github.com/risingwavelabs/risingwave/pull/24491)
 - `6bdff2bb50edacc85ca9a11704ccc57d90020a15` [refactor(grafana): move relation and actor level metrics from cluster_essential to streaming section (#24494)](https://github.com/risingwavelabs/risingwave/pull/24494)
 - `b0531ac96431c4f8f886cea3181f370c8486f17e` [refactor(grafana): move alerts and errors into separate section (#24493)](https://github.com/risingwavelabs/risingwave/pull/24493)
@@ -3068,18 +3073,4 @@
 - `ff49a866a19c0fd6f7d5d3039bf5da474b6e90c7` [chore(deps): Bump aws-lc-rs from v1.6.2 to 1.12.1 (#20208)](https://github.com/risingwavelabs/risingwave/pull/20208)
 
 ## nightly-20250120
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/47e36be6f4a405a00d1a114b165f4518abaa3cc4...bedec0a8ed2aac273790bf7df6d79db213214d7a)
 - `bedec0a8ed2aac273790bf7df6d79db213214d7a` [chore: change debezium-connect image name (#20205)](https://github.com/risingwavelabs/risingwave/pull/20205)
-- `04a8813a30e6b1a4ffe558f0abe14c37b0fadc7f` [refactor(frontend): use purified definition for altering source (#20182)](https://github.com/risingwavelabs/risingwave/pull/20182)
-- `bf8f0768a0d06728db3139de43d1c3b1bd396241` [feat(storage): Splitting table change log from HummockVersion on CN side (#20050)](https://github.com/risingwavelabs/risingwave/pull/20050)
-- `323d8a24ed396859ccf0e123b885ddf6534f5714` [chore(deps): Bump libz-sys from 1.1.12 to 1.1.21 (#20211)](https://github.com/risingwavelabs/risingwave/pull/20211)
-- `ccddb4df655b32567fe7fd6ff63894062cd8dd77` [chore(deps): Bump bitflags from 2.7.0 to 2.8.0 (#20165)](https://github.com/risingwavelabs/risingwave/pull/20165)
-- `7bd30b7a4461c962c4c878cfd6386b05cc1c4315` [chore(deps): Bump golang.org/x/net from 0.23.0 to 0.33.0 in /integration_tests/datagen (#20217)](https://github.com/risingwavelabs/risingwave/pull/20217)
-- `f99e53eb601e1016cb876b99e5d6cddbefe3e7b7` [chore(deps): Bump elasticsearch from 8.15.0-alpha.1 to 8.17.0-alpha.1 (#19868)](https://github.com/risingwavelabs/risingwave/pull/19868)
-- `a19acf5e499a8479d13af7c07dddeacbe19f6326` [refactor(iceberg): remove unnecessary JSON serde (#20212)](https://github.com/risingwavelabs/risingwave/pull/20212)
-- `d00c6e35893791067b55422c4f998c69c35e4f10` [refactor: optimize delta log deletion (#20158)](https://github.com/risingwavelabs/risingwave/pull/20158)
-- `6f533710613c98e3b8a1baac94100d7ea33b4e04` [fix(meta): fix incorrect displayed worker type (#20193)](https://github.com/risingwavelabs/risingwave/pull/20193)
-- `d1380588485d0366d23a9a7ca0de34d2667e9851` [chore: increase e2e parallel in-memory test timeout (#20209)](https://github.com/risingwavelabs/risingwave/pull/20209)
-
-## nightly-20250119
-- `47e36be6f4a405a00d1a114b165f4518abaa3cc4` [feat(iceberg): support iceberg connection (#20189)](https://github.com/risingwavelabs/risingwave/pull/20189)
