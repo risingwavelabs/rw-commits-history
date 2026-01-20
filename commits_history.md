@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260120` `024f8d3090fbbc396853a82859c3ccab9a641d18`
 - `20260119` `905c5060f2592c4dd30be296aa0ac2bfb553c72e`
 - `20260118` `11222b5db87852c84aa7fa571908724b4520267e`
 - `20260116` `f81f53d12d96ada91885ce7da9a180c94e4168a8`
@@ -290,7 +291,6 @@
 - `20250123` `a2cf60d1d5876b6517617f7a21be90c206a79f85`
 - `20250122` `983dd185d4edf28c53bd7454e30ffbea38337006`
 - `20250121` `c0bea545731feb2800989b81ccbccb1d421fb953`
-- `20250120` `bedec0a8ed2aac273790bf7df6d79db213214d7a`
 </details>
 
 # Commit history
@@ -299,6 +299,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b1ae3ca85dd03d9f1d702255a190adec7f4c7082` [fix(meta): update cluster resource on exits of all worker node types (#24534)](https://github.com/risingwavelabs/risingwave/pull/24534)
+- `87eec8d535ae294c1ec6eb4f0ca6eb990214c82f` [chore: generate grafana dashboard and add github action to check (#24536)](https://github.com/risingwavelabs/risingwave/pull/24536)
+- `9df1c9898ecb6c75587cb41354fb843f94af7e8e` [fix(test): fix flaky test introduced by postgres geometry type (#24532)](https://github.com/risingwavelabs/risingwave/pull/24532)
+- `39a241b7e82caeeaffc8dfadc64901e923b548fa` [refactor(pg-cdc): change the automatically created publication to per source (#24421)](https://github.com/risingwavelabs/risingwave/pull/24421)
+
+## nightly-20260120
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/905c5060f2592c4dd30be296aa0ac2bfb553c72e...024f8d3090fbbc396853a82859c3ccab9a641d18)
 - `024f8d3090fbbc396853a82859c3ccab9a641d18` [feat(meta): support drop/cancel creating snapshot backfill job (#24286)](https://github.com/risingwavelabs/risingwave/pull/24286)
 - `e987a4eeb29c0a76e4c7a4a50ffb543a1bc8f576` [chore: remove useless recursive cte code (#24519)](https://github.com/risingwavelabs/risingwave/pull/24519)
 - `4a46973ca982f9fe48c04d929f676dc21c3babf5` [fix: check connection existence for iceberg_engine_connection when setting (#24521)](https://github.com/risingwavelabs/risingwave/pull/24521)
@@ -3078,14 +3085,4 @@
 - `2c378ac142aed692cf227a906003a38c01be6dc3` [fix: make dashboard prometheus queries work with cloud data sources (#20242)](https://github.com/risingwavelabs/risingwave/pull/20242)
 
 ## nightly-20250121
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bedec0a8ed2aac273790bf7df6d79db213214d7a...c0bea545731feb2800989b81ccbccb1d421fb953)
 - `c0bea545731feb2800989b81ccbccb1d421fb953` [fix: Add read guard on reschedule_lock for `drop_streaming_jobs` (#20240)](https://github.com/risingwavelabs/risingwave/pull/20240)
-- `33bf9ba598f3c0b045a385972f7aa9db39cc5048` [fix(meta): fix receiving scheduled command on blocked database (#20241)](https://github.com/risingwavelabs/risingwave/pull/20241)
-- `509ec7a7b196ed1e4fe5290655cf93c1dd785b29` [feat: add `specific_resource_group` to `rw_streaming_jobs` (#20207)](https://github.com/risingwavelabs/risingwave/pull/20207)
-- `1b74a95f2d507c0f310f789693c04ea697d21fd3` [feat: support real system func pg_table_is_visible (#20234)](https://github.com/risingwavelabs/risingwave/pull/20234)
-- `5874059dda1ed9100269bfa6c8ce9ac1e95a4431` [fix(risedev): set `CONNECTOR_LIBS_PATH` for `risedev playground` (#20224)](https://github.com/risingwavelabs/risingwave/pull/20224)
-- `eed301b66dafec01a3200cccaf77f509ce88ef03` [fix: fix several issues about the public schema (#20201)](https://github.com/risingwavelabs/risingwave/pull/20201)
-- `ff49a866a19c0fd6f7d5d3039bf5da474b6e90c7` [chore(deps): Bump aws-lc-rs from v1.6.2 to 1.12.1 (#20208)](https://github.com/risingwavelabs/risingwave/pull/20208)
-
-## nightly-20250120
-- `bedec0a8ed2aac273790bf7df6d79db213214d7a` [chore: change debezium-connect image name (#20205)](https://github.com/risingwavelabs/risingwave/pull/20205)
