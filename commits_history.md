@@ -299,6 +299,21 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `024f8d3090fbbc396853a82859c3ccab9a641d18` [feat(meta): support drop/cancel creating snapshot backfill job (#24286)](https://github.com/risingwavelabs/risingwave/pull/24286)
+- `e987a4eeb29c0a76e4c7a4a50ffb543a1bc8f576` [chore: remove useless recursive cte code (#24519)](https://github.com/risingwavelabs/risingwave/pull/24519)
+- `4a46973ca982f9fe48c04d929f676dc21c3babf5` [fix: check connection existence for iceberg_engine_connection when setting (#24521)](https://github.com/risingwavelabs/risingwave/pull/24521)
+- `f78c357f4b4ab9681fd5e4b3ad6cea3ea83e8485` [fix(debezium): fix schema history record comparator (#24482)](https://github.com/risingwavelabs/risingwave/pull/24482)
+- `035b5c59a8cdb96625464335b188d72d64b86406` [refactor(grafana): simplify streaming panels (#24502)](https://github.com/risingwavelabs/risingwave/pull/24502)
+- `5d0a61ba0718981823ee88cf166019f5ba85f650` [refactor(debezium): make debezium emit initial heartbeat (#24523)](https://github.com/risingwavelabs/risingwave/pull/24523)
+- `3754221c62fd7590c14b1e92f9f75e6c0eaf7ad7` [fix(frontend): fix incorrect row_number value with non-zero offset (#24527)](https://github.com/risingwavelabs/risingwave/pull/24527)
+- `affb9abfd9d0ec6ccda9e76773aaf17af9da544a` [fix(meta): allow handling drop command for empty database (#24528)](https://github.com/risingwavelabs/risingwave/pull/24528)
+- `5c5147131269b7071abaf8b9247412894b7af1b6` [refactor(grafana): remove under-utilized metrics from cluster-essentials section (#24501)](https://github.com/risingwavelabs/risingwave/pull/24501)
+- `0d91a899c50f585ba019c065691f192f6acf1bbc` [fix(frontend): improve kill process (#24531)](https://github.com/risingwavelabs/risingwave/pull/24531)
+- `9969e4643eb450969505426836f94dbe05a5561a` [fix(cdc): don't commit empty offset (#24529)](https://github.com/risingwavelabs/risingwave/pull/24529)
+- `5b83d3d231527318f0b7ef4c55179880ae4cef95` [refactor(grafana): separate barrier metrics from relation metrics (#24499)](https://github.com/risingwavelabs/risingwave/pull/24499)
+- `de5e336525e0cbfd505333e1652c36cee56f1bdd` [refactor: introduce LogicalIcebergIntermediateScan to reduce iceberg list count (#24474)](https://github.com/risingwavelabs/risingwave/pull/24474)
+- `c2da2a53e4de24544d7f856e305f0df0fbe489c1` [ci: upload redis cluster logs on failure & add sleep before running slt (#24496)](https://github.com/risingwavelabs/risingwave/pull/24496)
+- `f10bed8f2f5c0ea51e160f197e8a84439be8ef53` [refactor(streaming): fix and refactor the watermark based state clean for band join (#24134)](https://github.com/risingwavelabs/risingwave/pull/24134)
 - `f81de168c9362402d7a5cb35090125c8a0efba58` [feat(meta): persist is_serverless_backfill field in meta store table (#24520)](https://github.com/risingwavelabs/risingwave/pull/24520)
 - `e393d5c9acaf96b23477a5b4096e8c032ea32067` [feat: batch insert fragments and fragment relations to minimize stream job preparation time (#24475)](https://github.com/risingwavelabs/risingwave/pull/24475)
 
