@@ -299,6 +299,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `91a0a91c63a269a06d4144097ef9509c7f872347` [feat(frontend): support sink backfill rate limit (#24075)](https://github.com/risingwavelabs/risingwave/pull/24075)
+- `cfd5da2c48a9f3a60f8dd41c938159b35d469579` [fix: use the metadata of the streaming job table to construct consistent notification info (#24525)](https://github.com/risingwavelabs/risingwave/pull/24525)
+- `00e55e2e836efdf1300be9efe17d8b0c0e0736ff` [refactor: extract clients and server impls of `MonitorService` & impl for frontend and compactors (#24276)](https://github.com/risingwavelabs/risingwave/pull/24276)
+- `f9374c78dc1827406d35b1b3a2a79b7ac3b3bfea` [chore(deps): Bump ldap3 from 0.11.5 to 0.12.1 (#24130)](https://github.com/risingwavelabs/risingwave/pull/24130)
+- `1a381a72b8ffd90d3c57b47947591eb944c724a6` [refactor(cdc): refactor cdc source creation logic (#24515)](https://github.com/risingwavelabs/risingwave/pull/24515)
+- `318f38ac21e3aff802345cc8bc600c0341ffc5c4` [feat(sink): support specifying `ignore_delete` for `upsert` sink type (#24311)](https://github.com/risingwavelabs/risingwave/pull/24311)
+- `b2f504d3722f7618848a6b58b1a3fa09ea10560a` [fix(compaction): enable value column state cleaning for fast compaction (#24543)](https://github.com/risingwavelabs/risingwave/pull/24543)
+- `db886277facdd101fe16e6f499ce913542be24b0` [feat: Make VALIDATE clause optional when creating webhook connection (#24109)](https://github.com/risingwavelabs/risingwave/pull/24109)
+- `1f619f8bac995ad42f6b1f6daeda3a53e6e70ae2` [chore(deps): Bump async-nats from 0.45.0 to 0.46.0 (#24542)](https://github.com/risingwavelabs/risingwave/pull/24542)
+- `dd94faadf89c738bc4efa31a584149064bba6eb5` [chore(deps): Bump rust_decimal from 1.39.0 to 1.40.0 (#24463)](https://github.com/risingwavelabs/risingwave/pull/24463)
 - `b1ae3ca85dd03d9f1d702255a190adec7f4c7082` [fix(meta): update cluster resource on exits of all worker node types (#24534)](https://github.com/risingwavelabs/risingwave/pull/24534)
 - `87eec8d535ae294c1ec6eb4f0ca6eb990214c82f` [chore: generate grafana dashboard and add github action to check (#24536)](https://github.com/risingwavelabs/risingwave/pull/24536)
 - `9df1c9898ecb6c75587cb41354fb843f94af7e8e` [fix(test): fix flaky test introduced by postgres geometry type (#24532)](https://github.com/risingwavelabs/risingwave/pull/24532)
