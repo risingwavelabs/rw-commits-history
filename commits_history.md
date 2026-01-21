@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260121` `91a0a91c63a269a06d4144097ef9509c7f872347`
 - `20260120` `024f8d3090fbbc396853a82859c3ccab9a641d18`
 - `20260119` `905c5060f2592c4dd30be296aa0ac2bfb553c72e`
 - `20260118` `11222b5db87852c84aa7fa571908724b4520267e`
@@ -290,7 +291,6 @@
 - `20250125` `a1e5188af4362f24de90130889abe4f4ff416c22`
 - `20250123` `a2cf60d1d5876b6517617f7a21be90c206a79f85`
 - `20250122` `983dd185d4edf28c53bd7454e30ffbea38337006`
-- `20250121` `c0bea545731feb2800989b81ccbccb1d421fb953`
 </details>
 
 # Commit history
@@ -299,6 +299,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d4b03e7ae63cfc04cd86458c85ac9dd5c71be34c` [chore(deps): Bump the aws group across 1 directory with 5 updates (#24464)](https://github.com/risingwavelabs/risingwave/pull/24464)
+- `958a0acce4c57694148966c1ba54e6b122aae010` [feat(storage): tracker per table imm memory (#24538)](https://github.com/risingwavelabs/risingwave/pull/24538)
+- `f5d73478033a50d9e94179c1bcec6e95b4a61122` [feat: clean up table stats when truncate table (#24550)](https://github.com/risingwavelabs/risingwave/pull/24550)
+- `9f1bc021d39a8492a458014d14b0b2770e45ad14` [chore(deps): Bump rust-embed from 8.8.0 to 8.9.0 (#23644)](https://github.com/risingwavelabs/risingwave/pull/23644)
+- `1bc3368013fd60758c3351dfe998f9cc91d7632c` [feat(meta): support recoverable backfill order control (#24539)](https://github.com/risingwavelabs/risingwave/pull/24539)
+
+## nightly-20260121
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/024f8d3090fbbc396853a82859c3ccab9a641d18...91a0a91c63a269a06d4144097ef9509c7f872347)
 - `91a0a91c63a269a06d4144097ef9509c7f872347` [feat(frontend): support sink backfill rate limit (#24075)](https://github.com/risingwavelabs/risingwave/pull/24075)
 - `cfd5da2c48a9f3a60f8dd41c938159b35d469579` [fix: use the metadata of the streaming job table to construct consistent notification info (#24525)](https://github.com/risingwavelabs/risingwave/pull/24525)
 - `00e55e2e836efdf1300be9efe17d8b0c0e0736ff` [refactor: extract clients and server impls of `MonitorService` & impl for frontend and compactors (#24276)](https://github.com/risingwavelabs/risingwave/pull/24276)
@@ -3081,18 +3089,4 @@
 - `7d080491e81cc242b3b09ac65373b79f091d9ede` [refactor(secret): use aws-lc-rs to replace aes-gcm crate (#20091)](https://github.com/risingwavelabs/risingwave/pull/20091)
 
 ## nightly-20250122
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0bea545731feb2800989b81ccbccb1d421fb953...983dd185d4edf28c53bd7454e30ffbea38337006)
 - `983dd185d4edf28c53bd7454e30ffbea38337006` [feat(prost): add deprecated attribute for helper methods of deprecated field (#20257)](https://github.com/risingwavelabs/risingwave/pull/20257)
-- `d558db42f8b6b77f825b74326d721120ae389e4e` [fix(frontend): cursor should not be schema-bound (#20221)](https://github.com/risingwavelabs/risingwave/pull/20221)
-- `1fa4f93765415c8003f19e47fb771490087fe20f` [refactor(frontend): use empty tcp stream for frontend health check in docker-compose (#20219)](https://github.com/risingwavelabs/risingwave/pull/20219)
-- `67802fd93f609bf0532594fbf307b3ded8ae26d2` [refactor(storage): Reduce get_table_id_tables lock calls. (#20194)](https://github.com/risingwavelabs/risingwave/pull/20194)
-- `e0e0e78442151d38d58e0e736ecab5918d197ec6` [fix(telemetry): not send report if cluster is in test env (#20180)](https://github.com/risingwavelabs/risingwave/pull/20180)
-- `f5aed12ec97f7f84c6dd99604398c809a9e3e36d` [refactor(connector): use dyn for connection (#20253)](https://github.com/risingwavelabs/risingwave/pull/20253)
-- `49432f1be9426d02c9639c1c85ffe2fc698fdc0a` [chore: capture occasional errors in main cron (#20173)](https://github.com/risingwavelabs/risingwave/pull/20173)
-- `711fedf72865c5a799ae0b6d1c892c84d1aff4de` [fix(connector): handle update insert and delete + subset pk + handle delete mapping (#20238)](https://github.com/risingwavelabs/risingwave/pull/20238)
-- `f534985c129c246c0ef6c503ea072ca01049ec60` [fix(iceberg): fix iceberg write qps (#20225)](https://github.com/risingwavelabs/risingwave/pull/20225)
-- `7cfbd74d58a56769b57b6152ca801984f6107ef6` [fix(iceberg): fix iceberg eq delete schema (#20237)](https://github.com/risingwavelabs/risingwave/pull/20237)
-- `2c378ac142aed692cf227a906003a38c01be6dc3` [fix: make dashboard prometheus queries work with cloud data sources (#20242)](https://github.com/risingwavelabs/risingwave/pull/20242)
-
-## nightly-20250121
-- `c0bea545731feb2800989b81ccbccb1d421fb953` [fix: Add read guard on reschedule_lock for `drop_streaming_jobs` (#20240)](https://github.com/risingwavelabs/risingwave/pull/20240)
