@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260122` `64f7051c9207fb35910698f45c085d1d85179be5`
 - `20260121` `91a0a91c63a269a06d4144097ef9509c7f872347`
 - `20260120` `024f8d3090fbbc396853a82859c3ccab9a641d18`
 - `20260119` `905c5060f2592c4dd30be296aa0ac2bfb553c72e`
@@ -290,7 +291,6 @@
 - `20250126` `1384d4592ba94ec873c5f513946eb7b7fbfa36e5`
 - `20250125` `a1e5188af4362f24de90130889abe4f4ff416c22`
 - `20250123` `a2cf60d1d5876b6517617f7a21be90c206a79f85`
-- `20250122` `983dd185d4edf28c53bd7454e30ffbea38337006`
 </details>
 
 # Commit history
@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8ced6cdf95c7a7e6ad4b65bf857ef6a55700f20c` [chore(deps): Bump aws-sdk-dynamodb from 1.96.0 to 1.98.0 (#24394)](https://github.com/risingwavelabs/risingwave/pull/24394)
+- `b9392d79b3443c3adb6c44a4189245e1fa1f893e` [chore(deps): Bump lru from 0.16.2 to 0.16.3 (#24374)](https://github.com/risingwavelabs/risingwave/pull/24374)
+
+## nightly-20260122
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/91a0a91c63a269a06d4144097ef9509c7f872347...64f7051c9207fb35910698f45c085d1d85179be5)
 - `64f7051c9207fb35910698f45c085d1d85179be5` [chore(deps): Bump pbjson-build from 0.8.0 to 0.9.0 (#24059)](https://github.com/risingwavelabs/risingwave/pull/24059)
 - `f11f2bef84a58c456d212b8e80e392d88f526594` [chore(deps): Bump pbjson from 0.8.0 to 0.9.0 (#24058)](https://github.com/risingwavelabs/risingwave/pull/24058)
 - `6bf78e27228266b539b1caf75aa69ebf9903923f` [chore(deps): Cleanup unused conditional deps (e.g. fiemap) (#23405)](https://github.com/risingwavelabs/risingwave/pull/23405)
@@ -3101,12 +3106,4 @@
 - `96e81586c39c90bdd12f5de1506e6f9293da260f` [fix: finish source backfill immediately for scan.startup.mode=latest (#20285)](https://github.com/risingwavelabs/risingwave/pull/20285)
 
 ## nightly-20250123
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/983dd185d4edf28c53bd7454e30ffbea38337006...a2cf60d1d5876b6517617f7a21be90c206a79f85)
 - `a2cf60d1d5876b6517617f7a21be90c206a79f85` [fix(batch): fix batch anti join (#20264)](https://github.com/risingwavelabs/risingwave/pull/20264)
-- `07eb58207a2aca5023bc030507faeb280637e1de` [chore(deps): Bump fs-err from 3.0.0 to 3.1.0 (#20265)](https://github.com/risingwavelabs/risingwave/pull/20265)
-- `12dfa28d649a5172b0fd8a941554adced5dece85` [feat: make `privatelink.endpoint` accept json array (#20154)](https://github.com/risingwavelabs/risingwave/pull/20154)
-- `9446b41cd0f0fb58cc370206ca3ea85c26cd0a53` [fix(dashboard): randomUUID does not exist in some browser version (#20266)](https://github.com/risingwavelabs/risingwave/pull/20266)
-- `7d080491e81cc242b3b09ac65373b79f091d9ede` [refactor(secret): use aws-lc-rs to replace aes-gcm crate (#20091)](https://github.com/risingwavelabs/risingwave/pull/20091)
-
-## nightly-20250122
-- `983dd185d4edf28c53bd7454e30ffbea38337006` [feat(prost): add deprecated attribute for helper methods of deprecated field (#20257)](https://github.com/risingwavelabs/risingwave/pull/20257)
