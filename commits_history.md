@@ -299,6 +299,19 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4d7b2dc5dd21b9daf81929f3294aefe7368c140a` [fix(storage): fix incorrect min_epoch derived from MAX_EPOCH and ttl (#24540)](https://github.com/risingwavelabs/risingwave/pull/24540)
+- `d3b72750bf6b535caa3449c13ca88ed00c61c155` [fix(foyer): upgrade foyer verstion to fix hybrid miss metrics (#24577)](https://github.com/risingwavelabs/risingwave/pull/24577)
+- `4d919ed4d49cfc706d44cf4e7942070e4ccc3c35` [fix(metrics): fix hummock meta miss metrics (#24435)](https://github.com/risingwavelabs/risingwave/pull/24435)
+- `9e42e402877fa63421fd58beab11a0e54e1e8822` [fix(meta): handle post collect snapshot backfill job on collecting first job barrier (#24359)](https://github.com/risingwavelabs/risingwave/pull/24359)
+- `9404e88ca5d1917cec98d3414153f49b0b33976c` [fix(mssql): correctly handle cases where `database_name` is omitted in create table (#23739)](https://github.com/risingwavelabs/risingwave/pull/23739)
+- `23272f6cfa0458ee6c74f2d7177ae87ad617b0be` [feat: support `alter function owner to` (#24554)](https://github.com/risingwavelabs/risingwave/pull/24554)
+- `91a69b6a99d8af344dc17a80d5388884bc781272` [chore: release binary without debug info to reduce size (#24565)](https://github.com/risingwavelabs/risingwave/pull/24565)
+- `d69b6e554d2bd025d945fe066a3881eea7bbb6b4` [chore(deps): Bump jsonwebtoken from 10.1.0 to 10.2.0 (#23718)](https://github.com/risingwavelabs/risingwave/pull/23718)
+- `d52894487651bac4d58eccbcc22a0625c7ed48ef` [chore(deps): Bump nix from 0.30.1 to 0.31.0 (#24572)](https://github.com/risingwavelabs/risingwave/pull/24572)
+- `330ba6987aefe0dc4e41253e8ef3b5a2c6fbbded` [chore(deps): Bump the aws group with 3 updates (#24570)](https://github.com/risingwavelabs/risingwave/pull/24570)
+- `153a3190155c1004a4e64d1836bf8ab0a0571b02` [chore(deps): Bump const-str from 0.7.0 to 1.0.0 (#24314)](https://github.com/risingwavelabs/risingwave/pull/24314)
+- `68ee83bdabeb984c2856af5354bccdbd73f70120` [chore(deps): Bump console-subscriber from 0.4.1 to 0.5.0 (#24005)](https://github.com/risingwavelabs/risingwave/pull/24005)
+- `9f7bc06e92d03fcd249a7abaafbe532106b368d2` [chore(deps): Bump typify from 0.4.3 to 0.5.0 (#23618)](https://github.com/risingwavelabs/risingwave/pull/23618)
 - `8ced6cdf95c7a7e6ad4b65bf857ef6a55700f20c` [chore(deps): Bump aws-sdk-dynamodb from 1.96.0 to 1.98.0 (#24394)](https://github.com/risingwavelabs/risingwave/pull/24394)
 - `b9392d79b3443c3adb6c44a4189245e1fa1f893e` [chore(deps): Bump lru from 0.16.2 to 0.16.3 (#24374)](https://github.com/risingwavelabs/risingwave/pull/24374)
 
