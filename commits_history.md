@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260123` `4d7b2dc5dd21b9daf81929f3294aefe7368c140a`
 - `20260122` `64f7051c9207fb35910698f45c085d1d85179be5`
 - `20260121` `91a0a91c63a269a06d4144097ef9509c7f872347`
 - `20260120` `024f8d3090fbbc396853a82859c3ccab9a641d18`
@@ -290,7 +291,6 @@
 - `20250127` `0f5bae08111dcb4fd3912c04476889d5fe564d8e`
 - `20250126` `1384d4592ba94ec873c5f513946eb7b7fbfa36e5`
 - `20250125` `a1e5188af4362f24de90130889abe4f4ff416c22`
-- `20250123` `a2cf60d1d5876b6517617f7a21be90c206a79f85`
 </details>
 
 # Commit history
@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7efec998a1ed8e12380bb25bb4ace2e48fc7d35f` [chore(deps): Bump adbc_snowflake from 0.21.0 to 0.22.0 (#24410)](https://github.com/risingwavelabs/risingwave/pull/24410)
+- `2ef64d27aa4b64f6999761668292bc0e642d4910` [feat(meta): enable profiling in `MonitorService` for meta node (#24566)](https://github.com/risingwavelabs/risingwave/pull/24566)
+- `f4885a1ee0f22ee1395b3c3c1438a28d21928ecd` [feat(storage): refine imm memory limiter management (#24555)](https://github.com/risingwavelabs/risingwave/pull/24555)
+
+## nightly-20260123
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/64f7051c9207fb35910698f45c085d1d85179be5...4d7b2dc5dd21b9daf81929f3294aefe7368c140a)
 - `4d7b2dc5dd21b9daf81929f3294aefe7368c140a` [fix(storage): fix incorrect min_epoch derived from MAX_EPOCH and ttl (#24540)](https://github.com/risingwavelabs/risingwave/pull/24540)
 - `d3b72750bf6b535caa3449c13ca88ed00c61c155` [fix(foyer): upgrade foyer verstion to fix hybrid miss metrics (#24577)](https://github.com/risingwavelabs/risingwave/pull/24577)
 - `4d919ed4d49cfc706d44cf4e7942070e4ccc3c35` [fix(metrics): fix hummock meta miss metrics (#24435)](https://github.com/risingwavelabs/risingwave/pull/24435)
@@ -3111,12 +3117,4 @@
 - `fa4c46373f5ebe3b10b4573e19b7c6abc243fa23` [fix(playground): listen to `127.0.0.1` instead of `0.0.0.0` for gRPC services (#20297)](https://github.com/risingwavelabs/risingwave/pull/20297)
 
 ## nightly-20250125
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a2cf60d1d5876b6517617f7a21be90c206a79f85...a1e5188af4362f24de90130889abe4f4ff416c22)
 - `a1e5188af4362f24de90130889abe4f4ff416c22` [fix(test): didn't drop source but deleted topic (#20293)](https://github.com/risingwavelabs/risingwave/pull/20293)
-- `217dcfaa73e5450a1c61c60e62f172271ad522c9` [feat(risedev): parallel service startup (#20286)](https://github.com/risingwavelabs/risingwave/pull/20286)
-- `2351d7eac62e3712b40c78b4dfd609ea3cbcf9b6` [fix: list one page in fs source executor (#20292)](https://github.com/risingwavelabs/risingwave/pull/20292)
-- `0942b6093f13a5b685357966d0af7ab17f1fb475` [test(frontend): add tests for schema change default value not to be refreshed (#17121) (#20291)](https://github.com/risingwavelabs/risingwave/pull/20291)
-- `96e81586c39c90bdd12f5de1506e6f9293da260f` [fix: finish source backfill immediately for scan.startup.mode=latest (#20285)](https://github.com/risingwavelabs/risingwave/pull/20285)
-
-## nightly-20250123
-- `a2cf60d1d5876b6517617f7a21be90c206a79f85` [fix(batch): fix batch anti join (#20264)](https://github.com/risingwavelabs/risingwave/pull/20264)
