@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260124` `ef9d13ac6548f9179b052885160fc462a391652b`
 - `20260123` `4d7b2dc5dd21b9daf81929f3294aefe7368c140a`
 - `20260122` `64f7051c9207fb35910698f45c085d1d85179be5`
 - `20260121` `91a0a91c63a269a06d4144097ef9509c7f872347`
@@ -299,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260124
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4d7b2dc5dd21b9daf81929f3294aefe7368c140a...ef9d13ac6548f9179b052885160fc462a391652b)
 - `ef9d13ac6548f9179b052885160fc462a391652b` [feat: support `ALTER SECRET OWNER TO`  (#24548)](https://github.com/risingwavelabs/risingwave/pull/24548)
 - `09723adb04d77ba8c37f107e531f14960c8ac14a` [feat(storage): support state table iter respecting watermark (#24567)](https://github.com/risingwavelabs/risingwave/pull/24567)
 - `7efec998a1ed8e12380bb25bb4ace2e48fc7d35f` [chore(deps): Bump adbc_snowflake from 0.21.0 to 0.22.0 (#24410)](https://github.com/risingwavelabs/risingwave/pull/24410)
