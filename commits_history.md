@@ -299,6 +299,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ef9d13ac6548f9179b052885160fc462a391652b` [feat: support `ALTER SECRET OWNER TO`  (#24548)](https://github.com/risingwavelabs/risingwave/pull/24548)
+- `09723adb04d77ba8c37f107e531f14960c8ac14a` [feat(storage): support state table iter respecting watermark (#24567)](https://github.com/risingwavelabs/risingwave/pull/24567)
 - `7efec998a1ed8e12380bb25bb4ace2e48fc7d35f` [chore(deps): Bump adbc_snowflake from 0.21.0 to 0.22.0 (#24410)](https://github.com/risingwavelabs/risingwave/pull/24410)
 - `2ef64d27aa4b64f6999761668292bc0e642d4910` [feat(meta): enable profiling in `MonitorService` for meta node (#24566)](https://github.com/risingwavelabs/risingwave/pull/24566)
 - `f4885a1ee0f22ee1395b3c3c1438a28d21928ecd` [feat(storage): refine imm memory limiter management (#24555)](https://github.com/risingwavelabs/risingwave/pull/24555)
