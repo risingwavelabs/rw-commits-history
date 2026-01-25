@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260124` `ef9d13ac6548f9179b052885160fc462a391652b`
+- `20260125` `ef9d13ac6548f9179b052885160fc462a391652b`
 - `20260123` `4d7b2dc5dd21b9daf81929f3294aefe7368c140a`
 - `20260122` `64f7051c9207fb35910698f45c085d1d85179be5`
 - `20260121` `91a0a91c63a269a06d4144097ef9509c7f872347`
@@ -291,7 +291,6 @@
 - `20250131` `08bdf2743469d7aab35c98403f53a3f4738b93f5`
 - `20250127` `0f5bae08111dcb4fd3912c04476889d5fe564d8e`
 - `20250126` `1384d4592ba94ec873c5f513946eb7b7fbfa36e5`
-- `20250125` `a1e5188af4362f24de90130889abe4f4ff416c22`
 </details>
 
 # Commit history
@@ -301,7 +300,7 @@
 
 ## Unreleased
 
-## nightly-20260124
+## nightly-20260125
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4d7b2dc5dd21b9daf81929f3294aefe7368c140a...ef9d13ac6548f9179b052885160fc462a391652b)
 - `ef9d13ac6548f9179b052885160fc462a391652b` [feat: support `ALTER SECRET OWNER TO`  (#24548)](https://github.com/risingwavelabs/risingwave/pull/24548)
 - `09723adb04d77ba8c37f107e531f14960c8ac14a` [feat(storage): support state table iter respecting watermark (#24567)](https://github.com/risingwavelabs/risingwave/pull/24567)
@@ -3118,9 +3117,4 @@
 - `f6bebeae436c7065f9aa39a6fdbaf3b95d3d4c81` [refactor: refactor series of visit_stream_node method (#20313)](https://github.com/risingwavelabs/risingwave/pull/20313)
 
 ## nightly-20250126
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a1e5188af4362f24de90130889abe4f4ff416c22...1384d4592ba94ec873c5f513946eb7b7fbfa36e5)
 - `1384d4592ba94ec873c5f513946eb7b7fbfa36e5` [fix(parquet): handle nested data types correctly (#20156)](https://github.com/risingwavelabs/risingwave/pull/20156)
-- `fa4c46373f5ebe3b10b4573e19b7c6abc243fa23` [fix(playground): listen to `127.0.0.1` instead of `0.0.0.0` for gRPC services (#20297)](https://github.com/risingwavelabs/risingwave/pull/20297)
-
-## nightly-20250125
-- `a1e5188af4362f24de90130889abe4f4ff416c22` [fix(test): didn't drop source but deleted topic (#20293)](https://github.com/risingwavelabs/risingwave/pull/20293)
