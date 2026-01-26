@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260126` `1657fb793d3108cb794cf33ca35ec3c4685b149d`
 - `20260125` `ef9d13ac6548f9179b052885160fc462a391652b`
 - `20260123` `4d7b2dc5dd21b9daf81929f3294aefe7368c140a`
 - `20260122` `64f7051c9207fb35910698f45c085d1d85179be5`
@@ -290,7 +291,6 @@
 - `20250202` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
 - `20250131` `08bdf2743469d7aab35c98403f53a3f4738b93f5`
 - `20250127` `0f5bae08111dcb4fd3912c04476889d5fe564d8e`
-- `20250126` `1384d4592ba94ec873c5f513946eb7b7fbfa36e5`
 </details>
 
 # Commit history
@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0ca295b3159a9332cb6172fcf910b5b37af575c1` [fix: correctly handle vis map in hash dispatcher after noop elimination (#24580)](https://github.com/risingwavelabs/risingwave/pull/24580)
+- `8d7654a1ca3114e444f0c74afd7fdcb158dff9f2` [fix(meta): support recoverable backfill order control for snapshot backfill (#24590)](https://github.com/risingwavelabs/risingwave/pull/24590)
+- `c4ae64c22bfa9fa77303d465482ac1b377954b40` [feat(meta): allow handling barrier manager request during recovery (#24592)](https://github.com/risingwavelabs/risingwave/pull/24592)
+
+## nightly-20260126
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef9d13ac6548f9179b052885160fc462a391652b...1657fb793d3108cb794cf33ca35ec3c4685b149d)
 - `1657fb793d3108cb794cf33ca35ec3c4685b149d` [chore: avoid unnecessary returning of entities when performing insert and update operations on the metastore (#24557)](https://github.com/risingwavelabs/risingwave/pull/24557)
 - `d18f141715af38bc418fdc29645689afaaec1614` [fix: remove non-deterministic background enabling for ddl tests (#24588)](https://github.com/risingwavelabs/risingwave/pull/24588)
 - `a56b9e9cc556fa9cdf93427c29ab9fe0e415e066` [fix(meta): tolerate partial `await_tree` failures (#24587)](https://github.com/risingwavelabs/risingwave/pull/24587)
@@ -3119,13 +3125,4 @@
 - `c89eeed35ad4496fed9380200a61fb9c2e93ea41` [feat(batch): introduce batch AsOf join (#19790)](https://github.com/risingwavelabs/risingwave/pull/19790)
 
 ## nightly-20250127
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1384d4592ba94ec873c5f513946eb7b7fbfa36e5...0f5bae08111dcb4fd3912c04476889d5fe564d8e)
 - `0f5bae08111dcb4fd3912c04476889d5fe564d8e` [feat(license): invalidate license when cpu exceeds limit instead of rejecting new compute nodes from joining (#20276)](https://github.com/risingwavelabs/risingwave/pull/20276)
-- `18092eebb7adb672ae7f6aee64bdd8754f18509c` [refactor: more rename for legacy fs source (#20323)](https://github.com/risingwavelabs/risingwave/pull/20323)
-- `cdfdb97871452402b7a74523dbf9c015993aef89` [refactor: rename fs executor mods (#20322)](https://github.com/risingwavelabs/risingwave/pull/20322)
-- `ef07a495a07fd38dfbb234a82aa9a2b98506dab4` [fix: Fix the issue of actor migration panic caused by the in-place scale-down (#20316)](https://github.com/risingwavelabs/risingwave/pull/20316)
-- `6bf7184d55906785c1f74c84078b8971135cc8b8` [fix(compactor): fix full key can concat (#20314)](https://github.com/risingwavelabs/risingwave/pull/20314)
-- `f6bebeae436c7065f9aa39a6fdbaf3b95d3d4c81` [refactor: refactor series of visit_stream_node method (#20313)](https://github.com/risingwavelabs/risingwave/pull/20313)
-
-## nightly-20250126
-- `1384d4592ba94ec873c5f513946eb7b7fbfa36e5` [fix(parquet): handle nested data types correctly (#20156)](https://github.com/risingwavelabs/risingwave/pull/20156)
