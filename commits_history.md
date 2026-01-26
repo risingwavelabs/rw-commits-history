@@ -299,6 +299,17 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1657fb793d3108cb794cf33ca35ec3c4685b149d` [chore: avoid unnecessary returning of entities when performing insert and update operations on the metastore (#24557)](https://github.com/risingwavelabs/risingwave/pull/24557)
+- `d18f141715af38bc418fdc29645689afaaec1614` [fix: remove non-deterministic background enabling for ddl tests (#24588)](https://github.com/risingwavelabs/risingwave/pull/24588)
+- `a56b9e9cc556fa9cdf93427c29ab9fe0e415e066` [fix(meta): tolerate partial `await_tree` failures (#24587)](https://github.com/risingwavelabs/risingwave/pull/24587)
+- `91d7de187969c0ed4b77f65c4e46d6ee1ee8c40f` [feat(source): allow subset of struct fields for file source of parquet encoding (#24530)](https://github.com/risingwavelabs/risingwave/pull/24530)
+- `3e47a87d08d16784e0df3a53a1d5dca5d2a57f9e` [feat(sink): add intermediate.schema.name for redshift sink  (#24223)](https://github.com/risingwavelabs/risingwave/pull/24223)
+- `9c4c33d112053e9bb3096dc230c04b6aa9a39e88` [fix(iceberg): Iceberg JDBC Catalog using aws assume role for s3 access (#24573)](https://github.com/risingwavelabs/risingwave/pull/24573)
+- `e9cf6327b612c24fd9190a73706f5256db67cd1d` [fix(sink): fix snowfalke starrocks redshift executor_id to uuid (#24213)](https://github.com/risingwavelabs/risingwave/pull/24213)
+- `728bcdc0fddca0f4104b394c2a66b769c7f8f42c` [feat(iceberg): add Google authentication support for Iceberg REST catalog (#24457)](https://github.com/risingwavelabs/risingwave/pull/24457)
+- `03b2bb8d3e900e87462ae6f7005e31e8ce0a2025` [feat(expr): implement gamma/lgamma function (#23556)](https://github.com/risingwavelabs/risingwave/pull/23556)
+- `b5afb6c4e33d05bbcd7b8df73aef32d88ca77575` [chore: remove trailing whitespace from filenames (#24585)](https://github.com/risingwavelabs/risingwave/pull/24585)
+- `408e5e675e986108bd0c8e6ac8360c66ce5f40d5` [fix(stream): refine locality backfill progress (#24556)](https://github.com/risingwavelabs/risingwave/pull/24556)
 
 ## nightly-20260125
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4d7b2dc5dd21b9daf81929f3294aefe7368c140a...ef9d13ac6548f9179b052885160fc462a391652b)
