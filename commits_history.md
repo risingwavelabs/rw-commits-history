@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `91991f5f2359717920594e8d1198ce710fd2970f` [feat(meta): pause time travel vacuum when having snapshot backfilling jobs (#24602)](https://github.com/risingwavelabs/risingwave/pull/24602)
+- `b217e2aaffed410762224c2de7543c4f914cc168` [fix(compute): avoid panic in GetStreamingStats (#24604)](https://github.com/risingwavelabs/risingwave/pull/24604)
+- `6ce14ee3f1bae6f56432ce9a81019f06ef8b9c4f` [ci(license): reduce hawkeye false positive due to implicit merge (#24589)](https://github.com/risingwavelabs/risingwave/pull/24589)
+- `a86838356c525ea16a42a6e8086cad2fc95795dc` [chore(deps): Bump async-openai from 0.30.1 to 0.32.3 (#24430)](https://github.com/risingwavelabs/risingwave/pull/24430)
+- `7d34c792b58433558e56758ff98740ab044b7f73` [fix: union all will panic because a hidden column (#24448)](https://github.com/risingwavelabs/risingwave/pull/24448)
 - `0ca295b3159a9332cb6172fcf910b5b37af575c1` [fix: correctly handle vis map in hash dispatcher after noop elimination (#24580)](https://github.com/risingwavelabs/risingwave/pull/24580)
 - `8d7654a1ca3114e444f0c74afd7fdcb158dff9f2` [fix(meta): support recoverable backfill order control for snapshot backfill (#24590)](https://github.com/risingwavelabs/risingwave/pull/24590)
 - `c4ae64c22bfa9fa77303d465482ac1b377954b40` [feat(meta): allow handling barrier manager request during recovery (#24592)](https://github.com/risingwavelabs/risingwave/pull/24592)
