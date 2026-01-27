@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260127` `91991f5f2359717920594e8d1198ce710fd2970f`
 - `20260126` `1657fb793d3108cb794cf33ca35ec3c4685b149d`
 - `20260125` `ef9d13ac6548f9179b052885160fc462a391652b`
 - `20260123` `4d7b2dc5dd21b9daf81929f3294aefe7368c140a`
@@ -290,7 +291,6 @@
 - `20250203` `3ee72eb15819074a1344d82e8205039731745cdf`
 - `20250202` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
 - `20250131` `08bdf2743469d7aab35c98403f53a3f4738b93f5`
-- `20250127` `0f5bae08111dcb4fd3912c04476889d5fe564d8e`
 </details>
 
 # Commit history
@@ -299,6 +299,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260127
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1657fb793d3108cb794cf33ca35ec3c4685b149d...91991f5f2359717920594e8d1198ce710fd2970f)
 - `91991f5f2359717920594e8d1198ce710fd2970f` [feat(meta): pause time travel vacuum when having snapshot backfilling jobs (#24602)](https://github.com/risingwavelabs/risingwave/pull/24602)
 - `b217e2aaffed410762224c2de7543c4f914cc168` [fix(compute): avoid panic in GetStreamingStats (#24604)](https://github.com/risingwavelabs/risingwave/pull/24604)
 - `6ce14ee3f1bae6f56432ce9a81019f06ef8b9c4f` [ci(license): reduce hawkeye false positive due to implicit merge (#24589)](https://github.com/risingwavelabs/risingwave/pull/24589)
@@ -3123,11 +3126,4 @@
 - `92b77f9062f79841bef553d0b5288c432ac01b12` [doc: Update README.md (#20355)](https://github.com/risingwavelabs/risingwave/pull/20355)
 
 ## nightly-20250131
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0f5bae08111dcb4fd3912c04476889d5fe564d8e...08bdf2743469d7aab35c98403f53a3f4738b93f5)
 - `08bdf2743469d7aab35c98403f53a3f4738b93f5` [chore(deps): Bump const-str from 0.5.6 to 0.6.0 (#20335)](https://github.com/risingwavelabs/risingwave/pull/20335)
-- `cd0ad935d5e8b49bdf7bf104a1d94b66a08a43f7` [doc: Update README.md (#20339)](https://github.com/risingwavelabs/risingwave/pull/20339)
-- `962703d890121ed42a278f8762e0b4bae87c9391` [doc: upload new diagram (#20338)](https://github.com/risingwavelabs/risingwave/pull/20338)
-- `c89eeed35ad4496fed9380200a61fb9c2e93ea41` [feat(batch): introduce batch AsOf join (#19790)](https://github.com/risingwavelabs/risingwave/pull/19790)
-
-## nightly-20250127
-- `0f5bae08111dcb4fd3912c04476889d5fe564d8e` [feat(license): invalidate license when cpu exceeds limit instead of rejecting new compute nodes from joining (#20276)](https://github.com/risingwavelabs/risingwave/pull/20276)
