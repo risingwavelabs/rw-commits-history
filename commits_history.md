@@ -299,6 +299,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `66e0236d39a500f87c2194b10ce00450db77ef60` [feat(iceberg): enforce merge-on-read for append-only tables (#24487)](https://github.com/risingwavelabs/risingwave/pull/24487)
+- `2a6168d6d03b0f7e00a4717c718658e908f7041c` [feat(metric): add relation type to relation infos (#24625)](https://github.com/risingwavelabs/risingwave/pull/24625)
+- `ce252c0b65c0f4c8308c75f2b049658180e7fb35` [feat(meta): add conifguration option and improve observability for time travel. (#24626)](https://github.com/risingwavelabs/risingwave/pull/24626)
+- `72ebb324f8c6d76ced753269ed72c2053f65064e` [chore: more robust postgres geometry type test (#24595)](https://github.com/risingwavelabs/risingwave/pull/24595)
+- `7ccfbd0cad5ff9b4a93f1a95ce19407943055a58` [feat: introduce force resume backfill node/job interface in risectl (#24551)](https://github.com/risingwavelabs/risingwave/pull/24551)
+- `8841786f914fa0ad8ce12328141cae3c9e5c74bc` [refactor: refactor iceberg compaction trigger condition and fix snapshot count (#24594)](https://github.com/risingwavelabs/risingwave/pull/24594)
+- `a9dc5d2e6710da5c6690373c8a308c810d056753` [fix(frontend): increase default query log truncate len from 1024 to 65536 (#24622)](https://github.com/risingwavelabs/risingwave/pull/24622)
+- `ea59b41de85d989f6840a1f452d84416d4755432` [chore(deps): Bump jsonwebtoken from 10.2.0 to 10.3.0 (#24619)](https://github.com/risingwavelabs/risingwave/pull/24619)
+- `9b00d36a52f023fcc96e2952e69e61f3babe7e01` [feat: add adaptive parallelism strategies for streaming jobs (#24250)](https://github.com/risingwavelabs/risingwave/pull/24250)
+- `37133a0cf4586a4e8bf1e6273a789dd49325a49e` [refactor(config): ser/de `None` value as empty string (#23931)](https://github.com/risingwavelabs/risingwave/pull/23931)
 
 ## nightly-20260127
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1657fb793d3108cb794cf33ca35ec3c4685b149d...91991f5f2359717920594e8d1198ce710fd2970f)
