@@ -299,6 +299,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a55aa0cce09b8bc2a3c4504b7f972566f77142ae` [refactor(sink): Flush pending epochs when sink schema change (#24277)](https://github.com/risingwavelabs/risingwave/pull/24277)
+- `b339ab8648e7fd3e2e674ac8ddee7748c3d73b5b` [feat(storage): periodically rebuild snapshot iter stream (#24608)](https://github.com/risingwavelabs/risingwave/pull/24608)
+- `40a3aa195fb1d09a28fd0cecc278d9f8cce99e20` [fix(metrics): fix sink commit metrics time unit (#24632)](https://github.com/risingwavelabs/risingwave/pull/24632)
+- `5cafa91e82ce9ceb852a6427e859960d2cd3f13f` [fix: ensure creating job info is cleaned after creation or cancellation (#24609)](https://github.com/risingwavelabs/risingwave/pull/24609)
+- `653747c700bfe920428fe9f4a132d0a5996eed13` [fix(session): require explicit unit when setting `statement_timeout` (#24633)](https://github.com/risingwavelabs/risingwave/pull/24633)
+- `c627b687550bf648757ea1de0b96d27782ca0a46` [fix(optimizer): avoid panic rewriting streaming limit on empty schema (#24631)](https://github.com/risingwavelabs/risingwave/pull/24631)
+- `c708f467c74aeaf059c0b417e0cc443987ca75e2` [fix(ci): replace legacy codecov uploader with new cli (#24593)](https://github.com/risingwavelabs/risingwave/pull/24593)
+- `71dfe6dec359b43dbccf9ba970195dc602ac16ed` [feat(grafana): add overview tables for relation time breakdowns (#24544)](https://github.com/risingwavelabs/risingwave/pull/24544)
 - `66e0236d39a500f87c2194b10ce00450db77ef60` [feat(iceberg): enforce merge-on-read for append-only tables (#24487)](https://github.com/risingwavelabs/risingwave/pull/24487)
 - `2a6168d6d03b0f7e00a4717c718658e908f7041c` [feat(metric): add relation type to relation infos (#24625)](https://github.com/risingwavelabs/risingwave/pull/24625)
 - `ce252c0b65c0f4c8308c75f2b049658180e7fb35` [feat(meta): add conifguration option and improve observability for time travel. (#24626)](https://github.com/risingwavelabs/risingwave/pull/24626)
