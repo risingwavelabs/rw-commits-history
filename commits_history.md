@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260129` `a55aa0cce09b8bc2a3c4504b7f972566f77142ae`
 - `20260127` `91991f5f2359717920594e8d1198ce710fd2970f`
 - `20260126` `1657fb793d3108cb794cf33ca35ec3c4685b149d`
 - `20260125` `ef9d13ac6548f9179b052885160fc462a391652b`
@@ -299,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260129
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/91991f5f2359717920594e8d1198ce710fd2970f...a55aa0cce09b8bc2a3c4504b7f972566f77142ae)
 - `a55aa0cce09b8bc2a3c4504b7f972566f77142ae` [refactor(sink): Flush pending epochs when sink schema change (#24277)](https://github.com/risingwavelabs/risingwave/pull/24277)
 - `b339ab8648e7fd3e2e674ac8ddee7748c3d73b5b` [feat(storage): periodically rebuild snapshot iter stream (#24608)](https://github.com/risingwavelabs/risingwave/pull/24608)
 - `40a3aa195fb1d09a28fd0cecc278d9f8cce99e20` [fix(metrics): fix sink commit metrics time unit (#24632)](https://github.com/risingwavelabs/risingwave/pull/24632)
