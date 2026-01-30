@@ -300,6 +300,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d3c4bf734c21d30ddabea2501a07139bee42126f` [feat(iceberg): support iceberg v3 delete vector (read and write)  (#24470)](https://github.com/risingwavelabs/risingwave/pull/24470)
+- `15c12a9c4d60743b498a4ed269b6a25d56743bd4` [feat(metrics): add backfill metadata metrics (#24576)](https://github.com/risingwavelabs/risingwave/pull/24576)
+- `4d1634f10292322c017010d2eab908c855ee6132` [fix: role check for admin database access (#24383)](https://github.com/risingwavelabs/risingwave/pull/24383)
+- `8695bd4670e7e6963b00f5419ea423132c68dc71` [fix: remove adjacent update check (#24645)](https://github.com/risingwavelabs/risingwave/pull/24645)
+- `806b0da0e83df3ebfa54e5320a8e0fa868eaf215` [fix: Java Integration test cannot allocate memory in static TLS block (#24652)](https://github.com/risingwavelabs/risingwave/pull/24652)
+- `a6e176eacb4441381eeace4ebe497fbad25d2926` [feat(meta): render after reload runtime info and isolate database render failure (#24637)](https://github.com/risingwavelabs/risingwave/pull/24637)
+- `16fa4dc80f0747d64e24f37ed34f8dda1c0ff514` [fix: invalid iceberg scan statistic in datafusion (#24650)](https://github.com/risingwavelabs/risingwave/pull/24650)
+- `914f962dae9db783ac6dca9ba84e8d631c358999` [perf: avoid fetching stream nodes in system catalogs (#24641)](https://github.com/risingwavelabs/risingwave/pull/24641)
+- `a906a6e68c8e7715827326ea9ebe27bbd6b31262` [fix(source): pad NULL on type mismatch (#24607)](https://github.com/risingwavelabs/risingwave/pull/24607)
+- `a744b87ce5e6461ecb210f92c079f902f4a72cf5` [feat: enable snapshot backfill by default (#24116)](https://github.com/risingwavelabs/risingwave/pull/24116)
 
 ## nightly-20260129
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/91991f5f2359717920594e8d1198ce710fd2970f...a55aa0cce09b8bc2a3c4504b7f972566f77142ae)
