@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260130` `d3c4bf734c21d30ddabea2501a07139bee42126f`
 - `20260129` `a55aa0cce09b8bc2a3c4504b7f972566f77142ae`
 - `20260127` `91991f5f2359717920594e8d1198ce710fd2970f`
 - `20260126` `1657fb793d3108cb794cf33ca35ec3c4685b149d`
@@ -300,6 +301,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2f0e627c68545f4ad612d39ae4d1751231b19269` [refactor(meta): do not persist backfill order of locality provider (#24661)](https://github.com/risingwavelabs/risingwave/pull/24661)
+- `8fde1b3b777593b14cd91947af79179e2002e207` [fix(stream): fix eliminate no op (#24659)](https://github.com/risingwavelabs/risingwave/pull/24659)
+- `0fb2ad13ae826922b2ec58844c5c7dbd4d0f2702` [chore: chore works for release-2.8 (#24653)](https://github.com/risingwavelabs/risingwave/pull/24653)
+
+## nightly-20260130
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a55aa0cce09b8bc2a3c4504b7f972566f77142ae...d3c4bf734c21d30ddabea2501a07139bee42126f)
 - `d3c4bf734c21d30ddabea2501a07139bee42126f` [feat(iceberg): support iceberg v3 delete vector (read and write)  (#24470)](https://github.com/risingwavelabs/risingwave/pull/24470)
 - `15c12a9c4d60743b498a4ed269b6a25d56743bd4` [feat(metrics): add backfill metadata metrics (#24576)](https://github.com/risingwavelabs/risingwave/pull/24576)
 - `4d1634f10292322c017010d2eab908c855ee6132` [fix: role check for admin database access (#24383)](https://github.com/risingwavelabs/risingwave/pull/24383)
