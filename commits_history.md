@@ -301,6 +301,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dd94d28f79de5461dbde9131607a65a45e7ef784` [feat: mapping more datafusion native functions (#24638)](https://github.com/risingwavelabs/risingwave/pull/24638)
 - `2f0e627c68545f4ad612d39ae4d1751231b19269` [refactor(meta): do not persist backfill order of locality provider (#24661)](https://github.com/risingwavelabs/risingwave/pull/24661)
 - `8fde1b3b777593b14cd91947af79179e2002e207` [fix(stream): fix eliminate no op (#24659)](https://github.com/risingwavelabs/risingwave/pull/24659)
 - `0fb2ad13ae826922b2ec58844c5c7dbd4d0f2702` [chore: chore works for release-2.8 (#24653)](https://github.com/risingwavelabs/risingwave/pull/24653)
