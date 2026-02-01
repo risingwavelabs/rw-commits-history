@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260131` `dd94d28f79de5461dbde9131607a65a45e7ef784`
+- `20260201` `dd94d28f79de5461dbde9131607a65a45e7ef784`
 - `20260130` `d3c4bf734c21d30ddabea2501a07139bee42126f`
 - `20260129` `a55aa0cce09b8bc2a3c4504b7f972566f77142ae`
 - `20260127` `91991f5f2359717920594e8d1198ce710fd2970f`
@@ -303,7 +303,7 @@
 
 ## Unreleased
 
-## nightly-20260131
+## nightly-20260201
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d3c4bf734c21d30ddabea2501a07139bee42126f...dd94d28f79de5461dbde9131607a65a45e7ef784)
 - `dd94d28f79de5461dbde9131607a65a45e7ef784` [feat: mapping more datafusion native functions (#24638)](https://github.com/risingwavelabs/risingwave/pull/24638)
 - `2f0e627c68545f4ad612d39ae4d1751231b19269` [refactor(meta): do not persist backfill order of locality provider (#24661)](https://github.com/risingwavelabs/risingwave/pull/24661)
