@@ -293,7 +293,6 @@
 - `20250204` `f9e420f8743215eff528f81bdd8478bb8467abf5`
 - `20250203` `3ee72eb15819074a1344d82e8205039731745cdf`
 - `20250202` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
-- `20250131` `08bdf2743469d7aab35c98403f53a3f4738b93f5`
 </details>
 
 # Commit history
@@ -302,6 +301,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c605b43f475cb8bc70da6dfa060624dd970e6b71` [feat: iceberg cleanup expired files (#24660)](https://github.com/risingwavelabs/risingwave/pull/24660)
+- `7977e2083e3e1aefe1de832eef6c15a7566cb76d` [feat(sink): support copy into wihout barrier for redshift (#23086)](https://github.com/risingwavelabs/risingwave/pull/23086)
+- `ed58a68d29e722930ce88d391c7d8564cff514fb` [fix(ci): avoid shaded gRPC classpath conflict in connector test (#24623)](https://github.com/risingwavelabs/risingwave/pull/24623)
+- `9860767e3e5a87c5e406fe854bdcb0b26bdf2357` [fix: extract `ProfileServiceImpl` to `heap_profile` crate to avoid jemalloc TLS in JNI (#24658)](https://github.com/risingwavelabs/risingwave/pull/24658)
 
 ## nightly-20260201
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d3c4bf734c21d30ddabea2501a07139bee42126f...dd94d28f79de5461dbde9131607a65a45e7ef784)
@@ -3165,9 +3168,4 @@
 - `552925b2562e0ecc553293f146a7c187c1eb7e88` [docs: Update README.md (#20358)](https://github.com/risingwavelabs/risingwave/pull/20358)
 
 ## nightly-20250202
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/08bdf2743469d7aab35c98403f53a3f4738b93f5...654b836d24c6dcc98bbbfdc7b67ca76c9ec45575)
 - `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575` [feat(iceberg): add 'glue.id' to iceberg sink config (#20330)](https://github.com/risingwavelabs/risingwave/pull/20330)
-- `92b77f9062f79841bef553d0b5288c432ac01b12` [doc: Update README.md (#20355)](https://github.com/risingwavelabs/risingwave/pull/20355)
-
-## nightly-20250131
-- `08bdf2743469d7aab35c98403f53a3f4738b93f5` [chore(deps): Bump const-str from 0.5.6 to 0.6.0 (#20335)](https://github.com/risingwavelabs/risingwave/pull/20335)
