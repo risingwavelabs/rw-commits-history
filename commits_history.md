@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260202` `c605b43f475cb8bc70da6dfa060624dd970e6b71`
 - `20260201` `dd94d28f79de5461dbde9131607a65a45e7ef784`
 - `20260130` `d3c4bf734c21d30ddabea2501a07139bee42126f`
 - `20260129` `a55aa0cce09b8bc2a3c4504b7f972566f77142ae`
@@ -292,7 +293,6 @@
 - `20250205` `827ce146aef3adeb22da5428d675cd90adbbacfb`
 - `20250204` `f9e420f8743215eff528f81bdd8478bb8467abf5`
 - `20250203` `3ee72eb15819074a1344d82e8205039731745cdf`
-- `20250202` `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575`
 </details>
 
 # Commit history
@@ -301,6 +301,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260202
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dd94d28f79de5461dbde9131607a65a45e7ef784...c605b43f475cb8bc70da6dfa060624dd970e6b71)
 - `c605b43f475cb8bc70da6dfa060624dd970e6b71` [feat: iceberg cleanup expired files (#24660)](https://github.com/risingwavelabs/risingwave/pull/24660)
 - `7977e2083e3e1aefe1de832eef6c15a7566cb76d` [feat(sink): support copy into wihout barrier for redshift (#23086)](https://github.com/risingwavelabs/risingwave/pull/23086)
 - `ed58a68d29e722930ce88d391c7d8564cff514fb` [fix(ci): avoid shaded gRPC classpath conflict in connector test (#24623)](https://github.com/risingwavelabs/risingwave/pull/24623)
@@ -3162,10 +3165,4 @@
 - `dd26e9b7b1d0443f7469385e250d25a84fb318fb` [doc: Update README.md (#20373)](https://github.com/risingwavelabs/risingwave/pull/20373)
 
 ## nightly-20250203
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/654b836d24c6dcc98bbbfdc7b67ca76c9ec45575...3ee72eb15819074a1344d82e8205039731745cdf)
 - `3ee72eb15819074a1344d82e8205039731745cdf` [refactor(proto): add `LATEST` const value for proto message version enums (#20359)](https://github.com/risingwavelabs/risingwave/pull/20359)
-- `67ee5a5f1bdfe0ef554291146c85d4cfabaa19c9` [feat(stream): normalize unmatched updates (#20350)](https://github.com/risingwavelabs/risingwave/pull/20350)
-- `552925b2562e0ecc553293f146a7c187c1eb7e88` [docs: Update README.md (#20358)](https://github.com/risingwavelabs/risingwave/pull/20358)
-
-## nightly-20250202
-- `654b836d24c6dcc98bbbfdc7b67ca76c9ec45575` [feat(iceberg): add 'glue.id' to iceberg sink config (#20330)](https://github.com/risingwavelabs/risingwave/pull/20330)
