@@ -301,6 +301,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae` [refactor: use strong typed id in system catalog and strong typed UserId (#24677)](https://github.com/risingwavelabs/risingwave/pull/24677)
+- `f15c3ae79f7b828af794c7f090a64f56d98b9f7b` [chore(deps): Bump sysinfo from 0.37.2 to 0.38.0 (#24600)](https://github.com/risingwavelabs/risingwave/pull/24600)
+- `8584fae4551efec65c874fd08cda450b3c1c6a88` [fix(ci): check future milestone in bump main workflow (#24685)](https://github.com/risingwavelabs/risingwave/pull/24685)
 
 ## nightly-20260202
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dd94d28f79de5461dbde9131607a65a45e7ef784...c605b43f475cb8bc70da6dfa060624dd970e6b71)
