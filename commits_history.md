@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260203` `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae`
 - `20260202` `c605b43f475cb8bc70da6dfa060624dd970e6b71`
 - `20260201` `dd94d28f79de5461dbde9131607a65a45e7ef784`
 - `20260130` `d3c4bf734c21d30ddabea2501a07139bee42126f`
@@ -292,7 +293,6 @@
 - `20250206` `c3a7a9933bcaafd1b5e8f059ae46fed1c037be63`
 - `20250205` `827ce146aef3adeb22da5428d675cd90adbbacfb`
 - `20250204` `f9e420f8743215eff528f81bdd8478bb8467abf5`
-- `20250203` `3ee72eb15819074a1344d82e8205039731745cdf`
 </details>
 
 # Commit history
@@ -301,6 +301,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260203
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c605b43f475cb8bc70da6dfa060624dd970e6b71...fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae)
 - `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae` [refactor: use strong typed id in system catalog and strong typed UserId (#24677)](https://github.com/risingwavelabs/risingwave/pull/24677)
 - `f15c3ae79f7b828af794c7f090a64f56d98b9f7b` [chore(deps): Bump sysinfo from 0.37.2 to 0.38.0 (#24600)](https://github.com/risingwavelabs/risingwave/pull/24600)
 - `8584fae4551efec65c874fd08cda450b3c1c6a88` [fix(ci): check future milestone in bump main workflow (#24685)](https://github.com/risingwavelabs/risingwave/pull/24685)
@@ -3161,11 +3164,4 @@
 - `51a8b081f02a2693efe2fdc31fffdcba14d4efb5` [fix(pg-cdc): fix role-based permission for rds (#20347)](https://github.com/risingwavelabs/risingwave/pull/20347)
 
 ## nightly-20250204
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3ee72eb15819074a1344d82e8205039731745cdf...f9e420f8743215eff528f81bdd8478bb8467abf5)
 - `f9e420f8743215eff528f81bdd8478bb8467abf5` [refactor(risedev): use sqlx driver to test whether database is ready (#20360)](https://github.com/risingwavelabs/risingwave/pull/20360)
-- `13e412c9319ec4e3cc77f432f69cf2102596d863` [test(stream): add unit test for normalizing unmatched updates + fix typo (#20366)](https://github.com/risingwavelabs/risingwave/pull/20366)
-- `016f84ffe635afa6d25d6ca928d38ed39f2f813d` [fix(sink): fix es sink username must required (#20304)](https://github.com/risingwavelabs/risingwave/pull/20304)
-- `dd26e9b7b1d0443f7469385e250d25a84fb318fb` [doc: Update README.md (#20373)](https://github.com/risingwavelabs/risingwave/pull/20373)
-
-## nightly-20250203
-- `3ee72eb15819074a1344d82e8205039731745cdf` [refactor(proto): add `LATEST` const value for proto message version enums (#20359)](https://github.com/risingwavelabs/risingwave/pull/20359)
