@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260203` `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae`
+- `20260204` `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae`
 - `20260202` `c605b43f475cb8bc70da6dfa060624dd970e6b71`
 - `20260201` `dd94d28f79de5461dbde9131607a65a45e7ef784`
 - `20260130` `d3c4bf734c21d30ddabea2501a07139bee42126f`
@@ -292,7 +292,6 @@
 - `20250207` `c17dd5ed95b86492c20967850b80a671d3f740ab`
 - `20250206` `c3a7a9933bcaafd1b5e8f059ae46fed1c037be63`
 - `20250205` `827ce146aef3adeb22da5428d675cd90adbbacfb`
-- `20250204` `f9e420f8743215eff528f81bdd8478bb8467abf5`
 </details>
 
 # Commit history
@@ -302,7 +301,7 @@
 
 ## Unreleased
 
-## nightly-20260203
+## nightly-20260204
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c605b43f475cb8bc70da6dfa060624dd970e6b71...fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae)
 - `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae` [refactor: use strong typed id in system catalog and strong typed UserId (#24677)](https://github.com/risingwavelabs/risingwave/pull/24677)
 - `f15c3ae79f7b828af794c7f090a64f56d98b9f7b` [chore(deps): Bump sysinfo from 0.37.2 to 0.38.0 (#24600)](https://github.com/risingwavelabs/risingwave/pull/24600)
@@ -3157,11 +3156,4 @@
 - `57978290e21b7864ff37bd6a35c5b721cc285ab2` [fix(cdc): fix wrong default column matching (#20348)](https://github.com/risingwavelabs/risingwave/pull/20348)
 
 ## nightly-20250205
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f9e420f8743215eff528f81bdd8478bb8467abf5...827ce146aef3adeb22da5428d675cd90adbbacfb)
 - `827ce146aef3adeb22da5428d675cd90adbbacfb` [refactor(meta): do not store upstream actors in merge node (#20222)](https://github.com/risingwavelabs/risingwave/pull/20222)
-- `40216ce1de65b70c69f914b3a5023ed2e939110c` [feat(risedev): Add resource-group (#20329)](https://github.com/risingwavelabs/risingwave/pull/20329)
-- `b01dae50588fd2ecb7a5b033c540c803d9c0efbb` [feat: Add offline scaling support for background ddl with arrangement backfill (#20006)](https://github.com/risingwavelabs/risingwave/pull/20006)
-- `51a8b081f02a2693efe2fdc31fffdcba14d4efb5` [fix(pg-cdc): fix role-based permission for rds (#20347)](https://github.com/risingwavelabs/risingwave/pull/20347)
-
-## nightly-20250204
-- `f9e420f8743215eff528f81bdd8478bb8467abf5` [refactor(risedev): use sqlx driver to test whether database is ready (#20360)](https://github.com/risingwavelabs/risingwave/pull/20360)
