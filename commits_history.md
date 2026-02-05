@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260204` `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae`
+- `20260205` `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae`
 - `20260202` `c605b43f475cb8bc70da6dfa060624dd970e6b71`
 - `20260201` `dd94d28f79de5461dbde9131607a65a45e7ef784`
 - `20260130` `d3c4bf734c21d30ddabea2501a07139bee42126f`
@@ -301,7 +301,7 @@
 
 ## Unreleased
 
-## nightly-20260204
+## nightly-20260205
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c605b43f475cb8bc70da6dfa060624dd970e6b71...fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae)
 - `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae` [refactor: use strong typed id in system catalog and strong typed UserId (#24677)](https://github.com/risingwavelabs/risingwave/pull/24677)
 - `f15c3ae79f7b828af794c7f090a64f56d98b9f7b` [chore(deps): Bump sysinfo from 0.37.2 to 0.38.0 (#24600)](https://github.com/risingwavelabs/risingwave/pull/24600)
