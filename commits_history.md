@@ -300,6 +300,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `51d85a5980d22854dc257dfc63a94ae4952d834b` [fix(snapshot-backfill): fix deadlock caused by next_epoch (#24693)](https://github.com/risingwavelabs/risingwave/pull/24693)
+- `2b63ba1275c29e0a7a06f0256930a7c5eb3c295a` [feat(optimizer): improve locality backfill for agg (#24710)](https://github.com/risingwavelabs/risingwave/pull/24710)
+- `591a4569e0f30968b70c5b2e1aa78e852be4d55e` [feat: Add Kafka consumer lag catalog and monitoring tests (#24708)](https://github.com/risingwavelabs/risingwave/pull/24708)
+- `549eaaa9043159fd9b808381aef631e1289d038f` [feat: support table functions for datafusion (#24715)](https://github.com/risingwavelabs/risingwave/pull/24715)
+- `3550d29cad485cffe4086db3b84a9450cf4bda14` [refactor: strong typed hummock id (#24689)](https://github.com/risingwavelabs/risingwave/pull/24689)
+- `d0d4954d8926b098e6d97169f48abd871a905126` [test(meta): enhance validation of drop object tests (#24665)](https://github.com/risingwavelabs/risingwave/pull/24665)
+- `d212eb0fdf7475419a968a52d6719e97d2d82bb4` [chore(deps): Bump bytes from 1.11.0 to 1.11.1 (#24699)](https://github.com/risingwavelabs/risingwave/pull/24699)
+- `760b08ccdae76c1eeb1204bf71aa32b583f4a051` [feat: support downloading gcloud-cli for both Linux and macOS (#24512)](https://github.com/risingwavelabs/risingwave/pull/24512)
+- `b0e3e825145b06218e1fac3afd8e94051dd968a0` [refactor(grafana): improve cluster alerts (#24518)](https://github.com/risingwavelabs/risingwave/pull/24518)
+- `77db855d18a8cb4a198b6c1601371420cd6fbb10` [chore: move cursor rules to AGENTS.md (#24709)](https://github.com/risingwavelabs/risingwave/pull/24709)
 
 ## nightly-20260205
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c605b43f475cb8bc70da6dfa060624dd970e6b71...fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae)
