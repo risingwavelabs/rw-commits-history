@@ -301,6 +301,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `397ed9a175393110d7f224b98e5b04d4b364fca8` [feat(frontend): support enable_serverless_backfill (#24686)](https://github.com/risingwavelabs/risingwave/pull/24686)
 - `d8a5dbc0304c39273d8c70e98d5468e3b714eefe` [feat: support show cursors and subscription cursors for all frontend nodes (#24107)](https://github.com/risingwavelabs/risingwave/pull/24107)
 - `674ad333542bf5c12710e2fd170975c3ec318d5e` [fix(iceberg): clear iceberg compaction meta data when dropping iceberg sink (#24730)](https://github.com/risingwavelabs/risingwave/pull/24730)
 
