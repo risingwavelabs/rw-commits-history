@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260207` `397ed9a175393110d7f224b98e5b04d4b364fca8`
 - `20260206` `51d85a5980d22854dc257dfc63a94ae4952d834b`
 - `20260205` `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae`
 - `20260202` `c605b43f475cb8bc70da6dfa060624dd970e6b71`
@@ -301,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260207
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/51d85a5980d22854dc257dfc63a94ae4952d834b...397ed9a175393110d7f224b98e5b04d4b364fca8)
 - `397ed9a175393110d7f224b98e5b04d4b364fca8` [feat(frontend): support enable_serverless_backfill (#24686)](https://github.com/risingwavelabs/risingwave/pull/24686)
 - `d8a5dbc0304c39273d8c70e98d5468e3b714eefe` [feat: support show cursors and subscription cursors for all frontend nodes (#24107)](https://github.com/risingwavelabs/risingwave/pull/24107)
 - `674ad333542bf5c12710e2fd170975c3ec318d5e` [fix(iceberg): clear iceberg compaction meta data when dropping iceberg sink (#24730)](https://github.com/risingwavelabs/risingwave/pull/24730)
