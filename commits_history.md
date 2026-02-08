@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260207` `397ed9a175393110d7f224b98e5b04d4b364fca8`
+- `20260208` `397ed9a175393110d7f224b98e5b04d4b364fca8`
 - `20260206` `51d85a5980d22854dc257dfc63a94ae4952d834b`
 - `20260205` `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae`
 - `20260202` `c605b43f475cb8bc70da6dfa060624dd970e6b71`
@@ -290,10 +290,6 @@
 - `20250211` `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27`
 - `20250210` `246c825d7d6dfb2ada874ac88867d3f77187ee2f`
 - `20250209` `0e5aa83266974d9b45b56120fa05453cca3f5abf`
-- `20250208` `37d96fdc3af6ed24bf88ea877c3c8bf3d9ff1946`
-- `20250207` `c17dd5ed95b86492c20967850b80a671d3f740ab`
-- `20250206` `c3a7a9933bcaafd1b5e8f059ae46fed1c037be63`
-- `20250205` `827ce146aef3adeb22da5428d675cd90adbbacfb`
 </details>
 
 # Commit history
@@ -303,7 +299,7 @@
 
 ## Unreleased
 
-## nightly-20260207
+## nightly-20260208
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/51d85a5980d22854dc257dfc63a94ae4952d834b...397ed9a175393110d7f224b98e5b04d4b364fca8)
 - `397ed9a175393110d7f224b98e5b04d4b364fca8` [feat(frontend): support enable_serverless_backfill (#24686)](https://github.com/risingwavelabs/risingwave/pull/24686)
 - `d8a5dbc0304c39273d8c70e98d5468e3b714eefe` [feat: support show cursors and subscription cursors for all frontend nodes (#24107)](https://github.com/risingwavelabs/risingwave/pull/24107)
@@ -3150,31 +3146,4 @@
 - `3fdfb522e01dfa76e896bf38ede72ca091afa7ee` [fix(storage): fix state store sync metrics (#20420)](https://github.com/risingwavelabs/risingwave/pull/20420)
 
 ## nightly-20250209
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/37d96fdc3af6ed24bf88ea877c3c8bf3d9ff1946...0e5aa83266974d9b45b56120fa05453cca3f5abf)
 - `0e5aa83266974d9b45b56120fa05453cca3f5abf` [feat(iceberg): make iceberg engine a paid feature (#20324)](https://github.com/risingwavelabs/risingwave/pull/20324)
-- `e928b30965c87826f811798e2eca45d7981ab6dc` [feat: allow pass-by source enumerator check (#20352)](https://github.com/risingwavelabs/risingwave/pull/20352)
-- `1578865ce611c7e1a5276d9c9c566de8f685304e` [fix(storage): reset partition_vnode_count after merge (#20426)](https://github.com/risingwavelabs/risingwave/pull/20426)
-
-## nightly-20250208
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c17dd5ed95b86492c20967850b80a671d3f740ab...37d96fdc3af6ed24bf88ea877c3c8bf3d9ff1946)
-- `37d96fdc3af6ed24bf88ea877c3c8bf3d9ff1946` [feat(source): support iceberg source with snowflake catalog (#20421)](https://github.com/risingwavelabs/risingwave/pull/20421)
-
-## nightly-20250207
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c3a7a9933bcaafd1b5e8f059ae46fed1c037be63...c17dd5ed95b86492c20967850b80a671d3f740ab)
-- `c17dd5ed95b86492c20967850b80a671d3f740ab` [feat(storage): Provide table id filter for BackwardSstableIterator (#19659)](https://github.com/risingwavelabs/risingwave/pull/19659)
-- `7c7e0ad4ed27fbc6c1f7a9b54dd96a80c2f1182f` [refactor: make actor graph builder fragment aware (#20385)](https://github.com/risingwavelabs/risingwave/pull/20385)
-- `ad80f2acc12ef26cc7af76caffd082a5bc04960e` [feat(stream): add synced logstore (#20204)](https://github.com/risingwavelabs/risingwave/pull/20204)
-- `0a6772b4133ded8e05ad4661d1dc1cdea538736f` [fix(compaction): avoid merge a emergency group (#20327)](https://github.com/risingwavelabs/risingwave/pull/20327)
-- `0211a937f229f9dd6062966ca45fae3969eceda0` [fix(metrics): hide some actor-level metrics (#20390)](https://github.com/risingwavelabs/risingwave/pull/20390)
-- `6668614be3a5511a187192cfe19049b36674d101` [chore: add some log for meta startup (#20301)](https://github.com/risingwavelabs/risingwave/pull/20301)
-
-## nightly-20250206
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/827ce146aef3adeb22da5428d675cd90adbbacfb...c3a7a9933bcaafd1b5e8f059ae46fed1c037be63)
-- `c3a7a9933bcaafd1b5e8f059ae46fed1c037be63` [feat(storage): support non_pk_prefix_watermark state cleaning (#19889)](https://github.com/risingwavelabs/risingwave/pull/19889)
-- `c9ca12efd22d4490c507ddc21efb0d831a395a7e` [feat(compaction): support trivial move multi ssts (#20284)](https://github.com/risingwavelabs/risingwave/pull/20284)
-- `4f6ad776c2e95129e4400fa282916ed2f34ff2ca` [fix(storage): Decoupling `WriteStop` and `Emergency` of compaction strategy (#20260)](https://github.com/risingwavelabs/risingwave/pull/20260)
-- `271877a5f5776e39d3856ab0f3f3b013037f700d` [refactor: rename StorageTable to BatchTable (#20235)](https://github.com/risingwavelabs/risingwave/pull/20235)
-- `57978290e21b7864ff37bd6a35c5b721cc285ab2` [fix(cdc): fix wrong default column matching (#20348)](https://github.com/risingwavelabs/risingwave/pull/20348)
-
-## nightly-20250205
-- `827ce146aef3adeb22da5428d675cd90adbbacfb` [refactor(meta): do not store upstream actors in merge node (#20222)](https://github.com/risingwavelabs/risingwave/pull/20222)
