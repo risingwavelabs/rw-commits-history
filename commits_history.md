@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260209` `a1961606fa10c104a9f9a29db19f9241e7be3d94`
 - `20260208` `397ed9a175393110d7f224b98e5b04d4b364fca8`
 - `20260206` `51d85a5980d22854dc257dfc63a94ae4952d834b`
 - `20260205` `fc8819f6bd3695ecf3d51bca7b2ab15f084cbbae`
@@ -289,7 +290,6 @@
 - `20250212` `a5413ff38dcdacbaa0e7119f13e89ad4db165db8`
 - `20250211` `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27`
 - `20250210` `246c825d7d6dfb2ada874ac88867d3f77187ee2f`
-- `20250209` `0e5aa83266974d9b45b56120fa05453cca3f5abf`
 </details>
 
 # Commit history
@@ -298,6 +298,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dbc4229c844427121cd194fe35a4290c77f5ade5` [feat(prost): support strong typed map value type (#24695)](https://github.com/risingwavelabs/risingwave/pull/24695)
+- `1193e932b239dc4eb6a595092744cd222fd6078d` [fix: disallow duplicate CTE names within the same WITH clause (#24676)](https://github.com/risingwavelabs/risingwave/pull/24676)
+
+## nightly-20260209
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/397ed9a175393110d7f224b98e5b04d4b364fca8...a1961606fa10c104a9f9a29db19f9241e7be3d94)
 - `a1961606fa10c104a9f9a29db19f9241e7be3d94` [refactor(types):   make `StructType` debug output concise (#24651)](https://github.com/risingwavelabs/risingwave/pull/24651)
 - `92f3b574db17c8ccc5ff529e25ca14c81ba634d1` [chore(frontend): support FATAL message (#24704)](https://github.com/risingwavelabs/risingwave/pull/24704)
 - `642524de61f237aaecafbdcca92247e5f7a9c829` [feat: support caching object dependencies info in frontend (#24706)](https://github.com/risingwavelabs/risingwave/pull/24706)
@@ -3146,11 +3151,4 @@
 - `770307da4715422a5b8a109c44428bce7b0e2fff` [refactor(udf): change JS UDF to include the function head (#20392)](https://github.com/risingwavelabs/risingwave/pull/20392)
 
 ## nightly-20250210
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0e5aa83266974d9b45b56120fa05453cca3f5abf...246c825d7d6dfb2ada874ac88867d3f77187ee2f)
 - `246c825d7d6dfb2ada874ac88867d3f77187ee2f` [feat(sink): support geospatial for redis sink (#20402)](https://github.com/risingwavelabs/risingwave/pull/20402)
-- `ae8d6068c71c3db1d17824cc593041d13e364424` [fix(udf): bump `arrow-udf-wasm` to 0.4.1 to fix rust udf compile target (#20252)](https://github.com/risingwavelabs/risingwave/pull/20252)
-- `30def4b3014e3b0f4121b275244fc2e54886911f` [fix(telemtry): remove redundant report_event during recovery (#20259)](https://github.com/risingwavelabs/risingwave/pull/20259)
-- `3fdfb522e01dfa76e896bf38ede72ca091afa7ee` [fix(storage): fix state store sync metrics (#20420)](https://github.com/risingwavelabs/risingwave/pull/20420)
-
-## nightly-20250209
-- `0e5aa83266974d9b45b56120fa05453cca3f5abf` [feat(iceberg): make iceberg engine a paid feature (#20324)](https://github.com/risingwavelabs/risingwave/pull/20324)
