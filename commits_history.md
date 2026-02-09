@@ -298,6 +298,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a1961606fa10c104a9f9a29db19f9241e7be3d94` [refactor(types):   make `StructType` debug output concise (#24651)](https://github.com/risingwavelabs/risingwave/pull/24651)
+- `92f3b574db17c8ccc5ff529e25ca14c81ba634d1` [chore(frontend): support FATAL message (#24704)](https://github.com/risingwavelabs/risingwave/pull/24704)
+- `642524de61f237aaecafbdcca92247e5f7a9c829` [feat: support caching object dependencies info in frontend (#24706)](https://github.com/risingwavelabs/risingwave/pull/24706)
+- `6c5720c9287ca1314f5c507ae61293ed62a477e1` [feat(frontend): support equivalent batch orders for eq-prefix scans (#24729)](https://github.com/risingwavelabs/risingwave/pull/24729)
+- `08eb75b296e6ff872bb719401904ec588acc6bd8` [feat: enhance oom handling for datafusion (#24736)](https://github.com/risingwavelabs/risingwave/pull/24736)
+- `53f4265a0f0eb11c9b7f4f339f7ac8106d5f67e3` [feat: support `DROP SECRET CASCADE` (#24581)](https://github.com/risingwavelabs/risingwave/pull/24581)
+- `341fdbf71218d839c8603874f101b815361039ea` [feat: add metrics for datafusion engine (#24707)](https://github.com/risingwavelabs/risingwave/pull/24707)
 
 ## nightly-20260208
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/51d85a5980d22854dc257dfc63a94ae4952d834b...397ed9a175393110d7f224b98e5b04d4b364fca8)
