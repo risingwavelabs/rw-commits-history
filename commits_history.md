@@ -298,6 +298,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4d2b0f058afffb2e06aa3bd4f43e97d6a682e647` [refactor(source): skip bad file splits after retry in fs_fetch executor (#24718)](https://github.com/risingwavelabs/risingwave/pull/24718)
+- `1f6ca8baf677c8822154d574f969daf0af9ccbd1` [chore: Replace unmaintained rustls-pemfile with rustls-pki-types (#24712)](https://github.com/risingwavelabs/risingwave/pull/24712)
+- `09cb08cbde4be82f1a42ed4e98c5925192dc57be` [chore: add agent skill `fix-buildkite-ci` (#24752)](https://github.com/risingwavelabs/risingwave/pull/24752)
+- `7a50bc74f69d2e4505a34b8f34c99636a4e74743` [fix(meta): fix compaction group merge scheduling efficiency (#24757)](https://github.com/risingwavelabs/risingwave/pull/24757)
+- `84d122565c7a5d9ec1da3672e41a08d878c4dff4` [feat(frontend): allow users to confirm if background_ddl is enabled for a sink (#24338)](https://github.com/risingwavelabs/risingwave/pull/24338)
+- `4a21a24efbeea0ddfe579b73c46095fcdf05346d` [chore(deps): Bump tempfile from 3.24.0 to 3.25.0 (#24759)](https://github.com/risingwavelabs/risingwave/pull/24759)
 - `dbc4229c844427121cd194fe35a4290c77f5ade5` [feat(prost): support strong typed map value type (#24695)](https://github.com/risingwavelabs/risingwave/pull/24695)
 - `1193e932b239dc4eb6a595092744cd222fd6078d` [fix: disallow duplicate CTE names within the same WITH clause (#24676)](https://github.com/risingwavelabs/risingwave/pull/24676)
 
