@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260210` `4d2b0f058afffb2e06aa3bd4f43e97d6a682e647`
 - `20260209` `a1961606fa10c104a9f9a29db19f9241e7be3d94`
 - `20260208` `397ed9a175393110d7f224b98e5b04d4b364fca8`
 - `20260206` `51d85a5980d22854dc257dfc63a94ae4952d834b`
@@ -289,7 +290,6 @@
 - `20250214` `72f189c89c506bd480ae430a6d76d698041e4bbf`
 - `20250212` `a5413ff38dcdacbaa0e7119f13e89ad4db165db8`
 - `20250211` `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27`
-- `20250210` `246c825d7d6dfb2ada874ac88867d3f77187ee2f`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260210
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a1961606fa10c104a9f9a29db19f9241e7be3d94...4d2b0f058afffb2e06aa3bd4f43e97d6a682e647)
 - `4d2b0f058afffb2e06aa3bd4f43e97d6a682e647` [refactor(source): skip bad file splits after retry in fs_fetch executor (#24718)](https://github.com/risingwavelabs/risingwave/pull/24718)
 - `1f6ca8baf677c8822154d574f969daf0af9ccbd1` [chore: Replace unmaintained rustls-pemfile with rustls-pki-types (#24712)](https://github.com/risingwavelabs/risingwave/pull/24712)
 - `09cb08cbde4be82f1a42ed4e98c5925192dc57be` [chore: add agent skill `fix-buildkite-ci` (#24752)](https://github.com/risingwavelabs/risingwave/pull/24752)
@@ -3141,20 +3144,4 @@
 - `77c80fb86b3509b989bc96acd87fbddb328d8b3f` [fix(cdc): pass ownership of source message sender to java thread (#20353)](https://github.com/risingwavelabs/risingwave/pull/20353)
 
 ## nightly-20250211
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/246c825d7d6dfb2ada874ac88867d3f77187ee2f...99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27)
 - `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27` [refactor(pgwire): allow sharing of pg stream (#20362)](https://github.com/risingwavelabs/risingwave/pull/20362)
-- `e94b1c09606e8b0232ab3de2334d53d871ea9199` [chore: fix install script... (#20455)](https://github.com/risingwavelabs/risingwave/pull/20455)
-- `3235d9cf479d29a2273a32767f1f6a9b7efdb30f` [chore(install script): use release page redirection instead of github api to get latest version (#20448)](https://github.com/risingwavelabs/risingwave/pull/20448)
-- `6f25c0386af269adf0799c16a62ef65633e21218` [fix(hash agg): split `AggGroup` inter states and outputs change building, fixing old groups not deleted bug (#20435)](https://github.com/risingwavelabs/risingwave/pull/20435)
-- `d542b2004a7e811f94fb3d230d8d9ad7df22c24b` [feat(snapshot-backfill): implement executor to consume upstream table (#20167)](https://github.com/risingwavelabs/risingwave/pull/20167)
-- `0d21f5deb00235a4cdeb4cd1b034875ed48c0a93` [refactor(log-store): refine synced log store executor implementation (#20440)](https://github.com/risingwavelabs/risingwave/pull/20440)
-- `4b2ea9d3dfe71fd82241bd18f8a115662291cef7` [feat(license): set default key in production to enable paid features in clusters with a maximum of 4 CPU cores (#20296)](https://github.com/risingwavelabs/risingwave/pull/20296)
-- `a04b55f5dde089c439be59138486bddd58e6fa44` [chore(deps): Bump crate-ci/typos from 1.29.4 to 1.29.5 (#20371)](https://github.com/risingwavelabs/risingwave/pull/20371)
-- `c3247295733524b02efe5985e86c144120f32bbf` [chore(deps): Bump apache/skywalking-eyes from 69f34abb75ec4e414b593ac3f34228b60e33f97b to 5042f7f88d68fd1bc15e2b4ba25f7000b607487c (#20443)](https://github.com/risingwavelabs/risingwave/pull/20443)
-- `deb98b5c6877fce17a65edb8fbf0524c945b073d` [feat: tvf with cdc source (#20439)](https://github.com/risingwavelabs/risingwave/pull/20439)
-- `f28467732be039fc2519a17b12dea8621c6555ce` [refactor(log-store): extract common read write methods to log store state (#20432)](https://github.com/risingwavelabs/risingwave/pull/20432)
-- `367636bd70ac101e5a212ab6b51fd77283760119` [feat(iceberg): support iceberg engine connection (#20298)](https://github.com/risingwavelabs/risingwave/pull/20298)
-- `770307da4715422a5b8a109c44428bce7b0e2fff` [refactor(udf): change JS UDF to include the function head (#20392)](https://github.com/risingwavelabs/risingwave/pull/20392)
-
-## nightly-20250210
-- `246c825d7d6dfb2ada874ac88867d3f77187ee2f` [feat(sink): support geospatial for redis sink (#20402)](https://github.com/risingwavelabs/risingwave/pull/20402)
