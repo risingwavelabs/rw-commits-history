@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260211` `a45878548ff7d5bb1a8438c84806ad4762a97cb8`
 - `20260210` `4d2b0f058afffb2e06aa3bd4f43e97d6a682e647`
 - `20260209` `a1961606fa10c104a9f9a29db19f9241e7be3d94`
 - `20260208` `397ed9a175393110d7f224b98e5b04d4b364fca8`
@@ -289,7 +290,6 @@
 - `20250216` `fc307d34e298ae3aa8014a22816d7a123491e951`
 - `20250214` `72f189c89c506bd480ae430a6d76d698041e4bbf`
 - `20250212` `a5413ff38dcdacbaa0e7119f13e89ad4db165db8`
-- `20250211` `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27`
 </details>
 
 # Commit history
@@ -298,6 +298,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `408ea7259b0d92cedd51eaa5096ee90538470e06` [fix(frontend): wait for notification version on WAIT command (#24768)](https://github.com/risingwavelabs/risingwave/pull/24768)
+- `fa6ed2a24718f4b30385867e75321b90b998aad7` [fix(cdc): excluded generated column from postgres publication validation (#24380)](https://github.com/risingwavelabs/risingwave/pull/24380)
+
+## nightly-20260211
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4d2b0f058afffb2e06aa3bd4f43e97d6a682e647...a45878548ff7d5bb1a8438c84806ad4762a97cb8)
 - `a45878548ff7d5bb1a8438c84806ad4762a97cb8` [feat: risectl command to force change Source Connector Props (#24392)](https://github.com/risingwavelabs/risingwave/pull/24392)
 - `fb849a7be5eba714b95fee892963f24b033e64cf` [refactor(cdc): add configurable total timeout for CDC schema history `putObject` (#24749)](https://github.com/risingwavelabs/risingwave/pull/24749)
 - `a12febc4ba3e6a8ad5fcf4651c14d4b04a1978f4` [feat(cdc): add `RW_JAVA_LOG` to control Java connector logging granularity (#24404)](https://github.com/risingwavelabs/risingwave/pull/24404)
@@ -3135,21 +3140,4 @@
 - `95fa51f49fbd6d6be9c9408fea99604393cf12a0` [feat(iceberg): add support for creating new iceberg tables with partition keys (#20340)](https://github.com/risingwavelabs/risingwave/pull/20340)
 
 ## nightly-20250212
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27...a5413ff38dcdacbaa0e7119f13e89ad4db165db8)
 - `a5413ff38dcdacbaa0e7119f13e89ad4db165db8` [refactor: display original length for truncated fmt (#20477)](https://github.com/risingwavelabs/risingwave/pull/20477)
-- `549447003ef1689bbafb37ff5a44e35e2e51ba98` [feat: try adding FragmentRelation in meta store (#20035)](https://github.com/risingwavelabs/risingwave/pull/20035)
-- `2df1a07f140c1bd05752002dfcdd6f343574bf8d` [fix(storage): fix data race (#20474)](https://github.com/risingwavelabs/risingwave/pull/20474)
-- `0fa3a1d360783cefa258fe4390137642bf59eac1` [refactor(frontend): release large objects early (#20470)](https://github.com/risingwavelabs/risingwave/pull/20470)
-- `5dcc141cf86b5b41e7e6965ac7ec840c73aad247` [ci: decrease parallelism for e2e source test (#20472)](https://github.com/risingwavelabs/risingwave/pull/20472)
-- `1a6eb0001c806c547de129d4cf66035ec66e4fe1` [feat(frontend): allow specifying (partial) schema when creating table with derived schema (#20203)](https://github.com/risingwavelabs/risingwave/pull/20203)
-- `190af60007fc47b0bdc2054ca39d7d23ef10fe68` [chore(frontend): remove some dead code (#20469)](https://github.com/risingwavelabs/risingwave/pull/20469)
-- `5de6edcdec16e755de2b65ac1355a1b53b02220b` [feat(pgwire): send notice asynchronously and promptly (#20374)](https://github.com/risingwavelabs/risingwave/pull/20374)
-- `b8dbd575fcc6639050a2886cc7a40eaabb642287` [fix: restore migration code for `node_label` column (#20468)](https://github.com/risingwavelabs/risingwave/pull/20468)
-- `e6ec56950fee08d1dd8dfa13323101cdb90a7478` [fix: ack nats message properly (#20453)](https://github.com/risingwavelabs/risingwave/pull/20453)
-- `1d58b407f5eb7079186661a203dbf58c1cbe962e` [feat(snapshot-backfill): support cross db snapshot backfill (#20210)](https://github.com/risingwavelabs/risingwave/pull/20210)
-- `2b269bd86f3e90873277070777d8ffc14eb30ba7` [feat(dal-sink): support dynamic json handle mode (#20418)](https://github.com/risingwavelabs/risingwave/pull/20418)
-- `a517caef162613b9fb56f0b68e0e4db0ad9f5c5f` [feat(stream): inform rate limit update for fsfetch executor (#20457)](https://github.com/risingwavelabs/risingwave/pull/20457)
-- `77c80fb86b3509b989bc96acd87fbddb328d8b3f` [fix(cdc): pass ownership of source message sender to java thread (#20353)](https://github.com/risingwavelabs/risingwave/pull/20353)
-
-## nightly-20250211
-- `99a13a50bc3f4d889ef3aab0e0fcadbc4a7fea27` [refactor(pgwire): allow sharing of pg stream (#20362)](https://github.com/risingwavelabs/risingwave/pull/20362)
