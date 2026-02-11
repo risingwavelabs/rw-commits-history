@@ -298,6 +298,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a45878548ff7d5bb1a8438c84806ad4762a97cb8` [feat: risectl command to force change Source Connector Props (#24392)](https://github.com/risingwavelabs/risingwave/pull/24392)
+- `fb849a7be5eba714b95fee892963f24b033e64cf` [refactor(cdc): add configurable total timeout for CDC schema history `putObject` (#24749)](https://github.com/risingwavelabs/risingwave/pull/24749)
+- `a12febc4ba3e6a8ad5fcf4651c14d4b04a1978f4` [feat(cdc): add `RW_JAVA_LOG` to control Java connector logging granularity (#24404)](https://github.com/risingwavelabs/risingwave/pull/24404)
+- `54ae0cd5f317443100c2c7ff2fb64998ea84b4de` [feat(source): add Parquet case-insensitive column matching option for file source (#24734)](https://github.com/risingwavelabs/risingwave/pull/24734)
+- `2baa98d84be6ad54468f34215be07802db45e9fb` [feat(cdc): support postgres 18 (#24765)](https://github.com/risingwavelabs/risingwave/pull/24765)
+- `35a2d166adff672b0937a1773600fcee4af260b6` [feat: support LogicalExpand in DataFusion (#24767)](https://github.com/risingwavelabs/risingwave/pull/24767)
+- `c0f55f16afde8a5720331111bb0c1413a3e32645` [fix: panic when DataFusionPlanConverter fails (#24766)](https://github.com/risingwavelabs/risingwave/pull/24766)
+- `a2301a8edcf4c91c39366bc1894ca0e403e2b071` [refactor: update some metric level (#24750)](https://github.com/risingwavelabs/risingwave/pull/24750)
 
 ## nightly-20260210
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a1961606fa10c104a9f9a29db19f9241e7be3d94...4d2b0f058afffb2e06aa3bd4f43e97d6a682e647)
