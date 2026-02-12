@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260212` `d70ecc19add4884c655aad419d31005f24fa525f`
 - `20260211` `a45878548ff7d5bb1a8438c84806ad4762a97cb8`
 - `20260210` `4d2b0f058afffb2e06aa3bd4f43e97d6a682e647`
 - `20260209` `a1961606fa10c104a9f9a29db19f9241e7be3d94`
@@ -289,7 +290,6 @@
 - `20250217` `ca86b79ebe289b163e8f5b705668b1eac74bf471`
 - `20250216` `fc307d34e298ae3aa8014a22816d7a123491e951`
 - `20250214` `72f189c89c506bd480ae430a6d76d698041e4bbf`
-- `20250212` `a5413ff38dcdacbaa0e7119f13e89ad4db165db8`
 </details>
 
 # Commit history
@@ -298,6 +298,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f83e5f935ea62750351c360eb0b65f6e3dd9813e` [feat: add a config to control whether state table vnode prunning is enabled (#24703)](https://github.com/risingwavelabs/risingwave/pull/24703)
+
+## nightly-20260212
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a45878548ff7d5bb1a8438c84806ad4762a97cb8...d70ecc19add4884c655aad419d31005f24fa525f)
 - `d70ecc19add4884c655aad419d31005f24fa525f` [ci: add on-demand ec2 docker image workflow (#24797)](https://github.com/risingwavelabs/risingwave/pull/24797)
 - `f6628e4485f3bb87e405b1a6aa64fef2cdd2d989` [feat(observability): add fragment-level immutable memtable memory metrics (#24620)](https://github.com/risingwavelabs/risingwave/pull/24620)
 - `fe06b97082a38b2d24cad9b728bf848f4a832d14` [feat(refill): support meta cache refill concurrency limit (#24787)](https://github.com/risingwavelabs/risingwave/pull/24787)
@@ -3124,25 +3128,4 @@
 - `bf0475e3d9d150e80f91a920a8403ff86419e3c0` [fix(sink): fix iceberg sink partition_by panic  (#20495)](https://github.com/risingwavelabs/risingwave/pull/20495)
 
 ## nightly-20250214
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a5413ff38dcdacbaa0e7119f13e89ad4db165db8...72f189c89c506bd480ae430a6d76d698041e4bbf)
 - `72f189c89c506bd480ae430a6d76d698041e4bbf` [fix(storage): fix unexpected sstable size zero (#20502)](https://github.com/risingwavelabs/risingwave/pull/20502)
-- `c8b23d11f180491aa0e4eb36c11ab23896b47736` [fix(iceberg): fix creating iceberg table warning  (#20486)](https://github.com/risingwavelabs/risingwave/pull/20486)
-- `4f604bf7222cff64389ae7173c01c95ff3368f22` [refactor(foyer): try foyer with the new madsim switch policy (#20411)](https://github.com/risingwavelabs/risingwave/pull/20411)
-- `bf119afb86255d15da68cf019f87a34afaa4d470` [feat(dashboard): Improve eslint configuration for @deprecated code (#20484)](https://github.com/risingwavelabs/risingwave/pull/20484)
-- `39f242980b45b32e3c132e7993ce619f7e9ffbf3` [refactor(log-store): update log store state vnode bitmap after yield barrier (#20491)](https://github.com/risingwavelabs/risingwave/pull/20491)
-- `50d1e683343b9a443216cbb2e990b82679a1ddd3` [fix(logstore): fix merging of `LogStoreBufferItem::Flushed` (#20487)](https://github.com/risingwavelabs/risingwave/pull/20487)
-- `2f86553d527b40f6d5935258970991bc32f0dd4e` [chore: fix docker script PATH (#20494)](https://github.com/risingwavelabs/risingwave/pull/20494)
-- `660cddff346679fdb431b67c1cca285ac833bd15` [refactor: ensure update vnode bitmap after yield barrier (#20218)](https://github.com/risingwavelabs/risingwave/pull/20218)
-- `f36537e3e8a0067308cf90c5fd2e3e82443f6424` [chore(ci): refactor image tags (#20454)](https://github.com/risingwavelabs/risingwave/pull/20454)
-- `3b047f7d6c93e198d6f51def7882d12344b0e862` [refactor(stream): namespace metrics for unaligned join logstore (#20375)](https://github.com/risingwavelabs/risingwave/pull/20375)
-- `694ce41f01ed3e87ab294000749ca243da1adb1d` [refactor(iceberg): remove table_meta in IcebergSplit and load_table_with_metadata (#20476)](https://github.com/risingwavelabs/risingwave/pull/20476)
-- `9a163033c47f5ea4173b2f80d6b2fb29dec2f234` [chore: update docker-compose files to use v2.2.0 (#20489)](https://github.com/risingwavelabs/risingwave/pull/20489)
-- `9f16c5e9f3a600137b31877c956e0eeb66f3c18f` [fix(iceberg): fix jni catalog resource leak (#20482)](https://github.com/risingwavelabs/risingwave/pull/20482)
-- `b72d0a20ad8be11cb657a3b27788381d5ebc3a3e` [fix: Replace `DISTINCT ON` with `DISTINCT` for SQLite compatibility in migration query (#20485)](https://github.com/risingwavelabs/risingwave/pull/20485)
-- `b5bd1be8715b3f83bc1f03116b91424a8d574217` [chore: labeler backward compat tests when migration updated (#20481)](https://github.com/risingwavelabs/risingwave/pull/20481)
-- `432b7e6cc5bb35db59f5943eaf0595d979f627e3` [chore(main-cron): increase timeout for failed test (#20478)](https://github.com/risingwavelabs/risingwave/pull/20478)
-- `aa180c40e1279097204689e316895b1aa67d9862` [feat(meta): let stream actors in fragment share same stream node (#20310)](https://github.com/risingwavelabs/risingwave/pull/20310)
-- `95fa51f49fbd6d6be9c9408fea99604393cf12a0` [feat(iceberg): add support for creating new iceberg tables with partition keys (#20340)](https://github.com/risingwavelabs/risingwave/pull/20340)
-
-## nightly-20250212
-- `a5413ff38dcdacbaa0e7119f13e89ad4db165db8` [refactor: display original length for truncated fmt (#20477)](https://github.com/risingwavelabs/risingwave/pull/20477)
