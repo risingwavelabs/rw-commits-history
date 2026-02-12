@@ -298,6 +298,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d70ecc19add4884c655aad419d31005f24fa525f` [ci: add on-demand ec2 docker image workflow (#24797)](https://github.com/risingwavelabs/risingwave/pull/24797)
+- `f6628e4485f3bb87e405b1a6aa64fef2cdd2d989` [feat(observability): add fragment-level immutable memtable memory metrics (#24620)](https://github.com/risingwavelabs/risingwave/pull/24620)
+- `fe06b97082a38b2d24cad9b728bf848f4a832d14` [feat(refill): support meta cache refill concurrency limit (#24787)](https://github.com/risingwavelabs/risingwave/pull/24787)
+- `4f0a3e230c167382e2afb4a2cc7891880b3f7dbd` [Bound default adaptive parallelism to 64 (#24678)](https://github.com/risingwavelabs/risingwave/pull/24678)
+- `ffd058706e488eab8a4147dad9306c2dc8a454c6` [fix: update heartbeat to include CPU and memory resource information for consistency (#24781)](https://github.com/risingwavelabs/risingwave/pull/24781)
 - `408ea7259b0d92cedd51eaa5096ee90538470e06` [fix(frontend): wait for notification version on WAIT command (#24768)](https://github.com/risingwavelabs/risingwave/pull/24768)
 - `fa6ed2a24718f4b30385867e75321b90b998aad7` [fix(cdc): excluded generated column from postgres publication validation (#24380)](https://github.com/risingwavelabs/risingwave/pull/24380)
 
