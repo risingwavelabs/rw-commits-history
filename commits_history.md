@@ -298,6 +298,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f35b104f236a9fedafef21a53fc53c9fa0ade8a0` [feat: add metrics for cross database consuming epoch (#24802)](https://github.com/risingwavelabs/risingwave/pull/24802)
+- `74554b9570e2eec63d07a1f7762e494112feaeed` [feat(observability): add memory profiling for log store buffer (#24688)](https://github.com/risingwavelabs/risingwave/pull/24688)
 - `f83e5f935ea62750351c360eb0b65f6e3dd9813e` [feat: add a config to control whether state table vnode prunning is enabled (#24703)](https://github.com/risingwavelabs/risingwave/pull/24703)
 
 ## nightly-20260212
