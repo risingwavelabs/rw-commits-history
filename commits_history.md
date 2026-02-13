@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260213` `f35b104f236a9fedafef21a53fc53c9fa0ade8a0`
 - `20260212` `d70ecc19add4884c655aad419d31005f24fa525f`
 - `20260211` `a45878548ff7d5bb1a8438c84806ad4762a97cb8`
 - `20260210` `4d2b0f058afffb2e06aa3bd4f43e97d6a682e647`
@@ -298,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855` [refactor: improve compaction schedule (#24733)](https://github.com/risingwavelabs/risingwave/pull/24733)
+- `b0420f27bf196db3bd7877dd5f4da2b0f0751cd2` [feat: add RescheduleIntent command and resolve in barrier worker (#24670)](https://github.com/risingwavelabs/risingwave/pull/24670)
+
+## nightly-20260213
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d70ecc19add4884c655aad419d31005f24fa525f...f35b104f236a9fedafef21a53fc53c9fa0ade8a0)
 - `f35b104f236a9fedafef21a53fc53c9fa0ade8a0` [feat: add metrics for cross database consuming epoch (#24802)](https://github.com/risingwavelabs/risingwave/pull/24802)
 - `74554b9570e2eec63d07a1f7762e494112feaeed` [feat(observability): add memory profiling for log store buffer (#24688)](https://github.com/risingwavelabs/risingwave/pull/24688)
 - `f83e5f935ea62750351c360eb0b65f6e3dd9813e` [feat: add a config to control whether state table vnode prunning is enabled (#24703)](https://github.com/risingwavelabs/risingwave/pull/24703)
