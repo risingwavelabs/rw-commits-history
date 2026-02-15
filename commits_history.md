@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260214` `7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855`
+- `20260215` `7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855`
 - `20260213` `f35b104f236a9fedafef21a53fc53c9fa0ade8a0`
 - `20260212` `d70ecc19add4884c655aad419d31005f24fa525f`
 - `20260211` `a45878548ff7d5bb1a8438c84806ad4762a97cb8`
@@ -301,7 +301,7 @@
 
 ## Unreleased
 
-## nightly-20260214
+## nightly-20260215
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f35b104f236a9fedafef21a53fc53c9fa0ade8a0...7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855)
 - `7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855` [refactor: improve compaction schedule (#24733)](https://github.com/risingwavelabs/risingwave/pull/24733)
 - `b0420f27bf196db3bd7877dd5f4da2b0f0751cd2` [feat: add RescheduleIntent command and resolve in barrier worker (#24670)](https://github.com/risingwavelabs/risingwave/pull/24670)
