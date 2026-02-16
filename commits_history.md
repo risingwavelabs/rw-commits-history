@@ -300,6 +300,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e0edab4340baf86d8a17b233c79944793b41e210` [fix(udf): use forked `ginepro` to avoid leaking background LB probe task (#24705)](https://github.com/risingwavelabs/risingwave/pull/24705)
 
 ## nightly-20260215
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f35b104f236a9fedafef21a53fc53c9fa0ade8a0...7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855)
