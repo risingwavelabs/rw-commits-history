@@ -301,6 +301,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dd7200d2de6672b9472b9550457604eaf628f1f3` [chore(deps): Bump org.assertj:assertj-core from 3.27.4 to 3.27.7 in /java (#24601)](https://github.com/risingwavelabs/risingwave/pull/24601)
 
 ## nightly-20260216
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855...e0edab4340baf86d8a17b233c79944793b41e210)
