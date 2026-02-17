@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260217` `dd7200d2de6672b9472b9550457604eaf628f1f3`
 - `20260216` `e0edab4340baf86d8a17b233c79944793b41e210`
 - `20260215` `7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855`
 - `20260213` `f35b104f236a9fedafef21a53fc53c9fa0ade8a0`
@@ -301,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260217
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e0edab4340baf86d8a17b233c79944793b41e210...dd7200d2de6672b9472b9550457604eaf628f1f3)
 - `dd7200d2de6672b9472b9550457604eaf628f1f3` [chore(deps): Bump org.assertj:assertj-core from 3.27.4 to 3.27.7 in /java (#24601)](https://github.com/risingwavelabs/risingwave/pull/24601)
 
 ## nightly-20260216
