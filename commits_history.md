@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260218` `73bec313dc63363b91b599a67e31d37057a29214`
 - `20260217` `dd7200d2de6672b9472b9550457604eaf628f1f3`
 - `20260216` `e0edab4340baf86d8a17b233c79944793b41e210`
 - `20260215` `7b787ee5b1ffa91839a9e62b7e0eabc9d3c81855`
@@ -302,6 +303,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260218
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dd7200d2de6672b9472b9550457604eaf628f1f3...73bec313dc63363b91b599a67e31d37057a29214)
 - `73bec313dc63363b91b599a67e31d37057a29214` [feat(pgwire): support setting session params via `StartupMessage::options` (#24754)](https://github.com/risingwavelabs/risingwave/pull/24754)
 - `0a0fcbe07809aca9f44798112cd0ee88eceac1d8` [chore: add gemini review bot config (#24820)](https://github.com/risingwavelabs/risingwave/pull/24820)
 
