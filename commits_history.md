@@ -302,6 +302,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `73bec313dc63363b91b599a67e31d37057a29214` [feat(pgwire): support setting session params via `StartupMessage::options` (#24754)](https://github.com/risingwavelabs/risingwave/pull/24754)
+- `0a0fcbe07809aca9f44798112cd0ee88eceac1d8` [chore: add gemini review bot config (#24820)](https://github.com/risingwavelabs/risingwave/pull/24820)
 
 ## nightly-20260217
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e0edab4340baf86d8a17b233c79944793b41e210...dd7200d2de6672b9472b9550457604eaf628f1f3)
