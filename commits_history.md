@@ -303,6 +303,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `52972c835c0343bff05f6f8e3c3749251ac019c5` [chore(deps): Bump uuid from 1.19.0 to 1.20.0 (#24599)](https://github.com/risingwavelabs/risingwave/pull/24599)
+- `952138b266d11179b69d9240eeefbe74116dd913` [chore(deps): Bump async-openai from 0.32.3 to 0.33.0 (#24822)](https://github.com/risingwavelabs/risingwave/pull/24822)
+- `e0c6ea8b5172b3df8bde28839a55d1797a64479e` [chore(deps): Bump enum-as-inner from 0.6.0 to 0.7.0 (#24680)](https://github.com/risingwavelabs/risingwave/pull/24680)
 
 ## nightly-20260219
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dd7200d2de6672b9472b9550457604eaf628f1f3...73bec313dc63363b91b599a67e31d37057a29214)
