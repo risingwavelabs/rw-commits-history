@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260222` `7cc74671bce840081418458e57fd6b15e1c4f344`
+- `20260223` `7cc74671bce840081418458e57fd6b15e1c4f344`
 - `20260220` `52972c835c0343bff05f6f8e3c3749251ac019c5`
 - `20260219` `73bec313dc63363b91b599a67e31d37057a29214`
 - `20260217` `dd7200d2de6672b9472b9550457604eaf628f1f3`
@@ -306,7 +306,7 @@
 
 ## Unreleased
 
-## nightly-20260222
+## nightly-20260223
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52972c835c0343bff05f6f8e3c3749251ac019c5...7cc74671bce840081418458e57fd6b15e1c4f344)
 - `7cc74671bce840081418458e57fd6b15e1c4f344` [chore(deps): Bump aws-lc-rs from 1.15.3 to 1.16.0 (#24823)](https://github.com/risingwavelabs/risingwave/pull/24823)
 - `c3f188eea5ea3d2afaf8111f3a7e9b3fd2324c0e` [feat(config): Increase max storage memory proportion (#24644)](https://github.com/risingwavelabs/risingwave/pull/24644)
