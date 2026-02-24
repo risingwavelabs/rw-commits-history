@@ -305,6 +305,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a481a6aa5928698a4e4b4fede0b9139249040dee` [chore: clarify generated alter-on-fly update path (#24847)](https://github.com/risingwavelabs/risingwave/pull/24847)
+- `2e7de35083ac29e1c23829f83165611106508842` [feat: add support to alter backfill parallelism for streaming jobs (#24323)](https://github.com/risingwavelabs/risingwave/pull/24323)
+- `ac74e03e1b7647204eb4fe18c1499d8f919f9f42` [feat(license): maintain rwu limit check for single-node deployments (#24796)](https://github.com/risingwavelabs/risingwave/pull/24796)
+- `82300255c381864491765ff883093cdcc0d014de` [feat(optimizer): support prunning for mv selection (#24751)](https://github.com/risingwavelabs/risingwave/pull/24751)
+- `2df22f48b8bb949871fc7cbe4dd915076b33dfab` [feat(optimizer): support mv selection for batch queries (#24611)](https://github.com/risingwavelabs/risingwave/pull/24611)
 
 ## nightly-20260223
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52972c835c0343bff05f6f8e3c3749251ac019c5...7cc74671bce840081418458e57fd6b15e1c4f344)
