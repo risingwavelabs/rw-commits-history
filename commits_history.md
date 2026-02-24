@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260224` `a481a6aa5928698a4e4b4fede0b9139249040dee`
 - `20260223` `7cc74671bce840081418458e57fd6b15e1c4f344`
 - `20260220` `52972c835c0343bff05f6f8e3c3749251ac019c5`
 - `20260219` `73bec313dc63363b91b599a67e31d37057a29214`
@@ -305,6 +306,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `53503738d42c182135cbeba1f55035532102b00a` [feat(sink): support alter jdbc sink url , username and password (#24846)](https://github.com/risingwavelabs/risingwave/pull/24846)
+- `a38fa841a89ed4426556f3aa78216f3b008d4e4c` [fix(meta): narrow reschedule blocking for creating backfill jobs (#24798)](https://github.com/risingwavelabs/risingwave/pull/24798)
+
+## nightly-20260224
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7cc74671bce840081418458e57fd6b15e1c4f344...a481a6aa5928698a4e4b4fede0b9139249040dee)
 - `a481a6aa5928698a4e4b4fede0b9139249040dee` [chore: clarify generated alter-on-fly update path (#24847)](https://github.com/risingwavelabs/risingwave/pull/24847)
 - `2e7de35083ac29e1c23829f83165611106508842` [feat: add support to alter backfill parallelism for streaming jobs (#24323)](https://github.com/risingwavelabs/risingwave/pull/24323)
 - `ac74e03e1b7647204eb4fe18c1499d8f919f9f42` [feat(license): maintain rwu limit check for single-node deployments (#24796)](https://github.com/risingwavelabs/risingwave/pull/24796)
