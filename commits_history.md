@@ -306,6 +306,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `34c358cb8e143c0ea728edbca693154b98540c2c` [feat(connector): add configurable write-parquet-properties for Iceberg sink and compaction (#24612)](https://github.com/risingwavelabs/risingwave/pull/24612)
+- `dc45cb83c79a3c9fdf0735b81713f876b9ac9928` [feat: mapping datafusion array functions (#24859)](https://github.com/risingwavelabs/risingwave/pull/24859)
+- `9157ce1ef5d281d56107557a87e5883e106a555e` [chore(deps): Bump toml from 0.9.11+spec-1.1.0 to 1.0.3+spec-1.1.0 (#24830)](https://github.com/risingwavelabs/risingwave/pull/24830)
+- `5060d47011def5c6a34249b1e1214d135322f5a3` [fix: subtract overflow when passing empty array to array_positions (#24860)](https://github.com/risingwavelabs/risingwave/pull/24860)
 - `53503738d42c182135cbeba1f55035532102b00a` [feat(sink): support alter jdbc sink url , username and password (#24846)](https://github.com/risingwavelabs/risingwave/pull/24846)
 - `a38fa841a89ed4426556f3aa78216f3b008d4e4c` [fix(meta): narrow reschedule blocking for creating backfill jobs (#24798)](https://github.com/risingwavelabs/risingwave/pull/24798)
 
