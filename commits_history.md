@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260225` `34c358cb8e143c0ea728edbca693154b98540c2c`
 - `20260224` `a481a6aa5928698a4e4b4fede0b9139249040dee`
 - `20260223` `7cc74671bce840081418458e57fd6b15e1c4f344`
 - `20260220` `52972c835c0343bff05f6f8e3c3749251ac019c5`
@@ -306,6 +307,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260225
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a481a6aa5928698a4e4b4fede0b9139249040dee...34c358cb8e143c0ea728edbca693154b98540c2c)
 - `34c358cb8e143c0ea728edbca693154b98540c2c` [feat(connector): add configurable write-parquet-properties for Iceberg sink and compaction (#24612)](https://github.com/risingwavelabs/risingwave/pull/24612)
 - `dc45cb83c79a3c9fdf0735b81713f876b9ac9928` [feat: mapping datafusion array functions (#24859)](https://github.com/risingwavelabs/risingwave/pull/24859)
 - `9157ce1ef5d281d56107557a87e5883e106a555e` [chore(deps): Bump toml from 0.9.11+spec-1.1.0 to 1.0.3+spec-1.1.0 (#24830)](https://github.com/risingwavelabs/risingwave/pull/24830)
