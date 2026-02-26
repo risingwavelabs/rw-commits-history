@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260226` `071cabbf3d3b0c7ea3ee085242e009c337fb8ba7`
 - `20260225` `34c358cb8e143c0ea728edbca693154b98540c2c`
 - `20260224` `a481a6aa5928698a4e4b4fede0b9139249040dee`
 - `20260223` `7cc74671bce840081418458e57fd6b15e1c4f344`
@@ -307,6 +308,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3ac5a1aaab32ff2a5414938440bed3f5bc781ce0` [refactor(meta): introduce partial graph manager and extract common logic (#24428)](https://github.com/risingwavelabs/risingwave/pull/24428)
+
+## nightly-20260226
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/34c358cb8e143c0ea728edbca693154b98540c2c...071cabbf3d3b0c7ea3ee085242e009c337fb8ba7)
 - `071cabbf3d3b0c7ea3ee085242e009c337fb8ba7` [chore: align datafusion spill dir with risingwave config (#24877)](https://github.com/risingwavelabs/risingwave/pull/24877)
 - `361bc9a5a64c820abdf6cf162c41c1eab73186be` [fix: support jdbc sink alter-on-fly fields (#24861)](https://github.com/risingwavelabs/risingwave/pull/24861)
 - `46dd67d240b6f44c89bd3bd6671ee9c876948f6d` [fix(iceberg): upgrade iceberg dependencies (#24873)](https://github.com/risingwavelabs/risingwave/pull/24873)
