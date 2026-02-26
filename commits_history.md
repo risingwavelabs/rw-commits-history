@@ -307,6 +307,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `071cabbf3d3b0c7ea3ee085242e009c337fb8ba7` [chore: align datafusion spill dir with risingwave config (#24877)](https://github.com/risingwavelabs/risingwave/pull/24877)
+- `361bc9a5a64c820abdf6cf162c41c1eab73186be` [fix: support jdbc sink alter-on-fly fields (#24861)](https://github.com/risingwavelabs/risingwave/pull/24861)
+- `46dd67d240b6f44c89bd3bd6671ee9c876948f6d` [fix(iceberg): upgrade iceberg dependencies (#24873)](https://github.com/risingwavelabs/risingwave/pull/24873)
+- `21093280468dd18807aa67fb941977f4669aa7c1` [fix(iceberg): fix staging pk in iceberg refreshable table (#24872)](https://github.com/risingwavelabs/risingwave/pull/24872)
+- `9ff0fb9141b98b5e5e85b41f1feec5a9a968f958` [chore(dashboard): bump node.js version to 16 (#24819)](https://github.com/risingwavelabs/risingwave/pull/24819)
+- `1b659dba3f36a867bc728b601399ca9c320bc0e7` [fix(optimizer): move locality enforcement to logical_rewrite_for_stream (#24850)](https://github.com/risingwavelabs/risingwave/pull/24850)
+- `74a193f6d37fca7449cb48e41b86d044bd922c77` [fix(mysql-cdc): fix MySQL CDC auto schema change for UNSIGNED integer types (#24855)](https://github.com/risingwavelabs/risingwave/pull/24855)
+- `418f54583b655c4ef779465ca6c8b48b6ce50196` [fix(stream): cap staged watermarks per upstream to prevent unbounded memory growth (#24856)](https://github.com/risingwavelabs/risingwave/pull/24856)
 
 ## nightly-20260225
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a481a6aa5928698a4e4b4fede0b9139249040dee...34c358cb8e143c0ea728edbca693154b98540c2c)
