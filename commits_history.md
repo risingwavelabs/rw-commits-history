@@ -308,6 +308,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `75b19a72cd7ce915cb0fd08474073af85a6db0c8` [feat: reserve memory headroom for unspillable DataFusion operators (#24883)](https://github.com/risingwavelabs/risingwave/pull/24883)
+- `4ed4edef6b9773f96e47ebf9b887448d0f4ed7b7` [feat(sink): add keeplive with option for pg rust sink and jdbc sink (#24388)](https://github.com/risingwavelabs/risingwave/pull/24388)
+- `07850c8322452934bdf534dbc7b3ab5de6063aee` [fix: update broken documentation URLs (#24897)](https://github.com/risingwavelabs/risingwave/pull/24897)
+- `b1e96df8625303b75c72f8e6e61ca1d69e70a0a0` [fix(storage): fix last_serde for NonPkPrefixSkipWatermarkState and ValueSkipWatermarkState (#24890)](https://github.com/risingwavelabs/risingwave/pull/24890)
+- `a69ed9f02e9c1395aa5491f6c1da414ab36d81dd` [fix(iceberg): fix flaky test t-refresh-composite-pk (#24888)](https://github.com/risingwavelabs/risingwave/pull/24888)
 - `3ac5a1aaab32ff2a5414938440bed3f5bc781ce0` [refactor(meta): introduce partial graph manager and extract common logic (#24428)](https://github.com/risingwavelabs/risingwave/pull/24428)
 
 ## nightly-20260226
