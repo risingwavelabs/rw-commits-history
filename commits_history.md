@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260227` `75b19a72cd7ce915cb0fd08474073af85a6db0c8`
 - `20260226` `071cabbf3d3b0c7ea3ee085242e009c337fb8ba7`
 - `20260225` `34c358cb8e143c0ea728edbca693154b98540c2c`
 - `20260224` `a481a6aa5928698a4e4b4fede0b9139249040dee`
@@ -308,6 +309,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260227
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/071cabbf3d3b0c7ea3ee085242e009c337fb8ba7...75b19a72cd7ce915cb0fd08474073af85a6db0c8)
 - `75b19a72cd7ce915cb0fd08474073af85a6db0c8` [feat: reserve memory headroom for unspillable DataFusion operators (#24883)](https://github.com/risingwavelabs/risingwave/pull/24883)
 - `4ed4edef6b9773f96e47ebf9b887448d0f4ed7b7` [feat(sink): add keeplive with option for pg rust sink and jdbc sink (#24388)](https://github.com/risingwavelabs/risingwave/pull/24388)
 - `07850c8322452934bdf534dbc7b3ab5de6063aee` [fix: update broken documentation URLs (#24897)](https://github.com/risingwavelabs/risingwave/pull/24897)
