@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260228` `aeb6b68d8aca0534829f994be383633079eb35d6`
 - `20260227` `75b19a72cd7ce915cb0fd08474073af85a6db0c8`
 - `20260226` `071cabbf3d3b0c7ea3ee085242e009c337fb8ba7`
 - `20260225` `34c358cb8e143c0ea728edbca693154b98540c2c`
@@ -309,6 +310,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260228
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75b19a72cd7ce915cb0fd08474073af85a6db0c8...aeb6b68d8aca0534829f994be383633079eb35d6)
 - `aeb6b68d8aca0534829f994be383633079eb35d6` [fix(storage): fix iter_with_prefix_respecting_watermark for NonPkPrefix (#24909)](https://github.com/risingwavelabs/risingwave/pull/24909)
 - `46fcb2905147442d32bba72249546cff64d69fbe` [feat(subscription): support altering retention of subscription (#24842)](https://github.com/risingwavelabs/risingwave/pull/24842)
 
