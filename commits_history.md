@@ -309,6 +309,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `aeb6b68d8aca0534829f994be383633079eb35d6` [fix(storage): fix iter_with_prefix_respecting_watermark for NonPkPrefix (#24909)](https://github.com/risingwavelabs/risingwave/pull/24909)
+- `46fcb2905147442d32bba72249546cff64d69fbe` [feat(subscription): support altering retention of subscription (#24842)](https://github.com/risingwavelabs/risingwave/pull/24842)
 
 ## nightly-20260227
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/071cabbf3d3b0c7ea3ee085242e009c337fb8ba7...75b19a72cd7ce915cb0fd08474073af85a6db0c8)
