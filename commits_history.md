@@ -310,6 +310,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4ceef4454466fc4026a52f995fbe0e6168bb026f` [fix(meta): fence drop vs split updates and skip stale fragment splits (#24887)](https://github.com/risingwavelabs/risingwave/pull/24887)
 
 ## nightly-20260228
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75b19a72cd7ce915cb0fd08474073af85a6db0c8...aeb6b68d8aca0534829f994be383633079eb35d6)
