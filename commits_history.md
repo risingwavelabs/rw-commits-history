@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260301` `4ceef4454466fc4026a52f995fbe0e6168bb026f`
 - `20260228` `aeb6b68d8aca0534829f994be383633079eb35d6`
 - `20260227` `75b19a72cd7ce915cb0fd08474073af85a6db0c8`
 - `20260226` `071cabbf3d3b0c7ea3ee085242e009c337fb8ba7`
@@ -310,6 +311,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f8880d781bd82c340f26dc35cb9a9cd61ee0143c` [feat: show sink's target table in system table and describe statement (#24893)](https://github.com/risingwavelabs/risingwave/pull/24893)
+
+## nightly-20260301
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aeb6b68d8aca0534829f994be383633079eb35d6...4ceef4454466fc4026a52f995fbe0e6168bb026f)
 - `4ceef4454466fc4026a52f995fbe0e6168bb026f` [fix(meta): fence drop vs split updates and skip stale fragment splits (#24887)](https://github.com/risingwavelabs/risingwave/pull/24887)
 
 ## nightly-20260228
