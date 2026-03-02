@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260302` `86aeb71f23818a1fe3cc5f3548b399b74f6723fd`
 - `20260301` `4ceef4454466fc4026a52f995fbe0e6168bb026f`
 - `20260228` `aeb6b68d8aca0534829f994be383633079eb35d6`
 - `20260227` `75b19a72cd7ce915cb0fd08474073af85a6db0c8`
@@ -311,6 +312,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4ff98024d7bc2ff6377a931a6bbda60c0b768574` [test: fix flaky rate limit source test (#24931)](https://github.com/risingwavelabs/risingwave/pull/24931)
+
+## nightly-20260302
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4ceef4454466fc4026a52f995fbe0e6168bb026f...86aeb71f23818a1fe3cc5f3548b399b74f6723fd)
 - `86aeb71f23818a1fe3cc5f3548b399b74f6723fd` [fix(frontend): preserve join shape in consecutive join separation (#24925)](https://github.com/risingwavelabs/risingwave/pull/24925)
 - `331d9237ecbca31c7d978c56a842bd2eb7d8888b` [refactor(hummock): unify level normalization for table-id mutations (#24896)](https://github.com/risingwavelabs/risingwave/pull/24896)
 - `3e9f948e76478964ad2856faccb06b08d29b173c` [refactor(meta): apply command in inflght state in one step (#24906)](https://github.com/risingwavelabs/risingwave/pull/24906)
