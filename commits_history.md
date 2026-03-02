@@ -311,6 +311,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `86aeb71f23818a1fe3cc5f3548b399b74f6723fd` [fix(frontend): preserve join shape in consecutive join separation (#24925)](https://github.com/risingwavelabs/risingwave/pull/24925)
+- `331d9237ecbca31c7d978c56a842bd2eb7d8888b` [refactor(hummock): unify level normalization for table-id mutations (#24896)](https://github.com/risingwavelabs/risingwave/pull/24896)
+- `3e9f948e76478964ad2856faccb06b08d29b173c` [refactor(meta): apply command in inflght state in one step (#24906)](https://github.com/risingwavelabs/risingwave/pull/24906)
+- `71d31976f90c0d19a141a5b0396273612b3779c9` [feat: add ca option for schema registry (#17826)](https://github.com/risingwavelabs/risingwave/pull/17826)
+- `6eddbbe166354cd31c447a1a262d8afcc6dce7f3` [UPD: add fn has_schema_usage_privilege to allow schema owner has USAGE privilege on the schema (#24692)](https://github.com/risingwavelabs/risingwave/pull/24692)
 - `f8880d781bd82c340f26dc35cb9a9cd61ee0143c` [feat: show sink's target table in system table and describe statement (#24893)](https://github.com/risingwavelabs/risingwave/pull/24893)
 
 ## nightly-20260301
