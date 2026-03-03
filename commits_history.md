@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260303` `b7cd636c5adabb19989cc9763306a98910968952`
 - `20260302` `86aeb71f23818a1fe3cc5f3548b399b74f6723fd`
 - `20260301` `4ceef4454466fc4026a52f995fbe0e6168bb026f`
 - `20260228` `aeb6b68d8aca0534829f994be383633079eb35d6`
@@ -288,7 +289,6 @@
 - `20250307` `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5`
 - `20250306` `d060229e05ae33f56be7f382aa7dba770389b300`
 - `20250305` `b5ac1fccf06090e30ad809aff0b730ee3735e024`
-- `20250303` `8d8d47d6b32f31661ea8c146221761f377a86c4e`
 </details>
 
 # Commit history
@@ -297,6 +297,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260303
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86aeb71f23818a1fe3cc5f3548b399b74f6723fd...b7cd636c5adabb19989cc9763306a98910968952)
 - `b7cd636c5adabb19989cc9763306a98910968952` [chore: bump tonic and prost to 0.14 (#24727)](https://github.com/risingwavelabs/risingwave/pull/24727)
 - `0974cfc7aab06aac9977cbaa26eea7358bca9d40` [feat(pg-cdc): monitor upstream max lsn and more accurate lsn lag (#24919)](https://github.com/risingwavelabs/risingwave/pull/24919)
 - `842fdcc00603d83f57ebc646ac1fdcfe68366bfa` [fix(optimizer): fix full outer join null filter (#24899)](https://github.com/risingwavelabs/risingwave/pull/24899)
@@ -3051,27 +3054,4 @@
 - `5a08f9606859061f6705ba20b0d6b57634cc4297` [feat(expr): support `atand` function (#20646)](https://github.com/risingwavelabs/risingwave/pull/20646)
 
 ## nightly-20250305
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8d8d47d6b32f31661ea8c146221761f377a86c4e...b5ac1fccf06090e30ad809aff0b730ee3735e024)
 - `b5ac1fccf06090e30ad809aff0b730ee3735e024` [chore(deps): Bump winnow from 0.6.11 to 0.7.3 (#20553)](https://github.com/risingwavelabs/risingwave/pull/20553)
-- `70a53de1d6dbbf740c2bdc576c5d13bce2420b40` [ci: do not dump logs (#20732)](https://github.com/risingwavelabs/risingwave/pull/20732)
-- `c77e8150445e471b66383f4085b2a413180e21f6` [fix(ci): fix rust toolchain (#20728)](https://github.com/risingwavelabs/risingwave/pull/20728)
-- `f1df6b83d2c53d7f945bfe770c2dd81c80b5c18f` [refactor: streamline column-aware row encoding impl (#20583)](https://github.com/risingwavelabs/risingwave/pull/20583)
-- `6640f4123f6af8221dddca9d062f824d6d122a69` [feat: support ALTER CONNECTION OWNER TO  (#20709)](https://github.com/risingwavelabs/risingwave/pull/20709)
-- `408822748f6b4a4031b0a8b8e886c155d1527afd` [feat: add rw version to meta backup log (#20693)](https://github.com/risingwavelabs/risingwave/pull/20693)
-- `49192868b785d953b8725055bd2b3f58892e7ca7` [fix(ci): fix rustup 1.28.0 breaking change (#20718)](https://github.com/risingwavelabs/risingwave/pull/20718)
-- `c24a452ca05a63b9e98f23896dd8d3df3e0a93f2` [feat(batch): AsOf lookup join (#20712)](https://github.com/risingwavelabs/risingwave/pull/20712)
-- `ccf7b736e6b8c658002fc274c5eb16642c9280d8` [feat: support retry commit for iceberg sink (#20433)](https://github.com/risingwavelabs/risingwave/pull/20433)
-- `621145ae9d3098eff4fddb8ed042054fe236ae5e` [feat(iceberg): support list namespaces and tables for jni catalog (#20669)](https://github.com/risingwavelabs/risingwave/pull/20669)
-- `d26ac1ca9de2eb076fcd3f590a04e27640d6841c` [fix(optimizer): fix predicate pushdown for asof join (#20711)](https://github.com/risingwavelabs/risingwave/pull/20711)
-- `51732de76732e8479ca29ee926a3b70837ad94eb` [chore: update PR template by newest release branch (#20560)](https://github.com/risingwavelabs/risingwave/pull/20560)
-- `f5e812470d2d6eb4ef3d0d813409c0f89fef6b44` [chore: update package version to v2.4.0-alpha (#20704)](https://github.com/risingwavelabs/risingwave/pull/20704)
-- `d084ca871fda9024b53a4ca1fe87f645070aa46b` [fix: Temporarily add sleep to prevent unexpected test failures (#20705)](https://github.com/risingwavelabs/risingwave/pull/20705)
-- `1b289d63135a2b2ef2b148a54ce7e4d27545a24d` [fix(frontend): fix error message for casting `ROW` expression with mismatched field count (#20703)](https://github.com/risingwavelabs/risingwave/pull/20703)
-- `01d700849737dc4f2490b1c76029fed0f865f016` [fix(jdbc): remove postgres jdbc sink schema if not specified (#20632)](https://github.com/risingwavelabs/risingwave/pull/20632)
-- `7b2fbf4e108ee01ac63def574959d9fe2a853b02` [feat: fully deprecate legacy s3 source (#20658)](https://github.com/risingwavelabs/risingwave/pull/20658)
-- `0cc54b3f8f042847df84eecbdcbf6d49bc92dd7a` [feat(udf): introduce async and batched JavaScript UDF (#20403)](https://github.com/risingwavelabs/risingwave/pull/20403)
-- `e2727f74b32723d453677966d68749d508c9fb04` [chore: cherry pick since version X (#20557)](https://github.com/risingwavelabs/risingwave/pull/20557)
-- `3bb35c789e20827956b93bae55cd8bbfacc229d3` [fix: Dockerfile (#20680)](https://github.com/risingwavelabs/risingwave/pull/20680)
-
-## nightly-20250303
-- `8d8d47d6b32f31661ea8c146221761f377a86c4e` [feat: support grant/revoke privilege on view (#20670)](https://github.com/risingwavelabs/risingwave/pull/20670)
