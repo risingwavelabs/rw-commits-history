@@ -297,6 +297,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `05ddc1bcfddcdf6fc5626513333bbc628e7305ba` [feat(frontend): support locality backfill in rw_fragment_backfill_progress (#24955)](https://github.com/risingwavelabs/risingwave/pull/24955)
+- `0007bc549d8c9256da90571294d04b242b1f1488` [chore: recommend user to use locality backfill (#24784)](https://github.com/risingwavelabs/risingwave/pull/24784)
+- `7e3b84f6fd0d5201b5fa936fa1a3130a6dffbdba` [fix(storage): fix iter_with_prefix_respecting_watermark for nonpkprefix (#24950)](https://github.com/risingwavelabs/risingwave/pull/24950)
+- `b5e216c42a66ef57df55a0ff26b5059b49858c17` [feat: enable clippy lints for stack overflow detection & fix warnings (#24939)](https://github.com/risingwavelabs/risingwave/pull/24939)
+- `6651e7bfbf14cf9ef633f7d1cc4bee0fa1b4870a` [feat(risedev): allow multiple levels in manual compaction trigger (#24843)](https://github.com/risingwavelabs/risingwave/pull/24843)
 
 ## nightly-20260303
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86aeb71f23818a1fe3cc5f3548b399b74f6723fd...b7cd636c5adabb19989cc9763306a98910968952)
