@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260304` `05ddc1bcfddcdf6fc5626513333bbc628e7305ba`
 - `20260303` `b7cd636c5adabb19989cc9763306a98910968952`
 - `20260302` `86aeb71f23818a1fe3cc5f3548b399b74f6723fd`
 - `20260301` `4ceef4454466fc4026a52f995fbe0e6168bb026f`
@@ -297,6 +298,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e9e9a200fd0f79317c6e30ada429e8c1314d818b` [fix(source): try fix flaky e2e source test (#24953)](https://github.com/risingwavelabs/risingwave/pull/24953)
+
+## nightly-20260304
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b7cd636c5adabb19989cc9763306a98910968952...05ddc1bcfddcdf6fc5626513333bbc628e7305ba)
 - `05ddc1bcfddcdf6fc5626513333bbc628e7305ba` [feat(frontend): support locality backfill in rw_fragment_backfill_progress (#24955)](https://github.com/risingwavelabs/risingwave/pull/24955)
 - `0007bc549d8c9256da90571294d04b242b1f1488` [chore: recommend user to use locality backfill (#24784)](https://github.com/risingwavelabs/risingwave/pull/24784)
 - `7e3b84f6fd0d5201b5fa936fa1a3130a6dffbdba` [fix(storage): fix iter_with_prefix_respecting_watermark for nonpkprefix (#24950)](https://github.com/risingwavelabs/risingwave/pull/24950)
