@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260305` `53ad254ffba2f902a89a083c918e54052f081196`
 - `20260304` `05ddc1bcfddcdf6fc5626513333bbc628e7305ba`
 - `20260303` `b7cd636c5adabb19989cc9763306a98910968952`
 - `20260302` `86aeb71f23818a1fe3cc5f3548b399b74f6723fd`
@@ -289,7 +290,6 @@
 - `20250309` `87c7975a7f3d366eb950b220beb5fc551cefb28f`
 - `20250307` `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5`
 - `20250306` `d060229e05ae33f56be7f382aa7dba770389b300`
-- `20250305` `b5ac1fccf06090e30ad809aff0b730ee3735e024`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260305
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/05ddc1bcfddcdf6fc5626513333bbc628e7305ba...53ad254ffba2f902a89a083c918e54052f081196)
 - `53ad254ffba2f902a89a083c918e54052f081196` [fix(test): reset adaptive parallelism strategy in log store simulation tests (#24959)](https://github.com/risingwavelabs/risingwave/pull/24959)
 - `da6f6e4d5dfa9a7aeea0a10d19b04e8f334bc44a` [chore(deps): Bump the opentelemetry group across 1 directory with 2 updates (#24956)](https://github.com/risingwavelabs/risingwave/pull/24956)
 - `a05e83d9192481c8d527803f4adb5c61043dfd7c` [feat(tracing): support RW_TRACING_EXTRA_ATTRIBUTES env var (#24946)](https://github.com/risingwavelabs/risingwave/pull/24946)
@@ -3055,16 +3058,4 @@
 - `9bf160e60e1e33f95fed9b8b08a2f3301a3d2751` [fix(action): correctly escape hashtag (#20745)](https://github.com/risingwavelabs/risingwave/pull/20745)
 
 ## nightly-20250306
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b5ac1fccf06090e30ad809aff0b730ee3735e024...d060229e05ae33f56be7f382aa7dba770389b300)
 - `d060229e05ae33f56be7f382aa7dba770389b300` [fix(iceberg): revert iceberg engine paid feature (#20750)](https://github.com/risingwavelabs/risingwave/pull/20750)
-- `0e622971bdfc90ff51db37a274607dda5f3ac036` [fix(source): debezium avro schema evolution (#20699)](https://github.com/risingwavelabs/risingwave/pull/20699)
-- `ec899adc3f7e8b23f555657972368dc7ef6ba6c3` [refactor(storage): create new read snapshot to read for StateStore trait (#20172)](https://github.com/risingwavelabs/risingwave/pull/20172)
-- `c245a318c26d16d426f61237a24209269db747e1` [fix(stoarge): fix in-mem state store seal epoch panic on singleton vnode (#20665)](https://github.com/risingwavelabs/risingwave/pull/20665)
-- `7bd425edf3c8ab371f1588266173621b932a72bb` [refactor(meta): remove dispatcher field from StreamActor (#20694)](https://github.com/risingwavelabs/risingwave/pull/20694)
-- `2b66fe374a7386f62443744b5e372cfb15ffd7e9` [refactor: replace hardcoded buffer size with config (#20738)](https://github.com/risingwavelabs/risingwave/pull/20738)
-- `adebdaec6b2eed60753c516a2c105f9050b689f7` [fix(storage): fix compactor meta cache config (#20737)](https://github.com/risingwavelabs/risingwave/pull/20737)
-- `8e5f6e4f6ca65d5075eb57b19e4ff266c11f6bd3` [fix: update latest release branch in pr template (#20739)](https://github.com/risingwavelabs/risingwave/pull/20739)
-- `5a08f9606859061f6705ba20b0d6b57634cc4297` [feat(expr): support `atand` function (#20646)](https://github.com/risingwavelabs/risingwave/pull/20646)
-
-## nightly-20250305
-- `b5ac1fccf06090e30ad809aff0b730ee3735e024` [chore(deps): Bump winnow from 0.6.11 to 0.7.3 (#20553)](https://github.com/risingwavelabs/risingwave/pull/20553)
