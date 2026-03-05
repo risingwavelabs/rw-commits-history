@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `53ad254ffba2f902a89a083c918e54052f081196` [fix(test): reset adaptive parallelism strategy in log store simulation tests (#24959)](https://github.com/risingwavelabs/risingwave/pull/24959)
+- `da6f6e4d5dfa9a7aeea0a10d19b04e8f334bc44a` [chore(deps): Bump the opentelemetry group across 1 directory with 2 updates (#24956)](https://github.com/risingwavelabs/risingwave/pull/24956)
+- `a05e83d9192481c8d527803f4adb5c61043dfd7c` [feat(tracing): support RW_TRACING_EXTRA_ATTRIBUTES env var (#24946)](https://github.com/risingwavelabs/risingwave/pull/24946)
 - `e9e9a200fd0f79317c6e30ada429e8c1314d818b` [fix(source): try fix flaky e2e source test (#24953)](https://github.com/risingwavelabs/risingwave/pull/24953)
 
 ## nightly-20260304
