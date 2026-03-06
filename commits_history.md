@@ -298,6 +298,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fc349cf90b6c473be957f65590c48a3bb0913efb` [test: harden kafka-sasl alter connection e2e against broker-2 startup race (#24981)](https://github.com/risingwavelabs/risingwave/pull/24981)
+- `eaa53a767b02acb154f141373f0f37ac1590c2ee` [fix: correct the use of clean_watermark_index in iter_with_prefix_respecting_watermark (#24828)](https://github.com/risingwavelabs/risingwave/pull/24828)
+- `ed1a3f19ef8a580a1570f27d50db54d0f832c4be` [revert(stream): parallelize apply_chunk in agg (#24988)](https://github.com/risingwavelabs/risingwave/pull/24988)
+- `ec4489bc53251c54c723b970eed09cb2eed2eaec` [refactor(common): DRY between `DataTypeToAst` and `data_type_to_ast_data_type` (#24975)](https://github.com/risingwavelabs/risingwave/pull/24975)
 
 ## nightly-20260305
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/05ddc1bcfddcdf6fc5626513333bbc628e7305ba...53ad254ffba2f902a89a083c918e54052f081196)
