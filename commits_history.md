@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260306` `fc349cf90b6c473be957f65590c48a3bb0913efb`
 - `20260305` `53ad254ffba2f902a89a083c918e54052f081196`
 - `20260304` `05ddc1bcfddcdf6fc5626513333bbc628e7305ba`
 - `20260303` `b7cd636c5adabb19989cc9763306a98910968952`
@@ -289,7 +290,6 @@
 - `20250310` `21a35ca9a58426ef64077e393fb9fdc4443ee71a`
 - `20250309` `87c7975a7f3d366eb950b220beb5fc551cefb28f`
 - `20250307` `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5`
-- `20250306` `d060229e05ae33f56be7f382aa7dba770389b300`
 </details>
 
 # Commit history
@@ -298,6 +298,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `086b9030dc573056299dd2677a16c8a7ae1b607b` [refactor(meta): deprecate is_unschedulable for worker (#25003)](https://github.com/risingwavelabs/risingwave/pull/25003)
+
+## nightly-20260306
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/53ad254ffba2f902a89a083c918e54052f081196...fc349cf90b6c473be957f65590c48a3bb0913efb)
 - `fc349cf90b6c473be957f65590c48a3bb0913efb` [test: harden kafka-sasl alter connection e2e against broker-2 startup race (#24981)](https://github.com/risingwavelabs/risingwave/pull/24981)
 - `eaa53a767b02acb154f141373f0f37ac1590c2ee` [fix: correct the use of clean_watermark_index in iter_with_prefix_respecting_watermark (#24828)](https://github.com/risingwavelabs/risingwave/pull/24828)
 - `ed1a3f19ef8a580a1570f27d50db54d0f832c4be` [revert(stream): parallelize apply_chunk in agg (#24988)](https://github.com/risingwavelabs/risingwave/pull/24988)
@@ -3050,16 +3054,4 @@
 - `87c7975a7f3d366eb950b220beb5fc551cefb28f` [fix(iceberg): reject iceberg on gcs with catalog rather than rest and storage (#20781)](https://github.com/risingwavelabs/risingwave/pull/20781)
 
 ## nightly-20250307
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d060229e05ae33f56be7f382aa7dba770389b300...1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5)
 - `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5` [feat(iceberg): support creating namespace and namespace exists for iceberg catalog (#20759)](https://github.com/risingwavelabs/risingwave/pull/20759)
-- `37e487a6a1277eacf01ff2d804cd808cf63398e4` [refactor(grafana): split dashboard definition into multiple python files (#20770)](https://github.com/risingwavelabs/risingwave/pull/20770)
-- `080a099f7ec0b9ff86685c8ef32181363b651eb6` [feat: re-organize grafana dashboard sections (#20731)](https://github.com/risingwavelabs/risingwave/pull/20731)
-- `b22b742ee8e2fbca09f11c183359cbaa8aff7623` [chore: add diff in update pr template github action (#20774)](https://github.com/risingwavelabs/risingwave/pull/20774)
-- `07946f0ca1c1dcaec3dd2180af636ff606f9bb75` [chore(deps): Bump the aws group with 3 updates (#20767)](https://github.com/risingwavelabs/risingwave/pull/20767)
-- `c12996f4633d7785b4b228d5f73db8ec57193e00` [feat(dml): add not null support (#20611)](https://github.com/risingwavelabs/risingwave/pull/20611)
-- `a5e6243998d81f34d32cd8e11c5e963c2282cf95` [feat: Implement batch-based updates in offline scaling (#20749)](https://github.com/risingwavelabs/risingwave/pull/20749)
-- `03c354ecf688350eaeeb129d682c0d031dc3214a` [feat: Add support for resource group in database creation (#20751)](https://github.com/risingwavelabs/risingwave/pull/20751)
-- `9bf160e60e1e33f95fed9b8b08a2f3301a3d2751` [fix(action): correctly escape hashtag (#20745)](https://github.com/risingwavelabs/risingwave/pull/20745)
-
-## nightly-20250306
-- `d060229e05ae33f56be7f382aa7dba770389b300` [fix(iceberg): revert iceberg engine paid feature (#20750)](https://github.com/risingwavelabs/risingwave/pull/20750)
