@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260307` `086b9030dc573056299dd2677a16c8a7ae1b607b`
 - `20260306` `fc349cf90b6c473be957f65590c48a3bb0913efb`
 - `20260305` `53ad254ffba2f902a89a083c918e54052f081196`
 - `20260304` `05ddc1bcfddcdf6fc5626513333bbc628e7305ba`
@@ -289,7 +290,6 @@
 - `20250311` `11761bc94b205f6cddd9630a0e1165a8148a740a`
 - `20250310` `21a35ca9a58426ef64077e393fb9fdc4443ee71a`
 - `20250309` `87c7975a7f3d366eb950b220beb5fc551cefb28f`
-- `20250307` `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260307
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fc349cf90b6c473be957f65590c48a3bb0913efb...086b9030dc573056299dd2677a16c8a7ae1b607b)
 - `086b9030dc573056299dd2677a16c8a7ae1b607b` [refactor(meta): deprecate is_unschedulable for worker (#25003)](https://github.com/risingwavelabs/risingwave/pull/25003)
 
 ## nightly-20260306
@@ -3050,8 +3053,4 @@
 - `34abdfabd4a12fa1447dfaab6face12737edd282` [feat(logstore): provide more opportunities to read (#20546)](https://github.com/risingwavelabs/risingwave/pull/20546)
 
 ## nightly-20250309
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5...87c7975a7f3d366eb950b220beb5fc551cefb28f)
 - `87c7975a7f3d366eb950b220beb5fc551cefb28f` [fix(iceberg): reject iceberg on gcs with catalog rather than rest and storage (#20781)](https://github.com/risingwavelabs/risingwave/pull/20781)
-
-## nightly-20250307
-- `1c1585c8e0ed5b5b9a5950301b2929c9bfb8ede5` [feat(iceberg): support creating namespace and namespace exists for iceberg catalog (#20759)](https://github.com/risingwavelabs/risingwave/pull/20759)
