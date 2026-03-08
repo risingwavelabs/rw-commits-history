@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260308` `55bf4572a3a5742d4fff9e8097f0a952e86cba8f`
 - `20260307` `086b9030dc573056299dd2677a16c8a7ae1b607b`
 - `20260306` `fc349cf90b6c473be957f65590c48a3bb0913efb`
 - `20260305` `53ad254ffba2f902a89a083c918e54052f081196`
@@ -298,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `995a7f8483e8e2a3dab33cf6794b37c3865d2c62` [feat(optimizer): improve locality support for topn and overwindow (#24994)](https://github.com/risingwavelabs/risingwave/pull/24994)
+- `55bfcf95721a6e3abd436b9d3b8dd4e4575269a8` [feat(iceberg): bump iceberg-rust to 20260303 (#24949)](https://github.com/risingwavelabs/risingwave/pull/24949)
+
+## nightly-20260308
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/086b9030dc573056299dd2677a16c8a7ae1b607b...55bf4572a3a5742d4fff9e8097f0a952e86cba8f)
 - `55bf4572a3a5742d4fff9e8097f0a952e86cba8f` [feat(expr): implement crc32 and crc32c bytea functions (#24964)](https://github.com/risingwavelabs/risingwave/pull/24964)
 - `a07d7703352b704bd684825033a3bd11620cd672` [chore: improve PR template (#24669)](https://github.com/risingwavelabs/risingwave/pull/24669)
 
