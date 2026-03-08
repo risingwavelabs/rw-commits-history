@@ -298,6 +298,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `55bf4572a3a5742d4fff9e8097f0a952e86cba8f` [feat(expr): implement crc32 and crc32c bytea functions (#24964)](https://github.com/risingwavelabs/risingwave/pull/24964)
+- `a07d7703352b704bd684825033a3bd11620cd672` [chore: improve PR template (#24669)](https://github.com/risingwavelabs/risingwave/pull/24669)
 
 ## nightly-20260307
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fc349cf90b6c473be957f65590c48a3bb0913efb...086b9030dc573056299dd2677a16c8a7ae1b607b)
