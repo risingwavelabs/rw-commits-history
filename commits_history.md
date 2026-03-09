@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1442d0deb979df924fda29d2a5d700dcce93e03e` [refactor(hummock): add owned from_persisted_protobuf to reduce memory amplification (#24940)](https://github.com/risingwavelabs/risingwave/pull/24940)
+- `3c202dc0194c0c6c25911d63e55e747715f27d9d` [chore(deps): migrate hyper from 0.14 to 1 as much as possible (#24655)](https://github.com/risingwavelabs/risingwave/pull/24655)
+- `99aaa6a3e14553ce583089bad10119f83e2c2101` [feat(iceberg): support rw_iceberg_compaction_schedules (#25013)](https://github.com/risingwavelabs/risingwave/pull/25013)
+- `2688700e8975ef8a577b1ac71356ade36b021929` [test: stabilize non-shared source connector props flaky assertion (#24997)](https://github.com/risingwavelabs/risingwave/pull/24997)
+- `c1363359738f684f1f4b45c98b5d59fecfbaebf6` [fix(meta): use fallback_service to replace nest_service for axum router (#25011)](https://github.com/risingwavelabs/risingwave/pull/25011)
+- `b715c9fca733dd2f80d80af9f2ac026c6e1a4a51` [chore(deps): bump forked avro from 0.16.0 to 0.21.0 (#25009)](https://github.com/risingwavelabs/risingwave/pull/25009)
 - `995a7f8483e8e2a3dab33cf6794b37c3865d2c62` [feat(optimizer): improve locality support for topn and overwindow (#24994)](https://github.com/risingwavelabs/risingwave/pull/24994)
 - `55bfcf95721a6e3abd436b9d3b8dd4e4575269a8` [feat(iceberg): bump iceberg-rust to 20260303 (#24949)](https://github.com/risingwavelabs/risingwave/pull/24949)
 
