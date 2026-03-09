@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260309` `1442d0deb979df924fda29d2a5d700dcce93e03e`
 - `20260308` `55bf4572a3a5742d4fff9e8097f0a952e86cba8f`
 - `20260307` `086b9030dc573056299dd2677a16c8a7ae1b607b`
 - `20260306` `fc349cf90b6c473be957f65590c48a3bb0913efb`
@@ -290,7 +291,6 @@
 - `20250312` `9dd6477b0e039e491b3705689fa3785e7700754a`
 - `20250311` `11761bc94b205f6cddd9630a0e1165a8148a740a`
 - `20250310` `21a35ca9a58426ef64077e393fb9fdc4443ee71a`
-- `20250309` `87c7975a7f3d366eb950b220beb5fc551cefb28f`
 </details>
 
 # Commit history
@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2bae180ffbaae0f316fa96d8fc8844de8af04f13` [feat: support watermark ttl for cdc table (#24992)](https://github.com/risingwavelabs/risingwave/pull/24992)
+
+## nightly-20260309
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/55bf4572a3a5742d4fff9e8097f0a952e86cba8f...1442d0deb979df924fda29d2a5d700dcce93e03e)
 - `1442d0deb979df924fda29d2a5d700dcce93e03e` [refactor(hummock): add owned from_persisted_protobuf to reduce memory amplification (#24940)](https://github.com/risingwavelabs/risingwave/pull/24940)
 - `3c202dc0194c0c6c25911d63e55e747715f27d9d` [chore(deps): migrate hyper from 0.14 to 1 as much as possible (#24655)](https://github.com/risingwavelabs/risingwave/pull/24655)
 - `99aaa6a3e14553ce583089bad10119f83e2c2101` [feat(iceberg): support rw_iceberg_compaction_schedules (#25013)](https://github.com/risingwavelabs/risingwave/pull/25013)
@@ -3055,16 +3059,4 @@
 - `6a3cdb11d12d11e5e1b8a4bb6c59d43ebb9ce4fc` [chore(deps): Bump openssl from 0.10.66 to 0.10.70 (#20370)](https://github.com/risingwavelabs/risingwave/pull/20370)
 
 ## nightly-20250310
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/87c7975a7f3d366eb950b220beb5fc551cefb28f...21a35ca9a58426ef64077e393fb9fdc4443ee71a)
 - `21a35ca9a58426ef64077e393fb9fdc4443ee71a` [chore(deps): Bump ring from 0.17.5 to 0.17.13 (#20805)](https://github.com/risingwavelabs/risingwave/pull/20805)
-- `209f23361ad56d3e7899cafa5c39c9cf12f412c8` [chore(test): show each output line immediately in deterministic recovery test (#20808)](https://github.com/risingwavelabs/risingwave/pull/20808)
-- `4c8568a3537a4dbbf87b8356944f61c765845909` [refactor(storage): better backtrace display in warn log for `wait_for_update` (#20810)](https://github.com/risingwavelabs/risingwave/pull/20810)
-- `b2d06fed7cf28671a384cbed94a4b803152880bd` [ci: use buildkite job parallelism to speed up sqllogictests (#20727)](https://github.com/risingwavelabs/risingwave/pull/20727)
-- `dffe0ef8eef9a3855b8ebec581636033d0ead525` [chore(deps): Bump ring from 0.17.5 to 0.17.13 (#20809)](https://github.com/risingwavelabs/risingwave/pull/20809)
-- `2a3f4d3aafcf3e1787812deb417cd73e65d81bdf` [chore(deps): Bump sct from 0.7.0 to 0.7.1 (ring from 0.16 to 0.17) (#20804)](https://github.com/risingwavelabs/risingwave/pull/20804)
-- `dadc0e6160e0468810cfca733be170c5df7be08a` [fix(meta): background ddl wait collect first barrier (#20783)](https://github.com/risingwavelabs/risingwave/pull/20783)
-- `1f744d14125e8434da16bd9aede679e11d12ff46` [chore: remove telemetry tests (#20797)](https://github.com/risingwavelabs/risingwave/pull/20797)
-- `34abdfabd4a12fa1447dfaab6face12737edd282` [feat(logstore): provide more opportunities to read (#20546)](https://github.com/risingwavelabs/risingwave/pull/20546)
-
-## nightly-20250309
-- `87c7975a7f3d366eb950b220beb5fc551cefb28f` [fix(iceberg): reject iceberg on gcs with catalog rather than rest and storage (#20781)](https://github.com/risingwavelabs/risingwave/pull/20781)
