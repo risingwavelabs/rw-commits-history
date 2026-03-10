@@ -299,6 +299,19 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d2ecf841b806082b975e2bf07a83aac8d62e767f` [feat: vnode key range info (#24176)](https://github.com/risingwavelabs/risingwave/pull/24176)
+- `22377a36a54cf0678ac27c47f69ee631246ad662` [refactor(meta): split source split assignment into discovery and resolution phases (#24924)](https://github.com/risingwavelabs/risingwave/pull/24924)
+- `2770e3b89f6c4e27d61794fafebdd97cff4ffaee` [fix(stream): skip empty chunks in synced kv log store to prevent seq_id progress assertion failure (#25037)](https://github.com/risingwavelabs/risingwave/pull/25037)
+- `40d17bef9a3a4b21464109fe70e721da59e69622` [fix(meta): commit transaction after aborting subscription creation (#25041)](https://github.com/risingwavelabs/risingwave/pull/25041)
+- `4cb51fef766da40c9769b56ab1f80d153f48ee60` [chore(deps): Bump ipnet from 2.11.0 to 2.12.0 (#24944)](https://github.com/risingwavelabs/risingwave/pull/24944)
+- `23f49406e7926093fd774cb1ed0e182a0ea930c7` [chore(deps): Bump aws-lc-fips-sys from 0.13.9 to 0.13.12 (#24945)](https://github.com/risingwavelabs/risingwave/pull/24945)
+- `0a8455c0e02c2c11024a84b8c2cf70e132a5c01f` [chore(deps): Bump const-str from 1.0.0 to 1.1.0 (#24683)](https://github.com/risingwavelabs/risingwave/pull/24683)
+- `194684f0c8305d2ec47fd10ebe3e701eabfd5937` [chore(deps): Bump gcp-bigquery-client from 0.27.0 to 0.28.0 (#16547)](https://github.com/risingwavelabs/risingwave/pull/16547)
+- `355413d517b183c730dbd97dcb54627fd9395a74` [feat(iceberg): dump rw iceberg compaction schedules to diagnosis (#25015)](https://github.com/risingwavelabs/risingwave/pull/25015)
+- `97032a2f9a697973adfcd1bbdfb7b758b3589162` [chore(deps): bump arrow used by adbc from 56 to 57 (#25034)](https://github.com/risingwavelabs/risingwave/pull/25034)
+- `e4ff62c08d9804959220be2b870cefd23b0dcb01` [feat(meta): reject registeration of workers in different RW_VERSION (#25019)](https://github.com/risingwavelabs/risingwave/pull/25019)
+- `b65a63cedd4e5ab0112834d7197935d598eaafaa` [chore(deps): Bump http-body from 0.4.6 to 1.0.1 (#25031)](https://github.com/risingwavelabs/risingwave/pull/25031)
+- `5a5ca09e23880cd832d29075e1d5a1681a2efc4d` [chore(deps): Bump time from 0.3.36 to 0.3.47 (#24722)](https://github.com/risingwavelabs/risingwave/pull/24722)
 - `2bae180ffbaae0f316fa96d8fc8844de8af04f13` [feat: support watermark ttl for cdc table (#24992)](https://github.com/risingwavelabs/risingwave/pull/24992)
 
 ## nightly-20260309
