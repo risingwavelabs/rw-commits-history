@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260310` `d2ecf841b806082b975e2bf07a83aac8d62e767f`
 - `20260309` `1442d0deb979df924fda29d2a5d700dcce93e03e`
 - `20260308` `55bf4572a3a5742d4fff9e8097f0a952e86cba8f`
 - `20260307` `086b9030dc573056299dd2677a16c8a7ae1b607b`
@@ -290,7 +291,6 @@
 - `20250313` `6201013e0e2ef3cdf61197ea11dfb658ff629e0d`
 - `20250312` `9dd6477b0e039e491b3705689fa3785e7700754a`
 - `20250311` `11761bc94b205f6cddd9630a0e1165a8148a740a`
-- `20250310` `21a35ca9a58426ef64077e393fb9fdc4443ee71a`
 </details>
 
 # Commit history
@@ -299,6 +299,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `42aacf121c96c5da693cb5ed0bf5f448e043a923` [chore(deps): Bump pulsar from 6.3.0 to 6.3.1 (#25027)](https://github.com/risingwavelabs/risingwave/pull/25027)
+- `b68bd20cfbd3e7d27fb9a8b771741d99be0247c5` [chore(deps): Bump mongodb from 3.2.5 to 3.5.1 (#25028)](https://github.com/risingwavelabs/risingwave/pull/25028)
+- `78494334ba102534f74611b6e5a38c5f9fefbe1e` [refactor(meta): improve the determinism of trigger_manual_compaction (#25017)](https://github.com/risingwavelabs/risingwave/pull/25017)
+
+## nightly-20260310
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1442d0deb979df924fda29d2a5d700dcce93e03e...d2ecf841b806082b975e2bf07a83aac8d62e767f)
 - `d2ecf841b806082b975e2bf07a83aac8d62e767f` [feat: vnode key range info (#24176)](https://github.com/risingwavelabs/risingwave/pull/24176)
 - `22377a36a54cf0678ac27c47f69ee631246ad662` [refactor(meta): split source split assignment into discovery and resolution phases (#24924)](https://github.com/risingwavelabs/risingwave/pull/24924)
 - `2770e3b89f6c4e27d61794fafebdd97cff4ffaee` [fix(stream): skip empty chunks in synced kv log store to prevent seq_id progress assertion failure (#25037)](https://github.com/risingwavelabs/risingwave/pull/25037)
@@ -3060,16 +3066,4 @@
 - `f6faa2da7c27db00fd999ac7d85b91a0cefd073c` [chore(ci): revert changes specific to rustup v1.28 (#20843)](https://github.com/risingwavelabs/risingwave/pull/20843)
 
 ## nightly-20250311
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/21a35ca9a58426ef64077e393fb9fdc4443ee71a...11761bc94b205f6cddd9630a0e1165a8148a740a)
 - `11761bc94b205f6cddd9630a0e1165a8148a740a` [chore(deps): Bump ginepro from 0.8.1 to 0.8.2 (avoid idna@0.4 and trust-dns-resolver@0.23) (#20811)](https://github.com/risingwavelabs/risingwave/pull/20811)
-- `abc7d9ddc2900242d93042d320ce94b2053150db` [fix(sqlparser): `Display` of `WITH VERSION COLUMN` (#20823)](https://github.com/risingwavelabs/risingwave/pull/20823)
-- `cba2052987e8a4854babac482a117c5c4bb933f6` [feat(snapshot-backfill): impose back-pressure to upstream by epoch lag size (#20800)](https://github.com/risingwavelabs/risingwave/pull/20800)
-- `965416ec6d4636e89fea79dc6f9dc08da9ac2ea2` [chore:  add issue template for tracking flaky tests (#20825)](https://github.com/risingwavelabs/risingwave/pull/20825)
-- `9cc5d229b636d6557983a62b8c0d5dca44fa8e4f` [feat(frontend,meta): support alter fragment rate limit (#20795)](https://github.com/risingwavelabs/risingwave/pull/20795)
-- `5b4afb36b43247fc2d1b24e719b23ce8a2451949` [feat(frontend): memory throttling for frontend messages (#20649)](https://github.com/risingwavelabs/risingwave/pull/20649)
-- `7bdef17710a1c4a5fe6de2b9ae7cc94e2f13aea2` [chore(deps): Bump rustls-pki-types from 1.10.0 to 1.11.0 (#20334)](https://github.com/risingwavelabs/risingwave/pull/20334)
-- `94b80132f3cb9f70d53d69a592c7ee521b1d5bf3` [chore(deps): Bump similar from 2.6.0 to 2.7.0 (#20229)](https://github.com/risingwavelabs/risingwave/pull/20229)
-- `6a3cdb11d12d11e5e1b8a4bb6c59d43ebb9ce4fc` [chore(deps): Bump openssl from 0.10.66 to 0.10.70 (#20370)](https://github.com/risingwavelabs/risingwave/pull/20370)
-
-## nightly-20250310
-- `21a35ca9a58426ef64077e393fb9fdc4443ee71a` [chore(deps): Bump ring from 0.17.5 to 0.17.13 (#20805)](https://github.com/risingwavelabs/risingwave/pull/20805)
