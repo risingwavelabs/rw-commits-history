@@ -299,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f6b71b466f369b22098a9522f675f1e106c9a271` [chore: refine storage related grafana metrics (#24739)](https://github.com/risingwavelabs/risingwave/pull/24739)
+- `24e1dd7ffb543d7d2e1fb0595f0c70439ed3cfe2` [feat(meta): add compression and part-read for hummock version checkpoint (#24937)](https://github.com/risingwavelabs/risingwave/pull/24937)
+- `7cf6c7d8eab69f2e859f57eef57bc5b968ec6373` [refactor(meta): extract shared actor alignment and edge-building logic for new fragments (#25039)](https://github.com/risingwavelabs/risingwave/pull/25039)
+- `9a3a1d66a8345936ff193f4495e952f374ead9bd` [refactor(meta): remove vnode-aligned level size threshold (#25047)](https://github.com/risingwavelabs/risingwave/pull/25047)
 - `42aacf121c96c5da693cb5ed0bf5f448e043a923` [chore(deps): Bump pulsar from 6.3.0 to 6.3.1 (#25027)](https://github.com/risingwavelabs/risingwave/pull/25027)
 - `b68bd20cfbd3e7d27fb9a8b771741d99be0247c5` [chore(deps): Bump mongodb from 3.2.5 to 3.5.1 (#25028)](https://github.com/risingwavelabs/risingwave/pull/25028)
 - `78494334ba102534f74611b6e5a38c5f9fefbe1e` [refactor(meta): improve the determinism of trigger_manual_compaction (#25017)](https://github.com/risingwavelabs/risingwave/pull/25017)
