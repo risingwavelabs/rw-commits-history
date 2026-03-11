@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260311` `f6b71b466f369b22098a9522f675f1e106c9a271`
 - `20260310` `d2ecf841b806082b975e2bf07a83aac8d62e767f`
 - `20260309` `1442d0deb979df924fda29d2a5d700dcce93e03e`
 - `20260308` `55bf4572a3a5742d4fff9e8097f0a952e86cba8f`
@@ -290,7 +291,6 @@
 - `20250316` `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d`
 - `20250313` `6201013e0e2ef3cdf61197ea11dfb658ff629e0d`
 - `20250312` `9dd6477b0e039e491b3705689fa3785e7700754a`
-- `20250311` `11761bc94b205f6cddd9630a0e1165a8148a740a`
 </details>
 
 # Commit history
@@ -299,6 +299,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260311
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d2ecf841b806082b975e2bf07a83aac8d62e767f...f6b71b466f369b22098a9522f675f1e106c9a271)
 - `f6b71b466f369b22098a9522f675f1e106c9a271` [chore: refine storage related grafana metrics (#24739)](https://github.com/risingwavelabs/risingwave/pull/24739)
 - `24e1dd7ffb543d7d2e1fb0595f0c70439ed3cfe2` [feat(meta): add compression and part-read for hummock version checkpoint (#24937)](https://github.com/risingwavelabs/risingwave/pull/24937)
 - `7cf6c7d8eab69f2e859f57eef57bc5b968ec6373` [refactor(meta): extract shared actor alignment and edge-building logic for new fragments (#25039)](https://github.com/risingwavelabs/risingwave/pull/25039)
@@ -3041,33 +3044,4 @@
 - `4a5eb2c8a2bce1a2a8d7906a06089aaaf937d705` [feat(stream): support not null in stream (#20822)](https://github.com/risingwavelabs/risingwave/pull/20822)
 
 ## nightly-20250312
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/11761bc94b205f6cddd9630a0e1165a8148a740a...9dd6477b0e039e491b3705689fa3785e7700754a)
 - `9dd6477b0e039e491b3705689fa3785e7700754a` [fix(meta): avoid handling stale exchange request with term_id (#20879)](https://github.com/risingwavelabs/risingwave/pull/20879)
-- `3ed4264e650fe7e92180c1fb684b105bead27c02` [refactor(compaction): optimize stale compaction task validation (#20863)](https://github.com/risingwavelabs/risingwave/pull/20863)
-- `6812577f33724ae15ab826a484d507c7cf341925` [feat: Add configurable sync call timeout for sources (#20828)](https://github.com/risingwavelabs/risingwave/pull/20828)
-- `129a616d86608ed2ace260546bc9301222431277` [feat(meta): add system param to disable per-database isolation (#20872)](https://github.com/risingwavelabs/risingwave/pull/20872)
-- `bdabc0fafc85c7daad73f58cb584eb11cca2d373` [refactor(frontend):  also check column data type when generating column index mapping for replacing table (#20706)](https://github.com/risingwavelabs/risingwave/pull/20706)
-- `93e5ee07ba7506c64b63f2bc21aa6224be13442b` [refactor(compaction): optimize level_insert_ssts (#20824)](https://github.com/risingwavelabs/risingwave/pull/20824)
-- `02a1aac9de6e4427d14f67ffb6089fabe6b98f86` [chore(deps): Bump tokio to v1.44.0 (#20807)](https://github.com/risingwavelabs/risingwave/pull/20807)
-- `dfa699c96e70d262449dad919e50a05a1854719f` [fix(sqlparser): enforce `Display` of `create table | source` to be valid SQL (#20860)](https://github.com/risingwavelabs/risingwave/pull/20860)
-- `54711c25edd0a3da770403c243eab9b2ea47beec` [refactor(connector):  correctly log java exceptions (#20840)](https://github.com/risingwavelabs/risingwave/pull/20840)
-- `90792bca2237a7c2f46aa0a8089d026472a8b6b1` [chore(deps):  Bump uuid from 1.12.0 to 1.15.1 (#20853)](https://github.com/risingwavelabs/risingwave/pull/20853)
-- `11edfd3b89389dee5793e3f743ad53161acb6005` [feat(meta): isolate database worker node failure (#20734)](https://github.com/risingwavelabs/risingwave/pull/20734)
-- `9994c878494ef0b7bcb3ad704dede78c47fdd484` [ci: include span in ci log (#20852)](https://github.com/risingwavelabs/risingwave/pull/20852)
-- `c1bf3e50eb3d378de78ecbcb2f66e48b1622817f` [feat(meta): add more per database meta metrics (#20827)](https://github.com/risingwavelabs/risingwave/pull/20827)
-- `85698c247a9ff775e2888689d9e2164b8fd4b5a3` [chore(deps): Bump async-nats from 0.38.0 to 0.39.0 (#20817)](https://github.com/risingwavelabs/risingwave/pull/20817)
-- `96b92fdfb77e229d6c1ecd181dab90b071629670` [feat(frontend,meta,stream): explain analyze stream job (#20715)](https://github.com/risingwavelabs/risingwave/pull/20715)
-- `c14d4bf0d44ac46ba2c3d55c52ad5c543a79303d` [feat(iceberg): support enable_config_load for glue catalog (#20813)](https://github.com/risingwavelabs/risingwave/pull/20813)
-- `48ccbdc6ed681f860c013a38295eca167c85519f` [chore(deps): Bump bytes from 1.9.0 to 1.10.1 (#20815)](https://github.com/risingwavelabs/risingwave/pull/20815)
-- `ba21e82dec17e05b4b5854ef58938492e315077c` [refactor(iceberg): deprecate pulsar iceberg reader (#20844)](https://github.com/risingwavelabs/risingwave/pull/20844)
-- `f3d38030c73407aa879fe83a1c0ca2154e0736f1` [chore(deps): Bump actions/checkout from 3 to 4 (#20820)](https://github.com/risingwavelabs/risingwave/pull/20820)
-- `ef754c718234a52c98e36d8ceb333d64b4b42283` [fix(meta): allow subset of databases enter running after global recovery (#20792)](https://github.com/risingwavelabs/risingwave/pull/20792)
-- `4838c3bc0ff28c8968b913f0e3cf65489dac6ea5` [chore(deps): Bump crate-ci/typos from 1.29.9 to 1.30.0 (#20696)](https://github.com/risingwavelabs/risingwave/pull/20696)
-- `6d2d6f5c739fda91c1ba78ab4c47bb4d2deb2071` [chore(ci): fix python dependency installation (#20845)](https://github.com/risingwavelabs/risingwave/pull/20845)
-- `3324887f1775d58b7c5cd4e5db92812c21238f1c` [chore(deps): Bump hashbrown from 0.15.0 to 0.15.1 (#20812)](https://github.com/risingwavelabs/risingwave/pull/20812)
-- `eb7ec4ad4f2b9f7fe1673af328be88424216e52a` [fix: cherry-pick bot format and leading space issue (#20842)](https://github.com/risingwavelabs/risingwave/pull/20842)
-- `9b71efb99cd9bf64a7abd6d59d1d82b9222e1aa5` [fix(risedev): fix task panic error msg (#20736)](https://github.com/risingwavelabs/risingwave/pull/20736)
-- `f6faa2da7c27db00fd999ac7d85b91a0cefd073c` [chore(ci): revert changes specific to rustup v1.28 (#20843)](https://github.com/risingwavelabs/risingwave/pull/20843)
-
-## nightly-20250311
-- `11761bc94b205f6cddd9630a0e1165a8148a740a` [chore(deps): Bump ginepro from 0.8.1 to 0.8.2 (avoid idna@0.4 and trust-dns-resolver@0.23) (#20811)](https://github.com/risingwavelabs/risingwave/pull/20811)
