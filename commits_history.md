@@ -290,7 +290,6 @@
 - `20250317` `9207d4f128c3a97a34b25b5165b9856e9ae2a8d2`
 - `20250316` `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d`
 - `20250313` `6201013e0e2ef3cdf61197ea11dfb658ff629e0d`
-- `20250312` `9dd6477b0e039e491b3705689fa3785e7700754a`
 </details>
 
 # Commit history
@@ -3033,18 +3032,4 @@
 - `4ca59cf6b9a2a940850d660b85c50254acba8e46` [refactor(iceberg): bump iceberg-rs (#20882)](https://github.com/risingwavelabs/risingwave/pull/20882)
 
 ## nightly-20250313
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9dd6477b0e039e491b3705689fa3785e7700754a...6201013e0e2ef3cdf61197ea11dfb658ff629e0d)
 - `6201013e0e2ef3cdf61197ea11dfb658ff629e0d` [feat: add `UdfConfig` to enable/disable embedded UDF for different language (#20893)](https://github.com/risingwavelabs/risingwave/pull/20893)
-- `8e10d41941324ccc20e2c1e1d17f6a69e868a8e4` [chore: update docker version to v2.2.3 (#20894)](https://github.com/risingwavelabs/risingwave/pull/20894)
-- `38388506c70068f9ae49c739b1bbc6b04e4cf7ec` [feat(sink): change sink type to append only when plan is append-only (#20558)](https://github.com/risingwavelabs/risingwave/pull/20558)
-- `893e2aeeec6b4e90d50e177324cef7a933ab7ea9` [refactor(types):  add convenient macros for simple & composite data types (#20880)](https://github.com/risingwavelabs/risingwave/pull/20880)
-- `4ccc2876c7dc442077f6805498c2d650db772166` [fix(meta): fix notification when dropping tables (#20010)](https://github.com/risingwavelabs/risingwave/pull/20010)
-- `e4571ccf82ef6fbf9bebe961369d8fccefe65177` [feat(ctl): enable overwriting of system parameters during metadata restoration. (#20773)](https://github.com/risingwavelabs/risingwave/pull/20773)
-- `cc360041722fe74bfeaae0311803e852d3da4539` [chore(deps): bump peekable from 0.2.4 to 0.3.0 (#20887)](https://github.com/risingwavelabs/risingwave/pull/20887)
-- `ef678606eeb4cef09bb12c727dbfb6f5ae1b0548` [chore: update rust-toolchain version to `nightly-2025-03-05` (#20717)](https://github.com/risingwavelabs/risingwave/pull/20717)
-- `7bf88547eb63e39b1af02772d01383d787f14277` [chore(deps): bump duration-str from 0.12.0 to 0.15.1 (#20888)](https://github.com/risingwavelabs/risingwave/pull/20888)
-- `9b80a45a31445ccd8bf19cfcb2f69a1900fc455b` [test: add retry to a flaky source test (#20850)](https://github.com/risingwavelabs/risingwave/pull/20850)
-- `4a5eb2c8a2bce1a2a8d7906a06089aaaf937d705` [feat(stream): support not null in stream (#20822)](https://github.com/risingwavelabs/risingwave/pull/20822)
-
-## nightly-20250312
-- `9dd6477b0e039e491b3705689fa3785e7700754a` [fix(meta): avoid handling stale exchange request with term_id (#20879)](https://github.com/risingwavelabs/risingwave/pull/20879)
