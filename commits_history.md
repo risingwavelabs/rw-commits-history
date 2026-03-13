@@ -298,6 +298,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `95a5b11ab22efa77e49d78e7e6b4517b292d80e9` [fix(iceberg): disable iceberg row selection (#25060)](https://github.com/risingwavelabs/risingwave/pull/25060)
 - `5a29ff4cf157dc1694638573b76ec8331b5bfe29` [fix(cdc): fix compatibility issues with SQL Server CDC table name (#25057)](https://github.com/risingwavelabs/risingwave/pull/25057)
 - `045ceb7f7763968c1e0827bd3a542651d79e0ceb` [feat(streaming): improve watermark handling for hash join (#24144)](https://github.com/risingwavelabs/risingwave/pull/24144)
 - `10d8743d7aacc51323f4a036587decfbe2ae9bc1` [fix(stream): sync ops with visibility after noop elimination in HashDataDispatcher (#24968)](https://github.com/risingwavelabs/risingwave/pull/24968)
