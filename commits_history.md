@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260313` `95a5b11ab22efa77e49d78e7e6b4517b292d80e9`
 - `20260311` `f6b71b466f369b22098a9522f675f1e106c9a271`
 - `20260310` `d2ecf841b806082b975e2bf07a83aac8d62e767f`
 - `20260309` `1442d0deb979df924fda29d2a5d700dcce93e03e`
@@ -298,6 +299,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260313
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f6b71b466f369b22098a9522f675f1e106c9a271...95a5b11ab22efa77e49d78e7e6b4517b292d80e9)
 - `95a5b11ab22efa77e49d78e7e6b4517b292d80e9` [fix(iceberg): disable iceberg row selection (#25060)](https://github.com/risingwavelabs/risingwave/pull/25060)
 - `5a29ff4cf157dc1694638573b76ec8331b5bfe29` [fix(cdc): fix compatibility issues with SQL Server CDC table name (#25057)](https://github.com/risingwavelabs/risingwave/pull/25057)
 - `045ceb7f7763968c1e0827bd3a542651d79e0ceb` [feat(streaming): improve watermark handling for hash join (#24144)](https://github.com/risingwavelabs/risingwave/pull/24144)
