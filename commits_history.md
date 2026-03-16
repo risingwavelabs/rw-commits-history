@@ -299,6 +299,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d267b9809a9a620a012835dddb8e7add5bf4e7a3` [chore(deps): Bump pulsar from 6.3.1 to 6.7.1 (#25064)](https://github.com/risingwavelabs/risingwave/pull/25064)
+- `21b036140dcd438d0b0010440d11975541fa966f` [test: decouple inject skip coverage from mysql cdc reset test (#25016)](https://github.com/risingwavelabs/risingwave/pull/25016)
+- `a946dc01c5d92b1c7f2999c8b7a3cf827aa783f5` [chore(deps): Bump clap from 4.5.1 to 4.5.60 (#25072)](https://github.com/risingwavelabs/risingwave/pull/25072)
+- `38175bba8ef6057471f53d90623da62691f2156e` [feat(sql): add BACKUP and delete meta snapshot commands (#25042)](https://github.com/risingwavelabs/risingwave/pull/25042)
+- `58934b2be37f1eb0ce32ce7397385ff7e3ec52fb` [feat(iceberg): support iceberg sink commit checkpoint size threshold mb (#25058)](https://github.com/risingwavelabs/risingwave/pull/25058)
 
 ## nightly-20260315
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f6b71b466f369b22098a9522f675f1e106c9a271...95a5b11ab22efa77e49d78e7e6b4517b292d80e9)
