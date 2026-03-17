@@ -300,6 +300,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `52373c3f04d314ed455cc36ef054a5827be7be54` [refactor(meta): render actor in global barrier worker for create/replace job (#24984)](https://github.com/risingwavelabs/risingwave/pull/24984)
+- `d158804ed5b5d0790b911a339b47373247ee37f0` [feat(observability): track channel buffered memory (#24810)](https://github.com/risingwavelabs/risingwave/pull/24810)
+- `8e4c82e427d88155901382256305544189175ae4` [chore(deps): Bump lz4_flex from 0.12.0 to 0.12.1 (#25087)](https://github.com/risingwavelabs/risingwave/pull/25087)
+- `ef337ed1943e4a2b268f6e948f01f109f13188f1` [chore(deps): Bump quinn-proto from 0.11.11 to 0.11.14 (#25053)](https://github.com/risingwavelabs/risingwave/pull/25053)
+- `ee528a7ea10d57a35d04af8c1cfc7b4a56bddbbf` [chore(deps): Bump lz4_flex from 0.11.1 to 0.11.6 (#25085)](https://github.com/risingwavelabs/risingwave/pull/25085)
 
 ## nightly-20260316
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/95a5b11ab22efa77e49d78e7e6b4517b292d80e9...d267b9809a9a620a012835dddb8e7add5bf4e7a3)
