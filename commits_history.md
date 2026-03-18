@@ -301,6 +301,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f90ec06f01252f874b5794bf0b1389ad0312e252` [fix(mysql-cdc): tolerate 2-column SHOW BINARY LOGS results (#25101)](https://github.com/risingwavelabs/risingwave/pull/25101)
+- `4da597319a8b4fb1ab3d777f3ec05925c5ba7af5` [feat: support pool_setup_concurreny for gRPC client (#25098)](https://github.com/risingwavelabs/risingwave/pull/25098)
 - `046bd30eb3c40872387392fc188aa0556b055f41` [fix(binder): support schema-qualified names on `BindContext` (#24628)](https://github.com/risingwavelabs/risingwave/pull/24628)
 
 ## nightly-20260317
