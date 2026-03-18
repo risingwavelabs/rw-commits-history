@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260318` `f90ec06f01252f874b5794bf0b1389ad0312e252`
 - `20260317` `52373c3f04d314ed455cc36ef054a5827be7be54`
 - `20260316` `d267b9809a9a620a012835dddb8e7add5bf4e7a3`
 - `20260315` `95a5b11ab22efa77e49d78e7e6b4517b292d80e9`
@@ -301,6 +302,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `28de654ff5d1fedd8cc520002d1adb31eb48185c` [fix(meta): skip no-op reschedules before actor allocation (#25081)](https://github.com/risingwavelabs/risingwave/pull/25081)
+
+## nightly-20260318
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52373c3f04d314ed455cc36ef054a5827be7be54...f90ec06f01252f874b5794bf0b1389ad0312e252)
 - `f90ec06f01252f874b5794bf0b1389ad0312e252` [fix(mysql-cdc): tolerate 2-column SHOW BINARY LOGS results (#25101)](https://github.com/risingwavelabs/risingwave/pull/25101)
 - `4da597319a8b4fb1ab3d777f3ec05925c5ba7af5` [feat: support pool_setup_concurreny for gRPC client (#25098)](https://github.com/risingwavelabs/risingwave/pull/25098)
 - `046bd30eb3c40872387392fc188aa0556b055f41` [fix(binder): support schema-qualified names on `BindContext` (#24628)](https://github.com/risingwavelabs/risingwave/pull/24628)
