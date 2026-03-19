@@ -302,6 +302,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `84e90996abbd89b2d6656d89a2ba5a42812db219` [refactor(frontend): include user name in query log (#25102)](https://github.com/risingwavelabs/risingwave/pull/25102)
+- `8a846a1149c3fc618c6d4300c67151b36a8c55e9` [fix(test): fix meta snapshot tests (#25118)](https://github.com/risingwavelabs/risingwave/pull/25118)
 - `28de654ff5d1fedd8cc520002d1adb31eb48185c` [fix(meta): skip no-op reschedules before actor allocation (#25081)](https://github.com/risingwavelabs/risingwave/pull/25081)
 
 ## nightly-20260318
