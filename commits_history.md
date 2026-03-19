@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260319` `84e90996abbd89b2d6656d89a2ba5a42812db219`
 - `20260318` `f90ec06f01252f874b5794bf0b1389ad0312e252`
 - `20260317` `52373c3f04d314ed455cc36ef054a5827be7be54`
 - `20260316` `d267b9809a9a620a012835dddb8e7add5bf4e7a3`
@@ -302,6 +303,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a47abb9ea4a38f9757fb4a74b5068309ed47f94d` [feat: support atomically adding column for iceberg table (#24756)](https://github.com/risingwavelabs/risingwave/pull/24756)
+- `748e5d8151225491de4956d26a2444c2594da35d` [feat(frontend): add iceberg engine storage selection (#25043)](https://github.com/risingwavelabs/risingwave/pull/25043)
+
+## nightly-20260319
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f90ec06f01252f874b5794bf0b1389ad0312e252...84e90996abbd89b2d6656d89a2ba5a42812db219)
 - `84e90996abbd89b2d6656d89a2ba5a42812db219` [refactor(frontend): include user name in query log (#25102)](https://github.com/risingwavelabs/risingwave/pull/25102)
 - `8a846a1149c3fc618c6d4300c67151b36a8c55e9` [fix(test): fix meta snapshot tests (#25118)](https://github.com/risingwavelabs/risingwave/pull/25118)
 - `28de654ff5d1fedd8cc520002d1adb31eb48185c` [fix(meta): skip no-op reschedules before actor allocation (#25081)](https://github.com/risingwavelabs/risingwave/pull/25081)
