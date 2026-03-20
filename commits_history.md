@@ -303,6 +303,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2c85a134cd6b91c66073aa029fc8e6a901e4e7dd` [refactor(common): cleanup redundant `ToSql` (#25132)](https://github.com/risingwavelabs/risingwave/pull/25132)
+- `a595c2881725018de69db897b92dd725b37836d3` [refactor(meta): store table change log independently (#24252)](https://github.com/risingwavelabs/risingwave/pull/24252)
 - `a47abb9ea4a38f9757fb4a74b5068309ed47f94d` [feat: support atomically adding column for iceberg table (#24756)](https://github.com/risingwavelabs/risingwave/pull/24756)
 - `748e5d8151225491de4956d26a2444c2594da35d` [feat(frontend): add iceberg engine storage selection (#25043)](https://github.com/risingwavelabs/risingwave/pull/25043)
 
