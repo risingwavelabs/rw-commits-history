@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260320` `2c85a134cd6b91c66073aa029fc8e6a901e4e7dd`
 - `20260319` `84e90996abbd89b2d6656d89a2ba5a42812db219`
 - `20260318` `f90ec06f01252f874b5794bf0b1389ad0312e252`
 - `20260317` `52373c3f04d314ed455cc36ef054a5827be7be54`
@@ -303,6 +304,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260320
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/84e90996abbd89b2d6656d89a2ba5a42812db219...2c85a134cd6b91c66073aa029fc8e6a901e4e7dd)
 - `2c85a134cd6b91c66073aa029fc8e6a901e4e7dd` [refactor(common): cleanup redundant `ToSql` (#25132)](https://github.com/risingwavelabs/risingwave/pull/25132)
 - `a595c2881725018de69db897b92dd725b37836d3` [refactor(meta): store table change log independently (#24252)](https://github.com/risingwavelabs/risingwave/pull/24252)
 - `a47abb9ea4a38f9757fb4a74b5068309ed47f94d` [feat: support atomically adding column for iceberg table (#24756)](https://github.com/risingwavelabs/risingwave/pull/24756)
