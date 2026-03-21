@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260321` `4a7d39e4dcbc5a9ac2fc334937539a6d3b39c0c6`
 - `20260320` `2c85a134cd6b91c66073aa029fc8e6a901e4e7dd`
 - `20260319` `84e90996abbd89b2d6656d89a2ba5a42812db219`
 - `20260318` `f90ec06f01252f874b5794bf0b1389ad0312e252`
@@ -304,6 +305,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260321
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2c85a134cd6b91c66073aa029fc8e6a901e4e7dd...4a7d39e4dcbc5a9ac2fc334937539a6d3b39c0c6)
 - `4a7d39e4dcbc5a9ac2fc334937539a6d3b39c0c6` [chore(deps): Bump aws-lc-fips-sys from 0.13.12 to 0.13.13 (#25137)](https://github.com/risingwavelabs/risingwave/pull/25137)
 
 ## nightly-20260320
