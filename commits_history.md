@@ -304,6 +304,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4a7d39e4dcbc5a9ac2fc334937539a6d3b39c0c6` [chore(deps): Bump aws-lc-fips-sys from 0.13.12 to 0.13.13 (#25137)](https://github.com/risingwavelabs/risingwave/pull/25137)
 
 ## nightly-20260320
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/84e90996abbd89b2d6656d89a2ba5a42812db219...2c85a134cd6b91c66073aa029fc8e6a901e4e7dd)
