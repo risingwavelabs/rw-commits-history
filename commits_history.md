@@ -305,6 +305,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `330dff2f527af229954c272699e1ec3b3c04179d` [fix(sqlserver): fix sqlserver data type mismatch issue (#25131)](https://github.com/risingwavelabs/risingwave/pull/25131)
+- `24ac814634b30f464b4ff53bb5551d841520e710` [fix(source): drop stale wait checkpoint task (#25152)](https://github.com/risingwavelabs/risingwave/pull/25152)
+- `b059bee2ea30224cd3c51e3ab05f3d99ad77fd2b` [feat(common): add Bounded/Ratio parallelism config types (#25125)](https://github.com/risingwavelabs/risingwave/pull/25125)
 
 ## nightly-20260322
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2c85a134cd6b91c66073aa029fc8e6a901e4e7dd...4a7d39e4dcbc5a9ac2fc334937539a6d3b39c0c6)
