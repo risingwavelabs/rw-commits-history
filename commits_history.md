@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260324` `260187466b481af0e6a5bcc2a24199c0c95d52dd`
 - `20260323` `330dff2f527af229954c272699e1ec3b3c04179d`
 - `20260322` `4a7d39e4dcbc5a9ac2fc334937539a6d3b39c0c6`
 - `20260320` `2c85a134cd6b91c66073aa029fc8e6a901e4e7dd`
@@ -306,6 +307,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0f63fc31d1fa5ea90825159c843720eea7734bd4` [refactor(meta): unify epoch node management of partial graphs (#25123)](https://github.com/risingwavelabs/risingwave/pull/25123)
+
+## nightly-20260324
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/330dff2f527af229954c272699e1ec3b3c04179d...260187466b481af0e6a5bcc2a24199c0c95d52dd)
 - `260187466b481af0e6a5bcc2a24199c0c95d52dd` [chore(deps): Bump authlib from 1.6.5 to 1.6.9 in /e2e_test (#25082)](https://github.com/risingwavelabs/risingwave/pull/25082)
 - `0c0b5220b23f8e0414ce6881270cf09765c1c7e4` [feat(sqlserver-cdc): add consume offset monitor and lag monitor (#25124)](https://github.com/risingwavelabs/risingwave/pull/25124)
 - `fa7a88403a5fff3869734fe29b5416b60a9c915d` [feat(meta): support wait jobs (#25133)](https://github.com/risingwavelabs/risingwave/pull/25133)
