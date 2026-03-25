@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260325` `6e3b05563a36c45097c06a2de251a63d182da7ab`
 - `20260324` `260187466b481af0e6a5bcc2a24199c0c95d52dd`
 - `20260323` `330dff2f527af229954c272699e1ec3b3c04179d`
 - `20260322` `4a7d39e4dcbc5a9ac2fc334937539a6d3b39c0c6`
@@ -304,6 +305,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260325
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/260187466b481af0e6a5bcc2a24199c0c95d52dd...6e3b05563a36c45097c06a2de251a63d182da7ab)
 - `6e3b05563a36c45097c06a2de251a63d182da7ab` [fix(frontend): apply session timezone rewrite to watermark expressions (#25175)](https://github.com/risingwavelabs/risingwave/pull/25175)
 - `0f63fc31d1fa5ea90825159c843720eea7734bd4` [refactor(meta): unify epoch node management of partial graphs (#25123)](https://github.com/risingwavelabs/risingwave/pull/25123)
 
