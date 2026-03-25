@@ -296,9 +296,6 @@
 - `20250320` `d5e037bf9916a1c8daedb299ea525f8801e24413`
 - `20250319` `42e1fd81bcb6525a53ed9a98509169b0c9cdf6cc`
 - `20250318` `8ae38cf0096dc71eb3d5c4f72c3904510b8494dd`
-- `20250317` `9207d4f128c3a97a34b25b5165b9856e9ae2a8d2`
-- `20250316` `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d`
-- `20250313` `6201013e0e2ef3cdf61197ea11dfb658ff629e0d`
 </details>
 
 # Commit history
@@ -307,6 +304,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6e3b05563a36c45097c06a2de251a63d182da7ab` [fix(frontend): apply session timezone rewrite to watermark expressions (#25175)](https://github.com/risingwavelabs/risingwave/pull/25175)
 - `0f63fc31d1fa5ea90825159c843720eea7734bd4` [refactor(meta): unify epoch node management of partial graphs (#25123)](https://github.com/risingwavelabs/risingwave/pull/25123)
 
 ## nightly-20260324
@@ -3064,37 +3062,4 @@
 - `a702294c13666a7388cb621a2ece809c18fd97f7` [chore(deps): Bump rust-embed from 8.5.0 to 8.6.0 (#20854)](https://github.com/risingwavelabs/risingwave/pull/20854)
 
 ## nightly-20250318
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9207d4f128c3a97a34b25b5165b9856e9ae2a8d2...8ae38cf0096dc71eb3d5c4f72c3904510b8494dd)
 - `8ae38cf0096dc71eb3d5c4f72c3904510b8494dd` [fix(subscription):fix loss of subscription data due to reboot (#20959)](https://github.com/risingwavelabs/risingwave/pull/20959)
-- `6a6b34015c2e7986294f95590e620b40de3b9f9f` [feat: add worker isolation in simulation tests (#20756)](https://github.com/risingwavelabs/risingwave/pull/20756)
-- `df2a92f2e407cc9e93cb1d01afb7132cdaae5e23` [feat(metric): add metric for table change log (#20950)](https://github.com/risingwavelabs/risingwave/pull/20950)
-- `a72f6932e9d102eb693dfe7d32cfaefd0cd030ef` [test: add e2e tests for `ALTER COLUMN TYPE` (#20940)](https://github.com/risingwavelabs/risingwave/pull/20940)
-- `3ce8ec6624d084ce85d7c49aa42011af32d13917` [fix(frontend): `encode protobuf` shall pass options without `legacy_source::ProtobufSchema` (#20949)](https://github.com/risingwavelabs/risingwave/pull/20949)
-- `060f11b15340421ebc0684e9e54ac2c84e3975a4` [fix(snapshot-backfill): fix panic in cross db snapshot backfill recovery (#20937)](https://github.com/risingwavelabs/risingwave/pull/20937)
-- `524185f8a25f86083f3cb8b0ac3543c5f7d6e573` [feat(CLOUD-3655): Frontend communication with serverless backfill controller (#20672)](https://github.com/risingwavelabs/risingwave/pull/20672)
-- `4c8bc7b09e3701e96f176653111fca78650c239f` [feat: recursively use col-aware encoding for structs (#20604)](https://github.com/risingwavelabs/risingwave/pull/20604)
-- `082a9cff8916d744df7f499490ecdaa17d67dab3` [fix(sink): correctly get primary keys from starrocks aggregate table (#20925)](https://github.com/risingwavelabs/risingwave/pull/20925)
-- `46540da2f3dc906aa89102499393767337a56836` [feat: add recovery events (#20918)](https://github.com/risingwavelabs/risingwave/pull/20918)
-- `62a8d6b4b80e0b62df65fa5764a701c1f215f913` [feat(frontend): generate column id to struct fields (#20563)](https://github.com/risingwavelabs/risingwave/pull/20563)
-
-## nightly-20250317
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d...9207d4f128c3a97a34b25b5165b9856e9ae2a8d2)
-- `9207d4f128c3a97a34b25b5165b9856e9ae2a8d2` [fix: ignore referring relations privilege check for view (#20941)](https://github.com/risingwavelabs/risingwave/pull/20941)
-- `b0216ed41650326a4c09a234f81ae1a1c50383c4` [feat(storage): separate shared buffer compact SSTs of state table with and without old values (#20939)](https://github.com/risingwavelabs/risingwave/pull/20939)
-- `e03b3f56a6e19d13fbe5b1c77359af2362192acc` [feat: add auxiliary methods for struct type with field ids (#20910)](https://github.com/risingwavelabs/risingwave/pull/20910)
-- `0bedf6503e7ceb50d40637083fc34bb735f0a0aa` [feat: support privilege management for connection, function and secret (#20755)](https://github.com/risingwavelabs/risingwave/pull/20755)
-- `360c0654e66c3b5b1e083692ed34437a8a2b8ae0` [fix(meta): isolate database logical error in global recovery (#20896)](https://github.com/risingwavelabs/risingwave/pull/20896)
-- `e3cf7f7b23f256fd80275b10700275948d443ab4` [feat: introduce `rw_resource_groups` view  (#20920)](https://github.com/risingwavelabs/risingwave/pull/20920)
-- `643b86138ed86393702d3a67519ef5182d26e531` [refactor(state table): add an API for 1 row table (#20911)](https://github.com/risingwavelabs/risingwave/pull/20911)
-- `0465e73b3f68dd4913261ea1c65399d31442e8de` [chore: remove false positive blocking consume_log from await-tree output (#20891)](https://github.com/risingwavelabs/risingwave/pull/20891)
-
-## nightly-20250316
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6201013e0e2ef3cdf61197ea11dfb658ff629e0d...eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d)
-- `eb41c6a8c3cd51376c71d8226dd36fa0d9f9aa7d` [feat(types): implement `Row` for `StructRef` (#20917)](https://github.com/risingwavelabs/risingwave/pull/20917)
-- `b81a899ddc9fee0de823c890880c61227074badc` [fix(action): don't override the update branch when it exists remotely (#20914)](https://github.com/risingwavelabs/risingwave/pull/20914)
-- `fc37a2d6de2ce4318cfff9f661c56c4c4bddfb45` [fix(action): fetch all branches not only main (#20912)](https://github.com/risingwavelabs/risingwave/pull/20912)
-- `569a7692fa79cdc1cc598786ffbcde32d0dd076a` [chore: remove risingwave_connector::source::DataType (#20895)](https://github.com/risingwavelabs/risingwave/pull/20895)
-- `4ca59cf6b9a2a940850d660b85c50254acba8e46` [refactor(iceberg): bump iceberg-rs (#20882)](https://github.com/risingwavelabs/risingwave/pull/20882)
-
-## nightly-20250313
-- `6201013e0e2ef3cdf61197ea11dfb658ff629e0d` [feat: add `UdfConfig` to enable/disable embedded UDF for different language (#20893)](https://github.com/risingwavelabs/risingwave/pull/20893)
