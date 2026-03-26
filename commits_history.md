@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260326` `c2c39812208307695cef5f986ebb4fb26786ee83`
 - `20260325` `6e3b05563a36c45097c06a2de251a63d182da7ab`
 - `20260324` `260187466b481af0e6a5bcc2a24199c0c95d52dd`
 - `20260323` `330dff2f527af229954c272699e1ec3b3c04179d`
@@ -305,6 +306,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260326
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6e3b05563a36c45097c06a2de251a63d182da7ab...c2c39812208307695cef5f986ebb4fb26786ee83)
 - `c2c39812208307695cef5f986ebb4fb26786ee83` [fix(binder): resolve columns only within visible relation context (#25107)](https://github.com/risingwavelabs/risingwave/pull/25107)
 - `00709f3a2da9d519f76b7b6055a1e59dc921ad62` [fix(risedev): bump maven version to 3.9.14 (#25185)](https://github.com/risingwavelabs/risingwave/pull/25185)
 - `1790a0cf65a242286560c6d686278507331e3eda` [chore: reject zero max prefetch block number (#25179)](https://github.com/risingwavelabs/risingwave/pull/25179)
