@@ -306,6 +306,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521` [feat: meta generalize compaction-group normalize with batched split deltas (#24852)](https://github.com/risingwavelabs/risingwave/pull/24852)
+- `24a0bbb9e94afac44cfe9edfbbdc4218b99b9d33` [refactor(frontend): unify session config parallelism and frontend resolution (#25126)](https://github.com/risingwavelabs/risingwave/pull/25126)
+- `0b7ae45c8f8848fcc08a8d01f1f29055c8b61d5c` [fix(iceberg): Reject dots in database.name for Iceberg sink (#24630)](https://github.com/risingwavelabs/risingwave/pull/24630)
+- `75e2bfa20871334f59e613a416248fb0449ca687` [fix: preallocate compaction task id range per loop and assert bounds (#24654)](https://github.com/risingwavelabs/risingwave/pull/24654)
+- `610de458ce6e1885ee4745c918cb8f087cffc472` [chore(deps): Bump the strum group with 2 updates (#24839)](https://github.com/risingwavelabs/risingwave/pull/24839)
 
 ## nightly-20260326
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6e3b05563a36c45097c06a2de251a63d182da7ab...c2c39812208307695cef5f986ebb4fb26786ee83)
