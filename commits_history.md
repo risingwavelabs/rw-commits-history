@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260327` `f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521`
+- `20260328` `f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521`
 - `20260326` `c2c39812208307695cef5f986ebb4fb26786ee83`
 - `20260325` `6e3b05563a36c45097c06a2de251a63d182da7ab`
 - `20260324` `260187466b481af0e6a5bcc2a24199c0c95d52dd`
@@ -308,7 +308,7 @@
 
 ## Unreleased
 
-## nightly-20260327
+## nightly-20260328
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c2c39812208307695cef5f986ebb4fb26786ee83...f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521)
 - `f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521` [feat: meta generalize compaction-group normalize with batched split deltas (#24852)](https://github.com/risingwavelabs/risingwave/pull/24852)
 - `24a0bbb9e94afac44cfe9edfbbdc4218b99b9d33` [refactor(frontend): unify session config parallelism and frontend resolution (#25126)](https://github.com/risingwavelabs/risingwave/pull/25126)
