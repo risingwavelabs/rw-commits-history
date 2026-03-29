@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260329` `a9735ed3fda6d1fe1e63166872815d69150f485c`
 - `20260328` `f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521`
 - `20260326` `c2c39812208307695cef5f986ebb4fb26786ee83`
 - `20260325` `6e3b05563a36c45097c06a2de251a63d182da7ab`
@@ -307,6 +308,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260329
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521...a9735ed3fda6d1fe1e63166872815d69150f485c)
 - `a9735ed3fda6d1fe1e63166872815d69150f485c` [fix(binder): handle generated column validation for INSERT with/without column list (#25187)](https://github.com/risingwavelabs/risingwave/pull/25187)
 - `387b544d59e50719b9d5205ea4ab242e11b188ad` [chore(dashboard): remove vulnerable unused dependency from frontend package (#25194)](https://github.com/risingwavelabs/risingwave/pull/25194)
 
