@@ -308,6 +308,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bdd1fdaed480c89fee7f173d7498b547e3aa5d19` [chore: default enable datafusion engine for batch query (#25198)](https://github.com/risingwavelabs/risingwave/pull/25198)
+- `9bd0a721035ace8cc189a815cce452bea9c8b771` [fix(sink): fix redshift sink intermediate_schema name set (#24947)](https://github.com/risingwavelabs/risingwave/pull/24947)
 
 ## nightly-20260329
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521...a9735ed3fda6d1fe1e63166872815d69150f485c)
