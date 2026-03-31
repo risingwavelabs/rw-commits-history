@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260331` `a507f7045692dac726daae59a88d862891a1e276`
 - `20260330` `bdd1fdaed480c89fee7f173d7498b547e3aa5d19`
 - `20260329` `a9735ed3fda6d1fe1e63166872815d69150f485c`
 - `20260328` `f9d4d9d7d68b6f62345f9e3a6640ca1dabae2521`
@@ -287,7 +288,6 @@
 - `20250403` `c8bcb15219e2919f15a815f8edd90f77b3da5a12`
 - `20250402` `b3ceb54fa84a84c0c686e8673d22a4b04eb55bed`
 - `20250401` `df56dbc87e6902d5f8986fd44867cc9bd1102225`
-- `20250331` `45e412328a35ae17dd67c3b6a7c766c1cb62032e`
 </details>
 
 # Commit history
@@ -296,6 +296,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `645d9f451e40755f123b02d7d8e7cb7e403f0bed` [fix(sqlparser): adapt to winnow 1.0 Stream API changes (#25213)](https://github.com/risingwavelabs/risingwave/pull/25213)
+- `258a420d77ca89b2b7b060ac893cc60466aea98c` [feat(iceberg): add Iceberg source ingestion metrics (#25122)](https://github.com/risingwavelabs/risingwave/pull/25122)
+
+## nightly-20260331
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bdd1fdaed480c89fee7f173d7498b547e3aa5d19...a507f7045692dac726daae59a88d862891a1e276)
 - `a507f7045692dac726daae59a88d862891a1e276` [refactor(ci): deduplicate CI test scripts and fix shell safety bugs (#25209)](https://github.com/risingwavelabs/risingwave/pull/25209)
 - `538833db72774b0f400d0609c943b9bffca2bdeb` [chore(deps): Bump hyper from 1.6.0 to 1.8.1 (#25030)](https://github.com/risingwavelabs/risingwave/pull/25030)
 
@@ -2911,25 +2916,4 @@
 - `5baa3c3db0761865bbd6d5ae4578b30a23ff87ad` [feat(stream): limit sync log store flushed item read size + only pause on checkpoint barrier (#20908)](https://github.com/risingwavelabs/risingwave/pull/20908)
 
 ## nightly-20250401
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/45e412328a35ae17dd67c3b6a7c766c1cb62032e...df56dbc87e6902d5f8986fd44867cc9bd1102225)
 - `df56dbc87e6902d5f8986fd44867cc9bd1102225` [fix(snapshot-backfill): reproduce snapshot backfill test timeout (#21200)](https://github.com/risingwavelabs/risingwave/pull/21200)
-- `7f11530f8d77c19f2a66744ab13e579ac711294f` [feat(stream): add dedicated metrics for sync log store (#20907)](https://github.com/risingwavelabs/risingwave/pull/20907)
-- `b9a1d21670a42bd7d2d88df84de46661ae037b31` [feat(stream): add executor id to `ExecutorInfo` (#21165)](https://github.com/risingwavelabs/risingwave/pull/21165)
-- `c5764d46e01dc55cffdabec87fce4c1a3b493fbd` [refactor(sink): dedicated log sink for coordinator sink (#21140)](https://github.com/risingwavelabs/risingwave/pull/21140)
-- `e33e5a85331419afa2e0e02cf80b5788b0b50a1b` [chore: add cursor rules for basic building, running and testing (#21205)](https://github.com/risingwavelabs/risingwave/pull/21205)
-- `b936b992e86dd5ef944b0e4a63e77f3836d258a1` [feat: support streaming iceberg source (#20568)](https://github.com/risingwavelabs/risingwave/pull/20568)
-- `895412bfb14cdc030ef8e381b68491c95f7a4dfe` [ci: fix iceberg labeller #21199 (#21204)](https://github.com/risingwavelabs/risingwave/pull/21204)
-- `ac5f3f7d3c3098ee9120f4a229b3b14871ebc8d8` [chore: disable exactly once for iceberg table engine (#21198)](https://github.com/risingwavelabs/risingwave/pull/21198)
-- `4986eb4f45d80ed79b8e1c95e0a722a47467e0d7` [ci: run iceberg tests if title contains iceberg (#21199)](https://github.com/risingwavelabs/risingwave/pull/21199)
-- `f560ef30bcc679a5881159fde93194b57b2f58ae` [chore(deps): Bump opentelemetry group (#21068)](https://github.com/risingwavelabs/risingwave/pull/21068)
-- `3e920bd5874e2060f741ffe0178ba20dfc51a099` [chore(deps): Bump mongodb from 2 to 3 (#21159)](https://github.com/risingwavelabs/risingwave/pull/21159)
-- `01f94dd58cbfe710c8f38a62afab8d886edab7f2` [chore(deps): Bump duration-str from 0.16.1 to 0.17.0 (#21190)](https://github.com/risingwavelabs/risingwave/pull/21190)
-- `b0b13798518140d6181593ded998db31b6257b5e` [chore(deps): Bump mozilla-actions/sccache-action from 0.0.8 to 0.0.9 (#21191)](https://github.com/risingwavelabs/risingwave/pull/21191)
-- `80aadbc486cb7981bdded25ed7a726b64f95180b` [chore(deps): Bump crate-ci/typos from 1.30.3 to 1.31.1 (#21192)](https://github.com/risingwavelabs/risingwave/pull/21192)
-- `558487a650cb63e93f957bb38878cc4401cb9d54` [refactor(license): check license for disk cache and data refill (#21176)](https://github.com/risingwavelabs/risingwave/pull/21176)
-- `30cb916f6b52aa1cae65eb3bdbdafe0ce8724398` [chore: move executor test_utils.rs to a separate dir (#21194)](https://github.com/risingwavelabs/risingwave/pull/21194)
-- `a0c2ab75a6c95ead3142199b00d9375638a07b3f` [chore(deps): Bump tonic-build from 0.12.2 to 0.12.3 in the tonic group (#21128)](https://github.com/risingwavelabs/risingwave/pull/21128)
-- `b06066e5279e0164ba9bbf850563754ff158549f` [chore: Optimize `fragment_ids` retrieval in `scale.rs` by using `select_only()` to boost performance. (#21182)](https://github.com/risingwavelabs/risingwave/pull/21182)
-
-## nightly-20250331
-- `45e412328a35ae17dd67c3b6a7c766c1cb62032e` [feat: set rdkafka `socket.keepalive.enable` default to `true` (#21178)](https://github.com/risingwavelabs/risingwave/pull/21178)
