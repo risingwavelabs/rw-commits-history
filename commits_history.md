@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260401` `916e49ad6380426131bedd6cc0b3ec3a6f35ce99`
 - `20260331` `a507f7045692dac726daae59a88d862891a1e276`
 - `20260330` `bdd1fdaed480c89fee7f173d7498b547e3aa5d19`
 - `20260329` `a9735ed3fda6d1fe1e63166872815d69150f485c`
@@ -296,6 +297,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `08c800929ad7fde069fae707af57c25b8424032a` [feat(source): adaptive splits + streaming pull for PubSub source (#25074)](https://github.com/risingwavelabs/risingwave/pull/25074)
+
+## nightly-20260401
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a507f7045692dac726daae59a88d862891a1e276...916e49ad6380426131bedd6cc0b3ec3a6f35ce99)
 - `916e49ad6380426131bedd6cc0b3ec3a6f35ce99` [fix(meta): load fragment parallelism from meta store table directly (#25220)](https://github.com/risingwavelabs/risingwave/pull/25220)
 - `b97fb9d2630ebbc85bda6a3953ddd7e70b3f9810` [feat(object-store): support limit the opendal req concurrency (#25222)](https://github.com/risingwavelabs/risingwave/pull/25222)
 - `9930b8b6c2b42fca2ca9c25c077c6a01ccd802ed` [refactor(meta): unify barrier item collection for partial graphs and finishing jobs (#25219)](https://github.com/risingwavelabs/risingwave/pull/25219)
