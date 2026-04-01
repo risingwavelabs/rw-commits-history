@@ -296,6 +296,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `916e49ad6380426131bedd6cc0b3ec3a6f35ce99` [fix(meta): load fragment parallelism from meta store table directly (#25220)](https://github.com/risingwavelabs/risingwave/pull/25220)
+- `b97fb9d2630ebbc85bda6a3953ddd7e70b3f9810` [feat(object-store): support limit the opendal req concurrency (#25222)](https://github.com/risingwavelabs/risingwave/pull/25222)
+- `9930b8b6c2b42fca2ca9c25c077c6a01ccd802ed` [refactor(meta): unify barrier item collection for partial graphs and finishing jobs (#25219)](https://github.com/risingwavelabs/risingwave/pull/25219)
+- `842fc9fd7403fc00d1c0f95b2f1ddc53431c57a4` [feat(stream): make join_cache_evict_interval_rows configurable (#25210)](https://github.com/risingwavelabs/risingwave/pull/25210)
+- `2bdfc0cbbed6f0b0096892f13350811cac8bc067` [chore(deps): Bump hyper from 1.8.1 to 1.9.0 (#25216)](https://github.com/risingwavelabs/risingwave/pull/25216)
+- `b658c43f3ba8acbcdb47a40579ef3adba68d07f5` [fix(monitor): add compression and use larger decode limit for MonitorService (#25208)](https://github.com/risingwavelabs/risingwave/pull/25208)
 - `645d9f451e40755f123b02d7d8e7cb7e403f0bed` [fix(sqlparser): adapt to winnow 1.0 Stream API changes (#25213)](https://github.com/risingwavelabs/risingwave/pull/25213)
 - `258a420d77ca89b2b7b060ac893cc60466aea98c` [feat(iceberg): add Iceberg source ingestion metrics (#25122)](https://github.com/risingwavelabs/risingwave/pull/25122)
 
