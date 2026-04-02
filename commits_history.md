@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260402` `d680c234aad16b0d95d02c5b512ece9a3823ff15`
 - `20260401` `916e49ad6380426131bedd6cc0b3ec3a6f35ce99`
 - `20260331` `a507f7045692dac726daae59a88d862891a1e276`
 - `20260330` `bdd1fdaed480c89fee7f173d7498b547e3aa5d19`
@@ -297,6 +298,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b9e0ebe4ab2bf4e701bc13e1d77fa2c0d9913639` [fix(metric): fix several grafana panels (#25232)](https://github.com/risingwavelabs/risingwave/pull/25232)
+- `59783d9a08b67ced628bf5fc2e583f658c34bff5` [refactor(meta): unify barrier completion flow to partial-graph manager (#25157)](https://github.com/risingwavelabs/risingwave/pull/25157)
+
+## nightly-20260402
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/916e49ad6380426131bedd6cc0b3ec3a6f35ce99...d680c234aad16b0d95d02c5b512ece9a3823ff15)
 - `d680c234aad16b0d95d02c5b512ece9a3823ff15` [feat(sink): support limiting the max concurrent initializing kv log store reader (#25224)](https://github.com/risingwavelabs/risingwave/pull/25224)
 - `7f3d9571710af7291d7e71554585f0604a4c1ff5` [fix: iceberg e2e test when default to use datafusion (#25215)](https://github.com/risingwavelabs/risingwave/pull/25215)
 - `08c800929ad7fde069fae707af57c25b8424032a` [feat(source): adaptive splits + streaming pull for PubSub source (#25074)](https://github.com/risingwavelabs/risingwave/pull/25074)
