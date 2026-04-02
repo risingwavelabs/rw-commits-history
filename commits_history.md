@@ -297,6 +297,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d680c234aad16b0d95d02c5b512ece9a3823ff15` [feat(sink): support limiting the max concurrent initializing kv log store reader (#25224)](https://github.com/risingwavelabs/risingwave/pull/25224)
+- `7f3d9571710af7291d7e71554585f0604a4c1ff5` [fix: iceberg e2e test when default to use datafusion (#25215)](https://github.com/risingwavelabs/risingwave/pull/25215)
 - `08c800929ad7fde069fae707af57c25b8424032a` [feat(source): adaptive splits + streaming pull for PubSub source (#25074)](https://github.com/risingwavelabs/risingwave/pull/25074)
 
 ## nightly-20260401
