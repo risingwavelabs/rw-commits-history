@@ -298,6 +298,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `05d043d3f18efa0956674d2014cfad79a958e161` [fix(sink): fix file sink name conflict issue (#25241)](https://github.com/risingwavelabs/risingwave/pull/25241)
+- `dc774c0620a98766e4fabc35ff8a51e293714064` [fix(batch): fix batch asof join (#25223)](https://github.com/risingwavelabs/risingwave/pull/25223)
 - `b9e0ebe4ab2bf4e701bc13e1d77fa2c0d9913639` [fix(metric): fix several grafana panels (#25232)](https://github.com/risingwavelabs/risingwave/pull/25232)
 - `59783d9a08b67ced628bf5fc2e583f658c34bff5` [refactor(meta): unify barrier completion flow to partial-graph manager (#25157)](https://github.com/risingwavelabs/risingwave/pull/25157)
 
