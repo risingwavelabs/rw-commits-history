@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260404` `ae6ec4b27aea97df22f6abbfbaa0d628da2162b9`
 - `20260402` `d680c234aad16b0d95d02c5b512ece9a3823ff15`
 - `20260401` `916e49ad6380426131bedd6cc0b3ec3a6f35ce99`
 - `20260331` `a507f7045692dac726daae59a88d862891a1e276`
@@ -298,6 +299,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260404
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d680c234aad16b0d95d02c5b512ece9a3823ff15...ae6ec4b27aea97df22f6abbfbaa0d628da2162b9)
 - `ae6ec4b27aea97df22f6abbfbaa0d628da2162b9` [ci: run pubsub emulator via docker (#25238)](https://github.com/risingwavelabs/risingwave/pull/25238)
 - `69f56976faf100593c32db30d85d6295d1869ab7` [fix(source): eliminate checkpoint-path network I/O and add ack failure metrics (#25144)](https://github.com/risingwavelabs/risingwave/pull/25144)
 - `9427796b852fc9b8b88f92713f67433d16c5a951` [fix(sink): handle postgres upsert when all columns are primary keys (#25253)](https://github.com/risingwavelabs/risingwave/pull/25253)
