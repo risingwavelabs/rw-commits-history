@@ -298,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ae6ec4b27aea97df22f6abbfbaa0d628da2162b9` [ci: run pubsub emulator via docker (#25238)](https://github.com/risingwavelabs/risingwave/pull/25238)
+- `69f56976faf100593c32db30d85d6295d1869ab7` [fix(source): eliminate checkpoint-path network I/O and add ack failure metrics (#25144)](https://github.com/risingwavelabs/risingwave/pull/25144)
+- `9427796b852fc9b8b88f92713f67433d16c5a951` [fix(sink): handle postgres upsert when all columns are primary keys (#25253)](https://github.com/risingwavelabs/risingwave/pull/25253)
 - `05d043d3f18efa0956674d2014cfad79a958e161` [fix(sink): fix file sink name conflict issue (#25241)](https://github.com/risingwavelabs/risingwave/pull/25241)
 - `dc774c0620a98766e4fabc35ff8a51e293714064` [fix(batch): fix batch asof join (#25223)](https://github.com/risingwavelabs/risingwave/pull/25223)
 - `b9e0ebe4ab2bf4e701bc13e1d77fa2c0d9913639` [fix(metric): fix several grafana panels (#25232)](https://github.com/risingwavelabs/risingwave/pull/25232)
