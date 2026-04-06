@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260406` `b60143545788ec02f2dd534e267653259a194e3c`
 - `20260405` `ae6ec4b27aea97df22f6abbfbaa0d628da2162b9`
 - `20260402` `d680c234aad16b0d95d02c5b512ece9a3823ff15`
 - `20260401` `916e49ad6380426131bedd6cc0b3ec3a6f35ce99`
@@ -299,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260406
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ae6ec4b27aea97df22f6abbfbaa0d628da2162b9...b60143545788ec02f2dd534e267653259a194e3c)
 - `b60143545788ec02f2dd534e267653259a194e3c` [feat(streaming): state clean for eowc over window numbering functions (#24477)](https://github.com/risingwavelabs/risingwave/pull/24477)
 
 ## nightly-20260405
