@@ -299,6 +299,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b60143545788ec02f2dd534e267653259a194e3c` [feat(streaming): state clean for eowc over window numbering functions (#24477)](https://github.com/risingwavelabs/risingwave/pull/24477)
 
 ## nightly-20260405
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d680c234aad16b0d95d02c5b512ece9a3823ff15...ae6ec4b27aea97df22f6abbfbaa0d628da2162b9)
