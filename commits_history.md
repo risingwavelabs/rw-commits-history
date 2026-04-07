@@ -300,6 +300,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `122034a9ce3800b7a68a5b26b9766fc14b36122f` [fix(cdc): fix CDC false-ready handshake by setting Debezium Connected only after real streaming connection (#25245)](https://github.com/risingwavelabs/risingwave/pull/25245)
+- `96134b1928269482855b47f787862069c690e293` [refactor(meta): extract independent ckpt job enum (#25249)](https://github.com/risingwavelabs/risingwave/pull/25249)
+- `f2b7796bdea15ece405d8905fb22a3c70e018348` [fix(dashboard): use topk(1) for kube resource limits in relative CPU/memory queries (#25257)](https://github.com/risingwavelabs/risingwave/pull/25257)
+- `81d61d832f5174ce02a0eb059cdf9952680a100b` [chore: change file sink log level to avoid noise (#25262)](https://github.com/risingwavelabs/risingwave/pull/25262)
+- `c1b89777cb371a4c6bfe52a4cb82ea357b2904e5` [chore(deps): Bump arc-swap from 1.8.0 to 1.9.1 (#25259)](https://github.com/risingwavelabs/risingwave/pull/25259)
 
 ## nightly-20260406
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ae6ec4b27aea97df22f6abbfbaa0d628da2162b9...b60143545788ec02f2dd534e267653259a194e3c)
