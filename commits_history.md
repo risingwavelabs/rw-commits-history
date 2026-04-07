@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260407` `122034a9ce3800b7a68a5b26b9766fc14b36122f`
 - `20260406` `b60143545788ec02f2dd534e267653259a194e3c`
 - `20260405` `ae6ec4b27aea97df22f6abbfbaa0d628da2162b9`
 - `20260402` `d680c234aad16b0d95d02c5b512ece9a3823ff15`
@@ -300,6 +301,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9d751d4810b6374bb5484acb3c99a79005252b3a` [refactor(meta): decouple serving fragment mapping notification from streaming fragment mapping (#25263)](https://github.com/risingwavelabs/risingwave/pull/25263)
+- `0cc9db94daa5cd20bd44f2ed5f805e36f430f151` [feat(agents): add RisingWave rust-analyzer skill (#25268)](https://github.com/risingwavelabs/risingwave/pull/25268)
+- `d5169158b4bea5c89895c2ebc57b83685655ea5b` [feat(meta): add database_info metric for database id to name mapping (#25231)](https://github.com/risingwavelabs/risingwave/pull/25231)
+
+## nightly-20260407
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b60143545788ec02f2dd534e267653259a194e3c...122034a9ce3800b7a68a5b26b9766fc14b36122f)
 - `122034a9ce3800b7a68a5b26b9766fc14b36122f` [fix(cdc): fix CDC false-ready handshake by setting Debezium Connected only after real streaming connection (#25245)](https://github.com/risingwavelabs/risingwave/pull/25245)
 - `96134b1928269482855b47f787862069c690e293` [refactor(meta): extract independent ckpt job enum (#25249)](https://github.com/risingwavelabs/risingwave/pull/25249)
 - `f2b7796bdea15ece405d8905fb22a3c70e018348` [fix(dashboard): use topk(1) for kube resource limits in relative CPU/memory queries (#25257)](https://github.com/risingwavelabs/risingwave/pull/25257)
