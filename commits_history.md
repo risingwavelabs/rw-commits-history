@@ -301,6 +301,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e7d7b9bbd92e05a57c4dabee8c5641f4bcee1672` [fix: ignore stale refresh finish events after source drop (#25272)](https://github.com/risingwavelabs/risingwave/pull/25272)
+- `6f9f963544c60460c6f7bc4b4c2603d4cd5e1580` [fix(sink): truncate barriers in batching log sink during idle periods (#25276)](https://github.com/risingwavelabs/risingwave/pull/25276)
+- `d264a1b215752eda9c5b3d46707f599a835b3f54` [fix(risedev): make generate-example-config work in worktrees (#25244)](https://github.com/risingwavelabs/risingwave/pull/25244)
+- `1e3e1ae063a1297eee98bebc34c45a8902258a65` [chore(deps): Bump datafusion from 52.2.0 to 52.4.0 (#25162)](https://github.com/risingwavelabs/risingwave/pull/25162)
 - `9d751d4810b6374bb5484acb3c99a79005252b3a` [refactor(meta): decouple serving fragment mapping notification from streaming fragment mapping (#25263)](https://github.com/risingwavelabs/risingwave/pull/25263)
 - `0cc9db94daa5cd20bd44f2ed5f805e36f430f151` [feat(agents): add RisingWave rust-analyzer skill (#25268)](https://github.com/risingwavelabs/risingwave/pull/25268)
 - `d5169158b4bea5c89895c2ebc57b83685655ea5b` [feat(meta): add database_info metric for database id to name mapping (#25231)](https://github.com/risingwavelabs/risingwave/pull/25231)
