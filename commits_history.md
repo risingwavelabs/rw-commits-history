@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260408` `e7d7b9bbd92e05a57c4dabee8c5641f4bcee1672`
 - `20260407` `122034a9ce3800b7a68a5b26b9766fc14b36122f`
 - `20260406` `b60143545788ec02f2dd534e267653259a194e3c`
 - `20260405` `ae6ec4b27aea97df22f6abbfbaa0d628da2162b9`
@@ -301,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260408
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/122034a9ce3800b7a68a5b26b9766fc14b36122f...e7d7b9bbd92e05a57c4dabee8c5641f4bcee1672)
 - `e7d7b9bbd92e05a57c4dabee8c5641f4bcee1672` [fix: ignore stale refresh finish events after source drop (#25272)](https://github.com/risingwavelabs/risingwave/pull/25272)
 - `6f9f963544c60460c6f7bc4b4c2603d4cd5e1580` [fix(sink): truncate barriers in batching log sink during idle periods (#25276)](https://github.com/risingwavelabs/risingwave/pull/25276)
 - `d264a1b215752eda9c5b3d46707f599a835b3f54` [fix(risedev): make generate-example-config work in worktrees (#25244)](https://github.com/risingwavelabs/risingwave/pull/25244)
