@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260409` `33eb493f6fe8872b49c5199a4b7b79c726ca8b91`
 - `20260408` `e7d7b9bbd92e05a57c4dabee8c5641f4bcee1672`
 - `20260407` `122034a9ce3800b7a68a5b26b9766fc14b36122f`
 - `20260406` `b60143545788ec02f2dd534e267653259a194e3c`
@@ -302,6 +303,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3214a4dd40af6997ff0f9540682241c1ccb952be` [feat(streaming): add materialize vnode key stats config (#25290)](https://github.com/risingwavelabs/risingwave/pull/25290)
+
+## nightly-20260409
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e7d7b9bbd92e05a57c4dabee8c5641f4bcee1672...33eb493f6fe8872b49c5199a4b7b79c726ca8b91)
 - `33eb493f6fe8872b49c5199a4b7b79c726ca8b91` [feat(frontend): support secret references as function call arguments (#25212)](https://github.com/risingwavelabs/risingwave/pull/25212)
 - `39ad0e2d9150990cacbecd5f4930180541598622` [ci: replace personal token with GitHub App token for doc issue creation (#25293)](https://github.com/risingwavelabs/risingwave/pull/25293)
 - `1a13e15a7affa5ca96b8f8e6aa2fd59312c141b5` [fix(binder): adjust the position of default columns (#25196)](https://github.com/risingwavelabs/risingwave/pull/25196)
