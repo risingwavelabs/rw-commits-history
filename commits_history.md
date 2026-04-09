@@ -302,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `33eb493f6fe8872b49c5199a4b7b79c726ca8b91` [feat(frontend): support secret references as function call arguments (#25212)](https://github.com/risingwavelabs/risingwave/pull/25212)
+- `39ad0e2d9150990cacbecd5f4930180541598622` [ci: replace personal token with GitHub App token for doc issue creation (#25293)](https://github.com/risingwavelabs/risingwave/pull/25293)
+- `1a13e15a7affa5ca96b8f8e6aa2fd59312c141b5` [fix(binder): adjust the position of default columns (#25196)](https://github.com/risingwavelabs/risingwave/pull/25196)
 
 ## nightly-20260408
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/122034a9ce3800b7a68a5b26b9766fc14b36122f...e7d7b9bbd92e05a57c4dabee8c5641f4bcee1672)
