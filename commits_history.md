@@ -303,6 +303,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bd6df6865d414824902308746b72ce3bae79c2fb` [build: set maven compiler versions from 11 to 17 (#25294)](https://github.com/risingwavelabs/risingwave/pull/25294)
+- `bbd1b40fb164fec0823a87572f857f6d3f52ac83` [Revise README for event streaming branding and resources (#25318)](https://github.com/risingwavelabs/risingwave/pull/25318)
+- `4968c996f5936243e477d4f9eb2ef05ee8381d54` [fix: iceberg source type mismatch (#25316)](https://github.com/risingwavelabs/risingwave/pull/25316)
+- `f54e24d8421ba60d26b23b4547393bb3433b1851` [fix(iceberg): ban iceberg source with pk (#25295)](https://github.com/risingwavelabs/risingwave/pull/25295)
+- `166aab9fd6a50e02627b49d68382dd360e561a06` [fix(frontend): track secret deps for views and sinks (#25291)](https://github.com/risingwavelabs/risingwave/pull/25291)
+- `608ec9f75042bcab4c4369e658567bb8b035b39b` [chore(deps): Bump lodash from 4.17.23 to 4.18.1 in /dashboard (#25264)](https://github.com/risingwavelabs/risingwave/pull/25264)
 - `3214a4dd40af6997ff0f9540682241c1ccb952be` [feat(streaming): add materialize vnode key stats config (#25290)](https://github.com/risingwavelabs/risingwave/pull/25290)
 
 ## nightly-20260409
