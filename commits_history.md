@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260410` `bd6df6865d414824902308746b72ce3bae79c2fb`
 - `20260409` `33eb493f6fe8872b49c5199a4b7b79c726ca8b91`
 - `20260408` `e7d7b9bbd92e05a57c4dabee8c5641f4bcee1672`
 - `20260407` `122034a9ce3800b7a68a5b26b9766fc14b36122f`
@@ -303,6 +304,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b1175da3b73abcd626b45dfee69c6d7e8aecf650` [feat(expr): support wildcard parameter in `jsonb_agg` (#25282)](https://github.com/risingwavelabs/risingwave/pull/25282)
+- `9ea7e305a2dfd21ce030bba224e031a23579c08d` [chore: retain barrier complete logs per database (#25225)](https://github.com/risingwavelabs/risingwave/pull/25225)
+
+## nightly-20260410
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/33eb493f6fe8872b49c5199a4b7b79c726ca8b91...bd6df6865d414824902308746b72ce3bae79c2fb)
 - `bd6df6865d414824902308746b72ce3bae79c2fb` [build: set maven compiler versions from 11 to 17 (#25294)](https://github.com/risingwavelabs/risingwave/pull/25294)
 - `bbd1b40fb164fec0823a87572f857f6d3f52ac83` [Revise README for event streaming branding and resources (#25318)](https://github.com/risingwavelabs/risingwave/pull/25318)
 - `4968c996f5936243e477d4f9eb2ef05ee8381d54` [fix: iceberg source type mismatch (#25316)](https://github.com/risingwavelabs/risingwave/pull/25316)
