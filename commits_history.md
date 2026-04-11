@@ -304,6 +304,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0e12fe913e4d604bc876eb54e043a6e05ef016ae` [chore: Revise use cases and design decisions in README (#25326)](https://github.com/risingwavelabs/risingwave/pull/25326)
+- `c1b335c0ca5012092082f9da5d837848ffb83d39` [chore(doc): Clarify primary storage terminology in README (#25324)](https://github.com/risingwavelabs/risingwave/pull/25324)
 - `b1175da3b73abcd626b45dfee69c6d7e8aecf650` [feat(expr): support wildcard parameter in `jsonb_agg` (#25282)](https://github.com/risingwavelabs/risingwave/pull/25282)
 - `9ea7e305a2dfd21ce030bba224e031a23579c08d` [chore: retain barrier complete logs per database (#25225)](https://github.com/risingwavelabs/risingwave/pull/25225)
 
