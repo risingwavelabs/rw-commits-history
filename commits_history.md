@@ -307,6 +307,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ba6d1533609b3de7924a5eef5ce4892bf6f79940` [fix(common): [BREAK] `Hash for jsonbb::StringRef` shall be same as `&str` (#25345)](https://github.com/risingwavelabs/risingwave/pull/25345)
+- `57461d2a647b27582b9cbd30c52795deee7e1207` [fix(cdc): allow SQL Server tables with multiple CDC capture instances (#25317)](https://github.com/risingwavelabs/risingwave/pull/25317)
+- `62a0d6afca209977b8f754bde6c437a6fb677988` [refactor: split src/connector/src/sink/iceberg/mod.rs to multiple files (#25337)](https://github.com/risingwavelabs/risingwave/pull/25337)
 
 ## nightly-20260413
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/19031da685fb4bd53a8350e69bc3af7ae23ecae9...0f5d623c49f1346373ec4cc089d9c9d1988936fb)
