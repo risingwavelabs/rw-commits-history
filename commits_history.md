@@ -308,6 +308,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `89b650967d3d08fb069c5d48367952bafb97c3ad` [feat(frontend): expose schema names in system catalogs (#25248)](https://github.com/risingwavelabs/risingwave/pull/25248)
+- `f90cd251e7182a748c46a3df4543b4a8d8079da0` [feat(meta): run compaction group normalize before merge only (#25334)](https://github.com/risingwavelabs/risingwave/pull/25334)
 - `7f9757c408e763773764356609ae6a67841fea62` [fix(cdc): use shared state to prevent concurrent schema history corruption (#25269)](https://github.com/risingwavelabs/risingwave/pull/25269)
 
 ## nightly-20260414
