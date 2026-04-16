@@ -309,6 +309,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `705cee384420f25141e49c7b97d30bfb610c826b` [fix(storage): filter compact table ids in compactor (#25381)](https://github.com/risingwavelabs/risingwave/pull/25381)
 - `1ca1536e15e7ad2bc487735b63d33d636a456a8a` [feat(stream): allow snapshot backfill executor without upstream merge (#25250)](https://github.com/risingwavelabs/risingwave/pull/25250)
 - `d954406b2302b7eb2003d807c85f3d1816c5a3db` [feat(source): add source reader progress events (#25258)](https://github.com/risingwavelabs/risingwave/pull/25258)
 - `d3a4b7919956c8218a74212e582503f93c6a9df9` [refactor(ci): split connector e2e source and sink tests (#25270)](https://github.com/risingwavelabs/risingwave/pull/25270)
