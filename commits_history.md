@@ -309,6 +309,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1ca1536e15e7ad2bc487735b63d33d636a456a8a` [feat(stream): allow snapshot backfill executor without upstream merge (#25250)](https://github.com/risingwavelabs/risingwave/pull/25250)
+- `d954406b2302b7eb2003d807c85f3d1816c5a3db` [feat(source): add source reader progress events (#25258)](https://github.com/risingwavelabs/risingwave/pull/25258)
+- `d3a4b7919956c8218a74212e582503f93c6a9df9` [refactor(ci): split connector e2e source and sink tests (#25270)](https://github.com/risingwavelabs/risingwave/pull/25270)
+- `4fbfb37368683c8ee267c245a851afed661f677a` [fix(frontend): reject internal tables in subscription and MV DDL (#25338)](https://github.com/risingwavelabs/risingwave/pull/25338)
+- `caf17a47a37df070298b292cd4cddfa36330ccdf` [refactor(source): remove unused code (#25363)](https://github.com/risingwavelabs/risingwave/pull/25363)
+- `69826ab4ea265ac9e2ddbcdb31ee011b48294c43` [refactor: switching to rw-fork madsim (#25351)](https://github.com/risingwavelabs/risingwave/pull/25351)
 
 ## nightly-20260415
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ba6d1533609b3de7924a5eef5ce4892bf6f79940...89b650967d3d08fb069c5d48367952bafb97c3ad)
