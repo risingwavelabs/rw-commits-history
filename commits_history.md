@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260416` `1ca1536e15e7ad2bc487735b63d33d636a456a8a`
 - `20260415` `89b650967d3d08fb069c5d48367952bafb97c3ad`
 - `20260414` `ba6d1533609b3de7924a5eef5ce4892bf6f79940`
 - `20260413` `0f5d623c49f1346373ec4cc089d9c9d1988936fb`
@@ -309,7 +310,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `70620abe64232a09f216b028dbfba3b450f23563` [feat(iceberg): support order key (#25202)](https://github.com/risingwavelabs/risingwave/pull/25202)
+- `0e63ff7eb8c1f4b18f4b2b0adae0c245e153c96a` [fix(sink): fix bigquery sink auto_create (#23837)](https://github.com/risingwavelabs/risingwave/pull/23837)
 - `705cee384420f25141e49c7b97d30bfb610c826b` [fix(storage): filter compact table ids in compactor (#25381)](https://github.com/risingwavelabs/risingwave/pull/25381)
+
+## nightly-20260416
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/89b650967d3d08fb069c5d48367952bafb97c3ad...1ca1536e15e7ad2bc487735b63d33d636a456a8a)
 - `1ca1536e15e7ad2bc487735b63d33d636a456a8a` [feat(stream): allow snapshot backfill executor without upstream merge (#25250)](https://github.com/risingwavelabs/risingwave/pull/25250)
 - `d954406b2302b7eb2003d807c85f3d1816c5a3db` [feat(source): add source reader progress events (#25258)](https://github.com/risingwavelabs/risingwave/pull/25258)
 - `d3a4b7919956c8218a74212e582503f93c6a9df9` [refactor(ci): split connector e2e source and sink tests (#25270)](https://github.com/risingwavelabs/risingwave/pull/25270)
