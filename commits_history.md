@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260418` `8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7`
 - `20260417` `70620abe64232a09f216b028dbfba3b450f23563`
 - `20260416` `1ca1536e15e7ad2bc487735b63d33d636a456a8a`
 - `20260415` `89b650967d3d08fb069c5d48367952bafb97c3ad`
@@ -295,6 +296,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b` [fix(connector): drain kafka enumerator events during meta split discovery (#25405)](https://github.com/risingwavelabs/risingwave/pull/25405)
+
+## nightly-20260418
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/70620abe64232a09f216b028dbfba3b450f23563...8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7)
 - `8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7` [fix(meta): fix time travel vacuum (#25402)](https://github.com/risingwavelabs/risingwave/pull/25402)
 
 ## nightly-20260417
