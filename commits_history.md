@@ -287,7 +287,6 @@
 - `20250421` `202dcd082554e050f386c82e46339c54c0671c1e`
 - `20250420` `79650ee380d8dd416aab8937fc1bd913d9384f5a`
 - `20250419` `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc`
-- `20250418` `eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55`
 </details>
 
 # Commit history
@@ -2861,12 +2860,4 @@
 - `79650ee380d8dd416aab8937fc1bd913d9384f5a` [chore(risedev): describe minio rate limit parameters (#21449)](https://github.com/risingwavelabs/risingwave/pull/21449)
 
 ## nightly-20250419
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55...e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc)
 - `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc` [fix(iceberg): fix iceberg decimal predicate pushdown (#21470)](https://github.com/risingwavelabs/risingwave/pull/21470)
-- `90f2802efd991b5fbf13238b6f935f29ce9a9c54` [fix: add under creation info when checking name duplicate in meta (#21360)](https://github.com/risingwavelabs/risingwave/pull/21360)
-- `4cefe33ee49d79e20601596f13a0308f0110e808` [feat(ci): graceful exit of `sqllogictest` on failure, cancellation, or timeout (#21463)](https://github.com/risingwavelabs/risingwave/pull/21463)
-- `af075f88f2d7a264902b70e5d5fafa0647a38719` [fix(subscription): fix subscription notify (#21451)](https://github.com/risingwavelabs/risingwave/pull/21451)
-- `50d6be01909c244b3136bbf5046ea889d77cf3b5` [feat(ctl): support backup integrity validation (#20985)](https://github.com/risingwavelabs/risingwave/pull/20985)
-
-## nightly-20250418
-- `eca9b86b3c7b5c1da3d12d0e08cfbaf0ad954b55` [feat: enforce some props to be secret (sink part) (#21269)](https://github.com/risingwavelabs/risingwave/pull/21269)
