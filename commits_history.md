@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260419` `6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b`
 - `20260418` `8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7`
 - `20260417` `70620abe64232a09f216b028dbfba3b450f23563`
 - `20260416` `1ca1536e15e7ad2bc487735b63d33d636a456a8a`
@@ -295,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260419
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7...6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b)
 - `6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b` [fix(connector): drain kafka enumerator events during meta split discovery (#25405)](https://github.com/risingwavelabs/risingwave/pull/25405)
 
 ## nightly-20260418
