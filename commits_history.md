@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260419` `6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b`
+- `20260420` `6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b`
 - `20260418` `8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7`
 - `20260417` `70620abe64232a09f216b028dbfba3b450f23563`
 - `20260416` `1ca1536e15e7ad2bc487735b63d33d636a456a8a`
@@ -286,7 +286,6 @@
 - `20250423` `0ecba4446ae2cfedd7f8f16c109ea582afb82315`
 - `20250422` `6ffeffb463a499d8c5df1e611224e7d3c1193a36`
 - `20250421` `202dcd082554e050f386c82e46339c54c0671c1e`
-- `20250420` `79650ee380d8dd416aab8937fc1bd913d9384f5a`
 </details>
 
 # Commit history
@@ -296,7 +295,7 @@
 
 ## Unreleased
 
-## nightly-20260419
+## nightly-20260420
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7...6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b)
 - `6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b` [fix(connector): drain kafka enumerator events during meta split discovery (#25405)](https://github.com/risingwavelabs/risingwave/pull/25405)
 
@@ -2848,15 +2847,4 @@
 - `e7b19a136752dc58589a5dc5ee9c409ab85a72c1` [feat(foyer): bump foyer version for advanced io throttling (#21406)](https://github.com/risingwavelabs/risingwave/pull/21406)
 
 ## nightly-20250421
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79650ee380d8dd416aab8937fc1bd913d9384f5a...202dcd082554e050f386c82e46339c54c0671c1e)
 - `202dcd082554e050f386c82e46339c54c0671c1e` [feat(stream): truncate synced log store using progress map (#21263)](https://github.com/risingwavelabs/risingwave/pull/21263)
-- `42ce5fb61bf4ffddf57f3b2dbd0bf196a776ee20` [docs(readme): added a new github releases badge (#21107)](https://github.com/risingwavelabs/risingwave/pull/21107)
-- `98b351ac9a810b1548849cf72d04205ededc9eea` [chore(ci): move `issue_20342.slt` to slow tests (#21476)](https://github.com/risingwavelabs/risingwave/pull/21476)
-- `d276146a63194eefa41065edd97e4ca89af3b26d` [refactor(config): turn const LOCAL_EXECUTE_BUFFER_SIZE into configura… (#21345)](https://github.com/risingwavelabs/risingwave/pull/21345)
-- `e293a2c5e137121e8718b67435c3e5a8fa46e66e` [fix(meta): reset connection pool in recovery (#21477)](https://github.com/risingwavelabs/risingwave/pull/21477)
-- `2898024723e63fda61cdb348ba016804a65a7d12` [chore(ci): add `exit_status: -1` as buildkite auto-retry condition (#21475)](https://github.com/risingwavelabs/risingwave/pull/21475)
-- `93cb8df5398f068b702c52c7917e07ce11997f0c` [feat(sink): support alter sink config (#20691)](https://github.com/risingwavelabs/risingwave/pull/20691)
-- `cc5081493da4614d0f70f5a2b1f3411d95040bac` [feat(snapshot-backfill): support recoverable snapshot backfill (meta part) (#20848)](https://github.com/risingwavelabs/risingwave/pull/20848)
-
-## nightly-20250420
-- `79650ee380d8dd416aab8937fc1bd913d9384f5a` [chore(risedev): describe minio rate limit parameters (#21449)](https://github.com/risingwavelabs/risingwave/pull/21449)
