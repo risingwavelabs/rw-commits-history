@@ -287,7 +287,6 @@
 - `20250422` `6ffeffb463a499d8c5df1e611224e7d3c1193a36`
 - `20250421` `202dcd082554e050f386c82e46339c54c0671c1e`
 - `20250420` `79650ee380d8dd416aab8937fc1bd913d9384f5a`
-- `20250419` `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc`
 </details>
 
 # Commit history
@@ -2860,8 +2859,4 @@
 - `cc5081493da4614d0f70f5a2b1f3411d95040bac` [feat(snapshot-backfill): support recoverable snapshot backfill (meta part) (#20848)](https://github.com/risingwavelabs/risingwave/pull/20848)
 
 ## nightly-20250420
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc...79650ee380d8dd416aab8937fc1bd913d9384f5a)
 - `79650ee380d8dd416aab8937fc1bd913d9384f5a` [chore(risedev): describe minio rate limit parameters (#21449)](https://github.com/risingwavelabs/risingwave/pull/21449)
-
-## nightly-20250419
-- `e999ca5c05c1fe9d0f472a1bc7db11eda0f741fc` [fix(iceberg): fix iceberg decimal predicate pushdown (#21470)](https://github.com/risingwavelabs/risingwave/pull/21470)
