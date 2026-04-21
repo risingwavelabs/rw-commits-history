@@ -294,6 +294,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a1c936936ac487fb499b14fb75f8f591bfb65496` [chore(deps): Bump protobufjs from 7.2.6 to 7.5.5 in /dashboard (#25395)](https://github.com/risingwavelabs/risingwave/pull/25395)
+- `3171bdb7a5ed7b3b4239d7feaf6bd3ee5c81ee33` [chore(iceberg): bump iceberg chain to fb290e4c/a9ce53cc (#25366)](https://github.com/risingwavelabs/risingwave/pull/25366)
+- `4da69c563134f905647a25794809e08e01d144b6` [chore(deps): Bump github.com/jackc/pgx/v5 from 5.5.4 to 5.9.0 in /integration_tests/client-library/go (#25393)](https://github.com/risingwavelabs/risingwave/pull/25393)
+- `79f1b5d75a4f69d4e79860dbf3701f0e51bdb5e7` [chore(e2e): upgrade Spark to 4.0.2 and Iceberg to 1.10.1 for e2e tests (#25172)](https://github.com/risingwavelabs/risingwave/pull/25172)
+- `4a14034ba8396870b3576dac25df2ea8c276d37e` [chore(deps): Bump next from 16.2.1 to 16.2.3 in /dashboard (#25322)](https://github.com/risingwavelabs/risingwave/pull/25322)
+- `12abda44105106b4db4c5141398d9e183b1c5857` [feat(optimizer): support mv selection for inner join (#25046)](https://github.com/risingwavelabs/risingwave/pull/25046)
+- `60386209271a0dddcb29d47422eb0ad59589031e` [feat(sink): add HTTP sink (#25396)](https://github.com/risingwavelabs/risingwave/pull/25396)
 
 ## nightly-20260420
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7...6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b)
