@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260421` `a1c936936ac487fb499b14fb75f8f591bfb65496`
 - `20260420` `6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b`
 - `20260418` `8ea5dbf3a157bb1ce2398fbc9ac24b23dd837ac7`
 - `20260417` `70620abe64232a09f216b028dbfba3b450f23563`
@@ -285,7 +286,6 @@
 - `20250424` `66325d3af5b902b787ff44b0b470275461cd2f0c`
 - `20250423` `0ecba4446ae2cfedd7f8f16c109ea582afb82315`
 - `20250422` `6ffeffb463a499d8c5df1e611224e7d3c1193a36`
-- `20250421` `202dcd082554e050f386c82e46339c54c0671c1e`
 </details>
 
 # Commit history
@@ -294,6 +294,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `dcdf8219f0b8b4cbbf11be4c5ede7776f5fe0782` [fix(ci): avoid duplicate nexmark Kafka rows (#25437)](https://github.com/risingwavelabs/risingwave/pull/25437)
+- `41880a4957cd437720ab1850869b5dfc176eedb4` [feat(cdc): support ALTER SOURCE CONNECTOR for cdc password (#25435)](https://github.com/risingwavelabs/risingwave/pull/25435)
+
+## nightly-20260421
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b...a1c936936ac487fb499b14fb75f8f591bfb65496)
 - `a1c936936ac487fb499b14fb75f8f591bfb65496` [chore(deps): Bump protobufjs from 7.2.6 to 7.5.5 in /dashboard (#25395)](https://github.com/risingwavelabs/risingwave/pull/25395)
 - `3171bdb7a5ed7b3b4239d7feaf6bd3ee5c81ee33` [chore(iceberg): bump iceberg chain to fb290e4c/a9ce53cc (#25366)](https://github.com/risingwavelabs/risingwave/pull/25366)
 - `4da69c563134f905647a25794809e08e01d144b6` [chore(deps): Bump github.com/jackc/pgx/v5 from 5.5.4 to 5.9.0 in /integration_tests/client-library/go (#25393)](https://github.com/risingwavelabs/risingwave/pull/25393)
@@ -2846,12 +2851,4 @@
 - `2195efbbe7d4dcc8c90114da3bd280a9a7bae754` [chore(deps): Bump golang.org/x/net from 0.36.0 to 0.38.0 in /integration_tests/datagen (#21442)](https://github.com/risingwavelabs/risingwave/pull/21442)
 
 ## nightly-20250422
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/202dcd082554e050f386c82e46339c54c0671c1e...6ffeffb463a499d8c5df1e611224e7d3c1193a36)
 - `6ffeffb463a499d8c5df1e611224e7d3c1193a36` [feat(iceberg): support iceberg on azure blob (#21468)](https://github.com/risingwavelabs/risingwave/pull/21468)
-- `193abf741b771d7c45a182c8d4e5ec302b1ca21f` [fix(cdc): transform upstream correctly (#21490)](https://github.com/risingwavelabs/risingwave/pull/21490)
-- `f5f7eeb41ab8710a30496cef6f3b1d5db1663102` [feat(stream): actor create exchange via channel (#21299)](https://github.com/risingwavelabs/risingwave/pull/21299)
-- `579ae6b41933179153ff8ba9408ae3326c8c7c8c` [chore: bump package version to 2.5.0-alpha (#21488)](https://github.com/risingwavelabs/risingwave/pull/21488)
-- `e7b19a136752dc58589a5dc5ee9c409ab85a72c1` [feat(foyer): bump foyer version for advanced io throttling (#21406)](https://github.com/risingwavelabs/risingwave/pull/21406)
-
-## nightly-20250421
-- `202dcd082554e050f386c82e46339c54c0671c1e` [feat(stream): truncate synced log store using progress map (#21263)](https://github.com/risingwavelabs/risingwave/pull/21263)
