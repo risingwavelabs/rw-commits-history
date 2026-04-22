@@ -294,6 +294,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6e637278166d5e4a9b3a070e0ea39924671a8256` [feat(sink): support exactly-once Delta Lake sink (#25159)](https://github.com/risingwavelabs/risingwave/pull/25159)
+- `8f31a45f30b50febc648241c43ea040cb1cc2e53` [feat(frontend): support iceberg V3 sink with PK index on frontend (#25346)](https://github.com/risingwavelabs/risingwave/pull/25346)
+- `e81b3affe834f0743b9f9bbaa6d7cefffd290950` [fix(ci): exclude `pubsub` from pre-start dev (#25408)](https://github.com/risingwavelabs/risingwave/pull/25408)
+- `495bab7bbc6ea4276e7149e1f30f9fb44ca9e645` [chore(ci): improve backward compat test (#25429)](https://github.com/risingwavelabs/risingwave/pull/25429)
+- `e18757a813b32ec895864ebd7ec075776cea2439` [fix(sink): ensure barrier progress must be truncated on log store (#25440)](https://github.com/risingwavelabs/risingwave/pull/25440)
 - `dcdf8219f0b8b4cbbf11be4c5ede7776f5fe0782` [fix(ci): avoid duplicate nexmark Kafka rows (#25437)](https://github.com/risingwavelabs/risingwave/pull/25437)
 - `41880a4957cd437720ab1850869b5dfc176eedb4` [feat(cdc): support ALTER SOURCE CONNECTOR for cdc password (#25435)](https://github.com/risingwavelabs/risingwave/pull/25435)
 
