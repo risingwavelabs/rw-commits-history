@@ -294,6 +294,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d3b016c4243d37c334a9dee7883c647249933859` [fix(sink): update kv log store value indices after schema change (#25442)](https://github.com/risingwavelabs/risingwave/pull/25442)
+- `03f62fa4c0c073f49c48f1ed1ee9af27c925b23e` [test: add slt test for tracking alter sink config feature (#25005)](https://github.com/risingwavelabs/risingwave/pull/25005)
+- `4d6405aeabed45926c95f94a6d93996bf8f8f271` [chore: bump protobuf in integration test (#25433)](https://github.com/risingwavelabs/risingwave/pull/25433)
+- `a3597677be46f1c3636b7402d42e80ea6387deaa` [fix(sqlsmith): fix fuzz test cleanup to handle server-side MV creation after client timeout (#25379)](https://github.com/risingwavelabs/risingwave/pull/25379)
+- `bdd416d4be44f4ad3b667f6c235b466fc78bc91d` [chore(deps): Bump org.eclipse.jetty:jetty-http from 12.0.24 to 12.0.33 in /java (#25354)](https://github.com/risingwavelabs/risingwave/pull/25354)
+- `0cfd2fc5366231e438465afd7326d1a30926efc2` [feat(stream): add no-cache path for AsOf join  (#25218)](https://github.com/risingwavelabs/risingwave/pull/25218)
 - `80f0a215f5f73214e8401dca94c684e53935c96e` [fix(dml): wait for persistence before completing fast insert in dml executor (#25441)](https://github.com/risingwavelabs/risingwave/pull/25441)
 - `6e637278166d5e4a9b3a070e0ea39924671a8256` [feat(sink): support exactly-once Delta Lake sink (#25159)](https://github.com/risingwavelabs/risingwave/pull/25159)
 
