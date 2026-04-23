@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260423` `d3b016c4243d37c334a9dee7883c647249933859`
 - `20260422` `8f31a45f30b50febc648241c43ea040cb1cc2e53`
 - `20260421` `a1c936936ac487fb499b14fb75f8f591bfb65496`
 - `20260420` `6a6f6ecbc3282582e9d5b9a4cdb79212497cd47b`
@@ -294,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `49b30e1d89a26c39b29852230a88519bc086a0b0` [feat(pg-cdc): support convert upstream composite type into `text` (#25153)](https://github.com/risingwavelabs/risingwave/pull/25153)
+- `4b5e920773a3f1b83ad54b2aaabfff5b450154e7` [feat(cdc): support ingest upstream pg vector type (#25184)](https://github.com/risingwavelabs/risingwave/pull/25184)
+
+## nightly-20260423
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8f31a45f30b50febc648241c43ea040cb1cc2e53...d3b016c4243d37c334a9dee7883c647249933859)
 - `d3b016c4243d37c334a9dee7883c647249933859` [fix(sink): update kv log store value indices after schema change (#25442)](https://github.com/risingwavelabs/risingwave/pull/25442)
 - `03f62fa4c0c073f49c48f1ed1ee9af27c925b23e` [test: add slt test for tracking alter sink config feature (#25005)](https://github.com/risingwavelabs/risingwave/pull/25005)
 - `4d6405aeabed45926c95f94a6d93996bf8f8f271` [chore: bump protobuf in integration test (#25433)](https://github.com/risingwavelabs/risingwave/pull/25433)
