@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260424` `ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82`
 - `20260423` `d3b016c4243d37c334a9dee7883c647249933859`
 - `20260422` `8f31a45f30b50febc648241c43ea040cb1cc2e53`
 - `20260421` `a1c936936ac487fb499b14fb75f8f591bfb65496`
@@ -294,7 +295,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6064336ac6a0d6a648bf6c5c748c5aff0de055dc` [fix(meta): clean dropped streaming jobs outside post collect (#25480)](https://github.com/risingwavelabs/risingwave/pull/25480)
+- `2feb5d960996dc09a2de3c593ade1e5f6efc81be` [fix(iceberg): support using dot in iceberg namespace (#25475)](https://github.com/risingwavelabs/risingwave/pull/25475)
+- `1fc89ad3302071af3454f4a108da9802377b46d9` [chore(deps): Bump uuid from 11.0.5 to 14.0.0 in /dashboard (#25462)](https://github.com/risingwavelabs/risingwave/pull/25462)
 - `accd96138aff52356a78393e268b2405bd7d61ee` [fix(meta): avoid panic when dropping initial job (#25481)](https://github.com/risingwavelabs/risingwave/pull/25481)
+
+## nightly-20260424
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d3b016c4243d37c334a9dee7883c647249933859...ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82)
 - `ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82` [chore(deps): Bump org.bouncycastle:bcprov-jdk18on from 1.78 to 1.84 in /java/connector-node/risingwave-sink-jdbc (#25407)](https://github.com/risingwavelabs/risingwave/pull/25407)
 - `b5f5f546601f2be5ea34a5b10cba84da1b7573f6` [chore(deps): Bump org.bouncycastle:bcpkix-jdk18on from 1.79 to 1.84 in /java/connector-node/risingwave-sink-jdbc (#25392)](https://github.com/risingwavelabs/risingwave/pull/25392)
 - `60ad4eb06358198a42c8d92b69ea9a84ea2a5cdb` [chore(deps): bump openssl to 0.10.78 to fix high-severity advisories (#25468)](https://github.com/risingwavelabs/risingwave/pull/25468)
