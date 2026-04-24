@@ -286,7 +286,6 @@
 - `20250427` `6a19d4a0c86902dd84ded08cf48fb9d011003422`
 - `20250426` `f58128a04250a3941ff127027c555859c086535f`
 - `20250424` `66325d3af5b902b787ff44b0b470275461cd2f0c`
-- `20250423` `0ecba4446ae2cfedd7f8f16c109ea582afb82315`
 </details>
 
 # Commit history
@@ -295,6 +294,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `accd96138aff52356a78393e268b2405bd7d61ee` [fix(meta): avoid panic when dropping initial job (#25481)](https://github.com/risingwavelabs/risingwave/pull/25481)
+- `ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82` [chore(deps): Bump org.bouncycastle:bcprov-jdk18on from 1.78 to 1.84 in /java/connector-node/risingwave-sink-jdbc (#25407)](https://github.com/risingwavelabs/risingwave/pull/25407)
+- `b5f5f546601f2be5ea34a5b10cba84da1b7573f6` [chore(deps): Bump org.bouncycastle:bcpkix-jdk18on from 1.79 to 1.84 in /java/connector-node/risingwave-sink-jdbc (#25392)](https://github.com/risingwavelabs/risingwave/pull/25392)
+- `60ad4eb06358198a42c8d92b69ea9a84ea2a5cdb` [chore(deps): bump openssl to 0.10.78 to fix high-severity advisories (#25468)](https://github.com/risingwavelabs/risingwave/pull/25468)
+- `4b3628c425473e640b4de62fcca9981dce532736` [feat(meta): track iceberg compaction with commit backlog (#25283)](https://github.com/risingwavelabs/risingwave/pull/25283)
+- `a1709328067208ed210f94b17760836301114706` [refactor(cdc): drop is_bigserial_default special case (#25474)](https://github.com/risingwavelabs/risingwave/pull/25474)
+- `86331b9cb64be1088fb7b01ed7d226b59f219dc6` [refactor(cdc): remove unnecessary date converter (#25289)](https://github.com/risingwavelabs/risingwave/pull/25289)
+- `4a4de640172831f4699d91f76d495db9cb0ccb61` [fix(cdc): avoid aborting auto schema change on non-constant default expressions (#25431)](https://github.com/risingwavelabs/risingwave/pull/25431)
+- `aaa8dbd3b4efa485159f71ee238c521dc58a7913` [ci(pubsub): avoid custom image (#25265)](https://github.com/risingwavelabs/risingwave/pull/25265)
+- `65249f1c8a12733b8fd1c7cba9f7134c81fcdcd7` [chore(deps): bump arrow-udf-runtime to 0.9.0 and remove tonic 0.12 (#25461)](https://github.com/risingwavelabs/risingwave/pull/25461)
 - `49b30e1d89a26c39b29852230a88519bc086a0b0` [feat(pg-cdc): support convert upstream composite type into `text` (#25153)](https://github.com/risingwavelabs/risingwave/pull/25153)
 - `4b5e920773a3f1b83ad54b2aaabfff5b450154e7` [feat(cdc): support ingest upstream pg vector type (#25184)](https://github.com/risingwavelabs/risingwave/pull/25184)
 
@@ -2851,16 +2860,4 @@
 - `00abb73ae09116ae6dc7a927b1265632b569bc25` [fix(test): work around generate_with_options_yaml_inner issue (#21560)](https://github.com/risingwavelabs/risingwave/pull/21560)
 
 ## nightly-20250424
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0ecba4446ae2cfedd7f8f16c109ea582afb82315...66325d3af5b902b787ff44b0b470275461cd2f0c)
 - `66325d3af5b902b787ff44b0b470275461cd2f0c` [feat(risedev): support docker image for `USE_SYSTEM_RISINGWAVE` (#21520)](https://github.com/risingwavelabs/risingwave/pull/21520)
-- `bf3033fcc5ec4e5829326487e71d04124029c240` [test: add test for duckdb (#21533)](https://github.com/risingwavelabs/risingwave/pull/21533)
-- `692b3a2a103d9fd70a04849b1ad1e55c66874c14` [fix(frontend): fallback to persisted SQL if purified SQL is unparsable (#21514)](https://github.com/risingwavelabs/risingwave/pull/21514)
-- `5019216fe851c91c8ce3f1e33f9b9b9cedf1fd79` [perf(agg): reduce unnecessary generic expansion for `approx_count_distinct` (#21540)](https://github.com/risingwavelabs/risingwave/pull/21540)
-- `46b4b707438fabbaeb2e77068ec59bf9139d328a` [fix(iceberg): remove iceberg data lib (#21546)](https://github.com/risingwavelabs/risingwave/pull/21546)
-- `55e9f4c3ba612a59c3f2542fffc69e1baa3c6d5c` [fix(test): set max parallelism for integration test (madsim) to avoid possibly OOM (#21524)](https://github.com/risingwavelabs/risingwave/pull/21524)
-- `ef87394f1985c809078464bcabb4790fc7e5be2d` [fix(cdc): transform upstream correctly again (#21513)](https://github.com/risingwavelabs/risingwave/pull/21513)
-- `422cc1819fc5625f4ad6f4766e1d8c76180fc7e3` [fix(agg): fix the error of append-only approx_count_distinct (#21516)](https://github.com/risingwavelabs/risingwave/pull/21516)
-- `697d11192a57245f7b8887bc5383e9485b8a0692` [fix(cdc): fix the race case where cleanup process of stale dbz engine may accidentally remove the handler of the active one from registry during recovery (#21522)](https://github.com/risingwavelabs/risingwave/pull/21522)
-
-## nightly-20250423
-- `0ecba4446ae2cfedd7f8f16c109ea582afb82315` [fix(meta): fix subscription notify (#21479)](https://github.com/risingwavelabs/risingwave/pull/21479)
