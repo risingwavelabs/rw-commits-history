@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260425` `95a01e70e8af65e91d6a796b62f4345651c358c7`
 - `20260424` `ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82`
 - `20260423` `d3b016c4243d37c334a9dee7883c647249933859`
 - `20260422` `8f31a45f30b50febc648241c43ea040cb1cc2e53`
@@ -294,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260425
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82...95a01e70e8af65e91d6a796b62f4345651c358c7)
 - `95a01e70e8af65e91d6a796b62f4345651c358c7` [fix: add SHOW PROCESSLIST hint to distributed query limit error message (#25428)](https://github.com/risingwavelabs/risingwave/pull/25428)
 - `ed3c0b1f2f891a5bacc4932b2e8112db422f477b` [feat(frontend): support TLS for webhook endpoint and multi-column webhook tables (#25443)](https://github.com/risingwavelabs/risingwave/pull/25443)
 - `6064336ac6a0d6a648bf6c5c748c5aff0de055dc` [fix(meta): clean dropped streaming jobs outside post collect (#25480)](https://github.com/risingwavelabs/risingwave/pull/25480)
