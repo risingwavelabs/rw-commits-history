@@ -286,7 +286,6 @@
 - `20250428` `63cc14ed48b970bc03860adcdb47ecc119e026c8`
 - `20250427` `6a19d4a0c86902dd84ded08cf48fb9d011003422`
 - `20250426` `f58128a04250a3941ff127027c555859c086535f`
-- `20250424` `66325d3af5b902b787ff44b0b470275461cd2f0c`
 </details>
 
 # Commit history
@@ -295,6 +294,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `95a01e70e8af65e91d6a796b62f4345651c358c7` [fix: add SHOW PROCESSLIST hint to distributed query limit error message (#25428)](https://github.com/risingwavelabs/risingwave/pull/25428)
+- `ed3c0b1f2f891a5bacc4932b2e8112db422f477b` [feat(frontend): support TLS for webhook endpoint and multi-column webhook tables (#25443)](https://github.com/risingwavelabs/risingwave/pull/25443)
 - `6064336ac6a0d6a648bf6c5c748c5aff0de055dc` [fix(meta): clean dropped streaming jobs outside post collect (#25480)](https://github.com/risingwavelabs/risingwave/pull/25480)
 - `2feb5d960996dc09a2de3c593ade1e5f6efc81be` [fix(iceberg): support using dot in iceberg namespace (#25475)](https://github.com/risingwavelabs/risingwave/pull/25475)
 - `1fc89ad3302071af3454f4a108da9802377b46d9` [chore(deps): Bump uuid from 11.0.5 to 14.0.0 in /dashboard (#25462)](https://github.com/risingwavelabs/risingwave/pull/25462)
@@ -2858,13 +2859,4 @@
 - `34881bd1ad6e9ee54250f34b82f65a3086da377c` [fix(action): Label Commenter uses deprecated ubuntu-20.04 (#21567)](https://github.com/risingwavelabs/risingwave/pull/21567)
 
 ## nightly-20250426
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/66325d3af5b902b787ff44b0b470275461cd2f0c...f58128a04250a3941ff127027c555859c086535f)
 - `f58128a04250a3941ff127027c555859c086535f` [fix(meta): Don’t need to notify the frontend to clean up subscriptions upon recovery. (#21568)](https://github.com/risingwavelabs/risingwave/pull/21568)
-- `d8cefea495d636d265912ad27940d6a96cbc2f81` [refactor: use sql udf for nexmark q14 `count_char` (#21570)](https://github.com/risingwavelabs/risingwave/pull/21570)
-- `7913aef4102ea1353951b10faa2437b7640ad722` [fix(binder): check database if exists for binder (#21571)](https://github.com/risingwavelabs/risingwave/pull/21571)
-- `f3f51e0d36f8baef3de286799aa466aea4c43cd2` [refactor(storage): extract epoch control common methods (#21397)](https://github.com/risingwavelabs/risingwave/pull/21397)
-- `6ade35a96092a22b3aa9dba2cf4c044a568bace4` [feat(udf): add `streaming_enable_materialized_expressions` session config (#21552)](https://github.com/risingwavelabs/risingwave/pull/21552)
-- `00abb73ae09116ae6dc7a927b1265632b569bc25` [fix(test): work around generate_with_options_yaml_inner issue (#21560)](https://github.com/risingwavelabs/risingwave/pull/21560)
-
-## nightly-20250424
-- `66325d3af5b902b787ff44b0b470275461cd2f0c` [feat(risedev): support docker image for `USE_SYSTEM_RISINGWAVE` (#21520)](https://github.com/risingwavelabs/risingwave/pull/21520)
