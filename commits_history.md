@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260427` `39c7d733a05abaf128db88e25b93df902c3b1b76`
 - `20260426` `95a01e70e8af65e91d6a796b62f4345651c358c7`
 - `20260424` `ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82`
 - `20260423` `d3b016c4243d37c334a9dee7883c647249933859`
@@ -285,7 +286,6 @@
 - `20250430` `a41aaf5767c25b4aebd14d70c6de7fbea9be029e`
 - `20250429` `03a1ec44e49d14c3f095e295b712ca5f4a300b39`
 - `20250428` `63cc14ed48b970bc03860adcdb47ecc119e026c8`
-- `20250427` `6a19d4a0c86902dd84ded08cf48fb9d011003422`
 </details>
 
 # Commit history
@@ -294,6 +294,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0853780d64eab430fdb9a682ec60878ccb100534` [chore(deps): Bump org.apache.hive:hive-metastore from 4.1.0 to 4.2.0 in /java (#23934)](https://github.com/risingwavelabs/risingwave/pull/23934)
+- `41faa0da6272135ecce8985b9f736faa4acbc52e` [chore: bump java version from 17 to 21 (#25497)](https://github.com/risingwavelabs/risingwave/pull/25497)
+- `35d399c0c2ad64338ef50705c03f2ebc5f6f7106` [feat(frontend): add WebSocket ingest with async acks (#25444)](https://github.com/risingwavelabs/risingwave/pull/25444)
+
+## nightly-20260427
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/95a01e70e8af65e91d6a796b62f4345651c358c7...39c7d733a05abaf128db88e25b93df902c3b1b76)
 - `39c7d733a05abaf128db88e25b93df902c3b1b76` [feat(connector): support protobuf encoding for MQTT source (#25403)](https://github.com/risingwavelabs/risingwave/pull/25403)
 
 ## nightly-20260426
@@ -2848,13 +2854,4 @@
 - `a34328383239ed08956e10bf805f5d687106eea7` [fix(sqlsmith): ignore `ApproxCountDistinct` in sqlsmith (#21632)](https://github.com/risingwavelabs/risingwave/pull/21632)
 
 ## nightly-20250428
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a19d4a0c86902dd84ded08cf48fb9d011003422...63cc14ed48b970bc03860adcdb47ecc119e026c8)
 - `63cc14ed48b970bc03860adcdb47ecc119e026c8` [fix(stream): switch `jdbc_pg_to_native` sink (#21543)](https://github.com/risingwavelabs/risingwave/pull/21543)
-- `1caedb100b61e4f39731856da5f85cdade0faabc` [fix(cdc): mysql default value conversion failure should be tolerated (#21569)](https://github.com/risingwavelabs/risingwave/pull/21569)
-- `14763811ff7ce9c6da17f4557230ae0e97b1398c` [feat(meta,frontend,streaming): support fixed backfill order control (#20967)](https://github.com/risingwavelabs/risingwave/pull/20967)
-- `e05848715d6f41a25e65d625496eea73d63a0979` [fix(streaming): reset stream client pool in local barrier worker (#21611)](https://github.com/risingwavelabs/risingwave/pull/21611)
-- `7e468aa07f2dcef04ca680b9c93d8dc546c24c29` [fix: reset client pool for compute node (#21603)](https://github.com/risingwavelabs/risingwave/pull/21603)
-- `86179645c995e227b033c23a65435e9db3159bdd` [chore: update docker image v2.3.1 (#21597)](https://github.com/risingwavelabs/risingwave/pull/21597)
-
-## nightly-20250427
-- `6a19d4a0c86902dd84ded08cf48fb9d011003422` [fix(meta): try reconnect to worker node on create new streaming job (#21591)](https://github.com/risingwavelabs/risingwave/pull/21591)
