@@ -286,7 +286,6 @@
 - `20250429` `03a1ec44e49d14c3f095e295b712ca5f4a300b39`
 - `20250428` `63cc14ed48b970bc03860adcdb47ecc119e026c8`
 - `20250427` `6a19d4a0c86902dd84ded08cf48fb9d011003422`
-- `20250426` `f58128a04250a3941ff127027c555859c086535f`
 </details>
 
 # Commit history
@@ -295,6 +294,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `39c7d733a05abaf128db88e25b93df902c3b1b76` [feat(connector): support protobuf encoding for MQTT source (#25403)](https://github.com/risingwavelabs/risingwave/pull/25403)
 
 ## nightly-20260426
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82...95a01e70e8af65e91d6a796b62f4345651c358c7)
@@ -2857,10 +2857,4 @@
 - `86179645c995e227b033c23a65435e9db3159bdd` [chore: update docker image v2.3.1 (#21597)](https://github.com/risingwavelabs/risingwave/pull/21597)
 
 ## nightly-20250427
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f58128a04250a3941ff127027c555859c086535f...6a19d4a0c86902dd84ded08cf48fb9d011003422)
 - `6a19d4a0c86902dd84ded08cf48fb9d011003422` [fix(meta): try reconnect to worker node on create new streaming job (#21591)](https://github.com/risingwavelabs/risingwave/pull/21591)
-- `fc5c769552616f730b51d29882cc2e1ce98ac662` [fix(iceberg): fix iceberg partition by name (#21590)](https://github.com/risingwavelabs/risingwave/pull/21590)
-- `34881bd1ad6e9ee54250f34b82f65a3086da377c` [fix(action): Label Commenter uses deprecated ubuntu-20.04 (#21567)](https://github.com/risingwavelabs/risingwave/pull/21567)
-
-## nightly-20250426
-- `f58128a04250a3941ff127027c555859c086535f` [fix(meta): Don’t need to notify the frontend to clean up subscriptions upon recovery. (#21568)](https://github.com/risingwavelabs/risingwave/pull/21568)
