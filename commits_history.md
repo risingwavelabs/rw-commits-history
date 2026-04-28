@@ -286,7 +286,6 @@
 - `20250501` `76bc348e7f931f99a4dd4404323fb51dad994453`
 - `20250430` `a41aaf5767c25b4aebd14d70c6de7fbea9be029e`
 - `20250429` `03a1ec44e49d14c3f095e295b712ca5f4a300b39`
-- `20250428` `63cc14ed48b970bc03860adcdb47ecc119e026c8`
 </details>
 
 # Commit history
@@ -2850,13 +2849,4 @@
 - `d38c0f60f400c5db73a824ad483a24bf45019c1a` [fix(file source): do not persist empty file info in state table (#21646)](https://github.com/risingwavelabs/risingwave/pull/21646)
 
 ## nightly-20250429
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/63cc14ed48b970bc03860adcdb47ecc119e026c8...03a1ec44e49d14c3f095e295b712ca5f4a300b39)
 - `03a1ec44e49d14c3f095e295b712ca5f4a300b39` [chore(iceberg): remove emr compaction (#21641)](https://github.com/risingwavelabs/risingwave/pull/21641)
-- `b9e06dcc11fe51d4f8be87acb4f048e9d8956fc1` [fix(frontend): correctly handle case-sensitive identifier (column name) during def purification (#21638)](https://github.com/risingwavelabs/risingwave/pull/21638)
-- `6ff5dc55ef9d806b17041adf2c9439b802d49569` [feat(agg): ban non-append-only `APPROX_COUNT_DISTINCT` (#21545)](https://github.com/risingwavelabs/risingwave/pull/21545)
-- `7325885c2ac2f5be5699249072e8c40aa034a35b` [chore: change the log level of exactly once normal commit to `debug` (#21608)](https://github.com/risingwavelabs/risingwave/pull/21608)
-- `a15de71f51e352c04d1226decf3b0a467611fb3b` [feat: add iceberg partition shuffle (#20198)](https://github.com/risingwavelabs/risingwave/pull/20198)
-- `a34328383239ed08956e10bf805f5d687106eea7` [fix(sqlsmith): ignore `ApproxCountDistinct` in sqlsmith (#21632)](https://github.com/risingwavelabs/risingwave/pull/21632)
-
-## nightly-20250428
-- `63cc14ed48b970bc03860adcdb47ecc119e026c8` [fix(stream): switch `jdbc_pg_to_native` sink (#21543)](https://github.com/risingwavelabs/risingwave/pull/21543)
