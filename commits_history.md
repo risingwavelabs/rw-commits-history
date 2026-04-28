@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260428` `8f53ab36569de74edc24b7c5affd902d6f4beb3d`
 - `20260427` `39c7d733a05abaf128db88e25b93df902c3b1b76`
 - `20260426` `95a01e70e8af65e91d6a796b62f4345651c358c7`
 - `20260424` `ac80fdd38d4e1e9b15ff2045b4f1061abb9faf82`
@@ -294,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260428
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/39c7d733a05abaf128db88e25b93df902c3b1b76...8f53ab36569de74edc24b7c5affd902d6f4beb3d)
+- `8f53ab36569de74edc24b7c5affd902d6f4beb3d` [chore(deps): upgrade deltalake and align arrow (#25479)](https://github.com/risingwavelabs/risingwave/pull/25479)
 - `0853780d64eab430fdb9a682ec60878ccb100534` [chore(deps): Bump org.apache.hive:hive-metastore from 4.1.0 to 4.2.0 in /java (#23934)](https://github.com/risingwavelabs/risingwave/pull/23934)
 - `41faa0da6272135ecce8985b9f736faa4acbc52e` [chore: bump java version from 17 to 21 (#25497)](https://github.com/risingwavelabs/risingwave/pull/25497)
 - `35d399c0c2ad64338ef50705c03f2ebc5f6f7106` [feat(frontend): add WebSocket ingest with async acks (#25444)](https://github.com/risingwavelabs/risingwave/pull/25444)
