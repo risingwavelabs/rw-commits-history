@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260429` `590e926dcc1d8764d248d6b099c590a3fb47acd4`
 - `20260428` `8f53ab36569de74edc24b7c5affd902d6f4beb3d`
 - `20260427` `39c7d733a05abaf128db88e25b93df902c3b1b76`
 - `20260426` `95a01e70e8af65e91d6a796b62f4345651c358c7`
@@ -285,7 +286,6 @@
 - `20250504` `88238d48fa2be86571b349c90c995996d3ec1d9f`
 - `20250501` `76bc348e7f931f99a4dd4404323fb51dad994453`
 - `20250430` `a41aaf5767c25b4aebd14d70c6de7fbea9be029e`
-- `20250429` `03a1ec44e49d14c3f095e295b712ca5f4a300b39`
 </details>
 
 # Commit history
@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260429
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8f53ab36569de74edc24b7c5affd902d6f4beb3d...590e926dcc1d8764d248d6b099c590a3fb47acd4)
 - `590e926dcc1d8764d248d6b099c590a3fb47acd4` [chore: add lazy PR label guidance for agents (#25532)](https://github.com/risingwavelabs/risingwave/pull/25532)
 
 ## nightly-20260428
@@ -2838,16 +2841,4 @@
 - `cad252c739779d69505f64da44f22854460274f9` [fix: Fix the issue of source split loss in sink into table (#21665)](https://github.com/risingwavelabs/risingwave/pull/21665)
 
 ## nightly-20250430
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/03a1ec44e49d14c3f095e295b712ca5f4a300b39...a41aaf5767c25b4aebd14d70c6de7fbea9be029e)
 - `a41aaf5767c25b4aebd14d70c6de7fbea9be029e` [chore(proto): do not add docs for `Pb`-prefixed type aliases (#21666)](https://github.com/risingwavelabs/risingwave/pull/21666)
-- `e45b1a699ab5755a9ae251e2ede7828871abc014` [feat(frontend): add a session config to allow disabling sql purification (#21656)](https://github.com/risingwavelabs/risingwave/pull/21656)
-- `6a22ad9669bbae40ce376cab4f8ac545a8743370` [feat(storage):  Optimizing the l0 intervals selection algorithm (#21042)](https://github.com/risingwavelabs/risingwave/pull/21042)
-- `5c2c79653b71f987ef2015cbb8983017796fe3ae` [chore(ci): report cherry-pick workflow status to PR (#21647)](https://github.com/risingwavelabs/risingwave/pull/21647)
-- `253dc4aa2d834b281b0e9547474298da85ce0ee9` [chore(deps): Bump golang.org/x/crypto from 0.31.0 to 0.35.0 in /integration_tests/client-library/go (#21403)](https://github.com/risingwavelabs/risingwave/pull/21403)
-- `0576c52f29d97285c83455d80ddc9cb2f371bc1d` [chore(deps): Bump @babel/runtime from 7.23.9 to 7.27.0 in /dashboard (#21350)](https://github.com/risingwavelabs/risingwave/pull/21350)
-- `b96205cbcb1ad1bf3de8ab8dde9f171550c772e3` [fix(sqlparser): skip format_encode for CDC source (#21649)](https://github.com/risingwavelabs/risingwave/pull/21649)
-- `40e006b1420d402abb82938a3a6edd99db126088` [fix(log_store): fix init epoch of synced log store (#21557)](https://github.com/risingwavelabs/risingwave/pull/21557)
-- `d38c0f60f400c5db73a824ad483a24bf45019c1a` [fix(file source): do not persist empty file info in state table (#21646)](https://github.com/risingwavelabs/risingwave/pull/21646)
-
-## nightly-20250429
-- `03a1ec44e49d14c3f095e295b712ca5f4a300b39` [chore(iceberg): remove emr compaction (#21641)](https://github.com/risingwavelabs/risingwave/pull/21641)
