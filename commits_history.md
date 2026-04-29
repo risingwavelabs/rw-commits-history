@@ -294,6 +294,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `590e926dcc1d8764d248d6b099c590a3fb47acd4` [chore: add lazy PR label guidance for agents (#25532)](https://github.com/risingwavelabs/risingwave/pull/25532)
 
 ## nightly-20260428
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/39c7d733a05abaf128db88e25b93df902c3b1b76...8f53ab36569de74edc24b7c5affd902d6f4beb3d)
