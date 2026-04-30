@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260430` `b8ddf403fdb725d9a63f3b714cf04013c551395a`
 - `20260429` `590e926dcc1d8764d248d6b099c590a3fb47acd4`
 - `20260428` `8f53ab36569de74edc24b7c5affd902d6f4beb3d`
 - `20260427` `39c7d733a05abaf128db88e25b93df902c3b1b76`
@@ -294,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260430
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/590e926dcc1d8764d248d6b099c590a3fb47acd4...b8ddf403fdb725d9a63f3b714cf04013c551395a)
 - `b8ddf403fdb725d9a63f3b714cf04013c551395a` [refactor(source): disable maxwell, canal and citus-cdc (#25534)](https://github.com/risingwavelabs/risingwave/pull/25534)
 
 ## nightly-20260429
