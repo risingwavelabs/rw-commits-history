@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260430` `b8ddf403fdb725d9a63f3b714cf04013c551395a`
+- `20260501` `b8ddf403fdb725d9a63f3b714cf04013c551395a`
 - `20260429` `590e926dcc1d8764d248d6b099c590a3fb47acd4`
 - `20260428` `8f53ab36569de74edc24b7c5affd902d6f4beb3d`
 - `20260427` `39c7d733a05abaf128db88e25b93df902c3b1b76`
@@ -286,7 +286,6 @@
 - `20250505` `75bda90ade54b123fe13a804a96095e082b6ff66`
 - `20250504` `88238d48fa2be86571b349c90c995996d3ec1d9f`
 - `20250501` `76bc348e7f931f99a4dd4404323fb51dad994453`
-- `20250430` `a41aaf5767c25b4aebd14d70c6de7fbea9be029e`
 </details>
 
 # Commit history
@@ -296,7 +295,7 @@
 
 ## Unreleased
 
-## nightly-20260430
+## nightly-20260501
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/590e926dcc1d8764d248d6b099c590a3fb47acd4...b8ddf403fdb725d9a63f3b714cf04013c551395a)
 - `b8ddf403fdb725d9a63f3b714cf04013c551395a` [refactor(source): disable maxwell, canal and citus-cdc (#25534)](https://github.com/risingwavelabs/risingwave/pull/25534)
 
@@ -2839,11 +2838,4 @@
 - `88238d48fa2be86571b349c90c995996d3ec1d9f` [chore(deps): Bump crate-ci/typos from 1.31.1 to 1.31.2 (#21630)](https://github.com/risingwavelabs/risingwave/pull/21630)
 
 ## nightly-20250501
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a41aaf5767c25b4aebd14d70c6de7fbea9be029e...76bc348e7f931f99a4dd4404323fb51dad994453)
 - `76bc348e7f931f99a4dd4404323fb51dad994453` [fix(ci): only run `report_status` if there's a cherry-pick tag (#21673)](https://github.com/risingwavelabs/risingwave/pull/21673)
-- `6fbddc6cccf4bd802b48e13abc5b0748a19079b1` [chore(ci): skip batch e2e also for standalone mode (#21672)](https://github.com/risingwavelabs/risingwave/pull/21672)
-- `b7995c50a21c445a81c32feeb44f89c43dffcf7e` [fix(test): typo in glue schema registry license test (#21658)](https://github.com/risingwavelabs/risingwave/pull/21658)
-- `cad252c739779d69505f64da44f22854460274f9` [fix: Fix the issue of source split loss in sink into table (#21665)](https://github.com/risingwavelabs/risingwave/pull/21665)
-
-## nightly-20250430
-- `a41aaf5767c25b4aebd14d70c6de7fbea9be029e` [chore(proto): do not add docs for `Pb`-prefixed type aliases (#21666)](https://github.com/risingwavelabs/risingwave/pull/21666)
