@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260501` `b8ddf403fdb725d9a63f3b714cf04013c551395a`
+- `20260502` `b8ddf403fdb725d9a63f3b714cf04013c551395a`
 - `20260429` `590e926dcc1d8764d248d6b099c590a3fb47acd4`
 - `20260428` `8f53ab36569de74edc24b7c5affd902d6f4beb3d`
 - `20260427` `39c7d733a05abaf128db88e25b93df902c3b1b76`
@@ -285,7 +285,6 @@
 - `20250506` `a01676e9a04b0edc928d1f6de512d246e29c3ad8`
 - `20250505` `75bda90ade54b123fe13a804a96095e082b6ff66`
 - `20250504` `88238d48fa2be86571b349c90c995996d3ec1d9f`
-- `20250501` `76bc348e7f931f99a4dd4404323fb51dad994453`
 </details>
 
 # Commit history
@@ -295,7 +294,7 @@
 
 ## Unreleased
 
-## nightly-20260501
+## nightly-20260502
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/590e926dcc1d8764d248d6b099c590a3fb47acd4...b8ddf403fdb725d9a63f3b714cf04013c551395a)
 - `b8ddf403fdb725d9a63f3b714cf04013c551395a` [refactor(source): disable maxwell, canal and citus-cdc (#25534)](https://github.com/risingwavelabs/risingwave/pull/25534)
 
@@ -2834,8 +2833,4 @@
 - `f837e37698b87ffde0b3510e5e66a5f35163531a` [fix: handle missing 'connector' field in WITH clause with CONNECTION (#21691)](https://github.com/risingwavelabs/risingwave/pull/21691)
 
 ## nightly-20250504
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/76bc348e7f931f99a4dd4404323fb51dad994453...88238d48fa2be86571b349c90c995996d3ec1d9f)
 - `88238d48fa2be86571b349c90c995996d3ec1d9f` [chore(deps): Bump crate-ci/typos from 1.31.1 to 1.31.2 (#21630)](https://github.com/risingwavelabs/risingwave/pull/21630)
-
-## nightly-20250501
-- `76bc348e7f931f99a4dd4404323fb51dad994453` [fix(ci): only run `report_status` if there's a cherry-pick tag (#21673)](https://github.com/risingwavelabs/risingwave/pull/21673)
