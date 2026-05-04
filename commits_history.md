@@ -293,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `41c0f30582f96c71e398f472ad53c860a763776a` [feat(session): allow unitless `statement_timeout` to mean `ms` (#25557)](https://github.com/risingwavelabs/risingwave/pull/25557)
 
 ## nightly-20260503
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/590e926dcc1d8764d248d6b099c590a3fb47acd4...b8ddf403fdb725d9a63f3b714cf04013c551395a)
