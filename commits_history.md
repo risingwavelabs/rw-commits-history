@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260504` `41c0f30582f96c71e398f472ad53c860a763776a`
+- `20260505` `41c0f30582f96c71e398f472ad53c860a763776a`
 - `20260503` `b8ddf403fdb725d9a63f3b714cf04013c551395a`
 - `20260429` `590e926dcc1d8764d248d6b099c590a3fb47acd4`
 - `20260428` `8f53ab36569de74edc24b7c5affd902d6f4beb3d`
@@ -285,7 +285,6 @@
 - `20250507` `792dc86b320c8955cf3ba25c100be0d252f950f3`
 - `20250506` `a01676e9a04b0edc928d1f6de512d246e29c3ad8`
 - `20250505` `75bda90ade54b123fe13a804a96095e082b6ff66`
-- `20250504` `88238d48fa2be86571b349c90c995996d3ec1d9f`
 </details>
 
 # Commit history
@@ -295,7 +294,7 @@
 
 ## Unreleased
 
-## nightly-20260504
+## nightly-20260505
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b8ddf403fdb725d9a63f3b714cf04013c551395a...41c0f30582f96c71e398f472ad53c860a763776a)
 - `41c0f30582f96c71e398f472ad53c860a763776a` [feat(session): allow unitless `statement_timeout` to mean `ms` (#25557)](https://github.com/risingwavelabs/risingwave/pull/25557)
 
@@ -2831,11 +2830,4 @@
 - `955d66a667ff3f285973142747f06258fd2b43a6` [test(source): pulsar with docker in addition to public cloud (#21711)](https://github.com/risingwavelabs/risingwave/pull/21711)
 
 ## nightly-20250505
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/88238d48fa2be86571b349c90c995996d3ec1d9f...75bda90ade54b123fe13a804a96095e082b6ff66)
 - `75bda90ade54b123fe13a804a96095e082b6ff66` [ci: fix duplicated sparksql in e2e test (#21690)](https://github.com/risingwavelabs/risingwave/pull/21690)
-- `d7479c61c518805365317899e857778c8f734d32` [feat(sqlsmith): support generation of generate_series and range table functions (#21689)](https://github.com/risingwavelabs/risingwave/pull/21689)
-- `b974144617f20880a7dbf2b63ec0d275ac69e6d2` [Revert "feat: use order key as mv's dist key (#20176)" (#21687)](https://github.com/risingwavelabs/risingwave/pull/21687)
-- `f837e37698b87ffde0b3510e5e66a5f35163531a` [fix: handle missing 'connector' field in WITH clause with CONNECTION (#21691)](https://github.com/risingwavelabs/risingwave/pull/21691)
-
-## nightly-20250504
-- `88238d48fa2be86571b349c90c995996d3ec1d9f` [chore(deps): Bump crate-ci/typos from 1.31.1 to 1.31.2 (#21630)](https://github.com/risingwavelabs/risingwave/pull/21630)
