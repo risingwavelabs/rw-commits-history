@@ -284,7 +284,6 @@
 - `20250508` `1611e1bff1ae904fedb6060c120b565baad8320a`
 - `20250507` `792dc86b320c8955cf3ba25c100be0d252f950f3`
 - `20250506` `a01676e9a04b0edc928d1f6de512d246e29c3ad8`
-- `20250505` `75bda90ade54b123fe13a804a96095e082b6ff66`
 </details>
 
 # Commit history
@@ -293,6 +292,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7dca00626c036a6a80e608dd22297a0301221376` [chore(deps): Bump async-openai from 0.33.0 to 0.36.1 (#25513)](https://github.com/risingwavelabs/risingwave/pull/25513)
+- `823536b033d9e5f0c1ff35d5bf732e8404199011` [chore(deps): Bump parse-display from 0.10.0 to 0.11.0 (#25560)](https://github.com/risingwavelabs/risingwave/pull/25560)
 
 ## nightly-20260505
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b8ddf403fdb725d9a63f3b714cf04013c551395a...41c0f30582f96c71e398f472ad53c860a763776a)
@@ -2814,20 +2815,4 @@
 - `4d6c019db6b7aef9fa9d9a1e6568e5cad1d178c4` [feat(sqlsmith): support generation of unnest table function (#21738)](https://github.com/risingwavelabs/risingwave/pull/21738)
 
 ## nightly-20250506
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75bda90ade54b123fe13a804a96095e082b6ff66...a01676e9a04b0edc928d1f6de512d246e29c3ad8)
 - `a01676e9a04b0edc928d1f6de512d246e29c3ad8` [chore(ci): refactor backfill and background_ddl tests (#21710)](https://github.com/risingwavelabs/risingwave/pull/21710)
-- `9b54d9ab31b845bcda3601acfa121f7193f1497b` [refactor(risedev): deprecate `risedev-compose` (#21729)](https://github.com/risingwavelabs/risingwave/pull/21729)
-- `b939ccb992743b6eba2bb97f3e0f69d2258f4dc5` [feat(test): support mocked exactly once iceberg sink in simulation environment (#21301)](https://github.com/risingwavelabs/risingwave/pull/21301)
-- `c0ca1576b80cc2b0014e249331e77fa9f36d3f1f` [fix(test): add retry for js async udf call (#21728)](https://github.com/risingwavelabs/risingwave/pull/21728)
-- `3b7e14616b2b090e8d87638ff229c320c86d1a3c` [test: add coverage check for slt files (#21703)](https://github.com/risingwavelabs/risingwave/pull/21703)
-- `cce7b77a2a2d4a393c9bb018fa5c3ac13e8e9c59` [feat(expr): implement `array_flatten` (#21640)](https://github.com/risingwavelabs/risingwave/pull/21640)
-- `4790072b22e0440de3a3b6f24dc9105d9ebf0865` [refactor(arrow): cleanup stale arrow-48 compatible work (#21713)](https://github.com/risingwavelabs/risingwave/pull/21713)
-- `a3057d42374978e3ea1475825ad6e523c3e3536b` [chore(deps): Bump sysinfo from 0.34.1 to 0.35.0 (#21688)](https://github.com/risingwavelabs/risingwave/pull/21688)
-- `4fe5b712da82061245924e58f39534f36bf7a7b9` [refactor(storage): break down log epoch list into non-checkpoint and checkpoint (#21631)](https://github.com/risingwavelabs/risingwave/pull/21631)
-- `d36ffccbf72cf9cce7c55b1ffda61e96589326ce` [feat(dashboard): display metadata for index itself besides index table (#21680)](https://github.com/risingwavelabs/risingwave/pull/21680)
-- `f25bad14c1a866df90077af8fce461a2e0816fca` [chore(deps): Bump bitfield-struct from 0.10.1 to 0.11.0 (#21716)](https://github.com/risingwavelabs/risingwave/pull/21716)
-- `334312d84c3da45aef0ad88e926aff5141263986` [fix: assertion caused by missing check during sink into table recovery (#21714)](https://github.com/risingwavelabs/risingwave/pull/21714)
-- `955d66a667ff3f285973142747f06258fd2b43a6` [test(source): pulsar with docker in addition to public cloud (#21711)](https://github.com/risingwavelabs/risingwave/pull/21711)
-
-## nightly-20250505
-- `75bda90ade54b123fe13a804a96095e082b6ff66` [ci: fix duplicated sparksql in e2e test (#21690)](https://github.com/risingwavelabs/risingwave/pull/21690)
