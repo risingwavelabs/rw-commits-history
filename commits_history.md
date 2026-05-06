@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260506` `7dca00626c036a6a80e608dd22297a0301221376`
 - `20260505` `41c0f30582f96c71e398f472ad53c860a763776a`
 - `20260503` `b8ddf403fdb725d9a63f3b714cf04013c551395a`
 - `20260429` `590e926dcc1d8764d248d6b099c590a3fb47acd4`
@@ -292,6 +293,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `95c2b4db402a1913b943568cfc825d0714de0434` [chore(deps): Bump bitflags from 2.10.0 to 2.11.1 (#25353)](https://github.com/risingwavelabs/risingwave/pull/25353)
+
+## nightly-20260506
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/41c0f30582f96c71e398f472ad53c860a763776a...7dca00626c036a6a80e608dd22297a0301221376)
 - `7dca00626c036a6a80e608dd22297a0301221376` [chore(deps): Bump async-openai from 0.33.0 to 0.36.1 (#25513)](https://github.com/risingwavelabs/risingwave/pull/25513)
 - `823536b033d9e5f0c1ff35d5bf732e8404199011` [chore(deps): Bump parse-display from 0.10.0 to 0.11.0 (#25560)](https://github.com/risingwavelabs/risingwave/pull/25560)
 
