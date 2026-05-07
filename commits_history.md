@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260507` `293841991c18bd27930049d91653892120833c4f`
 - `20260506` `7dca00626c036a6a80e608dd22297a0301221376`
 - `20260505` `41c0f30582f96c71e398f472ad53c860a763776a`
 - `20260503` `b8ddf403fdb725d9a63f3b714cf04013c551395a`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260507
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7dca00626c036a6a80e608dd22297a0301221376...293841991c18bd27930049d91653892120833c4f)
 - `293841991c18bd27930049d91653892120833c4f` [refactor(storage): normalize compact task table ids (#25438)](https://github.com/risingwavelabs/risingwave/pull/25438)
 - `4e35c05f3236b7e8ead5cbab68cf94bd7160f0c0` [fix(meta): sync source secret deps on alter connection (#25582)](https://github.com/risingwavelabs/risingwave/pull/25582)
 - `95c2b4db402a1913b943568cfc825d0714de0434` [chore(deps): Bump bitflags from 2.10.0 to 2.11.1 (#25353)](https://github.com/risingwavelabs/risingwave/pull/25353)
