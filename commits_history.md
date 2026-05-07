@@ -284,7 +284,6 @@
 - `20250509` `d0d43406522b7758cffe8ec1a1eda6f8bc11a771`
 - `20250508` `1611e1bff1ae904fedb6060c120b565baad8320a`
 - `20250507` `792dc86b320c8955cf3ba25c100be0d252f950f3`
-- `20250506` `a01676e9a04b0edc928d1f6de512d246e29c3ad8`
 </details>
 
 # Commit history
@@ -293,6 +292,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `293841991c18bd27930049d91653892120833c4f` [refactor(storage): normalize compact task table ids (#25438)](https://github.com/risingwavelabs/risingwave/pull/25438)
+- `4e35c05f3236b7e8ead5cbab68cf94bd7160f0c0` [fix(meta): sync source secret deps on alter connection (#25582)](https://github.com/risingwavelabs/risingwave/pull/25582)
 - `95c2b4db402a1913b943568cfc825d0714de0434` [chore(deps): Bump bitflags from 2.10.0 to 2.11.1 (#25353)](https://github.com/risingwavelabs/risingwave/pull/25353)
 
 ## nightly-20260506
@@ -2802,22 +2803,4 @@
 - `fc7ea34ceb4749891de590dbd4aa0a1ad4f5953c` [feat(ci): support workflow for docker image building (#21626)](https://github.com/risingwavelabs/risingwave/pull/21626)
 
 ## nightly-20250507
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a01676e9a04b0edc928d1f6de512d246e29c3ad8...792dc86b320c8955cf3ba25c100be0d252f950f3)
 - `792dc86b320c8955cf3ba25c100be0d252f950f3` [chore: update docker image to v2.4.0-rc.1 (#21758)](https://github.com/risingwavelabs/risingwave/pull/21758)
-- `4ac11794490b8a4cb885be57e888a9dfeb509954` [fix(connector) Dont resubscibe mqtt client and propagate error (#21323)](https://github.com/risingwavelabs/risingwave/pull/21323)
-- `03ffc986b393fe9b58adde56e8ae6d6395bf6df2` [chore(deps): Bump nix from 0.29.0 to 0.30.1 (#21717)](https://github.com/risingwavelabs/risingwave/pull/21717)
-- `19d23c1650a1658b39e51a7d745ce5232683f187` [feat(optimizer): eliminate fixed output simple agg (#21753)](https://github.com/risingwavelabs/risingwave/pull/21753)
-- `5ac039d3446dbc305b518d0901159d6cf95c7d1a` [feat(risedev): support starting pulsar (#21732)](https://github.com/risingwavelabs/risingwave/pull/21732)
-- `d921d1836bf2848925f7094aaea02908ef5e0ff9` [chore(deps): Bump gcloud-bigquery from 1.0.0 to 1.1.0 (depending on arrow-53 -> arrow-54) (#21748)](https://github.com/risingwavelabs/risingwave/pull/21748)
-- `88541866548937d0de4198c2b3ddbe1e9676b770` [test: integrate pulsar (user-managed) into risedev (#21682)](https://github.com/risingwavelabs/risingwave/pull/21682)
-- `6479e981927558d7c5e075938d097c4cfc222da5` [refactor(meta): include resource group name in scheduling error message (#21727)](https://github.com/risingwavelabs/risingwave/pull/21727)
-- `df32061d7f23956c6942797825ad1372a06d3796` [chore(deps): Migrate from google-cloud-* to gcloud-* (#21743)](https://github.com/risingwavelabs/risingwave/pull/21743)
-- `e9edf5a932a3db4cac1094e50cd2341e80661c3c` [feat: support describe fragment <fragment-id> (#21587)](https://github.com/risingwavelabs/risingwave/pull/21587)
-- `6fabd5b29b369a09695a05a16a08bfdec057d8ab` [refactor(common): rename `DataType::as_list` to `as_list_element_type` (#21643)](https://github.com/risingwavelabs/risingwave/pull/21643)
-- `5461454594a9602819088820f31b74adb6031d83` [fix: handle telemetry None event (#21652)](https://github.com/risingwavelabs/risingwave/pull/21652)
-- `a99bb1fa8ec4b29603bbd6a1819b568fdc4dc7da` [feat(expr): add date_bin (#21559)](https://github.com/risingwavelabs/risingwave/pull/21559)
-- `279c63d8725255787cb05824670f524c4f4d070e` [chore(deps): Bump deltalake from 0.20.1 to 0.24 to drop some ancient transitive dependencies (#21712)](https://github.com/risingwavelabs/risingwave/pull/21712)
-- `4d6c019db6b7aef9fa9d9a1e6568e5cad1d178c4` [feat(sqlsmith): support generation of unnest table function (#21738)](https://github.com/risingwavelabs/risingwave/pull/21738)
-
-## nightly-20250506
-- `a01676e9a04b0edc928d1f6de512d246e29c3ad8` [chore(ci): refactor backfill and background_ddl tests (#21710)](https://github.com/risingwavelabs/risingwave/pull/21710)
