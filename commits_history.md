@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260508` `d7cf5564836258608abb71603c607fb1ff1dbc76`
 - `20260507` `293841991c18bd27930049d91653892120833c4f`
 - `20260506` `7dca00626c036a6a80e608dd22297a0301221376`
 - `20260505` `41c0f30582f96c71e398f472ad53c860a763776a`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260508
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/293841991c18bd27930049d91653892120833c4f...d7cf5564836258608abb71603c607fb1ff1dbc76)
 - `d7cf5564836258608abb71603c607fb1ff1dbc76` [fix(pgwire): make JWK alg optional and pin verification to an allow-list (#25453)](https://github.com/risingwavelabs/risingwave/pull/25453)
 - `9a6ab332ce9b9e5eb64defb83e970525e52beaed` [refactor(cdc): larger default snapshot.interval for cdc backfill (#25577)](https://github.com/risingwavelabs/risingwave/pull/25577)
 - `8cc37ea7b35c7f93cd376345d6347ad5fb2918ef` [refactor: replace #[allow] with #[expect] across the codebase (#25519)](https://github.com/risingwavelabs/risingwave/pull/25519)
