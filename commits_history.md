@@ -284,7 +284,6 @@
 - `20250510` `bc77615871afe926a90705af306b99e7f2bcfabb`
 - `20250509` `d0d43406522b7758cffe8ec1a1eda6f8bc11a771`
 - `20250508` `1611e1bff1ae904fedb6060c120b565baad8320a`
-- `20250507` `792dc86b320c8955cf3ba25c100be0d252f950f3`
 </details>
 
 # Commit history
@@ -293,6 +292,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d7cf5564836258608abb71603c607fb1ff1dbc76` [fix(pgwire): make JWK alg optional and pin verification to an allow-list (#25453)](https://github.com/risingwavelabs/risingwave/pull/25453)
+- `9a6ab332ce9b9e5eb64defb83e970525e52beaed` [refactor(cdc): larger default snapshot.interval for cdc backfill (#25577)](https://github.com/risingwavelabs/risingwave/pull/25577)
+- `8cc37ea7b35c7f93cd376345d6347ad5fb2918ef` [refactor: replace #[allow] with #[expect] across the codebase (#25519)](https://github.com/risingwavelabs/risingwave/pull/25519)
+- `9e36494272103b98f4423c43dfe82072dc953f54` [fix(meta): sync inflight stream node rate_limit on Throttle command (#25562)](https://github.com/risingwavelabs/risingwave/pull/25562)
 
 ## nightly-20260507
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7dca00626c036a6a80e608dd22297a0301221376...293841991c18bd27930049d91653892120833c4f)
@@ -2797,14 +2800,4 @@
 - `638de198829f6214226830d3bbd9b142aefc4b06` [feat(sqlsmith): support generation of jsonb_* table function (#21773)](https://github.com/risingwavelabs/risingwave/pull/21773)
 
 ## nightly-20250508
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/792dc86b320c8955cf3ba25c100be0d252f950f3...1611e1bff1ae904fedb6060c120b565baad8320a)
 - `1611e1bff1ae904fedb6060c120b565baad8320a` [feat(proto): introduce iceberg compaction proto (#21778)](https://github.com/risingwavelabs/risingwave/pull/21778)
-- `edf7afd9bb8ac94f99d145d91838faebcf4cf6ca` [chore(udf): upgrade arrow-udf-runtime to 0.8.0 (#21780)](https://github.com/risingwavelabs/risingwave/pull/21780)
-- `65c9c271ebd3f57a222d386155a230d3809d97bd` [feat(risedev): skip build connector node for USE_SYSTEM_RISINGWAVE (#21772)](https://github.com/risingwavelabs/risingwave/pull/21772)
-- `f3c432fbb2a95a0258a3530fcd9a23cece553e32` [fix(test): include missing OverWindow slt tests (#21755)](https://github.com/risingwavelabs/risingwave/pull/21755)
-- `f456829893c0e2752c3b6cfb3fb7b150d11dbd7d` [chore(ci): move more dep installation from script to image & bump sqllogictest-bin to 0.28.2 (#21730)](https://github.com/risingwavelabs/risingwave/pull/21730)
-- `097dcd11b6b4b395cab1fc4c8f69b09177b64398` [feat(iceberg): support iceberg compaction manager (#21657)](https://github.com/risingwavelabs/risingwave/pull/21657)
-- `fc7ea34ceb4749891de590dbd4aa0a1ad4f5953c` [feat(ci): support workflow for docker image building (#21626)](https://github.com/risingwavelabs/risingwave/pull/21626)
-
-## nightly-20250507
-- `792dc86b320c8955cf3ba25c100be0d252f950f3` [chore: update docker image to v2.4.0-rc.1 (#21758)](https://github.com/risingwavelabs/risingwave/pull/21758)
