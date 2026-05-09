@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260508` `d7cf5564836258608abb71603c607fb1ff1dbc76`
+- `20260509` `d7cf5564836258608abb71603c607fb1ff1dbc76`
 - `20260507` `293841991c18bd27930049d91653892120833c4f`
 - `20260506` `7dca00626c036a6a80e608dd22297a0301221376`
 - `20260505` `41c0f30582f96c71e398f472ad53c860a763776a`
@@ -284,7 +284,6 @@
 - `20250511` `10a75d54b30af4d640f623eec0477d9c0d2c6ad4`
 - `20250510` `bc77615871afe926a90705af306b99e7f2bcfabb`
 - `20250509` `d0d43406522b7758cffe8ec1a1eda6f8bc11a771`
-- `20250508` `1611e1bff1ae904fedb6060c120b565baad8320a`
 </details>
 
 # Commit history
@@ -294,7 +293,7 @@
 
 ## Unreleased
 
-## nightly-20260508
+## nightly-20260509
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/293841991c18bd27930049d91653892120833c4f...d7cf5564836258608abb71603c607fb1ff1dbc76)
 - `d7cf5564836258608abb71603c607fb1ff1dbc76` [fix(pgwire): make JWK alg optional and pin verification to an allow-list (#25453)](https://github.com/risingwavelabs/risingwave/pull/25453)
 - `9a6ab332ce9b9e5eb64defb83e970525e52beaed` [refactor(cdc): larger default snapshot.interval for cdc backfill (#25577)](https://github.com/risingwavelabs/risingwave/pull/25577)
@@ -2793,15 +2792,4 @@
 - `5681cedbea081be54b8350e308d3df55a94aca50` [refactor(compaction): refactor compaction event stream (#21669)](https://github.com/risingwavelabs/risingwave/pull/21669)
 
 ## nightly-20250509
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1611e1bff1ae904fedb6060c120b565baad8320a...d0d43406522b7758cffe8ec1a1eda6f8bc11a771)
 - `d0d43406522b7758cffe8ec1a1eda6f8bc11a771` [feat(frontend): support sink_decouple for sink into table (#21784)](https://github.com/risingwavelabs/risingwave/pull/21784)
-- `706c7f9e70ddcab2d54bc073512db790699eb1f0` [feat(compactor): introduce iceberg compactor manager (#21785)](https://github.com/risingwavelabs/risingwave/pull/21785)
-- `0b3ab2fc25adb8c1fe9b895eac06f7f5c7f1d935` [fix: print `AlterSinkOperation::SetSinkProps` correctly (#21790)](https://github.com/risingwavelabs/risingwave/pull/21790)
-- `b180c0e4e788421bb427f8ef3da52f9501c2fbfe` [feat(sink): Support more template format for Redis sink (#21431)](https://github.com/risingwavelabs/risingwave/pull/21431)
-- `5b5813c6e9f42aad818297d476feb88a99c7c748` [refactor(meta): cleanup more dead code of etcd meta store (#21782)](https://github.com/risingwavelabs/risingwave/pull/21782)
-- `59540d2e90266c567913eb90bb2886ef9d5bb036` [fix(iceberg): fix iceberg table engine pk retrieving (#21789)](https://github.com/risingwavelabs/risingwave/pull/21789)
-- `14d4c71e81fbaa57e48e4ce79dc1faa13c82cd95` [fix(connector): add timeout and retry for kinesis client (#21616)](https://github.com/risingwavelabs/risingwave/pull/21616)
-- `638de198829f6214226830d3bbd9b142aefc4b06` [feat(sqlsmith): support generation of jsonb_* table function (#21773)](https://github.com/risingwavelabs/risingwave/pull/21773)
-
-## nightly-20250508
-- `1611e1bff1ae904fedb6060c120b565baad8320a` [feat(proto): introduce iceberg compaction proto (#21778)](https://github.com/risingwavelabs/risingwave/pull/21778)
