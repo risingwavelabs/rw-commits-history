@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260509` `d7cf5564836258608abb71603c607fb1ff1dbc76`
+- `20260510` `d7cf5564836258608abb71603c607fb1ff1dbc76`
 - `20260507` `293841991c18bd27930049d91653892120833c4f`
 - `20260506` `7dca00626c036a6a80e608dd22297a0301221376`
 - `20260505` `41c0f30582f96c71e398f472ad53c860a763776a`
@@ -283,7 +283,6 @@
 - `20250513` `c3c2962848dbb71ca2f65f9de63bc02a4ef70500`
 - `20250511` `10a75d54b30af4d640f623eec0477d9c0d2c6ad4`
 - `20250510` `bc77615871afe926a90705af306b99e7f2bcfabb`
-- `20250509` `d0d43406522b7758cffe8ec1a1eda6f8bc11a771`
 </details>
 
 # Commit history
@@ -293,7 +292,7 @@
 
 ## Unreleased
 
-## nightly-20260509
+## nightly-20260510
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/293841991c18bd27930049d91653892120833c4f...d7cf5564836258608abb71603c607fb1ff1dbc76)
 - `d7cf5564836258608abb71603c607fb1ff1dbc76` [fix(pgwire): make JWK alg optional and pin verification to an allow-list (#25453)](https://github.com/risingwavelabs/risingwave/pull/25453)
 - `9a6ab332ce9b9e5eb64defb83e970525e52beaed` [refactor(cdc): larger default snapshot.interval for cdc backfill (#25577)](https://github.com/risingwavelabs/risingwave/pull/25577)
@@ -2787,9 +2786,4 @@
 - `52c15a5a54f5ae7cbe2a4945f162f74c8e590cff` [chore: Update README.md (#21808)](https://github.com/risingwavelabs/risingwave/pull/21808)
 
 ## nightly-20250510
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d0d43406522b7758cffe8ec1a1eda6f8bc11a771...bc77615871afe926a90705af306b99e7f2bcfabb)
 - `bc77615871afe926a90705af306b99e7f2bcfabb` [chore: Update README.md (#21807)](https://github.com/risingwavelabs/risingwave/pull/21807)
-- `5681cedbea081be54b8350e308d3df55a94aca50` [refactor(compaction): refactor compaction event stream (#21669)](https://github.com/risingwavelabs/risingwave/pull/21669)
-
-## nightly-20250509
-- `d0d43406522b7758cffe8ec1a1eda6f8bc11a771` [feat(frontend): support sink_decouple for sink into table (#21784)](https://github.com/risingwavelabs/risingwave/pull/21784)
