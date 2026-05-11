@@ -282,7 +282,6 @@
 - `20250514` `436277bfb5af5231b0ae93da2fab5b339ec70154`
 - `20250513` `c3c2962848dbb71ca2f65f9de63bc02a4ef70500`
 - `20250511` `10a75d54b30af4d640f623eec0477d9c0d2c6ad4`
-- `20250510` `bc77615871afe926a90705af306b99e7f2bcfabb`
 </details>
 
 # Commit history
@@ -291,6 +290,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `60622e8a9dc07294a7f11045d84a5e6f98475ef5` [fix(iceberg): revert 25058 (#25614)](https://github.com/risingwavelabs/risingwave/pull/25614)
+- `6d101b4e2daf612bf99b310f4aa4bca29ee206b3` [feat(streaming): decouple synced log store progress from downstream backpressure (#24303)](https://github.com/risingwavelabs/risingwave/pull/24303)
+- `df0bd393ae5ac53a808c0dcf7cd5e36e7a298ed4` [fix(meta): cleanup dirty recovery hummock tables (#25592)](https://github.com/risingwavelabs/risingwave/pull/25592)
+- `a687977a1696c316589a2f4afabdd4fac2a4b1d8` [fix(binder): refine error message for ambiguous columns (#25546)](https://github.com/risingwavelabs/risingwave/pull/25546)
 
 ## nightly-20260510
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/293841991c18bd27930049d91653892120833c4f...d7cf5564836258608abb71603c607fb1ff1dbc76)
@@ -2781,9 +2784,4 @@
 - `d43a594327cd7ff4627ad37ee00a3a949a6cb9f8` [feat(sqlsmith): support generation of regexp_match table function (#21809)](https://github.com/risingwavelabs/risingwave/pull/21809)
 
 ## nightly-20250511
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bc77615871afe926a90705af306b99e7f2bcfabb...10a75d54b30af4d640f623eec0477d9c0d2c6ad4)
 - `10a75d54b30af4d640f623eec0477d9c0d2c6ad4` [fix(ci): increase wait time for doris to be ready in `e2e-doris-sink` test (#21812)](https://github.com/risingwavelabs/risingwave/pull/21812)
-- `52c15a5a54f5ae7cbe2a4945f162f74c8e590cff` [chore: Update README.md (#21808)](https://github.com/risingwavelabs/risingwave/pull/21808)
-
-## nightly-20250510
-- `bc77615871afe926a90705af306b99e7f2bcfabb` [chore: Update README.md (#21807)](https://github.com/risingwavelabs/risingwave/pull/21807)
