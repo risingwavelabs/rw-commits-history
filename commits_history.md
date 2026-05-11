@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260511` `6d101b4e2daf612bf99b310f4aa4bca29ee206b3`
 - `20260510` `d7cf5564836258608abb71603c607fb1ff1dbc76`
 - `20260507` `293841991c18bd27930049d91653892120833c4f`
 - `20260506` `7dca00626c036a6a80e608dd22297a0301221376`
@@ -281,7 +282,6 @@
 - `20250515` `699bb51ec2df2536f04ec7cd28c745ca91b7364a`
 - `20250514` `436277bfb5af5231b0ae93da2fab5b339ec70154`
 - `20250513` `c3c2962848dbb71ca2f65f9de63bc02a4ef70500`
-- `20250511` `10a75d54b30af4d640f623eec0477d9c0d2c6ad4`
 </details>
 
 # Commit history
@@ -290,7 +290,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9bf3a8e202ed17073355e576e52bc09d228eac4d` [chore(deps): bump openssl to 0.10.79 (#25615)](https://github.com/risingwavelabs/risingwave/pull/25615)
+- `7cc36b15419d19673b6ad990fd984e536aa027ae` [fix(frontend): wait checkpoint for implicit dml flush (#25518)](https://github.com/risingwavelabs/risingwave/pull/25518)
 - `60622e8a9dc07294a7f11045d84a5e6f98475ef5` [fix(iceberg): revert 25058 (#25614)](https://github.com/risingwavelabs/risingwave/pull/25614)
+
+## nightly-20260511
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d7cf5564836258608abb71603c607fb1ff1dbc76...6d101b4e2daf612bf99b310f4aa4bca29ee206b3)
 - `6d101b4e2daf612bf99b310f4aa4bca29ee206b3` [feat(streaming): decouple synced log store progress from downstream backpressure (#24303)](https://github.com/risingwavelabs/risingwave/pull/24303)
 - `df0bd393ae5ac53a808c0dcf7cd5e36e7a298ed4` [fix(meta): cleanup dirty recovery hummock tables (#25592)](https://github.com/risingwavelabs/risingwave/pull/25592)
 - `a687977a1696c316589a2f4afabdd4fac2a4b1d8` [fix(binder): refine error message for ambiguous columns (#25546)](https://github.com/risingwavelabs/risingwave/pull/25546)
@@ -2766,22 +2771,4 @@
 - `0966224552c589a18c118f06cdaaa1959007a4dc` [refactor(storage): no default sstable info (#21845)](https://github.com/risingwavelabs/risingwave/pull/21845)
 
 ## nightly-20250513
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10a75d54b30af4d640f623eec0477d9c0d2c6ad4...c3c2962848dbb71ca2f65f9de63bc02a4ef70500)
 - `c3c2962848dbb71ca2f65f9de63bc02a4ef70500` [fix(test): include uncovered & remove useless misc e2e tests (#21828)](https://github.com/risingwavelabs/risingwave/pull/21828)
-- `148b4948b38cb89e680033c4106569bb6819398c` [refactor(meta): avoid using frontend generated `ColumnIndexMapping` when constructing new dispatcher for replacement (#21499)](https://github.com/risingwavelabs/risingwave/pull/21499)
-- `85fc9ef6122563231d0d366441bd797819b73d0b` [fix: do not expose the columns of table's associated source (#21842)](https://github.com/risingwavelabs/risingwave/pull/21842)
-- `bd177ef3555a1f462ea56227410a8af2a9aab76a` [feat(foyer): add config field to set file cache fifo probation ratio (#21841)](https://github.com/risingwavelabs/risingwave/pull/21841)
-- `3ee6c2463cea9a4513ee64590fb0c857f573b8a9` [chore(foyer): switch to foyer released version v0.17.1 (#21840)](https://github.com/risingwavelabs/risingwave/pull/21840)
-- `84a94936c04fe78f9b2e19218ec347a9e51f49b5` [fix(test): include uncovered streaming e2e tests (#21827)](https://github.com/risingwavelabs/risingwave/pull/21827)
-- `5a88db10650d3cd0720ff2940f13d6c6a1db3e1a` [fix: cherry-pick action report_status is not run (#21745)](https://github.com/risingwavelabs/risingwave/pull/21745)
-- `21becf438db2dbdb73b5410ff247c894db1fa2aa` [feat(foyer): skip disk cache write young populated entries (#21573)](https://github.com/risingwavelabs/risingwave/pull/21573)
-- `c6dfb1be1823b868946fd483ede745c846538572` [feat(storage): define vector read write trait (#21398)](https://github.com/risingwavelabs/risingwave/pull/21398)
-- `b30901f57dc4cf3001b1e1720ef60d7c49279703` [chore: remove ActorDispatcher table (#21816)](https://github.com/risingwavelabs/risingwave/pull/21816)
-- `0098ebe5f717fc85f572ae06c74ac0f7b42cadc3` [refactor(ci): move `pyarrow` from ci image to test scripts (#21804)](https://github.com/risingwavelabs/risingwave/pull/21804)
-- `8a81b77c3385d6acde507badca808390f563f8d1` [fix: change the source name associated with the table for the rename command (#21793)](https://github.com/risingwavelabs/risingwave/pull/21793)
-- `99065c7116d111b90e70664a6468f761b4d0935b` [refactor(sink): add feature flag for deltalake sink (#21786)](https://github.com/risingwavelabs/risingwave/pull/21786)
-- `77cb45429dbc3e1275dbe6cd12a106859c5160ff` [feat(compactor): introduce compactor mode for iceberg (#21818)](https://github.com/risingwavelabs/risingwave/pull/21818)
-- `d43a594327cd7ff4627ad37ee00a3a949a6cb9f8` [feat(sqlsmith): support generation of regexp_match table function (#21809)](https://github.com/risingwavelabs/risingwave/pull/21809)
-
-## nightly-20250511
-- `10a75d54b30af4d640f623eec0477d9c0d2c6ad4` [fix(ci): increase wait time for doris to be ready in `e2e-doris-sink` test (#21812)](https://github.com/risingwavelabs/risingwave/pull/21812)
