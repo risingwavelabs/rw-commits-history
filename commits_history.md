@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260512` `514dd3edb1474219d799bebf90e2c808fd6f7049`
 - `20260511` `6d101b4e2daf612bf99b310f4aa4bca29ee206b3`
 - `20260510` `d7cf5564836258608abb71603c607fb1ff1dbc76`
 - `20260507` `293841991c18bd27930049d91653892120833c4f`
@@ -290,6 +291,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a009fa5895092d8909202d46bf575460145a0d87` [chore(deps): Bump async-openai from 0.36.1 to 0.38.1 (#25618)](https://github.com/risingwavelabs/risingwave/pull/25618)
+- `3842ea9e1d396a4950817be211a3a58b202027ef` [fix(optimizer): fix expand operator for distinct agg (#25623)](https://github.com/risingwavelabs/risingwave/pull/25623)
+
+## nightly-20260512
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6d101b4e2daf612bf99b310f4aa4bca29ee206b3...514dd3edb1474219d799bebf90e2c808fd6f7049)
 - `514dd3edb1474219d799bebf90e2c808fd6f7049` [fix(jvm): exit compute node on embedded JVM OutOfMemoryError (#25625)](https://github.com/risingwavelabs/risingwave/pull/25625)
 - `10d97e0e72f854142a29c5d43311856eb53db34f` [fix(optimizer): fix split now or rule (#25626)](https://github.com/risingwavelabs/risingwave/pull/25626)
 - `05cb6806e4380f46657aefdbb2d46aed9ddd8cb1` [fix(stream): restore committed watermark by natural value (#25547)](https://github.com/risingwavelabs/risingwave/pull/25547)
