@@ -290,6 +290,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `514dd3edb1474219d799bebf90e2c808fd6f7049` [fix(jvm): exit compute node on embedded JVM OutOfMemoryError (#25625)](https://github.com/risingwavelabs/risingwave/pull/25625)
+- `10d97e0e72f854142a29c5d43311856eb53db34f` [fix(optimizer): fix split now or rule (#25626)](https://github.com/risingwavelabs/risingwave/pull/25626)
+- `05cb6806e4380f46657aefdbb2d46aed9ddd8cb1` [fix(stream): restore committed watermark by natural value (#25547)](https://github.com/risingwavelabs/risingwave/pull/25547)
+- `15c9aa208be2092e3d373090f328cd6f9fff48c4` [chore(deps): Bump next from 16.2.3 to 16.2.6 in /dashboard (#25616)](https://github.com/risingwavelabs/risingwave/pull/25616)
 - `9bf3a8e202ed17073355e576e52bc09d228eac4d` [chore(deps): bump openssl to 0.10.79 (#25615)](https://github.com/risingwavelabs/risingwave/pull/25615)
 - `7cc36b15419d19673b6ad990fd984e536aa027ae` [fix(frontend): wait checkpoint for implicit dml flush (#25518)](https://github.com/risingwavelabs/risingwave/pull/25518)
 - `60622e8a9dc07294a7f11045d84a5e6f98475ef5` [fix(iceberg): revert 25058 (#25614)](https://github.com/risingwavelabs/risingwave/pull/25614)
