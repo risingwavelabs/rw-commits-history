@@ -291,6 +291,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c067300eb3cf5bbe74133b56878c61c352d432cd` [fix(sqlserver-cdc): tolerate ill-formed UTF-16 in nvarchar/ntext payloads (#25596)](https://github.com/risingwavelabs/risingwave/pull/25596)
+- `2676c673897c76264926c8d69c9fa0e63fefc1b0` [feat(risedev): add local messaging and deltalake flows (#25432)](https://github.com/risingwavelabs/risingwave/pull/25432)
+- `ba6992bf1f144c475df1111af2aaea46d0a54e55` [fix(meta): skip missing drop jobs in barrier worker (#25634)](https://github.com/risingwavelabs/risingwave/pull/25634)
+- `7e6500eb024ef620aeba817df4040fa529167e03` [chore: update actions/checkout from v4 to v5 (#25579)](https://github.com/risingwavelabs/risingwave/pull/25579)
+- `86d4da9cc4ed9034c6943db58a3b2f4505e1eed6` [chore(deps): Bump hashbrown from 0.16.1 to 0.17.1 (#25621)](https://github.com/risingwavelabs/risingwave/pull/25621)
+- `f5b0196bae39eae2836f5746e84bc5ad6905203b` [chore(deps): Bump async-nats from 0.46.0 to 0.47.0 (#25227)](https://github.com/risingwavelabs/risingwave/pull/25227)
 - `a009fa5895092d8909202d46bf575460145a0d87` [chore(deps): Bump async-openai from 0.36.1 to 0.38.1 (#25618)](https://github.com/risingwavelabs/risingwave/pull/25618)
 - `3842ea9e1d396a4950817be211a3a58b202027ef` [fix(optimizer): fix expand operator for distinct agg (#25623)](https://github.com/risingwavelabs/risingwave/pull/25623)
 
