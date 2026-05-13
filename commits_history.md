@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260513` `c067300eb3cf5bbe74133b56878c61c352d432cd`
 - `20260512` `514dd3edb1474219d799bebf90e2c808fd6f7049`
 - `20260511` `6d101b4e2daf612bf99b310f4aa4bca29ee206b3`
 - `20260510` `d7cf5564836258608abb71603c607fb1ff1dbc76`
@@ -282,7 +283,6 @@
 - `20250516` `42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35`
 - `20250515` `699bb51ec2df2536f04ec7cd28c745ca91b7364a`
 - `20250514` `436277bfb5af5231b0ae93da2fab5b339ec70154`
-- `20250513` `c3c2962848dbb71ca2f65f9de63bc02a4ef70500`
 </details>
 
 # Commit history
@@ -291,6 +291,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ed7186a8277cec4cf44a090ce4b4a55295fc94c5` [fix: unify and simplify streaming parallelism configuration (#25050)](https://github.com/risingwavelabs/risingwave/pull/25050)
+
+## nightly-20260513
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/514dd3edb1474219d799bebf90e2c808fd6f7049...c067300eb3cf5bbe74133b56878c61c352d432cd)
 - `c067300eb3cf5bbe74133b56878c61c352d432cd` [fix(sqlserver-cdc): tolerate ill-formed UTF-16 in nvarchar/ntext payloads (#25596)](https://github.com/risingwavelabs/risingwave/pull/25596)
 - `2676c673897c76264926c8d69c9fa0e63fefc1b0` [feat(risedev): add local messaging and deltalake flows (#25432)](https://github.com/risingwavelabs/risingwave/pull/25432)
 - `ba6992bf1f144c475df1111af2aaea46d0a54e55` [fix(meta): skip missing drop jobs in barrier worker (#25634)](https://github.com/risingwavelabs/risingwave/pull/25634)
@@ -2772,19 +2776,4 @@
 - `8862750ad2fcca3736c9676a5f8875fd705d62bc` [chore(deps): Bump petgraph from 0.6.5 to 0.7.1 (#21876)](https://github.com/risingwavelabs/risingwave/pull/21876)
 
 ## nightly-20250514
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c3c2962848dbb71ca2f65f9de63bc02a4ef70500...436277bfb5af5231b0ae93da2fab5b339ec70154)
 - `436277bfb5af5231b0ae93da2fab5b339ec70154` [feat(compaction): introduce iceberg compaction pull strategy (#21824)](https://github.com/risingwavelabs/risingwave/pull/21824)
-- `f5f725051bfea644dc4fe1fda8264854f702de6a` [fix(ci): CI_STEPS regex shall not require leading space  (#21867)](https://github.com/risingwavelabs/risingwave/pull/21867)
-- `8c77e05adbe18521f59a11517ded41390607c829` [chore(deps): Bump deltalake from 0.24 to 0.26 (#21860)](https://github.com/risingwavelabs/risingwave/pull/21860)
-- `76175590b64cd00900e56773642474aa8031eed0` [refactor: unify `hummock+memory` with `hummock+memory-shared` & fix compactor service in playground (#21847)](https://github.com/risingwavelabs/risingwave/pull/21847)
-- `c4b96e13fcab4c6852fbdc8ad6bd035f469d9d80` [fix(foyer): fix wrong disk cache result on hash collision (#21864)](https://github.com/risingwavelabs/risingwave/pull/21864)
-- `832d48a5d2907b44f1d8e27dba872702f2dcb48c` [fix(ci): fix container name conflict (#21850)](https://github.com/risingwavelabs/risingwave/pull/21850)
-- `358287b5de2762551ff29622b76597b8e6c372e2` [fix(iceberg): fix delete file lost wake (#21848)](https://github.com/risingwavelabs/risingwave/pull/21848)
-- `e2824e04dfc2fc8e775a46be5b13c9e8631c928e` [feat(storage): implement in memory FLAT vector index (#21399)](https://github.com/risingwavelabs/risingwave/pull/21399)
-- `ce8e8375dc1929eeed710896199cebef6bf12541` [refactor(storage): strong typed hummock sstable and object id (#21839)](https://github.com/risingwavelabs/risingwave/pull/21839)
-- `38449023136a19ed67ad4c605769a1a23e1e4f6a` [fix(frontend): do not purify SQL definition for CDC sources (#21521)](https://github.com/risingwavelabs/risingwave/pull/21521)
-- `8248033b8ffa25cdb8d244ce4ce57e5abf69579a` [chore(deps): Bump fixedbitset from 0.5.0 to 0.5.7 (#21853)](https://github.com/risingwavelabs/risingwave/pull/21853)
-- `0966224552c589a18c118f06cdaaa1959007a4dc` [refactor(storage): no default sstable info (#21845)](https://github.com/risingwavelabs/risingwave/pull/21845)
-
-## nightly-20250513
-- `c3c2962848dbb71ca2f65f9de63bc02a4ef70500` [fix(test): include uncovered & remove useless misc e2e tests (#21828)](https://github.com/risingwavelabs/risingwave/pull/21828)
