@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260514` `f5d42552611e9ac861118be86eafdb5fc61cc7b9`
 - `20260513` `c067300eb3cf5bbe74133b56878c61c352d432cd`
 - `20260512` `514dd3edb1474219d799bebf90e2c808fd6f7049`
 - `20260511` `6d101b4e2daf612bf99b310f4aa4bca29ee206b3`
@@ -291,6 +292,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7b1b967674ead6219110fc6715987c5e0f1fd067` [fix(meta): keep failed foreground DDL tables fetchable (#25647)](https://github.com/risingwavelabs/risingwave/pull/25647)
+- `2fb2cda798d192b0c4d2cf788c9364a91feeb3a2` [feat(stream): change sink default parallelism to bounded 8 (#25660)](https://github.com/risingwavelabs/risingwave/pull/25660)
+
+## nightly-20260514
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c067300eb3cf5bbe74133b56878c61c352d432cd...f5d42552611e9ac861118be86eafdb5fc61cc7b9)
 - `f5d42552611e9ac861118be86eafdb5fc61cc7b9` [fix(meta): clean up compaction group metrics (#25553)](https://github.com/risingwavelabs/risingwave/pull/25553)
 - `ed7186a8277cec4cf44a090ce4b4a55295fc94c5` [fix: unify and simplify streaming parallelism configuration (#25050)](https://github.com/risingwavelabs/risingwave/pull/25050)
 
