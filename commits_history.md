@@ -291,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f5d42552611e9ac861118be86eafdb5fc61cc7b9` [fix(meta): clean up compaction group metrics (#25553)](https://github.com/risingwavelabs/risingwave/pull/25553)
 - `ed7186a8277cec4cf44a090ce4b4a55295fc94c5` [fix: unify and simplify streaming parallelism configuration (#25050)](https://github.com/risingwavelabs/risingwave/pull/25050)
 
 ## nightly-20260513
