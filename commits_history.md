@@ -283,7 +283,6 @@
 - `20250518` `e247fa90a7913cd3e2c9ad664b3d258b82e44d86`
 - `20250516` `42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35`
 - `20250515` `699bb51ec2df2536f04ec7cd28c745ca91b7364a`
-- `20250514` `436277bfb5af5231b0ae93da2fab5b339ec70154`
 </details>
 
 # Commit history
@@ -292,6 +291,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6a58121ac37ef51356caa408df994e04b0438e33` [feat(connector): expose Pulsar source operation retry controls (#25467)](https://github.com/risingwavelabs/risingwave/pull/25467)
+- `506587904fb6cb78b4e7ac1b4546838c7a8fb3e4` [chore(docs): clarify adaptive parallelism migration note (#25661)](https://github.com/risingwavelabs/risingwave/pull/25661)
+- `4339a18e94578ed4fe0b46744a05b2f04f1c4e14` [feat(expr): support array overlap predicates (#25597)](https://github.com/risingwavelabs/risingwave/pull/25597)
+- `68149cde811a90fdcb897a6d54300ada844144c8` [feat: disable bloom filter for kv log store tables (#25180)](https://github.com/risingwavelabs/risingwave/pull/25180)
+- `a7ec0e930332824c3f3fcf683dc76725c87401fa` [fix(frontend): harden SHOW object visibility (#25585)](https://github.com/risingwavelabs/risingwave/pull/25585)
+- `ced19f0fff9b5ae70d87b2a51b871b703a611049` [fix(optimizer): normalize arithmetic rank predicates for over-window … (#25608)](https://github.com/risingwavelabs/risingwave/pull/25608)
+- `6fa3a2548c8e52fc706bd85485b6f860eb0a8081` [fix(iceberg): prevent stuck state on empty tasks in fetch executor (#25538)](https://github.com/risingwavelabs/risingwave/pull/25538)
+- `f41df019df196be902dafff0fe5497fe402b7833` [fix(grafana): stop labeling streaming tables as mviews (#25670)](https://github.com/risingwavelabs/risingwave/pull/25670)
 - `7b1b967674ead6219110fc6715987c5e0f1fd067` [fix(meta): keep failed foreground DDL tables fetchable (#25647)](https://github.com/risingwavelabs/risingwave/pull/25647)
 - `2fb2cda798d192b0c4d2cf788c9364a91feeb3a2` [feat(stream): change sink default parallelism to bounded 8 (#25660)](https://github.com/risingwavelabs/risingwave/pull/25660)
 
@@ -2772,15 +2779,4 @@
 - `7863c524295eed1a209280ad82db54c8ccd29b81` [refactor(storage): support GC on multiple object types and suffixs (#21881)](https://github.com/risingwavelabs/risingwave/pull/21881)
 
 ## nightly-20250515
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/436277bfb5af5231b0ae93da2fab5b339ec70154...699bb51ec2df2536f04ec7cd28c745ca91b7364a)
 - `699bb51ec2df2536f04ec7cd28c745ca91b7364a` [chore(deps): tighten range to avoid downgrading to vulnerable versions (#21882)](https://github.com/risingwavelabs/risingwave/pull/21882)
-- `08853b28c969fdd5c314b540ed5f0ac2b94691df` [fix(optimizer): fix join reorder for temporal join (#21858)](https://github.com/risingwavelabs/risingwave/pull/21858)
-- `ab87cbcbaeb6621b5d8b0894d23d1ff763069687` [fix: fix several bugs when trying to enable recovery for sink into table and replace table (#21872)](https://github.com/risingwavelabs/risingwave/pull/21872)
-- `efe74766c105c15b703ce0f1b0f3e64d97cbf2d8` [feat(frontend): plan backfill order strategy after the planner phase, instead of binding phase (#21813)](https://github.com/risingwavelabs/risingwave/pull/21813)
-- `f1e48e02886f0b1d76a0cb965bce681c97b3880e` [chore(deps): Bump protox from 0.7.2 to 0.8.0 (#21740)](https://github.com/risingwavelabs/risingwave/pull/21740)
-- `ec003ff0fb38eb3f069e7c10320a4223274c5176` [chore(deps): Bump rustls-pki-types from 1.11.0 to 1.12.0 (#21766)](https://github.com/risingwavelabs/risingwave/pull/21766)
-- `b34ead99cea83cf861952bba326ca2c1bff2efe0` [feat(frontend): support batch scan on datagen source (#21869)](https://github.com/risingwavelabs/risingwave/pull/21869)
-- `8862750ad2fcca3736c9676a5f8875fd705d62bc` [chore(deps): Bump petgraph from 0.6.5 to 0.7.1 (#21876)](https://github.com/risingwavelabs/risingwave/pull/21876)
-
-## nightly-20250514
-- `436277bfb5af5231b0ae93da2fab5b339ec70154` [feat(compaction): introduce iceberg compaction pull strategy (#21824)](https://github.com/risingwavelabs/risingwave/pull/21824)
