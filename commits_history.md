@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260516` `4fe087282ec919cf723523b47e2cd162514a14ae`
 - `20260515` `6a58121ac37ef51356caa408df994e04b0438e33`
 - `20260514` `f5d42552611e9ac861118be86eafdb5fc61cc7b9`
 - `20260513` `c067300eb3cf5bbe74133b56878c61c352d432cd`
@@ -282,7 +283,6 @@
 - `20250520` `fefcc3fb7dc970690a714e9526904837b945f8c4`
 - `20250519` `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec`
 - `20250518` `e247fa90a7913cd3e2c9ad664b3d258b82e44d86`
-- `20250516` `42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35`
 </details>
 
 # Commit history
@@ -291,6 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260516
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a58121ac37ef51356caa408df994e04b0438e33...4fe087282ec919cf723523b47e2cd162514a14ae)
 - `4fe087282ec919cf723523b47e2cd162514a14ae` [feat(frontend): support ALTER WATERMARK for live tables (#25651)](https://github.com/risingwavelabs/risingwave/pull/25651)
 - `e3ac3039d0562d2d26d423b68e9df170943b422e` [feat(optimizer): support column pruning for expand (#25648)](https://github.com/risingwavelabs/risingwave/pull/25648)
 
@@ -2772,8 +2775,4 @@
 - `c6396c2d5e60ad15c21ad9f7d0782c77da6e8c4a` [feat(frontend): auto derive backfill order (#21814)](https://github.com/risingwavelabs/risingwave/pull/21814)
 
 ## nightly-20250518
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35...e247fa90a7913cd3e2c9ad664b3d258b82e44d86)
 - `e247fa90a7913cd3e2c9ad664b3d258b82e44d86` [fix(cdc): support Money type in sqlserver cdc correctly (#21829)](https://github.com/risingwavelabs/risingwave/pull/21829)
-
-## nightly-20250516
-- `42978a5aea74bcb0f154e9fdd4fdd2660c6ddf35` [fix(iceberg): fix duplicated iceberg all files (#21783)](https://github.com/risingwavelabs/risingwave/pull/21783)
