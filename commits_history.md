@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260516` `4fe087282ec919cf723523b47e2cd162514a14ae`
+- `20260517` `4fe087282ec919cf723523b47e2cd162514a14ae`
 - `20260515` `6a58121ac37ef51356caa408df994e04b0438e33`
 - `20260514` `f5d42552611e9ac861118be86eafdb5fc61cc7b9`
 - `20260513` `c067300eb3cf5bbe74133b56878c61c352d432cd`
@@ -292,7 +292,7 @@
 
 ## Unreleased
 
-## nightly-20260516
+## nightly-20260517
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a58121ac37ef51356caa408df994e04b0438e33...4fe087282ec919cf723523b47e2cd162514a14ae)
 - `4fe087282ec919cf723523b47e2cd162514a14ae` [feat(frontend): support ALTER WATERMARK for live tables (#25651)](https://github.com/risingwavelabs/risingwave/pull/25651)
 - `e3ac3039d0562d2d26d423b68e9df170943b422e` [feat(optimizer): support column pruning for expand (#25648)](https://github.com/risingwavelabs/risingwave/pull/25648)
