@@ -283,7 +283,6 @@
 - `20250521` `e21f5b3035d325560bd986dfca9514a498288e2e`
 - `20250520` `fefcc3fb7dc970690a714e9526904837b945f8c4`
 - `20250519` `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec`
-- `20250518` `e247fa90a7913cd3e2c9ad664b3d258b82e44d86`
 </details>
 
 # Commit history
@@ -292,6 +291,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `baf18476aa14ffef8a826cc3b5da287395111d71` [feat(iceberg): default snapshot expiration (#25700)](https://github.com/risingwavelabs/risingwave/pull/25700)
 
 ## nightly-20260518
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fe087282ec919cf723523b47e2cd162514a14ae...41b7fd4c10e88c2df43c41e8038082375223bb38)
@@ -2778,12 +2778,4 @@
 - `f4f9bac5265fda676866639995f720496cb847b9` [refactor(dashboard): use graphviz-wasm to visualize the dot output instead (#21918)](https://github.com/risingwavelabs/risingwave/pull/21918)
 
 ## nightly-20250519
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e247fa90a7913cd3e2c9ad664b3d258b82e44d86...f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec)
 - `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec` [fix(iceberg): fix CDC table with iceberg engine (#21901)](https://github.com/risingwavelabs/risingwave/pull/21901)
-- `f288e76741dec406b0cd167ae1412617a35af52c` [fix(cursor): fix cursor schema error (#21776)](https://github.com/risingwavelabs/risingwave/pull/21776)
-- `17d27981ffbb06a67ed43b8256287fbfbbe3c21a` [feat: add some check for iceberg source to prevent unexpected behavior (#21851)](https://github.com/risingwavelabs/risingwave/pull/21851)
-- `7ce4b5494c17c37559fcbe8b01937ed75566acf1` [refactor(frontend,proto): remove unused `auto` variant for backfill order strategy (#21831)](https://github.com/risingwavelabs/risingwave/pull/21831)
-- `c6396c2d5e60ad15c21ad9f7d0782c77da6e8c4a` [feat(frontend): auto derive backfill order (#21814)](https://github.com/risingwavelabs/risingwave/pull/21814)
-
-## nightly-20250518
-- `e247fa90a7913cd3e2c9ad664b3d258b82e44d86` [fix(cdc): support Money type in sqlserver cdc correctly (#21829)](https://github.com/risingwavelabs/risingwave/pull/21829)
