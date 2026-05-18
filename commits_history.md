@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260518` `41b7fd4c10e88c2df43c41e8038082375223bb38`
 - `20260517` `4fe087282ec919cf723523b47e2cd162514a14ae`
 - `20260515` `6a58121ac37ef51356caa408df994e04b0438e33`
 - `20260514` `f5d42552611e9ac861118be86eafdb5fc61cc7b9`
@@ -291,6 +292,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260518
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4fe087282ec919cf723523b47e2cd162514a14ae...41b7fd4c10e88c2df43c41e8038082375223bb38)
+- `41b7fd4c10e88c2df43c41e8038082375223bb38` [fix(frontend): avoid comparing order subqueries (#25686)](https://github.com/risingwavelabs/risingwave/pull/25686)
+- `8017a78c7e11907c1dd2a26ed5dfe35b9cae9bd8` [fix(frontend): disable unused prefix bloom hints (#25672)](https://github.com/risingwavelabs/risingwave/pull/25672)
+- `a307bd19fc5e667763a37b2886196e1a14d6f609` [fix(meta): skip recovered pending sink epochs (#25690)](https://github.com/risingwavelabs/risingwave/pull/25690)
+- `1e901357ebcc19ddddecedc1b2b2085044c97563` [feat(frontend): keep sync log store node at fragment root (#25663)](https://github.com/risingwavelabs/risingwave/pull/25663)
+- `a296f1e6aa208a1beac0da820346ea48c98f9c42` [fix(frontend): handle avg over empty window frame (#25675)](https://github.com/risingwavelabs/risingwave/pull/25675)
+- `d7d511b7652ada236142341d354710ea7e6d4c54` [ci: use CI token for bump main PRs (#25683)](https://github.com/risingwavelabs/risingwave/pull/25683)
+- `608ed2077ce9ce4b58a0b16ea293c763f758a5bf` [chore: bump main branch version to 3.1.0-alpha (#25678)](https://github.com/risingwavelabs/risingwave/pull/25678)
 
 ## nightly-20260517
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a58121ac37ef51356caa408df994e04b0438e33...4fe087282ec919cf723523b47e2cd162514a14ae)
