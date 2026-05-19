@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260519` `43f07e74cde6d051e82f79f538048c6e1d173fe0`
 - `20260518` `41b7fd4c10e88c2df43c41e8038082375223bb38`
 - `20260517` `4fe087282ec919cf723523b47e2cd162514a14ae`
 - `20260515` `6a58121ac37ef51356caa408df994e04b0438e33`
@@ -291,6 +292,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260519
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/41b7fd4c10e88c2df43c41e8038082375223bb38...43f07e74cde6d051e82f79f538048c6e1d173fe0)
+- `43f07e74cde6d051e82f79f538048c6e1d173fe0` [feat(meta): support consuming snapshot of batch refreshable job (meta part) (#25251)](https://github.com/risingwavelabs/risingwave/pull/25251)
+- `dfa0618f6940d9b467b12140cc20b75f5e1b982b` [refactor(storage): reuse block meta keys in xor filter reader (#25706)](https://github.com/risingwavelabs/risingwave/pull/25706)
+- `1a8ef4ddf9729cd7fab0384b5fe009d90421836a` [ci: fix main-cron sink and opendal failures (#25695)](https://github.com/risingwavelabs/risingwave/pull/25695)
+- `a72d4c2a59ff403c4e1c22d143bd639208910070` [feat(stream): support predicate pushdown for snapshot backfill (#25188)](https://github.com/risingwavelabs/risingwave/pull/25188)
+- `feb8d92706d2ab6c727d9622d4335c039bd78ad8` [feat: support alter compaction group config via sql (#24346)](https://github.com/risingwavelabs/risingwave/pull/24346)
+- `3733b75e09c7600c0b4f1c6855a8135f5c9e22a7` [test(source): regression test for parquet file source with non-parquet objects (#25692)](https://github.com/risingwavelabs/risingwave/pull/25692)
+- `895b9237f94640fba4b54b5dda7ecae27ecc429d` [refactor(streaming): replace BatchTable with ReplicatedStateTable in temporal join (#25319)](https://github.com/risingwavelabs/risingwave/pull/25319)
 - `baf18476aa14ffef8a826cc3b5da287395111d71` [feat(iceberg): default snapshot expiration (#25700)](https://github.com/risingwavelabs/risingwave/pull/25700)
 
 ## nightly-20260518
