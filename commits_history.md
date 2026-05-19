@@ -283,7 +283,6 @@
 - `20250522` `f739dd3b1da3b7df68c90bd491e520797d2c0e3f`
 - `20250521` `e21f5b3035d325560bd986dfca9514a498288e2e`
 - `20250520` `fefcc3fb7dc970690a714e9526904837b945f8c4`
-- `20250519` `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec`
 </details>
 
 # Commit history
@@ -2777,16 +2776,4 @@
 - `cfa40efe8eec78017b3d6fe71a7cac9af6846b29` [feat: show backtrace from iceberg::Error by introducing a newtype (#21919)](https://github.com/risingwavelabs/risingwave/pull/21919)
 
 ## nightly-20250520
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec...fefcc3fb7dc970690a714e9526904837b945f8c4)
 - `fefcc3fb7dc970690a714e9526904837b945f8c4` [chore(deps): Bump async-nats from 0.40.0 to 0.41.0 (#21890)](https://github.com/risingwavelabs/risingwave/pull/21890)
-- `dc6e70058b23995ed18adabe2c25803435b2283d` [refactor(frontend): reuse `resolve_secret_refs_inner` (#21928)](https://github.com/risingwavelabs/risingwave/pull/21928)
-- `4c7e17d808719a863e8d436d534e23f7c2db0539` [feat(sqlsmith): support decoupling weights from generators (#21873)](https://github.com/risingwavelabs/risingwave/pull/21873)
-- `e3ef5fba98952d12e0c53b1097c83af37e7d1a8b` [feat(frontend): support `explain(backfill, format dot)` (#21838)](https://github.com/risingwavelabs/risingwave/pull/21838)
-- `40e9e2a36751352b465f052c301b09522ef47aa4` [feat(iceberg): add await tree instrument for iceberg sink (#21926)](https://github.com/risingwavelabs/risingwave/pull/21926)
-- `fd2e5bd0bb2ef726c0d56f7382ea68aa6d43e3cc` [feat(dashboard): add hidden cluster variable to hint query over promxy (#21735)](https://github.com/risingwavelabs/risingwave/pull/21735)
-- `95d7e237ed7e51024c330755a1d90aa65838dc39` [refactor(dashboard): remove react-syntax-highlighter (#21920)](https://github.com/risingwavelabs/risingwave/pull/21920)
-- `d24ef0fbe7478b4831388160f5593cea608aff18` [chore(deps): Bump crate-ci/typos from 1.31.2 to 1.32.0 (#21715)](https://github.com/risingwavelabs/risingwave/pull/21715)
-- `f4f9bac5265fda676866639995f720496cb847b9` [refactor(dashboard): use graphviz-wasm to visualize the dot output instead (#21918)](https://github.com/risingwavelabs/risingwave/pull/21918)
-
-## nightly-20250519
-- `f4eab9a9ed2b8b627d3e9ce4b9ec3f2a6638e3ec` [fix(iceberg): fix CDC table with iceberg engine (#21901)](https://github.com/risingwavelabs/risingwave/pull/21901)
