@@ -291,6 +291,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `219353848fb635eabe895cf086a2e204a87dbb43` [ci: wait for elasticsearch health in sink test (#25720)](https://github.com/risingwavelabs/risingwave/pull/25720)
+- `f786754c88270bf7d9f242e9d241c35205b30e1e` [fix(iceberg): revert snapshot expiration defaults (#25723)](https://github.com/risingwavelabs/risingwave/pull/25723)
+- `3f817f3d28892cca738251249ed513dffb801a10` [test(source): deduplicate connector e2e coverage (#25719)](https://github.com/risingwavelabs/risingwave/pull/25719)
+- `941ec0010ff2ab8d3dcaedc8b175a1d7b6957083` [feat(frontend): support consuming snapshot of batch refreshable job (frontend part) (#25093)](https://github.com/risingwavelabs/risingwave/pull/25093)
+- `13736449896e9f7ecb2032f08df5f613f16e0bf9` [feat(connector): allow altering Kafka SSL configs on the fly (#25717)](https://github.com/risingwavelabs/risingwave/pull/25717)
+- `8570086f6b1a11aa26329014e824cdb048e295b6` [feat(cdc): allow alter `debezium.heartbeat.interval.ms` for Postgres CDC (#25711)](https://github.com/risingwavelabs/risingwave/pull/25711)
+- `4c446e0a67cb2ce48111f413a719c1d1c169b551` [refactor(cdc): ban directly creating CDC tables from upstream database (#25682)](https://github.com/risingwavelabs/risingwave/pull/25682)
+- `dc48e592c644e02b4aa11c7b849b2b7571f88292` [feat(frontend): log SQL for extended protocol (#25702)](https://github.com/risingwavelabs/risingwave/pull/25702)
 
 ## nightly-20260519
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/41b7fd4c10e88c2df43c41e8038082375223bb38...43f07e74cde6d051e82f79f538048c6e1d173fe0)
