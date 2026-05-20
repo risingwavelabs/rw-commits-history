@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260520` `f786754c88270bf7d9f242e9d241c35205b30e1e`
 - `20260519` `43f07e74cde6d051e82f79f538048c6e1d173fe0`
 - `20260518` `41b7fd4c10e88c2df43c41e8038082375223bb38`
 - `20260517` `4fe087282ec919cf723523b47e2cd162514a14ae`
@@ -282,7 +283,6 @@
 - `20250523` `44fd186bf03b8cfd27469d119fa6fcaa153274e5`
 - `20250522` `f739dd3b1da3b7df68c90bd491e520797d2c0e3f`
 - `20250521` `e21f5b3035d325560bd986dfca9514a498288e2e`
-- `20250520` `fefcc3fb7dc970690a714e9526904837b945f8c4`
 </details>
 
 # Commit history
@@ -291,7 +291,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f7d27be3b1a454fa41762e65f6b2891e92dbec07` [refactor(storage): deprecate merge_imm and simplify imm struct (#24561)](https://github.com/risingwavelabs/risingwave/pull/24561)
+- `572e3d5ee83fc2c7d8ec37aa81b07adb1161296c` [ci: add autoupdate rebase workflow (#25685)](https://github.com/risingwavelabs/risingwave/pull/25685)
 - `219353848fb635eabe895cf086a2e204a87dbb43` [ci: wait for elasticsearch health in sink test (#25720)](https://github.com/risingwavelabs/risingwave/pull/25720)
+
+## nightly-20260520
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/43f07e74cde6d051e82f79f538048c6e1d173fe0...f786754c88270bf7d9f242e9d241c35205b30e1e)
 - `f786754c88270bf7d9f242e9d241c35205b30e1e` [fix(iceberg): revert snapshot expiration defaults (#25723)](https://github.com/risingwavelabs/risingwave/pull/25723)
 - `3f817f3d28892cca738251249ed513dffb801a10` [test(source): deduplicate connector e2e coverage (#25719)](https://github.com/risingwavelabs/risingwave/pull/25719)
 - `941ec0010ff2ab8d3dcaedc8b175a1d7b6957083` [feat(frontend): support consuming snapshot of batch refreshable job (frontend part) (#25093)](https://github.com/risingwavelabs/risingwave/pull/25093)
@@ -2769,19 +2774,4 @@
 - `bdb0d4b2f30151d623d32ac67f9bb81d5ade729f` [fix(storage): correctly apply committed table watermark (#21946)](https://github.com/risingwavelabs/risingwave/pull/21946)
 
 ## nightly-20250521
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fefcc3fb7dc970690a714e9526904837b945f8c4...e21f5b3035d325560bd986dfca9514a498288e2e)
 - `e21f5b3035d325560bd986dfca9514a498288e2e` [fix(iceberg): bump poetry setuptools to 78.1.1 (#21942)](https://github.com/risingwavelabs/risingwave/pull/21942)
-- `ca9474b076c8568be647ceb1d60db2ddd628743f` [feat: support partition by for iceberg table engine (#21594)](https://github.com/risingwavelabs/risingwave/pull/21594)
-- `2ed2350572d4dd516c97f5913acb0b0d62e75c0d` [feat(storage): filter out GC objects by listing time travel versions and deltas (#21916)](https://github.com/risingwavelabs/risingwave/pull/21916)
-- `cfd333361a4eb6a2bf4da65f28048720a3caeeb1` [fix: fix validate_integrity bug (#21936)](https://github.com/risingwavelabs/risingwave/pull/21936)
-- `559afda3219ed03ee0aa21846e48d04298c45fa5` [feat(iceberg): support interval type for iceberg engine (#21802)](https://github.com/risingwavelabs/risingwave/pull/21802)
-- `591ff0a0d154ba26ee2408bc32d77aa38aa66b75` [fix: include exactly_once_iceberg_sink metadata in metadata backup (#21939)](https://github.com/risingwavelabs/risingwave/pull/21939)
-- `436862f37b0963302af25d21913f7f06866fc6bc` [feat(iceberg): refine enable config load for iceberg (#21938)](https://github.com/risingwavelabs/risingwave/pull/21938)
-- `024e4226bb2a55eb6ef19ec6c19348bb5a3b158d` [chore(deps): update iceberg-rust version (#21935)](https://github.com/risingwavelabs/risingwave/pull/21935)
-- `f371f161aa725e75cd9a9f6acbc538fa32560488` [refactor(meta): generate general hummock object id on meta (#21923)](https://github.com/risingwavelabs/risingwave/pull/21923)
-- `d0240762a3144b49bbc6110f8ef69450c7ffa965` [fix: make batch scan adhere to runtime param batch_parallelism (#21886)](https://github.com/risingwavelabs/risingwave/pull/21886)
-- `2510e939f7cfa0599e86d0a4305d92ef3e10c04c` [chore(deps): Bump petgraph from 0.7.1 to 0.8.1 (#21889)](https://github.com/risingwavelabs/risingwave/pull/21889)
-- `cfa40efe8eec78017b3d6fe71a7cac9af6846b29` [feat: show backtrace from iceberg::Error by introducing a newtype (#21919)](https://github.com/risingwavelabs/risingwave/pull/21919)
-
-## nightly-20250520
-- `fefcc3fb7dc970690a714e9526904837b945f8c4` [chore(deps): Bump async-nats from 0.40.0 to 0.41.0 (#21890)](https://github.com/risingwavelabs/risingwave/pull/21890)
