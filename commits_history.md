@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260521` `3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db`
 - `20260520` `f786754c88270bf7d9f242e9d241c35205b30e1e`
 - `20260519` `43f07e74cde6d051e82f79f538048c6e1d173fe0`
 - `20260518` `41b7fd4c10e88c2df43c41e8038082375223bb38`
@@ -282,7 +283,6 @@
 - `20250525` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
 - `20250523` `44fd186bf03b8cfd27469d119fa6fcaa153274e5`
 - `20250522` `f739dd3b1da3b7df68c90bd491e520797d2c0e3f`
-- `20250521` `e21f5b3035d325560bd986dfca9514a498288e2e`
 </details>
 
 # Commit history
@@ -291,6 +291,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d95a087c606aee6a34787d265860edd9927e339b` [feat(sink): support dynamic URL for HTTP sink (#25699)](https://github.com/risingwavelabs/risingwave/pull/25699)
+- `12d2b163ae7c3b35fff5491533a5838f76fde7c0` [chore(deps): pin `serde_json < 1.0.147` to prevent breaking change (#25739)](https://github.com/risingwavelabs/risingwave/pull/25739)
+
+## nightly-20260521
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f786754c88270bf7d9f242e9d241c35205b30e1e...3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db)
 - `3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db` [chore(deps): Bump serial_test from 3.3.1 to 3.4.0 (#24841)](https://github.com/risingwavelabs/risingwave/pull/24841)
 - `64acf69b5e12aa4e3273976b6c3f291a4aaf83a6` [chore(deps): Bump aws-sdk-sso from 1.87.0 to 1.98.0 (#25482)](https://github.com/risingwavelabs/risingwave/pull/25482)
 - `32e099ed6239bf10a12621b6d3fbcd383a3e79e9` [chore(deps): Bump rand from 0.8.5 to 0.8.6 in /integration_tests/feature-store/simulator (#25455)](https://github.com/risingwavelabs/risingwave/pull/25455)
@@ -2778,11 +2783,4 @@
 - `0dfc325c389d41dec7910a1981652f56ca55ea9e` [chore: update docker image to v2.4.0 (#21954)](https://github.com/risingwavelabs/risingwave/pull/21954)
 
 ## nightly-20250522
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e21f5b3035d325560bd986dfca9514a498288e2e...f739dd3b1da3b7df68c90bd491e520797d2c0e3f)
 - `f739dd3b1da3b7df68c90bd491e520797d2c0e3f` [fix(iceberg): dropping database and dropping source cascade with iceberg tables. (#21957)](https://github.com/risingwavelabs/risingwave/pull/21957)
-- `611266eabadd07bf7b995288701e40e5e132ed71` [refactor: minor cleanup for drop cascade (#21959)](https://github.com/risingwavelabs/risingwave/pull/21959)
-- `a789fea62daa4c04e884a6ca6f5165ed7eb0a55a` [fix(foyer): bump foyer to v0.17.3 to fix hasher (#21958)](https://github.com/risingwavelabs/risingwave/pull/21958)
-- `bdb0d4b2f30151d623d32ac67f9bb81d5ade729f` [fix(storage): correctly apply committed table watermark (#21946)](https://github.com/risingwavelabs/risingwave/pull/21946)
-
-## nightly-20250521
-- `e21f5b3035d325560bd986dfca9514a498288e2e` [fix(iceberg): bump poetry setuptools to 78.1.1 (#21942)](https://github.com/risingwavelabs/risingwave/pull/21942)
