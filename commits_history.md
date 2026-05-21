@@ -291,6 +291,17 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db` [chore(deps): Bump serial_test from 3.3.1 to 3.4.0 (#24841)](https://github.com/risingwavelabs/risingwave/pull/24841)
+- `64acf69b5e12aa4e3273976b6c3f291a4aaf83a6` [chore(deps): Bump aws-sdk-sso from 1.87.0 to 1.98.0 (#25482)](https://github.com/risingwavelabs/risingwave/pull/25482)
+- `32e099ed6239bf10a12621b6d3fbcd383a3e79e9` [chore(deps): Bump rand from 0.8.5 to 0.8.6 in /integration_tests/feature-store/simulator (#25455)](https://github.com/risingwavelabs/risingwave/pull/25455)
+- `0b829fe514068e98257ce7a8d7ac2d45ebb865db` [fix(cdc): use shared source in direct offset injection test (#25736)](https://github.com/risingwavelabs/risingwave/pull/25736)
+- `779ccc93e45a462cbc6387a060872e93d246cc73` [chore(deps): Bump comfy-table from 7.1.2 to 7.2.2 (#25023)](https://github.com/risingwavelabs/risingwave/pull/25023)
+- `32127f579d98e6bdd53d7547a483c21d744ef257` [ci: reduce skipped auto-update rebase runs (#25735)](https://github.com/risingwavelabs/risingwave/pull/25735)
+- `ecb14de75d0a6cf5271c8c498e9a821060513c6b` [chore(deps): Bump tinyvec from 1.10.0 to 1.11.0 (#25084)](https://github.com/risingwavelabs/risingwave/pull/25084)
+- `a874438c903db29fdc90424474167ca21bfdd98a` [chore(deps): Bump fs-err from 3.2.2 to 3.3.0 (#24760)](https://github.com/risingwavelabs/risingwave/pull/24760)
+- `944ad8f92c381af611327b37f1c24e0948f47c76` [chore(deps): Bump bytes from 1.5.0 to 1.11.1 in /integration_tests/feature-store/simulator (#24700)](https://github.com/risingwavelabs/risingwave/pull/24700)
+- `a21690478262d6efc23b3195b01f942140f3f1a2` [chore(deps): Bump wasmtime from 36.0.7 to 36.0.9 (#25602)](https://github.com/risingwavelabs/risingwave/pull/25602)
+- `1d6f858e5ccc165ef17b34d3fe32e6b1a29bf62d` [chore(deps): Bump openssl from 0.10.79 to 0.10.80 (#25731)](https://github.com/risingwavelabs/risingwave/pull/25731)
 - `f7d27be3b1a454fa41762e65f6b2891e92dbec07` [refactor(storage): deprecate merge_imm and simplify imm struct (#24561)](https://github.com/risingwavelabs/risingwave/pull/24561)
 - `572e3d5ee83fc2c7d8ec37aa81b07adb1161296c` [ci: add autoupdate rebase workflow (#25685)](https://github.com/risingwavelabs/risingwave/pull/25685)
 - `219353848fb635eabe895cf086a2e204a87dbb43` [ci: wait for elasticsearch health in sink test (#25720)](https://github.com/risingwavelabs/risingwave/pull/25720)
