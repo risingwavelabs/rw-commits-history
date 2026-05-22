@@ -291,6 +291,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ce867ec2e27fd7a378230bac8ae5f673a2d72892` [fix(cdc): support quoted Postgres table names (#25742)](https://github.com/risingwavelabs/risingwave/pull/25742)
+- `cd719aff274b51ff90e651879cf1a28881591e21` [fix(iceberg): seperate iceberg snapshot expiration and compaction trigger (#25749)](https://github.com/risingwavelabs/risingwave/pull/25749)
+- `e3b2f78e991d8b1e7708179041b989ed03953d1e` [fix(frontend): redact user passwords in query logs (#25740)](https://github.com/risingwavelabs/risingwave/pull/25740)
+- `9de89b91ebe97d88a2e9043a08742af1e3b5ec3a` [chore(deps): Bump protobufjs from 7.5.5 to 7.6.0 in /dashboard (#25729)](https://github.com/risingwavelabs/risingwave/pull/25729)
 - `d95a087c606aee6a34787d265860edd9927e339b` [feat(sink): support dynamic URL for HTTP sink (#25699)](https://github.com/risingwavelabs/risingwave/pull/25699)
 - `12d2b163ae7c3b35fff5491533a5838f76fde7c0` [chore(deps): pin `serde_json < 1.0.147` to prevent breaking change (#25739)](https://github.com/risingwavelabs/risingwave/pull/25739)
 
