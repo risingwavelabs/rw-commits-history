@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260522` `cd719aff274b51ff90e651879cf1a28881591e21`
 - `20260521` `3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db`
 - `20260520` `f786754c88270bf7d9f242e9d241c35205b30e1e`
 - `20260519` `43f07e74cde6d051e82f79f538048c6e1d173fe0`
@@ -292,6 +293,9 @@
 
 ## Unreleased
 - `ce867ec2e27fd7a378230bac8ae5f673a2d72892` [fix(cdc): support quoted Postgres table names (#25742)](https://github.com/risingwavelabs/risingwave/pull/25742)
+
+## nightly-20260522
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db...cd719aff274b51ff90e651879cf1a28881591e21)
 - `cd719aff274b51ff90e651879cf1a28881591e21` [fix(iceberg): seperate iceberg snapshot expiration and compaction trigger (#25749)](https://github.com/risingwavelabs/risingwave/pull/25749)
 - `e3b2f78e991d8b1e7708179041b989ed03953d1e` [fix(frontend): redact user passwords in query logs (#25740)](https://github.com/risingwavelabs/risingwave/pull/25740)
 - `9de89b91ebe97d88a2e9043a08742af1e3b5ec3a` [chore(deps): Bump protobufjs from 7.5.5 to 7.6.0 in /dashboard (#25729)](https://github.com/risingwavelabs/risingwave/pull/25729)
