@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260523` `ce867ec2e27fd7a378230bac8ae5f673a2d72892`
 - `20260522` `cd719aff274b51ff90e651879cf1a28881591e21`
 - `20260521` `3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db`
 - `20260520` `f786754c88270bf7d9f242e9d241c35205b30e1e`
@@ -283,7 +284,6 @@
 - `20250527` `6a2e153dbd8404167931871addc318f90186e48f`
 - `20250525` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
 - `20250523` `44fd186bf03b8cfd27469d119fa6fcaa153274e5`
-- `20250522` `f739dd3b1da3b7df68c90bd491e520797d2c0e3f`
 </details>
 
 # Commit history
@@ -292,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260523
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cd719aff274b51ff90e651879cf1a28881591e21...ce867ec2e27fd7a378230bac8ae5f673a2d72892)
 - `ce867ec2e27fd7a378230bac8ae5f673a2d72892` [fix(cdc): support quoted Postgres table names (#25742)](https://github.com/risingwavelabs/risingwave/pull/25742)
 
 ## nightly-20260522
@@ -2784,11 +2787,4 @@
 - `7c53f072c69eedee4c4bdc51936a617d53e32b8b` [fix: use new tokio thread for iam request to avoid stuck meta (#21892)](https://github.com/risingwavelabs/risingwave/pull/21892)
 
 ## nightly-20250523
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f739dd3b1da3b7df68c90bd491e520797d2c0e3f...44fd186bf03b8cfd27469d119fa6fcaa153274e5)
 - `44fd186bf03b8cfd27469d119fa6fcaa153274e5` [feat(iceberg): init and backup hosted iceberg system table (#21960)](https://github.com/risingwavelabs/risingwave/pull/21960)
-- `fc539db2e16c1e46c57d711b26b26e440c9707ba` [feat(iceberg): add iceberg compactor in risingwave (#21823)](https://github.com/risingwavelabs/risingwave/pull/21823)
-- `b745241a10837e88b1c0be23832038cc02401988` [feat(frontend): SHOW PROCESSLIST of all frontends (#21952)](https://github.com/risingwavelabs/risingwave/pull/21952)
-- `0dfc325c389d41dec7910a1981652f56ca55ea9e` [chore: update docker image to v2.4.0 (#21954)](https://github.com/risingwavelabs/risingwave/pull/21954)
-
-## nightly-20250522
-- `f739dd3b1da3b7df68c90bd491e520797d2c0e3f` [fix(iceberg): dropping database and dropping source cascade with iceberg tables. (#21957)](https://github.com/risingwavelabs/risingwave/pull/21957)
