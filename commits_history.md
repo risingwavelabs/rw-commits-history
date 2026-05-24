@@ -283,7 +283,6 @@
 - `20250528` `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff`
 - `20250527` `6a2e153dbd8404167931871addc318f90186e48f`
 - `20250525` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
-- `20250523` `44fd186bf03b8cfd27469d119fa6fcaa153274e5`
 </details>
 
 # Commit history
@@ -2783,8 +2782,4 @@
 - `da54f8254e364944596a31d6183c64152403144c` [chore(deps): Bump actions/checkout from 3 to 4 (#21832)](https://github.com/risingwavelabs/risingwave/pull/21832)
 
 ## nightly-20250525
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/44fd186bf03b8cfd27469d119fa6fcaa153274e5...7c53f072c69eedee4c4bdc51936a617d53e32b8b)
 - `7c53f072c69eedee4c4bdc51936a617d53e32b8b` [fix: use new tokio thread for iam request to avoid stuck meta (#21892)](https://github.com/risingwavelabs/risingwave/pull/21892)
-
-## nightly-20250523
-- `44fd186bf03b8cfd27469d119fa6fcaa153274e5` [feat(iceberg): init and backup hosted iceberg system table (#21960)](https://github.com/risingwavelabs/risingwave/pull/21960)
