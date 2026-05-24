@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260523` `ce867ec2e27fd7a378230bac8ae5f673a2d72892`
+- `20260524` `ce867ec2e27fd7a378230bac8ae5f673a2d72892`
 - `20260522` `cd719aff274b51ff90e651879cf1a28881591e21`
 - `20260521` `3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db`
 - `20260520` `f786754c88270bf7d9f242e9d241c35205b30e1e`
@@ -291,8 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a56db04724752f4fcb5cf899273695eb5c3daecb` [chore(deps): Bump bytes from 1.5.0 to 1.11.1 in /integration_tests/feature-store/server (#24701)](https://github.com/risingwavelabs/risingwave/pull/24701)
 
-## nightly-20260523
+## nightly-20260524
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cd719aff274b51ff90e651879cf1a28881591e21...ce867ec2e27fd7a378230bac8ae5f673a2d72892)
 - `ce867ec2e27fd7a378230bac8ae5f673a2d72892` [fix(cdc): support quoted Postgres table names (#25742)](https://github.com/risingwavelabs/risingwave/pull/25742)
 
