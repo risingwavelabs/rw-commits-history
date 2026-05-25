@@ -282,7 +282,6 @@
 - `20250530` `187d0e9c1667adedfccb59da952b3c6f0c2e0337`
 - `20250528` `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff`
 - `20250527` `6a2e153dbd8404167931871addc318f90186e48f`
-- `20250525` `7c53f072c69eedee4c4bdc51936a617d53e32b8b`
 </details>
 
 # Commit history
@@ -291,6 +290,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `68694f404ad28ee5990c353ed44771d1a5d04811` [feat(compaction): support manual compact target level (#25765)](https://github.com/risingwavelabs/risingwave/pull/25765)
 - `e66a1fd2dfa8beee74ad784f90060066d522a95f` [refactor(storage): remove unused bloom filter implementation (#25773)](https://github.com/risingwavelabs/risingwave/pull/25773)
 - `503d54d160c74ee98eb1f66f379827a5428f92eb` [chore(iceberg): bump lakekeeper (#25779)](https://github.com/risingwavelabs/risingwave/pull/25779)
 - `c9b667746f1e9ff4e104c3fc050100fec1e8e128` [fix(source): default NATS ack policy to explicit (#25705)](https://github.com/risingwavelabs/risingwave/pull/25705)
@@ -2775,19 +2775,4 @@
 - `f71d952db6e687e187841f923d23e2477f9c87ce` [chore: remove a todo not planned (#22023)](https://github.com/risingwavelabs/risingwave/pull/22023)
 
 ## nightly-20250527
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7c53f072c69eedee4c4bdc51936a617d53e32b8b...6a2e153dbd8404167931871addc318f90186e48f)
 - `6a2e153dbd8404167931871addc318f90186e48f` [feat(frontend): make KILL process_id work across all worker nodes (#21998)](https://github.com/risingwavelabs/risingwave/pull/21998)
-- `7b2547288c794525ea466df0423756d1abd0f35f` [chore(deps): Bump opentelemetry from 0.29.0 to 0.29.1 in the opentelemetry group (#21982)](https://github.com/risingwavelabs/risingwave/pull/21982)
-- `5fbf85c550e3667993feef9555c22a6d1d269163` [feat(risedev): support specifying compactor mode for risedev's compactors (#21997)](https://github.com/risingwavelabs/risingwave/pull/21997)
-- `7919c9c58d87e724eae4b9dbec9d08a79d779e35` [test: add tests for `ALTER COLUMN TYPE` with downstream jobs (#21686)](https://github.com/risingwavelabs/risingwave/pull/21686)
-- `228f9cc6ca9b74a3422631e760145e36e54174af` [feat(meta): consider types when resolve dispatcher output mapping  (#21662)](https://github.com/risingwavelabs/risingwave/pull/21662)
-- `3995e9bf49b33014047cbba598acbea8cd08bc09` [feat(streaming): support mapping column type in dispatcher (#21661)](https://github.com/risingwavelabs/risingwave/pull/21661)
-- `3ea88e307c425177211037138d3e0d6cc86fee6c` [refactor(meta): Refactor some command structs to improve readability (#21992)](https://github.com/risingwavelabs/risingwave/pull/21992)
-- `7e23f96e8347a0be49bfe73e782919b583744319` [feat(meta): enrich dispatcher output indices to support storing type mapping information (#21645)](https://github.com/risingwavelabs/risingwave/pull/21645)
-- `fac187aa11a61da40d95ed0cff4c4ed5749cde87` [feat(storage): define vector index metadata (#21885)](https://github.com/risingwavelabs/risingwave/pull/21885)
-- `d003894151e67448352b06a74c0897611c8edcd9` [chore: update github labels (#21990)](https://github.com/risingwavelabs/risingwave/pull/21990)
-- `d209371864173b1d1b56e1078cd448eb78359ea3` [fix(ddl): create if not exists waits for job created (#21915)](https://github.com/risingwavelabs/risingwave/pull/21915)
-- `da54f8254e364944596a31d6183c64152403144c` [chore(deps): Bump actions/checkout from 3 to 4 (#21832)](https://github.com/risingwavelabs/risingwave/pull/21832)
-
-## nightly-20250525
-- `7c53f072c69eedee4c4bdc51936a617d53e32b8b` [fix: use new tokio thread for iam request to avoid stuck meta (#21892)](https://github.com/risingwavelabs/risingwave/pull/21892)
