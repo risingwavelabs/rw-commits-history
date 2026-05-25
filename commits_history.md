@@ -291,6 +291,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e66a1fd2dfa8beee74ad784f90060066d522a95f` [refactor(storage): remove unused bloom filter implementation (#25773)](https://github.com/risingwavelabs/risingwave/pull/25773)
+- `503d54d160c74ee98eb1f66f379827a5428f92eb` [chore(iceberg): bump lakekeeper (#25779)](https://github.com/risingwavelabs/risingwave/pull/25779)
+- `c9b667746f1e9ff4e104c3fc050100fec1e8e128` [fix(source): default NATS ack policy to explicit (#25705)](https://github.com/risingwavelabs/risingwave/pull/25705)
+- `cc9070d0621f6de9eb84c2ba120a11fc42420ec6` [fix(ci): skip stale SST compat test for fixed versions (#25769)](https://github.com/risingwavelabs/risingwave/pull/25769)
+- `eceeca9ae351c85940793dc6108ea396e77057d0` [chore(deps): Bump async-openai from 0.38.1 to 0.40.2 (#25759)](https://github.com/risingwavelabs/risingwave/pull/25759)
+- `04751dc6fa1f1ceae4f22a7f0642a3a5500e5cab` [fix(connector): suppress expected kafka enumerator UnknownGroup (#25704)](https://github.com/risingwavelabs/risingwave/pull/25704)
+- `b94db535e218eb341bc6e668f8bd4f6e4b6abf10` [feat(storage): add configurable SST xor filter kind (#25170)](https://github.com/risingwavelabs/risingwave/pull/25170)
 - `a56db04724752f4fcb5cf899273695eb5c3daecb` [chore(deps): Bump bytes from 1.5.0 to 1.11.1 in /integration_tests/feature-store/server (#24701)](https://github.com/risingwavelabs/risingwave/pull/24701)
 
 ## nightly-20260524
