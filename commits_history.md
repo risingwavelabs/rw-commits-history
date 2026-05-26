@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260526` `10dea20a4ceca6b9571e741d4aba5734403c3acd`
 - `20260524` `ce867ec2e27fd7a378230bac8ae5f673a2d72892`
 - `20260522` `cd719aff274b51ff90e651879cf1a28881591e21`
 - `20260521` `3b7d5a1b520f86f59c55f521f6c0a2ef3ad5c6db`
@@ -290,6 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260526
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce867ec2e27fd7a378230bac8ae5f673a2d72892...10dea20a4ceca6b9571e741d4aba5734403c3acd)
 - `10dea20a4ceca6b9571e741d4aba5734403c3acd` [fix(iceberg): fix iceberg glue iam assume role token expiration (#25776)](https://github.com/risingwavelabs/risingwave/pull/25776)
 - `68694f404ad28ee5990c353ed44771d1a5d04811` [feat(compaction): support manual compact target level (#25765)](https://github.com/risingwavelabs/risingwave/pull/25765)
 - `e66a1fd2dfa8beee74ad784f90060066d522a95f` [refactor(storage): remove unused bloom filter implementation (#25773)](https://github.com/risingwavelabs/risingwave/pull/25773)
