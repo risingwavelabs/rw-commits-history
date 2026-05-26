@@ -290,6 +290,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `10dea20a4ceca6b9571e741d4aba5734403c3acd` [fix(iceberg): fix iceberg glue iam assume role token expiration (#25776)](https://github.com/risingwavelabs/risingwave/pull/25776)
 - `68694f404ad28ee5990c353ed44771d1a5d04811` [feat(compaction): support manual compact target level (#25765)](https://github.com/risingwavelabs/risingwave/pull/25765)
 - `e66a1fd2dfa8beee74ad784f90060066d522a95f` [refactor(storage): remove unused bloom filter implementation (#25773)](https://github.com/risingwavelabs/risingwave/pull/25773)
 - `503d54d160c74ee98eb1f66f379827a5428f92eb` [chore(iceberg): bump lakekeeper (#25779)](https://github.com/risingwavelabs/risingwave/pull/25779)
