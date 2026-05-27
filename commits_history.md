@@ -291,6 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `be0b87c027e58a424cdebf57efcb68166b6c2e7a` [fix(pg-cdc): make composite-to-string schema unconditionally optional (#25815)](https://github.com/risingwavelabs/risingwave/pull/25815)
+- `8c92d256b9d6088c1fbf43d6cdeccbe5649602fb` [doc(connector): update Lakehouse Iceberg REST notes (#25671)](https://github.com/risingwavelabs/risingwave/pull/25671)
+- `1b2354c8cee8b5bc00d64aef31d28e4bda73427d` [fix(iceberg): support reading uuid/fixed columns as bytea (#25807)](https://github.com/risingwavelabs/risingwave/pull/25807)
 
 ## nightly-20260526
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce867ec2e27fd7a378230bac8ae5f673a2d72892...10dea20a4ceca6b9571e741d4aba5734403c3acd)
