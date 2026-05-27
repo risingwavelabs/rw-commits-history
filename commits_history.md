@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260527` `be0b87c027e58a424cdebf57efcb68166b6c2e7a`
 - `20260526` `10dea20a4ceca6b9571e741d4aba5734403c3acd`
 - `20260524` `ce867ec2e27fd7a378230bac8ae5f673a2d72892`
 - `20260522` `cd719aff274b51ff90e651879cf1a28881591e21`
@@ -282,7 +283,6 @@
 - `20250531` `2fe44d63b3c3e472fcc177fab56b40cde7deb18d`
 - `20250530` `187d0e9c1667adedfccb59da952b3c6f0c2e0337`
 - `20250528` `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff`
-- `20250527` `6a2e153dbd8404167931871addc318f90186e48f`
 </details>
 
 # Commit history
@@ -291,6 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260527
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10dea20a4ceca6b9571e741d4aba5734403c3acd...be0b87c027e58a424cdebf57efcb68166b6c2e7a)
 - `be0b87c027e58a424cdebf57efcb68166b6c2e7a` [fix(pg-cdc): make composite-to-string schema unconditionally optional (#25815)](https://github.com/risingwavelabs/risingwave/pull/25815)
 - `8c92d256b9d6088c1fbf43d6cdeccbe5649602fb` [doc(connector): update Lakehouse Iceberg REST notes (#25671)](https://github.com/risingwavelabs/risingwave/pull/25671)
 - `1b2354c8cee8b5bc00d64aef31d28e4bda73427d` [fix(iceberg): support reading uuid/fixed columns as bytea (#25807)](https://github.com/risingwavelabs/risingwave/pull/25807)
@@ -2774,13 +2777,4 @@
 - `1a25dcf18ce19ce8bc69c17338cd45817ed0047e` [refactor(ci): enable sql server cdc test in ci (#21976)](https://github.com/risingwavelabs/risingwave/pull/21976)
 
 ## nightly-20250528
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6a2e153dbd8404167931871addc318f90186e48f...ad53aac274f297f4b6cb72b116641b2d7c9ed8ff)
 - `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff` [refactor(over window): extract range cache into separate module (#22020)](https://github.com/risingwavelabs/risingwave/pull/22020)
-- `00aea5b178681d514cec69ee1a1cefe7d2debc31` [chore(doc): Fixed some introduction docs (#22038)](https://github.com/risingwavelabs/risingwave/pull/22038)
-- `a4eabd6920e375dc02a16122c8a13444ebf0d9d3` [test: add regression test for `count(*)` over `distinct on` (#22027)](https://github.com/risingwavelabs/risingwave/pull/22027)
-- `8ad9c87f0309a03897ab025e03d1b80295003cbf` [chore(ci): replace mc config host add with mc alias set (#22011)](https://github.com/risingwavelabs/risingwave/pull/22011)
-- `89b778e56c2e587f5f2611a64bbed59fa1524ed8` [feat: add ENV to control Kafka sdk log level (#21865)](https://github.com/risingwavelabs/risingwave/pull/21865)
-- `f71d952db6e687e187841f923d23e2477f9c87ce` [chore: remove a todo not planned (#22023)](https://github.com/risingwavelabs/risingwave/pull/22023)
-
-## nightly-20250527
-- `6a2e153dbd8404167931871addc318f90186e48f` [feat(frontend): make KILL process_id work across all worker nodes (#21998)](https://github.com/risingwavelabs/risingwave/pull/21998)
