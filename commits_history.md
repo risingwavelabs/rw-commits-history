@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260528` `217f39b64b725f4a1a8803e3ade8d1b7d68db181`
 - `20260527` `be0b87c027e58a424cdebf57efcb68166b6c2e7a`
 - `20260526` `10dea20a4ceca6b9571e741d4aba5734403c3acd`
 - `20260524` `ce867ec2e27fd7a378230bac8ae5f673a2d72892`
@@ -282,7 +283,6 @@
 - `20250602` `e5642049430b846064e3757f1feee4380f80adf5`
 - `20250531` `2fe44d63b3c3e472fcc177fab56b40cde7deb18d`
 - `20250530` `187d0e9c1667adedfccb59da952b3c6f0c2e0337`
-- `20250528` `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff`
 </details>
 
 # Commit history
@@ -291,6 +291,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `db76194da3879781a3e4dab1afaa8619bbfee504` [fix(frontend): trim MV pk order key (#25804)](https://github.com/risingwavelabs/risingwave/pull/25804)
+
+## nightly-20260528
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/be0b87c027e58a424cdebf57efcb68166b6c2e7a...217f39b64b725f4a1a8803e3ade8d1b7d68db181)
+- `217f39b64b725f4a1a8803e3ade8d1b7d68db181` [fix(iceberg): avoid shared default AWS credentials provider in Iceberg sink (#25829)](https://github.com/risingwavelabs/risingwave/pull/25829)
+- `4aac421a7f812fbbcacb090748196ec6fedc7e0a` [fix(stream): use table pk for stream table scan key (#25783)](https://github.com/risingwavelabs/risingwave/pull/25783)
+- `5158c5e1eb921338766c9dc16f3a93db03b684ed` [feat(stream): support iceberg V3 sink with PK index on executor (#25416)](https://github.com/risingwavelabs/risingwave/pull/25416)
+- `8837f048d2a9033c5bf50de1511249839316bb7d` [chore: add RisingWave SLT authoring skill (#25823)](https://github.com/risingwavelabs/risingwave/pull/25823)
+- `af3a67f80a0eb1591465464836def00e7f206b65` [chore(deps): Bump hyper from 1.9.0 to 1.10.0 (#25822)](https://github.com/risingwavelabs/risingwave/pull/25822)
 
 ## nightly-20260527
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10dea20a4ceca6b9571e741d4aba5734403c3acd...be0b87c027e58a424cdebf57efcb68166b6c2e7a)
@@ -2764,17 +2773,4 @@
 - `2fe44d63b3c3e472fcc177fab56b40cde7deb18d` [refactor: change default gRPC addr (#22057)](https://github.com/risingwavelabs/risingwave/pull/22057)
 
 ## nightly-20250530
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ad53aac274f297f4b6cb72b116641b2d7c9ed8ff...187d0e9c1667adedfccb59da952b3c6f0c2e0337)
 - `187d0e9c1667adedfccb59da952b3c6f0c2e0337` [chore(deps): Bump pprof from 0.14.0 to 0.15.0 (#22025)](https://github.com/risingwavelabs/risingwave/pull/22025)
-- `69f5525c738b9a1f7898185538ec841474f0c1a6` [fix(sink): add snowflake sink license check (#22047)](https://github.com/risingwavelabs/risingwave/pull/22047)
-- `7e0640f677dc0e1e72f9d76d22d66ff06fbf253d` [fix(ci): fix integration test filter (#22039)](https://github.com/risingwavelabs/risingwave/pull/22039)
-- `d8a6c8ac7493f7d0bb0e90847c7db64cc5c9b84f` [feat(iceberg): enable iceberg compaction for iceberg table and add license check (#22043)](https://github.com/risingwavelabs/risingwave/pull/22043)
-- `216113c855498bc3b975fee23f2c9706d7eacbb5` [feat(sink): support json for clickhouse sink (#21989)](https://github.com/risingwavelabs/risingwave/pull/21989)
-- `be6379d378bc86a9c7f6c2ac32a339c6262eba49` [fix(test): fix test_ddl_cancel (#22046)](https://github.com/risingwavelabs/risingwave/pull/22046)
-- `af710fb553e91d8dc115c5cbb36eaa3d0755300e` [fix(ci): spark 3.5.5 URL is no longer valid; use 3.5.6 (#22037)](https://github.com/risingwavelabs/risingwave/pull/22037)
-- `c6ad450e2b61dc916853bea0eaf54129ab271adf` [feat(over window): support named window (#22024)](https://github.com/risingwavelabs/risingwave/pull/22024)
-- `1a3677dec5c56825729606c0b6c30d5c58e3f01f` [refactor: refine error message (#22017)](https://github.com/risingwavelabs/risingwave/pull/22017)
-- `1a25dcf18ce19ce8bc69c17338cd45817ed0047e` [refactor(ci): enable sql server cdc test in ci (#21976)](https://github.com/risingwavelabs/risingwave/pull/21976)
-
-## nightly-20250528
-- `ad53aac274f297f4b6cb72b116641b2d7c9ed8ff` [refactor(over window): extract range cache into separate module (#22020)](https://github.com/risingwavelabs/risingwave/pull/22020)
