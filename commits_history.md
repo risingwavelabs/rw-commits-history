@@ -291,6 +291,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `279ad0aede6037ae04f94f26bad256158da7f4c5` [fix(connector): validate SQL Server sink targets and permissions (#25831)](https://github.com/risingwavelabs/risingwave/pull/25831)
+- `79a131fd5d94f045efe7e13188f17071a87244bf` [fix(pgwire): parse StartupMessage with empty value at end correctly (#25803)](https://github.com/risingwavelabs/risingwave/pull/25803)
+- `5a53fb1cb0264be394607f205ed8a2b2c457ac1d` [chore(grafana): display last oom timestamp as readable datetime (#25827)](https://github.com/risingwavelabs/risingwave/pull/25827)
 - `db76194da3879781a3e4dab1afaa8619bbfee504` [fix(frontend): trim MV pk order key (#25804)](https://github.com/risingwavelabs/risingwave/pull/25804)
 
 ## nightly-20260528
