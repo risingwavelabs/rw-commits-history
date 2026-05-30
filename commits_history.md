@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260530` `6fa726ce6120ef88f0edfa390b769749a5c9da47`
 - `20260529` `79a131fd5d94f045efe7e13188f17071a87244bf`
 - `20260528` `217f39b64b725f4a1a8803e3ade8d1b7d68db181`
 - `20260527` `be0b87c027e58a424cdebf57efcb68166b6c2e7a`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260530
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79a131fd5d94f045efe7e13188f17071a87244bf...6fa726ce6120ef88f0edfa390b769749a5c9da47)
 - `6fa726ce6120ef88f0edfa390b769749a5c9da47` [refactor(meta): group diagnose actors by fragment (#25833)](https://github.com/risingwavelabs/risingwave/pull/25833)
 - `0665b7b8ff89a66d3db26c7f102122b5da42bd33` [fix(storage): estimate SST filter serialized size (#25782)](https://github.com/risingwavelabs/risingwave/pull/25782)
 - `279ad0aede6037ae04f94f26bad256158da7f4c5` [fix(connector): validate SQL Server sink targets and permissions (#25831)](https://github.com/risingwavelabs/risingwave/pull/25831)
