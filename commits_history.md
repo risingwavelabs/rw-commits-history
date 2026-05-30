@@ -292,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6fa726ce6120ef88f0edfa390b769749a5c9da47` [refactor(meta): group diagnose actors by fragment (#25833)](https://github.com/risingwavelabs/risingwave/pull/25833)
 - `0665b7b8ff89a66d3db26c7f102122b5da42bd33` [fix(storage): estimate SST filter serialized size (#25782)](https://github.com/risingwavelabs/risingwave/pull/25782)
 - `279ad0aede6037ae04f94f26bad256158da7f4c5` [fix(connector): validate SQL Server sink targets and permissions (#25831)](https://github.com/risingwavelabs/risingwave/pull/25831)
 
