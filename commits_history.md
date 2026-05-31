@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260530` `6fa726ce6120ef88f0edfa390b769749a5c9da47`
+- `20260531` `6fa726ce6120ef88f0edfa390b769749a5c9da47`
 - `20260529` `79a131fd5d94f045efe7e13188f17071a87244bf`
 - `20260528` `217f39b64b725f4a1a8803e3ade8d1b7d68db181`
 - `20260527` `be0b87c027e58a424cdebf57efcb68166b6c2e7a`
@@ -284,7 +284,6 @@
 - `20250603` `32899664e7e0f61ba51a13e58a40cdb15fe3f954`
 - `20250602` `e5642049430b846064e3757f1feee4380f80adf5`
 - `20250531` `2fe44d63b3c3e472fcc177fab56b40cde7deb18d`
-- `20250530` `187d0e9c1667adedfccb59da952b3c6f0c2e0337`
 </details>
 
 # Commit history
@@ -294,7 +293,7 @@
 
 ## Unreleased
 
-## nightly-20260530
+## nightly-20260531
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79a131fd5d94f045efe7e13188f17071a87244bf...6fa726ce6120ef88f0edfa390b769749a5c9da47)
 - `6fa726ce6120ef88f0edfa390b769749a5c9da47` [refactor(meta): group diagnose actors by fragment (#25833)](https://github.com/risingwavelabs/risingwave/pull/25833)
 - `0665b7b8ff89a66d3db26c7f102122b5da42bd33` [fix(storage): estimate SST filter serialized size (#25782)](https://github.com/risingwavelabs/risingwave/pull/25782)
@@ -2782,8 +2781,4 @@
 - `962d01f195985749fb32e839cd5cb7b4a9889b6d` [feat(streaming): add tracing logs for arrangement backfill and improve inconsistency logs for over window (#21741)](https://github.com/risingwavelabs/risingwave/pull/21741)
 
 ## nightly-20250531
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/187d0e9c1667adedfccb59da952b3c6f0c2e0337...2fe44d63b3c3e472fcc177fab56b40cde7deb18d)
 - `2fe44d63b3c3e472fcc177fab56b40cde7deb18d` [refactor: change default gRPC addr (#22057)](https://github.com/risingwavelabs/risingwave/pull/22057)
-
-## nightly-20250530
-- `187d0e9c1667adedfccb59da952b3c6f0c2e0337` [chore(deps): Bump pprof from 0.14.0 to 0.15.0 (#22025)](https://github.com/risingwavelabs/risingwave/pull/22025)
