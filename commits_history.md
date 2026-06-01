@@ -292,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `01847e83bccfffb99ee594c9786e66a13f2f4b49` [feat(connector): support timestamptz in StarRocks sink (#25837)](https://github.com/risingwavelabs/risingwave/pull/25837)
 - `d201ca9019ccfb641790be650c2e83f1cdd0cddd` [feat(iceberg): support cancel task for iceberg vacuum (#25415)](https://github.com/risingwavelabs/risingwave/pull/25415)
 
 ## nightly-20260601
