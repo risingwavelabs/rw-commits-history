@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260601` `e4952f7a7a2367494e1180510c1199ffec5c08da`
 - `20260531` `6fa726ce6120ef88f0edfa390b769749a5c9da47`
 - `20260529` `79a131fd5d94f045efe7e13188f17071a87244bf`
 - `20260528` `217f39b64b725f4a1a8803e3ade8d1b7d68db181`
@@ -283,7 +284,6 @@
 - `20250605` `9c99835c004e807e10b3f23c9d8465b1baf294cd`
 - `20250603` `32899664e7e0f61ba51a13e58a40cdb15fe3f954`
 - `20250602` `e5642049430b846064e3757f1feee4380f80adf5`
-- `20250531` `2fe44d63b3c3e472fcc177fab56b40cde7deb18d`
 </details>
 
 # Commit history
@@ -292,6 +292,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d201ca9019ccfb641790be650c2e83f1cdd0cddd` [feat(iceberg): support cancel task for iceberg vacuum (#25415)](https://github.com/risingwavelabs/risingwave/pull/25415)
+
+## nightly-20260601
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6fa726ce6120ef88f0edfa390b769749a5c9da47...e4952f7a7a2367494e1180510c1199ffec5c08da)
+- `e4952f7a7a2367494e1180510c1199ffec5c08da` [fix(meta): keep added workers in control stream manager (#25836)](https://github.com/risingwavelabs/risingwave/pull/25836)
+- `91091fe16e52ab7b4507552b11c8cd6fb3b33d63` [fix(iceberg): bump iceberg deps (#25855)](https://github.com/risingwavelabs/risingwave/pull/25855)
+- `7378df518999c72565300c7956b4934f77663449` [fix(iceberg): resolve upsert sink primary key by index, not lower-cased name (#25846)](https://github.com/risingwavelabs/risingwave/pull/25846)
 
 ## nightly-20260531
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/79a131fd5d94f045efe7e13188f17071a87244bf...6fa726ce6120ef88f0edfa390b769749a5c9da47)
@@ -2776,9 +2783,4 @@
 - `fa71f150f24cf3d92cefd4345cdc94df9f16b12a` [chore(deps): Bump crate-ci/typos from 1.32.0 to 1.33.1 (#22078)](https://github.com/risingwavelabs/risingwave/pull/22078)
 
 ## nightly-20250602
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2fe44d63b3c3e472fcc177fab56b40cde7deb18d...e5642049430b846064e3757f1feee4380f80adf5)
 - `e5642049430b846064e3757f1feee4380f80adf5` [test: add integration test for logstore scale-in / out (#21781)](https://github.com/risingwavelabs/risingwave/pull/21781)
-- `962d01f195985749fb32e839cd5cb7b4a9889b6d` [feat(streaming): add tracing logs for arrangement backfill and improve inconsistency logs for over window (#21741)](https://github.com/risingwavelabs/risingwave/pull/21741)
-
-## nightly-20250531
-- `2fe44d63b3c3e472fcc177fab56b40cde7deb18d` [refactor: change default gRPC addr (#22057)](https://github.com/risingwavelabs/risingwave/pull/22057)
