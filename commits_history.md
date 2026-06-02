@@ -284,7 +284,6 @@
 - `20250608` `ca32f8b7d5d4b68e9382297a42b834cc45ef2665`
 - `20250605` `9c99835c004e807e10b3f23c9d8465b1baf294cd`
 - `20250603` `32899664e7e0f61ba51a13e58a40cdb15fe3f954`
-- `20250602` `e5642049430b846064e3757f1feee4380f80adf5`
 </details>
 
 # Commit history
@@ -293,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `93bc09b9d07c1ac3a329066e1bea1cea5f5a9251` [refactor(meta): track manual iceberg compaction tasks (#25858)](https://github.com/risingwavelabs/risingwave/pull/25858)
 
 ## nightly-20260602
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e4952f7a7a2367494e1180510c1199ffec5c08da...f142c3f4386676e0733252cbb26ae24c8da90375)
@@ -2785,14 +2785,4 @@
 - `3fae8aa8e9818b80766cccd889ee1fd0b7fd245d` [ci: make sql server cdc source test serial (#22083)](https://github.com/risingwavelabs/risingwave/pull/22083)
 
 ## nightly-20250603
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e5642049430b846064e3757f1feee4380f80adf5...32899664e7e0f61ba51a13e58a40cdb15fe3f954)
 - `32899664e7e0f61ba51a13e58a40cdb15fe3f954` [feat: print backtrace in pg_protocol in debug mode (#21849)](https://github.com/risingwavelabs/risingwave/pull/21849)
-- `70add5b8faeb5e790571e0520ca463d60773861f` [fix: respect RUST_LOG when RISINGWAVE_KAFKA_LOG_LEVEL is not set (#22081)](https://github.com/risingwavelabs/risingwave/pull/22081)
-- `21b4c33f32f0c677292a0d369df5be17fe2a5e05` [feat(ddl): Implement database-level barrier and checkpoint configuration - Part 1 (#22052)](https://github.com/risingwavelabs/risingwave/pull/22052)
-- `b7d763aceff56cbd022ef8379ce4cac7f75a3d8a` [refactor: remove `col_index_mapping` when replacing table (#21685)](https://github.com/risingwavelabs/risingwave/pull/21685)
-- `1f653d282d57c1fb874aafa94559c290aeeaab38` [feat(meta): rewrite index after `ALTER COLUMN TYPE` (#21681)](https://github.com/risingwavelabs/risingwave/pull/21681)
-- `6b2e7e256f1d92374d571272562f2e80349cb60e` [fix(optimizer): fix correlated ref on subquery kind expression (#22055)](https://github.com/risingwavelabs/risingwave/pull/22055)
-- `fa71f150f24cf3d92cefd4345cdc94df9f16b12a` [chore(deps): Bump crate-ci/typos from 1.32.0 to 1.33.1 (#22078)](https://github.com/risingwavelabs/risingwave/pull/22078)
-
-## nightly-20250602
-- `e5642049430b846064e3757f1feee4380f80adf5` [test: add integration test for logstore scale-in / out (#21781)](https://github.com/risingwavelabs/risingwave/pull/21781)
