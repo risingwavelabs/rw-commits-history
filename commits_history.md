@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260602` `f142c3f4386676e0733252cbb26ae24c8da90375`
 - `20260601` `e4952f7a7a2367494e1180510c1199ffec5c08da`
 - `20260531` `6fa726ce6120ef88f0edfa390b769749a5c9da47`
 - `20260529` `79a131fd5d94f045efe7e13188f17071a87244bf`
@@ -292,6 +293,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260602
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e4952f7a7a2367494e1180510c1199ffec5c08da...f142c3f4386676e0733252cbb26ae24c8da90375)
+- `f142c3f4386676e0733252cbb26ae24c8da90375` [fix(iceberg): reject sink column order mismatch to prevent silent data corruption (#25871)](https://github.com/risingwavelabs/risingwave/pull/25871)
+- `667fd954da2d95764ddd10518cebcf61a60b1df6` [fix(storage): use blocked filters for non-L0 outputs (#25853)](https://github.com/risingwavelabs/risingwave/pull/25853)
+- `56134c006a27f48f155e54e0c68741cf8518f040` [feat(optimizer): support index selection for seletive backfill (#25207)](https://github.com/risingwavelabs/risingwave/pull/25207)
+- `cc340797e8580dd64f73a1a20919c94145a74d27` [feat(pg-cdc): support TOAST unchanged-value placeholder for vector columns (#25863)](https://github.com/risingwavelabs/risingwave/pull/25863)
+- `0f2d721ac40d214b2d34f50f47b5fcc38dcd30dc` [fix(iceberg): fix iceberg sink external table column id (#25854)](https://github.com/risingwavelabs/risingwave/pull/25854)
+- `ea66e0952fd48eece95e9bfe2ccc303d76933dd9` [fix(cdc): keep TOAST replacement path active on tables without downstream (#25865)](https://github.com/risingwavelabs/risingwave/pull/25865)
+- `1b133eb00c9b3c89464a05fee05151c7016ecfd6` [fix(sink): add trailing slash to snowflake pipe stage path (#25851)](https://github.com/risingwavelabs/risingwave/pull/25851)
 - `01847e83bccfffb99ee594c9786e66a13f2f4b49` [feat(connector): support timestamptz in StarRocks sink (#25837)](https://github.com/risingwavelabs/risingwave/pull/25837)
 - `d201ca9019ccfb641790be650c2e83f1cdd0cddd` [feat(iceberg): support cancel task for iceberg vacuum (#25415)](https://github.com/risingwavelabs/risingwave/pull/25415)
 
