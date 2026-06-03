@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260603` `93bc09b9d07c1ac3a329066e1bea1cea5f5a9251`
 - `20260602` `f142c3f4386676e0733252cbb26ae24c8da90375`
 - `20260601` `e4952f7a7a2367494e1180510c1199ffec5c08da`
 - `20260531` `6fa726ce6120ef88f0edfa390b769749a5c9da47`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260603
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f142c3f4386676e0733252cbb26ae24c8da90375...93bc09b9d07c1ac3a329066e1bea1cea5f5a9251)
 - `93bc09b9d07c1ac3a329066e1bea1cea5f5a9251` [refactor(meta): track manual iceberg compaction tasks (#25858)](https://github.com/risingwavelabs/risingwave/pull/25858)
 
 ## nightly-20260602
