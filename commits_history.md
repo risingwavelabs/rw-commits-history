@@ -284,7 +284,6 @@
 - `20250609` `2939d363f7c6505031c268a2a1485b1e5798d1b1`
 - `20250608` `ca32f8b7d5d4b68e9382297a42b834cc45ef2665`
 - `20250605` `9c99835c004e807e10b3f23c9d8465b1baf294cd`
-- `20250603` `32899664e7e0f61ba51a13e58a40cdb15fe3f954`
 </details>
 
 # Commit history
@@ -293,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e13f3b346919310c3beec4755c038be11198b88f` [feat(config): bootstrap session defaults from `[session_init]` in risingwave.toml (#25864)](https://github.com/risingwavelabs/risingwave/pull/25864)
+- `7b944720abf8fd6ff52bb74a5fb66ae057e5f666` [refactor(streaming): replace BatchTable with ReplicatedStateTable in lookup executor (#25331)](https://github.com/risingwavelabs/risingwave/pull/25331)
+- `52d4fa5defb00338c3e1aa9d3cec0f99d4a798be` [fix(iceberg): protect compaction snapshots from GC (#25842)](https://github.com/risingwavelabs/risingwave/pull/25842)
 
 ## nightly-20260603
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f142c3f4386676e0733252cbb26ae24c8da90375...93bc09b9d07c1ac3a329066e1bea1cea5f5a9251)
@@ -2772,21 +2774,4 @@
 - `7e67aadb64dbd57403df48733d30466ffa7931c3` [refactor(common): remove `PartialOrd` for `DataType` (retained for `DataTypeName`) (#22053)](https://github.com/risingwavelabs/risingwave/pull/22053)
 
 ## nightly-20250605
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32899664e7e0f61ba51a13e58a40cdb15fe3f954...9c99835c004e807e10b3f23c9d8465b1baf294cd)
 - `9c99835c004e807e10b3f23c9d8465b1baf294cd` [fix(frontend): quote column and field names in `DESCRIBE` and `SHOW COLUMNS` (#22109)](https://github.com/risingwavelabs/risingwave/pull/22109)
-- `b7893145dc7e5626584cc3e1e420f598b6914ac2` [fix(types): quote struct field identifiers in `Display` implementation (#22106)](https://github.com/risingwavelabs/risingwave/pull/22106)
-- `6ebc76ffea1b34c3b39e68053ab4157c7e843685` [refactor: extract `QuoteIdent` wrapper for formatting quoted identifier (#22105)](https://github.com/risingwavelabs/risingwave/pull/22105)
-- `2f7a2498eed6fda8ca5eed100ffba4c2535d5be7` [refactor(sqlsmith): replace SqlGeneratorContext with config (#22026)](https://github.com/risingwavelabs/risingwave/pull/22026)
-- `45c8ca3bffddef133ee5fe431600386d6f7a6dbc` [feat(iceberg): expired_snapshots (#22042)](https://github.com/risingwavelabs/risingwave/pull/22042)
-- `d394c0c2c05c1fb215a7b9d41dd01a394f8087dc` [chore(ci): enforce unit (UI) test of dylint (#21893)](https://github.com/risingwavelabs/risingwave/pull/21893)
-- `8a2fa08dc96b74810dc837080ef4387e2832267c` [perf: add micro-benchmark between column-aware encoding and value encoding (#21224)](https://github.com/risingwavelabs/risingwave/pull/21224)
-- `d22aa212cffc77b4e8b17c56b6e24c647f03ad16` [fix(sqlparser): bypass parsability check for redacted sql (#22096)](https://github.com/risingwavelabs/risingwave/pull/22096)
-- `b4ee3b8583371e0076702d472a349f724f7a237f` [fix: redact sql option in diagnosis report according to keywords (#22097)](https://github.com/risingwavelabs/risingwave/pull/22097)
-- `e0fd767ca0cfd86d98facb4dead9f409f2532f81` [ci: add sleep to increase test stability (#22087)](https://github.com/risingwavelabs/risingwave/pull/22087)
-- `f2d2606b1946050f93cd09fa83050ffe8327efd0` [refactor: deduplicate await-tree fetching & add registry for meta node (#21996)](https://github.com/risingwavelabs/risingwave/pull/21996)
-- `6cd712d2de5af8c4b3b68d14d1b7dab63c1b97a0` [fix: ALTER SOURCE ... REFRESH SCHEMA for source with generated columns (#22088)](https://github.com/risingwavelabs/risingwave/pull/22088)
-- `c19ad88c3661132c37f80b34fbe0ae9981ba3699` [feat(sqlsmith): support natural and using join (#22089)](https://github.com/risingwavelabs/risingwave/pull/22089)
-- `3fae8aa8e9818b80766cccd889ee1fd0b7fd245d` [ci: make sql server cdc source test serial (#22083)](https://github.com/risingwavelabs/risingwave/pull/22083)
-
-## nightly-20250603
-- `32899664e7e0f61ba51a13e58a40cdb15fe3f954` [feat: print backtrace in pg_protocol in debug mode (#21849)](https://github.com/risingwavelabs/risingwave/pull/21849)
