@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260604` `e13f3b346919310c3beec4755c038be11198b88f`
 - `20260603` `93bc09b9d07c1ac3a329066e1bea1cea5f5a9251`
 - `20260602` `f142c3f4386676e0733252cbb26ae24c8da90375`
 - `20260601` `e4952f7a7a2367494e1180510c1199ffec5c08da`
@@ -292,6 +293,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8d914d65b26663d57fba2eef35062e74ed9052f9` [fix(iceberg): Support for canceling a scheduled Iceberg compaction task. (#25840)](https://github.com/risingwavelabs/risingwave/pull/25840)
+
+## nightly-20260604
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/93bc09b9d07c1ac3a329066e1bea1cea5f5a9251...e13f3b346919310c3beec4755c038be11198b88f)
 - `e13f3b346919310c3beec4755c038be11198b88f` [feat(config): bootstrap session defaults from `[session_init]` in risingwave.toml (#25864)](https://github.com/risingwavelabs/risingwave/pull/25864)
 - `7b944720abf8fd6ff52bb74a5fb66ae057e5f666` [refactor(streaming): replace BatchTable with ReplicatedStateTable in lookup executor (#25331)](https://github.com/risingwavelabs/risingwave/pull/25331)
 - `52d4fa5defb00338c3e1aa9d3cec0f99d4a798be` [fix(iceberg): protect compaction snapshots from GC (#25842)](https://github.com/risingwavelabs/risingwave/pull/25842)
