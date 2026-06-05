@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260605` `05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8`
 - `20260604` `e13f3b346919310c3beec4755c038be11198b88f`
 - `20260603` `93bc09b9d07c1ac3a329066e1bea1cea5f5a9251`
 - `20260602` `f142c3f4386676e0733252cbb26ae24c8da90375`
@@ -294,6 +295,9 @@
 
 ## Unreleased
 - `3060e31b4f2469d62210aa6affca82967bca102c` [feat(storage): add `iceberg_compaction_enable_prefetch` config to reduce object storage READ API calls (#25786)](https://github.com/risingwavelabs/risingwave/pull/25786)
+
+## nightly-20260605
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e13f3b346919310c3beec4755c038be11198b88f...05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8)
 - `05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8` [fix(grafana): deduplicate relative resource queries (#25908)](https://github.com/risingwavelabs/risingwave/pull/25908)
 - `0280c6211fd33d8ccd8b6a95150dae4cc4292cac` [feat: support dropping columns for iceberg auto schema sink (#25636)](https://github.com/risingwavelabs/risingwave/pull/25636)
 - `6e186515741f2c73409e9fc821081f568c3b9882` [fix(frontend): include indexes in fragment DDL mapping (#25903)](https://github.com/risingwavelabs/risingwave/pull/25903)
