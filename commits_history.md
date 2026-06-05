@@ -293,6 +293,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3060e31b4f2469d62210aa6affca82967bca102c` [feat(storage): add `iceberg_compaction_enable_prefetch` config to reduce object storage READ API calls (#25786)](https://github.com/risingwavelabs/risingwave/pull/25786)
+- `05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8` [fix(grafana): deduplicate relative resource queries (#25908)](https://github.com/risingwavelabs/risingwave/pull/25908)
+- `0280c6211fd33d8ccd8b6a95150dae4cc4292cac` [feat: support dropping columns for iceberg auto schema sink (#25636)](https://github.com/risingwavelabs/risingwave/pull/25636)
+- `6e186515741f2c73409e9fc821081f568c3b9882` [fix(frontend): include indexes in fragment DDL mapping (#25903)](https://github.com/risingwavelabs/risingwave/pull/25903)
 - `8d914d65b26663d57fba2eef35062e74ed9052f9` [fix(iceberg): Support for canceling a scheduled Iceberg compaction task. (#25840)](https://github.com/risingwavelabs/risingwave/pull/25840)
 
 ## nightly-20260604
