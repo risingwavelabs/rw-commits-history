@@ -285,7 +285,6 @@
 - `20250610` `ffb4231e935e429694b75c05e31a44a7e4414c37`
 - `20250609` `2939d363f7c6505031c268a2a1485b1e5798d1b1`
 - `20250608` `ca32f8b7d5d4b68e9382297a42b834cc45ef2665`
-- `20250605` `9c99835c004e807e10b3f23c9d8465b1baf294cd`
 </details>
 
 # Commit history
@@ -294,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `677310d2b3017889f12f7adea41190cc5966adfc` [chore(deps): Bump async-openai from 0.40.2 to 0.41.0 (#25920)](https://github.com/risingwavelabs/risingwave/pull/25920)
 - `3060e31b4f2469d62210aa6affca82967bca102c` [feat(storage): add `iceberg_compaction_enable_prefetch` config to reduce object storage READ API calls (#25786)](https://github.com/risingwavelabs/risingwave/pull/25786)
 
 ## nightly-20260605
@@ -2780,11 +2780,4 @@
 - `2529c7fbde108d156d31ce8fea0f4c4dbd1bb435` [feat: increase timeout for slow e2e test (#22144)](https://github.com/risingwavelabs/risingwave/pull/22144)
 
 ## nightly-20250608
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9c99835c004e807e10b3f23c9d8465b1baf294cd...ca32f8b7d5d4b68e9382297a42b834cc45ef2665)
 - `ca32f8b7d5d4b68e9382297a42b834cc45ef2665` [fix(common): ignore field ids when comparing `struct` for backward compatibility (#22054)](https://github.com/risingwavelabs/risingwave/pull/22054)
-- `bf88f2f8ed4670383fcb13e1f6ae4323932f574a` [chore(ci): use PAT for cherry-pick workflow (#22137)](https://github.com/risingwavelabs/risingwave/pull/22137)
-- `e477fb47a29d7fac27d9d9ea3a8cb307c83c65b8` [fix(ci):  increase load to increase logstore lag (#22127)](https://github.com/risingwavelabs/risingwave/pull/22127)
-- `7e67aadb64dbd57403df48733d30466ffa7931c3` [refactor(common): remove `PartialOrd` for `DataType` (retained for `DataTypeName`) (#22053)](https://github.com/risingwavelabs/risingwave/pull/22053)
-
-## nightly-20250605
-- `9c99835c004e807e10b3f23c9d8465b1baf294cd` [fix(frontend): quote column and field names in `DESCRIBE` and `SHOW COLUMNS` (#22109)](https://github.com/risingwavelabs/risingwave/pull/22109)
