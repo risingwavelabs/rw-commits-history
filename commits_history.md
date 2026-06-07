@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260606` `677310d2b3017889f12f7adea41190cc5966adfc`
+- `20260607` `677310d2b3017889f12f7adea41190cc5966adfc`
 - `20260605` `05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8`
 - `20260604` `e13f3b346919310c3beec4755c038be11198b88f`
 - `20260603` `93bc09b9d07c1ac3a329066e1bea1cea5f5a9251`
@@ -295,7 +295,7 @@
 
 ## Unreleased
 
-## nightly-20260606
+## nightly-20260607
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8...677310d2b3017889f12f7adea41190cc5966adfc)
 - `677310d2b3017889f12f7adea41190cc5966adfc` [chore(deps): Bump async-openai from 0.40.2 to 0.41.0 (#25920)](https://github.com/risingwavelabs/risingwave/pull/25920)
 - `3060e31b4f2469d62210aa6affca82967bca102c` [feat(storage): add `iceberg_compaction_enable_prefetch` config to reduce object storage READ API calls (#25786)](https://github.com/risingwavelabs/risingwave/pull/25786)
