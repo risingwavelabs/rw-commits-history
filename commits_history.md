@@ -294,6 +294,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8efa567fe51651acb4a752e361098f3cf95dd539` [fix(stream): handle stale cross-db MV retention misses (#25884)](https://github.com/risingwavelabs/risingwave/pull/25884)
 
 ## nightly-20260607
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8...677310d2b3017889f12f7adea41190cc5966adfc)
