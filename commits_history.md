@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260609` `ae8f78baea236c1ad9d06bc089516f4b2277369e`
 - `20260607` `677310d2b3017889f12f7adea41190cc5966adfc`
 - `20260605` `05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8`
 - `20260604` `e13f3b346919310c3beec4755c038be11198b88f`
@@ -284,7 +285,6 @@
 - `20250612` `05a11653a11980d00af18016d268775b530099fd`
 - `20250611` `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2`
 - `20250610` `ffb4231e935e429694b75c05e31a44a7e4414c37`
-- `20250609` `2939d363f7c6505031c268a2a1485b1e5798d1b1`
 </details>
 
 # Commit history
@@ -293,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260609
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/677310d2b3017889f12f7adea41190cc5966adfc...ae8f78baea236c1ad9d06bc089516f4b2277369e)
 - `ae8f78baea236c1ad9d06bc089516f4b2277369e` [refactor: ensure all meta store tables are empty during meta restore (#25876)](https://github.com/risingwavelabs/risingwave/pull/25876)
 - `f97641449f3364126f2c12d895db515b6d46b3f2` [fix(meta): finish recovered batch refresh jobs (#25816)](https://github.com/risingwavelabs/risingwave/pull/25816)
 - `86558ab61913df68af16ae25d746d4a96276ed78` [refactor(stream): dispatch stream node body by macro (#25931)](https://github.com/risingwavelabs/risingwave/pull/25931)
@@ -2767,15 +2770,4 @@
 - `2756a5bde3a55278427479be6fa3c89072aa1800` [fix(ci): update main-cron PostgreSQL meta backend password (#22182)](https://github.com/risingwavelabs/risingwave/pull/22182)
 
 ## nightly-20250610
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2939d363f7c6505031c268a2a1485b1e5798d1b1...ffb4231e935e429694b75c05e31a44a7e4414c37)
 - `ffb4231e935e429694b75c05e31a44a7e4414c37` [fix(mssql-cdc): support `uuid` and `varchar` as primary key data type (#22157)](https://github.com/risingwavelabs/risingwave/pull/22157)
-- `265b8ef5b7639a8c05dac5aedc5795a1cdec4cd8` [chore(ci):  configure slt shutdown timeout to 10s (#22147)](https://github.com/risingwavelabs/risingwave/pull/22147)
-- `1e35be99e50b0102cdb4a92db4d28389e0d5134c` [chore: revert telemetry reminder workflow (#22159)](https://github.com/risingwavelabs/risingwave/pull/22159)
-- `1257a69dc1baa22e2886a867146c227677224f23` [[Feat] Implement function `map_filter` (#22077)](https://github.com/risingwavelabs/risingwave/pull/22077)
-- `be7e898cd7097b831fead51d3f7ff5e28db519e2` [doc: Update architecture diagram (#22160)](https://github.com/risingwavelabs/risingwave/pull/22160)
-- `0168190c23560c60a207f9f35eea6ccf8a532fb7` [fix: remove KinesisSdkOptions for compatibility issue (#22143)](https://github.com/risingwavelabs/risingwave/pull/22143)
-- `c3f3276288682d8d766e0fadbf69a78ce775e182` [chore: apply `cargo-sort` v2 (#22149)](https://github.com/risingwavelabs/risingwave/pull/22149)
-- `579935e58ed7d7a46a7416740fc0287f9f9cc32b` [fix: improve error handling for AWS MSK IAM token generation (#22113)](https://github.com/risingwavelabs/risingwave/pull/22113)
-
-## nightly-20250609
-- `2939d363f7c6505031c268a2a1485b1e5798d1b1` [feat(license): remove license guard for cdc auto schema mapping (#22136)](https://github.com/risingwavelabs/risingwave/pull/22136)
