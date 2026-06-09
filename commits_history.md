@@ -293,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ae8f78baea236c1ad9d06bc089516f4b2277369e` [refactor: ensure all meta store tables are empty during meta restore (#25876)](https://github.com/risingwavelabs/risingwave/pull/25876)
+- `f97641449f3364126f2c12d895db515b6d46b3f2` [fix(meta): finish recovered batch refresh jobs (#25816)](https://github.com/risingwavelabs/risingwave/pull/25816)
+- `86558ab61913df68af16ae25d746d4a96276ed78` [refactor(stream): dispatch stream node body by macro (#25931)](https://github.com/risingwavelabs/risingwave/pull/25931)
 - `8efa567fe51651acb4a752e361098f3cf95dd539` [fix(stream): handle stale cross-db MV retention misses (#25884)](https://github.com/risingwavelabs/risingwave/pull/25884)
 
 ## nightly-20260607
