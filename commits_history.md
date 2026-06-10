@@ -285,7 +285,6 @@
 - `20250615` `15ed34163360b53e58dabe4f5537dad904f8d724`
 - `20250612` `05a11653a11980d00af18016d268775b530099fd`
 - `20250611` `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2`
-- `20250610` `ffb4231e935e429694b75c05e31a44a7e4414c37`
 </details>
 
 # Commit history
@@ -294,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0922f4806e5fdb1fc0b837a7e30e5a971bc15481` [Fix panic for DISTINCT ON with aggregate and no GROUP BY (#25905)](https://github.com/risingwavelabs/risingwave/pull/25905)
 - `8284f0959a722d6d7fb7857488f8052fae3232ed` [feat(iceberg): default snapshot gate for compaction (#25687)](https://github.com/risingwavelabs/risingwave/pull/25687)
 
 ## nightly-20260610
@@ -2767,13 +2767,4 @@
 - `b58813ebb0901c06f1be8b2c0dcc5d1db5d49708` [fix(ci): update pull-request PostgreSQL meta backend password (#22203)](https://github.com/risingwavelabs/risingwave/pull/22203)
 
 ## nightly-20250611
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffb4231e935e429694b75c05e31a44a7e4414c37...f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2)
 - `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2` [feat(meta): add await-tree instrument for ddl (#22141)](https://github.com/risingwavelabs/risingwave/pull/22141)
-- `0e729f9e5c6f86a4f6c276a8f255908f4c7c3c77` [feat(sqlsmith): support testing EOWC (#21930)](https://github.com/risingwavelabs/risingwave/pull/21930)
-- `5467b69fe13623c3650f0ab4849a62591f6e31db` [feat(frontend): support querying internal backfill table progress (#22122)](https://github.com/risingwavelabs/risingwave/pull/22122)
-- `75e853d51fbf106a6b5863c4a81cccc1c92da94d` [fix(meta, frontend): convert `real_value` back to `ast::Ident` properly (#22085)](https://github.com/risingwavelabs/risingwave/pull/22085)
-- `05e51214815c6c100854fbaf8a479cc8d9a25033` [feat: support ||, position and overlay bytea functions (#22076)](https://github.com/risingwavelabs/risingwave/pull/22076)
-- `2756a5bde3a55278427479be6fa3c89072aa1800` [fix(ci): update main-cron PostgreSQL meta backend password (#22182)](https://github.com/risingwavelabs/risingwave/pull/22182)
-
-## nightly-20250610
-- `ffb4231e935e429694b75c05e31a44a7e4414c37` [fix(mssql-cdc): support `uuid` and `varchar` as primary key data type (#22157)](https://github.com/risingwavelabs/risingwave/pull/22157)
