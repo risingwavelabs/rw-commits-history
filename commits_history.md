@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260610` `a5bfcf0fef68a77f8e0d4c807ab0dde6a34d0f88`
 - `20260609` `ae8f78baea236c1ad9d06bc089516f4b2277369e`
 - `20260607` `677310d2b3017889f12f7adea41190cc5966adfc`
 - `20260605` `05ac5c884ddfebb03ce2c1b436f20a3fa7fb61b8`
@@ -293,6 +294,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8284f0959a722d6d7fb7857488f8052fae3232ed` [feat(iceberg): default snapshot gate for compaction (#25687)](https://github.com/risingwavelabs/risingwave/pull/25687)
+
+## nightly-20260610
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ae8f78baea236c1ad9d06bc089516f4b2277369e...a5bfcf0fef68a77f8e0d4c807ab0dde6a34d0f88)
+- `a5bfcf0fef68a77f8e0d4c807ab0dde6a34d0f88` [feat(batch): push limit into iceberg scans (#25924)](https://github.com/risingwavelabs/risingwave/pull/25924)
 
 ## nightly-20260609
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/677310d2b3017889f12f7adea41190cc5966adfc...ae8f78baea236c1ad9d06bc089516f4b2277369e)
