@@ -293,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f02f160c72f47c7497bc26133c8ee2478a34eb8f` [feat(frontend): support serverless backfill for sinks and indexes (#25953)](https://github.com/risingwavelabs/risingwave/pull/25953)
+- `5a08bcb0c86da0b09e200c04c2a920b2c1f6608e` [fix(stream): report recovered snapshot backfill row count (#25952)](https://github.com/risingwavelabs/risingwave/pull/25952)
+- `85de27c69653112e6e87a478aa045e10958e01a7` [perf: store compact task assignments in memory form (#25951)](https://github.com/risingwavelabs/risingwave/pull/25951)
 - `0922f4806e5fdb1fc0b837a7e30e5a971bc15481` [Fix panic for DISTINCT ON with aggregate and no GROUP BY (#25905)](https://github.com/risingwavelabs/risingwave/pull/25905)
 - `8284f0959a722d6d7fb7857488f8052fae3232ed` [feat(iceberg): default snapshot gate for compaction (#25687)](https://github.com/risingwavelabs/risingwave/pull/25687)
 
