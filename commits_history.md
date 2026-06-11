@@ -284,7 +284,6 @@
 - `20250616` `22fae31830fc0c97cc0cf8021b88a5c940ff7f01`
 - `20250615` `15ed34163360b53e58dabe4f5537dad904f8d724`
 - `20250612` `05a11653a11980d00af18016d268775b530099fd`
-- `20250611` `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2`
 </details>
 
 # Commit history
@@ -293,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b927f6c80dbba178c3e0d88738437e6c3c4072ba` [feat(ddl): support resource group alter for databases, sinks and indexes (#25954)](https://github.com/risingwavelabs/risingwave/pull/25954)
 - `f02f160c72f47c7497bc26133c8ee2478a34eb8f` [feat(frontend): support serverless backfill for sinks and indexes (#25953)](https://github.com/risingwavelabs/risingwave/pull/25953)
 - `5a08bcb0c86da0b09e200c04c2a920b2c1f6608e` [fix(stream): report recovered snapshot backfill row count (#25952)](https://github.com/risingwavelabs/risingwave/pull/25952)
 - `85de27c69653112e6e87a478aa045e10958e01a7` [perf: store compact task assignments in memory form (#25951)](https://github.com/risingwavelabs/risingwave/pull/25951)
@@ -2758,16 +2758,4 @@
 - `13ed954a0c4ae6214684a5407b5644c14b537126` [feat(frontend): support fragment level progress for snapshot backfill (#22166)](https://github.com/risingwavelabs/risingwave/pull/22166)
 
 ## nightly-20250612
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2...05a11653a11980d00af18016d268775b530099fd)
 - `05a11653a11980d00af18016d268775b530099fd` [feat(common): add a new dummy data type (#21380)](https://github.com/risingwavelabs/risingwave/pull/21380)
-- `52a0df186a62d251f706b225a40d88b50da34816` [feat(iceberg): introduce iceberg compaction config (#22209)](https://github.com/risingwavelabs/risingwave/pull/22209)
-- `b707e40dfc05248b9e11cee4eddce893b2aeeae5` [feat(frontend): allow DESCRIBE FRAGMENTS to describe creating stream jobs (#22205)](https://github.com/risingwavelabs/risingwave/pull/22205)
-- `149e43f7de838987678106be07142fa83ee3dc00` [refactor(s3 connector): expose `enable_config_load` to user for s3 source and sink (#22198)](https://github.com/risingwavelabs/risingwave/pull/22198)
-- `53fbd5767e6596ab60cef0f13bace8140788bbd8` [feat(catalog): add fragment backfill progress view (#22124)](https://github.com/risingwavelabs/risingwave/pull/22124)
-- `6f2b519df39f2f99b40a6a3ec27d75af5f829b6d` [fix(proto): fix nullable column (#22206)](https://github.com/risingwavelabs/risingwave/pull/22206)
-- `62038304cc8309e405f8ac376e7104a7dd47c1f1` [feat(catalog): add rw_table_scan system catalog (#22123)](https://github.com/risingwavelabs/risingwave/pull/22123)
-- `58c1603fcec2b2c69cc8f043daa2cbd5d9b4760d` [feat(iceberg): introduce iceberg compaction metrics (#22061)](https://github.com/risingwavelabs/risingwave/pull/22061)
-- `b58813ebb0901c06f1be8b2c0dcc5d1db5d49708` [fix(ci): update pull-request PostgreSQL meta backend password (#22203)](https://github.com/risingwavelabs/risingwave/pull/22203)
-
-## nightly-20250611
-- `f254a160e9d8d7a5c7683ff33109a3a6fe97a8f2` [feat(meta): add await-tree instrument for ddl (#22141)](https://github.com/risingwavelabs/risingwave/pull/22141)
