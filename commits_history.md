@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260612` `2bc7bb7f0c4cdb6b1c43dc73d6b2c5d54bdd75af`
 - `20260610` `a5bfcf0fef68a77f8e0d4c807ab0dde6a34d0f88`
 - `20260609` `ae8f78baea236c1ad9d06bc089516f4b2277369e`
 - `20260607` `677310d2b3017889f12f7adea41190cc5966adfc`
@@ -292,6 +293,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `59bf027a01c29a3b75a8f3622f82688b5ce853cb` [fix(iceberg): handle auto schema change edge cases (#25913)](https://github.com/risingwavelabs/risingwave/pull/25913)
+
+## nightly-20260612
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a5bfcf0fef68a77f8e0d4c807ab0dde6a34d0f88...2bc7bb7f0c4cdb6b1c43dc73d6b2c5d54bdd75af)
+- `2bc7bb7f0c4cdb6b1c43dc73d6b2c5d54bdd75af` [fix(binder): resolve conflicts between `FROM` relation names and `CTE` names (#25767)](https://github.com/risingwavelabs/risingwave/pull/25767)
+- `5655415b5043d87cabcec2f340f5cb5a2e877713` [feat(meta): support periodic refresh run for batch refresh job (#25271)](https://github.com/risingwavelabs/risingwave/pull/25271)
+- `9ddebb192b633384b38b5f095ddd55195faf6d97` [fix(cdc): allow MySQL public key retrieval in Debezium (#25933)](https://github.com/risingwavelabs/risingwave/pull/25933)
+- `e29af196a1c3e2a1a83df87a2c3e605d3e7ebda0` [fix(stream): hoist join_matched_join_keys metric guard to executor scope (#25894)](https://github.com/risingwavelabs/risingwave/pull/25894)
 - `b927f6c80dbba178c3e0d88738437e6c3c4072ba` [feat(ddl): support resource group alter for databases, sinks and indexes (#25954)](https://github.com/risingwavelabs/risingwave/pull/25954)
 - `f02f160c72f47c7497bc26133c8ee2478a34eb8f` [feat(frontend): support serverless backfill for sinks and indexes (#25953)](https://github.com/risingwavelabs/risingwave/pull/25953)
 - `5a08bcb0c86da0b09e200c04c2a920b2c1f6608e` [fix(stream): report recovered snapshot backfill row count (#25952)](https://github.com/risingwavelabs/risingwave/pull/25952)
