@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260613` `78e65cd4564eac9b7fb329a572ae971a40931680`
 - `20260612` `2bc7bb7f0c4cdb6b1c43dc73d6b2c5d54bdd75af`
 - `20260610` `a5bfcf0fef68a77f8e0d4c807ab0dde6a34d0f88`
 - `20260609` `ae8f78baea236c1ad9d06bc089516f4b2277369e`
@@ -292,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260613
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2bc7bb7f0c4cdb6b1c43dc73d6b2c5d54bdd75af...78e65cd4564eac9b7fb329a572ae971a40931680)
 - `78e65cd4564eac9b7fb329a572ae971a40931680` [feat(stream): support partitioned gapfill (#25287)](https://github.com/risingwavelabs/risingwave/pull/25287)
 - `59bf027a01c29a3b75a8f3622f82688b5ce853cb` [fix(iceberg): handle auto schema change edge cases (#25913)](https://github.com/risingwavelabs/risingwave/pull/25913)
 
