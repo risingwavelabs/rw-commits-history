@@ -284,7 +284,6 @@
 - `20250617` `6e0fc647097082700ec6a7fb652a60b6d746245e`
 - `20250616` `22fae31830fc0c97cc0cf8021b88a5c940ff7f01`
 - `20250615` `15ed34163360b53e58dabe4f5537dad904f8d724`
-- `20250612` `05a11653a11980d00af18016d268775b530099fd`
 </details>
 
 # Commit history
@@ -293,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `78e65cd4564eac9b7fb329a572ae971a40931680` [feat(stream): support partitioned gapfill (#25287)](https://github.com/risingwavelabs/risingwave/pull/25287)
 - `59bf027a01c29a3b75a8f3622f82688b5ce853cb` [fix(iceberg): handle auto schema change edge cases (#25913)](https://github.com/risingwavelabs/risingwave/pull/25913)
 
 ## nightly-20260612
@@ -2760,11 +2760,4 @@
 - `72e40dcd37c101ac270160cbe46ddc6eb4bac4db` [chore(deps): Bump next from 14.2.26 to 14.2.30 in /dashboard (#22233)](https://github.com/risingwavelabs/risingwave/pull/22233)
 
 ## nightly-20250615
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/05a11653a11980d00af18016d268775b530099fd...15ed34163360b53e58dabe4f5537dad904f8d724)
 - `15ed34163360b53e58dabe4f5537dad904f8d724` [feat(meta): add await-tree instrument for barrier manager (#22189)](https://github.com/risingwavelabs/risingwave/pull/22189)
-- `b8e86a61191af0c4ba1611478702cc75f1b30429` [feat(iceberg): optimize iceberg compaction parallelism calculate (#22216)](https://github.com/risingwavelabs/risingwave/pull/22216)
-- `dcbfc2bce537c9affaeeab49880eb4ef9582e90e` [chore(ci): only run unaligned-join test in serial mode (#22214)](https://github.com/risingwavelabs/risingwave/pull/22214)
-- `13ed954a0c4ae6214684a5407b5644c14b537126` [feat(frontend): support fragment level progress for snapshot backfill (#22166)](https://github.com/risingwavelabs/risingwave/pull/22166)
-
-## nightly-20250612
-- `05a11653a11980d00af18016d268775b530099fd` [feat(common): add a new dummy data type (#21380)](https://github.com/risingwavelabs/risingwave/pull/21380)
