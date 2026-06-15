@@ -285,7 +285,6 @@
 - `20250618` `33d9fb5132ceb59ca599d3d9437af659b2370f20`
 - `20250617` `6e0fc647097082700ec6a7fb652a60b6d746245e`
 - `20250616` `22fae31830fc0c97cc0cf8021b88a5c940ff7f01`
-- `20250615` `15ed34163360b53e58dabe4f5537dad904f8d724`
 </details>
 
 # Commit history
@@ -294,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c4c04b4e4a5c4e7d463f6b48e4a68fa8dcd78168` [fix(metric): invalid promql in storage alert (#25134)](https://github.com/risingwavelabs/risingwave/pull/25134)
 
 ## nightly-20260615
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/78e65cd4564eac9b7fb329a572ae971a40931680...251fe70455033aff328770a8d9b4ca7f48e06f9c)
@@ -2760,13 +2760,4 @@
 - `b7c976700e640c65217e938fa79f57845f52d82b` [feat(iceberg): support dedup full compact task from compactor side (#22220)](https://github.com/risingwavelabs/risingwave/pull/22220)
 
 ## nightly-20250616
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/15ed34163360b53e58dabe4f5537dad904f8d724...22fae31830fc0c97cc0cf8021b88a5c940ff7f01)
 - `22fae31830fc0c97cc0cf8021b88a5c940ff7f01` [refactor: unify alter connector op name in `AlterSinkOperation` (#22239)](https://github.com/risingwavelabs/risingwave/pull/22239)
-- `a8e9214dc4a588cbc7612c8526af66838e729656` [fix(sqlsmith): use `ObjectName` for column name to correctly distinguish qualified name (#22225)](https://github.com/risingwavelabs/risingwave/pull/22225)
-- `2b0d277ca515992e6612bd386145a6a986b35b56` [fix(ci): fix `create_materialized_view_snapshot.slt` (#22226)](https://github.com/risingwavelabs/risingwave/pull/22226)
-- `395babd024c5365a90f28501ed58abf8f4aaa706` [feat(metrics): add a relation info panel in grafana (#22196)](https://github.com/risingwavelabs/risingwave/pull/22196)
-- `19f1ec4ae3b1091d45ee20cf89f1937b525c2bef` [feat(telemetry): add license information to MetaReport (#22221)](https://github.com/risingwavelabs/risingwave/pull/22221)
-- `72e40dcd37c101ac270160cbe46ddc6eb4bac4db` [chore(deps): Bump next from 14.2.26 to 14.2.30 in /dashboard (#22233)](https://github.com/risingwavelabs/risingwave/pull/22233)
-
-## nightly-20250615
-- `15ed34163360b53e58dabe4f5537dad904f8d724` [feat(meta): add await-tree instrument for barrier manager (#22189)](https://github.com/risingwavelabs/risingwave/pull/22189)
