@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260615` `251fe70455033aff328770a8d9b4ca7f48e06f9c`
 - `20260614` `78e65cd4564eac9b7fb329a572ae971a40931680`
 - `20260612` `2bc7bb7f0c4cdb6b1c43dc73d6b2c5d54bdd75af`
 - `20260610` `a5bfcf0fef68a77f8e0d4c807ab0dde6a34d0f88`
@@ -293,6 +294,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260615
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/78e65cd4564eac9b7fb329a572ae971a40931680...251fe70455033aff328770a8d9b4ca7f48e06f9c)
+- `251fe70455033aff328770a8d9b4ca7f48e06f9c` [chore(grafana): fix PostgreSQL CDC slot WAL lag query (#25961)](https://github.com/risingwavelabs/risingwave/pull/25961)
 
 ## nightly-20260614
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2bc7bb7f0c4cdb6b1c43dc73d6b2c5d54bdd75af...78e65cd4564eac9b7fb329a572ae971a40931680)
