@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260616` `10e816942d8488e265dac0c4a60f95c83aab4f39`
 - `20260615` `251fe70455033aff328770a8d9b4ca7f48e06f9c`
 - `20260614` `78e65cd4564eac9b7fb329a572ae971a40931680`
 - `20260612` `2bc7bb7f0c4cdb6b1c43dc73d6b2c5d54bdd75af`
@@ -293,6 +294,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `18c21f1ec0bf41c3b5229518ad4485f5b4ab768f` [chore: update main branch docker image to v3.0.0 (#25980)](https://github.com/risingwavelabs/risingwave/pull/25980)
+- `4603a7ea5cc104fa9ca0779bc459bef630e7f621` [feat(frontend): guard local fs connectors with frontend config (#25971)](https://github.com/risingwavelabs/risingwave/pull/25971)
+- `1e9ecfd7efdc3e682b2673ca55c47a575c9c7592` [fix(meta): refresh write limits after compaction group rewrites (#25813)](https://github.com/risingwavelabs/risingwave/pull/25813)
+
+## nightly-20260616
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/251fe70455033aff328770a8d9b4ca7f48e06f9c...10e816942d8488e265dac0c4a60f95c83aab4f39)
+- `10e816942d8488e265dac0c4a60f95c83aab4f39` [fix(stream): generate row id before watermark filter (#25975)](https://github.com/risingwavelabs/risingwave/pull/25975)
+- `1c7c0d037abcdf7bccfbb123db6b7384d3007e93` [fix(pg-cdc): support arrays of enum in auto schema change (#25959)](https://github.com/risingwavelabs/risingwave/pull/25959)
 - `c4c04b4e4a5c4e7d463f6b48e4a68fa8dcd78168` [fix(metric): invalid promql in storage alert (#25134)](https://github.com/risingwavelabs/risingwave/pull/25134)
 
 ## nightly-20260615
