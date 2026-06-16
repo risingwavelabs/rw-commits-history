@@ -285,7 +285,6 @@
 - `20250619` `521a0aba6a19adda57293391b604d5b7f28e07b8`
 - `20250618` `33d9fb5132ceb59ca599d3d9437af659b2370f20`
 - `20250617` `6e0fc647097082700ec6a7fb652a60b6d746245e`
-- `20250616` `22fae31830fc0c97cc0cf8021b88a5c940ff7f01`
 </details>
 
 # Commit history
@@ -2755,18 +2754,4 @@
 - `8403c9445991dd9b1f811896ba8af0f74ea43f95` [feat(sqlsmith): support generation of select * except (#22146)](https://github.com/risingwavelabs/risingwave/pull/22146)
 
 ## nightly-20250617
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/22fae31830fc0c97cc0cf8021b88a5c940ff7f01...6e0fc647097082700ec6a7fb652a60b6d746245e)
 - `6e0fc647097082700ec6a7fb652a60b6d746245e` [chore: notice about empty password when trying to create or alter user (#22261)](https://github.com/risingwavelabs/risingwave/pull/22261)
-- `393cafdde1e22d88e5f280025823a4ede29ece0a` [fix(frontend): ban snapshot backfill with shared source backfill and delta join (#22256)](https://github.com/risingwavelabs/risingwave/pull/22256)
-- `cc6d15e3a8154413bf9039090944e3a68ec84780` [chore(ci):  isolate logstore tests from pull request workflow (#22258)](https://github.com/risingwavelabs/risingwave/pull/22258)
-- `44d6e1d6f51741eb2a35f67407472bed8289c660` [feat(expr): add `openai_embedding` function (#22242)](https://github.com/risingwavelabs/risingwave/pull/22242)
-- `2633dd80aaa14625f6714b6f9139afe13b69a49d` [fix(meta): injected project and merge nodes should have unique operator ids by sink into table (#22230)](https://github.com/risingwavelabs/risingwave/pull/22230)
-- `0b3a188bad5705bcaf66bf29509f75726e819fcb` [feat(frontend): add source backfill progress tracking (#22217)](https://github.com/risingwavelabs/risingwave/pull/22217)
-- `e769acc8f6731201011d63139a2cc78df7b679c3` [feat: introduce new scheduling algorithm (#21803)](https://github.com/risingwavelabs/risingwave/pull/21803)
-- `f39618d1f849c793adc5d6b93cad609e50b4e1a9` [refactor(sqlsmith): change config to control weight and features (#22235)](https://github.com/risingwavelabs/risingwave/pull/22235)
-- `c4e2b470b780f332817258da6a2c27eb726c5dea` [fix(frontend): tolerate duplicate operator ids and missing metrics (#22234)](https://github.com/risingwavelabs/risingwave/pull/22234)
-- `b4a6931393d00eae0145d9bc2a914c0e462ce647` [feat(ddl): Implement database-level barrier and checkpoint configuration - Part 2 (#22178)](https://github.com/risingwavelabs/risingwave/pull/22178)
-- `b7c976700e640c65217e938fa79f57845f52d82b` [feat(iceberg): support dedup full compact task from compactor side (#22220)](https://github.com/risingwavelabs/risingwave/pull/22220)
-
-## nightly-20250616
-- `22fae31830fc0c97cc0cf8021b88a5c940ff7f01` [refactor: unify alter connector op name in `AlterSinkOperation` (#22239)](https://github.com/risingwavelabs/risingwave/pull/22239)
