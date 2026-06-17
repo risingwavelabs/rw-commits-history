@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260617` `0488bcf96f258fc7303c33d84ab87028332b7677`
 - `20260616` `10e816942d8488e265dac0c4a60f95c83aab4f39`
 - `20260615` `251fe70455033aff328770a8d9b4ca7f48e06f9c`
 - `20260614` `78e65cd4564eac9b7fb329a572ae971a40931680`
@@ -293,6 +294,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `322043dcf625a80b2ac602fae29d371d3872c807` [feat(sink): support turbopuffer sink (#25984)](https://github.com/risingwavelabs/risingwave/pull/25984)
+
+## nightly-20260617
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10e816942d8488e265dac0c4a60f95c83aab4f39...0488bcf96f258fc7303c33d84ab87028332b7677)
 - `0488bcf96f258fc7303c33d84ab87028332b7677` [fix(meta): skip batch refresh ack after reset (#25977)](https://github.com/risingwavelabs/risingwave/pull/25977)
 - `18c21f1ec0bf41c3b5229518ad4485f5b4ab768f` [chore: update main branch docker image to v3.0.0 (#25980)](https://github.com/risingwavelabs/risingwave/pull/25980)
 - `4603a7ea5cc104fa9ca0779bc459bef630e7f621` [feat(frontend): guard local fs connectors with frontend config (#25971)](https://github.com/risingwavelabs/risingwave/pull/25971)
