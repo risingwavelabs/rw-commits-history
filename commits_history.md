@@ -293,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0488bcf96f258fc7303c33d84ab87028332b7677` [fix(meta): skip batch refresh ack after reset (#25977)](https://github.com/risingwavelabs/risingwave/pull/25977)
 - `18c21f1ec0bf41c3b5229518ad4485f5b4ab768f` [chore: update main branch docker image to v3.0.0 (#25980)](https://github.com/risingwavelabs/risingwave/pull/25980)
 - `4603a7ea5cc104fa9ca0779bc459bef630e7f621` [feat(frontend): guard local fs connectors with frontend config (#25971)](https://github.com/risingwavelabs/risingwave/pull/25971)
 - `1e9ecfd7efdc3e682b2673ca55c47a575c9c7592` [fix(meta): refresh write limits after compaction group rewrites (#25813)](https://github.com/risingwavelabs/risingwave/pull/25813)
