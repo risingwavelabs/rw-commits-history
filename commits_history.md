@@ -285,7 +285,6 @@
 - `20250622` `08ad48b656eb8f82544af56e9503db747e23132e`
 - `20250621` `ef500aa24075c69d48689834bf97a17af4377066`
 - `20250619` `521a0aba6a19adda57293391b604d5b7f28e07b8`
-- `20250618` `33d9fb5132ceb59ca599d3d9437af659b2370f20`
 </details>
 
 # Commit history
@@ -2749,13 +2748,4 @@
 - `c4cb473af8d98f0c988b71b8c4fce576b2fe7a8c` [feat: support alter default privileges (#22191)](https://github.com/risingwavelabs/risingwave/pull/22191)
 
 ## nightly-20250619
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/33d9fb5132ceb59ca599d3d9437af659b2370f20...521a0aba6a19adda57293391b604d5b7f28e07b8)
 - `521a0aba6a19adda57293391b604d5b7f28e07b8` [fix(connector): avoid returning any rows for jdbc sink (#22280)](https://github.com/risingwavelabs/risingwave/pull/22280)
-- `0cc1f7a54b0bfb09f884ec47baf0fd98fee25738` [feat(ci): add code coverage report for e2e tests (#22201)](https://github.com/risingwavelabs/risingwave/pull/22201)
-- `9a2d165161f108d60cfba9dd10d5343d6842ab0f` [fix(integration-test): fix feature store demo and bump protobuf python version (#22277)](https://github.com/risingwavelabs/risingwave/pull/22277)
-- `d7c95fece1ea6b1041f50b9629ac41ae5fe7e5a9` [feat(frontend): add dummy handling of PREPARE and DEALLOCATE (#22278)](https://github.com/risingwavelabs/risingwave/pull/22278)
-- `409c10515550650d3cd1ed2449cc03e921184076` [chore: report details when trying to drop some referring object in restrict mode (#22276)](https://github.com/risingwavelabs/risingwave/pull/22276)
-- `2c081005e1a075adf4fcd948af0fcde0c9a1f6b8` [fix(snapshot-backfill): ensure data chunk builder size has least 2 (#22279)](https://github.com/risingwavelabs/risingwave/pull/22279)
-
-## nightly-20250618
-- `33d9fb5132ceb59ca599d3d9437af659b2370f20` [fix(mssql-cdc): change the default behavior of schema checks for unsupported data types to reject (#21961)](https://github.com/risingwavelabs/risingwave/pull/21961)
