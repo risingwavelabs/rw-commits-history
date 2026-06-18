@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260618` `83741bee815d261225c5365a353b1a117ecff2a9`
 - `20260617` `0488bcf96f258fc7303c33d84ab87028332b7677`
 - `20260616` `10e816942d8488e265dac0c4a60f95c83aab4f39`
 - `20260615` `251fe70455033aff328770a8d9b4ca7f48e06f9c`
@@ -285,7 +286,6 @@
 - `20250621` `ef500aa24075c69d48689834bf97a17af4377066`
 - `20250619` `521a0aba6a19adda57293391b604d5b7f28e07b8`
 - `20250618` `33d9fb5132ceb59ca599d3d9437af659b2370f20`
-- `20250617` `6e0fc647097082700ec6a7fb652a60b6d746245e`
 </details>
 
 # Commit history
@@ -294,6 +294,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260618
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0488bcf96f258fc7303c33d84ab87028332b7677...83741bee815d261225c5365a353b1a117ecff2a9)
+- `83741bee815d261225c5365a353b1a117ecff2a9` [feat: Support Pulsar `INCLUDE header` source columns (#25794)](https://github.com/risingwavelabs/risingwave/pull/25794)
+- `5c09b5fdf94a322e463ca50ddb79ec301e14b2bb` [chore(test): drop leftover UDT in pg cdc schema check test (#25996)](https://github.com/risingwavelabs/risingwave/pull/25996)
+- `79e0a68db12a7c0eff87f02f5e760c12ff47383f` [feat(cdc/monitor): add Postgres CDC WAL lag alert signal (20 GiB threshold) (#25991)](https://github.com/risingwavelabs/risingwave/pull/25991)
+- `6ef2c880173e3409a9c30d7ef6d171f04e885daa` [fix(cdc): avoid panic when schema change oneshot receiver is dropped during topology change (#25989)](https://github.com/risingwavelabs/risingwave/pull/25989)
+- `cbbbda9f72734aeb164914df80caf9e6fbb3824e` [fix(meta): guard pending compaction target ranges (#25946)](https://github.com/risingwavelabs/risingwave/pull/25946)
+- `6909e6b17a73d064f50fdfd3f89c1f5b1a8375a7` [fix(storage): address SST filter follow-up comments (#25832)](https://github.com/risingwavelabs/risingwave/pull/25832)
 - `322043dcf625a80b2ac602fae29d371d3872c807` [feat(sink): support turbopuffer sink (#25984)](https://github.com/risingwavelabs/risingwave/pull/25984)
 
 ## nightly-20260617
@@ -2749,15 +2758,4 @@
 - `2c081005e1a075adf4fcd948af0fcde0c9a1f6b8` [fix(snapshot-backfill): ensure data chunk builder size has least 2 (#22279)](https://github.com/risingwavelabs/risingwave/pull/22279)
 
 ## nightly-20250618
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6e0fc647097082700ec6a7fb652a60b6d746245e...33d9fb5132ceb59ca599d3d9437af659b2370f20)
 - `33d9fb5132ceb59ca599d3d9437af659b2370f20` [fix(mssql-cdc): change the default behavior of schema checks for unsupported data types to reject (#21961)](https://github.com/risingwavelabs/risingwave/pull/21961)
-- `8f031df2272105a6eaf171ab5139ebdfd4e7256f` [feat(expr): use `MaterializedExprs` for all impure expressions (#22257)](https://github.com/risingwavelabs/risingwave/pull/22257)
-- `deff9bee0cd703faa4baa9275eea1f3a8d005fb4` [feat(common): support input/output of new data type `vector(n)` (#22019)](https://github.com/risingwavelabs/risingwave/pull/22019)
-- `17a4f3f0ec16aae503c58841d35b6f8c61dfd8b2` [fix(pulsar): handle absolute path when load cert (#22243)](https://github.com/risingwavelabs/risingwave/pull/22243)
-- `df32074fd985e9921791883cee9e0ccc60de3b9a` [chore: enhance the clarity of the error message for privilege denial (#22262)](https://github.com/risingwavelabs/risingwave/pull/22262)
-- `6a6ade67a51f236d3166bd1a3db8fd15e60594ff` [refactor(frontend): adjust default value for worker thread number (#22236)](https://github.com/risingwavelabs/risingwave/pull/22236)
-- `a794d8ddfaa42a7334df443d6e129b9bfa56fbee` [feat(catalog): support source backfill progress in `rw_fragment_backfill_progress` (#22218)](https://github.com/risingwavelabs/risingwave/pull/22218)
-- `8403c9445991dd9b1f811896ba8af0f74ea43f95` [feat(sqlsmith): support generation of select * except (#22146)](https://github.com/risingwavelabs/risingwave/pull/22146)
-
-## nightly-20250617
-- `6e0fc647097082700ec6a7fb652a60b6d746245e` [chore: notice about empty password when trying to create or alter user (#22261)](https://github.com/risingwavelabs/risingwave/pull/22261)
