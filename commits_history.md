@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260619` `a6797133a7b942fab79c49d9a7af36b27ed08d07`
 - `20260618` `83741bee815d261225c5365a353b1a117ecff2a9`
 - `20260617` `0488bcf96f258fc7303c33d84ab87028332b7677`
 - `20260616` `10e816942d8488e265dac0c4a60f95c83aab4f39`
@@ -293,6 +294,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260619
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/83741bee815d261225c5365a353b1a117ecff2a9...a6797133a7b942fab79c49d9a7af36b27ed08d07)
+- `a6797133a7b942fab79c49d9a7af36b27ed08d07` [fix(storage): reuse catalog acquire path for shared compactor (#25987)](https://github.com/risingwavelabs/risingwave/pull/25987)
+- `ce812375ac9c9713397c8ac28aa66a50b26598fc` [fix(meta): reject unsafe compaction group merges (#26002)](https://github.com/risingwavelabs/risingwave/pull/26002)
 
 ## nightly-20260618
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0488bcf96f258fc7303c33d84ab87028332b7677...83741bee815d261225c5365a353b1a117ecff2a9)
