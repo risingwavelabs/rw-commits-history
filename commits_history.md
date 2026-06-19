@@ -285,7 +285,6 @@
 - `20250623` `faf78c625289b51b341041a0d1150f824959212a`
 - `20250622` `08ad48b656eb8f82544af56e9503db747e23132e`
 - `20250621` `ef500aa24075c69d48689834bf97a17af4377066`
-- `20250619` `521a0aba6a19adda57293391b604d5b7f28e07b8`
 </details>
 
 # Commit history
@@ -294,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c` [chore(toolchain): bump nightly 2025-10-10 → 2026-06-11 (#25945)](https://github.com/risingwavelabs/risingwave/pull/25945)
 
 ## nightly-20260619
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/83741bee815d261225c5365a353b1a117ecff2a9...a6797133a7b942fab79c49d9a7af36b27ed08d07)
@@ -2738,20 +2738,4 @@
 - `08ad48b656eb8f82544af56e9503db747e23132e` [fix(risedev): fix kill when no llvm code cov env set (#22313)](https://github.com/risingwavelabs/risingwave/pull/22313)
 
 ## nightly-20250621
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/521a0aba6a19adda57293391b604d5b7f28e07b8...ef500aa24075c69d48689834bf97a17af4377066)
 - `ef500aa24075c69d48689834bf97a17af4377066` [fix(connector): jdbc pg should use `NO_GENERATED_KEYS` instead of `SUCCESS_NO_INFO` (#22312)](https://github.com/risingwavelabs/risingwave/pull/22312)
-- `57924b5cf8ba5c51b4034619150acef4993b4c17` [chore: update iceberg-compaction dep (#22294)](https://github.com/risingwavelabs/risingwave/pull/22294)
-- `2f40095e23d86832b9e92dae8ab7864d9376faa5` [fix(parquet-source): recursively check the schema of nested data types (#22301)](https://github.com/risingwavelabs/risingwave/pull/22301)
-- `6d26579ce76027149fb1933c1d2e11025e510bf8` [fix(meta): unify validation logic for system parameters (#22289)](https://github.com/risingwavelabs/risingwave/pull/22289)
-- `baf8532c748b70c57354728afe19d4aa716b753c` [fix(iceberg): fix empty metastore password for iceberg engine. (#22302)](https://github.com/risingwavelabs/risingwave/pull/22302)
-- `b1cbf2eb7ae53855b287a78e68417231b09e8e8e` [feat(frontend): disallow backfill order with cross-db snapshot backfill (#22300)](https://github.com/risingwavelabs/risingwave/pull/22300)
-- `28e793d65783827026cc367ab570d009b55cd989` [feat(error): check in complete list of postgres error code (#22286)](https://github.com/risingwavelabs/risingwave/pull/22286)
-- `12da00c3d1121391243740a1441eae067293d91b` [feat(optimizer): simplify filter predicate before converting row_number + filter to topn (#22295)](https://github.com/risingwavelabs/risingwave/pull/22295)
-- `04b350b6971a2f1507db1bbbf8bd55f989813dfc` [feat(stream): support snapshot backfill in backfill order control (#22215)](https://github.com/risingwavelabs/risingwave/pull/22215)
-- `e1ae4d45f1e719277af80ce489003c9c49f74367` [feat(dashboard): show table data size (#22288)](https://github.com/risingwavelabs/risingwave/pull/22288)
-- `a2e971195dc15f087ce3dcae3e8c8ca29c8132e7` [feat(log-store): limit the max size of merged flushed chunk (#22285)](https://github.com/risingwavelabs/risingwave/pull/22285)
-- `247d0ce3a402c39687554d1811212885980c334a` [feat(stream): support source backfill in backfill order control (#22199)](https://github.com/risingwavelabs/risingwave/pull/22199)
-- `c4cb473af8d98f0c988b71b8c4fce576b2fe7a8c` [feat: support alter default privileges (#22191)](https://github.com/risingwavelabs/risingwave/pull/22191)
-
-## nightly-20250619
-- `521a0aba6a19adda57293391b604d5b7f28e07b8` [fix(connector): avoid returning any rows for jdbc sink (#22280)](https://github.com/risingwavelabs/risingwave/pull/22280)
