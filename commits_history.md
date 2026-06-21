@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260620` `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c`
+- `20260621` `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c`
 - `20260619` `a6797133a7b942fab79c49d9a7af36b27ed08d07`
 - `20260618` `83741bee815d261225c5365a353b1a117ecff2a9`
 - `20260617` `0488bcf96f258fc7303c33d84ab87028332b7677`
@@ -285,7 +285,6 @@
 - `20250624` `31a2b7b35f9f6fac88c118238c858a4eebfb0748`
 - `20250623` `faf78c625289b51b341041a0d1150f824959212a`
 - `20250622` `08ad48b656eb8f82544af56e9503db747e23132e`
-- `20250621` `ef500aa24075c69d48689834bf97a17af4377066`
 </details>
 
 # Commit history
@@ -295,7 +294,7 @@
 
 ## Unreleased
 
-## nightly-20260620
+## nightly-20260621
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a6797133a7b942fab79c49d9a7af36b27ed08d07...a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c)
 - `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c` [chore(toolchain): bump nightly 2025-10-10 → 2026-06-11 (#25945)](https://github.com/risingwavelabs/risingwave/pull/25945)
 
@@ -2738,8 +2737,4 @@
 - `8d91b0db31b0ffb119f529ff85d569b5a30b17b4` [fix(ddl): add parameter check for database (#22292)](https://github.com/risingwavelabs/risingwave/pull/22292)
 
 ## nightly-20250622
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ef500aa24075c69d48689834bf97a17af4377066...08ad48b656eb8f82544af56e9503db747e23132e)
 - `08ad48b656eb8f82544af56e9503db747e23132e` [fix(risedev): fix kill when no llvm code cov env set (#22313)](https://github.com/risingwavelabs/risingwave/pull/22313)
-
-## nightly-20250621
-- `ef500aa24075c69d48689834bf97a17af4377066` [fix(connector): jdbc pg should use `NO_GENERATED_KEYS` instead of `SUCCESS_NO_INFO` (#22312)](https://github.com/risingwavelabs/risingwave/pull/22312)
