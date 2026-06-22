@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260621` `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c`
+- `20260622` `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c`
 - `20260619` `a6797133a7b942fab79c49d9a7af36b27ed08d07`
 - `20260618` `83741bee815d261225c5365a353b1a117ecff2a9`
 - `20260617` `0488bcf96f258fc7303c33d84ab87028332b7677`
@@ -284,7 +284,6 @@
 - `20250625` `253c09395f1c98c8001ddf473cfc24d9f49bd547`
 - `20250624` `31a2b7b35f9f6fac88c118238c858a4eebfb0748`
 - `20250623` `faf78c625289b51b341041a0d1150f824959212a`
-- `20250622` `08ad48b656eb8f82544af56e9503db747e23132e`
 </details>
 
 # Commit history
@@ -294,7 +293,7 @@
 
 ## Unreleased
 
-## nightly-20260621
+## nightly-20260622
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a6797133a7b942fab79c49d9a7af36b27ed08d07...a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c)
 - `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c` [chore(toolchain): bump nightly 2025-10-10 → 2026-06-11 (#25945)](https://github.com/risingwavelabs/risingwave/pull/25945)
 
@@ -2726,15 +2725,4 @@
 - `9821e534fd902eb09801cc3c51ab39d5072ea7b9` [feat: a session variable to separate consecutive stream join (#22259)](https://github.com/risingwavelabs/risingwave/pull/22259)
 
 ## nightly-20250623
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/08ad48b656eb8f82544af56e9503db747e23132e...faf78c625289b51b341041a0d1150f824959212a)
 - `faf78c625289b51b341041a0d1150f824959212a` [feat(ci): code coverage for unit test (#22321)](https://github.com/risingwavelabs/risingwave/pull/22321)
-- `d4c7d3f17cf4b9c943022df183244ee8edf5ea97` [feat(risedev): add network latency simulation for postgres service (#22309)](https://github.com/risingwavelabs/risingwave/pull/22309)
-- `1a81b366dd03683308d7412f33f6d6e63cc302e5` [feat(error): use forked version of `thiserror` to allow providing postgres error code (#22304)](https://github.com/risingwavelabs/risingwave/pull/22304)
-- `a7cec914dd5fb35c2d98141c484ed0ca8b8935a0` [chore: update cursor rule to disallow git mutation command unless instructed (#22324)](https://github.com/risingwavelabs/risingwave/pull/22324)
-- `261c6f9254993423c057facc10d5a07bc7648113` [fix:  unset `RUSTC_WORKSPACE_WRAPPER` for release script (#22318)](https://github.com/risingwavelabs/risingwave/pull/22318)
-- `bfcf10bb73ae941354f1a72a6b862f501c5ddb15` [feat(error): forward postgres error code & use it in pgwire server (#22303)](https://github.com/risingwavelabs/risingwave/pull/22303)
-- `863b0642210da6f0f7f210fb6487baa8299bb265` [chore(ci):  disable coverage instrument on `main-cron` (#22306)](https://github.com/risingwavelabs/risingwave/pull/22306)
-- `8d91b0db31b0ffb119f529ff85d569b5a30b17b4` [fix(ddl): add parameter check for database (#22292)](https://github.com/risingwavelabs/risingwave/pull/22292)
-
-## nightly-20250622
-- `08ad48b656eb8f82544af56e9503db747e23132e` [fix(risedev): fix kill when no llvm code cov env set (#22313)](https://github.com/risingwavelabs/risingwave/pull/22313)
