@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260623` `9fa6096ae3c67bed3445e88d73407260d0efb1fc`
 - `20260622` `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c`
 - `20260619` `a6797133a7b942fab79c49d9a7af36b27ed08d07`
 - `20260618` `83741bee815d261225c5365a353b1a117ecff2a9`
@@ -283,7 +284,6 @@
 - `20250626` `7db96b9cd7802f109ce430795d32924decc3718a`
 - `20250625` `253c09395f1c98c8001ddf473cfc24d9f49bd547`
 - `20250624` `31a2b7b35f9f6fac88c118238c858a4eebfb0748`
-- `20250623` `faf78c625289b51b341041a0d1150f824959212a`
 </details>
 
 # Commit history
@@ -292,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260623
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c...9fa6096ae3c67bed3445e88d73407260d0efb1fc)
 - `9fa6096ae3c67bed3445e88d73407260d0efb1fc` [fix(cdc): fix parallel cdc backfill recovery (#25906)](https://github.com/risingwavelabs/risingwave/pull/25906)
 
 ## nightly-20260622
@@ -2714,16 +2717,4 @@
 - `c6d4c507d5eaed064881fd2be50c68db1fe73005` [chore: update package version to v2.6.0 (#22346)](https://github.com/risingwavelabs/risingwave/pull/22346)
 
 ## nightly-20250624
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/faf78c625289b51b341041a0d1150f824959212a...31a2b7b35f9f6fac88c118238c858a4eebfb0748)
 - `31a2b7b35f9f6fac88c118238c858a4eebfb0748` [chore(deps): bump `madsim-rdkafka` to 0.4.4 (#22343)](https://github.com/risingwavelabs/risingwave/pull/22343)
-- `581e0009d2abd5f5e51f3fc734484bbca5535d4c` [feat: introduce rwadmin user for cloud control plane (#22327)](https://github.com/risingwavelabs/risingwave/pull/22327)
-- `2ac1c6f9a4f2ad496147630c064d33e7706cf942` [chore: remove all existing `#[coverage(off)]` (#22341)](https://github.com/risingwavelabs/risingwave/pull/22341)
-- `1561e2ecaced6fb2de5a4114c2d9b955cd2bbfcb` [feat(ci): enable coverage report for `main-cron` runs (#22319)](https://github.com/risingwavelabs/risingwave/pull/22319)
-- `4c7754eb8aaaa3e3ba777046dcfacbef9bf960bd` [test(sqlparser): `escape_string.yml` was not executed (#22334)](https://github.com/risingwavelabs/risingwave/pull/22334)
-- `54d88cfc59785a8fe6466439cf26a4dbc9c85a40` [refactor(sqlparser): tokenize multi-char operators as PostgreSQL (#22333)](https://github.com/risingwavelabs/risingwave/pull/22333)
-- `1a825138bdf0d0e0e218bd339c2f5b4eb7fbc793` [fix(mysql-cdc): use connection pool to avoid data loss caused by unsafe cancellation (#22128)](https://github.com/risingwavelabs/risingwave/pull/22128)
-- `c0ab2178e3029882de40806a3738d7826d40566d` [feat(storage): define vector file format and impl vector file writer (#22103)](https://github.com/risingwavelabs/risingwave/pull/22103)
-- `9821e534fd902eb09801cc3c51ab39d5072ea7b9` [feat: a session variable to separate consecutive stream join (#22259)](https://github.com/risingwavelabs/risingwave/pull/22259)
-
-## nightly-20250623
-- `faf78c625289b51b341041a0d1150f824959212a` [feat(ci): code coverage for unit test (#22321)](https://github.com/risingwavelabs/risingwave/pull/22321)
