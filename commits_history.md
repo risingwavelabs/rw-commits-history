@@ -292,6 +292,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9fa6096ae3c67bed3445e88d73407260d0efb1fc` [fix(cdc): fix parallel cdc backfill recovery (#25906)](https://github.com/risingwavelabs/risingwave/pull/25906)
 
 ## nightly-20260622
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a6797133a7b942fab79c49d9a7af36b27ed08d07...a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c)
