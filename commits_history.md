@@ -292,6 +292,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `216a211fc408a2f195615f922781567b3be6adaa` [fix(frontend): cancel subscription cursor fetch wait (#25772)](https://github.com/risingwavelabs/risingwave/pull/25772)
+- `3b66a46a469c964a0124879f606a4282331f1b14` [fix(test): fix time travel slt (#26030)](https://github.com/risingwavelabs/risingwave/pull/26030)
+- `8bd06624744fbc011bec195d1715211b5e65e1a1` [fix(optimizer): allow unsafe impure project expressions (#26024)](https://github.com/risingwavelabs/risingwave/pull/26024)
+- `8cbce5ae84eba008f9375da56a6b8439bd84f677` [fix(stream): preserve sink into table conflict semantics (#26015)](https://github.com/risingwavelabs/risingwave/pull/26015)
+- `15f5367096e26be13d9dceef5cf04d7afc0b0615` [refactor(debezium): fail fast on postgres when wal_status is lost (#25993)](https://github.com/risingwavelabs/risingwave/pull/25993)
 
 ## nightly-20260623
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c...9fa6096ae3c67bed3445e88d73407260d0efb1fc)
