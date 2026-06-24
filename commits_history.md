@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260624` `216a211fc408a2f195615f922781567b3be6adaa`
 - `20260623` `9fa6096ae3c67bed3445e88d73407260d0efb1fc`
 - `20260622` `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c`
 - `20260619` `a6797133a7b942fab79c49d9a7af36b27ed08d07`
@@ -283,7 +284,6 @@
 - `20250627` `1d4f7fc4629b5a6d848baf661c37a44a940b856f`
 - `20250626` `7db96b9cd7802f109ce430795d32924decc3718a`
 - `20250625` `253c09395f1c98c8001ddf473cfc24d9f49bd547`
-- `20250624` `31a2b7b35f9f6fac88c118238c858a4eebfb0748`
 </details>
 
 # Commit history
@@ -292,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260624
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9fa6096ae3c67bed3445e88d73407260d0efb1fc...216a211fc408a2f195615f922781567b3be6adaa)
 - `216a211fc408a2f195615f922781567b3be6adaa` [fix(frontend): cancel subscription cursor fetch wait (#25772)](https://github.com/risingwavelabs/risingwave/pull/25772)
 - `3b66a46a469c964a0124879f606a4282331f1b14` [fix(test): fix time travel slt (#26030)](https://github.com/risingwavelabs/risingwave/pull/26030)
 - `8bd06624744fbc011bec195d1715211b5e65e1a1` [fix(optimizer): allow unsafe impure project expressions (#26024)](https://github.com/risingwavelabs/risingwave/pull/26024)
@@ -2710,16 +2713,4 @@
 - `7688ce1f7b1f6363b2c6054a6d3fb621c4740a47` [chore: bump foyer + mixtrics (#22360)](https://github.com/risingwavelabs/risingwave/pull/22360)
 
 ## nightly-20250625
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/31a2b7b35f9f6fac88c118238c858a4eebfb0748...253c09395f1c98c8001ddf473cfc24d9f49bd547)
 - `253c09395f1c98c8001ddf473cfc24d9f49bd547` [feat: Use ActorAlignmentMapping instead of WorkerSlotMapping in the scheduler (#22326)](https://github.com/risingwavelabs/risingwave/pull/22326)
-- `e825667f6b7ecb62274157c0e501f5e1b676412a` [refactor(sqlparser): dispatch multi-char operators in binder in an sqlparser-agnostic way (#22344)](https://github.com/risingwavelabs/risingwave/pull/22344)
-- `8d9fc4fe576cad67f8cd1d4f530303b107657cb0` [feat(sink): Add config to block table drop if incoming sinks exist (#22347)](https://github.com/risingwavelabs/risingwave/pull/22347)
-- `061585222b1e6eb4c1bd3497d3afadf66123ca03` [feat(meta): support offline realignment of unaligned join (#22331)](https://github.com/risingwavelabs/risingwave/pull/22331)
-- `7f8498d161eb44c752b89c6e02195105aa704e6b` [feat: add `allow_create_stream` to avoid create nats stream by mistake (#22315)](https://github.com/risingwavelabs/risingwave/pull/22315)
-- `053e1e611ac7a417b9353d51ca57bebc37e14593` [feat(storage): batch add flushed imm to uploader (#22342)](https://github.com/risingwavelabs/risingwave/pull/22342)
-- `0e1dbc59ab09a15e5d51441b15054ae95d2113c1` [refactor(batch): avoid using async-trait in BatchLookupExecutor (#22345)](https://github.com/risingwavelabs/risingwave/pull/22345)
-- `2deb7c3de32afcad38b7c8259e64e84859d31228` [chore(ci): remove unused sink test: e2e_test/sink/pg_native_vs_jdbc.slt (#22272)](https://github.com/risingwavelabs/risingwave/pull/22272)
-- `c6d4c507d5eaed064881fd2be50c68db1fe73005` [chore: update package version to v2.6.0 (#22346)](https://github.com/risingwavelabs/risingwave/pull/22346)
-
-## nightly-20250624
-- `31a2b7b35f9f6fac88c118238c858a4eebfb0748` [chore(deps): bump `madsim-rdkafka` to 0.4.4 (#22343)](https://github.com/risingwavelabs/risingwave/pull/22343)
