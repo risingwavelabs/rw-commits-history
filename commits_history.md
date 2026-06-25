@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260625` `706f938a72c74ddc63c313efca5ce99a57a2526e`
 - `20260624` `216a211fc408a2f195615f922781567b3be6adaa`
 - `20260623` `9fa6096ae3c67bed3445e88d73407260d0efb1fc`
 - `20260622` `a10c7cdc13b4b85e2b76cbc7aa796719bda87e3c`
@@ -283,7 +284,6 @@
 - `20250629` `68f698d3853addd38843833ae97be35f2224475b`
 - `20250627` `1d4f7fc4629b5a6d848baf661c37a44a940b856f`
 - `20250626` `7db96b9cd7802f109ce430795d32924decc3718a`
-- `20250625` `253c09395f1c98c8001ddf473cfc24d9f49bd547`
 </details>
 
 # Commit history
@@ -292,6 +292,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `df6c3e9d4d808676adbb719bb77cc8c480914828` [feat(meta): expose in-flight gRPC handlers in await-tree dumps (#25900)](https://github.com/risingwavelabs/risingwave/pull/25900)
+
+## nightly-20260625
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/216a211fc408a2f195615f922781567b3be6adaa...706f938a72c74ddc63c313efca5ce99a57a2526e)
 - `706f938a72c74ddc63c313efca5ce99a57a2526e` [fix(meta): fix table change log backward compatibility (#26048)](https://github.com/risingwavelabs/risingwave/pull/26048)
 - `4c1aef0720a85b0044629dd85503a93ce69482f0` [fix(meta): add ON DELETE CASCADE foreign key for pending_sink_state (#26045)](https://github.com/risingwavelabs/risingwave/pull/26045)
 - `41634312a57ffbc31e1b16d02668b6450c9070f2` [test(sink): V3 iceberg sink fault injection test suite (madsim) (#25778)](https://github.com/risingwavelabs/risingwave/pull/25778)
@@ -2709,12 +2713,4 @@
 - `e6caae9c3736815fc41ecda5672822ad9d557966` [refactor(test): move integration test for mysql-async to a separate crate (#22353)](https://github.com/risingwavelabs/risingwave/pull/22353)
 
 ## nightly-20250626
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/253c09395f1c98c8001ddf473cfc24d9f49bd547...7db96b9cd7802f109ce430795d32924decc3718a)
 - `7db96b9cd7802f109ce430795d32924decc3718a` [chore: increase iceberg test timeout in main-cron (#22382)](https://github.com/risingwavelabs/risingwave/pull/22382)
-- `8d70815aabf21913797cb10dc7541b7406c73a51` [test(e2e): Add Kafka Startup Timestamp Test (#22375)](https://github.com/risingwavelabs/risingwave/pull/22375)
-- `ae6c7dc601d428c91555cee2c01f11b39f683a20` [feat: Add support for altering source connector properties (#20780)](https://github.com/risingwavelabs/risingwave/pull/20780)
-- `3b37c6f6dd66d5a83a10ad311d8e2d43b27c9e8d` [fix(cdc): send error message via the jni channel during reader init (#22338)](https://github.com/risingwavelabs/risingwave/pull/22338)
-- `7688ce1f7b1f6363b2c6054a6d3fb621c4740a47` [chore: bump foyer + mixtrics (#22360)](https://github.com/risingwavelabs/risingwave/pull/22360)
-
-## nightly-20250625
-- `253c09395f1c98c8001ddf473cfc24d9f49bd547` [feat: Use ActorAlignmentMapping instead of WorkerSlotMapping in the scheduler (#22326)](https://github.com/risingwavelabs/risingwave/pull/22326)
