@@ -292,6 +292,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `706f938a72c74ddc63c313efca5ce99a57a2526e` [fix(meta): fix table change log backward compatibility (#26048)](https://github.com/risingwavelabs/risingwave/pull/26048)
+- `4c1aef0720a85b0044629dd85503a93ce69482f0` [fix(meta): add ON DELETE CASCADE foreign key for pending_sink_state (#26045)](https://github.com/risingwavelabs/risingwave/pull/26045)
+- `41634312a57ffbc31e1b16d02668b6450c9070f2` [test(sink): V3 iceberg sink fault injection test suite (madsim) (#25778)](https://github.com/risingwavelabs/risingwave/pull/25778)
+- `3651cd29f7918dc2d350f9594920417c3d2e4356` [feat(meta): support iceberg v3 exactly once commit (#25708)](https://github.com/risingwavelabs/risingwave/pull/25708)
 
 ## nightly-20260624
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/9fa6096ae3c67bed3445e88d73407260d0efb1fc...216a211fc408a2f195615f922781567b3be6adaa)
