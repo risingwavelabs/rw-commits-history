@@ -292,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4cfc7a3d3bbf3969afe318effaf2c6613508408d` [feat(frontend): allow snapshot-free sink queries (#26023)](https://github.com/risingwavelabs/risingwave/pull/26023)
+- `1534f0f84d8f8329276ca07034f1677155bce06c` [fix(cdc): fix cdc backfill recovery (#25907)](https://github.com/risingwavelabs/risingwave/pull/25907)
+- `010f7f784ffa9b96b9dabc63ef8fe0fddcd48641` [fix(connector): add pulsar source ack observability (#25995)](https://github.com/risingwavelabs/risingwave/pull/25995)
 - `df6c3e9d4d808676adbb719bb77cc8c480914828` [feat(meta): expose in-flight gRPC handlers in await-tree dumps (#25900)](https://github.com/risingwavelabs/risingwave/pull/25900)
 
 ## nightly-20260625
