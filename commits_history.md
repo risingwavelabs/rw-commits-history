@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260626` `1534f0f84d8f8329276ca07034f1677155bce06c`
 - `20260625` `706f938a72c74ddc63c313efca5ce99a57a2526e`
 - `20260624` `216a211fc408a2f195615f922781567b3be6adaa`
 - `20260623` `9fa6096ae3c67bed3445e88d73407260d0efb1fc`
@@ -283,7 +284,6 @@
 - `20250630` `d45a4da926c3acff168781154874b2063dfd0fc3`
 - `20250629` `68f698d3853addd38843833ae97be35f2224475b`
 - `20250627` `1d4f7fc4629b5a6d848baf661c37a44a940b856f`
-- `20250626` `7db96b9cd7802f109ce430795d32924decc3718a`
 </details>
 
 # Commit history
@@ -292,7 +292,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b333df5af8b91f4d528b4ac2aa50232203bac688` [fix(stream): rate limit snapshot backfill chunks (#26022)](https://github.com/risingwavelabs/risingwave/pull/26022)
+- `3544df592925a5e9aa6403a710f7658b8ce926be` [fix(sqlparser): correctly parse delimiters inside dollar-quoted string (#25599)](https://github.com/risingwavelabs/risingwave/pull/25599)
 - `4cfc7a3d3bbf3969afe318effaf2c6613508408d` [feat(frontend): allow snapshot-free sink queries (#26023)](https://github.com/risingwavelabs/risingwave/pull/26023)
+
+## nightly-20260626
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/706f938a72c74ddc63c313efca5ce99a57a2526e...1534f0f84d8f8329276ca07034f1677155bce06c)
 - `1534f0f84d8f8329276ca07034f1677155bce06c` [fix(cdc): fix cdc backfill recovery (#25907)](https://github.com/risingwavelabs/risingwave/pull/25907)
 - `010f7f784ffa9b96b9dabc63ef8fe0fddcd48641` [fix(connector): add pulsar source ack observability (#25995)](https://github.com/risingwavelabs/risingwave/pull/25995)
 - `df6c3e9d4d808676adbb719bb77cc8c480914828` [feat(meta): expose in-flight gRPC handlers in await-tree dumps (#25900)](https://github.com/risingwavelabs/risingwave/pull/25900)
@@ -2704,16 +2709,4 @@
 - `0b1ebd284ac212e5a8d13ac153940aa63c55f9cc` [perf(connector): optimize pg native sink writer with pipelining (#22310)](https://github.com/risingwavelabs/risingwave/pull/22310)
 
 ## nightly-20250627
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7db96b9cd7802f109ce430795d32924decc3718a...1d4f7fc4629b5a6d848baf661c37a44a940b856f)
 - `1d4f7fc4629b5a6d848baf661c37a44a940b856f` [chore(iceberg): measure the iceberg spark download time for e2e test (#22400)](https://github.com/risingwavelabs/risingwave/pull/22400)
-- `1211b82d4d7139709edde3cb18a17728d04c1a43` [refactor(frontend): defer converting into `PbTable` or `PbSource` until necessary in handler (#22401)](https://github.com/risingwavelabs/risingwave/pull/22401)
-- `f0f285765d39378ab38c2ddb33608ac92cbda9dc` [fix: lookup join jsonb distinct (#22390)](https://github.com/risingwavelabs/risingwave/pull/22390)
-- `1da60c4101e8674a3d619ba052865df1cc22a506` [fix(sqlparser): `arr[lo:hi]` and `map{k: v}` broken by `aggregate:` (#22394)](https://github.com/risingwavelabs/risingwave/pull/22394)
-- `d0ff8d99d4c98d5e5eefe2f89b2d993d40893fd4` [feat(dashboard): add total relation cnt (#22402)](https://github.com/risingwavelabs/risingwave/pull/22402)
-- `37837447a143e3cc8259e40c2d78f5d0db8f2797` [feat(expr): `l2_distance` between 2 `vector`s (#22029)](https://github.com/risingwavelabs/risingwave/pull/22029)
-- `5ce76508d641a367970fcc6c08ba7730ce29c5cf` [refactor(frontend): do not duplicate table within `Materialize` node in DDL request (#22381)](https://github.com/risingwavelabs/risingwave/pull/22381)
-- `97e2189783f781231bb248815e5c3b6a918ea843` [fix(meta): fix incorrectly marking worker node as barrier collected (#22384)](https://github.com/risingwavelabs/risingwave/pull/22384)
-- `e6caae9c3736815fc41ecda5672822ad9d557966` [refactor(test): move integration test for mysql-async to a separate crate (#22353)](https://github.com/risingwavelabs/risingwave/pull/22353)
-
-## nightly-20250626
-- `7db96b9cd7802f109ce430795d32924decc3718a` [chore: increase iceberg test timeout in main-cron (#22382)](https://github.com/risingwavelabs/risingwave/pull/22382)
