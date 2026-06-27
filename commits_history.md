@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260627` `b333df5af8b91f4d528b4ac2aa50232203bac688`
 - `20260626` `1534f0f84d8f8329276ca07034f1677155bce06c`
 - `20260625` `706f938a72c74ddc63c313efca5ce99a57a2526e`
 - `20260624` `216a211fc408a2f195615f922781567b3be6adaa`
@@ -283,7 +284,6 @@
 - `20250701` `5a972a6704769bc819744b0a91c92613dba9ef5a`
 - `20250630` `d45a4da926c3acff168781154874b2063dfd0fc3`
 - `20250629` `68f698d3853addd38843833ae97be35f2224475b`
-- `20250627` `1d4f7fc4629b5a6d848baf661c37a44a940b856f`
 </details>
 
 # Commit history
@@ -292,6 +292,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260627
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1534f0f84d8f8329276ca07034f1677155bce06c...b333df5af8b91f4d528b4ac2aa50232203bac688)
 - `b333df5af8b91f4d528b4ac2aa50232203bac688` [fix(stream): rate limit snapshot backfill chunks (#26022)](https://github.com/risingwavelabs/risingwave/pull/26022)
 - `3544df592925a5e9aa6403a710f7658b8ce926be` [fix(sqlparser): correctly parse delimiters inside dollar-quoted string (#25599)](https://github.com/risingwavelabs/risingwave/pull/25599)
 - `4cfc7a3d3bbf3969afe318effaf2c6613508408d` [feat(frontend): allow snapshot-free sink queries (#26023)](https://github.com/risingwavelabs/risingwave/pull/26023)
@@ -2704,9 +2707,4 @@
 - `9edf3895c7194242d834376c4174c6bf53ea4e97` [fix(stream): truncate flushed chunks which were read (#22320)](https://github.com/risingwavelabs/risingwave/pull/22320)
 
 ## nightly-20250629
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d4f7fc4629b5a6d848baf661c37a44a940b856f...68f698d3853addd38843833ae97be35f2224475b)
 - `68f698d3853addd38843833ae97be35f2224475b` [feat(optimizer): optimize select clause's subquery unnesting (#22386)](https://github.com/risingwavelabs/risingwave/pull/22386)
-- `0b1ebd284ac212e5a8d13ac153940aa63c55f9cc` [perf(connector): optimize pg native sink writer with pipelining (#22310)](https://github.com/risingwavelabs/risingwave/pull/22310)
-
-## nightly-20250627
-- `1d4f7fc4629b5a6d848baf661c37a44a940b856f` [chore(iceberg): measure the iceberg spark download time for e2e test (#22400)](https://github.com/risingwavelabs/risingwave/pull/22400)
