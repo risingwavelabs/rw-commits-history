@@ -1,7 +1,8 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260627` `b333df5af8b91f4d528b4ac2aa50232203bac688`
+- `20260629` `cffa14aecf6c14bef7b9949ca916c2160a4a0120`
+- `20260628` `b333df5af8b91f4d528b4ac2aa50232203bac688`
 - `20260626` `1534f0f84d8f8329276ca07034f1677155bce06c`
 - `20260625` `706f938a72c74ddc63c313efca5ce99a57a2526e`
 - `20260624` `216a211fc408a2f195615f922781567b3be6adaa`
@@ -283,7 +284,6 @@
 - `20250703` `59f5ba39a54b7903efb0c81c23a8c79bff8f1700`
 - `20250701` `5a972a6704769bc819744b0a91c92613dba9ef5a`
 - `20250630` `d45a4da926c3acff168781154874b2063dfd0fc3`
-- `20250629` `68f698d3853addd38843833ae97be35f2224475b`
 </details>
 
 # Commit history
@@ -292,8 +292,18 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a408e4cb3aabd5e6a5d0afc3a3d7956c6d6cb116` [feat(stream): deprecate no-shuffle backfill creation (#25963)](https://github.com/risingwavelabs/risingwave/pull/25963)
 
-## nightly-20260627
+## nightly-20260629
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b333df5af8b91f4d528b4ac2aa50232203bac688...cffa14aecf6c14bef7b9949ca916c2160a4a0120)
+- `cffa14aecf6c14bef7b9949ca916c2160a4a0120` [test(sink): fix flaky V3 iceberg fault-injection convergence timeout (#26077)](https://github.com/risingwavelabs/risingwave/pull/26077)
+- `a6ac4b0bccf6cde3425d598c1e1143aa1fea075d` [feat(sink): support turbopuffer batching controls (#26036)](https://github.com/risingwavelabs/risingwave/pull/26036)
+- `90908f7abbc09dc43baff10bf2e438f78d01bb4a` [feat(iceberg): derive iceberg v3 pk from upstream stream key (#25992)](https://github.com/risingwavelabs/risingwave/pull/25992)
+- `0760106bee8e5632b7708368fb9e2fba873581d7` [fix(meta): fix epoch-continuity panic in finishing_jobs_collector (#26060)](https://github.com/risingwavelabs/risingwave/pull/26060)
+- `3ed80f5fca2013e9890a50109613bdd42da241dd` [perf(meta): reduce hummock versioning lock contention (#26076)](https://github.com/risingwavelabs/risingwave/pull/26076)
+- `b3b09245c72999c2a986ec36fa763b3a480ee554` [fix(sqlparser): correctly parse escaped double-quoted identifiers (#25601)](https://github.com/risingwavelabs/risingwave/pull/25601)
+
+## nightly-20260628
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1534f0f84d8f8329276ca07034f1677155bce06c...b333df5af8b91f4d528b4ac2aa50232203bac688)
 - `b333df5af8b91f4d528b4ac2aa50232203bac688` [fix(stream): rate limit snapshot backfill chunks (#26022)](https://github.com/risingwavelabs/risingwave/pull/26022)
 - `3544df592925a5e9aa6403a710f7658b8ce926be` [fix(sqlparser): correctly parse delimiters inside dollar-quoted string (#25599)](https://github.com/risingwavelabs/risingwave/pull/25599)
@@ -2697,14 +2707,4 @@
 - `495b97c272b69fed66e3d697b6c074db04d50a2d` [chore(deps): Bump the all group across 1 directory with 39 updates (#22440)](https://github.com/risingwavelabs/risingwave/pull/22440)
 
 ## nightly-20250630
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/68f698d3853addd38843833ae97be35f2224475b...d45a4da926c3acff168781154874b2063dfd0fc3)
 - `d45a4da926c3acff168781154874b2063dfd0fc3` [fix: remove assertion for exactly one rate limit node in a single fragment (#22426)](https://github.com/risingwavelabs/risingwave/pull/22426)
-- `23491fe02d5d78b3f971609d0063457034e94abd` [feat: Add database_id to rw_streaming_jobs  (#22427)](https://github.com/risingwavelabs/risingwave/pull/22427)
-- `977a20ef0cb51580235f7ed04ed78ddf17702089` [fix: kafka offset handling for timestamps beyond latest (#22413)](https://github.com/risingwavelabs/risingwave/pull/22413)
-- `98af4f8eb8059eb480484abe912470ebdfe09f47` [feat(frontend): minimal support for `ALTER MATERIALIZED VIEW AS` (#22365)](https://github.com/risingwavelabs/risingwave/pull/22365)
-- `6ed5763f858e8ade2c8471bdb3badf630854f4ed` [refactor(frontend): avoid multiple declaration of plan node in macro (#22420)](https://github.com/risingwavelabs/risingwave/pull/22420)
-- `4f6eb5a072949ec35ade98c90201c82ac2b09ca4` [feat(connector): allow schema registry with prefix path (#21138)](https://github.com/risingwavelabs/risingwave/pull/21138)
-- `9edf3895c7194242d834376c4174c6bf53ea4e97` [fix(stream): truncate flushed chunks which were read (#22320)](https://github.com/risingwavelabs/risingwave/pull/22320)
-
-## nightly-20250629
-- `68f698d3853addd38843833ae97be35f2224475b` [feat(optimizer): optimize select clause's subquery unnesting (#22386)](https://github.com/risingwavelabs/risingwave/pull/22386)
