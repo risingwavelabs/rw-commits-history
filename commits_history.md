@@ -292,6 +292,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `34928ea3d6a8c14c40a3f4d5655fb60bb30fcb98` [feat(stream): evaluate project chunks concurrently (#26000)](https://github.com/risingwavelabs/risingwave/pull/26000)
+- `292f8f0a336bce27311d1182a0b0a186bd9b84c1` [fix(meta): defer serverless backfill provisioning (#25962)](https://github.com/risingwavelabs/risingwave/pull/25962)
+- `f6c9cc5977f2a2e4d3eb05d16d7387053438d77b` [refactor(meta): split hummock timer task into per-handler loops (#24773)](https://github.com/risingwavelabs/risingwave/pull/24773)
+- `3b1d02e0231d438f76c0b00dd6a9dde358645118` [fix(test): make counter per-instance (#26090)](https://github.com/risingwavelabs/risingwave/pull/26090)
+- `a1a425a6d23e32f2085d20cdac085c65393c85dc` [feat(sink): support since_timestamp option (#26043)](https://github.com/risingwavelabs/risingwave/pull/26043)
+- `f8353f2407d2163cd23b94c8ae29513599f26ecb` [refactor(meta): add hummock lock timing metrics (#26071)](https://github.com/risingwavelabs/risingwave/pull/26071)
+- `c7130076617c065ed9825cf9b853884a0e3f76a5` [ refactor(cdc): support alter hostname and port for cdc source (#26019)](https://github.com/risingwavelabs/risingwave/pull/26019)
+- `1021b7d95a1c0dd369655036f5e2c4c344059ab6` [feat(stream): support eowc gapfill (#25350)](https://github.com/risingwavelabs/risingwave/pull/25350)
 - `a408e4cb3aabd5e6a5d0afc3a3d7956c6d6cb116` [feat(stream): deprecate no-shuffle backfill creation (#25963)](https://github.com/risingwavelabs/risingwave/pull/25963)
 
 ## nightly-20260629
