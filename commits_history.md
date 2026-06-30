@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260630` `34928ea3d6a8c14c40a3f4d5655fb60bb30fcb98`
 - `20260629` `cffa14aecf6c14bef7b9949ca916c2160a4a0120`
 - `20260628` `b333df5af8b91f4d528b4ac2aa50232203bac688`
 - `20260626` `1534f0f84d8f8329276ca07034f1677155bce06c`
@@ -283,7 +284,6 @@
 - `20250704` `1d82fa885fa6ed9f74e04339639e1686acb7b6d4`
 - `20250703` `59f5ba39a54b7903efb0c81c23a8c79bff8f1700`
 - `20250701` `5a972a6704769bc819744b0a91c92613dba9ef5a`
-- `20250630` `d45a4da926c3acff168781154874b2063dfd0fc3`
 </details>
 
 # Commit history
@@ -292,6 +292,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `577c0d5ca1c3147e551c44f4113e6d2539bd4dee` [feat(sink): support REPLACE SINK (#26039)](https://github.com/risingwavelabs/risingwave/pull/26039)
+
+## nightly-20260630
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cffa14aecf6c14bef7b9949ca916c2160a4a0120...34928ea3d6a8c14c40a3f4d5655fb60bb30fcb98)
 - `34928ea3d6a8c14c40a3f4d5655fb60bb30fcb98` [feat(stream): evaluate project chunks concurrently (#26000)](https://github.com/risingwavelabs/risingwave/pull/26000)
 - `292f8f0a336bce27311d1182a0b0a186bd9b84c1` [fix(meta): defer serverless backfill provisioning (#25962)](https://github.com/risingwavelabs/risingwave/pull/25962)
 - `f6c9cc5977f2a2e4d3eb05d16d7387053438d77b` [refactor(meta): split hummock timer task into per-handler loops (#24773)](https://github.com/risingwavelabs/risingwave/pull/24773)
@@ -2698,21 +2702,4 @@
 - `9cf8ce982c1d459e408bd276a996d263c8e78522` [chore(iceberg): speed up iceberg e2e test (#22468)](https://github.com/risingwavelabs/risingwave/pull/22468)
 
 ## nightly-20250701
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d45a4da926c3acff168781154874b2063dfd0fc3...5a972a6704769bc819744b0a91c92613dba9ef5a)
 - `5a972a6704769bc819744b0a91c92613dba9ef5a` [fix: iceberg location generator (#22443)](https://github.com/risingwavelabs/risingwave/pull/22443)
-- `064117ddf3f474717234709d667ec81b72961c30` [chore(deps): Bump org.postgresql:postgresql from 42.7.5 to 42.7.7 in /java (#22204)](https://github.com/risingwavelabs/risingwave/pull/22204)
-- `ec4132afc2fff4e00484884ff7b2bb7ca315af8c` [fix(mssql-cdc): do not require full `database.schema.table` format (#22391)](https://github.com/risingwavelabs/risingwave/pull/22391)
-- `728318161b91de60ba0ee17a4de45e951e4bde20` [refactor(frontend): static typed plan phase (#22421)](https://github.com/risingwavelabs/risingwave/pull/22421)
-- `d37d54c16e945b64f609044acc0f28c338883a5b` [fix(mysql-cdc): enhance mysql schema check (#22175)](https://github.com/risingwavelabs/risingwave/pull/22175)
-- `6ce355a7fa461781dda9ab3a2305d27726230e97` [chore(deps): Bump async-nats from 0.41.0 to 0.42.0 (#22207)](https://github.com/risingwavelabs/risingwave/pull/22207)
-- `befda3158750348430aaa676a8fb92df11341f4e` [chore(deps): Bump protobuf from 4.25.3 to 4.25.8 in /integration_tests/iceberg-sink2/python (#22253)](https://github.com/risingwavelabs/risingwave/pull/22253)
-- `719dd41b7cded3391e5b3d45e3541e40b98fe63d` [chore(sqlsmith): ban strpos/position (#22444)](https://github.com/risingwavelabs/risingwave/pull/22444)
-- `e127ad6058547729ca05cd8ec6f52e6a7fa0b01f` [fix(batch): fix `binary` and `varbinary` type mapping in table function `mysql_query` (#22442)](https://github.com/risingwavelabs/risingwave/pull/22442)
-- `886397b836862d0bee9223a385bf754fcd9ca29d` [feat(sink): Enable compression by default in opendal parquet writer (#22238)](https://github.com/risingwavelabs/risingwave/pull/22238)
-- `db5ca1d9ae0f4a0d9c1179d12dc635dc569bd0e0` [feat(streaming): add chunk compaction post-reader, over logstore stream (#22414)](https://github.com/risingwavelabs/risingwave/pull/22414)
-- `f33045e449fef9ee31765c6a3a481878de5dad1a` [refactor(sqlparser): make all non-standard operators sqlparser-agnostic (#22362)](https://github.com/risingwavelabs/risingwave/pull/22362)
-- `a6cf21dac1e8ab79b9f3f0c3fc05a8120fdb5b1a` [refactor(meta): wrap fragment type mask with struct (#22419)](https://github.com/risingwavelabs/risingwave/pull/22419)
-- `495b97c272b69fed66e3d697b6c074db04d50a2d` [chore(deps): Bump the all group across 1 directory with 39 updates (#22440)](https://github.com/risingwavelabs/risingwave/pull/22440)
-
-## nightly-20250630
-- `d45a4da926c3acff168781154874b2063dfd0fc3` [fix: remove assertion for exactly one rate limit node in a single fragment (#22426)](https://github.com/risingwavelabs/risingwave/pull/22426)
