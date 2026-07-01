@@ -292,6 +292,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ce19e54fed6eb6319ecfbc6f8eb7473be95b9bcb` [fix(dashboard): correct user alert signals (#26118)](https://github.com/risingwavelabs/risingwave/pull/26118)
+- `a58efed392695836ca7fc0800819a895f8ae2813` [fix(cdc/postgres): force-close PG connections on stop to release zombie replication slot (#26082)](https://github.com/risingwavelabs/risingwave/pull/26082)
+- `d3b84ccfaae6ab7e7fc118565e3bbd8bbdefed31` [feat(connector): surface Kafka consumer group cleanup failures (#26049)](https://github.com/risingwavelabs/risingwave/pull/26049)
+- `735e267e4e88fc5e45f2fbd7a05150f5e0547d1f` [fix: fix snowflake decimal and stage path name (#25169)](https://github.com/risingwavelabs/risingwave/pull/25169)
+- `b0cf52124b993d34c0bb4d8362938b15a64413e9` [fix(dynamodb): retry unprocessed batch write items (#25985)](https://github.com/risingwavelabs/risingwave/pull/25985)
+- `884c3e548f547fc6727b2e626af0bf12e54d6385` [fix(cdc): parse MySQL binlog file seq independent of binlog basename (#25919)](https://github.com/risingwavelabs/risingwave/pull/25919)
 - `577c0d5ca1c3147e551c44f4113e6d2539bd4dee` [feat(sink): support REPLACE SINK (#26039)](https://github.com/risingwavelabs/risingwave/pull/26039)
 
 ## nightly-20260630
