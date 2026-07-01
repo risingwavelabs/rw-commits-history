@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260701` `ce19e54fed6eb6319ecfbc6f8eb7473be95b9bcb`
 - `20260630` `34928ea3d6a8c14c40a3f4d5655fb60bb30fcb98`
 - `20260629` `cffa14aecf6c14bef7b9949ca916c2160a4a0120`
 - `20260628` `b333df5af8b91f4d528b4ac2aa50232203bac688`
@@ -283,7 +284,6 @@
 - `20250706` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
 - `20250704` `1d82fa885fa6ed9f74e04339639e1686acb7b6d4`
 - `20250703` `59f5ba39a54b7903efb0c81c23a8c79bff8f1700`
-- `20250701` `5a972a6704769bc819744b0a91c92613dba9ef5a`
 </details>
 
 # Commit history
@@ -292,6 +292,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `21f60ba1d4e00387d296def3d6a2d44a945d0cce` [fix(source): complete S3/GCS FULL_RELOAD refresh (#26016)](https://github.com/risingwavelabs/risingwave/pull/26016)
+
+## nightly-20260701
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/34928ea3d6a8c14c40a3f4d5655fb60bb30fcb98...ce19e54fed6eb6319ecfbc6f8eb7473be95b9bcb)
 - `ce19e54fed6eb6319ecfbc6f8eb7473be95b9bcb` [fix(dashboard): correct user alert signals (#26118)](https://github.com/risingwavelabs/risingwave/pull/26118)
 - `a58efed392695836ca7fc0800819a895f8ae2813` [fix(cdc/postgres): force-close PG connections on stop to release zombie replication slot (#26082)](https://github.com/risingwavelabs/risingwave/pull/26082)
 - `d3b84ccfaae6ab7e7fc118565e3bbd8bbdefed31` [feat(connector): surface Kafka consumer group cleanup failures (#26049)](https://github.com/risingwavelabs/risingwave/pull/26049)
@@ -2693,19 +2697,4 @@
 - `7b7af424264772df7b854b2a9e1d39dc027a6f01` [fix(iceberg): fix drop iceberg sink race (#22494)](https://github.com/risingwavelabs/risingwave/pull/22494)
 
 ## nightly-20250703
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5a972a6704769bc819744b0a91c92613dba9ef5a...59f5ba39a54b7903efb0c81c23a8c79bff8f1700)
 - `59f5ba39a54b7903efb0c81c23a8c79bff8f1700` [feat: make kafka source `group.id.prefix` alter-able (#22492)](https://github.com/risingwavelabs/risingwave/pull/22492)
-- `2d5d8880f182704b7335409d583bb352f8e06952` [feat(storage): implement in memory hnsw builder (#21648)](https://github.com/risingwavelabs/risingwave/pull/21648)
-- `feb36441de09d491f054076b5b2124eb0e83238e` [chore: bump rust-toolchain to nightly-2025-06-25 & edition2024 (#22438)](https://github.com/risingwavelabs/risingwave/pull/22438)
-- `9f10b92beabc2147ae9c61bce01dacb523ff2f2f` [refactor: make allow alter check rely on generate code (#22466)](https://github.com/risingwavelabs/risingwave/pull/22466)
-- `0c62290e5d0ab441344cc961ea0a32ff78afaf47` [feat: use proc_macro to generate allow_alter props (#22363)](https://github.com/risingwavelabs/risingwave/pull/22363)
-- `6a70b1063cf69c8216fd2ce6b0a6b75de5782fa3` [feat(storage): support hummock FLAT index  (#21820)](https://github.com/risingwavelabs/risingwave/pull/21820)
-- `d031c02b9e16f09a3bd13ac869ade1076eb4c3cd` [feat(meta): minimal support for `ALTER MATERIALIZED VIEW AS` (#22366)](https://github.com/risingwavelabs/risingwave/pull/22366)
-- `5391b2f2fe9c62feefc2cbf0b925af18710d5e71` [refactor(ci): pulsar util script (#22305)](https://github.com/risingwavelabs/risingwave/pull/22305)
-- `cc880e9e389836bf5fa3e25956fad7ca84eeaee1` [feat(test): add test to cover incorrect commit epoch on worker crash (#22393)](https://github.com/risingwavelabs/risingwave/pull/22393)
-- `ed3a0c86ad74a804685cdc718d8c029bc01dac1f` [feat(storage): use faiss utils for vector computation (#22287)](https://github.com/risingwavelabs/risingwave/pull/22287)
-- `bc6b8c70b05ed056dc793702284093a344f6c752` [chore(deps): Bump console from 0.15.7 to 0.15.11 (#22469)](https://github.com/risingwavelabs/risingwave/pull/22469)
-- `9cf8ce982c1d459e408bd276a996d263c8e78522` [chore(iceberg): speed up iceberg e2e test (#22468)](https://github.com/risingwavelabs/risingwave/pull/22468)
-
-## nightly-20250701
-- `5a972a6704769bc819744b0a91c92613dba9ef5a` [fix: iceberg location generator (#22443)](https://github.com/risingwavelabs/risingwave/pull/22443)
