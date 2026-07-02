@@ -292,6 +292,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `65917ff1ad31919b04f8484890d1ff6e3f1b2119` [fix(meta): bump madsim sqlx fork to fix pool num_idle underflow livelock (#26131)](https://github.com/risingwavelabs/risingwave/pull/26131)
+- `c4d5979ba759b542ac2b80790c11d3b93fe37f9d` [fix(cdc): restart snapshot read correctly (#26105)](https://github.com/risingwavelabs/risingwave/pull/26105)
 - `21f60ba1d4e00387d296def3d6a2d44a945d0cce` [fix(source): complete S3/GCS FULL_RELOAD refresh (#26016)](https://github.com/risingwavelabs/risingwave/pull/26016)
 
 ## nightly-20260701
