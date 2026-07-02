@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260702` `65917ff1ad31919b04f8484890d1ff6e3f1b2119`
 - `20260701` `ce19e54fed6eb6319ecfbc6f8eb7473be95b9bcb`
 - `20260630` `34928ea3d6a8c14c40a3f4d5655fb60bb30fcb98`
 - `20260629` `cffa14aecf6c14bef7b9949ca916c2160a4a0120`
@@ -292,6 +293,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5eb3f180f7b24eadc68c8f1d28709caf351d265b` [feat(connector): expose Kafka rdkafka retry configs (#26123)](https://github.com/risingwavelabs/risingwave/pull/26123)
+
+## nightly-20260702
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ce19e54fed6eb6319ecfbc6f8eb7473be95b9bcb...65917ff1ad31919b04f8484890d1ff6e3f1b2119)
 - `65917ff1ad31919b04f8484890d1ff6e3f1b2119` [fix(meta): bump madsim sqlx fork to fix pool num_idle underflow livelock (#26131)](https://github.com/risingwavelabs/risingwave/pull/26131)
 - `c4d5979ba759b542ac2b80790c11d3b93fe37f9d` [fix(cdc): restart snapshot read correctly (#26105)](https://github.com/risingwavelabs/risingwave/pull/26105)
 - `21f60ba1d4e00387d296def3d6a2d44a945d0cce` [fix(source): complete S3/GCS FULL_RELOAD refresh (#26016)](https://github.com/risingwavelabs/risingwave/pull/26016)
