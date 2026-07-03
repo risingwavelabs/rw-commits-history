@@ -293,6 +293,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8248ed5250bfb225cc0c4ae080c874fd781e6083` [feat(risedev): add local search and document backends (#25434)](https://github.com/risingwavelabs/risingwave/pull/25434)
+- `092d8b078b2b3aaa809f6a8d819e72bdc95b3d31` [refactor(expr): split sync and async expression traits (#26122)](https://github.com/risingwavelabs/risingwave/pull/26122)
+- `5635dbdb6fd572bc101d037a04091c5dbe50045e` [feat(connector): ADLS Gen2 service-principal auth for Iceberg sink (#26124)](https://github.com/risingwavelabs/risingwave/pull/26124)
+- `4777523f0d84014a64ef21c5da5993d6667a3ce2` [feat(sink): support serverless task for snowflake sink (#25090)](https://github.com/risingwavelabs/risingwave/pull/25090)
+- `d24cb8c3c726f1329e9947b4a3fb5e804c5776d6` [feat(stream): reuse locality backfill snapshot stream (#25887)](https://github.com/risingwavelabs/risingwave/pull/25887)
+- `899bbd172d3a6efb423fcd3eda2a67e35afea443` [Revert "chore(deps): Bump hyper from 1.9.0 to 1.10.0 (#25822)" (#26135)](https://github.com/risingwavelabs/risingwave/pull/26135)
+- `440aa8634725f671b24a4e92e57297ef1fbd2dbf` [feat(sink): fix clickhouse sink datetime64 bug (#20909)](https://github.com/risingwavelabs/risingwave/pull/20909)
+- `24adc98b0ef84b63514b0143621164226ca4b314` [feat(expr): add metrics and retry for OpenAI embedding (#26001)](https://github.com/risingwavelabs/risingwave/pull/26001)
+- `e799402f82bf32a16d912287debd6212ad49a57f` [feat(ctl): add MetaCommands::CreateMetaStoreSchema (#26154)](https://github.com/risingwavelabs/risingwave/pull/26154)
 - `5eb3f180f7b24eadc68c8f1d28709caf351d265b` [feat(connector): expose Kafka rdkafka retry configs (#26123)](https://github.com/risingwavelabs/risingwave/pull/26123)
 
 ## nightly-20260702
