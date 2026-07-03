@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260703` `092d8b078b2b3aaa809f6a8d819e72bdc95b3d31`
 - `20260702` `65917ff1ad31919b04f8484890d1ff6e3f1b2119`
 - `20260701` `ce19e54fed6eb6319ecfbc6f8eb7473be95b9bcb`
 - `20260630` `34928ea3d6a8c14c40a3f4d5655fb60bb30fcb98`
@@ -284,7 +285,6 @@
 - `20250707` `f75c9e9f5a2381d8de81c428db24b253d60e0273`
 - `20250706` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
 - `20250704` `1d82fa885fa6ed9f74e04339639e1686acb7b6d4`
-- `20250703` `59f5ba39a54b7903efb0c81c23a8c79bff8f1700`
 </details>
 
 # Commit history
@@ -294,6 +294,9 @@
 
 ## Unreleased
 - `8248ed5250bfb225cc0c4ae080c874fd781e6083` [feat(risedev): add local search and document backends (#25434)](https://github.com/risingwavelabs/risingwave/pull/25434)
+
+## nightly-20260703
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/65917ff1ad31919b04f8484890d1ff6e3f1b2119...092d8b078b2b3aaa809f6a8d819e72bdc95b3d31)
 - `092d8b078b2b3aaa809f6a8d819e72bdc95b3d31` [refactor(expr): split sync and async expression traits (#26122)](https://github.com/risingwavelabs/risingwave/pull/26122)
 - `5635dbdb6fd572bc101d037a04091c5dbe50045e` [feat(connector): ADLS Gen2 service-principal auth for Iceberg sink (#26124)](https://github.com/risingwavelabs/risingwave/pull/26124)
 - `4777523f0d84014a64ef21c5da5993d6667a3ce2` [feat(sink): support serverless task for snowflake sink (#25090)](https://github.com/risingwavelabs/risingwave/pull/25090)
@@ -2707,10 +2710,4 @@
 - `a88b8fc651a91216b5059eaf5c23697fc04328e5` [fix(release): install dependencies required by faiss in release pipeline (#22515)](https://github.com/risingwavelabs/risingwave/pull/22515)
 
 ## nightly-20250704
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/59f5ba39a54b7903efb0c81c23a8c79bff8f1700...1d82fa885fa6ed9f74e04339639e1686acb7b6d4)
 - `1d82fa885fa6ed9f74e04339639e1686acb7b6d4` [refactor(jni_core): move JVM runtime to common crate (#22352)](https://github.com/risingwavelabs/risingwave/pull/22352)
-- `1eff2d1ffa9006e5d6f9f45039db4925a0466432` [chore: update async-nats dependency to include websocket feature (#22505)](https://github.com/risingwavelabs/risingwave/pull/22505)
-- `7b7af424264772df7b854b2a9e1d39dc027a6f01` [fix(iceberg): fix drop iceberg sink race (#22494)](https://github.com/risingwavelabs/risingwave/pull/22494)
-
-## nightly-20250703
-- `59f5ba39a54b7903efb0c81c23a8c79bff8f1700` [feat: make kafka source `group.id.prefix` alter-able (#22492)](https://github.com/risingwavelabs/risingwave/pull/22492)
