@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260704` `8248ed5250bfb225cc0c4ae080c874fd781e6083`
 - `20260703` `092d8b078b2b3aaa809f6a8d819e72bdc95b3d31`
 - `20260702` `65917ff1ad31919b04f8484890d1ff6e3f1b2119`
 - `20260701` `ce19e54fed6eb6319ecfbc6f8eb7473be95b9bcb`
@@ -284,7 +285,6 @@
 - `20250708` `dd759acf1fea4bc972e3c82f527ff2587687d35f`
 - `20250707` `f75c9e9f5a2381d8de81c428db24b253d60e0273`
 - `20250706` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
-- `20250704` `1d82fa885fa6ed9f74e04339639e1686acb7b6d4`
 </details>
 
 # Commit history
@@ -293,6 +293,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cf28fa91458d80fd0b1a3d2f3e0231cef270a140` [fix(connector): reject postgres sink tables with foreign keys (#25114)](https://github.com/risingwavelabs/risingwave/pull/25114)
+- `8da633f31aebaf498947ef4e1ab9565cb0c674c7` [fix(sink): support parameterized BigQuery decimal types in schema check (#25401)](https://github.com/risingwavelabs/risingwave/pull/25401)
+
+## nightly-20260704
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/092d8b078b2b3aaa809f6a8d819e72bdc95b3d31...8248ed5250bfb225cc0c4ae080c874fd781e6083)
 - `8248ed5250bfb225cc0c4ae080c874fd781e6083` [feat(risedev): add local search and document backends (#25434)](https://github.com/risingwavelabs/risingwave/pull/25434)
 
 ## nightly-20260703
@@ -2706,8 +2711,4 @@
 - `b46551fefd7e14e96c746b9b2dfac54b2bba281f` [fix(pgwire): send `ParameterStatus(TimeZone)` on startup to avoid `psycopg[binary]` segfault (#22504)](https://github.com/risingwavelabs/risingwave/pull/22504)
 
 ## nightly-20250706
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d82fa885fa6ed9f74e04339639e1686acb7b6d4...a88b8fc651a91216b5059eaf5c23697fc04328e5)
 - `a88b8fc651a91216b5059eaf5c23697fc04328e5` [fix(release): install dependencies required by faiss in release pipeline (#22515)](https://github.com/risingwavelabs/risingwave/pull/22515)
-
-## nightly-20250704
-- `1d82fa885fa6ed9f74e04339639e1686acb7b6d4` [refactor(jni_core): move JVM runtime to common crate (#22352)](https://github.com/risingwavelabs/risingwave/pull/22352)
