@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260705` `cf28fa91458d80fd0b1a3d2f3e0231cef270a140`
 - `20260704` `8248ed5250bfb225cc0c4ae080c874fd781e6083`
 - `20260703` `092d8b078b2b3aaa809f6a8d819e72bdc95b3d31`
 - `20260702` `65917ff1ad31919b04f8484890d1ff6e3f1b2119`
@@ -293,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260705
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8248ed5250bfb225cc0c4ae080c874fd781e6083...cf28fa91458d80fd0b1a3d2f3e0231cef270a140)
 - `cf28fa91458d80fd0b1a3d2f3e0231cef270a140` [fix(connector): reject postgres sink tables with foreign keys (#25114)](https://github.com/risingwavelabs/risingwave/pull/25114)
 - `8da633f31aebaf498947ef4e1ab9565cb0c674c7` [fix(sink): support parameterized BigQuery decimal types in schema check (#25401)](https://github.com/risingwavelabs/risingwave/pull/25401)
 
