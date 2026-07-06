@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260706` `142ae4108b515e73ab8d89b12d0614e3b6e581a4`
 - `20260705` `cf28fa91458d80fd0b1a3d2f3e0231cef270a140`
 - `20260704` `8248ed5250bfb225cc0c4ae080c874fd781e6083`
 - `20260703` `092d8b078b2b3aaa809f6a8d819e72bdc95b3d31`
@@ -285,7 +286,6 @@
 - `20250710` `f91eacaf81215fb86670935a9cb71dd7c0a39613`
 - `20250708` `dd759acf1fea4bc972e3c82f527ff2587687d35f`
 - `20250707` `f75c9e9f5a2381d8de81c428db24b253d60e0273`
-- `20250706` `a88b8fc651a91216b5059eaf5c23697fc04328e5`
 </details>
 
 # Commit history
@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260706
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cf28fa91458d80fd0b1a3d2f3e0231cef270a140...142ae4108b515e73ab8d89b12d0614e3b6e581a4)
 - `142ae4108b515e73ab8d89b12d0614e3b6e581a4` [feat(sink): support Doris VARIANT (#25451)](https://github.com/risingwavelabs/risingwave/pull/25451)
 - `4153b761824fbb6eb5725996f7928ac988e6cc1e` [feat(iceberg): support pk-index sink on iceberg V2 tables (#26116)](https://github.com/risingwavelabs/risingwave/pull/26116)
 - `f6d53aeb06bdd32a575a29175a5a793e0ae355bd` [test(iceberg): add Glue catalog e2e coverage (#26167)](https://github.com/risingwavelabs/risingwave/pull/26167)
@@ -2711,14 +2714,4 @@
 - `e3ba3624eaba1008f5f02bbfd1af8688a5cdeb58` [fix(iceberg): spwan blocking task for dropping iceberg table (#22530)](https://github.com/risingwavelabs/risingwave/pull/22530)
 
 ## nightly-20250707
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a88b8fc651a91216b5059eaf5c23697fc04328e5...f75c9e9f5a2381d8de81c428db24b253d60e0273)
 - `f75c9e9f5a2381d8de81c428db24b253d60e0273` [fix: construct user info after secret and conn privilege granted or revoked (#22529)](https://github.com/risingwavelabs/risingwave/pull/22529)
-- `875768c6a2bfdcf73b3b36970ecc7dc36fc64e3e` [refactor(license): define feature list with JSON schema (#22514)](https://github.com/risingwavelabs/risingwave/pull/22514)
-- `93d18f39bc4271576aa87c2153651994b9822d81` [chore: update .gitignore to exclude rustc ice files (#22523)](https://github.com/risingwavelabs/risingwave/pull/22523)
-- `deda835453e9567600411d7279915939dccf0217` [feat(license): add support for custom license tiers (#22506)](https://github.com/risingwavelabs/risingwave/pull/22506)
-- `fe007236b54dd91796aef50b3d59a0c2feaf48eb` [feat(meta): introduce basic state table mapping algorithm for `ALTER MV` (#22429)](https://github.com/risingwavelabs/risingwave/pull/22429)
-- `f98cce3cff6e90b6f8253d4e579c38c592ac1de5` [fix(sink): fix starrrocks https host error (#22108)](https://github.com/risingwavelabs/risingwave/pull/22108)
-- `b46551fefd7e14e96c746b9b2dfac54b2bba281f` [fix(pgwire): send `ParameterStatus(TimeZone)` on startup to avoid `psycopg[binary]` segfault (#22504)](https://github.com/risingwavelabs/risingwave/pull/22504)
-
-## nightly-20250706
-- `a88b8fc651a91216b5059eaf5c23697fc04328e5` [fix(release): install dependencies required by faiss in release pipeline (#22515)](https://github.com/risingwavelabs/risingwave/pull/22515)
