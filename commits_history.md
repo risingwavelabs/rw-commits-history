@@ -294,6 +294,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `142ae4108b515e73ab8d89b12d0614e3b6e581a4` [feat(sink): support Doris VARIANT (#25451)](https://github.com/risingwavelabs/risingwave/pull/25451)
+- `4153b761824fbb6eb5725996f7928ac988e6cc1e` [feat(iceberg): support pk-index sink on iceberg V2 tables (#26116)](https://github.com/risingwavelabs/risingwave/pull/26116)
+- `f6d53aeb06bdd32a575a29175a5a793e0ae355bd` [test(iceberg): add Glue catalog e2e coverage (#26167)](https://github.com/risingwavelabs/risingwave/pull/26167)
+- `4a50c0d36766585c3853aa59d95e2176316debb2` [fix: update maven download url (#26173)](https://github.com/risingwavelabs/risingwave/pull/26173)
+- `3b503c8b4b7815976e01c8cd0a613f554b47d5d0` [refactor(connector): resolve iceberg catalog config (#26168)](https://github.com/risingwavelabs/risingwave/pull/26168)
+- `46c971609acbe532e6c1a46e57c023c671f3d4c4` [fix(meta): support large meta snapshot JSON lengths (#26162)](https://github.com/risingwavelabs/risingwave/pull/26162)
 
 ## nightly-20260705
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8248ed5250bfb225cc0c4ae080c874fd781e6083...cf28fa91458d80fd0b1a3d2f3e0231cef270a140)
