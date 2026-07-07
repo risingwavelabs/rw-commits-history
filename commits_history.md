@@ -285,7 +285,6 @@
 - `20250711` `909cc0c77f40554c228a543d07d96203a6e0432c`
 - `20250710` `f91eacaf81215fb86670935a9cb71dd7c0a39613`
 - `20250708` `dd759acf1fea4bc972e3c82f527ff2587687d35f`
-- `20250707` `f75c9e9f5a2381d8de81c428db24b253d60e0273`
 </details>
 
 # Commit history
@@ -294,6 +293,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cd74c4d657fa79024bdb530628133d34c91f2279` [fix(meta): partially decode backup hummock sequences (#26193)](https://github.com/risingwavelabs/risingwave/pull/26193)
 - `5c4432ea4d235fd9f3ec95b57c9e999dd1baa62f` [fix(optimizer): preserve asof left join left predicates (#26198)](https://github.com/risingwavelabs/risingwave/pull/26198)
 - `34367db44a59da52e82b17f9be9855730e088452` [chore(iceberg): improve iceberg logging (#26178)](https://github.com/risingwavelabs/risingwave/pull/26178)
 - `927754435113fcb1aa2d8258d5241fb736ade96a` [fix(frontend): correct strictness of mirrored iceberg comparison pushdown (#26195)](https://github.com/risingwavelabs/risingwave/pull/26195)
@@ -2709,14 +2709,4 @@
 - `d58087a336dd2fc0a3009a6328ccd793fcf21f61` [fix: make pulsar source exactly once (#22510)](https://github.com/risingwavelabs/risingwave/pull/22510)
 
 ## nightly-20250708
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f75c9e9f5a2381d8de81c428db24b253d60e0273...dd759acf1fea4bc972e3c82f527ff2587687d35f)
 - `dd759acf1fea4bc972e3c82f527ff2587687d35f` [fix(build): disable parallel frontend to reduce ICE (#22541)](https://github.com/risingwavelabs/risingwave/pull/22541)
-- `d584d665389300c1352282486e168cd77e1f7489` [feat: add CLAUDE.md (#22537)](https://github.com/risingwavelabs/risingwave/pull/22537)
-- `0c2e1baccb317b4f45730b14a0d612ac12a08af2` [fix: correctly display connection ref to secret in other schema (#22524)](https://github.com/risingwavelabs/risingwave/pull/22524)
-- `8d2617aa1a8c98df718c3ef40b8d1ff5817560c4` [feat(license): provision license key with tier `All` & add tests for custom tier (#22522)](https://github.com/risingwavelabs/risingwave/pull/22522)
-- `f1f3366a668afdc38b37a20c1731a52a5df1dbb3` [test: cover ALTER CONNECTION SET SCHEMA (#22493)](https://github.com/risingwavelabs/risingwave/pull/22493)
-- `99f6c5108096702185c4173a38dd03f5a94d62a7` [chore(deps): Bump the all group in /java with 7 updates (#22535)](https://github.com/risingwavelabs/risingwave/pull/22535)
-- `e3ba3624eaba1008f5f02bbfd1af8688a5cdeb58` [fix(iceberg): spwan blocking task for dropping iceberg table (#22530)](https://github.com/risingwavelabs/risingwave/pull/22530)
-
-## nightly-20250707
-- `f75c9e9f5a2381d8de81c428db24b253d60e0273` [fix: construct user info after secret and conn privilege granted or revoked (#22529)](https://github.com/risingwavelabs/risingwave/pull/22529)
