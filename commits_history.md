@@ -294,6 +294,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5c4432ea4d235fd9f3ec95b57c9e999dd1baa62f` [fix(optimizer): preserve asof left join left predicates (#26198)](https://github.com/risingwavelabs/risingwave/pull/26198)
+- `34367db44a59da52e82b17f9be9855730e088452` [chore(iceberg): improve iceberg logging (#26178)](https://github.com/risingwavelabs/risingwave/pull/26178)
+- `927754435113fcb1aa2d8258d5241fb736ade96a` [fix(frontend): correct strictness of mirrored iceberg comparison pushdown (#26195)](https://github.com/risingwavelabs/risingwave/pull/26195)
+- `7150f0ca3ed3c6bc74242c372d9d9bb6139ac717` [refactor(connector): share iceberg source scan planning (#26174)](https://github.com/risingwavelabs/risingwave/pull/26174)
+- `5a0c8f5652792a4134b41466d9ca4fa6a391e548` [refactor(cdc): default time.precision.mode to microseconds (#26035)](https://github.com/risingwavelabs/risingwave/pull/26035)
 
 ## nightly-20260706
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cf28fa91458d80fd0b1a3d2f3e0231cef270a140...142ae4108b515e73ab8d89b12d0614e3b6e581a4)
