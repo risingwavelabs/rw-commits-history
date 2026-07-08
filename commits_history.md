@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260708` `ee3d4fa4a18d53b52b5d0552e0d5474e669680ac`
 - `20260706` `142ae4108b515e73ab8d89b12d0614e3b6e581a4`
 - `20260705` `cf28fa91458d80fd0b1a3d2f3e0231cef270a140`
 - `20260704` `8248ed5250bfb225cc0c4ae080c874fd781e6083`
@@ -284,7 +285,6 @@
 - `20250713` `e5afc4e70aafa9da919ee22f09cfdc370552e8a0`
 - `20250711` `909cc0c77f40554c228a543d07d96203a6e0432c`
 - `20250710` `f91eacaf81215fb86670935a9cb71dd7c0a39613`
-- `20250708` `dd759acf1fea4bc972e3c82f527ff2587687d35f`
 </details>
 
 # Commit history
@@ -293,6 +293,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260708
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/142ae4108b515e73ab8d89b12d0614e3b6e581a4...ee3d4fa4a18d53b52b5d0552e0d5474e669680ac)
 - `ee3d4fa4a18d53b52b5d0552e0d5474e669680ac` [chore: change default linker on macOS (#26217)](https://github.com/risingwavelabs/risingwave/pull/26217)
 - `8926a1ef4e3662fda48eb251d07074fc56f389aa` [refactor(connector): unify Postgres connection config across sink/source/batch/frontend (#25476)](https://github.com/risingwavelabs/risingwave/pull/25476)
 - `cd74c4d657fa79024bdb530628133d34c91f2279` [fix(meta): partially decode backup hummock sequences (#26193)](https://github.com/risingwavelabs/risingwave/pull/26193)
@@ -2700,15 +2703,4 @@
 - `4bd823e9a06c52504f99ec86bf929a034b45a837` [fix: fix jni register on compactor component (#22562)](https://github.com/risingwavelabs/risingwave/pull/22562)
 
 ## nightly-20250710
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dd759acf1fea4bc972e3c82f527ff2587687d35f...f91eacaf81215fb86670935a9cb71dd7c0a39613)
 - `f91eacaf81215fb86670935a9cb71dd7c0a39613` [feat: add a session variable to switch join encoding type (#22416)](https://github.com/risingwavelabs/risingwave/pull/22416)
-- `21145ce716984d74af543734ef2e91675a513904` [chore(deps): Bump `aws-smithy-*` crates (#22168)](https://github.com/risingwavelabs/risingwave/pull/22168)
-- `aa98e68769c23b6b3ce6c82de96462578f70a3e9` [feat(dashboard): add `Functions` page to display all created UDFs (#22550)](https://github.com/risingwavelabs/risingwave/pull/22550)
-- `b33eefce7d6dda0d300fdbcf7a6d27a075940494` [chore(deps): Bump peekable from 0.3.0 to 0.4.1 (#22552)](https://github.com/risingwavelabs/risingwave/pull/22552)
-- `7df145ff0a08e637d24bfbf74229487dbf91b9cf` [fix: check pulsar topic exist (#22544)](https://github.com/risingwavelabs/risingwave/pull/22544)
-- `3c73ee40f8b9a699b448149b3f3df25c29ada992` [fix: fix notification with erased definition of creating mv (#22549)](https://github.com/risingwavelabs/risingwave/pull/22549)
-- `785edac7ec6d70be4844de04812f475752572913` [chore: fully deprecate dependent_relations to avoid misuse (#22542)](https://github.com/risingwavelabs/risingwave/pull/22542)
-- `d58087a336dd2fc0a3009a6328ccd793fcf21f61` [fix: make pulsar source exactly once (#22510)](https://github.com/risingwavelabs/risingwave/pull/22510)
-
-## nightly-20250708
-- `dd759acf1fea4bc972e3c82f527ff2587687d35f` [fix(build): disable parallel frontend to reduce ICE (#22541)](https://github.com/risingwavelabs/risingwave/pull/22541)
