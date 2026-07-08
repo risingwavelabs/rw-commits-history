@@ -293,6 +293,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ee3d4fa4a18d53b52b5d0552e0d5474e669680ac` [chore: change default linker on macOS (#26217)](https://github.com/risingwavelabs/risingwave/pull/26217)
+- `8926a1ef4e3662fda48eb251d07074fc56f389aa` [refactor(connector): unify Postgres connection config across sink/source/batch/frontend (#25476)](https://github.com/risingwavelabs/risingwave/pull/25476)
 - `cd74c4d657fa79024bdb530628133d34c91f2279` [fix(meta): partially decode backup hummock sequences (#26193)](https://github.com/risingwavelabs/risingwave/pull/26193)
 - `5c4432ea4d235fd9f3ec95b57c9e999dd1baa62f` [fix(optimizer): preserve asof left join left predicates (#26198)](https://github.com/risingwavelabs/risingwave/pull/26198)
 - `34367db44a59da52e82b17f9be9855730e088452` [chore(iceberg): improve iceberg logging (#26178)](https://github.com/risingwavelabs/risingwave/pull/26178)
