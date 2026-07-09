@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260709` `cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d`
 - `20260708` `ee3d4fa4a18d53b52b5d0552e0d5474e669680ac`
 - `20260706` `142ae4108b515e73ab8d89b12d0614e3b6e581a4`
 - `20260705` `cf28fa91458d80fd0b1a3d2f3e0231cef270a140`
@@ -293,6 +294,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260709
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ee3d4fa4a18d53b52b5d0552e0d5474e669680ac...cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d)
+- `cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d` [fix(meta): don't panic on hummock timer child cancellation during shutdown (#26221)](https://github.com/risingwavelabs/risingwave/pull/26221)
 
 ## nightly-20260708
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/142ae4108b515e73ab8d89b12d0614e3b6e581a4...ee3d4fa4a18d53b52b5d0552e0d5474e669680ac)
