@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260710` `1830e0cfdc9d16ba63d955b69a2970da0e6f5a41`
 - `20260709` `cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d`
 - `20260708` `ee3d4fa4a18d53b52b5d0552e0d5474e669680ac`
 - `20260706` `142ae4108b515e73ab8d89b12d0614e3b6e581a4`
@@ -285,7 +286,6 @@
 - `20250714` `aab3f23538471a0dcab77fcbb8b00ebc60f09f66`
 - `20250713` `e5afc4e70aafa9da919ee22f09cfdc370552e8a0`
 - `20250711` `909cc0c77f40554c228a543d07d96203a6e0432c`
-- `20250710` `f91eacaf81215fb86670935a9cb71dd7c0a39613`
 </details>
 
 # Commit history
@@ -294,6 +294,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `119de0aea1b3118a01bfafaa92da19a595d9ac5d` [fix(sink): handle Redshift JDBC schema changes (#25937)](https://github.com/risingwavelabs/risingwave/pull/25937)
+
+## nightly-20260710
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d...1830e0cfdc9d16ba63d955b69a2970da0e6f5a41)
 - `1830e0cfdc9d16ba63d955b69a2970da0e6f5a41` [feat(frontend): allow unsafe upsert sink primary key mismatch (#26232)](https://github.com/risingwavelabs/risingwave/pull/26232)
 
 ## nightly-20260709
@@ -2699,14 +2703,4 @@
 - `542f88c1bc46f3757008a52b62778b67cea7bd4b` [fix: join encoding type backward compability (#22560)](https://github.com/risingwavelabs/risingwave/pull/22560)
 
 ## nightly-20250711
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f91eacaf81215fb86670935a9cb71dd7c0a39613...909cc0c77f40554c228a543d07d96203a6e0432c)
 - `909cc0c77f40554c228a543d07d96203a6e0432c` [fix: clean dirty creating subscription after command failure (#22577)](https://github.com/risingwavelabs/risingwave/pull/22577)
-- `0c74f42c6821a2bdc1a142f5b71b728056c2f2b2` [fix(frontend): fix topn on index optimization rule bug (#22561)](https://github.com/risingwavelabs/risingwave/pull/22561)
-- `6c79fe18cc3e1741fff2fd81e71289e72adf3cdd` [fix: database owner should alway be able to connect (#22569)](https://github.com/risingwavelabs/risingwave/pull/22569)
-- `a74658ce3d8559b9100efe0ab8c9d61f1c950c63` [fix(cdc): limit cdc offset fetch concurrency globally (#22559)](https://github.com/risingwavelabs/risingwave/pull/22559)
-- `45131c463561de75dbb595b51356dcdca18f1df4` [fix: only super user can alter system parameters (#22564)](https://github.com/risingwavelabs/risingwave/pull/22564)
-- `b80fc58fe5b0c474fb500e636afcb704e0640264` [fix(cdc): fix auto schema change failure when include hidden columns  (#22525)](https://github.com/risingwavelabs/risingwave/pull/22525)
-- `4bd823e9a06c52504f99ec86bf929a034b45a837` [fix: fix jni register on compactor component (#22562)](https://github.com/risingwavelabs/risingwave/pull/22562)
-
-## nightly-20250710
-- `f91eacaf81215fb86670935a9cb71dd7c0a39613` [feat: add a session variable to switch join encoding type (#22416)](https://github.com/risingwavelabs/risingwave/pull/22416)
