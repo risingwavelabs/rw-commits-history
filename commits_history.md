@@ -294,6 +294,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1830e0cfdc9d16ba63d955b69a2970da0e6f5a41` [feat(frontend): allow unsafe upsert sink primary key mismatch (#26232)](https://github.com/risingwavelabs/risingwave/pull/26232)
 
 ## nightly-20260709
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ee3d4fa4a18d53b52b5d0552e0d5474e669680ac...cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d)
