@@ -294,6 +294,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d` [chore(deps): bump github.com/jackc/pgx/v5 from 5.9.0 to 5.9.2 in /integration_tests/client-library/go (#25460)](https://github.com/risingwavelabs/risingwave/pull/25460)
 - `119de0aea1b3118a01bfafaa92da19a595d9ac5d` [fix(sink): handle Redshift JDBC schema changes (#25937)](https://github.com/risingwavelabs/risingwave/pull/25937)
 
 ## nightly-20260710
