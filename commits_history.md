@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260711` `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d`
 - `20260710` `1830e0cfdc9d16ba63d955b69a2970da0e6f5a41`
 - `20260709` `cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d`
 - `20260708` `ee3d4fa4a18d53b52b5d0552e0d5474e669680ac`
@@ -285,7 +286,6 @@
 - `20250715` `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71`
 - `20250714` `aab3f23538471a0dcab77fcbb8b00ebc60f09f66`
 - `20250713` `e5afc4e70aafa9da919ee22f09cfdc370552e8a0`
-- `20250711` `909cc0c77f40554c228a543d07d96203a6e0432c`
 </details>
 
 # Commit history
@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260711
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1830e0cfdc9d16ba63d955b69a2970da0e6f5a41...be356acdc11bb01fd50a2aa275f9c4b780f4bd5d)
 - `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d` [chore(deps): bump github.com/jackc/pgx/v5 from 5.9.0 to 5.9.2 in /integration_tests/client-library/go (#25460)](https://github.com/risingwavelabs/risingwave/pull/25460)
 - `119de0aea1b3118a01bfafaa92da19a595d9ac5d` [fix(sink): handle Redshift JDBC schema changes (#25937)](https://github.com/risingwavelabs/risingwave/pull/25937)
 
@@ -2699,9 +2702,4 @@
 - `9ed00c9b8f08c075f1351a32d8925136cee5c1c8` [chore(deps): Bump crate-ci/typos from 1.33.1 to 1.34.0 (#22439)](https://github.com/risingwavelabs/risingwave/pull/22439)
 
 ## nightly-20250713
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/909cc0c77f40554c228a543d07d96203a6e0432c...e5afc4e70aafa9da919ee22f09cfdc370552e8a0)
 - `e5afc4e70aafa9da919ee22f09cfdc370552e8a0` [feat: impl has_database_privilege func (#22576)](https://github.com/risingwavelabs/risingwave/pull/22576)
-- `542f88c1bc46f3757008a52b62778b67cea7bd4b` [fix: join encoding type backward compability (#22560)](https://github.com/risingwavelabs/risingwave/pull/22560)
-
-## nightly-20250711
-- `909cc0c77f40554c228a543d07d96203a6e0432c` [fix: clean dirty creating subscription after command failure (#22577)](https://github.com/risingwavelabs/risingwave/pull/22577)
