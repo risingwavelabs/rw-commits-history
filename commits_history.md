@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260711` `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d`
+- `20260712` `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d`
 - `20260710` `1830e0cfdc9d16ba63d955b69a2970da0e6f5a41`
 - `20260709` `cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d`
 - `20260708` `ee3d4fa4a18d53b52b5d0552e0d5474e669680ac`
@@ -295,7 +295,7 @@
 
 ## Unreleased
 
-## nightly-20260711
+## nightly-20260712
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1830e0cfdc9d16ba63d955b69a2970da0e6f5a41...be356acdc11bb01fd50a2aa275f9c4b780f4bd5d)
 - `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d` [chore(deps): bump github.com/jackc/pgx/v5 from 5.9.0 to 5.9.2 in /integration_tests/client-library/go (#25460)](https://github.com/risingwavelabs/risingwave/pull/25460)
 - `119de0aea1b3118a01bfafaa92da19a595d9ac5d` [fix(sink): handle Redshift JDBC schema changes (#25937)](https://github.com/risingwavelabs/risingwave/pull/25937)
