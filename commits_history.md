@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `440105fe3c0f98d391101745c81d287054d9a8ee` [fix(grafana): remove stale error metric queries (#26245)](https://github.com/risingwavelabs/risingwave/pull/26245)
+- `366e4ee4fbcbf1e00e3bee555c461229e95efea8` [fix(connector): support MariaDB CDC validation (#26234)](https://github.com/risingwavelabs/risingwave/pull/26234)
+- `910f4a0581228584b8a912b85cfe4c2aad2e780d` [fix(connector): offload Iceberg JNI catalog operations (#26244)](https://github.com/risingwavelabs/risingwave/pull/26244)
 
 ## nightly-20260712
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1830e0cfdc9d16ba63d955b69a2970da0e6f5a41...be356acdc11bb01fd50a2aa275f9c4b780f4bd5d)
