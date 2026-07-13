@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260713` `440105fe3c0f98d391101745c81d287054d9a8ee`
 - `20260712` `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d`
 - `20260710` `1830e0cfdc9d16ba63d955b69a2970da0e6f5a41`
 - `20260709` `cd162c3d5be4f9b0d7fdfbe0539b582e454ea99d`
@@ -285,7 +286,6 @@
 - `20250716` `20a9de07eb2761fed58904acb4100d3e659c781d`
 - `20250715` `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71`
 - `20250714` `aab3f23538471a0dcab77fcbb8b00ebc60f09f66`
-- `20250713` `e5afc4e70aafa9da919ee22f09cfdc370552e8a0`
 </details>
 
 # Commit history
@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260713
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/be356acdc11bb01fd50a2aa275f9c4b780f4bd5d...440105fe3c0f98d391101745c81d287054d9a8ee)
 - `440105fe3c0f98d391101745c81d287054d9a8ee` [fix(grafana): remove stale error metric queries (#26245)](https://github.com/risingwavelabs/risingwave/pull/26245)
 - `366e4ee4fbcbf1e00e3bee555c461229e95efea8` [fix(connector): support MariaDB CDC validation (#26234)](https://github.com/risingwavelabs/risingwave/pull/26234)
 - `910f4a0581228584b8a912b85cfe4c2aad2e780d` [fix(connector): offload Iceberg JNI catalog operations (#26244)](https://github.com/risingwavelabs/risingwave/pull/26244)
@@ -2694,15 +2697,4 @@
 - `89ead7b6c630b42c92eecc2c88af93004ff7aa69` [chore(deps): Bump indexmap from 2.9.0 to 2.10.0 (#22566)](https://github.com/risingwavelabs/risingwave/pull/22566)
 
 ## nightly-20250714
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e5afc4e70aafa9da919ee22f09cfdc370552e8a0...aab3f23538471a0dcab77fcbb8b00ebc60f09f66)
 - `aab3f23538471a0dcab77fcbb8b00ebc60f09f66` [chore(deps): Bump twox-hash from 1.6.3 to 2.1.0 (#22265)](https://github.com/risingwavelabs/risingwave/pull/22265)
-- `a079bf56f22485d74e1e00eda6c5420804d3c834` [feat: support viewing background sink progress and some refactoring (#22435)](https://github.com/risingwavelabs/risingwave/pull/22435)
-- `53b75da81d5b5340337da810a0928fa2ae537225` [fix(sink): shall not panic when protobuf message not found (#22587)](https://github.com/risingwavelabs/risingwave/pull/22587)
-- `74afb6a76bf2555c6cb54534aba83f3b6b062ab8` [fix(fronted): fix negative number parsing in `postgres` interval style (#22231)](https://github.com/risingwavelabs/risingwave/pull/22231)
-- `570c7059a18bdc0dae5ea9d90fbcfa1d8d9300c3` [chore(deps): Bump org.apache.commons:commons-lang3 from 3.17.0 to 3.18.0 in /java (#22580)](https://github.com/risingwavelabs/risingwave/pull/22580)
-- `dc370fa13f8a3fa9e8b0d8057c594045d3e901d8` [refactor(source): split out DummySourceExec to remove an Option (#22584)](https://github.com/risingwavelabs/risingwave/pull/22584)
-- `1c4efedbdc59e974dd660ce8b3d58075f6c69a95` [refactor(source): remove dead code  (#22583)](https://github.com/risingwavelabs/risingwave/pull/22583)
-- `9ed00c9b8f08c075f1351a32d8925136cee5c1c8` [chore(deps): Bump crate-ci/typos from 1.33.1 to 1.34.0 (#22439)](https://github.com/risingwavelabs/risingwave/pull/22439)
-
-## nightly-20250713
-- `e5afc4e70aafa9da919ee22f09cfdc370552e8a0` [feat: impl has_database_privilege func (#22576)](https://github.com/risingwavelabs/risingwave/pull/22576)
