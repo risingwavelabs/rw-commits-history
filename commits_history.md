@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260714` `2bdeee0adbf2ac1417ebb14aa9cc03f383147073`
 - `20260713` `440105fe3c0f98d391101745c81d287054d9a8ee`
 - `20260712` `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d`
 - `20260710` `1830e0cfdc9d16ba63d955b69a2970da0e6f5a41`
@@ -285,7 +286,6 @@
 - `20250717` `d150dd6cf0420eb1a4a3d383c56f718043b44421`
 - `20250716` `20a9de07eb2761fed58904acb4100d3e659c781d`
 - `20250715` `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71`
-- `20250714` `aab3f23538471a0dcab77fcbb8b00ebc60f09f66`
 </details>
 
 # Commit history
@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260714
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/440105fe3c0f98d391101745c81d287054d9a8ee...2bdeee0adbf2ac1417ebb14aa9cc03f383147073)
 - `2bdeee0adbf2ac1417ebb14aa9cc03f383147073` [fix(meta): delete replaced sink internal table objects (#26266)](https://github.com/risingwavelabs/risingwave/pull/26266)
 - `287dc312b41dde71de32a786fffd0e969471a707` [fix(connector): decode sql server datetimeoffset snapshots (#26263)](https://github.com/risingwavelabs/risingwave/pull/26263)
 - `acc901fab6607ba506251161611c7390b40f82d2` [fix(optimizer): avoid rewriting LIKE ESCAPE as a binary expression (#26241)](https://github.com/risingwavelabs/risingwave/pull/26241)
@@ -2695,12 +2698,4 @@
 - `57bcf2f25fd5c21dca469438447531db5badd02a` [chore(deps): Bump protobuf from 5.28.0 to 5.29.5 in /e2e_test (#22251)](https://github.com/risingwavelabs/risingwave/pull/22251)
 
 ## nightly-20250715
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aab3f23538471a0dcab77fcbb8b00ebc60f09f66...89fd5d01d56acf62ea80144c3fdbdaa7910e9a71)
 - `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71` [test(cdc): add test for postgres TOAST (#22582)](https://github.com/risingwavelabs/risingwave/pull/22582)
-- `2c8d1f6d1d1d51b8d3c3ec48ecf8c844140e4a91` [fix: include internal tables of the creating background job in snapshot (#22604)](https://github.com/risingwavelabs/risingwave/pull/22604)
-- `51bcef0563a841993d17ed8affaac4c3ec4ad8e2` [feat(iceberg): support manual compaction of iceberg engine table (#22571)](https://github.com/risingwavelabs/risingwave/pull/22571)
-- `be92d020c837f0b71ed79ffb8c7f8fe833e1c08e` [feat(sql_bench): add a sql benchmark framework using `hyperfine`, `risedev` and `python` (#21941)](https://github.com/risingwavelabs/risingwave/pull/21941)
-- `89ead7b6c630b42c92eecc2c88af93004ff7aa69` [chore(deps): Bump indexmap from 2.9.0 to 2.10.0 (#22566)](https://github.com/risingwavelabs/risingwave/pull/22566)
-
-## nightly-20250714
-- `aab3f23538471a0dcab77fcbb8b00ebc60f09f66` [chore(deps): Bump twox-hash from 1.6.3 to 2.1.0 (#22265)](https://github.com/risingwavelabs/risingwave/pull/22265)
