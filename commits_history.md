@@ -294,6 +294,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2bdeee0adbf2ac1417ebb14aa9cc03f383147073` [fix(meta): delete replaced sink internal table objects (#26266)](https://github.com/risingwavelabs/risingwave/pull/26266)
+- `287dc312b41dde71de32a786fffd0e969471a707` [fix(connector): decode sql server datetimeoffset snapshots (#26263)](https://github.com/risingwavelabs/risingwave/pull/26263)
+- `acc901fab6607ba506251161611c7390b40f82d2` [fix(optimizer): avoid rewriting LIKE ESCAPE as a binary expression (#26241)](https://github.com/risingwavelabs/risingwave/pull/26241)
+- `858ce37f7be35df76eae46050b32c0ae48579fd0` [fix(grafana): dedup kube-state-metrics series in container termination panel/alert (#26240)](https://github.com/risingwavelabs/risingwave/pull/26240)
+- `f289c9c71b38e17b488a7dab8424c06a42597cc5` [fix(meta): clear iceberg maintenance for user-created sinks on cascade drop (#26228)](https://github.com/risingwavelabs/risingwave/pull/26228)
+- `bd38fb025557855bda0e2b2350276f96d187e313` [chore(deps): bump golang.org/x/crypto from 0.36.0 to 0.52.0 in /integration_tests/datagen (#26238)](https://github.com/risingwavelabs/risingwave/pull/26238)
 
 ## nightly-20260713
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/be356acdc11bb01fd50a2aa275f9c4b780f4bd5d...440105fe3c0f98d391101745c81d287054d9a8ee)
