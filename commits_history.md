@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260715` `f9f2f034424880bf8bf505c250c4d51468a1c10e`
 - `20260714` `2bdeee0adbf2ac1417ebb14aa9cc03f383147073`
 - `20260713` `440105fe3c0f98d391101745c81d287054d9a8ee`
 - `20260712` `be356acdc11bb01fd50a2aa275f9c4b780f4bd5d`
@@ -285,7 +286,6 @@
 - `20250718` `fbd11ce8254abbd53d395bc4661b8bbcc3338039`
 - `20250717` `d150dd6cf0420eb1a4a3d383c56f718043b44421`
 - `20250716` `20a9de07eb2761fed58904acb4100d3e659c781d`
-- `20250715` `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71`
 </details>
 
 # Commit history
@@ -294,6 +294,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9b3171c83b4b66b6a42db201c77f4ae420d3bf2e` [fix(meta): handle partial graph reset during recovery (#26271)](https://github.com/risingwavelabs/risingwave/pull/26271)
+
+## nightly-20260715
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2bdeee0adbf2ac1417ebb14aa9cc03f383147073...f9f2f034424880bf8bf505c250c4d51468a1c10e)
 - `f9f2f034424880bf8bf505c250c4d51468a1c10e` [fix(meta): drop recovered streaming jobs without actor info (#26175)](https://github.com/risingwavelabs/risingwave/pull/26175)
 - `fcdf7df12397f06a047b60e3078127300bad6fab` [fix(storage): support streaming upload fallback (#26272)](https://github.com/risingwavelabs/risingwave/pull/26272)
 - `d8a45c4e3eca1e2c43a609f61c143455093acbdb` [fix(meta): remove last_committed_barrier_time series when database has no streaming job (#26231)](https://github.com/risingwavelabs/risingwave/pull/26231)
@@ -2694,14 +2698,4 @@
 - `02c6753730786138f55d27ff0c51654e7fb8d78e` [feat: Include internal tables in diagnose command output (#22638)](https://github.com/risingwavelabs/risingwave/pull/22638)
 
 ## nightly-20250716
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/89fd5d01d56acf62ea80144c3fdbdaa7910e9a71...20a9de07eb2761fed58904acb4100d3e659c781d)
 - `20a9de07eb2761fed58904acb4100d3e659c781d` [refactor(compute): Combined the same logic of Merge and Union (#22595)](https://github.com/risingwavelabs/risingwave/pull/22595)
-- `1c3ff630509bcf7d5a4a813f3fc86dcfdc6fdae9` [feat: add a data exist metric to materialized view cache (#22012)](https://github.com/risingwavelabs/risingwave/pull/22012)
-- `d85cc1ea8b79e86a24dbdde28d23657a33a7b1bf` [fix: increase retry times to wait sink complete in sink.slt (#22628)](https://github.com/risingwavelabs/risingwave/pull/22628)
-- `e7b652a0918fa816a9d7028aa040139496d89122` [fix(pgwire): CancelRequest shall not be responded (#22626)](https://github.com/risingwavelabs/risingwave/pull/22626)
-- `d7adfa377d1b8c061eaab6754366bb07f143c993` [chore(ci): increase release amd64 from 60 to 90 (#22624)](https://github.com/risingwavelabs/risingwave/pull/22624)
-- `93dd1f28ff5fced28d5d46fddce0c029f24f1e49` [chore(deps): Bump buildkite/trigger-pipeline-action from 2.0.0 to 2.3.0 (#21833)](https://github.com/risingwavelabs/risingwave/pull/21833)
-- `57bcf2f25fd5c21dca469438447531db5badd02a` [chore(deps): Bump protobuf from 5.28.0 to 5.29.5 in /e2e_test (#22251)](https://github.com/risingwavelabs/risingwave/pull/22251)
-
-## nightly-20250715
-- `89fd5d01d56acf62ea80144c3fdbdaa7910e9a71` [test(cdc): add test for postgres TOAST (#22582)](https://github.com/risingwavelabs/risingwave/pull/22582)
