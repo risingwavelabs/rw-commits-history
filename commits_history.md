@@ -294,6 +294,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f9f2f034424880bf8bf505c250c4d51468a1c10e` [fix(meta): drop recovered streaming jobs without actor info (#26175)](https://github.com/risingwavelabs/risingwave/pull/26175)
+- `fcdf7df12397f06a047b60e3078127300bad6fab` [fix(storage): support streaming upload fallback (#26272)](https://github.com/risingwavelabs/risingwave/pull/26272)
+- `d8a45c4e3eca1e2c43a609f61c143455093acbdb` [fix(meta): remove last_committed_barrier_time series when database has no streaming job (#26231)](https://github.com/risingwavelabs/risingwave/pull/26231)
+- `85f9be014b1481cda16fb1065ac262887273ca1b` [fix(meta): skip SourceManager::core touches for jobs without source fragments (#26277)](https://github.com/risingwavelabs/risingwave/pull/26277)
+- `612af459f320755108eb4eaa9847bb904f44b100` [feat(storage): stream meta snapshot backup payload (#26267)](https://github.com/risingwavelabs/risingwave/pull/26267)
+- `3d0d90781de74918e5000fd3d4dbd0c317601335` [fix(meta): don't hold source worker split lock across enumerator on_tick (#26276)](https://github.com/risingwavelabs/risingwave/pull/26276)
 
 ## nightly-20260714
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/440105fe3c0f98d391101745c81d287054d9a8ee...2bdeee0adbf2ac1417ebb14aa9cc03f383147073)
