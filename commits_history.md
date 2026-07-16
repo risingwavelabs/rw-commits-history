@@ -294,6 +294,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e29a68a17bebaffa0ee60ccea9159acdeb03c7a0` [feat(sink): limit StarRocks stream load batch size (#25750)](https://github.com/risingwavelabs/risingwave/pull/25750)
+- `9d0070cdf22cca0d222dd0fa0ae214c6f5e7ad28` [fix(meta): redact credentials in state store URLs (#26160)](https://github.com/risingwavelabs/risingwave/pull/26160)
+- `9e5e4a63f8eba20b9df213f5853d294e2e2b4325` [doc(metrics): add Prometheus metrics reference and inventory (#25535)](https://github.com/risingwavelabs/risingwave/pull/25535)
+- `40d2a482ca033a7699cd424c76a4474e7e7e0255` [feat: add table change log latency metrics (#26292)](https://github.com/risingwavelabs/risingwave/pull/26292)
+- `32c8424af62576e1776bed9716cc6ecf1da33d88` [fix(stream): handle cross-db backfill creation stalls (#26119)](https://github.com/risingwavelabs/risingwave/pull/26119)
+- `5c3d5b99810e106e51e327f64f581873c5b450b7` [fix: avoid panic on invalid index lookup selection (#26287)](https://github.com/risingwavelabs/risingwave/pull/26287)
+- `734a5bf965edad0838a20b9c6b18b0b39c40d738` [feat(meta): observability for source worker ticks (#26278)](https://github.com/risingwavelabs/risingwave/pull/26278)
 - `9b3171c83b4b66b6a42db201c77f4ae420d3bf2e` [fix(meta): handle partial graph reset during recovery (#26271)](https://github.com/risingwavelabs/risingwave/pull/26271)
 
 ## nightly-20260715
