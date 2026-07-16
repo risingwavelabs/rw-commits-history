@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260716` `e29a68a17bebaffa0ee60ccea9159acdeb03c7a0`
 - `20260715` `f9f2f034424880bf8bf505c250c4d51468a1c10e`
 - `20260714` `2bdeee0adbf2ac1417ebb14aa9cc03f383147073`
 - `20260713` `440105fe3c0f98d391101745c81d287054d9a8ee`
@@ -285,7 +286,6 @@
 - `20250720` `bd70249d049e60e0fc9a4a93408400ee9c277cda`
 - `20250718` `fbd11ce8254abbd53d395bc4661b8bbcc3338039`
 - `20250717` `d150dd6cf0420eb1a4a3d383c56f718043b44421`
-- `20250716` `20a9de07eb2761fed58904acb4100d3e659c781d`
 </details>
 
 # Commit history
@@ -294,6 +294,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `19982bcb96421de0bf3136b974640df9a4aafc2f` [feat(sink): validate create sink options (#26256)](https://github.com/risingwavelabs/risingwave/pull/26256)
+- `9166c18eab2c5ea1748173bc89329d002e73420b` [feat(connector): support Pulsar sink routing mode (#26304)](https://github.com/risingwavelabs/risingwave/pull/26304)
+
+## nightly-20260716
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f9f2f034424880bf8bf505c250c4d51468a1c10e...e29a68a17bebaffa0ee60ccea9159acdeb03c7a0)
 - `e29a68a17bebaffa0ee60ccea9159acdeb03c7a0` [feat(sink): limit StarRocks stream load batch size (#25750)](https://github.com/risingwavelabs/risingwave/pull/25750)
 - `9d0070cdf22cca0d222dd0fa0ae214c6f5e7ad28` [fix(meta): redact credentials in state store URLs (#26160)](https://github.com/risingwavelabs/risingwave/pull/26160)
 - `9e5e4a63f8eba20b9df213f5853d294e2e2b4325` [doc(metrics): add Prometheus metrics reference and inventory (#25535)](https://github.com/risingwavelabs/risingwave/pull/25535)
@@ -2698,11 +2703,4 @@
 - `0af3e4c9057729e545de0b91db0bfc760d013eac` [fix: Support compaction filter for fast compactor (#22646)](https://github.com/risingwavelabs/risingwave/pull/22646)
 
 ## nightly-20250717
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/20a9de07eb2761fed58904acb4100d3e659c781d...d150dd6cf0420eb1a4a3d383c56f718043b44421)
 - `d150dd6cf0420eb1a4a3d383c56f718043b44421` [fix(iceberg): fix iceberg plan files stuck (#22651)](https://github.com/risingwavelabs/risingwave/pull/22651)
-- `7baadd4464ffd5cc68a1127ef497a61d3745e2c5` [feat(expr): support parsing decimal in scientific notation (#22645)](https://github.com/risingwavelabs/risingwave/pull/22645)
-- `8a0678963d750edf33e4582094b939f933cae73e` [chore(deps): Bump uuid from 1.16.0 to 1.17.0 (#21983)](https://github.com/risingwavelabs/risingwave/pull/21983)
-- `02c6753730786138f55d27ff0c51654e7fb8d78e` [feat: Include internal tables in diagnose command output (#22638)](https://github.com/risingwavelabs/risingwave/pull/22638)
-
-## nightly-20250716
-- `20a9de07eb2761fed58904acb4100d3e659c781d` [refactor(compute): Combined the same logic of Merge and Union (#22595)](https://github.com/risingwavelabs/risingwave/pull/22595)
