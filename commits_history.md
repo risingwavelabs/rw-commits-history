@@ -294,6 +294,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7` [fix(frontend): count(*) on iceberg tables must not ignore delete files (#26318)](https://github.com/risingwavelabs/risingwave/pull/26318)
+- `b0f4cdb15ea222fe97c952f7ec5fa2682fa9ab12` [fix(frontend): keep parameterized IN lists flat (#26310)](https://github.com/risingwavelabs/risingwave/pull/26310)
+- `40297f61926f4308b1fd3305b4b0e06c55bcb8b0` [fix(meta): re-queue iceberg track at now on pre-dispatch failure (#26230)](https://github.com/risingwavelabs/risingwave/pull/26230)
+- `331281639aed626a8a6a7978b40c527e5172eec3` [fix(meta): gate snapshot backfill merge on pending barriers (#26288)](https://github.com/risingwavelabs/risingwave/pull/26288)
+- `0ba03b36ac60b24dbe692748f2d0e6dd809593f9` [fix(connector): keep CDC LSN metric guards alive (#26301)](https://github.com/risingwavelabs/risingwave/pull/26301)
 - `19982bcb96421de0bf3136b974640df9a4aafc2f` [feat(sink): validate create sink options (#26256)](https://github.com/risingwavelabs/risingwave/pull/26256)
 - `9166c18eab2c5ea1748173bc89329d002e73420b` [feat(connector): support Pulsar sink routing mode (#26304)](https://github.com/risingwavelabs/risingwave/pull/26304)
 
