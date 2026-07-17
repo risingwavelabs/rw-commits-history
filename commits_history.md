@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260717` `5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7`
 - `20260716` `e29a68a17bebaffa0ee60ccea9159acdeb03c7a0`
 - `20260715` `f9f2f034424880bf8bf505c250c4d51468a1c10e`
 - `20260714` `2bdeee0adbf2ac1417ebb14aa9cc03f383147073`
@@ -285,7 +286,6 @@
 - `20250722` `86b56d35f947e549d31d1652218186481929abef`
 - `20250720` `bd70249d049e60e0fc9a4a93408400ee9c277cda`
 - `20250718` `fbd11ce8254abbd53d395bc4661b8bbcc3338039`
-- `20250717` `d150dd6cf0420eb1a4a3d383c56f718043b44421`
 </details>
 
 # Commit history
@@ -294,6 +294,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc` [feat(meta): pin backfill snapshots during time travel vacuum (#26326)](https://github.com/risingwavelabs/risingwave/pull/26326)
+
+## nightly-20260717
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e29a68a17bebaffa0ee60ccea9159acdeb03c7a0...5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7)
 - `5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7` [fix(frontend): count(*) on iceberg tables must not ignore delete files (#26318)](https://github.com/risingwavelabs/risingwave/pull/26318)
 - `b0f4cdb15ea222fe97c952f7ec5fa2682fa9ab12` [fix(frontend): keep parameterized IN lists flat (#26310)](https://github.com/risingwavelabs/risingwave/pull/26310)
 - `40297f61926f4308b1fd3305b4b0e06c55bcb8b0` [fix(meta): re-queue iceberg track at now on pre-dispatch failure (#26230)](https://github.com/risingwavelabs/risingwave/pull/26230)
@@ -2692,20 +2696,4 @@
 - `bd70249d049e60e0fc9a4a93408400ee9c277cda` [fix: improve error handling in reachability check for Kafka Sink (#22666)](https://github.com/risingwavelabs/risingwave/pull/22666)
 
 ## nightly-20250718
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d150dd6cf0420eb1a4a3d383c56f718043b44421...fbd11ce8254abbd53d395bc4661b8bbcc3338039)
 - `fbd11ce8254abbd53d395bc4661b8bbcc3338039` [feat(iceberg): support iceberg_sink_write_parquet_max_row_group_rows (#22663)](https://github.com/risingwavelabs/risingwave/pull/22663)
-- `89b6f978db53bb06249de2cab927de2ad258f729` [feat: Configure GitHub Actions setup for Copilot Agent environment (#22655)](https://github.com/risingwavelabs/risingwave/pull/22655)
-- `0fcf512dd7bfcb02e4fe2b55c3a635228ec2dc03` [refactor: Split config file into smaller modules (#22554)](https://github.com/risingwavelabs/risingwave/pull/22554)
-- `a5650a5ec9f567a622769289f4e5e2e07ac5a46e` [feat(meta): shared inflight actor info in meta and unify fragment mapping notification (#22600)](https://github.com/risingwavelabs/risingwave/pull/22600)
-- `497ab425674e69a2803070be6efb4747c262f0ee` [test(ci): enable kafka sasl test (#22588)](https://github.com/risingwavelabs/risingwave/pull/22588)
-- `e2d02cf2f6f6e5a7c42efb4bd492b07165439b55` [feat: expand WithOption generate Connection props (#22496)](https://github.com/risingwavelabs/risingwave/pull/22496)
-- `0c69b31cfc4e09487fe79b432b12ac1a4ba976f9` [feat(mqtt): fix MQTT data loss (#22074)](https://github.com/risingwavelabs/risingwave/pull/22074)
-- `e061703df7eb357e8b34a9b2e57fd0d0239c3eaa` [chore: increase unit test main-cron timeout (#22574)](https://github.com/risingwavelabs/risingwave/pull/22574)
-- `1159ee883011763a5118d49e9c43dda1d92643f7` [feat: parallelize apply_chunk in agg (#22631)](https://github.com/risingwavelabs/risingwave/pull/22631)
-- `fd1ada231d27963847622ad6a441ab0c322152ca` [feat(iceberg): manual compact iceberg sink (#22605)](https://github.com/risingwavelabs/risingwave/pull/22605)
-- `d3bd4e79807dcb6acb8d14b3822d22603b423808` [chore: disable hnsw test on madsim (#22547)](https://github.com/risingwavelabs/risingwave/pull/22547)
-- `9e06d9908de6701a3df6598f6f4500dd9aa02b20` [refactor(stream): reorg types and add docs for BarrierWorker and stuff (#22656)](https://github.com/risingwavelabs/risingwave/pull/22656)
-- `0af3e4c9057729e545de0b91db0bfc760d013eac` [fix: Support compaction filter for fast compactor (#22646)](https://github.com/risingwavelabs/risingwave/pull/22646)
-
-## nightly-20250717
-- `d150dd6cf0420eb1a4a3d383c56f718043b44421` [fix(iceberg): fix iceberg plan files stuck (#22651)](https://github.com/risingwavelabs/risingwave/pull/22651)
