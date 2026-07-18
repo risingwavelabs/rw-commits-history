@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260718` `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc`
 - `20260717` `5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7`
 - `20260716` `e29a68a17bebaffa0ee60ccea9159acdeb03c7a0`
 - `20260715` `f9f2f034424880bf8bf505c250c4d51468a1c10e`
@@ -285,7 +286,6 @@
 - `20250723` `32cc14a5ed75973eb7e79a992d1751ce7b593420`
 - `20250722` `86b56d35f947e549d31d1652218186481929abef`
 - `20250720` `bd70249d049e60e0fc9a4a93408400ee9c277cda`
-- `20250718` `fbd11ce8254abbd53d395bc4661b8bbcc3338039`
 </details>
 
 # Commit history
@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260718
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7...8ee41a2e5d299493d5dc287aa710cfdbf61d22dc)
 - `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc` [feat(meta): pin backfill snapshots during time travel vacuum (#26326)](https://github.com/risingwavelabs/risingwave/pull/26326)
 
 ## nightly-20260717
@@ -2692,8 +2695,4 @@
 - `de3298a957eef3e0d219ddd2d2c5bf37fe171983` [refactor(frontend): reduce Clone in Binder (#22601)](https://github.com/risingwavelabs/risingwave/pull/22601)
 
 ## nightly-20250720
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fbd11ce8254abbd53d395bc4661b8bbcc3338039...bd70249d049e60e0fc9a4a93408400ee9c277cda)
 - `bd70249d049e60e0fc9a4a93408400ee9c277cda` [fix: improve error handling in reachability check for Kafka Sink (#22666)](https://github.com/risingwavelabs/risingwave/pull/22666)
-
-## nightly-20250718
-- `fbd11ce8254abbd53d395bc4661b8bbcc3338039` [feat(iceberg): support iceberg_sink_write_parquet_max_row_group_rows (#22663)](https://github.com/risingwavelabs/risingwave/pull/22663)
