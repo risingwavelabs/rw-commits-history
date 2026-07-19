@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260718` `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc`
+- `20260719` `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc`
 - `20260717` `5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7`
 - `20260716` `e29a68a17bebaffa0ee60ccea9159acdeb03c7a0`
 - `20260715` `f9f2f034424880bf8bf505c250c4d51468a1c10e`
@@ -295,7 +295,7 @@
 
 ## Unreleased
 
-## nightly-20260718
+## nightly-20260719
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7...8ee41a2e5d299493d5dc287aa710cfdbf61d22dc)
 - `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc` [feat(meta): pin backfill snapshots during time travel vacuum (#26326)](https://github.com/risingwavelabs/risingwave/pull/26326)
 
