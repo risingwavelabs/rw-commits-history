@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260720` `279755dc0d3ca07b29cc763ea17ce01e5d74cd9f`
 - `20260719` `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc`
 - `20260717` `5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7`
 - `20260716` `e29a68a17bebaffa0ee60ccea9159acdeb03c7a0`
@@ -294,6 +295,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `11c4b4db1786ed7dffb824bd5ffc8568147e62a0` [fix(grafana): remove stale metric queries (#26302)](https://github.com/risingwavelabs/risingwave/pull/26302)
+
+## nightly-20260720
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ee41a2e5d299493d5dc287aa710cfdbf61d22dc...279755dc0d3ca07b29cc763ea17ce01e5d74cd9f)
+- `279755dc0d3ca07b29cc763ea17ce01e5d74cd9f` [fix(meta): preserve pending forced checkpoints (#26339)](https://github.com/risingwavelabs/risingwave/pull/26339)
+- `eead4530c3a7f74a17d874bc313ae4746b6ae1b3` [fix(stream): handle invisible rows in replicated state table (#26345)](https://github.com/risingwavelabs/risingwave/pull/26345)
+- `c038ce38305f2b3b4f839dab70873e7264680f38` [test(backfill): update cross-db MV SLT expectations (#26342)](https://github.com/risingwavelabs/risingwave/pull/26342)
+- `055df515fad5bdf2bcbf208487ac43f7f12c5705` [fix(ci): allow longer snapshot backfill merge lag (#26340)](https://github.com/risingwavelabs/risingwave/pull/26340)
+- `295ffbc2a7257f52562dca3d89f63df67cb4c47b` [feat(connector): allow altering OpenSearch sink batching (#26334)](https://github.com/risingwavelabs/risingwave/pull/26334)
 
 ## nightly-20260719
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7...8ee41a2e5d299493d5dc287aa710cfdbf61d22dc)
