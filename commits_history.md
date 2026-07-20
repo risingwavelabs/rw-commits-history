@@ -286,7 +286,6 @@
 - `20250724` `ab9e9eb784d046f07d1b8154279e7ffe30a3182f`
 - `20250723` `32cc14a5ed75973eb7e79a992d1751ce7b593420`
 - `20250722` `86b56d35f947e549d31d1652218186481929abef`
-- `20250720` `bd70249d049e60e0fc9a4a93408400ee9c277cda`
 </details>
 
 # Commit history
@@ -295,6 +294,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `32803ac590dfad49e022111b20947c76ea27e50d` [fix(stream): prioritize barriers during snapshot backfill (#26346)](https://github.com/risingwavelabs/risingwave/pull/26346)
 - `11c4b4db1786ed7dffb824bd5ffc8568147e62a0` [fix(grafana): remove stale metric queries (#26302)](https://github.com/risingwavelabs/risingwave/pull/26302)
 
 ## nightly-20260720
@@ -2692,17 +2692,4 @@
 - `e77f6398f3e5653cd9164961175f085560de9a88` [chore: increase build other components timeout (#22694)](https://github.com/risingwavelabs/risingwave/pull/22694)
 
 ## nightly-20250722
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bd70249d049e60e0fc9a4a93408400ee9c277cda...86b56d35f947e549d31d1652218186481929abef)
 - `86b56d35f947e549d31d1652218186481929abef` [chore(deps): Bump the all group across 1 directory with 21 updates (#22684)](https://github.com/risingwavelabs/risingwave/pull/22684)
-- `1232729b71f6def553c26877d0f9f85b00d3cecb` [feat(sink): trigger sink schema change on upstream table add columns (#22660)](https://github.com/risingwavelabs/risingwave/pull/22660)
-- `d7e50cc25da47669731c8ad9e67f73ba1e459da1` [feat: minor improve risedev d in cursorrule (#22689)](https://github.com/risingwavelabs/risingwave/pull/22689)
-- `1c0bd1f77b5578bf7db1ae6de82d2419910d102f` [fix(sink): fix mem log store was blocked with rate limit = 0 (#22458)](https://github.com/risingwavelabs/risingwave/pull/22458)
-- `4d1380e2553f9541a6cc6b1e411099f83afd63e7` [feat(iceberg): support http header for iceberg (#22662)](https://github.com/risingwavelabs/risingwave/pull/22662)
-- `91b28c46c803aee3b5ccc7ec358cae8f5ae4d00b` [fix(file source): Optimize list prefix handling to avoid root directory scans (#22642)](https://github.com/risingwavelabs/risingwave/pull/22642)
-- `71556e1be71d224dc01fa1b2ce47a8fb92d65934` [feat(sink): support SQL syntax to create sink with auto schema refresh from upstream table (#22611)](https://github.com/risingwavelabs/risingwave/pull/22611)
-- `a47d04081f7dccaa1d323e24669601b85e02e62c` [fix(storage): bump faiss-rs to avoid unstable PATH to avoid frequent rebuild (#22678)](https://github.com/risingwavelabs/risingwave/pull/22678)
-- `16b5316a505a34dcb60a8f528e3f332d2faad990` [refactor(sink): no explicit specifying dummy sink coordinator (#22659)](https://github.com/risingwavelabs/risingwave/pull/22659)
-- `de3298a957eef3e0d219ddd2d2c5bf37fe171983` [refactor(frontend): reduce Clone in Binder (#22601)](https://github.com/risingwavelabs/risingwave/pull/22601)
-
-## nightly-20250720
-- `bd70249d049e60e0fc9a4a93408400ee9c277cda` [fix: improve error handling in reachability check for Kafka Sink (#22666)](https://github.com/risingwavelabs/risingwave/pull/22666)
