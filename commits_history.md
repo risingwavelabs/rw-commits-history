@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260721` `e47fc621dc3ddf49e5ac004b45d491054a5fc557`
 - `20260720` `279755dc0d3ca07b29cc763ea17ce01e5d74cd9f`
 - `20260719` `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc`
 - `20260717` `5b8f7d2febd9649e2319c0db2cf3d506f0ddd0a7`
@@ -294,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d881145900e20e636e48a0953693306b14369756` [fix(stream): support background DDL for temporal joins (#26359)](https://github.com/risingwavelabs/risingwave/pull/26359)
+
+## nightly-20260721
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/279755dc0d3ca07b29cc763ea17ce01e5d74cd9f...e47fc621dc3ddf49e5ac004b45d491054a5fc557)
 - `e47fc621dc3ddf49e5ac004b45d491054a5fc557` [test(backfill): flush slow UDF input before sink backfill (#26365)](https://github.com/risingwavelabs/risingwave/pull/26365)
 - `cdf486f826151ebadb482fff4f10edbca1330e53` [fix(meta): reconcile stale serving vnode mappings (#26352)](https://github.com/risingwavelabs/risingwave/pull/26352)
 - `32803ac590dfad49e022111b20947c76ea27e50d` [fix(stream): prioritize barriers during snapshot backfill (#26346)](https://github.com/risingwavelabs/risingwave/pull/26346)
