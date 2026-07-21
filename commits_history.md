@@ -294,6 +294,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e47fc621dc3ddf49e5ac004b45d491054a5fc557` [test(backfill): flush slow UDF input before sink backfill (#26365)](https://github.com/risingwavelabs/risingwave/pull/26365)
+- `cdf486f826151ebadb482fff4f10edbca1330e53` [fix(meta): reconcile stale serving vnode mappings (#26352)](https://github.com/risingwavelabs/risingwave/pull/26352)
 - `32803ac590dfad49e022111b20947c76ea27e50d` [fix(stream): prioritize barriers during snapshot backfill (#26346)](https://github.com/risingwavelabs/risingwave/pull/26346)
 - `11c4b4db1786ed7dffb824bd5ffc8568147e62a0` [fix(grafana): remove stale metric queries (#26302)](https://github.com/risingwavelabs/risingwave/pull/26302)
 
