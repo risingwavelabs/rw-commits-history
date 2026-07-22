@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260722` `6e8b2689b76b7df2c5da0bd80072a54c90c44cda`
 - `20260721` `e47fc621dc3ddf49e5ac004b45d491054a5fc557`
 - `20260720` `279755dc0d3ca07b29cc763ea17ce01e5d74cd9f`
 - `20260719` `8ee41a2e5d299493d5dc287aa710cfdbf61d22dc`
@@ -286,7 +287,6 @@
 - `20250725` `797c5a9c43fd9780dd8bfcb149f3d6e14629b432`
 - `20250724` `ab9e9eb784d046f07d1b8154279e7ffe30a3182f`
 - `20250723` `32cc14a5ed75973eb7e79a992d1751ce7b593420`
-- `20250722` `86b56d35f947e549d31d1652218186481929abef`
 </details>
 
 # Commit history
@@ -295,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6d27013ae1eadc0d334372e59dfdc1c9bf2c48eb` [refactor(meta): use sync lock for source worker shared split map (#26283)](https://github.com/risingwavelabs/risingwave/pull/26283)
+- `668df343b7d66bc45c7927e15d649ef291115e9c` [fix(meta): preserve retained time travel versions during vacuum (#26390)](https://github.com/risingwavelabs/risingwave/pull/26390)
+
+## nightly-20260722
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e47fc621dc3ddf49e5ac004b45d491054a5fc557...6e8b2689b76b7df2c5da0bd80072a54c90c44cda)
 - `6e8b2689b76b7df2c5da0bd80072a54c90c44cda` [feat(expr): support volatile timestamp and uuid functions (#26362)](https://github.com/risingwavelabs/risingwave/pull/26362)
 - `635fdf54a23543e34e363cdd1d2f8cc5f6253e90` [test(iceberg): de-flake position-delete assertion and always clean up (#26332)](https://github.com/risingwavelabs/risingwave/pull/26332)
 - `de4fea223e6b847cb70aef47d9b0701325eb49ee` [fix(mysql-cdc): compare unsigned pk with unsigned semantics in backfill buffer (#25947)](https://github.com/risingwavelabs/risingwave/pull/25947)
@@ -2697,12 +2702,4 @@
 - `3c9102acb71d0d215eb347e8ee8d580e6305100f` [fix(meta): notify fragment mapping changes in snapshot backfill (#22683)](https://github.com/risingwavelabs/risingwave/pull/22683)
 
 ## nightly-20250723
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/86b56d35f947e549d31d1652218186481929abef...32cc14a5ed75973eb7e79a992d1751ce7b593420)
 - `32cc14a5ed75973eb7e79a992d1751ce7b593420` [ci: Fix e2e-deltalake-sink-rust-tests by enabling sink-deltalake feature in ci-dev builds (#22639)](https://github.com/risingwavelabs/risingwave/pull/22639)
-- `e217c8a7de2be01a6a70fd5d167b5ea4be805c18` [ci: fix tool install in copilot-setup-steps (#22707)](https://github.com/risingwavelabs/risingwave/pull/22707)
-- `126ca209634355f7609badd10cfa41225edd7cae` [ci: fix copilot-setup-steps (#22705)](https://github.com/risingwavelabs/risingwave/pull/22705)
-- `123b9a9317c6ceb27fcfb79a50fa17cb154d5675` [feat: introduce sql_url_params config for metastore (#22636)](https://github.com/risingwavelabs/risingwave/pull/22636)
-- `e77f6398f3e5653cd9164961175f085560de9a88` [chore: increase build other components timeout (#22694)](https://github.com/risingwavelabs/risingwave/pull/22694)
-
-## nightly-20250722
-- `86b56d35f947e549d31d1652218186481929abef` [chore(deps): Bump the all group across 1 directory with 21 updates (#22684)](https://github.com/risingwavelabs/risingwave/pull/22684)
