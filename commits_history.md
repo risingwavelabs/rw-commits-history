@@ -295,6 +295,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6e8b2689b76b7df2c5da0bd80072a54c90c44cda` [feat(expr): support volatile timestamp and uuid functions (#26362)](https://github.com/risingwavelabs/risingwave/pull/26362)
+- `635fdf54a23543e34e363cdd1d2f8cc5f6253e90` [test(iceberg): de-flake position-delete assertion and always clean up (#26332)](https://github.com/risingwavelabs/risingwave/pull/26332)
+- `de4fea223e6b847cb70aef47d9b0701325eb49ee` [fix(mysql-cdc): compare unsigned pk with unsigned semantics in backfill buffer (#25947)](https://github.com/risingwavelabs/risingwave/pull/25947)
+- `f8ce1a6c516848eb3520f64e705579b208bccac7` [fix(ci): deduplicate automated docs issues (#26343)](https://github.com/risingwavelabs/risingwave/pull/26343)
+- `4bf1e1a40e5b83e0f71820161070a741887f8c9a` [fix(cdc): guard against backward Postgres LSN updates in split state (#25624)](https://github.com/risingwavelabs/risingwave/pull/25624)
+- `34cb11bb9546839f98b7c4b21ce0836fd9f85066` [fix(cdc): reject CDC table creation when Debezium column filter drops PK column (#25691)](https://github.com/risingwavelabs/risingwave/pull/25691)
 - `d881145900e20e636e48a0953693306b14369756` [fix(stream): support background DDL for temporal joins (#26359)](https://github.com/risingwavelabs/risingwave/pull/26359)
 
 ## nightly-20260721
