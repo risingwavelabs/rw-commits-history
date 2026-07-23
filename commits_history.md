@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260723` `e83b32ffa85a877dcfcd700da37507d792e7642c`
 - `20260722` `6e8b2689b76b7df2c5da0bd80072a54c90c44cda`
 - `20260721` `e47fc621dc3ddf49e5ac004b45d491054a5fc557`
 - `20260720` `279755dc0d3ca07b29cc763ea17ce01e5d74cd9f`
@@ -286,7 +287,6 @@
 - `20250727` `ffb2ce460aaf643746ffea4390961c79fe0b311c`
 - `20250725` `797c5a9c43fd9780dd8bfcb149f3d6e14629b432`
 - `20250724` `ab9e9eb784d046f07d1b8154279e7ffe30a3182f`
-- `20250723` `32cc14a5ed75973eb7e79a992d1751ce7b593420`
 </details>
 
 # Commit history
@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e459ee339b8cdbcf8b6cecea2e1fe0a472aa7cdc` [fix(stream): rewind log reader on no-op sink config update (#26412)](https://github.com/risingwavelabs/risingwave/pull/26412)
+
+## nightly-20260723
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6e8b2689b76b7df2c5da0bd80072a54c90c44cda...e83b32ffa85a877dcfcd700da37507d792e7642c)
 - `e83b32ffa85a877dcfcd700da37507d792e7642c` [fix(stream): propagate sync log store watermarks (#26385)](https://github.com/risingwavelabs/risingwave/pull/26385)
 - `aac93a2cb91c6dd4ed6339e397f021abed5923ad` [fix(meta): clean dropped table change logs and watermarks (#26413)](https://github.com/risingwavelabs/risingwave/pull/26413)
 - `33488148052cf054f84749af9fd12aed0fc33d39` [feat(iceberg): support manifest rewrite maintenance (#26285)](https://github.com/risingwavelabs/risingwave/pull/26285)
@@ -2702,14 +2706,4 @@
 - `2e25495916e7d361c30a41752793db99e2be62df` [fix: limit background streaming jobs using max_concurrent_creating_streaming_jobs (#22648)](https://github.com/risingwavelabs/risingwave/pull/22648)
 
 ## nightly-20250724
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/32cc14a5ed75973eb7e79a992d1751ce7b593420...ab9e9eb784d046f07d1b8154279e7ffe30a3182f)
 - `ab9e9eb784d046f07d1b8154279e7ffe30a3182f` [chore(deps): Bump sysinfo from 0.35.0 to 0.35.2 (#22674)](https://github.com/risingwavelabs/risingwave/pull/22674)
-- `8185f0748c869393938f649b904a25ec05077fcf` [feat: Add CASCADE support for DROP CONNECTION (#22557)](https://github.com/risingwavelabs/risingwave/pull/22557)
-- `6de5c8244028d5eb313dd703ff581f3ff5144b0b` [chore: improve error msg for sink (#22709)](https://github.com/risingwavelabs/risingwave/pull/22709)
-- `e9ce124105b7d4b8ba6e93a458d1d641db0e9044` [feat(compute): Implement UnionUpstreamSink operator (#22614)](https://github.com/risingwavelabs/risingwave/pull/22614)
-- `01623d19f81029ed348522834ce37913ec6da7b7` [fix(proto): Deprecate unused MergeNode fields (#22716)](https://github.com/risingwavelabs/risingwave/pull/22716)
-- `7dc29df5bf71efc13d5bff026c3197e45cdaf968` [chore(deps): Bump form-data from 4.0.0 to 4.0.4 in /dashboard (#22685)](https://github.com/risingwavelabs/risingwave/pull/22685)
-- `3c9102acb71d0d215eb347e8ee8d580e6305100f` [fix(meta): notify fragment mapping changes in snapshot backfill (#22683)](https://github.com/risingwavelabs/risingwave/pull/22683)
-
-## nightly-20250723
-- `32cc14a5ed75973eb7e79a992d1751ce7b593420` [ci: Fix e2e-deltalake-sink-rust-tests by enabling sink-deltalake feature in ci-dev builds (#22639)](https://github.com/risingwavelabs/risingwave/pull/22639)
