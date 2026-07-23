@@ -295,6 +295,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e83b32ffa85a877dcfcd700da37507d792e7642c` [fix(stream): propagate sync log store watermarks (#26385)](https://github.com/risingwavelabs/risingwave/pull/26385)
+- `aac93a2cb91c6dd4ed6339e397f021abed5923ad` [fix(meta): clean dropped table change logs and watermarks (#26413)](https://github.com/risingwavelabs/risingwave/pull/26413)
+- `33488148052cf054f84749af9fd12aed0fc33d39` [feat(iceberg): support manifest rewrite maintenance (#26285)](https://github.com/risingwavelabs/risingwave/pull/26285)
+- `17d5b13d4b8aa24515cc1470b77516176f6bd83f` [feat(hummock): support table refill runtime state refresh (#24452)](https://github.com/risingwavelabs/risingwave/pull/24452)
+- `c6241edeca26fb7970101f77db1452823a5cc0ad` [fix(frontend): apply ACL filtering to rw_sources (#26403)](https://github.com/risingwavelabs/risingwave/pull/26403)
+- `a66dfc0d20774a3563995fc15aa37aec156e21b1` [chore(deps): bump org.postgresql:postgresql from 42.7.7 to 42.7.12 in /java (#26383)](https://github.com/risingwavelabs/risingwave/pull/26383)
+- `de2e15c66322d179f0b9c63f72211bb96af8321c` [refactor(storage): add more instrument_await for compactor (#26199)](https://github.com/risingwavelabs/risingwave/pull/26199)
+- `787c920c88f12b67e05f18c35aa8b15083ade74b` [chore(frontend): remove legacy gap fill constructors (#26387)](https://github.com/risingwavelabs/risingwave/pull/26387)
+- `4bc77f921067299e198d9fe76880d38564f0f01c` [fix(common): support Arrow TIME units in from-arrow conversion (#26224)](https://github.com/risingwavelabs/risingwave/pull/26224)
+- `90c8bc18568e755ff79cf708bdd8dc9001bffdeb` [refactor(frontend): migrate leaf plan nodes to generic cores (#26388)](https://github.com/risingwavelabs/risingwave/pull/26388)
 - `6d27013ae1eadc0d334372e59dfdc1c9bf2c48eb` [refactor(meta): use sync lock for source worker shared split map (#26283)](https://github.com/risingwavelabs/risingwave/pull/26283)
 - `668df343b7d66bc45c7927e15d649ef291115e9c` [fix(meta): preserve retained time travel versions during vacuum (#26390)](https://github.com/risingwavelabs/risingwave/pull/26390)
 
