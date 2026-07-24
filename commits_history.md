@@ -295,6 +295,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `369b431202ba538640a750ba87edbd5f9b78e343` [fix(binder): preserve nested lateral scopes (#26366)](https://github.com/risingwavelabs/risingwave/pull/26366)
+- `49930b0e04fd828c9d4e570e4d54875fa413a9ad` [fix(meta): preserve pending barriers for since timestamp sinks (#26420)](https://github.com/risingwavelabs/risingwave/pull/26420)
+- `e2a537878d715b897266754d56525698f7319aae` [chore(dashboard): migrate from npm to pnpm (#26407)](https://github.com/risingwavelabs/risingwave/pull/26407)
+- `2e41cb0adb85e72fcf2f055e228b465ed4d2fed1` [feat(pg-cdc): support arrays of user-defined composite types (#25818)](https://github.com/risingwavelabs/risingwave/pull/25818)
+- `a185bd37b14be8f0aaa41106505ea9d7e0fe2247` [fix(cdc): fail fast on Debezium keepalive errors and avoid stop-time false positives (#25233)](https://github.com/risingwavelabs/risingwave/pull/25233)
+- `279245f95e91f08ff5fa67b4888be3b8253e50e8` [fix(common): return errors instead of panicking on out-of-range Arrow temporal values (#26398)](https://github.com/risingwavelabs/risingwave/pull/26398)
 - `e459ee339b8cdbcf8b6cecea2e1fe0a472aa7cdc` [fix(stream): rewind log reader on no-op sink config update (#26412)](https://github.com/risingwavelabs/risingwave/pull/26412)
 
 ## nightly-20260723
