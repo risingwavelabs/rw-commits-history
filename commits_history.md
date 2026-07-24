@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260724` `369b431202ba538640a750ba87edbd5f9b78e343`
 - `20260723` `e83b32ffa85a877dcfcd700da37507d792e7642c`
 - `20260722` `6e8b2689b76b7df2c5da0bd80072a54c90c44cda`
 - `20260721` `e47fc621dc3ddf49e5ac004b45d491054a5fc557`
@@ -286,7 +287,6 @@
 - `20250728` `0231521759301e617f7f7638fa4df36df673f1c5`
 - `20250727` `ffb2ce460aaf643746ffea4390961c79fe0b311c`
 - `20250725` `797c5a9c43fd9780dd8bfcb149f3d6e14629b432`
-- `20250724` `ab9e9eb784d046f07d1b8154279e7ffe30a3182f`
 </details>
 
 # Commit history
@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260724
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e83b32ffa85a877dcfcd700da37507d792e7642c...369b431202ba538640a750ba87edbd5f9b78e343)
 - `369b431202ba538640a750ba87edbd5f9b78e343` [fix(binder): preserve nested lateral scopes (#26366)](https://github.com/risingwavelabs/risingwave/pull/26366)
 - `49930b0e04fd828c9d4e570e4d54875fa413a9ad` [fix(meta): preserve pending barriers for since timestamp sinks (#26420)](https://github.com/risingwavelabs/risingwave/pull/26420)
 - `e2a537878d715b897266754d56525698f7319aae` [chore(dashboard): migrate from npm to pnpm (#26407)](https://github.com/risingwavelabs/risingwave/pull/26407)
@@ -2706,10 +2709,4 @@
 - `ffb2ce460aaf643746ffea4390961c79fe0b311c` [feat: iceberg COW write-mode framework (#22713)](https://github.com/risingwavelabs/risingwave/pull/22713)
 
 ## nightly-20250725
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ab9e9eb784d046f07d1b8154279e7ffe30a3182f...797c5a9c43fd9780dd8bfcb149f3d6e14629b432)
 - `797c5a9c43fd9780dd8bfcb149f3d6e14629b432` [chore(deps): Bump deltalake from 0.26.1 to 0.26.2 (#22597)](https://github.com/risingwavelabs/risingwave/pull/22597)
-- `d858f3c3a17a116c25c934e804c20273cee4a055` [fix(frontend): Fix alter table column project node under sink-into-table (#22721)](https://github.com/risingwavelabs/risingwave/pull/22721)
-- `2e25495916e7d361c30a41752793db99e2be62df` [fix: limit background streaming jobs using max_concurrent_creating_streaming_jobs (#22648)](https://github.com/risingwavelabs/risingwave/pull/22648)
-
-## nightly-20250724
-- `ab9e9eb784d046f07d1b8154279e7ffe30a3182f` [chore(deps): Bump sysinfo from 0.35.0 to 0.35.2 (#22674)](https://github.com/risingwavelabs/risingwave/pull/22674)
