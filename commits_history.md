@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260725` `013bc9c9c65583972f9d132b8a28fffc571c6e9c`
 - `20260724` `369b431202ba538640a750ba87edbd5f9b78e343`
 - `20260723` `e83b32ffa85a877dcfcd700da37507d792e7642c`
 - `20260722` `6e8b2689b76b7df2c5da0bd80072a54c90c44cda`
@@ -286,7 +287,6 @@
 - `20250729` `75c40d356278eff6b3b5331d096c52ef87ad4d0d`
 - `20250728` `0231521759301e617f7f7638fa4df36df673f1c5`
 - `20250727` `ffb2ce460aaf643746ffea4390961c79fe0b311c`
-- `20250725` `797c5a9c43fd9780dd8bfcb149f3d6e14629b432`
 </details>
 
 # Commit history
@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260725
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/369b431202ba538640a750ba87edbd5f9b78e343...013bc9c9c65583972f9d132b8a28fffc571c6e9c)
 - `013bc9c9c65583972f9d132b8a28fffc571c6e9c` [feat(meta): support typed fragment rate limits (#26183)](https://github.com/risingwavelabs/risingwave/pull/26183)
 - `08f1a6074b70fa5d1c542fa7b5e7132797d71a0c` [fix(meta): throttle snapshot backfill catch-up barriers (#26423)](https://github.com/risingwavelabs/risingwave/pull/26423)
 - `453ab740173a68fc27ab4d765675253e1c475816` [fix(common): decode nested parquet columns by the declared field (#26354)](https://github.com/risingwavelabs/risingwave/pull/26354)
@@ -2709,8 +2712,4 @@
 - `7e3885a7c1bc20996344f88eba49c1c65a86c81b` [refactor(frontend): unify handling logic of LogicalShare and StreamShare (#22712)](https://github.com/risingwavelabs/risingwave/pull/22712)
 
 ## nightly-20250727
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/797c5a9c43fd9780dd8bfcb149f3d6e14629b432...ffb2ce460aaf643746ffea4390961c79fe0b311c)
 - `ffb2ce460aaf643746ffea4390961c79fe0b311c` [feat: iceberg COW write-mode framework (#22713)](https://github.com/risingwavelabs/risingwave/pull/22713)
-
-## nightly-20250725
-- `797c5a9c43fd9780dd8bfcb149f3d6e14629b432` [chore(deps): Bump deltalake from 0.26.1 to 0.26.2 (#22597)](https://github.com/risingwavelabs/risingwave/pull/22597)
