@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `013bc9c9c65583972f9d132b8a28fffc571c6e9c` [feat(meta): support typed fragment rate limits (#26183)](https://github.com/risingwavelabs/risingwave/pull/26183)
+- `08f1a6074b70fa5d1c542fa7b5e7132797d71a0c` [fix(meta): throttle snapshot backfill catch-up barriers (#26423)](https://github.com/risingwavelabs/risingwave/pull/26423)
+- `453ab740173a68fc27ab4d765675253e1c475816` [fix(common): decode nested parquet columns by the declared field (#26354)](https://github.com/risingwavelabs/risingwave/pull/26354)
+- `faafe1cf6397abffffe43fe08dd77e6473dfb7eb` [perf(stream): apply LRU watermark to over-window partition cache at chunk boundaries (#26424)](https://github.com/risingwavelabs/risingwave/pull/26424)
 
 ## nightly-20260724
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e83b32ffa85a877dcfcd700da37507d792e7642c...369b431202ba538640a750ba87edbd5f9b78e343)
