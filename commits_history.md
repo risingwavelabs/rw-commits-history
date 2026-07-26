@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260725` `013bc9c9c65583972f9d132b8a28fffc571c6e9c`
+- `20260726` `013bc9c9c65583972f9d132b8a28fffc571c6e9c`
 - `20260724` `369b431202ba538640a750ba87edbd5f9b78e343`
 - `20260723` `e83b32ffa85a877dcfcd700da37507d792e7642c`
 - `20260722` `6e8b2689b76b7df2c5da0bd80072a54c90c44cda`
@@ -296,7 +296,7 @@
 
 ## Unreleased
 
-## nightly-20260725
+## nightly-20260726
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/369b431202ba538640a750ba87edbd5f9b78e343...013bc9c9c65583972f9d132b8a28fffc571c6e9c)
 - `013bc9c9c65583972f9d132b8a28fffc571c6e9c` [feat(meta): support typed fragment rate limits (#26183)](https://github.com/risingwavelabs/risingwave/pull/26183)
 - `08f1a6074b70fa5d1c542fa7b5e7132797d71a0c` [fix(meta): throttle snapshot backfill catch-up barriers (#26423)](https://github.com/risingwavelabs/risingwave/pull/26423)
