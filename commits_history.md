@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260727` `3513f9f77dee40b2e8cb6e666eb98e5d72a7a7a1`
 - `20260726` `013bc9c9c65583972f9d132b8a28fffc571c6e9c`
 - `20260724` `369b431202ba538640a750ba87edbd5f9b78e343`
 - `20260723` `e83b32ffa85a877dcfcd700da37507d792e7642c`
@@ -286,7 +287,6 @@
 - `20250730` `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2`
 - `20250729` `75c40d356278eff6b3b5331d096c52ef87ad4d0d`
 - `20250728` `0231521759301e617f7f7638fa4df36df673f1c5`
-- `20250727` `ffb2ce460aaf643746ffea4390961c79fe0b311c`
 </details>
 
 # Commit history
@@ -295,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fc7b43912372d2dabbd01aa2ede89057c7546d98` [fix(binder): resolve qualified wildcards for schema-qualified relations (#26419)](https://github.com/risingwavelabs/risingwave/pull/26419)
+- `6b42cf52b17303b5f306139e8ffa90448e48e3b1` [chore(deps): Bump quick-xml from 0.39.0 to 0.40.1 (#25745)](https://github.com/risingwavelabs/risingwave/pull/25745)
+
+## nightly-20260727
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/013bc9c9c65583972f9d132b8a28fffc571c6e9c...3513f9f77dee40b2e8cb6e666eb98e5d72a7a7a1)
 - `3513f9f77dee40b2e8cb6e666eb98e5d72a7a7a1` [feat: delete merger stage scanned delete file (#26268)](https://github.com/risingwavelabs/risingwave/pull/26268)
 - `f8fb5708e6bc5b52eb947dd1a78551857f985c41` [chore(deps): Bump async-nats from 0.47.0 to 0.49.1 (#25904)](https://github.com/risingwavelabs/risingwave/pull/25904)
 - `6cb0df8cda16084e043689d2db64ca4f1d1e771f` [fix(meta): exclude internal tables from time travel epoch mappings (#26443)](https://github.com/risingwavelabs/risingwave/pull/26443)
@@ -2708,14 +2713,4 @@
 - `272d305574b902dd945f721101750887e7bd519c` [fix(binder): correctly bind relation from another database with non-default schema name (#22735)](https://github.com/risingwavelabs/risingwave/pull/22735)
 
 ## nightly-20250728
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ffb2ce460aaf643746ffea4390961c79fe0b311c...0231521759301e617f7f7638fa4df36df673f1c5)
 - `0231521759301e617f7f7638fa4df36df673f1c5` [feat(license): add `rw_features` system table & `rw_test_feature` function (#22526)](https://github.com/risingwavelabs/risingwave/pull/22526)
-- `b190d408a83e2f5ecab06c8a5544b45d080839d8` [refactor(frontend): restrict convention on optimizer rules (#22732)](https://github.com/risingwavelabs/risingwave/pull/22732)
-- `c30d32d8ea81d10b65ab6ee03caf71d7657619d7` [feat(meta): check if derived vnode count matches existing state tables during job replacement (#22495)](https://github.com/risingwavelabs/risingwave/pull/22495)
-- `1d0947aca8bc0e08c399af4ac544f4ea5c793049` [feat(frontend): add refreshable property & refresh command (#22619)](https://github.com/risingwavelabs/risingwave/pull/22619)
-- `9281601808d04f8a04043480a055543752e107ce` [refactor(frontend): separate PlanVisitor of different conventions (#22724)](https://github.com/risingwavelabs/risingwave/pull/22724)
-- `99a1c26dd6625177cfbb20d1e854a40451a53000` [feat(expr): more `vector` distance functions (#22647)](https://github.com/risingwavelabs/risingwave/pull/22647)
-- `7e3885a7c1bc20996344f88eba49c1c65a86c81b` [refactor(frontend): unify handling logic of LogicalShare and StreamShare (#22712)](https://github.com/risingwavelabs/risingwave/pull/22712)
-
-## nightly-20250727
-- `ffb2ce460aaf643746ffea4390961c79fe0b311c` [feat: iceberg COW write-mode framework (#22713)](https://github.com/risingwavelabs/risingwave/pull/22713)
