@@ -295,6 +295,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3513f9f77dee40b2e8cb6e666eb98e5d72a7a7a1` [feat: delete merger stage scanned delete file (#26268)](https://github.com/risingwavelabs/risingwave/pull/26268)
+- `f8fb5708e6bc5b52eb947dd1a78551857f985c41` [chore(deps): Bump async-nats from 0.47.0 to 0.49.1 (#25904)](https://github.com/risingwavelabs/risingwave/pull/25904)
+- `6cb0df8cda16084e043689d2db64ca4f1d1e771f` [fix(meta): exclude internal tables from time travel epoch mappings (#26443)](https://github.com/risingwavelabs/risingwave/pull/26443)
+- `9c24aba881267a7afa3ebe64b72d947944873bed` [chore(deps): Bump indexmap from 2.13.0 to 2.14.0 (#25299)](https://github.com/risingwavelabs/risingwave/pull/25299)
+- `eaff221c83f70d4cadb555531bcff17273537e2c` [chore(deps): Bump pg_interval from 0.4.2 to 0.6.0 (#25974)](https://github.com/risingwavelabs/risingwave/pull/25974)
+- `61336d5e47b1c782766cd8f8f3d19b05ea7fdab8` [refactor(connector): centralize Iceberg engine options (#26431)](https://github.com/risingwavelabs/risingwave/pull/26431)
 
 ## nightly-20260726
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/369b431202ba538640a750ba87edbd5f9b78e343...013bc9c9c65583972f9d132b8a28fffc571c6e9c)
