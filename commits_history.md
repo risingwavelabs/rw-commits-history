@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260728` `d1a1cb2077c944514878806beeb3d70daad77525`
 - `20260727` `3513f9f77dee40b2e8cb6e666eb98e5d72a7a7a1`
 - `20260726` `013bc9c9c65583972f9d132b8a28fffc571c6e9c`
 - `20260724` `369b431202ba538640a750ba87edbd5f9b78e343`
@@ -286,7 +287,6 @@
 - `20250802` `70c821424a0822fb529c264756a3329e24e8c979`
 - `20250730` `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2`
 - `20250729` `75c40d356278eff6b3b5331d096c52ef87ad4d0d`
-- `20250728` `0231521759301e617f7f7638fa4df36df673f1c5`
 </details>
 
 # Commit history
@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `99b928742797ce2500a400cd7e403591e474094f` [feat(sink): support turbopuffer num_shards (#26197)](https://github.com/risingwavelabs/risingwave/pull/26197)
+
+## nightly-20260728
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3513f9f77dee40b2e8cb6e666eb98e5d72a7a7a1...d1a1cb2077c944514878806beeb3d70daad77525)
 - `d1a1cb2077c944514878806beeb3d70daad77525` [fix(iceberg): enable manifest rewrite for engine tables by default (#26471)](https://github.com/risingwavelabs/risingwave/pull/26471)
 - `7ffd47b1f0f8328f9f6f502dbd2ef26008a18001` [chore(deps): Bump serial_test from 3.4.0 to 4.0.1 (#26456)](https://github.com/risingwavelabs/risingwave/pull/26456)
 - `8cc64760857ef32fbe589734aefa2b52e72a7d11` [chore(deps): Bump tokio-metrics from 0.4.0 to 0.5.1 (#26455)](https://github.com/risingwavelabs/risingwave/pull/26455)
@@ -2717,9 +2721,4 @@
 - `4eb413b2c63a925924e058e838878c92fafcf6fd` [fix(mssql-cdc): support binary as primary key data type (#22192)](https://github.com/risingwavelabs/risingwave/pull/22192)
 
 ## nightly-20250729
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0231521759301e617f7f7638fa4df36df673f1c5...75c40d356278eff6b3b5331d096c52ef87ad4d0d)
 - `75c40d356278eff6b3b5331d096c52ef87ad4d0d` [feat(iceberg): introduce small file compaction (#22527)](https://github.com/risingwavelabs/risingwave/pull/22527)
-- `272d305574b902dd945f721101750887e7bd519c` [fix(binder): correctly bind relation from another database with non-default schema name (#22735)](https://github.com/risingwavelabs/risingwave/pull/22735)
-
-## nightly-20250728
-- `0231521759301e617f7f7638fa4df36df673f1c5` [feat(license): add `rw_features` system table & `rw_test_feature` function (#22526)](https://github.com/risingwavelabs/risingwave/pull/22526)
