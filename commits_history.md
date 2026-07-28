@@ -295,6 +295,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d1a1cb2077c944514878806beeb3d70daad77525` [fix(iceberg): enable manifest rewrite for engine tables by default (#26471)](https://github.com/risingwavelabs/risingwave/pull/26471)
+- `7ffd47b1f0f8328f9f6f502dbd2ef26008a18001` [chore(deps): Bump serial_test from 3.4.0 to 4.0.1 (#26456)](https://github.com/risingwavelabs/risingwave/pull/26456)
+- `8cc64760857ef32fbe589734aefa2b52e72a7d11` [chore(deps): Bump tokio-metrics from 0.4.0 to 0.5.1 (#26455)](https://github.com/risingwavelabs/risingwave/pull/26455)
+- `50848b7c8f0bb13a0c46550a414334473f3bf863` [chore(deps): Bump either from 1.15.0 to 1.17.0 (#26453)](https://github.com/risingwavelabs/risingwave/pull/26453)
+- `c46fc6031ae59d9f3fb4610f27419c7591365834` [feat: update dashboard UI (#26446)](https://github.com/risingwavelabs/risingwave/pull/26446)
+- `29368da033d31d3d7313cd18f6fa17c579e2762f` [chore(deps): Bump rust-embed from 8.11.0 to 8.12.0 (#26449)](https://github.com/risingwavelabs/risingwave/pull/26449)
+- `784d962468c791ca2b09edd2d0c0cf4ad7158599` [chore(deps): Bump redis from 1.0.2 to 1.2.4 (#26459)](https://github.com/risingwavelabs/risingwave/pull/26459)
+- `2c2b4b26722943c6294fd88b7ba82330112de36b` [chore(deps): Bump sysinfo from 0.38.0 to 0.39.3 (#25843)](https://github.com/risingwavelabs/risingwave/pull/25843)
+- `1d34669f27b1ce0479e471166f78cf3003935c09` [test(sim): actually wait for recovery in kill-and-recover test helpers (#26282)](https://github.com/risingwavelabs/risingwave/pull/26282)
 - `fc7b43912372d2dabbd01aa2ede89057c7546d98` [fix(binder): resolve qualified wildcards for schema-qualified relations (#26419)](https://github.com/risingwavelabs/risingwave/pull/26419)
 - `6b42cf52b17303b5f306139e8ffa90448e48e3b1` [chore(deps): Bump quick-xml from 0.39.0 to 0.40.1 (#25745)](https://github.com/risingwavelabs/risingwave/pull/25745)
 
