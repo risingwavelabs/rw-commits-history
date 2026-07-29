@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260729` `55438cf2e8fb382755043a41d13708581f3abf3b`
 - `20260728` `d1a1cb2077c944514878806beeb3d70daad77525`
 - `20260727` `3513f9f77dee40b2e8cb6e666eb98e5d72a7a7a1`
 - `20260726` `013bc9c9c65583972f9d132b8a28fffc571c6e9c`
@@ -286,7 +287,6 @@
 - `20250803` `e1365fd714a5f864caee466b98722f7be210dcbf`
 - `20250802` `70c821424a0822fb529c264756a3329e24e8c979`
 - `20250730` `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2`
-- `20250729` `75c40d356278eff6b3b5331d096c52ef87ad4d0d`
 </details>
 
 # Commit history
@@ -295,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3794533ec38f6054e0d4b3deadd18b478f72f861` [fix(frontend): avoid catalog-user lock order inversion (#26488)](https://github.com/risingwavelabs/risingwave/pull/26488)
+- `ae7c38e632f0e1fb0e8f0547ae6af9936c19bed0` [ci: increase single-node e2e timeout (#26427)](https://github.com/risingwavelabs/risingwave/pull/26427)
+
+## nightly-20260729
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d1a1cb2077c944514878806beeb3d70daad77525...55438cf2e8fb382755043a41d13708581f3abf3b)
 - `55438cf2e8fb382755043a41d13708581f3abf3b` [fix(meta): limit pending barriers in partial graphs (#26467)](https://github.com/risingwavelabs/risingwave/pull/26467)
 - `b2e188dd8a3c201edb2bef59ecf1d23673e22f73` [fix(frontend): resolve fixed backfill order for index scans (#26486)](https://github.com/risingwavelabs/risingwave/pull/26486)
 - `b43218f42c1afed2e53560553e746c6199dc62b4` [fix(meta): notify hummock for cache refill config (#26464)](https://github.com/risingwavelabs/risingwave/pull/26464)
@@ -2725,10 +2730,4 @@
 - `8f7c9008b1e8a2a1e728efb57011d53994fb80c2` [feat(expr): vector cast to/from arrays (#22746)](https://github.com/risingwavelabs/risingwave/pull/22746)
 
 ## nightly-20250730
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75c40d356278eff6b3b5331d096c52ef87ad4d0d...0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2)
 - `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2` [feat(expr): `vector || vector` concatenation (#22745)](https://github.com/risingwavelabs/risingwave/pull/22745)
-- `c9462750b18efe1f877774ce7cdc73cc4617f37f` [feat(expr): support vector `+`/`-`/`*` vector (#22736)](https://github.com/risingwavelabs/risingwave/pull/22736)
-- `4eb413b2c63a925924e058e838878c92fafcf6fd` [fix(mssql-cdc): support binary as primary key data type (#22192)](https://github.com/risingwavelabs/risingwave/pull/22192)
-
-## nightly-20250729
-- `75c40d356278eff6b3b5331d096c52ef87ad4d0d` [feat(iceberg): introduce small file compaction (#22527)](https://github.com/risingwavelabs/risingwave/pull/22527)
