@@ -295,6 +295,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `55438cf2e8fb382755043a41d13708581f3abf3b` [fix(meta): limit pending barriers in partial graphs (#26467)](https://github.com/risingwavelabs/risingwave/pull/26467)
+- `b2e188dd8a3c201edb2bef59ecf1d23673e22f73` [fix(frontend): resolve fixed backfill order for index scans (#26486)](https://github.com/risingwavelabs/risingwave/pull/26486)
+- `b43218f42c1afed2e53560553e746c6199dc62b4` [fix(meta): notify hummock for cache refill config (#26464)](https://github.com/risingwavelabs/risingwave/pull/26464)
+- `efdc22c0920667fe987fc8407c3e1fc0a5d89018` [fix(storage): enforce scan range in forward SST iterator (#26480)](https://github.com/risingwavelabs/risingwave/pull/26480)
+- `c37f72451a0fe5f5c9a2456d54560abce3df08e0` [fix(iceberg): preserve partition column when pruning hidden sink columns (#26356)](https://github.com/risingwavelabs/risingwave/pull/26356)
+- `f372a350a7c5fb3e51e2d0dfedcf7347357eb207` [chore(profile): emit line tables only in the dev profile (#26462)](https://github.com/risingwavelabs/risingwave/pull/26462)
+- `645cd2f49b914d99342969e89503f0971245b7c9` [fix(stream): keep consuming on a no-op sink config update (#26484)](https://github.com/risingwavelabs/risingwave/pull/26484)
+- `bf5c637ffc6be8d5ce58656944be741120cc5227` [feat(risedev): add local Redis sink test flow (#26373)](https://github.com/risingwavelabs/risingwave/pull/26373)
+- `cf17a88a1b91a6547bdc165e0b11faa827a9d08e` [fix(mysql-cdc): map MySQL SERIAL to decimal (#26410)](https://github.com/risingwavelabs/risingwave/pull/26410)
+- `07b7fc73ec999934ec01a13f083a52d2ade85500` [fix(common): make Timestamptz representability a construction-time invariant (#26399)](https://github.com/risingwavelabs/risingwave/pull/26399)
 - `99b928742797ce2500a400cd7e403591e474094f` [feat(sink): support turbopuffer num_shards (#26197)](https://github.com/risingwavelabs/risingwave/pull/26197)
 
 ## nightly-20260728
