@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260730` `6b76126b4de0739d791640c89af011f31092ef3e`
 - `20260729` `55438cf2e8fb382755043a41d13708581f3abf3b`
 - `20260728` `d1a1cb2077c944514878806beeb3d70daad77525`
 - `20260727` `3513f9f77dee40b2e8cb6e666eb98e5d72a7a7a1`
@@ -286,7 +287,6 @@
 - `20250804` `fbe59664db8af503b3c405c7e2745c562add2606`
 - `20250803` `e1365fd714a5f864caee466b98722f7be210dcbf`
 - `20250802` `70c821424a0822fb529c264756a3329e24e8c979`
-- `20250730` `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2`
 </details>
 
 # Commit history
@@ -295,6 +295,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ac8e619f2af4821350bfd3816365eba3e0449cf5` [chore(deps): Bump com.amazon.redshift:redshift-jdbc42 from 2.1.0.33 to 2.2.2 in /java/connector-node/risingwave-sink-jdbc (#25664)](https://github.com/risingwavelabs/risingwave/pull/25664)
+- `59a6ff9d17206b4f5e8e49d0bcaf30610fa8769c` [chore(deps): Bump com.amazon.redshift:redshift-jdbc42 from 2.1.0.33 to 2.2.2 in /java/connector-node/risingwave-jdbc-runner (#25677)](https://github.com/risingwavelabs/risingwave/pull/25677)
+- `4feedb2a809c12eaee1fe42be4465ccc0200faf1` [chore(deps): Bump lru from 0.16.3 to 0.18.1 (#26458)](https://github.com/risingwavelabs/risingwave/pull/26458)
+- `f51699bff991ad9086d4ce48ce04c4bcf908f28d` [chore(deps): Bump aws-lc-rs from 1.16.2 to 1.17.3 (#26450)](https://github.com/risingwavelabs/risingwave/pull/26450)
+- `615e439847f18d209c5bb0923157b42233372ea2` [chore(deps): bump next from 16.2.10 to 16.2.11 in /dashboard (#26415)](https://github.com/risingwavelabs/risingwave/pull/26415)
+- `992ff6f165d9550d73811d6b0a0f4e315bc71f98` [chore(deps): Bump bitflags from 2.11.1 to 2.13.1 (#26457)](https://github.com/risingwavelabs/risingwave/pull/26457)
+- `a73f4a8d330b7dda74709387faefc008be6973ba` [ci: optionally trigger main-cron from Docker image workflow (#26463)](https://github.com/risingwavelabs/risingwave/pull/26463)
+
+## nightly-20260730
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/55438cf2e8fb382755043a41d13708581f3abf3b...6b76126b4de0739d791640c89af011f31092ef3e)
 - `6b76126b4de0739d791640c89af011f31092ef3e` [fix(test): query join state table counts directly (#26500)](https://github.com/risingwavelabs/risingwave/pull/26500)
 - `d61d7b2e5ad653dd2d6cbaa742fe65e650665653` [fix(meta): reject inverted table change log epoch ranges (#26478)](https://github.com/risingwavelabs/risingwave/pull/26478)
 - `393f9000d9a28731029f61de0acce57b2955bd5a` [feat: report barrier metrics by partial graph (#26495)](https://github.com/risingwavelabs/risingwave/pull/26495)
@@ -2729,12 +2739,4 @@
 - `e1365fd714a5f864caee466b98722f7be210dcbf` [feat(binder): support schema binding of functions (#22770)](https://github.com/risingwavelabs/risingwave/pull/22770)
 
 ## nightly-20250802
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2...70c821424a0822fb529c264756a3329e24e8c979)
 - `70c821424a0822fb529c264756a3329e24e8c979` [refactor(frontend): static optimizer plan convention (#22700)](https://github.com/risingwavelabs/risingwave/pull/22700)
-- `e386e875eb4d3e2c49b614228017f81ad6f53383` [fix(cdc): handle watermark for parallelized cdc backfill (#22755)](https://github.com/risingwavelabs/risingwave/pull/22755)
-- `3a4f5ee522786cab69a59d0099f68be8b1c41c6b` [feat(cdc): add support for parallelized cdc backfill (#22536)](https://github.com/risingwavelabs/risingwave/pull/22536)
-- `64b50647e5511c6f22e0f7954f76324a8f17a9df` [fix(sink): avoid advance delete for force_append_only sink (#22747)](https://github.com/risingwavelabs/risingwave/pull/22747)
-- `8f7c9008b1e8a2a1e728efb57011d53994fb80c2` [feat(expr): vector cast to/from arrays (#22746)](https://github.com/risingwavelabs/risingwave/pull/22746)
-
-## nightly-20250730
-- `0444a8fc836b53b50e58d7ec1a52fd26a5ceacd2` [feat(expr): `vector || vector` concatenation (#22745)](https://github.com/risingwavelabs/risingwave/pull/22745)
