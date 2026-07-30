@@ -295,6 +295,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6b76126b4de0739d791640c89af011f31092ef3e` [fix(test): query join state table counts directly (#26500)](https://github.com/risingwavelabs/risingwave/pull/26500)
+- `d61d7b2e5ad653dd2d6cbaa742fe65e650665653` [fix(meta): reject inverted table change log epoch ranges (#26478)](https://github.com/risingwavelabs/risingwave/pull/26478)
+- `393f9000d9a28731029f61de0acce57b2955bd5a` [feat: report barrier metrics by partial graph (#26495)](https://github.com/risingwavelabs/risingwave/pull/26495)
+- `27fc54ea3223d974a814ba9b4154656d0c2bb748` [fix(sink): persist empty pre-commit epochs (#26498)](https://github.com/risingwavelabs/risingwave/pull/26498)
+- `d505d791396fe824d092bbad33f4311a8a90d10f` [perf(storage): prune irrelevant SSTs before cache refill (#26429)](https://github.com/risingwavelabs/risingwave/pull/26429)
+- `b9a82475a4e5f10f28078fa32bfae1362833d1eb` [fix(pgwire): tolerate mixed-key JWKS for OAuth (#26416)](https://github.com/risingwavelabs/risingwave/pull/26416)
+- `72c772f261d6550af6ec9c2a4c0f079809a59983` [fix(test): update meta backup state store expectation (#26487)](https://github.com/risingwavelabs/risingwave/pull/26487)
 - `3794533ec38f6054e0d4b3deadd18b478f72f861` [fix(frontend): avoid catalog-user lock order inversion (#26488)](https://github.com/risingwavelabs/risingwave/pull/26488)
 - `ae7c38e632f0e1fb0e8f0547ae6af9936c19bed0` [ci: increase single-node e2e timeout (#26427)](https://github.com/risingwavelabs/risingwave/pull/26427)
 
