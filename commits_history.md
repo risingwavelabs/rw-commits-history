@@ -295,6 +295,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `631ac2c988bd5d3175c0cf95d832a9e00de04c68` [feat(frontend): license WebSocket ingest (#26519)](https://github.com/risingwavelabs/risingwave/pull/26519)
+- `1d1be008359ef2a9ccd08b56501022307247a6c0` [chore(deps): bump golang.org/x/net from 0.54.0 to 0.55.0 in /integration_tests/datagen (#26132)](https://github.com/risingwavelabs/risingwave/pull/26132)
+- `5e325485af60a04888390203a7bad2bdcc09c143` [chore(deps): bump org.eclipse.jetty:jetty-util from 12.0.33 to 12.0.35 in /java (#26414)](https://github.com/risingwavelabs/risingwave/pull/26414)
+- `c713ea2c7e23861300daf9c459bb5ea7e9641ab8` [chore(deps): Bump org.postgresql:postgresql from 42.7.3 to 42.7.11 in /integration_tests/client-library/java (#25573)](https://github.com/risingwavelabs/risingwave/pull/25573)
+- `983632aff56300f743d59325e27dd3c7dd99056f` [chore(deps): Bump org.apache.logging.log4j:log4j-core from 2.25.3 to 2.25.4 in /java (#25325)](https://github.com/risingwavelabs/risingwave/pull/25325)
+- `3ce7824b8ad90eac082939481d926b0cc79f61d7` [doc: tighten user-facing PR label guidance (#26516)](https://github.com/risingwavelabs/risingwave/pull/26516)
+- `d8b83499a7521aa7d4bd804f3baefa5d68dc51aa` [feat(streaming): improve await-tree visibility for common waits (#26514)](https://github.com/risingwavelabs/risingwave/pull/26514)
+- `0a99413b8a98b83bfcee4768fc70e75f6077300b` [test: remove low-value tests (#26473)](https://github.com/risingwavelabs/risingwave/pull/26473)
+- `3ad2a13c812fba70479d9a8c4df905a20263f766` [feat(types): support variant type (#26080)](https://github.com/risingwavelabs/risingwave/pull/26080)
+- `0bb39e7ac53bd73b2dbd9f87757f4ffe4685c775` [feat(iceberg): support per-table metadata relations (#26466)](https://github.com/risingwavelabs/risingwave/pull/26466)
 - `ac8e619f2af4821350bfd3816365eba3e0449cf5` [chore(deps): Bump com.amazon.redshift:redshift-jdbc42 from 2.1.0.33 to 2.2.2 in /java/connector-node/risingwave-sink-jdbc (#25664)](https://github.com/risingwavelabs/risingwave/pull/25664)
 - `59a6ff9d17206b4f5e8e49d0bcaf30610fa8769c` [chore(deps): Bump com.amazon.redshift:redshift-jdbc42 from 2.1.0.33 to 2.2.2 in /java/connector-node/risingwave-jdbc-runner (#25677)](https://github.com/risingwavelabs/risingwave/pull/25677)
 - `4feedb2a809c12eaee1fe42be4465ccc0200faf1` [chore(deps): Bump lru from 0.16.3 to 0.18.1 (#26458)](https://github.com/risingwavelabs/risingwave/pull/26458)
