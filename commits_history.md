@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260731` `1d1be008359ef2a9ccd08b56501022307247a6c0`
 - `20260730` `6b76126b4de0739d791640c89af011f31092ef3e`
 - `20260729` `55438cf2e8fb382755043a41d13708581f3abf3b`
 - `20260728` `d1a1cb2077c944514878806beeb3d70daad77525`
@@ -295,7 +296,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d4a8483f7f0df0d27ccf0ec39495661cb476c4c0` [chore(deps): bump quinn-proto from 0.11.14 to 0.11.16 (#26441)](https://github.com/risingwavelabs/risingwave/pull/26441)
 - `631ac2c988bd5d3175c0cf95d832a9e00de04c68` [feat(frontend): license WebSocket ingest (#26519)](https://github.com/risingwavelabs/risingwave/pull/26519)
+
+## nightly-20260731
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6b76126b4de0739d791640c89af011f31092ef3e...1d1be008359ef2a9ccd08b56501022307247a6c0)
 - `1d1be008359ef2a9ccd08b56501022307247a6c0` [chore(deps): bump golang.org/x/net from 0.54.0 to 0.55.0 in /integration_tests/datagen (#26132)](https://github.com/risingwavelabs/risingwave/pull/26132)
 - `5e325485af60a04888390203a7bad2bdcc09c143` [chore(deps): bump org.eclipse.jetty:jetty-util from 12.0.33 to 12.0.35 in /java (#26414)](https://github.com/risingwavelabs/risingwave/pull/26414)
 - `c713ea2c7e23861300daf9c459bb5ea7e9641ab8` [chore(deps): Bump org.postgresql:postgresql from 42.7.3 to 42.7.11 in /integration_tests/client-library/java (#25573)](https://github.com/risingwavelabs/risingwave/pull/25573)
