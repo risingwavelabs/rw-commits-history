@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260801` `d4a8483f7f0df0d27ccf0ec39495661cb476c4c0`
 - `20260731` `1d1be008359ef2a9ccd08b56501022307247a6c0`
 - `20260730` `6b76126b4de0739d791640c89af011f31092ef3e`
 - `20260729` `55438cf2e8fb382755043a41d13708581f3abf3b`
@@ -296,6 +297,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8f8f27ff2d55e4739da8a0a96bba977444efb780` [test(stream): assert over-window metric deltas (#26538)](https://github.com/risingwavelabs/risingwave/pull/26538)
+
+## nightly-20260801
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1d1be008359ef2a9ccd08b56501022307247a6c0...d4a8483f7f0df0d27ccf0ec39495661cb476c4c0)
 - `d4a8483f7f0df0d27ccf0ec39495661cb476c4c0` [chore(deps): bump quinn-proto from 0.11.14 to 0.11.16 (#26441)](https://github.com/risingwavelabs/risingwave/pull/26441)
 - `631ac2c988bd5d3175c0cf95d832a9e00de04c68` [feat(frontend): license WebSocket ingest (#26519)](https://github.com/risingwavelabs/risingwave/pull/26519)
 
