@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260802` `8f8f27ff2d55e4739da8a0a96bba977444efb780`
 - `20260801` `d4a8483f7f0df0d27ccf0ec39495661cb476c4c0`
 - `20260731` `1d1be008359ef2a9ccd08b56501022307247a6c0`
 - `20260730` `6b76126b4de0739d791640c89af011f31092ef3e`
@@ -288,7 +289,6 @@
 - `20250805` `a7c7e35a386aa7f2cc37fd6551417b3984a54a10`
 - `20250804` `fbe59664db8af503b3c405c7e2745c562add2606`
 - `20250803` `e1365fd714a5f864caee466b98722f7be210dcbf`
-- `20250802` `70c821424a0822fb529c264756a3329e24e8c979`
 </details>
 
 # Commit history
@@ -297,6 +297,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c11ffed8766f30ffb11a7e05fba8149a64715b3f` [ci: increase standalone e2e timeout (#26539)](https://github.com/risingwavelabs/risingwave/pull/26539)
+
+## nightly-20260802
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d4a8483f7f0df0d27ccf0ec39495661cb476c4c0...8f8f27ff2d55e4739da8a0a96bba977444efb780)
 - `8f8f27ff2d55e4739da8a0a96bba977444efb780` [test(stream): assert over-window metric deltas (#26538)](https://github.com/risingwavelabs/risingwave/pull/26538)
 
 ## nightly-20260801
@@ -2755,8 +2759,4 @@
 - `a6136be785bdf93aae04f2f2c48690bfc7f41549` [feat: refreshable source, SourceExec part (#22620)](https://github.com/risingwavelabs/risingwave/pull/22620)
 
 ## nightly-20250803
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/70c821424a0822fb529c264756a3329e24e8c979...e1365fd714a5f864caee466b98722f7be210dcbf)
 - `e1365fd714a5f864caee466b98722f7be210dcbf` [feat(binder): support schema binding of functions (#22770)](https://github.com/risingwavelabs/risingwave/pull/22770)
-
-## nightly-20250802
-- `70c821424a0822fb529c264756a3329e24e8c979` [refactor(frontend): static optimizer plan convention (#22700)](https://github.com/risingwavelabs/risingwave/pull/22700)
