@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260803` `92f67e743e57d2f024f5f0fd28ae4a64a39e7e49`
 - `20260802` `8f8f27ff2d55e4739da8a0a96bba977444efb780`
 - `20260801` `d4a8483f7f0df0d27ccf0ec39495661cb476c4c0`
 - `20260731` `1d1be008359ef2a9ccd08b56501022307247a6c0`
@@ -288,7 +289,6 @@
 - `20250806` `14cb777969c3b44b15e668c20b04f192dd2dcc9d`
 - `20250805` `a7c7e35a386aa7f2cc37fd6551417b3984a54a10`
 - `20250804` `fbe59664db8af503b3c405c7e2745c562add2606`
-- `20250803` `e1365fd714a5f864caee466b98722f7be210dcbf`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 
 ## Unreleased
 - `1b6342bbb67012a74a11ec31b3d158ef755c2d66` [fix(sink): wait for async truncate before reading next item (#25883)](https://github.com/risingwavelabs/risingwave/pull/25883)
+
+## nightly-20260803
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8f8f27ff2d55e4739da8a0a96bba977444efb780...92f67e743e57d2f024f5f0fd28ae4a64a39e7e49)
 - `92f67e743e57d2f024f5f0fd28ae4a64a39e7e49` [feat(batch): support await-tree dump for batch tasks (#26515)](https://github.com/risingwavelabs/risingwave/pull/26515)
 - `80cf0b7a6b43e9f78c4fcb73783dd47229f5dc46` [fix(cdc): diagnose postgres select privilege (#26079)](https://github.com/risingwavelabs/risingwave/pull/26079)
 - `df537c264478a7d4130d04f749ee0954a23d5b54` [fix(cdc): fail initial backfill on invalid primary keys (#26513)](https://github.com/risingwavelabs/risingwave/pull/26513)
@@ -2758,13 +2761,4 @@
 - `027bf506a2aae40c6fd0d8387ac9edc7e66b81cb` [chore(deps): Bump indicatif from 0.17.6 to 0.17.11 (#22722)](https://github.com/risingwavelabs/risingwave/pull/22722)
 
 ## nightly-20250804
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e1365fd714a5f864caee466b98722f7be210dcbf...fbe59664db8af503b3c405c7e2745c562add2606)
 - `fbe59664db8af503b3c405c7e2745c562add2606` [chore: update the readme (#22780)](https://github.com/risingwavelabs/risingwave/pull/22780)
-- `e95a79d704d00950c7efd12a5567a998cc57147d` [feat: batch posix fs connector (__for_testing_only_batch_posix_fs) (#22733)](https://github.com/risingwavelabs/risingwave/pull/22733)
-- `ddabf84bf343e04eab19d4c7b87075d2edcd75e5` [refactor(frontend): simplify optimizer generic table scan (#22776)](https://github.com/risingwavelabs/risingwave/pull/22776)
-- `d5011dd3818ee5bfa12ec5d002a953ec30fa90d5` [feat(optimizer): support pull up correlated project value rule (#22760)](https://github.com/risingwavelabs/risingwave/pull/22760)
-- `db7ef569310ef98fa72c48246424f184e1dc07ac` [feat(sqlsmith): integrate reducer into sqlsmith (#22609)](https://github.com/risingwavelabs/risingwave/pull/22609)
-- `a6136be785bdf93aae04f2f2c48690bfc7f41549` [feat: refreshable source, SourceExec part (#22620)](https://github.com/risingwavelabs/risingwave/pull/22620)
-
-## nightly-20250803
-- `e1365fd714a5f864caee466b98722f7be210dcbf` [feat(binder): support schema binding of functions (#22770)](https://github.com/risingwavelabs/risingwave/pull/22770)
