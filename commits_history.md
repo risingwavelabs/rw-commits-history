@@ -297,6 +297,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1b6342bbb67012a74a11ec31b3d158ef755c2d66` [fix(sink): wait for async truncate before reading next item (#25883)](https://github.com/risingwavelabs/risingwave/pull/25883)
+- `92f67e743e57d2f024f5f0fd28ae4a64a39e7e49` [feat(batch): support await-tree dump for batch tasks (#26515)](https://github.com/risingwavelabs/risingwave/pull/26515)
+- `80cf0b7a6b43e9f78c4fcb73783dd47229f5dc46` [fix(cdc): diagnose postgres select privilege (#26079)](https://github.com/risingwavelabs/risingwave/pull/26079)
+- `df537c264478a7d4130d04f749ee0954a23d5b54` [fix(cdc): fail initial backfill on invalid primary keys (#26513)](https://github.com/risingwavelabs/risingwave/pull/26513)
+- `5853b24e0aba5df147c20b8814a3b40af0f8dc0c` [chore(deps-dev): Bump com.fasterxml.jackson.core:jackson-databind from 2.19.2 to 2.22.0 in /java (#26034)](https://github.com/risingwavelabs/risingwave/pull/26034)
+- `9b4fa22880349f20fa1a73289881813b1f3a5c63` [chore: add actor_id and fragment_id in cdc backfill failure log (#25328)](https://github.com/risingwavelabs/risingwave/pull/25328)
+- `470b8fdc3782f0e0b49f7896a9e73c619d390011` [fix(frontend): gate Iceberg engine schema changes by license (#26536)](https://github.com/risingwavelabs/risingwave/pull/26536)
+- `bb10d9e24df260718d12c8eb5452dea751ae4c78` [test: remove source-only options from file sink e2e (#26541)](https://github.com/risingwavelabs/risingwave/pull/26541)
 - `c11ffed8766f30ffb11a7e05fba8149a64715b3f` [ci: increase standalone e2e timeout (#26539)](https://github.com/risingwavelabs/risingwave/pull/26539)
 
 ## nightly-20260802
