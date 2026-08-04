@@ -297,6 +297,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1e5ea1186496ee905ee137656b84b30564f91e7a` [fix(meta): persist worker resource metadata (#26568)](https://github.com/risingwavelabs/risingwave/pull/26568)
+- `aeb4b66f4f6362ffdf1b811115acfcb81772d099` [fix(frontend): prevent non-admin rename of admin-owned database (#26572)](https://github.com/risingwavelabs/risingwave/pull/26572)
+- `d96ac7fb487b6fa16d5f6211f49878273d6c216e` [chore(deps): Bump org.postgresql:postgresql from 42.7.11 to 42.7.12 in /integration_tests/client-library/java (#26520)](https://github.com/risingwavelabs/risingwave/pull/26520)
+- `c8dc810897135e29e5bda59dd307ca0ec9ec4e4d` [refactor: introduce IcebergCompactionTaskId type (#26562)](https://github.com/risingwavelabs/risingwave/pull/26562)
+- `7eda10ef9b214c32d512ce591e902ecce6a38892` [fix(batch): cap masked fragment mapping parallelism (#26560)](https://github.com/risingwavelabs/risingwave/pull/26560)
+- `cf71fcb8a52f757e23a994d5a11b385e147f9926` [fix(meta): cascade drop subscriptions with upstream objects (#26171)](https://github.com/risingwavelabs/risingwave/pull/26171)
+- `57efbc3f795c225449d943db9ada91a6c4efd783` [fix(storage): collect point get iterator stats (#26405)](https://github.com/risingwavelabs/risingwave/pull/26405)
+- `6ef357030b724006fd7bba49b443189f76f55e0f` [fix(iceberg): update dependencies for equality-delete read errors (#26555)](https://github.com/risingwavelabs/risingwave/pull/26555)
+- `e0a665d90cd723459b1c3a88d49ca6d77cc71b2d` [fix(meta): unify creating job catalog notifications (#26557)](https://github.com/risingwavelabs/risingwave/pull/26557)
 - `1b6342bbb67012a74a11ec31b3d158ef755c2d66` [fix(sink): wait for async truncate before reading next item (#25883)](https://github.com/risingwavelabs/risingwave/pull/25883)
 
 ## nightly-20260803
