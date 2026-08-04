@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260804` `aeb4b66f4f6362ffdf1b811115acfcb81772d099`
 - `20260803` `92f67e743e57d2f024f5f0fd28ae4a64a39e7e49`
 - `20260802` `8f8f27ff2d55e4739da8a0a96bba977444efb780`
 - `20260801` `d4a8483f7f0df0d27ccf0ec39495661cb476c4c0`
@@ -288,7 +289,6 @@
 - `20250807` `5f96ad5300b5881e1b74d6a9a751761b03471d3f`
 - `20250806` `14cb777969c3b44b15e668c20b04f192dd2dcc9d`
 - `20250805` `a7c7e35a386aa7f2cc37fd6551417b3984a54a10`
-- `20250804` `fbe59664db8af503b3c405c7e2745c562add2606`
 </details>
 
 # Commit history
@@ -298,6 +298,9 @@
 
 ## Unreleased
 - `1e5ea1186496ee905ee137656b84b30564f91e7a` [fix(meta): persist worker resource metadata (#26568)](https://github.com/risingwavelabs/risingwave/pull/26568)
+
+## nightly-20260804
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/92f67e743e57d2f024f5f0fd28ae4a64a39e7e49...aeb4b66f4f6362ffdf1b811115acfcb81772d099)
 - `aeb4b66f4f6362ffdf1b811115acfcb81772d099` [fix(frontend): prevent non-admin rename of admin-owned database (#26572)](https://github.com/risingwavelabs/risingwave/pull/26572)
 - `d96ac7fb487b6fa16d5f6211f49878273d6c216e` [chore(deps): Bump org.postgresql:postgresql from 42.7.11 to 42.7.12 in /integration_tests/client-library/java (#26520)](https://github.com/risingwavelabs/risingwave/pull/26520)
 - `c8dc810897135e29e5bda59dd307ca0ec9ec4e4d` [refactor: introduce IcebergCompactionTaskId type (#26562)](https://github.com/risingwavelabs/risingwave/pull/26562)
@@ -2760,14 +2763,4 @@
 - `ee473f1ae3f28c0dbc95a2ed9b122b5529f36e1d` [refactor(frontend): per convention PlanNodeType enum (#22792)](https://github.com/risingwavelabs/risingwave/pull/22792)
 
 ## nightly-20250805
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fbe59664db8af503b3c405c7e2745c562add2606...a7c7e35a386aa7f2cc37fd6551417b3984a54a10)
 - `a7c7e35a386aa7f2cc37fd6551417b3984a54a10` [feat(binder): correctly bind arguments and `FROM` clause in SQL UDF by binding it as subquery (#22748)](https://github.com/risingwavelabs/risingwave/pull/22748)
-- `3355c6b69a98868a40ef2fa205206aba1c3f851d` [fix(sink): fix starrocks sink use_https (#22797)](https://github.com/risingwavelabs/risingwave/pull/22797)
-- `cb2fff74119f02f8e52a09c3a0b2674aa299c4f1` [feat(expr): `jsonb_to_array` (#22777)](https://github.com/risingwavelabs/risingwave/pull/22777)
-- `f3ce8bf866bbf6fcba4084e0c0dd1b9a725375ec` [chore(deps): Bump crc32fast from 1.4.0 to 1.5.0 (#22791)](https://github.com/risingwavelabs/risingwave/pull/22791)
-- `50d4fffb89c9e49bc1b458921577ca36ce202798` [refactor(frontend): make `to_expr_proto` failable instead of directly panicking (#22779)](https://github.com/risingwavelabs/risingwave/pull/22779)
-- `fb928a353560eaeb6fcc26b936f53db4019dba42` [fix: check usage privilege for secret (#22784)](https://github.com/risingwavelabs/risingwave/pull/22784)
-- `027bf506a2aae40c6fd0d8387ac9edc7e66b81cb` [chore(deps): Bump indicatif from 0.17.6 to 0.17.11 (#22722)](https://github.com/risingwavelabs/risingwave/pull/22722)
-
-## nightly-20250804
-- `fbe59664db8af503b3c405c7e2745c562add2606` [chore: update the readme (#22780)](https://github.com/risingwavelabs/risingwave/pull/22780)
