@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260805` `4afdad1183ddee28a710ffd7fbe9fedc9d6a19d0`
 - `20260804` `aeb4b66f4f6362ffdf1b811115acfcb81772d099`
 - `20260803` `92f67e743e57d2f024f5f0fd28ae4a64a39e7e49`
 - `20260802` `8f8f27ff2d55e4739da8a0a96bba977444efb780`
@@ -288,7 +289,6 @@
 - `20250808` `fe7475344a5088f5161a4c0fcbc9dd291e29a758`
 - `20250807` `5f96ad5300b5881e1b74d6a9a751761b03471d3f`
 - `20250806` `14cb777969c3b44b15e668c20b04f192dd2dcc9d`
-- `20250805` `a7c7e35a386aa7f2cc37fd6551417b3984a54a10`
 </details>
 
 # Commit history
@@ -297,6 +297,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9ca2e3fa8a3b95aa791131090c0a65368f434df0` [feat(storage): expose file cache submit queue threshold (#26599)](https://github.com/risingwavelabs/risingwave/pull/26599)
+
+## nightly-20260805
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/aeb4b66f4f6362ffdf1b811115acfcb81772d099...4afdad1183ddee28a710ffd7fbe9fedc9d6a19d0)
 - `4afdad1183ddee28a710ffd7fbe9fedc9d6a19d0` [fix(batch): mask serving workers with version mismatch (#26559)](https://github.com/risingwavelabs/risingwave/pull/26559)
 - `b01221a73a9fd18b03050b5bf658acb656a427ea` [chore(deps-dev): Bump com.fasterxml.jackson.core:jackson-databind from 2.22.0 to 2.22.1 in /java (#26553)](https://github.com/risingwavelabs/risingwave/pull/26553)
 - `2b003ecf0ef8030afe1120e95bc056e898241c10` [fix: pass `--config-path /risingwave.toml` to compactor in standalone docker-compose files (#25092)](https://github.com/risingwavelabs/risingwave/pull/25092)
@@ -2761,13 +2765,4 @@
 - `27a8c0c49f5017327f6a9871e64bfb9c778b2512` [feat: add a session variable to separate sink (#22827)](https://github.com/risingwavelabs/risingwave/pull/22827)
 
 ## nightly-20250806
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a7c7e35a386aa7f2cc37fd6551417b3984a54a10...14cb777969c3b44b15e668c20b04f192dd2dcc9d)
 - `14cb777969c3b44b15e668c20b04f192dd2dcc9d` [refactor(frontend): simplify sys table scan (#22810)](https://github.com/risingwavelabs/risingwave/pull/22810)
-- `270377446942c566184c721bfc31428798a2c0c1` [feat: support truncate table (#22759)](https://github.com/risingwavelabs/risingwave/pull/22759)
-- `b991dc65de7f5b88ac84e87950def8d433a97266` [refactor(binder): simplify error reporting for binding SQL UDF (#22778)](https://github.com/risingwavelabs/risingwave/pull/22778)
-- `ee2bf0d7d3479c5c3fea4b3c4582f7febd8bc1e6` [refactor(pg-cdc): do not require table owner permission for pk access (#22807)](https://github.com/risingwavelabs/risingwave/pull/22807)
-- `f7a89ab5f2c819a8bb0540fa20f3332fd807fa56` [fix(frontend): fix explain analyze on distributed worker nodes (#22765)](https://github.com/risingwavelabs/risingwave/pull/22765)
-- `ee473f1ae3f28c0dbc95a2ed9b122b5529f36e1d` [refactor(frontend): per convention PlanNodeType enum (#22792)](https://github.com/risingwavelabs/risingwave/pull/22792)
-
-## nightly-20250805
-- `a7c7e35a386aa7f2cc37fd6551417b3984a54a10` [feat(binder): correctly bind arguments and `FROM` clause in SQL UDF by binding it as subquery (#22748)](https://github.com/risingwavelabs/risingwave/pull/22748)
