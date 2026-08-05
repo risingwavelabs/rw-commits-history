@@ -297,6 +297,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4afdad1183ddee28a710ffd7fbe9fedc9d6a19d0` [fix(batch): mask serving workers with version mismatch (#26559)](https://github.com/risingwavelabs/risingwave/pull/26559)
+- `b01221a73a9fd18b03050b5bf658acb656a427ea` [chore(deps-dev): Bump com.fasterxml.jackson.core:jackson-databind from 2.22.0 to 2.22.1 in /java (#26553)](https://github.com/risingwavelabs/risingwave/pull/26553)
+- `2b003ecf0ef8030afe1120e95bc056e898241c10` [fix: pass `--config-path /risingwave.toml` to compactor in standalone docker-compose files (#25092)](https://github.com/risingwavelabs/risingwave/pull/25092)
+- `96a6268a9af7e8fad7f3e3d4080f1be862c2dd5a` [feat(frontend): log suppressed webhook errors (#26589)](https://github.com/risingwavelabs/risingwave/pull/26589)
+- `d1dbcb4182465bf27cf4f5bfcdc2c5861f6adc61` [fix(ci): upgrade through intermediate releases in back-compat tests (#26590)](https://github.com/risingwavelabs/risingwave/pull/26590)
+- `c3d14ea528dbdfdc01a3d439c22237552db46d1b` [refactor: extract position delete helpers and simplify pk-index writer (#26563)](https://github.com/risingwavelabs/risingwave/pull/26563)
+- `865e37d85a84009579f79f3ea0173cc57032ff73` [fix(frontend): correct batch hop window order property (#26569)](https://github.com/risingwavelabs/risingwave/pull/26569)
 - `1e5ea1186496ee905ee137656b84b30564f91e7a` [fix(meta): persist worker resource metadata (#26568)](https://github.com/risingwavelabs/risingwave/pull/26568)
 
 ## nightly-20260804
