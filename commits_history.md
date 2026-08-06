@@ -297,6 +297,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4d71182c8f22f50fc807ce865f4043663264e0fe` [fix(pgwire): support configurable OAuth audience (#26531)](https://github.com/risingwavelabs/risingwave/pull/26531)
+- `29f440231550884b8d934a62ece53203d1a67159` [feat(iceberg): add variant type for iceberg source (#25165)](https://github.com/risingwavelabs/risingwave/pull/25165)
 - `9ca2e3fa8a3b95aa791131090c0a65368f434df0` [feat(storage): expose file cache submit queue threshold (#26599)](https://github.com/risingwavelabs/risingwave/pull/26599)
 
 ## nightly-20260805
