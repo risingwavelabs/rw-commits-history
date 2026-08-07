@@ -288,7 +288,6 @@
 - `20250810` `49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e`
 - `20250808` `fe7475344a5088f5161a4c0fcbc9dd291e29a758`
 - `20250807` `5f96ad5300b5881e1b74d6a9a751761b03471d3f`
-- `20250806` `14cb777969c3b44b15e668c20b04f192dd2dcc9d`
 </details>
 
 # Commit history
@@ -297,6 +296,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `423f3909f4accbc0e532e0d74658a7a2528a4fcb` [feat(batch): support lookup join on a lookup table with singleton distribution (#26597)](https://github.com/risingwavelabs/risingwave/pull/26597)
+- `64cb0157a3b4e695408bc2ee00b805a25b8c6a70` [fix(storage): record meta refill success only on success (#26591)](https://github.com/risingwavelabs/risingwave/pull/26591)
 - `4d71182c8f22f50fc807ce865f4043663264e0fe` [fix(pgwire): support configurable OAuth audience (#26531)](https://github.com/risingwavelabs/risingwave/pull/26531)
 - `29f440231550884b8d934a62ece53203d1a67159` [feat(iceberg): add variant type for iceberg source (#25165)](https://github.com/risingwavelabs/risingwave/pull/25165)
 - `9ca2e3fa8a3b95aa791131090c0a65368f434df0` [feat(storage): expose file cache submit queue threshold (#26599)](https://github.com/risingwavelabs/risingwave/pull/26599)
@@ -2762,9 +2763,4 @@
 - `4d629b76ff8f11a4d87b8483a1ce4d35f0dce9cb` [fix(optimizer): let it panic when calling `dist_column_indices` on `SomeShard` and `Broadcast` (#22817)](https://github.com/risingwavelabs/risingwave/pull/22817)
 
 ## nightly-20250807
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/14cb777969c3b44b15e668c20b04f192dd2dcc9d...5f96ad5300b5881e1b74d6a9a751761b03471d3f)
 - `5f96ad5300b5881e1b74d6a9a751761b03471d3f` [feat(ddl): Make checkpoint frequency per-db config premium feature (#22822)](https://github.com/risingwavelabs/risingwave/pull/22822)
-- `27a8c0c49f5017327f6a9871e64bfb9c778b2512` [feat: add a session variable to separate sink (#22827)](https://github.com/risingwavelabs/risingwave/pull/22827)
-
-## nightly-20250806
-- `14cb777969c3b44b15e668c20b04f192dd2dcc9d` [refactor(frontend): simplify sys table scan (#22810)](https://github.com/risingwavelabs/risingwave/pull/22810)
