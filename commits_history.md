@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260807` `423f3909f4accbc0e532e0d74658a7a2528a4fcb`
 - `20260805` `4afdad1183ddee28a710ffd7fbe9fedc9d6a19d0`
 - `20260804` `aeb4b66f4f6362ffdf1b811115acfcb81772d099`
 - `20260803` `92f67e743e57d2f024f5f0fd28ae4a64a39e7e49`
@@ -287,7 +288,6 @@
 - `20250811` `a3ffa6b68ea72e59b721138eea9f4c1af0149ec4`
 - `20250810` `49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e`
 - `20250808` `fe7475344a5088f5161a4c0fcbc9dd291e29a758`
-- `20250807` `5f96ad5300b5881e1b74d6a9a751761b03471d3f`
 </details>
 
 # Commit history
@@ -296,6 +296,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `af3e1333709db16003c68cdaa8ea775622f601a3` [chore(deps): Bump opensearch from 2.3.0 to 2.4.0 (#25177)](https://github.com/risingwavelabs/risingwave/pull/25177)
+
+## nightly-20260807
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4afdad1183ddee28a710ffd7fbe9fedc9d6a19d0...423f3909f4accbc0e532e0d74658a7a2528a4fcb)
 - `423f3909f4accbc0e532e0d74658a7a2528a4fcb` [feat(batch): support lookup join on a lookup table with singleton distribution (#26597)](https://github.com/risingwavelabs/risingwave/pull/26597)
 - `64cb0157a3b4e695408bc2ee00b805a25b8c6a70` [fix(storage): record meta refill success only on success (#26591)](https://github.com/risingwavelabs/risingwave/pull/26591)
 - `4d71182c8f22f50fc807ce865f4043663264e0fe` [fix(pgwire): support configurable OAuth audience (#26531)](https://github.com/risingwavelabs/risingwave/pull/26531)
@@ -2754,13 +2758,4 @@
 - `596a6ad3ab34e506b26ed546609b7757f695bf0f` [chore(deps): Bump async-openai from 0.28.3 to 0.29.0 (#22488)](https://github.com/risingwavelabs/risingwave/pull/22488)
 
 ## nightly-20250808
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5f96ad5300b5881e1b74d6a9a751761b03471d3f...fe7475344a5088f5161a4c0fcbc9dd291e29a758)
 - `fe7475344a5088f5161a4c0fcbc9dd291e29a758` [refactor(optimizer): refactor `append_only: bool` into enum `StreamKind` (#22798)](https://github.com/risingwavelabs/risingwave/pull/22798)
-- `0c2f42d43be734a965da13245ed5251507f8e964` [refactor(frontend): replace table desc with table catalog in optimizer (#22794)](https://github.com/risingwavelabs/risingwave/pull/22794)
-- `7787e44bc456073a37262b0f5fc57bb2e58dc1ef` [refactor(frontend): Unify license check error in frontend (#22830)](https://github.com/risingwavelabs/risingwave/pull/22830)
-- `12bb59867775216350d1a98ff81109155560e39a` [fix(iceberg): fix iceberg-rust parquet max stats (#22819)](https://github.com/risingwavelabs/risingwave/pull/22819)
-- `892eb05ead5107769fa29c2138630449191de427` [chore(deps): Bump quick-xml from 0.37.1 to 0.38.1 (#22790)](https://github.com/risingwavelabs/risingwave/pull/22790)
-- `4d629b76ff8f11a4d87b8483a1ce4d35f0dce9cb` [fix(optimizer): let it panic when calling `dist_column_indices` on `SomeShard` and `Broadcast` (#22817)](https://github.com/risingwavelabs/risingwave/pull/22817)
-
-## nightly-20250807
-- `5f96ad5300b5881e1b74d6a9a751761b03471d3f` [feat(ddl): Make checkpoint frequency per-db config premium feature (#22822)](https://github.com/risingwavelabs/risingwave/pull/22822)
