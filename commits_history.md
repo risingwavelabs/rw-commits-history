@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260808` `af3e1333709db16003c68cdaa8ea775622f601a3`
 - `20260807` `423f3909f4accbc0e532e0d74658a7a2528a4fcb`
 - `20260805` `4afdad1183ddee28a710ffd7fbe9fedc9d6a19d0`
 - `20260804` `aeb4b66f4f6362ffdf1b811115acfcb81772d099`
@@ -287,7 +288,6 @@
 - `20250812` `251fda77e66be839e8738e7efbd3ddd595af6d2d`
 - `20250811` `a3ffa6b68ea72e59b721138eea9f4c1af0149ec4`
 - `20250810` `49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e`
-- `20250808` `fe7475344a5088f5161a4c0fcbc9dd291e29a758`
 </details>
 
 # Commit history
@@ -296,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260808
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/423f3909f4accbc0e532e0d74658a7a2528a4fcb...af3e1333709db16003c68cdaa8ea775622f601a3)
 - `af3e1333709db16003c68cdaa8ea775622f601a3` [chore(deps): Bump opensearch from 2.3.0 to 2.4.0 (#25177)](https://github.com/risingwavelabs/risingwave/pull/25177)
 
 ## nightly-20260807
@@ -2753,9 +2756,4 @@
 - `aa901ef0cad904568fd876f4ec56878540bbf0d3` [feat: hashicorp_vault as secret backend (#22627)](https://github.com/risingwavelabs/risingwave/pull/22627)
 
 ## nightly-20250810
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fe7475344a5088f5161a4c0fcbc9dd291e29a758...49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e)
 - `49b3e3e8f3b79db552ee9a7c0f7a55e1469f103e` [chore(deps): Bump protobuf from 5.29.3 to 5.29.5 in /integration_tests/feature-store/server/model (#22676)](https://github.com/risingwavelabs/risingwave/pull/22676)
-- `596a6ad3ab34e506b26ed546609b7757f695bf0f` [chore(deps): Bump async-openai from 0.28.3 to 0.29.0 (#22488)](https://github.com/risingwavelabs/risingwave/pull/22488)
-
-## nightly-20250808
-- `fe7475344a5088f5161a4c0fcbc9dd291e29a758` [refactor(optimizer): refactor `append_only: bool` into enum `StreamKind` (#22798)](https://github.com/risingwavelabs/risingwave/pull/22798)
