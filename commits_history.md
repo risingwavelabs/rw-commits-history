@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260808` `af3e1333709db16003c68cdaa8ea775622f601a3`
+- `20260809` `af3e1333709db16003c68cdaa8ea775622f601a3`
 - `20260807` `423f3909f4accbc0e532e0d74658a7a2528a4fcb`
 - `20260805` `4afdad1183ddee28a710ffd7fbe9fedc9d6a19d0`
 - `20260804` `aeb4b66f4f6362ffdf1b811115acfcb81772d099`
@@ -297,7 +297,7 @@
 
 ## Unreleased
 
-## nightly-20260808
+## nightly-20260809
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/423f3909f4accbc0e532e0d74658a7a2528a4fcb...af3e1333709db16003c68cdaa8ea775622f601a3)
 - `af3e1333709db16003c68cdaa8ea775622f601a3` [chore(deps): Bump opensearch from 2.3.0 to 2.4.0 (#25177)](https://github.com/risingwavelabs/risingwave/pull/25177)
 
