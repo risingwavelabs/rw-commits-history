@@ -296,6 +296,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cbed30899fd795b80b93165b6ee7e31461d86263` [fix(test): avoid logging Vault AppRole secret IDs (#26621)](https://github.com/risingwavelabs/risingwave/pull/26621)
+- `4cc8cf1e99338ef3e4f98696f1e80cfd379cb92d` [fix(risedev): skip unnecessary pgpass lookup (#26630)](https://github.com/risingwavelabs/risingwave/pull/26630)
+- `ecfe0ebe115306213b8acb3529505a918af73329` [fix(metrics): retain cumulative guarded metrics for owner lifetime (#26408)](https://github.com/risingwavelabs/risingwave/pull/26408)
+- `85c33e34825df607407b6e42a17cb58b4fb2304f` [fix(meta): support subscription migration on MySQL (#26592)](https://github.com/risingwavelabs/risingwave/pull/26592)
+- `c3bdf204c8cd8f9e21269af9e5818e15364abe07` [refactor(storage): decouple table change logs from hummock versions (#26561)](https://github.com/risingwavelabs/risingwave/pull/26561)
+- `84eb62333acf8315861a377b6088ace3f4c23b71` [refactor(meta): support two-phase barrier command notifiers (#26612)](https://github.com/risingwavelabs/risingwave/pull/26612)
+- `17950693cd1941619546a2788df879bbca793636` [fix(stream): count join matched rows directly (#26554)](https://github.com/risingwavelabs/risingwave/pull/26554)
+- `c1fb981c378e500ee4c27622075e88271f4cb645` [ci: restrict GitHub Actions token permissions (#26627)](https://github.com/risingwavelabs/risingwave/pull/26627)
+- `69ae925d4202867eb4d5be99f5fa5772c81a4eaf` [chore: upgrade Snowflake ADBC driver to 1.12.0 (#26613)](https://github.com/risingwavelabs/risingwave/pull/26613)
+- `3be1195771c55c64d3aaba95d01aa2f987ad95fc` [fix: upgrade shaded Hadoop client runtime (#26614)](https://github.com/risingwavelabs/risingwave/pull/26614)
 
 ## nightly-20260809
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/423f3909f4accbc0e532e0d74658a7a2528a4fcb...af3e1333709db16003c68cdaa8ea775622f601a3)
