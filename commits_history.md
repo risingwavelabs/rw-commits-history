@@ -296,6 +296,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f8adf5a50533d17819d4f4f8488367c84458dd90` [feat(connector): support Confluent's known types beyond protobuf WKT (#25766)](https://github.com/risingwavelabs/risingwave/pull/25766)
+- `8e4826d0799b3bc20fd83bdeecee9fc9690ea024` [fix(iceberg): bump dependencies for operator caching (#26642)](https://github.com/risingwavelabs/risingwave/pull/26642)
 
 ## nightly-20260810
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/af3e1333709db16003c68cdaa8ea775622f601a3...cbed30899fd795b80b93165b6ee7e31461d86263)
