@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260811` `f8adf5a50533d17819d4f4f8488367c84458dd90`
 - `20260810` `cbed30899fd795b80b93165b6ee7e31461d86263`
 - `20260809` `af3e1333709db16003c68cdaa8ea775622f601a3`
 - `20260807` `423f3909f4accbc0e532e0d74658a7a2528a4fcb`
@@ -287,7 +288,6 @@
 - `20250814` `753282bc39fe568d32a488ed45142944edd823ec`
 - `20250813` `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683`
 - `20250812` `251fda77e66be839e8738e7efbd3ddd595af6d2d`
-- `20250811` `a3ffa6b68ea72e59b721138eea9f4c1af0149ec4`
 </details>
 
 # Commit history
@@ -296,6 +296,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9765a10ea0186cba420a567b83dfaf6e85fd8c00` [chore(deps): bump redis from 1.0.2 to 1.2.4 (#26524)](https://github.com/risingwavelabs/risingwave/pull/26524)
+- `efcfd9f857d51662e7f268b41ab7ae16d0311334` [feat(meta): model catalog object belong-to relations (#26491)](https://github.com/risingwavelabs/risingwave/pull/26491)
+
+## nightly-20260811
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cbed30899fd795b80b93165b6ee7e31461d86263...f8adf5a50533d17819d4f4f8488367c84458dd90)
 - `f8adf5a50533d17819d4f4f8488367c84458dd90` [feat(connector): support Confluent's known types beyond protobuf WKT (#25766)](https://github.com/risingwavelabs/risingwave/pull/25766)
 - `8e4826d0799b3bc20fd83bdeecee9fc9690ea024` [fix(iceberg): bump dependencies for operator caching (#26642)](https://github.com/risingwavelabs/risingwave/pull/26642)
 
@@ -2754,13 +2759,4 @@
 - `65eaf9c634ecbdb0490278b6e3176aaede37639e` [feat(streaming): implement vector index write executor (#22241)](https://github.com/risingwavelabs/risingwave/pull/22241)
 
 ## nightly-20250812
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a3ffa6b68ea72e59b721138eea9f4c1af0149ec4...251fda77e66be839e8738e7efbd3ddd595af6d2d)
 - `251fda77e66be839e8738e7efbd3ddd595af6d2d` [fix: iceberg compaction fix sql format (#22871)](https://github.com/risingwavelabs/risingwave/pull/22871)
-- `7810a574ead9d0bafed4e78a19baa8e4d691965c` [chore: fix typo of column prunning of the share node  (#22869)](https://github.com/risingwavelabs/risingwave/pull/22869)
-- `ce1129a65b2fccc373579d2302689d7445adde77` [fix(dashboard): normalize backpressure values to 0-1 range (#22802)](https://github.com/risingwavelabs/risingwave/pull/22802)
-- `79b51ef8476ddc93f14668edce87349814910a57` [fix(iceberg): fix iceberg s3 path style access (#22860)](https://github.com/risingwavelabs/risingwave/pull/22860)
-- `dbc12a11a0bb35c09a49fcad5063a43a570ba1eb` [chore(deps): Bump the all group in /java with 18 updates (#22861)](https://github.com/risingwavelabs/risingwave/pull/22861)
-- `cf4b9bd984360ebe6931dfa0f1527fa62ac1178f` [feat(dashboard): add test data for dashboard rendering (#22801)](https://github.com/risingwavelabs/risingwave/pull/22801)
-
-## nightly-20250811
-- `a3ffa6b68ea72e59b721138eea9f4c1af0149ec4` [chore: sink test coverage  (#21970)](https://github.com/risingwavelabs/risingwave/pull/21970)
