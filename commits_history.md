@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260812` `addddb39171c93aac0ad47df3449501def9dbd70`
 - `20260811` `f8adf5a50533d17819d4f4f8488367c84458dd90`
 - `20260810` `cbed30899fd795b80b93165b6ee7e31461d86263`
 - `20260809` `af3e1333709db16003c68cdaa8ea775622f601a3`
@@ -287,7 +288,6 @@
 - `20250815` `755c8202560a8d3cbe7e126a3a6884c3f0990498`
 - `20250814` `753282bc39fe568d32a488ed45142944edd823ec`
 - `20250813` `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683`
-- `20250812` `251fda77e66be839e8738e7efbd3ddd595af6d2d`
 </details>
 
 # Commit history
@@ -296,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260812
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f8adf5a50533d17819d4f4f8488367c84458dd90...addddb39171c93aac0ad47df3449501def9dbd70)
 - `addddb39171c93aac0ad47df3449501def9dbd70` [doc: explain Buildkite approval for fork PRs (#26652)](https://github.com/risingwavelabs/risingwave/pull/26652)
 - `9dfdde66acd1d54bc281b7175f30afb8baa23c8f` [fix(sink): throttle coordinator recovery retries (#26641)](https://github.com/risingwavelabs/risingwave/pull/26641)
 - `9765a10ea0186cba420a567b83dfaf6e85fd8c00` [chore(deps): bump redis from 1.0.2 to 1.2.4 (#26524)](https://github.com/risingwavelabs/risingwave/pull/26524)
@@ -2753,12 +2756,4 @@
 - `5582e9f5a386b58430dbd1d0779e3102c96233dc` [chore(deps): Bump fancy-regex from 0.14.0 to 0.16.1 (#22788)](https://github.com/risingwavelabs/risingwave/pull/22788)
 
 ## nightly-20250813
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/251fda77e66be839e8738e7efbd3ddd595af6d2d...2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683)
 - `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683` [feat: support recoverable background sink into table with progress tracking (#22616)](https://github.com/risingwavelabs/risingwave/pull/22616)
-- `20f27e2e04e97d09ede6783eec9014f58fe1883a` [fix(streaming): avoid `unwrap` when reading state (#22878)](https://github.com/risingwavelabs/risingwave/pull/22878)
-- `502da35cbdf36cce8607027a3e70f22c515ca831` [refactor(cdc): allow alter cdc source cdc.source.wait.streaming.start.timeout (#22826)](https://github.com/risingwavelabs/risingwave/pull/22826)
-- `1ce8448bb51993640d238d74c45060be71b73fb2` [fix: float comparison in vector::distance tests (#22874)](https://github.com/risingwavelabs/risingwave/pull/22874)
-- `65eaf9c634ecbdb0490278b6e3176aaede37639e` [feat(streaming): implement vector index write executor (#22241)](https://github.com/risingwavelabs/risingwave/pull/22241)
-
-## nightly-20250812
-- `251fda77e66be839e8738e7efbd3ddd595af6d2d` [fix: iceberg compaction fix sql format (#22871)](https://github.com/risingwavelabs/risingwave/pull/22871)
