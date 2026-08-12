@@ -296,6 +296,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `addddb39171c93aac0ad47df3449501def9dbd70` [doc: explain Buildkite approval for fork PRs (#26652)](https://github.com/risingwavelabs/risingwave/pull/26652)
+- `9dfdde66acd1d54bc281b7175f30afb8baa23c8f` [fix(sink): throttle coordinator recovery retries (#26641)](https://github.com/risingwavelabs/risingwave/pull/26641)
 - `9765a10ea0186cba420a567b83dfaf6e85fd8c00` [chore(deps): bump redis from 1.0.2 to 1.2.4 (#26524)](https://github.com/risingwavelabs/risingwave/pull/26524)
 - `efcfd9f857d51662e7f268b41ab7ae16d0311334` [feat(meta): model catalog object belong-to relations (#26491)](https://github.com/risingwavelabs/risingwave/pull/26491)
 
