@@ -296,6 +296,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `78dac0a819e7d8be4d127b46596bffe6b2a6474f` [fix(grafana): set pod all value regex (#26666)](https://github.com/risingwavelabs/risingwave/pull/26666)
+- `aace224ad5e9815da1d91736748c34b88f10df77` [fix(cdc): share type compatibility validation for schema changes (#26448)](https://github.com/risingwavelabs/risingwave/pull/26448)
+- `4f7c1af427316b7c342a729ae87bc19cdbbf6ec2` [chore(deps): bump base64 from 0.22.1 to 0.23.1 (#26646)](https://github.com/risingwavelabs/risingwave/pull/26646)
+- `499be46cd40f69957f3ee19566946e42e6ab4443` [fix(meta): tolerate exactly-once metadata cleanup during sink drop (#26631)](https://github.com/risingwavelabs/risingwave/pull/26631)
+- `385e736c5b496b65d72e981d71605eed7b60c27d` [fix(frontend): derive scan ranges for SOME array predicates (#26629)](https://github.com/risingwavelabs/risingwave/pull/26629)
+- `56c91e73b0a804ca582335746e415d72abaf053c` [feat: support initial cache refill policy (#26603)](https://github.com/risingwavelabs/risingwave/pull/26603)
 
 ## nightly-20260812
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f8adf5a50533d17819d4f4f8488367c84458dd90...addddb39171c93aac0ad47df3449501def9dbd70)
