@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260813` `78dac0a819e7d8be4d127b46596bffe6b2a6474f`
 - `20260812` `addddb39171c93aac0ad47df3449501def9dbd70`
 - `20260811` `f8adf5a50533d17819d4f4f8488367c84458dd90`
 - `20260810` `cbed30899fd795b80b93165b6ee7e31461d86263`
@@ -287,7 +288,6 @@
 - `20250817` `fa19d3cdd924b20d4003522a4518f5a2d0da3843`
 - `20250815` `755c8202560a8d3cbe7e126a3a6884c3f0990498`
 - `20250814` `753282bc39fe568d32a488ed45142944edd823ec`
-- `20250813` `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683`
 </details>
 
 # Commit history
@@ -296,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260813
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/addddb39171c93aac0ad47df3449501def9dbd70...78dac0a819e7d8be4d127b46596bffe6b2a6474f)
 - `78dac0a819e7d8be4d127b46596bffe6b2a6474f` [fix(grafana): set pod all value regex (#26666)](https://github.com/risingwavelabs/risingwave/pull/26666)
 - `aace224ad5e9815da1d91736748c34b88f10df77` [fix(cdc): share type compatibility validation for schema changes (#26448)](https://github.com/risingwavelabs/risingwave/pull/26448)
 - `4f7c1af427316b7c342a729ae87bc19cdbbf6ec2` [chore(deps): bump base64 from 0.22.1 to 0.23.1 (#26646)](https://github.com/risingwavelabs/risingwave/pull/26646)
@@ -2752,14 +2755,4 @@
 - `1352522daea37ba2a425aa199bd166160576e47e` [feat(ci): add option to control push to dockerhub (#22889)](https://github.com/risingwavelabs/risingwave/pull/22889)
 
 ## nightly-20250814
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683...753282bc39fe568d32a488ed45142944edd823ec)
 - `753282bc39fe568d32a488ed45142944edd823ec` [feat(connector): add debug logging for blackhole sink with `TRACE` level (#22893)](https://github.com/risingwavelabs/risingwave/pull/22893)
-- `fdd6276c690feb35d35905b9fa66cd53f81f3b59` [feat(expr): support non deterministic random()  (#22835)](https://github.com/risingwavelabs/risingwave/pull/22835)
-- `3abd4da19cb3b6dc89c0d568de4013bbb2ae4f9a` [refactor(optimizer): introduce `Upsert` stream kind & reject it in many cases (#22840)](https://github.com/risingwavelabs/risingwave/pull/22840)
-- `30d389adda1e9c570bc78acc7440515657ad45d6` [chore: remove unused JoinStreamChunkBuilder (#22855)](https://github.com/risingwavelabs/risingwave/pull/22855)
-- `4dd038f18fa20bf424cb6d14702e229331e40f53` [chore(function): expose created_at and created_at_cluster_version for the function catalog (#22806)](https://github.com/risingwavelabs/risingwave/pull/22806)
-- `f39eb73815e8b3be6f3c74ea41ed122faa32188c` [feat(expr): allow parsing timestamptz before year 1600 (#22864)](https://github.com/risingwavelabs/risingwave/pull/22864)
-- `5582e9f5a386b58430dbd1d0779e3102c96233dc` [chore(deps): Bump fancy-regex from 0.14.0 to 0.16.1 (#22788)](https://github.com/risingwavelabs/risingwave/pull/22788)
-
-## nightly-20250813
-- `2d632d22900d8c7bdeeec7b3fc53f0a8d4f24683` [feat: support recoverable background sink into table with progress tracking (#22616)](https://github.com/risingwavelabs/risingwave/pull/22616)
