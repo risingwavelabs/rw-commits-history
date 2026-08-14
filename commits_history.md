@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260814` `bee502a67b71d6cff7795db5557637471c3c3441`
 - `20260813` `78dac0a819e7d8be4d127b46596bffe6b2a6474f`
 - `20260812` `addddb39171c93aac0ad47df3449501def9dbd70`
 - `20260811` `f8adf5a50533d17819d4f4f8488367c84458dd90`
@@ -287,7 +288,6 @@
 - `20250818` `59dccd3d7a31a40e87be04d4d242635761da7173`
 - `20250817` `fa19d3cdd924b20d4003522a4518f5a2d0da3843`
 - `20250815` `755c8202560a8d3cbe7e126a3a6884c3f0990498`
-- `20250814` `753282bc39fe568d32a488ed45142944edd823ec`
 </details>
 
 # Commit history
@@ -296,6 +296,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `eb8265af68a9c6e1b2b33fb2d22458a742f098b6` [feat(iceberg): support auto compaction type (#26643)](https://github.com/risingwavelabs/risingwave/pull/26643)
+
+## nightly-20260814
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/78dac0a819e7d8be4d127b46596bffe6b2a6474f...bee502a67b71d6cff7795db5557637471c3c3441)
 - `bee502a67b71d6cff7795db5557637471c3c3441` [chore(deps): bump foyer to 0.22.3 (#26600)](https://github.com/risingwavelabs/risingwave/pull/26600)
 - `4538796d705cf3666558a275322283d91dc79bea` [fix(catalog): reject altering internal table schema (#26644)](https://github.com/risingwavelabs/risingwave/pull/26644)
 
@@ -2751,10 +2755,4 @@
 - `fa19d3cdd924b20d4003522a4518f5a2d0da3843` [fix(typo): slt file name typo (#22903)](https://github.com/risingwavelabs/risingwave/pull/22903)
 
 ## nightly-20250815
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/753282bc39fe568d32a488ed45142944edd823ec...755c8202560a8d3cbe7e126a3a6884c3f0990498)
 - `755c8202560a8d3cbe7e126a3a6884c3f0990498` [feat(cdc): allow user config `debezium.time.precision.mode` to handle extreme timestamp (#22774)](https://github.com/risingwavelabs/risingwave/pull/22774)
-- `8f5628c6c4adf7db610e732ce8d1fd4b3f6167a9` [feat(expr): vector l2 norm and normalize (#22751)](https://github.com/risingwavelabs/risingwave/pull/22751)
-- `1352522daea37ba2a425aa199bd166160576e47e` [feat(ci): add option to control push to dockerhub (#22889)](https://github.com/risingwavelabs/risingwave/pull/22889)
-
-## nightly-20250814
-- `753282bc39fe568d32a488ed45142944edd823ec` [feat(connector): add debug logging for blackhole sink with `TRACE` level (#22893)](https://github.com/risingwavelabs/risingwave/pull/22893)
