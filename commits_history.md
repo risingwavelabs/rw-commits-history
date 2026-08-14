@@ -296,6 +296,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bee502a67b71d6cff7795db5557637471c3c3441` [chore(deps): bump foyer to 0.22.3 (#26600)](https://github.com/risingwavelabs/risingwave/pull/26600)
+- `4538796d705cf3666558a275322283d91dc79bea` [fix(catalog): reject altering internal table schema (#26644)](https://github.com/risingwavelabs/risingwave/pull/26644)
 
 ## nightly-20260813
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/addddb39171c93aac0ad47df3449501def9dbd70...78dac0a819e7d8be4d127b46596bffe6b2a6474f)
