@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260815` `eb8265af68a9c6e1b2b33fb2d22458a742f098b6`
 - `20260814` `bee502a67b71d6cff7795db5557637471c3c3441`
 - `20260813` `78dac0a819e7d8be4d127b46596bffe6b2a6474f`
 - `20260812` `addddb39171c93aac0ad47df3449501def9dbd70`
@@ -287,7 +288,6 @@
 - `20250819` `52400e522cc7d70fe010f2bfe3e1debf0e8afeeb`
 - `20250818` `59dccd3d7a31a40e87be04d4d242635761da7173`
 - `20250817` `fa19d3cdd924b20d4003522a4518f5a2d0da3843`
-- `20250815` `755c8202560a8d3cbe7e126a3a6884c3f0990498`
 </details>
 
 # Commit history
@@ -296,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260815
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bee502a67b71d6cff7795db5557637471c3c3441...eb8265af68a9c6e1b2b33fb2d22458a742f098b6)
 - `eb8265af68a9c6e1b2b33fb2d22458a742f098b6` [feat(iceberg): support auto compaction type (#26643)](https://github.com/risingwavelabs/risingwave/pull/26643)
 
 ## nightly-20260814
@@ -2751,8 +2754,4 @@
 - `868eaff15c1d2ee4d9275662a043b396beafdc67` [feat(iceberg): integrate lakekeeper to risedev (#22905)](https://github.com/risingwavelabs/risingwave/pull/22905)
 
 ## nightly-20250817
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/755c8202560a8d3cbe7e126a3a6884c3f0990498...fa19d3cdd924b20d4003522a4518f5a2d0da3843)
 - `fa19d3cdd924b20d4003522a4518f5a2d0da3843` [fix(typo): slt file name typo (#22903)](https://github.com/risingwavelabs/risingwave/pull/22903)
-
-## nightly-20250815
-- `755c8202560a8d3cbe7e126a3a6884c3f0990498` [feat(cdc): allow user config `debezium.time.precision.mode` to handle extreme timestamp (#22774)](https://github.com/risingwavelabs/risingwave/pull/22774)
