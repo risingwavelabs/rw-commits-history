@@ -296,6 +296,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e23ddf952c3e6ebc03cc254789e84d1179cfacae` [refactor(stream): load global watermark asynchronously (#26640)](https://github.com/risingwavelabs/risingwave/pull/26640)
+- `a065175e6639ce36e0781c86d93e4c645e48e737` [ci: label external contributor PRs as community (#26683)](https://github.com/risingwavelabs/risingwave/pull/26683)
+- `00588739ee44ce728f0232a5f9447c8ca38fdc12` [feat: add pk-index compaction resolver stream operator (#26564)](https://github.com/risingwavelabs/risingwave/pull/26564)
+- `bf12b7c37a39d1af0edf665e292b60b03c47adab` [feat(frontend): support auto locality backfill mode (#25990)](https://github.com/risingwavelabs/risingwave/pull/25990)
 
 ## nightly-20260816
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bee502a67b71d6cff7795db5557637471c3c3441...eb8265af68a9c6e1b2b33fb2d22458a742f098b6)
