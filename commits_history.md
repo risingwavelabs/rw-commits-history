@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260817` `e23ddf952c3e6ebc03cc254789e84d1179cfacae`
 - `20260816` `eb8265af68a9c6e1b2b33fb2d22458a742f098b6`
 - `20260814` `bee502a67b71d6cff7795db5557637471c3c3441`
 - `20260813` `78dac0a819e7d8be4d127b46596bffe6b2a6474f`
@@ -287,7 +288,6 @@
 - `20250820` `f7e9124cd10a0f96f91c77bd5d40da2671c7059d`
 - `20250819` `52400e522cc7d70fe010f2bfe3e1debf0e8afeeb`
 - `20250818` `59dccd3d7a31a40e87be04d4d242635761da7173`
-- `20250817` `fa19d3cdd924b20d4003522a4518f5a2d0da3843`
 </details>
 
 # Commit history
@@ -296,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260817
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eb8265af68a9c6e1b2b33fb2d22458a742f098b6...e23ddf952c3e6ebc03cc254789e84d1179cfacae)
 - `e23ddf952c3e6ebc03cc254789e84d1179cfacae` [refactor(stream): load global watermark asynchronously (#26640)](https://github.com/risingwavelabs/risingwave/pull/26640)
 - `a065175e6639ce36e0781c86d93e4c645e48e737` [ci: label external contributor PRs as community (#26683)](https://github.com/risingwavelabs/risingwave/pull/26683)
 - `00588739ee44ce728f0232a5f9447c8ca38fdc12` [feat: add pk-index compaction resolver stream operator (#26564)](https://github.com/risingwavelabs/risingwave/pull/26564)
@@ -2752,10 +2755,4 @@
 - `ac7629d15682b30441202cdcef2d221a44751653` [fix(ci): Skipping a unit test for barrier_interval (#22919)](https://github.com/risingwavelabs/risingwave/pull/22919)
 
 ## nightly-20250818
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/fa19d3cdd924b20d4003522a4518f5a2d0da3843...59dccd3d7a31a40e87be04d4d242635761da7173)
 - `59dccd3d7a31a40e87be04d4d242635761da7173` [feat(dashboard): add Prometheus-based streaming stats with backpressure metrics (#22838)](https://github.com/risingwavelabs/risingwave/pull/22838)
-- `52af6ee3e7a1bb6ebdc3e502b00bbf35a4366595` [refactor: shrink 'write_chunk' future (#22906)](https://github.com/risingwavelabs/risingwave/pull/22906)
-- `868eaff15c1d2ee4d9275662a043b396beafdc67` [feat(iceberg): integrate lakekeeper to risedev (#22905)](https://github.com/risingwavelabs/risingwave/pull/22905)
-
-## nightly-20250817
-- `fa19d3cdd924b20d4003522a4518f5a2d0da3843` [fix(typo): slt file name typo (#22903)](https://github.com/risingwavelabs/risingwave/pull/22903)
