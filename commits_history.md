@@ -296,6 +296,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1cb94c5f1148782d0e2c213cc1e886cc8c82c518` [fix(meta): preserve recoverable foreground jobs after recovery (#26472)](https://github.com/risingwavelabs/risingwave/pull/26472)
+- `3e6c791b610e52ed3fbb8bcf9240a638ebbc8ffd` [fix: update CI labels guide link in PR template (#26696)](https://github.com/risingwavelabs/risingwave/pull/26696)
+- `d222ebc68df2f2fab4c7019f2d788323d0e4480e` [refactor(meta): label Hummock lock write operations (#26698)](https://github.com/risingwavelabs/risingwave/pull/26698)
+- `90216193b1632a012fcfefa2c58fcc3a54b09f66` [feat: wire pk-index compaction to stream task and iceberg compactor (#26565)](https://github.com/risingwavelabs/risingwave/pull/26565)
 
 ## nightly-20260817
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/eb8265af68a9c6e1b2b33fb2d22458a742f098b6...e23ddf952c3e6ebc03cc254789e84d1179cfacae)
