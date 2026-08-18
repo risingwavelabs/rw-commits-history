@@ -287,7 +287,6 @@
 - `20250821` `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d`
 - `20250820` `f7e9124cd10a0f96f91c77bd5d40da2671c7059d`
 - `20250819` `52400e522cc7d70fe010f2bfe3e1debf0e8afeeb`
-- `20250818` `59dccd3d7a31a40e87be04d4d242635761da7173`
 </details>
 
 # Commit history
@@ -296,6 +295,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ad70524227ce85955f555de69e262186ec682ea5` [feat(frontend): allow altering creating streaming jobs (#26104)](https://github.com/risingwavelabs/risingwave/pull/26104)
 - `1cb94c5f1148782d0e2c213cc1e886cc8c82c518` [fix(meta): preserve recoverable foreground jobs after recovery (#26472)](https://github.com/risingwavelabs/risingwave/pull/26472)
 - `3e6c791b610e52ed3fbb8bcf9240a638ebbc8ffd` [fix: update CI labels guide link in PR template (#26696)](https://github.com/risingwavelabs/risingwave/pull/26696)
 - `d222ebc68df2f2fab4c7019f2d788323d0e4480e` [refactor(meta): label Hummock lock write operations (#26698)](https://github.com/risingwavelabs/risingwave/pull/26698)
@@ -2751,12 +2751,4 @@
 - `9188afcefbe4a475287c1e8454b61e0674aab7f3` [fix: fix temporal join prev epoch (#22935)](https://github.com/risingwavelabs/risingwave/pull/22935)
 
 ## nightly-20250819
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/59dccd3d7a31a40e87be04d4d242635761da7173...52400e522cc7d70fe010f2bfe3e1debf0e8afeeb)
 - `52400e522cc7d70fe010f2bfe3e1debf0e8afeeb` [test(iceberg): add lakekeeper e2e test (#22913)](https://github.com/risingwavelabs/risingwave/pull/22913)
-- `ee8fcb4b7da510184f94bfb24d4791162f432a07` [feat(vector): implement dedicated array and serde format for vector data type (#22890)](https://github.com/risingwavelabs/risingwave/pull/22890)
-- `0a3ff778c73689c94b1701a6555335bfc473a34a` [feat(frontend): support create vector index on frontend (#22432)](https://github.com/risingwavelabs/risingwave/pull/22432)
-- `c1bd28b0e1c5ad77d67a80be816350df2c7d2f6e` [feat(vector): clear remaining vector place holders (#22820)](https://github.com/risingwavelabs/risingwave/pull/22820)
-- `ac7629d15682b30441202cdcef2d221a44751653` [fix(ci): Skipping a unit test for barrier_interval (#22919)](https://github.com/risingwavelabs/risingwave/pull/22919)
-
-## nightly-20250818
-- `59dccd3d7a31a40e87be04d4d242635761da7173` [feat(dashboard): add Prometheus-based streaming stats with backpressure metrics (#22838)](https://github.com/risingwavelabs/risingwave/pull/22838)
