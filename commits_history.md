@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260819` `da9a8ed0eefea6fbd784ffa34adee637511bb313`
 - `20260817` `e23ddf952c3e6ebc03cc254789e84d1179cfacae`
 - `20260816` `eb8265af68a9c6e1b2b33fb2d22458a742f098b6`
 - `20260814` `bee502a67b71d6cff7795db5557637471c3c3441`
@@ -286,7 +287,6 @@
 - `20250822` `23967c45be7596a99d770c360f6e17b715b6bff5`
 - `20250821` `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d`
 - `20250820` `f7e9124cd10a0f96f91c77bd5d40da2671c7059d`
-- `20250819` `52400e522cc7d70fe010f2bfe3e1debf0e8afeeb`
 </details>
 
 # Commit history
@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260819
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e23ddf952c3e6ebc03cc254789e84d1179cfacae...da9a8ed0eefea6fbd784ffa34adee637511bb313)
 - `da9a8ed0eefea6fbd784ffa34adee637511bb313` [fix(stream): keep sink into table upsert semantics with preserve_row_level_changes (#26713)](https://github.com/risingwavelabs/risingwave/pull/26713)
 - `0824d9a7772f732216cc2434d39523b7bf77557f` [refactor(meta): label Hummock lock read operations (#26700)](https://github.com/risingwavelabs/risingwave/pull/26700)
 - `035d10ad88deabe4de62e38a8b081dc2dc69eab5` [chore: bump main branch version to 3.2.0-alpha (#26716)](https://github.com/risingwavelabs/risingwave/pull/26716)
@@ -2749,13 +2752,4 @@
 - `b98135345e72f7e94ed0cf154365ed7501c1fb5a` [feat(hummock): support skip recent filter, add sharded recent filter (#22940)](https://github.com/risingwavelabs/risingwave/pull/22940)
 
 ## nightly-20250820
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/52400e522cc7d70fe010f2bfe3e1debf0e8afeeb...f7e9124cd10a0f96f91c77bd5d40da2671c7059d)
 - `f7e9124cd10a0f96f91c77bd5d40da2671c7059d` [fix(meta): include new model in metadata backup (#22946)](https://github.com/risingwavelabs/risingwave/pull/22946)
-- `f81a53091b2eff95427f548b0eb00875c777149f` [fix(log-store): fix invalid key range when reading initial persisted stream (#22941)](https://github.com/risingwavelabs/risingwave/pull/22941)
-- `ab87e0fa3b4a9bc2194c6057fe1a010a5be9862c` [feat(ci): support trigger nexmark bench via github actions (#22936)](https://github.com/risingwavelabs/risingwave/pull/22936)
-- `9603817e1bdda937d09cc5dfdc8e025cf4f84ceb` [feat(dashboard): support querying historical backpressure (#22843)](https://github.com/risingwavelabs/risingwave/pull/22843)
-- `4b5dcf4e4112dae990e0e0a334b944928f532e9d` [fix: SQL Server timestamp test database name conflict with MySQL tests (#22934)](https://github.com/risingwavelabs/risingwave/pull/22934)
-- `9188afcefbe4a475287c1e8454b61e0674aab7f3` [fix: fix temporal join prev epoch (#22935)](https://github.com/risingwavelabs/risingwave/pull/22935)
-
-## nightly-20250819
-- `52400e522cc7d70fe010f2bfe3e1debf0e8afeeb` [test(iceberg): add lakekeeper e2e test (#22913)](https://github.com/risingwavelabs/risingwave/pull/22913)
