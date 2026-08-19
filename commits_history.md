@@ -295,6 +295,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `da9a8ed0eefea6fbd784ffa34adee637511bb313` [fix(stream): keep sink into table upsert semantics with preserve_row_level_changes (#26713)](https://github.com/risingwavelabs/risingwave/pull/26713)
+- `0824d9a7772f732216cc2434d39523b7bf77557f` [refactor(meta): label Hummock lock read operations (#26700)](https://github.com/risingwavelabs/risingwave/pull/26700)
+- `035d10ad88deabe4de62e38a8b081dc2dc69eab5` [chore: bump main branch version to 3.2.0-alpha (#26716)](https://github.com/risingwavelabs/risingwave/pull/26716)
+- `3dd27beb37f991bd068fbcdf0666a776376cb2f9` [ci: fix community PR labeling workflow (#26717)](https://github.com/risingwavelabs/risingwave/pull/26717)
+- `06d52eff5490674eb26e3c2dce7f431bf8485c6c` [test: reduce backfill test log verbosity (#26540)](https://github.com/risingwavelabs/risingwave/pull/26540)
+- `684fcf5782178882d58fd6d67ea3b710a0ec8119` [ci: shard main-cron recovery simulation tests (#26537)](https://github.com/risingwavelabs/risingwave/pull/26537)
+- `bd00b3cfb445fb47930003b9a30b90a96e5c458b` [fix(frontend): avoid panic when webhook cannot select worker (#26673)](https://github.com/risingwavelabs/risingwave/pull/26673)
 - `ad70524227ce85955f555de69e262186ec682ea5` [feat(frontend): allow altering creating streaming jobs (#26104)](https://github.com/risingwavelabs/risingwave/pull/26104)
 - `1cb94c5f1148782d0e2c213cc1e886cc8c82c518` [fix(meta): preserve recoverable foreground jobs after recovery (#26472)](https://github.com/risingwavelabs/risingwave/pull/26472)
 - `3e6c791b610e52ed3fbb8bcf9240a638ebbc8ffd` [fix: update CI labels guide link in PR template (#26696)](https://github.com/risingwavelabs/risingwave/pull/26696)
