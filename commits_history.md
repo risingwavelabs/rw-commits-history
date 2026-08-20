@@ -295,6 +295,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `07292ba3a06da2853032baea0d6ea0125eed669c` [feat(iceberg): bump iceberg-rust dependencies to 20260807 baseline (#26619)](https://github.com/risingwavelabs/risingwave/pull/26619)
+- `75b8e8fa51940cbdfa99ad6b1171db682f41396b` [feat(pg-cdc): support postgis geography (#26687)](https://github.com/risingwavelabs/risingwave/pull/26687)
+- `648f1ffb551a12e4bd3b199f9196ef885706256f` [fix(meta): make privilege propagation idempotent (#26598)](https://github.com/risingwavelabs/risingwave/pull/26598)
+- `dddc03bcac4c1b7d38a061024d7cff3de7f73f46` [chore(deps): bump aws-lc-rs from 1.17.3 to 1.18.0 (#26648)](https://github.com/risingwavelabs/risingwave/pull/26648)
+- `16ed81d084ec7c953c8cdf8e9f55d8c9d60349ec` [fix(ci): stop deterministic fuzz test from wiping its own failure logs (#26732)](https://github.com/risingwavelabs/risingwave/pull/26732)
+- `11f67bea83235a2671d21f47fc19719448f5d904` [fix(sqlsmith): permit the VARIANT-as-key rejection (#26731)](https://github.com/risingwavelabs/risingwave/pull/26731)
+- `07d2ebb3db98218673ce43557f191bc792923e09` [chore: polish user-facing messages across components (#25762)](https://github.com/risingwavelabs/risingwave/pull/25762)
 
 ## nightly-20260819
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e23ddf952c3e6ebc03cc254789e84d1179cfacae...da9a8ed0eefea6fbd784ffa34adee637511bb313)
