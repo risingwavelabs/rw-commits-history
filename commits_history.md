@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260820` `07292ba3a06da2853032baea0d6ea0125eed669c`
 - `20260819` `da9a8ed0eefea6fbd784ffa34adee637511bb313`
 - `20260817` `e23ddf952c3e6ebc03cc254789e84d1179cfacae`
 - `20260816` `eb8265af68a9c6e1b2b33fb2d22458a742f098b6`
@@ -286,7 +287,6 @@
 - `20250823` `0abd8178188a0fa2d7840a9abdf63598a7b5fdbc`
 - `20250822` `23967c45be7596a99d770c360f6e17b715b6bff5`
 - `20250821` `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d`
-- `20250820` `f7e9124cd10a0f96f91c77bd5d40da2671c7059d`
 </details>
 
 # Commit history
@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260820
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/da9a8ed0eefea6fbd784ffa34adee637511bb313...07292ba3a06da2853032baea0d6ea0125eed669c)
 - `07292ba3a06da2853032baea0d6ea0125eed669c` [feat(iceberg): bump iceberg-rust dependencies to 20260807 baseline (#26619)](https://github.com/risingwavelabs/risingwave/pull/26619)
 - `75b8e8fa51940cbdfa99ad6b1171db682f41396b` [feat(pg-cdc): support postgis geography (#26687)](https://github.com/risingwavelabs/risingwave/pull/26687)
 - `648f1ffb551a12e4bd3b199f9196ef885706256f` [fix(meta): make privilege propagation idempotent (#26598)](https://github.com/risingwavelabs/risingwave/pull/26598)
@@ -2750,13 +2753,4 @@
 - `5e7047d4a31f1c18c7c7df11be5fe0a00293cd6f` [chore: skip generated `allow_alter_on_fly_fields` format check (#22959)](https://github.com/risingwavelabs/risingwave/pull/22959)
 
 ## nightly-20250821
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f7e9124cd10a0f96f91c77bd5d40da2671c7059d...bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d)
 - `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d` [fix(ci): remove non-existent query for nexmark action (#22953)](https://github.com/risingwavelabs/risingwave/pull/22953)
-- `acf31989069031e0c059cfed200abbaf9fa5e403` [feat(user): enforce admin users as superusers and simplify privilege system (#22828)](https://github.com/risingwavelabs/risingwave/pull/22828)
-- `8367a9b187194c39e9d5c68d6959ea44d4e8dea7` [fix: fix compaction_interval config check (#22957)](https://github.com/risingwavelabs/risingwave/pull/22957)
-- `438ab534ae709afb227e1e3a93346b541deca652` [feat(ddl): Make UpstreamSinkUnion node dynamically handle upstreams (#22917)](https://github.com/risingwavelabs/risingwave/pull/22917)
-- `8b0bde4b27561189864b15bd8f971843a002ec15` [refactor(proto): change `bool append_only` to `enum StreamKind` in stream plan node & add it to `ExecutorParams` (#22901)](https://github.com/risingwavelabs/risingwave/pull/22901)
-- `b98135345e72f7e94ed0cf154365ed7501c1fb5a` [feat(hummock): support skip recent filter, add sharded recent filter (#22940)](https://github.com/risingwavelabs/risingwave/pull/22940)
-
-## nightly-20250820
-- `f7e9124cd10a0f96f91c77bd5d40da2671c7059d` [fix(meta): include new model in metadata backup (#22946)](https://github.com/risingwavelabs/risingwave/pull/22946)
