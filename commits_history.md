@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2a98f615d809de7ebb9015e5a8a01f064fccceaa` [perf(meta): isolate version checkpoint runtime (#26756)](https://github.com/risingwavelabs/risingwave/pull/26756)
+- `1e054a812810c2c808de8fbaa01644ebd9c9afc8` [perf(meta): reduce commit epoch sanity check meta-store IO (#26703)](https://github.com/risingwavelabs/risingwave/pull/26703)
+- `e703e6849d9421f5131a47153cea36082e5be6dd` [fix(sink): scope clickhouse decimal precision check and make it consistent (#26689)](https://github.com/risingwavelabs/risingwave/pull/26689)
+- `0130c948d867ee36ecf801116afe5b716ff1125d` [fix(sink): rate limit kafka producer backpressure warnings (#26746)](https://github.com/risingwavelabs/risingwave/pull/26746)
 
 ## nightly-20260820
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/da9a8ed0eefea6fbd784ffa34adee637511bb313...07292ba3a06da2853032baea0d6ea0125eed669c)
