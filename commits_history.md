@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260821` `2a98f615d809de7ebb9015e5a8a01f064fccceaa`
 - `20260820` `07292ba3a06da2853032baea0d6ea0125eed669c`
 - `20260819` `da9a8ed0eefea6fbd784ffa34adee637511bb313`
 - `20260817` `e23ddf952c3e6ebc03cc254789e84d1179cfacae`
@@ -286,7 +287,6 @@
 - `20250825` `f829838c8ca42d819bda71288ae4dca694c7466f`
 - `20250823` `0abd8178188a0fa2d7840a9abdf63598a7b5fdbc`
 - `20250822` `23967c45be7596a99d770c360f6e17b715b6bff5`
-- `20250821` `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d`
 </details>
 
 # Commit history
@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `448c6570b1b9d636736708340f61a85900c2b7d7` [fix(sink): require sink decoupling in the file sink impl itself (#26681)](https://github.com/risingwavelabs/risingwave/pull/26681)
+
+## nightly-20260821
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/07292ba3a06da2853032baea0d6ea0125eed669c...2a98f615d809de7ebb9015e5a8a01f064fccceaa)
 - `2a98f615d809de7ebb9015e5a8a01f064fccceaa` [perf(meta): isolate version checkpoint runtime (#26756)](https://github.com/risingwavelabs/risingwave/pull/26756)
 - `1e054a812810c2c808de8fbaa01644ebd9c9afc8` [perf(meta): reduce commit epoch sanity check meta-store IO (#26703)](https://github.com/risingwavelabs/risingwave/pull/26703)
 - `e703e6849d9421f5131a47153cea36082e5be6dd` [fix(sink): scope clickhouse decimal precision check and make it consistent (#26689)](https://github.com/risingwavelabs/risingwave/pull/26689)
@@ -2748,13 +2752,4 @@
 - `00915b86b8cc1dd1cb05801d60dc8ba347b849d7` [feat: expose snapshot expiration config (#22947)](https://github.com/risingwavelabs/risingwave/pull/22947)
 
 ## nightly-20250822
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d...23967c45be7596a99d770c360f6e17b715b6bff5)
 - `23967c45be7596a99d770c360f6e17b715b6bff5` [refactor(on conflict): optimize materialize executor by storing `OwnedRow` in `ChangeBuffer` (#22956)](https://github.com/risingwavelabs/risingwave/pull/22956)
-- `7d6e6fe47560406cc944a68f0a7742f95cabecef` [fix(stream): Fix unexpected error upgraded in Merge executor (#22966)](https://github.com/risingwavelabs/risingwave/pull/22966)
-- `9206cde13cebcafe7e88cc9ac5b6380a0cff6a00` [feat(streaming): only materialize expr for retract input (#22955)](https://github.com/risingwavelabs/risingwave/pull/22955)
-- `9ac71c2304b3e1781af16076a9a5e686385bb25b` [fix(ci): use dirname instead of hard-coded absolute path for env in `common.sh` (#22307)](https://github.com/risingwavelabs/risingwave/pull/22307)
-- `e6e8ca027f34967540947090b41e1ba8b03a6ee7` [feat: support vacuum full iceberg table (#22942)](https://github.com/risingwavelabs/risingwave/pull/22942)
-- `5e7047d4a31f1c18c7c7df11be5fe0a00293cd6f` [chore: skip generated `allow_alter_on_fly_fields` format check (#22959)](https://github.com/risingwavelabs/risingwave/pull/22959)
-
-## nightly-20250821
-- `bdc7156fa077ef0ae85bf2d9bd5f776dc4094e5d` [fix(ci): remove non-existent query for nexmark action (#22953)](https://github.com/risingwavelabs/risingwave/pull/22953)
