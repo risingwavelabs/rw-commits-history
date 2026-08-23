@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260822` `448c6570b1b9d636736708340f61a85900c2b7d7`
+- `20260823` `448c6570b1b9d636736708340f61a85900c2b7d7`
 - `20260821` `2a98f615d809de7ebb9015e5a8a01f064fccceaa`
 - `20260820` `07292ba3a06da2853032baea0d6ea0125eed669c`
 - `20260819` `da9a8ed0eefea6fbd784ffa34adee637511bb313`
@@ -286,7 +286,6 @@
 - `20250827` `d83b464647e59b00e431e499571d08557d5b149c`
 - `20250826` `75494f43485c568dfc6b3494d7fbc2708fd191a3`
 - `20250825` `f829838c8ca42d819bda71288ae4dca694c7466f`
-- `20250823` `0abd8178188a0fa2d7840a9abdf63598a7b5fdbc`
 </details>
 
 # Commit history
@@ -296,7 +295,7 @@
 
 ## Unreleased
 
-## nightly-20260822
+## nightly-20260823
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2a98f615d809de7ebb9015e5a8a01f064fccceaa...448c6570b1b9d636736708340f61a85900c2b7d7)
 - `448c6570b1b9d636736708340f61a85900c2b7d7` [fix(sink): require sink decoupling in the file sink impl itself (#26681)](https://github.com/risingwavelabs/risingwave/pull/26681)
 
@@ -2745,8 +2744,4 @@
 - `26ae2633411e02b3fb65c4d3567a658ca6e07ac5` [feat(batch): support vector index nearest batch executor (#22348)](https://github.com/risingwavelabs/risingwave/pull/22348)
 
 ## nightly-20250825
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/0abd8178188a0fa2d7840a9abdf63598a7b5fdbc...f829838c8ca42d819bda71288ae4dca694c7466f)
 - `f829838c8ca42d819bda71288ae4dca694c7466f` [feat: support iceberg snapshot metrics (#22967)](https://github.com/risingwavelabs/risingwave/pull/22967)
-
-## nightly-20250823
-- `0abd8178188a0fa2d7840a9abdf63598a7b5fdbc` [fix(test): fix sqlserver test in main cron (#22970)](https://github.com/risingwavelabs/risingwave/pull/22970)
