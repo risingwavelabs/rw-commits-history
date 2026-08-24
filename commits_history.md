@@ -294,6 +294,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a42cc7022907c67d9ccc7a958123dfc20a0f7752` [fix(pgwire): stream query results incrementally (#26727)](https://github.com/risingwavelabs/risingwave/pull/26727)
+- `87e45b0569c848263c69586763ac53f2b23ad614` [refactor(frontend): refactor share operator (#26389)](https://github.com/risingwavelabs/risingwave/pull/26389)
+- `e8436ca2ca886936f0e49be1c83cba558b415265` [fix(stream): skip CDC snapshot reader when backfill disabled (#26650)](https://github.com/risingwavelabs/risingwave/pull/26650)
 
 ## nightly-20260823
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2a98f615d809de7ebb9015e5a8a01f064fccceaa...448c6570b1b9d636736708340f61a85900c2b7d7)
