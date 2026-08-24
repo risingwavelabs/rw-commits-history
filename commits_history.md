@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260824` `a42cc7022907c67d9ccc7a958123dfc20a0f7752`
 - `20260823` `448c6570b1b9d636736708340f61a85900c2b7d7`
 - `20260821` `2a98f615d809de7ebb9015e5a8a01f064fccceaa`
 - `20260820` `07292ba3a06da2853032baea0d6ea0125eed669c`
@@ -294,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c64df31426acd4165acfcad99fab4cb5d987ce56` [perf(sink): restore multi-row batched writes in native postgres sink (#26671)](https://github.com/risingwavelabs/risingwave/pull/26671)
+- `28d9ad19f0ab2a7e7897b2e4f48a7a35bf592a80` [fix(frontend): decouple CREATE VIEW from batch execution engine (#26682)](https://github.com/risingwavelabs/risingwave/pull/26682)
+
+## nightly-20260824
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/448c6570b1b9d636736708340f61a85900c2b7d7...a42cc7022907c67d9ccc7a958123dfc20a0f7752)
 - `a42cc7022907c67d9ccc7a958123dfc20a0f7752` [fix(pgwire): stream query results incrementally (#26727)](https://github.com/risingwavelabs/risingwave/pull/26727)
 - `87e45b0569c848263c69586763ac53f2b23ad614` [refactor(frontend): refactor share operator (#26389)](https://github.com/risingwavelabs/risingwave/pull/26389)
 - `e8436ca2ca886936f0e49be1c83cba558b415265` [fix(stream): skip CDC snapshot reader when backfill disabled (#26650)](https://github.com/risingwavelabs/risingwave/pull/26650)
