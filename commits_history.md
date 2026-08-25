@@ -295,6 +295,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `77393374edb36a0e2c50a88ba882630c0e12d18f` [fix(udf): support standard http/https endpoints in USING LINK (#26792)](https://github.com/risingwavelabs/risingwave/pull/26792)
+- `0bec187343968a050c39ac7298f773667c9c8cd9` [test(sim): wait for per-database recovery in kill-and-recover helpers (#26785)](https://github.com/risingwavelabs/risingwave/pull/26785)
+- `99e8b7157bbcd65ecd364e758c717a87cd48ab66` [test(ci): run inline CDC source tests serially (#26798)](https://github.com/risingwavelabs/risingwave/pull/26798)
+- `347ce05127eaa0e1bdcc9b8920636e9fa2ec9a8e` [chore(deps): unify OpenDAL on 0.58.1 (#26780)](https://github.com/risingwavelabs/risingwave/pull/26780)
+- `ef53f41a5942db9cef221fa59796e89bcc11a7e5` [chore: migrate HawkEye to v7 (#26772)](https://github.com/risingwavelabs/risingwave/pull/26772)
+- `6659c8b5f97509f4a1c051e7dd4c4d732645f7c6` [fix(streaming): remove undefined behavior in chunk compaction (#26770)](https://github.com/risingwavelabs/risingwave/pull/26770)
 - `c64df31426acd4165acfcad99fab4cb5d987ce56` [perf(sink): restore multi-row batched writes in native postgres sink (#26671)](https://github.com/risingwavelabs/risingwave/pull/26671)
 - `28d9ad19f0ab2a7e7897b2e4f48a7a35bf592a80` [fix(frontend): decouple CREATE VIEW from batch execution engine (#26682)](https://github.com/risingwavelabs/risingwave/pull/26682)
 
