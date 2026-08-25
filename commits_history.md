@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260825` `77393374edb36a0e2c50a88ba882630c0e12d18f`
 - `20260824` `a42cc7022907c67d9ccc7a958123dfc20a0f7752`
 - `20260823` `448c6570b1b9d636736708340f61a85900c2b7d7`
 - `20260821` `2a98f615d809de7ebb9015e5a8a01f064fccceaa`
@@ -286,7 +287,6 @@
 - `20250828` `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee`
 - `20250827` `d83b464647e59b00e431e499571d08557d5b149c`
 - `20250826` `75494f43485c568dfc6b3494d7fbc2708fd191a3`
-- `20250825` `f829838c8ca42d819bda71288ae4dca694c7466f`
 </details>
 
 # Commit history
@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260825
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a42cc7022907c67d9ccc7a958123dfc20a0f7752...77393374edb36a0e2c50a88ba882630c0e12d18f)
 - `77393374edb36a0e2c50a88ba882630c0e12d18f` [fix(udf): support standard http/https endpoints in USING LINK (#26792)](https://github.com/risingwavelabs/risingwave/pull/26792)
 - `0bec187343968a050c39ac7298f773667c9c8cd9` [test(sim): wait for per-database recovery in kill-and-recover helpers (#26785)](https://github.com/risingwavelabs/risingwave/pull/26785)
 - `99e8b7157bbcd65ecd364e758c717a87cd48ab66` [test(ci): run inline CDC source tests serially (#26798)](https://github.com/risingwavelabs/risingwave/pull/26798)
@@ -2749,14 +2752,4 @@
 - `7ed1facbd490487f9ee9eb4cbda5cbb95171c811` [feat(embedding): pass embedding options via jsonb const (#22960)](https://github.com/risingwavelabs/risingwave/pull/22960)
 
 ## nightly-20250826
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f829838c8ca42d819bda71288ae4dca694c7466f...75494f43485c568dfc6b3494d7fbc2708fd191a3)
 - `75494f43485c568dfc6b3494d7fbc2708fd191a3` [feat: decouple streaming now timestamp and epoch (#22487)](https://github.com/risingwavelabs/risingwave/pull/22487)
-- `60f1561d1a4787a9c54e31a20f9efa40f1bb400e` [feat(sink): add mutation to add sink schema (#22661)](https://github.com/risingwavelabs/risingwave/pull/22661)
-- `e508896ca17bfd83ce582e6a27b6b21da7f10095` [refactor(sink): determine how to handle input inconsistency based on stream kind (#22904)](https://github.com/risingwavelabs/risingwave/pull/22904)
-- `7c3ec9a86db03e53c707bceadff124aeaa959c97` [fix: fix snapshot_expiration_timestamp_ms config semantics (#22977)](https://github.com/risingwavelabs/risingwave/pull/22977)
-- `a6cb087778af3341caec6300b1b303c2160537c2` [chore(doc): Update README.md (#22975)](https://github.com/risingwavelabs/risingwave/pull/22975)
-- `6036c8de525cb273fccaab0e7f2cef37a9559e68` [fix: Add pruning logic to prevent the compactor from incorrectly accessing watermarks. (#22973)](https://github.com/risingwavelabs/risingwave/pull/22973)
-- `26ae2633411e02b3fb65c4d3567a658ca6e07ac5` [feat(batch): support vector index nearest batch executor (#22348)](https://github.com/risingwavelabs/risingwave/pull/22348)
-
-## nightly-20250825
-- `f829838c8ca42d819bda71288ae4dca694c7466f` [feat: support iceberg snapshot metrics (#22967)](https://github.com/risingwavelabs/risingwave/pull/22967)
