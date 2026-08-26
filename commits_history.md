@@ -295,6 +295,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7d6cede493b3774454d84bffef414655d9bee5cf` [fix(optimizer): stop the lookup prefix at a duplicated order-key column (#26748)](https://github.com/risingwavelabs/risingwave/pull/26748)
+- `5f61906b50888039484a65d2d1ec97558ff4cfe5` [build: enforce minimum dependency publish age (#26755)](https://github.com/risingwavelabs/risingwave/pull/26755)
+- `8495aae80d4256f534b42ae5c5757a3bedd74a42` [fix(meta): gate batch refresh job completion on upstream snapshot epoch commit (#26786)](https://github.com/risingwavelabs/risingwave/pull/26786)
+- `fee14f8063263530ea0cb3a595e08c511a8c9f78` [fix(stream): make kv log store rewind backoff escalate gradually (#26753)](https://github.com/risingwavelabs/risingwave/pull/26753)
+- `8fe169ae4d2e924e4e1e216190be8f120fdac1bd` [fix(catalog): expose DML rate limits in rw_rate_limit (#26799)](https://github.com/risingwavelabs/risingwave/pull/26799)
+- `61123fb7f94cec10d77c22700200252e0548e4ed` [fix(object-store): honor concurrency limits for MinIO (#26679)](https://github.com/risingwavelabs/risingwave/pull/26679)
 
 ## nightly-20260825
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a42cc7022907c67d9ccc7a958123dfc20a0f7752...77393374edb36a0e2c50a88ba882630c0e12d18f)
