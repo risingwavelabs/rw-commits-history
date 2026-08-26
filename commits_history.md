@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260826` `7d6cede493b3774454d84bffef414655d9bee5cf`
 - `20260825` `77393374edb36a0e2c50a88ba882630c0e12d18f`
 - `20260824` `a42cc7022907c67d9ccc7a958123dfc20a0f7752`
 - `20260823` `448c6570b1b9d636736708340f61a85900c2b7d7`
@@ -286,7 +287,6 @@
 - `20250829` `124f3056a61719850912917ac6356d3d6be45a3f`
 - `20250828` `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee`
 - `20250827` `d83b464647e59b00e431e499571d08557d5b149c`
-- `20250826` `75494f43485c568dfc6b3494d7fbc2708fd191a3`
 </details>
 
 # Commit history
@@ -295,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `58e56bb4f1ca522cc1ce25ffcd312af0e6038ffd` [ci: require fork for community PR label (#26805)](https://github.com/risingwavelabs/risingwave/pull/26805)
+- `2ebfa714ed0f74a24b514496b193000e816ac34c` [chore: add Cloud code owner for license features (#26810)](https://github.com/risingwavelabs/risingwave/pull/26810)
+
+## nightly-20260826
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/77393374edb36a0e2c50a88ba882630c0e12d18f...7d6cede493b3774454d84bffef414655d9bee5cf)
 - `7d6cede493b3774454d84bffef414655d9bee5cf` [fix(optimizer): stop the lookup prefix at a duplicated order-key column (#26748)](https://github.com/risingwavelabs/risingwave/pull/26748)
 - `5f61906b50888039484a65d2d1ec97558ff4cfe5` [build: enforce minimum dependency publish age (#26755)](https://github.com/risingwavelabs/risingwave/pull/26755)
 - `8495aae80d4256f534b42ae5c5757a3bedd74a42` [fix(meta): gate batch refresh job completion on upstream snapshot epoch commit (#26786)](https://github.com/risingwavelabs/risingwave/pull/26786)
@@ -2751,11 +2756,4 @@
 - `67f1a13bf18efaa83e4d642df844f4f6cc503dc8` [feat: introduce aggregation fns for arg_min / max (#22895)](https://github.com/risingwavelabs/risingwave/pull/22895)
 
 ## nightly-20250827
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/75494f43485c568dfc6b3494d7fbc2708fd191a3...d83b464647e59b00e431e499571d08557d5b149c)
 - `d83b464647e59b00e431e499571d08557d5b149c` [refactor(frontend): use const size array guard_by_len in builtin scalar function (#23000)](https://github.com/risingwavelabs/risingwave/pull/23000)
-- `cf38d49f70dc9fc0d441b65f6999581530bd0bf1` [Add support for DROP FUNCTION CASCADE (#22991)](https://github.com/risingwavelabs/risingwave/pull/22991)
-- `5abf33fcc56531e70ccdfe84078efe421215167d` [fix(main cron): clickhouse test out of order (#22988)](https://github.com/risingwavelabs/risingwave/pull/22988)
-- `7ed1facbd490487f9ee9eb4cbda5cbb95171c811` [feat(embedding): pass embedding options via jsonb const (#22960)](https://github.com/risingwavelabs/risingwave/pull/22960)
-
-## nightly-20250826
-- `75494f43485c568dfc6b3494d7fbc2708fd191a3` [feat: decouple streaming now timestamp and epoch (#22487)](https://github.com/risingwavelabs/risingwave/pull/22487)
