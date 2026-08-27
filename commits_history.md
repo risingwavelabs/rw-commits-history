@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260827` `7b86f8841f28ee9fa2cea8c564ff1db825c08a68`
 - `20260826` `7d6cede493b3774454d84bffef414655d9bee5cf`
 - `20260825` `77393374edb36a0e2c50a88ba882630c0e12d18f`
 - `20260824` `a42cc7022907c67d9ccc7a958123dfc20a0f7752`
@@ -286,7 +287,6 @@
 - `20250831` `3e8636ed59b201afd12da48568fdf9590f84ce83`
 - `20250829` `124f3056a61719850912917ac6356d3d6be45a3f`
 - `20250828` `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee`
-- `20250827` `d83b464647e59b00e431e499571d08557d5b149c`
 </details>
 
 # Commit history
@@ -295,6 +295,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `528a998929459dcaf577a17e5867b239257efe2b` [fix(meta): handle incoming sinks in table drops and ALTER MV concurrency checks (#26667)](https://github.com/risingwavelabs/risingwave/pull/26667)
+- `2d083f109fd73b230f70ff95ea291044b1fdebef` [fix(pgwire): enforce password authentication flow (#26825)](https://github.com/risingwavelabs/risingwave/pull/26825)
+
+## nightly-20260827
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7d6cede493b3774454d84bffef414655d9bee5cf...7b86f8841f28ee9fa2cea8c564ff1db825c08a68)
+- `7b86f8841f28ee9fa2cea8c564ff1db825c08a68` [perf(iceberg): prune copy-on-write rewrites using delete metrics (#26768)](https://github.com/risingwavelabs/risingwave/pull/26768)
+- `de5fa88e01ab3688c292ab130827a10efb5f75e2` [feat(connector): infer MongoDB CDC database filters (#26739)](https://github.com/risingwavelabs/risingwave/pull/26739)
+- `d39f5cc495b34c1480a86f651c454e17d09d36b1` [feat(connector): support TLS certificates for MongoDB CDC (#26723)](https://github.com/risingwavelabs/risingwave/pull/26723)
+- `a34054ef71eeaf565420a6bd0f30024a45a16639` [fix(connector): avoid Pub/Sub streaming pull flow-control stalls (#26817)](https://github.com/risingwavelabs/risingwave/pull/26817)
+- `26b558c0fc62d9692e3fedbca27443c9513ba124` [fix: make exponential backoff schedules explicit (#26815)](https://github.com/risingwavelabs/risingwave/pull/26815)
 - `58e56bb4f1ca522cc1ce25ffcd312af0e6038ffd` [ci: require fork for community PR label (#26805)](https://github.com/risingwavelabs/risingwave/pull/26805)
 - `2ebfa714ed0f74a24b514496b193000e816ac34c` [chore: add Cloud code owner for license features (#26810)](https://github.com/risingwavelabs/risingwave/pull/26810)
 
@@ -2748,12 +2758,4 @@
 - `573ae81a9baa08e162ba944f2ba4f951bce88211` [feat(frontend): support binding for objects with qualified database name (#22989)](https://github.com/risingwavelabs/risingwave/pull/22989)
 
 ## nightly-20250828
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d83b464647e59b00e431e499571d08557d5b149c...ea6eede2ba1455e16fc3c009a5ea39c2eb156fee)
 - `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee` [chore(ctl): add clippy warning on large future size and stack frame (#22971)](https://github.com/risingwavelabs/risingwave/pull/22971)
-- `9955cbbe00b5938be610277da3cb3ac00f47ab9a` [fix: enhaunce parser for user option and format encode (#23007)](https://github.com/risingwavelabs/risingwave/pull/23007)
-- `25f9482b24ed8a1bc6c1d7a8b32f412383c1e0c4` [refactor(meta): add new field to diagnostic report (#23006)](https://github.com/risingwavelabs/risingwave/pull/23006)
-- `b3b62175da4f838e56b1290de076cf966840a501` [fix(storage): set missing opendal metakey (#23005)](https://github.com/risingwavelabs/risingwave/pull/23005)
-- `67f1a13bf18efaa83e4d642df844f4f6cc503dc8` [feat: introduce aggregation fns for arg_min / max (#22895)](https://github.com/risingwavelabs/risingwave/pull/22895)
-
-## nightly-20250827
-- `d83b464647e59b00e431e499571d08557d5b149c` [refactor(frontend): use const size array guard_by_len in builtin scalar function (#23000)](https://github.com/risingwavelabs/risingwave/pull/23000)
