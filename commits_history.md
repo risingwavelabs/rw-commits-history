@@ -295,6 +295,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f7176612985c059ecd8ec89c37732c13ed7d5b7d` [fix(frontend): do not pushdown volatile predicate into aggregate (#26830)](https://github.com/risingwavelabs/risingwave/pull/26830)
 - `528a998929459dcaf577a17e5867b239257efe2b` [fix(meta): handle incoming sinks in table drops and ALTER MV concurrency checks (#26667)](https://github.com/risingwavelabs/risingwave/pull/26667)
 - `2d083f109fd73b230f70ff95ea291044b1fdebef` [fix(pgwire): enforce password authentication flow (#26825)](https://github.com/risingwavelabs/risingwave/pull/26825)
 
