@@ -295,6 +295,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b71e8d8607354010685a152ea4147dd7c7edae55` [feat(optimizer): implement try_better_locality for LogicalDedup (#26842)](https://github.com/risingwavelabs/risingwave/pull/26842)
 - `1277f17ad19a669f5bb331c557acd3f35261ce03` [refactor(storage): asynchronously truncate table change logs (#26775)](https://github.com/risingwavelabs/risingwave/pull/26775)
 - `ab5b4cebd4d3143f9457e86a3235d2e76cc474f7` [ci: support ad hoc Docker image synchronization (#26841)](https://github.com/risingwavelabs/risingwave/pull/26841)
 
