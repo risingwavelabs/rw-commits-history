@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260828` `cb1ced98af028fec8de44c83615df279da1fa7e2`
 - `20260827` `7b86f8841f28ee9fa2cea8c564ff1db825c08a68`
 - `20260826` `7d6cede493b3774454d84bffef414655d9bee5cf`
 - `20260825` `77393374edb36a0e2c50a88ba882630c0e12d18f`
@@ -286,7 +287,6 @@
 - `20250901` `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc`
 - `20250831` `3e8636ed59b201afd12da48568fdf9590f84ce83`
 - `20250829` `124f3056a61719850912917ac6356d3d6be45a3f`
-- `20250828` `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee`
 </details>
 
 # Commit history
@@ -295,6 +295,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1277f17ad19a669f5bb331c557acd3f35261ce03` [refactor(storage): asynchronously truncate table change logs (#26775)](https://github.com/risingwavelabs/risingwave/pull/26775)
+- `ab5b4cebd4d3143f9457e86a3235d2e76cc474f7` [ci: support ad hoc Docker image synchronization (#26841)](https://github.com/risingwavelabs/risingwave/pull/26841)
+
+## nightly-20260828
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7b86f8841f28ee9fa2cea8c564ff1db825c08a68...cb1ced98af028fec8de44c83615df279da1fa7e2)
+- `cb1ced98af028fec8de44c83615df279da1fa7e2` [feat(sink): support PUT method in HTTP sink (#26822)](https://github.com/risingwavelabs/risingwave/pull/26822)
+- `7512c31eb0c448e4117220e67ff319f7ae561473` [fix(iceberg): use compatible Hive metastore client (#26827)](https://github.com/risingwavelabs/risingwave/pull/26827)
 - `f7176612985c059ecd8ec89c37732c13ed7d5b7d` [fix(frontend): do not pushdown volatile predicate into aggregate (#26830)](https://github.com/risingwavelabs/risingwave/pull/26830)
 - `528a998929459dcaf577a17e5867b239257efe2b` [fix(meta): handle incoming sinks in table drops and ALTER MV concurrency checks (#26667)](https://github.com/risingwavelabs/risingwave/pull/26667)
 - `2d083f109fd73b230f70ff95ea291044b1fdebef` [fix(pgwire): enforce password authentication flow (#26825)](https://github.com/risingwavelabs/risingwave/pull/26825)
@@ -2754,9 +2761,4 @@
 - `f771fd0b3f77343c59d12a018866a904faa376b1` [fix(pg-cdc): enhance postgres cdc schema check (#22200)](https://github.com/risingwavelabs/risingwave/pull/22200)
 
 ## nightly-20250829
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ea6eede2ba1455e16fc3c009a5ea39c2eb156fee...124f3056a61719850912917ac6356d3d6be45a3f)
 - `124f3056a61719850912917ac6356d3d6be45a3f` [chore:  use a larger runner for copilot agent (#23015)](https://github.com/risingwavelabs/risingwave/pull/23015)
-- `573ae81a9baa08e162ba944f2ba4f951bce88211` [feat(frontend): support binding for objects with qualified database name (#22989)](https://github.com/risingwavelabs/risingwave/pull/22989)
-
-## nightly-20250828
-- `ea6eede2ba1455e16fc3c009a5ea39c2eb156fee` [chore(ctl): add clippy warning on large future size and stack frame (#22971)](https://github.com/risingwavelabs/risingwave/pull/22971)
