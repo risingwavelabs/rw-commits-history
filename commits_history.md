@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260829` `b71e8d8607354010685a152ea4147dd7c7edae55`
 - `20260828` `cb1ced98af028fec8de44c83615df279da1fa7e2`
 - `20260827` `7b86f8841f28ee9fa2cea8c564ff1db825c08a68`
 - `20260826` `7d6cede493b3774454d84bffef414655d9bee5cf`
@@ -286,7 +287,6 @@
 - `20250902` `bdaad06e2825362b343bf227f1b8af0ba250a283`
 - `20250901` `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc`
 - `20250831` `3e8636ed59b201afd12da48568fdf9590f84ce83`
-- `20250829` `124f3056a61719850912917ac6356d3d6be45a3f`
 </details>
 
 # Commit history
@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260829
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cb1ced98af028fec8de44c83615df279da1fa7e2...b71e8d8607354010685a152ea4147dd7c7edae55)
 - `b71e8d8607354010685a152ea4147dd7c7edae55` [feat(optimizer): implement try_better_locality for LogicalDedup (#26842)](https://github.com/risingwavelabs/risingwave/pull/26842)
 - `1277f17ad19a669f5bb331c557acd3f35261ce03` [refactor(storage): asynchronously truncate table change logs (#26775)](https://github.com/risingwavelabs/risingwave/pull/26775)
 - `ab5b4cebd4d3143f9457e86a3235d2e76cc474f7` [ci: support ad hoc Docker image synchronization (#26841)](https://github.com/risingwavelabs/risingwave/pull/26841)
@@ -2756,10 +2759,4 @@
 - `086f30ecf2a84df9b90169eed37d4e7967f2eaf4` [fix: Check ledger ID when considering `already_read_offset` in Pulsar Source Reader (#23010)](https://github.com/risingwavelabs/risingwave/pull/23010)
 
 ## nightly-20250831
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/124f3056a61719850912917ac6356d3d6be45a3f...3e8636ed59b201afd12da48568fdf9590f84ce83)
 - `3e8636ed59b201afd12da48568fdf9590f84ce83` [chore(deps): Bump tracing-subscriber from 0.3.17 to 0.3.20 (#23021)](https://github.com/risingwavelabs/risingwave/pull/23021)
-- `bcfe9ce966f6893dea4d6b54151488aa057f572d` [feat(pg-cdc): handle TOAST column when update (#22852)](https://github.com/risingwavelabs/risingwave/pull/22852)
-- `f771fd0b3f77343c59d12a018866a904faa376b1` [fix(pg-cdc): enhance postgres cdc schema check (#22200)](https://github.com/risingwavelabs/risingwave/pull/22200)
-
-## nightly-20250829
-- `124f3056a61719850912917ac6356d3d6be45a3f` [chore:  use a larger runner for copilot agent (#23015)](https://github.com/risingwavelabs/risingwave/pull/23015)
