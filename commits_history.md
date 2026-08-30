@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260829` `b71e8d8607354010685a152ea4147dd7c7edae55`
+- `20260830` `b71e8d8607354010685a152ea4147dd7c7edae55`
 - `20260828` `cb1ced98af028fec8de44c83615df279da1fa7e2`
 - `20260827` `7b86f8841f28ee9fa2cea8c564ff1db825c08a68`
 - `20260826` `7d6cede493b3774454d84bffef414655d9bee5cf`
@@ -296,7 +296,7 @@
 
 ## Unreleased
 
-## nightly-20260829
+## nightly-20260830
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cb1ced98af028fec8de44c83615df279da1fa7e2...b71e8d8607354010685a152ea4147dd7c7edae55)
 - `b71e8d8607354010685a152ea4147dd7c7edae55` [feat(optimizer): implement try_better_locality for LogicalDedup (#26842)](https://github.com/risingwavelabs/risingwave/pull/26842)
 - `1277f17ad19a669f5bb331c557acd3f35261ce03` [refactor(storage): asynchronously truncate table change logs (#26775)](https://github.com/risingwavelabs/risingwave/pull/26775)
