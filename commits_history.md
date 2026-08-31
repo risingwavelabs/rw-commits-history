@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260831` `cfb518d51459b20b94786d016f9963003f843a0c`
 - `20260830` `b71e8d8607354010685a152ea4147dd7c7edae55`
 - `20260828` `cb1ced98af028fec8de44c83615df279da1fa7e2`
 - `20260827` `7b86f8841f28ee9fa2cea8c564ff1db825c08a68`
@@ -286,7 +287,6 @@
 - `20250903` `fbcbbd36720f37a936376bb290cdc60c9224b665`
 - `20250902` `bdaad06e2825362b343bf227f1b8af0ba250a283`
 - `20250901` `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc`
-- `20250831` `3e8636ed59b201afd12da48568fdf9590f84ce83`
 </details>
 
 # Commit history
@@ -295,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `146ce3c955c09703e71e9d780e0cb86979616154` [fix(frontend): avoid missing existing table change log epochs (#26866)](https://github.com/risingwavelabs/risingwave/pull/26866)
+- `00d25725adf3924bfe76819b78b4e0ac099e6e7c` [feat(iceberg): default compaction mode to Auto (#26831)](https://github.com/risingwavelabs/risingwave/pull/26831)
+
+## nightly-20260831
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b71e8d8607354010685a152ea4147dd7c7edae55...cfb518d51459b20b94786d016f9963003f843a0c)
 - `cfb518d51459b20b94786d016f9963003f843a0c` [fix(frontend): enforce source SELECT privilege for postgres_query (#26862)](https://github.com/risingwavelabs/risingwave/pull/26862)
 - `e79a09c55e18170cecd6afafe2ed1f83561343b9` [chore(deps): bump postgres-protocol from 0.6.6 to 0.6.12 (#26788)](https://github.com/risingwavelabs/risingwave/pull/26788)
 - `9c049feeac285bb01d663a04f6a5c25d9ad05002` [ci: verify community contributors by collaborator status (#26853)](https://github.com/risingwavelabs/risingwave/pull/26853)
@@ -2745,21 +2750,4 @@
 - `0c3901f7dfdaa41387624dd0baef589ef82efde5` [feat(storage): bump OpenDAL to v0.53 (#22423)](https://github.com/risingwavelabs/risingwave/pull/22423)
 
 ## nightly-20250901
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3e8636ed59b201afd12da48568fdf9590f84ce83...3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc)
 - `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc` [refactor(state-table): extract logic of row store in state table (#22853)](https://github.com/risingwavelabs/risingwave/pull/22853)
-- `b5f76444bb78489b5c725e84e95af8234c517de4` [chore(ci): remove extra branch configuration (#23032)](https://github.com/risingwavelabs/risingwave/pull/23032)
-- `4ba2143eef196c657638290ee600cf333eb13062` [chore(risedev): replace unmaintained `yaml-rust` with `yaml-rust2` (#23033)](https://github.com/risingwavelabs/risingwave/pull/23033)
-- `e6ec124c6d5d23d4b6dd9470e06f894a5856f063` [chore: check job exists during creation to avoid inner fragment fk error (#23030)](https://github.com/risingwavelabs/risingwave/pull/23030)
-- `078eef75ee3f718da8b3d33fdfc3fc2af66e20f9` [Support background DDL for CREATE INDEX with proper catalog notification, frontend functions, cancel RPC for drop operations, and SLT test coverage (#22928)](https://github.com/risingwavelabs/risingwave/pull/22928)
-- `303ae2d06647e2dd5b9e776dd32e544feafa17d9` [fix(ci): add default false for PUSH_DOCKERHUB env (#23028)](https://github.com/risingwavelabs/risingwave/pull/23028)
-- `eed071ac83decc335ee55a6e58a588e1cb2bdcd3` [refactor(vector): unify storage and streaming vector struct (#22900)](https://github.com/risingwavelabs/risingwave/pull/22900)
-- `3610e0bc33aed7ba3d3c30ccaece82efdd33f97c` [refactor(jni): implicitly register jvm runtime builder with `linkme` (#22997)](https://github.com/risingwavelabs/risingwave/pull/22997)
-- `ace163e616dc8fb48b826e44cd2637e8fea8b935` [chore:  update package version in Cargo.toml (#23027)](https://github.com/risingwavelabs/risingwave/pull/23027)
-- `3c1c2180617252b8d92cf55ab097f832f20221d2` [fix(streaming): also record agg state cache stats on `AggGroup::create` for `HashAgg` (#23018)](https://github.com/risingwavelabs/risingwave/pull/23018)
-- `23ab6d370eb256542d2c7fff77f20b661478ad59` [chore(deps): Bump next from 14.2.30 to 14.2.32 in /dashboard (#23022)](https://github.com/risingwavelabs/risingwave/pull/23022)
-- `65944488fa9eb6abcd22f9f56fa3f149782342ac` [feat(frontend): optimizer rule to convert vector top n to vector index read (#22467)](https://github.com/risingwavelabs/risingwave/pull/22467)
-- `8adabe4b3929ca88ef249782985c2aefa7edaf06` [feat(risedev): support provide moat for dev (#23013)](https://github.com/risingwavelabs/risingwave/pull/23013)
-- `086f30ecf2a84df9b90169eed37d4e7967f2eaf4` [fix: Check ledger ID when considering `already_read_offset` in Pulsar Source Reader (#23010)](https://github.com/risingwavelabs/risingwave/pull/23010)
-
-## nightly-20250831
-- `3e8636ed59b201afd12da48568fdf9590f84ce83` [chore(deps): Bump tracing-subscriber from 0.3.17 to 0.3.20 (#23021)](https://github.com/risingwavelabs/risingwave/pull/23021)
