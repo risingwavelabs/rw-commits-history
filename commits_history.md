@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cfb518d51459b20b94786d016f9963003f843a0c` [fix(frontend): enforce source SELECT privilege for postgres_query (#26862)](https://github.com/risingwavelabs/risingwave/pull/26862)
+- `e79a09c55e18170cecd6afafe2ed1f83561343b9` [chore(deps): bump postgres-protocol from 0.6.6 to 0.6.12 (#26788)](https://github.com/risingwavelabs/risingwave/pull/26788)
+- `9c049feeac285bb01d663a04f6a5c25d9ad05002` [ci: verify community contributors by collaborator status (#26853)](https://github.com/risingwavelabs/risingwave/pull/26853)
 
 ## nightly-20260830
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cb1ced98af028fec8de44c83615df279da1fa7e2...b71e8d8607354010685a152ea4147dd7c7edae55)
