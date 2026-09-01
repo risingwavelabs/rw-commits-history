@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260901` `7d4c9650ad8c414e92951995f65445051dea951e`
 - `20260831` `cfb518d51459b20b94786d016f9963003f843a0c`
 - `20260830` `b71e8d8607354010685a152ea4147dd7c7edae55`
 - `20260828` `cb1ced98af028fec8de44c83615df279da1fa7e2`
@@ -286,7 +287,6 @@
 - `20250904` `132e296d3d88861a73cbffb04cfdca35a80f88e2`
 - `20250903` `fbcbbd36720f37a936376bb290cdc60c9224b665`
 - `20250902` `bdaad06e2825362b343bf227f1b8af0ba250a283`
-- `20250901` `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc`
 </details>
 
 # Commit history
@@ -295,6 +295,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260901
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cfb518d51459b20b94786d016f9963003f843a0c...7d4c9650ad8c414e92951995f65445051dea951e)
 - `7d4c9650ad8c414e92951995f65445051dea951e` [feat(iceberg): add memory budget management for iceberg compaction (#26708)](https://github.com/risingwavelabs/risingwave/pull/26708)
 - `89566d7c64bc263bf115fd74248e2fce2aad8c9d` [fix(sink): support coordinated sinks with singleton input (#26865)](https://github.com/risingwavelabs/risingwave/pull/26865)
 - `c31e04d6ce8629683ed2cdfd224df22b2a17fb68` [fix(connector): preserve MySQL composite primary key order (#26847)](https://github.com/risingwavelabs/risingwave/pull/26847)
@@ -2738,20 +2741,4 @@
 - `b234e00d218d8e12b3abf10b3855d7b72db719f8` [feat(iceberg): add e2e test for iceberg copy on write mode (#22992)](https://github.com/risingwavelabs/risingwave/pull/22992)
 
 ## nightly-20250902
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc...bdaad06e2825362b343bf227f1b8af0ba250a283)
 - `bdaad06e2825362b343bf227f1b8af0ba250a283` [fix(meta): fix meta store compatibility issue (#23051)](https://github.com/risingwavelabs/risingwave/pull/23051)
-- `635928395f4b6110f050d58edf487349ce01d289` [feat(frontend): support create vector index on function expression (#22808)](https://github.com/risingwavelabs/risingwave/pull/22808)
-- `a309e2d9f85ad52387ff74441a63325265adf13b` [feat(risectl): add a hidden command to test availibility of JVM and Java libraries (#22998)](https://github.com/risingwavelabs/risingwave/pull/22998)
-- `f137f35549e08048ba06c6528e9e64427b161413` [chore: move to bitnamilegacy (kafka, nats-cli) (#23026)](https://github.com/risingwavelabs/risingwave/pull/23026)
-- `d9522688ae8d79ab1159bbcf0d23b86ea3d6a2b2` [fix(dashboard): fix fragment to relation backpressure edge mapping (#23038)](https://github.com/risingwavelabs/risingwave/pull/23038)
-- `6ef34c74e9dca66b0efade727d9cf0a8e5027eb6` [fix(cdc): fix the handling of bigserial default value and enum type during auto schema change (#22585)](https://github.com/risingwavelabs/risingwave/pull/22585)
-- `76413f45afc41a28aaff6fd65540ace8f6a5beeb` [refactor(meta): Use bitwise op to filter fragment type mask (#23037)](https://github.com/risingwavelabs/risingwave/pull/23037)
-- `986f2f8abc1f7508a44909c01c633f280d5aaa13` [feat(frontend): support vector search lookup join on non-covered columns (#22773)](https://github.com/risingwavelabs/risingwave/pull/22773)
-- `2372b028ceba137c40c788b20037e1bf5f540c1e` [chore: deprecate async-std in sql metastore migration (#23020)](https://github.com/risingwavelabs/risingwave/pull/23020)
-- `a422cf3f7940e93b1e75f53d869459ff9b3c50f3` [feat(frontend): convert to read vector index on covering vector index (#22545)](https://github.com/risingwavelabs/risingwave/pull/22545)
-- `a69df59dce4ba61551b37bfb26002547ad6768c4` [feat(cdc): add progress tracking for parallelized cdc backfill (#22943)](https://github.com/risingwavelabs/risingwave/pull/22943)
-- `0aa3e1c842d1243cbcd46b877e1079255b2420d0` [chore(deps): Bump sea-query from 0.32.0 to 0.32.1 (#23035)](https://github.com/risingwavelabs/risingwave/pull/23035)
-- `0c3901f7dfdaa41387624dd0baef589ef82efde5` [feat(storage): bump OpenDAL to v0.53 (#22423)](https://github.com/risingwavelabs/risingwave/pull/22423)
-
-## nightly-20250901
-- `3acfaa6ec060ac86e34cf10cd7ea5b98d52512dc` [refactor(state-table): extract logic of row store in state table (#22853)](https://github.com/risingwavelabs/risingwave/pull/22853)
