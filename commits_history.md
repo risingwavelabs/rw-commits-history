@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7d4c9650ad8c414e92951995f65445051dea951e` [feat(iceberg): add memory budget management for iceberg compaction (#26708)](https://github.com/risingwavelabs/risingwave/pull/26708)
+- `89566d7c64bc263bf115fd74248e2fce2aad8c9d` [fix(sink): support coordinated sinks with singleton input (#26865)](https://github.com/risingwavelabs/risingwave/pull/26865)
+- `c31e04d6ce8629683ed2cdfd224df22b2a17fb68` [fix(connector): preserve MySQL composite primary key order (#26847)](https://github.com/risingwavelabs/risingwave/pull/26847)
+- `0d312a806aa84c3cada26c2b014078d2400ec276` [fix(cdc): match MySQL schema-change columns case-insensitively (#26878)](https://github.com/risingwavelabs/risingwave/pull/26878)
 - `146ce3c955c09703e71e9d780e0cb86979616154` [fix(frontend): avoid missing existing table change log epochs (#26866)](https://github.com/risingwavelabs/risingwave/pull/26866)
 - `00d25725adf3924bfe76819b78b4e0ac099e6e7c` [feat(iceberg): default compaction mode to Auto (#26831)](https://github.com/risingwavelabs/risingwave/pull/26831)
 
