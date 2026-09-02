@@ -295,6 +295,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `280cafb41ead1fd824ea9297e0e0358c22ecacb5` [fix(risedev): propagate check-clippy and check-typos failures (#26918)](https://github.com/risingwavelabs/risingwave/pull/26918)
+- `5dd915be48ac95ba4e8cbfbcb8eed55810d53d40` [fix(connector): return errors for invalid JSON schemas (#26851)](https://github.com/risingwavelabs/risingwave/pull/26851)
+- `aa43d23aad52be888d6304301a21a5a1e3538fdd` [fix(frontend): check source privilege for CDC tables (#26912)](https://github.com/risingwavelabs/risingwave/pull/26912)
+- `7b21a35bcf542ed2ab508e637eb03deb4bed8ee0` [feat(iceberg): include pending rows in batch reads (#26840)](https://github.com/risingwavelabs/risingwave/pull/26840)
+- `593a736c55472ebf71462d08ae8e52dd84ffe3fe` [fix(meta): reject unspecified worker type in dashboard `/clusters/{ty}` (#26908)](https://github.com/risingwavelabs/risingwave/pull/26908)
+- `a61d1f9a38ce858f0a89ecd6a4a85f6b736d3b2f` [fix(connector): isolate Pulsar ACK channels by actor (#26826)](https://github.com/risingwavelabs/risingwave/pull/26826)
+- `7897e55894a99de62ac1702ab49f5db1f5c9fbe9` [feat(storage): support runtime file cache clearing (#26577)](https://github.com/risingwavelabs/risingwave/pull/26577)
 
 ## nightly-20260901
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cfb518d51459b20b94786d016f9963003f843a0c...7d4c9650ad8c414e92951995f65445051dea951e)
