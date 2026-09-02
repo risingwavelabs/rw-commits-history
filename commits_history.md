@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260902` `280cafb41ead1fd824ea9297e0e0358c22ecacb5`
 - `20260901` `7d4c9650ad8c414e92951995f65445051dea951e`
 - `20260831` `cfb518d51459b20b94786d016f9963003f843a0c`
 - `20260830` `b71e8d8607354010685a152ea4147dd7c7edae55`
@@ -286,7 +287,6 @@
 - `20250906` `77830522f9f35d4f3c24716670e97da275c09f6a`
 - `20250904` `132e296d3d88861a73cbffb04cfdca35a80f88e2`
 - `20250903` `fbcbbd36720f37a936376bb290cdc60c9224b665`
-- `20250902` `bdaad06e2825362b343bf227f1b8af0ba250a283`
 </details>
 
 # Commit history
@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `823258d8465b92d755525bf31191aa67f744d19e` [feat(cdc): add MySQL binlog file lag alert (#26743)](https://github.com/risingwavelabs/risingwave/pull/26743)
+
+## nightly-20260902
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7d4c9650ad8c414e92951995f65445051dea951e...280cafb41ead1fd824ea9297e0e0358c22ecacb5)
 - `280cafb41ead1fd824ea9297e0e0358c22ecacb5` [fix(risedev): propagate check-clippy and check-typos failures (#26918)](https://github.com/risingwavelabs/risingwave/pull/26918)
 - `5dd915be48ac95ba4e8cbfbcb8eed55810d53d40` [fix(connector): return errors for invalid JSON schemas (#26851)](https://github.com/risingwavelabs/risingwave/pull/26851)
 - `aa43d23aad52be888d6304301a21a5a1e3538fdd` [fix(frontend): check source privilege for CDC tables (#26912)](https://github.com/risingwavelabs/risingwave/pull/26912)
@@ -2738,14 +2742,4 @@
 - `142bd66167939a6cafe0d7a1cbf3f62637be739e` [fix(cdc-test): merge some tests to avoid conflicts when running them in parallel (#23062)](https://github.com/risingwavelabs/risingwave/pull/23062)
 
 ## nightly-20250903
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bdaad06e2825362b343bf227f1b8af0ba250a283...fbcbbd36720f37a936376bb290cdc60c9224b665)
 - `fbcbbd36720f37a936376bb290cdc60c9224b665` [feat(sink): support snowflake and redshift sink auto schema change (#22984)](https://github.com/risingwavelabs/risingwave/pull/22984)
-- `f39d25efced07cfa855f65c8fcca518fa51fd27b` [fix(connector): restore None field for state (#23066)](https://github.com/risingwavelabs/risingwave/pull/23066)
-- `1d40061b0b681c2a3ea79314df7022734616775f` [chore: increase single-node test timeout (#23063)](https://github.com/risingwavelabs/risingwave/pull/23063)
-- `92d0351fb5930c49926bcceb0f5ea845c079bd63` [feat: support multiple version columns in conflict resolution (#22931)](https://github.com/risingwavelabs/risingwave/pull/22931)
-- `a307543e766868c9380e86cc6a846c4430efa225` [fix(pg-cdc): completely fix the schema conversion problem during auto schema change (#22610)](https://github.com/risingwavelabs/risingwave/pull/22610)
-- `4afed7eeb278557013bb4a77aa6f3639bc584df3` [feat(storage): support hummock hnsw index (#22022)](https://github.com/risingwavelabs/risingwave/pull/22022)
-- `b234e00d218d8e12b3abf10b3855d7b72db719f8` [feat(iceberg): add e2e test for iceberg copy on write mode (#22992)](https://github.com/risingwavelabs/risingwave/pull/22992)
-
-## nightly-20250902
-- `bdaad06e2825362b343bf227f1b8af0ba250a283` [fix(meta): fix meta store compatibility issue (#23051)](https://github.com/risingwavelabs/risingwave/pull/23051)
