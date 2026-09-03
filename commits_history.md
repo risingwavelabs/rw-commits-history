@@ -295,6 +295,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1277bb250f6ede25071dd7957d7a9b376720185d` [feat(pg-cdc): support postgres point type (#26764)](https://github.com/risingwavelabs/risingwave/pull/26764)
+- `73387f59713f9ed4cc177ca4e1c29ebada2ca6c5` [fix(meta): fence stale exchange requests across database recovery (#26931)](https://github.com/risingwavelabs/risingwave/pull/26931)
+- `d54f864f6ef8533c2a1b21c92546b9956a03fab7` [feat(storage): add sequence-bounded Iceberg compaction rounds (#26766)](https://github.com/risingwavelabs/risingwave/pull/26766)
+- `8bb020f458b5968689afe89546d6ce0c6010c0ce` [feat(iceberg): support writing variant columns (#26620)](https://github.com/risingwavelabs/risingwave/pull/26620)
+- `d00a2c038562db265f0eec63c9974c1132585d27` [fix(source): decode Parquet Utf8View columns (#26915)](https://github.com/risingwavelabs/risingwave/pull/26915)
 - `823258d8465b92d755525bf31191aa67f744d19e` [feat(cdc): add MySQL binlog file lag alert (#26743)](https://github.com/risingwavelabs/risingwave/pull/26743)
 
 ## nightly-20260902
