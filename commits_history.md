@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260904` `99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4`
 - `20260903` `1277bb250f6ede25071dd7957d7a9b376720185d`
 - `20260902` `280cafb41ead1fd824ea9297e0e0358c22ecacb5`
 - `20260901` `7d4c9650ad8c414e92951995f65445051dea951e`
@@ -286,7 +287,6 @@
 - `20250908` `2f6792377b0763eaa034f35a5641361dc5906e53`
 - `20250907` `dfef8bed223ce00cc37cbd790fcabfc576a4693f`
 - `20250906` `77830522f9f35d4f3c24716670e97da275c09f6a`
-- `20250904` `132e296d3d88861a73cbffb04cfdca35a80f88e2`
 </details>
 
 # Commit history
@@ -295,6 +295,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c351d73d4a33dacb824287a7d5b839e04dccf838` [ci(pubsub): update expired emulator image (#26952)](https://github.com/risingwavelabs/risingwave/pull/26952)
+
+## nightly-20260904
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1277bb250f6ede25071dd7957d7a9b376720185d...99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4)
 - `99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4` [fix(connector): ack Pulsar messages for every split (#26892)](https://github.com/risingwavelabs/risingwave/pull/26892)
 - `5c59b8556bb7a579f40e1d771e1ddc22627d6ca1` [feat(dashboard): support CPU profile dumps (#26922)](https://github.com/risingwavelabs/risingwave/pull/26922)
 - `28d6770adfa69142c47a302abf02d62b230416a6` [fix(ctl): flush CPU profile output before exit (#26947)](https://github.com/risingwavelabs/risingwave/pull/26947)
@@ -2729,22 +2733,4 @@
 - `dfef8bed223ce00cc37cbd790fcabfc576a4693f` [feat(sqlsmith): integrate reducer into ci (#23011)](https://github.com/risingwavelabs/risingwave/pull/23011)
 
 ## nightly-20250906
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/132e296d3d88861a73cbffb04cfdca35a80f88e2...77830522f9f35d4f3c24716670e97da275c09f6a)
 - `77830522f9f35d4f3c24716670e97da275c09f6a` [fix: add recover to avoid flaky test (#23060)](https://github.com/risingwavelabs/risingwave/pull/23060)
-- `dcaf966b7fdac7d00d236100f181d74325f4f4a3` [fix: check index dependencies before dropping table in restrict mode (#23101)](https://github.com/risingwavelabs/risingwave/pull/23101)
-- `876e405dc7b1f01070239c91976fb08c6d9800e9` [fix: hnsw off-by-one in insert descent and add visitation tests (#23067)](https://github.com/risingwavelabs/risingwave/pull/23067)
-- `94b99f5cec51c618dc7332ea01eb7fa1e733c42f` [feat(sink): support bigquery credentials with base64 (#23100)](https://github.com/risingwavelabs/risingwave/pull/23100)
-- `9551c84ac01f63726c0471833b34080ca886302b` [feat(sqlparser): support parsing `STRUCT< >` as empty struct (#23099)](https://github.com/risingwavelabs/risingwave/pull/23099)
-- `b4de83b164aede716cd6e385240e2a29fa48e334` [fix: ban cross database stream query with upstream only (#23098)](https://github.com/risingwavelabs/risingwave/pull/23098)
-- `db6887f41db6fcc6eebb09527c185e61dc76054e` [refactor(meta): deprecate incoming sinks fields in Table (#23091)](https://github.com/risingwavelabs/risingwave/pull/23091)
-- `8d4ab011c069ecf95dcea5a066d74d6fabf3a010` [test: lower flush threshold to decrease test_uploader_frequently_flush runtime (#23073)](https://github.com/risingwavelabs/risingwave/pull/23073)
-- `dc4ebc574e21cc70648cf4989ccd52c8208d5baf` [fix(compute): reduced compute_node_serve future size (#23019)](https://github.com/risingwavelabs/risingwave/pull/23019)
-- `8c956f093e6e58e260387cce5a04cf55116d91ca` [feat: treat empty(zero-field) struct as alterable (#23047)](https://github.com/risingwavelabs/risingwave/pull/23047)
-- `1cadb7752b47a5eacd2a3ea637f8a28e953cff60` [fix(vector): recreate graph builder with capacity derived from hnsw.m (#23095)](https://github.com/risingwavelabs/risingwave/pull/23095)
-- `6f9d56c7e07caff59113bde8078d84e6deb75bda` [feat(optimizer): set `noop_update_hint` for `Project` after `Now` (#23034)](https://github.com/risingwavelabs/risingwave/pull/23034)
-- `f09875e3d540ef41f5f2178b732864c928f60543` [fix: cache cancel table list for compactor notification (#23087)](https://github.com/risingwavelabs/risingwave/pull/23087)
-- `cfc7c1bcfb1dc61c250c9d282e314fa96e3cb35c` [fix(cdc): use `lsn_commit` and `lsn_proc` for pg cdc offset (#22503)](https://github.com/risingwavelabs/risingwave/pull/22503)
-- `9c418bd0b3fefefac3770eb46783649ce06e8275` [fix(sink): Build dist_key in sink-into-table dispatcher (#23069)](https://github.com/risingwavelabs/risingwave/pull/23069)
-
-## nightly-20250904
-- `132e296d3d88861a73cbffb04cfdca35a80f88e2` [chore: Update GitHub Actions workflow to use new token (#23090)](https://github.com/risingwavelabs/risingwave/pull/23090)
