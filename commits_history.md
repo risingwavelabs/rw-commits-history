@@ -295,6 +295,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4` [fix(connector): ack Pulsar messages for every split (#26892)](https://github.com/risingwavelabs/risingwave/pull/26892)
+- `5c59b8556bb7a579f40e1d771e1ddc22627d6ca1` [feat(dashboard): support CPU profile dumps (#26922)](https://github.com/risingwavelabs/risingwave/pull/26922)
+- `28d6770adfa69142c47a302abf02d62b230416a6` [fix(ctl): flush CPU profile output before exit (#26947)](https://github.com/risingwavelabs/risingwave/pull/26947)
+- `fb49aa2f51a5a626dcbb86afc8e10f58e665e164` [fix(source): reject zero rate limit for CDC source creation (#26943)](https://github.com/risingwavelabs/risingwave/pull/26943)
+- `fb976600730ffd10f039952394689ad7334b54ca` [fix(udf): avoid panic on zero-row UDAF finish output (#26911)](https://github.com/risingwavelabs/risingwave/pull/26911)
+- `24b75c01db2a2e6924c6c5008c36a7c5f223eeb1` [build(udf): bump arrow-udf-runtime to 0.10.0 for CPython 3.14 support (#26929)](https://github.com/risingwavelabs/risingwave/pull/26929)
 - `2b5bb7ba03dcf8dbeae26893ac41e309b93c2d65` [feat(expr): introduce `descending` and `nulls_first` parameters to `array_sort` (#23484)](https://github.com/risingwavelabs/risingwave/pull/23484)
 
 ## nightly-20260903
