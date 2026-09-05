@@ -295,6 +295,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6f8fbbfd06d25d195bdff9a4f1cb246cf4363903` [chore(deps): update rtrb to 0.3.5 (#26940)](https://github.com/risingwavelabs/risingwave/pull/26940)
 - `c351d73d4a33dacb824287a7d5b839e04dccf838` [ci(pubsub): update expired emulator image (#26952)](https://github.com/risingwavelabs/risingwave/pull/26952)
 
 ## nightly-20260904
