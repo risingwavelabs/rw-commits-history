@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260905` `6f8fbbfd06d25d195bdff9a4f1cb246cf4363903`
 - `20260904` `99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4`
 - `20260903` `1277bb250f6ede25071dd7957d7a9b376720185d`
 - `20260902` `280cafb41ead1fd824ea9297e0e0358c22ecacb5`
@@ -295,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260905
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4...6f8fbbfd06d25d195bdff9a4f1cb246cf4363903)
 - `6f8fbbfd06d25d195bdff9a4f1cb246cf4363903` [chore(deps): update rtrb to 0.3.5 (#26940)](https://github.com/risingwavelabs/risingwave/pull/26940)
 - `c351d73d4a33dacb824287a7d5b839e04dccf838` [ci(pubsub): update expired emulator image (#26952)](https://github.com/risingwavelabs/risingwave/pull/26952)
 
