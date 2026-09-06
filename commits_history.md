@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260906` `72efd3867785137456d72b9913e1c6f177840424`
 - `20260905` `6f8fbbfd06d25d195bdff9a4f1cb246cf4363903`
 - `20260904` `99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4`
 - `20260903` `1277bb250f6ede25071dd7957d7a9b376720185d`
@@ -287,7 +288,6 @@
 - `20250909` `ed2d149e46793f03426c207aa8f5927d0e549f39`
 - `20250908` `2f6792377b0763eaa034f35a5641361dc5906e53`
 - `20250907` `dfef8bed223ce00cc37cbd790fcabfc576a4693f`
-- `20250906` `77830522f9f35d4f3c24716670e97da275c09f6a`
 </details>
 
 # Commit history
@@ -296,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260906
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6f8fbbfd06d25d195bdff9a4f1cb246cf4363903...72efd3867785137456d72b9913e1c6f177840424)
 - `72efd3867785137456d72b9913e1c6f177840424` [fix(frontend): reject ALTER SOURCE refresh for tables (#26852)](https://github.com/risingwavelabs/risingwave/pull/26852)
 
 ## nightly-20260905
@@ -2735,8 +2738,4 @@
 - `85d8e89ead76973285e5d6ce6c4f2ef4c7cb6aa3` [build: restrict serde to derive feature (#22886)](https://github.com/risingwavelabs/risingwave/pull/22886)
 
 ## nightly-20250907
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/77830522f9f35d4f3c24716670e97da275c09f6a...dfef8bed223ce00cc37cbd790fcabfc576a4693f)
 - `dfef8bed223ce00cc37cbd790fcabfc576a4693f` [feat(sqlsmith): integrate reducer into ci (#23011)](https://github.com/risingwavelabs/risingwave/pull/23011)
-
-## nightly-20250906
-- `77830522f9f35d4f3c24716670e97da275c09f6a` [fix: add recover to avoid flaky test (#23060)](https://github.com/risingwavelabs/risingwave/pull/23060)
