@@ -296,6 +296,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `72efd3867785137456d72b9913e1c6f177840424` [fix(frontend): reject ALTER SOURCE refresh for tables (#26852)](https://github.com/risingwavelabs/risingwave/pull/26852)
 
 ## nightly-20260905
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4...6f8fbbfd06d25d195bdff9a4f1cb246cf4363903)
