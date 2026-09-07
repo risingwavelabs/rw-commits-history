@@ -296,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8352599c30648ee41c6e992ef827d3e9463d43b3` [fix(connector): serialize Snowflake upsert CDC processing (#26824)](https://github.com/risingwavelabs/risingwave/pull/26824)
+- `f89c6b1c0819a62c56e5a8704dfb80651524e9a6` [feat(connector): support Kafka SASL/OAUTHBEARER OIDC login (KIP-768) (#25499)](https://github.com/risingwavelabs/risingwave/pull/25499)
+- `442907b7b0698eac5d21b736b18d65ccb8191c8e` [refactor(meta): wrap secret store private key in Secret (#26163)](https://github.com/risingwavelabs/risingwave/pull/26163)
 
 ## nightly-20260906
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6f8fbbfd06d25d195bdff9a4f1cb246cf4363903...72efd3867785137456d72b9913e1c6f177840424)
