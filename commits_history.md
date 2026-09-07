@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260907` `8352599c30648ee41c6e992ef827d3e9463d43b3`
 - `20260906` `72efd3867785137456d72b9913e1c6f177840424`
 - `20260905` `6f8fbbfd06d25d195bdff9a4f1cb246cf4363903`
 - `20260904` `99c74ea9421c0ba7099e353e9c16a9ce13d7ffb4`
@@ -287,7 +288,6 @@
 - `20250910` `9e004fc167aa698ab71f4aec82b49ead664b7520`
 - `20250909` `ed2d149e46793f03426c207aa8f5927d0e549f39`
 - `20250908` `2f6792377b0763eaa034f35a5641361dc5906e53`
-- `20250907` `dfef8bed223ce00cc37cbd790fcabfc576a4693f`
 </details>
 
 # Commit history
@@ -296,6 +296,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260907
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72efd3867785137456d72b9913e1c6f177840424...8352599c30648ee41c6e992ef827d3e9463d43b3)
 - `8352599c30648ee41c6e992ef827d3e9463d43b3` [fix(connector): serialize Snowflake upsert CDC processing (#26824)](https://github.com/risingwavelabs/risingwave/pull/26824)
 - `f89c6b1c0819a62c56e5a8704dfb80651524e9a6` [feat(connector): support Kafka SASL/OAUTHBEARER OIDC login (KIP-768) (#25499)](https://github.com/risingwavelabs/risingwave/pull/25499)
 - `442907b7b0698eac5d21b736b18d65ccb8191c8e` [refactor(meta): wrap secret store private key in Secret (#26163)](https://github.com/risingwavelabs/risingwave/pull/26163)
@@ -2734,11 +2737,4 @@
 - `aeb03378fffe71b710f6fd3d143f497067e690d8` [feat(foyer): expose blob size index configuration (#23097)](https://github.com/risingwavelabs/risingwave/pull/23097)
 
 ## nightly-20250908
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/dfef8bed223ce00cc37cbd790fcabfc576a4693f...2f6792377b0763eaa034f35a5641361dc5906e53)
 - `2f6792377b0763eaa034f35a5641361dc5906e53` [refactor(meta): match fragment type mask correctly (#23124)](https://github.com/risingwavelabs/risingwave/pull/23124)
-- `06963da9c15e06add34b1dacef810b914f31fc24` [refactor(sink): Simplify sink-into-table with new dynamic operator (#22920)](https://github.com/risingwavelabs/risingwave/pull/22920)
-- `74fa792648bc045049fb3d8dc74bd1e5f0a3efc0` [fix(sqlsmith): increase timeout to allow generation of snapshots (#23116)](https://github.com/risingwavelabs/risingwave/pull/23116)
-- `85d8e89ead76973285e5d6ce6c4f2ef4c7cb6aa3` [build: restrict serde to derive feature (#22886)](https://github.com/risingwavelabs/risingwave/pull/22886)
-
-## nightly-20250907
-- `dfef8bed223ce00cc37cbd790fcabfc576a4693f` [feat(sqlsmith): integrate reducer into ci (#23011)](https://github.com/risingwavelabs/risingwave/pull/23011)
