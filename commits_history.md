@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260908` `06415d7fad72b0678305e8c3cf64b01b1f3ae963`
 - `20260907` `8352599c30648ee41c6e992ef827d3e9463d43b3`
 - `20260906` `72efd3867785137456d72b9913e1c6f177840424`
 - `20260905` `6f8fbbfd06d25d195bdff9a4f1cb246cf4363903`
@@ -287,7 +288,6 @@
 - `20250911` `7bcb5c6c655e0cf8cd7e629bada490abc54b7e46`
 - `20250910` `9e004fc167aa698ab71f4aec82b49ead664b7520`
 - `20250909` `ed2d149e46793f03426c207aa8f5927d0e549f39`
-- `20250908` `2f6792377b0763eaa034f35a5641361dc5906e53`
 </details>
 
 # Commit history
@@ -296,7 +296,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `21e160cf9e82a6473e1744947c330d53228c2e8f` [feat(stream): add SQL MATCH_RECOGNIZE as a pure matcher over WatermarkSort (#26584)](https://github.com/risingwavelabs/risingwave/pull/26584)
+- `5f4368aa9219f36a27a7e9a893cf81646e33b46c` [refactor(meta): unify independent job initial barrier handling (#26893)](https://github.com/risingwavelabs/risingwave/pull/26893)
+- `c8490055913afe008868b79e31e02dd14dc2880e` [feat(sink): support LanceDB sink (#25935)](https://github.com/risingwavelabs/risingwave/pull/25935)
 - `6ae36aed8ab47beb1f26b203fee471bfab1d58cf` [refactor(meta): shorten context lock scope in hummock GC (#26704)](https://github.com/risingwavelabs/risingwave/pull/26704)
+
+## nightly-20260908
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8352599c30648ee41c6e992ef827d3e9463d43b3...06415d7fad72b0678305e8c3cf64b01b1f3ae963)
 - `06415d7fad72b0678305e8c3cf64b01b1f3ae963` [refactor(meta): unify independent job reset handling (#26806)](https://github.com/risingwavelabs/risingwave/pull/26806)
 - `a89bbd7a8765478baa16570bc802b7d42ba89908` [feat(connector): set application name for Postgres clients (#26968)](https://github.com/risingwavelabs/risingwave/pull/26968)
 - `2800c912a873ef2361d81671573735c12d863ff8` [fix(connector): statically link curl for Kafka OIDC (#26971)](https://github.com/risingwavelabs/risingwave/pull/26971)
@@ -2732,14 +2738,4 @@
 - `6411756705112f1e49d636abaa5c99c622fc23a2` [chore(docker): update docker image (#23147)](https://github.com/risingwavelabs/risingwave/pull/23147)
 
 ## nightly-20250909
-[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/2f6792377b0763eaa034f35a5641361dc5906e53...ed2d149e46793f03426c207aa8f5927d0e549f39)
 - `ed2d149e46793f03426c207aa8f5927d0e549f39` [chore(ci): move doc build & test to a separate step (#23138)](https://github.com/risingwavelabs/risingwave/pull/23138)
-- `27b08f9abdb33ab0d365023528f4cbdb6d638645` [fix(sink): Relax some alter table column conditions (#23142)](https://github.com/risingwavelabs/risingwave/pull/23142)
-- `0a312b1a02609a208f3b7a1c7ac74a0243d96cb0` [fix(foyer): unify blob index size unit in configuration (#23137)](https://github.com/risingwavelabs/risingwave/pull/23137)
-- `ec81261a520537545deb0af24e69dd8a92cea7cd` [fix(frontend): correctly purify definition for upsert source (#23123)](https://github.com/risingwavelabs/risingwave/pull/23123)
-- `b636a8581a2ad176e8865d0159f2f124e4ca4d83` [feat(optimizer): support index selection for backfilling (part 1) (#23092)](https://github.com/risingwavelabs/risingwave/pull/23092)
-- `6e61fc8bc53227470b83bfacd3bed31bbe03bae3` [fix(meta): Relax sink-into-table recovery checks (#23125)](https://github.com/risingwavelabs/risingwave/pull/23125)
-- `aeb03378fffe71b710f6fd3d143f497067e690d8` [feat(foyer): expose blob size index configuration (#23097)](https://github.com/risingwavelabs/risingwave/pull/23097)
-
-## nightly-20250908
-- `2f6792377b0763eaa034f35a5641361dc5906e53` [refactor(meta): match fragment type mask correctly (#23124)](https://github.com/risingwavelabs/risingwave/pull/23124)
