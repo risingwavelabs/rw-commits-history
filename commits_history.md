@@ -296,6 +296,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6ae36aed8ab47beb1f26b203fee471bfab1d58cf` [refactor(meta): shorten context lock scope in hummock GC (#26704)](https://github.com/risingwavelabs/risingwave/pull/26704)
+- `06415d7fad72b0678305e8c3cf64b01b1f3ae963` [refactor(meta): unify independent job reset handling (#26806)](https://github.com/risingwavelabs/risingwave/pull/26806)
+- `a89bbd7a8765478baa16570bc802b7d42ba89908` [feat(connector): set application name for Postgres clients (#26968)](https://github.com/risingwavelabs/risingwave/pull/26968)
+- `2800c912a873ef2361d81671573735c12d863ff8` [fix(connector): statically link curl for Kafka OIDC (#26971)](https://github.com/risingwavelabs/risingwave/pull/26971)
+- `ab2b1eaef4f9657a6b21a22857e6cc810938bd1a` [fix(meta): avoid snapshot race during resubscribe (#25728)](https://github.com/risingwavelabs/risingwave/pull/25728)
 
 ## nightly-20260907
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/72efd3867785137456d72b9913e1c6f177840424...8352599c30648ee41c6e992ef827d3e9463d43b3)
