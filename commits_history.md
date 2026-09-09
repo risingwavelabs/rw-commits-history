@@ -296,6 +296,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f` [feat(risedev): support Docker-backed clickhouse sink tests (#26653)](https://github.com/risingwavelabs/risingwave/pull/26653)
+- `094da6ff8c8a64747ba2c31c3664827df1a46ead` [feat(iceberg): prepare PK-index compaction switching (#26975)](https://github.com/risingwavelabs/risingwave/pull/26975)
+- `b69e37cedff75cb5d81efc18c4ea5ea0228f5e6e` [feat(stream): support broadcast temporal join (#26932)](https://github.com/risingwavelabs/risingwave/pull/26932)
+- `9e05eac8f71960559418a6cdec43ba0dd3e80919` [fix(iceberg): apply backpressure when pulling compaction tasks (#26838)](https://github.com/risingwavelabs/risingwave/pull/26838)
+- `c3145154b39cec345b3726dd423f4b59939dd9ba` [fix(meta): retain auto schema change metrics (#26735)](https://github.com/risingwavelabs/risingwave/pull/26735)
+- `ad4130a9916de2b489aca2912b3c73eccec4e5c4` [fix(frontend): reject unsupported temporal join types instead of panicking (#27000)](https://github.com/risingwavelabs/risingwave/pull/27000)
+- `ffaee86f09cac7d4bd87002a141581cf9ed034f9` [refactor(sink): share BatchingLogSinker between file and postgres sinks (#26677)](https://github.com/risingwavelabs/risingwave/pull/26677)
 - `21e160cf9e82a6473e1744947c330d53228c2e8f` [feat(stream): add SQL MATCH_RECOGNIZE as a pure matcher over WatermarkSort (#26584)](https://github.com/risingwavelabs/risingwave/pull/26584)
 - `5f4368aa9219f36a27a7e9a893cf81646e33b46c` [refactor(meta): unify independent job initial barrier handling (#26893)](https://github.com/risingwavelabs/risingwave/pull/26893)
 - `c8490055913afe008868b79e31e02dd14dc2880e` [feat(sink): support LanceDB sink (#25935)](https://github.com/risingwavelabs/risingwave/pull/25935)
