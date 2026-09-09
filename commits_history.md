@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260909` `7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f`
 - `20260908` `06415d7fad72b0678305e8c3cf64b01b1f3ae963`
 - `20260907` `8352599c30648ee41c6e992ef827d3e9463d43b3`
 - `20260906` `72efd3867785137456d72b9913e1c6f177840424`
@@ -296,6 +297,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cc9c4c82777438a5544baba67f0d8ba43e17d028` [build(risedev): disable heavyweight connectors by default for local development (#27002)](https://github.com/risingwavelabs/risingwave/pull/27002)
+
+## nightly-20260909
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/06415d7fad72b0678305e8c3cf64b01b1f3ae963...7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f)
 - `7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f` [feat(risedev): support Docker-backed clickhouse sink tests (#26653)](https://github.com/risingwavelabs/risingwave/pull/26653)
 - `094da6ff8c8a64747ba2c31c3664827df1a46ead` [feat(iceberg): prepare PK-index compaction switching (#26975)](https://github.com/risingwavelabs/risingwave/pull/26975)
 - `b69e37cedff75cb5d81efc18c4ea5ea0228f5e6e` [feat(stream): support broadcast temporal join (#26932)](https://github.com/risingwavelabs/risingwave/pull/26932)
