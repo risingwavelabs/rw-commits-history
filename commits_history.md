@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260910` `4e0e84ae5b2c2386cfb89d39ab1312620719f96f`
 - `20260909` `7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f`
 - `20260908` `06415d7fad72b0678305e8c3cf64b01b1f3ae963`
 - `20260907` `8352599c30648ee41c6e992ef827d3e9463d43b3`
@@ -297,6 +298,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260910
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f...4e0e84ae5b2c2386cfb89d39ab1312620719f96f)
 - `4e0e84ae5b2c2386cfb89d39ab1312620719f96f` [chore(tests): add explicit reasons to ignored tests (#27010)](https://github.com/risingwavelabs/risingwave/pull/27010)
 - `16cbfb35c4a83612bb6e9851f869d75ac0054137` [feat(planner): always shuffle the LHS of broadcast temporal join by stream key (#27025)](https://github.com/risingwavelabs/risingwave/pull/27025)
 - `59e3cb27ef53a965105226edafe882e55dbbe926` [feat(stream): watermark-driven state cleaning for over window with bounded ROWS frames (#26917)](https://github.com/risingwavelabs/risingwave/pull/26917)
