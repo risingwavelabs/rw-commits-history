@@ -297,6 +297,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4e0e84ae5b2c2386cfb89d39ab1312620719f96f` [chore(tests): add explicit reasons to ignored tests (#27010)](https://github.com/risingwavelabs/risingwave/pull/27010)
+- `16cbfb35c4a83612bb6e9851f869d75ac0054137` [feat(planner): always shuffle the LHS of broadcast temporal join by stream key (#27025)](https://github.com/risingwavelabs/risingwave/pull/27025)
+- `59e3cb27ef53a965105226edafe882e55dbbe926` [feat(stream): watermark-driven state cleaning for over window with bounded ROWS frames (#26917)](https://github.com/risingwavelabs/risingwave/pull/26917)
+- `9b790a17474102513c229411d23f7adfbeded071` [fix(compactor): align iceberg task multiplier default (#26859)](https://github.com/risingwavelabs/risingwave/pull/26859)
 - `cc9c4c82777438a5544baba67f0d8ba43e17d028` [build(risedev): disable heavyweight connectors by default for local development (#27002)](https://github.com/risingwavelabs/risingwave/pull/27002)
 
 ## nightly-20260909
