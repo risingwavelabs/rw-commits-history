@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260911` `89240687db8fe82b1770d959ae7263ea07419778`
 - `20260910` `4e0e84ae5b2c2386cfb89d39ab1312620719f96f`
 - `20260909` `7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f`
 - `20260908` `06415d7fad72b0678305e8c3cf64b01b1f3ae963`
@@ -298,6 +299,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6469eb736d691e8e9b8a419a57edd6429ca77417` [fix(stream): invalidate materialize cache for rows deleted by refresh merge (#27040)](https://github.com/risingwavelabs/risingwave/pull/27040)
+
+## nightly-20260911
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4e0e84ae5b2c2386cfb89d39ab1312620719f96f...89240687db8fe82b1770d959ae7263ea07419778)
 - `89240687db8fe82b1770d959ae7263ea07419778` [fix(storage): bound SST scans and point gets by table ID (#27048)](https://github.com/risingwavelabs/risingwave/pull/27048)
 - `035ddc148fc2b3d28958b1154ee935cce05dc03e` [fix(connector/kafka): resolve startup timestamp offset once per partition (#27030)](https://github.com/risingwavelabs/risingwave/pull/27030)
 
