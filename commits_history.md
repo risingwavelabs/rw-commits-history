@@ -298,6 +298,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `89240687db8fe82b1770d959ae7263ea07419778` [fix(storage): bound SST scans and point gets by table ID (#27048)](https://github.com/risingwavelabs/risingwave/pull/27048)
+- `035ddc148fc2b3d28958b1154ee935cce05dc03e` [fix(connector/kafka): resolve startup timestamp offset once per partition (#27030)](https://github.com/risingwavelabs/risingwave/pull/27030)
 
 ## nightly-20260910
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f...4e0e84ae5b2c2386cfb89d39ab1312620719f96f)
