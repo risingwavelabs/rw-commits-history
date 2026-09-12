@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260912` `7e7075acd5e71254499d3a38c46669046df874f7`
 - `20260911` `89240687db8fe82b1770d959ae7263ea07419778`
 - `20260910` `4e0e84ae5b2c2386cfb89d39ab1312620719f96f`
 - `20260909` `7e5b5f5f085e43d1c7f648d8cd9078aaa830cd7f`
@@ -299,6 +300,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260912
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/89240687db8fe82b1770d959ae7263ea07419778...7e7075acd5e71254499d3a38c46669046df874f7)
 - `7e7075acd5e71254499d3a38c46669046df874f7` [feat(meta): reuse Iceberg compaction pre-commit (#26566)](https://github.com/risingwavelabs/risingwave/pull/26566)
 - `6469eb736d691e8e9b8a419a57edd6429ca77417` [fix(stream): invalidate materialize cache for rows deleted by refresh merge (#27040)](https://github.com/risingwavelabs/risingwave/pull/27040)
 
