@@ -299,6 +299,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7e7075acd5e71254499d3a38c46669046df874f7` [feat(meta): reuse Iceberg compaction pre-commit (#26566)](https://github.com/risingwavelabs/risingwave/pull/26566)
 - `6469eb736d691e8e9b8a419a57edd6429ca77417` [fix(stream): invalidate materialize cache for rows deleted by refresh merge (#27040)](https://github.com/risingwavelabs/risingwave/pull/27040)
 
 ## nightly-20260911
