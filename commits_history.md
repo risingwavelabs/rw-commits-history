@@ -300,6 +300,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ba15b1bd10bba2069d51c7340c63be8a24421ebd` [feat(stream): apply backfill rate limit to the locality provider drain (#27020)](https://github.com/risingwavelabs/risingwave/pull/27020)
 
 ## nightly-20260913
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/89240687db8fe82b1770d959ae7263ea07419778...7e7075acd5e71254499d3a38c46669046df874f7)
