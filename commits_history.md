@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260914` `ba15b1bd10bba2069d51c7340c63be8a24421ebd`
 - `20260913` `7e7075acd5e71254499d3a38c46669046df874f7`
 - `20260911` `89240687db8fe82b1770d959ae7263ea07419778`
 - `20260910` `4e0e84ae5b2c2386cfb89d39ab1312620719f96f`
@@ -300,6 +301,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260914
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e7075acd5e71254499d3a38c46669046df874f7...ba15b1bd10bba2069d51c7340c63be8a24421ebd)
 - `ba15b1bd10bba2069d51c7340c63be8a24421ebd` [feat(stream): apply backfill rate limit to the locality provider drain (#27020)](https://github.com/risingwavelabs/risingwave/pull/27020)
 
 ## nightly-20260913
