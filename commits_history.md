@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260915` `3dcdd4d93a448f429039067b2c3feee650f42ab7`
 - `20260914` `ba15b1bd10bba2069d51c7340c63be8a24421ebd`
 - `20260913` `7e7075acd5e71254499d3a38c46669046df874f7`
 - `20260911` `89240687db8fe82b1770d959ae7263ea07419778`
@@ -301,6 +302,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260915
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ba15b1bd10bba2069d51c7340c63be8a24421ebd...3dcdd4d93a448f429039067b2c3feee650f42ab7)
 - `3dcdd4d93a448f429039067b2c3feee650f42ab7` [fix(optimizer): avoid unsafe correlated aggregate decorrelation (#27065)](https://github.com/risingwavelabs/risingwave/pull/27065)
 - `4a6f64c34aa636b22df312257631f6b58c3e6776` [perf(storage): reduce SST builder key copies and XOR sorting allocations (#27033)](https://github.com/risingwavelabs/risingwave/pull/27033)
 
