@@ -301,6 +301,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3dcdd4d93a448f429039067b2c3feee650f42ab7` [fix(optimizer): avoid unsafe correlated aggregate decorrelation (#27065)](https://github.com/risingwavelabs/risingwave/pull/27065)
+- `4a6f64c34aa636b22df312257631f6b58c3e6776` [perf(storage): reduce SST builder key copies and XOR sorting allocations (#27033)](https://github.com/risingwavelabs/risingwave/pull/27033)
 
 ## nightly-20260914
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/7e7075acd5e71254499d3a38c46669046df874f7...ba15b1bd10bba2069d51c7340c63be8a24421ebd)
