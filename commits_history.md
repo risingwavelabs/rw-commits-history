@@ -302,6 +302,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1de751f029d09490f5a177dbdecbcaec467dd064` [feat(source): apply SOURCE_RATE_LIMIT to refreshable table batch fetch (#27106)](https://github.com/risingwavelabs/risingwave/pull/27106)
+- `70b0ab709cfc2c6346d61334d0700b07ce72f489` [fix(common): prevent memory accounting drift (#27069)](https://github.com/risingwavelabs/risingwave/pull/27069)
+- `d3144761610cb3cf760cdfa5bbb1d115b63c97d9` [fix(risedev): run local `Pub/Sub` emulator with Docker (#26697)](https://github.com/risingwavelabs/risingwave/pull/26697)
+- `6666dd6a1af39df23add684dce9d2defa95a252d` [fix(ci): download minio and mc from RisingWave CI mirror (#27097)](https://github.com/risingwavelabs/risingwave/pull/27097)
 
 ## nightly-20260915
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ba15b1bd10bba2069d51c7340c63be8a24421ebd...3dcdd4d93a448f429039067b2c3feee650f42ab7)
