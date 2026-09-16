@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260916` `1de751f029d09490f5a177dbdecbcaec467dd064`
 - `20260915` `3dcdd4d93a448f429039067b2c3feee650f42ab7`
 - `20260914` `ba15b1bd10bba2069d51c7340c63be8a24421ebd`
 - `20260913` `7e7075acd5e71254499d3a38c46669046df874f7`
@@ -302,6 +303,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260916
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3dcdd4d93a448f429039067b2c3feee650f42ab7...1de751f029d09490f5a177dbdecbcaec467dd064)
 - `1de751f029d09490f5a177dbdecbcaec467dd064` [feat(source): apply SOURCE_RATE_LIMIT to refreshable table batch fetch (#27106)](https://github.com/risingwavelabs/risingwave/pull/27106)
 - `70b0ab709cfc2c6346d61334d0700b07ce72f489` [fix(common): prevent memory accounting drift (#27069)](https://github.com/risingwavelabs/risingwave/pull/27069)
 - `d3144761610cb3cf760cdfa5bbb1d115b63c97d9` [fix(risedev): run local `Pub/Sub` emulator with Docker (#26697)](https://github.com/risingwavelabs/risingwave/pull/26697)
