@@ -303,6 +303,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `928b6d5811e0b802493426bdc509329199718b7e` [refactor(storage): simplify Hummock GC bookkeeping (#27098)](https://github.com/risingwavelabs/risingwave/pull/27098)
+- `f1b9a7e4f362f281592cf6076be8e6602c7bc0f5` [refactor(cdc): less false positive for composite type (#27116)](https://github.com/risingwavelabs/risingwave/pull/27116)
+- `de139e33092a949ef57cbe7c9edb2064b587b782` [feat(stream): forward watermarks through general over window (#27050)](https://github.com/risingwavelabs/risingwave/pull/27050)
+- `439efc940559639f09c8ff8e27dc0ff3a936b8af` [perf(storage): reduce compaction picker scans and allocations (#27081)](https://github.com/risingwavelabs/risingwave/pull/27081)
+- `fab4919ce29e551825d43db212dcce5804292eed` [feat(stream): expose temporal-filter NOW() drift and streaming clock metrics (#27080)](https://github.com/risingwavelabs/risingwave/pull/27080)
 
 ## nightly-20260916
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/3dcdd4d93a448f429039067b2c3feee650f42ab7...1de751f029d09490f5a177dbdecbcaec467dd064)
