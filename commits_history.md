@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260917` `928b6d5811e0b802493426bdc509329199718b7e`
 - `20260916` `1de751f029d09490f5a177dbdecbcaec467dd064`
 - `20260915` `3dcdd4d93a448f429039067b2c3feee650f42ab7`
 - `20260914` `ba15b1bd10bba2069d51c7340c63be8a24421ebd`
@@ -303,6 +304,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4b4dccf16b28bbf053a787f740744015517d861c` [fix(meta): preserve compaction candidates across topology changes (#27042)](https://github.com/risingwavelabs/risingwave/pull/27042)
+
+## nightly-20260917
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1de751f029d09490f5a177dbdecbcaec467dd064...928b6d5811e0b802493426bdc509329199718b7e)
 - `928b6d5811e0b802493426bdc509329199718b7e` [refactor(storage): simplify Hummock GC bookkeeping (#27098)](https://github.com/risingwavelabs/risingwave/pull/27098)
 - `f1b9a7e4f362f281592cf6076be8e6602c7bc0f5` [refactor(cdc): less false positive for composite type (#27116)](https://github.com/risingwavelabs/risingwave/pull/27116)
 - `de139e33092a949ef57cbe7c9edb2064b587b782` [feat(stream): forward watermarks through general over window (#27050)](https://github.com/risingwavelabs/risingwave/pull/27050)
