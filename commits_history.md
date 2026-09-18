@@ -304,6 +304,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ee8b82b3a8bb9cce2160e062670564b8af70600f` [fix(connector): preserve SQL Server composite primary key order (#27160)](https://github.com/risingwavelabs/risingwave/pull/27160)
+- `c4a578bb71145dab308d64c676d8009033b00d01` [refactor(storage): simplify Hummock version helpers (#27094)](https://github.com/risingwavelabs/risingwave/pull/27094)
+- `5f6b8c61703a374f533d83fb5815bbe6d22db271` [fix(meta): stabilize automatic compaction group split and merge (#27044)](https://github.com/risingwavelabs/risingwave/pull/27044)
+- `8ac77b297bf3003832913892708a78b9ebb2dcc8` [fix(grafana): use container_memory_rss for Node Memory relative (#27142)](https://github.com/risingwavelabs/risingwave/pull/27142)
+- `a04fb0488535eaf3cf041d1840a547f3f7b44606` [fix(stream): use database barrier interval for now (#27118)](https://github.com/risingwavelabs/risingwave/pull/27118)
+- `c1a7670d01d96b425ff219f7ac5637e2702294f4` [feat(connector): support ADC for Google Pub/Sub (#26808)](https://github.com/risingwavelabs/risingwave/pull/26808)
+- `dc579164094a8c21de9e18f50927eeace2aeb9cb` [fix(stream): preserve CDC events during recovery startup (#27031)](https://github.com/risingwavelabs/risingwave/pull/27031)
+- `0a40d6bd8fb5c7e678abf15e6280d83c50712f20` [fix(iceberg): derive REST table location from namespace (#27104)](https://github.com/risingwavelabs/risingwave/pull/27104)
 - `4b4dccf16b28bbf053a787f740744015517d861c` [fix(meta): preserve compaction candidates across topology changes (#27042)](https://github.com/risingwavelabs/risingwave/pull/27042)
 
 ## nightly-20260917
