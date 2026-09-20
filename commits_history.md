@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20260919` `ee8b82b3a8bb9cce2160e062670564b8af70600f`
+- `20260920` `ee8b82b3a8bb9cce2160e062670564b8af70600f`
 - `20260917` `928b6d5811e0b802493426bdc509329199718b7e`
 - `20260916` `1de751f029d09490f5a177dbdecbcaec467dd064`
 - `20260915` `3dcdd4d93a448f429039067b2c3feee650f42ab7`
@@ -306,7 +306,7 @@
 
 ## Unreleased
 
-## nightly-20260919
+## nightly-20260920
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/928b6d5811e0b802493426bdc509329199718b7e...ee8b82b3a8bb9cce2160e062670564b8af70600f)
 - `ee8b82b3a8bb9cce2160e062670564b8af70600f` [fix(connector): preserve SQL Server composite primary key order (#27160)](https://github.com/risingwavelabs/risingwave/pull/27160)
 - `c4a578bb71145dab308d64c676d8009033b00d01` [refactor(storage): simplify Hummock version helpers (#27094)](https://github.com/risingwavelabs/risingwave/pull/27094)
