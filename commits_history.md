@@ -305,6 +305,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `62e1858245eab19ab24bea9eff3cd56f267a2741` [feat(stream): forward watermarks through TopN executors (#27056)](https://github.com/risingwavelabs/risingwave/pull/27056)
+- `5031e5c8974754a211c63ba23157620ad7ffb85c` [fix(storage): handle exhausted prefetch streams during seek (#27161)](https://github.com/risingwavelabs/risingwave/pull/27161)
+- `f6b38d55f81c5da9c4ead74b4d502b276d2f539f` [fix(iceberg): reject unsupported primary keys in engine tables (#27105)](https://github.com/risingwavelabs/risingwave/pull/27105)
+- `1e4be0f541f0ae7ea52a09add9f5be519e93971d` [fix(cdc): align heartbeat interval validation across Rust and Java (#27017)](https://github.com/risingwavelabs/risingwave/pull/27017)
 
 ## nightly-20260920
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/928b6d5811e0b802493426bdc509329199718b7e...ee8b82b3a8bb9cce2160e062670564b8af70600f)
