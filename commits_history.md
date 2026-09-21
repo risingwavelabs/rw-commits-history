@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260921` `62e1858245eab19ab24bea9eff3cd56f267a2741`
 - `20260920` `ee8b82b3a8bb9cce2160e062670564b8af70600f`
 - `20260917` `928b6d5811e0b802493426bdc509329199718b7e`
 - `20260916` `1de751f029d09490f5a177dbdecbcaec467dd064`
@@ -305,6 +306,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d3195d7ae307e472d2bf620f908b7e7c79d15577` [refactor(meta): separate compaction group scheduling policy and transactions (#27045)](https://github.com/risingwavelabs/risingwave/pull/27045)
+- `eef1743ff290d234ade2353ec8ccba8d1faaed93` [refactor(storage): consume prefetched blocks synchronously (#27162)](https://github.com/risingwavelabs/risingwave/pull/27162)
+- `f8c59cff54ef5c42fbb56faa147647e8538f3c2c` [refactor(meta): unify independent job actor rendering (#26979)](https://github.com/risingwavelabs/risingwave/pull/26979)
+
+## nightly-20260921
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ee8b82b3a8bb9cce2160e062670564b8af70600f...62e1858245eab19ab24bea9eff3cd56f267a2741)
 - `62e1858245eab19ab24bea9eff3cd56f267a2741` [feat(stream): forward watermarks through TopN executors (#27056)](https://github.com/risingwavelabs/risingwave/pull/27056)
 - `5031e5c8974754a211c63ba23157620ad7ffb85c` [fix(storage): handle exhausted prefetch streams during seek (#27161)](https://github.com/risingwavelabs/risingwave/pull/27161)
 - `f6b38d55f81c5da9c4ead74b4d502b276d2f539f` [fix(iceberg): reject unsupported primary keys in engine tables (#27105)](https://github.com/risingwavelabs/risingwave/pull/27105)
