@@ -306,6 +306,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a5ae72082786354c8adf3d0a2e5aef58e74d6adb` [feat(observability): expose Iceberg compactor I/O metrics (#26949)](https://github.com/risingwavelabs/risingwave/pull/26949)
+- `da72368903adf92877794826388b40c8a7c55b1b` [fix(meta): preserve connection and secret refs during connector alters (#26923)](https://github.com/risingwavelabs/risingwave/pull/26923)
+- `46cb9436e3b266b6a4dcc5af35177b1964f844d9` [fix(meta): fence sink coordinators during recovery (#27180)](https://github.com/risingwavelabs/risingwave/pull/27180)
+- `243c0211dc66076330953240a0743c609c4e90c7` [fix(stream): recover parallel CDC backfill safely (#27055)](https://github.com/risingwavelabs/risingwave/pull/27055)
+- `ddc455870338c56cb94b7d82ea78127fbeff442b` [fix(storage): make Foyer file cache direct I/O configurable (#27114)](https://github.com/risingwavelabs/risingwave/pull/27114)
+- `dec0dcb62bc040a35c39b083b3f5fd617c90810b` [fix(source): back off exponentially when rebuilding a failed source reader (#27168)](https://github.com/risingwavelabs/risingwave/pull/27168)
 - `d3195d7ae307e472d2bf620f908b7e7c79d15577` [refactor(meta): separate compaction group scheduling policy and transactions (#27045)](https://github.com/risingwavelabs/risingwave/pull/27045)
 - `eef1743ff290d234ade2353ec8ccba8d1faaed93` [refactor(storage): consume prefetched blocks synchronously (#27162)](https://github.com/risingwavelabs/risingwave/pull/27162)
 - `f8c59cff54ef5c42fbb56faa147647e8538f3c2c` [refactor(meta): unify independent job actor rendering (#26979)](https://github.com/risingwavelabs/risingwave/pull/26979)
