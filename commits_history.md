@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260922` `a5ae72082786354c8adf3d0a2e5aef58e74d6adb`
 - `20260921` `62e1858245eab19ab24bea9eff3cd56f267a2741`
 - `20260920` `ee8b82b3a8bb9cce2160e062670564b8af70600f`
 - `20260917` `928b6d5811e0b802493426bdc509329199718b7e`
@@ -306,6 +307,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `22ed7e36d712e93a321a89ab14467b72b621299c` [fix(cdc): enhance string decimal handling mode validation (#27143)](https://github.com/risingwavelabs/risingwave/pull/27143)
+
+## nightly-20260922
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/62e1858245eab19ab24bea9eff3cd56f267a2741...a5ae72082786354c8adf3d0a2e5aef58e74d6adb)
 - `a5ae72082786354c8adf3d0a2e5aef58e74d6adb` [feat(observability): expose Iceberg compactor I/O metrics (#26949)](https://github.com/risingwavelabs/risingwave/pull/26949)
 - `da72368903adf92877794826388b40c8a7c55b1b` [fix(meta): preserve connection and secret refs during connector alters (#26923)](https://github.com/risingwavelabs/risingwave/pull/26923)
 - `46cb9436e3b266b6a4dcc5af35177b1964f844d9` [fix(meta): fence sink coordinators during recovery (#27180)](https://github.com/risingwavelabs/risingwave/pull/27180)
