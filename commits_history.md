@@ -307,6 +307,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8ef66c709c8226f041d735c7562fda747ebc23cb` [fix(meta): recover source splits for snapshot backfill jobs (#27208)](https://github.com/risingwavelabs/risingwave/pull/27208)
+- `40908539026333b855f5a980374c64b36bc4efe9` [refactor(storage): share compactor block streaming and simplify fast runner (#27167)](https://github.com/risingwavelabs/risingwave/pull/27167)
+- `fd21647cf5abb051cdae2e0be38bebf794b36b39` [feat(cdc): support CDC upsert table sources (#26896)](https://github.com/risingwavelabs/risingwave/pull/26896)
+- `ef200948419b64755d10b4b5ddfa391d90944025` [fix(iceberg): merge manifests during COW overwrite (#26992)](https://github.com/risingwavelabs/risingwave/pull/26992)
+- `df460ccd89f0f5fdc4e0429c15447a95318551f3` [refactor(common): cleanup dead `NativeType` impl (#27213)](https://github.com/risingwavelabs/risingwave/pull/27213)
 - `22ed7e36d712e93a321a89ab14467b72b621299c` [fix(cdc): enhance string decimal handling mode validation (#27143)](https://github.com/risingwavelabs/risingwave/pull/27143)
 
 ## nightly-20260922
