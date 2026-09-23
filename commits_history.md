@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260923` `8ef66c709c8226f041d735c7562fda747ebc23cb`
 - `20260922` `a5ae72082786354c8adf3d0a2e5aef58e74d6adb`
 - `20260921` `62e1858245eab19ab24bea9eff3cd56f267a2741`
 - `20260920` `ee8b82b3a8bb9cce2160e062670564b8af70600f`
@@ -307,6 +308,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0d32b959c513370b47eda4e5e7787185472c5cf2` [fix(dashboard): normalize output blocking ratio in user dashboard (#27003)](https://github.com/risingwavelabs/risingwave/pull/27003)
+- `1e5154ae2a47c1ff37f2aeacb65a289f980e5bd0` [fix(source): fail the batch posix fs fetch on errors like the OpenDAL fetch (#27217)](https://github.com/risingwavelabs/risingwave/pull/27217)
+- `42b41ad8b6c08d2ed949f25257d4e1c34504fcb0` [refactor(meta): generalize fragment edge builder (#27077)](https://github.com/risingwavelabs/risingwave/pull/27077)
+
+## nightly-20260923
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a5ae72082786354c8adf3d0a2e5aef58e74d6adb...8ef66c709c8226f041d735c7562fda747ebc23cb)
 - `8ef66c709c8226f041d735c7562fda747ebc23cb` [fix(meta): recover source splits for snapshot backfill jobs (#27208)](https://github.com/risingwavelabs/risingwave/pull/27208)
 - `40908539026333b855f5a980374c64b36bc4efe9` [refactor(storage): share compactor block streaming and simplify fast runner (#27167)](https://github.com/risingwavelabs/risingwave/pull/27167)
 - `fd21647cf5abb051cdae2e0be38bebf794b36b39` [feat(cdc): support CDC upsert table sources (#26896)](https://github.com/risingwavelabs/risingwave/pull/26896)
