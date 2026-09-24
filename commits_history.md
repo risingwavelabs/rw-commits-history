@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260924` `4642960b1e55c903dfee1eb7535d1801f3818ff9`
 - `20260923` `8ef66c709c8226f041d735c7562fda747ebc23cb`
 - `20260922` `a5ae72082786354c8adf3d0a2e5aef58e74d6adb`
 - `20260921` `62e1858245eab19ab24bea9eff3cd56f267a2741`
@@ -308,7 +309,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `705be9ae0887824bfae19a3cc0fad567712bc512` [feat(connector): add hidden Oracle CDC source plumbing (#26903)](https://github.com/risingwavelabs/risingwave/pull/26903)
 - `3af09cd4241f92c719986d8c2299fa26742172e9` [feat(iceberg): expose compaction health in rw_iceberg_compaction_schedules (#27226)](https://github.com/risingwavelabs/risingwave/pull/27226)
+
+## nightly-20260924
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/8ef66c709c8226f041d735c7562fda747ebc23cb...4642960b1e55c903dfee1eb7535d1801f3818ff9)
 - `4642960b1e55c903dfee1eb7535d1801f3818ff9` [fix(stream): keep a MATCH_RECOGNIZE scan incomplete across an eviction rebase (#27201)](https://github.com/risingwavelabs/risingwave/pull/27201)
 - `22f43cbbc2d14ca9043bbc86a447939c341f635a` [feat(stream): support keyed changelog execution (#27206)](https://github.com/risingwavelabs/risingwave/pull/27206)
 - `58cc9e3057c6212f6e19bfe09ec475b517780cf8` [refactor(sqlparser): remove legacy `row format` source syntax (#27212)](https://github.com/risingwavelabs/risingwave/pull/27212)
