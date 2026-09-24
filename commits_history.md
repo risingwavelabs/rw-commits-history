@@ -308,6 +308,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3af09cd4241f92c719986d8c2299fa26742172e9` [feat(iceberg): expose compaction health in rw_iceberg_compaction_schedules (#27226)](https://github.com/risingwavelabs/risingwave/pull/27226)
+- `4642960b1e55c903dfee1eb7535d1801f3818ff9` [fix(stream): keep a MATCH_RECOGNIZE scan incomplete across an eviction rebase (#27201)](https://github.com/risingwavelabs/risingwave/pull/27201)
+- `22f43cbbc2d14ca9043bbc86a447939c341f635a` [feat(stream): support keyed changelog execution (#27206)](https://github.com/risingwavelabs/risingwave/pull/27206)
+- `58cc9e3057c6212f6e19bfe09ec475b517780cf8` [refactor(sqlparser): remove legacy `row format` source syntax (#27212)](https://github.com/risingwavelabs/risingwave/pull/27212)
+- `ce78f82e9a26c47ae45c791715b9559f8d4e6d37` [fix(stream): derive NOW progress from elapsed time (#27209)](https://github.com/risingwavelabs/risingwave/pull/27209)
+- `555d2730d40304d5c007e4947bf84a30b1e764a9` [feat(frontend): add planning support for AS CHANGELOG KEY (#27184)](https://github.com/risingwavelabs/risingwave/pull/27184)
+- `b8f140b67c8c4694f1c87cc388fe1bbd9fbbb8bb` [fix(iceberg): reject row lineage column names for V3 tables (#27223)](https://github.com/risingwavelabs/risingwave/pull/27223)
 - `0d32b959c513370b47eda4e5e7787185472c5cf2` [fix(dashboard): normalize output blocking ratio in user dashboard (#27003)](https://github.com/risingwavelabs/risingwave/pull/27003)
 - `1e5154ae2a47c1ff37f2aeacb65a289f980e5bd0` [fix(source): fail the batch posix fs fetch on errors like the OpenDAL fetch (#27217)](https://github.com/risingwavelabs/risingwave/pull/27217)
 - `42b41ad8b6c08d2ed949f25257d4e1c34504fcb0` [refactor(meta): generalize fragment edge builder (#27077)](https://github.com/risingwavelabs/risingwave/pull/27077)
