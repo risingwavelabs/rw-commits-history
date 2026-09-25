@@ -309,6 +309,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `577e5526ccb52bad54e094f492e386c48dc2ce1a` [chore(deps): Bump datafusion-common from 53.0.0 to 53.1.0 (#25446)](https://github.com/risingwavelabs/risingwave/pull/25446)
+- `188ef8871bdf9ea3c2c9fd91c8cf1ffcc5c26b20` [chore(deps): Bump fancy-regex from 0.17.0 to 0.19.0 (#26602)](https://github.com/risingwavelabs/risingwave/pull/26602)
+- `3edb975501a48e071f4aab73d60ef6fe42e6dc4a` [build(deps): bump reqwest from 0.12.25 to 0.13.4 (#24761)](https://github.com/risingwavelabs/risingwave/pull/24761)
+- `6d6da30a20a223750bfb40e2d8b35e27ec444863` [chore(deps): bump tokio-postgres from 0.7.10 to 0.7.18 in /integration_tests/feature-store/server (#26789)](https://github.com/risingwavelabs/risingwave/pull/26789)
+- `faf139ccd183ce5cdf1a08ee3c0f334c28e0755e` [fix(test): widen retry windows for batch refresh and kafka-sasl e2e (#27258)](https://github.com/risingwavelabs/risingwave/pull/27258)
+- `3060ab45dba6545ce1c2dec6bb3c345e9491be71` [fix(refresh): finish a table refresh only after all materialize actors and abandon it on recovery (#27041)](https://github.com/risingwavelabs/risingwave/pull/27041)
 - `705be9ae0887824bfae19a3cc0fad567712bc512` [feat(connector): add hidden Oracle CDC source plumbing (#26903)](https://github.com/risingwavelabs/risingwave/pull/26903)
 - `3af09cd4241f92c719986d8c2299fa26742172e9` [feat(iceberg): expose compaction health in rw_iceberg_compaction_schedules (#27226)](https://github.com/risingwavelabs/risingwave/pull/27226)
 
