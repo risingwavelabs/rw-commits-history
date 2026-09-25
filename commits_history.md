@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260925` `577e5526ccb52bad54e094f492e386c48dc2ce1a`
 - `20260924` `4642960b1e55c903dfee1eb7535d1801f3818ff9`
 - `20260923` `8ef66c709c8226f041d735c7562fda747ebc23cb`
 - `20260922` `a5ae72082786354c8adf3d0a2e5aef58e74d6adb`
@@ -309,6 +310,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `2e80a132c20fd5a6abc0a41ae228b6efc4e56772` [chore(deps): Bump cmov from 0.5.3 to 0.5.4 (#26157)](https://github.com/risingwavelabs/risingwave/pull/26157)
+- `e7ec1839995ebc2a09343f91e1e1bf69fdc684bc` [chore(deps): Bump either from 1.15.0 to 1.18.0 (#26523)](https://github.com/risingwavelabs/risingwave/pull/26523)
+- `15293782ee9bf560929ac30838b170004aa7f966` [chore(deps): Bump aws-sdk-ssooidc from 1.89.0 to 1.100.0 (#26442)](https://github.com/risingwavelabs/risingwave/pull/26442)
+- `ec0d9a629e2709688235927023bc77a8a16c262f` [chore(deps): Bump similar from 2.7.0 to 3.2.0 (#26869)](https://github.com/risingwavelabs/risingwave/pull/26869)
+
+## nightly-20260925
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4642960b1e55c903dfee1eb7535d1801f3818ff9...577e5526ccb52bad54e094f492e386c48dc2ce1a)
 - `577e5526ccb52bad54e094f492e386c48dc2ce1a` [chore(deps): Bump datafusion-common from 53.0.0 to 53.1.0 (#25446)](https://github.com/risingwavelabs/risingwave/pull/25446)
 - `188ef8871bdf9ea3c2c9fd91c8cf1ffcc5c26b20` [chore(deps): Bump fancy-regex from 0.17.0 to 0.19.0 (#26602)](https://github.com/risingwavelabs/risingwave/pull/26602)
 - `3edb975501a48e071f4aab73d60ef6fe42e6dc4a` [build(deps): bump reqwest from 0.12.25 to 0.13.4 (#24761)](https://github.com/risingwavelabs/risingwave/pull/24761)
