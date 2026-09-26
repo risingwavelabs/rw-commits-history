@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260926` `b010a8a961bd512c46791e0b005343013e50b37e`
 - `20260925` `577e5526ccb52bad54e094f492e386c48dc2ce1a`
 - `20260924` `4642960b1e55c903dfee1eb7535d1801f3818ff9`
 - `20260923` `8ef66c709c8226f041d735c7562fda747ebc23cb`
@@ -310,6 +311,21 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `89a61c0b8e93720a99c51c7395cd29daf6646eb6` [chore(deps): Bump http-body from 1.0.1 to 1.1.0 (#26508)](https://github.com/risingwavelabs/risingwave/pull/26508)
+- `d4c1321d5ff86142b3a7a440238b97c767e1df5d` [chore(deps): Bump hyper from 1.9.0 to 1.11.1 (#27290)](https://github.com/risingwavelabs/risingwave/pull/27290)
+- `8bc951c16d06cae41da909f00e2f9822ce9fe90d` [chore(deps): Bump peekable from 0.4.1 to 0.6.1 (#25495)](https://github.com/risingwavelabs/risingwave/pull/25495)
+- `01ba3e316f79f3a6542c03ec4a0ebe3ccc4e42fd` [chore(deps): Bump bitfield-struct from 0.12.1 to 0.13.0 (#25261)](https://github.com/risingwavelabs/risingwave/pull/25261)
+- `d5c418d5a2da7433c9471ed79dca9df4235c9b8d` [chore(deps): Bump rlimit from 0.10.1 to 0.11.0 (#24684)](https://github.com/risingwavelabs/risingwave/pull/24684)
+- `84831cdf0748296c7e5f63b63ad206084a09f15c` [chore(deps): Bump prometheus-http-query from 0.8.3 to 0.9.0 (#25641)](https://github.com/risingwavelabs/risingwave/pull/25641)
+- `f2c4b40509792c8f62ebe35fbc81a3d97aecc981` [chore(deps): Bump humantime from 2.3.0 to 2.4.0 (#27278)](https://github.com/risingwavelabs/risingwave/pull/27278)
+- `159f95332f9c94bf516ad44e66e46e7c73ee2d20` [chore(deps): Bump jiff from 0.1.15 to 0.2.35 (#27282)](https://github.com/risingwavelabs/risingwave/pull/27282)
+- `b12920d2c3122fe1607730b24e87cd74420b214a` [chore(deps): Bump path-absolutize from 3.1.1 to 4.0.1 (#27287)](https://github.com/risingwavelabs/risingwave/pull/27287)
+- `cc6af9a6a3b6a704402bc7ff098522a2707611cf` [chore(deps): Bump mach2 from 0.6.0 to 0.7.0 (#27276)](https://github.com/risingwavelabs/risingwave/pull/27276)
+- `a679001f545b03842510961a849c57f26dd445a0` [chore(deps): Bump simd-json from 0.17.0 to 0.18.1 (#27292)](https://github.com/risingwavelabs/risingwave/pull/27292)
+- `e05d83750643e8459a57086d9af8a634de296670` [chore(deps): Bump async-openai from 0.41.0 to 0.42.0 (#27279)](https://github.com/risingwavelabs/risingwave/pull/27279)
+
+## nightly-20260926
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/577e5526ccb52bad54e094f492e386c48dc2ce1a...b010a8a961bd512c46791e0b005343013e50b37e)
 - `b010a8a961bd512c46791e0b005343013e50b37e` [chore(deps): Bump self_cell from 1.2.0 to 1.3.0 (#27273)](https://github.com/risingwavelabs/risingwave/pull/27273)
 - `a1f7515781d28b48b32e73e47fd81675c0b690cc` [chore(deps): Bump tempfile from 3.25.0 to 3.27.0 (#27289)](https://github.com/risingwavelabs/risingwave/pull/27289)
 - `d0fcaa90a5e12c88041731c1ced535b53be26299` [chore(deps): Bump tower-http from 0.6.8 to 0.7.1 (#27293)](https://github.com/risingwavelabs/risingwave/pull/27293)
