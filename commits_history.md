@@ -310,6 +310,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `b010a8a961bd512c46791e0b005343013e50b37e` [chore(deps): Bump self_cell from 1.2.0 to 1.3.0 (#27273)](https://github.com/risingwavelabs/risingwave/pull/27273)
+- `a1f7515781d28b48b32e73e47fd81675c0b690cc` [chore(deps): Bump tempfile from 3.25.0 to 3.27.0 (#27289)](https://github.com/risingwavelabs/risingwave/pull/27289)
+- `d0fcaa90a5e12c88041731c1ced535b53be26299` [chore(deps): Bump tower-http from 0.6.8 to 0.7.1 (#27293)](https://github.com/risingwavelabs/risingwave/pull/27293)
+- `f65a4e121a9c6c12487af60d2d5caac611ae1c61` [chore(deps): Bump spin from 0.10.0 to 0.12.3 (#27295)](https://github.com/risingwavelabs/risingwave/pull/27295)
+- `8368c14b4afc9821e4ca07388188f306b15ca731` [chore(deps): Bump constant_time_eq from 0.4.2 to 0.6.0 (#27294)](https://github.com/risingwavelabs/risingwave/pull/27294)
 - `2e80a132c20fd5a6abc0a41ae228b6efc4e56772` [chore(deps): Bump cmov from 0.5.3 to 0.5.4 (#26157)](https://github.com/risingwavelabs/risingwave/pull/26157)
 - `e7ec1839995ebc2a09343f91e1e1bf69fdc684bc` [chore(deps): Bump either from 1.15.0 to 1.18.0 (#26523)](https://github.com/risingwavelabs/risingwave/pull/26523)
 - `15293782ee9bf560929ac30838b170004aa7f966` [chore(deps): Bump aws-sdk-ssooidc from 1.89.0 to 1.100.0 (#26442)](https://github.com/risingwavelabs/risingwave/pull/26442)
