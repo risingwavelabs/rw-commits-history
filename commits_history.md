@@ -311,6 +311,18 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4a6185456e87af5d23a4047c8854dc55d3d2e89a` [chore(deps): Bump jsonwebtoken from 10.3.0 to 10.4.0 (#25639)](https://github.com/risingwavelabs/risingwave/pull/25639)
+- `555239b55de580d816da964856c49427e32965ed` [chore(deps): Bump rustls-pki-types from 1.14.0 to 1.15.1 (#27315)](https://github.com/risingwavelabs/risingwave/pull/27315)
+- `cee4d97a779ca07e2100b538fb427a4f76e58a04` [chore(deps): Bump rust-embed from 8.11.0 to 8.12.0 (#27311)](https://github.com/risingwavelabs/risingwave/pull/27311)
+- `7b3db51e04964e2dd6dcbb2631ca3574a3a08e24` [chore(deps): Bump xorf from 0.12.0 to 0.13.0 (#27317)](https://github.com/risingwavelabs/risingwave/pull/27317)
+- `ac4394c829bb5315ea134d33eb4a27404758109c` [chore(deps): Bump uuid from 1.23.0 to 1.26.1 (#27307)](https://github.com/risingwavelabs/risingwave/pull/27307)
+- `f6d813cbdf351dfa5f3dee357687e619577ad168` [chore(deps): Bump http from 1.4.0 to 1.5.0 (#27313)](https://github.com/risingwavelabs/risingwave/pull/27313)
+- `c735a67728276cea3a69c485d660250e0b9d224a` [chore(deps): Bump quick-xml from 0.40.1 to 0.41.0 (#27304)](https://github.com/risingwavelabs/risingwave/pull/27304)
+- `4e51b8480fcab7cf8b28dc8143cca3a621e4ce99` [chore(deps): Bump bytes from 1.11.1 to 1.12.1 (#27309)](https://github.com/risingwavelabs/risingwave/pull/27309)
+- `17797f264379672542cec0001e5f3f390ef1f31e` [chore(deps): Bump tinyvec from 1.11.0 to 1.13.2 (#27303)](https://github.com/risingwavelabs/risingwave/pull/27303)
+- `6b94af6f42581a5a489df6be03819840be7aafc3` [chore(deps): Bump smallvec from 1.15.0 to 1.16.1 (#27301)](https://github.com/risingwavelabs/risingwave/pull/27301)
+- `732867af5cf767d4bd1a694f467c619baf2d1db6` [chore(deps): bump duration-str from 0.18.0 to 0.21.0 (#24943)](https://github.com/risingwavelabs/risingwave/pull/24943)
+- `be77a6149e97e42b16b1313f461d24717978ae3b` [chore(deps): bump next from 16.2.11 to 16.3.3 in /dashboard (#27012)](https://github.com/risingwavelabs/risingwave/pull/27012)
 - `89a61c0b8e93720a99c51c7395cd29daf6646eb6` [chore(deps): Bump http-body from 1.0.1 to 1.1.0 (#26508)](https://github.com/risingwavelabs/risingwave/pull/26508)
 - `d4c1321d5ff86142b3a7a440238b97c767e1df5d` [chore(deps): Bump hyper from 1.9.0 to 1.11.1 (#27290)](https://github.com/risingwavelabs/risingwave/pull/27290)
 - `8bc951c16d06cae41da909f00e2f9822ce9fe90d` [chore(deps): Bump peekable from 0.4.1 to 0.6.1 (#25495)](https://github.com/risingwavelabs/risingwave/pull/25495)
