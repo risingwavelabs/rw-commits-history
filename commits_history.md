@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260928` `533b0c095355c4ecf3c5604fede4f1722f4a1b17`
 - `20260927` `4a6185456e87af5d23a4047c8854dc55d3d2e89a`
 - `20260926` `b010a8a961bd512c46791e0b005343013e50b37e`
 - `20260925` `577e5526ccb52bad54e094f492e386c48dc2ce1a`
@@ -312,6 +313,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5149d7b2cbc1fa8b6d66f56e782f02965b8554a2` [fix(object-store): propagate metadata errors during listing (#27266)](https://github.com/risingwavelabs/risingwave/pull/27266)
+
+## nightly-20260928
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4a6185456e87af5d23a4047c8854dc55d3d2e89a...533b0c095355c4ecf3c5604fede4f1722f4a1b17)
 - `533b0c095355c4ecf3c5604fede4f1722f4a1b17` [fix(cdc): force-close SQL Server connections on shutdown (#27186)](https://github.com/risingwavelabs/risingwave/pull/27186)
 - `00504de0747c5da9d9626fc3f0e2e7f140399c05` [chore(deps): Bump mongodb from 3.5.1 to 3.9.1 (#25747)](https://github.com/risingwavelabs/risingwave/pull/25747)
 - `cf4ed97f35b3ab64440c45c135aa1f0db1e7767d` [chore(deps): Bump rand_chacha from 0.9.0 to 0.10.0 in the rand group across 1 directory (#25943)](https://github.com/risingwavelabs/risingwave/pull/25943)
