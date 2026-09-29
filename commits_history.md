@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20260929` `4313f9162fb0cebd0853711d4d3349efceb25169`
 - `20260928` `533b0c095355c4ecf3c5604fede4f1722f4a1b17`
 - `20260927` `4a6185456e87af5d23a4047c8854dc55d3d2e89a`
 - `20260926` `b010a8a961bd512c46791e0b005343013e50b37e`
@@ -313,6 +314,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20260929
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/533b0c095355c4ecf3c5604fede4f1722f4a1b17...4313f9162fb0cebd0853711d4d3349efceb25169)
 - `4313f9162fb0cebd0853711d4d3349efceb25169` [perf(storage): upgrade foyer to 0.22.6 with recovery backport (#27334)](https://github.com/risingwavelabs/risingwave/pull/27334)
 - `6c20969977194628c3bae7b47538dbd92f55d82e` [refactor(meta): unify independent checkpoint job handling (#26980)](https://github.com/risingwavelabs/risingwave/pull/26980)
 - `5149d7b2cbc1fa8b6d66f56e782f02965b8554a2` [fix(object-store): propagate metadata errors during listing (#27266)](https://github.com/risingwavelabs/risingwave/pull/27266)
