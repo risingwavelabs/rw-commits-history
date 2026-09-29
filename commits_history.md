@@ -313,6 +313,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4313f9162fb0cebd0853711d4d3349efceb25169` [perf(storage): upgrade foyer to 0.22.6 with recovery backport (#27334)](https://github.com/risingwavelabs/risingwave/pull/27334)
+- `6c20969977194628c3bae7b47538dbd92f55d82e` [refactor(meta): unify independent checkpoint job handling (#26980)](https://github.com/risingwavelabs/risingwave/pull/26980)
 - `5149d7b2cbc1fa8b6d66f56e782f02965b8554a2` [fix(object-store): propagate metadata errors during listing (#27266)](https://github.com/risingwavelabs/risingwave/pull/27266)
 
 ## nightly-20260928
