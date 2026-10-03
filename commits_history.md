@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261003` `422f1d56f5a2e1cca11f2ca63d865cf21d4dc86a`
 - `20261002` `4313f9162fb0cebd0853711d4d3349efceb25169`
 - `20260928` `533b0c095355c4ecf3c5604fede4f1722f4a1b17`
 - `20260927` `4a6185456e87af5d23a4047c8854dc55d3d2e89a`
@@ -314,6 +315,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261003
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4313f9162fb0cebd0853711d4d3349efceb25169...422f1d56f5a2e1cca11f2ca63d865cf21d4dc86a)
+- `422f1d56f5a2e1cca11f2ca63d865cf21d4dc86a` [fix(iceberg): set rest.auth.type explicitly for JNI REST catalog (#27221)](https://github.com/risingwavelabs/risingwave/pull/27221)
 
 ## nightly-20261002
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/533b0c095355c4ecf3c5604fede4f1722f4a1b17...4313f9162fb0cebd0853711d4d3349efceb25169)
