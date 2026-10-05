@@ -315,6 +315,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4e0ac65072011690c21fc5c0e896eb82c885f393` [chore: remove risingwave rust-analyzer skill (#27385)](https://github.com/risingwavelabs/risingwave/pull/27385)
 
 ## nightly-20261004
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4313f9162fb0cebd0853711d4d3349efceb25169...422f1d56f5a2e1cca11f2ca63d865cf21d4dc86a)
