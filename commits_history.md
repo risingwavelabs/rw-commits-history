@@ -317,6 +317,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e58cfcde2034ec2583576fdb2f25a3a7d0281e69` [chore(deps): Bump async-recursion from 1.1.0 to 1.1.1 (#27396)](https://github.com/risingwavelabs/risingwave/pull/27396)
 
 ## nightly-20261006
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4e0ac65072011690c21fc5c0e896eb82c885f393...4274ca1677c470d237f800b177b0d5c4c8116f25)
