@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261007` `e58cfcde2034ec2583576fdb2f25a3a7d0281e69`
 - `20261006` `4274ca1677c470d237f800b177b0d5c4c8116f25`
 - `20261005` `4e0ac65072011690c21fc5c0e896eb82c885f393`
 - `20261004` `422f1d56f5a2e1cca11f2ca63d865cf21d4dc86a`
@@ -317,6 +318,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261007
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4274ca1677c470d237f800b177b0d5c4c8116f25...e58cfcde2034ec2583576fdb2f25a3a7d0281e69)
 - `e58cfcde2034ec2583576fdb2f25a3a7d0281e69` [chore(deps): Bump async-recursion from 1.1.0 to 1.1.1 (#27396)](https://github.com/risingwavelabs/risingwave/pull/27396)
 
 ## nightly-20261006
