@@ -318,6 +318,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `cbe1ba832cba97b26ebd45dfb7da7d6b0828bfc7` [feat(connector): support native Pulsar Avro schemas (#26347)](https://github.com/risingwavelabs/risingwave/pull/26347)
+- `df7d4dfb58931e84b59d61c9006602fb1a760d2e` [feat(iceberg): share ADLS file IO configuration (#27407)](https://github.com/risingwavelabs/risingwave/pull/27407)
+- `15580df3bd3dc87d3f4d02dcfce3e88ca253c506` [fix(connector): stop the Kafka reader drop from blocking the actor thread (#27141)](https://github.com/risingwavelabs/risingwave/pull/27141)
+- `30c83e26313ea17930585ad0f68ae35516c9f51a` [feat(meta): support explicit table cache warm-up (#27233)](https://github.com/risingwavelabs/risingwave/pull/27233)
+- `985dff26d4f126fcb43573401127cb3385e5191b` [fix(expr): tighten the validation of escape character usage (#26215)](https://github.com/risingwavelabs/risingwave/pull/26215)
+- `949c27bb47424eca0274b210db8d0476692e3b7d` [chore(iceberg): bump Rust and compaction dependencies (#27232)](https://github.com/risingwavelabs/risingwave/pull/27232)
+- `98e209c7ed2f3373723a358b68f0fabc91f8a790` [fix(cdc): compare MySQL schema history positions by binlog coordinates (#27391)](https://github.com/risingwavelabs/risingwave/pull/27391)
 
 ## nightly-20261007
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/4274ca1677c470d237f800b177b0d5c4c8116f25...e58cfcde2034ec2583576fdb2f25a3a7d0281e69)
