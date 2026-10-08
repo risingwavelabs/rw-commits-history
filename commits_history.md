@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261008` `cbe1ba832cba97b26ebd45dfb7da7d6b0828bfc7`
 - `20261007` `e58cfcde2034ec2583576fdb2f25a3a7d0281e69`
 - `20261006` `4274ca1677c470d237f800b177b0d5c4c8116f25`
 - `20261005` `4e0ac65072011690c21fc5c0e896eb82c885f393`
@@ -318,6 +319,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7cfecddcc59ccdf48502b7434c3def1b7fc53eb5` [feat(stream): bounded-memory sort buffer for locality provider to mitigate join amplification (#26616)](https://github.com/risingwavelabs/risingwave/pull/26616)
+
+## nightly-20261008
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e58cfcde2034ec2583576fdb2f25a3a7d0281e69...cbe1ba832cba97b26ebd45dfb7da7d6b0828bfc7)
 - `cbe1ba832cba97b26ebd45dfb7da7d6b0828bfc7` [feat(connector): support native Pulsar Avro schemas (#26347)](https://github.com/risingwavelabs/risingwave/pull/26347)
 - `df7d4dfb58931e84b59d61c9006602fb1a760d2e` [feat(iceberg): share ADLS file IO configuration (#27407)](https://github.com/risingwavelabs/risingwave/pull/27407)
 - `15580df3bd3dc87d3f4d02dcfce3e88ca253c506` [fix(connector): stop the Kafka reader drop from blocking the actor thread (#27141)](https://github.com/risingwavelabs/risingwave/pull/27141)
