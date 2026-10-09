@@ -319,6 +319,18 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bab4f96e4f8529a5367524a1ce0a62c9bb26ca1e` [fix(ci): pass merge queue base ref to paths-filter (#26273)](https://github.com/risingwavelabs/risingwave/pull/26273)
+- `dbe4cce35c7d07b187108db462486de959e5635b` [fix(cdc): validate SQL Server table name casing (#27411)](https://github.com/risingwavelabs/risingwave/pull/27411)
+- `35e248ecb9b6c78166d8a235e9f961d91b54a79a` [fix(meta): fill secrets before validating altered sink props (#27183)](https://github.com/risingwavelabs/risingwave/pull/27183)
+- `15d8fcf9f3e8f4bb17fbbfe3dd07a100b67452c6` [chore(deps): Bump comfy-table from 7.2.2 to 8.0.0 (#27272)](https://github.com/risingwavelabs/risingwave/pull/27272)
+- `f0ccfe6670b95b39cd75d82e78e171c9ba2be4b7` [fix(frontend): allow schema-qualified CDC source in mysql_query / postgres_query TVF (#26712)](https://github.com/risingwavelabs/risingwave/pull/26712)
+- `88e4237f9fbf06ef45f153a8c903659b3187ae5b` [fix(frontend): reject time travel in streaming jobs (#27423)](https://github.com/risingwavelabs/risingwave/pull/27423)
+- `85be8e0066b170cabfdb38b889909f2c2ad8444a` [chore(deps): Bump phf from 0.13.1 to 0.14.0 (#27310)](https://github.com/risingwavelabs/risingwave/pull/27310)
+- `570299527f695dedd85ed154c4ce42be81065b26` [fix(stream): forward upstream rows of finished vnodes after a backfill reschedule (#27384)](https://github.com/risingwavelabs/risingwave/pull/27384)
+- `4117adbb367d074b55da3dc652bccd6882ddba42` [fix(optimizer): do not duplicate non-trivial expressions when merging projects (#27263)](https://github.com/risingwavelabs/risingwave/pull/27263)
+- `a80eed9b43c170a45356b92454060d9eb2b32216` [fix(sink): keep the old-pk delete when an update changes the sink pk (#27417)](https://github.com/risingwavelabs/risingwave/pull/27417)
+- `49216d189b0b9541fedfa079ec8619ac2a5a6f09` [feat(meta): maintain Iceberg V3 as an independent job (#26981)](https://github.com/risingwavelabs/risingwave/pull/26981)
+- `79c34f58e5fdaf77374a883e8fa098b775fb20f7` [fix(frontend): avoid planner panics on indexes over single-row or TopN materialized views (#27177)](https://github.com/risingwavelabs/risingwave/pull/27177)
 - `7cfecddcc59ccdf48502b7434c3def1b7fc53eb5` [feat(stream): bounded-memory sort buffer for locality provider to mitigate join amplification (#26616)](https://github.com/risingwavelabs/risingwave/pull/26616)
 
 ## nightly-20261008
