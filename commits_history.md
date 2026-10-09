@@ -319,6 +319,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9758f3acb5c41d3810f8cfa5bf7a121c4a0d0200` [chore(deps): Bump next from 16.3.3 to 16.3.8 in /dashboard (#27410)](https://github.com/risingwavelabs/risingwave/pull/27410)
 - `bab4f96e4f8529a5367524a1ce0a62c9bb26ca1e` [fix(ci): pass merge queue base ref to paths-filter (#26273)](https://github.com/risingwavelabs/risingwave/pull/26273)
 - `dbe4cce35c7d07b187108db462486de959e5635b` [fix(cdc): validate SQL Server table name casing (#27411)](https://github.com/risingwavelabs/risingwave/pull/27411)
 - `35e248ecb9b6c78166d8a235e9f961d91b54a79a` [fix(meta): fill secrets before validating altered sink props (#27183)](https://github.com/risingwavelabs/risingwave/pull/27183)
