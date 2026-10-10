@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261010` `854602139cba8cb682b42d6481a9be94c4583ad3`
 - `20261008` `cbe1ba832cba97b26ebd45dfb7da7d6b0828bfc7`
 - `20261007` `e58cfcde2034ec2583576fdb2f25a3a7d0281e69`
 - `20261006` `4274ca1677c470d237f800b177b0d5c4c8116f25`
@@ -319,6 +320,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261010
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/cbe1ba832cba97b26ebd45dfb7da7d6b0828bfc7...854602139cba8cb682b42d6481a9be94c4583ad3)
 - `854602139cba8cb682b42d6481a9be94c4583ad3` [chore(deps): Bump quick-xml from 0.41.0 to 0.42.0 (#27326)](https://github.com/risingwavelabs/risingwave/pull/27326)
 - `a9eb867e95a7110986413da7e67dce4946cd14a0` [fix(connector): preserve Pub/Sub emulator precedence (#27151)](https://github.com/risingwavelabs/risingwave/pull/27151)
 - `3e1994c139122c65f428e26c9383bc501ab87fc9` [fix(cdc): cancel engine startup when the reader is dropped (#27418)](https://github.com/risingwavelabs/risingwave/pull/27418)
