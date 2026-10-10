@@ -319,6 +319,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `854602139cba8cb682b42d6481a9be94c4583ad3` [chore(deps): Bump quick-xml from 0.41.0 to 0.42.0 (#27326)](https://github.com/risingwavelabs/risingwave/pull/27326)
+- `a9eb867e95a7110986413da7e67dce4946cd14a0` [fix(connector): preserve Pub/Sub emulator precedence (#27151)](https://github.com/risingwavelabs/risingwave/pull/27151)
+- `3e1994c139122c65f428e26c9383bc501ab87fc9` [fix(cdc): cancel engine startup when the reader is dropped (#27418)](https://github.com/risingwavelabs/risingwave/pull/27418)
+- `87025de4c9e0785baf9ded2031a791f4de508453` [fix(binder): reject ambiguous correlated column references (#27242)](https://github.com/risingwavelabs/risingwave/pull/27242)
+- `b7561fcaf3a821877480f85d6787fcf7a809c799` [fix(meta): support DROP CONNECTOR on tables with more than one internal table (#27363)](https://github.com/risingwavelabs/risingwave/pull/27363)
 - `9758f3acb5c41d3810f8cfa5bf7a121c4a0d0200` [chore(deps): Bump next from 16.3.3 to 16.3.8 in /dashboard (#27410)](https://github.com/risingwavelabs/risingwave/pull/27410)
 - `bab4f96e4f8529a5367524a1ce0a62c9bb26ca1e` [fix(ci): pass merge queue base ref to paths-filter (#26273)](https://github.com/risingwavelabs/risingwave/pull/26273)
 - `dbe4cce35c7d07b187108db462486de959e5635b` [fix(cdc): validate SQL Server table name casing (#27411)](https://github.com/risingwavelabs/risingwave/pull/27411)
