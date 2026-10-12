@@ -320,6 +320,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `89727dbc4ede81830567496e42e1b3d9c626c452` [refactor(stream): delay snapshot backfill runtime edges (#26776)](https://github.com/risingwavelabs/risingwave/pull/26776)
+- `6ec41b939fbb6c8faaf3df8b29331e5e47214518` [chore(deps): Bump pulsar from 6.7.1 to 6.9.0 (#27296)](https://github.com/risingwavelabs/risingwave/pull/27296)
+- `a2222958e6004bd164872cac085281e183a8cf85` [chore(deps): Bump redis from 1.2.4 to 1.7.1 (#27440)](https://github.com/risingwavelabs/risingwave/pull/27440)
+- `c98277272363f3f469cc980c79e9924f480f18a8` [refactor(proto): cleanup unused fields to reduce confusion (#21133)](https://github.com/risingwavelabs/risingwave/pull/21133)
+- `c811a27391f0e7d10f5b773fde9330757fea31a2` [fix(cdc): reduce default heartbeat interval to 60 seconds (#27453)](https://github.com/risingwavelabs/risingwave/pull/27453)
 - `642a453c61ec7f2d11e8b249246678f3fce67dad` [fix(meta): synchronize catalog versions with frontend notifications (#27408)](https://github.com/risingwavelabs/risingwave/pull/27408)
 
 ## nightly-20261011
