@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261012` `6ec41b939fbb6c8faaf3df8b29331e5e47214518`
 - `20261011` `854602139cba8cb682b42d6481a9be94c4583ad3`
 - `20261008` `cbe1ba832cba97b26ebd45dfb7da7d6b0828bfc7`
 - `20261007` `e58cfcde2034ec2583576fdb2f25a3a7d0281e69`
@@ -320,7 +321,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0a7901b455fa892d07721cbab35eaf7cd8177278` [fix(cdc): start SQL Server sources on databases with no recent change (#27441)](https://github.com/risingwavelabs/risingwave/pull/27441)
+- `7b45e51a0574d91b37e2a22a2f6e32d7b961eee4` [feat(connector): add INCLUDE header on NATS mirroring the Kafka source. (#26635)](https://github.com/risingwavelabs/risingwave/pull/26635)
 - `89727dbc4ede81830567496e42e1b3d9c626c452` [refactor(stream): delay snapshot backfill runtime edges (#26776)](https://github.com/risingwavelabs/risingwave/pull/26776)
+
+## nightly-20261012
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/854602139cba8cb682b42d6481a9be94c4583ad3...6ec41b939fbb6c8faaf3df8b29331e5e47214518)
 - `6ec41b939fbb6c8faaf3df8b29331e5e47214518` [chore(deps): Bump pulsar from 6.7.1 to 6.9.0 (#27296)](https://github.com/risingwavelabs/risingwave/pull/27296)
 - `a2222958e6004bd164872cac085281e183a8cf85` [chore(deps): Bump redis from 1.2.4 to 1.7.1 (#27440)](https://github.com/risingwavelabs/risingwave/pull/27440)
 - `c98277272363f3f469cc980c79e9924f480f18a8` [refactor(proto): cleanup unused fields to reduce confusion (#21133)](https://github.com/risingwavelabs/risingwave/pull/21133)
