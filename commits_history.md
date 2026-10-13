@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261013` `a73da86c62ca212e6f14e3f4e1661627ef2857fd`
 - `20261012` `6ec41b939fbb6c8faaf3df8b29331e5e47214518`
 - `20261011` `854602139cba8cb682b42d6481a9be94c4583ad3`
 - `20261008` `cbe1ba832cba97b26ebd45dfb7da7d6b0828bfc7`
@@ -321,6 +322,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `66d3d5dda63284d0c74d954db1fab850019ac570` [fix(stream): avoid throttling generate_series with now_progress_ratio (#27191)](https://github.com/risingwavelabs/risingwave/pull/27191)
+- `cfdfa236226e05a4f60c920e0bd00c3b579ee09e` [fix(iceberg): recover compaction schedules after meta restart (#27449)](https://github.com/risingwavelabs/risingwave/pull/27449)
+
+## nightly-20261013
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6ec41b939fbb6c8faaf3df8b29331e5e47214518...a73da86c62ca212e6f14e3f4e1661627ef2857fd)
 - `a73da86c62ca212e6f14e3f4e1661627ef2857fd` [fix(stream): check the MATCH_RECOGNIZE position arithmetic that release builds would wrap (#27251)](https://github.com/risingwavelabs/risingwave/pull/27251)
 - `9136e6a250670d0942c40086cc1e35e2584548c7` [refactor(connector): tidy the NATS INCLUDE header code and its e2e test (#27481)](https://github.com/risingwavelabs/risingwave/pull/27481)
 - `84f54dc5bc6e400492c69298a2855fdcfd0126b5` [chore(ci): stop dependabot from bumping parquet-variant crates alone (#27448)](https://github.com/risingwavelabs/risingwave/pull/27448)
