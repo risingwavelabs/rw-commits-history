@@ -321,6 +321,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a73da86c62ca212e6f14e3f4e1661627ef2857fd` [fix(stream): check the MATCH_RECOGNIZE position arithmetic that release builds would wrap (#27251)](https://github.com/risingwavelabs/risingwave/pull/27251)
+- `9136e6a250670d0942c40086cc1e35e2584548c7` [refactor(connector): tidy the NATS INCLUDE header code and its e2e test (#27481)](https://github.com/risingwavelabs/risingwave/pull/27481)
+- `84f54dc5bc6e400492c69298a2855fdcfd0126b5` [chore(ci): stop dependabot from bumping parquet-variant crates alone (#27448)](https://github.com/risingwavelabs/risingwave/pull/27448)
+- `a1b12624a2bd566dee3b48eacec7bb21e6ab81bd` [fix(stream): build EOWC over window eviction keys by column index (#27473)](https://github.com/risingwavelabs/risingwave/pull/27473)
+- `ee952a6eb0d106b804702b3f27929b9d8cb100bf` [feat: add mssql_query table function support (#26843)](https://github.com/risingwavelabs/risingwave/pull/26843)
+- `db39c79d6564bf034c3b17eb0723c079dc1a3485` [feat(meta): apply Iceberg V3 compaction with barriers (#26982)](https://github.com/risingwavelabs/risingwave/pull/26982)
+- `fc8b3204ac01c7e47b4b2abcf684e76a67663108` [fix(frontend): keep the table watermark in ALTER TABLE DROP CONNECTOR (#27364)](https://github.com/risingwavelabs/risingwave/pull/27364)
 - `0a7901b455fa892d07721cbab35eaf7cd8177278` [fix(cdc): start SQL Server sources on databases with no recent change (#27441)](https://github.com/risingwavelabs/risingwave/pull/27441)
 - `7b45e51a0574d91b37e2a22a2f6e32d7b961eee4` [feat(connector): add INCLUDE header on NATS mirroring the Kafka source. (#26635)](https://github.com/risingwavelabs/risingwave/pull/26635)
 - `89727dbc4ede81830567496e42e1b3d9c626c452` [refactor(stream): delay snapshot backfill runtime edges (#26776)](https://github.com/risingwavelabs/risingwave/pull/26776)
