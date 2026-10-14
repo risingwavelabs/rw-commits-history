@@ -322,6 +322,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6573ace8ef03e2c16b4e4f8460d8f1a99f4c6ba3` [fix(frontend): reject duplicate struct field names (#26534)](https://github.com/risingwavelabs/risingwave/pull/26534)
+- `ca9699af86818f0d4f83c5e5066e89e00fb15e07` [fix(stream): expire TTL rows by the forwarded watermark (#27498)](https://github.com/risingwavelabs/risingwave/pull/27498)
+- `a95dd18fc0d4beb1b126b05b48aba7855bdbf9da` [feat(meta): support database filters in diagnostic reports (#27460)](https://github.com/risingwavelabs/risingwave/pull/27460)
+- `a81386ab88eadf3436464f9859473b9b84710124` [chore(lints): detect temporary guarded metric updates (#26391)](https://github.com/risingwavelabs/risingwave/pull/26391)
 - `66d3d5dda63284d0c74d954db1fab850019ac570` [fix(stream): avoid throttling generate_series with now_progress_ratio (#27191)](https://github.com/risingwavelabs/risingwave/pull/27191)
 - `cfdfa236226e05a4f60c920e0bd00c3b579ee09e` [fix(iceberg): recover compaction schedules after meta restart (#27449)](https://github.com/risingwavelabs/risingwave/pull/27449)
 
