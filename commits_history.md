@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261015` `5a2ba9965936c5945c925097acb0f260ed95830a`
 - `20261013` `a73da86c62ca212e6f14e3f4e1661627ef2857fd`
 - `20261012` `6ec41b939fbb6c8faaf3df8b29331e5e47214518`
 - `20261011` `854602139cba8cb682b42d6481a9be94c4583ad3`
@@ -322,6 +323,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261015
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a73da86c62ca212e6f14e3f4e1661627ef2857fd...5a2ba9965936c5945c925097acb0f260ed95830a)
 - `5a2ba9965936c5945c925097acb0f260ed95830a` [fix(stream): recover CDC backfill from snapshot read failures (#27269)](https://github.com/risingwavelabs/risingwave/pull/27269)
 - `88349178e10295c41822e7b0b84642702814d877` [test(common): pin decimal hash and encodings for backward compatibility (#27425)](https://github.com/risingwavelabs/risingwave/pull/27425)
 - `1d1c04166fda93756acb1454450d44d69f4434c6` [fix(sink): maintain kv log store buffer metrics incrementally (#27514)](https://github.com/risingwavelabs/risingwave/pull/27514)
