@@ -322,6 +322,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `5a2ba9965936c5945c925097acb0f260ed95830a` [fix(stream): recover CDC backfill from snapshot read failures (#27269)](https://github.com/risingwavelabs/risingwave/pull/27269)
+- `88349178e10295c41822e7b0b84642702814d877` [test(common): pin decimal hash and encodings for backward compatibility (#27425)](https://github.com/risingwavelabs/risingwave/pull/27425)
+- `1d1c04166fda93756acb1454450d44d69f4434c6` [fix(sink): maintain kv log store buffer metrics incrementally (#27514)](https://github.com/risingwavelabs/risingwave/pull/27514)
 - `85d3b93386d9285a707c3010aed94251cd1a2d5d` [fix(source): retry when Pulsar consumer terminates (#27505)](https://github.com/risingwavelabs/risingwave/pull/27505)
 - `bdffe73c2d80f07eecea1dd02783d6d82a578050` [fix(frontend): check CREATE privilege before fetching schema (#27513)](https://github.com/risingwavelabs/risingwave/pull/27513)
 - `6573ace8ef03e2c16b4e4f8460d8f1a99f4c6ba3` [fix(frontend): reject duplicate struct field names (#26534)](https://github.com/risingwavelabs/risingwave/pull/26534)
