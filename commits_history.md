@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261016` `bbcb64604a47f4ef31b01fbfdda48764091baa43`
 - `20261015` `5a2ba9965936c5945c925097acb0f260ed95830a`
 - `20261013` `a73da86c62ca212e6f14e3f4e1661627ef2857fd`
 - `20261012` `6ec41b939fbb6c8faaf3df8b29331e5e47214518`
@@ -323,6 +324,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261016
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/5a2ba9965936c5945c925097acb0f260ed95830a...bbcb64604a47f4ef31b01fbfdda48764091baa43)
 - `bbcb64604a47f4ef31b01fbfdda48764091baa43` [fix(iceberg): ignore commit epoch markers on replace snapshots (#27530)](https://github.com/risingwavelabs/risingwave/pull/27530)
 - `7d90bc4c8ff2c0210ea2ba079e02f80f941b2369` [feat(storage): support bounded PK-index compaction planning (#27536)](https://github.com/risingwavelabs/risingwave/pull/27536)
 - `dfaf4a9b2eed52cce33b172ce75b520b57d61907` [fix(metrics): hide actor IDs below debug level (#26950)](https://github.com/risingwavelabs/risingwave/pull/26950)
