@@ -323,6 +323,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `bbcb64604a47f4ef31b01fbfdda48764091baa43` [fix(iceberg): ignore commit epoch markers on replace snapshots (#27530)](https://github.com/risingwavelabs/risingwave/pull/27530)
+- `7d90bc4c8ff2c0210ea2ba079e02f80f941b2369` [feat(storage): support bounded PK-index compaction planning (#27536)](https://github.com/risingwavelabs/risingwave/pull/27536)
+- `dfaf4a9b2eed52cce33b172ce75b520b57d61907` [fix(metrics): hide actor IDs below debug level (#26950)](https://github.com/risingwavelabs/risingwave/pull/26950)
+- `468f5100a42dd9af2bd30c36d9f8c887238b58a7` [fix(stream): forward buffered upstream rows when arrangement backfill finishes on a barrier (#27532)](https://github.com/risingwavelabs/risingwave/pull/27532)
+- `1a711f0a8c43526fd37fce071e45128f1f4467ff` [fix(object-store): avoid redundant stat for empty fs entries (#27372)](https://github.com/risingwavelabs/risingwave/pull/27372)
+- `d73b9920741d8ca046ef89d642cd12fd59eb558d` [fix(optimizer): output NULL for streaming sum when no non-NULL input is left (#27429)](https://github.com/risingwavelabs/risingwave/pull/27429)
+- `8788045495fb4b04c7e0dd237b10c5206daa1b06` [feat(connector): initialize Oracle heartbeat tables automatically and add CI workflow (#27128)](https://github.com/risingwavelabs/risingwave/pull/27128)
+- `3ac60532359fe5710b4a3c3cb67dbb63e1841b22` [fix(stream): support changelog over a singleton input (#27524)](https://github.com/risingwavelabs/risingwave/pull/27524)
 
 ## nightly-20261015
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a73da86c62ca212e6f14e3f4e1661627ef2857fd...5a2ba9965936c5945c925097acb0f260ed95830a)
