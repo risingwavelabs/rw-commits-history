@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261017` `10f34562f0fdc2f3016b3bd1a770d9e1d0e59af0`
 - `20261016` `bbcb64604a47f4ef31b01fbfdda48764091baa43`
 - `20261015` `5a2ba9965936c5945c925097acb0f260ed95830a`
 - `20261013` `a73da86c62ca212e6f14e3f4e1661627ef2857fd`
@@ -324,6 +325,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261017
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/bbcb64604a47f4ef31b01fbfdda48764091baa43...10f34562f0fdc2f3016b3bd1a770d9e1d0e59af0)
 - `10f34562f0fdc2f3016b3bd1a770d9e1d0e59af0` [fix(stream): clean both asof join tables by the watermarks of both sides (#27497)](https://github.com/risingwavelabs/risingwave/pull/27497)
 
 ## nightly-20261016
