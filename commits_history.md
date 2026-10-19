@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261019` `a6100edc063c3763148df186e4dafa06010b2dbd`
 - `20261018` `10f34562f0fdc2f3016b3bd1a770d9e1d0e59af0`
 - `20261016` `bbcb64604a47f4ef31b01fbfdda48764091baa43`
 - `20261015` `5a2ba9965936c5945c925097acb0f260ed95830a`
@@ -325,6 +326,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261019
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10f34562f0fdc2f3016b3bd1a770d9e1d0e59af0...a6100edc063c3763148df186e4dafa06010b2dbd)
 - `a6100edc063c3763148df186e4dafa06010b2dbd` [feat(connector): support native Pulsar JSON schemas (#27454)](https://github.com/risingwavelabs/risingwave/pull/27454)
 - `c301386485057447e154fdc90e4d3c46db7cf0d8` [feat(iceberg): support GCS vended credentials with native Google authentication (#27528)](https://github.com/risingwavelabs/risingwave/pull/27528)
 
