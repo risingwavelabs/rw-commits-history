@@ -326,6 +326,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `7c5bb80f065b52e3eeaab0e0739684772d48aafc` [feat(iceberg): support orphan file cleanup (#26303)](https://github.com/risingwavelabs/risingwave/pull/26303)
+- `a4257b12de7c045f60446480c5bd84c246fbd2e1` [feat(meta): support Iceberg V3 change log truncation (#27465)](https://github.com/risingwavelabs/risingwave/pull/27465)
+- `88b07cc0d4ee68b179b254257226f9ac7337ee07` [test(source): tolerate at-least-once duplicates in Kafka TPC-H (#27533)](https://github.com/risingwavelabs/risingwave/pull/27533)
+- `68d291bc4c569577c76a86ccba06824e95894f4f` [fix(storage): retain L0 refill candidates across table truncation (#27554)](https://github.com/risingwavelabs/risingwave/pull/27554)
 
 ## nightly-20261019
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/10f34562f0fdc2f3016b3bd1a770d9e1d0e59af0...a6100edc063c3763148df186e4dafa06010b2dbd)
