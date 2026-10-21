@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261021` `c1be76ab548f90b8fdf1131f66310c702a2d9632`
 - `20261020` `a4257b12de7c045f60446480c5bd84c246fbd2e1`
 - `20261019` `a6100edc063c3763148df186e4dafa06010b2dbd`
 - `20261018` `10f34562f0fdc2f3016b3bd1a770d9e1d0e59af0`
@@ -327,6 +328,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261021
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a4257b12de7c045f60446480c5bd84c246fbd2e1...c1be76ab548f90b8fdf1131f66310c702a2d9632)
 - `c1be76ab548f90b8fdf1131f66310c702a2d9632` [feat(meta): coordinate PK-index Iceberg compaction lifecycle (#27537)](https://github.com/risingwavelabs/risingwave/pull/27537)
 - `6ab0d6e9f1b88a8412d43faa0367ddb44d6d25f7` [fix(meta): do not serialize secret store private key in MetaOpts (#27586)](https://github.com/risingwavelabs/risingwave/pull/27586)
 - `a6b327b73bce9df472d1e652b41c09972dd5488d` [fix(sink): skip empty pipeline in redis sink commit (#27561)](https://github.com/risingwavelabs/risingwave/pull/27561)
