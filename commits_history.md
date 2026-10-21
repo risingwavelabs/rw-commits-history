@@ -327,6 +327,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c1be76ab548f90b8fdf1131f66310c702a2d9632` [feat(meta): coordinate PK-index Iceberg compaction lifecycle (#27537)](https://github.com/risingwavelabs/risingwave/pull/27537)
+- `6ab0d6e9f1b88a8412d43faa0367ddb44d6d25f7` [fix(meta): do not serialize secret store private key in MetaOpts (#27586)](https://github.com/risingwavelabs/risingwave/pull/27586)
+- `a6b327b73bce9df472d1e652b41c09972dd5488d` [fix(sink): skip empty pipeline in redis sink commit (#27561)](https://github.com/risingwavelabs/risingwave/pull/27561)
+- `ab66b50652901bb29c7f81e4df5e11d6ddceafc5` [chore(deps): Bump hyper from 1.11.1 to 1.12.0 (#27570)](https://github.com/risingwavelabs/risingwave/pull/27570)
+- `950861eca7946528f7316a095ed51d9ec334a9bc` [fix(common): accept explicit scheme-default port in HostAddr parsing (#26793)](https://github.com/risingwavelabs/risingwave/pull/26793)
 - `1853d7333572f75e322d53a3e7e81f580729307b` [fix(mysql-cdc): monitor binlogs for multi-database sources (#27565)](https://github.com/risingwavelabs/risingwave/pull/27565)
 - `f0965ff531028e145ea5ab8174129b679c35e00f` [fix: make SQL option redaction allowlist configurable (#27560)](https://github.com/risingwavelabs/risingwave/pull/27560)
 - `7c5bb80f065b52e3eeaab0e0739684772d48aafc` [feat(iceberg): support orphan file cleanup (#26303)](https://github.com/risingwavelabs/risingwave/pull/26303)
