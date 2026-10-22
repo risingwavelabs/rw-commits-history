@@ -328,6 +328,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `12aa1856e10ef62ea82c0d7460992451f4ab5851` [chore(deps): Bump the mysql group across 1 directory with 2 updates (#27569)](https://github.com/risingwavelabs/risingwave/pull/27569)
+- `938a63e15b174b3d239167f9e152232b70909696` [test: add E2E and simulation tests for pk-index compaction (#26567)](https://github.com/risingwavelabs/risingwave/pull/26567)
+- `8184836f2400ecea2b41fd8e2053d90a9e50fd04` [fix(connector): restore base64 Pub/Sub source credentials (#27603)](https://github.com/risingwavelabs/risingwave/pull/27603)
+- `95251fecfad57bbe6ed97c4ea2254ad8c66b08a6` [fix(frontend): return an error for leftover subquery expressions instead of panicking (#27592)](https://github.com/risingwavelabs/risingwave/pull/27592)
 
 ## nightly-20261021
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a4257b12de7c045f60446480c5bd84c246fbd2e1...c1be76ab548f90b8fdf1131f66310c702a2d9632)
