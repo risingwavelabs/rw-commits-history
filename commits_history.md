@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261023` `73219848e4fb2193d0da283068824613973008db`
 - `20261022` `12aa1856e10ef62ea82c0d7460992451f4ab5851`
 - `20261021` `c1be76ab548f90b8fdf1131f66310c702a2d9632`
 - `20261020` `a4257b12de7c045f60446480c5bd84c246fbd2e1`
@@ -329,6 +330,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261023
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/12aa1856e10ef62ea82c0d7460992451f4ab5851...73219848e4fb2193d0da283068824613973008db)
 - `73219848e4fb2193d0da283068824613973008db` [perf(stream): batch and parallelize iceberg pk-index lookups (#27626)](https://github.com/risingwavelabs/risingwave/pull/27626)
 - `7d26b000050dac46b0511bb02f673a21b0c16020` [refactor(storage): separate version updates from cache refill (#27553)](https://github.com/risingwavelabs/risingwave/pull/27553)
 - `1fb03281b8f920305526dd25213984f148cb9731` [fix(stream): hide rows below the pending watermark from state table reads (#27499)](https://github.com/risingwavelabs/risingwave/pull/27499)
