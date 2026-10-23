@@ -329,6 +329,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `73219848e4fb2193d0da283068824613973008db` [perf(stream): batch and parallelize iceberg pk-index lookups (#27626)](https://github.com/risingwavelabs/risingwave/pull/27626)
+- `7d26b000050dac46b0511bb02f673a21b0c16020` [refactor(storage): separate version updates from cache refill (#27553)](https://github.com/risingwavelabs/risingwave/pull/27553)
+- `1fb03281b8f920305526dd25213984f148cb9731` [fix(stream): hide rows below the pending watermark from state table reads (#27499)](https://github.com/risingwavelabs/risingwave/pull/27499)
 - `dbcc6979aca65786433fa308821947a8243082d3` [fix(cdc): escape identifiers in external table snapshot queries (#27606)](https://github.com/risingwavelabs/risingwave/pull/27606)
 
 ## nightly-20261022
