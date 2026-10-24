@@ -330,6 +330,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1c69fba082ea181ac97ef487f6e341c95bb68493` [fix(sink): order BigQuery upsert changes with _CHANGE_SEQUENCE_NUMBER (#27587)](https://github.com/risingwavelabs/risingwave/pull/27587)
 
 ## nightly-20261023
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/12aa1856e10ef62ea82c0d7460992451f4ab5851...73219848e4fb2193d0da283068824613973008db)
