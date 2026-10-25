@@ -1,7 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
-- `20261024` `1c69fba082ea181ac97ef487f6e341c95bb68493`
+- `20261025` `1c69fba082ea181ac97ef487f6e341c95bb68493`
 - `20261023` `73219848e4fb2193d0da283068824613973008db`
 - `20261022` `12aa1856e10ef62ea82c0d7460992451f4ab5851`
 - `20261021` `c1be76ab548f90b8fdf1131f66310c702a2d9632`
@@ -331,8 +331,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `204e26366a72c199153b6164df4313892d5632fe` [fix(frontend): bind correlated references to their owning scope (#27540)](https://github.com/risingwavelabs/risingwave/pull/27540)
 
-## nightly-20261024
+## nightly-20261025
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/73219848e4fb2193d0da283068824613973008db...1c69fba082ea181ac97ef487f6e341c95bb68493)
 - `1c69fba082ea181ac97ef487f6e341c95bb68493` [fix(sink): order BigQuery upsert changes with _CHANGE_SEQUENCE_NUMBER (#27587)](https://github.com/risingwavelabs/risingwave/pull/27587)
 
