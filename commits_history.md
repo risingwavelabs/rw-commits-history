@@ -331,6 +331,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `844090452c63b3f47469c6e8992d748dcfaf2b6a` [perf(storage): avoid version waits for readable batch query epochs (#27661)](https://github.com/risingwavelabs/risingwave/pull/27661)
+- `a85df2313a14259216df577f87e7e33b2d5df683` [feat(iceberg): list tables in storage catalog (#27655)](https://github.com/risingwavelabs/risingwave/pull/27655)
+- `fc7a02f7bba68fff4fcb1466bd3c24a47afe0f5e` [test(iceberg): wait longer for sink commits in predicate_pushdown bench (#27645)](https://github.com/risingwavelabs/risingwave/pull/27645)
+- `a34725112f71053f293b0d6f4dac050565db37a5` [fix(optimizer): keep at least one group key in AggGroupBySimplifyRule (#27594)](https://github.com/risingwavelabs/risingwave/pull/27594)
 - `204e26366a72c199153b6164df4313892d5632fe` [fix(frontend): bind correlated references to their owning scope (#27540)](https://github.com/risingwavelabs/risingwave/pull/27540)
 
 ## nightly-20261025
