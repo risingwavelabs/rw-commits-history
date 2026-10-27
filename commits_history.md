@@ -331,6 +331,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f0fada2d492ecaccc577f6ee66c176535a2e9770` [chore(deps): Bump uuid from 1.26.1 to 1.28.0 (#27670)](https://github.com/risingwavelabs/risingwave/pull/27670)
+- `5f7d001b4c1cea467482acd1b3ed2264bf6ce363` [fix(frontend): don't derive watermarks through timestamp ± months (#27648)](https://github.com/risingwavelabs/risingwave/pull/27648)
+- `f47dc7ac3f4f7213acf1db6103401eac58acf1da` [fix(batch): avoid extra NULL rows in full outer hash join with non-equi condition (#27664)](https://github.com/risingwavelabs/risingwave/pull/27664)
 - `844090452c63b3f47469c6e8992d748dcfaf2b6a` [perf(storage): avoid version waits for readable batch query epochs (#27661)](https://github.com/risingwavelabs/risingwave/pull/27661)
 - `a85df2313a14259216df577f87e7e33b2d5df683` [feat(iceberg): list tables in storage catalog (#27655)](https://github.com/risingwavelabs/risingwave/pull/27655)
 - `fc7a02f7bba68fff4fcb1466bd3c24a47afe0f5e` [test(iceberg): wait longer for sink commits in predicate_pushdown bench (#27645)](https://github.com/risingwavelabs/risingwave/pull/27645)
