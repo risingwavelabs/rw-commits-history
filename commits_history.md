@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261027` `f0fada2d492ecaccc577f6ee66c176535a2e9770`
 - `20261025` `1c69fba082ea181ac97ef487f6e341c95bb68493`
 - `20261023` `73219848e4fb2193d0da283068824613973008db`
 - `20261022` `12aa1856e10ef62ea82c0d7460992451f4ab5851`
@@ -331,6 +332,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `fdd6b66db567306535a8fe202261c815d5584d39` [fix(cdc): commit offsets persisted on non-checkpoint barriers (#27640)](https://github.com/risingwavelabs/risingwave/pull/27640)
+
+## nightly-20261027
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/1c69fba082ea181ac97ef487f6e341c95bb68493...f0fada2d492ecaccc577f6ee66c176535a2e9770)
 - `f0fada2d492ecaccc577f6ee66c176535a2e9770` [chore(deps): Bump uuid from 1.26.1 to 1.28.0 (#27670)](https://github.com/risingwavelabs/risingwave/pull/27670)
 - `5f7d001b4c1cea467482acd1b3ed2264bf6ce363` [fix(frontend): don't derive watermarks through timestamp ± months (#27648)](https://github.com/risingwavelabs/risingwave/pull/27648)
 - `f47dc7ac3f4f7213acf1db6103401eac58acf1da` [fix(batch): avoid extra NULL rows in full outer hash join with non-equi condition (#27664)](https://github.com/risingwavelabs/risingwave/pull/27664)
