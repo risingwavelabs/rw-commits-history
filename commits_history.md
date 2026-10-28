@@ -332,6 +332,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e3fe3b25cabf7d05dfa034492931f41d541183b6` [fix(iceberg): honor compaction interval between pk-index batches (#27625)](https://github.com/risingwavelabs/risingwave/pull/27625)
+- `97d03691ed0115e16dce8e567c54c7e8fd4e2741` [chore(deps): Bump next from 16.3.8 to 16.4.1 in /dashboard (#27674)](https://github.com/risingwavelabs/risingwave/pull/27674)
+- `f9f50e79a01d7e593f2acec1eb49e1cd4d606bbe` [fix(sqlparser): parse IS [NOT] DISTINCT FROM tighter than AND and OR (#27694)](https://github.com/risingwavelabs/risingwave/pull/27694)
+- `decbbdf0a564d0805119affff987de1db9b1f130` [fix(streaming): correlated ARRAY subquery emits transient NULL in MV (#26655)](https://github.com/risingwavelabs/risingwave/pull/26655)
+- `779b57beed4f697819dc4ecfed0e05479c4720fe` [refactor(cdc): move CDC runtime flags onto a per-connector trait (#27672)](https://github.com/risingwavelabs/risingwave/pull/27672)
+- `416ff3d2ecb0026f2f330d16074172d7dfb5533e` [refactor(cdc): unify CDC connector naming across enums and proto (#27422)](https://github.com/risingwavelabs/risingwave/pull/27422)
+- `3a2a460c215935279a63b86b8e3bb439b872926c` [chore(stream): check in debug builds that executors output no rows below their watermarks (#27559)](https://github.com/risingwavelabs/risingwave/pull/27559)
+- `51098d226068f99b674c5bbfa7a4d3c1dc054f73` [fix(meta): send notification service responses zstd-compressed (#27654)](https://github.com/risingwavelabs/risingwave/pull/27654)
+- `dea532d7f84f715a7c25874fccef4e462990ddee` [refactor(optimizer): remove column pruning workaround in GroupingSetsToExpandRule (#27652)](https://github.com/risingwavelabs/risingwave/pull/27652)
 - `fdd6b66db567306535a8fe202261c815d5584d39` [fix(cdc): commit offsets persisted on non-checkpoint barriers (#27640)](https://github.com/risingwavelabs/risingwave/pull/27640)
 
 ## nightly-20261027
