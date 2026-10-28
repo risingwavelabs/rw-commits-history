@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261028` `e3fe3b25cabf7d05dfa034492931f41d541183b6`
 - `20261027` `f0fada2d492ecaccc577f6ee66c176535a2e9770`
 - `20261025` `1c69fba082ea181ac97ef487f6e341c95bb68493`
 - `20261023` `73219848e4fb2193d0da283068824613973008db`
@@ -332,6 +333,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `001fd4ea7b4d22351cb6d5e3ca23bd3ef42f30cf` [fix(ci): bump cargo-dylint to 6.3.0 for the clippy branch rename (#27703)](https://github.com/risingwavelabs/risingwave/pull/27703)
+
+## nightly-20261028
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f0fada2d492ecaccc577f6ee66c176535a2e9770...e3fe3b25cabf7d05dfa034492931f41d541183b6)
 - `e3fe3b25cabf7d05dfa034492931f41d541183b6` [fix(iceberg): honor compaction interval between pk-index batches (#27625)](https://github.com/risingwavelabs/risingwave/pull/27625)
 - `97d03691ed0115e16dce8e567c54c7e8fd4e2741` [chore(deps): Bump next from 16.3.8 to 16.4.1 in /dashboard (#27674)](https://github.com/risingwavelabs/risingwave/pull/27674)
 - `f9f50e79a01d7e593f2acec1eb49e1cd4d606bbe` [fix(sqlparser): parse IS [NOT] DISTINCT FROM tighter than AND and OR (#27694)](https://github.com/risingwavelabs/risingwave/pull/27694)
