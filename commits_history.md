@@ -333,6 +333,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `8197b045db8794511de9f80d93e7e907b1e1127d` [chore(deps): bump iceberg-rust to merge rewritten delete manifests (#27631)](https://github.com/risingwavelabs/risingwave/pull/27631)
+- `186d5d61dd4483e416a4b7428d9c8936af1974b7` [perf(meta): cache committed data-file partitions in pk-index coordinator (#27630)](https://github.com/risingwavelabs/risingwave/pull/27630)
+- `89fc46f52f50e1cb6d515c337b3ec5cf3e6cbf57` [chore: drop TODOs pointing to the closed #9713 (#27656)](https://github.com/risingwavelabs/risingwave/pull/27656)
+- `0d6da6fca8c1035ecc58deed968feedd44a1dc07` [fix(iceberg): honor commit checkpoint interval for v3 jobs (#27616)](https://github.com/risingwavelabs/risingwave/pull/27616)
+- `b7d0000106a67cb08acca8e88e74580240b0fb6e` [perf(meta): cut per-epoch iceberg pk-index commit I/O (#27629)](https://github.com/risingwavelabs/risingwave/pull/27629)
+- `3a59133313fe2da64c539fc59c8eb7be5787c68f` [refactor(meta): drop pk-index compaction position-delete coalescing (#27702)](https://github.com/risingwavelabs/risingwave/pull/27702)
+- `3cb1a41aba83ef66d6209b0712fa20b4e0bc6a3a` [fix(connector): parse kinesis reader retry intervals from strings (#27686)](https://github.com/risingwavelabs/risingwave/pull/27686)
+- `0ff82f14792748b93d93a05e2d32dcce77071019` [fix(cdc): keep table names unsanitized in Debezium topic names (#27671)](https://github.com/risingwavelabs/risingwave/pull/27671)
 - `001fd4ea7b4d22351cb6d5e3ca23bd3ef42f30cf` [fix(ci): bump cargo-dylint to 6.3.0 for the clippy branch rename (#27703)](https://github.com/risingwavelabs/risingwave/pull/27703)
 
 ## nightly-20261028
