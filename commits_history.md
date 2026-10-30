@@ -333,6 +333,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `96ba4f53fff2afbcba49a91694de1f57675589ba` [feat(risedev): support local StarRocks sink tests (#26961)](https://github.com/risingwavelabs/risingwave/pull/26961)
+- `7761fd84ffa4b9a62811ed9e917c253973f2b145` [fix(meta): reject pending inputs in manual L0 compaction (#27738)](https://github.com/risingwavelabs/risingwave/pull/27738)
+- `cde7308905eca4676f1afbd94b1e5e05addad028` [feat(risedev): support local Doris sink tests (#26680)](https://github.com/risingwavelabs/risingwave/pull/26680)
+- `1286f38a9237f221afd89a61e4c144508025e8d9` [fix(optimizer): infer exactly one row for simple aggregation (#27717)](https://github.com/risingwavelabs/risingwave/pull/27717)
+- `e44f796172b4b8c3e2d0f0278e5b7a4112ba0fae` [fix(frontend): enforce NOT NULL on generated columns (#27424)](https://github.com/risingwavelabs/risingwave/pull/27424)
+- `11378ef76aa65959f58c446252b9b8df5addad1e` [refactor(frontend): rely on meta to delete replaced fragment mappings (#27653)](https://github.com/risingwavelabs/risingwave/pull/27653)
+- `0c5027846acaee069bbc7d056f69eadcbbb9f196` [refactor(connector): build Debezium from a fork submodule instead of class overrides (#27572)](https://github.com/risingwavelabs/risingwave/pull/27572)
+- `a9122f14757494a6d19c3add7f39e45af1c6ae28` [fix(frontend): reject iceberg pk-index sink with auto schema change (#27729)](https://github.com/risingwavelabs/risingwave/pull/27729)
 - `8197b045db8794511de9f80d93e7e907b1e1127d` [chore(deps): bump iceberg-rust to merge rewritten delete manifests (#27631)](https://github.com/risingwavelabs/risingwave/pull/27631)
 - `186d5d61dd4483e416a4b7428d9c8936af1974b7` [perf(meta): cache committed data-file partitions in pk-index coordinator (#27630)](https://github.com/risingwavelabs/risingwave/pull/27630)
 - `89fc46f52f50e1cb6d515c337b3ec5cf3e6cbf57` [chore: drop TODOs pointing to the closed #9713 (#27656)](https://github.com/risingwavelabs/risingwave/pull/27656)
