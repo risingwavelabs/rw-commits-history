@@ -333,6 +333,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d8c0731ad11e065412da1b629b1d9d3aaeccbc18` [chore(deps): drop direct mysql_common dependency in favour of mysql_async re-exports (#27618)](https://github.com/risingwavelabs/risingwave/pull/27618)
+- `3427ce1011ff4425f42ee24e1bafe5e59c1b1318` [refactor(cdc): move CDC source DDL validation into CdcSourceDdlValidator (#27725)](https://github.com/risingwavelabs/risingwave/pull/27725)
+- `346372ae4feae648c8078429ccb2b9f1bf86ce4d` [refactor(cdc): remove the citus-cdc connector (#27723)](https://github.com/risingwavelabs/risingwave/pull/27723)
 - `96ba4f53fff2afbcba49a91694de1f57675589ba` [feat(risedev): support local StarRocks sink tests (#26961)](https://github.com/risingwavelabs/risingwave/pull/26961)
 - `7761fd84ffa4b9a62811ed9e917c253973f2b145` [fix(meta): reject pending inputs in manual L0 compaction (#27738)](https://github.com/risingwavelabs/risingwave/pull/27738)
 - `cde7308905eca4676f1afbd94b1e5e05addad028` [feat(risedev): support local Doris sink tests (#26680)](https://github.com/risingwavelabs/risingwave/pull/26680)
