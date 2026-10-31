@@ -333,6 +333,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `f572af7ebf7d42efcae08f31024ec5908ee30e3a` [refactor: box AWS SDK config loading since its futures are large (#27741)](https://github.com/risingwavelabs/risingwave/pull/27741)
 - `d8c0731ad11e065412da1b629b1d9d3aaeccbc18` [chore(deps): drop direct mysql_common dependency in favour of mysql_async re-exports (#27618)](https://github.com/risingwavelabs/risingwave/pull/27618)
 - `3427ce1011ff4425f42ee24e1bafe5e59c1b1318` [refactor(cdc): move CDC source DDL validation into CdcSourceDdlValidator (#27725)](https://github.com/risingwavelabs/risingwave/pull/27725)
 - `346372ae4feae648c8078429ccb2b9f1bf86ce4d` [refactor(cdc): remove the citus-cdc connector (#27723)](https://github.com/risingwavelabs/risingwave/pull/27723)
