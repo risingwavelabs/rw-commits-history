@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261031` `f572af7ebf7d42efcae08f31024ec5908ee30e3a`
 - `20261028` `e3fe3b25cabf7d05dfa034492931f41d541183b6`
 - `20261027` `f0fada2d492ecaccc577f6ee66c176535a2e9770`
 - `20261025` `1c69fba082ea181ac97ef487f6e341c95bb68493`
@@ -333,6 +334,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261031
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e3fe3b25cabf7d05dfa034492931f41d541183b6...f572af7ebf7d42efcae08f31024ec5908ee30e3a)
 - `f572af7ebf7d42efcae08f31024ec5908ee30e3a` [refactor: box AWS SDK config loading since its futures are large (#27741)](https://github.com/risingwavelabs/risingwave/pull/27741)
 - `d8c0731ad11e065412da1b629b1d9d3aaeccbc18` [chore(deps): drop direct mysql_common dependency in favour of mysql_async re-exports (#27618)](https://github.com/risingwavelabs/risingwave/pull/27618)
 - `3427ce1011ff4425f42ee24e1bafe5e59c1b1318` [refactor(cdc): move CDC source DDL validation into CdcSourceDdlValidator (#27725)](https://github.com/risingwavelabs/risingwave/pull/27725)
