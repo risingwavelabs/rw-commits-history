@@ -334,6 +334,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a5a57ad283851a2d177f398f263c47cc00dbb903` [perf(storage): omit unused fields from serverless compaction reports (#27751)](https://github.com/risingwavelabs/risingwave/pull/27751)
 
 ## nightly-20261031
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e3fe3b25cabf7d05dfa034492931f41d541183b6...f572af7ebf7d42efcae08f31024ec5908ee30e3a)
