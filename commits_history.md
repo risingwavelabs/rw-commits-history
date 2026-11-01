@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261101` `a5a57ad283851a2d177f398f263c47cc00dbb903`
 - `20261031` `f572af7ebf7d42efcae08f31024ec5908ee30e3a`
 - `20261028` `e3fe3b25cabf7d05dfa034492931f41d541183b6`
 - `20261027` `f0fada2d492ecaccc577f6ee66c176535a2e9770`
@@ -334,6 +335,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261101
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/f572af7ebf7d42efcae08f31024ec5908ee30e3a...a5a57ad283851a2d177f398f263c47cc00dbb903)
 - `a5a57ad283851a2d177f398f263c47cc00dbb903` [perf(storage): omit unused fields from serverless compaction reports (#27751)](https://github.com/risingwavelabs/risingwave/pull/27751)
 
 ## nightly-20261031
