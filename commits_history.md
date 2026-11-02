@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261102` `e536bf0851dfabeb0e16e29803920d8db2f8200d`
 - `20261101` `a5a57ad283851a2d177f398f263c47cc00dbb903`
 - `20261031` `f572af7ebf7d42efcae08f31024ec5908ee30e3a`
 - `20261028` `e3fe3b25cabf7d05dfa034492931f41d541183b6`
@@ -335,7 +336,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `4b2dbfabb44161f5b61a3e192f09c53719a01332` [perf(stream): skip conflict check for TOAST-able CDC tables when the chunk has no placeholder (#27620)](https://github.com/risingwavelabs/risingwave/pull/27620)
+- `27a344e9aff9e8ce59ce4c33546b7c8ff7a9ed45` [chore(deps): bump the aws group across 1 directory with 11 updates (#27485)](https://github.com/risingwavelabs/risingwave/pull/27485)
 - `cbb42b6338319bb7c9bf83f7ffd4ed611b85183e` [perf(storage): deserialize SST metadata bytes in bulk (#27755)](https://github.com/risingwavelabs/risingwave/pull/27755)
+
+## nightly-20261102
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a5a57ad283851a2d177f398f263c47cc00dbb903...e536bf0851dfabeb0e16e29803920d8db2f8200d)
 - `e536bf0851dfabeb0e16e29803920d8db2f8200d` [fix(optimizer): only count equality predicates toward unique-key cardinality (#27665)](https://github.com/risingwavelabs/risingwave/pull/27665)
 - `d42d130042f0bf2b4ebaa5b6d84f69c66b997744` [refactor(storage): remove unused Hummock helpers (#27730)](https://github.com/risingwavelabs/risingwave/pull/27730)
 
