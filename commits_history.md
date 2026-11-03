@@ -336,6 +336,12 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `171d005b1507749bfe13e208a11d5996429d75c6` [perf(storage): reduce SST metadata and block decode overhead (#27761)](https://github.com/risingwavelabs/risingwave/pull/27761)
+- `bd8c61aaf6d6152689a79f4dc15cfe1bea81830b` [feat(stream): support DISTRIBUTED BY in changelog CTEs (#27758)](https://github.com/risingwavelabs/risingwave/pull/27758)
+- `8e71e159021b4c4cf8444a45149cf95d6dc3bb22` [refactor(batch): probe hash join with per-probe-chunk match state (#27760)](https://github.com/risingwavelabs/risingwave/pull/27760)
+- `f5a3e57a60263595a950678c5c5566dbd5dc3166` [chore(deps): bump size from 0.5.0 to 0.6.0 (#27774)](https://github.com/risingwavelabs/risingwave/pull/27774)
+- `0591a32186268a55d092322943dc0895b332a808` [feat(iceberg): support streaming update ingestion (#27588)](https://github.com/risingwavelabs/risingwave/pull/27588)
+- `7cdc6778db2da849ece1c2ab8ec954991f3480e4` [chore(deps): bump aws-smithy-json from 0.62.5 to 0.62.7 (#27784)](https://github.com/risingwavelabs/risingwave/pull/27784)
 - `4b2dbfabb44161f5b61a3e192f09c53719a01332` [perf(stream): skip conflict check for TOAST-able CDC tables when the chunk has no placeholder (#27620)](https://github.com/risingwavelabs/risingwave/pull/27620)
 - `27a344e9aff9e8ce59ce4c33546b7c8ff7a9ed45` [chore(deps): bump the aws group across 1 directory with 11 updates (#27485)](https://github.com/risingwavelabs/risingwave/pull/27485)
 - `cbb42b6338319bb7c9bf83f7ffd4ed611b85183e` [perf(storage): deserialize SST metadata bytes in bulk (#27755)](https://github.com/risingwavelabs/risingwave/pull/27755)
