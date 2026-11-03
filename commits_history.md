@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261103` `171d005b1507749bfe13e208a11d5996429d75c6`
 - `20261102` `e536bf0851dfabeb0e16e29803920d8db2f8200d`
 - `20261101` `a5a57ad283851a2d177f398f263c47cc00dbb903`
 - `20261031` `f572af7ebf7d42efcae08f31024ec5908ee30e3a`
@@ -336,6 +337,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261103
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e536bf0851dfabeb0e16e29803920d8db2f8200d...171d005b1507749bfe13e208a11d5996429d75c6)
 - `171d005b1507749bfe13e208a11d5996429d75c6` [perf(storage): reduce SST metadata and block decode overhead (#27761)](https://github.com/risingwavelabs/risingwave/pull/27761)
 - `bd8c61aaf6d6152689a79f4dc15cfe1bea81830b` [feat(stream): support DISTRIBUTED BY in changelog CTEs (#27758)](https://github.com/risingwavelabs/risingwave/pull/27758)
 - `8e71e159021b4c4cf8444a45149cf95d6dc3bb22` [refactor(batch): probe hash join with per-probe-chunk match state (#27760)](https://github.com/risingwavelabs/risingwave/pull/27760)
