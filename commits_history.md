@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261104` `34c424f2a037cd368ba19a229fc802ac1c800cbb`
 - `20261103` `171d005b1507749bfe13e208a11d5996429d75c6`
 - `20261102` `e536bf0851dfabeb0e16e29803920d8db2f8200d`
 - `20261101` `a5a57ad283851a2d177f398f263c47cc00dbb903`
@@ -337,6 +338,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261104
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/171d005b1507749bfe13e208a11d5996429d75c6...34c424f2a037cd368ba19a229fc802ac1c800cbb)
 - `34c424f2a037cd368ba19a229fc802ac1c800cbb` [chore(deps): bump dependencies with security advisories (#27706)](https://github.com/risingwavelabs/risingwave/pull/27706)
 - `28d465f160c2f68651b048e638a61fa4d1927d70` [refactor(storage): move table cache metadata ownership to event handler (#27614)](https://github.com/risingwavelabs/risingwave/pull/27614)
 - `538c5ef0d846e8533eec0f90d25d81439894c5a3` [refactor(storage): separate Foyer refill execution from admission (#27609)](https://github.com/risingwavelabs/risingwave/pull/27609)
