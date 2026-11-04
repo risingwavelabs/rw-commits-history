@@ -337,6 +337,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `34c424f2a037cd368ba19a229fc802ac1c800cbb` [chore(deps): bump dependencies with security advisories (#27706)](https://github.com/risingwavelabs/risingwave/pull/27706)
+- `28d465f160c2f68651b048e638a61fa4d1927d70` [refactor(storage): move table cache metadata ownership to event handler (#27614)](https://github.com/risingwavelabs/risingwave/pull/27614)
+- `538c5ef0d846e8533eec0f90d25d81439894c5a3` [refactor(storage): separate Foyer refill execution from admission (#27609)](https://github.com/risingwavelabs/risingwave/pull/27609)
+- `2b7c2889baa02e00386230e967bee82bd3d63b3c` [fix(sink): move the ClickHouse sink to clickhouse-rs 0.15.3 (#27622)](https://github.com/risingwavelabs/risingwave/pull/27622)
+- `56159f146d19d3959dfadfc6399b103127a00c38` [chore(deps): drop the `rsa` dev-dependency of pgwire in favor of `openssl` (#27759)](https://github.com/risingwavelabs/risingwave/pull/27759)
+- `af6f6be1faba9f1c9dfa4228ffc31499299fa166` [chore(deps): unpin `serde_json` with patched `zmij` for compatibility (#27795)](https://github.com/risingwavelabs/risingwave/pull/27795)
+- `1b0fa854306bdc199a1ad5260c7a966ba043f324` [refactor(storage): gate change-log and vector request metrics at info (#27718)](https://github.com/risingwavelabs/risingwave/pull/27718)
+- `313694ee9ca7e042126af4eca8ba29cccf715e43` [feat(batch): support serving-node latest committed reads (#27675)](https://github.com/risingwavelabs/risingwave/pull/27675)
+- `b007785f232866c898ad4642e4cf22c8e0951c12` [build: reduce macOS binary size with `no_exported_symbols` (#27676)](https://github.com/risingwavelabs/risingwave/pull/27676)
 
 ## nightly-20261103
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/e536bf0851dfabeb0e16e29803920d8db2f8200d...171d005b1507749bfe13e208a11d5996429d75c6)
