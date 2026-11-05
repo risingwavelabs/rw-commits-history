@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261105` `d603a76cf77371a1bab5ad41f0e6a8fd65c648f6`
 - `20261104` `34c424f2a037cd368ba19a229fc802ac1c800cbb`
 - `20261103` `171d005b1507749bfe13e208a11d5996429d75c6`
 - `20261102` `e536bf0851dfabeb0e16e29803920d8db2f8200d`
@@ -338,6 +339,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `0c03d749e505b902ef5be643cfe9df02ca334ed4` [fix(observability): remove obsolete AWS retry logging layer (#27842)](https://github.com/risingwavelabs/risingwave/pull/27842)
+- `506c409281487f6677058de2e5c8c063d0571e20` [fix(connector): quote Kafka kinit command and drop kinit.cmd option (#27608)](https://github.com/risingwavelabs/risingwave/pull/27608)
+
+## nightly-20261105
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/34c424f2a037cd368ba19a229fc802ac1c800cbb...d603a76cf77371a1bab5ad41f0e6a8fd65c648f6)
 - `d603a76cf77371a1bab5ad41f0e6a8fd65c648f6` [fix: return an error when a stored definition fails to parse (#27823)](https://github.com/risingwavelabs/risingwave/pull/27823)
 - `fa831e1501d529843dd1bc4edb6a92499bd8e8c4` [chore(deps): bump parking_lot from 0.12.5 to 0.13.0 (#27818)](https://github.com/risingwavelabs/risingwave/pull/27818)
 - `da6586582456c20829ec3ed27879b3f468046047` [fix(storage): honor missing TOML compaction settings (#27833)](https://github.com/risingwavelabs/risingwave/pull/27833)
