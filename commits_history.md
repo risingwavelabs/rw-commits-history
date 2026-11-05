@@ -338,6 +338,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `d603a76cf77371a1bab5ad41f0e6a8fd65c648f6` [fix: return an error when a stored definition fails to parse (#27823)](https://github.com/risingwavelabs/risingwave/pull/27823)
+- `fa831e1501d529843dd1bc4edb6a92499bd8e8c4` [chore(deps): bump parking_lot from 0.12.5 to 0.13.0 (#27818)](https://github.com/risingwavelabs/risingwave/pull/27818)
+- `da6586582456c20829ec3ed27879b3f468046047` [fix(storage): honor missing TOML compaction settings (#27833)](https://github.com/risingwavelabs/risingwave/pull/27833)
+- `3d731f5994b2aefc4ad026831e52fd2f5ebf0732` [fix(stream): propagate single-row state table read errors (#27814)](https://github.com/risingwavelabs/risingwave/pull/27814)
+- `b4ab70b678ded6a91c21b95e749d6d3909f39724` [fix(storage): use the meta file cache flush buffer default (#27797)](https://github.com/risingwavelabs/risingwave/pull/27797)
+- `2053bf271981db448bbfec5fb211eab4d4ea2b1f` [chore(deps): bump async-openai from 0.42.0 to 0.42.2 (#27816)](https://github.com/risingwavelabs/risingwave/pull/27816)
+- `474259131661210435c49375b9b0163299aaa4fc` [perf(storage): size meta cache entries without encoding filters (#27762)](https://github.com/risingwavelabs/risingwave/pull/27762)
+- `c407b5907fc03bd8be9c65ac3f2708f8ab9c40a2` [fix(optimizer): fix wrong results and panic in scan range pushdown (#27767)](https://github.com/risingwavelabs/risingwave/pull/27767)
 
 ## nightly-20261104
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/171d005b1507749bfe13e208a11d5996429d75c6...34c424f2a037cd368ba19a229fc802ac1c800cbb)
