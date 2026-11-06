@@ -339,6 +339,15 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `ea4bbbf1df1f2f5caab7b93e16810ab50b1519e7` [perf(storage): move fields in owned Hummock task conversions (#27731)](https://github.com/risingwavelabs/risingwave/pull/27731)
+- `39ca809b28fa67676a42bab6035f66b3b7160d1b` [feat(connector): add first-class MariaDB CDC source (#27335)](https://github.com/risingwavelabs/risingwave/pull/27335)
+- `892996ef605bd92f6f04be13fabc587142301e7c` [fix(meta): allow large meta snapshot manifests (#27876)](https://github.com/risingwavelabs/risingwave/pull/27876)
+- `50b51c9202e07664987d0c1f74bcf25383072efe` [feat(object-store): add opt-in S3 HTTP client rotation (#27845)](https://github.com/risingwavelabs/risingwave/pull/27845)
+- `7fec9ffffe69f35a086ede8788e0d83143076bce` [fix(meta): support DROP CONNECTOR on refreshable tables (#27366)](https://github.com/risingwavelabs/risingwave/pull/27366)
+- `ce5c8d99ae638c7f506b47a8563935f45036e308` [chore(deps): patch `chrono-tz` with 2026f (#27811)](https://github.com/risingwavelabs/risingwave/pull/27811)
+- `98261fea9bfa0e4fe5926f6c333a0abf2e5e71a5` [fix(stream): preserve final deletes during upsert compaction (#27756)](https://github.com/risingwavelabs/risingwave/pull/27756)
+- `6e0b09c7847e5a240d62a236cf6519a4efce6bc3` [fix(cdc): support table names containing `.` for SQL Server and Postgres CDC (#27752)](https://github.com/risingwavelabs/risingwave/pull/27752)
+- `fd4d928d27ba7649a5efd15f6e114b485da680ec` [refactor(storage): record actual compactor IDs in task assignments (#27843)](https://github.com/risingwavelabs/risingwave/pull/27843)
 - `0c03d749e505b902ef5be643cfe9df02ca334ed4` [fix(observability): remove obsolete AWS retry logging layer (#27842)](https://github.com/risingwavelabs/risingwave/pull/27842)
 - `506c409281487f6677058de2e5c8c063d0571e20` [fix(connector): quote Kafka kinit command and drop kinit.cmd option (#27608)](https://github.com/risingwavelabs/risingwave/pull/27608)
 
