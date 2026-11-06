@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261106` `ea4bbbf1df1f2f5caab7b93e16810ab50b1519e7`
 - `20261105` `d603a76cf77371a1bab5ad41f0e6a8fd65c648f6`
 - `20261104` `34c424f2a037cd368ba19a229fc802ac1c800cbb`
 - `20261103` `171d005b1507749bfe13e208a11d5996429d75c6`
@@ -339,6 +340,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261106
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d603a76cf77371a1bab5ad41f0e6a8fd65c648f6...ea4bbbf1df1f2f5caab7b93e16810ab50b1519e7)
 - `ea4bbbf1df1f2f5caab7b93e16810ab50b1519e7` [perf(storage): move fields in owned Hummock task conversions (#27731)](https://github.com/risingwavelabs/risingwave/pull/27731)
 - `39ca809b28fa67676a42bab6035f66b3b7160d1b` [feat(connector): add first-class MariaDB CDC source (#27335)](https://github.com/risingwavelabs/risingwave/pull/27335)
 - `892996ef605bd92f6f04be13fabc587142301e7c` [fix(meta): allow large meta snapshot manifests (#27876)](https://github.com/risingwavelabs/risingwave/pull/27876)
