@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261107` `88b98114336ae4511dcb9685afa95678e948e65a`
 - `20261106` `ea4bbbf1df1f2f5caab7b93e16810ab50b1519e7`
 - `20261105` `d603a76cf77371a1bab5ad41f0e6a8fd65c648f6`
 - `20261104` `34c424f2a037cd368ba19a229fc802ac1c800cbb`
@@ -340,6 +341,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261107
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/ea4bbbf1df1f2f5caab7b93e16810ab50b1519e7...88b98114336ae4511dcb9685afa95678e948e65a)
 - `88b98114336ae4511dcb9685afa95678e948e65a` [fix(connector): never send an empty AppendRows request in BigQuery sink (#27885)](https://github.com/risingwavelabs/risingwave/pull/27885)
 - `fd85d2d0038d1b99e1195ba3c05bee3f2e238ff0` [fix(storage): log event handler batches at debug level (#27822)](https://github.com/risingwavelabs/risingwave/pull/27822)
 - `ff66a028dc46ba416b1c744538a7f7130c58549e` [fix(rpc): enable TCP_NODELAY by default for gRPC clients (#27821)](https://github.com/risingwavelabs/risingwave/pull/27821)
