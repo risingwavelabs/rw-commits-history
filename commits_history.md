@@ -341,6 +341,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `499be37ec7bd5876478bc2fe4a26dc3d9abd433b` [perf(storage): skip XOR filters for changelog old-value SSTs (#27899)](https://github.com/risingwavelabs/risingwave/pull/27899)
+- `51395ef841ba330471555c3a53fdb5a006c5284e` [fix(meta): preserve backup and time-travel references during GC (#27744)](https://github.com/risingwavelabs/risingwave/pull/27744)
+- `c6c342ab18141e4908d83d59399518072ea03257` [fix(stream): clean append-only dedup state by watermark (#27359)](https://github.com/risingwavelabs/risingwave/pull/27359)
+- `2e54cbd067f650613b476650e8b522fc584de5c6` [fix(meta): reject a snapshot backfill pending-barrier limit below 2 (#27828)](https://github.com/risingwavelabs/risingwave/pull/27828)
+- `01f4b79b5e51c3724668748f8a91db817c101464` [feat(udf): add per-function opt-out from result materialization (#26733)](https://github.com/risingwavelabs/risingwave/pull/26733)
 - `e181e219bc12f993e432bd894e97dc631d2daba9` [fix(meta): stop manually canceled compaction tasks (#27839)](https://github.com/risingwavelabs/risingwave/pull/27839)
 
 ## nightly-20261108
