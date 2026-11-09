@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261109` `499be37ec7bd5876478bc2fe4a26dc3d9abd433b`
 - `20261108` `88b98114336ae4511dcb9685afa95678e948e65a`
 - `20261106` `ea4bbbf1df1f2f5caab7b93e16810ab50b1519e7`
 - `20261105` `d603a76cf77371a1bab5ad41f0e6a8fd65c648f6`
@@ -341,6 +342,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a3d9c2a6cd78c9c05585f374e9557c24ccfc0a0f` [fix(connector): support configurable JSON date encoding (#27878)](https://github.com/risingwavelabs/risingwave/pull/27878)
+- `f64b54a86ace18abe0d9112444f186853225c85a` [fix(meta): reconcile worker placement when the scale monitor starts (#27844)](https://github.com/risingwavelabs/risingwave/pull/27844)
+- `48fc3ff90e5fc648267181c29ee8c418aa2d103a` [feat(sink): support a StarRocks transaction payload size limit (#27787)](https://github.com/risingwavelabs/risingwave/pull/27787)
+- `81d6d9a309409496dab616a4a54eaf28883121a5` [feat(sink): expose StarRocks transaction load options (#27722)](https://github.com/risingwavelabs/risingwave/pull/27722)
+
+## nightly-20261109
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/88b98114336ae4511dcb9685afa95678e948e65a...499be37ec7bd5876478bc2fe4a26dc3d9abd433b)
 - `499be37ec7bd5876478bc2fe4a26dc3d9abd433b` [perf(storage): skip XOR filters for changelog old-value SSTs (#27899)](https://github.com/risingwavelabs/risingwave/pull/27899)
 - `51395ef841ba330471555c3a53fdb5a006c5284e` [fix(meta): preserve backup and time-travel references during GC (#27744)](https://github.com/risingwavelabs/risingwave/pull/27744)
 - `c6c342ab18141e4908d83d59399518072ea03257` [fix(stream): clean append-only dedup state by watermark (#27359)](https://github.com/risingwavelabs/risingwave/pull/27359)
