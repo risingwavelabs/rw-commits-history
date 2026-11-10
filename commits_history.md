@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261110` `d5b3ccd5cd69efa6446f288d7ec099d405e39bca`
 - `20261109` `499be37ec7bd5876478bc2fe4a26dc3d9abd433b`
 - `20261108` `88b98114336ae4511dcb9685afa95678e948e65a`
 - `20261106` `ea4bbbf1df1f2f5caab7b93e16810ab50b1519e7`
@@ -342,6 +343,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c3ae4fc9da684826b432a77268bb43560eec7c4e` [feat(connector): support configurable keep alive and session expiry for MQTT (#27922)](https://github.com/risingwavelabs/risingwave/pull/27922)
+
+## nightly-20261110
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/499be37ec7bd5876478bc2fe4a26dc3d9abd433b...d5b3ccd5cd69efa6446f288d7ec099d405e39bca)
 - `d5b3ccd5cd69efa6446f288d7ec099d405e39bca` [perf(storage): binary search SST table boundaries (#27929)](https://github.com/risingwavelabs/risingwave/pull/27929)
 - `1852205d8717bf4dcddfec6d4ef2dc14d5f4e7ad` [fix(optimizer): keep the empty-input row for EXISTS over a correlated scalar aggregate (#27813)](https://github.com/risingwavelabs/risingwave/pull/27813)
 - `85ff8c4d33516e119a894cb3727b61ad37fe58cd` [feat(sink): support firestore sink  (#24728)](https://github.com/risingwavelabs/risingwave/pull/24728)
