@@ -343,6 +343,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `286334616e0ff4a1f698105e11a3eaa01c940476` [perf(iceberg): speed up pk-index compaction resolver (#27812)](https://github.com/risingwavelabs/risingwave/pull/27812)
 - `c3ae4fc9da684826b432a77268bb43560eec7c4e` [feat(connector): support configurable keep alive and session expiry for MQTT (#27922)](https://github.com/risingwavelabs/risingwave/pull/27922)
 
 ## nightly-20261110
