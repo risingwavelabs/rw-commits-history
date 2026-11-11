@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261111` `286334616e0ff4a1f698105e11a3eaa01c940476`
 - `20261110` `d5b3ccd5cd69efa6446f288d7ec099d405e39bca`
 - `20261109` `499be37ec7bd5876478bc2fe4a26dc3d9abd433b`
 - `20261108` `88b98114336ae4511dcb9685afa95678e948e65a`
@@ -343,6 +344,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `26236216c28ad27b767234b976c286fed008b8a4` [feat(connector): add Oracle CDC external table reader (#26937)](https://github.com/risingwavelabs/risingwave/pull/26937)
+- `9c34eefbcb7aad762e3c99c8280143d8d8c9a70a` [chore(deps): bump sysinfo from 0.39.3 to 0.39.6 (#27771)](https://github.com/risingwavelabs/risingwave/pull/27771)
+- `e5148bc9661fed6fe99932c7a0b326eab4a0782e` [feat(sink): make Turbopuffer sink a premium feature (#27939)](https://github.com/risingwavelabs/risingwave/pull/27939)
+- `6c08b672c32548a653da07e1a2803ff33a892a3b` [fix(stream): emit plain deletes and inserts for update pairs in delta join lookup (#27932)](https://github.com/risingwavelabs/risingwave/pull/27932)
+
+## nightly-20261111
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/d5b3ccd5cd69efa6446f288d7ec099d405e39bca...286334616e0ff4a1f698105e11a3eaa01c940476)
 - `286334616e0ff4a1f698105e11a3eaa01c940476` [perf(iceberg): speed up pk-index compaction resolver (#27812)](https://github.com/risingwavelabs/risingwave/pull/27812)
 - `c3ae4fc9da684826b432a77268bb43560eec7c4e` [feat(connector): support configurable keep alive and session expiry for MQTT (#27922)](https://github.com/risingwavelabs/risingwave/pull/27922)
 
