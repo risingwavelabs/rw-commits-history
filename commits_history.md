@@ -344,6 +344,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `49b7d716630d3c508a28efb08ddf3d26cb000de7` [chore(deps): bump hdrhistogram from 7.5.2 to 7.6.0 (#27937)](https://github.com/risingwavelabs/risingwave/pull/27937)
+- `de92f0a6ae96ff5f672f11f2b6c6e01d11609980` [fix(storage): don't panic on a write limit notification before the snapshot (#27853)](https://github.com/risingwavelabs/risingwave/pull/27853)
+- `a3bf33367496f36b290a1685a5f0d66d04af6bb7` [chore(deps): unify AWS SDK crates on aws-smithy-http 0.64 (#27883)](https://github.com/risingwavelabs/risingwave/pull/27883)
+- `b107c39cdd96dd82b63511f30fa779ed7cad6df5` [fix(stream): make ChangeBuffer cancellation constant time (#27953)](https://github.com/risingwavelabs/risingwave/pull/27953)
+- `c2015dd7976842e9ca5af61377a929b330be2291` [test(e2e): wait for license propagation in database test (#27930)](https://github.com/risingwavelabs/risingwave/pull/27930)
 - `26236216c28ad27b767234b976c286fed008b8a4` [feat(connector): add Oracle CDC external table reader (#26937)](https://github.com/risingwavelabs/risingwave/pull/26937)
 - `9c34eefbcb7aad762e3c99c8280143d8d8c9a70a` [chore(deps): bump sysinfo from 0.39.3 to 0.39.6 (#27771)](https://github.com/risingwavelabs/risingwave/pull/27771)
 - `e5148bc9661fed6fe99932c7a0b326eab4a0782e` [feat(sink): make Turbopuffer sink a premium feature (#27939)](https://github.com/risingwavelabs/risingwave/pull/27939)
