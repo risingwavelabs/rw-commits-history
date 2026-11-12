@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261112` `49b7d716630d3c508a28efb08ddf3d26cb000de7`
 - `20261111` `286334616e0ff4a1f698105e11a3eaa01c940476`
 - `20261110` `d5b3ccd5cd69efa6446f288d7ec099d405e39bca`
 - `20261109` `499be37ec7bd5876478bc2fe4a26dc3d9abd433b`
@@ -344,6 +345,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `365307c550f647ab79e668ca66b25b733487a6d4` [feat(iceberg): gate PK index sinks behind a license (#27970)](https://github.com/risingwavelabs/risingwave/pull/27970)
+
+## nightly-20261112
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/286334616e0ff4a1f698105e11a3eaa01c940476...49b7d716630d3c508a28efb08ddf3d26cb000de7)
 - `49b7d716630d3c508a28efb08ddf3d26cb000de7` [chore(deps): bump hdrhistogram from 7.5.2 to 7.6.0 (#27937)](https://github.com/risingwavelabs/risingwave/pull/27937)
 - `de92f0a6ae96ff5f672f11f2b6c6e01d11609980` [fix(storage): don't panic on a write limit notification before the snapshot (#27853)](https://github.com/risingwavelabs/risingwave/pull/27853)
 - `a3bf33367496f36b290a1685a5f0d66d04af6bb7` [chore(deps): unify AWS SDK crates on aws-smithy-http 0.64 (#27883)](https://github.com/risingwavelabs/risingwave/pull/27883)
