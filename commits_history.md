@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261113` `24cf8ef7be09ff15d33845e6cecccb08f5e920ff`
 - `20261112` `49b7d716630d3c508a28efb08ddf3d26cb000de7`
 - `20261111` `286334616e0ff4a1f698105e11a3eaa01c940476`
 - `20261110` `d5b3ccd5cd69efa6446f288d7ec099d405e39bca`
@@ -345,6 +346,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261113
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/49b7d716630d3c508a28efb08ddf3d26cb000de7...24cf8ef7be09ff15d33845e6cecccb08f5e920ff)
 - `24cf8ef7be09ff15d33845e6cecccb08f5e920ff` [chore(deps): bump sysinfo from 0.39.6 to 0.40.0 (#27975)](https://github.com/risingwavelabs/risingwave/pull/27975)
 - `365307c550f647ab79e668ca66b25b733487a6d4` [feat(iceberg): gate PK index sinks behind a license (#27970)](https://github.com/risingwavelabs/risingwave/pull/27970)
 
