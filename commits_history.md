@@ -345,6 +345,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `24cf8ef7be09ff15d33845e6cecccb08f5e920ff` [chore(deps): bump sysinfo from 0.39.6 to 0.40.0 (#27975)](https://github.com/risingwavelabs/risingwave/pull/27975)
 - `365307c550f647ab79e668ca66b25b733487a6d4` [feat(iceberg): gate PK index sinks behind a license (#27970)](https://github.com/risingwavelabs/risingwave/pull/27970)
 
 ## nightly-20261112
