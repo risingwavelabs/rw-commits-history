@@ -346,6 +346,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `857e7f850a9f18224a536d4aa533028ed8242a6a` [fix(build): patch native dependencies for modern GCC and glibc (#27987)](https://github.com/risingwavelabs/risingwave/pull/27987)
+- `ab28399dd6d347a31aa6b7699bf6c3adfe9496a1` [fix(connector): keep NULL for columns with a default in CDC change events (#28004)](https://github.com/risingwavelabs/risingwave/pull/28004)
 - `3001b8a6a92535d302b3cd50186949982e0ff5fb` [feat(streaming): isolate async projections and budget inflight rows (#27785)](https://github.com/risingwavelabs/risingwave/pull/27785)
 - `ec51de1eeaaafaf1a82b16cb506f87d8c279bb9a` [feat(license): support custom deny-list tiers (#27985)](https://github.com/risingwavelabs/risingwave/pull/27985)
 - `f97772bbd2a8336db405ebf402d619ea8ad7d884` [perf(storage): support concurrent SSTable metadata fetching (#27870)](https://github.com/risingwavelabs/risingwave/pull/27870)
