@@ -346,6 +346,11 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3001b8a6a92535d302b3cd50186949982e0ff5fb` [feat(streaming): isolate async projections and budget inflight rows (#27785)](https://github.com/risingwavelabs/risingwave/pull/27785)
+- `ec51de1eeaaafaf1a82b16cb506f87d8c279bb9a` [feat(license): support custom deny-list tiers (#27985)](https://github.com/risingwavelabs/risingwave/pull/27985)
+- `f97772bbd2a8336db405ebf402d619ea8ad7d884` [perf(storage): support concurrent SSTable metadata fetching (#27870)](https://github.com/risingwavelabs/risingwave/pull/27870)
+- `8ac9c69fcc5f9f69003a435fe98840eb150a404f` [fix(sink): make BigQuery _CHANGE_SEQUENCE_NUMBER opt-in (#27978)](https://github.com/risingwavelabs/risingwave/pull/27978)
+- `ee5d2019be8b7e7543b2461f5a97c9f53dba5b74` [fix(optimizer): keep the outer column type when eliminating a correlated apply (#28003)](https://github.com/risingwavelabs/risingwave/pull/28003)
 
 ## nightly-20261115
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/49b7d716630d3c508a28efb08ddf3d26cb000de7...24cf8ef7be09ff15d33845e6cecccb08f5e920ff)
