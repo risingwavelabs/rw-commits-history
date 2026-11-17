@@ -346,6 +346,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `3d5b9071dc37149f112fb8fcbee662a7c10ea641` [fix(frontend): allow kinesis with plain avro aws glue schema registry (#27611)](https://github.com/risingwavelabs/risingwave/pull/27611)
+- `5224f54f55adfa05917ffc29e4dcb2cefa16a46c` [feat(sink): support replacing exactly-once sinks (#26138)](https://github.com/risingwavelabs/risingwave/pull/26138)
 - `1ee6e12cd0802e284a139f9b21f5e3e40c879789` [fix(connector): exclude PostgreSQL INCLUDE columns from primary key (#27173)](https://github.com/risingwavelabs/risingwave/pull/27173)
 - `a6db8dd6530dd9ba12d4df2a968d94b271f7ad92` [fix(metrics): count visible rows in sink throughput (#28025)](https://github.com/risingwavelabs/risingwave/pull/28025)
 - `f806e756f835db57c2c89e5ff47c31d14c0e4fda` [feat(observability): support runtime log filters via risectl (#28012)](https://github.com/risingwavelabs/risingwave/pull/28012)
