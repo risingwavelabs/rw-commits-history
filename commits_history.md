@@ -346,6 +346,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `1ee6e12cd0802e284a139f9b21f5e3e40c879789` [fix(connector): exclude PostgreSQL INCLUDE columns from primary key (#27173)](https://github.com/risingwavelabs/risingwave/pull/27173)
+- `a6db8dd6530dd9ba12d4df2a968d94b271f7ad92` [fix(metrics): count visible rows in sink throughput (#28025)](https://github.com/risingwavelabs/risingwave/pull/28025)
+- `f806e756f835db57c2c89e5ff47c31d14c0e4fda` [feat(observability): support runtime log filters via risectl (#28012)](https://github.com/risingwavelabs/risingwave/pull/28012)
+- `5b172d1a015841a504c036ee194459ef1b4824f4` [fix(storage): preserve listing pagination across full GC batches (#27766)](https://github.com/risingwavelabs/risingwave/pull/27766)
 - `857e7f850a9f18224a536d4aa533028ed8242a6a` [fix(build): patch native dependencies for modern GCC and glibc (#27987)](https://github.com/risingwavelabs/risingwave/pull/27987)
 - `ab28399dd6d347a31aa6b7699bf6c3adfe9496a1` [fix(connector): keep NULL for columns with a default in CDC change events (#28004)](https://github.com/risingwavelabs/risingwave/pull/28004)
 - `3001b8a6a92535d302b3cd50186949982e0ff5fb` [feat(streaming): isolate async projections and budget inflight rows (#27785)](https://github.com/risingwavelabs/risingwave/pull/27785)
