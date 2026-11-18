@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261118` `e3c035e070dc328c2d3f980b2179d1b83c7b6409`
 - `20261115` `24cf8ef7be09ff15d33845e6cecccb08f5e920ff`
 - `20261112` `49b7d716630d3c508a28efb08ddf3d26cb000de7`
 - `20261111` `286334616e0ff4a1f698105e11a3eaa01c940476`
@@ -346,6 +347,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261118
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/24cf8ef7be09ff15d33845e6cecccb08f5e920ff...e3c035e070dc328c2d3f980b2179d1b83c7b6409)
 - `e3c035e070dc328c2d3f980b2179d1b83c7b6409` [fix(iceberg): honor `s3.iam_role_arn` in the storage catalog (#28035)](https://github.com/risingwavelabs/risingwave/pull/28035)
 - `2216d71fa5d60d86c3f5f1470e5b9c2e5cbc0feb` [feat: define bounded ingestion contracts and shared load modes (#27492)](https://github.com/risingwavelabs/risingwave/pull/27492)
 - `c0580c3933a1fa023e97b5c43df2f54ab36946b5` [ci: label fork PRs by triggering the labeler on pull_request_target (#27677)](https://github.com/risingwavelabs/risingwave/pull/27677)
