@@ -346,6 +346,13 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `e3c035e070dc328c2d3f980b2179d1b83c7b6409` [fix(iceberg): honor `s3.iam_role_arn` in the storage catalog (#28035)](https://github.com/risingwavelabs/risingwave/pull/28035)
+- `2216d71fa5d60d86c3f5f1470e5b9c2e5cbc0feb` [feat: define bounded ingestion contracts and shared load modes (#27492)](https://github.com/risingwavelabs/risingwave/pull/27492)
+- `c0580c3933a1fa023e97b5c43df2f54ab36946b5` [ci: label fork PRs by triggering the labeler on pull_request_target (#27677)](https://github.com/risingwavelabs/risingwave/pull/27677)
+- `4084d839636cf805e4575c0f0678c313586fffcf` [fix(optimizer): preserve LIKE filtering for trailing underscores (#28002)](https://github.com/risingwavelabs/risingwave/pull/28002)
+- `e0a6bd278fa896585fb8199a9922b911025b0718` [build(docker): provide additional -nodwp image (#27841)](https://github.com/risingwavelabs/risingwave/pull/27841)
+- `85be0b1b053729223c9773a387e19698fac61393` [fix(source): do not move SourceCachingUp offset on backfill split progress (#27977)](https://github.com/risingwavelabs/risingwave/pull/27977)
+- `5d7a0e1194df56e04a204f114f63b36f3768756d` [fix(meta): send subscribe snapshots through the notification queue (#27834)](https://github.com/risingwavelabs/risingwave/pull/27834)
 - `3d5b9071dc37149f112fb8fcbee662a7c10ea641` [fix(frontend): allow kinesis with plain avro aws glue schema registry (#27611)](https://github.com/risingwavelabs/risingwave/pull/27611)
 - `5224f54f55adfa05917ffc29e4dcb2cefa16a46c` [feat(sink): support replacing exactly-once sinks (#26138)](https://github.com/risingwavelabs/risingwave/pull/26138)
 - `1ee6e12cd0802e284a139f9b21f5e3e40c879789` [fix(connector): exclude PostgreSQL INCLUDE columns from primary key (#27173)](https://github.com/risingwavelabs/risingwave/pull/27173)
