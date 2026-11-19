@@ -347,6 +347,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `9232723c818d8806358e11b62183936a43988485` [fix(sqlserver-cdc): escape database names in JDBC URLs (#28084)](https://github.com/risingwavelabs/risingwave/pull/28084)
+- `4c7bff5f68449e760f74eaca1afa624272907e36` [fix(postgres-cdc): encode database names in JDBC URLs (#28083)](https://github.com/risingwavelabs/risingwave/pull/28083)
+- `914c1b2057c541d85fbe2cb300fdea49612b91cc` [fix(streaming): eliminate no-op updates in cross-database table scan (#28070)](https://github.com/risingwavelabs/risingwave/pull/28070)
 - `c8e74c2b12f4a3056eedc380606a305453f0a89b` [fix(iceberg): keep storage catalog tables visible during commits (#28074)](https://github.com/risingwavelabs/risingwave/pull/28074)
 - `d4e2736dbbf465524414b27520d4b782e30fe586` [perf(storage): avoid redundant SST read-path allocations (#28067)](https://github.com/risingwavelabs/risingwave/pull/28067)
 - `bb27687576f5f288fe2248cb931fba9836f0ec9c` [fix(dashboard): use webpack for builds on older glibc (#28072)](https://github.com/risingwavelabs/risingwave/pull/28072)
