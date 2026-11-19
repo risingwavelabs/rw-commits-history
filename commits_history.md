@@ -347,6 +347,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `c8e74c2b12f4a3056eedc380606a305453f0a89b` [fix(iceberg): keep storage catalog tables visible during commits (#28074)](https://github.com/risingwavelabs/risingwave/pull/28074)
+- `d4e2736dbbf465524414b27520d4b782e30fe586` [perf(storage): avoid redundant SST read-path allocations (#28067)](https://github.com/risingwavelabs/risingwave/pull/28067)
+- `bb27687576f5f288fe2248cb931fba9836f0ec9c` [fix(dashboard): use webpack for builds on older glibc (#28072)](https://github.com/risingwavelabs/risingwave/pull/28072)
+- `40806671d585c529c34710e2e858d609f015d84a` [refactor(cdc): move Debezium parser policy into the registry and add a CdcSource hierarchy to the connector node (#27954)](https://github.com/risingwavelabs/risingwave/pull/27954)
 
 ## nightly-20261118
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/24cf8ef7be09ff15d33845e6cecccb08f5e920ff...e3c035e070dc328c2d3f980b2179d1b83c7b6409)
