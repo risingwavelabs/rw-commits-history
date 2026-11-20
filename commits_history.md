@@ -347,6 +347,16 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `a113c9709bbc3892e111e916fc885aaf66466d18` [chore(deps): bump firestore to 0.57 and gcloud-sdk to 0.32 (#28114)](https://github.com/risingwavelabs/risingwave/pull/28114)
+- `c574f63213c3431e5c3df0f5b9506e1bbaeb9a64` [ci: shorten the PR CDC source test step with `parallelism: 2` (#28117)](https://github.com/risingwavelabs/risingwave/pull/28117)
+- `425c375db308d5b02f60aaeaec95ccf80c570f06` [fix: require patched OpenJDK 21 for Java4Shell (#28106)](https://github.com/risingwavelabs/risingwave/pull/28106)
+- `beeb2be3a9abfe8bb0ade70685d24ba47844369e` [chore(deps): bump yaml-rust2 from 0.10.3 to 0.13.0 (#28098)](https://github.com/risingwavelabs/risingwave/pull/28098)
+- `8d6cd2eb074f297a799e275cc4cd67b9c843fabe` [chore(deps): bump gcloud-pubsub from 1.7.0 to 1.7.1 (#28099)](https://github.com/risingwavelabs/risingwave/pull/28099)
+- `18e28071251eb70f79c10b02068bcbe21c4045b8` [ci: extend binary e2e timeouts to 60 minutes (#28107)](https://github.com/risingwavelabs/risingwave/pull/28107)
+- `2548a1b01b8ba603981f11b572bd6d57c6a48997` [feat(cdc): support column.exclude.list for CDC tables created with (*) (#27615)](https://github.com/risingwavelabs/risingwave/pull/27615)
+- `7f1b206acc73ac394fea29029e1041e93376ea73` [fix(pgwire): send BackendKeyData after password auth, reject short CancelRequest (#27343)](https://github.com/risingwavelabs/risingwave/pull/27343)
+- `d9bb9f91f72cb8b6ea5d222fc388be2fd7034cf7` [chore(deps): stop renaming gcloud-* and yaml-rust2 so dependabot updates them (#28073)](https://github.com/risingwavelabs/risingwave/pull/28073)
+- `946be848bb99e925150518063d4bbc886df9cbd3` [feat(connector): support Oracle shared CDC backfill (#27348)](https://github.com/risingwavelabs/risingwave/pull/27348)
 - `9232723c818d8806358e11b62183936a43988485` [fix(sqlserver-cdc): escape database names in JDBC URLs (#28084)](https://github.com/risingwavelabs/risingwave/pull/28084)
 - `4c7bff5f68449e760f74eaca1afa624272907e36` [fix(postgres-cdc): encode database names in JDBC URLs (#28083)](https://github.com/risingwavelabs/risingwave/pull/28083)
 - `914c1b2057c541d85fbe2cb300fdea49612b91cc` [fix(streaming): eliminate no-op updates in cross-database table scan (#28070)](https://github.com/risingwavelabs/risingwave/pull/28070)
