@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261122` `c0386a2f67636eccd2c66932274f0ff669a4a274`
 - `20261120` `a113c9709bbc3892e111e916fc885aaf66466d18`
 - `20261118` `e3c035e070dc328c2d3f980b2179d1b83c7b6409`
 - `20261115` `24cf8ef7be09ff15d33845e6cecccb08f5e920ff`
@@ -348,6 +349,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261122
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a113c9709bbc3892e111e916fc885aaf66466d18...c0386a2f67636eccd2c66932274f0ff669a4a274)
 - `c0386a2f67636eccd2c66932274f0ff669a4a274` [chore(deps): bump gcloud-bigquery from 1.6.0 to 1.7.0 (#28097)](https://github.com/risingwavelabs/risingwave/pull/28097)
 
 ## nightly-20261120
