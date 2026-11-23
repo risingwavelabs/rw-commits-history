@@ -349,6 +349,14 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6c258d07f7e4ca04f9e74a8198658840ff7218c7` [chore(deps): align LanceDB with DataFusion 54 (#28133)](https://github.com/risingwavelabs/risingwave/pull/28133)
+- `a4a035441721ed3af726ad1a3f9f5c17d12119ed` [chore(deps): align LanceDB with DataFusion 54 (#28133)](https://github.com/risingwavelabs/risingwave/pull/28133)
+- `103d7a192c50a65013a3165e6b90793ee10a2f83` [chore(deps): migrate frontend to DataFusion 54.1 (#28126)](https://github.com/risingwavelabs/risingwave/pull/28126)
+- `8429b5b9dbd683b98deac6452b29bb3fcbd2160a` [build: speed up Dashboard builds and Docker image publishing (#28123)](https://github.com/risingwavelabs/risingwave/pull/28123)
+- `66e710f18a3b302d7df7161de09c9b117df458b2` [chore(deps): align Arrow and Parquet on 58.4.1 (#27988)](https://github.com/risingwavelabs/risingwave/pull/27988)
+- `bc563ec0330a6db01788959d249aee2126061d0d` [feat(expr): add typed AI_DECIDE for batch and streaming SQL (#27933)](https://github.com/risingwavelabs/risingwave/pull/27933)
+- `77a6bb40b8d3a1c968f692c08941a066c659733b` [chore(deps): bump next from 16.4.1 to 16.4.5 in /dashboard (#28017)](https://github.com/risingwavelabs/risingwave/pull/28017)
+- `29cee44b2e80dcc4f8e37ed5858335d2dd744dca` [feat(iceberg): support column projection for source (#28086)](https://github.com/risingwavelabs/risingwave/pull/28086)
 
 ## nightly-20261122
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/a113c9709bbc3892e111e916fc885aaf66466d18...c0386a2f67636eccd2c66932274f0ff669a4a274)
