@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261123` `6c258d07f7e4ca04f9e74a8198658840ff7218c7`
 - `20261122` `c0386a2f67636eccd2c66932274f0ff669a4a274`
 - `20261120` `a113c9709bbc3892e111e916fc885aaf66466d18`
 - `20261118` `e3c035e070dc328c2d3f980b2179d1b83c7b6409`
@@ -349,6 +350,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261123
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0386a2f67636eccd2c66932274f0ff669a4a274...6c258d07f7e4ca04f9e74a8198658840ff7218c7)
 - `6c258d07f7e4ca04f9e74a8198658840ff7218c7` [chore(deps): align LanceDB with DataFusion 54 (#28133)](https://github.com/risingwavelabs/risingwave/pull/28133)
 - `a4a035441721ed3af726ad1a3f9f5c17d12119ed` [chore(deps): align LanceDB with DataFusion 54 (#28133)](https://github.com/risingwavelabs/risingwave/pull/28133)
 - `103d7a192c50a65013a3165e6b90793ee10a2f83` [chore(deps): migrate frontend to DataFusion 54.1 (#28126)](https://github.com/risingwavelabs/risingwave/pull/28126)
