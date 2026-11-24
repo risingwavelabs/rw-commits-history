@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261124` `78d02432e88e44c4dc603b2e9928245b1322da73`
 - `20261123` `6c258d07f7e4ca04f9e74a8198658840ff7218c7`
 - `20261122` `c0386a2f67636eccd2c66932274f0ff669a4a274`
 - `20261120` `a113c9709bbc3892e111e916fc885aaf66466d18`
@@ -350,6 +351,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261124
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/6c258d07f7e4ca04f9e74a8198658840ff7218c7...78d02432e88e44c4dc603b2e9928245b1322da73)
 - `78d02432e88e44c4dc603b2e9928245b1322da73` [chore(deps): Bump opendal from 0.58.1 to 0.59.5 (#27393)](https://github.com/risingwavelabs/risingwave/pull/27393)
 
 ## nightly-20261123
