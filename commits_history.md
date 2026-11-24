@@ -350,6 +350,7 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `78d02432e88e44c4dc603b2e9928245b1322da73` [chore(deps): Bump opendal from 0.58.1 to 0.59.5 (#27393)](https://github.com/risingwavelabs/risingwave/pull/27393)
 
 ## nightly-20261123
 [compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/c0386a2f67636eccd2c66932274f0ff669a4a274...6c258d07f7e4ca04f9e74a8198658840ff7218c7)
