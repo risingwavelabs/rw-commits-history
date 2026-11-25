@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261125` `b32aeef1456e95eb244e118223eed8c2d57c97dc`
 - `20261124` `78d02432e88e44c4dc603b2e9928245b1322da73`
 - `20261123` `6c258d07f7e4ca04f9e74a8198658840ff7218c7`
 - `20261122` `c0386a2f67636eccd2c66932274f0ff669a4a274`
@@ -351,6 +352,10 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `6bd970c54a1514d3cf217cd807ce9508ca80bf5c` [fix(meta): notify worker deletion before refreshing cluster resources (#28174)](https://github.com/risingwavelabs/risingwave/pull/28174)
+
+## nightly-20261125
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/78d02432e88e44c4dc603b2e9928245b1322da73...b32aeef1456e95eb244e118223eed8c2d57c97dc)
 - `b32aeef1456e95eb244e118223eed8c2d57c97dc` [feat(storage): add dormant Pin Cache reads and refill (1/9) (#27234)](https://github.com/risingwavelabs/risingwave/pull/27234)
 - `18b29990553c55e316db09b0e07ba401fb2b8f2b` [fix: report cgroup memory usage without clamping to host usage (#27982)](https://github.com/risingwavelabs/risingwave/pull/27982)
 
