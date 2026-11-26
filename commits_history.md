@@ -1,6 +1,7 @@
 # Nightly builds
 <details><summary>list of all night builds</summary>
 
+- `20261126` `151572e007774f1bb1e06dcf4ebe78a6b0f8caf0`
 - `20261125` `b32aeef1456e95eb244e118223eed8c2d57c97dc`
 - `20261124` `78d02432e88e44c4dc603b2e9928245b1322da73`
 - `20261123` `6c258d07f7e4ca04f9e74a8198658840ff7218c7`
@@ -352,6 +353,9 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+
+## nightly-20261126
+[compare changes with previous nightly build](https://github.com/risingwavelabs/risingwave/compare/b32aeef1456e95eb244e118223eed8c2d57c97dc...151572e007774f1bb1e06dcf4ebe78a6b0f8caf0)
 - `151572e007774f1bb1e06dcf4ebe78a6b0f8caf0` [chore(deps): Bump axum-server from 0.8.0 to 0.9.2 (#28181)](https://github.com/risingwavelabs/risingwave/pull/28181)
 - `30d05555de05f217b39834425da2cc91c4732887` [feat(connector): bump tiberius to 0.13.0 with configurable SQL Server timeouts (#28169)](https://github.com/risingwavelabs/risingwave/pull/28169)
 - `6bd970c54a1514d3cf217cd807ce9508ca80bf5c` [fix(meta): notify worker deletion before refreshing cluster resources (#28174)](https://github.com/risingwavelabs/risingwave/pull/28174)
