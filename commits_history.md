@@ -352,6 +352,8 @@
 > A release's SHA is the first commit's SHA listed in its section.
 
 ## Unreleased
+- `151572e007774f1bb1e06dcf4ebe78a6b0f8caf0` [chore(deps): Bump axum-server from 0.8.0 to 0.9.2 (#28181)](https://github.com/risingwavelabs/risingwave/pull/28181)
+- `30d05555de05f217b39834425da2cc91c4732887` [feat(connector): bump tiberius to 0.13.0 with configurable SQL Server timeouts (#28169)](https://github.com/risingwavelabs/risingwave/pull/28169)
 - `6bd970c54a1514d3cf217cd807ce9508ca80bf5c` [fix(meta): notify worker deletion before refreshing cluster resources (#28174)](https://github.com/risingwavelabs/risingwave/pull/28174)
 
 ## nightly-20261125
